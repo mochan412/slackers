@@ -1,0 +1,556 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1409123183.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "niceee",
+        "ts": "1409186742.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm breaking for dinner but I think I got the two way stuff all sorted out",
+        "ts": "1409198146.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "right on",
+        "ts": "1409198158.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Nice ",
+        "ts": "1409198187.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Needing wifi reset after restarting the apps has been resolved.",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1409201505.000000"
+        },
+        "ts": "1409201499.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "No kidding? What was the cause\/solution?",
+        "ts": "1409201516.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Figured out that if I dug around in the system's registry for the mDNS service we published, that I could scrape it out in the onStop callback in the activity.",
+        "ts": "1409201619.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "nice",
+        "ts": "1409201634.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm spending my evening with the networking stack",
+        "ts": "1409201784.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so I'm tightening everything up while I debug the weird output stream failure issue",
+        "ts": "1409201798.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also this little guy helped :grinning:",
+        "ts": "1409202021.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/android.googlesource.com\/platform\/frameworks\/base\/+\/refs\/heads\/master\/wifi\/java\/android\/net\/wifi\/p2p\/WifiP2pDevice.java>",
+        "ts": "1409202021.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Open Source wins the day",
+        "ts": "1409202087.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "again",
+        "ts": "1409202088.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Fixed up the sockets. Also added some cleanup code that chucks dead sockets (and their associated rooms) in case of a disconnect.",
+        "ts": "1409202983.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "now handling the floor mats in the confidence calculation, plus cleaned some math up a bit that should result in better distance calculations",
+        "ts": "1409203067.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "solid.",
+        "ts": "1409203078.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "This is going to be lousy merge isn't it",
+        "ts": "1409203083.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "hmmm",
+        "ts": "1409203088.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "all worth it",
+        "ts": "1409203091.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I need to drop in a handler to flush floormat state and gradually adjust confidence as a decay function",
+        "ts": "1409203116.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "any suggestions for a good place?",
+        "ts": "1409203123.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "hubDisplay's message handler feels very cludgy",
+        "ts": "1409203160.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think it might be as simple as kitchenMatLastSeen = System.currentTimeMillis",
+        "ts": "1409203170.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "gotcha",
+        "ts": "1409203187.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well, thats the weird  thing about the message handler",
+        "ts": "1409203189.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its getting totally bombarded with data",
+        "ts": "1409203200.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it just grew up that way :grinning:",
+        "ts": "1409203208.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "might as well join the party",
+        "ts": "1409203208.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, ill deal with any merging",
+        "ts": "1409203225.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright...give me 10 mins or so and I'm there",
+        "ts": "1409203236.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you may commit with impunity",
+        "ts": "1409203239.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "i usually do",
+        "ts": "1409203312.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "whether justified or not",
+        "ts": "1409203316.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also got notifications populating into the event list view",
+        "ts": "1409203424.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i stupidly was filtering them out because i was testing something else and forgot i flagged them off",
+        "ts": "1409203439.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": " Yay notifications in the event view ",
+        "ts": "1409203968.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I have a firmware update for the mats that will remove most of the touchiness we were seeing today",
+        "ts": "1409204190.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "needs a more aggressive debounce",
+        "ts": "1409204217.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool.",
+        "ts": "1409204261.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Rejiggering the structure of the routine view to get the look melissa was going for",
+        "ts": "1409204276.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright - room now maintains mat activity state, confidence should get adjusted accordingly",
+        "ts": "1409204399.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so does distance for that matter, in that an active mat results in a .01m distance",
+        "ts": "1409204418.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh nice",
+        "ts": "1409204457.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that'll show em",
+        "ts": "1409204464.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "just need to filter out for the \"dog is on the mat\" case and we're there...",
+        "ts": "1409204504.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Ah yes the old dog is on the mat case ",
+        "ts": "1409204802.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "which is completely different from \"the old dog in on the case, Matt\"",
+        "ts": "1409204832.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, checked in to mat_detect branch to make merging a little easier",
+        "ts": "1409206112.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "still not happy with how confidence is being calculated",
+        "ts": "1409206149.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "will think on it and update tomorrow after we try it in the system",
+        "ts": "1409206163.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that doesn't make merging easier, just nerdier",
+        "ts": "1409206169.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok, i tuned up the routine views, and the new networking code is much much more solid",
+        "ts": "1409206200.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well, the \"don't need to reboot wifi every time\" code.",
+        "ts": "1409206211.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Don't have the full system here to test the other socket changes, but they work in theory",
+        "ts": "1409206223.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'll merge this stuff and commit",
+        "ts": "1409206230.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "fair enough - and technically tougher to roll back if you fsck it up",
+        "ts": "1409206283.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "mea culpa",
+        "ts": "1409206285.000061"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "feel like we're just firing on all cylinders with dev on this when we'll be done...",
+        "ts": "1409206313.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "have a backlog of little ideas to throw in there - better path fading, more adaptive learning to understand things like max distance",
+        "ts": "1409206352.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "have it lock rooms out the in UI as other stations come online",
+        "ts": "1409206365.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "automatically select which UI to present based on device",
+        "ts": "1409206373.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll start a Google doc for random ideas in anticipation of phase 2",
+        "ts": "1409206405.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Merged.",
+        "ts": "1409206412.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just pushed",
+        "ts": "1409206418.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "whew",
+        "ts": "1409206419.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks good, too",
+        "ts": "1409206447.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "excellent",
+        "ts": "1409206454.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i don't know how much hardware you took home",
+        "ts": "1409206456.000072"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "none",
+        "ts": "1409206460.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1409206463.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll be in ~8:30 tomorrow to start debug",
+        "ts": "1409206490.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah I think I'm going to need to add some smoothing to keep jack from popping up like whack-a-jack",
+        "ts": "1409206495.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1409206498.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "you guys are awesome btw",
+        "ts": "1409207046.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "+1",
+        "ts": "1409207065.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yay my laptop just kernel panicked",
+        "ts": "1409207378.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Aww thanks guys",
+        "ts": "1409207392.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Whaat",
+        "ts": "1409207504.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "owitch",
+        "ts": "1409207519.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "had that before with Android tethered debug, esp. when stepping through code",
+        "ts": "1409207568.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "alert popup structure in place",
+        "ts": "1409208397.000086"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(but I'll need an X to close it - don't have that icon I don't think)",
+        "ts": "1409208415.000087"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "We're getting there!",
+        "ts": "1409208483.000088"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "urgent ones, too",
+        "ts": "1409208779.000089"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1409208779.000090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The font's aren't _quite_ perfect yet, but I figure we'll get em in vizqa",
+        "ts": "1409208803.000091"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":stuck_out_tongue:",
+        "ts": "1409208806.000092"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\"veezy queasy\"",
+        "ts": "1409208826.000093"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Let's start up veezy queasy tomorrowz ",
+        "ts": "1409208911.000094"
+    }
+]

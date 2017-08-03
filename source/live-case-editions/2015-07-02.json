@@ -1,0 +1,236 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to try to block off time in my schedule to read about some OpenGL effects that might be useful (lens focus effects vs. gaussian blur) - its not light reading.",
+        "ts": "1435853487.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel>: are we doing standup or should we just do it in here?",
+        "ts": "1435856509.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Happy to do it here, or carry on without me ",
+        "ts": "1435856566.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "we are in the slack.",
+        "ts": "1435856643.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "i talked to charles yesterday about places - he sent a request to Google for some assets.",
+        "ts": "1435856678.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yup - assuming nothing will move there until after the holiday but will keep an eye on it ",
+        "ts": "1435856700.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I found a memory leak in the OpenGL code that I plan on plugging today",
+        "ts": "1435856717.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F9CXTL>: lets talk today about the photo display",
+        "ts": "1435856729.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there are options with regard to sizing the image for the screen",
+        "ts": "1435856745.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm also going to be reading up on lens focus effects in opengl",
+        "ts": "1435856768.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to try to improve blur performance",
+        "ts": "1435856775.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Might need a blurry png? Or an alpha mask that we generate",
+        "ts": "1435856794.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U026PHQ3J>: Kool!",
+        "ts": "1435856829.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I saw a note from <@U051P3FPY> on the motion atrocity - and it has stylized images. Are we good there for now?",
+        "ts": "1435856831.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "nick is out of the office for a while, and he'll be the one following up on assets\/direction",
+        "ts": "1435856835.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Uh activity ",
+        "ts": "1435856836.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U051P3FPY>: and I worked through the activity tracking yesterday. Everything seems to be working, but activity updates don’t start a tile change. I’m not sure if they should or if we should just leave it on the current method for downloading",
+        "ts": "1435856843.000018"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "Also, it remains untested for anything but still",
+        "ts": "1435856864.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> - i think we don't want activity to trigger download, i think we want to keep with the location displacement method",
+        "ts": "1435856874.000020"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "I’ll take the device with me for lunch and see if it works for walking",
+        "ts": "1435856875.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "there’s also a question of how often we should get activity updates",
+        "ts": "1435856897.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s currently set to every 2 minutes. I’m not sure what affect that might have on battery usage.",
+        "ts": "1435856915.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "how instantaenous is the response?",
+        "ts": "1435856927.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "It should be fine when the phone has been asleep for a while and not update at that point",
+        "ts": "1435856928.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could we basically query it when the location changes?",
+        "ts": "1435856946.000026"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "All the research I’ve done turns up very vague answers to battery usage, usually something like “hardly any effect on battery!\"",
+        "ts": "1435856946.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "can’t really query the activity tracker",
+        "ts": "1435856960.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "maybe we should whiteboard the options",
+        "ts": "1435856965.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but we do store the value until the next update and you could get it from the LocationHelper",
+        "ts": "1435856972.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s also set in the MultiEngineStrategyBLAH",
+        "ts": "1435856988.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "and used whenever the *stylized image* is updated",
+        "ts": "1435856997.000032"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "<http:\/\/stackoverflow.com\/questions\/27078334\/how-is-it-possible-that-google-fit-app-measures-number-of-steps-all-the-time-wit>",
+        "attachments": [
+            {
+                "title": "How is it possible that Google Fit app measures number of steps all the time without draining battery?",
+                "title_link": "http:\/\/stackoverflow.com\/questions\/27078334\/how-is-it-possible-that-google-fit-app-measures-number-of-steps-all-the-time-wit",
+                "text": "The Google Fit app, when installed, measures the duration you are walking or running, and also the number of steps all the time. However, strangely, using it does not seem to drain the battery. Other",
+                "fallback": "How is it possible that Google Fit app measures number of steps all the time without draining battery?",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/stackoverflow\/img\/apple-touch-icon@2.png?v=ea71a5211a91&a",
+                "from_url": "http:\/\/stackoverflow.com\/questions\/27078334\/how-is-it-possible-that-google-fit-app-measures-number-of-steps-all-the-time-wit",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1435857360.000033"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "\"We do not poll GPS to estimate steps or detect activities.\"",
+        "ts": "1435857398.000035"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/twitter.com\/danveloper\/status\/616342442913177600>",
+        "attachments": [
+            {
+                "fallback": "<https:\/\/twitter.com\/danveloper|@danveloper>: Created a new microservice today: SQLrillex. When it starts, it drops the database.",
+                "ts": 1435782464,
+                "author_name": "Dan Woods",
+                "author_link": "https:\/\/twitter.com\/danveloper\/status\/616342442913177600",
+                "author_icon": "https:\/\/pbs.twimg.com\/profile_images\/574073778268868608\/vRcJnabs_normal.jpeg",
+                "author_subname": "@danveloper",
+                "text": "Created a new microservice today: SQLrillex. When it starts, it drops the database.",
+                "service_name": "twitter",
+                "service_url": "https:\/\/twitter.com\/",
+                "from_url": "https:\/\/twitter.com\/danveloper\/status\/616342442913177600",
+                "id": 1,
+                "footer": "Twitter",
+                "footer_icon": "https:\/\/a.slack-edge.com\/6e067\/img\/services\/twitter_pixel_snapped_32.png"
+            }
+        ],
+        "ts": "1435859548.000036"
+    }
+]

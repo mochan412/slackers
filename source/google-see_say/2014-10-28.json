@@ -1,0 +1,320 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Updated build tools to 21.0.2 today, but there's still a crash in my layout manager when an item is deleted. I'm looking into that, as well as possible performance optimizations for bitmaps today.",
+        "ts": "1414520799.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Okay, thanks for the update.",
+        "ts": "1414520892.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I don't have a clear direction forward on video encoding, though... Should I root and try to run ffmpeg? It's not clear to me that jcodec has the ability to manipulate 3gp audio, if it even works at all.",
+        "ts": "1414521019.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I still have some stuff i've been playing with using opengl for this",
+        "ts": "1414521039.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can't quite get the bitmap stuff working tho",
+        "ts": "1414521046.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "on the other hand, i don't see many ppl talking about root req for ffmpeg",
+        "ts": "1414521065.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so maybe I'll take a look at that first too. I'm in main if you wanna come hang",
+        "ts": "1414521083.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I found some sample code for ffmpeg that seemed to work pretty well, except for being able to access the ffmpeg executable, so that's why I was thinking root, but maybe there's another way to get it running.",
+        "ts": "1414521133.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's some way to build it as libs",
+        "ts": "1414521147.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ahh, cool",
+        "ts": "1414521153.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill go back and look up those links in a moment",
+        "ts": "1414521162.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "No rush, I think I'm going to work on the delete crash and bitmap enhancements first, but hopefully in the afternoon I can move forward on video stuff",
+        "ts": "1414521198.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool. I'll check and see if I can make some progress on the lib part",
+        "ts": "1414521211.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Checking the code for the static lib out from gitorious right now, but its very very slow",
+        "ts": "1414527012.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/gitorious.org\/ffmpeg\/ffmpeg-android\/source\/c5d791a2c3e686831f67323ed5ed631150f1f2b0>:",
+        "ts": "1414527051.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Oh rad, that sounds like just the thing",
+        "ts": "1414530127.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "... maybe?",
+        "ts": "1414536733.000018"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1414536744.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I should be able to stick that in the jniLibs directory and hopefully it'll work?",
+        "ts": "1414536838.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think so?",
+        "ts": "1414536911.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Everyone is very cloak and dagger with this",
+        "ts": "1414536924.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "static\n    {\n        System.loadLibrary(\"mylib\");\n    }",
+        "ts": "1414536927.000023"
+    },
+    {
+        "user": "U02F90CRQ",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U02F90CRQ|robt> has left the channel",
+        "ts": "1414536930.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1414536930.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think I've fixed the delete crash and I have some optimizations on bitmap usage, btw... still working on what I can do to reduce the delay between taking the picture and being able to run the animation",
+        "ts": "1414536932.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "sounds good... I've done some JNI stuff before, but the build process for it has changed recently and it seems confusing every time :simple_smile:",
+        "ts": "1414536971.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "is it an armeabi build?",
+        "ts": "1414537035.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "arm-linux i believe",
+        "ts": "1414537260.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats the toolchain that ndk has",
+        "ts": "1414537265.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Built from these instructions:",
+        "ts": "1414537713.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/vec.io\/posts\/how-to-build-ffmpeg-with-android-ndk>",
+        "attachments": [
+            {
+                "text": "Co-founder of <http:\/\/Shou.TV|Shou.TV>",
+                "fallback": "Co-founder of <http:\/\/Shou.TV|Shou.TV>",
+                "from_url": "https:\/\/vec.io\/posts\/how-to-build-ffmpeg-with-android-ndk",
+                "id": 1
+            }
+        ],
+        "ts": "1414537714.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "not having luck with System.loadLibrary() yet... I think I need to make a JNI wrapper for it, but all the instructions I've found so far are years out of date and don't use the new gradle directory structure for JNI libs",
+        "ts": "1414538836.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll keep following the clues and eventually put it together",
+        "ts": "1414538867.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll keep looking at it too, i'm in a different context ATM, but will shift back as soon as i get a result of some sort",
+        "ts": "1414538885.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1414538889.000000"
+        },
+        "ts": "1414538886.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Ohhh, I think what needs to happen is write a C++ library that interfaces with ffmpeg, doing whatever needs to be done, and exposes that functionality via JNI to the Java layer.",
+        "ts": "1414539057.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i see.",
+        "ts": "1414539073.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<http:\/\/stackoverflow.com\/questions\/4725773\/ffmpeg-on-android\/4820282#4820282>",
+        "attachments": [
+            {
+                "title": "FFMPEG on Android",
+                "title_link": "http:\/\/stackoverflow.com\/questions\/4725773\/ffmpeg-on-android\/4820282#4820282",
+                "text": "I have got FFMPEG compiled (libffmpeg.so) on Android. Now I have to buld either an application like RockPlayer or use existing android MM framework to invoke FFMPEG. Do you have steps \/ procedure...",
+                "fallback": "FFMPEG on Android",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/stackoverflow\/img\/apple-touch-icon@2.png?v=fde65a5a78c6",
+                "from_url": "http:\/\/stackoverflow.com\/questions\/4725773\/ffmpeg-on-android\/4820282#4820282",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1414539088.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok! well thats something.",
+        "ts": "1414539104.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "::vomit::",
+        "ts": "1414539124.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm. no emoji for that huh",
+        "ts": "1414539131.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Um, yeah, this appears to be non-trivial to figure out... I've never written a JNI library from scratch",
+        "ts": "1414539160.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I've done it!",
+        "ts": "1414539224.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(also if i could figure out how to get jcodec from maven, i'd also be happy)",
+        "ts": "1414539248.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "hmm, I think I got System.loadLibrary() to work, but I still need to answer what needs to hook into it in order to use it",
+        "ts": "1414539509.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think I may be learning something from looking at this project: <https:\/\/github.com\/halfninja\/android-ffmpeg-x264>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "halfninja\/android-ffmpeg-x264",
+                "title_link": "https:\/\/github.com\/halfninja\/android-ffmpeg-x264",
+                "text": "android-ffmpeg-x264 - Android Videokit - basic FFMPEG+X264 build for Android. Pull requests gratefully accepted.",
+                "fallback": "GitHub: halfninja\/android-ffmpeg-x264",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/72052?v=2&s=400",
+                "from_url": "https:\/\/github.com\/halfninja\/android-ffmpeg-x264",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "id": 1
+            }
+        ],
+        "ts": "1414539758.000053"
+    }
+]

@@ -1,0 +1,948 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey team, caught a cold last week that i’m still fighting. Gonna WFH today and should be in tomorrow!",
+        "ts": "1494258907.414392"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Aw, feel better Melissa!",
+        "ts": "1494259174.493330"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U026PHQ3J>, I’ll check to see if any refs are being held to the animation drawables. I was watching to make sure I didn’t have any of that in the controllers and the views should be cleaned up whenever the screen is left, but I’ll check that that is happening correctly",
+        "ts": "1494260563.885525"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh in this case its the .gif files themselves",
+        "ts": "1494260577.889289"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not the animation drawables",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1494260582.000000"
+        },
+        "ts": "1494260581.890448"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i moved them to the xxxx-hdpi or whatever the highest one is",
+        "ts": "1494260602.896125"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so that it would have an easier time rescaling",
+        "ts": "1494260607.897489"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which helped, but if you watch the memory monitor (even with glide 3.8.0 which just came out) its definitely leaking",
+        "ts": "1494260629.903230"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so if the views are getting disposed of properly, and we need to dig in more, LMK",
+        "ts": "1494260646.907708"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i suspect that plugging the leak will fix the issue",
+        "ts": "1494260656.910637"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sure thing. Thanks for finding that!",
+        "ts": "1494260662.911993"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for example, if you force a GC when the first one goes off screen, nothing is reclaimed",
+        "ts": "1494260679.916117"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":wave::skin-tone-4:  we are in quartz?",
+        "ts": "1494262947.530528"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F5B4H8E15\/5_8_stand_up.txt|5\/8 stand up> and commented: <@U0U9WJB7F>  a few notes from standup for ya - let me know if you want to chat through!",
+        "file": {
+            "id": "F5B4H8E15",
+            "created": 1494264511,
+            "timestamp": 1494264511,
+            "name": "5_8_stand_up.txt",
+            "title": "5\/8 stand up",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U13GPDA1F",
+            "editable": true,
+            "size": 552,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B4H8E15\/5_8_stand_up.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B4H8E15\/download\/5_8_stand_up.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F5B4H8E15\/5_8_stand_up.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5B4H8E15-0b57d62909",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/lynsey\/F5B4H8E15\/5_8_stand_up.txt\/edit",
+            "preview": "\r\nOliver:\r\nBuild ETA - before noon (shooting for before our 11 to test internally). Working on animation performance. \r\n\r\nMidori:\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><\/pre><\/div>\n<div><pre>Oliver:<\/pre><\/div>\n<div><pre>Build ETA - before noon (shooting for before our 11 to test internally). Working on animation performance. <\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>Midori:<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 20,
+            "lines_more": 15,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc59NK9FED",
+                "created": 1494264511,
+                "timestamp": 1494264511,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "<@U0U9WJB7F>  a few notes from standup for ya - let me know if you want to chat through!"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1494264515.956602"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> <@U3ZFEAPSP> <@U13GPDA1F>  going to have to push our 11am to a later time! ",
+        "ts": "1494266135.411628"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sorry! ",
+        "ts": "1494266140.413068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "np",
+        "ts": "1494266161.418919"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5ABW5944\/vz_sellin_5-8_withanimationupdates.apk|vz_sellin_5-8_withAnimationUpdates.apk>",
+        "file": {
+            "id": "F5ABW5944",
+            "created": 1494266401,
+            "timestamp": 1494266401,
+            "name": "vz_sellin_5-8_withAnimationUpdates.apk",
+            "title": "vz_sellin_5-8_withAnimationUpdates.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 56536711,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ABW5944\/vz_sellin_5-8_withanimationupdates.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ABW5944\/download\/vz_sellin_5-8_withanimationupdates.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5ABW5944\/vz_sellin_5-8_withanimationupdates.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5ABW5944-675840a144",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1494266416.492899"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i'll start testing - anything missing or noteworthy?",
+        "ts": "1494266452.504243"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5A8BFYUB\/giphy-downsized.gif|giphy-downsized.gif> and commented: Less leaks",
+        "file": {
+            "id": "F5A8BFYUB",
+            "created": 1494266507,
+            "timestamp": 1494266507,
+            "name": "giphy-downsized.gif",
+            "title": "giphy-downsized.gif",
+            "mimetype": "image\/gif",
+            "filetype": "gif",
+            "pretty_type": "GIF",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 1237852,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5A8BFYUB\/giphy-downsized.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5A8BFYUB\/download\/giphy-downsized.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5A8BFYUB-0a4f235f99\/giphy-downsized_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5A8BFYUB-0a4f235f99\/giphy-downsized_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5A8BFYUB-0a4f235f99\/giphy-downsized_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 250,
+            "thumb_360_h": 177,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5A8BFYUB-0a4f235f99\/giphy-downsized_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5A8BFYUB-0a4f235f99\/giphy-downsized_360.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 250,
+            "original_h": 177,
+            "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5A8BFYUB-0a4f235f99\/giphy-downsized_deanimate_gif.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5A8BFYUB\/giphy-downsized.gif",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5A8BFYUB-cfef6eef18",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5A8BH10B",
+                "created": 1494266507,
+                "timestamp": 1494266507,
+                "user": "U3ZFEAPSP",
+                "is_intro": true,
+                "comment": "Less leaks"
+            }
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1494266511.522283"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool - checking against the feedback doc",
+        "ts": "1494266568.538768"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "animations should be much snappier and it could crash after running through a few times (fixes MLC-197)",
+        "ts": "1494266575.540987"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "and it will have a few fixes Summer and Midori put in there from the feedback, i’ll go through the tix and add what else would be in there in one sec",
+        "ts": "1494266622.554246"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "MLC-191 (loops only once for the checkmark animation)\nMLC-193 (some ui tweaks to welcome page)\nMLC-194 (code entry screen) &lt;-- but not the 8 character entry, that is yet-to-come\nand then the first cut of translations are in there",
+        "ts": "1494266808.606276"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I believe that is the full diff from what we sent them last unless I’m missing anything <@U1ZG1UCAK> or <@U2H61EJSG> ?",
+        "ts": "1494266837.614127",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so, for the 8 digit thing - can we just assign the new cases with 3|4 and 3|5 until we have official IDs?",
+        "ts": "1494266886.627862"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "dont want that to hold us up, but thats likely what they'll be (and we can always swap out later)",
+        "ts": "1494266908.634496"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sounds reasonable to me",
+        "ts": "1494266995.658791"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is that something we could get in today?",
+        "ts": "1494267011.663408"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "was just going to say we could probably just have that in today",
+        "ts": "1494267027.667975"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool, we'll let <@U0U9WJB7F> make the call on if she wants to hold sending the build for it, but let's plan to take that route in the meantime",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1494267111.000000"
+        },
+        "ts": "1494267079.682243"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "8-digit UI (Updated assets &amp; submitting on finishing 8) is on `onboarding_front_end_vz`",
+        "ts": "1494267108.690424"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nice, thanks midori!",
+        "ts": "1494267116.692727"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "let's def get that in",
+        "ts": "1494267121.694083"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "^will merge and then send out a build",
+        "ts": "1494267279.737837"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Nice, thanks all!",
+        "ts": "1494267674.848412"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U0U9WJB7F|jenna.simon> commented on <@U13GPDA1F|lynsey>’s file <https:\/\/uncorked.slack.com\/files\/lynsey\/F5B4H8E15\/5_8_stand_up.txt|5\/8 stand up>: Thanks, this all makes sense to me!",
+        "file": {
+            "id": "F5B4H8E15",
+            "created": 1494264511,
+            "timestamp": 1494264511,
+            "name": "5_8_stand_up.txt",
+            "title": "5\/8 stand up",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U13GPDA1F",
+            "editable": true,
+            "size": 552,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B4H8E15\/5_8_stand_up.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B4H8E15\/download\/5_8_stand_up.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F5B4H8E15\/5_8_stand_up.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5B4H8E15-0b57d62909",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/lynsey\/F5B4H8E15\/5_8_stand_up.txt\/edit",
+            "preview": "\r\nOliver:\r\nBuild ETA - before noon (shooting for before our 11 to test internally). Working on animation performance. \r\n\r\nMidori:\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><\/pre><\/div>\n<div><pre>Oliver:<\/pre><\/div>\n<div><pre>Build ETA - before noon (shooting for before our 11 to test internally). Working on animation performance. <\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>Midori:<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 20,
+            "lines_more": 15,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc59NK9FED",
+                "created": 1494264511,
+                "timestamp": 1494264511,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "<@U0U9WJB7F>  a few notes from standup for ya - let me know if you want to chat through!"
+            }
+        },
+        "comment": {
+            "id": "Fc5ADW793P",
+            "created": 1494268414,
+            "timestamp": 1494268414,
+            "user": "U0U9WJB7F",
+            "is_intro": false,
+            "comment": "Thanks, this all makes sense to me!"
+        },
+        "is_intro": false,
+        "ts": "1494268414.057017"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5B5TSBE3\/vz_sellin_5-8.apk|vz_sellin_5-8.apk>",
+        "file": {
+            "id": "F5B5TSBE3",
+            "created": 1494268550,
+            "timestamp": 1494268550,
+            "name": "vz_sellin_5-8.apk",
+            "title": "vz_sellin_5-8.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 56537013,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B5TSBE3\/vz_sellin_5-8.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B5TSBE3\/download\/vz_sellin_5-8.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5B5TSBE3\/vz_sellin_5-8.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5B5TSBE3-12179776f4",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1494268556.097149"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "^all the same fixes as the last one but now uses an 8-character entry text",
+        "ts": "1494268586.105542"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "still uses the same pattern matching of “31xxxxxx” or “42yyyyyy” as before",
+        "ts": "1494268621.114598"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Nice, I'll get to testing!",
+        "ts": "1494268735.145698"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I think the build looks great and will send it out shortly! Thanks for the push on this.",
+        "ts": "1494269829.450153"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F59MQMSRE\/minime-debug-75-3.1.3-5-8-17-v1.apk|MiniMe-DEBUG-75-3.1.3-5-8-17-v1.apk>",
+        "file": {
+            "id": "F59MQMSRE",
+            "created": 1494271179,
+            "timestamp": 1494271179,
+            "name": "MiniMe-DEBUG-75-3.1.3-5-8-17-v1.apk",
+            "title": "MiniMe-DEBUG-75-3.1.3-5-8-17-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 41541006,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F59MQMSRE\/minime-debug-75-3.1.3-5-8-17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F59MQMSRE\/download\/minime-debug-75-3.1.3-5-8-17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F59MQMSRE\/minime-debug-75-3.1.3-5-8-17-v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F59MQMSRE-b249d589de",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1494271185.811922"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Release candidate ^\nPatch that will help improve stability on Earth images refresh.\nThe section that was altered was where the image is downloaded and then displayed, so try to test through the initial set wallpaper flow but if anything else has found itself out of line, call it out :slightly_smiling_face: Thanks!",
+        "ts": "1494271332.849718",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "has someone done a code review on this?",
+        "ts": "1494274467.652397"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "It looked good to me, fix from evans",
+        "ts": "1494274657.700263"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah i think the only change in this build was my changes that oliver reviewed",
+        "ts": "1494274670.703612"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "it’s up on origin\/release-75 if anyone wants to take a look",
+        "ts": "1494274698.710592"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool, just want to make sure this one is flawless given the background",
+        "ts": "1494274757.725631"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it really should go thru beta channel first for a while",
+        "ts": "1494274938.771998"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "someone should remind bonbon",
+        "ts": "1494274942.773061"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes we should also thoroghly test",
+        "ts": "1494274987.784989"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for the folders, just to check, is alpha for df? Or should the release 75 folder be prod?",
+        "ts": "1494275326.872656"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "it should be for df <@U3ZFEAPSP>",
+        "ts": "1494277938.540391"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "ok, I think the df should be the release 78, I can change the folder vals, and the builds are g2g then :slightly_smiling_face:",
+        "ts": "1494277989.552068"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool there are two folders set up now",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1494278339.000000"
+        },
+        "ts": "1494278335.629884"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome, uploaded!",
+        "ts": "1494278579.683946"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sweet thanks",
+        "ts": "1494278586.685720"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i'll check em out",
+        "ts": "1494278591.686824"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> can one of you please do a thorough QA pass on the Earth build that Oliver just sent?",
+        "ts": "1494280162.018705"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "sure! <@U3ZFEAPSP> what should I test for and what steps should I take?",
+        "ts": "1494280282.042504"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I will test it too",
+        "ts": "1494280294.044515"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<!channel> we're doing a review of our JIRA please make sure your tasks are in the right queue (being in progress, or todo or wherever it might be)",
+        "ts": "1494282736.469599"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I've been assigning out some tasks, lemme know if you have questions!",
+        "ts": "1494284305.701615"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U3ZFEAPSP> : verified fix by running up and down the stairs with only wifi on. Behavior: when I ran out of wifi range during initial earth download, was allowed to enter homescreen. Went to image management and saw that the other 11 images were pending download, with only the case image downloaded. Regained wifi signal and other 11 images began downloading.",
+        "ts": "1494284698.760761",
+        "reactions": [
+            {
+                "name": "runner::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Is this the expected behavior?",
+        "ts": "1494284738.766449"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> how are the visualizations going?",
+        "ts": "1494285163.824202"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!channel> FYI kats hoping to get everything to review by WEDNESDAY",
+        "ts": "1494285251.835649"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im not sure if that feels doable or if we should plan on having some longer days in order for us to get there, but wanted to let you know sooner vs later (so lets talk if there are concerns)",
+        "ts": "1494285326.845060"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Wednesday EOD?",
+        "ts": "1494285388.853482"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes",
+        "ts": "1494285420.857668"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry",
+        "ts": "1494285423.858025"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> It’s a lot harder to draw a solid line in GL than I thought :disappointed: I think the only way to create an evenly thick white line will be to calculate a parallel offset curve - something I am not very familiar with. It’s been a long time since I’ve done any calculus so <@U026PHQ3J> I might need your help if you have time this week.",
+        "ts": "1494285643.886972"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5ADCP4DR\/screenshot_20170508-151734.png|Screenshot_20170508-151734.png>",
+        "file": {
+            "id": "F5ADCP4DR",
+            "created": 1494285648,
+            "timestamp": 1494285648,
+            "name": "Screenshot_20170508-151734.png",
+            "title": "Screenshot_20170508-151734.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 226385,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ADCP4DR\/screenshot_20170508-151734.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ADCP4DR\/download\/screenshot_20170508-151734.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ADCP4DR-26c04d2ba1\/screenshot_20170508-151734_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ADCP4DR-26c04d2ba1\/screenshot_20170508-151734_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ADCP4DR-26c04d2ba1\/screenshot_20170508-151734_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ADCP4DR-26c04d2ba1\/screenshot_20170508-151734_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ADCP4DR-26c04d2ba1\/screenshot_20170508-151734_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ADCP4DR-26c04d2ba1\/screenshot_20170508-151734_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ADCP4DR-26c04d2ba1\/screenshot_20170508-151734_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ADCP4DR-26c04d2ba1\/screenshot_20170508-151734_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ADCP4DR-26c04d2ba1\/screenshot_20170508-151734_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5ADCP4DR\/screenshot_20170508-151734.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5ADCP4DR-44feff07f7",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "open_mouth",
+                    "users": [
+                        "U0260V1BX"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1494285655.888344"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5B9NGL22\/screenshot_20170508-144405.png|Screenshot_20170508-144405.png>",
+        "file": {
+            "id": "F5B9NGL22",
+            "created": 1494285657,
+            "timestamp": 1494285657,
+            "name": "Screenshot_20170508-144405.png",
+            "title": "Screenshot_20170508-144405.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 187672,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B9NGL22\/screenshot_20170508-144405.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B9NGL22\/download\/screenshot_20170508-144405.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B9NGL22-72c27da2b4\/screenshot_20170508-144405_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B9NGL22-72c27da2b4\/screenshot_20170508-144405_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B9NGL22-72c27da2b4\/screenshot_20170508-144405_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B9NGL22-72c27da2b4\/screenshot_20170508-144405_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B9NGL22-72c27da2b4\/screenshot_20170508-144405_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B9NGL22-72c27da2b4\/screenshot_20170508-144405_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B9NGL22-72c27da2b4\/screenshot_20170508-144405_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B9NGL22-72c27da2b4\/screenshot_20170508-144405_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B9NGL22-72c27da2b4\/screenshot_20170508-144405_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5B9NGL22\/screenshot_20170508-144405.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5B9NGL22-370840aef6",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1494285663.889396"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ve made some beautiful messes along the way!",
+        "ts": "1494285679.892031"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "you want to come show us?",
+        "ts": "1494285699.894728"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "woowww",
+        "ts": "1494285700.894830"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "aka - live demo with kat",
+        "ts": "1494285718.897484"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "There isn’t much to show, but I’d be happy to come up there and chat with ya’ll",
+        "ts": "1494285767.903822"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry <@U2H61EJSG> we're digging into something else now, but maybe later \/ tomorrow",
+        "ts": "1494286525.004006",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "^recapping chatting with <@U0U9WJB7F>  on the build for Wed. \nI think its doable to have the last few larger items that are leftover with initialization &amp; the changes to the activity. However, I would say to try to push back on this for our sake as much as you can. For what we’ve been talking about, this a non-trivial planning change and would have altered the approach we have taken if we knew that was the date we were aiming for. I think the big things will be ready in time and we can spend the rest of the week polishing. \n\nThe things we will need to get resolution on:\nMLC-184, for an answer on the retry button if the image download fails\nMLC-185, is there any desired toast message (since the last one mentioned the gallery, which is now gone)\nMLC-190, which is more a server-side resource from Uncorked needing to implement supporting the new cases. \nand MLC-179, confirming if the proposed NFC legacy solution is adequate.",
+        "ts": "1494286915.052697"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I dont think there’s room in the schedule for pushback cause they have to start sellin soon i think",
+        "ts": "1494287435.116073"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m headed out for the day. I’ll bring my laptop home with me so let me know if ya’ll need anything!",
+        "ts": "1494288514.247044"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Will be at ADX this evening and leaving soon.",
+        "ts": "1494289856.389232"
+    }
+]

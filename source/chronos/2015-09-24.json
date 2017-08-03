@@ -1,0 +1,190 @@
+[
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "running into a bit of a block trying to reconcile Harvest projects with Float projects",
+        "ts": "1443136170.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "it's not a huge thing right now, but it will be a bigger problem later on down the line",
+        "ts": "1443136192.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "basically, there are 16 projects that definitely match between the two, there are 204 more in Harvest that don't have a direct match in Float, and 51 in Float that don't have a direct match in Harvest",
+        "ts": "1443136269.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Clients reconciled a lot easier. I think 15 matched directly, 2 more matched manually, then a total of 73 clients that were in one of [Harvest, Float] but not the other.",
+        "ts": "1443136309.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PT0D7>: will this be a problem later down the line? do we have a breakdown of aged-clients?",
+        "ts": "1443136361.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "going forward, the rule will be that projects and tasks must exist in Harvest before Float requests can be made. Thus, we’ll have to take some time to scrub Harvest to make sure it has what we need",
+        "ts": "1443136368.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "like of clients with work assigned (float) or recorded (harvest) in the last 6mo",
+        "ts": "1443136372.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I could get that data, yes",
+        "ts": "1443136388.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "might be more relevant for matching for future, though i’m sure there’s data scrub either way",
+        "ts": "1443136423.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "if spilliams can generate that report, the scrubbing process should be pretty straightforward",
+        "ts": "1443136447.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the ideal is that these objects are only created via Chronos, so we can have Harvest and Float in lockstep",
+        "ts": "1443136455.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "it's just the initial import of things that needs this massaging",
+        "ts": "1443136466.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok, so you want a list of Projects that have had, in the past 6 months, work assigned via Float or hours recorded via Harvest?",
+        "ts": "1443136509.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "if i’m understanding, the “what projects match” data set should be from those, right?",
+        "ts": "1443136769.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "makes sense",
+        "ts": "1443136780.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "matching 3 year old projects probably isnt’ relevant for market fit",
+        "ts": "1443136781.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "sure",
+        "ts": "1443136785.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(us)",
+        "ts": "1443136785.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the other option is to just go through the 200\/50 names with producers and get a :+1::-1:",
+        "ts": "1443136832.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "because this is a one-time thing",
+        "ts": "1443136851.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah, we’ll likely need to do that anyways",
+        "ts": "1443137169.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok. if we're doing that anyway then i'm not going to spend a day generating that report",
+        "ts": "1443137199.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "unless the report is useful for other reasons",
+        "edited": {
+            "user": "U026PT0D7",
+            "ts": "1443137209.000000"
+        },
+        "ts": "1443137207.000024"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "oh a caveat should have been an “if it’s easy” for that data restriction",
+        "ts": "1443137326.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "hah, ok",
+        "ts": "1443139644.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I've pushed an update to origin\/dev. Main thing is that it adds another attribute to each of the items coming back from \/api\/v1\/requests. Namely, a \"projects\" attribute, that has all the person's requests sorted by which project it's for",
+        "ts": "1443144747.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I also updated the key names for ids, adding \"float_\", because we can't let ourselves get too far into this mess of \"which id is it?\"",
+        "edited": {
+            "user": "U026PT0D7",
+            "ts": "1443144794.000000"
+        },
+        "ts": "1443144786.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "someday the \/projects endpoint will return a combination of Float+Harvest projects, so `float_id`, `harvest_id` and (chronos) `id` will be present.",
+        "ts": "1443144842.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "got it - so we get tasks by person-&gt;day-&gt;tasks OR person-&gt;project-&gt;tasks on the same endpoint",
+        "ts": "1443155412.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Correct. Twice as big of a thing but I didn't want to name a new route for the projects side of it",
+        "ts": "1443157186.000003"
+    }
+]

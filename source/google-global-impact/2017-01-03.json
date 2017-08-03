@@ -1,0 +1,383 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> happy new year!  let’s catch up at stand up across two big topics:\n- where we are and where we’re going: UX, Creative and Tech deliveries to client tomorrow\/Kickoff!\n- dynamic content\/visualizations \n\nWe’ll also make time to answer any questions you have as you warm back up on the work.  Let’s meet today in Social Space at 10:30",
+        "ts": "1483467299.000545"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "social space!",
+        "ts": "1483468185.000546"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks everyone for your time this morning. A link to the notes will be pasted below. In todays, stand-up, we had a mix of more high-level product strategy discussions (e.g. tag generated stories and the algo to generate them) and specific next steps (artifacts generated for client kickoff tomorrow). Regarding the immediate next steps, those include an effort by <@U0HP6TFNX> to flush out a bit more structural information (e.g. tagging structure, content guide) and by the design team to assemble the kickoff artifacts into something like a deck for tomorrow. We are also asking for data visualization needs For the rest of the notes, please check here and please let me know if you have any questions. <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1apPQAsNB18XiPNx-WunvDYS5POmkA9l8m1GKiZvCQUo\/edit?usp=sharing>",
+        "ts": "1483471847.000547"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0B9N0HF0|rob> shared a file: <https:\/\/uncorked.slack.com\/files\/rob\/F3M01EN77\/2017|01\/03\/2017>",
+        "file": {
+            "id": "F3M01EN77",
+            "created": 1483471848,
+            "timestamp": 1483471848,
+            "name": "2017",
+            "title": "01\/03\/2017",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U0B9N0HF0",
+            "editable": false,
+            "size": 1784,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1apPQAsNB18XiPNx-WunvDYS5POmkA9l8m1GKiZvCQUo\/edit?usp=sharing",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gdoc_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gdoc_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/rob\/F3M01EN77\/2017",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1::skin-tone-4",
+                    "users": [
+                        "U0J6TE0CA"
+                    ],
+                    "count": 1
+                }
+            ],
+            "has_rich_preview": false
+        },
+        "user": "U0B9N0HF0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "rob",
+        "bot_id": null,
+        "ts": "1483471848.000548"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dug around a little, google actually has an api for charts, <https:\/\/developers.google.com\/chart\/interactive\/docs\/gallery> looks like we could have an interface in the admin similar to this, <http:\/\/chartpart.com\/> where we have a way they can insert data, and it builds out an svg for the viz using the google api, then saves that viz asset to the bucket on their app engine account for display.",
+        "edited": {
+            "user": "U0EL0GLEL",
+            "ts": "1483475108.000000"
+        },
+        "ts": "1483474263.000550"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "see, i knew google would have _something_ we could leverage",
+        "ts": "1483474958.000551"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0ML49XU0",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[January 3rd, 2017 12:11 PM] peter.bliss: dug around a little, google actually has an api for charts, <https:\/\/developers.google.com\/chart\/interactive\/docs\/gallery> looks like we could have an interface in the admin similar to this, <http:\/\/chartpart.com\/> where we have a way they can insert data, and it builds out an svg for the viz using the google api, then saves that viz asset to the bucket on their app engine account for display.",
+                "ts": "1483474263.000550",
+                "author_subname": "peter.bliss",
+                "channel_id": "C3C7Z6ECF",
+                "channel_name": "google-global-impact",
+                "is_msg_unfurl": true,
+                "text": "dug around a little, google actually has an api for charts, <https:\/\/developers.google.com\/chart\/interactive\/docs\/gallery> looks like we could have an interface in the admin similar to this, <http:\/\/chartpart.com\/> where we have a way they can insert data, and it builds out an svg for the viz using the google api, then saves that viz asset to the bucket on their app engine account for display.",
+                "author_name": "Peter Bliss",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/peter.bliss",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2015-11-16\/14681844048_38bff7e5608a1446dbcf_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U0ML49XU0|dennishanley> pinned a message to this channel.",
+        "ts": "1483475323.000553"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Looks pretty straight forward to use. Looking at the examples.  Feed it an array of data generates an svg, can customize colors etc. ",
+        "ts": "1483475526.000554"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "I was just going to ask if we can limit colors",
+        "ts": "1483475590.000555"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> and <@U02E3CRMA> I’ll flag this in tech doc but remember part of the goal for that doc is to include 3rd party tools we plan to leverage (that list will grow\/change beyond tomorrow)",
+        "ts": "1483475913.000556",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Nice work <@U0EL0GLEL>",
+        "ts": "1483477226.000557"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "that's fantastic",
+        "ts": "1483477253.000558"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "here's the doc I shared this morning <https:\/\/www.dropbox.com\/s\/zrcy6z3br73m0wf\/google%20net%20contributor%20UX.pdf?dl=0>",
+        "ts": "1483477264.000559"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0HP6TFNX|megan> shared a file: <https:\/\/uncorked.slack.com\/files\/megan\/F3MJS3PN2\/google_net_contributor_ux.pdf|google net contributor UX.pdf>",
+        "file": {
+            "id": "F3MJS3PN2",
+            "created": 1483477266,
+            "timestamp": 1483477266,
+            "name": "google net contributor UX.pdf",
+            "title": "google net contributor UX.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U0HP6TFNX",
+            "editable": false,
+            "size": 75908,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/zrcy6z3br73m0wf\/google%20net%20contributor%20UX.pdf?dl=0",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/megan\/F3MJS3PN2\/google_net_contributor_ux.pdf",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0HP6TFNX",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "megan",
+        "bot_id": null,
+        "ts": "1483477266.000560"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Also looks like they can even use google forms, to input the data, generate a chart through that. Then if you click the little arrow in the right corner of the chart you made, you can download a png for that image. This method allows them to customize the chart however they want, lots of options for customization, and colors. and the types supported. then when it looks right can download the image and push up as a supporting media to the admin",
+        "ts": "1483477285.000561"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F3LS78R6X\/screen_shot_2017-01-03_at_1.01.48_pm.png|Screen Shot 2017-01-03 at 1.01.48 PM.png>",
+        "file": {
+            "id": "F3LS78R6X",
+            "created": 1483477325,
+            "timestamp": 1483477325,
+            "name": "Screen Shot 2017-01-03 at 1.01.48 PM.png",
+            "title": "Screen Shot 2017-01-03 at 1.01.48 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 173021,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3LS78R6X\/screen_shot_2017-01-03_at_1.01.48_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3LS78R6X\/download\/screen_shot_2017-01-03_at_1.01.48_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3LS78R6X-2de40bd83a\/screen_shot_2017-01-03_at_1.01.48_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3LS78R6X-2de40bd83a\/screen_shot_2017-01-03_at_1.01.48_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3LS78R6X-2de40bd83a\/screen_shot_2017-01-03_at_1.01.48_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 165,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3LS78R6X-2de40bd83a\/screen_shot_2017-01-03_at_1.01.48_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 220,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3LS78R6X-2de40bd83a\/screen_shot_2017-01-03_at_1.01.48_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3LS78R6X-2de40bd83a\/screen_shot_2017-01-03_at_1.01.48_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 330,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3LS78R6X-2de40bd83a\/screen_shot_2017-01-03_at_1.01.48_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 440,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3LS78R6X-2de40bd83a\/screen_shot_2017-01-03_at_1.01.48_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 469,
+            "image_exif_rotation": 1,
+            "original_w": 1624,
+            "original_h": 744,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F3LS78R6X\/screen_shot_2017-01-03_at_1.01.48_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3LS78R6X-acb6d72b1e",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1483477329.000562"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The only issue I have with the generation of a chart through the sheets interface is the size of it is dictated by the size you have it showing on your screen, making it hard to set the size properly. It does give you all the options, for setting colors in a very nice interface. you can click on any thing and set its color, change the type. set a label all that jazz right here. its really nice. they would have to then drag out the size of the chart to a specific size and save from there for that to work tho. no way to say make it this size...",
+        "ts": "1483482486.000563"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "<@U02F9CXTL> <@U0J6TE0CA> <@U0260V4K1> <http:\/\/globalfishingwatch.org\/>",
+        "attachments": [
+            {
+                "service_name": "Global Fishing Watch",
+                "title": "Global Fishing Watch shared workspace",
+                "title_link": "http:\/\/globalfishingwatch.org\/",
+                "text": "Global Fishing Watch enables anyone with an Internet connection to see fishing activity anywhere in the ocean in near real-time — for free",
+                "fallback": "Global Fishing Watch: Global Fishing Watch shared workspace",
+                "thumb_url": "http:\/\/globalfishingwatch.org\/social_image.jpg",
+                "from_url": "http:\/\/globalfishingwatch.org\/",
+                "thumb_width": 720,
+                "thumb_height": 479,
+                "service_icon": "http:\/\/globalfishingwatch.org\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1483482581.000564"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i moved megan’s doc to ux folder: <https:\/\/drive.google.com\/open?id=0B2hvp3pmOYCFdkktNUc5cWk0VzA>",
+        "ts": "1483482666.000566"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Otherwise we can still use data input from sheets, you can setup a specific google account for the exhibit, then have the permissions setup so that our admin can pull up the sheets in that account (thru the drive api) then they pick a sheet from the list, and they can generate a chart for that data set, we would be able to specify the size that way. but we would also need to recreate the experience of selecting colors, labels, sizes, chart type all that jazz ourself. We could limit their options this way, or prescribe very specific sizes and colors to be used and remove the customization. etc…",
+        "ts": "1483482715.000568"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0B9N0HF0> I know you had thoughts on Peter’s share ( we just discussed).  share it, let’s keep this dialog going!\n\nIn the mean time <!here|@here>  slight schedule adjustment -\n- We’ll now use tomorrow afternoon for an INT review of the client-ready presentation\n- Client Kickoff now slated for Thursday 1:30pm.  Dennis, Rob, Jason, Justin, Megan to attend.  We’ll spare the rest of the team and report out.  <@U02E3CRMA> let’s discuss who can attend in your place?",
+        "ts": "1483489611.000569"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks Dennis and thanks Peter! Nothing too complicated coming from me. Wanted to note that we'll still want to evaluate the API based on the criteria set forth by design. For example, <@U0EL0GLEL> have you found anything in that API with regards to \"growth\" animations?",
+        "ts": "1483489782.000570"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'm sure <@U0EL0GLEL> can cover it on Thursday",
+        "ts": "1483489824.000571"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we'll sync up beforehand to make sure we have a technical game plan together, but I suspect this one is going to be largely creative-driven",
+        "ts": "1483489852.000572"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Yeah certainly we would want to look at these from that perspective. Not sure what growth animations means. There are some options in here for animations but that is where things start to look more complicated, will need to look into it a little more as to how you would even use it if animations were involved. static files isnt too bad they can be generated and saved, using the system for animations is a totally different game. the api must be called and the output rendered directly not saved to the bucket. which means iframe will be used, also it says there is only support for on show of the chart, and change of the data for animations. these are just considerations that would need to be considered here too. not sure its something that precludes it tho",
+        "ts": "1483490667.000573"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks <@U0EL0GLEL> Growth charts was just an attempt to describe an animated chart that grows across the x axis. Like an animated bar or line graph.",
+        "ts": "1483492098.000574"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Ah that's what I figured. Yep that is supported",
+        "ts": "1483492144.000575"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Ok cool. So there's a set of animations that will save in .gif or .css or something like that to app engine?",
+        "ts": "1483492170.000576"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Or is that where you are saying it gets more complicated and we have to use a web view?",
+        "ts": "1483492214.000577"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Nope you have to display straight from their server if you use animations, you have to programmatically call the graph, and embed it into the view via iframe",
+        "ts": "1483492242.000578"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "So there is that dependence there, it will need data that comes from somewhere the graph api can talk to, Google sheets, or data fed in thru the api call, then the graph is generated from their server and animated in an iframe",
+        "ts": "1483492360.000579"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Word. So, with the Charts API, it would be hard to designate say, an animated graph, as a piece of parent or child content in our current admin UI since it would require a different mechanism?",
+        "ts": "1483492525.000580"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "I'll let Peter chime in on the API side of things, but our data model as currently planned would allow for us to save a URL as either a projet, or as a supporting detail of a project ",
+        "ts": "1483497818.000581"
+    }
+]

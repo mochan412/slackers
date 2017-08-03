@@ -1,0 +1,328 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U051P3FPY>: can you look at goldmember on M",
+        "ts": "1437153133.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "and uh, see what happens",
+        "ts": "1437153142.000003"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "yeah! You mean just run it on an M device or try adding some M capabilities and see what happens?",
+        "ts": "1437153185.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "first let’s try it on M and see what happens",
+        "ts": "1437153212.000005"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "can do",
+        "ts": "1437153222.000006"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "<@U0261PCRQ>: <@U026PHQ3J> : Do we have an extra goldmember nfc chip?",
+        "ts": "1437153428.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "fyi, in my last commit I changed GA to dryRun so that my crashes wouldn’t show. I’ve added a card to trello that we’ll need to turn it back on eventually",
+        "ts": "1437155230.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I just pushed some changes to a new branch multiartist. My plan is to use an ArtistKey enum that can be passed around to display the correct info on each screen. The branch currently has changes in place to set a case to confirmed and to check that state. I’m going to dynamically form the keys using the enum.toString() value and the original keys with special cases written in for Skrillex.",
+        "ts": "1437164984.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I want to move this forward in other places like the NFC selection screen, but want to run it by you guys first.",
+        "ts": "1437165008.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "any thoughts <@U026PHQ3J> <@U051P3FPY> ? ^^",
+        "ts": "1437165015.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what does enum.toString() return?",
+        "ts": "1437165045.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "in the case of SKRILLEX it returns SKRILLEX",
+        "ts": "1437165078.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha.",
+        "ts": "1437165083.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is there some way to basically move the heft of adding a new artist (to the wrapper app) into \/res?",
+        "ts": "1437165117.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "using this model, that is",
+        "ts": "1437165124.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so like, object that contains Enum has other stuff to help the app get info about whats what",
+        "ts": "1437165146.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i realize that sounds like an 80 year old man wrote it",
+        "ts": "1437165166.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "in some places I’ve started using array-list in resources to store things like nfc_payload and nfc_default_action, but I’m not sure that we can do the same with assets (I don’t know how to make lists of drawables like that, for instance)",
+        "ts": "1437165217.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "with this approach though, we could make almost all of the changes in this one class",
+        "ts": "1437165229.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok thats cool.",
+        "ts": "1437165238.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I know the res from string stuff was deprecated (and maybe even removed by now)",
+        "ts": "1437165253.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and it always struck me as sloppy anyway",
+        "ts": "1437165258.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "and horribly inefficient",
+        "ts": "1437165268.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1437165272.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i wonder tho if some K\/V stuff might help, too",
+        "ts": "1437165292.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "-THIS ISNT A DEMAND-",
+        "ts": "1437165297.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it more or less moves the problem rather than solving it",
+        "ts": "1437165322.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which should probably be Android's slogan",
+        "ts": "1437165340.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "lol",
+        "ts": "1437165351.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can hear you and you didn't lol even a little bit",
+        "ts": "1437165362.000031"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "[preface: i’m ignorant to the current setup and complexities] if we get an AritstKey unique to an artist case, could we set up resources to be a naming convention of [ArtistKey]_headerImage_xdpi.png etc and pull accordingly? using a strict naming convention? and then a new artist is adding the resources with said bundle?",
+        "ts": "1437165366.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "doesn't work that way",
+        "ts": "1437165375.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\"filename.png\" gets auto-compiled into a global object called R",
+        "ts": "1437165394.000034"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "delete delete delete",
+        "ts": "1437165394.000035"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "gotcha",
+        "ts": "1437165397.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "becomes R.drawable.filename",
+        "ts": "1437165402.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "= &lt;some assigned int&gt;",
+        "ts": "1437165412.000038"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ah, ok",
+        "ts": "1437165415.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1437165418.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so basically any attempt to genericize using that structure is a dead end or just moves the complexity somewhere else",
+        "ts": "1437165439.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: I’m going to move this a little farther and plan on talking through it at 3 for improvements?",
+        "ts": "1437165484.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sounds great.",
+        "ts": "1437165491.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'd like to do a pull of changes at some point",
+        "ts": "1437165506.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since I'm breaking the wallpaper",
+        "ts": "1437165510.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well, its currently broken",
+        "ts": "1437165516.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but ill backfix it I SWEAR",
+        "ts": "1437165531.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "mmhmm",
+        "ts": "1437165540.000048"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thanks for the invite kat, you have exposed that i invited no one to the one i created :simple_smile:",
+        "ts": "1437165584.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "lool whoops",
+        "ts": "1437165636.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "paint.setStrokeCap(Paint.Cap.BUTT);",
+        "ts": "1437166417.000051",
+        "reactions": [
+            {
+                "name": "peach",
+                "users": [
+                    "U06DFL7BP",
+                    "U02AUNA0P",
+                    "U051P3FPY",
+                    "U0261PCRQ"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm a child.",
+        "ts": "1437166419.000052"
+    },
+    {
+        "user": "U026PHQ3J",
+        "purpose": "Inaccurately Named Since 2015!",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "text": "<@U026PHQ3J|evans> set the channel purpose: Inaccurately Named Since 2015!",
+        "ts": "1437166510.000053"
+    }
+]

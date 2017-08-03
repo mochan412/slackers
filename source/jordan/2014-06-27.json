@@ -1,0 +1,708 @@
+[
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "<http:\/\/www.ebay.com\/itm\/like\/350862851275?lpid=82&amp;item=350862851275&amp;lgeo=1&amp;vectorid=229466>",
+        "attachments": [
+            {
+                "service_name": "eBay",
+                "title": "VINTAGE MICHAEL JORDAN WALL-BALL BASKETBALL HOOP OHIO ART NERF",
+                "title_link": "http:\/\/www.ebay.com\/itm\/like\/350862851275?lpid=82&item=350862851275&lgeo=1&vectorid=229466",
+                "text": "Used in Sports Mem, Cards &amp; Fan Shop, Fan Apparel &amp; Souvenirs, Basketball-NBA",
+                "fallback": "eBay: VINTAGE MICHAEL JORDAN WALL-BALL BASKETBALL HOOP OHIO ART NERF",
+                "from_url": "http:\/\/www.ebay.com\/itm\/like\/350862851275?lpid=82&item=350862851275&lgeo=1&vectorid=229466",
+                "thumb_url": "http:\/\/galleryplus.ebayimg.com\/ws\/web\/350862851275_1_0_1\/1000x1000.jpg",
+                "thumb_width": 80,
+                "thumb_height": 80,
+                "id": 1
+            }
+        ],
+        "ts": "1403890504.000080"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403892218.000082"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403892236.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "<http:\/\/usatftw.files.wordpress.com\/2013\/12\/featurejordanbeard.jpg>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/usatftw.files.wordpress.com\/2013\/12\/featurejordanbeard.jpg",
+                "fallback": "600x875px image",
+                "image_url": "http:\/\/usatftw.files.wordpress.com\/2013\/12\/featurejordanbeard.jpg",
+                "image_width": 600,
+                "image_height": 875,
+                "image_bytes": 109222,
+                "id": 1
+            }
+        ],
+        "ts": "1403892321.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "hah!",
+        "ts": "1403892423.000086"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "<http:\/\/d2tq98mqfjyz2l.cloudfront.net\/image_cache\/140002159796992.jpg>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/d2tq98mqfjyz2l.cloudfront.net\/image_cache\/140002159796992.jpg",
+                "fallback": "500x326px image",
+                "image_url": "http:\/\/d2tq98mqfjyz2l.cloudfront.net\/image_cache\/140002159796992.jpg",
+                "image_width": 500,
+                "image_height": 326,
+                "image_bytes": 22424,
+                "id": 1
+            }
+        ],
+        "ts": "1403892459.000087"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403892501.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "this thread is making me sad for humanity",
+        "ts": "1403892516.000090"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "<@U02AUNA0P>: here's the first part of where messaging is at:",
+        "ts": "1403894822.000091"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403894844.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "there are a couple more screens to come, but this should get you started",
+        "ts": "1403894867.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "lemme know if you want to talk through it",
+        "ts": "1403894875.000094"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "looks good, i think i got a handle on it, but i'll let you know if i have any questions.",
+        "ts": "1403894924.000095"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "cool - thanks",
+        "ts": "1403894932.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "<@U02613K0X>: hey - Im not sure if you're this far into hipchat, but in terms of attaching media - what are the limits there? Just photos, or other file types as well?",
+        "ts": "1403895366.000097"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "good question. i haven’t experimented with any of it yet, but hipchat doesn’t expose a nice api for file upload like slack does. it looks like we’re going to be manually uploading the files and putting them in messages, so i’d say only photos are safe to assume at this point.",
+        "ts": "1403895763.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "okay cool",
+        "ts": "1403895856.000099"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "<@U02AUNA0P>: hey - here's an updated version of Connection. I think this covers off on most of the high-level functionality, but I'm sure there are things we'll find as we move along.",
+        "ts": "1403903553.000100"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403903575.000101"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "<@U0260V4K1> got it, thanks dude",
+        "ts": "1403903639.000102"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "as always - let me know if things are unclear or if it just seems like I've got something wrong",
+        "ts": "1403903665.000103"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "this is really meant to be a first stab at all this - mostly so that we at least have a jumping off point for major points of functionality",
+        "ts": "1403903692.000104"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "everything looks pretty clear from what i see, but i'll let you know for sure.",
+        "ts": "1403903817.000105"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "hey there team",
+        "ts": "1403911075.000106"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i'm sitting at the big table, and looked at the metal board in front of me",
+        "ts": "1403911089.000107"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "there's an old sticky note that i want to put into action for this jordan project",
+        "ts": "1403911103.000108"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that is - process shots, every day",
+        "ts": "1403911111.000109"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "in the sticky note, we mention taking a screenshot of builds as they form, which i think is still a great idea",
+        "ts": "1403911137.000110"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but i want to work to document this project from start to finish.",
+        "ts": "1403911150.000111"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and i should have <!channel> -ed this",
+        "ts": "1403911162.000112"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "point being - as all of us are building stuff in whatever programs we're using, please try to take a screen cap of whatever it is",
+        "ts": "1403911216.000113"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "super rough\/ugly initial stuff",
+        "ts": "1403911227.000114"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "and then we can do a time lapse like the IOTAS mini-apt!",
+        "ts": "1403911232.000115"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "prototypes",
+        "ts": "1403911233.000116"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "etc",
+        "ts": "1403911236.000117"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "exactly mary",
+        "ts": "1403911241.000118"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "in the spirit of this",
+        "ts": "1403911430.000119"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I've been working on interfaces for managing profiles today",
+        "ts": "1403911449.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "and one of those things is how a user changes colorways",
+        "ts": "1403911478.000121"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Im not sure I've got it yet",
+        "ts": "1403911486.000122"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "but",
+        "ts": "1403911487.000123"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403911496.000124"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "something I've been thinking about is whether this unfolds from the avatar when the user goes into edit mode on the profile page",
+        "ts": "1403911526.000125"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "but Im not sure if anyone else already has some ideas around this",
+        "ts": "1403911541.000126"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "interesting",
+        "ts": "1403911551.000127"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i've not thought about the interface to change, but have an example of when you do hit the button to change something how it should transition\/switch",
+        "ts": "1403911582.000128"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i think the only question i'd raise in the above is how central we want this to be to one's profile",
+        "ts": "1403911616.000129"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "putting aside that none of that is fully designed out, the hierarchical priority is a bit off balance IMHO",
+        "ts": "1403911650.000130"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that gamma is nearly as central as danny is",
+        "ts": "1403911661.000131"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "where are you thinking would be another place to put it",
+        "ts": "1403911665.000132"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "unless this is 'edit' mode",
+        "ts": "1403911667.000133"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "yeah",
+        "ts": "1403911674.000134"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "this is edit mode",
+        "ts": "1403911676.000135"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "at which point, i'd be more into it overall",
+        "ts": "1403911682.000136"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "it unfolds from the icon when you're in edit mode",
+        "ts": "1403911694.000137"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that's interesting",
+        "ts": "1403911701.000138"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i follow now",
+        "ts": "1403911704.000139"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i like that we centralize it on profile",
+        "ts": "1403911715.000140"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "vs. settings",
+        "ts": "1403911717.000141"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "to reinforce 'this is you'",
+        "ts": "1403911727.000142"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "yeah - FWIW Im trying to get rid of \"settings\"",
+        "ts": "1403911728.000143"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "gotcha",
+        "ts": "1403911734.000144"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "because we don't really have any",
+        "ts": "1403911742.000145"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "aside from things like push notifications, i don't know what we need",
+        "ts": "1403911745.000146"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "and I guess this is IA question - I've always favored putting those in the notifications system menu",
+        "ts": "1403911778.000147"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "right",
+        "ts": "1403911786.000148"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "but - thats a whole other thing",
+        "ts": "1403911790.000149"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sure",
+        "ts": "1403911793.000150"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "well - i'm a believer in subtraction",
+        "ts": "1403911803.000151"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and if we can work our way out of a section, esp something like settings, i'm in",
+        "ts": "1403911827.000152"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "so any way - this is what I've been working on: I want to tie colorway choices to the profile - because it seems distinctly personal",
+        "ts": "1403911829.000153"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "agreed",
+        "ts": "1403911835.000154"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "designwise, we can figure out what it looks like",
+        "ts": "1403911844.000155"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but i'm in for edit mode",
+        "ts": "1403911849.000156"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<@U026PLK4S>, <@U02AUNA0P> ?",
+        "ts": "1403911855.000157"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "and we need to be able show which one someone is using, and what colors are in the other colorways",
+        "ts": "1403911903.000158"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "and do it in a semi-compact way",
+        "ts": "1403911911.000159"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "sorry, i was working on something",
+        "ts": "1403911918.000160"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "which is a lot of words to say: Im 100% not married to this solution",
+        "ts": "1403911926.000161"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "in fact, I'm sharing because Im not married to it",
+        "ts": "1403911938.000162"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "mostly wondering if anyone else has thought about this at all",
+        "ts": "1403911954.000163"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i've thought about it in the sense that it shoudl go in profile",
+        "ts": "1403911969.000164"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "how we implement, not sure",
+        "ts": "1403911978.000165"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but i like it as concept",
+        "ts": "1403911987.000166"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and think it stays true to the philosophy we're going for",
+        "ts": "1403911995.000167"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i know we've tried to eliminate \"settings\" before, and have gotten close",
+        "ts": "1403912038.000168"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "haven't really thought too much about it, just always assumed themes \/ colorways would be in settings, because it skins your app, not your profile.",
+        "ts": "1403912078.000169"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i was wondering about notification settings, log-out, etc",
+        "ts": "1403912101.000170"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "version number, and i'm sure i'm forgetting something",
+        "ts": "1403912120.000171"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "don't think we'll need things like TOU and Privacy",
+        "ts": "1403912141.000172"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "side bar: because I'm sitting with dave\/scott\/jenny discussing data modeling: here's the current state of where I'm at with UX\/IA",
+        "ts": "1403912211.000173"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403912235.000174"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "any way - back to the other thing",
+        "ts": "1403912286.000175"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "its for sure worth enumerating what might go into \"settings\" so we can make the call as to whether we need it or not",
+        "ts": "1403912323.000176"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "the one thing that is nice about it, is that if something comes up, there will be a place for it",
+        "ts": "1403912370.000177"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I think it's a point of discussion, but for my part, I like colorways as part of profile because even though it's skinning the entire app, it's purpose is personal expression",
+        "ts": "1403912372.000178"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "thats a good point",
+        "ts": "1403912379.000179"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "thinking about \"submit your own\" vroom",
+        "ts": "1403912381.000180"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "like a client request that comes in later",
+        "ts": "1403912389.000181"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sorry - back in this",
+        "ts": "1403912389.000182"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "reading",
+        "ts": "1403912391.000183"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "both are solid points for sure.",
+        "ts": "1403912442.000184"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "yeah, i'm not married to it being in settings.",
+        "ts": "1403912457.000185"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "agree with matt that we probably will need a way to have settings overall",
+        "ts": "1403912463.000186"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "the one use case in my head, is quickly showing someone else all the colorways. like over your shoulder",
+        "ts": "1403912507.000187"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "agreed",
+        "ts": "1403912521.000188"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "maybe it can be in both places...?",
+        "ts": "1403912530.000189"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I think it's probably cleaner - no matter it where it goes - to have it in one place",
+        "ts": "1403912563.000190"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403914103.000191"
+    }
+]

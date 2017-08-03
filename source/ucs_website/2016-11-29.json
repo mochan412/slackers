@@ -1,0 +1,313 @@
+[
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U02613K0X> <@U02E3CRMA> do either of you have context as to where the code for the wearables report lives and where it got deployed to? i’ve looked in our reference docs and around on the aws instances but i’m not finding anything",
+        "ts": "1480440490.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I don't know off the top of my head. Do we still have a dns entry for it? Then we could see what box it's on",
+        "ts": "1480441671.000003"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "no we don’t unfortunately and it’s not in the old docs anywhere :confused:",
+        "ts": "1480441750.000004"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i looked on the aws instances 1 and 3, and didn’t see anything obvious (assuming it’s under <http:\/\/wearables.uncorkedstudios.com|wearables.uncorkedstudios.com> in \/var\/www)",
+        "ts": "1480441794.000005"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "checking 2 shortly but i have to turn it back on because i stopped it a while back",
+        "ts": "1480441813.000006"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "also haven’t found the code in bitbucket or github anywhere",
+        "ts": "1480441824.000007"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yeah it’s not on instance 2 either",
+        "ts": "1480441988.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Joshua might know ",
+        "ts": "1480441997.000009"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "asked him already",
+        "ts": "1480442003.000010"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "he does not remember either unfortunately",
+        "ts": "1480442013.000011"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "where it has been hosted at this point is not such a huge deal, more so just need to figure out where the code is, then we just wrap it into the static site efforts and put it on netlify",
+        "edited": {
+            "user": "U167FL70V",
+            "ts": "1480442206.000000"
+        },
+        "ts": "1480442183.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'll have a look too when I'm out of this meeting in a min",
+        "ts": "1480442238.000014"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "awesome :thanks:",
+        "ts": "1480442261.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<https:\/\/bitbucket.org\/uncorkedstudios\/wearables-report> ?",
+        "attachments": [
+            {
+                "title": "Bitbucket",
+                "title_link": "https:\/\/bitbucket.org\/uncorkedstudios\/wearables-report",
+                "text": "Bitbucket is a Git and Mercurial based source code management and collaboration solution in the cloud. Bitbucket is simple and powerful, enables code collaboration for teams, works with the tools that matter, and is easy to use even for teams new to Git and Mercurial",
+                "fallback": "Bitbucket",
+                "from_url": "https:\/\/bitbucket.org\/uncorkedstudios\/wearables-report",
+                "service_icon": "https:\/\/d301sr5gafysq2.cloudfront.net\/f8aba1964071\/img\/bitbucket_avatar\/192\/bitbucket.png",
+                "service_name": "Bitbucket",
+                "id": 1
+            }
+        ],
+        "ts": "1480442308.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Grunt rsync task looks like it was running on Media Temple",
+        "ts": "1480442389.000018"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ahh nice thank you!",
+        "ts": "1480442400.000019"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "oh i couldn’t find it because i don’t have access",
+        "ts": "1480442412.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "bitbucket user leia_sefkin should have admin access to all the uncorkedstudios repos?",
+        "ts": "1480442466.000021"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "that’s my user name, and what i’m signed in under but i’m not able to see it yeah",
+        "ts": "1480442515.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I signed back in as jenny@uncorked and now I can't see it either though hmmm",
+        "ts": "1480442632.000023"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "bitbucket is so weird sometimes...",
+        "ts": "1480442696.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ok try now!",
+        "ts": "1480442706.000025"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yay! i can see it",
+        "ts": "1480442720.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Our usual admin group wasn't on that repo for some reason. Too old maybe? I added it",
+        "ts": "1480442734.000027"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "huh how strange",
+        "ts": "1480442761.000028"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks for digging in to it!",
+        "ts": "1480442766.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah np!",
+        "ts": "1480442780.000030"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "hey this is a long shot but do you <@U02613K0X> remember what version of node the wearables report runs in?  npm install errors out at gifsicle and idk what that means",
+        "ts": "1480449375.000031"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "alternately, are you able to npm install this repo",
+        "ts": "1480449388.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I never worked on the project :grimacing:",
+        "ts": "1480449398.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I can try the npm install after lunch tho!",
+        "ts": "1480449431.000034"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "yeah... i figured it was a long shot.  all the commits are from gaston",
+        "ts": "1480449509.000035"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "nvm got it - grunt-contrib-imagemin had to pull 0.8.1",
+        "ts": "1480449886.000036"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i hate npm sometimes",
+        "ts": "1480449897.000037"
+    },
+    {
+        "user": "U06DFL7BP",
+        "text": "<@U06DFL7BP|charlesv> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1480455741.000038"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<http:\/\/flaremailapp.com|flaremailapp.com> is down, I think that should go in here?",
+        "ts": "1480455750.000040"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "no dns entry and it has been down for ages. i think <@U1S5GKTHQ> will be resurrecting as part of his efforts on the app",
+        "ts": "1480456226.000041"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U06DFL7BP> i just created <#C395V3DE3|flaremail> as more ppl will be joining the project soon",
+        "ts": "1480456822.000042"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "is there also a `<http:\/\/flare.ly|flare.ly>` domain somewhere? i see references to it",
+        "ts": "1480456927.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "whoa are we reviving flaremail?",
+        "ts": "1480457136.000044"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "yup",
+        "ts": "1480457175.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0260V1BX> it was only ever dead for a while when apple booted us out of the store for not updating ",
+        "ts": "1480460174.000046"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "re:  wearables report, it's deployed to netlify now:  <http:\/\/wearables-report.netlify.com\/>",
+        "attachments": [
+            {
+                "service_name": "Uncorked Studios",
+                "title": "Tracking Progress: Wearables In Review",
+                "title_link": "http:\/\/wearables-report.netlify.com\/",
+                "text": "A research project on and health- and activity-tracking wearable devices by Uncorked Studios, a digital product agency in Portland, Oregon.",
+                "fallback": "Uncorked Studios: Tracking Progress: Wearables In Review",
+                "from_url": "http:\/\/wearables-report.netlify.com\/",
+                "service_icon": "http:\/\/wearables-report.netlify.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1480462245.000047"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "<@U1S5GKTHQ> we can make this a subdomain of <http:\/\/uncorkedstudios.com|uncorkedstudios.com>, yes?",
+        "ts": "1480462288.000049"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "super fast turnaround thanks <@U243UT96G>!",
+        "ts": "1480463801.000050"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "we can make it a subdomain super easily",
+        "ts": "1480463822.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Thanks all for help on wearables. Sorry I missed all this earlier!",
+        "ts": "1480479682.000052"
+    }
+]

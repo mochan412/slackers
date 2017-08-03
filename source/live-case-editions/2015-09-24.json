@@ -1,0 +1,314 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel>: workshop standup here?",
+        "ts": "1443114647.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I moved the places tiles to JobService and it seems to be working well. I also got the weather requests for androidify into JobService and Ill be testing that today. Right now I'm trying to fix the zoomed in tile decoder region issue where the black band shows up.",
+        "ts": "1443114698.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Revised moments wireframes. Finished onboarding design considerations for places and androidfy.",
+        "ts": "1443114953.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I did setup for Drive integration including updating the login flow. It’s moving slowly; some of the code I had written a couple months ago appeared to be outdated. I was previously using the Plus portion of GooglePS, and then found Identity. I added that in, but it seems to work the same as it did before :confused: \nToday, I want to create a Drive folder and show the thumbnails of images in the folder. I’m thinking that we’ll sync a local db with the Drive folder, but I’m not sure when or how frequently . Will probably use a JobService to get there, but not today.",
+        "ts": "1443115076.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02F9CXTL>: would love to see what you came up with for places+androidify onboarding",
+        "ts": "1443115108.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0261PCRQ>: Yep! Posted to Basecamp",
+        "ts": "1443115230.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for some reason, when the image is decoded (the one thats zoomed the whole way in) if the \"bottom\" of the rect is the same as the pixel height of the image, it fails. If its exactly one pixel smaller, it doesn't fail.",
+        "ts": "1443115472.000008"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F0B90GLHW\/image896881198.png|Image896881198.png>",
+        "file": {
+            "id": "F0B90GLHW",
+            "created": 1443115482,
+            "timestamp": 1443115482,
+            "name": "Image896881198.png",
+            "title": "Image896881198.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 34237,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0B90GLHW\/image896881198.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0B90GLHW\/download\/image896881198.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B90GLHW-8393a27d3c\/image896881198_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B90GLHW-8393a27d3c\/image896881198_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B90GLHW-8393a27d3c\/image896881198_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B90GLHW-8393a27d3c\/image896881198_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B90GLHW-8393a27d3c\/image896881198_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B90GLHW-8393a27d3c\/image896881198_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B90GLHW-8393a27d3c\/image896881198_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B90GLHW-8393a27d3c\/image896881198_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 2048,
+            "original_h": 2048,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F0B90GLHW\/image896881198.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0B90GLHW-9a05b27501",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1443115487.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's nothing weird about the image that I can see.",
+        "ts": "1443115497.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F9CXTL>: could you let me know if the above image is _truly_ 2048x2048?",
+        "ts": "1443115792.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like, is it reporting that size, but actually there's a missing row of pixels or some shit?",
+        "ts": "1443115815.000012"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F9CXTL|jstrand> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jstrand\/F0B8ZDDK8\/screen_shot_2015-09-24_at_10.32.01_am.png|Screen Shot 2015-09-24 at 10.32.01 AM.png>",
+        "file": {
+            "id": "F0B8ZDDK8",
+            "created": 1443115957,
+            "timestamp": 1443115957,
+            "name": "Screen Shot 2015-09-24 at 10.32.01 AM.png",
+            "title": "Screen Shot 2015-09-24 at 10.32.01 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02F9CXTL",
+            "editable": false,
+            "size": 35162,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0B8ZDDK8\/screen_shot_2015-09-24_at_10.32.01_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0B8ZDDK8\/download\/screen_shot_2015-09-24_at_10.32.01_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B8ZDDK8-00f6ed27f6\/screen_shot_2015-09-24_at_10.32.01_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B8ZDDK8-00f6ed27f6\/screen_shot_2015-09-24_at_10.32.01_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B8ZDDK8-00f6ed27f6\/screen_shot_2015-09-24_at_10.32.01_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 341,
+            "thumb_360_h": 168,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B8ZDDK8-00f6ed27f6\/screen_shot_2015-09-24_at_10.32.01_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 341,
+            "original_h": 168,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jstrand\/F0B8ZDDK8\/screen_shot_2015-09-24_at_10.32.01_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0B8ZDDK8-2f522dbb9b",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F9CXTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jstrand",
+        "bot_id": null,
+        "ts": "1443115959.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U026PHQ3J>: :thumbsup:",
+        "ts": "1443116049.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "blah",
+        "ts": "1443120113.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fixed! Sort of!",
+        "ts": "1443121235.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "luckily i think we need to cut the google copyright off the bottom of the image",
+        "ts": "1443121244.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which means I can lop 30px off the bottom",
+        "ts": "1443121253.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ergo, the bottom pixel error is no longer an issue",
+        "ts": "1443121262.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "SORT OF",
+        "ts": "1443121265.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "created a general purpose broadcast receiver for jobs that should trigger visible changes in the wallpaper while the user is looking",
+        "ts": "1443125218.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "seems to be working with Places already, but need to check with the wallpaper out of view",
+        "ts": "1443125236.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok that test passed",
+        "ts": "1443125534.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(will call in to workshop check in - drugs are kickin’ in so should be p good",
+        "ts": "1443125942.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1443125982.000025"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0261PCRQ|kat> uploaded a file: <https:\/\/uncorked.slack.com\/files\/kat\/F0B9LPKHU\/screen_shot_2015-09-24_at_3.54.24_pm.png|@evans what class name is too long?>",
+        "file": {
+            "id": "F0B9LPKHU",
+            "created": 1443135302,
+            "timestamp": 1443135302,
+            "name": "Screen Shot 2015-09-24 at 3.54.24 PM.png",
+            "title": "@evans what class name is too long?",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0261PCRQ",
+            "editable": false,
+            "size": 8322,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0B9LPKHU\/screen_shot_2015-09-24_at_3.54.24_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0B9LPKHU\/download\/screen_shot_2015-09-24_at_3.54.24_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B9LPKHU-d37208d2bf\/screen_shot_2015-09-24_at_3.54.24_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B9LPKHU-d37208d2bf\/screen_shot_2015-09-24_at_3.54.24_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B9LPKHU-d37208d2bf\/screen_shot_2015-09-24_at_3.54.24_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 20,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0B9LPKHU-d37208d2bf\/screen_shot_2015-09-24_at_3.54.24_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 397,
+            "original_h": 22,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/kat\/F0B9LPKHU\/screen_shot_2015-09-24_at_3.54.24_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0B9LPKHU-70104ec693",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0261PCRQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "kat",
+        "bot_id": null,
+        "ts": "1443135303.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "this should probably be a Job anyway, already a fail :stuck_out_tongue:",
+        "ts": "1443135425.000027"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "MomentsDriveImageRetrievalIntentServiceMonitoringServiceCallback",
+        "ts": "1443135427.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "loooooool",
+        "ts": "1443135830.000029"
+    }
+]

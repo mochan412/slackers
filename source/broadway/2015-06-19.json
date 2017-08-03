@@ -1,0 +1,817 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<@U026103R3> sounds good, I'll get on those right away",
+        "ts": "1434713626.000047"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "Just a heads up, I committed some code that was cleaned up with the lint cleaner",
+        "ts": "1434731752.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8TTPU>: kat is going to take on UI bugs so you can focus on low-level stuff",
+        "ts": "1434733200.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Thanks <@U026PHQ3J>, working on the crashlytics issues I know of right now (which should fix the moto x issue, although I haven't been able to reproduce it)",
+        "ts": "1434733261.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are you running with my stuff from last night?",
+        "ts": "1434733289.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause that may have inadvertently fixed it",
+        "ts": "1434733295.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "also <@U02F8TTPU> just assigned a crash on boot reported on the Asus Nexus 7 running 4.4.4 that would be great to take a look at next",
+        "ts": "1434733324.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ok, I know we have a nexus 7 in house so hopefully that will be easier to debug",
+        "ts": "1434733354.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I have all the latest code running, and I just made a fix that may have fixed it as well",
+        "ts": "1434733375.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool cool, thanks",
+        "ts": "1434733498.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think <@U026PHQ3J> fix should fix the Moto X issue, in crashlytics it looks like it hit OOM on the splash screen animation",
+        "ts": "1434733539.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ah gotcha",
+        "ts": "1434733555.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "And I just fixed the other new one, a race condition in the sound callback",
+        "ts": "1434733570.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool",
+        "ts": "1434733576.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i think then we should send out a new build soon",
+        "ts": "1434733581.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "so that active theory can test out the destroy stuff",
+        "ts": "1434733590.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "sounds good, going to check on this nexus 7 issue (didn't see a crashlytics for that one, so it might be another OOM)",
+        "ts": "1434733720.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ah ok thanks, yea let's try to get a handle on the nexus 7 crash before that builds goes out",
+        "ts": "1434733750.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yep, easily reproducible, it OOMs on the animation",
+        "ts": "1434733894.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "can we do something similar to evans fix for the animation on samsung devices?",
+        "ts": "1434733923.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do we have proper resolution frames for the animation",
+        "ts": "1434733989.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or are they all xxx",
+        "ts": "1434733993.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I moved them to drawable-nodpi to try to help with scaling issues",
+        "ts": "1434734011.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "which may have caused it",
+        "ts": "1434734025.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026103R3> we need those to be recut",
+        "ts": "1434734026.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for the proper resolutions",
+        "ts": "1434734033.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its 78 frames that stay in memory for the duration of the animation",
+        "ts": "1434734076.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok, question. we have a new GIF from the client so the animation is \"bigger\". if i give that to trent do you think he can extract the frames and cut them at the sizes needed?",
+        "ts": "1434734102.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "or would someone else be able to extract those frames so he can cut them?",
+        "ts": "1434734112.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hand it to trent if he has capacity",
+        "ts": "1434734128.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I can extract the frames, it's a simple task in photoshop and I did it for the current resolutions",
+        "ts": "1434734149.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "don't bother",
+        "ts": "1434734153.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes to trent, i'll quickly let him know what we're asking for so he knows whats up when he gets it",
+        "ts": "1434734179.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool",
+        "ts": "1434734186.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "keeping the frames in xxxhdpi actually would have scaled them for lower dpi screens. by putting them in nodpi, they won’t get scaled for any phone screen",
+        "ts": "1434735372.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "also, I have a motox if you guys need it",
+        "ts": "1434735389.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> yeah. still at 78 frames, i feel better with them being sized to the neighborhood that they should be in",
+        "ts": "1434735494.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "especially since samsung likes to hold on to the memory",
+        "ts": "1434735503.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "for sure. they could also be cropped significantly",
+        "ts": "1434735514.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I moved the frames back to drawable-xxxhdpi and it didn't crash the nexus 7 (although scaling looks pretty rough)",
+        "ts": "1434735534.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "trent is on it. he'll be sending to <@U0261PCRQ> when done",
+        "ts": "1434735552.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "1.7 is distributing on Fabric. Release notes:\nFix animation issues affecting Samsung, Nexus 7, Moto X, Note 4\nDestroy WebGL on back\nAbout UI improved\nRemoved Debug from nav drawer",
+        "ts": "1434736727.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think the Moto X has a new issue... just saw a crash come through in android.view.GLES20Canvas.drawBitmap",
+        "ts": "1434737249.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Hopefully scaling image assets to proper resolutions can help with that, cause it looks pretty worrisome",
+        "ts": "1434737267.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok we should definitely test that out when we have them in, kat it's great that you have a moto x :simple_smile:",
+        "ts": "1434737610.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "mine is first gen though, it sounds like theirs might be second gen",
+        "ts": "1434737832.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "better than nothing, but not quite the same. the pixel density on mine is much lower.",
+        "ts": "1434737855.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok gotcha",
+        "ts": "1434737882.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: while you're in the results cards, it looks like they aren't being displayed in the correct order but i'm wondering if that has to do with the info active theory is sending us. how are those being displayed?",
+        "ts": "1434738255.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Cards are being displayed in the order received... if we want a specific sorting order, we can do that, but it needs to apply to all results equally",
+        "ts": "1434738311.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "It looks like they should have a different order based on experience, for example block party and paper planes have the map at the top whereas the others have a text card at the top. Is it possible active theory could send them in a different order?",
+        "ts": "1434738410.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yes, if active theory sends them in a different order, they should be displayed in that order",
+        "ts": "1434738423.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool",
+        "ts": "1434738432.000053"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "pushing some more lint things unless there are any objections",
+        "ts": "1434738807.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: are the images in the gallery also pulled in from the .zip file we get from active theory?",
+        "ts": "1434739271.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "No, the images in the gallery are loaded directly from the URLs given in the JSON from AT",
+        "ts": "1434739352.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Volley caches them for us, but they have to load from the web for the first time",
+        "ts": "1434739369.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Ah ok, but AT is still controlling those images",
+        "ts": "1434739370.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Yes indeed",
+        "ts": "1434739378.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome thank you",
+        "ts": "1434739716.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "also looks like QA reopened this issue - <https:\/\/droga5.atlassian.net\/browse\/DTHDR-85>",
+        "ts": "1434739725.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: do you think that could be related to the splash animation as well?",
+        "ts": "1434739739.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Yes, I believe that's the crash I saw earlier... it's crashing in android.view.GLES20Canvas.drawBitmap for drawing a bitmap that had already been recycled",
+        "ts": "1434739824.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "So we need another fix for the animation that works on Motos, I suspect they're doing the early 4.1 strategy of selectively disabling some graphics features to save CPU when load is high",
+        "ts": "1434739900.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "gotcha",
+        "edited": {
+            "user": "U026103R3",
+            "ts": "1434739931.000000"
+        },
+        "ts": "1434739925.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Maybe newer animation assets with scaling will make it possible to display that animation",
+        "ts": "1434740013.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are the scaled frames in place?",
+        "ts": "1434740029.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if not, lets ignore this until they are.",
+        "ts": "1434740039.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0261PCRQ> I believe got the assets not too long ago",
+        "ts": "1434740042.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I did",
+        "ts": "1434740050.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "putting them in now",
+        "ts": "1434740058.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool.",
+        "ts": "1434740061.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I have to rename a lot of stuff so it’s taking longer",
+        "ts": "1434740065.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if this remains, ill hop on it.",
+        "ts": "1434740068.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool",
+        "ts": "1434740081.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "regarding recycled bitmap thing: I think I know whats happening. Will fix. Seems onCreate isn't getting called if you background\/foreground the app",
+        "ts": "1434740559.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "even tho its been finished",
+        "ts": "1434740567.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ahhhh, thanks <@U026PHQ3J>",
+        "ts": "1434740581.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its actually kind of weird.",
+        "ts": "1434740596.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "weird. None of my experiences make it past flappydroid at the moment",
+        "ts": "1434741195.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no errors or anything",
+        "ts": "1434741200.000082"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "I can get past him for all of the experiences except for the planes one",
+        "ts": "1434741235.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The flappy android probably has the same issues as the G animation, since it's been converted to native",
+        "ts": "1434741397.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah, but this is N6 and nothing getting logged",
+        "ts": "1434741525.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "that's weird, also on the nexus 6 but i'm able to play all of the experiences",
+        "ts": "1434742000.000086"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "and they are loading pretty quickly",
+        "ts": "1434742004.000087"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "I’m on the Galaxy S6 and I can’t get past flappy android now at all",
+        "ts": "1434742137.000088"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m putting in the new assets now",
+        "ts": "1434743002.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026103R3>: did they ever send over comps for the actual size of this splash animation?",
+        "ts": "1434743177.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<@U0261PCRQ> All I know of is the first image in <https:\/\/droga5.atlassian.net\/browse\/DTHDR-327>",
+        "ts": "1434743821.000091"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> i'd love it if we had the right sizes",
+        "ts": "1434743823.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02F8TTPU>: that’s the bug I’m working on. I assumed that first image was a screenshot of what it looked like before?",
+        "ts": "1434743858.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "when I put in the new assets it looked *tiny*",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1434743914.000000"
+        },
+        "ts": "1434743908.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I scaled it up a bit though and the latest is on master",
+        "ts": "1434743982.000096"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "we're going to have those assets recut so we can get the right sizes in, but will leave as is with the one size in now",
+        "ts": "1434744103.000097"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sounds like it shouldn't affect the fix needed for the motorola crashes",
+        "ts": "1434744114.000098"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh i think it will fix the motorola crash",
+        "ts": "1434744296.000099"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just not the note4 one",
+        "ts": "1434744302.000100"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "oh, hmm",
+        "ts": "1434744308.000101"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(they're actually semi-related but not really)",
+        "ts": "1434744311.000102"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "those assets should already get resized to the correct size by the system",
+        "ts": "1434744366.000103"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I got the paths in the logs to match for unzipping and opening the experiences, but it still was not finding anything at the path of the experiences when trying to run them. I took a look at the list of files in existance at this point and instead of being named with their long type identifiers (like in the logs), there were folders named with the actual experience names.",
+        "ts": "1434748696.000104"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "does not really make sense to me",
+        "ts": "1434748701.000105"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1434749204.000106"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i see the same thing",
+        "ts": "1434749206.000107"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so planes is 5",
+        "ts": "1434749217.000108"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "apparently?",
+        "ts": "1434749219.000109"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "line 112",
+        "ts": "1434749322.000110"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in webfragment",
+        "ts": "1434749325.000111"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what happens if you change that to getIdentifier()",
+        "ts": "1434749348.000112"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that will fix it",
+        "ts": "1434749432.000113"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just tried it",
+        "ts": "1434749435.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but I don’t understand how they’re getting in those locations to begin with",
+        "ts": "1434749507.000115"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Fix is pushed",
+        "ts": "1434749518.000116"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what locations?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1434749543.000000"
+        },
+        "ts": "1434749521.000117"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "unpackZip in ZipUtils takes a long for the folder",
+        "ts": "1434749555.000119"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "line 25?",
+        "ts": "1434749577.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah",
+        "ts": "1434749606.000121"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i love watching the Note4 bugs go down",
+        "ts": "1434755124.000122"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Woo hoo! ",
+        "ts": "1434755518.000123"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<https:\/\/c2.staticflickr.com\/8\/7350\/8732394280_b085036ffb.jpg>",
+        "attachments": [
+            {
+                "fallback": "229x301px image",
+                "image_url": "https:\/\/c2.staticflickr.com\/8\/7350\/8732394280_b085036ffb.jpg",
+                "image_width": 229,
+                "image_height": 301,
+                "image_bytes": 38858,
+                "from_url": "https:\/\/c2.staticflickr.com\/8\/7350\/8732394280_b085036ffb.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1434755519.000124"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "1.9 distributed via Fabric and the build is uploading to Abby",
+        "ts": "1434756292.000126"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Awesome thanks Marissa ",
+        "ts": "1434756457.000127"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I'll let you know when I get it ",
+        "ts": "1434756508.000128"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "it's 29MB so I might need to resend it as a google drive",
+        "ts": "1434756525.000129"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Looks like it just came through via email ",
+        "ts": "1434756538.000130"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "good good",
+        "ts": "1434756547.000131"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Oh hmm, can you send me a link just in case I have trouble sending it off?",
+        "ts": "1434756556.000132"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I guess if you were able to send it to me though I shouldn't have an issue ",
+        "ts": "1434756578.000133"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I believe <https:\/\/betas.to\/pdnDvbNN> is the link to the most recent build available on fabric (for those who are in fabric) if I should upload it somewhere else, I can do that too",
+        "ts": "1434756643.000134"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Should be all good. If needed I out use Dropbox. Thanks again!",
+        "ts": "1434756721.000135"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Can use* ",
+        "ts": "1434756729.000136"
+    }
+]

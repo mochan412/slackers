@@ -1,0 +1,416 @@
+[
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’m looking into MLC-148, not sure on repro-ing the issues Adam brought up, but will watch for steps\/clarification after Bonnie’s response",
+        "ts": "1489595851.024346"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "was thinking we could zoom in more on the preview images if that scratches the itch",
+        "ts": "1489595920.046210"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "just set the preview to always use the lowest zoom setting? Currently the preview shows the zoom level that was set with the chip’s prefs, using the lat\/lng\/zoom that comes back on the PlacesOrderService",
+        "ts": "1489596206.137081"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i mean in-app preview",
+        "ts": "1489596230.145007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which i think is what he’s talking about",
+        "ts": "1489596236.146875"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I think that’s where I am confused, by in-app preview, this is the whole settings page with the match my location, style selector, etc. right?\nThat preview image is off the chip’s, placesNfcData.getZoomLevel, whereas the full screen preview after hitting the setWallpaper is off the user’s current zoom level, which is why it is zoomed in and a different location",
+        "ts": "1489596409.202709"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "before hitting set wallpaper",
+        "ts": "1489596434.210257"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the one in the header",
+        "ts": "1489596438.211320"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think thats what he’s talking about",
+        "ts": "1489596445.213806"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we should probably just zoom it in more and send a screenshot and see if thats what he’s talking about",
+        "ts": "1489596463.220132"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Sure. I can screenshot that and email that over then for clarification on that thread",
+        "ts": "1489596594.262427"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "dope",
+        "ts": "1489596610.267368"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "one quick question about that, for the static case image, where is that location coming from? It doesn’t match the lat\/lng that comes back down for the nfcParams",
+        "ts": "1489597622.597753"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It should match, but I dunno. We get the actual image asset they printed to the case ",
+        "ts": "1489597930.695663"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Was just trying to anticipate what the answer would be for why the physical case image has that zoom but user’s set zoom would differ, :shrug:?",
+        "ts": "1489598090.745552"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "The issue Bonnie found is weird, that may take me a little more to dig into, it seems like something is failing and falling back but definitely will need to fix it",
+        "ts": "1489598172.771030"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "on a separate thread, for Earth meeting my virtual sticky notes:\n* Gifs to play the weather\/wave\/stormfront animations on double tap, updating with some user-set frequency throughout the day\n* National Parks themed one (I would shell out the $40 for this one), with the whole forest green theme and yellow lettering) so we can appreciate them one last time before they are clear cut. But a mix of facts\/images\/time lapse focusing on different parks, maybe adding in some cool nearest parks to you for some of the smaller ones (maybe only triggered when the user is outside of their normal ‘home’ geofence (just set a geofence bounds at like 50 miles and trigger when they move to a new spot to do a mix of Places+Earth reactive features\n* Pre-emptive ‘plus1’ for the time-series progression of Earth images for spots around the world",
+        "ts": "1489598568.895639",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks for tackling this places stuff - I'm getting caught up now :upside_down_face: ",
+        "ts": "1489598717.943418"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "any clues in the BR adam shared re: map not loading (im not able to repro this yet)",
+        "ts": "1489599287.125848"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "can i ask a dumb question",
+        "ts": "1489599632.235143"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "why are we using Gifs for earth? rather than higher fidelity animations? or webp or",
+        "ts": "1489599652.241292"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we’re not using anything yet (this just brainstorming) - but good call, we’ll want to optimize",
+        "ts": "1489599975.339952"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> Not sure about Adams BR, haven't repo-d either, not sure how to get logs, those could help.\n@charles, not sure about wallpaper's support in the other formats yet, would be cool to expand it out. Definitely once we get into an actual full android app, the world's our oyester",
+        "ts": "1489600008.350299"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U06DFL7BP> gif here should be shorthand for \"animations that aren't video\"",
+        "ts": "1489600450.487006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":thumbsup:",
+        "ts": "1489600495.501207"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> <@U3ZFEAPSP> i thought they had previously supplied assets for preview? am i crazy \/ making this up? if not, ill request",
+        "ts": "1489600640.545512"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i thought our friend dan hooked us up with these before, but maybe that was just the style icons",
+        "ts": "1489600720.570814"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "He had geenrated all the preview images ",
+        "ts": "1489600746.578847"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay so sounds like adam just forgot that?",
+        "ts": "1489600799.596014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Possibly. They load over the network now, but are cached ",
+        "ts": "1489600898.628009"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I'm not sure about the previous version, this one we just had it for the style icons. It would speed the load when going between tiles. If we don't care about the added memory to our app size",
+        "ts": "1489601116.695059"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<https:\/\/www.google.co.in\/edu\/expeditions\/?_ga=1.131777039.1861266507.1486755969#get-started>",
+        "attachments": [
+            {
+                "title": "Google Expeditions",
+                "title_link": "https:\/\/www.google.co.in\/edu\/expeditions\/?_ga=1.131777039.1861266507.1486755969#get-started",
+                "text": "Imagine exploring coral reefs or the surface of Mars in an afternoon. With Expeditions, teachers can take students on immersive, virtual journeys.",
+                "fallback": "Google Expeditions",
+                "from_url": "https:\/\/www.google.co.in\/edu\/expeditions\/?_ga=1.131777039.1861266507.1486755969#get-started",
+                "service_icon": "https:\/\/www.google.co.in\/edu\/expeditions\/static\/videos\/favicon.ico",
+                "service_name": "google.co.in",
+                "id": 1
+            }
+        ],
+        "ts": "1489603331.355774"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<https:\/\/developers.google.com\/tango\/>",
+        "attachments": [
+            {
+                "service_name": "Google Developers",
+                "title": "Tango  |  Google Developers",
+                "title_link": "https:\/\/developers.google.com\/tango\/",
+                "text": "Build apps that understand space and motion in high fidelity on Tango devices.",
+                "fallback": "Google Developers: Tango  |  Google Developers",
+                "from_url": "https:\/\/developers.google.com\/tango\/",
+                "service_icon": "https:\/\/developers.google.com\/_static\/923008107c\/images\/touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1489603603.437054"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<https:\/\/geoguessr.com\/>",
+        "attachments": [
+            {
+                "title": "GeoGuessr - Let's explore the world!",
+                "title_link": "https:\/\/geoguessr.com\/",
+                "text": "GeoGuessr is a geography game which takes you on a journey around the world and challenges your ability to recognize your surroundings.",
+                "fallback": "GeoGuessr - Let's explore the world!",
+                "from_url": "https:\/\/geoguessr.com\/",
+                "thumb_url": "https:\/\/www.geoguessr.com\/Static\/Dist\/img\/app-icons\/facebook.e850021e.png",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "service_icon": "https:\/\/geoguessr.com\/Static\/Dist\/img\/app-icons\/geoguessr-57.6da001c2.png",
+                "service_name": "geoguessr.com",
+                "id": 1
+            }
+        ],
+        "ts": "1489603976.545740"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> FYI - i shared the orientation fix build with adam+bonnie and asked if we should include in the upcoming places build - no word yet, but ill keep you posted on that one as you move places forward!",
+        "ts": "1489608417.765279"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Great! Sounds good, still working through with engineering visit, be in about 2:20 to pick back up on the places work",
+        "ts": "1489608724.848424"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "appreciate the heads up - once you’re back in work mode, please let us know if\/how the team can help move this forward with you!",
+        "ts": "1489608911.898356"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> could you do me a favor and update the systems health doc with N\/A for any empty fields where a reading is not applicable? need this for bonnie today :slightly_smiling_face:",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1489611402.000000"
+        },
+        "ts": "1489611345.561856"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also summer - (per bonnie) we will need the columns updated for the previous OS release as well, since we did not test these use cases last time (columns F, G, H)",
+        "ts": "1489611667.650719"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sure thing!",
+        "ts": "1489611670.651522"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> so if the use case\/test is identical we can pull over from previous systems health - otherwise, please run on store build + update accordingly",
+        "ts": "1489612073.758648"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/docs.google.com\/spreadsheets\/d\/11lV9Y3Q4TrT4qadEAteDhwmX3NngxqIhgUqQlpveOWE\/edit#gid=790914112> this is from the update pushed in feb in case theres overlap",
+        "ts": "1489612092.763363"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(but doesnt look like it)",
+        "ts": "1489612109.767931"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Cool, thanks!",
+        "ts": "1489612114.769008",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "One option that I wanted to float here before sending on that thread, would we want to think about writing the style-tiles to disk, so we could just lazy load it once and the cache would last longer than the Glide cache. This wouldn’t increase the baked-in apk size, the downsides are it would increase memory footprint for just Places users and would add an extra layer of complexity+additional permission for disk access.\nJust another option.",
+        "ts": "1489614943.413323"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> any thoughts there?",
+        "ts": "1489615057.436596"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> I noticed that Bonnie added the two other screen-off use cases we chatted about last week back to the Systems Health doc. I’m not sure what to do about these as there is no way of recreating the exact steps necessary to get a report. \nWe could write some code to force trigger the app to download a new map tile, but that wouldn’t be reporting on how the app would actually behave out in the wild. How should I proceed? #BonnieProblems",
+        "ts": "1489616580.726122"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Hmmmm can you give me a bit more details on why we were able to previous test but can't anymore? ",
+        "ts": "1489620886.397466"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and I'll push back for sure",
+        "ts": "1489620895.398601"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m not entirely sure how we were able to do this previously…",
+        "thread_ts": "1489620970.408368",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1489623294.705002"
+            },
+            {
+                "user": "U2H61EJSG",
+                "ts": "1489624488.841513"
+            },
+            {
+                "user": "U13GPDA1F",
+                "ts": "1489625092.904552"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1489620970.408368"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "updated the release-69 branch with the fix to MLC-148.\n\nStill need decision on displaying preview from Adam\/Bonnie:\n option 1) leave as is, using the zoom that comes from the \/orders\/ endpoint\n option 2) set a fixed zoom level (zoom=14) but still dynamically load tile (screenshot I had sent)\n option 3) bake images into .apk tied to each individual style (we would want to do this for only the new styles as there would be 12 images at ~115kb an image &lt;possibly less if we wanted to have a smaller size for just that preview&gt;, so in all about about a MB but for legacy combos we would probably want to stick with dynamically loading as that could be 6styles * 37 colors ~=25MB)",
+        "ts": "1489623152.688432"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "also, was digging through Adam’s bugreport, not seeing anything jump out other than the absence of a tilerequest being made at all even though there are other livecase tags present (all the activity &amp; dynamic zoom logs are being recorded), so <@U026PHQ3J> if you have any hunches let me know, otherwise I could make a special Adam-build with a bunch of extra logging to see if he can still repro with his device",
+        "ts": "1489623281.703540"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh i assumed you did it previously - lets discuss at standup tomorrow then!",
+        "thread_ts": "1489620970.408368",
+        "parent_user_id": "U2H61EJSG",
+        "ts": "1489623294.705002"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I vaguely remember this use case from when I first started, but I can't recall how we actually captured the necessary info :\/",
+        "thread_ts": "1489620970.408368",
+        "parent_user_id": "U2H61EJSG",
+        "ts": "1489624488.841513"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we'll figure it out! I know it was a while ago but at least we know (somehow) it can be done!",
+        "thread_ts": "1489620970.408368",
+        "parent_user_id": "U2H61EJSG",
+        "ts": "1489625092.904552"
+    }
+]

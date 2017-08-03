@@ -1,0 +1,618 @@
+[
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "see you guys at the walnut table!",
+        "ts": "1440694902.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<https:\/\/docs.google.com\/spreadsheets\/d\/1diChSPOe48a4yF4ZzzWElz9k8ooB6nakcGe2QE0AQyg\/edit#gid=0>",
+        "ts": "1440695416.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> ^^^",
+        "ts": "1440695423.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "gracias",
+        "ts": "1440695882.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1> do we really need to 1020x1020 and a 1100x1100 size for each project image?",
+        "ts": "1440696240.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "(we have to treat each image as potentially a press image)",
+        "ts": "1440696272.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "update: full-screen slideshow definitely not working on mobile yet",
+        "ts": "1440696294.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hey <@U0260V1BX> will you put those smaller images on the NAS when you have a minute?",
+        "ts": "1440697183.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "oh yes i just did!",
+        "ts": "1440697194.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh yay",
+        "ts": "1440697198.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thank you!",
+        "ts": "1440697204.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "clients\/Magnum Foundation\/ADPP\/Design\/Assets\/ADPP Assets - Web Res",
+        "ts": "1440697206.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0260V1BX> did you resize them all to 2040px wide?",
+        "ts": "1440698413.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "One of the new sizes requested is 2200x2200",
+        "ts": "1440698433.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":confused:",
+        "ts": "1440698439.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": ":disappointed:",
+        "ts": "1440698846.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "well it wont take me long to re-resize",
+        "ts": "1440698868.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "is 2200 the biggest?",
+        "ts": "1440698878.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yep",
+        "ts": "1440698886.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok",
+        "ts": "1440698889.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "sorry about this! unfortunate and unforeseen :confused:",
+        "ts": "1440698901.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "no worries!",
+        "ts": "1440698919.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thank you!",
+        "ts": "1440699013.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hey <@U02618EV1> <@U02HAJ6JF> here is an example of the updated data model for slide and press images:",
+        "ts": "1440700489.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "```{\"urls\":\n\t{\n\t\"0_@1x\":\"<https:\/\/ucs-magnum.s3.amazonaws.com\/933329b2-8574-49b5-9f99-a8c53ca463c8\/project-slidecc17f20ac18b477880f9f48a86632670-1100x733>\",\n\t\"0_@2x\":\"<https:\/\/ucs-magnum.s3.amazonaws.com\/933329b2-8574-49b5-9f99-a8c53ca463c8\/project-slide1c16d2d6983b4a6b91319123a3d03fd9-2200x1466>\",\n\t\"1_@1x\":\"<https:\/\/ucs-magnum.s3.amazonaws.com\/933329b2-8574-49b5-9f99-a8c53ca463c8\/project-slide9e7b322741bf4ff2a519c09d0ec9ee0b-960x640>\",\n\t\"1_@2x\":\"<https:\/\/ucs-magnum.s3.amazonaws.com\/933329b2-8574-49b5-9f99-a8c53ca463c8\/project-slide28ffd5ac3db84f20aaf9e3e54e588fb9-1920x1280>\",\n\t\"2_@1x\":\"<https:\/\/ucs-magnum.s3.amazonaws.com\/933329b2-8574-49b5-9f99-a8c53ca463c8\/project-slide7985c6a5bc304f2bb6ae07a7f1294d90-700x466>\",\n\t\"2_@2x\":\"<https:\/\/ucs-magnum.s3.amazonaws.com\/933329b2-8574-49b5-9f99-a8c53ca463c8\/project-slide049492865a82404f8c9012cd3ead6139-1400x933>\",\n\t\"3_@1x\":\"<https:\/\/ucs-magnum.s3.amazonaws.com\/933329b2-8574-49b5-9f99-a8c53ca463c8\/project-slide7f9638028bf04dc2a441c77814c21490-500x333>\",\n\t\"3_@2x\":\"<https:\/\/ucs-magnum.s3.amazonaws.com\/933329b2-8574-49b5-9f99-a8c53ca463c8\/project-slide24cd28e806224a9194a46a5825f876ce-1000x666>\",\n\t\"original\":\"<https:\/\/ucs-magnum.s3.amazonaws.com\/933329b2-8574-49b5-9f99-a8c53ca463c8\/project-slide4fe95810bd114f4b827b1a3e18fdc1fa-AL_FOUZAN_-_2015.03.17_-_01.jpg>\"\n\t},\n\t\"aspect\":1.500682128240109,\n\t\"alt_text\":\"Sadiya burns her garbage.\"\n}```",
+        "ts": "1440700493.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02613K0X> clients\/Magnum Foundation\/ADPP\/Design\/Assets\/ADPP Assets - 2200",
+        "ts": "1440700501.000027",
+        "reactions": [
+            {
+                "name": "confetti_ball",
+                "users": [
+                    "U02613K0X"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome. Thanks!",
+        "ts": "1440700502.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "fantastic. thanks jenny!",
+        "ts": "1440700543.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "just realized there will be a fifth size for the thumbnail, but you get the idea",
+        "ts": "1440700597.000030"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "<!channel> i’ve got marce’s chromebook if anyone else wants to look at the site on it",
+        "ts": "1440701337.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "sweet",
+        "ts": "1440701363.000032"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "at the walnut table",
+        "ts": "1440701401.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<!channel> I am going to update a single project-- Omar Iman's, it's the shortest-- with new image sizes and using quality set to 85 instead of 100. If we feel good about that we can proceed with updating all the project images and author headshots. This means Live, Love, Refugee will break on the staging site until we update the front end to use the data model for the new images. Sound like a decent plan?",
+        "ts": "1440704049.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks!",
+        "ts": "1440704084.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": ":thumbsup::skin-tone-2:",
+        "ts": "1440704193.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Okay Live, Love, Refugee and Omar's headshot have been updated with new image sizes and quality. Whenever <@U02618EV1> or <@U02HAJ6JF> has time we can update the template to use new image size properties (on staging or just locally, if we don't want to break the other projects on staging) and we can take a look to make sure everything is fine and we're okay with the quality before moving ahead with uploading the rest of the images.",
+        "ts": "1440705215.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Could be good for reference:  <http:\/\/api.staging.arabdocphotography.org\/v1\/project\/20d8d962-b209-4dcf-a7fd-5f4a36910009>",
+        "ts": "1440705283.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "i’ll take a stab at it",
+        "ts": "1440705386.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "thanks jenny!",
+        "ts": "1440705390.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hm, images arent showing up <@U02613K0X>",
+        "ts": "1440705874.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "for Live Love Refugee",
+        "ts": "1440705879.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "on staging? should be soon. still plugging it in",
+        "ts": "1440705905.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ah ok sorry",
+        "ts": "1440705910.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "<!channel>: <http:\/\/staging.arabdocphotography.org\/project\/live-love-refugee> might want to hard refresh",
+        "attachments": [
+            {
+                "title": "Live, Love, Refugee | Arab Documentary Photography Program",
+                "title_link": "http:\/\/staging.arabdocphotography.org\/project\/live-love-refugee",
+                "text": "My project “Live, Love, Refugee” approaches the mental state of Syrian refugees in Lebanon, asking how relations and dreams are affected by conflict and ...",
+                "fallback": "Live, Love, Refugee | Arab Documentary Photography Program",
+                "from_url": "http:\/\/staging.arabdocphotography.org\/project\/live-love-refugee",
+                "id": 1
+            }
+        ],
+        "ts": "1440707413.000045"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F09PD729X\/slack_for_ios_upload.png|Slack for iOS Upload>",
+        "file": {
+            "id": "F09PD729X",
+            "created": 1440708018,
+            "timestamp": 1440708018,
+            "name": "Slack for iOS Upload.png",
+            "title": "Slack for iOS Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 173242,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F09PD729X\/slack_for_ios_upload.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F09PD729X\/download\/slack_for_ios_upload.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F09PD729X-17d6a52746\/slack_for_ios_upload_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F09PD729X-17d6a52746\/slack_for_ios_upload_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F09PD729X-17d6a52746\/slack_for_ios_upload_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F09PD729X-17d6a52746\/slack_for_ios_upload_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F09PD729X-17d6a52746\/slack_for_ios_upload_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F09PD729X-17d6a52746\/slack_for_ios_upload_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F09PD729X-17d6a52746\/slack_for_ios_upload_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 720,
+            "image_exif_rotation": 1,
+            "original_w": 1024,
+            "original_h": 768,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F09PD729X\/slack_for_ios_upload.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F09PD729X-fdb1ab1bde",
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1440708021.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": " Wowza... From my iPad",
+        "ts": "1440708022.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "uh oh. headshot on its way",
+        "ts": "1440708083.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "(Jenny don’t kill me for this) The Live, Love, Refugee may be a tough one to check that 85% quality. All of his photos are pretty grainy….",
+        "ts": "1440708475.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "haha",
+        "ts": "1440708484.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "do you know what i mean?",
+        "ts": "1440708495.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "totally",
+        "ts": "1440708502.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "(i think 85% is gonna be fine though)",
+        "ts": "1440708513.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "What would work best? I can do all or part of another one?",
+        "ts": "1440708521.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Uploading is much less of a pain now with the CMS updates and Melissa's resized files",
+        "ts": "1440708562.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i’d say Moroccan Amazons, only because I’m most familiar with those photos",
+        "ts": "1440708575.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "like, if it degraded, that would be the project where I could most likely tell",
+        "ts": "1440708601.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "k i'm on it",
+        "ts": "1440708610.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "gaston - will you check those widths before matt puts it to the test?",
+        "ts": "1440708736.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "On a quick meeting now. Will do that ASAP",
+        "ts": "1440708859.000061"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026PLK4S> updated! <http:\/\/staging.arabdocphotography.org\/project\/tales-of-moroccan-amazons>",
+        "attachments": [
+            {
+                "title": "Tales of Moroccan Amazons | Arab Documentary Photography Program",
+                "title_link": "http:\/\/staging.arabdocphotography.org\/project\/tales-of-moroccan-amazons",
+                "text": "At a time when equestrian traditions are vanishing globally, Morocco is keeping up with its own forms, particularly with the “Fantasia” or ...",
+                "fallback": "Tales of Moroccan Amazons | Arab Documentary Photography Program",
+                "from_url": "http:\/\/staging.arabdocphotography.org\/project\/tales-of-moroccan-amazons",
+                "id": 1
+            }
+        ],
+        "ts": "1440709125.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "headshots up. still unsure about the breakpoints where these images switch-out.",
+        "ts": "1440709274.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "currently their max-widths are the widths on the spreadsheet",
+        "ts": "1440709348.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Jenny, those images look great. If they are degrading, I can’t see it.",
+        "ts": "1440709436.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "on my big monitor, and on the retina",
+        "ts": "1440709448.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I did notice that once the browser width grows past 2200px, the images disappear",
+        "ts": "1440709485.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "ahh yep…i guess i didn’t put in a default image",
+        "ts": "1440709524.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02HAJ6JF> Just checked it and it does look like we’re switching images correctly.",
+        "ts": "1440709714.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "cool. the headshot def needs some different breakpoints",
+        "ts": "1440709759.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "but that should be no biggie",
+        "ts": "1440709775.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Hey <@U02613K0X> when will I be able to re upload images?",
+        "ts": "1440712296.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "(No rush, just wondering)",
+        "ts": "1440712315.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Whenever I get an okay from <@U02HAJ6JF> and <@U02618EV1> that we're all good with the data model and sizes. Then I'll need to push the server and CMS updates I made to staging and we'll be ready.",
+        "ts": "1440712355.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02HAJ6JF> <@U02618EV1> are the new image data model and the new sizes working correctly?",
+        "ts": "1440712377.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I've got an okay from joshua. <@U02618EV1>?",
+        "ts": "1440712487.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Seems like everything is working great.",
+        "ts": "1440712792.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "gaston, i just put some crazy sizes for the headshot…so maybe we should look at that???",
+        "ts": "1440713038.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0260V1BX> should be good to go to update images. Live, Love, Refugee and Tales of Moroccan Amazons are already set, so all that needs to be done is uploading new images for slides and artists of the other 7 projects",
+        "ts": "1440713866.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks jenny!",
+        "ts": "1440714070.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "OH MY GOD ITS SO MUCH FASTER.",
+        "ts": "1440714206.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I know right. It's actually reasonable now",
+        "ts": "1440714225.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":thumbsup:",
+        "ts": "1440714506.000084"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "let’s meet at the walnut table!",
+        "ts": "1440716386.000085"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "\"Mobile - Slideshow splits when iPhone is turned to landscape mode” :white_check_mark:",
+        "ts": "1440719528.000086"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<!channel> all projects are re-uploaded to the CMS. It appears that the press images are not displaying on the homepage or on nav rollovers",
+        "ts": "1440724895.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "I'll check that. Thanks Melissa!",
+        "ts": "1440725655.000088"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<!channel>: I emailed Magnum president Susan Meiselas earlier today on unrelated stuff, BUT...\n\nShe reiterated how happy their whole team has been on this. While there's no details yet, she also added \"we'd love to talk with you about some more projects coming up\".\n\nSo as usual, very nice work! ",
+        "ts": "1440731190.000089"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":thumbsup:",
+        "ts": "1440732803.000090"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "not surprised at all - you guys did great stuff",
+        "ts": "1440733364.000091"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Agreed",
+        "ts": "1440733952.000092"
+    }
+]

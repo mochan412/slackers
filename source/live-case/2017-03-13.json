@@ -1,0 +1,634 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F4HHPMNBU\/unnamed__2_.jpg|unnamed (2).jpg> and commented: <@U3ZFEAPSP> issue is appearing in photos with this image",
+        "file": {
+            "id": "F4HHPMNBU",
+            "created": 1489423699,
+            "timestamp": 1489423699,
+            "name": "unnamed (2).jpg",
+            "title": "unnamed (2).jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 1737277,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4HHPMNBU\/unnamed__2_.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4HHPMNBU\/download\/unnamed__2_.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4HHPMNBU-e664ed72f3\/unnamed__2__64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4HHPMNBU-e664ed72f3\/unnamed__2__80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4HHPMNBU-e664ed72f3\/unnamed__2__360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 240,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4HHPMNBU-e664ed72f3\/unnamed__2__480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 320,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4HHPMNBU-e664ed72f3\/unnamed__2__160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4HHPMNBU-e664ed72f3\/unnamed__2__720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 480,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4HHPMNBU-e664ed72f3\/unnamed__2__960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 640,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4HHPMNBU-e664ed72f3\/unnamed__2__1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 683,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 3712,
+            "original_h": 5568,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4HHPMNBU\/unnamed__2_.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4HHPMNBU-faccda5ba4",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4HFPRQ11",
+                "created": 1489423699,
+                "timestamp": 1489423699,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "<@U3ZFEAPSP> issue is appearing in photos with this image"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1489423704.264141"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "_The EXIF has a post-process orientation of 90 degrees CW, which explains why the in-app display is “correct” but the wallpaper display (and file manager display) is “wrong”_",
+        "ts": "1489423748.277113"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so sounds like they are still experiencing the issue with images (assuming there are others from the email) though we identified the original cause",
+        "ts": "1489423808.294780"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(just in case evans is looking) team was unable to repro the issue with the image above (which is likely why we thougth this was no longer an issue) but midori was able to see this happen on some photos from her camera",
+        "ts": "1489426449.082810"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "some but not all, which is strange -but a lead!",
+        "ts": "1489426459.086089"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "",
+        "bot_id": "B03H06881",
+        "attachments": [
+            {
+                "fallback": "giphy: http:\/\/giphy.com\/gifs\/1990s-2000s-blues-clues-ejP8zPAorQPYs",
+                "image_url": "http:\/\/media0.giphy.com\/media\/ejP8zPAorQPYs\/giphy-downsized.gif",
+                "image_width": 500,
+                "image_height": 380,
+                "image_bytes": 443582,
+                "is_animated": true,
+                "title": "a clue a clue",
+                "footer": "Posted using \/giphy",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/1990s-2000s-blues-clues-ejP8zPAorQPYs"
+            }
+        ],
+        "ts": "1489426520.103601"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'd bet taking a photo then rotating it in editor would do it",
+        "ts": "1489426535.107907"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "If it's an exif rotate issue",
+        "ts": "1489426547.111327"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Alternatively we could prep some files with that flag",
+        "ts": "1489426599.126086"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we're found some that are causing the issue, so hopefully we can use those to diagnose but yeah, that's a good idea ",
+        "ts": "1489426861.199683"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> <@U3ZFEAPSP> if you have any info that might be helpful to pass along to adam let me know",
+        "ts": "1489429867.063280"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey <@U3ZFEAPSP> - do you have access to the NFC chip apk? we need to add a new places style ID to it (ZfhgOHTKWd7mksHS) for testers",
+        "ts": "1489430064.118650"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or <@U1ZG1UCAK> <@U2H61EJSG>",
+        "ts": "1489430137.138957"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "should just label “Places New Style” and add to existing",
+        "ts": "1489430168.147454"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "For the photo, nothing for Adam yet, now with these reproducible images from midori I’m going to debug the Bitmap loader code to see how it is being parsed in to see what\/where things could be going off.\nFor the chip apk, I could probably track it down, is it in the goldmember repo? Is that time-sensitive for testing? I’ll try to get an answer for the photo issue first",
+        "ts": "1489430305.185038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ>",
+        "ts": "1489430361.199805"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "NFC apk would be great to have today if possible - as testing is happening",
+        "ts": "1489430363.200224"
+    },
+    {
+        "user": "U0261PCRQ",
+        "inviter": "U026PHQ3J",
+        "text": "<@U0261PCRQ|kat> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1489430365.201268"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not sure where that lives but i bet <@U0261PCRQ> can help us track down (kat - we need to update the NFC chip APK with a new id)",
+        "ts": "1489430419.216696"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "let me see",
+        "ts": "1489430635.277189"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "not quite sure where that lives rn either",
+        "ts": "1489430642.279073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Github",
+        "ts": "1489430649.280721"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I don't have laptop wifi ",
+        "ts": "1489430667.285746"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<https:\/\/github.com\/UncorkedStudios\/NfcChip>",
+        "ts": "1489430675.287936",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’d have gotten there eventually :wink:",
+        "ts": "1489430677.288441"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sweet",
+        "ts": "1489430684.290451"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":raised_hands::skin-tone-2::raised_hands::skin-tone-2::raised_hands::skin-tone-2::raised_hands::skin-tone-2:",
+        "ts": "1489430685.290511"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank youuuuuu!",
+        "ts": "1489430694.293261"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Midori’s got it! why am I here again?",
+        "ts": "1489430694.293319"
+    },
+    {
+        "user": "U0261PCRQ",
+        "text": "<@U0261PCRQ|kat> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1489430742.306481"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> I can look into adding the places style id to NfcChip",
+        "ts": "1489430761.311622",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "THANK YOU! super appreciate it!",
+        "ts": "1489430780.316201"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "hmmm, it looks like the remote NfcChip repo is not up-to-date :grimacing:",
+        "ts": "1489432095.678260"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Pushing over phone bridge ",
+        "ts": "1489432283.726209"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Might be a while ",
+        "ts": "1489432288.727503"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Also I don't know what state its in",
+        "ts": "1489432297.729654"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks <@U026PHQ3J> and sorry to bug ya while you’re ooo",
+        "ts": "1489432307.732157"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Pushed ",
+        "ts": "1489432668.822862",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            },
+            {
+                "name": "thanks",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Not sure what state its in ",
+        "ts": "1489432681.826291"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "good news. I think I got a fix for what appears to be the image rotation issue, at least it works on the images we were able to repro from midori’s gallery and should work for any image that is relying on its exif tags for orientation.\n\nHere’s the run, we weren’t able to repro with that existing image because of what midori suspected, that slack is cleaning up the image tags when we re-download it from here, which is why we were having trouble repro-ing on the original pic.\nThe reason the image is displaying alright when in the Moments preview display and on the Crop Activity is that we use Glide there and pass the file and so Glide is able to properly orient the image.\nIn the BitmapRegionLoader right now, that code handles getting an orientation in degrees passed to it, but all of the calling methods to it call the default method (which always passes in 0 for rotation). \n\nAnywho, the fix is fortunately a low-risk patch because the BitmapRegionLoader is already built to handle this, and also fortunately, the fix comes in when reading the file (so it doesn’t matter for these existing users if the data is already loaded into one of the LiveCase databases. <@U13GPDA1F> would you want me to cut a build + branch with this?",
+        "ts": "1489438811.405456"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F4HPRS960\/nfcchip-03_13_17-v1.apk|NfcChip-03_13_17-v1.apk> and commented: Also, here's an NfcChip apk. <@U13GPDA1F> can you take a look?",
+        "file": {
+            "id": "F4HPRS960",
+            "created": 1489439503,
+            "timestamp": 1489439503,
+            "name": "NfcChip-03_13_17-v1.apk",
+            "title": "NfcChip-03_13_17-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 1607651,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4HPRS960\/nfcchip-03_13_17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4HPRS960\/download\/nfcchip-03_13_17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F4HPRS960\/nfcchip-03_13_17-v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4HPRS960-925d47b67a",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4H2QHYQ1",
+                "created": 1489439503,
+                "timestamp": 1489439503,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Also, here's an NfcChip apk. <@U13GPDA1F> can you take a look?"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1489439503.574965"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "the new places style works, I’m more unsure of other entries",
+        "ts": "1489439548.585274"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> - yes, would be great to get a debug. also could you or <@U1ZG1UCAK> share some of the images that we can repro \/ test with?",
+        "ts": "1489440557.808259"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> will look at this now! thank you!",
+        "ts": "1489440568.810661"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": ":thumbsup:",
+        "ts": "1489440580.813369"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> question that popped up from testing the new places style update: there is no indication that the user’s legacy styles (case or selected wallpaper) are different from the new styles or each other. so for example - talkback for what they are testing says “vivid” for both though one is blue and one is pink",
+        "ts": "1489440720.845147"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is there a way we can have talkback indicate both style + color for those legacy styles?",
+        "ts": "1489440751.851867"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so like “blue vivid” or “pink vivid” (or whatever it is)",
+        "ts": "1489440776.857194"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "alternatively we could maybe label them as case image \/ legacy wallpaper",
+        "ts": "1489440809.864490"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but the goal would be to differentiate some way for talkback users",
+        "ts": "1489440831.869258"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so just let me know your thoughts \/ what you think the best approach is given whats possible",
+        "ts": "1489440857.874537"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<https:\/\/drive.google.com\/open?id=0B_JWq5iYq6D-WVlRMnFTa01JdWM>",
+        "ts": "1489440874.878200"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "^^ a folder with exif images",
+        "ts": "1489440903.884327"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Looking into that, we could do that, it would take about an hour to dev then testing through it. We may want review for the legacy colors that could be selected, like ‘“Primitive Modern 10”’ and ‘Brick 09’\nThere are no translations for the colorways either, just as a heads up,  (but as far as impact goes, I would be interested in how many legacy Places users have talkback + foreign language to see if we should worry about the turnaround time for translations…)",
+        "ts": "1489441159.937564"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill take that build first, but then, yeah would be great to dive into the places things",
+        "ts": "1489441266.959776"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and noted on localization :+1: i figured that might be the case",
+        "ts": "1489441285.963780"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "cool,I’ll get the image rotation build first, I should have that ready in under 30min.",
+        "ts": "1489441394.985813"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<https:\/\/beradrian.wordpress.com\/2008\/11\/14\/rotate-exif-images\/>",
+        "attachments": [
+            {
+                "service_name": "adrian's blog",
+                "service_url": "http:\/\/beradrian.wordpress.com",
+                "title": "Rotate images according to EXIF info",
+                "title_link": "https:\/\/beradrian.wordpress.com\/2008\/11\/14\/rotate-exif-images\/",
+                "author_name": "Adrian",
+                "author_link": "https:\/\/beradrian.wordpress.com\/author\/beradrian\/",
+                "thumb_url": "https:\/\/beradrian.files.wordpress.com\/2008\/11\/orientation1.gif?fit=200%2C150",
+                "thumb_width": 200,
+                "thumb_height": 102,
+                "text": "Some digital cameras are saving the snapshots as they come from the digital sensor. This is not always the right orientation, as it depends on how you are position the camera. Luckily, the cameras are also saving the orientation information into EXIF attributes.\nThis article is about how to automatically correct this from your Java program, using jMagick. The entire thing can be break down into pieces: read an EXIF attribute for an image, interpret the value and transform the image.\nThe EXIF attribute responsible for orientation is called Orientation. According to EXIF specs, the values have the following meaning:\n1 = The 0th row is at the visual top of the image, and the 0th column is the visual left-hand side.\n2 = The 0th row is at the visual top of the image, and the 0th column is the visual right-hand side.\n3 = The 0th row is at the visual bottom of the image, and the 0th column is the visual right-hand side.\n4 = The 0th row is at the visual bottom of the image, and the 0th column is the visual left-hand side.\n5 = The 0th row is the visual left-hand side of the image, and the 0th column is the visual top.\n6 = The 0th row is the visual right-hand side of the image, and the 0th column is the visual top.\n7 = The 0th row is the visual right-hand side of the image, and the 0th column is the visual bottom.\n8 = The 0th row is the visual left-hand side of the image, and the 0th column is the visual bottom.\nOther = reserved\nGraphically, this looks like this: .\nThe following transformations should be applied to the images according to their EXIF orientation:Autorotate EXIF images\nwhere the possible operations are horizontal or vertical flip and rotate (90 degrees clockwise or counter-clockwise and 180 degrees). The corresponding jMagick methods from MagickImage class are:\nhorizontal flip &ndash; flip()\nvertical flip &ndash; flop()\nrotate 180 degrees &ndash; rotate(180)\nrotate 90 degrees clockwise &ndash; rotate(90)\nrotate 90 degrees counter-clockwise &ndash; rotate(-90)\nNow let&rsquo;s translate everything into Java code:\n\nprivate static final int NONE = 0;\nprivate static final int HORIZONTAL = 1;\nprivate static final int VERTICAL = 2;\nprivate static final int[][] OPERATIONS = new int[][] {\n        new int[] {  0, NONE},\n        new int[] {  0, HORIZONTAL},\n        new int[] {180, NONE},\n        new int[] {  0, VERTICAL},\n        new int[] { 90, HORIZONTAL},\n        new int[] { 90, NONE},\n        new int[] {-90, HORIZONTAL},\n        new int[] {-90, NONE},\n        };\n\npublic static MagickImage rotateByExif(MagickImage image) throws MagickException {\n    try {\n        int index = Integer.parseInt(image.getImageAttribute(\"EXIF:Orientation\")) - 1;\n        int degrees = OPERATIONS[index][0];\n        if (degrees != 0)\n            image = image.rotateImage(degrees);\n        switch (OPERATIONS[index][1]) {\n            case HORIZONTAL:\n                image = image.flopImage();\n                break;\n            case VERTICAL:\n                image = image.flipImage();\n        }\n    }\n    catch (NumberFormatException exc) {}\n    catch (NullPointerException exc) {}\n    return image;\n}\n\nNow you can simply call the rotateByExif method. For more information on how you can use jMagick to load and save images please see the official documentation or see Watermark with jMagick article. Actually you can even integrate this, so that you apply it to the watermarked images.\nSo actually it is pretty simple to rotate images according to the EXIF info using jMagick: just get the EXIF Orientation attribute with getImageAttribute() method and, according to its value, apply the rotateImage, flipImage and flopImage.\n\t\t\n\t\t\t44.438553\n\t\t\t26.090635",
+                "fallback": "adrian's blog Link: Rotate images according to EXIF&nbsp;info",
+                "from_url": "https:\/\/beradrian.wordpress.com\/2008\/11\/14\/rotate-exif-images\/",
+                "service_icon": "https:\/\/secure.gravatar.com\/blavatar\/c6b5bbdf851425cab4f6824002f93f30?s=114",
+                "id": 1
+            }
+        ],
+        "ts": "1489442889.288378"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "right now, cropping is sort of messing up my fix, so I’m going to dig into that",
+        "ts": "1489444058.492185"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "works w\/o crop, just as a heads up",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1489444094.000000"
+        },
+        "thread_ts": "1489444068.493962",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1489444982.641247"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1489444068.493962"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "so for one, my suspicion for the reason midori’s pics are difficult to crop is that the imageView is being handled by Glide and then is rotated and displayed properly, but all the cropping overlay code is not rotating the image and is still saving a rotated image. \nThe cropping fix is going to take a bit longer to fix, I’m not sure how long it will be, I don’t think I will have something I feel good about by end of today, I’m going to have to poke around the cropping code for a while to make sure I understand it better first",
+        "ts": "1489444848.620422"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I can get a build out that is a partial fix if you would like, it works as long as you don’t crop the photo",
+        "ts": "1489444878.625118"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you pull the exif data from the bitmap in the asynctask that crops?",
+        "ts": "1489444887.626519"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, I was going to try to get the rotation amount before the image is processed to then to a quick matrix rotate",
+        "ts": "1489444921.631740"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since the pixel values are done in view space, with the photo rotated correctly, then it should be fine to rely on that coordspace",
+        "ts": "1489444934.633654"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/developer.android.com\/reference\/android\/media\/ExifInterface.html>",
+        "ts": "1489444934.633710"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool ill wait on build until we get that resolve :+1: no need to share until then but appreciate the heads up",
+        "thread_ts": "1489444068.493962",
+        "parent_user_id": "U3ZFEAPSP",
+        "ts": "1489444982.641247"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry posted in a thread, but no need for partial fix build - id prefer to retest once we get that piece resolved <@U3ZFEAPSP>",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1489445054.000000"
+        },
+        "ts": "1489445030.648886"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I have the Exif piece handled, it is the decoding the MomentsImage where I am trying to figure where to cut in and rotate",
+        "ts": "1489445142.667158"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I was also wanting to confirm that the Glide display being rotated and that overlay view had an actual 1-1 pixel mapping, but I think you just answered that, so that saves some poking around that",
+        "ts": "1489445214.678280"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> sounds good, I'll send out when I get the crop portion fixed too",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1489445275.000000"
+        },
+        "ts": "1489445245.683145"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "team, im updating our stand up tomorrow to start 15min early (9:15) to accommodate busy schedules + our mar\/earth brainstorm :slightly_smiling_face:",
+        "ts": "1489451290.476556"
+    }
+]

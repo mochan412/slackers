@@ -1,0 +1,78 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0J6TE0CA>: let bryan know if you wanna talk about this: <https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-233>",
+        "ts": "1466702662.000352"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so the bug with body moving hanging up on the next play thru is good",
+        "ts": "1466726317.000353"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there is now a bug from the dividing into the multiple browsers, a bit of a race condition with how it loads the data. since there are multiple sources of data, that hit a different times, sometimes the default template doesnt load. but after that its fine. it will kick over between the modes fine, its just that initial push. i think we note this and move on as this would be a pretty low priortiy issue that would only be seen when the was came up cold. and is fixed easily by just pushing anything to it. will still look into it tho and should track this issue",
+        "ts": "1466726439.000354"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks <@U0EL0GLEL> can we discuss quickly?",
+        "ts": "1466726507.000355"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #49 Started by timer (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/49\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #49 Started by timer (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/49\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1466739010.000356"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #49 Success after 19 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/49\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #49 Success after 19 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/49\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1466739026.000357"
+    }
+]

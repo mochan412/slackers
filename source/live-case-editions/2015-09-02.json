@@ -1,0 +1,179 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/twitter.com\/benvoldman\/status\/638739757896454144>",
+        "attachments": [
+            {
+                "fallback": "<https:\/\/twitter.com\/benvoldman|@benvoldman>: watching FNL and figured out why Riggins feels familiar. He's Jordan Catalano 2.0 rt down to the jacket &amp; vintage car <https:\/\/pbs.twimg.com\/media\/CN1CbNCUwAA4_Jy.jpg>",
+                "ts": 1441122400,
+                "author_name": "Ben Voldman",
+                "author_link": "https:\/\/twitter.com\/benvoldman\/status\/638739757896454144",
+                "author_icon": "https:\/\/pbs.twimg.com\/profile_images\/3003386636\/3adbbe43fc17882947e2b25c40447adc_normal.jpeg",
+                "author_subname": "@benvoldman",
+                "text": "watching FNL and figured out why Riggins feels familiar. He's Jordan Catalano 2.0 rt down to the jacket &amp; vintage car <https:\/\/pbs.twimg.com\/media\/CN1CbNCUwAA4_Jy.jpg>",
+                "service_name": "twitter",
+                "service_url": "https:\/\/twitter.com\/",
+                "image_url": "https:\/\/pbs.twimg.com\/media\/CN1CbNCUwAA4_Jy.jpg",
+                "image_width": 600,
+                "image_height": 480,
+                "image_bytes": 51498,
+                "from_url": "https:\/\/twitter.com\/benvoldman\/status\/638739757896454144",
+                "id": 1,
+                "footer": "Twitter",
+                "footer_icon": "https:\/\/a.slack-edge.com\/6e067\/img\/services\/twitter_pixel_snapped_32.png"
+            }
+        ],
+        "ts": "1441208771.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/asteroid-belt--1043.appspot.com\/headless>",
+        "ts": "1441217060.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/asteroid-belt--1043.appspot.com\/episode_1>",
+        "ts": "1441217071.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "load episode_1",
+        "ts": "1441217075.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "get code",
+        "ts": "1441217077.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "from the headless endpoint, call the JS function \"doConnect(&lt;CODE&gt;)\"",
+        "ts": "1441217090.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then sendMessage(\"play\")",
+        "ts": "1441217101.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or sendMessage(\"stop\")",
+        "ts": "1441217107.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sweet!",
+        "ts": "1441217378.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "So, this is a weird thing… If I add a view to the layout before adding the youtube player, BUT I give that view a higher elevation than the youtube video. Then the video will continue playing behind the view with the higher elevation.",
+        "ts": "1441220243.000012"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "uhhhh",
+        "ts": "1441220259.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well then",
+        "ts": "1441220263.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "that sounds… fragile",
+        "ts": "1441220263.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the youtube library was made before elevation was a thing, which is probably why it does not check for that.",
+        "ts": "1441220337.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t have much experience with elevation, but from what I’ve seen, the behavior is consistent.",
+        "ts": "1441220362.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just sayin",
+        "ts": "1441220379.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "it still violates the terms of the API, i’m pretty sure",
+        "ts": "1441220432.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m sure you’re right",
+        "ts": "1441220520.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just thought it was interesting",
+        "ts": "1441220558.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "it is!",
+        "ts": "1441220614.000022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "if we weren’t making an app for google, i’d say do it :simple_smile:",
+        "ts": "1441220621.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "CardViews have elevation by default, so we’ll have to add elevation to the video so that it appears in front of the card during animation.",
+        "ts": "1441220623.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh maybe its this:",
+        "ts": "1441225751.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "boolean useActivityZoom = sharedPreferences\n                .getBoolean(context.getString(R.string.pref_key_places_activity_zoom_level), false);",
+        "ts": "1441225752.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "of course",
+        "ts": "1441226095.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the switch is actually turned to off",
+        "ts": "1441226119.000028"
+    }
+]

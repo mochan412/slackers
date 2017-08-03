@@ -1,0 +1,120 @@
+[
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<!channel>: I've placed designs for the rest of \"adding content\" to Trello.",
+        "ts": "1405374019.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I left out \"file\" for now",
+        "ts": "1405374067.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "awesome. Thank you <@U026PLK4S>",
+        "ts": "1405374309.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X>:  <@U0289USNA>  Don't worry, it turns out they were linking to the older version of the Framework.",
+        "ts": "1405382376.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "…..",
+        "ts": "1405382408.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not that it helps much, it seems like they really want you to use email\/pass",
+        "ts": "1405382511.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i overrode their login method to accept a phone number. does their sdk not allow you to login that way?",
+        "ts": "1405382610.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they have a predefined shortcut call for auth that is Username\/Pass",
+        "ts": "1405382628.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "right",
+        "ts": "1405382639.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "cool",
+        "ts": "1405382650.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in a perfect world, it would allow me to ship an arbitrary param",
+        "ts": "1405382659.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm reading the source now. I'm just going to step around them on this one",
+        "ts": "1405382667.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "LBRESTAdapter* adapter = (LBRESTAdapter*)self.adapter;\n                         if (self.accessTokenRepository == nil)\n                             self.accessTokenRepository = (LBAccessTokenRepository *)[adapter repositoryWithClass:[LBAccessTokenRepository class]];\n                         LBAccessToken *accessToken = (LBAccessToken*)[self.accessTokenRepository modelWithDictionary:(NSDictionary*)value];\n                         adapter.accessToken = accessToken._id;",
+        "ts": "1405382692.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Got it",
+        "ts": "1405382693.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or something like it",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1405382739.000000"
+        },
+        "ts": "1405382733.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Success on Static Method result: {\n    avatarUrl = \"&lt;null&gt;\";\n    challenges = \"&lt;null&gt;\";\n    created = \"2014-07-11T19:04:31.005Z\";\n    credentials = \"&lt;null&gt;\";\n    email = \"j@j.com\";\n    emailVerified = 0;\n    facebookUrl = \"&lt;null&gt;\";\n    firstName = Jenny;\n    hipchatUserId = \"&lt;null&gt;\";\n    id = 1;\n    instagramUrl = \"&lt;null&gt;\";\n    jobTitle = dev;\n    lastName = Louthan;\n    lastUpdated = \"2014-07-11T19:04:31.005Z\";\n    phoneNumber = 4058330391;\n    realm = \"&lt;null&gt;\";\n    status = \"&lt;null&gt;\";\n    twitterUrl = \"&lt;null&gt;\";\n    username = \"&lt;null&gt;\";\n    uuid = \"70506cc0-fae7-4100-bf64-5ed393e38a7e\";\n    verificationToken = \"&lt;null&gt;\";\n    vscoUrl = \"&lt;null&gt;\";\n}",
+        "ts": "1405384399.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X> &amp; <@U0289USNA> - good news, everyone! I can auth and operate",
+        "ts": "1405384421.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yay! it’s me",
+        "ts": "1405384458.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "instagramUrl=\"jejejejejejejejejejejejejejenny\"",
+        "ts": "1405384485.000021"
+    }
+]

@@ -1,0 +1,371 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> shared a file: <https:\/\/uncorked.slack.com\/files\/joel\/F1XTKA5NJ\/cubbywallupdateprocess|Cubbywall Update Process>",
+        "file": {
+            "id": "F1XTKA5NJ",
+            "created": 1470244760,
+            "timestamp": 1470244760,
+            "name": "CubbywallUpdateProcess",
+            "title": "Cubbywall Update Process",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 2331,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1TliBw-0saKJVscNr0TmTnFBqjosdt4XDX_R6DBXYqk8\/edit?usp=drivesdk",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gdoc_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gdoc_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F1XTKA5NJ\/cubbywallupdateprocess",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02E3CRMA",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1470244760.000293"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Still working on some details, but mostly there.",
+        "ts": "1470244777.000294"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks joel, i’ll look at this shortly",
+        "ts": "1470245175.000295"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: doc looks good!  is there anything youre still planning to add?",
+        "ts": "1470246239.000296"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m sure I’ll have to clean some details up as I walk through the install",
+        "ts": "1470246265.000297"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "the only thing i’m thinking is needed are testing notes - and for that, its just to refer to the change log\/release notes, yeah?",
+        "ts": "1470246492.000298"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "that should do it",
+        "ts": "1470246926.000299"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool im on it",
+        "ts": "1470246937.000300"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: as creative talks about file swapping please let us know if you want to take that on.  i can be overly conservative with this stuff but i’m thinking we need to be LOCKED.  i’m open to your thoughts though.  i trust ya",
+        "ts": "1470247256.000301"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: I’m going to share with client at EOD",
+        "ts": "1470247461.000302"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "sounds good!",
+        "ts": "1470247470.000303"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U0EL0GLEL> i’m typing up detailed release notes - remind me, if an admin enters a YT channel that doesn’t meet our requirements - we will show Default TopSweep but does Admin see any helper text\/error text before saving?",
+        "ts": "1470248282.000304"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there will be a message about the channel not existing, and there is an error about the video count being less than 3",
+        "ts": "1470249455.000305"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Doesnt say anything about using the default",
+        "ts": "1470249470.000306"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Just found a bug in the trends video load, since we added the stuff to sort the other videos required a format change to the video list to accomodate holding the rank number, on the data sent along. The trends videos array didnt get that update. I applied that and seems fine now. Had noticed videos not loading locally. They show now.",
+        "ts": "1470249584.000307"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok will test trends",
+        "ts": "1470249626.000308"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "creating a retroactive ticket for reference and record keeping",
+        "ts": "1470249636.000309"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "can you send me eerror text <@U0EL0GLEL>?  I might edit and give back to you",
+        "ts": "1470249656.000310"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "right now it will say if there are not enough videos on the channel supplied",
+        "ts": "1470249720.000311"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "X qualifying videos - 3 are needed",
+        "ts": "1470249729.000312"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "right",
+        "ts": "1470249742.000313"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "‘Video content insufficient.  BL Default will display.’  I think that text helps clarify.  can that be the error text?",
+        "ts": "1470249769.000314"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure",
+        "ts": "1470249780.000315"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "thats better",
+        "ts": "1470249783.000316"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thnaks man",
+        "ts": "1470249837.000317"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: we need to start copying img for 1:30 review or we good?\/",
+        "ts": "1470249846.000318"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I need to shut down Linux first, but need to be in it now, so I’ll kick off the copy in a bit...",
+        "ts": "1470249966.000319"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "kk but we planned day to make use of 1:30 to test so the copying of img shouldn’t impact that.  let us know what happens",
+        "ts": "1470250193.000320"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im out, i ran though everything locally without issue. and all my updates are commited",
+        "ts": "1470250467.000321"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "all templates are commited at this point, and pushed up. we will need to make sure that they are in the deploy",
+        "ts": "1470250624.000322"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: does that mean copying up to \/var\/www\/html\/?",
+        "ts": "1470250706.000323"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #82 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #82 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470264523.000324"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #82 Success after 30 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #82 Success after 30 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470264547.000325"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: everything is done and checked into dev, Jenkins build complete.",
+        "ts": "1470264568.000326"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m updating right now",
+        "ts": "1470264580.000327"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool!",
+        "ts": "1470264631.000328"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U02E3CRMA>: <http:\/\/192.168.170.123:9500\/http:\/\/192.168.170.123:8888\/bodymovin?color=ec407a&amp;file=triangle2.json>",
+        "ts": "1470266114.000329"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "working",
+        "ts": "1470266929.000330"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "NICE",
+        "ts": "1470266946.000331"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there you go",
+        "ts": "1470266982.000332"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #83 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #83 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470267909.000333"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #83 Success after 22 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #83 Success after 22 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470267928.000334"
+    }
+]

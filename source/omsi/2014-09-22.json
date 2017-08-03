@@ -1,0 +1,342 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "So team, I've got some questions around this email we plan on sending out... how are we actually going about this? Will we use a service like MailChimp that I can design\/modify a template with, or are we doing it from scratch on our own? I know it's just going to be a link + short message and branding, but if it's anything beyond plain text w\/ a logo image attached, I need to know how to approach designing the email itself.",
+        "ts": "1411409950.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "yeah - it's a good question.",
+        "ts": "1411410001.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I suspect that individual clients have a service they use currently",
+        "ts": "1411410023.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "which would be good to find out <@U026AP8CM>",
+        "ts": "1411410030.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ok",
+        "ts": "1411410242.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "can frame up a message",
+        "ts": "1411410258.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Through some cursory research and chatting w\/ Gaston just now, it sounds like a pretty messy process trying to set up your own HTML emails w\/o a mail service client (like MailChimp)",
+        "ts": "1411410271.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "But I'm not sure if this is different because it's not a blast email going to many people, but a single email going to a single person, even though there will be many single emails to many individuals.",
+        "ts": "1411410318.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "raising good questions",
+        "ts": "1411410367.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "If this helps: <http:\/\/kb.mailchimp.com\/campaigns\/ways-to-build\/how-to-code-html-emails>",
+        "attachments": [
+            {
+                "title": "About HTML Email",
+                "title_link": "http:\/\/kb.mailchimp.com\/campaigns\/ways-to-build\/how-to-code-html-emails",
+                "text": "Want to learn how to code your own HTML email campaigns? It helps if you have experience coding HTML web pages, but if you don't, MailChimp can point you in the right direction.",
+                "fallback": "About HTML Email",
+                "from_url": "http:\/\/kb.mailchimp.com\/campaigns\/ways-to-build\/how-to-code-html-emails",
+                "id": 1
+            }
+        ],
+        "ts": "1411410379.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I'm sure it's biased in getting you to use MailChimp specifically but it shows a lot of the roadblocks you run into with sending HTML email to subscribers\/users.",
+        "ts": "1411410440.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Update: Currently finding more good resources on what you can\/cannot code into an HTML email. It's the delivery part I'm not confident about yet (nor do I understand enough of what goes into that dev-ish type of thing :)",
+        "ts": "1411411925.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "It might be possible to send the email through a command-line utility. <@U026PHQ3J> may have more insight on this than me.",
+        "ts": "1411412056.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Here's a Google Doc of links I grabbed that help inform the process a little: <https:\/\/docs.google.com\/document\/d\/1f7dXnI2xWGWdeUlCh88hjz6Mu2IeCcuxAvqWTFgo7Lw\/edit?usp=sharing>",
+        "ts": "1411412934.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey <@U0265G76F> , would I be able to get any feedback from this submitted reading list animation demo from last week? <https:\/\/www.dropbox.com\/s\/g69hzwzw7gkdve0\/SentReadingListStoryboards.zip?dl=0>",
+        "ts": "1411413153.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Will check it when back up. Sorry I missed it",
+        "ts": "1411416824.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so - a few thoughts:",
+        "ts": "1411418079.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I think it looks good conceptually",
+        "ts": "1411418087.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i'm unsure what our recent switch to web might do to the possibilities here",
+        "ts": "1411418111.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "would look to <@U026PT0D7> for thoughts there",
+        "ts": "1411418122.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i'm not sure if we need some of the outbound animation personally",
+        "ts": "1411418144.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "for instance - Pt 1.jpg - may not be needed: The modal moving offscreen",
+        "ts": "1411418198.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i'd suggest however the modal moves in it should move out.",
+        "ts": "1411418231.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "looks good! my thoughts are the same for Mac as they are for web: things moving in straight lines :thumbsup:, things moving in curves: :thumbsdown:",
+        "ts": "1411418505.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "web won't put any further limitations on the motion than Mac does--anything I can do in Quartz I can do with CSS.",
+        "ts": "1411418554.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so i guess for me, the main thought about animation is trying to keep it limited to things that help highlight meaning to a user. Keep things that are moving off screen, unless they add understanding, pretty minimal",
+        "ts": "1411418890.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<!channel>: check in on the books friday at 1p",
+        "ts": "1411419833.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "cool. Thanks <@U026AP8CM>",
+        "ts": "1411420344.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<@U026E0ZNR> - on the animation front, what if we somehow reprised aspects of the intro animation? Rather than moving individual items in curves (see spencer's thought above) we do some sort of checklist that adds to the phone?",
+        "ts": "1411420406.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "+1",
+        "ts": "1411420430.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "We had actually talked about that (Spencer and I)...",
+        "ts": "1411420439.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "There are actually no curves currently being used...",
+        "ts": "1411420449.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ah",
+        "ts": "1411420458.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "diagonals!",
+        "ts": "1411420463.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "And the concern with icons showing up on the phone for real articles is that we would need new assets for each photo _or_ have some way to crop photo to a very small size, then we would have to use some other, new default thumbnail for articles with no photos belonging to them",
+        "ts": "1411420514.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "could you get away with just doing a big checkmark in the phone that represents 'all that stuff is now in here'",
+        "ts": "1411420551.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "?",
+        "ts": "1411420552.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Isn't that what it is now?",
+        "ts": "1411420565.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I think that's what I intended, unless I'm understanding you wrong",
+        "ts": "1411420587.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i gotcha. Yeah i think that's what i'm talking about. Maybe I'm thinking less about the phone, more about the movement of articles",
+        "ts": "1411420623.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Ah, check marks over the articles, instead of them actually moving?",
+        "ts": "1411420647.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "because we also have the issue of there's probably some articles off screen",
+        "ts": "1411420650.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "like if a person added a bunch",
+        "ts": "1411420661.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and i'm not making an argument like dean — I'm not suggesting we need to literally see every article moving into place",
+        "ts": "1411420684.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "just trying to keep it lean and to the point",
+        "ts": "1411420696.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "with my only concern being there's a lot of motion going on that isn't really core to the experience",
+        "ts": "1411420719.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "off-screen articles present no obstacle to me. They still exist on the webpage (where they wouldn't necessarily on the Mac app)",
+        "ts": "1411420728.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "k",
+        "ts": "1411420744.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "well i think it does the job of conveying what's going on",
+        "ts": "1411420761.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "my broad concerns are that it could represent a bunch of animation",
+        "ts": "1411420774.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "The animation stuff is more smoke and mirrors, it's the show around something actually happening, but we can cut it down if we want to minimize it.",
+        "ts": "1411420806.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and in the hypothetical case (thinking out loud here) that somebody added a bunch — would they have to wait for all the articles to 'migrate' to the phone before they're done?",
+        "ts": "1411420811.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "maybe we could start with the articles that are onscreen and then select up to a maximum number of off-screen articles for the animation",
+        "ts": "1411420970.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Yeah, I definitely don't think this current motion concept should include all articles in the list. I just want a way to demonstrate that these articles are moving from the list, to the phone—that transaction stage. Doesn't need to be a 1-to-1 thing, which is also why I liked not having anything but a big checkmark show up on screen. I think anything completely off-screen moving toward the phone wouldn't make sense (as the path from off screen to a phone partially off screen would never show on screen). If we wanted to give the illusion of more things \"happening\" after all on screen articles make their move, that's what the circle\/spinner loading before the check mark would be for.",
+        "ts": "1411421222.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "We can consider other methods of showing these articles transferring to phone, ones without as much motion if that sounds like a better way to go. That's fine with me, I just want to understand what the important thing is to show after users submit their reading list.",
+        "ts": "1411421302.000058"
+    }
+]

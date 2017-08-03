@@ -1,0 +1,87 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02613K0X|jenny> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jenny\/F04VA5BL2\/examplewsmessages.zip|exampleWSMessages.zip> and commented: <@U02618EV1> here are three examples of messages being send over the socket for sandbox. Triples is what we're using for topography and has the normalized x,y values of each point in the sandbox only. Soundbox is what I've posted here before; it has the min and max data for each quadrant. Matrix is just a 2d array where the indices represent the position in the frame and the value is the raw depth value. This is currently used for debugging and is not clipping to the sandbox.",
+        "file": {
+            "id": "F04VA5BL2",
+            "created": 1432236336,
+            "timestamp": 1432236336,
+            "name": "exampleWSMessages.zip",
+            "title": "exampleWSMessages.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U02613K0X",
+            "editable": false,
+            "size": 381247,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04VA5BL2\/examplewsmessages.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04VA5BL2\/download\/examplewsmessages.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenny\/F04VA5BL2\/examplewsmessages.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F04VA5BL2-061aae2989",
+            "channels": [
+                "C03SUJR0L"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc04VA5C12",
+                "created": 1432236337,
+                "timestamp": 1432236337,
+                "user": "U02613K0X",
+                "is_intro": true,
+                "comment": "<@U02618EV1> here are three examples of messages being send over the socket for sandbox. Triples is what we're using for topography and has the normalized x,y values of each point in the sandbox only. Soundbox is what I've posted here before; it has the min and max data for each quadrant. Matrix is just a 2d array where the indices represent the position in the frame and the value is the raw depth value. This is currently used for debugging and is not clipping to the sandbox."
+            }
+        },
+        "user": "U02613K0X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jenny",
+        "bot_id": null,
+        "ts": "1432236337.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'm not sure how helpful any of this is, but it's meant to give you an idea of what we're already. So we'll have a jumping off point for my changing the data and\/or formatting to suit your needs.",
+        "ts": "1432236438.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks.",
+        "ts": "1432236472.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "So, I’m a bit confused about the Matrix one",
+        "ts": "1432236494.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Is each index a row or column?",
+        "ts": "1432236523.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I believe it's `matrix[i][j]` where `i` is the row and `j` is the column",
+        "ts": "1432236677.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Oh, got it.",
+        "ts": "1432236734.000012"
+    }
+]

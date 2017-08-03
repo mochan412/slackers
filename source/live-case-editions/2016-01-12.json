@@ -1,0 +1,333 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "what are we expecting with these 3 new ballets? there can only be one put into a build at a time. I can throw one of these into the new build just to have a new one in there. but cant have all 3 as there is no way to switch between them",
+        "ts": "1452624216.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "We should have one baked in, and the other two should download and cycle through",
+        "ts": "1452624291.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "which I believe we had working before break?",
+        "ts": "1452624304.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I have the app ready to do the download, the backend isnt setup to supply it yet",
+        "ts": "1452624332.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Just to document here, Peter's going to put a static json and animation zips up on google cloud storage to test downloading and cycling wallpapers with the new animations",
+        "ts": "1452625031.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yooo <@U06DFL7BP> can you put Live Case Editions on my Harvest? All I have listed is Workshop right now.",
+        "ts": "1452625256.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "si",
+        "ts": "1452625505.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "done",
+        "ts": "1452625611.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thanks!",
+        "ts": "1452625619.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "So when i set this up there will be on wallpaper baked in on the build we pass off to them, what rate should I set to pull down a new one for our test here? Evans said yesterday we should set the final at like a daily check. But here for test, something more like 10 minutes I would think is better? Then someone can see the app and current one, then after 10ish minutes see that it updated to a new one. Im placing all of them on the test server ready to be swapped between. A change to the static json file would cause the new one to be changed over to the current for download.",
+        "ts": "1452626106.000011"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah i think that’s fine. do we want to set the interval in the json? is that nuts",
+        "ts": "1452626290.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that would be fine, it would end up being set as whatever we want on install tho, then after that first grab it would be changed over to whatever it says in the file if we went that route",
+        "ts": "1452626445.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yup",
+        "ts": "1452626658.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "sooo last I used the Google Cloud SDK it was at version 0.9.66, now it’s at 91.0.1 ?",
+        "ts": "1452628189.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you can set the version you are using back to the 0.9.66 specifically",
+        "ts": "1452628586.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah I know",
+        "ts": "1452628593.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Just getting fed up with how they seem to introduce breaking changes when it’s not necessary",
+        "ts": "1452628652.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I have been trying for almost an hour to set or unset variables in my gcloud config but it appears to be frozen. <@U026PHQ3J> <@U0EL0GLEL> have either of you run into this problem?",
+        "ts": "1452636270.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "don’t think I ran into that issue",
+        "ts": "1452636320.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Ugh. Can’t even change the project name. I tried reinstalling gcloud, restarting my terminal, restarting my computer….",
+        "ts": "1452636569.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "well, I think I know what needs to be done to run the CMS app locally and deploy it, but I need to change the fixed_sdk_version in my config to test and right now I can’t...",
+        "ts": "1452637031.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "What change are you making? I could try it on my machine",
+        "ts": "1452638643.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "When you have a moment <@U0EL0GLEL>: did you have a chance to look at the accessibility doc I shared?",
+        "ts": "1452638905.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the spreadsheet?",
+        "ts": "1452638985.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yes",
+        "ts": "1452639098.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah looked through that, seems pretty straight forward of things to check on",
+        "ts": "1452639229.000027"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Sorry if I wasn't clear, we need to update that today. I'll come grab you after this meeting and we can walk through it?",
+        "ts": "1452639333.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I have the wallpaper pulling from the google cloud storage, only problem im having tho is that when you update a file on the cloud storage it doesnt update the public file. it still always downloads the old one. not seeing any option to tell it to update, even if you delete the file from their server and give it a new one still downloads the old one….",
+        "ts": "1452639381.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I think it is cacheijg in my experience ",
+        "ts": "1452639458.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah seems to be, but its on the google end, im trying through a browser, through multiple different browsers all the same thing",
+        "ts": "1452639511.000031"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yeah it's can cacheing",
+        "ts": "1452640051.000032"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cdn ",
+        "ts": "1452640054.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cachebuster",
+        "ts": "1452640131.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "figured out a work around for this test, if you change the cachecontrol on the file to private before you make it public it doesnt cache it and takes the new changes. but if you put it public before setting that your screwed and it takes the changes and caches it till however long they do that for...",
+        "ts": "1452641434.000035"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: not for today, and I'll add a card. But we should update the tabs to full width like we did in workshop:",
+        "ts": "1452643157.000036"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0JA79T4Z\/slack_for_ios_upload.jpg|Slack for iOS Upload>",
+        "file": {
+            "id": "F0JA79T4Z",
+            "created": 1452643162,
+            "timestamp": 1452643162,
+            "name": "Slack for iOS Upload.jpg",
+            "title": "Slack for iOS Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 199374,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JA79T4Z\/slack_for_ios_upload.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JA79T4Z\/download\/slack_for_ios_upload.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JA79T4Z-b814b768bc\/slack_for_ios_upload_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JA79T4Z-b814b768bc\/slack_for_ios_upload_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JA79T4Z-b814b768bc\/slack_for_ios_upload_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JA79T4Z-b814b768bc\/slack_for_ios_upload_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JA79T4Z-b814b768bc\/slack_for_ios_upload_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JA79T4Z-b814b768bc\/slack_for_ios_upload_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JA79T4Z-b814b768bc\/slack_for_ios_upload_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "image_exif_rotation": 1,
+            "original_w": 576,
+            "original_h": 1024,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0JA79T4Z\/slack_for_ios_upload.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0JA79T4Z-433f4457ff",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1452643165.000037"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "And action bar color on trello",
+        "ts": "1452643316.000038"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "5a5d6e",
+        "ts": "1452643319.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0EL0GLEL> I’m sorry for being quiet on the gcloud front. I’ve got gcloud SDK version 0.9.70 and was able to test stuff locally with just `npm start` in the root directory",
+        "ts": "1452645808.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "And you won’t need docker for it, although I haven’t seen a way to build for deployment without it. My boot2docker wasn’t working this morning but I was able to get it running.",
+        "ts": "1452645853.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Based on forums, looks like the old commands in the gcloud-preview-app.sh should work to build with docker and deploy with SDK version 0.9.71 and above, but I haven’t been able to change my config to test that hypothesis :confused:",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1452646079.000000"
+        },
+        "ts": "1452646020.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i swear i tested against that version, i would get some error about something exiting with a non zero code or something like that on the compile stage, and all pages would end up with a 503, i assume it never really launched the server at that point. Will need to look into it more tomorrow",
+        "ts": "1452646237.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Yeah we can look into it together tomorrow. Hopefully I can change my version before then. At the very least we can run locally with npm start.",
+        "ts": "1452646465.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool thanks!",
+        "ts": "1452646499.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah np, sorry it sucks so bad",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1452646613.000000"
+        },
+        "ts": "1452646607.000047"
+    }
+]

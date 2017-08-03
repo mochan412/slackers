@@ -1,0 +1,331 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "card would have been in the camera",
+        "ts": "1464016469.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: need the camera back or just the card (i dont remember if you have a compatible camera)?",
+        "ts": "1464020278.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dont have a camera, and the card would have been in that one",
+        "ts": "1464020305.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok will talk to adrian about getting it back",
+        "ts": "1464020767.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: and <@U0EL0GLEL> reminder, planning to have you demo the alpha to the team right after stand up.  still cool?",
+        "ts": "1464020788.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "should be fine if nothing has changed",
+        "ts": "1464020892.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "well i haven’t changed anything :slightly_smiling_face:",
+        "ts": "1464020958.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thinking same dynamic.  peter drives, <@U02E3CRMA> narrates.",
+        "ts": "1464020966.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "well i found the network cord plugged into the ps4, and the usb cable for the second network cord unplugged. it looked like someone changed some things",
+        "ts": "1464020993.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "oh.",
+        "ts": "1464021418.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "rock band maybe.",
+        "ts": "1464021421.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "we back in biz <@U0EL0GLEL>",
+        "ts": "1464021427.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "probably was, had to restart the whole system, the networking didnt come back on when i plugged it in, seems back now. not sure if the door controller is working since that takes the other network. and that was unplugged too. will need to try that",
+        "ts": "1464021481.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and the head node box is on its side for some reason?",
+        "ts": "1464021500.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "WTF",
+        "ts": "1464021515.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "So strange I reconfigured IS on the head node to match my local, pretty is working now, but scheduler cant see the presets. on my local it works fine…",
+        "ts": "1464021879.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh wait it does work",
+        "ts": "1464022316.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "IS makes the terrible assumption you are always on the head node when using it",
+        "ts": "1464022333.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it routes all links to 127.0.0.1",
+        "ts": "1464022344.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so when i tried on my local to access the head node it was hitting my local instance",
+        "ts": "1464022360.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "will see if i can change the pathing there, probably something in there i can adjust",
+        "ts": "1464022422.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet think i found the setting",
+        "ts": "1464022585.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "nice",
+        "ts": "1464022668.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "othrwise <@U0EL0GLEL> i know we talked friday evening but where ya jumping in today?  you going off the list i pasted above?",
+        "ts": "1464022683.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep",
+        "ts": "1464022703.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "scheduler is figured out",
+        "ts": "1464022707.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its letting me schedule events now",
+        "ts": "1464022719.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":thumbsup:",
+        "ts": "1464026867.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: and <@U0EL0GLEL> i started an epic with the quirks we noticed in our meeting just now.  please add the individual bug tickets associated with it (if i know peter, theyre likely 2\/3 fixed) <https:\/\/uncorkedstudios.atlassian.net\/projects\/BWB\/issues\/BWB-53?filter=allopenissues>",
+        "ts": "1464027050.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "already closed them",
+        "ts": "1464027062.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there were a few changes made on the event system late friday before our code drop, that broke somethings in the template, but didnt get them updated to reflect, they are now. and tested worked fine now",
+        "ts": "1464027115.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "looks like the external power cable assembly for the LEDs\/Teensy is loose at the junction outside the box.",
+        "ts": "1464029339.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "i got the board working fine for a bit with some jiggling",
+        "ts": "1464029354.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so I’ll tear it apart later today, solder\/shrink wrap everything and re-test and we should be good to go",
+        "ts": "1464029378.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alpha push update: looks like the IS EDK doesn’t include some commands required to follow the official push process. Instead, I have to do it manually. I have instructions, will work on it right after lunch.",
+        "ts": "1464030220.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: lets try something - when you ‘Resolve’ a Jira issue for my aceptance\/review - can you assign to me?  <@U02E3CRMA> i might kick some to you if they require under the hood stuff.",
+        "ts": "1464033095.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA> lets hop onthis call",
+        "ts": "1464044357.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "omw...",
+        "ts": "1464044364.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02F8LF2X>: do we have any USB mice in house ?",
+        "ts": "1464047017.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "looking to collect up to 22 of em",
+        "ts": "1464047024.000041"
+    },
+    {
+        "type": "message",
+        "user": "U1172PRDX",
+        "text": "<!here|@here>: is admin down? or do i have the wrong address? <http:\/\/192.168.169.90\/>",
+        "ts": "1464047497.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<http:\/\/192.168.169.90:9999\/AdminActivity\/index.html#\/presets\/none>",
+        "ts": "1464047545.000043"
+    },
+    {
+        "type": "message",
+        "user": "U1172PRDX",
+        "text": "blerg. i’m getting a blank page",
+        "ts": "1464047567.000044"
+    },
+    {
+        "type": "message",
+        "user": "U1172PRDX",
+        "text": "nvm got it. apologies!",
+        "ts": "1464047605.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "took a look again at the angular material version issue, it doenst package up the version with the activity, but it does package up a bootstrap file that calls out to get the libraries it needs, and we could infact edit that file and update the version called out to. Thing is would need to do that every time we compile a build. would have to do that after compile every time. OR edit the template file on the local machine that makes the build. this would effect the same end result but you are editing a file that is part of IS. and would be overwrote if there was an update",
+        "ts": "1464047992.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "could also make a copy of their template file, rename it to something else thats more custom, and reference that file instead. this would work fine and be less hacky",
+        "ts": "1464048083.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "is there something reasonable we could ask them to do instead <@U0EL0GLEL>",
+        "ts": "1464048937.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dont think so, from what he said they have to be very particular about versions they use and have to match all systems etc… I think the option of our own modified version of the preset admin template is reasonable",
+        "ts": "1464048995.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA> you guys have resolved a buncha shit since late last week.  i have 2-4 blocked tomorrow for joel and I to ‘Qa’ which i think will largely be verifying everything in the ‘Resolved’ collumns of rello and now Jira.  Can we have a stable build to test at 2pm?",
+        "ts": "1464049477.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure",
+        "ts": "1464049500.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: alpha code FINALLY successfully pushed for review",
+        "ts": "1464051255.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Woohoo <@U02E3CRMA> ",
+        "ts": "1464054898.000053"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg>",
+        "attachments": [
+            {
+                "fallback": "788x500px image",
+                "image_url": "http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg",
+                "image_width": 788,
+                "image_height": 500,
+                "image_bytes": 108184,
+                "from_url": "http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1464054898.000054"
+    }
+]

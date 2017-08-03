@@ -1,0 +1,210 @@
+[
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Given the pinned Slack, not going to a channel, but sites down :\/ ",
+        "ts": "1476429593.000332"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Up but 404ing.",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1476429858.000000"
+        },
+        "ts": "1476429850.000333"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Up for me ",
+        "ts": "1476451611.000335"
+    },
+    {
+        "type": "message",
+        "user": "U0914MEN7",
+        "text": "down for me",
+        "ts": "1476459706.000336"
+    },
+    {
+        "type": "message",
+        "user": "U0914MEN7",
+        "text": "actually - what joel said",
+        "ts": "1476459716.000337"
+    },
+    {
+        "type": "message",
+        "user": "U0914MEN7",
+        "text": "and i like our 404",
+        "ts": "1476459721.000338"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks yoz. FYI we get alerts in a number of places when the site goes down. working on making the monitoring more descriptive",
+        "ts": "1476461173.000339"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "~~~should we hook up a slack integration~~~",
+        "ts": "1476462221.000340"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "no thanks",
+        "ts": "1476462619.000341"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "we get tons of alerts already",
+        "ts": "1476462624.000342"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "we need to make them more informative, which we are working on",
+        "ts": "1476462637.000343"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i know it’s not much solace, but again - (in bold caps!) *THANK YOU* for all your work on the site.",
+        "ts": "1476462693.000344"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "I second that!",
+        "ts": "1476462876.000345"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thx for the support!",
+        "ts": "1476469843.000346"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "deploying some changes that should hopefully help get us more info about what is going on",
+        "ts": "1476469855.000347"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "site is much more stable now :fingerscrossed: but i think we are good to go",
+        "ts": "1476481167.000348"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "It's v snappy",
+        "ts": "1476481260.000349"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U02613K0X> <@U02HAJ6JF> curious if you have any insight on this. we’re seeing a lot of references to a host i don’t recognize, <http:\/\/galapagui.uncorkedstudios.com|galapagui.uncorkedstudios.com> it appears to be related to blog post content, but i can’t seem to track it down anywhere in the code",
+        "ts": "1476482386.000350"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "for example in the heroku logs: ```method=GET path=\"\/blog\/produce-row-map-console\" host=<http:\/\/galapagui.uncorkedstudios.com|galapagui.uncorkedstudios.com>```",
+        "ts": "1476482400.000351"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "some are successful, others throwing 500s others timing out",
+        "ts": "1476482427.000352"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that was the old staging site predating Hercules. Where are these requests being made?",
+        "ts": "1476482999.000353"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "it’s all coming from production hercules-client",
+        "ts": "1476484162.000354"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "there’s a number of other server references that appear to be deprecated as well",
+        "ts": "1476484204.000355"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "and i can’t seem to track down where they originate from",
+        "ts": "1476484211.000356"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "So we don’t know what part of the code makes these requests?",
+        "ts": "1476484227.000357"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "it’s calls being made to load blog content that appear to have old references in them",
+        "ts": "1476484287.000358"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i don’t know where in the code they are originating from",
+        "ts": "1476484295.000359"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i have tried looking through mongo but it’s a bit tough to search through the document structure",
+        "ts": "1476484315.000360"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "and i didn’t have much luck either",
+        "ts": "1476484321.000361"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i don’t see those servers referenced just doing a quick find all",
+        "ts": "1476484334.000362"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so i don’t know where else i would look",
+        "ts": "1476484343.000363"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "any thoughts?",
+        "ts": "1476484605.000364"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I have no clue <@U02HAJ6JF> is this ringing any bells?",
+        "ts": "1476484623.000365"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "sounds familiar, but that’s about it.",
+        "ts": "1476484646.000366"
+    }
+]

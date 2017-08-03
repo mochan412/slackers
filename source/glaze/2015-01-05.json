@@ -1,0 +1,3575 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "hello fridge robots",
+        "ts": "1420480539.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I want to recalibrate the third shift lens down in San Jose",
+        "ts": "1420480567.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "easiest way to ssh into that raspberry pi?",
+        "ts": "1420480577.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "join glaze wifi",
+        "ts": "1420480667.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ssh to one of the IP's",
+        "ts": "1420480673.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(IP list to follow)",
+        "ts": "1420480676.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "10.0.10.235\n10.0.10.236\n10.0.10.240\n10.0.10.241\n10.0.10.242\n10.0.10.243",
+        "ts": "1420480745.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "235\/236 are the back cameras",
+        "ts": "1420480752.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "top to bottom order on the strip:",
+        "ts": "1420480791.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "241",
+        "ts": "1420480801.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "243",
+        "ts": "1420480805.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "240",
+        "ts": "1420480810.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "242",
+        "ts": "1420480813.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Cool. sounds like 10.0.10.240 is my machine of destiny",
+        "ts": "1420480832.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "good luck.",
+        "ts": "1420480845.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also if you notice any significant lag in network transfer, please let me know",
+        "ts": "1420480856.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "curl'ing from glaze server might be useful to test while there, but do your thing and LMK if you'd like to watch some curl output",
+        "ts": "1420480878.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "10-4 over and out. I'll let you know when the camera alignment stuff is done",
+        "ts": "1420480898.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks Josh!",
+        "ts": "1420481098.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Mark and I think that might be ok once corrected",
+        "ts": "1420481827.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "opinions?",
+        "ts": "1420481830.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "that doesn't look too bad at all",
+        "ts": "1420481837.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "little to the left but maybe we can nudge it progrommatically",
+        "ts": "1420481849.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "(this is third shelf camera)",
+        "ts": "1420481850.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats very close",
+        "ts": "1420481879.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if you run autofridge and zipup\/send me the stuff in \/current",
+        "ts": "1420481890.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can take a look at the sausage",
+        "ts": "1420481896.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and its component parts",
+        "ts": "1420481902.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "give me 20 mins or so to install and calibrate everything else",
+        "ts": "1420481915.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok everything is in an calibrated",
+        "ts": "1420483313.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "transfer speeds during calibration were quite fast",
+        "ts": "1420483327.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "make averaging 700-800KB\/s",
+        "ts": "1420483337.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "how's the image overall looking?",
+        "ts": "1420483339.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "well they're all calibrated pretty well so images are sharp",
+        "ts": "1420483392.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "top two seem to be pointed slightly to the right",
+        "ts": "1420483402.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "the third shelf is still pointed slightly to the left even after shimming it out with two more washers",
+        "ts": "1420483422.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "crisper drawer is pointing off at some weird angle but I'm not sure how much that matters",
+        "ts": "1420483450.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I wonder if the whole bar is twisted",
+        "ts": "1420483460.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "that's the only way I can explain why some are pointed one way and some the other",
+        "ts": "1420483475.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "with our version they were consistently tending to one side",
+        "ts": "1420483487.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "can you post a picture to show the camera angles?",
+        "ts": "1420483496.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "might be easiest to just have Mark run the app",
+        "ts": "1420483525.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "that way we get them debarreled too...",
+        "ts": "1420483536.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yea i'm interested in seeing the debarrelled output to see if the camera angles are acceptable or not",
+        "ts": "1420483559.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "can you just run the system and hit the latest URL from the glaze wi fi? <http:\/\/10.0.10.1:5555\/latest.jpg>",
+        "ts": "1420483615.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Here's a full capture loop",
+        "ts": "1420483741.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "curl  <http:\/\/10.0.10.234:5555\/lightson> \n\ncurl  <http:\/\/10.0.10.241:5555\/latest.jpg> -o current\/incoming\/0.jpg \ncurl  <http:\/\/10.0.10.243:5555\/latest.jpg> -o current\/incoming\/1.jpg \ncurl  <http:\/\/10.0.10.240:5555\/latest.jpg> -o current\/incoming\/2.jpg \ncurl  <http:\/\/10.0.10.242:5555\/latest.jpg> -o current\/incoming\/3.jpg \ncurl  <http:\/\/10.0.10.235:5555\/latest.jpg> -o current\/back\/left.jpg \ncurl  <http:\/\/10.0.10.236:5555\/latest.jpg> -o current\/back\/right.jpg \n\n\ncurl -s <http:\/\/10.0.10.234:5555\/lightsoff>",
+        "ts": "1420483742.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "your -o's may vary",
+        "ts": "1420483749.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "actually",
+        "ts": "1420483762.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "curl  <http:\/\/10.0.10.234:5555\/lightson> \n\ncurl  <http:\/\/10.0.10.241:5555\/latest.jpg> -o  0.jpg \ncurl  <http:\/\/10.0.10.243:5555\/latest.jpg> -o  1.jpg \ncurl  <http:\/\/10.0.10.240:5555\/latest.jpg> -o  2.jpg \ncurl  <http:\/\/10.0.10.242:5555\/latest.jpg> -o  3.jpg \ncurl  <http:\/\/10.0.10.235:5555\/latest.jpg> -o  left.jpg \ncurl  <http:\/\/10.0.10.236:5555\/latest.jpg> -o  right.jpg \n\n\ncurl -s <http:\/\/10.0.10.234:5555\/lightsoff>",
+        "ts": "1420483794.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "run those in \/tmp",
+        "ts": "1420483797.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to test the transfer for all raspi's",
+        "ts": "1420483812.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i agree about mark running the app",
+        "ts": "1420483817.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "10.0.10.1:5555\/latest.jpg never returns",
+        "ts": "1420483912.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "rebooted NUC",
+        "ts": "1420483918.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "pinging 10.0.10.1 returns packets",
+        "ts": "1420483931.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ideas?",
+        "ts": "1420483963.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ps aux | grep node",
+        "ts": "1420483964.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "on 10.0.10.1?",
+        "ts": "1420483979.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420483981.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "glaze\/fridge",
+        "ts": "1420483983.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "user\/pass?",
+        "ts": "1420483984.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "^ that's the user\/pass glaze\/fridge",
+        "ts": "1420484035.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok switching networks... be back",
+        "ts": "1420484050.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1420484055.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok back",
+        "ts": "1420484191.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "got an image.. maybe I just needed to wait",
+        "ts": "1420484210.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "weird.",
+        "ts": "1420484220.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i wonder what the hangup is",
+        "ts": "1420484222.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "has glaze box been rebooted lately?",
+        "ts": "1420484228.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is there some weird process taking up a shitton of cpu?",
+        "ts": "1420484235.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "just rebooted it",
+        "ts": "1420484306.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "app on the phone is saying \"could not retrieve one or more images\"",
+        "ts": "1420484341.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "restart app?",
+        "ts": "1420484344.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "will ssh back into box and check out top\/ps next time I switch networks",
+        "ts": "1420484367.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "that picture is looking pretty good actually",
+        "ts": "1420484377.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i'm a bit concerned the app isn't finding any images",
+        "ts": "1420484386.000080"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I think third shelf may need parameters rejiggered (technically term)",
+        "ts": "1420484397.000081"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "technical term even",
+        "ts": "1420484405.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's on the glaze wireless network",
+        "ts": "1420484422.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "how do I restart an app in android?",
+        "ts": "1420484434.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "1. Go to the device's \"Settings\" menu.\n2. Select \"Applications\".\n3. Select \"Manage Applications\".\n4. Find the app in the list and select it.\n5. Select \"Force Stop\" to completely kill the process.\n6. Please then reopen the application.",
+        "ts": "1420484476.000085"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "world's fastest typer",
+        "ts": "1420484607.000086"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "still getting error",
+        "ts": "1420484617.000087"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i wonder what image the android app isn't finding",
+        "ts": "1420484693.000088"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026PHQ3J>: any idea on how to troubleshoot?",
+        "ts": "1420484714.000089"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just reading it now",
+        "ts": "1420484730.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "you want me to try to curl retrieve each latest image from the 6 raspberry pis?",
+        "ts": "1420484731.000091"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah. that would be useful",
+        "ts": "1420484741.000092"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "kat probably has something to say, too",
+        "ts": "1420484752.000093"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok switching networks. I'll be back",
+        "ts": "1420484758.000094"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "once kat is finished typing",
+        "ts": "1420484761.000095"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "you might be able to see which images aren't downloaded from the file system",
+        "ts": "1420484764.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "they're all in a glaze folder",
+        "ts": "1420484769.000097"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "in home directory?",
+        "ts": "1420484779.000098"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "on the android device. lets hold that option off for the moment",
+        "ts": "1420484791.000099"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ugh",
+        "ts": "1420484795.000100"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'm android dumb",
+        "ts": "1420484798.000101"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me go try the curl nonsense now",
+        "ts": "1420484805.000102"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no problem. lets start with querying all the pi's",
+        "ts": "1420484807.000103"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8LF2X>:",
+        "ts": "1420484828.000104"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "log into glaze box",
+        "ts": "1420484831.000105"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cd to \/",
+        "ts": "1420484844.000106"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sudo .\/autofridge.sh",
+        "ts": "1420484849.000107"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and just watch the output",
+        "ts": "1420484852.000108"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it will tell you a lot more than anything else",
+        "ts": "1420484862.000109"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ sudo sh .\/autofridge.sh \n.\/autofridge.sh: 47: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-0.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\n.\/autofridge.sh: 47: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-1.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\n.\/autofridge.sh: 47: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-2.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\n.\/autofridge.sh: 47: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-3.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\nconvert.im6: no images defined `current\/result\/result.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/back\/left.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/back\/left.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/back\/right.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/back\/right.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/result\/stitch.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nOpenCV Error: Bad argument (image is empty or has incorrect depth (!=CV_8U)) in operator(), file \/home\/glaze\/opencv-2.4.10\/modules\/nonfree\/src\/sift.cpp, line 737\nTraceback (most recent call last):\n  File \"\/home\/glaze\/glaze_id_stack\/testThread.py\", line 109, in &lt;module&gt;\n    kp2, des2 = sift.detectAndCompute(img2, None)\ncv2.error: \/home\/glaze\/opencv-2.4.10\/modules\/nonfree\/src\/sift.cpp:737: error: (-5) image is empty or has incorrect depth (!=CV_8U) in function operator()",
+        "ts": "1420484986.000110"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well thats telling",
+        "ts": "1420485005.000111"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "woah",
+        "ts": "1420485019.000112"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is the script perhaps corrupted?",
+        "ts": "1420485056.000113"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "should it have executable bit set?",
+        "ts": "1420485062.000114"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420485065.000115"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "well let me retrieve script so you can do a diff and I'll set executable bit at same time",
+        "ts": "1420485081.000116"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you could dosudo  sh autofridge.sh",
+        "ts": "1420485083.000117"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1420485084.000118"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "er:",
+        "ts": "1420485110.000119"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sudo  sh autofridge.sh",
+        "ts": "1420485111.000120"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah did that but didn't know if should have it set so .\/autofridge.sh would work",
+        "ts": "1420485111.000121"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh oh oh",
+        "ts": "1420485117.000122"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "sudo?",
+        "ts": "1420485127.000123"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420485131.000124"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ah",
+        "ts": "1420485137.000125"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok hold on",
+        "ts": "1420485141.000126"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1420485144.000127"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "hum no that wasn't it",
+        "ts": "1420485274.000128"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "sudo sh autofridge.sh generated same output",
+        "ts": "1420485291.000129"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "fetching script now",
+        "ts": "1420485298.000130"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1420485305.000131"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the error at line 47 points to a corrupt script",
+        "ts": "1420485314.000132"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm",
+        "ts": "1420485509.000134"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this all looks good",
+        "ts": "1420485512.000135"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you're running from \/",
+        "ts": "1420485517.000136"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "?",
+        "ts": "1420485519.000137"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yep",
+        "ts": "1420485520.000138"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "have you run those curl commands from \/",
+        "ts": "1420485606.000139"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im also rechecking the syntax in that script, im confused about the error cause its just a file name string",
+        "ts": "1420485628.000140"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I can go run the curl commands from \/ on 10.0.10.1",
+        "ts": "1420485757.000141"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stand by",
+        "ts": "1420485764.000142"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i want to give you another script to try",
+        "ts": "1420485768.000143"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "while over there",
+        "ts": "1420485769.000144"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "did some curl stuff",
+        "ts": "1420485988.000145"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ran curl -s <http:\/\/10.0.10.235:5555\/latest.jpg> for 35,36,40-43",
+        "ts": "1420486014.000146"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "got binary spew for 40-43",
+        "ts": "1420486024.000147"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "35-36 returned immeadiately with no output",
+        "ts": "1420486036.000149"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "35\/36 might not be online?",
+        "ts": "1420486044.000150"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "those are back cams",
+        "ts": "1420486048.000151"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "they have power",
+        "ts": "1420486050.000152"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I can ssh directly on next switch",
+        "ts": "1420486057.000153"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "reboot them",
+        "ts": "1420486060.000154"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "you want me to run that new autofridge.sh from the same place in the same way",
+        "ts": "1420486074.000155"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yes?",
+        "ts": "1420486075.000156"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420486080.000157"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you don't need to replace the old one",
+        "ts": "1420486083.000158"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you can call it something else and run it",
+        "ts": "1420486088.000159"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yep",
+        "ts": "1420486090.000160"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "switching",
+        "ts": "1420486092.000161"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just unraveled the variables",
+        "ts": "1420486094.000162"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill brb as well",
+        "ts": "1420486100.000163"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ sudo sh .\/autofridge.sh.new\nconvert.im6: unable to open image `\/current\/incoming\/0.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-0.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-0.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-0.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-0.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-0.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\n.\/autofridge.sh.new: 46: .\/autofridge.sh.new: filelist+=\/current\/crops\/crop-0.jpg: not found\nconvert.im6: unable to open image `\/current\/incoming\/1.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-1.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-1.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-1.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-1.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-1.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\n.\/autofridge.sh.new: 52: .\/autofridge.sh.new: filelist+=\/current\/crops\/crop-1.jpg: not found\nconvert.im6: unable to open image `\/current\/incoming\/2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\n.\/autofridge.sh.new: 59: .\/autofridge.sh.new: filelist+=\/current\/crops\/crop-2.jpg: not found",
+        "ts": "1420486527.000164"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "convert.im6: unable to open image `\/current\/incoming\/3.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-3.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-3.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-3.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-3.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-3.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\n.\/autofridge.sh.new: 65: .\/autofridge.sh.new: filelist+=\/current\/crops\/crop-3.jpg: not found\n.\/autofridge.sh.new: 68: .\/autofridge.sh.new: filelist+= \/shelfbreak.png : not found\nconvert.im6: no images defined `current\/result\/result.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/263\nconvert.im6: no images defined `current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/back\/left.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/back\/left.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/back\/right.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/back\/right.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/result\/stitch.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/26\nconvert.im6: no images defined `\/current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nOpenCV Error: Bad argument (image is empty or has incorrect depth (!=CV_8U)) in operator(), file \/home\/glaze\/opencv-\nTraceback (most recent call last):\n  File \"\/home\/glaze\/glaze_id_stack\/testThread.py\", line 109, in &lt;module&gt;\n    kp2, des2 = sift.detectAndCompute(img2, None)\ncv2.error: \/home\/glaze\/opencv-2.4.10\/modules\/nonfree\/src\/sift.cpp:737: error: (-5) image is empty or has incorrect d",
+        "ts": "1420486533.000165"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "can't ssh to 35 and 36 even after rebooting",
+        "ts": "1420486544.000166"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yes they have power",
+        "ts": "1420486562.000167"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, can you try the curl commands from earlier? it seems like the raspi's aren't joining the wifi?",
+        "ts": "1420486609.000168"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are 35\/36 pingable?",
+        "ts": "1420486616.000169"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the logs above seem to suggest that the directory structure is either broken, or the images aren't downloading",
+        "ts": "1420486653.000170"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or both",
+        "ts": "1420486657.000171"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can repaste",
+        "ts": "1420486691.000172"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "curl -s <http:\/\/10.0.10.241:5555\/latest.jpg> -o current\/incoming\/0.jpg \ncurl -s <http:\/\/10.0.10.243:5555\/latest.jpg> -o current\/incoming\/1.jpg \ncurl -s <http:\/\/10.0.10.240:5555\/latest.jpg> -o current\/incoming\/2.jpg \ncurl -s <http:\/\/10.0.10.242:5555\/latest.jpg> -o current\/incoming\/3.jpg",
+        "ts": "1420486713.000173"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "prepend sudo on all",
+        "ts": "1420486720.000174"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh also, if you run it without the -s",
+        "ts": "1420486745.000175"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that will log everything to the screen",
+        "ts": "1420486751.000176"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so this may be sufficient",
+        "ts": "1420486761.000177"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sudo curl <http:\/\/10.0.10.241:5555\/latest.jpg> -o current\/incoming\/0.jpg",
+        "ts": "1420486765.000178"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8LF2X>: ^",
+        "ts": "1420486773.000179"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also useful:",
+        "ts": "1420486791.000180"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ls -lart \/",
+        "ts": "1420486794.000181"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(so i can peek at the files)",
+        "ts": "1420486799.000182"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok 235 and 236 are ok",
+        "ts": "1420487108.000183"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me go eat something and return and do that",
+        "ts": "1420487162.000184"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1420487166.000185"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok I'm back",
+        "ts": "1420488535.000186"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1420488545.000187"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Mark was saying he updated autofridge.sh from a windows computer",
+        "ts": "1420488552.000188"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I wonder if it's weird newline character land",
+        "ts": "1420488560.000189"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i checked that, and thats an option, but for the moment, could you try the above curl command",
+        "ts": "1420488574.000190"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yep from 10.0.10.1 root directory",
+        "ts": "1420488592.000191"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "here I go",
+        "ts": "1420488594.000192"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1420488608.000193"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ sudo curl <http:\/\/10.0.10.240:5555\/latest.jpg> -o current\/incoming\/2.jpg \n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n100 1267k    0 1267k    0     0   124k      0 --:--:--  0:00:10 --:--:--  320k\nglaze@glaze-fridgetop:\/$ sudo curl <http:\/\/10.0.10.242:5555\/latest.jpg> -o current\/incoming\/3.jpg \n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n100 2240k    0 2240k    0     0   203k      0 --:--:--  0:00:10 --:--:--  592k\nglaze@glaze-fridgetop:\/$ ls -lart \/\ntotal 144\ndrwxr-xr-x   2 root  root   4096 Apr 10  2014 mnt\ndrwxr-xr-x  10 root  root   4096 Jul 22 14:57 usr\ndrwxr-xr-x   2 root  root   4096 Jul 22 14:57 srv\ndrwxr-xr-x   2 root  root   4096 Jul 22 14:57 opt\ndrwxr-xr-x   2 root  root   4096 Jul 22 14:57 media\ndrwx------   2 root  root  16384 Dec 10 14:57 lost+found\nlrwxrwxrwx   1 root  root     33 Dec 10 14:57 initrd.img.old -&gt; boot\/initrd.img-3.13.0-32-generic\ndrwxrwxr-x   2 root  root   4096 Dec 10 14:59 cdrom\ndrwxr-xr-x   3 root  root   4096 Dec 10 15:01 home\nlrwxrwxrwx   1 root  root     30 Dec 10 15:10 vmlinuz -&gt; boot\/vmlinuz-3.13.0-32-generic\nlrwxrwxrwx   1 root  root     33 Dec 10 15:10 initrd.img -&gt; boot\/initrd.img-3.13.0-32-generic\ndrwxr-xr-x   2 root  root   4096 Dec 10 15:26 lib64\ndrwxr-xr-x   2 root  root   4096 Dec 10 15:32 bin\ndrwxr-xr-x   4 root  root   4096 Dec 10 15:33 boot\ndrwxr-xr-x   2 root  root  12288 Dec 11 11:04 sbin\ndrwxr-xr-x  25 root  root   4096 Dec 11 11:25 lib\ndrwxr-xr-x  14 root  root   4096 Dec 11 13:46 var\ndrwxr-xr-x   4 glaze glaze  4096 Dec 12 12:45 images\ndrwx------   3 root  root   4096 Dec 12 17:53 root\n-rw-r--r--   1 root  root   4691 Dec 13 17:52 shelfbreak.png\ndrwxr-xr-x  38 glaze glaze  4096 Dec 15 18:11 library\n-rw-r--r--   1 root  root   3629 Jan  3 17:27 autofridge.sh\n-rw-r--r--   1 root  root   1654 Jan  3 17:27 allfalse.json\n-rw-r--r--   1 glaze glaze  3395 Jan  5 11:29 autofridge.sh.new\ndrwxr-xr-x   7 root  root   4096 Jan  5 11:36 previous\ndr-xr-xr-x 191 root  root      0 Jan  5 11:41 proc\ndr-xr-xr-x  13 root  root      0 Jan  5 11:41 sys\ndrwxr-xr-x  15 root  root   4080 Jan  5 11:41 dev\ndrwxr-xr-x 137 root  root  12288 Jan  5 11:41 etc\ndrwxr-xr-x   7 root  root   4096 Jan  5 11:43 current\ndrwxr-xr-x  27 root  root   4096 Jan  5 11:44 ..\ndrwxr-xr-x  27 root  root   4096 Jan  5 11:44 .\n-rw-r--r--   1 root  root   1593 Jan  5 11:45 results.json\ndrwxr-xr-x  25 root  root    820 Jan  5 12:10 run\ndrwxrwxrwt   4 root  root   4096 Jan  5 12:10 tmp",
+        "ts": "1420488931.000194"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "they seem to be downloading ok",
+        "ts": "1420488941.000195"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, re-run autofridge",
+        "ts": "1420488949.000196"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ pwd\n\/\nglaze@glaze-fridgetop:\/$ sudo sh .\/autofridge.sh \n.\/autofridge.sh: 47: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-0.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\n.\/autofridge.sh: 47: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-1.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\n.\/autofridge.sh: 47: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-2.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\n.\/autofridge.sh: 47: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-3.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\nconvert.im6: no images defined `current\/result\/result.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/263\nconvert.im6: no images defined `current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/result\/stitch.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/26\nconvert.im6: no images defined `\/current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nOpenCV Error: Bad argument (image is empty or has incorrect depth (!=CV_8U)) in operator(), file \/home\/glaze\/opencv-\nTraceback (most recent call last):\n  File \"\/home\/glaze\/glaze_id_stack\/testThread.py\", line 109, in &lt;module&gt;\n    kp2, des2 = sift.detectAndCompute(img2, None)\ncv2.error: \/home\/glaze\/opencv-2.4.10\/modules\/nonfree\/src\/sift.cpp:737: error: (-5) image is empty or has incorrect d",
+        "ts": "1420489159.000197"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this one has never touched windows",
+        "ts": "1420489261.000199"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "see if that works, and if not, im prepping a fully clean one",
+        "ts": "1420489276.000200"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ sudo sh autofridge-2.sh \nautofridge-2.sh: 47: [: \/current\/incoming\/0.jpg: unexpected operator\nautofridge-2.sh: 54: [: \/current\/incoming\/0.jpg: unexpected operator\nautofridge-2.sh: 61: [: \/current\/incoming\/0.jpg: unexpected operator\nautofridge-2.sh: 68: [: \/current\/incoming\/0.jpg: unexpected operator\nautofridge-2.sh: 76: autofridge-2.sh: filelist+=\/current\/crops\/crop-0.jpg: not found\nautofridge-2.sh: 77: autofridge-2.sh: filelist+= \/shelfbreak.png : not found\nautofridge-2.sh: 47: [: \/current\/incoming\/1.jpg: unexpected operator\nautofridge-2.sh: 54: [: \/current\/incoming\/1.jpg: unexpected operator\nautofridge-2.sh: 61: [: \/current\/incoming\/1.jpg: unexpected operator\nautofridge-2.sh: 68: [: \/current\/incoming\/1.jpg: unexpected operator\nautofridge-2.sh: 76: autofridge-2.sh: filelist+=\/current\/crops\/crop-1.jpg: not found\nautofridge-2.sh: 77: autofridge-2.sh: filelist+= \/shelfbreak.png : not found\nautofridge-2.sh: 47: [: \/current\/incoming\/2.jpg: unexpected operator\nautofridge-2.sh: 54: [: \/current\/incoming\/2.jpg: unexpected operator\nautofridge-2.sh: 61: [: \/current\/incoming\/2.jpg: unexpected operator\nautofridge-2.sh: 68: [: \/current\/incoming\/2.jpg: unexpected operator\nautofridge-2.sh: 76: autofridge-2.sh: filelist+=\/current\/crops\/crop-2.jpg: not found\nautofridge-2.sh: 77: autofridge-2.sh: filelist+= \/shelfbreak.png : not found\nautofridge-2.sh: 47: [: \/current\/incoming\/3.jpg: unexpected operator\nautofridge-2.sh: 54: [: \/current\/incoming\/3.jpg: unexpected operator\nautofridge-2.sh: 61: [: \/current\/incoming\/3.jpg: unexpected operator\nautofridge-2.sh: 68: [: \/current\/incoming\/3.jpg: unexpected operator\nautofridge-2.sh: 76: autofridge-2.sh: filelist+=\/current\/crops\/crop-3.jpg: not found\nautofridge-2.sh: 77: autofridge-2.sh: filelist+= \/shelfbreak.png : not found\nconvert.im6: no images defined `current\/result\/result.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/263\nconvert.im6: no images defined `current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/result\/stitch.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/26\nconvert.im6: no images defined `\/current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/.\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/.\nOpenCV Error: Bad argument (image is empty or has incorrect depth (!=CV_8U)) in operator(), file \/home\/glaze\/opencv-\nTraceback (most recent call last):\n  File \"\/home\/glaze\/glaze_id_stack\/testThread.py\", line 109, in &lt;module&gt;\n    kp2, des2 = sift.detectAndCompute(img2, None)\ncv2.error: \/home\/glaze\/opencv-2.4.10\/modules\/nonfree\/src\/sift.cpp:737: error: (-5) image is empty or has incorrect d\n\nglaze@glaze-fridgetop:\/$",
+        "ts": "1420489473.000201"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do you have output for the -new one?",
+        "ts": "1420489512.000202"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "secondly",
+        "ts": "1420489546.000203"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you give me the ls -la for \/current\/incoming",
+        "ts": "1420489554.000204"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont know why this bash script is suddenly messed up",
+        "ts": "1420489570.000205"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can run it locally with no issue",
+        "ts": "1420489642.000206"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8LF2X>",
+        "ts": "1420489756.000208"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(thats the cleaned one)",
+        "ts": "1420489761.000209"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "run that last one?",
+        "ts": "1420489761.000210"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "run the one i just uploaded",
+        "ts": "1420489767.000211"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok",
+        "ts": "1420489770.000212"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that removes all looped variable modifications",
+        "ts": "1420489804.000213"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ ls -la \/current\/incoming\/\ntotal 3176\ndrwxr-xr-x 2 root root    4096 Jan  5 12:33 .\ndrwxr-xr-x 7 root root    4096 Jan  5 12:33 ..\n-rw-r--r-- 1 root root  331776 Jan  5 12:33 1.jpg\n-rw-r--r-- 1 root root 2909094 Jan  5 12:33 2.jpg",
+        "ts": "1420490320.000214"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "that should have more files...",
+        "ts": "1420490328.000215"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420490330.000216"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it should",
+        "ts": "1420490332.000217"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "seems like 40 and 41 aren't responding",
+        "ts": "1420490361.000218"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "back",
+        "ts": "1420490668.000219"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "power cycled everything",
+        "ts": "1420490678.000220"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "current\/incoming now has files",
+        "ts": "1420490683.000221"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "but still problems: glaze@glaze-fridgetop:\/$ sudo sh .\/autofridge-novars.sh \n[sudo] password for glaze: \nconvert.im6: unable to open image `\/current\/incoming\/0.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-0.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-0.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-0.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-0.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-0.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\n.\/autofridge-novars.sh: 46: .\/autofridge-novars.sh: filelist+=\/current\/crops\/crop-0.jpg: not found\n.\/autofridge-novars.sh: 47: .\/autofridge-novars.sh: filelist+= \/shelfbreak.png : not found\nconvert.im6: unable to open image `\/current\/incoming\/1.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-1.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-1.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-1.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-1.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-1.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\n.\/autofridge-novars.sh: 54: .\/autofridge-novars.sh: filelist+=\/current\/crops\/crop-1.jpg: not found\n.\/autofridge-novars.sh: 55: .\/autofridge-novars.sh: filelist+= \/shelfbreak.png : not found\nconvert.im6: unable to open image `\/current\/incoming\/2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\n.\/autofridge-novars.sh: 62: .\/autofridge-novars.sh: filelist+=\/current\/crops\/crop-2.jpg: not found\n.\/autofridge-novars.sh: 63: .\/autofridge-novars.sh: filelist+= \/shelfbreak.png : not found\nconvert.im6: unable to open image `\/current\/incoming\/3.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images define",
+        "ts": "1420490697.000222"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ sudo sh autofridge-2.sh \nautofridge-2.sh: 47: [: \/current\/incoming\/0.jpg: unexpected operator\nautofridge-2.sh: 54: [: \/current\/incoming\/0.jpg: unexpected operator\nautofridge-2.sh: 61: [: \/current\/incoming\/0.jpg: unexpected operator\nautofridge-2.sh: 68: [: \/current\/incoming\/0.jpg: unexpected operator\nautofridge-2.sh: 76: autofridge-2.sh: filelist+=\/current\/crops\/crop-0.jpg: not found\nautofridge-2.sh: 77: autofridge-2.sh: filelist+= \/shelfbreak.png : not found\nautofridge-2.sh: 47: [: \/current\/incoming\/1.jpg: unexpected operator\nautofridge-2.sh: 54: [: \/current\/incoming\/1.jpg: unexpected operator\nautofridge-2.sh: 61: [: \/current\/incoming\/1.jpg: unexpected operator\nautofridge-2.sh: 68: [: \/current\/incoming\/1.jpg: unexpected operator\nautofridge-2.sh: 76: autofridge-2.sh: filelist+=\/current\/crops\/crop-1.jpg: not found\nautofridge-2.sh: 77: autofridge-2.sh: filelist+= \/shelfbreak.png : not found\nautofridge-2.sh: 47: [: \/current\/incoming\/2.jpg: unexpected operator\nautofridge-2.sh: 54: [: \/current\/incoming\/2.jpg: unexpected operator\nautofridge-2.sh: 61: [: \/current\/incoming\/2.jpg: unexpected operator\nautofridge-2.sh: 68: [: \/current\/incoming\/2.jpg: unexpected operator\nautofridge-2.sh: 76: autofridge-2.sh: filelist+=\/current\/crops\/crop-2.jpg: not found\nautofridge-2.sh: 77: autofridge-2.sh: filelist+= \/shelfbreak.png : not found\nautofridge-",
+        "ts": "1420490711.000223"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'm not crazy, right? those images are at those paths",
+        "ts": "1420490764.000224"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/current\/incoming$ ls -la\ntotal 10504\ndrwxr-xr-x 2 root root    4096 Jan  5 12:42 .\ndrwxr-xr-x 7 root root    4096 Jan  5 12:42 ..\n-rw-r--r-- 1 root root 1851392 Jan  5 12:42 0.jpg\n-rw-r--r-- 1 root root 2836249 Jan  5 12:42 1.jpg\n-rw-r--r-- 1 root root 2921437 Jan  5 12:42 2.jpg\n-rw-r--r-- 1 root root 3130221 Jan  5 12:42 3.jpg",
+        "ts": "1420490776.000225"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what the fuck is going on here",
+        "ts": "1420490817.000226"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "try this one",
+        "ts": "1420490842.000227"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "everything absolute path'ed",
+        "ts": "1420490851.000229"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "why would this suddenly not work",
+        "ts": "1420490856.000230"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "permissions problem",
+        "ts": "1420490877.000231"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "current working directory problem?",
+        "ts": "1420490886.000232"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sudo should fix that, tho",
+        "ts": "1420490889.000233"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "running from \/ fixes the CWD issues",
+        "ts": "1420490896.000234"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, it worked earlier today?",
+        "ts": "1420490903.000235"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could be permissions, i guess",
+        "ts": "1420490907.000236"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "not sure",
+        "ts": "1420490909.000237"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me go try new script",
+        "ts": "1420490918.000238"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, also see if you can suss out permissions maybe",
+        "ts": "1420490932.000239"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ sudo sh autofridge-novars2.sh \nautofridge-novars2.sh: 46: autofridge-novars2.sh: filelist+=\/current\/crops\/crop-0.jpg: not found\nautofridge-novars2.sh: 47: autofridge-novars2.sh: filelist+= \/shelfbreak.png : not found\nautofridge-novars2.sh: 54: autofridge-novars2.sh: filelist+=\/current\/crops\/crop-1.jpg: not found\nautofridge-novars2.sh: 55: autofridge-novars2.sh: filelist+= \/shelfbreak.png : not found\nautofridge-novars2.sh: 62: autofridge-novars2.sh: filelist+=\/current\/crops\/crop-2.jpg: not found\nautofridge-novars2.sh: 63: autofridge-novars2.sh: filelist+= \/shelfbreak.png : not found\nautofridge-novars2.sh: 70: autofridge-novars2.sh: filelist+=\/current\/crops\/crop-3.jpg: not found\nautofridge-novars2.sh: 73: autofridge-novars2.sh: filelist+= \/shelfbreak.png : not found\nconvert.im6: no images defined `current\/result\/result.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/263\nconvert.im6: no images defined `current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/result\/stitch.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/26\nconvert.im6: no images defined `\/current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nOpenCV Error: Bad argument (image is empty or has incorrect depth (!=CV_8U)) in operator(), file \/home\/glaze\/opencv-\nTraceback (most recent call last):\n  File \"\/home\/glaze\/glaze_id_stack\/testThread.py\", line 109, in &lt;module&gt;\n    kp2, des2 = sift.detectAndCompute(img2, None)\ncv2.error: \/home\/glaze\/opencv-2.4.10\/modules\/nonfree\/src\/sift.cpp:737: error: (-5) image is empty or has incorrect d",
+        "ts": "1420491292.000240"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ooh wait",
+        "ts": "1420491308.000241"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats slightly different",
+        "ts": "1420491312.000242"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah I changed some relative paths to absolute",
+        "ts": "1420491323.000243"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "prefixed some stuff with sudo",
+        "ts": "1420491332.000244"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "what does filelist do?",
+        "ts": "1420491337.000245"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "creates the stitch image input list",
+        "ts": "1420491349.000246"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me go see if those crops are actually running\/working",
+        "ts": "1420491375.000247"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what if you run itafter",
+        "ts": "1420491378.000248"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sudo su",
+        "ts": "1420491380.000249"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the inline sudos shouldnt be needed since it runs as root normally",
+        "ts": "1420491399.000250"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but good call",
+        "ts": "1420491438.000251"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "grasping at straws here",
+        "ts": "1420491453.000252"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hold on",
+        "ts": "1420491459.000253"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/current$ find .\n.\n.\/debarrel\n.\/debarrel\/out-2.jpg\n.\/debarrel\/out-0.jpg\n.\/debarrel\/out-3.jpg\n.\/debarrel\/out-1.jpg\n.\/crops\n.\/crops\/crop-1.jpg\n.\/crops\/crop-3.jpg\n.\/crops\/crop-0.jpg\n.\/crops\/crop-2.jpg\n.\/incoming\n.\/incoming\/0.jpg\n.\/incoming\/1.jpg\n.\/incoming\/3.jpg\n.\/incoming\/2.jpg\n.\/back\n.\/back\/left.jpg\n.\/back\/right.jpg\n.\/result",
+        "ts": "1420491459.000254"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think i see another fix",
+        "ts": "1420491470.000255"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im not sure why this is acting so strangely",
+        "ts": "1420491477.000256"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "because I'm here",
+        "ts": "1420491489.000257"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that removes appending the file list",
+        "ts": "1420491562.000259"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its just one var",
+        "ts": "1420491564.000260"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it doesnt obviously have your sudo changes in it",
+        "ts": "1420491572.000261"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry",
+        "ts": "1420491573.000262"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "not sure if they're actually doing anything",
+        "ts": "1420491592.000263"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "trying now",
+        "ts": "1420491596.000264"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1420491646.000265"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:~$ sudo mv \/home\/glaze\/autofridge-novars3.sh .\/autofridge-novars4.sh \nglaze@glaze-fridgetop:~$ sudo sh .\/autofridge-novars4.sh \nconvert.im6: unable to open image `current\/incoming\/2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/incoming\/2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `current\/incoming\/3.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/incoming\/3.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/crops\/crop-0.jpg \/shelfbreak.png \/current\/crops\/crop-1.jpg \/shelfbreak.p\nconvert.im6: no decode delegate for this image format `\/current\/crops\/crop-0.jpg \/shelfbreak.png \/current\/crops\/cro.\nconvert.im6: no images defined `current\/result\/result.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/263\nconvert.im6: no images defined `current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nOpenCV Error: Bad argument (image is empty or has incorrect depth (!=CV_8U)) in operator(), file \/home\/glaze\/opencv-\nTraceback (most recent call last):\n  File \"\/home\/glaze\/glaze_id_stack\/testThread.py\", line 109, in &lt;module&gt;\n    kp2, des2 = sift.detectAndCompute(img2, None)\ncv2.error: \/home\/glaze\/opencv-2.4.10\/modules\/nonfree\/src\/sift.cpp:737: error: (-5) image is empty or has incorrect d",
+        "ts": "1420491829.000266"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, those all look like relative, maybe put those back to absolute and run in a sudo su shell",
+        "ts": "1420491870.000267"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just have no idea what changed in there",
+        "ts": "1420491887.000268"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:~$ vi .\/autofridge-novars4.sh \nglaze@glaze-fridgetop:~$ sudo sh .\/autofridge-novars4.sh \nconvert.im6: unable to open image `\/current\/incoming\/1.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-1.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-1.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-1.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-1.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-1.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/incoming\/2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-2.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-2.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/incoming\/3.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/debarrel\/out-3.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-3.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/debarrel\/out-3.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/debarrel\/out-3.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nconvert.im6: no images defined `\/current\/crops\/crop-3.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/crops\/crop-0.jpg \/shelfbreak.png \/current\/crops\/crop-1.jpg \/shelfbreak.p\nconvert.im6: no decode delegate for this image format `\/current\/crops\/crop-0.jpg \/shelfbreak.png \/current\/crops\/crop\nconvert.im6: no images defined `current\/result\/result.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/26\nconvert.im6: no images defined `\/current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/back\/left.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/back\/left.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/back\/right.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2638.\nconvert.im6: no images defined `\/current\/back\/right.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/result\/stitch.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/26\nconvert.im6: no images defined `\/current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nOpenCV Error: Bad argument (image is empty or has incorrect depth (!=CV_8U)) in operator(), file \/home\/glaze\/opencv-\nTraceback (most recent call last):\n  File \"\/home\/glaze\/glaze_id_stack\/testThread.py\", line 109, in &lt;module&gt;\n    kp2, des2 = sift.detectAndCompute(img2, None)\ncv2.error: \/home\/glaze\/opencv-2.4.10\/modules\/nonfree\/src\/sift.cpp:737: error: (-5) image is empty or has incorrect d",
+        "ts": "1420492132.000269"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:~$ find \/current\n\/current\n\/current\/debarrel\n\/current\/debarrel\/out-0.jpg\n\/current\/crops\n\/current\/crops\/crop-0.jpg\n\/current\/incoming\n\/current\/incoming\/0.jpg\n\/current\/incoming\/1.jpg\n\/current\/incoming\/3.jpg\n\/current\/incoming\/2.jpg\n\/current\/back\n\/current\/back\/left.jpg\n\/current\/back\/right.jpg\n\/current\/result\nglaze@glaze-fridgetop:~$",
+        "ts": "1420492139.000270"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "there are no more relative paths",
+        "ts": "1420492158.000271"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's whining about not being able to find a file that is actually there",
+        "ts": "1420492173.000272"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you run that in a sudo su shell?",
+        "ts": "1420492206.000273"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Its very strange that its not finding that image",
+        "ts": "1420492213.000274"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can't recreate these errors at all",
+        "ts": "1420492237.000275"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "did that",
+        "ts": "1420492316.000276"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "they ran ok",
+        "ts": "1420492317.000277"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok must be a permissions thing",
+        "ts": "1420492327.000278"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically at this point, the whole thing should be working since the node app runs as root",
+        "ts": "1420492344.000279"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "including the original autofridge.sh?",
+        "ts": "1420492379.000280"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "or should I move the one we've been hacking on to autofridge.sh",
+        "ts": "1420492392.000281"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "try to re-run the original one in the sudo su shell",
+        "ts": "1420492400.000282"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok hold on",
+        "ts": "1420492408.000283"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1420492410.000284"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "be back",
+        "ts": "1420492411.000285"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ sudo sh .\/autofridge.sh\n[sudo] password for glaze: \n.\/autofridge.sh: 47: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/0.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-0.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\n.\/autofridge.sh: 47: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/1.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-1.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\n.\/autofridge.sh: 47: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/2.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-2.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\n.\/autofridge.sh: 47: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 54: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 61: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 68: [: \/current\/incoming\/3.jpg: unexpected operator\n.\/autofridge.sh: 76: .\/autofridge.sh: filelist+=\/current\/crops\/crop-3.jpg: not found\n.\/autofridge.sh: 77: .\/autofridge.sh: filelist+= \/shelfbreak.png : not found\nconvert.im6: no images defined `current\/result\/result.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/263\nconvert.im6: no images defined `current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nconvert.im6: unable to open image `\/current\/result\/stitch.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/26\nconvert.im6: no images defined `\/current\/result\/stitch.jpg' @ error\/convert.c\/ConvertImageCommand\/3044.\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nidentify.im6: unable to open image `\/current\/result\/result.jpg': No such file or directory @ error\/blob.c\/OpenBlob\/2\nOpenCV Error: Bad argument (image is empty or has incorrect depth (!=CV_8U)) in operator(), file \/home\/glaze\/opencv-\nTraceback (most recent call last):\n  File \"\/home\/glaze\/glaze_id_stack\/testThread.py\", line 109, in &lt;module&gt;\n    kp2, des2 = sift.detectAndCompute(img2, None)\ncv2.error: \/home\/glaze\/opencv-2.4.10\/modules\/nonfree\/src\/sift.cpp:737: error: (-5) image is empty or has incorrect d\n\nglaze@glaze-fridg",
+        "ts": "1420492582.000286"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wow",
+        "ts": "1420492602.000287"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah rename the one we'd worked with",
+        "ts": "1420492607.000288"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok I'll be back",
+        "ts": "1420492624.000289"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1420492626.000290"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok",
+        "ts": "1420492861.000291"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so test on phone?",
+        "ts": "1420492873.000292"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420492923.000293"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also useful:",
+        "ts": "1420492928.000294"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "on glaze wifi hit <http:\/\/10.0.10.1:5555\/latest.jpg>",
+        "ts": "1420492940.000295"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me go try that",
+        "ts": "1420492963.000296"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Mark is in a demo now",
+        "ts": "1420492967.000297"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha",
+        "ts": "1420492970.000298"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that was fast",
+        "ts": "1420492975.000299"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that shouldn't interrupt him",
+        "ts": "1420492982.000300"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "didn't rotate for some reason?",
+        "ts": "1420493066.000302"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "interesting.",
+        "ts": "1420493087.000303"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "convert current\/incoming\/2.jpg -rotate 180 \/current\/incoming\/2.jpg",
+        "ts": "1420493103.000304"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "both rotate commands are in the script",
+        "ts": "1420493110.000305"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oooh but are relative",
+        "ts": "1420493114.000306"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "at least, in my copy",
+        "ts": "1420493122.000307"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I prefixed the first with a slash",
+        "ts": "1420493129.000308"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so both absolute here",
+        "ts": "1420493133.000309"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "convert \/current\/incoming\/2.jpg -rotate 180 \/current\/incoming\/2.jpg \nconvert \/current\/incoming\/3.jpg -rotate 180 \/current\/incoming\/3.jpg",
+        "ts": "1420493133.000310"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420493134.000311"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "odd.",
+        "ts": "1420493136.000312"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "indeed",
+        "ts": "1420493199.000313"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "theory:",
+        "ts": "1420493252.000314"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "remove the &amp; from the ends of those lines",
+        "ts": "1420493259.000315"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and kill the wait",
+        "ts": "1420493261.000316"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right after those lines",
+        "ts": "1420493264.000317"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "make them operate in serial",
+        "ts": "1420493268.000318"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok",
+        "ts": "1420493276.000319"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1420493280.000320"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also",
+        "ts": "1420493281.000321"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "dont forget to sudo su",
+        "ts": "1420493284.000322"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1420493286.000323"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "heh heh",
+        "ts": "1420493384.000325"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that looks properly rotated",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1420493399.000000"
+        },
+        "ts": "1420493397.000326"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeti right side up",
+        "ts": "1420493406.000328"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'll wait a couple minutes and try again",
+        "ts": "1420493456.000329"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks. seems to be in order, tho",
+        "ts": "1420493476.000330"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "does look like shelf 3 is also lagging",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1420493514.000000"
+        },
+        "ts": "1420493486.000331"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "legging hard",
+        "ts": "1420493505.000332"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im in another meeting, cut me some <@USLACKBOT>",
+        "ts": "1420493523.000334"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "\"could not retrieve refrigerator status\"",
+        "ts": "1420493648.000335"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "interesting.",
+        "ts": "1420493657.000336"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "tried restarting app already?",
+        "ts": "1420493662.000337"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is the phone on the proper wifi",
+        "ts": "1420493663.000338"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "please hold",
+        "ts": "1420493678.000339"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1420493680.000340"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok",
+        "ts": "1420493717.000341"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "turned on wifi",
+        "ts": "1420493720.000342"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "now get \"could not retrieve one or more images\"",
+        "ts": "1420493729.000343"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ>",
+        "ts": "1420493736.000344"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "are all three images available?",
+        "ts": "1420493807.000345"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "if you're getting that error, it's made it past the status and results requests",
+        "ts": "1420493820.000346"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "that loaded pretty quick",
+        "ts": "1420493837.000348"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/10.0.10.1:5555\/left.jpg>",
+        "ts": "1420493850.000349"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/10.0.10.1:5555\/right.jpg>",
+        "ts": "1420493853.000350"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "that was from a web browser request",
+        "ts": "1420493855.000351"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/10.0.10.1:5555\/latest.jpg>",
+        "ts": "1420493856.000352"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah that was latest",
+        "ts": "1420493862.000353"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me try left and right",
+        "ts": "1420493869.000354"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "left and\/or right might be throwing the error",
+        "ts": "1420493871.000355"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool thanks",
+        "ts": "1420493873.000356"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze network became inaccessible",
+        "ts": "1420494121.000357"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "power cycled computer",
+        "ts": "1420494124.000358"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so does accessing latest run the autofridge script?",
+        "ts": "1420494142.000359"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "or is that done on a cronjob?",
+        "ts": "1420494148.000360"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "latest.jpg was retrieveable",
+        "ts": "1420494167.000361"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "left and right weren't",
+        "ts": "1420494171.000362"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "but ssh'd in and nothing was there after reboot",
+        "ts": "1420494191.000363"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:~\/current$ find .\n.\n.\/debarrel\n.\/crops\n.\/incoming\n.\/back\n.\/result",
+        "ts": "1420494192.000364"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so maybe it hadn't run yet?",
+        "ts": "1420494197.000365"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no it doesnt",
+        "ts": "1420494218.000366"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "autofridge is triggered from the light sensor on 36",
+        "ts": "1420494232.000367"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok having mark open and close door",
+        "ts": "1420494259.000368"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if you're seeing weirdness, make sure that \/tmp\/lock.fridge (i think) isn't there",
+        "ts": "1420494270.000369"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it prevents collisions of open\/close stuff",
+        "ts": "1420494279.000370"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "well rebooted so that should have been blown away",
+        "ts": "1420494284.000371"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yes?",
+        "ts": "1420494285.000372"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but a reboot should fix that",
+        "ts": "1420494286.000373"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420494287.000374"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks, sorry, i dont know how this got weird since it left the office",
+        "ts": "1420494311.000375"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you can see if its running by looking at that little indicator light on the freezer\/soda drawer",
+        "ts": "1420494379.000376"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok I think it ran",
+        "ts": "1420494448.000377"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so when I try to access left and right as per above (in a web browser) it returns a connect was reset error?!",
+        "ts": "1420494495.000378"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats usually a fatal error when the file is missing.",
+        "ts": "1420494512.000379"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I can ssh to 235",
+        "ts": "1420494516.000380"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's up",
+        "ts": "1420494520.000381"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is node running?",
+        "ts": "1420494524.000382"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me see",
+        "ts": "1420494535.000383"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can also call you so you dont have to keep flipping wifi",
+        "ts": "1420494572.000384"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "might speed things up",
+        "ts": "1420494616.000385"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:~$ \nglaze@glaze-fridgetop:~$ whoami\nglaze\nglaze@glaze-fridgetop:~$ ps aux | grep node\nroot      1576  0.0  0.1 671656 22976 ?        Ssl  13:39   0:00 \/usr\/bin\/nodejs \/usr\/local\/lib\/node_modules\/forever\nroot      2398  0.0  0.0 668580 10724 ?        Sl   13:45   0:00 \/usr\/bin\/nodejs \/home\/glaze\/app.js\nglaze     2402  0.0  0.0  15944   920 pts\/0    S+   13:49   0:00 grep --color=auto node\nglaze@glaze-fridgetop:~$ cd current\nglaze@glaze-fridgetop:~\/current$ ls\nback  crops  debarrel  incoming  result\nglaze@glaze-fridgetop:~\/current$ find .\n.\n.\/debarrel\n.\/crops\n.\/incoming\n.\/back\n.\/result",
+        "ts": "1420494625.000386"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so node is running but autofridge never ran?",
+        "ts": "1420494640.000387"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you're in ~",
+        "ts": "1420494644.000388"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "glaze@glaze-fridgetop:~",
+        "ts": "1420494648.000389"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "bah",
+        "ts": "1420494656.000390"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:~\/current$ cd \/\nglaze@glaze-fridgetop:\/$ find current\ncurrent\ncurrent\/debarrel\ncurrent\/debarrel\/out-2.jpg\ncurrent\/debarrel\/out-0.jpg\ncurrent\/debarrel\/out-3.jpg\ncurrent\/debarrel\/out-1.jpg\ncurrent\/crops\ncurrent\/crops\/crop-1.jpg\ncurrent\/crops\/crop-3.jpg\ncurrent\/crops\/crop-0.jpg\ncurrent\/crops\/crop-2.jpg\ncurrent\/incoming\ncurrent\/incoming\/0.jpg\ncurrent\/incoming\/1.jpg\ncurrent\/incoming\/3.jpg\ncurrent\/incoming\/2.jpg\ncurrent\/back\ncurrent\/result\ncurrent\/result\/result.jpg\ncurrent\/result\/stitch.jpg\nglaze@glaze-fridgetop:\/$ ls -lash current\/back\ntotal 8.0K\n4.0K drwxr-xr-x 2 root root 4.0K Jan  5 13:44 .\n4.0K drwxr-xr-x 7 root root 4.0K Jan  5 13:44 ..",
+        "ts": "1420494721.000391"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the back two images didn't download",
+        "ts": "1420494734.000392"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "empty directory",
+        "ts": "1420494743.000393"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/10.0.10.236:5555\/latest.jpg>",
+        "ts": "1420494764.000394"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/10.0.10.235:5555\/latest.jpg>",
+        "ts": "1420494768.000395"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im curious about what is up with those two",
+        "ts": "1420494775.000396"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause if 236 can't connect to 1, the process will never kick",
+        "ts": "1420494792.000397"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "the connection was reset",
+        "ts": "1420494861.000398"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I can ssh to it though just fine",
+        "ts": "1420494868.000399"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "on 235\/236?",
+        "ts": "1420494870.000400"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whats in \/tmp on those?",
+        "ts": "1420494875.000401"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yes 235\/236 http request",
+        "ts": "1420494890.000402"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or at least one of them",
+        "ts": "1420494890.000403"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok hold on",
+        "ts": "1420494893.000404"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1420494896.000405"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "almost there",
+        "ts": "1420494898.000406"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, if the glaze server isn't on top of the fridge, it should probably be put there",
+        "ts": "1420494957.000407"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's on top of fridge",
+        "ts": "1420494980.000408"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1420494985.000409"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "wlan0     Link encap:Ethernet  HWaddr 00:0b:81:94:e3:dc  \n          inet addr:10.0.10.235  Bcast:10.0.10.255  Mask:255.255.255.0\n          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1\n          RX packets:409 errors:0 dropped:10274 overruns:0 frame:0\n          TX packets:117 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:1000 \n          RX bytes:3223117 (3.0 MiB)  TX bytes:79877574 (76.1 MiB)\n\npi@raspberrypi ~ $ ls \/tmp\nlatest.jpg\npi@raspberrypi ~ $ telnet localhost 80\n-bash: telnet: command not found\npi@raspberrypi ~ $ ps uax | grep node\npi        3140  0.0  0.6",
+        "ts": "1420494989.000410"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it runs on port 5555 incase you want to try that telnet trick some other time",
+        "ts": "1420495018.000411"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1420495019.000412"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "well I need telnet",
+        "ts": "1420495027.000413"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the weird thing about the connection reset thing, is that the latest.jpg exists",
+        "ts": "1420495045.000414"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "pi@raspberrypi ~ $ ps uax | grep node\npi        3140  0.0  0.6   3548   804 pts\/2    S+   17:28   0:00 grep --color=auto node",
+        "ts": "1420495060.000415"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ah node isn't running",
+        "ts": "1420495065.000416"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "is node supposed to be running",
+        "ts": "1420495068.000417"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok",
+        "ts": "1420495068.000418"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "reboot it",
+        "ts": "1420495073.000419"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I rebooted those already",
+        "ts": "1420495076.000420"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "can do again",
+        "ts": "1420495078.000421"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can't tell whats going on there",
+        "ts": "1420495081.000422"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "you don't have magically 600 mile eyesight?",
+        "ts": "1420495119.000423"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "magical even",
+        "ts": "1420495123.000424"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i mean, i can't tell why node would stop working on those, they're tiny workhorses",
+        "ts": "1420495132.000425"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "hum they closed the door",
+        "ts": "1420495145.000426"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "restarting from ssh",
+        "ts": "1420495151.000427"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "my guess is that some combo of various open\/close repeatedly eventually caused a weird state",
+        "ts": "1420495249.000428"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok should both be restarted",
+        "ts": "1420495252.000429"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sure",
+        "ts": "1420495256.000430"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "open and close the fridge door?",
+        "ts": "1420495261.000431"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well",
+        "ts": "1420495265.000432"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "try the browser request",
+        "ts": "1420495270.000433"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "10.0.10.1:5555\/latest.jpg",
+        "ts": "1420495282.000434"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "or left\/right?",
+        "ts": "1420495285.000435"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "235:5555\/latest.jpg",
+        "ts": "1420495295.000436"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "236:5555\/latest.jpg",
+        "ts": "1420495301.000437"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "those shouldn't reset anymore",
+        "ts": "1420495329.000438"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, check",
+        "ts": "1420495357.000439"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "236:5555\/lastlights",
+        "ts": "1420495365.000440"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok got back dark images",
+        "ts": "1420495369.000441"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "perfect",
+        "ts": "1420495371.000442"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sounds good",
+        "ts": "1420495372.000443"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok forget the last one",
+        "ts": "1420495376.000444"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "now everything should be humming along",
+        "ts": "1420495379.000445"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "what does lastlights do?",
+        "ts": "1420495384.000446"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "barring someone repeatedly opening\/closing doors a whole lot",
+        "ts": "1420495394.000447"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or triggering autofridge",
+        "ts": "1420495417.000448"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok",
+        "ts": "1420495437.000449"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "returned 1100",
+        "ts": "1420495439.000450"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats fine",
+        "ts": "1420495452.000451"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "is that the number of times I switched networks?",
+        "ts": "1420495460.000452"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes",
+        "ts": "1420495463.000453"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok ready for phone test now?",
+        "ts": "1420495477.000454"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep",
+        "ts": "1420495483.000455"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "remember to keep an eye on the indicator light",
+        "ts": "1420495495.000456"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "how do I change networks on android?",
+        "ts": "1420495548.000457"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> ^^^",
+        "ts": "1420495557.000458"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "help please :simple_smile:",
+        "ts": "1420495559.000459"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "settings",
+        "ts": "1420495579.000460"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok found it",
+        "ts": "1420495588.000461"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "sorry android dumb",
+        "ts": "1420495590.000462"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1420495590.000463"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'm on glaze already",
+        "ts": "1420495595.000464"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok.",
+        "ts": "1420495602.000465"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "getting \"could not retrieve refrigerator status\" again",
+        "ts": "1420495610.000466"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what the hell",
+        "ts": "1420495617.000467"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "going to browser on phone to latest doesn't retrieve image",
+        "ts": "1420495649.000468"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh wait, did you go thru the door open cycle again?",
+        "ts": "1420495649.000469"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "nope",
+        "ts": "1420495668.000470"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "try that",
+        "ts": "1420495675.000471"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "open it... 2 seconds ... close",
+        "ts": "1420495681.000472"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "watch indicator light",
+        "ts": "1420495685.000473"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "once it turns off, try phone again",
+        "ts": "1420495691.000474"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i want to make sure system is in expected state with regard to itself",
+        "ts": "1420495701.000475"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "shouldn't 10.0.10.1:5555\/latest.jpg work though?",
+        "ts": "1420495710.000476"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420495716.000477"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what was its response?",
+        "ts": "1420495722.000478"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "webpage not available",
+        "ts": "1420495727.000479"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "website down",
+        "ts": "1420495735.000480"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that sounds like the wifi isn't right",
+        "ts": "1420495738.000481"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "network not configured blahg blah",
+        "ts": "1420495740.000482"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause node runs constantly on there",
+        "ts": "1420495745.000483"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you try from laptop?",
+        "ts": "1420495758.000484"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill call you in a moment",
+        "ts": "1420495779.000485"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "your phone went straight to vm",
+        "ts": "1420495869.000486"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'll turn on my phone",
+        "ts": "1420495870.000487"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "haha",
+        "ts": "1420495873.000488"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "glaze@glaze-fridgetop:\/$ ps aux | grep node\nroot      1576  0.0  0.1 671656 23020 ?        Ssl  13:39   0:00 \/usr\/bin\/nodejs \/usr\/local\/lib\/node_modules\/forever\nglaze     2437  0.0  0.0  15944   920 pts\/0    S+   14:10   0:00 grep --color=auto node\nglaze@glaze-fridgetop:\/$",
+        "ts": "1420495881.000489"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "is node running?",
+        "ts": "1420495884.000490"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420495888.000491"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "request from laptop got similar non answer",
+        "ts": "1420495900.000492"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok calling you. leave laptop on glaze wifi",
+        "ts": "1420495918.000493"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "convert \/current\/crops\/crop-0.jpg \/shelfbreak.png \/current\/crops\/crop-1.jpg \/shelfbreak.png \/current\/crops\/crop-2.jpg \/shelfbreak.png \/current\/crops\/crop-3.jpg \/shelfbreak.png -append  \/current\/result\/result.jpg",
+        "ts": "1420497397.000494"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that removes all variable expansion completely from the file",
+        "ts": "1420497599.000495"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8LF2X>: im going into adidas dev convo",
+        "ts": "1420497723.000496"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "might be a little distant",
+        "ts": "1420497729.000497"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically, 1:5555\/do\/autofridge",
+        "ts": "1420497742.000498"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wait for light to go off",
+        "ts": "1420497745.000499"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "keep an eye on \/current\/result\/",
+        "ts": "1420497750.000500"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "once result.jpg exists, phone should work fine.",
+        "ts": "1420497762.000501"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "praise baby jebus",
+        "ts": "1420497924.000502"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I think it works",
+        "ts": "1420497928.000503"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'm going to go see what else mark wants to do",
+        "ts": "1420497990.000505"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "with my final 75 minutes",
+        "ts": "1420497997.000506"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "did you end up adjusting hardware?",
+        "ts": "1420498005.000507"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah that part went pretty quick",
+        "ts": "1420498013.000508"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "phew",
+        "ts": "1420498016.000509"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it was the rest of this software crap",
+        "ts": "1420498027.000510"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "don't sign up for too much since you're only there for another hourish",
+        "ts": "1420498030.000511"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah will try not to",
+        "ts": "1420498038.000512"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "let us know what happens :simple_smile:",
+        "ts": "1420498049.000513"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I think this basically got jacked up by a bash update",
+        "ts": "1420498470.000514"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can't think of any other possibility",
+        "ts": "1420498474.000515"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "hey so how does the app refresh?",
+        "ts": "1420498644.000516"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "is it on a timer or do you push a button to get the latest or",
+        "ts": "1420498656.000517"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its based on the latest timestamp",
+        "ts": "1420498667.000518"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so until there's a new image, it doesn't update",
+        "ts": "1420498676.000519"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "hmm",
+        "ts": "1420498682.000520"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so the client was showing old image",
+        "ts": "1420498688.000521"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "but I could request and get an updated one",
+        "ts": "1420498695.000522"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026PHQ3J>: don't they have to refresh the view to see the new image?",
+        "ts": "1420498713.000523"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah i think so",
+        "ts": "1420498723.000524"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it goes based on the timestamp of the results.json file",
+        "ts": "1420498738.000525"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which is why the touch happens",
+        "ts": "1420498741.000526"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this is the weirdness with the \"immediately\" thing",
+        "ts": "1420498753.000527"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "exactly",
+        "ts": "1420498759.000528"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's a thin slice of time where the system *thinks* it has a new image",
+        "ts": "1420498763.000529"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I guess what I'm asking is what is the mechanism by which they can refresh?",
+        "ts": "1420499082.000530"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "or is it not driven that way?",
+        "ts": "1420499092.000531"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "go to a diff screen then open the fridge view again",
+        "ts": "1420499096.000532"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "also, we're in a weird state again with lock file",
+        "ts": "1420499107.000533"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "should I blow it away?",
+        "ts": "1420499127.000534"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's about 5 minutes old",
+        "ts": "1420499135.000535"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fridge.lock is the important lock file",
+        "ts": "1420499135.000536"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "not lock.glaze?",
+        "ts": "1420499141.000537"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right",
+        "ts": "1420499145.000538"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok so blowing away lock.glaze is ok",
+        "ts": "1420499166.000539"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420499186.000540"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it may actually be vestigial",
+        "ts": "1420499190.000541"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think i had been using the timestamp on it to see when stuff had been run",
+        "ts": "1420499230.000542"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but every time results.json's timestamp is updated, the android app (when it asks) will think there's new results",
+        "ts": "1420499281.000543"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "what is this app.js",
+        "ts": "1420499549.000545"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "something you want me to update?",
+        "ts": "1420499557.000546"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "is this your call?",
+        "ts": "1420499577.000547"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "we're seeing some weirdness fetching the images still",
+        "ts": "1420499600.000548"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "generating new ones sometimes returns only the white divider",
+        "ts": "1420499613.000549"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "or two top two images with a divider in between",
+        "ts": "1420499622.000550"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That makes no sense",
+        "ts": "1420499633.000551"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Sorry our internet died in the office",
+        "ts": "1420499640.000552"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I blame John",
+        "ts": "1420499651.000553"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Diff that app.js against the one that is executing at startup",
+        "ts": "1420499672.000554"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "At any rate that collision is partially due to the fact that we're not necessarily waiting until everything is complete",
+        "ts": "1420499702.000555"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm not sure about the repeat images tho",
+        "ts": "1420499713.000556"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "how hard would it be to revert to the old scripts?",
+        "ts": "1420499970.000557"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Remove the touch line",
+        "ts": "1420499980.000558"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or comment it out",
+        "ts": "1420499982.000559"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "From auto fridge",
+        "ts": "1420499987.000560"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "just that one line?",
+        "ts": "1420500007.000561"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1420500044.000562"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats the thing that triggers the system to say that it has an updated version",
+        "ts": "1420500057.000563"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok commenting out",
+        "ts": "1420500063.000564"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "tho i don't fully understand why it would step on it",
+        "ts": "1420500072.000565"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nor do i understand how it could repeat images",
+        "ts": "1420500117.000566"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can call you",
+        "ts": "1420500124.000567"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "\\\\\\\\\\\\\\\\\\",
+        "ts": "1420501054.000568"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",
+        "ts": "1420501075.000569"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "what is this",
+        "ts": "1420501083.000570"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "\\",
+        "ts": "1420501096.000571"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "\\",
+        "ts": "1420501098.000572"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "\\",
+        "ts": "1420501101.000573"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "\\\\",
+        "ts": "1420501109.000574"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "OMG MARK LET JOSH WORK",
+        "ts": "1420501111.000575"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "omg please stop",
+        "ts": "1420501113.000576"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "\\  \\",
+        "ts": "1420501115.000577"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "\\",
+        "ts": "1420501132.000578"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "ops sorry",
+        "ts": "1420501149.000579"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Update: looks like everything is working now. The raspberry pi's are apparently dropping off of the network from time to time, which is odd since we had no problems with them after the power issues were handled.",
+        "ts": "1420501480.000580"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm looking into writing a script for them that kicks their network in the case that something like that happens.",
+        "ts": "1420501496.000581"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Mark is going to send us screenshots from the app so we can help with the recognition by slicing in-app images for recognition",
+        "ts": "1420501513.000582"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "josh is going to come back to portland",
+        "ts": "1420501520.000583"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "something is\/was funny with the bash scripting once it got down there. I'm not sure what it could have been, but there's not really any time to look into it and we sidestepped it",
+        "ts": "1420501558.000584"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so tl;dr version:",
+        "ts": "1420501564.000585"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Raspberry Pi's seem to be dropping off the network",
+        "ts": "1420501578.000586"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thank you for the update. i don't have photoshop on this computer but i can help slice images if i download something that lets me do that",
+        "ts": "1420501639.000587"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the pi's dropping off the network is really really strange",
+        "ts": "1420502074.000588"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "any ideas or are you at a total loss?",
+        "ts": "1420502100.000589"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "total loss.",
+        "ts": "1420502105.000590"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "their setup is the same as ours",
+        "ts": "1420502110.000591"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "same power and everything",
+        "ts": "1420502115.000592"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we hadn't seen pi's dropping out for weeks before we shipped",
+        "ts": "1420502126.000593"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "right that was gone after the power was swapped",
+        "ts": "1420502207.000594"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "dumb question - does it matter why they are dropping off if we put in a script that kicks their network if that happens?",
+        "ts": "1420502243.000595"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i mean i get that ideally we fix whatever is dropping them in the first plae",
+        "ts": "1420502264.000596"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right",
+        "ts": "1420502274.000597"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the idea is to make them act right, not necessarily fix the problem",
+        "ts": "1420502287.000598"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "right ok cool",
+        "ts": "1420502307.000599"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I got the airport way too ealier",
+        "ts": "1420504343.000600"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "early",
+        "ts": "1420504345.000601"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I could have worked another 20-30 minutes",
+        "ts": "1420504354.000602"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "well, evans has pretty much been in a meeting since then anyways",
+        "ts": "1420504389.000603"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i hear mark is going to send us some images but i haven't seen any come through",
+        "ts": "1420504427.000604"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8LF2X>: did you have a sense of when he was going to do that?",
+        "ts": "1420505074.000605"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "like, if he was planning on it today?",
+        "ts": "1420505092.000606"
+    },
+    {
+        "user": "U026E0ZNR",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U026E0ZNR|trent> has left the channel",
+        "ts": "1420508888.000607"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "probably tomorrow",
+        "ts": "1420517293.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yep seems like it. Got the recap email as well. Thanks again for going down there!!",
+        "ts": "1420517412.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "sure thing. was fun in a hectic kind of way",
+        "ts": "1420517870.000004"
+    }
+]

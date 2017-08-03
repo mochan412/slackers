@@ -1,0 +1,189 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> as i think you know, we’re shooting the wall in SBO on Friday for case study footage. As you do know, Kyle is building us a Dummy Workshop.  Starting at 8am PST.  would you mind being ‘on call’ in case he hits snags?  we have limited time nd i want an insurance policy even though very slim chance we need it.",
+        "ts": "1478541423.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure can",
+        "ts": "1478541454.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks dude.  i’ll throw it on your calendar as a soft hold\/reminder",
+        "ts": "1478541536.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "but no action anticipated",
+        "ts": "1478541543.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "is there a link where i can hit preset admin right now?",
+        "ts": "1478541877.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you can only see our local instance, we dont have access to their machine",
+        "ts": "1478543998.000055"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<http:\/\/192.168.170.123:9999\/AdminActivity\/index.html#\/presets\/none>",
+        "ts": "1478544001.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "yep makes sense.  but the presets for our wall?",
+        "ts": "1478546688.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "for reference:\n\nHi all,\n\nIn preparation for the meeting on Monday the link attached is the credentials file.  You will need to use this to complete the tutorial seen here:\n\n<https:\/\/developers.google.com\/showtime\/>\n\n<https:\/\/drive.google.com\/open?id=0B7_hrEXCXPvEUFBmV29YZjUxekU>\n\nThere is one file that will need to be altered per user - the 2nd line in the \"agent.json\" file says something like \n\n  \"siteId\": \"UNCORKED-john\",\n\nYou will need to replace \"john\" with your first name, all lower case.\n\nAccess should be granted based on the email addresses that were supplied in the meeting invite.  \n\nAdditionally I have created a SITE for each one of you.  For example, for John, that site can be seen here:\n\n<https:\/\/showtime-qa.appspot.com\/#\/showtime\/UNCORKED-john\/>\n\nAgain replace \"john\" with your first name as listed in your email address and that will be your site.\n\nDon't worry if the terminology is not yet clear, that is all covered in the documentation.  \n\nPlease let me know if you do not have access yet to any of these resources, and please feel free to email me if any of the documentation is unclear.\n\nThanks,\nMike",
+        "ts": "1478554806.000058"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> shared a file: <https:\/\/uncorked.slack.com\/files\/joel\/F2ZDAAD7V\/uncorked_credentials.zip|uncorked_credentials.zip>",
+        "file": {
+            "id": "F2ZDAAD7V",
+            "created": 1478554776,
+            "timestamp": 1478554776,
+            "name": "uncorked_credentials.zip",
+            "title": "uncorked_credentials.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 2613,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B7_hrEXCXPvEUFBmV29YZjUxekU\/view?usp=drivesdk",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F2ZDAAD7V\/uncorked_credentials.zip",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U02E3CRMA",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1478554806.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL> <@U2670DYLE> <@U243UT96G> Just forwarded the email we got from Michael",
+        "ts": "1478555195.000060"
+    },
+    {
+        "text": "set up a reminder “Let's check in on Showtime progress” in this channel at 9am Wednesday, November 9th, Pacific Standard Time.",
+        "type": "message",
+        "subtype": "reminder_add",
+        "user": "U02E3CRMA",
+        "ts": "1478557623.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> and <@U0EL0GLEL> sounds like kyle is still stuck.  y’all up for a call with him?",
+        "ts": "1478564469.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I’m a bit confused at this point myself. It sounds like the app does detect the touch film. but he again says a confusing wording in his email, “Still no touch on the DisplayApp outside of Test mode.” does that mean the test does work? or the just the detect, either of those tho. im not entirely sure what the issue could be. If it is detecting the touch film. and its not forwarding the touch im not completely sure what could be going on. I have never seen anything like that before",
+        "ts": "1478564647.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "im honestly a bit lost at the email convo",
+        "ts": "1478564701.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so my ide what jump on a hangout to see if helpful",
+        "ts": "1478564710.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah we can do that",
+        "ts": "1478564724.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "mean tto share this earlier but \n1.  There’s a gDrive Folder shared with [I think] everyone called BrandLab Reference where I created a new General Dev document dumping ground.\n2.  Accordingly, I put my live capture of notes (v sparse) here: <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1UD_7mICneweCaWNRsJZ36Ui-yK99-IH4yvyUyk1AaAU\/edit?usp=sharing>\n\nPlease add to it",
+        "ts": "1478573279.000067"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F308VF3LN\/16_walkthrough|11\/7\/16 Walkthrough>",
+        "file": {
+            "id": "F308VF3LN",
+            "created": 1478573281,
+            "timestamp": 1478573281,
+            "name": "16 Walkthrough",
+            "title": "11\/7\/16 Walkthrough",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 754,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1UD_7mICneweCaWNRsJZ36Ui-yK99-IH4yvyUyk1AaAU\/edit?usp=drivesdk",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gdoc_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gdoc_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F308VF3LN\/16_walkthrough",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1478573281.000068"
+    }
+]

@@ -1,0 +1,788 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Hey team, started getting some cold symptoms last night that I'm gonna try and kick today. Gonna rest up but I'll probably be online later. 🤰:mask:",
+        "ts": "1499784679.826895"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, LMK if you run into any issues with those patches in `develop` they should be benign",
+        "ts": "1499790388.504939",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "evans: I made a special method to download the full set of images at unlock time just for dogfood. I made a note in a TODO that this will need to be removed for release.",
+        "thread_ts": "1499728341.953234",
+        "parent_user_id": "U026PHQ3J",
+        "ts": "1499790546.596244"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> cool. (i hate threads, sorry)",
+        "ts": "1499790583.617792"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":P",
+        "ts": "1499790585.618869"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hahaha no worries - they tend to get lost anyway",
+        "ts": "1499790641.651855"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "does anyone need any help with anything? I’m about to go down a rabbit hole of messing with the feedback thing",
+        "ts": "1499792698.843838"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m having some merge conflicts that I haven’t been able to resolve yet",
+        "ts": "1499792935.978502"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hmmmm",
+        "ts": "1499793339.202854"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "where in particular?",
+        "ts": "1499793355.211202"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m getting a weird ArrayIndexOutOfBoundsException in the event log",
+        "ts": "1499793510.297807"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Oh maybe nevermind… I restarted Android Studio and now thats gone.",
+        "ts": "1499793603.350088"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "*Reminder that the current plan is to release our DF build tomorrow EOD.*\n\nCan we plan to release a test build at 1pm today that way we have enough time to test\/address any issues? Does that seem reasonable?",
+        "ts": "1499794643.945745"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "I thought we were supposed to be testing the build Midori posted on Friday?",
+        "ts": "1499794885.084335"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "There are more changes that need to be merged in. I don't think it hurts to be testing the build that was sent on Friday.",
+        "ts": "1499794919.104398",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U0260V1BX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> <@U1ZG1UCAK> I am going to merge my onboarding changes into develop and then push FYI",
+        "ts": "1499795295.322334"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":dope:",
+        "ts": "1499795388.376528"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m trying to get info from Dan on the forced upgrade stuff because i’m set up to do changes in 2017 and the last store release branches ATM :grimacing:",
+        "ts": "1499795416.392557"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Do we have an email address set up that gets a response back in the UserAccountPairedCasesRequestor?",
+        "ts": "1499795784.608523"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm. your uncorked account should",
+        "ts": "1499795813.625434"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Mine’s returning nothing :confused:",
+        "ts": "1499795826.632871"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i gotta hop into a meeting :(",
+        "ts": "1499795826.632953"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "BOOO",
+        "ts": "1499795828.634525"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me quick check mine",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1499795835.000000"
+        },
+        "ts": "1499795831.636004"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F679D7KJ9\/-.js|Untitled>",
+        "file": {
+            "id": "F679D7KJ9",
+            "created": 1499796028,
+            "timestamp": 1499796028,
+            "name": "-.js",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U1ZG1UCAK",
+            "editable": true,
+            "size": 404,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F679D7KJ9\/-.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F679D7KJ9\/download\/-.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F679D7KJ9\/-.js",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F679D7KJ9-a1021fcc69",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/midori\/F679D7KJ9\/-.js\/edit",
+            "preview": " [{\"social_image_url\": \"https:\/\/storage.googleapis.com\/livecase-prod.appspot.com\/3e98ae6c4f74b6825e57c9c9853ad2f0.jpeg\", \"pairing_id\": \"0350945582125635\", \"generated_print_artwork_url\": \"https:\/\/storage.googleapis.com\/livecase-prod.appspot.com\/d65d13c70b9c9d46512816c114db7ae1.png\", \"alerts\": [], \"state_type\": 2, \"webstore_order_id\": \"GS.3846-5596-3904\", \"state_id\": \"74a7e99207dcdcb434cfbfce31bf0c48\"}]",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre> [{<span class=\"cm-string cm-property\">&quot;social_image_url&quot;<\/span>: <span class=\"cm-string\">&quot;https:\/\/storage.googleapis.com\/livecase-prod.appspot.com\/3e98ae6c4f74b6825e57c9c9853ad2f0.jpeg&quot;<\/span>, <span class=\"cm-string cm-property\">&quot;pairing_id&quot;<\/span>: <span class=\"cm-string\">&quot;0350945582125635&quot;<\/span>, <span class=\"cm-string cm-property\">&quot;generated_print_artwork_url&quot;<\/span>: <span class=\"cm-string\">&quot;https:\/\/storage.googleapis.com\/livecase-prod.appspot.com\/d65d13c70b9c9d46512816c114db7ae1.png&quot;<\/span>, <span class=\"cm-string cm-property\">&quot;alerts&quot;<\/span>: [], <span class=\"cm-string cm-property\">&quot;state_type&quot;<\/span>: <span class=\"cm-number\">2<\/span>, <span class=\"cm-string cm-property\">&quot;webstore_order_id&quot;<\/span>: <span class=\"cm-string\">&quot;GS.3846-5596-3904&quot;<\/span>, <span class=\"cm-string cm-property\">&quot;state_id&quot;<\/span>: <span class=\"cm-string\">&quot;74a7e99207dcdcb434cfbfce31bf0c48&quot;<\/span>}]<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1499796029.756952"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m going to merge updated Hindi translations into develop shortly.",
+        "ts": "1499802135.174146"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "So what’s the best website to use for buying a yacht? :wink:",
+        "ts": "1499802836.543823"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "The darknet",
+        "ts": "1499803147.712519",
+        "reactions": [
+            {
+                "name": "dark_sunglasses",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> How long does it take for a purchased case to register in my account? I purchased one of each and I’m still getting a null response in the requestor.",
+        "ts": "1499804370.365930"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "are we able to release a build soon?",
+        "ts": "1499804829.614673"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "just want to make sure i've got time to test :slightly_smiling_face:",
+        "ts": "1499804849.625720"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> I don't know! ",
+        "ts": "1499804893.649199"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> i dont know if they’re going to support Trends from the order resolution service",
+        "ts": "1499806222.358011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you try a places one?",
+        "ts": "1499806227.360671"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(since Trends isn’t supported for 2017)",
+        "ts": "1499806238.366703"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I just sent you the order confirmation for Places",
+        "ts": "1499806373.439778"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh sweet",
+        "ts": "1499806478.495879"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1499806480.496777"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also to be sure, could you double check that you’re hitting the prod server and not staging",
+        "ts": "1499806510.513214"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i *think* it should be <http:\/\/livecase.withgoogle.com|livecase.withgoogle.com>",
+        "ts": "1499806532.525439"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Just doubled checked and yeah, I’m hitting `<http:\/\/livecase.withgoogle.com|livecase.withgoogle.com>` - Also, when I use the `getCaseDataFromCaseId` method passing in the 16 digit code that is associated with Midori’s case this is the response I get: `)]}‘,\n{“detail”: null, “error”: “403 Forbidden”}`",
+        "ts": "1499807062.811050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh interesting",
+        "ts": "1499807159.859609"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm.",
+        "ts": "1499807175.867325"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill ping andrei",
+        "ts": "1499807181.870613"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> anything that needs to be merged?",
+        "ts": "1499807210.884883"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m going to cut a debug build",
+        "ts": "1499807216.887972"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "To clarify that snippet isn’t an actual response - it’s what I see in the browser when I click the url in CaseServiceTask",
+        "ts": "1499807299.928204"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<https:\/\/livecase.withgoogle.com\/api\/cases\/0350945582125635>",
+        "ts": "1499807301.928957"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh yeah",
+        "ts": "1499807305.931303"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that makes sense.",
+        "ts": "1499807313.934916"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, when you use the app to check it tho there’s nothing in the response",
+        "ts": "1499807331.943482"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I can’t get to the response because the response code is 404",
+        "ts": "1499807409.981255"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Can I quickly merge in some string updates? I did them yesterday, but didn’t merge them in",
+        "ts": "1499807425.988832"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh that makes sense",
+        "ts": "1499807426.989097"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep!",
+        "ts": "1499807428.990000"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im going to email andrei abotu this",
+        "ts": "1499807432.992350"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so you’ve got a few min",
+        "ts": "1499807436.994119"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":)",
+        "ts": "1499807437.994765",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG",
+                    "U1ZG1UCAK"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "email to andrei is out",
+        "ts": "1499807889.206668"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so we’re holding pattern on that stuff again for now",
+        "ts": "1499807895.209669"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":face_with_rolling_eyes:",
+        "ts": "1499807897.210500"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> can you cut the testing build?",
+        "ts": "1499807912.217942"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Actually the case request IS working! The url formatting was bad - we were accidentally adding too many \\‘s",
+        "ts": "1499808371.428089"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh cool",
+        "ts": "1499808400.440715"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m now getting a full response back",
+        "ts": "1499808404.442476"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Upgrade check service is working",
+        "ts": "1499809140.763223"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> do you know if we’re just doing dialog in app or are we doing notification, too?",
+        "ts": "1499809155.769614"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(also, I’ll backport this tonight)",
+        "ts": "1499809162.772882"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> what should the feedback item say? “Give feedback”?",
+        "ts": "1499810064.145802"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1499810070.148108"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i suppose",
+        "ts": "1499810075.150079"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we’re not sure the code even works yet",
+        "ts": "1499810082.153036"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "mehokay",
+        "ts": "1499810091.156543"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh hm",
+        "ts": "1499810171.188542"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`    intent.setClassName(\"com.google.android.feedback\", \"com.google.android.feedback.FeedbackActivity\");`",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1499810193.000000"
+        },
+        "ts": "1499810184.194170"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "coming to visit",
+        "ts": "1499810196.198694"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sorry in a closed laptop meeting i am almost 100% certain a notification as well but let me triple check really quick ",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1499810697.000000"
+        },
+        "ts": "1499810689.388432"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "(sorry jenna) making a new build from some stuff evans added",
+        "ts": "1499812925.118393"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> For the Force Upgrade convo Adrien is wondering how much time it would take us to implement #3 \n\n<https:\/\/docs.google.com\/document\/d\/196EHv20s57aWtvR9XtSyyIh6ZfeQOifE6Akpoyv0quc\/edit#>",
+        "ts": "1499812931.120129"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> shared a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5G3LB6BZ\/design_brief_-_live_case_app___force_upgrade_api__shared_externally_|Design Brief - Live Case App | Force Upgrade API [shared externally]>",
+        "file": {
+            "id": "F5G3LB6BZ",
+            "created": 1495133405,
+            "timestamp": 1495133405,
+            "name": "Design Brief - Live Case App | Force Upgrade API [shared externally]",
+            "title": "Design Brief - Live Case App | Force Upgrade API [shared externally]",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 6382,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/document\/d\/196EHv20s57aWtvR9XtSyyIh6ZfeQOifE6Akpoyv0quc\/edit#heading=h.qugp76x39f6a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5G3LB6BZ-d17cf00650\/design_brief_-_live_case_app___force_upgrade_api__shared_externally__64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5G3LB6BZ-d17cf00650\/design_brief_-_live_case_app___force_upgrade_api__shared_externally__80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5G3LB6BZ-d17cf00650\/design_brief_-_live_case_app___force_upgrade_api__shared_externally__360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 278,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5G3LB6BZ-d17cf00650\/design_brief_-_live_case_app___force_upgrade_api__shared_externally__480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 371,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5G3LB6BZ-d17cf00650\/design_brief_-_live_case_app___force_upgrade_api__shared_externally__160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5G3LB6BZ-d17cf00650\/design_brief_-_live_case_app___force_upgrade_api__shared_externally__720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 557,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5G3LB6BZ-d17cf00650\/design_brief_-_live_case_app___force_upgrade_api__shared_externally__800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1035,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5G3LB6BZ-d17cf00650\/design_brief_-_live_case_app___force_upgrade_api__shared_externally__960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 742,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5G3LB6BZ-d17cf00650\/design_brief_-_live_case_app___force_upgrade_api__shared_externally__1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 791,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 1035,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5G3LB6BZ\/design_brief_-_live_case_app___force_upgrade_api__shared_externally_",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": true
+        },
+        "user": "U0U9WJB7F",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1499812931.120304"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "woof <@U0260V1BX> !",
+        "ts": "1499813072.162899"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":)",
+        "ts": "1499813076.163910"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its doable",
+        "ts": "1499813078.164576"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U0260V1BX> can you check this out before we agree to this?",
+        "ts": "1499813270.221806"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F6864J6AJ\/minime_2017exp_test_071117-v2.apk|MiniMe_2017EXP_TEST_071117-v2.apk>",
+        "file": {
+            "id": "F6864J6AJ",
+            "created": 1499813279,
+            "timestamp": 1499813279,
+            "name": "MiniMe_2017EXP_TEST_071117-v2.apk",
+            "title": "MiniMe_2017EXP_TEST_071117-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 24220079,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6864J6AJ\/minime_2017exp_test_071117-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6864J6AJ\/download\/minime_2017exp_test_071117-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F6864J6AJ\/minime_2017exp_test_071117-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F6864J6AJ-2590778dd7",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C0BTK9LGH"
+            ]
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1499813281.224791"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "silently checks for upgrades!",
+        "ts": "1499813514.293064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "includes the feedback menu item",
+        "ts": "1499813526.296562"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "nice, I'll get to testing.",
+        "ts": "1499815098.747315"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/www.theverge.com\/circuitbreaker\/2017\/7\/11\/15955760\/google-pixel-xl-2017-phone-leak-photo-rumor>",
+        "attachments": [
+            {
+                "service_name": "The Verge",
+                "title": "This might be Google’s next Pixel XL",
+                "title_link": "https:\/\/www.theverge.com\/circuitbreaker\/2017\/7\/11\/15955760\/google-pixel-xl-2017-phone-leak-photo-rumor",
+                "text": "It looks similar around back, but the screen is a huge upgrade and has much smaller bezels.",
+                "fallback": "The Verge: This might be Google’s next Pixel XL",
+                "image_url": "https:\/\/cdn.vox-cdn.com\/thumbor\/qFYIlivDPmGH8wB1q8_qcsxgI_g=\/0x97:1026x674\/1600x900\/cdn.vox-cdn.com\/uploads\/chorus_image\/image\/55666011\/XL2.0.jpg",
+                "image_width": 444,
+                "image_height": 250,
+                "ts": 1499802985,
+                "from_url": "https:\/\/www.theverge.com\/circuitbreaker\/2017\/7\/11\/15955760\/google-pixel-xl-2017-phone-leak-photo-rumor",
+                "image_bytes": 34061,
+                "service_icon": "https:\/\/cdn2.vox-cdn.com\/uploads\/chorus_asset\/file\/7395359\/ios-icon.0.png",
+                "id": 1
+            }
+        ],
+        "ts": "1499815163.764887"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0U9WJB7F",
+        "item_type": "F",
+        "text": "<@U0U9WJB7F|jenna.simon> pinned <@U1ZG1UCAK|midori>’s APK <https:\/\/uncorked.slack.com\/files\/midori\/F6864J6AJ\/minime_2017exp_test_071117-v2.apk|MiniMe_2017EXP_TEST_071117-v2.apk> to this channel.",
+        "item": {
+            "id": "F6864J6AJ",
+            "created": 1499813279,
+            "timestamp": 1499813279,
+            "name": "MiniMe_2017EXP_TEST_071117-v2.apk",
+            "title": "MiniMe_2017EXP_TEST_071117-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 24220079,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6864J6AJ\/minime_2017exp_test_071117-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6864J6AJ\/download\/minime_2017exp_test_071117-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F6864J6AJ\/minime_2017exp_test_071117-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F6864J6AJ-2590778dd7",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C0BTK9LGH"
+            ]
+        },
+        "ts": "1499816433.093781"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Woof is right. Ok yeah I'd like to get Elise in on this convo and we can chat through it with Adrien tomorrow",
+        "ts": "1499819483.798232"
+    }
+]

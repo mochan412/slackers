@@ -1,0 +1,148 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> and <@U02E3CRMA> ‘Kia’ dataset",
+        "ts": "1471978549.000454"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U243UT96G>",
+        "ts": "1471978807.000455"
+    },
+    {
+        "user": "U243UT96G",
+        "inviter": "U026PHQ3J",
+        "text": "<@U243UT96G|mo> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1471978810.000456"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U0ML49XU0>: found the issue, doesnt have anything to do with the dataset. a very minor bug was able to reproduce and fix. only showed if you added a user but didnt select a new color, the default color value was invalid, the colors were updated but I missed the default selected value. Which explains why it worked in my test, I was selecting a new color for the added user",
+        "ts": "1471979698.000457"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok.  as discussed, asking <@U02E3CRMA> to handle the execution of our agreed upon next steps since.  they are as follows:\n1.  <@U0EL0GLEL> to write down, in specific and chronological order the steps to reproduce.\n2.  <@U0EL0GLEL> to write down, in specific and chronological order the steps kyle can take to never experience this issue\n3.  send to keyle, confirm that these are in fact the steps he’s taken\n4.  <@U02E3CRMA> to propose a patch ( positioned as a ‘safeguard’ perhaps?) to the linted code that BL has yet to build. <@U02E3CRMA> to communicate this to kyle and myles",
+        "ts": "1471982860.000458"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ya’ll dig?",
+        "ts": "1471982863.000459"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I submitted a pull request to joel for the patch, so that can be submitted to them. I left a note in the spreadsheet about how I recreated and what can be done in the current build to not see this issue again.",
+        "ts": "1471983767.000460"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "sorry i dont see note in spreadsheet, you put on parking lot item?",
+        "ts": "1471983867.000461"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Yeah in the last column marked notes",
+        "ts": "1471983878.000462"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "all the way to the right",
+        "ts": "1471983885.000463"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i see it thanks <@U0EL0GLEL>",
+        "ts": "1471984081.000464"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "two thoughts: 1.  i really wanna confirm kyle’s understanding, that the only way we see this bug is if you send a color-less new user to the wall.  cuz if so, thats kinda like not using the tool properly, right?",
+        "ts": "1471984128.000465"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "2.  if so, it sounds like the code we adjusted is a safeguard to have more elegant handling rather than fixing something broken.  agree?",
+        "ts": "1471984156.000466"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "So the actual value for the default color for the user was wrong. you could just punch in the first and last name and hit add, the user would be added and it would appear like they got assigned the color red. The colors in the color picker were right, and everything looks right. Its just that the selected value for the default was wrong. So from the view point of the admin they would think it was assigned red. There would be a value in the json for the user also. It would just be the old value for the color, it just happened to be one of the 2 or 3 colors that had been changed at some point",
+        "ts": "1471984336.000467"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The change made here was just to update the default value so that it supplies the correct default color and not the old broken one",
+        "ts": "1471984364.000468"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ah, so its not like he sent a color-less user to wall.  he likely assumed defaut, which appears red in admin but didnt come through on wall.",
+        "ts": "1471984428.000469"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "nope, it did have a color, it was just an old version of that color",
+        "ts": "1471984446.000470"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "got it  <@U0EL0GLEL> and I talked live.  I’m gonna adjust the notes a bit - it is indeed a bug.",
+        "ts": "1471984803.000471"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "accordingly, i can respnond to kyle and Josh and leave <@U02E3CRMA> to do the code drop",
+        "ts": "1471984827.000472"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> and i caught up.  only remaining step is to drop code and ping myles and kyle thread (separately).",
+        "ts": "1471989771.000473"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "^^^done and pushed to Gerrit",
+        "ts": "1472003450.000474"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool.  thnaks <@U02E3CRMA>  did you update Release notes or ping Myles about the update we pushed him?  Email context for him might be useful",
+        "ts": "1472003615.000475"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "done and done.",
+        "ts": "1472007131.000476"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Rad ",
+        "ts": "1472007951.000477"
+    }
+]

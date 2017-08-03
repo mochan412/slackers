@@ -1,0 +1,149 @@
+[
+    {
+        "user": "U02HAJ6JF",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02HAJ6JF|joshua> has joined the channel",
+        "ts": "1420476799.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Just stumbled onto this -",
+        "ts": "1420495207.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<http:\/\/s.uncorkedstudios.com\/>",
+        "attachments": [
+            {
+                "text": "Uncorked Studios is a mobile development and design studio based in Portland, Oregon. Uncorked creates mobile, social and location-based products and specializes iOS, iphone, ipad, Android, mobile-optimized websites, and Facebook.",
+                "fallback": "Uncorked Studios is a mobile development and design studio based in Portland, Oregon. Uncorked creates mobile, social and location-based products and specializes iOS, iphone, ipad, Android, mobile-optimized websites, and Facebook.",
+                "from_url": "http:\/\/s.uncorkedstudios.com\/",
+                "id": 1
+            }
+        ],
+        "ts": "1420495208.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "if I type in an incorrect subdomain I get a shell of our old sie",
+        "ts": "1420495247.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02618EV1>:",
+        "ts": "1420495433.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0289USNA> ^^^",
+        "ts": "1420495461.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Scott: Is this a domain or server issue? Been some time since we dealt with this.",
+        "ts": "1420495578.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it's a known long standing bug that I have tried to fix once before but to no avail.",
+        "ts": "1420495689.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "we need a wildcard subdomain that redirects to www...   I have attempted that previously but it did not work.",
+        "ts": "1420495733.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I can re-look into it however.",
+        "ts": "1420495744.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "and see if I can figure it out again.",
+        "ts": "1420495754.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i can give it a try too if you're busy with other things <@U0289USNA>",
+        "ts": "1420495779.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Cool. Happy to help if there's anything I can do here.",
+        "ts": "1420495784.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "sure - you guys are welcome to take a crack at it.",
+        "ts": "1420495799.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I have been trying to do it in the media temple DNS Zone file.",
+        "ts": "1420495814.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "you should be able to add an * record and redirect it to www.",
+        "ts": "1420495841.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "but I couldn't or it didn't work.",
+        "ts": "1420495852.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "sitting here right now, however it's occurring to me that you could go the the directory with the old site on the box and modify the .htaccess file to do the redirect rather than doing it at the DNS level.",
+        "ts": "1420495910.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "apache is configured to use whatever the old www was as the \"default\" so when apache receives a subdomin request for something it doesn't know of, it serves the default content.",
+        "ts": "1420495976.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "which is great but the apache proxy-pass that is re-routing to the node.js app is not making the redirect to the new site as the default.",
+        "ts": "1420496031.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "If the slack channel went back far enough into history, you'd see this issue raised about every 4-5 months by someone.",
+        "ts": "1420496100.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "sorry :disappointed:",
+        "ts": "1420497793.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "no worries - it needs to be fixed. Jenny is looking into it",
+        "ts": "1420497825.000025"
+    }
+]

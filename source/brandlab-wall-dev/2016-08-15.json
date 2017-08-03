@@ -1,0 +1,796 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did the PHX regression test happen?",
+        "ts": "1471281860.000571"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "on current release yes, and I’m running on the deployed build now",
+        "ts": "1471281894.000572"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what is that regressing to?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1471281932.000000"
+        },
+        "ts": "1471281926.000573"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "1.0.1 build that was installed in SBO, with the PHX dataset, running to replicate the failure case when inbound attendees have an unassigned color that triggers and out-of-range error in the Admin",
+        "ts": "1471281981.000575"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha. didn't know what current release was",
+        "ts": "1471282012.000576"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ah - deployed was 1.0.1, current release on wall as hot-fix is 1.1.2",
+        "ts": "1471282057.000577"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "official release is 1.1.3",
+        "ts": "1471282065.000578"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "that is, after they build through their toolflow, primarily so they know they’ve deployed the official code by revision number",
+        "ts": "1471282101.000579"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool cool thanks",
+        "ts": "1471282112.000580"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":thumbsup::skin-tone-2:",
+        "ts": "1471282140.000581"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so what theyre running now is a hotfix, how?  just cuz the linting\/code review process is still in progress?  <@U02E3CRMA>",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1471283593.000000"
+        },
+        "ts": "1471282706.000582"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes - I gave them a build last Weds to test out in a copy of the running VM, as a zero-risk test and QA on their end",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1471283610.000000"
+        },
+        "ts": "1471283561.000583"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Kyle went through an update on the wall in a copy of the VM to QA both the build and the install\/update process. He and I worked together to clean up a couple details, and he chose to run with that install since it was so much better than the previous version",
+        "ts": "1471283670.000586"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "(they have the original to fall back on, thus zero-risk)",
+        "ts": "1471283696.000587"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "right but it’s a hotfix til we submit the lintd\/approved code and they build on their end.  yeah?",
+        "ts": "1471283770.000588"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "correct",
+        "ts": "1471283943.000589"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "awesome.  <@U0EL0GLEL> or <@U02E3CRMA> do we have any other needs form myles in order to get through code linting process today?",
+        "ts": "1471284869.000590"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "he responded on sunday afternoon",
+        "ts": "1471284876.000591"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we should be good for now - we’re going to follow those directions and then submit and update to the last drop",
+        "ts": "1471284919.000592"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll close the loop with Myles since his ping was to me...",
+        "ts": "1471284931.000593"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I am not getting anywhere with the eclipse plugin, tried an older verison of eclipse from 2014 and it still did the same thing as the current one so wasnt a broken bit in eclipse. The spacing is all contextual according to the lint thing. It’s not as easy as 2 and 4. I am just not seeing a way to use their provided plugin to make it format the spacing the way they want it. I can manually go through each file and do it myself. this will take a considerable amount of time tho",
+        "ts": "1471285172.000594"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: bug confirmed in the 1.0.1 version:",
+        "ts": "1471285589.000595"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joel\/F21GLGF60\/pasted_image_at_2016_08_15_11_26_am.png|Confirmed>",
+        "file": {
+            "id": "F21GLGF60",
+            "created": 1471285605,
+            "timestamp": 1471285605,
+            "name": "Pasted image at 2016_08_15 11_26 AM.png",
+            "title": "Confirmed",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 232723,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F21GLGF60\/pasted_image_at_2016_08_15_11_26_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F21GLGF60\/download\/pasted_image_at_2016_08_15_11_26_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 174,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 233,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 349,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 465,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 496,
+            "image_exif_rotation": 1,
+            "original_w": 2732,
+            "original_h": 1324,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F21GLGF60\/pasted_image_at_2016_08_15_11_26_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F21GLGF60-7dc0100515",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "U02E3CRMA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1471285609.000596"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "cubbies 10 and 12 were incorrectly assigned an index, thus show up with an unassigned color",
+        "ts": "1471285644.000597"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "will repeat in current release…please hold",
+        "ts": "1471285662.000598"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ahh thanks <@U02E3CRMA> and good conversations with <@U0EL0GLEL> on code linting.  once joel is done with this regression tst, he’ll follow up with myles on code linting.",
+        "ts": "1471285864.000599"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and fixed:",
+        "ts": "1471286151.000600"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joel\/F21GSB2R4\/pasted_image_at_2016_08_15_11_35_am.png|That’s better>",
+        "file": {
+            "id": "F21GSB2R4",
+            "created": 1471286159,
+            "timestamp": 1471286159,
+            "name": "Pasted image at 2016_08_15 11_35 AM.png",
+            "title": "That’s better",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 230356,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F21GSB2R4\/pasted_image_at_2016_08_15_11_35_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F21GSB2R4\/download\/pasted_image_at_2016_08_15_11_35_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 168,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 224,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 336,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 448,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 478,
+            "image_exif_rotation": 1,
+            "original_w": 2746,
+            "original_h": 1282,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F21GSB2R4\/pasted_image_at_2016_08_15_11_35_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F21GSB2R4-1be2cf30e1",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "U02E3CRMA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1471286164.000601"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "all cubbies were correctly assigned colors from the color-set, with only the two unassigned (0 and 21) with the light-grey assignment",
+        "ts": "1471286217.000602"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U02E3CRMA|joel> commented on <@U02E3CRMA|joel>’s file <https:\/\/uncorked.slack.com\/files\/joel\/F21GLGF60\/pasted_image_at_2016_08_15_11_26_am.png|Confirmed>: v1.0.1",
+        "file": {
+            "id": "F21GLGF60",
+            "created": 1471285605,
+            "timestamp": 1471285605,
+            "name": "Pasted image at 2016_08_15 11_26 AM.png",
+            "title": "Confirmed",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 232723,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F21GLGF60\/pasted_image_at_2016_08_15_11_26_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F21GLGF60\/download\/pasted_image_at_2016_08_15_11_26_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 174,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 233,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 349,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 465,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GLGF60-bed81f17b4\/pasted_image_at_2016_08_15_11_26_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 496,
+            "image_exif_rotation": 1,
+            "original_w": 2732,
+            "original_h": 1324,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F21GLGF60\/pasted_image_at_2016_08_15_11_26_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F21GLGF60-7dc0100515",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "Fc21H0SP53",
+            "created": 1471286270,
+            "timestamp": 1471286270,
+            "user": "U02E3CRMA",
+            "is_intro": false,
+            "comment": "v1.0.1"
+        },
+        "is_intro": false,
+        "ts": "1471286270.000603"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U02E3CRMA|joel> commented on <@U02E3CRMA|joel>’s file <https:\/\/uncorked.slack.com\/files\/joel\/F21GSB2R4\/pasted_image_at_2016_08_15_11_35_am.png|That’s better>: v1.1.3",
+        "file": {
+            "id": "F21GSB2R4",
+            "created": 1471286159,
+            "timestamp": 1471286159,
+            "name": "Pasted image at 2016_08_15 11_35 AM.png",
+            "title": "That’s better",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 230356,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F21GSB2R4\/pasted_image_at_2016_08_15_11_35_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F21GSB2R4\/download\/pasted_image_at_2016_08_15_11_35_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 168,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 224,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 336,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 448,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F21GSB2R4-eef65e3423\/pasted_image_at_2016_08_15_11_35_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 478,
+            "image_exif_rotation": 1,
+            "original_w": 2746,
+            "original_h": 1282,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F21GSB2R4\/pasted_image_at_2016_08_15_11_35_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F21GSB2R4-1be2cf30e1",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "Fc21H11JH3",
+            "created": 1471286298,
+            "timestamp": 1471286298,
+            "user": "U02E3CRMA",
+            "is_intro": false,
+            "comment": "v1.1.3"
+        },
+        "is_intro": false,
+        "ts": "1471286298.000604"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "^^^ wish those were inline, but ah well",
+        "ts": "1471286307.000605"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "hmm tried to create a specific javascript project in eclipse, since the IS project contains java as well as javascript, thought it might be confused about the code settings it was applying. But alas it wasnt and same result the formatter doesnt do anything to correct indentation. And the “correct indentation” formatter blows up very very badly still so that didnt help.",
+        "ts": "1471286755.000606"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "found a plugin for sublime that says it follows the google standard. im going to try that",
+        "ts": "1471287184.000607",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "darn all that did was let me run the linter from sublime",
+        "ts": "1471287551.000608"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ha",
+        "ts": "1471287583.000609"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "is it an eslint definition?",
+        "ts": "1471287586.000610"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "nope",
+        "ts": "1471287622.000611"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "did find one tho, will need to try that",
+        "ts": "1471287685.000612"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "havnt used eslint, does this have a fix command? or just runs the lint that spits out the errors? im already able to run the google linter and able to see the issues",
+        "ts": "1471287965.000613"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U0EL0GLEL> when youre back from lunch, maybe as a break from this linting crap, we should regression test one more item that was reported last week.  Line 30 of Parking Lot:\n'Day before an event, I needed to add two users manually from the admin tool, because despite their registration on the BrandLab site, they had not yet appeared. I figured it took a while for that to populate the admin. When I checked back later the manual added users had dissapeared from the list. I had to delete the entire preset, then re-populate the guests. Not sure if manual adds always just disapear or if this was related to a change in the actual registered users.'",
+        "ts": "1471290545.000614"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i understand we were unable to repro on 1.12 but, following joel’s methods fromt his morning, cna you try to recreate in the v1.01?  wondering if we can repro there.",
+        "ts": "1471290578.000615"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "we can try",
+        "ts": "1471291412.000616"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: can ya work with <@U02E3CRMA> on this or you got it?",
+        "ts": "1471291549.000617"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "just need to know where he left things",
+        "ts": "1471291567.000618"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the running VM is the latest, the paused VM has 1.0.1 admin. Might need to back-rev the rest, can’t remember without looking in Ugly.",
+        "ts": "1471291735.000619"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "commit 7bbaf1c was the one we deployed in SBO",
+        "ts": "1471292001.000620"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "whoa! <@U06DFL7BP> for the win! fixmyjs actually worked. i just tested it on this one file and all the indentation errors were fixed. now i just have a few longer than 80 chars errors i can fix manually to ensure it doesnt break the code. And then i can run this on all the files and we should be totally good",
+        "ts": "1471292851.000621",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":100:",
+        "ts": "1471292884.000622"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":80:",
+        "ts": "1471292890.000623"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "for reference, I googled “automatically fix jslint errors” and it was the top result",
+        "ts": "1471293006.000624"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so uh",
+        "ts": "1471293007.000625"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "we should try that next time we run into a roadblock",
+        "ts": "1471293013.000626"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i was searching to find a fix that used the provided tools",
+        "ts": "1471293036.000627"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "using the google style guide",
+        "ts": "1471293046.000628"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall_dev - #87 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall_dev\/87\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall_dev - #87 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall_dev\/87\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1471296261.000629"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall_dev - #87 Success after 24 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall_dev\/87\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall_dev - #87 Success after 24 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall_dev\/87\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1471296278.000630"
+    },
+    {
+        "user": "U0J6TE0CA",
+        "text": "<@U0J6TE0CA|emilyskaer> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1471297349.000631"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "\/giphy bye bye bye",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/justin-timberlake-gif-singing-bye-hFXwY4lER3oBO>",
+                "image_url": "http:\/\/media4.giphy.com\/media\/hFXwY4lER3oBO\/giphy.gif",
+                "image_width": 500,
+                "image_height": 302,
+                "image_bytes": 468680,
+                "is_animated": true,
+                "title": "bye bye bye",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/justin-timberlake-gif-singing-bye-hFXwY4lER3oBO"
+            }
+        ],
+        "ts": "1471297560.000634"
+    },
+    {
+        "user": "U06DFL7BP",
+        "old_name": "brandlab-dev",
+        "name": "brandlab-wall-dev",
+        "text": "<@U06DFL7BP|charlesv> has renamed the channel from \"brandlab-dev\" to \"brandlab-wall-dev\"",
+        "type": "message",
+        "subtype": "channel_name",
+        "ts": "1471299232.000635"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U0EL0GLEL> where ya gonna put pencil down by end of day?  will you have this to joel?",
+        "ts": "1471305816.000636"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "nope im half way through the display activity, then there is still 2 more activities to go through",
+        "ts": "1471305860.000637"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "oh.  thats a bit different from what i hink i heard earlier.  yeah?  if so, all good so long as we know whats ahead of us.  i think joel wants to keep myles in the loop tonight",
+        "ts": "1471306219.000638"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "one thing fixes most of them but introduces more over 80char lines, then you have to fix those manually, if you adjust and run again it just puts them right back",
+        "ts": "1471306276.000639"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "then you have to line up all the indentation on each line you fixed manually",
+        "ts": "1471306290.000640"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and it introduces a few other smaller issues. but it takes 1500 errors in a file down to like 150",
+        "ts": "1471306319.000641"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "three minor steps back, one giant leap forward",
+        "ts": "1471306355.000642"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i thin im tracking",
+        "ts": "1471306358.000643"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "at this rate, sounds like you’d need all of tomorrow.  is that a fair understanding?",
+        "ts": "1471306382.000644"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "shouldnt be that long but will likely take another couple hours to get through it. the most complex stuff im doing right now, most of what remains will be smaller files",
+        "ts": "1471306453.000645"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i read that as smaller :fries:",
+        "ts": "1471306521.000646"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "is it resonable to expect that we’d be down to just the 3rd party library errors?",
+        "ts": "1471306541.000647"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "mostly, there will still be 1 - 5 errors in our files, usually just 1. if the first line declaration goes over 80 it bitches, if you break it it breaks the rest of the file according to the validator. why i have no idea. but if that line isnt all on one line suddenly there are thousands of missplaced indentation. so that line is always on one line even if it throws an error about over 80 chars. and there are a few lines that just cant be broken down back the 80 limit",
+        "ts": "1471306649.000648"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: see above.  let me know if you have ideas or questions about how to involve client in our progress.",
+        "ts": "1471306691.000649"
+    },
+    {
+        "user": "U1B4121BP",
+        "text": "<@U1B4121BP|nicodemo.scarfo> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1471306983.000650"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: big news!  jira is cleaned.  we’re down to ONE epic: <https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-409>.  none of which is action-able yet  these are two tickets we agreed to move into next srpint (scope, cost, timing TBD).  so no actionable items in jira.  tomorrow, let’s discuss benefits of tracking documentation tasks in here",
+        "ts": "1471311884.000651"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0ML49XU0>: sounds totally reasonable. Peter and I synced on what will be left for warnings, and it’s unavoidable stuff at this point. I’ll send Myles a note with this summary to keep him in the loop.",
+        "ts": "1471312683.000652"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll merge and submit as soon as I see the pull request from Bitbucket tomorrow, and we’re off to the races",
+        "ts": "1471312702.000653"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": ":100:",
+        "ts": "1471314399.000654"
+    }
+]

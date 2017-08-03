@@ -1,0 +1,91 @@
+[
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "Slack didn’t notify me yesterday! Thanks Slack. Sounds great. Will grab you this morning.",
+        "ts": "1459784516.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "^ <@U026PHQ3J>",
+        "ts": "1459784536.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02HAJ6JF>: for future reference",
+        "ts": "1459786574.000008"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F0XPB78BV\/archive.zip|Archive.zip>",
+        "file": {
+            "id": "F0XPB78BV",
+            "created": 1459786582,
+            "timestamp": 1459786582,
+            "name": "Archive.zip",
+            "title": "Archive.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 51199,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0XPB78BV\/archive.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0XPB78BV\/download\/archive.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F0XPB78BV\/archive.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0XPB78BV-3b9e1c70de",
+            "channels": [
+                "C0LDEJLG3"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1459786583.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "sweet -- thank you",
+        "ts": "1459786787.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I added a check in the Jawbone and Fitbit callbacks for a \"thirdPartyToken\" in the querystring, and if it exists, try to query the DAO for documents matching that token to a userId",
+        "ts": "1459793849.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I tested it using curl commands and it doesn't work for me (anything in the querystring gets thrown away when it goes through the third-party Oauth)",
+        "ts": "1459793934.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm a little confused about this functionality, so let me know if there's something I'm missing about oauth or testing or my implementation!",
+        "ts": "1459794049.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "On another note, I got UP water notifications at 3:50 and 5:50.",
+        "ts": "1459817660.000014"
+    }
+]

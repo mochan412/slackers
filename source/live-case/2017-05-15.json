@@ -1,0 +1,436 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Good morning! We got a tiny bit of feedback from Kat on the build. \n\nTrends: After the initial install, the first time you double-tap on Trends brings up the wrong search. After that corrects itself.\n\n<@U2H61EJSG> or <@U1ZG1UCAK> can one of you look into this?",
+        "ts": "1494864626.203255"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hmm strange. I will look into that",
+        "ts": "1494864657.212446"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool, let me know what you find",
+        "ts": "1494864869.274816"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I had previously seen it not auto pull the initial trend after setting, so wondering if that's related ",
+        "ts": "1494864936.294738"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(got a flat line after wallpaper set until double tap)",
+        "ts": "1494864967.304026"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m not seeing that issue at all. Is Kat refering to the build I made on Friday afternoon or the one we gave her while she was here? I’m wondering if the issue might have been resolved somehow.",
+        "ts": "1494865434.440685"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "let me triple check",
+        "ts": "1494865542.471279"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Okay she's definitely on the latest build, this is what she said happened \"just confirmed again\nAvril was on my wallpaper\nbut i got \"wannacry\" search\"",
+        "ts": "1494865722.524296"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Weird. I’ll poke around and see if I can figure out why",
+        "ts": "1494865755.533549"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> can you please update the copy in the About section of Trends to say:\n\n\"You can double tap wallpaper to launch the search query. You can also single tap to advance the next trend.\"",
+        "ts": "1494865774.538890"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "We'll work to get that translated.",
+        "ts": "1494865782.541491"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Sure!",
+        "ts": "1494865797.545740"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Has Kat seen this issue more than once? I’m wondering if she unknowingly double tapped before single tapping to advance and because of the launcher delay, thought that it brought up the wrong term.",
+        "ts": "1494865951.590880"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "she has seen it multiple times...",
+        "ts": "1494865974.597669"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "clean install to test",
+        "ts": "1494866015.609374"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the problem is that in one case, it gets trends immedately",
+        "ts": "1494866028.613086"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then it refreshes",
+        "ts": "1494866032.614371"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and those two things usually collide",
+        "ts": "1494866038.615886"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since people are encouraged to view the wallpaper during onboarding",
+        "ts": "1494866050.619333"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then its more likely to collide visibly",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1494866060.000000"
+        },
+        "ts": "1494866056.621055"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Ok, I’m seeing this issue now but only when installing the APK i shared via Slack and not when running through Android Studio.",
+        "ts": "1494866161.649733"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> <@U2H61EJSG> <@U0EL0GLEL> if you all could continue jammin' on Earth URL's throughout the day (as time allows) that would be *very* helpful. Thank you!",
+        "ts": "1494866735.806087"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "did about 200 this morning, ill do some more",
+        "ts": "1494866754.811556",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U0U9WJB7F",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No problem!",
+        "ts": "1494866765.814425"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Peterrrrrrr!",
+        "ts": "1494866767.815002"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "cool! I didn’t get a chance to mess with the helper. Looking forward to it",
+        "ts": "1494866798.823376"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wow.",
+        "ts": "1494866800.824032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks peter",
+        "ts": "1494866806.825709"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "let's go to Slate for standup!",
+        "ts": "1494867655.065737"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "in secret lounge",
+        "ts": "1494867878.130407"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sorry if you're getting bombarded with JIRA emails, I closed the Sprint\/created a new one.",
+        "ts": "1494870022.727359"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "nothing to alarming.",
+        "ts": "1494870030.729933"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> <@U3ZFEAPSP> \n\nJust to be super clear, we'll be sending *two* builds today (one with the shake, one without).",
+        "ts": "1494871425.137251"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Also, Oliver not sure if you saw the note from Kat but it sounds like the Play store does not support Whitelisting devices but there could be a useful feature named \"com.google.android.feature.PIXEL_2017_EXPERIENCE\" that Kat is looking into.",
+        "ts": "1494871490.156003"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Cool, thanks for the update on that Jenna. Hopefully some other guy knows something :stuck_out_tongue:",
+        "ts": "1494871566.177524"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "haha, indeed...",
+        "ts": "1494871575.180137"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "it doesn't really have an impact since we were planning around that anyway...right?",
+        "ts": "1494871586.183484"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "like it was more of a nice to have if possible...?",
+        "ts": "1494871602.187915"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yep, we were operating under the premise it wouldn’t work phone specific targetting",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1494871669.000000"
+        },
+        "ts": "1494871638.198458",
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "(via play store)",
+        "ts": "1494871679.210037"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "It also sounds like we WILL be able to use the same method of distribution as last year: Beta channel which means that the work you are doing around including the legacy users seems the best known solution for handling the situation. <@U3ZFEAPSP>",
+        "ts": "1494873640.768757"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sounds good!",
+        "ts": "1494874769.092398"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Builds incoming!",
+        "ts": "1494880211.540107"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Nice!!",
+        "ts": "1494880223.543352"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5EK79KU6\/vz_sellin_5_15_shake.apk|vz_sellin_5_15_shake.apk>",
+        "file": {
+            "id": "F5EK79KU6",
+            "created": 1494880220,
+            "timestamp": 1494880220,
+            "name": "vz_sellin_5_15_shake.apk",
+            "title": "vz_sellin_5_15_shake.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 54771756,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5EK79KU6\/vz_sellin_5_15_shake.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5EK79KU6\/download\/vz_sellin_5_15_shake.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5EK79KU6\/vz_sellin_5_15_shake.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5EK79KU6-6bf89b797e",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1494880227.544467"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5D8DDC73\/vz_sellin_5_15_no_shake.apk|vz_sellin_5_15_no_shake.apk>",
+        "file": {
+            "id": "F5D8DDC73",
+            "created": 1494880233,
+            "timestamp": 1494880233,
+            "name": "vz_sellin_5_15_no_shake.apk",
+            "title": "vz_sellin_5_15_no_shake.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 54771136,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5D8DDC73\/vz_sellin_5_15_no_shake.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5D8DDC73\/download\/vz_sellin_5_15_no_shake.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5D8DDC73\/vz_sellin_5_15_no_shake.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5D8DDC73-8e610cd71d",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1494880240.548125"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "These builds also include the trends fix, Midori’s string changes, and some new Earth URLs",
+        "ts": "1494880307.566511"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Perfect, was just going to ask! :slightly_smiling_face:",
+        "ts": "1494880318.569235"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome!",
+        "ts": "1494880442.602171"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "everything looks good to me!!",
+        "ts": "1494881540.884373",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Although it's hard for me to test the Trends fix.",
+        "ts": "1494881553.887610"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Re: earth url creation - it looks like to me that there are some URLs being created that have a data parameter of “KAI”. I think this is generated when 3D is selected in the helper map view versus in opening out the interesting location url.\nTL;DR - keep the helper map view in 2D. If 3D is not already on in checking the “interesting location”, it can be toggled on there.",
+        "ts": "1494883443.346509",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U2H61EJSG",
+                    "U0U9WJB7F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I have to take off for a doc appointment and will be offline from 3:30-5pm. Thanks for understanding!!",
+        "ts": "1494885255.721868"
+    }
+]

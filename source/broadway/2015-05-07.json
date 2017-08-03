@@ -1,0 +1,158 @@
+[
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<@U02F8TTPU>, what is your thought on getting TrueNorth a build tomorrow to take another pass?",
+        "ts": "1431023718.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "seems like you’re squashing bugs left &amp; right",
+        "ts": "1431023729.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "sure, that sounds good to me",
+        "ts": "1431023739.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "cool",
+        "ts": "1431023784.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I wanted to prioritize the bug list because it could get unmanageable if I let anything sit, but I should be finishing the help&amp;feedback design update today, so there will be new features as well as fixes",
+        "ts": "1431023823.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "the 2 remaining open Jira issues I can't address right now. One is about tracking and I'm not sure if it's a task or just a reminder to implement analytics, and the other is that the ucs-spectrum02 test isn't displaying a visualization. I verified that spectrum data is being pushed from the native framework and the other spectrum tests work, so I'd recommend either debugging ucs-spectrum02 or removing it from the list for now.",
+        "ts": "1431024559.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I can take a look at that one.",
+        "ts": "1431025048.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I think we may need to adjust some settings after your FFT update from yesterday.",
+        "ts": "1431025097.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I also want to change the bridge so that each test only listens for amplitude OR spectrum rather than getting both, but all tests that want live audio will have to be updated, so I'm going to update the google doc and sync up with you and michael this afternoon when I want to push the change.",
+        "ts": "1431025263.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome. Should be a quick change for me.",
+        "ts": "1431025389.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "So the list of items for the next build would be bugs, help &amp; feedback design, the new audio stuff, etc.",
+        "ts": "1431030101.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "anything else",
+        "ts": "1431030103.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "?",
+        "ts": "1431030104.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Andy’s wondering how close we are to an end-to-end FPO experience. Feels that will the help &amp; feedback section in there we’ll be close.",
+        "ts": "1431030130.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I made a couple new tests and fixed others. Don’t know if that should go into the release notes.",
+        "ts": "1431030440.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "would be good to have in there - sure!",
+        "ts": "1431031620.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "is there anything I’m missing?",
+        "ts": "1431031628.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Current native dev status: audio spectrum data is now 200 data points always, and we are throwing out un-useful lower-frequency data. May need to tweak the values we're collecting based on what the experience devs want to see, but we're getting closer.",
+        "ts": "1431044432.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Also did the help\/about\/feedback layout refactoring, there is now only one item named \"about\" and it follows the new layout per 4\/23",
+        "ts": "1431044465.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Fixed all the fixable jira issues assigned to me, so we're ready for a new testing pass (when the new initial_experiences.zip is ready)",
+        "ts": "1431044539.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Updated the Bridge API doc and the native bridge to provide system info so the device-info test should pass",
+        "ts": "1431044720.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Tomorrow's plan is to fix any issues that come up related to today's updates, plus making sure we load dandelion as the default experience, plus any other trello cards doable (hoping for gallery gridview if all goes well)",
+        "ts": "1431044845.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02F8TTPU> Would early tomorrow be a good time for me to send you the new zip? Have a couple of things I still would like to finish and ship\/",
+        "ts": "1431045097.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "No rush at all, I want to do as much as I can tomorrow and ship the builds to everyone late afternoon. Sometime afternoon after DevLunch would be cool to test the new zip and make sure things work and fixes can be made before EOD.",
+        "ts": "1431045190.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Sounds like plan. Thank you!",
+        "ts": "1431045447.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "thanks, guys",
+        "ts": "1431046921.000027"
+    }
+]

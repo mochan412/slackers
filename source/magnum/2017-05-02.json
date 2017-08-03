@@ -1,0 +1,56 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "hey friends, coming up for air – current status is we’re entirely migrated to AWS, except DNS?",
+        "ts": "1493743906.802281"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "correct. domain is hosted on hostmonster. i pointed name servers to Route 53 on AWS, which then points to our EC2 box. if they move the domain off hostmonster (which they should at some point), they should see no downtime given the name servers remain unchanged.",
+        "ts": "1493744862.296671"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Great - I’ll let them know they should hopfully not see any service interruptions, and that we can work with them to setup an amazon account for billing and transfer when they’re ready",
+        "ts": "1493744992.362219"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "do you know what their current EC2 costs would be? or is it usage based",
+        "ts": "1493745010.371646"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i should note that their assets were already uploaded to S3 on our AWS account, so we were incurring SOME costs on this project from day 1. now adding EC2. we’re on a free tier EC2 box right now, so no extra costs. but at some point that runs out. ill check",
+        "ts": "1493745342.534682"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ok! just want to give them all the info",
+        "ts": "1493745391.558787"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "its a `t2.micro` box. $105.12\/year on EC2. we can buy a reserved instance for that box for the whole year to bring the cost down to ~$78.84.",
+        "ts": "1493745473.599985"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ok cool",
+        "ts": "1493745490.608444"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thanks",
+        "ts": "1493745490.608730"
+    }
+]

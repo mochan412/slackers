@@ -1,0 +1,212 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I think I figured out how to solve the charging animation file size issue.",
+        "ts": "1415990518.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Export the glowing graphic part as a video with a BG matching the app BG, but leave the opening\/closing circles as transparent pngs to place over the top.",
+        "ts": "1415990575.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Woot! I think that will cut file size way way down.",
+        "ts": "1415990591.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "And still allow for seamless looping while charging.\n( <@U0265G76F> )",
+        "ts": "1415990625.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey sorry, just saw that email thread",
+        "ts": "1415991191.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "glad you figured it out! sorry :simple_smile:",
+        "ts": "1415991198.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "No it was one of those things where I expected the worst and it turned out not that bad. Sorry for the premature panic!",
+        "ts": "1415991233.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and for the splash screen... did you post those as jpegs? i thought we were just using the 1st PNG from the sequence?",
+        "ts": "1415991460.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Sorry, got pulled away for a few minutes...",
+        "ts": "1415992723.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I exported a jpg sequences for the intro animation because it cut the size of files down by around 2\/3rds",
+        "ts": "1415992762.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "The jpgs are a lot more compressed so it worked better that way. I can save another first frame as a png but the sequence should probably be a jpg sequence.",
+        "ts": "1415992820.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok cool- that makes sense",
+        "ts": "1415994522.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah if you could export PNGs of the first frames that would be awesome",
+        "ts": "1415994534.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey Melissa, you can upload the motion \/ asset updates from here: \n\nNAS &gt; clients &gt; Ziba &gt; Energous &gt; Design &gt; Sprint 3 Design Deliverables &gt;_* Extra Delivery – 14 November*_",
+        "ts": "1415995956.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I'm gonna reply to Wibke's email to explain the new plan of attack with these video clips, so she can pass it on to Shailendra.",
+        "ts": "1415995987.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026E0ZNR> can you just paste it in here so I can put it all in one email?",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1415996327.000000"
+        },
+        "ts": "1415996157.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "A quick note to explain the new approach Shailendra should take with this:\n\nWe've exported the glowing circle as an mp4 clip with a background that matches the color of the app background. However the videos do not have the grey circle included in it, that will still need to be done by overlaying the existing png sequences atop the video since it fully relies on the transparency of pngs. If the \"begin_charge_000.png\" sequence can be reversed that can eliminate the need for the \"end_charge_000.png\" sequence, reducing package size further.",
+        "ts": "1415996603.000020"
+    },
+    {
+        "user": "U02F90CRQ",
+        "inviter": "U0260V1BX",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02F90CRQ|robt> has joined the channel",
+        "ts": "1416006401.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <@U02F90CRQ> - re: that list you sent out - what's this for?",
+        "ts": "1416006419.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "is it meant to be a comprehensive feature list of the portal? or the portal and apps? should there be separate lists for portal and apps?",
+        "ts": "1416006459.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02F90CRQ",
+        "text": "It was meant to be a list for both, but obviously I don't have a document that specifies which features belong to which.  Do you?",
+        "ts": "1416006879.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "no... just wondering what its going to be used for, or if its useful to split it up. certainly i can tell you which of these things belong to the app feature list. not sure about the portal",
+        "ts": "1416006938.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F90CRQ",
+        "text": "To answer your other question, the list is for the \"Software\" section of the website.",
+        "ts": "1416007023.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F90CRQ",
+        "text": "On the site, the info is broken out into Transmitters, Receivers &amp; Software.  I can break this into app\/portal if that makes sense but let me send it with the overview section that comes before this \"more details\" section.  Coming to your email in a moment",
+        "ts": "1416007115.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "cool",
+        "ts": "1416007247.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks",
+        "ts": "1416007252.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "there is a whole set of features having to do with billing accounts... which we didnt end up getting to in the app (since it won't be a part of CES) but that do need to be built into the product eventually... we can just add that later unless its something they feel like they want to include now",
+        "ts": "1416007325.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F90CRQ",
+        "text": "Just sent it.  My biggest concern if overlooking a big feature they love.",
+        "ts": "1416007338.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02F90CRQ",
+        "text": "Billing doesn't seem noteworthy to me, but what do I know.",
+        "ts": "1416007361.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02F90CRQ",
+        "text": "?",
+        "ts": "1416007363.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02F90CRQ",
+        "text": "(instead of .)",
+        "ts": "1416007372.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "it doesnt seem noteworthy to me either... but neither does \"Lets users decide if a device receive a charge automatically or not.\"",
+        "ts": "1416007421.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i wasnt sure if this was supposed to be a fully comprehensive feature list",
+        "ts": "1416007433.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "or just highlights",
+        "ts": "1416007435.000040"
+    }
+]

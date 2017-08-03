@@ -1,0 +1,744 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0261PCRQ>: we just received a bug report from gKat (app crashed with push notification, had to reinstall the app to get it back). any way you can take a look at this with evans OOO?",
+        "ts": "1465928278.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I can try",
+        "ts": "1465928295.000010"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F1GRY4G2G\/bugreport-2016-06-14-13-56-21.txt|email sent but sharing bug report here as well>",
+        "file": {
+            "id": "F1GRY4G2G",
+            "created": 1465928310,
+            "timestamp": 1465928310,
+            "name": "bugreport-2016-06-14-13-56-21.txt",
+            "title": "email sent but sharing bug report here as well",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 18128683,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1GRY4G2G\/bugreport-2016-06-14-13-56-21.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1GRY4G2G\/download\/bugreport-2016-06-14-13-56-21.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F1GRY4G2G\/bugreport-2016-06-14-13-56-21.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1GRY4G2G-c75f18ef05",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1465928312.000011"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "appreciate it!",
+        "ts": "1465928320.000012"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans is aware but on the road rn",
+        "ts": "1465928376.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Got it",
+        "ts": "1465929052.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Looks like the wallpapers endpoint for Koons is failing ",
+        "ts": "1465929066.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Which is weird. ",
+        "ts": "1465929071.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "As soon as I can get wifi and we stop being on a tour of autodeak",
+        "ts": "1465929087.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ill get on it",
+        "ts": "1465929092.000018"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks <@U026PHQ3J>! sorry to bug you with this while you’re on the road",
+        "ts": "1465929190.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Np. Sorry I can't dig right now",
+        "ts": "1465929472.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Could you check the digital collection in the store build?",
+        "ts": "1465929535.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "This is an odd coincidence ",
+        "ts": "1465929546.000022"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lemme look",
+        "ts": "1465929745.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Seems like the push was coincidentally timed to the crash",
+        "ts": "1465930048.000024"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "really?",
+        "ts": "1465930164.000025"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thats kinda nuts",
+        "ts": "1465930171.000026"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry still trying to test \/ running into chip issues but chucks helping",
+        "ts": "1465930186.000027"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not seeing any issues with viewing digital collection on store build yet",
+        "ts": "1465930489.000028"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "It might not be nuts if the push is scheduled at an hour interval that coincides with the wallpaper update, and the wallpaper update is what's killing it?&gt;",
+        "ts": "1465930576.000029"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah!",
+        "ts": "1465930746.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Coincidence. There's a route and a garbage header we send to the backend to get the json to grab the package ",
+        "ts": "1465930763.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Wait, you got a crash?",
+        "ts": "1465930772.000032"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no no crash",
+        "ts": "1465930778.000033"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nothing out of the ordinary on my end",
+        "ts": "1465930787.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "If <@U0261PCRQ> can piece the request together before me, that would rule. I just feel bad for not veing able to help",
+        "ts": "1465930798.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Something like <http:\/\/gweb-uncorked.appspot.com\/api\/wallpapers|gweb-uncorked.appspot.com\/api\/wallpapers>",
+        "ts": "1465931050.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "looking into this now, but a little distracted and heading to a dr. appt soon. will be out there and then at adidas this afternoon. may be back online ~4",
+        "ts": "1465931720.000037"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0261PCRQ|kat> uploaded a file: <https:\/\/uncorked.slack.com\/files\/kat\/F1GTA5F50\/-.txt|Untitled> and commented: I saw the wallpaper exception you mentioned evans, but I think this is the issue we should be looking at.",
+        "file": {
+            "id": "F1GTA5F50",
+            "created": 1465932261,
+            "timestamp": 1465932261,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U0261PCRQ",
+            "editable": true,
+            "size": 4344,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1GTA5F50\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1GTA5F50\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/kat\/F1GTA5F50\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1GTA5F50-3a13ecbf4d",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/kat\/F1GTA5F50\/-.txt\/edit",
+            "preview": "06-14 13:55:09.505 11805 11805 E AndroidRuntime: java.lang.RuntimeException: Unable to resume activity {com.google.android.apps.live_case\/com.google.android.apps.live_case.activity.HomeActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.ViewRootImpl.setPausedForTransition(boolean)' on a null object reference\r\n06-14 13:55:09.505 11805 11805 E AndroidRuntime: \tat android.app.ActivityThread.performResumeActivity(ActivityThread.java:3103)\r\n06-14 13:55:09.505 11805 11805 E AndroidRuntime: \tat android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3134)\r\n06-14 13:55:09.505 11805 11805 E AndroidRuntime: \tat android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2481)\r\n06-14 13:55:09.505 11805 11805 E AndroidRuntime: \tat android.app.ActivityThread.-wrap11(ActivityThread.java)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>06-14 13:55:09.505 11805 11805 E AndroidRuntime: java.lang.RuntimeException: Unable to resume activity {com.google.android.apps.live_case\/com.google.android.apps.live_case.activity.HomeActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.ViewRootImpl.setPausedForTransition(boolean)' on a null object reference<\/pre><\/div>\n<div><pre>06-14 13:55:09.505 11805 11805 E AndroidRuntime:    at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3103)<\/pre><\/div>\n<div><pre>06-14 13:55:09.505 11805 11805 E AndroidRuntime:    at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3134)<\/pre><\/div>\n<div><pre>06-14 13:55:09.505 11805 11805 E AndroidRuntime:    at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2481)<\/pre><\/div>\n<div><pre>06-14 13:55:09.505 11805 11805 E AndroidRuntime:    at android.app.ActivityThread.-wrap11(ActivityThread.java)<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 33,
+            "lines_more": 28,
+            "preview_is_truncated": true,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc1GSPC9K6",
+                "created": 1465932261,
+                "timestamp": 1465932261,
+                "user": "U0261PCRQ",
+                "is_intro": true,
+                "comment": "I saw the wallpaper exception you mentioned evans, but I think this is the issue we should be looking at."
+            }
+        },
+        "user": "U0261PCRQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "kat",
+        "bot_id": null,
+        "ts": "1465932261.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Whoa. That's a regrs",
+        "ts": "1465932303.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Regression ",
+        "ts": "1465932306.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sorry, at lunch and laptop is dying, will pick it back up in a few",
+        "ts": "1465932356.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: you haven’t been saving build files, by chance?",
+        "ts": "1465933063.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "You want to remap the call?",
+        "ts": "1465933099.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Also, no",
+        "ts": "1465933125.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok, thanks",
+        "ts": "1465933145.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I've seen this before, way way back ",
+        "ts": "1465933213.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "She didn't have skrillex unlocked. ",
+        "ts": "1465933235.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh",
+        "ts": "1465933241.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "welp ok then",
+        "ts": "1465933255.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Which makes it a really weird one because this was a known\/fixed issue ",
+        "ts": "1465933266.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "¯\\_(ツ)_\/¯",
+        "ts": "1465933278.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Dev builds still point at dev server at tidy. ",
+        "ts": "1465933282.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So I'll be able to trace ",
+        "ts": "1465933288.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or recreate ",
+        "ts": "1465933295.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":+1::skin-tone-3:",
+        "ts": "1465933295.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Not sure why the wallpaper wouldn't re-set",
+        "ts": "1465933305.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I gotta go to an appt, sorry, I’m probably out now till 4-ish",
+        "ts": "1465933312.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Np",
+        "ts": "1465933359.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks for taking a look",
+        "ts": "1465933377.000059"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you both. sorry about the timing on this one - know everyone is busy, but it's appreciated. pls let me know if there's anything I can do to help \/ test  \/ etc",
+        "ts": "1465933949.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U06DFL7BP>: <@U13GPDA1F> could y'all send a test push for Koons on dev server",
+        "ts": "1465936491.000061",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Lmk when you do",
+        "ts": "1465936704.000062"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Do you want an image",
+        "ts": "1465936855.000063"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Or just text",
+        "ts": "1465936858.000064"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Or does it matter",
+        "ts": "1465936860.000065"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Sent one with an image",
+        "ts": "1465936949.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Got it",
+        "ts": "1465937023.000067"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "got it too",
+        "ts": "1465937027.000068"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0261PCRQ> fyi i dont have access to dev server. if this is something you can add me to i will bug you later this week :slightly_smiling_face:",
+        "ts": "1465937141.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Yeah, I should be able to do that",
+        "ts": "1465937161.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Got it",
+        "ts": "1465937211.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "No crash. ",
+        "ts": "1465937266.000072"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1:",
+        "ts": "1465937377.000073"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Do we know what kind of push they sent most recently? ",
+        "ts": "1465937398.000074"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Image \/ media \/ etc",
+        "ts": "1465937404.000075"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F1GU3HK0R\/screenshot_20160614-135150.png|Screenshot_20160614-135150.png> and commented: copy image link \/ latest = latest dig collection update",
+        "file": {
+            "id": "F1GU3HK0R",
+            "created": 1465937664,
+            "timestamp": 1465937664,
+            "name": "Screenshot_20160614-135150.png",
+            "title": "Screenshot_20160614-135150.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 1713006,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1GU3HK0R\/screenshot_20160614-135150.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1GU3HK0R\/download\/screenshot_20160614-135150.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1GU3HK0R-408e1051ae\/screenshot_20160614-135150_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1GU3HK0R-408e1051ae\/screenshot_20160614-135150_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1GU3HK0R-408e1051ae\/screenshot_20160614-135150_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1GU3HK0R-408e1051ae\/screenshot_20160614-135150_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1GU3HK0R-408e1051ae\/screenshot_20160614-135150_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1GU3HK0R-408e1051ae\/screenshot_20160614-135150_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1GU3HK0R-408e1051ae\/screenshot_20160614-135150_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1GU3HK0R-408e1051ae\/screenshot_20160614-135150_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F1GU3HK0R\/screenshot_20160614-135150.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1GU3HK0R-50cbe39375",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc1GTTNQPJ",
+                "created": 1465937664,
+                "timestamp": 1465937664,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "copy image link \/ latest = latest dig collection update"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1465937669.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Not me. Also I don't have a Koons only dev build ",
+        "ts": "1465937673.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U06DFL7BP>: <@U13GPDA1F> do either of you have time to send me a dev push",
+        "ts": "1465941485.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wait",
+        "ts": "1465941538.000079"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i dont have access yet unfortunately, <@U06DFL7BP> ?",
+        "ts": "1465941542.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i've got internet briefly",
+        "ts": "1465941543.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stand by",
+        "ts": "1465941544.000082"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh wow, didnt realize you were in a no ‘net zone",
+        "ts": "1465941564.000083"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you",
+        "ts": "1465941565.000084"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just got a test notification",
+        "ts": "1465941635.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F>: just granted you access",
+        "ts": "1465941661.000086"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(we're in autodesk HQ everyone is very bizcasual)",
+        "ts": "1465941682.000087"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i seriously can't recreate this",
+        "ts": "1465941702.000088"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah im not having any issues opening app from notifications",
+        "ts": "1465941781.000089"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay so still suspect push unrelated to crash but not sure what caused the crash?",
+        "ts": "1465942153.000090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "two crashes",
+        "ts": "1465942182.000091"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "unrelated.",
+        "ts": "1465942187.000092"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "first one is one we fixed while we were in dogfood",
+        "ts": "1465942198.000093"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(so thats going to be fun to re-trace)",
+        "ts": "1465942206.000094"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the other was because something on the server was returning an error string instead of a JSON object",
+        "ts": "1465942222.000095"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which - yeah, thats totally on me for not handling that exception better (I haven't looked at the code yet, so I'm assuming I'm the one who fucked it up :slightly_smiling_face: Its usually me.)",
+        "ts": "1465942263.000096"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "BUT",
+        "ts": "1465942275.000097"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay - thanks for breaking that down",
+        "ts": "1465942293.000098"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the fact that the UI level one seemed to have jacked the execution of the download, and\/or the error out of GAE left the zip file in some weird state (i think)",
+        "ts": "1465942307.000099"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "for the record you are the day-saver not the fucker-uper to me",
+        "ts": "1465942322.000100"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'm going to spend a bunch of time trying to recreate this after I go to this VIP reception",
+        "ts": "1465942325.000101"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yuck im sorry",
+        "ts": "1465942332.000102"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(thank you for the gKat update :+1:)",
+        "ts": "1465942586.000103"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I hope it helps. I can't make this happen",
+        "ts": "1465942604.000104",
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

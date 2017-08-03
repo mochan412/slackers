@@ -1,0 +1,218 @@
+[
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<!channel> - checking in on the updated rig. Are we in a position where getting access to the newest dev branch on their side will be helpful and ready to go?",
+        "ts": "1497471805.801677"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "They're asking if we will have any time early next week to go thru changes with them",
+        "ts": "1497471822.807757"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The screens are all configured. im having an issue with internet access on a few of the machines, going to look into again today. otherwise they should be ready. Would be good to get their dev access. should have them ready easily before next week",
+        "ts": "1497471921.844326"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ok cool",
+        "ts": "1497476494.391949"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "good to know",
+        "ts": "1497476496.392703"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "fixed the network issue all boxes are responding now. There is one more problem. looks like the redirect is on our dev server and this is causing the exhibit not to be able to come up on the rig. If I could get <@U2670DYLE> to remove that redirect he did from our dev server then i think we should be good to go with the rig setup",
+        "ts": "1497479529.144520"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do we need to let them know about that? i can't remember if they'd been hitting that server or not",
+        "ts": "1497479559.151321"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they would have been hitting our prod server, they shouldnt have been on our dev server at all if I recall correctly. I think the reason its on the dev server is john tested it there first",
+        "ts": "1497479592.158324"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i asked them at the beginning of the month and they told us to leave it up a bit longer",
+        "ts": "1497479602.160504"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "we can ask again",
+        "ts": "1497479625.165477"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I think this is for the redirect that I first staged on the dev server. I don't think this should impact them.",
+        "ts": "1497479626.165624"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ah yes",
+        "ts": "1497479634.167409"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "oh a different redirect?",
+        "ts": "1497479635.167606"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "!",
+        "ts": "1497479636.167675"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i should read words sorry",
+        "ts": "1497479651.170862"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "all these servers and environments!",
+        "ts": "1497479668.174608"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "cool. I can go ahead and remove on dev if everyone is cool with that.",
+        "ts": "1497479704.181925"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "on GAE project, net-contributor-dev just to be clear",
+        "ts": "1497479878.218277"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah thats my understanding that they only were on the prod one, and dev is fully our playground",
+        "ts": "1497479994.241948"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Oh shoot, this isn't the redirect that I put in there. Joel had updated the API_URL to <https:\/\/services-dot-net-contributor-dev.appspot-preview.com> which I think has an impact on oauth flow. I think we can change that to <https:\/\/net-contributor-dev.appspot-preview.com> and get us back to where we were. I don't understand why the API_URL was updated in the first place.  services-dot-net-contributor was never a GAE project we worked with while we were in active development.",
+        "ts": "1497481258.493698"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "^ <@U0EL0GLEL>",
+        "ts": "1497481270.496138"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "hmm not sure, but when i start the exhibit they want to hit this url to get the front end display <https:\/\/services-dot-net-contributor-dev.appspot-preview.com\/content\/display.html>",
+        "ts": "1497481423.525896"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this appears to be a dead link",
+        "ts": "1497481428.526962"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "havnt looked into it more yet",
+        "ts": "1497481444.530124"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this is after i changed the url from the prod to dev, i noticed it was pointing to prod",
+        "ts": "1497481473.535688"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "hm",
+        "ts": "1497481492.539281"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<@U0EL0GLEL> can i come over and ask you some q's I'm a bit confused.",
+        "ts": "1497481672.572386"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure",
+        "ts": "1497481742.585328"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<@U0EL0GLEL> here is the branch with the updated value for API_URL",
+        "ts": "1497482308.687980"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<https:\/\/bitbucket.org\/uncorkedstudios\/netcontributor\/commits\/branch\/local-development>",
+        "attachments": [
+            {
+                "title": "Bitbucket",
+                "title_link": "https:\/\/bitbucket.org\/uncorkedstudios\/netcontributor\/commits\/branch\/local-development",
+                "text": "Bitbucket is a Git and Mercurial based source code management and collaboration solution in the cloud. Bitbucket is simple and powerful, enables code collaboration for teams, works with the tools that matter, and is easy to use even for teams new to Git and Mercurial",
+                "fallback": "Bitbucket",
+                "from_url": "https:\/\/bitbucket.org\/uncorkedstudios\/netcontributor\/commits\/branch\/local-development",
+                "service_icon": "https:\/\/d301sr5gafysq2.cloudfront.net\/9721e325ddbc\/img\/bitbucket_avatar\/192\/bitbucket.png",
+                "service_name": "Bitbucket",
+                "id": 1
+            }
+        ],
+        "ts": "1497482310.688322"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok sweet",
+        "ts": "1497482337.693011"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'm not sure if there's any reason why we wouldn't be able to just update that value since it's in the yaml file that I believe is just intended for <https:\/\/net-contributor-dev.appspot-preview.com>",
+        "ts": "1497482565.733442"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah good point, dont see a reason we cant",
+        "ts": "1497482764.769191"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "cool. I merged local-development into development and pushed.",
+        "ts": "1497482929.798321"
+    }
+]

@@ -1,0 +1,290 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey <!channel>, I think that link just above is good to show the client today. How do we want to share it with them? Should we type up any important points to guide them along in watching the clip? (specifically about the background image purpose) Or do we let them draw their own conclusions and talk about it when we talk about it?",
+        "ts": "1411062938.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Also, is it worth rendering a second video with the OMSI logo?",
+        "ts": "1411062966.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "yep, sounds good.",
+        "ts": "1411063137.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "trent, wanna send me some of your thoughts &amp; i can work on a draft?",
+        "ts": "1411063154.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I'll jot some things down.",
+        "ts": "1411063248.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey guys, just sent out a couple paragraphs to explain some of the animation. Check it out and lemme know if I left anything out or need to explain it better. And Karen, feel free to edit as you see fit.",
+        "ts": "1411065836.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "do you want me to forward to david, and justin trent?",
+        "ts": "1411065884.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "think you accidentally sent just to me",
+        "ts": "1411065891.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Sorry, I already did...",
+        "ts": "1411065895.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "You can add them on in any replies... I messed that one up.",
+        "ts": "1411065937.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026E0ZNR> so I have some potentially bad news.",
+        "ts": "1411076266.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hah, what is it?",
+        "ts": "1411076284.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "This collection\/grid of cards: they all have to be the same dimensions.",
+        "ts": "1411076285.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "The way Cocoa handles collection views does not make the layout available to the developer, so we're limited to one width\/height for all cards",
+        "ts": "1411076321.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Can we select what that width\/height is?",
+        "ts": "1411076340.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I could build a custom collection view engine but only if there's an extra month of development time lying around. :P",
+        "ts": "1411076355.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "does a card = the headline, or could 'cards' be attached to a fixed width, variable height image?",
+        "ts": "1411076369.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "yes, we can specify the width and height, as well as margins and padding, etc",
+        "ts": "1411076369.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so we pull an image from web, fix width to proper ratio and then append a fixed sized 'card' along with it",
+        "ts": "1411076402.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm treating \"card\" to mean the headline+image, or headline only in the case of an article that has no image",
+        "ts": "1411076403.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "in other words, all rows will line up",
+        "ts": "1411076428.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "hmm",
+        "ts": "1411076460.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so if you pull an image in from the web",
+        "ts": "1411076470.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "what happens",
+        "ts": "1411076473.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "?",
+        "ts": "1411076473.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm sorry this is a little late in the process, I didn't realize until just now.",
+        "ts": "1411076477.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "The image can be scaled or cropped according to whatever algorithm we want.",
+        "ts": "1411076496.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "e.g. it is cropped to an always fixed box",
+        "ts": "1411076499.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "but the container surrounding the image and headline will always be the same (custom-defined) dimensions",
+        "ts": "1411076536.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i feel like we could be basically fine with fixed headline, but the image size is a bit tricky",
+        "ts": "1411076559.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I'm getting a little lost here, is there a chance we can talk face to face",
+        "ts": "1411076569.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "yeah - this seems like a discussion",
+        "ts": "1411076572.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "yeah",
+        "ts": "1411076573.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i'm free any time",
+        "ts": "1411076592.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "lets wait for david to finish his call and then regroup",
+        "ts": "1411076600.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Yes, perfect. <@U0265G76F>, why don't you call an assembly when you're ready.",
+        "ts": "1411076642.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ready when the assembly needs to happen",
+        "ts": "1411077074.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "getting coffee",
+        "ts": "1411077634.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "can i get anybody anything?",
+        "ts": "1411077638.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "don't pow wow without me!",
+        "ts": "1411077641.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I'll go with you",
+        "ts": "1411077675.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I'm good! thanks though.",
+        "ts": "1411077681.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<!channel> - let's do this",
+        "ts": "1411078696.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "where?",
+        "ts": "1411078767.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "oh we naturally walked to the harware room (where the screen is)",
+        "ts": "1411078796.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but are realizing we're not sure why",
+        "ts": "1411078803.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey guys, the reading list animation upon submitting your email was the last major thing I think I needed to figure out. I mocked up 11 frames of what I'm imagining here—whenever is convenient, let me know any feedback you might have, or if I can clarify further what's supposed to happen.",
+        "ts": "1411084450.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<https:\/\/www.dropbox.com\/s\/g69hzwzw7gkdve0\/SentReadingListStoryboards.zip?dl=0>",
+        "ts": "1411084451.000049"
+    }
+]

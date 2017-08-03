@@ -1,0 +1,68 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "are we setting up the live wall paper as a scheduled deployment or will i be setting up the admin to just have this is the current one to display?",
+        "ts": "1450900521.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'm not sure I understand the question!",
+        "ts": "1450900661.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the admin experience for the wallpapers, will it be like the artist updates where there is a date attached when the update is sent out, or will the admin just say this is the current live wall paper this artist is exposing, so only one is queued up at a time",
+        "ts": "1450900931.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im looking at planing out what changes need to be made to the cms to support the live wallpaper admin",
+        "ts": "1450900969.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "since they will have many of them, and are exposing them on a weekly or X days basis I assume they would want to have something like the artist updates thing, where they say this wall paper will be exposed to be downloaded on this day and queue up all of them so they just happen as scheduled",
+        "ts": "1450901054.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "or is it simpler and its well this is the current one and someone will change it manually as they change?",
+        "ts": "1450901076.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ah! I think the scheduling is going to be much simpler ",
+        "ts": "1450901135.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Wallpaper will be based on X days from activation",
+        "ts": "1450901149.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "And all wallpapers will have the same interval ",
+        "ts": "1450901157.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "So is really just a sequence of assets (in a manifest somewhere?) and a set interval of days ",
+        "ts": "1450901180.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ah, that is simpler. That does leave a few options there. If the app shipped with a list of all the links to those assets and just knew that it needed to pull them down every x days on the rotation. That is one option, then there is no admin experience for the cms there. It is just baked into the app. Or there is an admin where a queue is set, and the interval could be set if we need to. More assets could be added or removed from the queue as needed. And the app just pings that end point to find which one it needs on its rotation.",
+        "ts": "1450901719.000012"
+    }
+]

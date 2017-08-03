@@ -1,0 +1,110 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "pairing flow sketch files here: <https:\/\/drive.google.com\/open?id=0B1mC6ZNp3x3AYnh2aFU2SGJrbkk>",
+        "ts": "1489096685.767232"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<http:\/\/www.sciencealert.com\/nasa-have-just-released-2-540-gorgeous-new-photos-of-mars>",
+        "attachments": [
+            {
+                "service_name": "ScienceAlert",
+                "title": "NASA Has Just Released 2,540 Gorgeous New Photos of Mars",
+                "title_link": "http:\/\/www.sciencealert.com\/nasa-have-just-released-2-540-gorgeous-new-photos-of-mars",
+                "fallback": "ScienceAlert: NASA Has Just Released 2,540 Gorgeous New Photos of Mars",
+                "image_url": "http:\/\/www.sciencealert.com\/images\/articles\/processed\/mars-sand-dunes-mro-hirise-nasa-university-arizona_1024.jpg",
+                "image_width": 617,
+                "image_height": 250,
+                "from_url": "http:\/\/www.sciencealert.com\/nasa-have-just-released-2-540-gorgeous-new-photos-of-mars",
+                "image_bytes": 124312,
+                "service_icon": "http:\/\/www.sciencealert.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1489104220.691644",
+        "reactions": [
+            {
+                "name": "mars",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "a lot more varied and dynamic than i was expecting, these are great",
+        "ts": "1489104295.699579"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i like this stafford guy",
+        "ts": "1489104411.710176"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!channel> here's a Places order API ID you can use for the NEW Places UI: ZfhgOHTKWd7mksHS",
+        "ts": "1489104673.733051"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also feedback from bonnie on build <@U0260V1BX> <@U3ZFEAPSP> for consideration: only thing we might want to chat about from a UX perspective... is that when you Match current location, it opens up on your current style, which may be in the middle of the row\nso to see all, user has to swipe both right and left\nwhereas if it opened up on the first one (even though a middle one selected) they would just have to swipe one way",
+        "ts": "1489104762.740779"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U1ZG1UCAK> are you checking out natalies shirt",
+        "ts": "1489104842.747893"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "(creeping on natalie IRL)",
+        "ts": "1489104845.748186"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "shes my new :smiley_cat:",
+        "ts": "1489105004.761855"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> , as for opening it on the current style, when it moves to the selected style, it will auto-scroll to the selected item because that list is wider than the screen.\nWould you want to re-shuffle the list so that the selected style is always the second style in that list? (where the first item is the case style?)",
+        "ts": "1489106751.910256"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "she’s asking for our opinion on this - i want to give melissa a few to weigh in on this",
+        "ts": "1489107004.932860"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "in the meantime, we have an update thats needed (<https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-141>)",
+        "ts": "1489107019.934400"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also <@U3ZFEAPSP> what is the rational behind the order of the place style tiles? bonnie brought up that it might make sense to have them match the list that we were provided\/what is in the store?",
+        "ts": "1489107120.943174"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "oh you know what, I just realized, I fell back to the original sorting method that sorted by style_id number (so it will be showing chronological order, with just the case style shifted to be the first tile shown) if there are no legacy styles in the list. The rationale being just keeping it the same.\nIf there is a legacy case though, that ordering should be what was given us, of simple_style = [1,9,12,10,3,11,7,6,5,4,8,13]\nThe ordering can be changed without too much trouble, let me know if you want me to change the second (although just to note, that should only be showing if the case is from one of the new styles, so it give me a heads up if she was seeing that while using one of the legacy cases)\nThe shifting the selected style to second in list will be a bit more involved unfortunately",
+        "ts": "1489107683.991383"
+    }
+]

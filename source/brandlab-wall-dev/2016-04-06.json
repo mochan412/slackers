@@ -1,0 +1,80 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "progress! have both touch films responding in windows as a mouse. trick is not to use that graphical app they give you. but there is a command line one. and you have to plug each one in individually and send it a command to set its mode and settings then they will just work as a mouse. im going to dig into this more to make it work for our needs. but this is a great first step showing they do respond",
+        "ts": "1459967943.000260"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":clap:",
+        "ts": "1459968396.000261"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "need to work through the detection of which mouse device is sending that location etc now, without that we wouldnt know which touch film was sending us that command. but this is progress, digging further",
+        "ts": "1459968638.000262"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "have code that is able to read the touch device input and give me some x y indications of touch. it gives the same device id for any touch screen tho, but there is some other value that seems to be unique per device. And what im reading there is an even better id i can use. getting closer",
+        "ts": "1459985516.000263"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: remind us please, once touch fwd’r is ready, you’re good to demo right?",
+        "ts": "1459985874.000264"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "as i understand it this is your last task.",
+        "ts": "1459985882.000265"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "There is a small bug on my template that i loaded makes an infinite loop and crashes chrome, but i know what it is and its a quick fix. And we havent done too much with the final setup in windows yet, I only confirmed that IS was loading in windows from the linux VM. The display drivers are not configured so the full display isnt working in chrous. We can probably make it work by draggingg the window over both screens. but that will not be the final solution we want chrome to be set full screen",
+        "ts": "1459986030.000266"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok so i’,m tracking as a number of tasks:\n1.  Touch FWD’r ID: finish\n2.  Rectify infinite loop bug\n3.  Windows Display Drivers\n\nis that it?",
+        "ts": "1459986270.000267"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah that would get us a working demo",
+        "ts": "1459986448.000268"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "unfair question: is that accomlisable tomorrow if youre only in 2 hrs worth of meetings?",
+        "ts": "1459986581.000269"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i ask cuz i wanna know what we can do while client is here monday",
+        "ts": "1459986590.000270"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "2 is quick, 3 might not be. and 1 im getting pretty close on. just going through various code samples identifying what I can use. there feels like a few different approaches used. And I need to hit on a list of functions, just reading that the mouse did something is cool but i need to know which, and stop the OS from seeing it until I redirect that input. the redirection im not concerned about, that part is pretty easy usually. Swear ive done it before with this tech. I think we will be good for monday. nice thing is my laptop im working on has a touch screen and what ive been able to tell is it works the same as the others. the response is different than a standard mouse but the same as the other touch panels",
+        "ts": "1459986823.000271"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "makes checking on these code samples easier",
+        "ts": "1459986847.000272"
+    }
+]

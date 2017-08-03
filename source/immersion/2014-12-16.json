@@ -1,0 +1,374 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Hi friends, I have an appointment this morning and will arrive later than standup, but my plan for today is to get as far as I can on making transition animations.",
+        "ts": "1418748492.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Hey all, I am hoping to be in by standup but I've got a Comcast guy here trying to fix our internet. Not sure how long it will take! ",
+        "ts": "1418748730.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "definitely wont make the standup - Comcast guy: \"this is gonna take a while\"",
+        "ts": "1418750769.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0260V1BX>: he's asking you for a bribe.",
+        "ts": "1418750784.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0260V1BX>: sorry, i know that sucks. I just hate comcast even tho most of their installers are really nice.",
+        "ts": "1418750835.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "same",
+        "ts": "1418750851.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "the storm last week knocked over a neighbors tree and PGE came out and cut a bunch of wires... one of them being our internet",
+        "ts": "1418750892.000008"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "No problem all around! Let's just check in on slack as needed today. ",
+        "ts": "1418751226.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "niiiice",
+        "ts": "1418751291.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Hey <@U02F8TTPU> - david has requested that we add a title to the splash screen. I am updating some assets and have spec for you",
+        "ts": "1418760075.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Thanks! I'll do that.",
+        "ts": "1418760118.000013"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Have you both had a chance to look through his feedback document?",
+        "ts": "1418760129.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "assets here",
+        "ts": "1418760146.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "clients\/Immersion\/CES Demo\/Assets for Marissa\/Splash Screen 16 Dec",
+        "ts": "1418760147.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U030TQFR3> yes",
+        "ts": "1418760150.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I have looked through it. Some of the items are not really possible since they're controlled by the Tizen framework (and Tizen WebKit's partial support of certain HTML5\/CSS3 features) but other items are possible, given enough time.",
+        "ts": "1418760198.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I don't believe it's possible to make sure an animation finishes before a user scrolls the page, and implementing animated page indicator dots is going to be a time-consuming custom job",
+        "ts": "1418760351.000019"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "I'll start an email thread with the doc for us. I'd like to get back to him with the details of what can\/can't be done, and what will be in for friday build. We can just put notes on each line.",
+        "ts": "1418760360.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "he has the indicator as low priority",
+        "ts": "1418760368.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "luckily",
+        "ts": "1418760372.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i just created a google doc version of it <@U030TQFR3>",
+        "ts": "1418760386.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and shared with everyone",
+        "ts": "1418760391.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "that way we have one centralized version",
+        "ts": "1418760398.000025"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "you are so fast",
+        "ts": "1418760398.000026"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "are you from the future",
+        "ts": "1418760404.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "shhhh",
+        "ts": "1418760416.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02F8TTPU> i've also created a new bg image file for the smartwatch clock",
+        "ts": "1418760817.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "pretty! I'll make those changes right away",
+        "ts": "1418761152.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "also, I got a jquery mobile demo working with page transitions (slide up\/down)",
+        "ts": "1418761178.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "however, the transitions look pretty terrible in comparison to native apps on the gear",
+        "ts": "1418761196.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "very flickery",
+        "ts": "1418761203.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "jquery mobile has a big warning box that there are known issues with getting transition effects to work in some browsers (Android is a known problem) and I suspect Tizen's implementation shares that similarity",
+        "ts": "1418761252.000035"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "I added a couple additional columns to the shared doc for us. Sorry if it's kind overkill. I just want to be able to be super clear with Dave about what to expect.",
+        "ts": "1418761308.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<http:\/\/demos.jquerymobile.com\/1.2.0\/docs\/about\/platforms.html> it claims \"A\"-grade support for Tizen on early pre-release hardware, although I suspect that's phone-based Tizen, not wearable Tizen",
+        "ts": "1418761385.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "jQM also seems to override some of our CSS and JS (like the swipe-down gesture) so I think I'll try vanilla jquery with smoothstate.js",
+        "ts": "1418763292.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "To answer David, we can begin providing builds with haptic calls as soon as Abe provides us with a library that supports functional haptic calls.",
+        "ts": "1418765114.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The stub library is integrated and ready",
+        "ts": "1418765140.000040"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<@U02F8TTPU> are we up to date on Abe's latest request from yesterday?",
+        "ts": "1418765297.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The answer to Abe's latest question is \"unknown\", but I'll respond to that thread",
+        "ts": "1418765340.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Oh wait, we can probably use the localization library we're already using to do things with key-value pairs",
+        "ts": "1418765466.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "There's nothing Tizen-specific about it, it's just a standard JS library",
+        "ts": "1418765484.000044"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "So... The latest we have from them doesn't actually include the vibrations. Right? Are we waiting for an updated version from them, or does Abe add that after we post?",
+        "ts": "1418765773.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Correct, the latest library is a stub, and we are waiting on a .ivt file containing the vibrations that we can call",
+        "ts": "1418765842.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "smoothState.js test failed, I suspect Tizen does not support css3 @keyframes",
+        "ts": "1418765919.000047"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "...so we won't be getting any actual vibrations. Marissa, do you just need this master file for what to call? ",
+        "ts": "1418767435.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "That's what Abe indicated it would be... so I believe I need that file as well as any additional instructions needed to call specific effects (if there's any new info)",
+        "ts": "1418767686.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02F8TTPU> I want to make sure that the replay \/ stop \/ play interactions are on your radar as well... did you see those notes in the deck from last week?",
+        "ts": "1418767757.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yes, that is on my radar... I'm eager to start on it, but I'm still striking out on getting smooth page slides at the moment :pouting_cat:",
+        "ts": "1418768070.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok cool. It occurred to me that not everyone may have read the entire deck, so I am just making sure everything came across!!",
+        "ts": "1418768127.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Looks like jQuery Mobile is the closest we're going to get to functional animations. The problem is that there's a ton of CSS\/JS that conflicts with the already written UI code, so I'm going to have to go through and change\/fix very many layout elements in order to get the UI to display correctly and to do animated transitions",
+        "ts": "1418771806.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "But I've exhausted all the easier options I could find today",
+        "ts": "1418771866.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "What can i bring you? a cookie? a beer?",
+        "ts": "1418771878.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Hopefully I can have the basic slide up\/down\/left\/right transitions by Friday's build",
+        "ts": "1418771888.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm good, I'll just forge ahead with this (it's not too bad, I re-rolled the library and it doesn't seem to flicker like I saw earlier)",
+        "ts": "1418772054.000057"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "You can do it! We believe in you. Ra ra, etc",
+        "ts": "1418772523.000058"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "In about an hour I'll update Dave on basecamp regarding the feedback items. Can you add any yes\/no\/maybes to the doc by 4pm? Please and thank you.",
+        "ts": "1418772691.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "will do",
+        "ts": "1418773111.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "OK, I marked yes\/no\/maybes and comments on most of the items, let me know if anything looks unclear\/incomplete\/wrong\/needs more clarification",
+        "ts": "1418773638.000061"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Nice. Thanks!",
+        "ts": "1418773681.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The only items that I believe are possible for Friday's build are sliding page transitions, changing the clock background and the new design for the index page. The other implementation items are definitely on my radar and I hope to get to them soon.",
+        "ts": "1418773753.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "OK, at this point, I have the index re-styled, and navigation between index, the main menu, and the submenus follows up\/down sliding with jQuery mobile.",
+        "ts": "1418779639.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Some things broke, such as the fade effect disappearing no longer works, and the clock no longer works, but I will repair those as I continue debugging and implementing other page transitions and animations",
+        "ts": "1418779730.000065"
+    }
+]

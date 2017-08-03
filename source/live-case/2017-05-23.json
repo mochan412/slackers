@@ -1,0 +1,1861 @@
+[
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "hey team, just a heads up I’ll be WFH today to go through and do some code cleanup and more filing of tickets. That is after we get the build that will never be finished building out :stuck_out_tongue:",
+        "ts": "1495556357.845742",
+        "reactions": [
+            {
+                "name": "house_with_garden",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "haha one day...one day",
+        "ts": "1495556551.904303"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "had a feeling something like this was going on :wink:",
+        "ts": "1495557469.179719"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "so, hopefully not completely confusing builds any further. I have a build that has the “legacy fork” in it to work with dogfooders, with the shake to advance feature for new phones (along with Friday’s UI tweaks). I can cut that build for us to do some testing and looks like it will be the one build Bonnie will need for release.\nI will get the beta channel build up as well, but will just keep that on its own code branch &amp; folder in the merged apks folder.",
+        "ts": "1495558961.623806"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Just to update the rest of the team from our convo with Bonnie. \nIt appears the dogfooders &amp; the folks demo-ing (on pixel 2's) for the Sell-in meeting will all need to be on the same build. So now everything will be off the origin\/legacy_fork branch",
+        "ts": "1495559744.850007",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U2H61EJSG",
+                    "U1ZG1UCAK",
+                    "U0U9WJB7F"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> let us know when you've got that Beta build in the folder and I will alert Bonnie :slightly_smiling_face:",
+        "ts": "1495560672.122656",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3ZFEAPSP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "which folder should I use? I think we need one with a Release:77",
+        "ts": "1495560962.209329"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "this one? MiniMe Release: 77 3.2.0 (Beta 5.23.17)",
+        "ts": "1495561122.257356"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "someone catch me if I'm wrong here.... <@U13GPDA1F> :slightly_smiling_face:",
+        "ts": "1495561137.261917",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yep!",
+        "ts": "1495561211.283703"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thats the code she requested for dogfood (forked, no shake)",
+        "ts": "1495561235.290826"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> just want to make sure you'll upload that Beta build before noon?",
+        "ts": "1495563768.055183"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "are you running into any issues?",
+        "ts": "1495563778.057936"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "should be able to. There are just a couple of issues I’m getting fixed for legacy renderers, am just about to cut the build for 3.2.0.\nThen for the dogfood + sellin build, I think there are a few issues Summer uncovered that we will fix and then work at getting that build ready to build &amp; upload",
+        "ts": "1495563858.081772"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay let's prioritize the dogfood build!",
+        "ts": "1495564158.170516"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "im sure you're already doing that just want to say it :slightly_smiling_face:",
+        "ts": "1495564167.173449"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea. Just to check on timing. When are we aiming to have that dogfood build up?",
+        "ts": "1495564234.193823"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "as soon as possible",
+        "ts": "1495564255.200487"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "since we told bonnie in our meeting we'd get it up as quickly as we could",
+        "ts": "1495564269.204370"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "ok, some renderer bugs are fixed in dogfood legacy build. Now what remains are strings. <@U2H61EJSG> <@U1ZG1UCAK>, how many strings are out of whack?",
+        "ts": "1495565068.440530"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I think it’s just a handful of strings in legacy onboarding and the text that appears in the home fragment",
+        "ts": "1495565146.463131"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I have the descriptive text covered",
+        "ts": "1495565318.513247"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "and I can pull in the right onboarding strings",
+        "ts": "1495565336.518442"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’m going to push those other changes here in a sec, legacy_fork is ready for a df build, just once those strings get merged in",
+        "ts": "1495565433.546714"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "and now beta build is ready as well, just need to merge those strings in",
+        "ts": "1495565617.601253"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> I just pushed another change to legacy_fork_fixes_5_23",
+        "ts": "1495565639.607697"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The nfc setting view was in the wrong position in the trends legacy home fragment",
+        "ts": "1495565661.613927"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "There are also some issues in the TrendsAboutFragment",
+        "ts": "1495565734.635644"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "strings updates are on `strings_updates`",
+        "ts": "1495565823.662309"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome, thanks <@U2H61EJSG>  <@U1ZG1UCAK> !!!!",
+        "ts": "1495565919.691310"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> after you drop the build into the beta folder will you drop it in here as well?",
+        "ts": "1495565995.713858"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "10-4",
+        "ts": "1495566180.770281"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U0U9WJB7F> Should I remove the older builds in the dogfood folder? Or put them in an archive folder?",
+        "ts": "1495566331.813996"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "put them in an archived folder for now",
+        "ts": "1495566355.820895"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> I’m noticing a few issues with Earth as well. Using the NFC to luanch opens the location in earth, not maps. And the nfc option to advance to the next wallpaper is not working at all.",
+        "ts": "1495566385.829256"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I just updated it back to maps",
+        "ts": "1495566408.835544"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "cool",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1495566423.000000"
+        },
+        "ts": "1495566418.838123"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "good to know on the advance not working",
+        "ts": "1495566423.839596"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "that might not be a quick fix, let me check it out some, in the mean time, here is the build with all but the advance to next on nfc event",
+        "ts": "1495566644.900348"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "uploaded builds",
+        "ts": "1495566673.908409"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5HPDMCBG\/minime-debug-80-3.2.df.0-5-23-17-v1.apk|MiniMe-DEBUG-80-3.2.df.0-5-23-17-v1>",
+        "file": {
+            "id": "F5HPDMCBG",
+            "created": 1495566700,
+            "timestamp": 1495566700,
+            "name": "MiniMe-DEBUG-80-3.2.df.0-5-23-17-v1.apk",
+            "title": "MiniMe-DEBUG-80-3.2.df.0-5-23-17-v1",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 54610574,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HPDMCBG\/minime-debug-80-3.2.df.0-5-23-17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HPDMCBG\/download\/minime-debug-80-3.2.df.0-5-23-17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5HPDMCBG\/minime-debug-80-3.2.df.0-5-23-17-v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5HPDMCBG-f40dbf7947",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1495566703.916647"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I still have a few changes that need to be added",
+        "ts": "1495566736.925175"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I think we should make that change before updating the build.",
+        "ts": "1495566742.926809"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> I just pushed a few small changes to legacy_fork_fixes_5_23",
+        "ts": "1495566848.954550"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I will look into the nfc chip to advance issue",
+        "ts": "1495566866.959397"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It appears that the NFC setting option was removed from all legacy home fragments",
+        "ts": "1495567276.067880"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5HPKBK2S\/screenshot_20170523-122306.png|Screenshot_20170523-122306.png> and commented: Does anyone know the difference between center images on main screen and fixed image?",
+        "file": {
+            "id": "F5HPKBK2S",
+            "created": 1495567432,
+            "timestamp": 1495567432,
+            "name": "Screenshot_20170523-122306.png",
+            "title": "Screenshot_20170523-122306.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 129991,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HPKBK2S\/screenshot_20170523-122306.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HPKBK2S\/download\/screenshot_20170523-122306.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HPKBK2S-f36f0f0165\/screenshot_20170523-122306_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HPKBK2S-f36f0f0165\/screenshot_20170523-122306_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HPKBK2S-f36f0f0165\/screenshot_20170523-122306_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HPKBK2S-f36f0f0165\/screenshot_20170523-122306_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HPKBK2S-f36f0f0165\/screenshot_20170523-122306_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HPKBK2S-f36f0f0165\/screenshot_20170523-122306_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HPKBK2S-f36f0f0165\/screenshot_20170523-122306_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HPKBK2S-f36f0f0165\/screenshot_20170523-122306_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HPKBK2S-f36f0f0165\/screenshot_20170523-122306_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5HPKBK2S\/screenshot_20170523-122306.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5HPKBK2S-1216464d39",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5GVAFHKL",
+                "created": 1495567432,
+                "timestamp": 1495567432,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Does anyone know the difference between center images on main screen and fixed image?"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1495567436.110781"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I have to grab lunch, I’ll be able to dig into this more in 30. I think I see where to grab those nfc settings back in. Keep looking for anything else",
+        "ts": "1495567510.130555"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Center vs. fixed: center on main screen vs. use parallax",
+        "ts": "1495567620.160290"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> I think we should fix the NFC issue that Summer mentioned before updating the build in the Merged APK folder.",
+        "ts": "1495567728.189775"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "(not sure if you caught that above)",
+        "ts": "1495567733.191150"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Agreed <@U0U9WJB7F> \nI'll get that in there :)",
+        "ts": "1495567917.241155"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Okay, we're _really_ pushing the timeline here considering this was supposed to be complete on Friday...just so everyone is on the same page",
+        "ts": "1495567995.263076"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "im doing my best to buy us time.",
+        "ts": "1495568000.264177"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thanks jenna!",
+        "ts": "1495568017.268700"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":sweat_smile:",
+        "ts": "1495568028.271466"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> I added the nfc to advance to next wallpaper back to Earth. Pushed up to legacy_fork_fixes_5_23",
+        "ts": "1495568364.360624",
+        "reactions": [
+            {
+                "name": "smiley",
+                "users": [
+                    "U3ZFEAPSP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026PHQ3J> \/ <@U1ZG1UCAK> shouldnt those options be mutually exclusive and not each have their own toggle? (fixed vs centered)",
+        "ts": "1495568734.459193"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I added the shortcut button setting back to the legacy home fragments that were missing it. Pushed to `legacy_fork_fixes_5_23`",
+        "ts": "1495569370.632914"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "heading into a meeting, but will stay online so I can let Bonnie know that we're good to go when that time comes",
+        "ts": "1495569564.687756"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "building now, should have it up shortly",
+        "ts": "1495570135.849241",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U2H61EJSG",
+                    "U0U9WJB7F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool cool thank you!!",
+        "ts": "1495570194.865022"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "build to test out really quick, make sure everything is still looking proper. nfc actions look to be back and layouts look right",
+        "ts": "1495570501.946164"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5HQ8QWPQ\/minime-debug-80-3.2.df.0-5-23-17-v1.apk|MiniMe-DEBUG-80-3.2.df.0-5-23-17-v1.apk>",
+        "file": {
+            "id": "F5HQ8QWPQ",
+            "created": 1495570511,
+            "timestamp": 1495570511,
+            "name": "MiniMe-DEBUG-80-3.2.df.0-5-23-17-v1.apk",
+            "title": "MiniMe-DEBUG-80-3.2.df.0-5-23-17-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 54611043,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HQ8QWPQ\/minime-debug-80-3.2.df.0-5-23-17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HQ8QWPQ\/download\/minime-debug-80-3.2.df.0-5-23-17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5HQ8QWPQ\/minime-debug-80-3.2.df.0-5-23-17-v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5HQ8QWPQ-17f0fe6f5f",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "tada",
+                    "users": [
+                        "U2H61EJSG",
+                        "U0U9WJB7F"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1495570515.949974"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yes let's tesssst!",
+        "ts": "1495570517.950447"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "thanks for solving those issues <@U2H61EJSG>!",
+        "ts": "1495570613.976998"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yeah thank you all!!",
+        "ts": "1495570626.980571"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It looks like the legacy version of earth is still pulling up earth and not maps",
+        "ts": "1495570638.983618"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "ugh, another merge conflict.",
+        "ts": "1495570791.023973",
+        "reactions": [
+            {
+                "name": "sickymouse",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "one sec, I’ll update",
+        "ts": "1495570812.029857"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "what is the eta?",
+        "ts": "1495570867.044476"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Bonbon has hit me up quite a few times.",
+        "ts": "1495570885.049506"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "about a min. just have to re-run build",
+        "ts": "1495570885.049609"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> is there any way to test the non-legacy fork? I have a 6P and a pixel XL",
+        "ts": "1495570921.059475"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "comment out those devices in App.java and build to your phone",
+        "ts": "1495571090.106222"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Are the changes pushed to legacy_fork?",
+        "ts": "1495571103.110042"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "just pushed",
+        "ts": "1495571131.117672",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "don’t want to lose track of this - <@U026PHQ3J> \/ <@U1ZG1UCAK>?",
+        "attachments": [
+            {
+                "fallback": "[May 23rd, 2017 12:45 PM] melissa: <@U026PHQ3J> \/ <@U1ZG1UCAK> shouldnt those options be mutually exclusive and not each have their own toggle? (fixed vs centered)",
+                "ts": "1495568734.459193",
+                "author_subname": "melissa",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "<@U026PHQ3J> \/ <@U1ZG1UCAK> shouldnt those options be mutually exclusive and not each have their own toggle? (fixed vs centered)",
+                "author_name": "Melissa Chan",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/melissa",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-10-28\/97813999361_f1eee58c309c8eed5241_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/C0BTK9LGH\/p1495568734459193",
+                "is_share": true,
+                "footer": "Posted in #live-case"
+            }
+        ],
+        "thread_ts": "1495571169.127716",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1495572000.354944"
+            },
+            {
+                "user": "U0260V1BX",
+                "ts": "1495575121.143447"
+            },
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1495576457.426152"
+            },
+            {
+                "user": "U0260V1BX",
+                "ts": "1495576547.444664"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1495571169.127716"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Other than the legacy version of earth pulling up google earth and not google maps, everything looks fine to me!",
+        "ts": "1495571331.172909"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "wait so that's not fixed yet?",
+        "ts": "1495571417.196296"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "cutting a build for that in a second",
+        "ts": "1495571429.199748"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0260V1BX> i'm not sure what the context of <@U1ZG1UCAK> 's question was, i was just answering",
+        "ts": "1495571486.215253"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It was actually my question (midori was logged into the test device I was on). I was just confused for a second - I thought that ‘center images’ and ‘fixed image’ had the same behaviour",
+        "ts": "1495571595.244938"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U2H61EJSG> or <@U1ZG1UCAK> could you try pulling legacy_fork and run a gradle assemble",
+        "ts": "1495571889.325588"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "my environment is failing at the last 2% after taking like 4 min to build :confused:",
+        "ts": "1495571909.331012"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m on it",
+        "ts": "1495571942.339648"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "melissa: I’m not sure, but they aren’t on the store build. When you say mutually exclusive, do you mean that if one is toggled on, the other is disabled?",
+        "thread_ts": "1495571169.127716",
+        "parent_user_id": "U0260V1BX",
+        "ts": "1495572000.354944"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5HR5UW15\/minime-debug-80.df.0-5-23-17-v2.apk|MiniMe-DEBUG-80.df.0-5-23-17-v2.apk>",
+        "file": {
+            "id": "F5HR5UW15",
+            "created": 1495572158,
+            "timestamp": 1495572158,
+            "name": "MiniMe-DEBUG-80.df.0-5-23-17-v2.apk",
+            "title": "MiniMe-DEBUG-80.df.0-5-23-17-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 54611278,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HR5UW15\/minime-debug-80.df.0-5-23-17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HR5UW15\/download\/minime-debug-80.df.0-5-23-17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5HR5UW15\/minime-debug-80.df.0-5-23-17-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5HR5UW15-0eda9314ed",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1495572161.397815"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Thanks Summer.",
+        "ts": "1495572233.416951"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome! I’ll send you the drive folder summer if this build checks out",
+        "ts": "1495572282.430150"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Crap. Shake to advance in earth somehow made it into the legacy version",
+        "ts": "1495572313.438734"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’m trying to fix why studio will build for me but gradle cmd line is breaking",
+        "ts": "1495572321.440807"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "after we get this updated in the Merged APK folder please send a build where the Pixel is the \"pixel2\" so Bonnie can check  it out since she doesn't have a Pixel2 yet.",
+        "ts": "1495572418.467240"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "what!? Seriously, do you want to comment out the shake in legacyEarthRender summer and re-build? I had ripped that out earlier and gradle is still failing in running assemble builds on my end",
+        "ts": "1495572504.490415"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I just deleted it and I’m currently rebuilding",
+        "ts": "1495572520.494499"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5GATMC00\/minime-debug-80.df.0-5-23-17-v3.apk|MiniMe-DEBUG-80.df.0-5-23-17-v3.apk>",
+        "file": {
+            "id": "F5GATMC00",
+            "created": 1495572646,
+            "timestamp": 1495572646,
+            "name": "MiniMe-DEBUG-80.df.0-5-23-17-v3.apk",
+            "title": "MiniMe-DEBUG-80.df.0-5-23-17-v3.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 54610734,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5GATMC00\/minime-debug-80.df.0-5-23-17-v3.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5GATMC00\/download\/minime-debug-80.df.0-5-23-17-v3.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5GATMC00\/minime-debug-80.df.0-5-23-17-v3.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5GATMC00-d7db41c713",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1495572650.529971"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5HRAPY87\/minime-debug-80_pixel_pixel2_testing_build.apk|MiniMe-DEBUG-80_PIXEL=PIXEL2_TESTING_BUILD.apk>",
+        "file": {
+            "id": "F5HRAPY87",
+            "created": 1495572804,
+            "timestamp": 1495572804,
+            "name": "MiniMe-DEBUG-80_PIXEL=PIXEL2_TESTING_BUILD.apk",
+            "title": "MiniMe-DEBUG-80_PIXEL=PIXEL2_TESTING_BUILD.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 54610488,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HRAPY87\/minime-debug-80_pixel_pixel2_testing_build.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HRAPY87\/download\/minime-debug-80_pixel_pixel2_testing_build.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5HRAPY87\/minime-debug-80_pixel_pixel2_testing_build.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5HRAPY87-962db46818",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1495572809.572554"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Okay so the first one you sent should be uploaded to the Merged APK folder, correct <@U3ZFEAPSP> ?",
+        "ts": "1495572834.579472"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> The second build is the one Bonnie can use for testing. Pixel XL is considered legacy, but the regular pixel will behave like a pixel2",
+        "ts": "1495572867.588631"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool thanks",
+        "ts": "1495572893.595743"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, and make sure to upload the Unsigned &amp; mapping.txt to the drive folder",
+        "ts": "1495572897.597005"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Can you send me a link to the drive folder?",
+        "ts": "1495572908.599950"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<https:\/\/drive.google.com\/drive\/folders\/0B8Nqz7v9YgvVWkRJUFNGT2xFbTA>",
+        "ts": "1495572922.603820"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "And when you say unsigned, do you mean the dev, preview, or prod apk?",
+        "ts": "1495572995.624100"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "prod apk should be unsigned",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495573095.000000"
+        },
+        "ts": "1495573091.649760"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "we need to have a build in both Alpha and Beta folders",
+        "ts": "1495573205.681215"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "app-prod-debug.apk should be the one with DEBUG\nand then app-prod-unsigned.apk should be the one with UNSIGNED",
+        "ts": "1495573216.684440"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lol. thats what i meant to say but flipped windows",
+        "ts": "1495573241.691487"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'll show myself out",
+        "ts": "1495573247.693374",
+        "reactions": [
+            {
+                "name": "coolevans",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "then for the mapping file, use the,  \/outputs\/mapping\/prod\/release\/mapping.txt",
+        "ts": "1495573249.693894"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Excellent, thank you! Everything should be loaded into that file on drive now",
+        "ts": "1495573341.718836"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "then for the beta builds, we need to go off a different branch and do the same build process",
+        "ts": "1495573347.720671"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Which branch?",
+        "ts": "1495573357.723219"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "origin\/release-77_real",
+        "ts": "1495573473.753346"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I just pushed the updates, you’ll probably have to re-remove the shake from the legacyEarth render, I don’t think those changes are up on the legacy_fork remote yet",
+        "ts": "1495573534.768836"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "and those builds go here, <https:\/\/drive.google.com\/drive\/folders\/0B8Nqz7v9YgvVUVFOM3U3NlF3OG8>",
+        "ts": "1495573551.773091"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ll double check and then build",
+        "ts": "1495573612.788533"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "What should I call these apks?",
+        "ts": "1495573626.791938"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome, thanks. MiniMe-DEBUG-77-3.2.0-5-23-17-v1.apk",
+        "ts": "1495573741.820953"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Ok, everything should be in the alpha and beta folders on drive now.",
+        "ts": "1495573946.871367"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sweet. Thanks summer! I’m going to try to fix my environment so it gets back to building.",
+        "ts": "1495574244.941705"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<https:\/\/drive.google.com\/drive\/folders\/0B8Nqz7v9YgvVVmIySlBTVjRDWEE>",
+        "ts": "1495574459.991862"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "What’s that Test builds folder Jenna?",
+        "ts": "1495574554.013719"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It was a sanity check",
+        "ts": "1495574564.016232"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":slightly_smiling_face:",
+        "ts": "1495574572.017992"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I am sane.",
+        "ts": "1495574575.018700"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "bonnie is not.",
+        "ts": "1495574580.019880",
+        "reactions": [
+            {
+                "name": "slightly_frowning_face",
+                "users": [
+                    "U026PHQ3J"
+                ],
+                "count": 1
+            },
+            {
+                "name": "white_frowning_face",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Word",
+        "ts": "1495574585.021134"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "haha, seriously, at least she didn’t send out the 3.2.dev build that was from like, a week ago out…\nsorry the merging got so out of whack pulling those things over all. Having the filenames changed in legacy sort of screwed with keeping things synced on the two branches. Fortunately I think we get to stay on the same branch.",
+        "ts": "1495574799.069618"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "right. the bg image can be either centered or fixed.",
+        "thread_ts": "1495571169.127716",
+        "parent_user_id": "U0260V1BX",
+        "ts": "1495575121.143447"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "hmmm, I think I remember this decision. It’s weird that it’s not in the store build. We can make a ticket and fix that",
+        "thread_ts": "1495571169.127716",
+        "parent_user_id": "U0260V1BX",
+        "ts": "1495576457.426152"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "The store build is correct, I am wondering where the “centered” item came from. Was this an ustwo addition?",
+        "thread_ts": "1495571169.127716",
+        "parent_user_id": "U0260V1BX",
+        "ts": "1495576547.444664"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> <@U1ZG1UCAK> <@U2H61EJSG> can one of you quickly look at the builds for alpha and beta and confirm that we accidentally  included shake?",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1495578166.000000"
+        },
+        "ts": "1495578095.737330"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "just heard from bonnie and it sounds like its showing up :\/ ",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1495578125.000000"
+        },
+        "ts": "1495578107.739481"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "testing them",
+        "ts": "1495578173.750663"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "we'll need to resend ASAP.",
+        "ts": "1495578181.752078"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I will test them too",
+        "ts": "1495578185.752657"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Beta channel build working as expected. Does not advance on shake. I don’t have a pixel, but running the Pixel_Testing_052317.apk on my nexus6 doesn’t advance on shake.",
+        "ts": "1495578362.782674"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "trying the 80. \nI have a hunch that she is using the Pixel_Testing_05… build on her phone, and it is the new stuff for sell-in, which should have shake to advance",
+        "ts": "1495578399.788775"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Neither Beta\/Alpha build is advancing on shake on pixel",
+        "ts": "1495578416.791393"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Oliver can you please communicate on that thread with bonnie ? ",
+        "ts": "1495578475.800940"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Sure.",
+        "ts": "1495578511.806992"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Same conclusion here",
+        "ts": "1495578531.810317"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sent response, hopefully it is clear, although I don’t think I could be more clear than what your email already says Jenna… so :thinking_face: …",
+        "ts": "1495578962.880498"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Good news, no wolf",
+        "ts": "1495580528.118410"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> wasn't this all clear in the meeting this morning?",
+        "ts": "1495580540.120290"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'm confused about whats happening here",
+        "ts": "1495580552.122080"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I thought so?",
+        "ts": "1495580556.122797"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there was supposed to be an app that went over at noonish?",
+        "ts": "1495580634.134124"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did that make it out?",
+        "ts": "1495580639.134857"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Bonnie was running the app we gave her that would show the ‘new’ features on one of the legacy devices (so she wouldnt need a 2017 device), and then she was calling out that the new features were working on a legacy device",
+        "ts": "1495580639.134912"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry piecing together stuff from both sides here",
+        "ts": "1495580657.137357"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "No worries, it’s been a little hectic. \nRecap:\nBuild went out a little late, at around 2, that was my bad because I botched a merge back on Friday when pulling over code we had been working on for the Sell-in and so we had to tie up some loose ends at the last minute to get that build ready to go over the fence.",
+        "ts": "1495580768.153141"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "We had to make the single build, because we had been operating under the, One build will go to dogfood and will fork Nfc versus new flow, and that there would be a second build installed direct for the sell-in meeting. The later was what we had focused on.",
+        "ts": "1495580835.162515"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Then last night, we had to make both builds the same and were scrambling to get it all synced.",
+        "ts": "1495580867.167323"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I guess my biggest concern here is that we released on Friday (the df build) that wasn't completely dialed...",
+        "ts": "1495580872.168181"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "which i should have had a closer eye on",
+        "ts": "1495580898.172249"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "so I apologize for that.",
+        "ts": "1495580901.172613"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wait, saw email. so the builds she has now are all sorted",
+        "ts": "1495580901.172724"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no shake where there shouldnt be shake",
+        "ts": "1495580909.173873"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Yep. So now things are sorted.",
+        "ts": "1495580910.173950"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Yes. Everything is fine.",
+        "ts": "1495580912.174243"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok.",
+        "ts": "1495580917.174843"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "don't release shitty dogfood builds",
+        "ts": "1495580923.175634"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "anyone.",
+        "ts": "1495580927.176122"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah",
+        "ts": "1495580929.176411"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "please",
+        "ts": "1495580931.176566"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we need to figure out a way to avoid that moving forward - i dont think its probably worth talking through how we can tackle moving forward",
+        "ts": "1495580959.180470"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think i'm up to speed",
+        "ts": "1495580960.180675"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but also dont ship shitty dogfood builds",
+        "ts": "1495580965.181329"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "shitty may be harsh here, but thats like baby public release",
+        "ts": "1495580986.184027"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "doesnt fall on anyone in particular, but let's maybe think about possible solutions to cover bases before we ever hand off anything",
+        "ts": "1495580991.184803"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so bugs there hit the team on google side hard internally",
+        "ts": "1495580999.185942"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which is actually worse for them than public",
+        "ts": "1495581008.187239"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Agreed. I think we had been prioritizing the sell-in build and putting more focus on that.",
+        "ts": "1495581015.188257"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yeah-we should have figured out a way to make both of them a priority",
+        "ts": "1495581029.190282"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "We can work to do better in the future :slightly_smiling_face:",
+        "ts": "1495581053.193417"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "^Good to know, I had been thinking of it more as staging",
+        "ts": "1495581055.193659"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah. the dogfood group is a couple hundred googlers",
+        "ts": "1495581068.195437"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we shouldnt have issues like that in staging either though is my pov",
+        "ts": "1495581080.197105"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if bonnie\/etc. are asking for too many things at once, the priority is theirs to pick but \"everything all at once\" is only a thing that can be agreed to by us",
+        "ts": "1495581098.199512"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Agreed, retrospective tomorrow is good timing",
+        "ts": "1495581213.215244"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Ha, yes!!",
+        "ts": "1495581243.219404"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "totally - we're over the hump and lets talk about as a team on how we can game plan moving forward",
+        "ts": "1495581254.220912",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3ZFEAPSP",
+                    "U0U9WJB7F",
+                    "U2H61EJSG"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "forwarded an email",
+        "ts": "1495581692.280157"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":neutral_face:",
+        "ts": "1495581712.282883"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "build 77 seems to be getting rejected because there's a portrait orientation tag in the manifest?",
+        "ts": "1495581720.283890"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ah bonnie on it",
+        "ts": "1495581741.286735"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(she CC'ed oliver in)",
+        "ts": "1495581747.287696"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we cool?",
+        "ts": "1495581762.289695"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1495581767.290332"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh",
+        "ts": "1495581770.290715"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> make sure there arent any portrait orientation tags in the manifest",
+        "ts": "1495581797.294394"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "if one of you responds, can you loop jenna and i in for visibilty?",
+        "ts": "1495581799.294707"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats probably whats happening",
+        "ts": "1495581802.295079"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i've also never seen one of these before, so i'm guessing)",
+        "ts": "1495582020.324213"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I think there was a choice to lock the onboarding screen in portrait because there were some translated strings displaying poorly",
+        "ts": "1495582023.324609"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Can we not lock? I mean, it's not great practice but I think it was to get it ready in time",
+        "ts": "1495582104.335758"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we've never been allowed to lock",
+        "ts": "1495582124.338345"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> , will loop in ",
+        "ts": "1495582129.338913"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "We did lock for this (it was requested)...",
+        "ts": "1495582151.341594"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "or I thought?",
+        "ts": "1495582154.342036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did bonnie request it?",
+        "ts": "1495582168.343997"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Kat did",
+        "ts": "1495582172.344630"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "kat requested it for sell in",
+        "ts": "1495582178.345618"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause you can tell her that the error message is caused by the portrait lock",
+        "ts": "1495582179.345706"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and that kat wanted it",
+        "ts": "1495582183.346243"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "It looks like test code, so maybe pull it out of manifest and just ignore orientation changes",
+        "ts": "1495582196.347946"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but we've never been allowed to do portrait lock",
+        "ts": "1495582198.348231"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah it was sell in only, not expected to go to DF at that stage",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1495582305.000000"
+        },
+        "ts": "1495582233.353226"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha. side effect",
+        "ts": "1495582243.354574"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "take the portrait lock off",
+        "ts": "1495582247.355151"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and let it look bad",
+        "ts": "1495582249.355430"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "dont ignore orientation changes",
+        "ts": "1495582266.357654"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Ok",
+        "ts": "1495582315.364469"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since its a side-effect of the last minute changeover",
+        "ts": "1495582338.367635"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we should make sure bonnie knows",
+        "ts": "1495582344.368460"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so new builds without portrait lock for DF?",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1495582374.000000"
+        },
+        "ts": "1495582346.368625"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Yea, well have to if it isn't passing their test, both DF and beta",
+        "ts": "1495582398.375577"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I let Bonnie know-let's push a new build ASAP.",
+        "ts": "1495582443.381556"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool - oliver  ETA on that? not sure how big of a lift we're talking",
+        "ts": "1495582449.382282"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "How should we respond to that email? ",
+        "ts": "1495582452.382665"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "that we'll push a new build that doesn't have portrait mode locked",
+        "ts": "1495582477.386040"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Just need to cut the builds and I got my environment clean and working again, so maybe 8-10 min for both",
+        "ts": "1495582484.386929",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG",
+                    "U13GPDA1F",
+                    "U026PHQ3J",
+                    "U1ZG1UCAK"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "(plz make sure to loop us in)",
+        "ts": "1495582489.387799"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "uploading the df builds",
+        "ts": "1495583368.500881"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thanks ",
+        "ts": "1495583536.522213"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "we good <@U3ZFEAPSP> ?",
+        "ts": "1495584057.587769"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "just hit send",
+        "ts": "1495584114.595739"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "builds uploaded",
+        "ts": "1495584121.596479"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay thanks !",
+        "ts": "1495584131.597777"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Neat! Marco’s workaround works for the doubletap BUT",
+        "ts": "1495588882.114978"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont know why it works",
+        "ts": "1495588886.115376"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i really hope he does",
+        "ts": "1495589040.130890"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":thinking_face: well good, but curious",
+        "ts": "1495590012.229860"
+    }
+]

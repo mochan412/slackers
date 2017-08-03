@@ -1,0 +1,2165 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> BCC'ing you on an email re: Trends animation graph acting wonky.",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1495643807.000000"
+        },
+        "ts": "1495643803.832369"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "if it's helpful pull that information from the email into your ticket?",
+        "ts": "1495643890.856862"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ll do that for context",
+        "ts": "1495643925.866752"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool thanks",
+        "ts": "1495643932.868821"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "who wants to do the PendingIntent fix in the prod app?",
+        "ts": "1495644150.929544"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Just to be clear on prod app, that should be for the feature branch we’re on for the July 15 or as a play store update off of develop? It is only valid for the former for double tap to launch, right?",
+        "ts": "1495644507.030123"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right, its only relevant when launch on doubletap happens",
+        "ts": "1495644562.046278"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F5HB9KURH\/-.py|Untitled>",
+        "file": {
+            "id": "F5HB9KURH",
+            "created": 1495644574,
+            "timestamp": 1495644574,
+            "name": "-.py",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 238,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HB9KURH\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HB9KURH\/download\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F5HB9KURH\/-.py",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5HB9KURH-911bf032fa",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F5HB9KURH\/-.py\/edit",
+            "preview": "PendingIntent pendingIntent = PendingIntent.getActivity(mContextWeakReference.get()\r\n\t\t.getApplicationContext(), 0, trendIntent, 0);\r\ntry {\r\n\tpendingIntent.send();\r\n} catch (PendingIntent.CanceledException e) {\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">PendingIntent<\/span> <span class=\"cm-variable\">pendingIntent<\/span> = <span class=\"cm-variable\">PendingIntent<\/span>.<span class=\"cm-property\">getActivity<\/span>(<span class=\"cm-variable\">mContextWeakReference<\/span>.<span class=\"cm-property\">get<\/span>()<\/pre><\/div>\n<div><pre>\t\t.<span class=\"cm-property\">getApplicationContext<\/span>(), <span class=\"cm-number\">0<\/span>, <span class=\"cm-variable\">trendIntent<\/span>, <span class=\"cm-number\">0<\/span>);<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">try<\/span> {<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">pendingIntent<\/span>.<span class=\"cm-property\">send<\/span>();<\/pre><\/div>\n<div><pre>} <span class=\"cm-variable\">catch<\/span> (<span class=\"cm-variable\">PendingIntent<\/span>.<span class=\"cm-property\">CanceledException<\/span> <span class=\"cm-variable\">e<\/span>) {<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 8,
+            "lines_more": 3,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1495644574.049989"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Cool, can pull it in.",
+        "ts": "1495644612.060864"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "here's a ticket for that <@U3ZFEAPSP> <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-258>",
+        "ts": "1495654832.026544"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome, thanks Jenna! It’s done :slightly_smiling_face: I made it part of the core renderer and had Earth utilize it as well when launching Earth &amp; Maps from doubleTap, will do it for Places &amp; the others when the new actions for those are hooked in",
+        "ts": "1495654942.055740"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool thanks",
+        "ts": "1495655434.187930"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Here's the ticket for the bug Natalie reported <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-259>\n\nIt's now in the Sprint. Apologies for not doing this sooner.",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1495655970.000000"
+        },
+        "thread_ts": "1495655963.333320",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1495656340.439292"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495655963.333320"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I think there's a bit too much goin' on today to do our Retrospective. \n\nIs everyone okay if we push this to tomorrow? \n<@U13GPDA1F> <@U3ZFEAPSP> <@U2H61EJSG> <@U1ZG1UCAK> <@U0260V1BX>",
+        "ts": "1495656320.433595",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U2H61EJSG",
+                    "U1ZG1UCAK",
+                    "U3ZFEAPSP"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "jenna.simon: thank you!!!",
+        "thread_ts": "1495655963.333320",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1495656340.439292"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thats fine",
+        "ts": "1495656346.440737"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "whatever works best for you all! im pretty wide open tomorrow",
+        "ts": "1495656367.446247"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I had to book over a meeting for you, sorry <@U0260V1BX> but definitely let me know any feedback you have.",
+        "ts": "1495656463.472338"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Also, I'm going to be setting up a meeting with you (<@U0260V1BX> + dev team to ask a few UX related questions later this week)!",
+        "ts": "1495656489.479408"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "should be pretty quick.",
+        "ts": "1495656495.480630"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "no proble",
+        "ts": "1495656731.543213"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "m",
+        "ts": "1495656732.543732"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Question, would we want the quicker double tap to launch Trends search &amp; Earth to go into the sell-in build? It would look better for the demo, but we should sync with any other last minute tweaks…",
+        "ts": "1495660072.445688"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think the code might be simple enough to swap in that it seems low risk",
+        "ts": "1495660104.453691"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Agreed, I’ll put it on the vz_sellin branch now, how do we want to update that build?",
+        "ts": "1495661026.672137"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "in the sense of, cut &amp; smoke test a build now? or wait for a few other items to go in there to notify Bonnie of the new apk",
+        "ts": "1495661088.686322"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "There's one thing she's hitting me up about that I'd like for Summer or Midori to look into. Sounds like when they change country in Trends it's not actually updating the Trends for the selected country. (they're on the sell in build we sent Friday).",
+        "ts": "1495661145.699666"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I think that Summer fixed that yesterday or Monday. Wasn’t tracked in the madness :confused:",
+        "ts": "1495661216.716142"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Ah okay-did someone update the channel about that and I just over looked it?",
+        "ts": "1495661252.724613"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i know there was a lot of back and forth happening.",
+        "ts": "1495661264.727400"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "No, not in channel, just at the pod.",
+        "ts": "1495661314.739242"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Okay, I must not have been here. Can we prettyyy please make sure that all changes are listed out and call out here?",
+        "ts": "1495661357.749181",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Let's try and get this build over to Bonnie by 3:30. Is that possible?",
+        "ts": "1495662161.928373"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "We have a 4pm checkin and she just let me know that everyone is uploading the sell in build for their meeting.",
+        "ts": "1495662185.933288"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "think so. Summer got her fixes in, and I’m carrying mine over now",
+        "ts": "1495662200.936642"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thank you.",
+        "ts": "1495662210.938783"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5HK5NU3U\/3pr-updated_5-24-2017.apk|3PR-updated_5-24-2017.apk>",
+        "file": {
+            "id": "F5HK5NU3U",
+            "created": 1495662876,
+            "timestamp": 1495662876,
+            "name": "3PR-updated_5-24-2017.apk",
+            "title": "3PR-updated_5-24-2017.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 54776636,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HK5NU3U\/3pr-updated_5-24-2017.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HK5NU3U\/download\/3pr-updated_5-24-2017.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5HK5NU3U\/3pr-updated_5-24-2017.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5HK5NU3U-dac6ba736a",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1495662879.077926"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "can everyone please hop on a device and test? myself included!",
+        "ts": "1495662929.088227"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "then i can send out.",
+        "ts": "1495662931.088693"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "On it",
+        "ts": "1495662955.093426"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "happy to test too - can someone let me know what the changes are that we need to test? is it just double tap speed + making sure nothing broke?",
+        "ts": "1495663020.106674"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "— trends update with chosen country",
+        "ts": "1495663050.112783"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah!",
+        "ts": "1495663078.118732"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1495663086.120511"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "this might already be known - but can cross ref trends \/ countries here: <https:\/\/trends.google.com\/trends\/hottrends\/visualize>",
+        "attachments": [
+            {
+                "title": "Google Trends",
+                "title_link": "https:\/\/trends.google.com\/trends\/",
+                "text": "See the latest trends, data and visualizations from Google. Find out what's trending near you right now.",
+                "fallback": "Google Trends",
+                "thumb_url": "https:\/\/gstatic.com\/images\/branding\/googleg\/1x\/googleg_standard_color_128dp.png",
+                "from_url": "https:\/\/trends.google.com\/trends\/",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "service_icon": "http:\/\/www.google.com\/favicon.ico",
+                "service_name": "trends.google.com",
+                "id": 1
+            }
+        ],
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1495663941.000000"
+        },
+        "ts": "1495663117.126870"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I usually just check with a really obvious one, like Japan or Hungary",
+        "thread_ts": "1495663148.133148",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1495663175.138883"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495663148.133148"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "but I’m obv. lazy",
+        "thread_ts": "1495663148.133148",
+        "parent_user_id": "U1ZG1UCAK",
+        "ts": "1495663175.138883"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Everything looks good to me",
+        "ts": "1495663189.141885"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "double tap looks SO good.",
+        "ts": "1495664065.310913"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is anyone else seeing the trend NOT update when you change countries?",
+        "ts": "1495664082.313890"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "when i switched from finland to china is kept the finnish term on (ill try to repro but just wanted to raise that flag in case its a bug)",
+        "ts": "1495664119.320386"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hmmm I haven’t noticed that",
+        "ts": "1495664140.324197"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah i just went from HK to Italy and it auto-advanced so maybe was just a weird one, but if someone could sanity check that would be awesome",
+        "ts": "1495664178.331162"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0260V1BX",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[May 19th, 2017 4:04 PM] jenna.simon: yes, \n\nEVT1017A\nEVT1017B\nEVT1017C",
+                "ts": "1495235048.569223",
+                "author_subname": "jenna.simon",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "yes, \n\nEVT1017A\nEVT1017B\nEVT1017C",
+                "author_name": "Jenna Simon",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/jenna.simon",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-01-03\/123002289349_a4039ee376b090eb3613_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U0260V1BX|melissa> pinned a message to this channel.",
+        "ts": "1495664188.332870"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "seems to be working for me",
+        "ts": "1495664287.349276"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "We're getting stuck: \n\nI changed the county to Hong Kong and cycled thru all 20 trends, the 1st or maybe it's the 20th trend which is \"Dje\" is getting stuck...it won't advance forward and I had to click 5-6 times",
+        "ts": "1495664395.366958"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "there are some trends on Hong Kong that either arent updating the graphs or have identical graphs (assuming the former)",
+        "ts": "1495664491.383348"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Uh oh!",
+        "ts": "1495664510.386357"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Weird, I only see this issue with Hong Kong set as the trend country",
+        "ts": "1495664570.396738"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "It's an issue because this sell in meeting is an international meeting and people from different countries will be looking at this stuff...",
+        "ts": "1495664602.402263"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "go away charles",
+        "ts": "1495664674.414487"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i saw that",
+        "ts": "1495664676.414902",
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i mean we love you but wtf",
+        "ts": "1495664683.416051"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "just make sure no one from HK is invited",
+        "ts": "1495664688.416897",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "lol",
+        "ts": "1495664694.417910"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "lol i’m just on my computer downloading young pope yall carry on",
+        "ts": "1495664711.420599"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":wind_blowing_face:",
+        "ts": "1495664717.421763",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "hmmmm mmmmmm",
+        "ts": "1495664722.422520"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "btw we're having some issues can you come back already? \n\nlol jkjk.",
+        "ts": "1495664734.424776"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "l8rl8r",
+        "ts": "1495664740.425741"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "",
+        "bot_id": "B03H06881",
+        "attachments": [
+            {
+                "fallback": "giphy: http:\/\/giphy.com\/gifs\/show-wife-asks-FdwhfPMDiM0Eg",
+                "image_url": "http:\/\/media0.giphy.com\/media\/FdwhfPMDiM0Eg\/giphy-downsized.gif",
+                "image_width": 250,
+                "image_height": 136,
+                "image_bytes": 1000811,
+                "is_animated": true,
+                "title": "jude law",
+                "footer": "Posted using \/giphy",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/show-wife-asks-FdwhfPMDiM0Eg"
+            }
+        ],
+        "ts": "1495664744.426380"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hmm Hong Kong isn’t available in the list on countries on the google trends website for some reason. Are they phasing it out?",
+        "ts": "1495664784.432957"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/trends.google.com\/trends\/hottrends\/visualize?pn=p10> ?",
+        "ts": "1495664814.438034"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "let's just make sure the primary countries are good to go: germany, uk, Australia, Canada, Great Britain",
+        "ts": "1495664897.451611"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Oh oops",
+        "ts": "1495664899.451959"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It appears that the graph isn’t updating for HK trends that show this error message on the trends site: “Hmm, your search doesn’t have enough data to show here.”",
+        "ts": "1495665103.486256"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Example: <https:\/\/trends.google.com\/trends\/explore?date=now%207-d&amp;geo=HK&amp;q=%E5%AE%8B%E7%A5%96%E5%BE%B7>",
+        "attachments": [
+            {
+                "title": "Google Trends",
+                "title_link": "https:\/\/trends.google.com\/trends\/explore?date=now%207-d&geo=HK&q=%E5%AE%8B%E7%A5%96%E5%BE%B7",
+                "text": "Explore search interest for 宋祖德 by time, location and popularity on Google Trends",
+                "fallback": "Google Trends",
+                "thumb_url": "https:\/\/gstatic.com\/images\/branding\/googleg\/1x\/googleg_standard_color_128dp.png",
+                "from_url": "https:\/\/trends.google.com\/trends\/explore?date=now%207-d&geo=HK&q=%E5%AE%8B%E7%A5%96%E5%BE%B7",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "service_icon": "http:\/\/www.google.com\/favicon.ico",
+                "service_name": "trends.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1495665121.489434"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so in your investigation it seems like an HK specific issue?",
+        "ts": "1495665130.490834"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or too early to tell",
+        "ts": "1495665139.492415"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It seems like it, but you said that you say this issue with Finland as well, right?",
+        "ts": "1495665156.495243"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah i had an issue with a trend not auto advancing when switching from FI to CH",
+        "ts": "1495665212.505163"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but im not consistently able to repro",
+        "ts": "1495665233.508784"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i havent seen it on supported locales yet - but i havent looked at all of them",
+        "ts": "1495665250.511450"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(doing now)",
+        "ts": "1495665255.512378"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I think it might be due to lack of data then considering that this only happens with countries like HK",
+        "ts": "1495665277.516116"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "This isn't a show stopper. I'm going to send this build off now",
+        "ts": "1495665323.523321",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> should we have <@U2H61EJSG> or <@U1ZG1UCAK> look at that black screen bug?",
+        "ts": "1495670383.226455"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "or are you able to jam on it?",
+        "ts": "1495670387.226980"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, I was actually just going to see if they could scan through it.\n<@U2H61EJSG> <@U1ZG1UCAK> , checkout this, <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-261>\nthe only thing I’m seeing is an error on com.google.android.apps.workshop.wallpaper.gl.GLUtil:\nbut I know we have seen that before in the logs but the wallpaper recovers and hasn’t shown a black screen. Do either of you see some other error msg or anthing, I’ve been searching through with workshop and other keywords to get context, but nothing is standing out for what got it into this state.",
+        "ts": "1495670599.256218",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ll take a peak",
+        "ts": "1495670665.264331"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Just so everyone is on the same page, this is for the sell in build so we should try and get it resolved as quick as possible...",
+        "ts": "1495670703.269181"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> I see a gl error in the bug reprot, not sure if it’s specific to earth though or if Bonnie was playing with other wallpapers. `glBindTexture: glError 1282`",
+        "ts": "1495670847.286361"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "could this be meaningful?:\n```05-24 16:04:55.721  1173  1173 E JobServiceContext: Time-out while trying to bind a7cac97 #u0a267\/242 com.google.android.apps.workshop\/.earth.drive.EarthRefreshImageService, dropping.```",
+        "ts": "1495671053.310565"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, those help. Unfortunately they are just reflecting the bad state it is in :disappointed: not sure what is causing it\/the logs may not be capturing what got it there",
+        "ts": "1495671821.395815"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "she mentioned that her phone was just sitting there and likely went to sleep (she didn't see it go black) - probably not helpful but any possibility it has to do with device going to sleep?",
+        "ts": "1495671933.408275"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(I'm also about to let mine go to sleep for a few so I can report back if I see anything wonky)",
+        "ts": "1495671972.412188"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "If we're unable to repro this and we can't find a point of failure in the code we might need to let her know we can't spin on this any longer considering there's other things we need to push forward.",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1495672240.000000"
+        },
+        "ts": "1495672225.439963"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That gl error means a problem loading the texture usually ",
+        "ts": "1495672293.447805"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Remove the filter in logcat and scroll up and see if there's an exception in loading the image that isn't making into our log ",
+        "ts": "1495672325.451091"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U026PHQ3J> how do we remove the filter from the bugreport, I thought they had the full logs? Would Bonnie need to recapture the bugreport then?",
+        "ts": "1495672748.496489"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh, no I meant locally ",
+        "ts": "1495672816.503984"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Wasn't sure if it was reproduced",
+        "ts": "1495672825.504888"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Am driving :)",
+        "ts": "1495672829.505326"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "kk, yea, it hasn’t been repro-d, happened just the once, and the wallpaper was still functioning.",
+        "ts": "1495673006.524575"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Okay, I am going to let her know we're not able to fix.",
+        "ts": "1495673458.573836"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I'll run and hammer at tonight to see if anything turns up",
+        "ts": "1495682821.495641"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "would be awesome if anyone else can do the same if not already",
+        "ts": "1495682857.498656"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "saw the email",
+        "ts": "1495683047.514963"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wasn’t sure what was up",
+        "ts": "1495683054.515545"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause i dont think i’m on original",
+        "ts": "1495683059.515958"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "will install if i have it!",
+        "ts": "1495683066.516460"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is the build in-channel or can someone send me link?",
+        "ts": "1495683074.517193"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> shared a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5HN7L6SE\/3pr_pairing_and_onboarding_052517.apk|3PR_Pairing_and_Onboarding_052517.apk>",
+        "file": {
+            "id": "F5HN7L6SE",
+            "created": 1495683182,
+            "timestamp": 1495683182,
+            "name": "3PR_Pairing_and_Onboarding_052517.apk",
+            "title": "3PR_Pairing_and_Onboarding_052517.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 54776636,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/open?id=0B8Nqz7v9YgvVbU5ZSWVSc3NQa0U",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5HN7L6SE\/3pr_pairing_and_onboarding_052517.apk",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U0U9WJB7F",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1495683183.526802"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thanks for checking it out, curious if anyone will be able to reproduce it. ",
+        "ts": "1495683373.543465"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "fingers crossed \/ channeling my inner bonnie",
+        "ts": "1495683599.562367"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "also the screen went black after she left it alone for quite some time, correct? am i remembering that right? ",
+        "ts": "1495684234.615585"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh interesting",
+        "ts": "1495684445.633383"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so like",
+        "ts": "1495684448.633623"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "has anyone run this for an hour",
+        "ts": "1495684455.634232"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "well it wasn't more than 20 minutes ",
+        "ts": "1495684521.639871"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "it was on our call which was only a 30 minute call ",
+        "ts": "1495684530.640582"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "happened in real time :grimacing:",
+        "ts": "1495684542.641583"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh what unlock code should i use",
+        "ts": "1495684573.644220"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "foundem",
+        "ts": "1495684607.647161"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pinned",
+        "ts": "1495684610.647352"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1: ",
+        "ts": "1495684637.649569"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so what happened exactly",
+        "ts": "1495684674.652583"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the screen went black or it was black briefly when she unlocked her phone",
+        "ts": "1495684684.653341"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "black screen but was still able to use shortcut with double tap",
+        "ts": "1495684775.660468"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and persistent black",
+        "ts": "1495684794.662286"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "wallpaper didn't reappear (unsure if she uninstalled)",
+        "ts": "1495684813.664426"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but like, was the screen just like black",
+        "ts": "1495684833.666515"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or did it go black after she had locked phone or something",
+        "ts": "1495684841.667259"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry not trying to be a jerk",
+        "ts": "1495684849.668290"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "she had it down on the table during our meeting",
+        "ts": "1495684866.669923"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "And when picked it up it was black",
+        "ts": "1495684875.670758"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh hm",
+        "ts": "1495684881.671325"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "she installed it at the beginning of the meeting",
+        "ts": "1495684900.673199"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "She didn't see it change or seem to be interacting with other than to pick up (which could have caused a shake \/ advance)",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1495684924.000000"
+        },
+        "ts": "1495684910.674120"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i thought it went to sleep but apparently that wasn't it ",
+        "ts": "1495684910.674132"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also could someone send me the BR that was on that thread",
+        "ts": "1495684914.674464"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no I think you're right Jenna - she said it might have been asleep",
+        "ts": "1495684959.678534"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i thought everyone said no it couldn't have been that after i said that? ",
+        "ts": "1495684979.680204"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "dude maybe i'm losing it!",
+        "thread_ts": "1495684987.680868",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1495685196.698717"
+            },
+            {
+                "user": "U0U9WJB7F",
+                "ts": "1495685270.705109"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1495684987.680868"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok one thing",
+        "ts": "1495685017.683323"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "she might have installed prior to the meeting but couldn't have been running for a full hour due to build delivery",
+        "ts": "1495685020.683550"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "when should this thing be transitioning to a new pic",
+        "ts": "1495685025.683891"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "On shake",
+        "ts": "1495685031.684404"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "let me make sure you have the BR ",
+        "ts": "1495685055.686429"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1495685058.686689"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "One min ",
+        "ts": "1495685059.686825"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thx",
+        "ts": "1495685111.691420"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "jenna.simon: I'm in a compromised state right now so disregard meeeeee :no_mouth: :upside_down_face: ",
+        "thread_ts": "1495684987.680868",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1495685196.698717"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "bahahaha ",
+        "thread_ts": "1495684987.680868",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1495685270.705109"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sent.",
+        "ts": "1495685283.706121"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also, geez sorry gang. i didn't realize it was this late. it's still light out and i just wanted to solve a puzzle",
+        "ts": "1495685319.708936"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "meh i was thinking about it anyway :nerd_face:",
+        "ts": "1495685376.713428"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "bc apparently i have no lyfe ",
+        "ts": "1495685391.714722"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "team lyfecase TM",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1495685509.000000"
+        },
+        "ts": "1495685472.721493",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "was this around 3:05?",
+        "ts": "1495685517.725127"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "no our call was after 4",
+        "ts": "1495685543.727453"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "prob like 410-20",
+        "ts": "1495685547.727794"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "it's like we're solving a murder ",
+        "ts": "1495685559.728839"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wait",
+        "ts": "1495685562.729074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "4:21",
+        "ts": "1495685564.729196"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "BUT I FEEL LIKE YOJRE ON TO SOMETHING",
+        "ts": "1495685567.729488"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ish",
+        "ts": "1495685568.729563"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "COULD BE",
+        "ts": "1495685572.729928"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not rally",
+        "ts": "1495685572.729940"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "really",
+        "ts": "1495685574.730030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whats 21 - 15",
+        "ts": "1495685583.730790"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "6",
+        "ts": "1495685589.731337"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right?",
+        "ts": "1495685590.731442"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes, totally possible. we met 4-430",
+        "ts": "1495685595.731909"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m 100% joking.",
+        "ts": "1495685599.732285"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "if i learnt anything ",
+        "ts": "1495685601.732441"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "omg ",
+        "ts": "1495685606.732862"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it died around 4:21 tho",
+        "ts": "1495685610.733158"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i'm so mad at you ",
+        "ts": "1495685613.733440"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "wait so is that it?",
+        "ts": "1495685623.734108"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`05-24 16:20:52.946 19657 20342 I chatty  : uid=10267(com.google.android.apps.workshop) GLThread 14208 expire 149 lines`",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495685629.000000"
+        },
+        "ts": "1495685623.734134"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec",
+        "ts": "1495685640.735419"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":eyes:",
+        "ts": "1495685684.738715"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(also yes Jenna! i feel like a PI when bugs like this come up)",
+        "ts": "1495685685.738833"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "man, someone really should tell bonnie and that amazon app is killing her battery",
+        "ts": "1495685805.749270"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did she try trends first?",
+        "ts": "1495685897.756705"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then set earth",
+        "ts": "1495685899.756928"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or set earth out of the box",
+        "ts": "1495685902.757196"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "omg",
+        "ts": "1495685911.757975"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I'm not sure ",
+        "ts": "1495685918.758569"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Oh wait (Jenna correct me if I'm wrong) but I believe she added a trends case after to see if that would fix ir",
+        "ts": "1495685945.760824"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "And it brought up trends but when she switched back to earth it was still black",
+        "ts": "1495685972.763081"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "you are right ",
+        "ts": "1495685999.765288"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "that's what happened ",
+        "ts": "1495686004.765760"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1495686005.765857"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I believe it had a new knowledge card when she reset to earth  (so we know shake to advance and double tap to open were working) ",
+        "ts": "1495686040.768840"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm this keeps crashing when i click add a new case",
+        "ts": "1495686154.778240"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh wait it was the auth cache",
+        "ts": "1495686202.782120"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not us - not a real bug",
+        "ts": "1495686206.782416"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well, kind of us - mostly me",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495686225.000000"
+        },
+        "ts": "1495686216.783280"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hmm",
+        "ts": "1495686241.785267"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Trying",
+        "ts": "1495686245.785540"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I can't repro \/ am able to successfully add each case. Where is it failing for you? In the overflow or do you get to pairing or onboarding?",
+        "ts": "1495686405.798470"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Or ignore if it's not a solid lead",
+        "ts": "1495686414.799153"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":mag_right: ",
+        "ts": "1495686436.800828"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh its nothing. it was just my stupid account cache on my phone being an idiot",
+        "ts": "1495686442.801310"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also my dumb fat fingers hitting the wrong account",
+        "ts": "1495686453.802175"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "forgiven :angel: seriously tho thanks for taking a crack at this",
+        "ts": "1495686656.818534"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just need it to manifest",
+        "ts": "1495686698.822108"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "she had been running trends after installing until `15:59:40`",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495686771.000000"
+        },
+        "ts": "1495686763.827377"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "doubletappin’",
+        "ts": "1495686823.832014"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(great potential name for our tap troupe)",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1495686906.000000"
+        },
+        "thread_ts": "1495686875.835987",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1495687104.853200"
+            },
+            {
+                "user": "U13GPDA1F",
+                "ts": "1495687209.861512"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1495686875.835987"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`com.google.android.apps.hotrod`",
+        "ts": "1495686916.839105"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":sunglasses:",
+        "ts": "1495686922.839590"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(not in the play store)",
+        "ts": "1495686948.841421"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ohhh",
+        "ts": "1495686971.843149"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I was checking!",
+        "ts": "1495686978.843657"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "```\n05-24 16:00:49.361  1173 16700 I am_focused_activity: [0,com.google.android.apps.hotrod\/.activity.DeviceDiscoveryActivity,startedActivity]\n05-24 16:00:49.361  1173 16700 I am_pause_activity: [0,154713389,com.google.android.apps.hotrod\/.activity.SelectMeetingActivity] ```",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495686982.000000"
+        },
+        "ts": "1495686978.843724"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its the mobile companion to their GVC setup",
+        "ts": "1495687002.845416"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "dude!",
+        "ts": "1495687007.845831"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lol selectmeetingactivity",
+        "ts": "1495687021.846810"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":nail_care: ",
+        "ts": "1495687039.848167"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(but also excited \/ curious about this)",
+        "ts": "1495687060.849849"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "lynsey: \"double tap to activate\"",
+        "thread_ts": "1495686875.835987",
+        "parent_user_id": "U13GPDA1F",
+        "ts": "1495687104.853200"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did she send you a screenshot she took while you were in the meeting",
+        "ts": "1495687112.853943"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just trying to trace out the time",
+        "ts": "1495687135.855778"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thats a great name for our first world tour!",
+        "thread_ts": "1495686875.835987",
+        "parent_user_id": "U13GPDA1F",
+        "ts": "1495687209.861512"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no :(",
+        "ts": "1495687224.862705"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "didn't think to ask. sorry",
+        "ts": "1495687234.863400"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "she did some accessibility stuff",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495687255.000000"
+        },
+        "ts": "1495687247.864525"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":)",
+        "ts": "1495687256.865156"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can you tell from BR",
+        "ts": "1495687257.865252"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1495687259.865418"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Yes! She set large text",
+        "ts": "1495687263.865758"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Good eye",
+        "ts": "1495687277.866854"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`com.zillow.android.zillowmap\/com.urbanairship.AirshipService`",
+        "ts": "1495687484.882820"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lol",
+        "ts": "1495687485.882871"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Oh you got some serious Intel - was this a super robust br?",
+        "ts": "1495687536.887065"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hahah",
+        "ts": "1495687644.895909"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no bonnie just has a lot of apps",
+        "ts": "1495687650.896350"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wait",
+        "ts": "1495688436.959562"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "she set it to trends and back?",
+        "ts": "1495688441.960116"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yeah i believe so?",
+        "ts": "1495688470.962708"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "believe so (was already black when she tried trends)",
+        "ts": "1495688471.962836"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "glad lynsey and i remembering the same shit here ",
+        "ts": "1495688490.964436"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what time did the meeting start?",
+        "ts": "1495688501.965322"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "all the wallpaper changes happened between 15:52 and 16:05",
+        "ts": "1495688554.969703"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "4pm-430",
+        "ts": "1495688574.971495"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "well it's possible that it was already black before the meeting and she just didn't notice (I think)",
+        "ts": "1495688683.980158"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "would have to ask (unless you noticed Jenna)) to be sure but don't recall her saying either way ",
+        "ts": "1495688737.984696"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "oh interesting...",
+        "ts": "1495688740.984875"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "certainly possible ",
+        "ts": "1495688760.986451"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "do you remember her showing us anything before then? I don't :thinking_face: ",
+        "ts": "1495688799.989684"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "no i don't ",
+        "ts": "1495688903.997675"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":fire: warmer warmer",
+        "ts": "1495688933.999896"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "shit my phone died. fwiw my wallpaper stayed up ",
+        "ts": "1495689637.053779"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also Evans I don't want you to feel like you have to keep digging into this ",
+        "ts": "1495689660.055552"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "it's late and we can pick up in the am",
+        "ts": "1495689672.056478"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hold up",
+        "ts": "1495689750.062765"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ooooh",
+        "ts": "1495689777.064941"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":grimacing:",
+        "ts": "1495689790.065979"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i mean",
+        "ts": "1495689900.074826"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m still doing stuff",
+        "ts": "1495689907.075393"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "y’all can go to bed",
+        "ts": "1495689915.076096"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I'm on the couch drinking apple juice and eating pirates booty - so I'm here and down to help in any way, at least until I run out of snacks",
+        "ts": "1495690008.083523"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh hayyyyyy midori",
+        "ts": "1495690038.085847"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "This is riveting stuff.",
+        "ts": "1495690049.086631"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "bahahhaha that's why I've got my fancy popcorn :nail_care: ",
+        "ts": "1495690069.088312"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok so",
+        "ts": "1495690102.090911"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if you trace back through scheduleFixedListEarthImagesDownload into onVisibilityChanged",
+        "ts": "1495690135.093488"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yesssssss ",
+        "ts": "1495690167.096024"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sure sure, on it ",
+        "ts": "1495690183.097316"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then it looks like any time there are less than 8 images downloaded",
+        "ts": "1495690185.097492"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "then what? :BITES NAILS:",
+        "ts": "1495690188.097721"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that it will kick a refresh",
+        "ts": "1495690193.098121"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so whats weird about that is",
+        "ts": "1495690198.098511"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "```\n       +8h57m07s511ms (2) 045 c4512011 +job=u0a267:\"com.google.android.apps.workshop\/.earth.drive.EarthRefreshImageService\"\n       +8h57m08s148ms (2) 045 c4512011 -job=u0a267:\"com.google.android.apps.workshop\/.earth.drive.EarthRefreshImageService\"\n       +8h57m08s151ms (2) 045 c4512011 +job=u0a267:\"com.google.android.apps.workshop\/.earth.drive.EarthRefreshImageService\"\n       +8h57m08s168ms (2) 045 c4512011 -job=u0a267:\"com.google.android.apps.workshop\/.earth.drive.EarthRefreshImageService\"\n```",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495690281.000000"
+        },
+        "ts": "1495690276.105457"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you could theoretically schedule two ontop of eachother back to back",
+        "ts": "1495690295.107046"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":raised_hand_with_fingers_splayed: :nailsaregoneatingfingers: ",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1495690320.000000"
+        },
+        "ts": "1495690295.107094"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh",
+        "ts": "1495690327.109579"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "wow okay",
+        "ts": "1495690347.111297"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but thats not guaranteed to be the thing",
+        "ts": "1495690382.114094"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sure sure ",
+        "ts": "1495690406.116193"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hmmmm is there a way to try and repro that? I'm not sure if there's a way to f with the download? ",
+        "ts": "1495690474.121455"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "so that would cause a \"black out\"",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1495690488.000000"
+        },
+        "ts": "1495690475.121584"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not directly",
+        "ts": "1495690485.122313"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m trying to repro now",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495690491.000000"
+        },
+        "ts": "1495690489.122594"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its not the best theory, tbh",
+        "ts": "1495690503.123698"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool, I mean at least it's worth ruling out a suspect if that's all we got ",
+        "ts": "1495690544.126932"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the GLUtil errors are definietly from it trying to draw an image (thats where the black screen comes from)",
+        "ts": "1495691253.185959"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the mat4fv call, followed by the two texture fails are from the draw() loop of GLPicture",
+        "ts": "1495691284.188472"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the fact that `glUniformMatrix4fv` errors probably means that the viewport matrix got jacked up",
+        "ts": "1495691314.190912"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which would be fine if that made sense",
+        "ts": "1495691356.194427"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "gah, I wish I could be helpful here",
+        "ts": "1495691394.197753"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i mean, it happens usually when there’s a jacked up image",
+        "ts": "1495691412.199305"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but thats obviously not whats going on here",
+        "ts": "1495691425.200522"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i mean",
+        "ts": "1495691429.200835"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not a consistently jacked up image anyway",
+        "ts": "1495691434.201291"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah ",
+        "ts": "1495691451.202639"
+    }
+]

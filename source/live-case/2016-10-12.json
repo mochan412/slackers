@@ -1,0 +1,560 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> any updates on the GIF for artworks? realized i haven’t followed up since stand up - wanted to see if there were recommended steps we could provide to optimize \/ ideal max file size or frame rate (or any relevant info to help them produce an appropriate asset)",
+        "ts": "1476297578.001259"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ve only been able to reduce it down to 7mb. The others that are already loaded into the CMS are about 700-800kb. I’m not really sure what they can do on their end to make the gif smaller",
+        "ts": "1476297708.001260"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "They were able to somehow though with the other gifs!",
+        "ts": "1476297726.001261"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "they came from different folks - any details on the steps taken to go from 30 to 7mb?",
+        "ts": "1476297808.001262"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "7 isn't terrible",
+        "ts": "1476297880.001263"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I separated out each frame into a separate png, optimized the file size of each frame, and then combined the pngs back into a gif.",
+        "ts": "1476297941.001264"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The 7mb gif is very slow though and looks horrible :confused:",
+        "ts": "1476297963.001265"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "does anyone have any outstanding feature branches that i need to merge?",
+        "ts": "1476297965.001266"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ahhh",
+        "ts": "1476297969.001267"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats more important!",
+        "ts": "1476297973.001268"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No on the feature branches",
+        "ts": "1476297995.001269"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1476297997.001270"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think this is release-43",
+        "ts": "1476298004.001271"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so dont mind me for a few",
+        "ts": "1476298009.001272"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "+1",
+        "ts": "1476298012.001273"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "K :wink:",
+        "ts": "1476298016.001274"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you",
+        "ts": "1476298022.001275"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "can i help with any gif sizing",
+        "ts": "1476300298.001276"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Yes please!",
+        "ts": "1476300323.001277"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "can you give me one you have, the component pngs, and i’ll try and make smaller?",
+        "ts": "1476300403.001278"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I sent the pngs and gif via Google Drive",
+        "ts": "1476300614.001279"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cool will look",
+        "ts": "1476300627.001280"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U2H61EJSG> can you send me the gif you had as well? i only see pngs there",
+        "ts": "1476304331.001281"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "oh nevermind! i see it now",
+        "ts": "1476304340.001282"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F2NKF950A\/bigdog.gif|bigDog.gif> and commented: It should be in google drive folder. I called it ‘bigDog'",
+        "file": {
+            "id": "F2NKF950A",
+            "created": 1476304410,
+            "timestamp": 1476304410,
+            "name": "bigDog.gif",
+            "title": "bigDog.gif",
+            "mimetype": "image\/gif",
+            "filetype": "gif",
+            "pretty_type": "GIF",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 7331937,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2NKF950A\/bigdog.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2NKF950A\/download\/bigdog.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_360.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_480.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 900,
+            "original_h": 1600,
+            "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2NKF950A-94451be103\/bigdog_deanimate_gif.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F2NKF950A\/bigdog.gif",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2NKF950A-881543a4c8",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2NK4GW3F",
+                "created": 1476304410,
+                "timestamp": 1476304410,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "It should be in google drive folder. I called it ‘bigDog'"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1476304438.001283"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah… 7mb isn’t bad for this",
+        "ts": "1476304447.001284"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "all of these seem like they shouldn’t be gifs and should be composed animations IMO",
+        "ts": "1476304465.001285"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "do we have the frames before they were giffed",
+        "ts": "1476304673.001286"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "part of the problem is they are pre-dithered frames",
+        "ts": "1476304683.001287"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(even at 2 colors, it’s 2MB)",
+        "ts": "1476304825.001288"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "obviously a .5x scale helps (full color at 2.7mb)",
+        "ts": "1476304919.001289"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "All of the other images are 900x1600 so we probably should keep the original dimensions",
+        "ts": "1476304974.001290"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ok - do we have the component images of the animation before they were made into a gif, or did the deliver a .gif?",
+        "ts": "1476304997.001291"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I don’t have the original frames unfortunately",
+        "ts": "1476305001.001292"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "They only send us a gif which I broke apart into frames myself (the ones that are included in the folder on Drive)",
+        "ts": "1476305036.001293"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah.",
+        "ts": "1476305045.001294"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so i think if we really want to compress them, we’d want the un-giffed frames, so that we can do a better job at dithering them for compression <@U13GPDA1F>",
+        "ts": "1476305065.001295"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sounds logical to me",
+        "ts": "1476305127.001296"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks, all",
+        "ts": "1476305864.001297"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> <@U2H61EJSG> can you both quickly test earth on this build? want to make sure the default shortcut (view in google maps) is working properly",
+        "ts": "1476306849.001298"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/drive.google.com\/drive\/folders\/0B8oziE2kHpvTQnhaV05VWmcwNU0>",
+        "attachments": [
+            {
+                "title": "Meet Google Drive – One place for all your files",
+                "title_link": "https:\/\/drive.google.com\/drive\/folders\/0B8oziE2kHpvTQnhaV05VWmcwNU0",
+                "text": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage – free.",
+                "fallback": "Meet Google Drive – One place for all your files",
+                "from_url": "https:\/\/drive.google.com\/drive\/folders\/0B8oziE2kHpvTQnhaV05VWmcwNU0",
+                "service_icon": "https:\/\/accounts.google.com\/favicon.ico",
+                "service_name": "accounts.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1476306851.001299"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "it is for me, but bonnie is having trouble so would appreciate a couple more eyes",
+        "ts": "1476306866.001301"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No problem :slightly_smiling_face:",
+        "ts": "1476306892.001302"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay, seems like there NFC isnt always triggering maps. sometimes takes 2 attempts for map to appear (even though its registering the press)",
+        "ts": "1476307628.001303"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think i know whats happening with the nonlaunch NFC press",
+        "ts": "1476309151.001304"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i dont know how to fix it yet",
+        "ts": "1476309159.001305"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its double-downloading images",
+        "ts": "1476309166.001306"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the one on the screen is getting deleted out from under the renderer",
+        "ts": "1476309180.001307"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh weird",
+        "ts": "1476309187.001308"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "bonnie's idea of whats causing it is very wrong",
+        "ts": "1476309216.001309"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "let me know how i can help. happy to test \/ plug in \/ stand by \/whatever",
+        "ts": "1476309217.001310"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "haha yeah i figured it might be",
+        "ts": "1476309227.001311"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "she added this here: <https:\/\/docs.google.com\/spreadsheets\/d\/1Z6FqpfOkyTE2OSEbWCHpCaqRmGgIbZPhGbXPTq7Jlmg\/edit#gid=0>",
+        "ts": "1476309244.001312"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "install app, set wallpaper\nchange the shortcut button to show next wallpaper photos\nuse the button to change the wallpaper a couple of times\nchange the shortcut button to view on google maps\ngo to gallery, lock some of the images, preview one of the images\nleave preview up on gallery screen\ngo to home screen and use the button\nit does not work on first press\nand every time after you do that, when you go back into the app (even if you do nothing in the app) and then back to home, the button does not bring up maps on first press\nit buzzes\/beeps but no maps",
+        "ts": "1476309261.001313"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "This is odd. But I'm going to look at the datastore",
+        "ts": "1476310168.001314"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i have a fix for it",
+        "ts": "1476310622.001315"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "people can either clean install, or wait for a new download cycle for it to stabilize",
+        "ts": "1476310636.001316"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there was a mismap in the DB",
+        "ts": "1476310642.001317"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh nice",
+        "ts": "1476310653.001318"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you",
+        "ts": "1476310655.001319"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "how long would wait for new download cycle be?",
+        "ts": "1476310669.001320"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh",
+        "ts": "1476310673.001321"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "depends",
+        "ts": "1476310675.001322"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "right",
+        "ts": "1476310676.001323"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its overnight",
+        "ts": "1476310677.001324"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "usually",
+        "ts": "1476310679.001325"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can also add some code to deal with it in place",
+        "ts": "1476310693.001326"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lets try that",
+        "ts": "1476310834.001327"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sending a v2 now",
+        "ts": "1476310837.001328"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it should fix the problem in place, so don't clean install it if you have a broken version now",
+        "ts": "1476310856.001329"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay thank you!",
+        "ts": "1476310905.001330"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F2NL7B3QC\/minime-debug-43-10_12_16-v2.apk|MiniMe-DEBUG-43-10_12_16-v2.apk>",
+        "file": {
+            "id": "F2NL7B3QC",
+            "created": 1476311020,
+            "timestamp": 1476311020,
+            "name": "MiniMe-DEBUG-43-10_12_16-v2.apk",
+            "title": "MiniMe-DEBUG-43-10_12_16-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 42224948,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2NL7B3QC\/minime-debug-43-10_12_16-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2NL7B3QC\/download\/minime-debug-43-10_12_16-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F2NL7B3QC\/minime-debug-43-10_12_16-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2NL7B3QC-dca1bf50e4",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1476311023.001331"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "new v2's pushed to the drive folder. likely fixes the OOMs",
+        "ts": "1476311811.001332"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and if nothing else, the crazy native crashes",
+        "ts": "1476311819.001333"
+    }
+]

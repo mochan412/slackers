@@ -1,0 +1,126 @@
+[
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #44 Started by user Uncorked Studios (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/44\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #44 Started by user Uncorked Studios (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/44\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1466273870.000199"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #44 Success after 31 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/44\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #44 Success after 31 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/44\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1466273895.000200"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>, <@U11JK4QSK>, <@U0ML49XU0> Shuttle PC is back on the network, IP is 192.168.168.65. There are a few system cleanup tasks to be done - I’ll capture them in a ticket and assign to the appropriate parties.",
+        "ts": "1466274152.000201"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Jenkins is running for nightlies if you need it",
+        "ts": "1466274165.000202"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: your spare battery unit is on your desk",
+        "ts": "1466274182.000203"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U1B4121BP>: the Teensy spare unit is on your desk. I’ll send an email later with all the pertinent info.",
+        "ts": "1466274201.000204"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Rockin!",
+        "ts": "1466274341.000205"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Hey <@U02E3CRMA> thank you!  Can you paste the tickets here? I have new set of epics and I wanna keep things clean. ",
+        "ts": "1466274446.000206"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Sure thing",
+        "ts": "1466274538.000207"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: I exported a copy of the VM as-is to the Desktop, named CubbyWall_0718.ova or somesuch. There’s also a .raw file there of the VM hard disk image, which can be copied to a real drive using dd.",
+        "ts": "1466312649.000208"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "We had talked about a pure Ubuntu install for the Shuttle, but we need to support EyeFi for the photo transfer to IS, so I guess not.",
+        "ts": "1466312679.000209"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0ML49XU0>: just this ticket: <https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-225>",
+        "ts": "1466314131.000210"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Thx duder ",
+        "ts": "1466314892.000211"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: just because I’m paranoid, please please please continue to back up the templates somewhere. Ideally in a folder in git. I’ll deal with deployment when I get back. I just want to know they’re somewhere safe.",
+        "ts": "1466315560.000212"
+    }
+]

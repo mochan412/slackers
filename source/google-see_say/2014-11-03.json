@@ -1,0 +1,116 @@
+[
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<!channel>: Marissa, let's check in via slack and then regroup around 1130\/12\/after lunch on what this week looks like. Ryan has some feedback for us on the last APK, but before he sends that, he's curious where we are and what this week entails. Imagine there's some functionality to finish after Friday and we'd like to allow time for feedback and bug fixes. I have a meeting at 11 but let's check in via slack for now and then regroup after lunch today.",
+        "ts": "1415038974.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Sure thing. Today I'm working on improving the video (muxing in audio). It's still a wide open question, the library I was using crashes when trying to create the video, so I might have to take another approach or see if I can fix the library.",
+        "ts": "1415039078.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm a little worried if Ryan has a lot of feedback on the animations. The view hierarchy is so complex (and all done with bitmaps) that I'm not sure if I can do any more with \"ripples\" unless I have a large chunk of time to learn the new vector view\/vector animation API in 5.0",
+        "ts": "1415039429.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Maybe it can be done with tweened animations, I haven't tried that yet",
+        "ts": "1415039473.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Oh neat, in Android 4.3 and above, there's a MediaMuxer in the Android APIs. This looks like good news. <http:\/\/developer.android.com\/reference\/android\/media\/MediaMuxer.html>",
+        "ts": "1415040489.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Still studying example code and trying to put it all together... this is a useful resource, but it's definitely going to be another day or two of coding to get a properly encoded playable video. <http:\/\/bigflake.com\/mediacodec\/#samples>",
+        "ts": "1415045030.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8TTPU> This is what I was reading! Its super confusing so I agree, this is a day or two",
+        "ts": "1415046050.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Thanks for the backup <@U026PHQ3J>! I feel like a dunce for not understanding this immediately, but it seems like there's a large body of knowledge about video encoding that I'm just barely getting into.",
+        "ts": "1415046197.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It's interesting stuff, though, I'm glad to be learning about it",
+        "ts": "1415046213.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That one in particular is pretty weird, cause its getting into some opengl texture stuff that i dont get",
+        "ts": "1415046224.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I don't need the openGL part of that example, I just need to figure out how to put an mp4 video and an mp4 audio track together... something something buffers and frames",
+        "ts": "1415046299.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Hey <@U02F8TTPU>  can i get an eta on when we're able to send over a new build to Ryan?",
+        "ts": "1415056334.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Just curious!",
+        "ts": "1415056337.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I can post what I'm currently working on if he's interested. I can disable the crashing part that's in progress.",
+        "ts": "1415057444.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "That sounds good!",
+        "ts": "1415057706.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "All right, I just commented out the audio parts that I'm working on and posted a build",
+        "ts": "1415058426.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "This does create a video but it's not fully plumbed into the share workflow yet. The video is only created when you press the share button in the timeline detail view, and when it finishes, it pops up a Toast telling you where the mp4 is on the filesystem (it's in \/com.uncorkedstudios.seesay).",
+        "ts": "1415058500.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Once I get audio working, I'll finish hooking it up to the share button in both the preview and detail views",
+        "ts": "1415058545.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks!",
+        "ts": "1415058808.000020"
+    }
+]

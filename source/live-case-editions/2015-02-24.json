@@ -1,0 +1,78 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "It was mentioned before that we need to ship with at least one night time image in the app, but we also need to ship with at least one day time image <@U02688JHZ>",
+        "ts": "1424802788.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: the unregister push notification endpoint doesn't work app-side, because I can't add a body to a DELETE call",
+        "ts": "1424802857.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ha.",
+        "ts": "1424802888.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, we can retool it",
+        "ts": "1424802898.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just append the installation id to the route",
+        "ts": "1424802917.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and we can use that",
+        "ts": "1424802926.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just \/installationid?",
+        "ts": "1424802956.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah. to the register endpoint",
+        "ts": "1424803166.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "with the delete verb",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1424803176.000000"
+        },
+        "ts": "1424803168.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "CRUD AND REST AND YAY",
+        "ts": "1424803187.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel>: Just a heads up that I'm inviting a few of our clients (Adam and Nick) to the trello board.",
+        "ts": "1424820284.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "they may add some bugs\/tweaks directly, and I'll work with them on organization",
+        "ts": "1424820310.000014"
+    }
+]

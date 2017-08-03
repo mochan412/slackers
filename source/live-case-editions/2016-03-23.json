@@ -1,0 +1,453 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: I think if we can update the line spacing on the skrillex onboarding we're good to cut a build (unless <@U026PHQ3J> has made any more progress on preview aspect ratio)",
+        "ts": "1458752415.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i havent, but i have more time blocked off today",
+        "ts": "1458752434.000026"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: can you tell me the font we're using on the home screen? ",
+        "ts": "1458755997.000027"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I am assuming Roboto Medium?",
+        "ts": "1458756007.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Regular, I think",
+        "ts": "1458756321.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: got updated designs, will add to trello - essentially want to move to cards for the digital updates too. I think it makes sense, and don't see any real issues with it, but take a look and let me know (I'll fwd you email as well)",
+        "ts": "1458758036.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok cool will take a look",
+        "ts": "1458758069.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> landscape layouts look nice",
+        "ts": "1458758959.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "never really thought about them cause the skrill imagery was ugly",
+        "ts": "1458758971.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "thanks? I didn’t change much about them. just reverted the commit where they were removed and added some bold text. Hopefully not much else has changed in onboarding ¯\\_(ツ)_\/¯",
+        "ts": "1458759444.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U06DFL7BP>: those comps look nice, better look going that way. dont think i have the time today, my calendar is pretty full. can get that spacing thing and a build out if that is what we need today",
+        "ts": "1458761704.000035"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "That's great",
+        "ts": "1458761738.000036"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Not expecting same day turnaround on those!",
+        "ts": "1458761752.000037"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Dave's working on preview so if you want to push spacing and wait for his changes we can cut a build later today",
+        "ts": "1458761779.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool that sounds good",
+        "ts": "1458761910.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> or <@U0EL0GLEL> are we not underflowing the status bar in editions?",
+        "ts": "1458762181.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "what?",
+        "ts": "1458762331.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not famliar with the term underflow",
+        "ts": "1458762351.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the status bar isn't translucent",
+        "ts": "1458762470.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so its taking up actual viewport space in the wallpaper preview",
+        "ts": "1458762479.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh interesting",
+        "ts": "1458762486.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I set it to a color last night",
+        "ts": "1458762492.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "because it was black in the rest of the app and looked weird",
+        "ts": "1458762501.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "maybe i can tweak this and fake it in the surface height",
+        "ts": "1458762514.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "why does the statusbar affect the wallpaper preview?",
+        "ts": "1458762557.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we’re talking about OS preview, no?",
+        "ts": "1458762575.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep",
+        "ts": "1458762578.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "apparently if the app theme doesn't underflow the statusbar, the surfaceview in the preview abides by its bounds",
+        "ts": "1458762605.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and it is an enormous pain in the ass",
+        "ts": "1458762631.000053"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I weirdly doesn't seem to affect the skrillex AR",
+        "ts": "1458762758.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "skrillex uses a different renderer actually",
+        "ts": "1458762865.000055"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "OIC",
+        "ts": "1458762884.000056"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0V1N8S2X\/3-23-livecaseeditions.apk|3-23-livecaseeditions.apk> and commented: here is a build as we currently stand",
+        "file": {
+            "id": "F0V1N8S2X",
+            "created": 1458775938,
+            "timestamp": 1458775938,
+            "name": "3-23-livecaseeditions.apk",
+            "title": "3-23-livecaseeditions.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 48173387,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0V1N8S2X\/3-23-livecaseeditions.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0V1N8S2X\/download\/3-23-livecaseeditions.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0V1N8S2X\/3-23-livecaseeditions.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0V1N8S2X-0801d8a847",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0V1N8ZSP",
+                "created": 1458775938,
+                "timestamp": 1458775938,
+                "user": "U0EL0GLEL",
+                "is_intro": true,
+                "comment": "here is a build as we currently stand"
+            }
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1458775941.000057"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thanks! Does this have the line space on the onboarding card?",
+        "ts": "1458775957.000058"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Also I don't believe this has the wallpaper preview changes <@U026PHQ3J> did earlier today?",
+        "ts": "1458776616.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me check",
+        "ts": "1458776627.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i pushed that earlier",
+        "ts": "1458776639.000061"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: is that pulled in?",
+        "ts": "1458776668.000062"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0V1RFXU3\/pasted_image_at_2016_03_23_04_50_pm.png|Pasted image at 2016-03-23, 4:50 PM>",
+        "file": {
+            "id": "F0V1RFXU3",
+            "created": 1458777028,
+            "timestamp": 1458777028,
+            "name": "Pasted image at 2016_03_23 04_50 PM.png",
+            "title": "Pasted image at 2016-03-23, 4:50 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 1501293,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0V1RFXU3\/pasted_image_at_2016_03_23_04_50_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0V1RFXU3\/download\/pasted_image_at_2016_03_23_04_50_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0V1RFXU3-123e3867ac\/pasted_image_at_2016_03_23_04_50_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0V1RFXU3-123e3867ac\/pasted_image_at_2016_03_23_04_50_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0V1RFXU3-123e3867ac\/pasted_image_at_2016_03_23_04_50_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0V1RFXU3-123e3867ac\/pasted_image_at_2016_03_23_04_50_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0V1RFXU3-123e3867ac\/pasted_image_at_2016_03_23_04_50_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0V1RFXU3-123e3867ac\/pasted_image_at_2016_03_23_04_50_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0V1RFXU3-123e3867ac\/pasted_image_at_2016_03_23_04_50_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0V1RFXU3-123e3867ac\/pasted_image_at_2016_03_23_04_50_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0V1RFXU3\/pasted_image_at_2016_03_23_04_50_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0V1RFXU3-0350267b97",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1458777032.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "how does it measure against my post-it",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1458777108.000000"
+        },
+        "ts": "1458777103.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that was a close one",
+        "ts": "1458777112.000066"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "well that’s screenshots of the desktop and preview overlaid",
+        "ts": "1458777124.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'm trying to determine if the code is in there",
+        "ts": "1458777133.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and its not fixed",
+        "ts": "1458777137.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or",
+        "ts": "1458777138.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if the code isn't in there",
+        "ts": "1458777141.000071"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "let me try on the 6p",
+        "ts": "1458777158.000072"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'm not sure how your postit should measure, but from crown to foot is longer on desktop than on preview",
+        "ts": "1458777284.000073"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "On the 6",
+        "ts": "1458777292.000074"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "So my presumption is it's not in there ",
+        "ts": "1458777427.000075"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: can you double check that this should have evan's changes?",
+        "ts": "1458778366.000076"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "We looked at it on his phone and it looked correct, and this.. Doesn't?",
+        "ts": "1458778376.000077"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Or <@U026PHQ3J> can I see on your phone and make sure we weren't crazy",
+        "ts": "1458778385.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I'm not at the office, i did check that I pulled the latest code base. And did the build after. It it's possible it didn't build with the changes but that seems odd, I seen changes come in after lunch and built a few times after that. Didn't check on the changes wasn't sure what changed. Can double check again in the morning",
+        "ts": "1458778516.000079"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "No sweat! We're looking on device, it looks like it wasn't fixed when we looked at it",
+        "ts": "1458778724.000080"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thanks for checking in",
+        "ts": "1458778733.000081"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "WOO! fixed. will still need to cut a build in the morning since it’s your keystore",
+        "ts": "1458780495.000082"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but on the right path",
+        "ts": "1458780499.000083"
+    }
+]

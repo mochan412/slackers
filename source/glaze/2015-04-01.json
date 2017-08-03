@@ -1,0 +1,665 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F047TL8QY\/screen_shot_2015-04-01_at_3.21.17_pm.png|Screen Shot 2015-04-01 at 3.21.17 PM.png>",
+        "file": {
+            "id": "F047TL8QY",
+            "created": 1427927307,
+            "timestamp": 1427927307,
+            "name": "Screen Shot 2015-04-01 at 3.21.17 PM.png",
+            "title": "Screen Shot 2015-04-01 at 3.21.17 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 1563547,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F047TL8QY\/screen_shot_2015-04-01_at_3.21.17_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F047TL8QY\/download\/screen_shot_2015-04-01_at_3.21.17_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047TL8QY-7ed0aa07af\/screen_shot_2015-04-01_at_3.21.17_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047TL8QY-7ed0aa07af\/screen_shot_2015-04-01_at_3.21.17_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047TL8QY-7ed0aa07af\/screen_shot_2015-04-01_at_3.21.17_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 241,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047TL8QY-7ed0aa07af\/screen_shot_2015-04-01_at_3.21.17_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047TL8QY-7ed0aa07af\/screen_shot_2015-04-01_at_3.21.17_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 482,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047TL8QY-7ed0aa07af\/screen_shot_2015-04-01_at_3.21.17_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 685,
+            "image_exif_rotation": 1,
+            "original_w": 2170,
+            "original_h": 1452,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F047TL8QY\/screen_shot_2015-04-01_at_3.21.17_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F047TL8QY-d71bcbf38a",
+            "channels": [
+                "C02PQUY7T"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1427927314.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "for funsies downloaded a trial version of ptlens. it seemed to correct the distortion ok",
+        "ts": "1427927334.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "also corrected it in photoshop",
+        "ts": "1427927344.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "hugin is not behaving. vertical control points seem to be interpreted correctly however horizontal ones seem to follow a field curvature opposite to reality",
+        "ts": "1427927386.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so it's not really working right now. tried a couple different images",
+        "ts": "1427927398.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "is hugin something we have to use? or are we able to get the same information we need from this new program ptlens?",
+        "ts": "1427927450.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I can keep banging away on that or start trying to use imagemagick blindly and hope to stumble across the right parameters",
+        "ts": "1427927454.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "well ptlens is a user land program. I can poke around to see if it will spit out calibration parameters but I'd be surprised if it did",
+        "ts": "1427927521.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "kat and i had the idea to simply make an ‘app’ with sliders for the 4 values in image magick and allow you to play\/tweak them in near realtime.",
+        "ts": "1427927549.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah that might be helpful",
+        "ts": "1427927574.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it shouldn’t take long to make.",
+        "ts": "1427927611.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "also, kind of separately, I'm a little worried about the blur these corrections are inducing at the periphery of the image",
+        "ts": "1427927657.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think blur comes with the process, especially if we do not add curves to the edge of the image",
+        "ts": "1427927834.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it's worth remember that the tops and bottoms of these images will likely be cropped, if that eases your mind at all",
+        "ts": "1427927853.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "a little",
+        "ts": "1427927885.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "not sure where the shelf edges are in terms of distance from center on my image. maybe it's not all the way out to the edge of the checkerboard",
+        "ts": "1427927934.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so maybe blur wouldn't be so bad there",
+        "ts": "1427927940.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I don't know",
+        "ts": "1427927944.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Do you want me to spend some time and try to build a slider interface to imagemagick",
+        "ts": "1427928170.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "give me about 10 mins to see how hard it would be w\/o it",
+        "ts": "1427928200.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "before I ask for anything crazy",
+        "ts": "1427928208.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F048HJVQX\/screen_shot_2015-04-01_at_3.55.12_pm.png|Screen Shot 2015-04-01 at 3.55.12 PM.png> and commented: favorite one so far",
+        "file": {
+            "id": "F048HJVQX",
+            "created": 1427928941,
+            "timestamp": 1427928941,
+            "name": "Screen Shot 2015-04-01 at 3.55.12 PM.png",
+            "title": "Screen Shot 2015-04-01 at 3.55.12 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 983707,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048HJVQX\/screen_shot_2015-04-01_at_3.55.12_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048HJVQX\/download\/screen_shot_2015-04-01_at_3.55.12_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048HJVQX-53fcf8751c\/screen_shot_2015-04-01_at_3.55.12_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048HJVQX-53fcf8751c\/screen_shot_2015-04-01_at_3.55.12_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048HJVQX-53fcf8751c\/screen_shot_2015-04-01_at_3.55.12_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 321,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048HJVQX-53fcf8751c\/screen_shot_2015-04-01_at_3.55.12_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048HJVQX-53fcf8751c\/screen_shot_2015-04-01_at_3.55.12_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 641,
+            "image_exif_rotation": 1,
+            "original_w": 914,
+            "original_h": 814,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F048HJVQX\/screen_shot_2015-04-01_at_3.55.12_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F048HJVQX-54225af252",
+            "channels": [
+                "C02PQUY7T"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc048HJWPX",
+                "created": 1427928945,
+                "timestamp": 1427928945,
+                "user": "U02F8LF2X",
+                "is_intro": true,
+                "comment": "favorite one so far"
+            }
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1427928945.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "neat",
+        "ts": "1427929105.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/media.giphy.com\/media\/bEjBd0qHf810I\/giphy.gif>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/media.giphy.com\/media\/bEjBd0qHf810I\/giphy.gif",
+                "fallback": "500x353px image",
+                "image_url": "http:\/\/media.giphy.com\/media\/bEjBd0qHf810I\/giphy.gif",
+                "image_width": 500,
+                "image_height": 353,
+                "image_bytes": 311556,
+                "id": 1
+            }
+        ],
+        "ts": "1427929155.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "well I'm open to help in the form of some sliders. I'm a little fearful that I can't stumble across something close manually",
+        "ts": "1427929439.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so fearful that maybe the distortion correction required is outside the range of imagemagick",
+        "ts": "1427929469.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "but maybe I'm just unlucky",
+        "ts": "1427929481.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that would be bad",
+        "ts": "1427929492.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah would require doing that opencv remapping route",
+        "ts": "1427929533.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "maybe?",
+        "ts": "1427929553.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "kind of like this one too",
+        "ts": "1427929654.000033"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F047U37E8\/screen_shot_2015-04-01_at_4.07.22_pm.png|Screen Shot 2015-04-01 at 4.07.22 PM.png>",
+        "file": {
+            "id": "F047U37E8",
+            "created": 1427929665,
+            "timestamp": 1427929665,
+            "name": "Screen Shot 2015-04-01 at 4.07.22 PM.png",
+            "title": "Screen Shot 2015-04-01 at 4.07.22 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 633202,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F047U37E8\/screen_shot_2015-04-01_at_4.07.22_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F047U37E8\/download\/screen_shot_2015-04-01_at_4.07.22_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047U37E8-f962b62e9d\/screen_shot_2015-04-01_at_4.07.22_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047U37E8-f962b62e9d\/screen_shot_2015-04-01_at_4.07.22_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047U37E8-f962b62e9d\/screen_shot_2015-04-01_at_4.07.22_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 322,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047U37E8-f962b62e9d\/screen_shot_2015-04-01_at_4.07.22_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047U37E8-f962b62e9d\/screen_shot_2015-04-01_at_4.07.22_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 643,
+            "image_exif_rotation": 1,
+            "original_w": 902,
+            "original_h": 806,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F047U37E8\/screen_shot_2015-04-01_at_4.07.22_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F047U37E8-3a13307e91",
+            "channels": [
+                "C02PQUY7T"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1427929670.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "this one has to be my favorite",
+        "ts": "1427930480.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "reminds me of a penguin for some reason",
+        "ts": "1427930571.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok I'm feeling a little better. did some math. we only need to see about 20 squares wide on my calibration image",
+        "ts": "1427930839.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "will start cropping down dramatically",
+        "ts": "1427930850.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "fridge yetis, camera penguins",
+        "ts": "1427931589.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I almost wrote yetits",
+        "ts": "1427931602.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F048J35QB\/screen_shot_2015-04-01_at_4.40.46_pm.png|Screen Shot 2015-04-01 at 4.40.46 PM.png>",
+        "file": {
+            "id": "F048J35QB",
+            "created": 1427931665,
+            "timestamp": 1427931665,
+            "name": "Screen Shot 2015-04-01 at 4.40.46 PM.png",
+            "title": "Screen Shot 2015-04-01 at 4.40.46 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 559506,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048J35QB\/screen_shot_2015-04-01_at_4.40.46_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048J35QB\/download\/screen_shot_2015-04-01_at_4.40.46_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J35QB-432efe15b1\/screen_shot_2015-04-01_at_4.40.46_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J35QB-432efe15b1\/screen_shot_2015-04-01_at_4.40.46_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J35QB-432efe15b1\/screen_shot_2015-04-01_at_4.40.46_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 330,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J35QB-432efe15b1\/screen_shot_2015-04-01_at_4.40.46_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 630,
+            "original_h": 577,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F048J35QB\/screen_shot_2015-04-01_at_4.40.46_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F048J35QB-81c02cc9b2",
+            "channels": [
+                "C02PQUY7T"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1427931668.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "best one yet",
+        "ts": "1427931687.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Can you give me a sample image <@U02F8LF2X>",
+        "ts": "1427931732.000043"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F048J3J53\/out31.jpg|out31.jpg>",
+        "file": {
+            "id": "F048J3J53",
+            "created": 1427931751,
+            "timestamp": 1427931751,
+            "name": "out31.jpg",
+            "title": "out31.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 1473350,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048J3J53\/out31.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048J3J53\/download\/out31.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3J53-73a84e3871\/out31_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3J53-73a84e3871\/out31_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3J53-73a84e3871\/out31_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 322,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3J53-73a84e3871\/out31_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3J53-73a84e3871\/out31_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 643,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3J53-73a84e3871\/out31_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 915,
+            "image_exif_rotation": 1,
+            "original_w": 2176,
+            "original_h": 1944,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F048J3J53\/out31.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F048J3J53-0f93ebcac2",
+            "channels": [
+                "C02PQUY7T"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1427931762.000044"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F048J3QDK\/out30.jpg|out30.jpg>",
+        "file": {
+            "id": "F048J3QDK",
+            "created": 1427931781,
+            "timestamp": 1427931781,
+            "name": "out30.jpg",
+            "title": "out30.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 1532629,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048J3QDK\/out30.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048J3QDK\/download\/out30.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3QDK-5d9200fff0\/out30_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3QDK-5d9200fff0\/out30_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3QDK-5d9200fff0\/out30_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 322,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3QDK-5d9200fff0\/out30_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3QDK-5d9200fff0\/out30_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 643,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F048J3QDK-5d9200fff0\/out30_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 915,
+            "image_exif_rotation": 1,
+            "original_w": 2176,
+            "original_h": 1944,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F048J3QDK\/out30.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F048J3QDK-fc8615cedb",
+            "channels": [
+                "C02PQUY7T"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1427931792.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "wow that is some distortion",
+        "ts": "1427931808.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "extreme",
+        "ts": "1427931814.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "my brain hurts",
+        "ts": "1427931823.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yetits? is that a part of the female yeti?",
+        "ts": "1427932107.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "dirty mind abby, dirty mind",
+        "ts": "1427932129.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "obvi",
+        "ts": "1427932148.000051"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F047UGL2J\/out31b.jpg|this one ain't half bad:>",
+        "file": {
+            "id": "F047UGL2J",
+            "created": 1427932419,
+            "timestamp": 1427932419,
+            "name": "out31b.jpg",
+            "title": "this one ain't half bad:",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 600586,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F047UGL2J\/out31b.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F047UGL2J\/download\/out31b.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047UGL2J-f9c5c2436a\/out31b_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047UGL2J-f9c5c2436a\/out31b_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047UGL2J-f9c5c2436a\/out31b_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 326,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047UGL2J-f9c5c2436a\/out31b_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047UGL2J-f9c5c2436a\/out31b_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 652,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F047UGL2J-f9c5c2436a\/out31b_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 928,
+            "image_exif_rotation": 1,
+            "original_w": 1333,
+            "original_h": 1208,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F047UGL2J\/out31b.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F047UGL2J-210d9cd3b7",
+            "channels": [
+                "C02PQUY7T"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1427932428.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "\\\/opt\/ImageMagick\/bin\/convert out30.jpg -virtual-pixel gray -distort BarrelInverse  '.3 .2 .1 0.7' out31b.jpg &amp;&amp; open out31b.jpg for those following along at home",
+        "ts": "1427932459.000053"
+    }
+]

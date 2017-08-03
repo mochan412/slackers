@@ -1,0 +1,296 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U06DFL7BP>: do you have any places orderids in email somewhere?",
+        "ts": "1456432918.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Looking",
+        "ts": "1456432988.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "searching for lookup id may produce better results",
+        "ts": "1456433006.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Maps endpoints ids: \n\n5768310863953920\n5803194588332032\n5405337406406656\n\nPhotos endpoints ids:\n\n5690665774088192\n4847907022831616\n6297263601090560",
+        "ts": "1456433085.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Those are from long ago and may no longer be valid",
+        "ts": "1456433093.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/hugeinc-gw-minime-staging.appspot.com\/api\/vendor\/orders\/5405337406406656?client_id=lwp&amp;dt=1449273165&amp;signature=LlrDjAnBxzHSyytoy1egzr9GWnc=>",
+        "ts": "1456433163.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oooh",
+        "ts": "1456433190.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1456433192.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wait",
+        "ts": "1456433194.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok thanks",
+        "ts": "1456433200.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry",
+        "ts": "1456433200.000012"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> confirmed it's the two images downloading but",
+        "ts": "1456435983.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "If there's a way to catch it...???",
+        "ts": "1456435986.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Also, I'm sure you saw those UX updates - most Of the super minor seems to be actually super minor, but not sure how we want to handle the \"deleting your case photo\" use case. A confirmation dialog?",
+        "ts": "1456436075.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "a confirmation dialog is probably most straightforward.",
+        "ts": "1456436186.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "``` This image came with your case and cannot be recovered\nCancel\nDelete ``` ?",
+        "ts": "1456436228.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "there should be a way to detect if we’ve downloaded the original image too, it just involves updating the way the job works and only requesting that it get retried if we *actually* don’t have the image already",
+        "ts": "1456436230.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Well I think we only really care about the case image getting downloaded twice",
+        "ts": "1456436251.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "If I want to add my own photos multiple times that's on me",
+        "ts": "1456436257.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "But a non-intentional add from multiple activations is what we would want to mitigate",
+        "ts": "1456436269.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Not sure if that's any easier",
+        "ts": "1456436274.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "right",
+        "ts": "1456436279.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Or what you were actually saying :)",
+        "ts": "1456436289.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "they’re totally different systems, I think we’re on the same page",
+        "ts": "1456436289.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "as for the dialog copy, it could be confusing if they’re deleting multiple images that includes the original",
+        "ts": "1456436309.000026"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "``` You are about to delete the image that came with your case. This cannot be undone.``` ",
+        "ts": "1456436342.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "so scary",
+        "ts": "1456436364.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but does get to the point",
+        "ts": "1456436376.000029"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0P484R55\/slack_for_ios_upload.jpg|Slack for iOS Upload>",
+        "file": {
+            "id": "F0P484R55",
+            "created": 1456436436,
+            "timestamp": 1456436436,
+            "name": "Slack for iOS Upload.jpg",
+            "title": "Slack for iOS Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 85635,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0P484R55\/slack_for_ios_upload.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0P484R55\/download\/slack_for_ios_upload.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0P484R55-e13b61bba9\/slack_for_ios_upload_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0P484R55-e13b61bba9\/slack_for_ios_upload_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0P484R55-e13b61bba9\/slack_for_ios_upload_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 232,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0P484R55-e13b61bba9\/slack_for_ios_upload_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 310,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0P484R55-e13b61bba9\/slack_for_ios_upload_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 651,
+            "original_h": 420,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0P484R55\/slack_for_ios_upload.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0P484R55-e5e0cfde41",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1456436438.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "doing this will delete your case",
+        "ts": "1456436995.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U06DFL7BP>: In adam’s feedback,\n```In the Select photos from google photos page - grey bar (the one with network an time icons) should be blue```\nthat one is part of the Photos app and we cannot change it. The UX team should probably review Photos.",
+        "ts": "1456441115.000032"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":fire:",
+        "ts": "1456441191.000033"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yeah we told him that was likely Photos and we couldn't pass themeing",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1456441202.000000"
+        },
+        "ts": "1456441198.000034"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0GN0A9EV> got some feedback on collections I will consolidate and pass along!",
+        "ts": "1456441379.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0GN0A9EV",
+        "text": "cool",
+        "ts": "1456441407.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "The FAQ link is about Skrillex Live Case? <https:\/\/support.google.com\/nexus\/answer\/6212151>",
+        "attachments": [
+            {
+                "title": "Set up your Skrillex Live Case - Nexus Help",
+                "title_link": "https:\/\/support.google.com\/nexus\/answer\/6212151",
+                "text": "The Skrillex Live Case is compatible with Nexus 5, Nexus 6, Samsung Galaxy S6, Galaxy S5, and Note 4. The NFC setup content applies to the Nexus 5 and Nexus 6; instructions for other phones may vary.",
+                "fallback": "Set up your Skrillex Live Case - Nexus Help",
+                "from_url": "https:\/\/support.google.com\/nexus\/answer\/6212151",
+                "id": 1
+            }
+        ],
+        "ts": "1456442331.000038"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/i.imgur.com\/WM80cZ2.gif>",
+        "attachments": [
+            {
+                "fallback": "300x169px image",
+                "image_url": "http:\/\/i.imgur.com\/WM80cZ2.gif",
+                "image_width": 300,
+                "image_height": 169,
+                "image_bytes": 935336,
+                "from_url": "http:\/\/i.imgur.com\/WM80cZ2.gif",
+                "id": 1
+            }
+        ],
+        "ts": "1456442331.000039"
+    }
+]

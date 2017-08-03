@@ -1,0 +1,109 @@
+[
+    {
+        "user": "U06DFL7BP",
+        "text": "<@U06DFL7BP|charlesv> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1492728768.698154"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J>",
+        "ts": "1492728770.698866"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U167FL70V>",
+        "ts": "1492728772.699252"
+    },
+    {
+        "user": "U026PHQ3J",
+        "inviter": "U06DFL7BP",
+        "text": "<@U026PHQ3J|evans> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1492728774.699727"
+    },
+    {
+        "user": "U167FL70V",
+        "inviter": "U06DFL7BP",
+        "text": "<@U167FL70V|leia> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1492728776.700142"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "putting it in here for visibility",
+        "ts": "1492728794.704541"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "oh hai",
+        "ts": "1492728796.704888"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Hi!\n\nWe have been running <http:\/\/arabdocphotography.org|arabdocphotography.org> on hostmonster for over a year with very few issues. Earlier this week, we found the site to be down – logging in via ssh and restarting the mongo daemon, it appeared to work again, only to go down after 10 minutes.\n\nPer <https:\/\/my.hostmonster.com\/cgi\/help\/478>, it appeared to be because we were on a Shared IP, though we had not had issues before. Since we are on a business pro account, we migrated to our included dedicated IP in hopes to resolve the issue.\n\nAfter migration, it appears that any processes started during the session are terminated when the session ends. Though it should not be necessary with a daemon such as mongod, tech support offered the following solutions: <http:\/\/www.tecmint.com\/keep-remote-ssh-sessions-running-after-disconnection\/>\n\nUnfortunately, screen does not work with the configured shell (Cannot access ‘\/dev\/pts\/1’: No such file or directory), tmux is not installed, etc. Even using nohup, the process is killed, as viewed from the cpanel process manager.\n\nAs our configuration worked for over a year, I was concerned that this might be an issue with jailshell destroying its environment. The cpanel interface lets me change the shell to bash from the dropdown, but it unfortunately only sets it to jailshell.\n\nThe command we’re using to invoke mongo is\n\nmongod --fork --dbpath \/home2\/arabdocp\/mongodb\/data --smallfiles --logpath \/home2\/arabdocp\/mongodb\/data\/mongodb.log\n\nwhere --fork forks the process to run in the background as a daemon. It should not be tied to the user session.\n\nWe’d very much like to get the site back up and running, and to do so will need to get mongod to run in the background, as it has on our hostmonster instance for months. Can you advise why all background processes appear to be getting killed on session logout?\n\nThanks,\nCharles",
+        "attachments": [
+            {
+                "title": "Process \/ Script Times Out After 10 Minutes",
+                "title_link": "https:\/\/my.hostmonster.com\/cgi\/help\/478",
+                "text": "My process for my script \/ program is timing out after 10 minutes. Domain registration, domain hosting, domain renewals, domain transfers and much more - FASTDOMAIN",
+                "fallback": "Process \/ Script Times Out After 10 Minutes",
+                "from_url": "https:\/\/my.hostmonster.com\/cgi\/help\/478",
+                "service_icon": "https:\/\/my.hostmonster.com\/favicon.ico",
+                "service_name": "my.hostmonster.com",
+                "id": 1
+            },
+            {
+                "title": "5 Ways to Keep Remote SSH Sessions and Processes Running After Disconnection",
+                "title_link": "http:\/\/www.tecmint.com\/keep-remote-ssh-sessions-running-after-disconnection\/",
+                "text": "In this article, we will explain five useful techniques to keep your remote SSH terminal sessions running even after session disconnection under Linux systems.",
+                "fallback": "5 Ways to Keep Remote SSH Sessions and Processes Running After Disconnection",
+                "image_url": "http:\/\/www.tecmint.com\/wp-content\/uploads\/2016\/02\/Keep-SSH-Sessions-Running.png",
+                "from_url": "http:\/\/www.tecmint.com\/keep-remote-ssh-sessions-running-after-disconnection\/",
+                "image_width": 520,
+                "image_height": 250,
+                "image_bytes": 9807,
+                "service_icon": "http:\/\/www.tecmint.com\/wp-content\/uploads\/2015\/01\/tecmint_square_logo.png",
+                "service_name": "tecmint.com",
+                "id": 2
+            }
+        ],
+        "ts": "1492728803.706875"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "^^^ overview and ticket to hostmonster",
+        "ts": "1492728871.724175"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ssh: <http:\/\/arabdocphotography.org|arabdocphotography.org>\nusername: arabdocp\npw: ADPP$!te@2015",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1492783615.000000"
+        },
+        "ts": "1492728943.742284"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "The CMS if you need it is at <http:\/\/cms.arabdocphotography.org\/> and the login username\/password credentials should be:\n\nUsername: magnum\nPassword: magnum2015",
+        "ts": "1492729007.758600"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<http:\/\/hostmonster.com|hostmonster.com> cpanel login:\nusername: arabdocp\npw: ADPP$!te@2015",
+        "ts": "1492729066.773335"
+    }
+]

@@ -1,0 +1,1132 @@
+[
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'm working remotely today and fri. Send me a message if you need anything.",
+        "ts": "1499959126.254921",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F",
+                    "U0U9WJB7F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Sorry for not seeing those messages last night. Thanks for working through this! I’ll walk through the changes and work on getting the progress dialogs to sync up.",
+        "ts": "1499960527.162098"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh no prob!!",
+        "ts": "1499960583.197796"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> can you push those changes to that branch",
+        "ts": "1499965054.863146"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sure thing",
+        "ts": "1499965104.892439"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Pushed",
+        "ts": "1499965156.922406"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sweet.",
+        "ts": "1499965181.937408"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1499965182.937836"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m going to mess around with 16 digits",
+        "ts": "1499965194.944682"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Cool, I’ll work on the screen stack issues and progress indicators",
+        "ts": "1499965214.957217"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool. i didn’t really see any issues with the screen stack",
+        "ts": "1499965368.048748"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i admit i didn’t really put it to the test too thoroughly",
+        "ts": "1499965375.052965"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "LMK once progress spinners are in",
+        "ts": "1499965382.056695"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’d like to merge develop in",
+        "ts": "1499965392.061728"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for peace of mind",
+        "ts": "1499965395.063850"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "There are some issues with pushing the back button and closing and restarting the app which I think are easy fixes. After that I can merge in develop.",
+        "ts": "1499965438.088321"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1499965522.136113"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "_THEORETICALLY CORRECT_ gifting code based on Andrei’s email is in place. I haven’t tested cause I’m not sure it makes sense.",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1499966015.000000"
+        },
+        "ts": "1499965994.399599"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "got a google cloud notification about some tidy things",
+        "ts": "1499966271.554960"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "that i do not understand",
+        "ts": "1499966280.560504"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```\nDear Google App Engine Flexible Environment Customer,\n\nWe will be adding a dedicated App Engine flexible environment service account to each project using the Google App Engine Flexible Environment API by July 17th, 2017. This service account will be used by App Engine to manage app resources in the project on your behalf, and will improve the security posture of the platform. Please do not remove or modify permissions of this service account if you wish to continue using the Google App Engine Flexible Environment.\n\nThe following projects, associated with you, are affected by this change:\n\ntesting-datastore-uncorked (tidy-federation-859)\ntesting-datastore-uncorked (tidy-federation-859)\nThe new service account will be named \nservice-[PROJECT-NUMBER]@gae-api-prod.google.com.iam.gserviceaccount.com and have the role 'App Engine flexible environment Service Agent'. To learn more about this service account and the IAM role, please refer to the App Engine Service Account Help Center article.\n\nIf you have any questions or concerns, please do not hesitate to contact Google Cloud Support.```",
+        "ts": "1499966282.561620"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but seems relevant",
+        "ts": "1499966284.563123"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but may be transparent",
+        "ts": "1499966296.570252"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think might be a poorly written “nothing to see here” email",
+        "ts": "1499966315.581076"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ah ok",
+        "ts": "1499966322.585275"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause it basically says “don’t change it”",
+        "ts": "1499966339.595077"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i saw new service account, but guess that’s just the reference, our endpoints wouldn’t actually change",
+        "ts": "1499966345.598518"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cool",
+        "ts": "1499966353.602830"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thanks",
+        "ts": "1499966356.604893"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> you should pull `develop_account_cases`",
+        "ts": "1499966505.689414"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "when you get a chance",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1499966512.000000"
+        },
+        "ts": "1499966510.692154"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause i have to go to a meeting.",
+        "ts": "1499966518.696535"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "adding the PUT stuff isn’t destrcutive, so it should stay out of the way for now, but is in there.",
+        "ts": "1499966532.703774"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if it works like andrei says, you should be able to gift yourself midori’s case",
+        "ts": "1499966542.709654"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "based on his NOW MOST RECENT email",
+        "ts": "1499967081.027582"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this is going to change",
+        "ts": "1499967085.030090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "depending on how he answers my question about his email",
+        "ts": "1499967093.034270"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":)",
+        "ts": "1499967093.034829"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":grin:",
+        "ts": "1499967104.041073"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "we're getting closer!!",
+        "ts": "1499967117.048199"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> and <@U1ZG1UCAK> could you two connect on in-app messaging for the upgrade stuff?",
+        "ts": "1499967192.093587"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "please start with the in-app dialog",
+        "ts": "1499967199.098030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think it will likely be similar to the code that checks to see if earth is installed",
+        "ts": "1499967216.108361"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "for sure.",
+        "ts": "1499967277.144981"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, <@U1ZG1UCAK> the relevant prefs are in WallpaperSettings",
+        "ts": "1499967292.153722"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F68G4KEV8\/-.py|Untitled>",
+        "file": {
+            "id": "F68G4KEV8",
+            "created": 1499967300,
+            "timestamp": 1499967300,
+            "name": "-.py",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 797,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F68G4KEV8\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F68G4KEV8\/download\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F68G4KEV8\/-.py",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F68G4KEV8-1a3f389fdf",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F68G4KEV8\/-.py\/edit",
+            "preview": "\r\n    public static boolean doesNeedUpgrade(Context context) {\r\n        SharedPreferences preferences =\r\n                PreferenceManager.getDefaultSharedPreferences(context);\r\n        return preferences.getBoolean(DOES_NEED_UPGRADE, false);\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>    <span class=\"cm-variable\">public<\/span> <span class=\"cm-variable\">static<\/span> <span class=\"cm-variable\">boolean<\/span> <span class=\"cm-variable\">doesNeedUpgrade<\/span>(<span class=\"cm-variable\">Context<\/span> <span class=\"cm-variable\">context<\/span>) {<\/pre><\/div>\n<div><pre>        <span class=\"cm-variable\">SharedPreferences<\/span> <span class=\"cm-variable\">preferences<\/span> =<\/pre><\/div>\n<div><pre>                <span class=\"cm-variable\">PreferenceManager<\/span>.<span class=\"cm-property\">getDefaultSharedPreferences<\/span>(<span class=\"cm-variable\">context<\/span>);<\/pre><\/div>\n<div><pre>        <span class=\"cm-keyword\">return<\/span> <span class=\"cm-variable\">preferences<\/span>.<span class=\"cm-property\">getBoolean<\/span>(<span class=\"cm-variable\">DOES_NEED_UPGRADE<\/span>, <span class=\"cm-variable\">false<\/span>);<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 20,
+            "lines_more": 15,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1499967301.158816"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok based on andrei email i need to make some changes to the single case validator",
+        "ts": "1499967396.215066"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok",
+        "ts": "1499967742.414863"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> FYI I fixed that issue with the live case order Ids and merged in develop. These changes have been pushed to `develop_account_cases`",
+        "ts": "1499968077.605909"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "dope thanks",
+        "ts": "1499968087.611555"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> adrien thinks the cases you fake buy online should work now",
+        "ts": "1499968318.746181"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i can’t give you my card yet)",
+        "ts": "1499968325.750674"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i think we're not supposed to test that until 2p?",
+        "ts": "1499968391.789240"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "they're doing some cleanup from DF?",
+        "ts": "1499968405.797704"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "got it",
+        "ts": "1499968434.814518"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "saw his email",
+        "ts": "1499968436.815670"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i had been talking about the prod server all this time, but apparently they dont have that stuff rolled to prod yet)",
+        "ts": "1499968452.824986"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm. i can’t pull develop right now?",
+        "ts": "1499970985.311012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "er i can’t check develop out",
+        "ts": "1499970992.314505",
+        "reactions": [
+            {
+                "name": "thinking_face",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I have the force upgrade dialog in place. Should I merge it onto develop or are you messing with the force upgrade stuff on a separate branch?",
+        "ts": "1499971724.729983"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> ^",
+        "ts": "1499971768.754078"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "also, can you pull develop yet?",
+        "ts": "1499971806.774900"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i got my tree fixed up",
+        "ts": "1499971808.776146"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just now :)",
+        "ts": "1499971812.778583"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no need to merge to develop yet",
+        "ts": "1499971828.787617"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do the notification",
+        "ts": "1499971836.792180"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh hey <@U2H61EJSG> did you merge to develop?",
+        "ts": "1499972004.888875"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or did you merge develop into develop_account_cases",
+        "ts": "1499972020.898233"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I only merged develop into develop account cases ",
+        "ts": "1499972313.067350"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Gotcha!",
+        "ts": "1499972862.377885"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the single-case endpoint is still 403'ing for any kinds of requests",
+        "ts": "1499973074.492060"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "any specific call outs <@U026PHQ3J> ?",
+        "ts": "1499974073.014256"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "should be able to onboard \/ pair using cases associated with an account",
+        "ts": "1499974466.225199"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can’t enter a code yet",
+        "ts": "1499974474.229320"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "awesome!!!",
+        "ts": "1499974573.281671"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> \\\/ \\\/ \\\/ should force 2017 experience",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1499976942.000000"
+        },
+        "ts": "1499976926.526781"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F69EFRV7G\/minime-testing-7_13_17-v2.apk|MiniMe-TESTING-7_13_17-v2.apk>",
+        "file": {
+            "id": "F69EFRV7G",
+            "created": 1499976925,
+            "timestamp": 1499976925,
+            "name": "MiniMe-TESTING-7_13_17-v2.apk",
+            "title": "MiniMe-TESTING-7_13_17-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 24221079,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F69EFRV7G\/minime-testing-7_13_17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F69EFRV7G\/download\/minime-testing-7_13_17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F69EFRV7G\/minime-testing-7_13_17-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F69EFRV7G-560f0f4108",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1499976927.527457"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oops",
+        "ts": "1499976930.529026"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay i'll check it out!",
+        "ts": "1499976934.531331"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> I got the following error message \"there was problems parsing the package\"",
+        "ts": "1499977040.587475"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did you clean install it?",
+        "ts": "1499977058.596965"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yes",
+        "ts": "1499977060.598517"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and its the only version of livecase on your phone?",
+        "ts": "1499977085.611629"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yes",
+        "ts": "1499977096.617825"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm wtf",
+        "ts": "1499977103.621534"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me see phone",
+        "ts": "1499977107.623492"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "finished notification. let me know if\/when you want it and I’ll push it.",
+        "ts": "1499979497.876138"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I added a title to it bc it has to have a title",
+        "ts": "1499979616.938454"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Can I see ir",
+        "ts": "1499979619.940120"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It",
+        "ts": "1499979620.940767"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "screencap?",
+        "ts": "1499979626.944144"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Where you at ",
+        "ts": "1499979642.952421"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "stairside nook, but I’ll come out",
+        "ts": "1499979703.983975"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F68PALEGM\/forceupgrade.mp4|forceUpgrade.mp4>",
+        "file": {
+            "id": "F68PALEGM",
+            "created": 1499980965,
+            "timestamp": 1499980965,
+            "name": "forceUpgrade.mp4",
+            "title": "forceUpgrade.mp4",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 3366570,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F68PALEGM\/forceupgrade.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F68PALEGM\/download\/forceupgrade.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_video": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F68PALEGM-b8cfee7f8d\/forceupgrade_thumb_video.jpeg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F68PALEGM\/forceupgrade.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F68PALEGM-97e319592b",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1499980966.575088"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thanks Midori!! <@U0260V1BX> wanna make sure you've got eyes on this :slightly_smiling_face:",
+        "ts": "1499981022.599944"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "also dismissable",
+        "ts": "1499981060.617012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":cool:",
+        "ts": "1499981080.625881"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nice! what determines what goes to play store vs in app modal?",
+        "ts": "1499981099.634546"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F69FMSE7Q\/useraccountpairedcasesrequestor.java|UserAccountPairedCasesRequestor.java>",
+        "file": {
+            "id": "F69FMSE7Q",
+            "created": 1499981137,
+            "timestamp": 1499981137,
+            "name": "UserAccountPairedCasesRequestor.java",
+            "title": "UserAccountPairedCasesRequestor.java",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 26217,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F69FMSE7Q\/useraccountpairedcasesrequestor.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F69FMSE7Q\/download\/useraccountpairedcasesrequestor.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F69FMSE7Q\/useraccountpairedcasesrequestor.java",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F69FMSE7Q-4a99466086",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F69FMSE7Q\/useraccountpairedcasesrequestor.java\/edit",
+            "preview": "package com.google.android.apps.workshop.onboarding.service;\n\nimport com.google.android.apps.workshop.R;\nimport com.google.android.apps.workshop.collections.model.artworks.Artist;\nimport com.google.android.apps.workshop.collections.model.artworks.Asset;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">package<\/span> <span class=\"cm-def\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">onboarding<\/span>.<span class=\"cm-variable\">service<\/span>;<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">R<\/span>;<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">collections<\/span>.<span class=\"cm-variable\">model<\/span>.<span class=\"cm-variable\">artworks<\/span>.<span class=\"cm-variable\">Artist<\/span>;<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">collections<\/span>.<span class=\"cm-variable\">model<\/span>.<span class=\"cm-variable\">artworks<\/span>.<span class=\"cm-variable\">Asset<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 666,
+            "lines_more": 661,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1499981139.652857"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG>",
+        "ts": "1499981139.652898"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "if you hit the “Update” button in the notification, you’ll go to the play store. If you hit the notification body, it’ll launch home screen MLC, where the dialog will be triggered.\nThe dialog is also triggered if the MLC is opened and version code is too low.",
+        "ts": "1499981232.695113",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            },
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> do you have a few min? We can sit with the jira board and make sure its up to date if you'd like",
+        "ts": "1499981669.887747"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "move some shit around",
+        "ts": "1499981677.891437"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "that would be so awesome",
+        "ts": "1499981682.893518"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you get us oak",
+        "ts": "1499981690.896761"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or pine",
+        "ts": "1499981695.898786"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i like pine)",
+        "ts": "1499981697.899899"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "slate",
+        "ts": "1499981706.903756"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "honestly, i dont care",
+        "ts": "1499981707.904011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sure",
+        "ts": "1499981709.904913"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "close easy cold",
+        "ts": "1499981711.905816"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which one is slate",
+        "ts": "1499981715.908347"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the fishbowl?",
+        "ts": "1499981719.910233"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yah!",
+        "ts": "1499981724.912561"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "let's go!",
+        "ts": "1499981725.913261"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah lets do it",
+        "ts": "1499981727.913864"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> have you fixed this by any chance?",
+        "ts": "1499982256.143750"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-287>",
+        "ts": "1499982258.144518"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "no",
+        "ts": "1499982864.391144"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U1ZG1UCAK> Can you merge in your changes to develop? (If you’re in a good places to do so)",
+        "ts": "1499983759.728273"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I am going to merge in the account stuff I’ve been working on in a bit",
+        "ts": "1499983774.733400"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "sure, I just have that notification &amp; dialog.",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1499984084.000000"
+        },
+        "ts": "1499984032.821453"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "pushed to develop",
+        "ts": "1499984162.866786"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Gracias",
+        "ts": "1499984181.873546"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I just merged in my changes from `develop_account_cases` and pushed to `develop`",
+        "ts": "1499984280.906472"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sweeeeet",
+        "ts": "1499984666.032799"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Photos worked! Yassssss.",
+        "ts": "1499985796.383850"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "(ordered\/canceled a case) and it paired properly, awesome.",
+        "ts": "1499985816.389594"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "dope.",
+        "ts": "1499985838.396042"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U13GPDA1F> you'll especially like this one, IT'S OF YOU.",
+        "ts": "1499985847.398408",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            },
+            {
+                "name": "heart",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            },
+            {
+                "name": "nail_care",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hey <!here|@here> reminder that I’ve got the Code2040 event tonight starting at like 5:30ish(?) then ill probably be offline until the end of that",
+        "ts": "1499986948.714192"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can stay up late to finish stuff, but it might not be until after 9",
+        "ts": "1499986963.718246"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, id like to not stay up late, but its ok if i have to",
+        "ts": "1499986978.722186"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i dont know why you would need to?",
+        "ts": "1499987140.767006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "anyway, if we're recutting builds, someone else should do it",
+        "ts": "1499989427.349887"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "tomorrow! who's up for it?",
+        "ts": "1499989530.374919"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "nobody jump all at once!! :joy:",
+        "ts": "1499990134.517863"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sure, I can do it tomorrow",
+        "ts": "1499990157.523105"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "",
+        "bot_id": "B03H06881",
+        "attachments": [
+            {
+                "fallback": "giphy: http:\/\/giphy.com\/gifs\/nerdist-iq5g6YE1V2CFq",
+                "image_url": "http:\/\/media4.giphy.com\/media\/iq5g6YE1V2CFq\/giphy-downsized.gif",
+                "image_width": 200,
+                "image_height": 150,
+                "image_bytes": 838910,
+                "is_animated": true,
+                "title": "YASSS QUEEN",
+                "footer": "Posted using \/giphy",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/nerdist-iq5g6YE1V2CFq"
+            }
+        ],
+        "ts": "1499990204.534161"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F68KYCBFD\/space.java|Space.java>",
+        "file": {
+            "id": "F68KYCBFD",
+            "created": 1499991770,
+            "timestamp": 1499991770,
+            "name": "Space.java",
+            "title": "Space.java",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 10443,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F68KYCBFD\/space.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F68KYCBFD\/download\/space.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F68KYCBFD\/space.java",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F68KYCBFD-a88950115b",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F68KYCBFD\/space.java\/edit",
+            "preview": "import java.awt.Graphics.*;\nimport javax.swing.*;\nimport java.awt.*;\nimport java.awt.geom.*;\nimport java.awt.Event.*;",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">awt<\/span>.<span class=\"cm-variable\">Graphics<\/span>.<span class=\"cm-operator\">*<\/span>;<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">javax<\/span>.<span class=\"cm-variable\">swing<\/span>.<span class=\"cm-operator\">*<\/span>;<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">awt<\/span>.<span class=\"cm-operator\">*<\/span>;<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">awt<\/span>.<span class=\"cm-variable\">geom<\/span>.<span class=\"cm-operator\">*<\/span>;<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">awt<\/span>.<span class=\"cm-variable\">Event<\/span>.<span class=\"cm-operator\">*<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 516,
+            "lines_more": 511,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1499991771.889988"
+    }
+]

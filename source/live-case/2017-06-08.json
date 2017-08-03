@@ -1,0 +1,492 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hey gang, <@U2H61EJSG> or <@U1ZG1UCAK> in particular, we got a report that there's and extended delay for the wallpaper to reappear after a reboot. Not clear on which generator. Could someone test across and all of them and see if it's all or just a subset? Also, maybe first set one of the live wallpapers that ship with launcher and see how long those take to come back online as a baseline ",
+        "ts": "1496933793.747905"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Also <@U3ZFEAPSP> did you ever get the directboot stuff working?",
+        "ts": "1496936890.064103"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Morning gang, I have an appointment this AM, I should be in by 9:45 at the latest.",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1496937406.000000"
+        },
+        "ts": "1496937385.269127",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U026PHQ3J>, yea, it's on the direct_boot branch (not sure about Branch name there), it may not be merge-able directly but it was just a short method and some manifest flags that can be copy-pasted",
+        "ts": "1496937612.364323"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool that's what I thought ",
+        "ts": "1496937649.380569"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> - I ran through all of the generators fairly quickly earlier and didn’t see any unusual load times for wallpapers after reboot, but I’ll keep digging. I’m not sure what you mean by “ship with launcher”",
+        "ts": "1496938889.861440"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "like, Earth b\/c launches to GEarth\/Maps?",
+        "ts": "1496938956.887170"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "or the “Live Earth”\/“Live data” wallpapers that come with Nougat?",
+        "ts": "1496939201.977018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the wallpapers that are built in",
+        "ts": "1496940194.338090",
+        "reactions": [
+            {
+                "name": "ok",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the live earth wallpaper for example",
+        "ts": "1496940207.342880"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "on pixel those came back immediately (in the lock screen)",
+        "ts": "1496940256.360155"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "got it",
+        "ts": "1496940261.362014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so its just a directboot thing",
+        "ts": "1496940266.363944"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> maybe `boot_load` branch?",
+        "ts": "1496940338.389650"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yep, that'd be the one. It makes the load pretty snappy even with places needing to make a location &amp; image request",
+        "ts": "1496940554.467446"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5QU7CF44\/check_transparent__2_.gif|Check_transparent (2).gif> and commented: <@U026PHQ3J> <@U0260V1BX> ustwo sent us the .gif file for the check mark asset &amp; _I_ think it looks much better. Thoughts?",
+        "file": {
+            "id": "F5QU7CF44",
+            "created": 1496943968,
+            "timestamp": 1496943968,
+            "name": "Check_transparent (2).gif",
+            "title": "Check_transparent (2).gif",
+            "mimetype": "image\/gif",
+            "filetype": "gif",
+            "pretty_type": "GIF",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 23551,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QU7CF44\/check_transparent__2_.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QU7CF44\/download\/check_transparent__2_.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 800,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 1024,
+            "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__360.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__480.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 1440,
+            "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QU7CF44-eee6782a50\/check_transparent__2__deanimate_gif.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5QU7CF44\/check_transparent__2_.gif",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5QU7CF44-a1c7a3146f",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5QU7GK1A",
+                "created": 1496943968,
+                "timestamp": 1496943968,
+                "user": "U0U9WJB7F",
+                "is_intro": true,
+                "comment": "<@U026PHQ3J> <@U0260V1BX> ustwo sent us the .gif file for the check mark asset &amp; _I_ think it looks much better. Thoughts?"
+            }
+        },
+        "user": "U0U9WJB7F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1496943972.714652"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "peeping it",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1496945497.000000"
+        },
+        "ts": "1496945493.293286"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its closer.",
+        "ts": "1496945517.302379"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill put it in a build",
+        "ts": "1496945519.303285"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh wait",
+        "ts": "1496945535.309312"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the looping rate looks way wrong",
+        "ts": "1496945539.310700"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also the screen bg is now bluish isntead of black",
+        "ts": "1496945558.317965"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not sure if intended",
+        "ts": "1496945564.320293"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hopefully not - will look ugly with some of the bg colors",
+        "ts": "1496945606.336173"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah the edges look better but the animation rate is way off.",
+        "ts": "1496945644.350207"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> when you see the above, please make them do a better job :)",
+        "ts": "1496946273.580983"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "that's super weird, when i opened it originally i didn't see how crazy fast it's animating-wtf. ",
+        "ts": "1496948919.560302"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i'll follow up. ",
+        "ts": "1496948935.565868"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we’ll need to do a cut of onboarding with a doubletap to proceed. Will explain detail in person at some point.",
+        "ts": "1496954344.411676"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U026PHQ3J",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[June 8th, 2017 1:39 PM] evans: we’ll need to do a cut of onboarding with a doubletap to proceed. Will explain detail in person at some point.",
+                "ts": "1496954344.411676",
+                "author_subname": "evans",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "we’ll need to do a cut of onboarding with a doubletap to proceed. Will explain detail in person at some point.",
+                "author_name": "Elise \"Cramer\" evans",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/evans",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-07-12\/211206015585_3e81a7fdcc5a58c2e48c_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U026PHQ3J|evans> pinned a message to this channel.",
+        "ts": "1496954350.413269"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Okay. Thanks for covering the meeting with ustwo\/google <@U026PHQ3J> <@U0260V1BX> I just looked through the deck and it looks like there's mainly tasks for ustwo to handle at this point. Is there anything we else we should know coming out of that conversation (besides what you just posted above)?",
+        "ts": "1496959392.904077"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I made sure to request that once the deck is finalized they update Sketch files ASAP",
+        "ts": "1496959413.909439",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nothing really new",
+        "ts": "1496959938.030176"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay, well that's good. ",
+        "ts": "1496960107.068222"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5QD9K5LY\/earth_onboarding.mp4|earth_onboarding.mp4> and commented: <@U0U9WJB7F> - I need a secondary gif the image on this screen for landscape, where it’s only the phone, but still 1440x1400",
+        "file": {
+            "id": "F5QD9K5LY",
+            "created": 1496968324,
+            "timestamp": 1496968324,
+            "name": "earth_onboarding.mp4",
+            "title": "earth_onboarding.mp4",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 6130842,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QD9K5LY\/earth_onboarding.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QD9K5LY\/download\/earth_onboarding.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5QD9K5LY\/earth_onboarding.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5QD9K5LY-e1e0308aad",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc5QG7NT4H",
+                "created": 1496968324,
+                "timestamp": 1496968324,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "<@U0U9WJB7F> - I need a secondary gif the image on this screen for landscape, where it’s only the phone, but still 1440x1400"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1496968324.474929"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "why does it need to be so huge",
+        "ts": "1496968355.478981"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can't it be cropped to the width of the phone?",
+        "ts": "1496968362.479926"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "You’re right, it doesn’t need to be the same size",
+        "ts": "1496968427.488660"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":fingerscrossed:",
+        "ts": "1496968442.490594"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "there’s no way to just crop in on this asset to hide the edges of it?",
+        "ts": "1496968451.491803"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no cause its animated",
+        "ts": "1496968463.493621"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "¯\\_(ツ)_\/¯",
+        "ts": "1496968468.494301"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’ve tried a couple of fixes, but they’re bad.",
+        "ts": "1496968469.494436"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(not a browser)",
+        "ts": "1496968478.495810"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":P",
+        "ts": "1496968480.496045"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U1ZG1UCAK|midori> commented on <@U1ZG1UCAK|midori>’s file <https:\/\/uncorked.slack.com\/files\/midori\/F5QD9K5LY\/earth_onboarding.mp4|earth_onboarding.mp4>: - doesn’t need to be 1440x1440, per evans’ comment",
+        "file": {
+            "id": "F5QD9K5LY",
+            "created": 1496968324,
+            "timestamp": 1496968324,
+            "name": "earth_onboarding.mp4",
+            "title": "earth_onboarding.mp4",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 6130842,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QD9K5LY\/earth_onboarding.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QD9K5LY\/download\/earth_onboarding.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5QD9K5LY\/earth_onboarding.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5QD9K5LY-e1e0308aad",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc5QG7NT4H",
+                "created": 1496968324,
+                "timestamp": 1496968324,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "<@U0U9WJB7F> - I need a secondary gif the image on this screen for landscape, where it’s only the phone, but still 1440x1400"
+            }
+        },
+        "comment": {
+            "id": "Fc5RT7L154",
+            "created": 1496968623,
+            "timestamp": 1496968623,
+            "user": "U1ZG1UCAK",
+            "is_intro": false,
+            "comment": "- doesn’t need to be 1440x1440, per evans’ comment"
+        },
+        "is_intro": false,
+        "ts": "1496968623.514760"
+    }
+]

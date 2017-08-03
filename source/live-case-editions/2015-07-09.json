@@ -1,0 +1,483 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Testing out tile retrieval from master branch and getting 401 on all requests \n<https:\/\/hugeinc-gw-minime-staging.appspot.com\/api\/generator\/maps\/styled?center=45.5150676%2C-122.6661248&amp;size=1000x1000&amp;zoom=13&amp;scale=2&amp;style=3&amp;colorway=9&amp;client_id=lwp&amp;dt=1436464788&amp;signature=l9U4B47XBNqVQE5LBwpL2ZtFoY4=>",
+        "ts": "1436464901.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "weird.",
+        "ts": "1436465866.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in PlacesConstants take a look around line 40 - there's a block with a bunch of (byte)s in it",
+        "ts": "1436465891.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "make sure it looks like this",
+        "ts": "1436465909.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(byte) 0xd8,\n                   (byte) 0x13,\n                   (byte) 0x0,\n                   (byte) 0x9c,\n                   (byte) 0x2b,\n                   (byte) 0xd4,\n                   (byte) 0x28,\n                   (byte) 0x67,\n                   (byte) 0xf7,\n                   (byte) 0x3c,\n                   (byte) 0x15,\n                   (byte) 0xa1,\n                   (byte) 0x1,\n                   (byte) 0xc6,\n                   (byte) 0x9,\n                   (byte) 0x70,\n                   (byte) 0xf9,\n                   (byte) 0x4c,\n                   (byte) 0x3b,\n                   (byte) 0xa7,\n                   (byte) 0x2e,\n                   (byte) 0xa1,\n                   (byte) 0x13,\n                   (byte) 0x3c,\n                   (byte) 0xd7,\n                   (byte) 0xe,\n                   (byte) 0x5,\n                   (byte) 0xc4,\n                   (byte) 0x8,\n                   (byte) 0xc1,\n                   (byte) 0x7b,\n                   (byte) 0x72,\n                   (byte) 0xa8,\n                   (byte) 0x2b,\n                   (byte) 0x36,\n                   (byte) 0xc4,\n                   (byte) 0x20,\n                   (byte) 0xd4,\n                   (byte) 0x3,\n                   (byte) 0x65,\n                   (byte) 0xe3,\n                   (byte) 0xf,\n                   (byte) 0x10,\n                   (byte) 0xcd",
+        "ts": "1436465909.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "there are no bytes in PlacesConstants",
+        "ts": "1436466256.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh maybe it's in authutils ",
+        "ts": "1436467273.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the data matches the bytes in authutils",
+        "ts": "1436467807.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm",
+        "ts": "1436468814.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are you on the thread with Katie at Huge?",
+        "ts": "1436468826.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Might be time to ask her, since it was working",
+        "ts": "1436468831.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "maybe theres a regression post-deploy or something",
+        "ts": "1436468838.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I am not on the thread",
+        "ts": "1436468843.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m going to ask Stephanie to order us a dimple",
+        "ts": "1436473468.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "private void playPlayMusic() {\n    Intent i = new Intent(Intent.ACTION_MEDIA_BUTTON);\n    i.setComponent(new ComponentName(\"com.spotify.music\", \"com.spotify.music.internal.receiver.MediaButtonReceiver\"));\n    i.putExtra(Intent.EXTRA_KEY_EVENT,new KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_MEDIA_PLAY));\n    sendOrderedBroadcast(i, null);\n\n    i = new Intent(Intent.ACTION_MEDIA_BUTTON);\n    i.setComponent(new ComponentName(\"com.spotify.music\", \"com.spotify.music.internal.receiver.MediaButtonReceiver\"));\n    i.putExtra(Intent.EXTRA_KEY_EVENT,new KeyEvent(KeyEvent.ACTION_UP, KeyEvent.KEYCODE_MEDIA_PLAY));\n    sendOrderedBroadcast(i, null);\n}",
+        "ts": "1436473588.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/stackoverflow.com\/questions\/28524063\/spotify-android-intent-play-on-launch>",
+        "attachments": [
+            {
+                "title": "Spotify Android Intent Play on Launch",
+                "title_link": "http:\/\/stackoverflow.com\/questions\/28524063\/spotify-android-intent-play-on-launch",
+                "text": "I'm trying to get Spotify to resume playback when launched from an intent but not having much luck. I think I'm close I can get Spotify to launch, and if I specify a search for an artist it will a...",
+                "fallback": "Spotify Android Intent Play on Launch",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/stackoverflow\/img\/apple-touch-icon@2.png?v=ea71a5211a91&a",
+                "from_url": "http:\/\/stackoverflow.com\/questions\/28524063\/spotify-android-intent-play-on-launch",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1436473899.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I tried commenting out the component name and using it with Play Music. No go.",
+        "ts": "1436475657.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "tried play from this list and it worked <http:\/\/stackoverflow.com\/questions\/14910360\/how-to-play-or-resume-music-of-another-music-player-from-my-code>",
+        "attachments": [
+            {
+                "title": "how to play or resume music of another music player from my code?",
+                "title_link": "http:\/\/stackoverflow.com\/questions\/14910360\/how-to-play-or-resume-music-of-another-music-player-from-my-code",
+                "text": "In my android app I want to play or resume the played music after a paused it. I got my app to pause the music by sending a broadcast, but I can't get it to play or resume the music. here is the c...",
+                "fallback": "how to play or resume music of another music player from my code?",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/stackoverflow\/img\/apple-touch-icon@2.png?v=ea71a5211a91&a",
+                "from_url": "http:\/\/stackoverflow.com\/questions\/14910360\/how-to-play-or-resume-music-of-another-music-player-from-my-code",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1436475665.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U0261PCRQ>: cool to order more dimples regardless, but <@U026PHQ3J>  <@U02F9CXTL> do we have any left over from initial testing?",
+        "ts": "1436475762.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we have dimples?",
+        "ts": "1436475778.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I could probably just download the app and let it write the nfc chips I have",
+        "ts": "1436475830.000024"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah i dont think it’s anything special other than some nfc stickers",
+        "ts": "1436475851.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m not sure if the dimple writes the chips or if they’re preconfigured",
+        "ts": "1436475865.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that would be the only thing",
+        "ts": "1436475869.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I could probably dig up the nfc configuration for them somewhere",
+        "ts": "1436475877.000028"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<http:\/\/dimple.pw>",
+        "ts": "1436475947.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "has some info on the payload",
+        "ts": "1436475957.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s complaining a little about my chips “are you sure this is dimple?” but it looks like I can program them anyway",
+        "ts": "1436475972.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "eh, nvm, looks like it needs configuring first",
+        "ts": "1436476019.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "at any rate, the options for media button match the options I’m given for media player actions, so that’s promising",
+        "ts": "1436476093.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I'm all for ordering some, just wanted to call out that we did have some way back when, in case they were lying around",
+        "ts": "1436476207.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I ordered one already. didn’t know we ever had one.",
+        "ts": "1436476225.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":thumbsup:",
+        "ts": "1436476233.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I added a dimple chip writer to our nfc writer app",
+        "ts": "1436477351.000037"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U051P3FPY|kaitlyn> uploaded a file: <https:\/\/uncorked.slack.com\/files\/kaitlyn\/F07DVGBUL\/tile_style_and_colorways.docx|Tile_style_and_colorways.docx> and commented: Was clicking around the app to get some activity on the test GA, I screenshotted some of the different colorways and tile styles if anybody is interested in taking a look… ",
+        "file": {
+            "id": "F07DVGBUL",
+            "created": 1436487591,
+            "timestamp": 1436487591,
+            "name": "Tile_style_and_colorways.docx",
+            "title": "Tile_style_and_colorways.docx",
+            "mimetype": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "filetype": "docx",
+            "pretty_type": "Word Document",
+            "user": "U051P3FPY",
+            "editable": false,
+            "size": 41246205,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07DVGBUL\/tile_style_and_colorways.docx?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07DVGBUL\/download\/tile_style_and_colorways.docx?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/kaitlyn\/F07DVGBUL\/tile_style_and_colorways.docx",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F07DVGBUL-aa6e8ba3af",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc07DV3R2L",
+                "created": 1436487600,
+                "timestamp": 1436487600,
+                "user": "U051P3FPY",
+                "is_intro": true,
+                "comment": "Was clicking around the app to get some activity on the test GA, I screenshotted some of the different colorways and tile styles if anybody is interested in taking a look… "
+            }
+        },
+        "user": "U051P3FPY",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "kaitlyn",
+        "bot_id": null,
+        "ts": "1436487600.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: kaitlyn’s doc reminded me that I never asked her about tiles",
+        "ts": "1436487811.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "turns out, the device I was testing with didn’t have default time and default time zone on",
+        "ts": "1436487826.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that should have been obvious",
+        "ts": "1436487833.000041"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "doh",
+        "ts": "1436487864.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeaaah",
+        "ts": "1436487880.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sorry bout that one",
+        "ts": "1436487883.000044"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ACK",
+        "ts": "1436487886.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "loool",
+        "ts": "1436487887.000047"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "that was upsetting",
+        "ts": "1436487904.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that was one of the better ones, I thought",
+        "ts": "1436487936.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "should I make a build to send now?",
+        "ts": "1436487945.000051"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "…sure!",
+        "ts": "1436488073.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Test moments please",
+        "ts": "1436488077.000053"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "…yes!",
+        "ts": "1436488082.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh damnit I didn't push that branch ",
+        "ts": "1436488085.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah send the places build and we can merge moments tomorrow",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1436488109.000000"
+        },
+        "ts": "1436488099.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "damn",
+        "ts": "1436488160.000058"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I just sent a build",
+        "ts": "1436488164.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but didn’t test moments. one minute",
+        "ts": "1436488169.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh",
+        "ts": "1436488175.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I need to finish reading",
+        "ts": "1436488183.000062"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":simple_smile:",
+        "ts": "1436488186.000063"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "So new in this build: \n- Updated *stylized images* endpoint to use Huge staging server\n- Live wallpaper utilizes motion tracking to zoom out while moving, reducing data and battery usage",
+        "ts": "1436488247.000064"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "anything else to add?",
+        "ts": "1436488265.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t think so?  really though, we changed the zooming so it zooms in when you’re not moving more than it zooms farther out when moving",
+        "ts": "1436488311.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but call it what you want",
+        "ts": "1436488323.000067"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ha. ok",
+        "ts": "1436488330.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "thanks, guys!",
+        "ts": "1436488336.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "charles, do you want to send, or do you want me to?",
+        "ts": "1436488343.000070"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02688JHZ>: if you can, great!",
+        "ts": "1436488356.000071"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "since i’m about to try :clap: the :clap: bus :clap: since i got dropped off thinking I’d be going to rollers",
+        "ts": "1436488396.000072"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "enjoy your bus adventure!",
+        "ts": "1436488488.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "sent",
+        "ts": "1436488588.000074"
+    }
+]

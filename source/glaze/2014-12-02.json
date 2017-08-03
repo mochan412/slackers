@@ -1,0 +1,367 @@
+[
+    {
+        "user": "U02F8LF2X",
+        "purpose": "i took mayo out of the equation",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "text": "<@U02F8LF2X|chewbacca> set the channel purpose: i took mayo out of the equation",
+        "ts": "1417522764.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Always cut the mayo.",
+        "ts": "1417524275.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup:",
+        "ts": "1417526147.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hey <@U026PHQ3J> how do you feel about your composited fridge image above? can we put that on basecamp or do you have more you want to do before that happens?",
+        "ts": "1417542435.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm actually trying right now to make it line up a little better",
+        "ts": "1417542458.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "give me 10 min",
+        "ts": "1417542462.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome, thanks",
+        "ts": "1417542526.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "More realistic",
+        "ts": "1417544552.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that's pretty great",
+        "ts": "1417544798.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> : working on installing mdns on the raspberry pi's for a bit.",
+        "ts": "1417548260.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sweet. also josh is going to take a picture of the bottom shelf with the camera at a new height (higher). not modifying the whole rig yet but just with a tripod to see if the result is worth going the distance in changing the rig",
+        "ts": "1417548809.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "and then I'm going to set up a raspberry pi with a little transistor on a gpio pin inline with the fridge's reed switch. toggling the state of the gpio should turn on\/off the fridge lights.",
+        "ts": "1417549626.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool.",
+        "ts": "1417549639.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to be done shortly",
+        "ts": "1417549647.000013"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1417551704.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "here are the pictures of the bottom shelf taken from different heights and angles",
+        "ts": "1417551713.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "not sure if\/how useful they are",
+        "ts": "1417551727.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i'm not sure if they are terribly helpful since we can't seem to see the whole width so we can't use them in a new composited image. however, the first couple of images 831 and 832 seems less like we're looking up at the drawers which is better. not sure if it's worth modifying the rig or not",
+        "ts": "1417553208.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "oh definitely don't incorporate these with the others since they were taken from a different perspective with a different lens with a different sensor. Just wanted to give people some different perspectives on the bottom area to see if it's worth moving that camera up",
+        "ts": "1417553297.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "and, <@U026103R3>, should we ask what \"Look forward to seeing the image once they're dialed in. \" means exactly? Is he mostly talking about the bottom image?",
+        "ts": "1417553353.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the processing hasn't been tuned either",
+        "ts": "1417553386.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "which I think evans mentioned",
+        "ts": "1417553396.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i chatted with evans about that and he has plans to tweak the cropping of the shelves, and a couple of other tuning tweaks",
+        "ts": "1417553405.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i think we we do those adjustments evans is planning on and put up on basecamp what we consider the \"dailed in\" image and see if they still have questions\/concerns",
+        "ts": "1417553445.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "not sure if\/how that camera is rotated",
+        "ts": "1417553625.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok got the raspberry pi to change levels on the gpio pins. commands look like \"gpio write 29 0\" to set pin 29 to low \"gpio write 29 1\" to set pin 29 to high",
+        "ts": "1417557474.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "hooking up transistor now to act as switch",
+        "ts": "1417557486.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "LMK when you're ready for me to wire it up to automation",
+        "ts": "1417557967.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "^ exciting!",
+        "ts": "1417558053.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "transistor works. getting closer",
+        "ts": "1417558937.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gpio command not found",
+        "ts": "1417560403.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is this add-on-able?",
+        "ts": "1417560419.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "sudo apt-get upgrade\n    6  git clone <git:\/\/git.drogon.net\/wiringPi>\n    7  cd wiringPi\/\n    8  git pull origin\n    9  ls\n   10  .\/build\n   11  gpio -v\n   12  gpio readall",
+        "ts": "1417560778.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "10.1.10.234 is set up with gpio now but don't twiddle pin 29 cause I'm working on it",
+        "ts": "1417560811.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ha ok i'm on 233",
+        "ts": "1417560900.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll install on 233 while I'm here",
+        "ts": "1417561146.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "... maybe... my connection seems to be super shitty",
+        "ts": "1417561164.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah it will take a while",
+        "ts": "1417561655.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\u0014done.",
+        "ts": "1417561665.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "faraday cage",
+        "ts": "1417561670.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "grafted two new actions into the node server, lightson and lightsoff",
+        "ts": "1417561680.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ended up using one of this IC switches <http:\/\/www.digikey.com\/product-detail\/en\/ADG701LBRTZ-REEL7\/ADG701LBRTZ-REEL7CT-ND\/1166750>",
+        "attachments": [
+            {
+                "text": "Buy ADG701LBRTZ-REEL7 Analog Devices Inc (ADG701LBRTZ-REEL7CT-ND) at <http:\/\/digikey.com|digikey.com>. Shop <http:\/\/digikey.com|digikey.com> for your Integrated Circuits (ICs) Interface - Analog Switches, Multiplexers, Demultiplexers needs. DigiKey has the largest selection of electronic components, parts and suppliers.",
+                "fallback": "Buy ADG701LBRTZ-REEL7 Analog Devices Inc (ADG701LBRTZ-REEL7CT-ND) at <http:\/\/digikey.com|digikey.com>. Shop <http:\/\/digikey.com|digikey.com> for your Integrated Circuits (ICs) Interface - Analog Switches, Multiplexers, Demultiplexers needs. DigiKey has the largest selection of electronic components, parts and suppliers.",
+                "from_url": "http:\/\/www.digikey.com\/product-detail\/en\/ADG701LBRTZ-REEL7\/ADG701LBRTZ-REEL7CT-ND\/1166750",
+                "id": 1
+            }
+        ],
+        "ts": "1417565405.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "thank you Josh of christmas past",
+        "ts": "1417565412.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "*these",
+        "ts": "1417565422.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm unable to connect to 234 via SSH <@U02F8LF2X>",
+        "ts": "1417570878.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah I changed everything around in an attempt to make it more reliable",
+        "ts": "1417571606.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "should work now",
+        "ts": "1417571620.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "10.1.10.234",
+        "ts": "1417571640.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/10.1.10.234\/lightsoff>",
+        "ts": "1417571815.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/10.1.10.234\/lightson>",
+        "ts": "1417571818.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Woop woop!",
+        "ts": "1417572327.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel>: first run through of the cycle is complete. It was cool. <@U02F8LF2X> said \"woo hoo\"",
+        "ts": "1417572803.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Woo Hoo!!!!",
+        "ts": "1417573234.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "woo hoo!",
+        "ts": "1417577584.000002"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/voices.washingtonpost.com\/securityfix\/homer.jpg>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/voices.washingtonpost.com\/securityfix\/homer.jpg",
+                "fallback": "237x329px image",
+                "image_url": "http:\/\/voices.washingtonpost.com\/securityfix\/homer.jpg",
+                "image_width": 237,
+                "image_height": 329,
+                "image_bytes": 19872,
+                "id": 1
+            }
+        ],
+        "ts": "1417577584.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "heh heh",
+        "ts": "1417577590.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Hehe",
+        "ts": "1417579094.000002"
+    }
+]

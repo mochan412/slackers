@@ -1,0 +1,127 @@
+[
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<!channel> which room are we in?",
+        "ts": "1431534453.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "(we're in Echo Chamber, since Robin said it was free)",
+        "ts": "1431534879.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool. im still in blackops meeting",
+        "ts": "1431534906.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "will be there shortly",
+        "ts": "1431534910.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": ":thumbsup:",
+        "ts": "1431534913.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "mary's still not here also",
+        "ts": "1431534921.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "scott and I are talking dev",
+        "ts": "1431534946.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "On my way in a minute sorry",
+        "ts": "1431535411.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02AUNA0P|designer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/designer\/F04RH7X5E\/add-your-own-thumbs.zip|add-your-own-thumbs.zip> and commented: <@U026PT0D7> here’s the assets for the add your own thumbs.",
+        "file": {
+            "id": "F04RH7X5E",
+            "created": 1431541517,
+            "timestamp": 1431541517,
+            "name": "add-your-own-thumbs.zip",
+            "title": "add-your-own-thumbs.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U02AUNA0P",
+            "editable": false,
+            "size": 26805,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04RH7X5E\/add-your-own-thumbs.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04RH7X5E\/download\/add-your-own-thumbs.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/designer\/F04RH7X5E\/add-your-own-thumbs.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F04RH7X5E-74a95bba5f",
+            "channels": [
+                "C03ASLFJE"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc04RH7XAJ",
+                "created": 1431541518,
+                "timestamp": 1431541518,
+                "user": "U02AUNA0P",
+                "is_intro": true,
+                "comment": "<@U026PT0D7> here’s the assets for the add your own thumbs."
+            }
+        },
+        "user": "U02AUNA0P",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "designer",
+        "bot_id": null,
+        "ts": "1431541518.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "thanks!",
+        "ts": "1431542102.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U0289USNA> <@U026PHQ3J> I'm seeing a bug in the crop view controller when I zoom in a lot a lot.\n&gt; CGBitmapContextInfoCreate: unable to allocate 2179005440 bytes for bitmap data\nI'm thinking of just limiting the amount one can zoom in, but I'm not sure what that limit should be.",
+        "edited": {
+            "user": "U026PT0D7",
+            "ts": "1431556244.000000"
+        },
+        "ts": "1431556237.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "actually, I bet there's a way to rewrite the crop flow such that it doesn't need to allocate data for the entire scaled original.",
+        "ts": "1431556570.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "(right now we scale the image, then crop. one way to solve this is to crop, then scale)",
+        "ts": "1431556597.000015"
+    }
+]

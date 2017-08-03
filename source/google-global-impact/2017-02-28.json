@@ -1,0 +1,564 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ran through the experience in the library I compiled a list of all the bugs I found, have a good full page of them",
+        "ts": "1488301493.374168"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "some of them seem likely that they are just symptoms of another",
+        "ts": "1488301510.375517"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "or possibly the data causing it",
+        "ts": "1488301529.377150"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "some are the data",
+        "ts": "1488301538.377849"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "here is what I have found <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/13OYvn01In0t3PKDERSWat79TTQ-0s5LbHHGhOMo2f2w\/edit?usp=sharing>",
+        "ts": "1488302964.495251"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "nice, thank you <@U0EL0GLEL> !",
+        "ts": "1488302985.497106"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "theres a big push to get all of this in jira today but good to know you have a list youre operating off at the moment",
+        "ts": "1488303008.498860"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah, lets get this stuff in jira. Im going to start attacking what might be api issues that are causing some of the strange things im seeing, need to do some research and see now that there is a visual representation of the data in podium. Can track this down.",
+        "ts": "1488303079.504543"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0ML49XU0",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[February 28th, 2017 9:29 AM] peter.bliss: here is what I have found <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/13OYvn01In0t3PKDERSWat79TTQ-0s5LbHHGhOMo2f2w\/edit?usp=sharing>",
+                "ts": "1488302964.495251",
+                "author_subname": "peter.bliss",
+                "channel_id": "C3C7Z6ECF",
+                "channel_name": "google-global-impact",
+                "is_msg_unfurl": true,
+                "text": "here is what I have found <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/13OYvn01In0t3PKDERSWat79TTQ-0s5LbHHGhOMo2f2w\/edit?usp=sharing>",
+                "author_name": "Peter Bliss",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/peter.bliss",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2015-11-16\/14681844048_38bff7e5608a1446dbcf_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U0ML49XU0|dennishanley> pinned a message to this channel.",
+        "ts": "1488303102.506632"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "And I think we are seeing a few issues stemming from messages getting lost, it seems like there is a fair amount of sending a message thru showtime and it not being received. going to be updating the service the handles these to listen for a response and send retries if none received in a timely fashion.",
+        "ts": "1488303534.545329"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U026E0ZNR",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[February 27th, 2017 5:19 PM] trent: <!here|@here> invite has been sent to all for InVision project with all podium screens. <@U243UT96G> let me know if anything looks funky to you in the Inspect mode. I noticed some garbage layers hiding beneath pertinent layers that need removing. will further clean up but you should have what you need. \n\n<https:\/\/uncorkedstudios.invisionapp.com\/share\/Y9AN27T5C>",
+                "ts": "1488244778.116323",
+                "author_subname": "trent",
+                "channel_id": "C3C7Z6ECF",
+                "channel_name": "google-global-impact",
+                "is_msg_unfurl": true,
+                "text": "<!here|@here> invite has been sent to all for InVision project with all podium screens. <@U243UT96G> let me know if anything looks funky to you in the Inspect mode. I noticed some garbage layers hiding beneath pertinent layers that need removing. will further clean up but you should have what you need. \n\n<https:\/\/uncorkedstudios.invisionapp.com\/share\/Y9AN27T5C>",
+                "author_name": "Trent Edwards",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/trent",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-12-07\/113311621520_403ac54aa7d7f3f2371a_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U026E0ZNR|trent> pinned a message to this channel.",
+        "ts": "1488303590.549909"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U0B9N0HF0> we discovered this morning that the InVision tool for spec’ing doesn’t handle type well at all. it sounds like if we want a tool for the redline process it likely needs to be Zeplin. so if the powers that be agree to us moving forward with this, we will need a team account on Zeplin to start a new project.",
+        "ts": "1488304081.591449"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "we can also discuss it at standup to be sure we have consensus among the team",
+        "ts": "1488304117.594805"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Ok. Thanks for update. Lets get consensus with team. I've already broached topic with Charles so can follow up when we decide",
+        "ts": "1488304466.626290"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> this 11am meeting is mostly for team leads.  I encourage the rest of team to keep focused where ya need to be",
+        "ts": "1488308298.974587"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0B9N0HF0> to book late afternoon reviews at rig based on our stand up chat this morning",
+        "ts": "1488308607.008709",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I think reviews should be predicated with the jira tasks closed out, review on rig will require a deploy to dev of the changes made before we go to review them. This needs to be carried out at least 15 mins in advance of the meeting. So if there is going to be a meeting based on the fact there are closed out jira tasks for review, We just need to coordinate this deploy. And we can run down the list of tasks that are new in the deploy in the meeting. Make sure a calendar invite for the meeting is scheduled in advance if there is one so i can ensure this is carried out",
+        "thread_ts": "1488309434.081934",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U02E3CRMA",
+                "ts": "1488311100.229968"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1488309434.081934",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "<@U0ML49XU0> <@U0B9N0HF0> allie mentioned a sound playing or some other attention getting mechanism to get people to look up at the wall",
+        "ts": "1488309466.084753"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "can we chat about this with <@U0XJFPSRL> who has some initial explorations on sounds, but we haven't had a chance yet to connect with you to see if that's something we can scope in to the project",
+        "ts": "1488309502.087907"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Would love to chat about this <@U0HP6TFNX>. Working on stuff now",
+        "ts": "1488309532.090709"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and wednesday I have an appointment right after work, I wont be able to stick around too long after 5",
+        "ts": "1488309568.093707"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "A note on that <@U02F9CXTL> they may be asking us to punch it up, not just include it",
+        "ts": "1488309598.096474"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so we can be bolder in implementation if you’d liek to try that",
+        "ts": "1488309609.097437"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0HP6TFNX> great point.  I’m a little hesitant from a scope and new functionality standpoint but we DO need a response for where host stands and how podium interaction results in Display activity and how we recommend directing attention either via human or software (sound graphic or otherwise)",
+        "ts": "1488309707.106283"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0HP6TFNX> i always thought that this three tier system scales like that as they start to add global content",
+        "ts": "1488309979.130042"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0B9N0HF0> an <@U0260V4K1> should we mention that copy will be in for beta?",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1488310839.000000"
+        },
+        "ts": "1488310824.206508"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "sure if it helps",
+        "ts": "1488310874.210817"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i think so",
+        "ts": "1488310879.211206"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Exactly. Since a push takes 15 mins, let's plan on at least 45 mins ahead so we can address any issues and re-push if required.",
+        "thread_ts": "1488309434.081934",
+        "parent_user_id": "U0EL0GLEL",
+        "ts": "1488311100.229968"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> Can we get latest greatest motion studios for podium ready by 1:30 - kicking off v2 for dev-team",
+        "ts": "1488313192.399828"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<https:\/\/drive.google.com\/open?id=0B2saO1SetZcbMGpfd2NDU3I1U2M>",
+        "ts": "1488313405.415443"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U026E0ZNR> can  you invite me to zeplin as well?",
+        "ts": "1488315465.570273"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U026E0ZNR> can we add latest .pngs here?\n<https:\/\/drive.google.com\/drive\/folders\/0B1KFvQr_SwVvZkMyd3RnQ3NjV2s>",
+        "ts": "1488316084.619983"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0B9N0HF0> I just sent a bunch of Jira tasks your way.  I’m done with the main Alpha doc ( I just did the Technical Feedback portion, minus two tickets that need clarity) and moving on to Peter’s doc now.",
+        "ts": "1488316833.676588"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "170228 Podium PNGs: <https:\/\/drive.google.com\/open?id=0B1KFvQr_SwVvVG9ReHUzSFp5aTQ>",
+        "ts": "1488317299.712516"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U02F9CXTL> :arrow_heading_up:",
+        "ts": "1488317310.713415"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U026E0ZNR",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[February 28th, 2017 1:28 PM] trent: 170228 Podium PNGs: <https:\/\/drive.google.com\/open?id=0B1KFvQr_SwVvVG9ReHUzSFp5aTQ>",
+                "ts": "1488317299.712516",
+                "author_subname": "trent",
+                "channel_id": "C3C7Z6ECF",
+                "channel_name": "google-global-impact",
+                "is_msg_unfurl": true,
+                "text": "170228 Podium PNGs: <https:\/\/drive.google.com\/open?id=0B1KFvQr_SwVvVG9ReHUzSFp5aTQ>",
+                "author_name": "Trent Edwards",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/trent",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-12-07\/113311621520_403ac54aa7d7f3f2371a_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U026E0ZNR|trent> pinned a message to this channel.",
+        "ts": "1488317321.714306"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "You’ve been invited to the Zeplin project, should have an email waiting for you",
+        "ts": "1488317341.715844"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Anyone else interested in being invited to the Podium spec project outside Mo and John let me know and I’ll add you",
+        "ts": "1488317369.717959"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I believe I have fixed all the bugs on my list from this morning related to the wall display, I want to start trying to implement some of the transitions soon, to at least ensure the system is working and get a feel for the effort to help with planning the how these will happen",
+        "ts": "1488317841.755300"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> while I admit it’s not the most efficient use of our time, I recommend that I upload your notes to Jira anyway so that Joel, Rob can track and maintain a sense of the bigger picture.  By the time they make it to you, resolve em if they’re ready for review and we’ll target em in an upcoming review.",
+        "ts": "1488318042.771977"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "actually a lot of the ones in that doc are still relevant, they are just podium related. I fixed the ones that pertained the display already",
+        "ts": "1488318087.775119"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "wanna cross em out? (I’ll still input anyway) but helps me understand whatcha mean",
+        "ts": "1488318174.781936"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I crossed em out on my sheet, actually had already just deleted them from the doc",
+        "ts": "1488318312.792624"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "a few are still there, with bold annotations if they are still of some concern",
+        "ts": "1488318360.797315"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "roger that",
+        "ts": "1488318439.804811"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> aa lot of these are good logic\/usability questions, can you and <@U0HP6TFNX> connect directly?  I think 5 min will go a long way here",
+        "ts": "1488319029.856351"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i only see 2 real questions",
+        "ts": "1488319148.866487"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i just requested access to doc, will highlight the other ones to be discussed",
+        "ts": "1488319173.868699"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and one of them i think i just realized what the answer is",
+        "ts": "1488319186.869846"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0B9N0HF0> you planning on sending client a follow up that includes AI on travel dates OR do you want me to chase travel dates in a parallel thread?",
+        "ts": "1488327267.474653"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "I can send a note w\/ an ai for Justin to confirm Tuesday works",
+        "ts": "1488329429.575461"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<!here> doing a short demo in library to see where we are at with existing bugs. Designers, we'd love to have you there for shared context, but if you have other commitments, we will not being doing design feedback.",
+        "ts": "1488329689.587298"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "@5:00",
+        "ts": "1488329707.588186"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i'd love to see latest and greatest. thanks for heads up",
+        "ts": "1488329732.589185"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Everyone here who's going to be here?",
+        "ts": "1488330288.612773"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0B9N0HF0> I have a meeting.\n:disappointed:",
+        "ts": "1488330320.614186"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "All good",
+        "ts": "1488330324.614362"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "<@U0EL0GLEL> I heard from Dennis you have a bunch of ux questions. Let me know what you need ",
+        "ts": "1488330557.623907"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "will point ya to doc and have async convo.  can book time for tomorrow immediately after stand up",
+        "ts": "1488330580.624805"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0HP6TFNX> <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/13OYvn01In0t3PKDERSWat79TTQ-0s5LbHHGhOMo2f2w\/edit?usp=sharing>",
+        "ts": "1488331129.647945"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F4B5FUUTB\/28_-_bug_review|2\/28 - Bug Review>",
+        "file": {
+            "id": "F4B5FUUTB",
+            "created": 1488331130,
+            "timestamp": 1488331130,
+            "name": "28 - Bug Review",
+            "title": "2\/28 - Bug Review",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 2936,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/13OYvn01In0t3PKDERSWat79TTQ-0s5LbHHGhOMo2f2w\/edit?usp=sharing",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gdoc_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gdoc_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F4B5FUUTB\/28_-_bug_review",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1488331130.647986"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Of note, for tomorrow's demo 02\/29, let's denote in the above document the bugs that are fixed by either reorganizing into a \"fixed\" column or using some short-hand. Then let's also create a column for new features\/improvements deployed",
+        "ts": "1488332187.688273"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "That's the Jira kanban, right?",
+        "ts": "1488332750.708490"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "tomorrow’s 3\/1!",
+        "ts": "1488333125.721927"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Good catch <@U06DFL7BP>",
+        "ts": "1488333342.729796",
+        "reactions": [
+            {
+                "name": "baseball",
+                "users": [
+                    "U06DFL7BP",
+                    "U0B9N0HF0"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "look at all this jira activity.  i’m giddy",
+        "ts": "1488333967.750910"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Of note, given the pace at which we're moving and the short timeline, I put tasks into a single day sprint 03\/01. If you see a task missing that you KNOW is a high priority, please either drag into spring from backlog or create and drag into sprint. Else, use this backlog as a prioritized list of tasks for tomorrow. As you complete tasks, please make sure to drag into the done column. If tasks are going to be multi-day efforts, but you making progress, please drag into \"in progress\" and I will make sure they move into the next days sprits",
+        "ts": "1488334450.768035"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> if you have quesiton on the :arrow_up: let Rob or I know.  We’ll be using this view to track overall progress and regress issues each day.  \n\n<https:\/\/uncorkedstudios.atlassian.net\/secure\/RapidBoard.jspa?rapidView=8&amp;projectKey=GNC&amp;view=detail&amp;selectedIssue=GNC-118>\n\nThanks Rob for keeping us focused and organized!",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1488335706.000000"
+        },
+        "ts": "1488334660.774772"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0B9N0HF0> Thank u!",
+        "ts": "1488341502.974571"
+    }
+]

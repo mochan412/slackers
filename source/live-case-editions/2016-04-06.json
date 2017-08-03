@@ -1,0 +1,306 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Can’t build right now, getting a weird gradle error ```UnsupportedMethodException\n           Error executing task com.intellij.execution.impl.ExecutionManagerImpl$5@1d97a653: Unsupported method: InstantRun.getRestartDexFile().\n           The version of Gradle you connect to does not support that method.\n           To resolve the problem you can change\/upgrade the target version of Gradle you connect to.\n           Alternatively, you can ignore this exception and read other information from the model.```",
+        "ts": "1459961737.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Going to downgrade  to alpha3 from alpha4 and see if that helps",
+        "ts": "1459961753.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "looks like my code is out of date too and there’s nothing to pull. <@U026PHQ3J> anything to push?",
+        "ts": "1459962058.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "The method we used for receiving push notifications is deprecated, but since we’re still getting them, it should be fine. If we keep using it too long, we may eventually have to change it.",
+        "ts": "1459962775.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Also, this error is pretty straightforward ```Missing an expected resource: 'R.string.google_app_id' for initializing Google services.  Possible causes are missing google-services.json or com.google.gms.google-services gradle plugin.``` It needs the google-services.json file, which we can’t generate without access to analytics. We’ll need to enable both analytics and cloud messaging in the file.",
+        "ts": "1459962846.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> yes, was logged into gcloud client with wrong account. pushed some stuff. need to test one more thing.",
+        "ts": "1459963446.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> are you ok with me namechecking you on my email to gKat about it?",
+        "ts": "1459963769.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok",
+        "ts": "1459963785.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "studio keeps forcing me back to alpha4",
+        "ts": "1459965787.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, sorry about that",
+        "ts": "1459966066.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ll try not to commit my temp changes in the future",
+        "ts": "1459966081.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh its ok",
+        "ts": "1459966108.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i was apologizing to you",
+        "ts": "1459966113.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1459966119.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we can still be friends even tho our gradle alpha numbers are different",
+        "ts": "1459966135.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "how sweet",
+        "ts": "1459966158.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "have any analytics been added since adding Koons? It doesn’t look like there’s an event for playing the audio. What about any new screens that have been added?",
+        "ts": "1459982416.000031"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i haven’t verified any - my presumption was we were following the pattern of Skrillex",
+        "ts": "1459983402.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "It’s not nearly so automatic, especially for new screens. It looks like some of the old analytics have been commented out too, I can comb through and try to find what’s missing.",
+        "ts": "1459984015.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "havnt added any that i know of and last i was told we wanted them removed while we worked on things",
+        "ts": "1459986169.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": " it's on dry run, which should stop us from reporting. I just noticed that some of the activity tracking was commented out without notes to add it back in.",
+        "ts": "1459988192.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Found a crash in the wallpaper download service in the wild. Seems that the case style ordinal doesn't match up when the Job runs ",
+        "ts": "1459996267.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Will fix shortly ",
+        "ts": "1459996282.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U06DFL7BP>: if you're near trello could you help me out with this ",
+        "ts": "1459996297.000038"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Hi",
+        "ts": "1459996623.000039"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "What's up",
+        "ts": "1459996629.000040"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Carded",
+        "ts": "1459996698.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks, sorry. ABout to get home but was at a redlight when i wrote the above",
+        "ts": "1459996803.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Its really weird. When the downloader ran, it picked up the case style ordinal from the params bundle and tried to load an artist at index 3",
+        "ts": "1459997031.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "except koons is 1",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1459997048.000000"
+        },
+        "ts": "1459997038.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i have no idea how a 3 got into that bundle",
+        "ts": "1459997054.000046"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ugh. Let me know how I can help. ",
+        "ts": "1459997084.000047"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I may be home tomorrow to avoid contaging given how I'm still hacking ",
+        "ts": "1459997101.000048"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(This sucks)",
+        "ts": "1459997108.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont imagine that its pleasant, so yes, please do get well",
+        "ts": "1459997125.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ughhhh i have no idea why a 3 ended up in there",
+        "ts": "1459997955.000051"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Old chip?",
+        "ts": "1459997974.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "anyway, i also fixed up some strong references to contexts that were in the code and am pushing those changes",
+        "ts": "1459997978.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1459997979.000054"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Or is it past that point ",
+        "ts": "1459997985.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i wish it was that easy",
+        "ts": "1459997985.000056"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "K- do we need to push a build or was this a one off fluke?",
+        "ts": "1459998011.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but a good guess!",
+        "ts": "1459998028.000058"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(Is it crashing for everyone)",
+        "ts": "1459998033.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we need to push a build anyway",
+        "ts": "1459998033.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "unclear",
+        "ts": "1459998037.000061"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ok",
+        "ts": "1459998041.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we need to push a build because of the broken google-services.json that was in there. <@U0261PCRQ> knows better about the state of analytics in there",
+        "ts": "1459998059.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "server seems to be working properly, i'm setting up for the framecounts on all 28 so i can upload those and test",
+        "ts": "1459998081.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "aaanyway, the server code is in a good spot now, client code is almost there once analytics are in place. I'm going to keep trying to figure out how the 3 got into the bundle (it _seriously_ makes no sense) and tighten some stuff up here and there perf-wise",
+        "ts": "1459998325.000065"
+    }
+]

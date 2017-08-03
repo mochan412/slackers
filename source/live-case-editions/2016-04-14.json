@@ -1,0 +1,248 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "neither 6 (N or M) has gotten a new wallpaper. ",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1460648326.000000"
+        },
+        "ts": "1460647974.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "The 5x and 6P have gotten a second new one today",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1460648334.000000"
+        },
+        "ts": "1460648053.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Although I don't' think you're even going to be able to get cases for the 6",
+        "ts": "1460648556.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's once a day while on wifi",
+        "ts": "1460648556.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yeh",
+        "ts": "1460648570.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's really likely it won't run until it's past 24 hours post install",
+        "ts": "1460648575.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "K - 5x was getting immediately for some reason but maybe cached?",
+        "ts": "1460648587.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(This is a build I installed yesterday)",
+        "ts": "1460648589.000011"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "But it coming on 5x and 6P makes me think it's just timing on the 6, not a delivery issue",
+        "ts": "1460648605.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I see that too",
+        "ts": "1460648615.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "But 5x is whateverville apparently ",
+        "ts": "1460648640.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Saw crash. I bet you're right. ",
+        "ts": "1460648684.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "When you're in, can we talk about deploying to prod and testing a Koons push?",
+        "ts": "1460648736.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yep",
+        "ts": "1460648851.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I thiiiink we might not have to reupload everything",
+        "ts": "1460649420.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ok - let me know and i can help re upload if we need to",
+        "ts": "1460650027.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Also: just to confirm: existing skrillex users won't get Koons pushes",
+        "ts": "1460650039.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "That was just a configuration on the server to send artist ID down",
+        "ts": "1460650046.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Correct ",
+        "ts": "1460650227.000022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cool",
+        "ts": "1460650240.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> is develop current?",
+        "ts": "1460650600.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yes",
+        "ts": "1460650654.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1460650660.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U06DFL7BP>: lets talk thru your crash. it was a permissions exception on skrillex, which means there's some other bug",
+        "ts": "1460651150.000027"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Hmm",
+        "ts": "1460651172.000028"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I cannot reproduce it, but will keep tryin",
+        "ts": "1460651574.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "damnit.",
+        "ts": "1460651617.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> i figured it out",
+        "ts": "1460669423.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "was a misconfig on the server",
+        "ts": "1460669434.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "redeploying.",
+        "ts": "1460669438.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i reverted a prod\/dev environment variable when i was doing the flow branches",
+        "ts": "1460669462.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":open_mouth:",
+        "ts": "1460669485.000035"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":o",
+        "ts": "1460669526.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "all good now. zips uploaded, need to create the entries by hand",
+        "ts": "1460669875.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "testing zip download before i push forward",
+        "ts": "1460669941.000038"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J> privacy doc update, please take a look ",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1460679198.000000"
+        },
+        "ts": "1460679195.000039"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Basically \"we aren't doing anything\"",
+        "ts": "1460679202.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "confirmed pushes are barriered for artists on production",
+        "ts": "1460679569.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "building prod debug build now",
+        "ts": "1460679709.000043"
+    }
+]

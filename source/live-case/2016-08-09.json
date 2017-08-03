@@ -1,0 +1,190 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "parallax and match case features are complete",
+        "ts": "1470760494.000211"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "woo hoo!",
+        "ts": "1470760988.000212"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thats AWESOME",
+        "ts": "1470760994.000213"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/img3.wikia.nocookie.net\/__cb20111121223950\/simpsons\/images\/2\/26\/Woo_hoo!_poster.jpg>",
+        "attachments": [
+            {
+                "fallback": "200x283px image",
+                "image_url": "http:\/\/img3.wikia.nocookie.net\/__cb20111121223950\/simpsons\/images\/2\/26\/Woo_hoo!_poster.jpg",
+                "image_width": 200,
+                "image_height": 283,
+                "image_bytes": 14759,
+                "from_url": "http:\/\/img3.wikia.nocookie.net\/__cb20111121223950\/simpsons\/images\/2\/26\/Woo_hoo!_poster.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1470761077.000214"
+    },
+    {
+        "user": "U1ZG1UCAK",
+        "inviter": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK|midori> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1470767640.000216"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey <@U0261PCRQ> we’re going to be updating the map styles for places (we’ll bake in again for the time being, then revisit making dynamic) - wanted to get a sense of how much time it took you for the original round",
+        "ts": "1470778696.000217"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or what that process was like",
+        "ts": "1470778701.000218"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ideally - X amount of time for X styles (so we can give them a deadline for when we need locked)",
+        "ts": "1470778732.000219"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "adding new, baked-in map styles shouldn’t take very long at all, because the concept of it already exists (as long as we’re keeping the same behavior)",
+        "ts": "1470779075.000220"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "if they have the whole list ready, it’d take about a day, I suppose. There might be more overhead than that considering back-and-forth conversations and subsequent builds, if that happens.",
+        "ts": "1470779123.000221"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool - that make sense!",
+        "ts": "1470779145.000222"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "appreciate it",
+        "ts": "1470779166.000223"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that doesn’t include changes that would allow colorways that are different for each style or anything like that",
+        "ts": "1470779190.000224"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just to clarify ^^^ you mean this isnt the new dynamic feature (that bonnie shared with us) that allows user to choose specific parts of their map style to update (ie- make water pink)",
+        "ts": "1470779596.000225"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "right",
+        "ts": "1470779849.000226"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1: thank you. and yeah, for that one, expect a considerable amount of time to implement",
+        "ts": "1470779999.000227"
+    },
+    {
+        "user": "U1J4BQX7G",
+        "text": "<@U1J4BQX7G|jack> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1470780225.000228"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J>: initial setting in parallax is incorrect",
+        "ts": "1470786850.000229"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J>: disable style when match case location",
+        "ts": "1470786915.000230"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK>: both fixed now.",
+        "ts": "1470793385.000231"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(and pushed)",
+        "ts": "1470793471.000232"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's also an error in the gif loader at the moment. working on that.",
+        "ts": "1470793991.000233"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "reduced the memory leak in the blur overlay",
+        "ts": "1470794035.000234"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "working on the intrinsic blur now",
+        "ts": "1470794040.000235"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(no guarantees)",
+        "ts": "1470794045.000236"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fixed gif download. will push in a bit",
+        "ts": "1470794490.000237"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "crop tool is cleaned up a bit. Still need to do some work on landscape mode. Interested on opinions regarding whether or not we should crop every image we download or not. <@U0XJFPSRL> <@U1A1A9L7N> (note that the original-size image is always preserved, but we have the option of being a little more effecient on the system if we don't tell the user that we pre-cropped it - basically we'd make the crop look the same as it would out of the box, but in fact the image is smaller)",
+        "ts": "1470802776.000238"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PHQ3J>: double check whether stored x\/y offsets are relative to top left or bottom left origin in image space or screen space ",
+        "ts": "1470805328.000239"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PHQ3J> and then fix it.",
+        "ts": "1470805350.000240"
+    }
+]

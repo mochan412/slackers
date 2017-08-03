@@ -1,0 +1,71 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here> today's update: cash and card transactions are both working. we're planning to deploy to the booth and test at ADX tomorrow morning.",
+        "ts": "1478045724.000137",
+        "reactions": [
+            {
+                "name": "partyparrot",
+                "users": [
+                    "U0H4SJN11"
+                ],
+                "count": 1
+            },
+            {
+                "name": "tada",
+                "users": [
+                    "U0H4SJN11"
+                ],
+                "count": 1
+            },
+            {
+                "name": "partyparrotrev",
+                "users": [
+                    "U02F8LF2X"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Great job guys!!!",
+        "ts": "1478045944.000138"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Way to go dudes ",
+        "ts": "1478047002.000139"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL> random things to add\/check tomorrow first-thing:\n\n* I added handlers in the main routine for JUSTRESET and MDB pushbutton reset. Will test before I leave, but let's really test it tomorrow\n* Lower our logging level so it's less verbose\/more useful\n* Command-line switch for COM port?\n* System startup service\/script\n* Timeout in polling functions in case hardware isn't physically attached\/powered on\/dies? Or do we just get a null character back?",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1478058324.000000"
+        },
+        "ts": "1478049052.000140"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll check my stuff in under a cleanup branch and we can go from there",
+        "ts": "1478049068.000141"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Sweet, that's great. ",
+        "ts": "1478049460.000142"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, I'm out. the cleaned up script is running on the system now, appears to handle MDB resets fine (though it can take FOREVER to latch). Going to leave overnight and see how it is in the morning.",
+        "ts": "1478051444.000143"
+    }
+]

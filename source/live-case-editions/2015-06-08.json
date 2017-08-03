@@ -1,0 +1,172 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Hey <@U02688JHZ> <@U026PHQ3J>  has there been any new follow up on the background image issue that Adam reported yesterday?",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1433779876.000000"
+        },
+        "ts": "1433779870.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I’ll forward email.",
+        "ts": "1433779899.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Oh good, thanks!",
+        "ts": "1433779921.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I just forwarded you the thread. I was driving yesterday and was trying to type at the same time, so i accidentally forked the thread.",
+        "ts": "1433779954.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Let’s get into glass room in a few and discuss",
+        "ts": "1433779973.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Just tossed a quick gather into glass",
+        "ts": "1433780028.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in about 15.",
+        "ts": "1433780034.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so we can clarify and democratize",
+        "ts": "1433780043.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "perfect",
+        "ts": "1433780058.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/developers.google.com\/cloud-messaging\/server-ref>",
+        "ts": "1433787621.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Look for: Invalid JSON\t400",
+        "ts": "1433787634.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or just 400",
+        "ts": "1433787648.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thanks!",
+        "ts": "1433788164.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Looks like there's just a straight up limit of 1000 recipients per GCM message: <http:\/\/developer.android.com\/training\/cloudsync\/gcm.html>",
+        "attachments": [
+            {
+                "text": "Google Cloud Messaging (GCM) is a free service for sending messages to Android devices. GCM messaging can greatly enhance the user experience. Your application can stay up to date without wasting battery power on waking up the radio and polling the server…",
+                "fallback": "Google Cloud Messaging (GCM) is a free service for sending messages to Android devices. GCM messaging can greatly enhance the user experience. Your application can stay up to date without wasting battery power on waking up the radio and polling the server…",
+                "from_url": "http:\/\/developer.android.com\/training\/cloudsync\/gcm.html",
+                "id": 1
+            }
+        ],
+        "ts": "1433789234.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Lots of complaints floating around about how this is poorly documented and how everything just silently fails when you try to send to 1000+",
+        "ts": "1433789543.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<https:\/\/github.com\/ToothlessGear\/node-gcm\/pull\/82>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Pass on response body with error information (similar to #79) by lwille · Pull Request #82 · ToothlessGear\/node-gcm · GitHub",
+                "title_link": "https:\/\/github.com\/ToothlessGear\/node-gcm\/pull\/82",
+                "text": "While #79 adds some more sophisticated error handling, we were just interested in the response body in case of an error 400 (resBody was \"Number of messages on bulk exceeds maximum allowed (1000)\" in our case).",
+                "fallback": "GitHub: Pass on response body with error information (similar to #79) by lwille · Pull Request #82 · ToothlessGear\/node-gcm",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/175639?v=3&s=400",
+                "from_url": "https:\/\/github.com\/ToothlessGear\/node-gcm\/pull\/82",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "id": 1
+            }
+        ],
+        "ts": "1433789929.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Anyway, the proposed and yet-to-be-implemented solution of the super defensive node-gcm developer is just using the async module to send batches of 1000 in parallel, i.e., exactly what we talked about doing.",
+        "ts": "1433790150.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02688JHZ> <@U026PHQ3J> Just deployed the updates to both tidy and gweb and tested with kat to confirm that she's getting pushes to refresh day images on production.",
+        "ts": "1433794720.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "excellent. thank you!",
+        "ts": "1433794806.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Do you want to reply to that email thread you're on, or do you want me to?",
+        "ts": "1433794815.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I'm happy either way :simple_smile:",
+        "ts": "1433794821.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'll send a reply on the thread",
+        "ts": "1433795081.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":thumbsup:",
+        "ts": "1433795093.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Nice work, team!",
+        "ts": "1433795105.000028"
+    }
+]

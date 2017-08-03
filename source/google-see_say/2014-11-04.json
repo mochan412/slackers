@@ -1,0 +1,94 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I feel like I have not made a great deal of progress on understanding audio\/video muxing today... the MediaCodec stuff doesn't make sense to me, and the example code isn't close enough to this use case.",
+        "ts": "1415137936.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8TTPU> I'm testing some android stuff for glaze right now, then lets check some stuff?",
+        "ts": "1415138006.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are you around for a bit today?",
+        "ts": "1415138011.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "this example uses mp4parser, but I wasn't able to get it to work without crashing yesterday: <http:\/\/www.hnwatcher.com\/r\/1170899\/Video-recording-and-processing-in-Android>",
+        "attachments": [
+            {
+                "text": "Video recording and processing in Android",
+                "fallback": "Video recording and processing in Android",
+                "from_url": "http:\/\/www.hnwatcher.com\/r\/1170899\/Video-recording-and-processing-in-Android",
+                "id": 1
+            }
+        ],
+        "ts": "1415138014.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "I'm trying to get Ryan to send us his feedback, but no luck yet.",
+        "ts": "1415138049.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Maybe I'm doing something wrong in my jcodec encoding. I'll keep working on it, just feel a little bit circular today",
+        "ts": "1415138051.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right now I'm trying to figure out why genymotion is freezing adb",
+        "ts": "1415138053.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "all the more reason to team up for a bit",
+        "ts": "1415138068.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yep, I'm here all day",
+        "ts": "1415138076.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think I have it working!",
+        "ts": "1415148605.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Right now it's hard-coded at 6 seconds, but that can be improved tomorrow. I'm posting a build.",
+        "ts": "1415148627.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "mp4parser wasn't dealing well with single-frame videos and mp4 audio, so I made it 2 frames and made audio AAC, and after some debugging, it works",
+        "ts": "1415148876.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "nice!!",
+        "ts": "1415148912.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "excited to take a look",
+        "ts": "1415148917.000017"
+    }
+]

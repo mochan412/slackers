@@ -1,0 +1,97 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "All right, the token\/cookie approach is now implemented and lightly tested, so if you get your token from \/v1\/thirdparty\/getThirdPartyToken, and then go to \/v1\/thirdparty\/authJawbone\/THAT_TOKEN, you should be redirected through Oauth and the backend should retrieve the userId based on the token and things work as we think they should",
+        "ts": "1459890006.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ooooooh",
+        "ts": "1459890026.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Same for \/v1\/thirdparty\/authFitbit\/TOKEN",
+        "ts": "1459890030.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm excited about this",
+        "ts": "1459890031.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thank you!",
+        "ts": "1459890040.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, awesome!",
+        "ts": "1459890068.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Right now it takes a long time, since there's an extra roundtrip in each request (to retrieve the access token from each API and then query couchbase for the userId) but I'll improve on that by putting tokens in their own bucket instead of default",
+        "ts": "1459890107.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "(at least I think the query is what's taking a long time, but I'm new at couchbase)",
+        "ts": "1459890123.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8TTPU|marissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/marissa\/F0Y7BAWUB\/-.txt|Untitled>",
+        "file": {
+            "id": "F0Y7BAWUB",
+            "created": 1459895146,
+            "timestamp": 1459895146,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U02F8TTPU",
+            "editable": true,
+            "size": 292,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0Y7BAWUB\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0Y7BAWUB\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/marissa\/F0Y7BAWUB\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0Y7BAWUB-d561c0ac32",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/marissa\/F0Y7BAWUB\/-.txt\/edit",
+            "preview": "curl -H \"Authorization: bearer 201b83e2c4f0992e12b65f04cdeeac74d79bdd8c17c09df79891c8a81fbf62217c0b22636390521c92041cfe0fa28ddff70a68aca0c102099adefbbf7d68b859\" -H \"Content-Type: application\/json\" -X POST -d '{\"userId\": \"test@test.com\"}' https:\/\/compass42.com\/v1\/thirdparty\/getThirdPartyToken",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>curl -H &quot;Authorization: bearer 201b83e2c4f0992e12b65f04cdeeac74d79bdd8c17c09df79891c8a81fbf62217c0b22636390521c92041cfe0fa28ddff70a68aca0c102099adefbbf7d68b859&quot; -H &quot;Content-Type: application\/json&quot; -X POST -d '{&quot;userId&quot;: &quot;test@test.com&quot;}' https:\/\/compass42.com\/v1\/thirdparty\/getThirdPartyToken<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0LDEJLG3"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8TTPU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "marissa",
+        "bot_id": null,
+        "ts": "1459895147.000010"
+    }
+]

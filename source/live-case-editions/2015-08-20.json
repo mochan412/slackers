@@ -1,0 +1,118 @@
+[
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "I’m about to push a fairly large amount of code as I merge androidM into master… buckle up",
+        "ts": "1440087714.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "this is the best thing to do in your final days",
+        "ts": "1440087780.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I made an update so that location updates are disabled when blur is started. It’s producing some weird behavior where the animation starts twice. Maybe because we get a location update during the first tile update? I’m not sure. Looking into that now.",
+        "ts": "1440095532.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "The blurred image is also completely black on the S5. I think that’s a known issue, but I wasn’t sure if that might have been fixed at one point.",
+        "ts": "1440095561.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The blur on s5 won't be an issue post muzei",
+        "ts": "1440096103.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "•shouldnt•",
+        "ts": "1440096111.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "is blur going to be on by default?",
+        "ts": "1440102552.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I guess my real question is whether or not I should be turning off all of these updates while the screen is off instead of just when blur is enabled. Right now, if blur is off and the wallpaper is no longer visible, we’re still leaving the updates on, just waiting until the wallpaper is visible again to retrieve a new tile.",
+        "ts": "1440102643.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "“updates” meaning location updates?",
+        "ts": "1440102692.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "location and activity updates",
+        "ts": "1440102725.000011"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "how long does it take to get a fix once the screen is unlocked? I would think if we’re not prefetching the tile to display immediately upon unlock, there’s a log anyways and there’s no sense in doing location \/ activity updates until we’re ready to display the change",
+        "ts": "1440102735.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "alright, well, this could require some fixing then.",
+        "ts": "1440102834.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "right now I’m having an issue with turning on activity and location updates at the same time. It’s causing two updates back-to-back which is not going to be straightforward to fix because of the way the callbacks are shown.",
+        "ts": "1440102881.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U051P3FPY>: just ran into this. We have to remove all references to apache httpclient from workshop during our update to M. It’s been removed from the sdk. <https:\/\/developer.android.com\/preview\/behavior-changes.html#behavior-apache-http-client>",
+        "attachments": [
+            {
+                "text": "Along with new features and capabilities, the M Developer Preview includes a variety of system changes and API behavior changes. This document highlights some of the key changes that you should understand and account for in your apps. If you have previously…",
+                "fallback": "Along with new features and capabilities, the M Developer Preview includes a variety of system changes and API behavior changes. This document highlights some of the key changes that you should understand and account for in your apps. If you have previously…",
+                "from_url": "https:\/\/developer.android.com\/preview\/behavior-changes.html#behavior-apache-http-client",
+                "id": 1
+            }
+        ],
+        "ts": "1440104488.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "by turning off location updates every time the wallpaper is not visible, we’re going to basically force a new tile download every time the wallpaper becomes visible again",
+        "ts": "1440106719.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "same with blur. In the case of blur, that means there will be two transitions back-to-back. One transition from blurry to clear and then another transition when we get the new location update (which may not be a new location)",
+        "ts": "1440107256.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U06DFL7BP>: I just sent you a couple of workshop builds on drive. The first is a build as of this morning which is working pretty well and the second turns on\/off location and activity updates based on wallpaper visibility and blur. It’s not working very well, but I’m not sure how much better it will get by EOD",
+        "ts": "1440111209.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "OK Great, thank you!",
+        "ts": "1440111396.000020"
+    }
+]

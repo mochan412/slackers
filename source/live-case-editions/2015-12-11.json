@@ -1,0 +1,8 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Refactored my code for how keyboard, wallpaper, and other extra features are handled into a system exposed as \"extras\", this cleans up my artist class a little taking that more specific logic and pushing it into the classes that handle that directly, as well as allows more than one of any of these to be exposed by an artist, ie, more than one keyboard or wallpaper. right now the code just uses index 0 of them, the ui would still need to be updated to use this multiple entries. I pushed this to the artistsrefactor branch on the repo if anyone wants to look.",
+        "ts": "1449864868.000002"
+    }
+]

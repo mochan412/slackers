@@ -1,0 +1,493 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA> I somehow missed allt he chatter about eyefi - apologies!",
+        "ts": "1462897040.000122"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "At this point, it sounds liek I should see if they have a Pro card.  If so, we order tone to test.  If not, explain the situation to them and see if theres room to influence the tech they use.  Fair\/accurate?",
+        "ts": "1462897073.000123"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Yes, from what I seen the non pro works by talking directly to the computer that it's sending files to, and the distance was not that great, I left the room and it didn't work",
+        "ts": "1462897352.000124"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The pro it's supposed to talk over your network, but also seems to require the computer you are sending files to, to have a Wi-Fi adapter, couldn't exactly tell why that is. Guessing something to do with the way it's setting up the communication",
+        "ts": "1462897450.000125"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "word",
+        "ts": "1462897790.000126"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and in your opinion <@U0EL0GLEL> would you want them to consider switching to tosiba product OR are you comfy going route of PRO\/Wifi adapater on head node?",
+        "ts": "1462897819.000127"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U11JK4QSK>: spec’d a card for binding of code to templates for initial wall review.. as you know, this is top priority: <https:\/\/trello.com\/c\/4wWmzweE>  let’s keep all activity around this on the card",
+        "ts": "1462897868.000128"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U0ML49XU0>: roger",
+        "ts": "1462897899.000129"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U0EL0GLEL>: this the address <http:\/\/192.168.169.90:9999\/AdminActivity\/index.html#\/presets\/none> ?",
+        "ts": "1462897951.000130"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the toshiba and others i looked at are a little different but possibly not. their thing was we dont have special software requirements like eyefi, we just throw up an access point you set your wifi to it and pull pictures yourself. eyefi might be doing that under the hood. but its software is doing the pull, not you. so with the toshiba we would have the issue of having to have something that is able to pull the files from the card. plus it would be a really bad range im sure on its access point. since its the card in the camera, and the head node is in the server closet. the pro is able to hit your wifi and use that, toshiba wouldnt. so there looks to be big advantage on eyefi pro",
+        "ts": "1462898017.000131"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U11JK4QSK>: that is the address for the admin activity, what are you looking for?",
+        "ts": "1462898059.000132"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "helpful, will keep that chain alive, now",
+        "ts": "1462898065.000133"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah good to know alternatives",
+        "ts": "1462898080.000134"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "gotcha, not able to connect to that ip",
+        "ts": "1462898088.000135"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "aiming to put static content on a template",
+        "ts": "1462898100.000136"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that address is probably down since i was working on the admin last night",
+        "ts": "1462898110.000137"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you shouldnt have to touch the admin activity",
+        "ts": "1462898120.000138"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "forgot to bookmark the address you sent yesterday",
+        "ts": "1462898144.000139"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you want the template editor <http:\/\/192.168.169.90\/>",
+        "ts": "1462898144.000140"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "thank you",
+        "ts": "1462898157.000141"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: were you using Adrian’s camera?",
+        "ts": "1462898299.000142"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah i have that here",
+        "ts": "1462898315.000143"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ran into the immediate issue of it was set to sleep in 30 seconds, which kills the file transfer. so that was good to know, just go in and turn that thing up to a higher timeout",
+        "ts": "1462898369.000144"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the actual file transfer was pretty fast. it was set to 14mp images, they were about 4meg each. took like 20-30secs to send. with another 30-45 for the connection to establish after i got near the computer.",
+        "ts": "1462898421.000145"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its nice that it put the images into a dated sub folder, makes its super easy to say these are the images for todays workshop",
+        "ts": "1462898442.000146"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "where are you savig all these learnings?",
+        "ts": "1462898463.000147"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "super good to have!",
+        "ts": "1462898466.000148"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "will have a doc of this info when im done",
+        "ts": "1462898533.000149"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> shared a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F17LSMP38\/eyefi|EyeFi>",
+        "file": {
+            "id": "F17LSMP38",
+            "created": 1462899133,
+            "timestamp": 1462899133,
+            "name": "EyeFi",
+            "title": "EyeFi",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 1878,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1qphPhLv8m8Dk3XvaRtvixNCoV8eRgMyG0BwPVtCBQ5w\/edit?usp=drivesdk",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gdoc_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gdoc_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F17LSMP38\/eyefi",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1462899133.000151"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "word <!here|@here> i started a new folder for workflow\/training\/socializaton docs: <https:\/\/drive.google.com\/open?id=0B2hvp3pmOYCFeGRNcDRDamowU1U>",
+        "ts": "1462899689.000153"
+    },
+    {
+        "user": "U0RJ7MNLV",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U0RJ7MNLV|tyesha> has left the channel",
+        "ts": "1462903428.000154"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>:  can ya remind me where we moved Admin to?",
+        "ts": "1462903448.000155"
+    },
+    {
+        "user": "U1172PRDX",
+        "inviter": "U0ML49XU0",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U1172PRDX|sarah> has joined the channel",
+        "ts": "1462903463.000156"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "welcome <@U1172PRDX> as you wokr on admin, let’s move the conversation here.  I’m trying to get new link to Admin now",
+        "ts": "1462903573.000157"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Moved admin to?",
+        "ts": "1462904101.000158"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i bookmarked: <http:\/\/192.168.169.90:9999\/AdminActivity\/index.html>",
+        "ts": "1462904173.000159"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "but xant load admin on my machine.  connected to uncorked wifi",
+        "ts": "1462904182.000160"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "IP is live - I get the template editor at the root",
+        "ts": "1462904674.000161"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U11JK4QSK>: and <@U0EL0GLEL> lets do this",
+        "ts": "1462906886.000162"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The admin is likely just not running right now, was doing pretty active dev there",
+        "ts": "1462906969.000163"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "roger",
+        "ts": "1462906976.000164"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: <@U11JK4QSK> <@U02E3CRMA> \nPeter and I just discussed what’s remaining in getting template-bound code on the wall.  Sounds like Peter could do some browser trickery to get code up on wall today but that it wouldn’t be a true test of current Admin capability SO he’s going to focus on brinign browser back (there’s some weird cross domain or routing thing) so we’ll defer full wall review til tomorrow at noon.  If Peter is still stuck on Admin, we’ll trudge to review with his work around and re-focus his efforts.",
+        "ts": "1462922406.000165"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "sound right peter?",
+        "ts": "1462922408.000166"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "sounds good",
+        "ts": "1462922452.000167"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "ill keep plugging along",
+        "ts": "1462922457.000168"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah that sounds good",
+        "ts": "1462922487.000169"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "just looked at what bryan has so far that looks great",
+        "ts": "1462922504.000170"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok <@U11JK4QSK> it’s my understanding that you can load up all content for all modes in the mean time (as you collect them\/assemble them",
+        "ts": "1462922549.000171"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "solid plan",
+        "ts": "1462922554.000172"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "yes, ill need to take a look at what we have for cubby assets",
+        "ts": "1462922586.000173"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "last i heard emily was focusing on topsweep",
+        "ts": "1462922595.000174"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "yeah, i’d benefit from catching up with @bryan if ya have a few min.",
+        "ts": "1462922626.000175"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "ill head over",
+        "ts": "1462922634.000176"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there is a chrome plugin we can use at the moment that allows the browser to bypass the error im having for now. i just tried it and it worked. it turns off that annoying security error. we will want to fix this tho. but i can at least progress on what im doing without that issue. will continue research on the fix also",
+        "ts": "1462922816.000177"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "CORS error?",
+        "ts": "1462923244.000178"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: just so im clear, not rely on chrome plugin til noon tomorrow, cool?  i’m cool investing time in trying to FIX this now.  unless you disagree",
+        "ts": "1462923682.000179"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i do want to fix that, but im also halfway through a thought and its stopping me there, so im going to just use this plugin and finish this issue i was working on first",
+        "ts": "1462923737.000180"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok use plug in, let us know when wall-ready (tomorrow AM), finish thought, fix Admin :simple_smile:",
+        "ts": "1462923858.000181"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "one more thing i havnt gotten to is fixing the order of the cubbies in the display to match the admin, so they are still in order in upper left and counting over. will need to keep that in mind when we get the data to display there is disparity there still. dont expect it will be hard to fix, just havnt got there",
+        "ts": "1462924043.000182"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "made a card",
+        "ts": "1462924337.000183"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks!",
+        "ts": "1462924910.000184"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i updated our top priority card: <https:\/\/trello.com\/c\/4wWmzweE>",
+        "ts": "1462924915.000185"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "does this make sense to <@U11JK4QSK> and <@U0EL0GLEL> ?",
+        "ts": "1462924923.000186",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0EL0GLEL"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "yes, what time are we planning our demo?",
+        "ts": "1462925145.000187"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "whenever its ready",
+        "ts": "1462925190.000188"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "ok, trying to anticipate how many modes will be stubbed",
+        "ts": "1462925215.000189"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "almost done with brand welcome top sweep",
+        "ts": "1462925239.000190"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "We could do it with that if it's an effective proof of template and binding workflow ",
+        "ts": "1462926333.000191"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet! got it working, I found i had some strange miss step in my code that handled the event of new data hitting the wall. Was testing if i sent a new set of participants to the wall via the sending of a different workshop. I wanted to see that it auto updated the wall to show the new users. It wasnt working but then i realized the code to handle that was totally wrong put in the right call and it works",
+        "ts": "1462926714.000192"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so in effect what I am seeing working now, is a scheduler admin send which is the method which a template updates to the display, works, this means no f5 refresh, the data just rebinds to the new data. as well new participants, or changing the cubby assignment etc, the data preset updates the wall in realtime too, no f5",
+        "ts": "1462926785.000193",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U02E3CRMA",
+                    "U0ML49XU0"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "damn is that cool, hit send in the admin, display updates",
+        "ts": "1462927002.000194"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: you have to show me this in the morning. This sounds super encouraging!  ",
+        "ts": "1462941462.000195"
+    }
+]

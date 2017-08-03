@@ -1,0 +1,202 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8TTPU> can I get a couple minutes of your time this morning to talk through a sanity check on some new stuff immersion is talking about",
+        "ts": "1421432583.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes it is related to that message",
+        "ts": "1421432594.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "oops, my bad for not noticing in the message yesterday that was an open question to be answered",
+        "ts": "1421432595.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh nah",
+        "ts": "1421432602.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "totally my miss",
+        "ts": "1421432620.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think it'll be essentially painless to add animated gifs, but I'll run a quick check (to see if they perform horribly or some other tizen-specific quirk)",
+        "ts": "1421432626.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool. thats basically my question!",
+        "ts": "1421432638.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "the question has been answered: yes, animated gifs look fine on the gear S watch. Example is on the black watch (with white USB dock) under Index-&gt;Stickers",
+        "ts": "1421433979.000009"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Nice! That's great news. Is that how you'd suggest we implement other animations? (Like the etching animation they'll provide, and the watch face animations we'd create?)",
+        "ts": "1421434191.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "watch faces can be done with JS and Canvas, design is the main challenge there (Tizen has 2 example watch face apps, one of which is adapted for the current CES demo)",
+        "ts": "1421434601.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I haven't seen the etching animation, but it can either be done with frames (PNGs and JS) or jQuery\/CSS property animations",
+        "ts": "1421434675.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I didn't have time to explore it in this project, but Gaston mentioned Velocity.js, which is a drop-in replacement for (slow) jQuery animations, might be worth trying if there's a need for multi-choreographed animated objects and the Gear S webkit browser seems to bog down on them.",
+        "ts": "1421435048.000013"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Excellent. If we expect it to function well, let's assume that we'll implement anything immersion provides as frame animations. Then we can explore the best options for clock movement as we move forward.",
+        "ts": "1421435178.000014"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Thank you Marissa!",
+        "ts": "1421435187.000015"
+    },
+    {
+        "user": "U02AUNA0P",
+        "inviter": "U030TQFR3",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02AUNA0P|designer> has joined the channel",
+        "ts": "1421443372.000016"
+    },
+    {
+        "user": "U02613K0X",
+        "inviter": "U030TQFR3",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02613K0X|jenny> has joined the channel",
+        "ts": "1421443374.000017"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<!channel>: Hi friends. I just sent an amazingly huge briefing email to Jenny, Phillip and Trent.  Thanks \/ sorry \/ you're welcome?",
+        "ts": "1421445576.000018"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "They're all here on slack now, too. HI GUYS.",
+        "ts": "1421445600.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "howdy. reading the email right now, thanks",
+        "ts": "1421445640.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yayyyyy <@U02613K0X> <@U02AUNA0P> and <@U026E0ZNR>!!",
+        "ts": "1421445658.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":raising_hand: hi",
+        "ts": "1421445661.000022"
+    },
+    {
+        "user": "U026E0ZNR",
+        "inviter": "U0260V1BX",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026E0ZNR|trent> has joined the channel",
+        "ts": "1421445666.000023"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Nice. Sorry about all the words I put in it.",
+        "ts": "1421445668.000024"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "you guys i'm on a plane. talking to you from a metal tube. in the sky.",
+        "ts": "1421445737.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "whooooaaaaaa",
+        "ts": "1421445758.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Literally high tech!",
+        "ts": "1421445814.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ba-zing!",
+        "ts": "1421445843.000028"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "i'm working in the cloud",
+        "ts": "1421445857.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ben's really looking at this project from a high level",
+        "ts": "1421445897.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":raised_hands:",
+        "ts": "1421445924.000031"
+    },
+    {
+        "user": "U030TQFR3",
+        "topic": "the vibes, man",
+        "type": "message",
+        "subtype": "channel_topic",
+        "text": "<@U030TQFR3|ben> set the channel topic: the vibes, man",
+        "ts": "1421446054.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02F8TTPU> when are you free to talk handoff stuff? this afternoon? tuesday morning?",
+        "ts": "1421446590.000033"
+    }
+]

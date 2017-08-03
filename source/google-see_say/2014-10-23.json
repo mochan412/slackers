@@ -1,0 +1,164 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll be a bit late in today. Going to zoomcare for an infected toe :mask:",
+        "ts": "1414079189.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":footprints::thumbsup:",
+        "ts": "1414080402.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm back, soaking my foot for a bit before heading in to the office. I'll go through Ryan's feedback now.",
+        "ts": "1414086849.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Sounds good",
+        "ts": "1414086870.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "0: yes, I'm aware of the timeline playback bug. That should be a straightforward thing to fix.",
+        "ts": "1414086988.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "1: I'm not seeing the \"lag\" when hitting the aperture icon, and I completely refactored that code recently (merging capture and record fragments) and I saw performance improve in my testing. I guess I'll test on the S5 and any other KitKat hardware to see if I can reproduce it or learn more...",
+        "ts": "1414087139.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "2: the reason the bulge looks pixelated is because the animation is literally stretching a bitmap that we extracted from the psd. I understand there are new vector animations in API 21, but that just came out this week and I would need to study how to implement vector views to see if it might be an improvement. Right now its a mystery to everybody.",
+        "ts": "1414087363.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "3: no problem, will do",
+        "ts": "1414087394.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "4: also no problem. Would have been nice to know that this was the spec before, but I can rewrite it",
+        "ts": "1414087457.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "5: I think this is doable. Another view\/animation topic I'll need to study and test a bit",
+        "ts": "1414087504.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "6: I have implemented an animation for timeline playback (just finished that yesterday) but I've never seen a video of how they want it to look. Given the current state of animations, I'm sure it will have to be redone.",
+        "ts": "1414087586.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "7: using the front facing camera is possible, but adding a full user experience for it (tap icon, new animations, error handling) needs design and development time",
+        "ts": "1414087728.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "re #7, roughly how much development time?  just to have in my back pocket in case ryan's curious as to how long it might take.",
+        "ts": "1414087802.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I can change the current app to always use the front camera in less than an hour, but if they're looking at a feature similar to how the camera app switches, about a week (depending on design and if there are new animations)",
+        "ts": "1414087973.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "gotcha",
+        "ts": "1414088010.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "wow, fixing 0 is very complicated and not straightforward at all... I'm using the new Lollipop RecyclerView to display the timeline items, and it doesn't have a notion that individual items can be altered, animated or accessed outside of adding or removing them",
+        "ts": "1414094477.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Finally finished fixing RecyclerView items so each animates correctly and plays the correct audio",
+        "ts": "1414104476.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whats our minimum supported OS level?",
+        "ts": "1414104697.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Removing the \"action items\" from the timeline had a side effect of making the ProgressBar disappear when the zoom happened, so I had to chase that down. My \"fix\" is to move the ProgressBar up while playback is occurring, but it has the annoying side effect of being somewhat visible to the user. I'll try to make it smoother if I have a new idea tomorrow.",
+        "ts": "1414104703.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "minimum is 19 (kitkat)",
+        "ts": "1414104738.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok thanks",
+        "ts": "1414104757.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Luckily, supporting older versions isn't a requirement, that could take weeks just by itself, although now that the Lollipop support library is out, it wouldn't be impossible",
+        "ts": "1414104888.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Re: root permission, will it be a problem for GCL running it locally in the near-term?",
+        "ts": "1414106067.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026AP8CM> the effort to build ffmpeg for this is probably forcing lock-in to that method.",
+        "ts": "1414106148.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its probably a better use of time to explore\/settle on a solution",
+        "ts": "1414106160.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I've got 0, 3 and 4 done today... I'm researching what needs to be done to make 5 happen",
+        "ts": "1414107946.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It's going to be a bit tricky since it's a fragment transition, and the animation has to be set in XML, but I can make 4 zoom animations from each quadrant of the screen and decide which one to use based on where the user touched",
+        "ts": "1414108162.000026"
+    }
+]

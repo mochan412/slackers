@@ -1,0 +1,248 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`rel1.5-rc1`",
+        "ts": "1477323950.001154"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> kat is asking what strings 1.5-df-3 accommodates?",
+        "ts": "1477328364.001155"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or anyone else who might have insight?",
+        "ts": "1477328378.001156"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Idk what that means",
+        "ts": "1477328477.001157"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "well shit",
+        "ts": "1477328501.001158"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "\"could you also let me know all the strings that 1.5-df-3 accommodates?\"",
+        "ts": "1477328507.001159"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> do you know if GA updates were included in latest release (23 from 10\/19)?",
+        "ts": "1477329725.001160"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m looking at branch `rel1.5-rc1` and it doesn’t look like they were included",
+        "ts": "1477330062.001161"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay cool - thanks for letting me know. we’ll get in the next one",
+        "ts": "1477330107.001162"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "from meeting",
+        "ts": "1477335463.001163"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Crash when share push notification - still WIP (NEXT BUILD)\nError handling request (NEXT BUILD)",
+        "ts": "1477335464.001164"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "GA (NEXT BUILD)",
+        "ts": "1477335493.001165"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Wanted to confirm about using US\/Default strings for Canada. Seems sort of weird since it will default to US strings anyway, Canada uses British English spellings.",
+        "ts": "1477350711.001166"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "that was kat’s request but i can clarify",
+        "ts": "1477350734.001167"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks for raising that flag  :flag-ca:",
+        "ts": "1477350803.001168"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J>",
+        "ts": "1477354016.001169"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes",
+        "ts": "1477354026.001170"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im trying to figure out how to test the invalid chip stuff",
+        "ts": "1477354042.001171"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "were you able to get error handling? just wondering if we can \/ should send a build out tonight so kat can test tomorrow",
+        "ts": "1477354048.001172"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ahhhh okay",
+        "ts": "1477354050.001173"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> <@U2H61EJSG> what branches should i merge before i do a build",
+        "ts": "1477354066.001174"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "localization has localizations for fr-CA, uk, and aus",
+        "ts": "1477354134.001175"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "`google_analytics_update`",
+        "ts": "1477354147.001176"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m applying de-de, but needs time because German is an f-ing long language",
+        "ts": "1477354193.001177"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> merged!",
+        "ts": "1477355170.001178"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sure - wednesday priority item <@U1ZG1UCAK>  :slightly_smiling_face:",
+        "ts": "1477355181.001179"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> should i rev the versionCode?",
+        "ts": "1477355209.001180"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I have them added, but needs more fiddling than others b\/c string length",
+        "ts": "1477355230.001181"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yesssss? i mean i dont except this will go out, more for her to test tomorrow but maybe in case? i dont know kat doesnt seem to have the same issues as minime so i would go standard course of action",
+        "ts": "1477355418.001182"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok i'm going to just cut a debug build",
+        "ts": "1477355438.001183"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool",
+        "ts": "1477355443.001184"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "of 43",
+        "ts": "1477355455.001185"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "1.5-df-5",
+        "ts": "1477355463.001186"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> sent a build that is pointed at tidy so that push can be tested",
+        "ts": "1477355761.001187"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "what else does this include? GA? error handling? or just push test?",
+        "ts": "1477355949.001188"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also: thank you!",
+        "ts": "1477355962.001189"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "includes GA and share fix",
+        "ts": "1477356113.001190"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "*should* have error handling",
+        "ts": "1477356118.001191"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but again, i only kind of know for sure",
+        "ts": "1477356124.001192"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay something for her to test :+1:",
+        "ts": "1477356142.001193"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!!!",
+        "ts": "1477356147.001194"
+    }
+]

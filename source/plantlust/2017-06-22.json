@@ -1,0 +1,50 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Hi <!here|@here>, I have a beginner environment question. I was just restarting and updating my VM to pull in the latest changes and when I run the server, it kicks off an unhandled exception: `AttributeError: 'module' object has no attribute 'ShopifyResource'`. The git repo on the VM is up-to-date with the plant_import branch, so there must be another step I'm missing. Should I run the puppet incantation (from the README) inside the VM?",
+        "ts": "1498150745.965550"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I just added a new python module requirement (a Shopify API library), so need to re-run installation of all libs in requirements.txt like this:\n`\/data\/code\/pythonenv\/bin\/pip install -r requirements.txt`",
+        "ts": "1498150817.995317"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "(from \/plantlust directory)",
+        "ts": "1498150822.997764"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Thanks! :slightly_smiling_face:",
+        "ts": "1498150855.011507"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "if that doesn’t work, ping me directly. it works fine on actual deployed boxes, but Vagrant is fussy sometimes",
+        "ts": "1498150860.013416"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "one more note, please make sure that `shopify` directory in the project root is not there. i removed it from git, but when doing a git pull elsewhere, it didn’t automatically remove the directory. it’s no longer needed and python was confusing that directory w\/ the new Shopify module",
+        "ts": "1498150919.038161"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Cool cool... it's working fine after I removed the shopify directory, ran the pip install, and did the migration it asked for. Thanks again!",
+        "ts": "1498151075.100183"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Spot on :slightly_smiling_face: That’s great",
+        "ts": "1498151105.112143"
+    }
+]

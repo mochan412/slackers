@@ -1,0 +1,543 @@
+[
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Hey there <!channel>. \n\nI have a call w magnum at 9. Hoping to illuminate their team on the work we've done and what they need to be aware of on their side. \n\nI've been following this all along, but is it possible to get a summary of latest and greatest? ",
+        "ts": "1493387907.896029"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Including anything their team needs to do that they've not yet",
+        "ts": "1493387940.913376"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "- hostmonster has changed their system so the site cannot run, as the database process gets terminated \n- we have escalated with hostmonster Support repeatedly and have not received a response \n- in the interim, we have moved he database process to an ec2 instance on our own amazon account to restore the site\n- in parallel we are preparing to migrate off of hostmonster entirely, by copying everything to our amazon instance, and when we and magnum are ready, being able to easily switch over\n- even with the site back up, magnum noticed an issue with the cms and image uploads. Dimitry is hoping to look at that this morning  \n\nAdditionally, magnum has grant applications and presentations next week and want to use the site as the vehicle to showcase the imagery ",
+        "ts": "1493388320.118819"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "No action on their side yet but we will eventually ask them to set up an amazon web services account. ",
+        "ts": "1493388342.130021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0265G76F> ",
+        "ts": "1493388349.133275"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Thanks Charles. Super helpful to have in one place ",
+        "ts": "1493388469.195744"
+    },
+    {
+        "text": "<https:\/\/pbs.twimg.com\/media\/CZTBKUqWQAEyvLe.jpg>",
+        "attachments": [
+            {
+                "fallback": "600x338px image",
+                "image_url": "https:\/\/pbs.twimg.com\/media\/CZTBKUqWQAEyvLe.jpg",
+                "image_width": 600,
+                "image_height": 338,
+                "image_bytes": 25422,
+                "from_url": "https:\/\/pbs.twimg.com\/media\/CZTBKUqWQAEyvLe.jpg",
+                "id": 1
+            }
+        ],
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1493388469.195808"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Great summary. Thank you",
+        "ts": "1493388701.317127"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "If I'm magnum, my priority is uploading for their grant pres  ",
+        "ts": "1493388835.388037"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Uploading works for me… interesting. <@U06DFL7BP> could we ask them to send us the file they’re trying to upload?",
+        "ts": "1493390560.317890"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F55H2P8SD\/pasted_image_at_2017_04_28_10_42_am.png|Pasted image at 2017-04-28, 10:42 AM> and commented: looks like the file gets resized into many sizes. i wonder if this process fails on HostMonster when uploading large images. total guess.",
+        "file": {
+            "id": "F55H2P8SD",
+            "created": 1493390613,
+            "timestamp": 1493390613,
+            "name": "Pasted image at 2017_04_28 10_42 AM.png",
+            "title": "Pasted image at 2017-04-28, 10:42 AM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1S5GKTHQ",
+            "editable": false,
+            "size": 224558,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F55H2P8SD\/pasted_image_at_2017_04_28_10_42_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F55H2P8SD\/download\/pasted_image_at_2017_04_28_10_42_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F55H2P8SD-254f35ded5\/pasted_image_at_2017_04_28_10_42_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F55H2P8SD-254f35ded5\/pasted_image_at_2017_04_28_10_42_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F55H2P8SD-254f35ded5\/pasted_image_at_2017_04_28_10_42_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 49,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F55H2P8SD-254f35ded5\/pasted_image_at_2017_04_28_10_42_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 65,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F55H2P8SD-254f35ded5\/pasted_image_at_2017_04_28_10_42_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F55H2P8SD-254f35ded5\/pasted_image_at_2017_04_28_10_42_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 97,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F55H2P8SD-254f35ded5\/pasted_image_at_2017_04_28_10_42_am_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 108,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F55H2P8SD-254f35ded5\/pasted_image_at_2017_04_28_10_42_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 130,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F55H2P8SD-254f35ded5\/pasted_image_at_2017_04_28_10_42_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 138,
+            "image_exif_rotation": 1,
+            "original_w": 2553,
+            "original_h": 345,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F55H2P8SD\/pasted_image_at_2017_04_28_10_42_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F55H2P8SD-2c9f040947",
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc55E4NJP2",
+                "created": 1493390613,
+                "timestamp": 1493390613,
+                "user": "U1S5GKTHQ",
+                "is_intro": true,
+                "comment": "looks like the file gets resized into many sizes. i wonder if this process fails on HostMonster when uploading large images. total guess."
+            }
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1493390631.356935"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That would make sense ",
+        "ts": "1493390932.521039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Especially if it's limiting process forks ",
+        "ts": "1493390943.526901"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "just uploaded a 3Kx2K image and it worked as well",
+        "ts": "1493391035.576678"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "both png and jpg",
+        "ts": "1493391090.606836"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so if it is inconsistency that does, to me at least, speak to a hostmonster throttling",
+        "ts": "1493391101.612467"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0265G76F> for your call, the good news is uploading appears to work, the bad news is it is inconsistent and unpredictable, we presume because of continued throttling by hostmonster. We hope that this is resolved by a move to amazon, but it would at least remove a factor for consideration",
+        "ts": "1493391253.697594"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i stupidly am wondering if uploading earlier in the day would be less likely to trigger throttling",
+        "ts": "1493391273.708104"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":upside_down_face:",
+        "ts": "1493391275.709377"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i would love to look at error logs, unfortunately in HostMoster, all the logs on the server are bundled into one. they give you your IP and say “search for your IP in these here logs”… if error happened just now, id be able to find it. but even minute-old errors are hard to find.",
+        "ts": "1493391370.762818"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I may ask them to upload a test image on their side just to see what happens",
+        "ts": "1493391467.816230"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "that’s great. if it still fails, i would love to get my hands on that image :slightly_smiling_face: could reveal more clues",
+        "ts": "1493391511.840503"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I had the issue testing an image that works this morning so",
+        "ts": "1493391736.975311"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F56674EDA\/c-xfetgxuaa__ur.jpg|C-XFEtgXUAA  ur>",
+        "file": {
+            "id": "F56674EDA",
+            "created": 1493391761,
+            "timestamp": 1493391761,
+            "name": "C-XFEtgXUAA__ur.jpg",
+            "title": "C-XFEtgXUAA  ur",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 217635,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F56674EDA\/c-xfetgxuaa__ur.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F56674EDA\/download\/c-xfetgxuaa__ur.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F56674EDA-e0e601d8f3\/c-xfetgxuaa__ur_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F56674EDA-e0e601d8f3\/c-xfetgxuaa__ur_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F56674EDA-e0e601d8f3\/c-xfetgxuaa__ur_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 223,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F56674EDA-e0e601d8f3\/c-xfetgxuaa__ur_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 297,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F56674EDA-e0e601d8f3\/c-xfetgxuaa__ur_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F56674EDA-e0e601d8f3\/c-xfetgxuaa__ur_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 446,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F56674EDA-e0e601d8f3\/c-xfetgxuaa__ur_800.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 495,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F56674EDA-e0e601d8f3\/c-xfetgxuaa__ur_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 594,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F56674EDA-e0e601d8f3\/c-xfetgxuaa__ur_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 634,
+            "image_exif_rotation": 1,
+            "original_w": 1200,
+            "original_h": 743,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F56674EDA\/c-xfetgxuaa__ur.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F56674EDA-0b60f1323b",
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1493391834.032195"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sorry - one final question as I suspect it'll come up. Do we have an idea about time, including when _we_ might have time to do full amazon migration? Goal for me on this call is to get them to a point where they're thinking slightly more long term than this meeting. Panic never makes good decisions.",
+        "ts": "1493393048.713383"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U1S5GKTHQ> ",
+        "ts": "1493393178.785927"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i’m actually working on it now. EOD is realistic.",
+        "ts": "1493393205.801198"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "oh",
+        "ts": "1493393210.803904"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ha",
+        "ts": "1493393211.804274"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and FTR, i'm going to not only address all of this stuff, but also that we're under no obligation to do this and that their dumb host service is at heart of all of this",
+        "ts": "1493393273.836679"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "in addition to no agreement of maintenance\/updates over time.",
+        "ts": "1493393299.853197"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so - it's not all sunshine and roses and handouts from me this AM. :wink:",
+        "ts": "1493393315.862006"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but thank you <@U1S5GKTHQ> for digging so far in on all this shit",
+        "ts": "1493393329.870388"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "all good! picked up a few new things about Python deployment, so a learning experience",
+        "ts": "1493393440.933246"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<!channel> - Just off call with Magnum. Update below: \n\n• First and foremost, they are _extremely thankful_ for what they know has been a complicated firedrill that we're helping them out with. \n\n• I was speaking with Emma, who is one of the high ups there and who is leading the presentation on Monday. She noted that the big meeting on Monday will work totally fine sans new content on site (the material they were working to upload). So while it'd be great to have, I think the pressure for a full site with all new content is off. \n\n• They understand the situation with Hostmonster as a non-viable option (more than likely) moving forward. They agree with our recommendation to migrate to an Amazon instance, but…\n\n• Because nothing can be simple, the people actually paying for the site hosting, AFAC, are based in Lebanon. Emma is going to try to reach out to them today to walk them thru everything, including recommendation that needs to move to Amazon. While she can't say with certainty the outcome, she understands the situation. \n\n• The program itself just got funded for another 3 years of photographers. That's great news, though it underscores the need to not only figure out hosting but also that there need to be updates to sites like this. You can't launch and forget about it. So…\n\n• Emma is also going to advocate that Magnum take over the hosting\/control of the site officially. AND that the fund must include budget for periodic updates, even if they're minimal in nature. Spitballing, I said even a week or two of work every six months with a small team would help ensure not only that shit like this is less frequent, but would also continue improving the site overall. While I said we may be able to help, I caveated that it all depends on scheduling regular time\/effort vs. these sorts of fire drills. \n\nThink that's roughly it. Let me know any questions\/concerns in any of the above. And again, thank you for digging into this. I know we don't have to, and that it's a pain. But thanks.",
+        "ts": "1493397110.855398",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1S5GKTHQ",
+                    "U06DFL7BP"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Awesome ",
+        "ts": "1493397273.935329"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Oh - also mentioned that we have been investigating a migration onto our Amazon, at minimum as a test of a longer term solution. I guess that they had uploaded a bunch of unpublished content, if only the words, for new projects. They asked if that work would be lost in any migration. I didn't think so, but calling it out just in case.",
+        "ts": "1493397392.992721"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Nope, nothing will be lost. We already migrated the database to Amazon last week.",
+        "ts": "1493397873.220587"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "awesome",
+        "ts": "1493397887.226843"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "thanks",
+        "ts": "1493397892.229246"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<!here|@here> just wanted to give heads up that i’ve redirected the DNS zone of the domain name to our new AWS setup. The subdomains `cms` and `api` resolved right away and are now pointing to the new setup. The root domain however, is still not resolving correctly and b\/c of this, currently *DOWN*. B\/c the domain is hosted at HostMonster, we are at the mercy of their DNS setup. This is normally a fairly fast process nowadays, so hopefully it all starts working soon :confused:",
+        "ts": "1493409744.833132"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Thanks for update Dimitry. If we know when it switches over, please give me a heads up and i'll keep the Magnum folks looped in",
+        "ts": "1493409981.937826"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I may have a quicker solution. However, <@U0265G76F> do you know if they use email services through the domain? As in, do they send email with @arabdocphotography.org? I want to move the whole DNS to AWS, but want to make sure email doesn’t break.",
+        "ts": "1493410103.989398"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Good question. I don't BELIEVE they do but will see",
+        "ts": "1493410126.998820"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "email off to their team. They answered me just a moment ago on different topic, so should know momentarily",
+        "ts": "1493410206.032318"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Excellent. Ill hold off. Thx",
+        "ts": "1493410278.061994"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "\"No emails are being used, just the website \nbest, E\"",
+        "ts": "1493410278.062276"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Yessss!",
+        "ts": "1493410286.065608"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<!here|@here> can someone please try loading <http:\/\/arabdocphotography.org> ? Resolved on my end but want to make sure",
+        "attachments": [
+            {
+                "title": "Arab Documentary Photography Program",
+                "title_link": "http:\/\/arabdocphotography.org",
+                "text": "Arab Documentary Photography Project (ADPP) is an initiative that provides support and mentorship to photographers from across the Arab region. The Arab Fund for Arts and Culture in partnership with Magnum Foundation and the Prince Claus Fund established the ADPP to stimulate compelling work by Arab Photographers working across a range of experimental styles of storytelling.",
+                "fallback": "Arab Documentary Photography Program",
+                "thumb_url": "http:\/\/arabdocphotography.org\/static\/images\/adpp.jpg",
+                "from_url": "http:\/\/arabdocphotography.org",
+                "thumb_width": 1200,
+                "thumb_height": 1200,
+                "service_icon": "http:\/\/arabdocphotography.org\/static\/favicon.ico",
+                "service_name": "arabdocphotography.org",
+                "id": 1
+            }
+        ],
+        "ts": "1493416276.212024"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "(also <http:\/\/cms.arabdocphotography.org> )",
+        "ts": "1493416292.216395"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Site works ",
+        "ts": "1493416365.236979"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "And can see cams ",
+        "ts": "1493416394.245139"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Cms ",
+        "ts": "1493416399.246586"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Great, then we should be all good. Tried uploading an image and worked also.",
+        "ts": "1493416405.248146"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "The only thing left on HostMonster is the domain. It’s registered on that service. Will need to move somewhere else at some point.",
+        "ts": "1493416473.266914"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Hot. Thanks so much Dimitry. They're going to be thrilled",
+        "ts": "1493416504.275224"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": ":slightly_smiling_face:",
+        "ts": "1493416511.277271"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "So in theory they could upload more stuff?",
+        "ts": "1493416638.313167"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Yup. Well certainly worth a try",
+        "ts": "1493416748.343914"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "It’ll confirm if hostmonster was holding us back or there’s a deeper underlying issue",
+        "ts": "1493416763.347872"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "But then we can troubleshoot way easier since we can see all the logs :slightly_smiling_face:",
+        "ts": "1493416779.352436"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Cool. ",
+        "ts": "1493416789.355636"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Signing off for now but plz keep me posted. Ill check back tonight",
+        "ts": "1493416791.356108"
+    }
+]

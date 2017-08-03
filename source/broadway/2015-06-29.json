@@ -1,0 +1,90 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU> and <@U026PHQ3J>  just a head's up that our last build sent over on friday is going through a full QA pass today",
+        "ts": "1435595526.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I'll triage and assign JIRA bugs if\/as they come in",
+        "ts": "1435595533.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "sounds great, i'll look for those and start addressing as they come in... I see there is a new question about the results card, so I'll comment on that",
+        "ts": "1435598031.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Sounds good, thanks Marissa!",
+        "ts": "1435598072.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "FYI, I just updated my crashlytics instance and it broke Android studio integration, I cannot load any projects anymore. I did build the latest Broadway APK before doing this unfortunate plugin update, so I can distribute it, but it's going to take some debugging tomorrow to figure out why I cannot do any further builds at the moment.",
+        "ts": "1435622691.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "That stinks! Sorry to hear it Marissa. Not worried from a project perspective though.",
+        "ts": "1435622732.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Glad to hear the latest build happened before the update :wink:",
+        "ts": "1435622745.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It's probably just a stinky plugin.. hopefully I correctly backed out all my changes and the APK has everything I planned to include.",
+        "ts": "1435622784.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "this is when a fingers crossed emoji would come in handy",
+        "ts": "1435622823.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": ":fingerscrossed: oh wait",
+        "ts": "1435622831.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i think i added that to our custom emojis last time i had the same thought",
+        "edited": {
+            "user": "U026103R3",
+            "ts": "1435622850.000000"
+        },
+        "ts": "1435622843.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "OK, distrubted 1.22 on fabric. release notes:",
+        "ts": "1435622873.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Presort zip download list so most recently updated (featured) experience is queued for download first\nDisplay experience intro fragments in a viewpager so left\/right swipe pages through the current experiences\nDimension and layout adjustments so that screens &gt; 600px use tablet dimensions\nnew logic to prevent an experience from starting (from gallery or featured experience) if network is disconnected\nAdjusted bottom\/left map image padding for better visibility of google logo",
+        "ts": "1435622875.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Thanks!",
+        "ts": "1435622888.000016"
+    }
+]

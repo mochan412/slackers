@@ -1,0 +1,492 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "So motion sequences for iPhone 5 an 6+ are fully exported, cut up into the 3 separate clips for each. Mocked up screenshots of actual exported assets for each phone and they look good to me (I have them on the devices at my desk if anyone wants to see). Still would like to test battery drain on phone with <@U0289USNA>.",
+        "ts": "1415045992.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "And <@U0260V1BX>, I misplaced the device list for Android, could you resend that so I can measure out export sizes for the target devices? I'll also need to know what resolution each device is in if you know, right now I'm just focusing on what's needed for the target devices.",
+        "ts": "1415046143.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Galaxy S5, S4, Note 3, Sony Z3: 1920x1080 px\nNote 4: 2560x1440",
+        "ts": "1415046159.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Thanks",
+        "ts": "1415046335.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02688JHZ> what headline did they choose??",
+        "ts": "1415052058.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0261PCRQ>:",
+        "ts": "1415053638.000007"
+    },
+    {
+        "user": "U0261PCRQ",
+        "inviter": "U0260V1BX",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0261PCRQ|kat> has joined the channel",
+        "ts": "1415053642.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <@U0261PCRQ>, trent is trying to create animation assets for android - any input on the following?",
+        "ts": "1415053674.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1415053681.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I'm also just now looking at this, where it says they're both a 5.7 inch display but way different pixel densities:\n\n<http:\/\/www.gsmarena.com\/samsung_galaxy_note_4-6434.php>\n\n<http:\/\/www.gsmarena.com\/samsung_galaxy_note_3-5665.php>",
+        "attachments": [
+            {
+                "text": "Samsung Galaxy Note 4 Android smartphone. Announced 2014, September. Features 3G, 5.7″ Super AMOLED capacitive touchscreen, 16 MP camera, Wi-Fi, GPS, Bluetooth.",
+                "fallback": "Samsung Galaxy Note 4 Android smartphone. Announced 2014, September. Features 3G, 5.7″ Super AMOLED capacitive touchscreen, 16 MP camera, Wi-Fi, GPS, Bluetooth.",
+                "from_url": "http:\/\/www.gsmarena.com\/samsung_galaxy_note_4-6434.php",
+                "id": 1
+            },
+            {
+                "text": "Samsung Galaxy Note 3 Android smartphone. Announced 2013, September. Features 3G, 5.7″ Super AMOLED capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.",
+                "fallback": "Samsung Galaxy Note 3 Android smartphone. Announced 2013, September. Features 3G, 5.7″ Super AMOLED capacitive touchscreen, 13 MP camera, Wi-Fi, GPS, Bluetooth.",
+                "from_url": "http:\/\/www.gsmarena.com\/samsung_galaxy_note_3-5665.php",
+                "id": 2
+            }
+        ],
+        "ts": "1415053726.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I would suggest just cutting android assets once since they're all the same dpi. You could get a little crazy with it and make more alternatives based on dpi+screen size, but I'm not sure that the Notes actually fall into different size buckets either. The final result may appear differently on each screen, but that's kind of the nature of Android and assets.",
+        "ts": "1415053874.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "It's kinda hard to say without implementing it myself",
+        "ts": "1415053924.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I'm confused about how these links tell me the Note 3 is at 386 ppi and the Note 4 is at 515 ppi, does that mean something else?",
+        "ts": "1415053961.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "those numbers are probably right. dpi and ppi are closely related, but the buckets that android uses are rather large.",
+        "ts": "1415054017.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Got it.",
+        "ts": "1415054061.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Thanks Kat!",
+        "ts": "1415054226.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah thank you kat. this is still so confusing.",
+        "ts": "1415054246.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "best to just embrace the chaos",
+        "ts": "1415054267.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sorry, wish I had better answers, but so much of it depends on how it is implemented.",
+        "ts": "1415054391.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "no worries!",
+        "ts": "1415054421.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I think I'll just draw the one based off of what psd we provided, and if they end up needing a new version drawn for the Note 4 I can provide that upon request (though I have a hunch they might just try making it work instead of asking for a new size).",
+        "ts": "1415054643.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah i doubt theyll ask for a new size",
+        "ts": "1415054869.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Is this Note 4 even released yet?",
+        "ts": "1415054899.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "dunno",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1415054966.000000"
+        },
+        "ts": "1415054960.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yep, we should get one",
+        "ts": "1415055049.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Prly",
+        "ts": "1415055108.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <@U026E0ZNR> is this the latest PSD? clients\/Ziba\/Energous\/Design\/Trent\/Energous_app_Trent_10-i5(3x).psd",
+        "ts": "1415058910.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i can't find the 2% increments graphic in there",
+        "ts": "1415058943.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "I also don't recall seeing an hours\/minutes til 100% screen",
+        "ts": "1415058997.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "(just trying to tie up out any loose ends so that we can have a full deck for handoff)",
+        "ts": "1415059042.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "That has the latest on everything but the updated infographic",
+        "ts": "1415059067.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I'm working on a version 11",
+        "ts": "1415059075.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok. i am only seeing the 5% increment graphic - is there a 2% one in the new psd?",
+        "ts": "1415059189.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "How many of the charging screens do we need with 2%, I replaced all 2% with 5% bars in mockups. I have all the elements set up for the dots but dont have them ready for a mockup.",
+        "ts": "1415059218.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i dont need it in any mockups. i am going to use the 5% ones for the deck, but I was going to pull the one with the dots into my android screens",
+        "ts": "1415059294.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but, i can make it from your smart object",
+        "ts": "1415059308.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "There should be a yellow labeled folder called Dots, the i5 version of sizing should work well for your layout (that's what I'm using for the motion assets) but be sure to resize the resolution of the smart object to 72 before transferring any layers.",
+        "ts": "1415059702.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Let me know if you don't find that. There is a chance that psd is not matching my psd.",
+        "ts": "1415059802.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "no dots. but its fine, i pulled the green glowy circle into my dotted smart object. so we're good. this is just for the handoff deck anyway.",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1415059971.000000"
+        },
+        "ts": "1415059958.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Just copied over a file called Charging Infographic.psb that has 1 Android Layer Comp and all the rest to set it up however you please. Files located in my Design folder on the project NAS section.",
+        "ts": "1415060015.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thank you",
+        "ts": "1415060031.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "yep",
+        "ts": "1415060055.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey, so doesnt need to be today obviously, but I will need an updated asset of the charging screen with the new glow + 2% dots.",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1415061086.000000"
+        },
+        "ts": "1415060842.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "for iOS",
+        "ts": "1415060861.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "so, no need to recreate all the states of the \"not charging\" - it's actually just screen 1.5",
+        "ts": "1415061066.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "It should be the same screen as the Android Layer Comp I shared earlier. There isn't any sizing difference.",
+        "ts": "1415061337.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "The only thing I notice after I shared that is that the green shape masking the dots need to be nudged over a little so it doesn't land halfway on the top dot.",
+        "ts": "1415061434.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Are you talking about a screenshot or just the asset?",
+        "ts": "1415061504.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "wondering if you can make the mockup, so I dont need to make it myself in your psd.",
+        "ts": "1415061523.000058"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i need an actual screen layout",
+        "ts": "1415061531.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i've been use the old one with the spiral logo thing",
+        "ts": "1415061565.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Ah, got it. I just finished making it so I'll shoot that over. On Slack or posted to NAS?",
+        "ts": "1415061599.000061"
+    },
+    {
+        "user": "U0261PCRQ",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U0261PCRQ|kat> has left the channel",
+        "ts": "1415061602.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "slack's fine!",
+        "ts": "1415061617.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thank yoU!",
+        "ts": "1415061619.000064"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1415061834.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thank you!",
+        "ts": "1415061855.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "the only screen missing now is a version of this, with 5% increments with an hours:minutes til 100% text. I'll toss that into the deck whenever it's ready.",
+        "ts": "1415061905.000067"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1415062075.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<http:\/\/static02.mediaite.com\/themarysue\/uploads\/2014\/10\/BAM2.gif>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/static02.mediaite.com\/themarysue\/uploads\/2014\/10\/BAM2.gif",
+                "fallback": "320x232px image",
+                "image_url": "http:\/\/static02.mediaite.com\/themarysue\/uploads\/2014\/10\/BAM2.gif",
+                "image_width": 320,
+                "image_height": 232,
+                "image_bytes": 1020261,
+                "id": 1
+            }
+        ],
+        "ts": "1415062077.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "haha",
+        "ts": "1415062085.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks!",
+        "ts": "1415062088.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "So we may want to point out the smaller point size for the numbers in this 5% version, and the minute\/hours labels too.",
+        "ts": "1415062145.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ah, yes.",
+        "ts": "1415062211.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "what size are they?",
+        "ts": "1415062224.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "So big number changes to 55pt @1x, doubles to 110pt @2x, but jumps up a little extra to 200pt @3x...",
+        "ts": "1415062375.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "3x meaning iPhone 6 Plus actually",
+        "ts": "1415062405.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "are they different sizes between iphone models for the 2% too?",
+        "ts": "1415062432.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and if so, what are they",
+        "ts": "1415062632.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Yes, I'll say 60pt @1x, 120pt @2x, and 220pt @3x for 2% version",
+        "ts": "1415062805.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "excellent. didn't realize those were scaling as well. Important for me to include in the handoff! Thanks!",
+        "ts": "1415062840.000082"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "So, I'm going off what PS is telling me in pts...",
+        "ts": "1415062884.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but i'll bet you they'll still f it up somehow",
+        "ts": "1415062885.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I'm gonna come talk to you real quick, but one more type spec: \n\n minute\/hour labels are Source Sans All Caps Semibold, 9pt @1x, 18pt @2x, 27pt @3x,  color: #696969",
+        "ts": "1415062981.000085"
+    }
+]

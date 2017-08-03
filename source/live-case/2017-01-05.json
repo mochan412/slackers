@@ -1,0 +1,679 @@
+[
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J>",
+        "attachments": [
+            {
+                "fallback": "[December 29th, 2016 9:52 AM] evans: most of my changes from earlier this week (for memory management) are on `bugfixes_12_2016`",
+                "ts": "1483033942.000601",
+                "author_subname": "evans",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "most of my changes from earlier this week (for memory management) are on `bugfixes_12_2016`",
+                "author_name": "evan evans",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/evans",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-12-20\/119250602179_3e8e584f22388e18e09a_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/live-case\/p1483033942000601",
+                "is_share": true,
+                "footer": "Posted in #live-case"
+            }
+        ],
+        "ts": "1483638442.000626"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "renammmmeeee",
+        "ts": "1483638900.000627"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> My changes for the location quick settings tile issue are on `places_location_provider_fix`",
+        "ts": "1483639019.000628"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thx.",
+        "ts": "1483639113.000629"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hmmm. <@U2H61EJSG> i can’t seem to get the `places_location_provider_fix` branch",
+        "ts": "1483639225.000630"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you double check that its pushed?",
+        "ts": "1483639231.000631"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I just checked the repo on gcloud and everything seems to be there…",
+        "ts": "1483639373.000632"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "got it",
+        "ts": "1483639390.000633"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i guess i can’t fetch right with two origins defined",
+        "ts": "1483639408.000634"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hmm strange!",
+        "ts": "1483639458.000635"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh hey all - forgot to mention in standup - <@U026PHQ3J> has jury duty on monday, so plan if you have questions or blockers make sure you connect with him beforehand :slightly_smiling_face:",
+        "ts": "1483641782.000636",
+        "reactions": [
+            {
+                "name": "scales",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U1A1A9L7N"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F3NKKAN7R\/minime-debug-1_5_17-v1.apk|MiniMe-DEBUG-1_5_17-v1.apk>",
+        "file": {
+            "id": "F3NKKAN7R",
+            "created": 1483652994,
+            "timestamp": 1483652994,
+            "name": "MiniMe-DEBUG-1_5_17-v1.apk",
+            "title": "MiniMe-DEBUG-1_5_17-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 35015268,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3NKKAN7R\/minime-debug-1_5_17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3NKKAN7R\/download\/minime-debug-1_5_17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F3NKKAN7R\/minime-debug-1_5_17-v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3NKKAN7R-00a0a527c6",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1483652996.000637"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> any clue on where the double tap in GA might live?",
+        "ts": "1483653001.000638"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(on hangout with bonnie looking for)",
+        "ts": "1483653016.000639"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "In Google Analytics?",
+        "ts": "1483653041.000640"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes sorry",
+        "ts": "1483653045.000641"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Not sure, I can look up what it should say. hold on",
+        "ts": "1483653070.000642"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1483653110.000643"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "anything? (sorry - literally sitting here watching her poke around)",
+        "ts": "1483653391.000644"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> whats in that build? everything to date?",
+        "ts": "1483653402.000645"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Category is wallpaper",
+        "ts": "1483653426.000648"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "action is wallpaper double-tapped",
+        "ts": "1483653438.000649"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the build has the memory fixes for the leak in collections and photos gifs",
+        "ts": "1483653453.000650"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and summer’s location fixes",
+        "ts": "1483653457.000651"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "sorry, verifying something. It looks like it's not on develop. Is it on the build you just posted, <@U026PHQ3J>?",
+        "ts": "1483653482.000652"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is the randomized images update in there too <@U2H61EJSG> ?",
+        "ts": "1483653490.000653"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "doubletap is in the build yes",
+        "ts": "1483653498.000654"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Did you include the changes on the `randomize_artworks` branch?",
+        "ts": "1483653545.000655"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill do that now",
+        "ts": "1483653565.000656"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i only did the branch you sent earlier",
+        "ts": "1483653571.000657"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah thats an old one - just want to give her everything we can to test with if possible",
+        "ts": "1483653587.000658"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like its in there",
+        "ts": "1483653592.000659"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "randomize is",
+        "ts": "1483653595.000660"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so if anyone has anything else please let evans know!",
+        "ts": "1483653599.000661"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "cool",
+        "ts": "1483653599.000662"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay so this build is good for me to test and then send?",
+        "ts": "1483653659.000663"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im going to merge back to develop",
+        "ts": "1483653681.000664"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "everyone check for your changes",
+        "ts": "1483653685.000665"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "merged. develop is up to date. cutting a build from it and will post in a moment",
+        "ts": "1483653748.000666"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> can you rebuild as 60_3.df.5 :grin:",
+        "ts": "1483653802.000667"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes",
+        "ts": "1483653811.000668"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you@!",
+        "ts": "1483653868.000669"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F3M878F1N\/minime-debug-1_5_17-v2.apk|MiniMe-DEBUG-1_5_17-v2.apk>",
+        "file": {
+            "id": "F3M878F1N",
+            "created": 1483654365,
+            "timestamp": 1483654365,
+            "name": "MiniMe-DEBUG-1_5_17-v2.apk",
+            "title": "MiniMe-DEBUG-1_5_17-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 35015222,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3M878F1N\/minime-debug-1_5_17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3M878F1N\/download\/minime-debug-1_5_17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F3M878F1N\/minime-debug-1_5_17-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3M878F1N-04af120bbb",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1483654367.000670"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F>  re: double-tap tag, there should also be a label (not sure how this shows in Analytics) that says something like \"Trends - Next Trending Item Shown\" or \"Earth Wallpaper Unblurred\"",
+        "ts": "1483654485.000671"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ohhhh shoot",
+        "ts": "1483654497.000672"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay ill let her know",
+        "ts": "1483654501.000673"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1483654504.000674"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(we were looking for the words double tap)",
+        "ts": "1483654516.000675"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F3MT0S91R\/minime-unsigned-1_5_17-v2.apk|MiniMe-UNSIGNED-1_5_17-v2.apk>",
+        "file": {
+            "id": "F3MT0S91R",
+            "created": 1483654518,
+            "timestamp": 1483654518,
+            "name": "MiniMe-UNSIGNED-1_5_17-v2.apk",
+            "title": "MiniMe-UNSIGNED-1_5_17-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 33463603,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3MT0S91R\/minime-unsigned-1_5_17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3MT0S91R\/download\/minime-unsigned-1_5_17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F3MT0S91R\/minime-unsigned-1_5_17-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3MT0S91R-7b2bccd681",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1483654522.000676"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "~that should be in there as the action (\"Wallpaper double-tapped\"), but it's hyphenated ( :troll: [jk, troll unintentional])~\nEvans ∞\nMidori != 0",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1483655523.000000"
+        },
+        "ts": "1483654630.000677"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/uncorked.slack.com\/archives\/live-case\/p1483653426000648>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/live-case\/p1483653426000648",
+                "fallback": "[January 5th, 2017 1:57 PM] evans: Category is wallpaper",
+                "ts": "1483653426.000648",
+                "author_subname": "evans",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "Category is wallpaper",
+                "author_name": "evan evans",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/evans",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-12-20\/119250602179_3e8e584f22388e18e09a_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "footer": "Posted in #live-case"
+            }
+        ],
+        "ts": "1483654697.000678"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/uncorked.slack.com\/archives\/live-case\/p1483653438000649>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/live-case\/p1483653438000649",
+                "fallback": "[January 5th, 2017 1:57 PM] evans: action is wallpaper double-tapped",
+                "ts": "1483653438.000649",
+                "author_subname": "evans",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "action is wallpaper double-tapped",
+                "author_name": "evan evans",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/evans",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-12-20\/119250602179_3e8e584f22388e18e09a_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "footer": "Posted in #live-case"
+            }
+        ],
+        "ts": "1483654698.000680",
+        "reactions": [
+            {
+                "name": "cool",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "backaway",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> I don’t see my changes to the artworks randomisation feature in the 1_5_17 apk. Have you pushed to develop? I tried pulling develop to verify my changes are there but it says everything is up to date.",
+        "ts": "1483655880.000683"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I pushed them, so maybe they aren't in there ",
+        "ts": "1483655902.000684"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Check out your randomize branch and merge develop into it ",
+        "ts": "1483655924.000685"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Double-check it there and we can merge it back to develop after ",
+        "ts": "1483655941.000686"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Is it possibly I’m pushing to\/pulling from the wrong remote?",
+        "ts": "1483656032.000687"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<https:\/\/source.developers.google.com\/p\/gweb-uncorked-workshop\/r\/default>",
+        "attachments": [
+            {
+                "title": "Google API Console",
+                "title_link": "https:\/\/source.developers.google.com\/p\/gweb-uncorked-workshop\/r\/default",
+                "text": "Google API Console lets you discover and use Google APIs, such as Google Maps and YouTube.",
+                "fallback": "Google API Console",
+                "from_url": "https:\/\/source.developers.google.com\/p\/gweb-uncorked-workshop\/r\/default",
+                "service_icon": "https:\/\/accounts.google.com\/favicon.ico",
+                "service_name": "accounts.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1483656039.000688"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Nevermind. It’s all there, it’s just not working correctly :confused:",
+        "ts": "1483656704.000690"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh shoot",
+        "ts": "1483656721.000691"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just reassigned to you summer :slightly_smiling_face:",
+        "ts": "1483656750.000692"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Awesome. I’ll work on that now. I also have a new Gauge build just about ready as well",
+        "ts": "1483656785.000693"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "its okay - we can get it in the next build if its not a quick fix",
+        "ts": "1483656800.000694"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "perfect - you read my mind",
+        "ts": "1483657113.000695"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F3M8XJ724\/app-debug.apk|app-debug.apk> and commented: Here is the latest Gauge build. Most of the changes are in the Device Usage Stats - accounting for User Present time and fixing issues caused by device shutdowns\/reboots. Still no luck gathering SMS stats from Hangouts unfortunately :confused:",
+        "file": {
+            "id": "F3M8XJ724",
+            "created": 1483657986,
+            "timestamp": 1483657986,
+            "name": "app-debug.apk",
+            "title": "app-debug.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 2241420,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3M8XJ724\/app-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3M8XJ724\/download\/app-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F3M8XJ724\/app-debug.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3M8XJ724-75fb996149",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc3N2VJKU5",
+                "created": 1483657986,
+                "timestamp": 1483657986,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "Here is the latest Gauge build. Most of the changes are in the Device Usage Stats - accounting for User Present time and fixing issues caused by device shutdowns\/reboots. Still no luck gathering SMS stats from Hangouts unfortunately :confused:"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1483657987.000696"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you so much!",
+        "ts": "1483660781.000697"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "this is dope",
+        "ts": "1483660787.000698"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im going to send as soon as this uploads to drive :upside_down_face:",
+        "ts": "1483660847.000699"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Woohoo!",
+        "ts": "1483661270.000700"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey gang - i have a meeting at water ave for the next hour, but ping me if ya need me",
+        "ts": "1483661534.000701"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "summer - sent! will keep you posted",
+        "ts": "1483661546.000702"
+    }
+]

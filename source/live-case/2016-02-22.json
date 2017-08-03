@@ -1,0 +1,194 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I thought there was a build Friday?",
+        "ts": "1456153744.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "There was, and I thought I shared it out with him by didn't see him on the shared list ",
+        "ts": "1456155749.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I (re?)added him this morning ",
+        "ts": "1456155763.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I tested aspect with those square images, didn't test with the others but lmk which ones are fucked up still",
+        "ts": "1456155889.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Oh I thought it wasn't finished - my bad. ",
+        "ts": "1456155919.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "NP, I thought maybe someone saw another issue with it",
+        "ts": "1456156031.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> can you confirm the GA tag in live case? UA-60451546-2",
+        "ts": "1456160992.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yep, that’s what we’re using",
+        "ts": "1456161068.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cool. I'm going to add you to our next check in and hope we can use it to make sure we're shored up on any tagging issues",
+        "ts": "1456161130.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(If that's ok!)",
+        "ts": "1456161166.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok",
+        "ts": "1456161298.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "are we not tracking or are we just wanting to update what we’re tracking?",
+        "ts": "1456161313.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Adam wants to \"review our tagging strategy\" I think just confirm that we're tracking what he wants to track",
+        "ts": "1456161349.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "cool. glad that it’s at least tracking something!",
+        "ts": "1456161451.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'm pretty sure we looked at all that when were up there, but maybe that was Editions",
+        "ts": "1456161521.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it was live case, I’m just paranoid",
+        "ts": "1456161575.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "some of the log messages I see make it seem like it might not be",
+        "ts": "1456161597.000012"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> Adam would like to fix the multiple home screens issue before pushing to prod – I know we un-fixed that in this build, how hard is it to re-re-fix ",
+        "ts": "1456161705.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(Or do we know)",
+        "ts": "1456161710.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don't know a way of fixing it that doesn't break something else",
+        "ts": "1456161762.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Would it help to workshop it with the back stacks like we did last week? Or is it something deeper ",
+        "ts": "1456161859.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "workshopping it assumed that we knew what was in the stack when we took certain courses, the bug is a state where we don’t know the stack exists",
+        "ts": "1456162079.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Do we know the events that would cause the bug?",
+        "ts": "1456162120.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "And could we just force home screen in those instances?",
+        "ts": "1456162128.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(Reset the stack)",
+        "ts": "1456162137.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Consistently not creating multiples with non-ideal stack retention would be more ideal than the other? But I feel like I don't grok the full scope of the issue",
+        "ts": "1456162179.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> new colors for places, we just need icons and colorway IDs? Anything else?",
+        "ts": "1456165907.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’d be nice to have names for the colorways too, for content descriptions",
+        "ts": "1456166059.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "they’re for accessibility",
+        "ts": "1456166097.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I suppose we could use the ids as content descriptions if we have no names",
+        "ts": "1456166351.000027"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'll ask for names if they have them!",
+        "ts": "1456166373.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushed fix for offset on landscape\/square",
+        "ts": "1456180351.000029"
+    }
+]

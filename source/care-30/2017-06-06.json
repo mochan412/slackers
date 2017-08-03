@@ -1,0 +1,989 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> hey folks, please plan to meet me in Stone for standup today so we can chat and also prepare for our 10am call",
+        "ts": "1496765304.131629"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U1S5GKTHQ> I'll slack call you for standup when everyone arrives",
+        "ts": "1496766690.662306"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Ah ok. Elise is also on the Google Hangouts",
+        "edited": {
+            "user": "U1S5GKTHQ",
+            "ts": "1496766713.000000"
+        },
+        "ts": "1496766708.669485"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Ah ok I can do that for sure",
+        "ts": "1496766734.678831"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hang tight",
+        "ts": "1496766735.679335"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0914MEN7> <@U0DCXC37U> not sure if you can join us for standup, but if so we're in stone",
+        "ts": "1496766932.752399"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U4VTSDW7P> <https:\/\/uncorkedstudios.invisionapp.com\/share\/H9BYOE6PE>",
+        "attachments": [
+            {
+                "service_name": "InVision Share Link",
+                "title": "Click here to view the project `Care 3.0 Prototype`",
+                "title_link": "https:\/\/uncorkedstudios.invisionapp.com\/share\/H9BYOE6PE",
+                "text": "Dashboard #1",
+                "fallback": "InVision Share Link: Click here to view the project `Care 3.0 Prototype`",
+                "thumb_url": "https:\/\/s3.invisionapp-cdn.com\/storage.invisionapp.com\/screens\/thumbnails\/236589018.png?x-amz-meta-iv=3&response-cache-control=max-age%3D2419200&x-amz-meta-mdi=25&x-amz-meta-ck=8afbc511cde5141b2f5fda0417fcb928&AWSAccessKeyId=AKIAJFUMDU3L6GTLUDYA&Expires=1498867200&Signature=1JEGwZ53V7xehMrJousBzGJyheg%3D",
+                "from_url": "https:\/\/uncorkedstudios.invisionapp.com\/share\/H9BYOE6PE",
+                "thumb_width": 370,
+                "thumb_height": 657,
+                "id": 1
+            }
+        ],
+        "ts": "1496767910.105190"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "note: I think we can remove the title “Care Daily” from the full screen timeline.",
+        "ts": "1496769294.612252"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i think we also need a different solution for the timer on that screen. It looks like it’s 6:20 because that timer lives in the same space as the time stamp. is there a way to keep the current time stamp and show the timer somewhere else? I’d also play with formatting - maybe it’s 6 hr 20 min?",
+        "ts": "1496769382.643840"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0XCJ372R|ali> uploaded a file: <https:\/\/uncorked.slack.com\/files\/ali\/F5QAJ7ZDL\/timeline_2.png|Timeline 2.png> and commented: <@U0260V1BX> How does this feel?",
+        "file": {
+            "id": "F5QAJ7ZDL",
+            "created": 1496771197,
+            "timestamp": 1496771197,
+            "name": "Timeline 2.png",
+            "title": "Timeline 2.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0XCJ372R",
+            "editable": false,
+            "size": 166133,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QAJ7ZDL\/timeline_2.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QAJ7ZDL\/download\/timeline_2.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QAJ7ZDL-ed4cf7cd4b\/timeline_2_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QAJ7ZDL-ed4cf7cd4b\/timeline_2_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QAJ7ZDL-ed4cf7cd4b\/timeline_2_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 175,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QAJ7ZDL-ed4cf7cd4b\/timeline_2_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 234,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QAJ7ZDL-ed4cf7cd4b\/timeline_2_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QAJ7ZDL-ed4cf7cd4b\/timeline_2_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 350,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QAJ7ZDL-ed4cf7cd4b\/timeline_2_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 389,
+            "thumb_800_h": 800,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QAJ7ZDL-ed4cf7cd4b\/timeline_2_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 467,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QAJ7ZDL-ed4cf7cd4b\/timeline_2_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 498,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 750,
+            "original_h": 1541,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/ali\/F5QAJ7ZDL\/timeline_2.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5QAJ7ZDL-8623bb6687",
+            "channels": [
+                "C484KQGUD"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5NS1GW5N",
+                "created": 1496771197,
+                "timestamp": 1496771197,
+                "user": "U0XCJ372R",
+                "is_intro": true,
+                "comment": "<@U0260V1BX> How does this feel?"
+            }
+        },
+        "user": "U0XCJ372R",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ali",
+        "bot_id": null,
+        "ts": "1496771200.298785"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Notes and action items from the call are contained in the 6\/6 Questions \/ Notes doc here",
+        "ts": "1496771303.336235"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026103R3|abby> shared a file: <https:\/\/uncorked.slack.com\/files\/abby\/F5P24ACN6\/_notes|6\/6 Check In Questions \/ Notes>",
+        "file": {
+            "id": "F5P24ACN6",
+            "created": 1496704157,
+            "timestamp": 1496704157,
+            "name": " Notes",
+            "title": "6\/6 Check In Questions \/ Notes",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U026103R3",
+            "editable": false,
+            "size": 764,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1fnE6b0Ev1YBxQwhgEQwJ8Mhfjh459SAKBe8GLi2QtpU\/edit?usp=sharing",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5P24ACN6-603d77b3b4\/_notes_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5P24ACN6-603d77b3b4\/_notes_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5P24ACN6-603d77b3b4\/_notes_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 278,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5P24ACN6-603d77b3b4\/_notes_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 371,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5P24ACN6-603d77b3b4\/_notes_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5P24ACN6-603d77b3b4\/_notes_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 557,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5P24ACN6-603d77b3b4\/_notes_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1035,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5P24ACN6-603d77b3b4\/_notes_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 742,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5P24ACN6-603d77b3b4\/_notes_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 791,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 1035,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/abby\/F5P24ACN6\/_notes",
+            "channels": [
+                "C484KQGUD"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C484KQGUD"
+            ],
+            "has_rich_preview": true
+        },
+        "user": "U026103R3",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "abby",
+        "bot_id": null,
+        "ts": "1496771305.336709"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0XCJ372R> i think that’s better, but i’d love to see a few different options that play with where in the hierarchy that timer lives. Feels a bit too prominent in that one you just posted.",
+        "ts": "1496771377.362827"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Where's the stop \/ clock out?",
+        "ts": "1496775299.822610"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PLK4S|matt> uploaded a file: <https:\/\/uncorked.slack.com\/files\/matt\/F5PFHEH1R\/image_uploaded_from_ios.jpg|Image uploaded from iOS>",
+        "file": {
+            "id": "F5PFHEH1R",
+            "created": 1496775305,
+            "timestamp": 1496775305,
+            "name": "Image uploaded from iOS.jpg",
+            "title": "Image uploaded from iOS",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U026PLK4S",
+            "editable": false,
+            "size": 74003,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5PFHEH1R\/image_uploaded_from_ios.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5PFHEH1R\/download\/image_uploaded_from_ios.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PFHEH1R-8045e3cabd\/image_uploaded_from_ios_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PFHEH1R-8045e3cabd\/image_uploaded_from_ios_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PFHEH1R-8045e3cabd\/image_uploaded_from_ios_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PFHEH1R-8045e3cabd\/image_uploaded_from_ios_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PFHEH1R-8045e3cabd\/image_uploaded_from_ios_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PFHEH1R-8045e3cabd\/image_uploaded_from_ios_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PFHEH1R-8045e3cabd\/image_uploaded_from_ios_800.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 450,
+            "thumb_800_h": 800,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PFHEH1R-8045e3cabd\/image_uploaded_from_ios_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PFHEH1R-8045e3cabd\/image_uploaded_from_ios_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 750,
+            "original_h": 1334,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/matt\/F5PFHEH1R\/image_uploaded_from_ios.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5PFHEH1R-70924d8285",
+            "channels": [
+                "C484KQGUD"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PLK4S",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "matt",
+        "bot_id": null,
+        "upload_reply_to": "1E49F9C6-12AA-4E9E-A855-A48B28A46208",
+        "ts": "1496775308.825625"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "good call - we should have the END SESSION action available",
+        "ts": "1496775373.850815"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "As a reference. Ali, let's chat after lunch",
+        "ts": "1496775374.851035"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "This timeline is for the Family, they would also be able to choose when to end a session?",
+        "ts": "1496775429.872256"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "derp, no.",
+        "ts": "1496775861.036434"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sorry.",
+        "ts": "1496775877.042436"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "hi <@U026103R3> <@U0HP6TFNX> <@U0GN0A9EV> re language. can i replace--throughout documentation--\"Nanny\" with \"Recurring Care,\"  and \"Babysitter\" with \"One-Time Care?\"  This is the recommendation in the writing style guide draft for 3.0.",
+        "ts": "1496778857.387271"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "I wouldn't be opposed, but gut tells me we should keep the word nanny just for care buy in",
+        "ts": "1496778912.405862"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I tend to agree with Megan here",
+        "ts": "1496778928.411619"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "maybe that changes for the real product, but it could help to leave it while we're trying to get everyone speaking the same language",
+        "ts": "1496778949.418715"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "super rough thought here, but thinking about an ecosystem intro that might help explain the moment when we push to app, and how we market the benefits",
+        "ts": "1496779188.502798"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0HP6TFNX|megan> uploaded a file: <https:\/\/uncorked.slack.com\/files\/megan\/F5NUQ6J0Y\/pasted_image_at_2017_06_06_12_59_pm.png|Pasted image at 2017-06-06, 12:59 PM>",
+        "file": {
+            "id": "F5NUQ6J0Y",
+            "created": 1496779191,
+            "timestamp": 1496779191,
+            "name": "Pasted image at 2017_06_06 12_59 PM.png",
+            "title": "Pasted image at 2017-06-06, 12:59 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0HP6TFNX",
+            "editable": false,
+            "size": 146623,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5NUQ6J0Y\/pasted_image_at_2017_06_06_12_59_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5NUQ6J0Y\/download\/pasted_image_at_2017_06_06_12_59_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5NUQ6J0Y-3439c4cae2\/pasted_image_at_2017_06_06_12_59_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5NUQ6J0Y-3439c4cae2\/pasted_image_at_2017_06_06_12_59_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5NUQ6J0Y-3439c4cae2\/pasted_image_at_2017_06_06_12_59_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 254,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5NUQ6J0Y-3439c4cae2\/pasted_image_at_2017_06_06_12_59_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 338,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5NUQ6J0Y-3439c4cae2\/pasted_image_at_2017_06_06_12_59_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5NUQ6J0Y-3439c4cae2\/pasted_image_at_2017_06_06_12_59_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 507,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5NUQ6J0Y-3439c4cae2\/pasted_image_at_2017_06_06_12_59_pm_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 564,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5NUQ6J0Y-3439c4cae2\/pasted_image_at_2017_06_06_12_59_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 677,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5NUQ6J0Y-3439c4cae2\/pasted_image_at_2017_06_06_12_59_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 722,
+            "image_exif_rotation": 1,
+            "original_w": 1700,
+            "original_h": 1198,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/megan\/F5NUQ6J0Y\/pasted_image_at_2017_06_06_12_59_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5NUQ6J0Y-c6a1d5853c",
+            "channels": [
+                "C484KQGUD"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0HP6TFNX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "megan",
+        "bot_id": null,
+        "ts": "1496779193.504773"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "it would need design",
+        "edited": {
+            "user": "U0HP6TFNX",
+            "ts": "1496779245.000000"
+        },
+        "ts": "1496779239.521847"
+    },
+    {
+        "type": "message",
+        "user": "U0914MEN7",
+        "text": "didn't we kill AtoZ nomenclature?",
+        "ts": "1496779254.527072"
+    },
+    {
+        "type": "message",
+        "user": "U0914MEN7",
+        "text": "but other than that... yay!",
+        "ts": "1496779268.532000"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "We got the word shiela chose adaz, full stop",
+        "ts": "1496779282.537230"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": ":confused:",
+        "ts": "1496779294.541341"
+    },
+    {
+        "type": "message",
+        "user": "U0914MEN7",
+        "text": "oh bam.  lame.",
+        "ts": "1496779307.546126"
+    },
+    {
+        "type": "message",
+        "user": "U0914MEN7",
+        "text": "somehow i missed that one",
+        "ts": "1496779313.548026"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "<@U026103R3> <@U0HP6TFNX> what if we keep the names nanny and babysitter in deck copy, but switch them out on prototype demo cards (like the icons would read \"Recurring Care\" or \"One-Time Care\"? Or would it be better for client to keep \"nanny\" and \"\"babysitter\" in demo copy too?",
+        "ts": "1496779574.639391"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "I think consistency is probably the way to go",
+        "edited": {
+            "user": "U0HP6TFNX",
+            "ts": "1496779662.000000"
+        },
+        "ts": "1496779656.667285"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Agreed, +1 for consistency",
+        "ts": "1496779666.670380"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I think having them in screen would be confusing",
+        "ts": "1496779671.672243"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "<@U0HP6TFNX> RE ecosystem doc, Care Assistant should be CareAssistant. And in the subtitle, you'll want a hyphen between post and match.",
+        "ts": "1496779693.679011"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "thanks, I can make those edits, would you mind looking at copy overall?",
+        "ts": "1496779717.687044"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "I'm not sure I used the best descriptions of all the benefits",
+        "ts": "1496779729.690767"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "totally going to do that. i'm copy editing the invision stuff right now. and will look at the BOD after. <@U0HP6TFNX> sound ok?",
+        "ts": "1496779789.710967"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "yep, not urgent",
+        "ts": "1496779795.713194"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Is there reasoning or a system behind when something is CareAssistant versus Care Assistant? I think I'm confused because we use both at times. (with space and without)",
+        "ts": "1496779853.732593"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "<@U026103R3> the logic here is that CareAssistant and CareExpress are products. Features (such as Care Share, Care Post and Care Plan) are two-worded. Does that make sense?",
+        "ts": "1496779953.765208"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yep gotcha",
+        "ts": "1496779963.768730"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "It's all in here, lady (<@U026103R3> ) . But I can for sure the knowledge holder of all this until it needs surfacing. <https:\/\/docs.google.com\/presentation\/d\/1bIv87WHdby8lWqYEqTS6KkrmR4j8qmQCBNSjW-1H5uE\/edit#slide=id.p>",
+        "ts": "1496780026.789729"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U4VTSDW7P|drcara> shared a file: <https:\/\/uncorked.slack.com\/files\/drcara\/F5ETEJ084\/careall-the-things_|careAll-the-Things>",
+        "file": {
+            "id": "F5ETEJ084",
+            "created": 1495059261,
+            "timestamp": 1495059261,
+            "name": "careAll-the-Things ",
+            "title": "careAll-the-Things",
+            "mimetype": "application\/vnd.google-apps.presentation",
+            "filetype": "gpres",
+            "pretty_type": "GDocs Presentation",
+            "user": "U4VTSDW7P",
+            "editable": false,
+            "size": 6389,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/presentation\/d\/1bIv87WHdby8lWqYEqTS6KkrmR4j8qmQCBNSjW-1H5uE\/edit?usp=sharing",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ETEJ084-524e214c5b\/careall-the-things__64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ETEJ084-524e214c5b\/careall-the-things__80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ETEJ084-524e214c5b\/careall-the-things__360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ETEJ084-524e214c5b\/careall-the-things__480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ETEJ084-524e214c5b\/careall-the-things__160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ETEJ084-524e214c5b\/careall-the-things__720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ETEJ084-524e214c5b\/careall-the-things__800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 450,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/drcara\/F5ETEJ084\/careall-the-things_",
+            "channels": [
+                "C484KQGUD"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": true
+        },
+        "user": "U4VTSDW7P",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "drcara",
+        "bot_id": null,
+        "ts": "1496780027.790086"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks!",
+        "ts": "1496780081.807880"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <!here|@here> i need to re-focus on LiveCase for the rest of the day unless there is anything pressing on Care.",
+        "ts": "1496780525.957037"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Ok, I will look to <@U0HP6TFNX> if there is anything pressing for care atm. Otherwise we'll plan to have you back tomorrow?",
+        "ts": "1496780598.963570"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yup, will likely need to devote a bit more time to LC this week than usual but i just need some solid heads down time on it atm.",
+        "ts": "1496780682.968125"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Ok good to know. Happy to chat about that with Jenna as as well if you need help prioritizing projects. I know we're splitting you so that's obvi fine :slightly_smiling_face: just want to make sure we're all aware we're in a push on care to 6\/13",
+        "ts": "1496780778.973272"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F5QEE10KZ\/pasted_image_at_2017_06_06_01_43_pm.png|sorry slack was down, here it is>",
+        "file": {
+            "id": "F5QEE10KZ",
+            "created": 1496781838,
+            "timestamp": 1496781838,
+            "name": "Pasted image at 2017_06_06 01_43 PM.png",
+            "title": "sorry slack was down, here it is",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 328754,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QEE10KZ\/pasted_image_at_2017_06_06_01_43_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QEE10KZ\/download\/pasted_image_at_2017_06_06_01_43_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 328,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 438,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 547,
+            "original_h": 600,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F5QEE10KZ\/pasted_image_at_2017_06_06_01_43_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5QEE10KZ-555e604e0e",
+            "channels": [
+                "C484KQGUD"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1496781840.236010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> do we know where the name Marta came from? We mentioned it came from the research but ET is asking specifically.",
+        "ts": "1496782292.394432"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "Elise found the name on the research on conversations for AdaZ",
+        "ts": "1496782757.549460"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "I think....",
+        "ts": "1496782761.550914"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "It may be that West is the originator. <@U0XJFPSRL> ?",
+        "ts": "1496782793.561184"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Hmm, I’m not remembering that….",
+        "ts": "1496782796.562411"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "oops.",
+        "ts": "1496782812.568137"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "I don't remember either, I thought it was a persona name, but I would comb the west research deck if we need to trace it back. I don't think we stuck to any participant's narrative so I don't know how helpful that is",
+        "ts": "1496782905.600197"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "its from the west research",
+        "ts": "1496782906.600414"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F5PKXNXBL\/screen_shot_2017-06-06_at_2.02.05_pm.png|Screen Shot 2017-06-06 at 2.02.05 PM.png>",
+        "file": {
+            "id": "F5PKXNXBL",
+            "created": 1496782939,
+            "timestamp": 1496782939,
+            "name": "Screen Shot 2017-06-06 at 2.02.05 PM.png",
+            "title": "Screen Shot 2017-06-06 at 2.02.05 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 306015,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5PKXNXBL\/screen_shot_2017-06-06_at_2.02.05_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5PKXNXBL\/download\/screen_shot_2017-06-06_at_2.02.05_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PKXNXBL-0e5e06d5d8\/screen_shot_2017-06-06_at_2.02.05_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PKXNXBL-0e5e06d5d8\/screen_shot_2017-06-06_at_2.02.05_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PKXNXBL-0e5e06d5d8\/screen_shot_2017-06-06_at_2.02.05_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 269,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PKXNXBL-0e5e06d5d8\/screen_shot_2017-06-06_at_2.02.05_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 358,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PKXNXBL-0e5e06d5d8\/screen_shot_2017-06-06_at_2.02.05_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PKXNXBL-0e5e06d5d8\/screen_shot_2017-06-06_at_2.02.05_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 538,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PKXNXBL-0e5e06d5d8\/screen_shot_2017-06-06_at_2.02.05_pm_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 597,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PKXNXBL-0e5e06d5d8\/screen_shot_2017-06-06_at_2.02.05_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 717,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5PKXNXBL-0e5e06d5d8\/screen_shot_2017-06-06_at_2.02.05_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 765,
+            "image_exif_rotation": 1,
+            "original_w": 1031,
+            "original_h": 770,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F5PKXNXBL\/screen_shot_2017-06-06_at_2.02.05_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5PKXNXBL-6d6a12c1dd",
+            "channels": [
+                "C484KQGUD"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1496782942.611925"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "we can change it to whatever if they’re hung up on it",
+        "ts": "1496782948.614076"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Thank you!",
+        "ts": "1496782953.615575"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": ":thumbsup::skin-tone-4:",
+        "ts": "1496782957.616851"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Not sure just want to provide the source first",
+        "ts": "1496782959.617713"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "this actually seems pretty useful for the new care schedule section I want to add",
+        "ts": "1496783325.734394"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U07KCCF0V|nick> commented on <@U06DFL7BP|charlesv>’s file <https:\/\/uncorked.slack.com\/files\/charlesv\/F5QEE10KZ\/pasted_image_at_2017_06_06_01_43_pm.png|sorry slack was down, here it is>: <https:\/\/andaz.hyatt.com\/en\/andaz.html>",
+        "file": {
+            "id": "F5QEE10KZ",
+            "created": 1496781838,
+            "timestamp": 1496781838,
+            "name": "Pasted image at 2017_06_06 01_43 PM.png",
+            "title": "sorry slack was down, here it is",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 328754,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QEE10KZ\/pasted_image_at_2017_06_06_01_43_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5QEE10KZ\/download\/pasted_image_at_2017_06_06_01_43_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 328,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 438,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5QEE10KZ-2f25d01857\/pasted_image_at_2017_06_06_01_43_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 547,
+            "original_h": 600,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F5QEE10KZ\/pasted_image_at_2017_06_06_01_43_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5QEE10KZ-555e604e0e",
+            "channels": [
+                "C484KQGUD"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "Fc5QEX0V2B",
+            "created": 1496783443,
+            "timestamp": 1496783443,
+            "user": "U07KCCF0V",
+            "is_intro": false,
+            "comment": "<https:\/\/andaz.hyatt.com\/en\/andaz.html>"
+        },
+        "is_intro": false,
+        "ts": "1496783443.770079"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0XCJ372R|ali> uploaded a file: <https:\/\/uncorked.slack.com\/files\/ali\/F5PPKTERK\/carecard_test_ag.zip|CareCard Test AG.zip> and commented: <!here|@here> This is the card system I've been playing with.",
+        "file": {
+            "id": "F5PPKTERK",
+            "created": 1496786092,
+            "timestamp": 1496786092,
+            "name": "CareCard Test AG.zip",
+            "title": "CareCard Test AG.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0XCJ372R",
+            "editable": false,
+            "size": 1051492,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5PPKTERK\/carecard_test_ag.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5PPKTERK\/download\/carecard_test_ag.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/ali\/F5PPKTERK\/carecard_test_ag.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5PPKTERK-d5720194e1",
+            "channels": [
+                "C484KQGUD"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5PPKTJ93",
+                "created": 1496786092,
+                "timestamp": 1496786092,
+                "user": "U0XCJ372R",
+                "is_intro": true,
+                "comment": "<!here|@here> This is the card system I've been playing with."
+            }
+        },
+        "user": "U0XCJ372R",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ali",
+        "bot_id": null,
+        "ts": "1496786093.509315"
+    },
+    {
+        "type": "message",
+        "user": "U4VTSDW7P",
+        "text": "<@U0HP6TFNX> check out slides 10-12. It's the first pass at a user story that you can carry through. Let me know what other features you want called out--either in our sections and\/or in their sections.",
+        "ts": "1496788259.998438"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "thanks <@U4VTSDW7P> I added some comments",
+        "ts": "1496789379.213479"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> Hi Team! Reminder that I am out tomorrow through Friday. I'll be available via slack as much as possible, but in the meantime please continue onward and addressing feedback. \n\nIn general, I think we need to push hard to make sure we're super buttoned up on 6\/13 (our final review before delivering on 6\/16). Let's make sure to address feedback concretely, and ask ourselves what the right level is for what we're trying to show. My one note of caution is that if we go too far from what we've shown so far, that we'll show new stuff in a \"final\" review and garner more feedback than we have time to tackle. When in doubt, discuss it out! (sorry)",
+        "ts": "1496795539.201233"
+    },
+    {
+        "type": "message",
+        "user": "U0DCXC37U",
+        "text": "^ OMG CHARLES",
+        "ts": "1496795653.216271"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "<@U026103R3> anything specific you're concerned about being too far? I've added some things in response to the feedback and not sure if those are what you're thinking of ",
+        "ts": "1496795852.242526"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "My note is more in general for us to be aware of. I see the placeholder screens you've added for payments and schedule, and I'm not sure yet because those are placeholder how we plan to show that we've hit that feedback. If we can work it into existing sections or slides, that would be good I think, but if they need their own slides or section we can make a case for it. Just want us to be actively asking ourselves those questions.",
+        "ts": "1496795950.255359"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "Agreed - I hope we can do a critical pass as a team as we get those details in there",
+        "ts": "1496796051.268724"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": ":+1:",
+        "ts": "1496796438.319888"
+    }
+]

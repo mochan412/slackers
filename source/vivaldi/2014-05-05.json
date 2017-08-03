@@ -1,0 +1,126 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/github.com\/hollie\/misterhouse>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "hollie\/misterhouse",
+                "title_link": "https:\/\/github.com\/hollie\/misterhouse",
+                "text": "misterhouse - Perl open source home automation program. It's fun, it's free, and it's entirely geeky.",
+                "fallback": "GitHub: hollie\/misterhouse",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/697364?s=400",
+                "from_url": "https:\/\/github.com\/hollie\/misterhouse",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "id": 1
+            }
+        ],
+        "ts": "1399331032.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "In particular: <https:\/\/github.com\/hollie\/misterhouse\/tree\/28a0a242e86463721d2c5413642b82ca2b7415c7\/lib\/Insteon>",
+        "ts": "1399332406.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Further refinement:",
+        "ts": "1399332474.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/github.com\/hollie\/misterhouse\/blob\/28a0a242e86463721d2c5413642b82ca2b7415c7\/lib\/Insteon\/MessageDecoder.pm>",
+        "ts": "1399332474.000006"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1399333199.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Slightly modified their code in that repo to do a perl script that you can run from the command line and pass in the response string from the plm",
+        "ts": "1399333227.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Example:",
+        "ts": "1399333239.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "perl <http:\/\/parse.pl|parse.pl> 0250283CC5110101CB0600",
+        "ts": "1399333240.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "example output:",
+        "ts": "1399333256.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "PLM Command: (0250) insteon_received\n            From Address: 28:3c:c5\n              To Address: 11:01:01\n           Message Flags: cb\n                Message Type: (110) All-Link Broadcast Message\n              Message Length: (0) Standard Length\n                   Hops Left: 2\n                    Max Hops: 3\n         Insteon Message: 0600\n                       Cmd 1: (06) All-Link Cleanup Report\n                       Cmd 2: (00) Fail Count",
+        "ts": "1399333267.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that's pretty sweet",
+        "ts": "1399333326.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to read their AllLinkDatabase module to figure out how that works",
+        "ts": "1399333375.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to quickly run all the messages you sent me and see what comes out of it",
+        "ts": "1399333657.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Received data: 02 50 28 3C C5 00 00 01 CB 13 01 \nmsg type: Standard Message Received, from: Living Room Motion Sensor, to: 00 00 01, flags: Group Broadcast Message, Standard, Hops Left: 2, Max Hops: 3, cmd1: 13, cmd2: 01\n\n0250283CC5000001CB1301\n\nPLM Command: (0250) insteon_received\n   From Address: 28:3c:c5\n     To Address: 00:00:01\n  Message Flags: cb\n       Message Type: (110) All-Link Broadcast Message\n     Message Length: (0) Standard Length\n          Hops Left: 2\n           Max Hops: 3\nInsteon Message: 1301\n              Cmd 1: (13) ALL-Link Alias 1 Low\n              Cmd 2: 01",
+        "ts": "1399333839.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thats the only interesting one",
+        "ts": "1399333842.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh this one too:",
+        "ts": "1399333863.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "PLM Command: (0250) insteon_received\n            From Address: 28:42:c6\n              To Address: 00:00:01\n           Message Flags: cb\n                Message Type: (110) All-Link Broadcast Message\n              Message Length: (0) Standard Length\n                   Hops Left: 2\n                    Max Hops: 3\n         Insteon Message: 1101\n                       Cmd 1: (11) ALL-Link Recall\n                       Cmd 2: 01",
+        "ts": "1399333863.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Received data: 02 50 28 3C C5 2A 02 8E 41 11 01 \nmsg type: Standard Message Received, from: Living Room Motion Sensor, to: PowerLinc Modem, flags: Group Cleanup Direct Message, Standard, Hops Left: 0, Max Hops: 1, cmd1: 11, cmd2: 01",
+        "ts": "1399333876.000020"
+    }
+]

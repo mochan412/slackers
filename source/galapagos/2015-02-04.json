@@ -1,0 +1,68 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Looks like our site isn't pulling the font from <http:\/\/typography.com|typography.com>",
+        "ts": "1423063859.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Actually, looks like something isn't working on the SSL side of things. <@U0289USNA> Do you know if anything changed recently? I think it was working fine yesterday.",
+        "ts": "1423063941.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Hey <@U02618EV1> the SSL cert we have I believe is for 'www' and your screenshot is sans-www...",
+        "ts": "1423070833.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "we would need an additional cert for the naked <http:\/\/uncorkedstudios.com|uncorkedstudios.com>",
+        "ts": "1423070863.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the current cert expires Jan 14, 2016",
+        "ts": "1423070881.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Actually, hmmm...   the cert claims to be for both naked and www...",
+        "ts": "1423070983.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Common Name(s): <http:\/\/www.uncorkedstudios.com|www.uncorkedstudios.com>  <http:\/\/uncorkedstudios.com|uncorkedstudios.com> \nOrganization: Uncorked Studios\nIssuer: geotrust\nKey Size: 2048 bit",
+        "ts": "1423070986.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Interesting. So it must be something else b\/c I didn't get any errors yesterday.",
+        "ts": "1423071027.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "well it looks like it did expire.",
+        "ts": "1423071088.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "even though in media temple it says it has another year...   perhaps it auto-renewed with media temple, but I need to re-install it.",
+        "ts": "1423071144.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Oh. I've no experience with anything having to do with SSL or domains but happy to help if there's anything I can do.",
+        "ts": "1423071360.000011"
+    }
+]

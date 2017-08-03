@@ -1,0 +1,176 @@
+[
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "do we have a room for our sommely call today?",
+        "ts": "1454696972.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "(should we go to Courtyard or Mountain?)",
+        "ts": "1454696989.000086"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "We’re in Courtyard",
+        "ts": "1454697039.000087"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "i booked courtyard",
+        "ts": "1454697064.000088"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "is anyone else having a hard time understanding shashi?",
+        "edited": {
+            "user": "U04JZANJF",
+            "ts": "1454697315.000000"
+        },
+        "ts": "1454697297.000089"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "getting so much feedback",
+        "ts": "1454697417.000091"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "you guys are crystal clear",
+        "ts": "1454697432.000092"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "i think it’s someone has  a laptop mic issues",
+        "ts": "1454697432.000093"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "ah - ok",
+        "ts": "1454697437.000094"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "We should post Lee’s video to reportedly this week.",
+        "ts": "1454697611.000095",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "does that mean they haven’t used OEI before?",
+        "ts": "1454697926.000096"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "they have used OEI before",
+        "ts": "1454698247.000097"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "sorry, got confused by kevin’s comment that they would use someone they trust and have used a lot instead of someone who promised to turn the boards over the fastest",
+        "ts": "1454698443.000098"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "OEI had been on that list, no longer.",
+        "ts": "1454698475.000099"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "shall we leave in 5?",
+        "ts": "1454709604.000100"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "cool",
+        "ts": "1454709662.000101"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Hey Sommely team, for those of you who weren't able to join us at Sake One, we brought back some goodies to enjoy next week. ",
+        "ts": "1454727080.000102"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "They're currently hidden somewhere in the office...",
+        "ts": "1454727104.000103"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "ayyy thanks marce!",
+        "ts": "1454727626.000104"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Unrelated: <http:\/\/hackaday.com\/2016\/02\/05\/very-very-low-power-consumption\/>",
+        "attachments": [
+            {
+                "service_name": "Hackaday",
+                "service_url": "http:\/\/hackaday.com",
+                "title": "Very, Very Low Power Consumption",
+                "title_link": "http:\/\/hackaday.com\/2016\/02\/05\/very-very-low-power-consumption\/",
+                "author_name": "Brian Benchoff",
+                "author_link": "https:\/\/hackaday.com\/author\/brianbenchoff\/",
+                "thumb_url": "https:\/\/i1.wp.com\/hackadaycom.files.wordpress.com\/2016\/02\/ti.jpg?fit=200%2C150",
+                "thumb_width": 200,
+                "thumb_height": 99,
+                "text": "We’re pretty far away from a world full of wall-warts at this point, and the default power supply for your consumer electronics is either a microUSB cable or lithium batteries. USB ports are ubiquitous enough, and lithium cells hold enough power that these devices can work for a very long time.\nUSB devices are common, and batteries are good enough for most devices, not all of them. There is still a niche where&amp; extremely long battery lifetimes are needed and tapping into mains power is impractical. Think smoke detectors and security systems here. How do power supplies work for these devices? In one of the most recent TI application notes, TI showed off their extremely low power microcontrollers with a motion detector that runs for ten years with a standard coin cell battery. This is one of those small engineering marvels that comes by every few years, astonishing us for a few minutes, and then becomes par for the course a few years down the road.\nThe first thing anyone should think about when designing a battery-powered device that lasts for years is battery self-discharge. You’re not going to run a battery-powered device for ten years with a AA cell; the shelf life for an Energizer AA cell is just 10 years. Add in a few nanoAmps of drain, and you’ll be lucky to make it to 2020. The difference here is a CR2032 lithium-ion coin cell. Look at the datasheet for one of these cells, and they can easily sit on a shelf for 10 years, with 90% of the rated capacity remaining.\nWith the correct battery in the device, you’ll need a microcontroller that runs at a sufficiently low power for it to be useful in the mid-2020s. The product for this is the CC1310, a very, very low power ARM Cortex-M3 and sub 1GHz transmitter in one package.\nOnce that’s settled, it’s simply a matter of putting a sensor on the board – in this case a PIR sensor – and a few analog bits triggering an interrupt occasionally. Have the microcontroller in sleep mode most of the time, and that’s how you get a low-power device with a battery that will last a decade.",
+                "fallback": "Hackaday Link: Very, Very Low Power Consumption",
+                "from_url": "http:\/\/hackaday.com\/2016\/02\/05\/very-very-low-power-consumption\/",
+                "id": 1
+            }
+        ],
+        "ts": "1454727970.000105"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "FWIW - at our current power consumption, we could probaby get 10 years with limited LED use on a 240mAh CR2032",
+        "ts": "1454729440.000107"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "if you figure we can get nearly 2 at 4mAh",
+        "ts": "1454729465.000108"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Wow then we can remove the charging circuitry ",
+        "ts": "1454731380.000109"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Pretty much.",
+        "ts": "1454744568.000110"
+    }
+]

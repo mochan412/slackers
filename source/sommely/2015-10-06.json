@@ -1,0 +1,322 @@
+[
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Soooo this just popped up in my Product Hunt feed",
+        "ts": "1444145806.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<https:\/\/magic.import.io\/>",
+        "attachments": [
+            {
+                "text": "<http:\/\/import.io|import.io>'s automatic data extraction tool, input any url and it will magically return the data from those pages as a CSV or API.",
+                "fallback": "<http:\/\/import.io|import.io>'s automatic data extraction tool, input any url and it will magically return the data from those pages as a CSV or API.",
+                "from_url": "https:\/\/magic.import.io\/",
+                "id": 1
+            }
+        ],
+        "ts": "1444145808.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "And I thought, what could I use this for?",
+        "ts": "1444145816.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "So I searched for Pinot Noir on Wine Library",
+        "ts": "1444145829.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<https:\/\/magic.import.io\/?csvRedirect=true&amp;site=https:%2F%2Fwinelibrary.com%2Fwines%2Fcabernet-sauvignon%2F2011-anderson-s-conn-valley-cabernet-sauvignon-reserve-82219>",
+        "attachments": [
+            {
+                "text": "<http:\/\/import.io|import.io>'s automatic data extraction tool, input any url and it will magically return the data from those pages as a CSV or API.",
+                "fallback": "<http:\/\/import.io|import.io>'s automatic data extraction tool, input any url and it will magically return the data from those pages as a CSV or API.",
+                "from_url": "https:\/\/magic.import.io\/?csvRedirect=true&site=https:%2F%2Fwinelibrary.com%2Fwines%2Fcabernet-sauvignon%2F2011-anderson-s-conn-valley-cabernet-sauvignon-reserve-82219",
+                "id": 1
+            }
+        ],
+        "ts": "1444145840.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "and it spits out a lovely downloadable CSV",
+        "ts": "1444145852.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "also, they have an API",
+        "ts": "1444145856.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Niiiiiiiiiiiiiiiice",
+        "ts": "1444145860.000011"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I believe <@U02618EV1> had a nice service for Csv -&gt; api too",
+        "ts": "1444145883.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<https:\/\/docs.google.com\/a\/uncorkedstudios.com\/spreadsheets\/d\/1WLhKQCRD04or-VaTTvoySC2MDuwc9h4lHpncObI1RUQ\/edit?usp=sharing>",
+        "ts": "1444145887.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "If <http:\/\/import.io|import.io> has a cost ",
+        "ts": "1444145895.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "not sure yet - but that gave us nearly 400 bottles of Pinot Noir data",
+        "ts": "1444145916.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "including high res bottle label images",
+        "ts": "1444145928.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "it tops off at 20 pages of download, but that's worked for the varietals I've searched for so far (all under 20 pages)",
+        "ts": "1444146062.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "well, it doesn't give us the high res link, but we can abstract it from the suggestion.png URL (it's the same string\/directory, but named original.png instead)",
+        "ts": "1444146317.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "and it looks like it's free",
+        "ts": "1444146371.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Massive jackpot on K&amp;L Wines - 37,000+ Cabernets listed. :simple_smile:",
+        "ts": "1444146869.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "(if you add out of stock wines to your search)",
+        "ts": "1444146882.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "does look like the csv download caps at 1,000 rows, would be interesting to run the API through it",
+        "ts": "1444147195.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<https:\/\/import.io\/data\/mine\/?id=450d779b-0e9e-42a7-8a43-4424250be56f>",
+        "attachments": [
+            {
+                "text": "Your <http:\/\/import.io|import.io> data",
+                "fallback": "Your <http:\/\/import.io|import.io> data",
+                "from_url": "https:\/\/import.io\/data\/mine\/?id=450d779b-0e9e-42a7-8a43-4424250be56f",
+                "id": 1
+            }
+        ],
+        "ts": "1444147231.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "this is kinda nuts - such an elegant interface.",
+        "ts": "1444147241.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Jackpot indeed. I'll turn Gaston loose on this today to see how far we can get.",
+        "ts": "1444148568.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":police_car: i don’t think we need a full database of wine for the ecb demo :police_car:",
+        "ts": "1444148962.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "True. Good Scope check.",
+        "ts": "1444149015.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "I think we look at this for reference of the tables being used",
+        "ts": "1444149029.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "and perhaps once we have our desired 24 wines, pull the data from here.",
+        "ts": "1444149042.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Also adding to the jackpot - we could do a recently tasted on Delectable lookup: <https:\/\/import.io\/data\/mine\/?id=44ffb89a-2989-405d-91a4-eb8774a0c20f>",
+        "attachments": [
+            {
+                "text": "Your <http:\/\/import.io|import.io> data",
+                "fallback": "Your <http:\/\/import.io|import.io> data",
+                "from_url": "https:\/\/import.io\/data\/mine\/?id=44ffb89a-2989-405d-91a4-eb8774a0c20f",
+                "id": 1
+            }
+        ],
+        "ts": "1444149072.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah, should definitely look to it for model and future use",
+        "ts": "1444149110.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but we can bake in the 24 bottles :smile:",
+        "ts": "1444149114.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I wasn’t assuming we’d be grabbing a full DB of info - rather, we’d pick our 24 (or 100 to have some breadth in the app), can it and run with that data set. Even getting basic info and high-res images has proven to be tough, so this will be a big help in getting that together.",
+        "ts": "1444149879.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "donde esta el standup de sommely?",
+        "ts": "1444152620.000012"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "in echo!",
+        "ts": "1444152679.000013"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "<@U026PLK4S> please join us!",
+        "ts": "1444152696.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "i think matt’s at PSU",
+        "ts": "1444152751.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sorry - yes, he's teaching",
+        "ts": "1444152764.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "missed this thread",
+        "ts": "1444152767.000017"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "oh right oh right",
+        "ts": "1444152771.000018"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "sorry matt!",
+        "ts": "1444152773.000019"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "in glass for this planning meeting",
+        "ts": "1444165325.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "omw",
+        "ts": "1444165465.000021"
+    },
+    {
+        "user": "U0261PCRQ",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0261PCRQ|kat> has joined the channel",
+        "ts": "1444165834.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U06DFL7BP",
+        "item_type": "F",
+        "text": "<@U06DFL7BP|charlesv> pinned their PDF <https:\/\/uncorked.slack.com\/files\/charlesv\/F0BQ417V1\/sommely_schedule.pdf|Sommely Schedule.pdf> to this channel.",
+        "item": {
+            "id": "F0BQ417V1",
+            "created": 1443842888,
+            "timestamp": 1443842888,
+            "name": "Sommely Schedule.pdf",
+            "title": "Sommely Schedule.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 73421,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0BQ417V1\/sommely_schedule.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0BQ417V1\/download\/sommely_schedule.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0BQ417V1\/sommely_schedule.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0BQ417V1-de2ad1b8c8",
+            "channels": [
+                "C026T598V"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C026T598V"
+            ]
+        },
+        "ts": "1444165845.000023"
+    }
+]

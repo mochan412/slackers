@@ -1,0 +1,27 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I know Scott fixed our site’s https issue awhile ago, but i’m still not seeing the correct fonts load <https:\/\/uncorkedstudios.com\/>",
+        "attachments": [
+            {
+                "title": "Uncorked Studios",
+                "title_link": "https:\/\/uncorkedstudios.com\/",
+                "text": "Uncorked studios is a digital product agency. Innovation for the world, design for people.",
+                "fallback": "Uncorked Studios",
+                "thumb_url": "http:\/\/uncorkedstudios.com\/images\/us-logo-1000.png",
+                "from_url": "https:\/\/uncorkedstudios.com\/",
+                "thumb_width": 1000,
+                "thumb_height": 1000,
+                "id": 1
+            }
+        ],
+        "ts": "1401209120.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "right - gaston needs to push changes to the site so that the fonts load agnostic of https.   Right now you browser sees you are on https and blocks you from loading non-https resources.  So the fonts dont load.",
+        "ts": "1401210021.000004"
+    }
+]

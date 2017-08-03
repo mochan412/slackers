@@ -1,0 +1,157 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm pretty sure location is fixed on 5x",
+        "ts": "1456587589.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "All is not lost regarding Adam being stuck in Chelsea market. There's another likely bug that is getting triggered. ",
+        "ts": "1456596619.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Which is to say, that its now likely that he IS running into the suspended connection error but that on reconnect, it's missing updates",
+        "ts": "1456596923.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Hmmm",
+        "ts": "1456597037.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So consider for a moment that the connection is suspended and on reconnect, were looking for a 5mi displacement ",
+        "ts": "1456597204.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "What does the system do",
+        "ts": "1456597212.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(This is me trying to hypothesize)",
+        "ts": "1456597226.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Does it \"know\" about our old request ",
+        "ts": "1456597240.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or did it lose all internal state and is fresh ",
+        "ts": "1456597254.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(Unfortunately this falls apart because of the min interval)",
+        "ts": "1456597284.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "YES! Adam only lives 4.2 miles from work.",
+        "ts": "1456605150.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "works as expected &lt;&lt;dusts off hands&gt;&gt;",
+        "ts": "1456605170.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gonna take that into account for the \"never zoom\" model - because thats the most likely one to exhibit the issue.",
+        "ts": "1456605190.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Lol",
+        "ts": "1456605196.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but really, that apparently means that the interval settings are lower priority than the displacement settings",
+        "ts": "1456605293.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "maybe we need a “big city mode\"",
+        "ts": "1456612055.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it actually works out tho - the logic for someone who doesn't want driving zoom would probably be well served by a mile or so displacement",
+        "ts": "1456614021.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i pushed the code if anyone wants to mess with it for fun",
+        "ts": "1456614076.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "warning: its not very fun at all",
+        "ts": "1456614087.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "“AppCompat v23.2 — DayNight” @chrisbanes <https:\/\/medium.com\/@chrisbanes\/appcompat-v23-2-daynight-d10f90c83e94>",
+        "attachments": [
+            {
+                "service_name": "Medium",
+                "title": "AppCompat v23.2 — DayNight",
+                "title_link": "https:\/\/medium.com\/@chrisbanes\/appcompat-v23-2-daynight-d10f90c83e94",
+                "text": "As you may have seen in the Support Lib 23.2.0 blog post, AppCompat now has a new theme family: Theme.AppCompat.DayNight…",
+                "fallback": "Medium: AppCompat v23.2 — DayNight",
+                "image_url": "https:\/\/d262ilb51hltx0.cloudfront.net\/max\/800\/1*lSLsd8hHKCZ7MtHmRQ4qQQ.jpeg",
+                "fields": [
+                    {
+                        "title": "Reading time",
+                        "value": "4 mins",
+                        "short": true
+                    }
+                ],
+                "ts": 1456421604,
+                "from_url": "https:\/\/medium.com\/@chrisbanes\/appcompat-v23-2-daynight-d10f90c83e94",
+                "image_width": 358,
+                "image_height": 250,
+                "image_bytes": 27841,
+                "id": 1
+            }
+        ],
+        "ts": "1456615428.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ooooh",
+        "ts": "1456615431.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "If the full tile size represents something like 7 miles of map, I wonder if the displacement should be half that",
+        "ts": "1456627701.000002"
+    }
+]

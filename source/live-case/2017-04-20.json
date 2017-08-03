@@ -1,0 +1,264 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!here|@here> lets stand up in courtyard",
+        "ts": "1492705776.905895"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I forgot to say it in stand-up, but I will be out tomorrow on vacation for a friend’s wedding in LA. I’ll be back Monday possibly half-melted, it is supposed to be above 80 there!!\nI’m going to finish up some final tuning on the Renderer update, I’ll post an apk EOD if folks wouldn’t mind running it in the background over the weekend and seeing if any weirdness crops up",
+        "ts": "1492714489.430404",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks oliver! ill be leaving a little early for volunteering today (around 430) so can you just make sure to send any instructions along with the build that would be awesome :slightly_smiling_face:",
+        "ts": "1492717028.127762"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5292HNRG\/renderer_refactor.apk|renderer_refactor.apk>",
+        "file": {
+            "id": "F5292HNRG",
+            "created": 1492720689,
+            "timestamp": 1492720689,
+            "name": "renderer_refactor.apk",
+            "title": "renderer_refactor.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 34604936,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5292HNRG\/renderer_refactor.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5292HNRG\/download\/renderer_refactor.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5292HNRG\/renderer_refactor.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5292HNRG-717e5d2b73",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1492720691.101903"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "If anyone has a chance to, install this build on your device to run over the weekend or when not running other tests.\nRun it as normal, the underlying code got moved around for all cases, so try out each of the different cases, preferably Earth or Places will have the most going on in the background (either set to match location on Places or Daily update on Earth). Look for anything that isn’t operating as expected and that it can run for several days on end without issue. If it looks good there, then I think next week we consider pulling it onto the Verizon_sell-in branch",
+        "ts": "1492720950.170180"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I can!",
+        "ts": "1492723959.906069"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I do think it might be a good idea to have another person on the team do it as well, just because I'm not super familiar with the app yet :slightly_smiling_face:",
+        "ts": "1492724058.927491"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I am too",
+        "ts": "1492724068.929791"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’ll run Places through the weekend and switch over to Earth early next week. Which device are you running it on, Jenna?",
+        "ts": "1492724277.973459"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "the pixel",
+        "ts": "1492724615.043168"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "hmmm, I’ll see what happens on a 5x as well… just for coverage",
+        "ts": "1492724692.058629",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0U9WJB7F",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i will run on my device too!",
+        "thread_ts": "1492725775.278218",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1492726213.359312"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1492725775.278218"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i’ll have all generators up but start with earth and can swap over to place when you do <@U1ZG1UCAK>",
+        "thread_ts": "1492725775.278218",
+        "parent_user_id": "U13GPDA1F",
+        "ts": "1492726213.359312"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> Everything is up and running with the new trends button - finally! Which icon should I use for the build I will send you? Does clicking the icon launch the google search? If so, a ‘refresh’ icon doesn’t make that much sense.",
+        "ts": "1492727151.518073"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "what are the icon options? are refresh or circle (without X) options?",
+        "ts": "1492727240.533000"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "There are a couple of options in Google Material design icons. When you are done with your meeting would you be able to pop by and give your opinion?",
+        "ts": "1492727508.576684"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sure thing! kat initially mentioned the refresh button so ill probably ask for that :wink:",
+        "ts": "1492729570.888369"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Trends builds incoming!",
+        "ts": "1492730886.068773"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F51M2T15W\/trends_icon_launch_search.apk|trends_icon_launch_search.apk>",
+        "file": {
+            "id": "F51M2T15W",
+            "created": 1492730907,
+            "timestamp": 1492730907,
+            "name": "trends_icon_launch_search.apk",
+            "title": "trends_icon_launch_search.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35238480,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F51M2T15W\/trends_icon_launch_search.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F51M2T15W\/download\/trends_icon_launch_search.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F51M2T15W\/trends_icon_launch_search.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F51M2T15W-ac7db12fb0",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1492730909.071868"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F51Q16YMP\/trends_icon_show_next_trend.apk|trends_icon_show_next_trend.apk>",
+        "file": {
+            "id": "F51Q16YMP",
+            "created": 1492730974,
+            "timestamp": 1492730974,
+            "name": "trends_icon_show_next_trend.apk",
+            "title": "trends_icon_show_next_trend.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35243097,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F51Q16YMP\/trends_icon_show_next_trend.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F51Q16YMP\/download\/trends_icon_show_next_trend.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F51Q16YMP\/trends_icon_show_next_trend.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F51Q16YMP-e30a07ef79",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1492730976.080706"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "huzzah! ill check these out (and re-run olivers build after)! thanks for sticking with that summer",
+        "ts": "1492731192.109445"
+    }
+]

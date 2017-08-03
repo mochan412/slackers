@@ -1,0 +1,183 @@
+[
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Hey <@U1S5GKTHQ> and <@U243UT96G> just checking in on where things are at with the PL pill? Also, getting a sense of what you are working on today?",
+        "ts": "1487185563.362388"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I’m going to deploy latest code to <http:\/\/test110.plantlust.com|test110.plantlust.com> today",
+        "ts": "1487185735.468449"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i’m working on ucs stuff - plantlust should be good to go",
+        "ts": "1487186570.978616"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "ok, after test deploy we're thinking everything's ready for QA, correct?",
+        "ts": "1487186608.000385"
+    },
+    {
+        "user": "U1172PRDX",
+        "text": "<@U1172PRDX|sarah> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1487186683.043746"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "latest changes deployed to <http:\/\/test110.plantlust.com>",
+        "attachments": [
+            {
+                "title": "plant lust - seriously simple search for plants",
+                "title_link": "http:\/\/test110.plantlust.com",
+                "text": "Simple search for information about garden plants, and places to find them",
+                "fallback": "plant lust - seriously simple search for plants",
+                "from_url": "http:\/\/test110.plantlust.com",
+                "service_icon": "http:\/\/plantlust_test_bucket.s3.amazonaws.com\/static\/img\/plantlust_favicon_2.ico",
+                "service_name": "test110.plantlust.com",
+                "id": 1
+            }
+        ],
+        "ts": "1487197799.937883"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks <@U1S5GKTHQ>! Taking a gander now. A quick first thing I noticed is that the home hero image isn't loading up?",
+        "ts": "1487198163.128381"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "I'll log other bugs in Pivotal :wink:",
+        "ts": "1487198206.150761"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "403",
+        "ts": "1487198206.150802"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/d17vsf20mehj1i.cloudfront.net\/promo_photos\/callistemon_woodlanders_red_by_loree_bohl_JPG_1024x640_crop-center_upscale_q85.jpg>",
+        "ts": "1487198226.162658"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Saw that. I think it’s just a data migration issue (at some point live data was ported to test server)",
+        "ts": "1487198260.177431"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup:",
+        "ts": "1487198278.188728"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "But please mark in Pivotal and I’ll dig into it further",
+        "ts": "1487198283.190968"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "And not a bug, but a mental note for sometime later: I would LOOOVVEE an \"available for purchase\" filter",
+        "ts": "1487198609.342946"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "But wow does that SRP look better!",
+        "ts": "1487198745.440498"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "Yes I think that is a data migration issue we typically see in test ",
+        "ts": "1487199729.907544"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Oh. Should I not log the bug then?",
+        "ts": "1487199768.925514"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "Nah",
+        "ts": "1487199779.931291"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Cool",
+        "ts": "1487199802.940868"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "Agreed Rob, that filter would be a good add when possible. It wasn't in our srp data before now but maybe it is possible with these srp changes. I will add to pivotal to research soon ",
+        "ts": "1487199842.960202"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": ":the_horns:",
+        "ts": "1487199950.014138"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "ooh, that's a great idea",
+        "ts": "1487200100.073737"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "This is looking really slick though! When I select a plant type from the predict search drop down, is it supposed to mark \"1\" next to plant type on the left side nav or only when I enter in through the home page?",
+        "ts": "1487200181.118136"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "<@U0B9N0HF0> it should not indicate that there is a filter selected if you just ran a search",
+        "ts": "1487201123.567383"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks",
+        "ts": "1487201820.885340"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Maybe I'll just let you run the first round of exploratory and I can test any bug fixes that come in hehe",
+        "ts": "1487201849.903812"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "FWIW, no major styling issues I've encountered",
+        "ts": "1487201868.909625"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": ":+1:",
+        "ts": "1487202209.022838"
+    }
+]

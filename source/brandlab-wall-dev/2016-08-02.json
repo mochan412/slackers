@@ -1,0 +1,210 @@
+[
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #86 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/86\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #86 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/86\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470156371.000267"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #86 Success after 25 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/86\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #86 Success after 25 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/86\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470156392.000268"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: nice job with review",
+        "ts": "1470158721.000269"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: can you outline for me how you understand the packaging of code and next steps to shape up?",
+        "ts": "1470159004.000270"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: i re-pened this ticket ot track the sole issue i know of you to be working on’ goodbye cubby’ z index: <https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-422>",
+        "ts": "1470171148.000271"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "is there anything else youre working on?",
+        "ts": "1470171152.000272"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there isnt anything else im aware of",
+        "ts": "1470171169.000273"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good :slightly_smiling_face:",
+        "ts": "1470171231.000274"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: the sole ticket i know of for you is: <https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-404>",
+        "ts": "1470171303.000275",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: what do you think of having that done as well as a write up for josh about what package and deploy looks like?",
+        "ts": "1470171423.000276"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "today - yes",
+        "ts": "1470171441.000277"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "think i may have just spotted why we were seeing the blank page on retro sometimes. Im investigating it more",
+        "ts": "1470171526.000278"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ooh, ok peter that gets a ticket as well - go forth.  thank you!",
+        "ts": "1470171613.000279"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and <@U02E3CRMA> , send that my way pleas - we can partner on how to send to client what to add\/subtract",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1470171822.000000"
+        },
+        "ts": "1470171632.000280"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we can safely ignore the wacky polygons - it’s because the masks are based on the image’s dimensions, and they’re not all the same in our reference set. In SBO, they’ll all be the same because they come straight off the camera.",
+        "ts": "1470172622.000282"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ah!",
+        "ts": "1470172724.000283"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "put it in the ticket <@U02E3CRMA>",
+        "ts": "1470172734.000284",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "U02E3CRMA",
+                    "U0ML49XU0"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll make a first-pass at the deploy plan today, but I want to go all the way through it tomorrow before we share to minimize confusion.",
+        "ts": "1470178519.000285",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0EL0GLEL"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "I hear ya but I think reviewing it and top lining order of operations for client is necessary. They don't need nitty gritty today. ",
+        "ts": "1470180170.000286"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Ya dig?",
+        "ts": "1470180173.000287"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: sorry didnt tag ya",
+        "ts": "1470180610.000288"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: the plan that we discussed over the last several days (from last week)\n- tomorrow AM: Joel to wrap up final iterations (specific to Data Viz 2 Questions).  Peter I believe you’re done, please be loud if you’re actively de-bugging anything \n- tomorrow PM: copy VM <@U02E3CRMA> to do\n- tomorrow 1:30-3: methodic testing of all features, all iterations and drive from Admin.  I’m asking that photos be seeded and that Peter can drive Admin to manipulate data set\n- thursday AM: drop code to myles for review.  \n- thursday: socialize James and Josh on detailed deploy plan (Joel drafting( \n- Friday: Myles respond\n- Monday: clean up code\n- Mon or Tues: drop code to James.\n- Standby Wednes for testing\n- Thursday: antipcated first run of BrandLab\n\nNote: I’m out Friday and all of next week.  I’ve got a calendar artifact that houses all of these dates.  I’m sharing this outline with the client and pinning here.  Let’s discuss again tomorrow, in mean time let me know of needs ideas or questions",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1470188320.000000"
+        },
+        "ts": "1470188290.000289"
+    }
+]

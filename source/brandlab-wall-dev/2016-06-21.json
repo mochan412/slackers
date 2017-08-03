@@ -1,0 +1,275 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U06DFL7BP> note form google if we feel it worthwhile - \n\nFYI, I recently learned (from my Nvidia contacts) that they are now making certain mid-range multi-GPU Quadro configurations more compact, generally available, and cost-effective. We can get into the specifics of that, if the team feel the need to throw a little more hardware at any performance issues.",
+        "ts": "1466527964.000306"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I am going to shut down both boxes, put an 810 in both, then configure the screens on each, so top sweep and a few cubbies is on one, and the rest of the cubbies on the other. then do some load balancing of the two. this seems like a workable solution.",
+        "ts": "1466536116.000307"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<http:\/\/192.168.170.1:3002\/questions.html>",
+        "edited": {
+            "user": "U11JK4QSK",
+            "ts": "1466543122.000000"
+        },
+        "ts": "1466543100.000308"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "hit tell us about yourself and then the daily circle",
+        "ts": "1466543111.000309"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ahhh shit",
+        "ts": "1466544505.000311"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": ":+1:",
+        "ts": "1466544518.000312"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U06DFL7BP>: and <@U0EL0GLEL> here’s what we got for production head node.  what of this applies to what we’d wan tto buil din a third box?  while we’re at it, what do we want to do about having our own dev head node?\n<https:\/\/docs.google.com\/spreadsheets\/d\/1L6xUHy3_gfZxtsSj4xK558zue_7VnSTQzDOA76aNQpU\/edit#gid=0>\n<https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1pe6dbwL6Un_jNCQoGWUozJx8zhjiq35ihhnDMehLLnU\/edit?usp=sharing>",
+        "ts": "1466545341.000313"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F185HRB1B\/headnodeconfiguration-sheet1|Head Node Configuration>",
+        "file": {
+            "id": "F185HRB1B",
+            "created": 1463001539,
+            "timestamp": 1463001539,
+            "name": "HeadNodeConfiguration-Sheet1",
+            "title": "Head Node Configuration",
+            "mimetype": "application\/vnd.google-apps.spreadsheet",
+            "filetype": "gsheet",
+            "pretty_type": "GDocs Spreadsheet",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 1542,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/spreadsheets\/d\/1L6xUHy3_gfZxtsSj4xK558zue_7VnSTQzDOA76aNQpU\/edit?usp=drivesdk",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gsheet_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gsheet_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F185HRB1B\/headnodeconfiguration-sheet1",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1466545342.000314"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "based on what we are using for memory usage 32gig is way over our needs",
+        "ts": "1466546086.000315"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i dont know for sure, but think you could take 16 out of that box and put in another",
+        "ts": "1466546121.000316"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: <@U06DFL7BP> can you take a look at tabs 2 and 3 and help me fill in a good 1U housing as well as make sure everything else looks good?",
+        "ts": "1466546140.000317"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<https:\/\/docs.google.com\/spreadsheets\/d\/1L6xUHy3_gfZxtsSj4xK558zue_7VnSTQzDOA76aNQpU\/edit#gid=122186000>",
+        "ts": "1466546141.000318"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F185HRB1B\/headnodeconfiguration-sheet1|Head Node Configuration>",
+        "file": {
+            "id": "F185HRB1B",
+            "created": 1463001539,
+            "timestamp": 1463001539,
+            "name": "HeadNodeConfiguration-Sheet1",
+            "title": "Head Node Configuration",
+            "mimetype": "application\/vnd.google-apps.spreadsheet",
+            "filetype": "gsheet",
+            "pretty_type": "GDocs Spreadsheet",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 1542,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/spreadsheets\/d\/1L6xUHy3_gfZxtsSj4xK558zue_7VnSTQzDOA76aNQpU\/edit?usp=drivesdk",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gsheet_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gsheet_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F185HRB1B\/headnodeconfiguration-sheet1",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1466546142.000319"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ram is cheap all things considered ",
+        "ts": "1466546145.000320"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "we are using 4 x 8 on the big box, im sure you can spread that into the other",
+        "ts": "1466546146.000321"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "true",
+        "ts": "1466546148.000322"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "we are only using 4-10 gig tho",
+        "ts": "1466546157.000323"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Buy more and return it ",
+        "ts": "1466546162.000324"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "fair enough",
+        "ts": "1466546168.000325"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there we go, fixed errors brought on by the shift to single cubby, looks like they are displaying right now, and current transitions that are in there are working. also dropped in the new ones for the questions page, just have some errors to work through in the morning.",
+        "ts": "1466563853.000326",
+        "reactions": [
+            {
+                "name": "money_mouth_face",
+                "users": [
+                    "U026PHQ3J",
+                    "U0ML49XU0",
+                    "U0J6TE0CA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "yassss",
+        "ts": "1466563954.000327"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Amazing ",
+        "ts": "1466564506.000328"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #47 Started by timer (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/47\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #47 Started by timer (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/47\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1466566209.000329"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #47 Success after 21 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/47\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #47 Success after 21 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/47\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1466566225.000330"
+    }
+]

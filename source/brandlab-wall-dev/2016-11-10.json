@@ -1,0 +1,122 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: you're unblocked on showtime docs, eh?",
+        "ts": "1478796296.000136"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep, the dev server is working now",
+        "ts": "1478796753.000137"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Awesome  heads up <!here> ",
+        "ts": "1478798899.000138"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> curious if we can repro kyles issue with name spot 6 and what might be new to have caused that.  keep in mind, I’m not committing usto a build.  I want to promote comprehensive testing on their side A(nd ours of course) before we get into build-after-build scenario :slightly_smiling_face:",
+        "ts": "1478817021.000139"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "thats a very strange issue, I will validate that.",
+        "ts": "1478817180.000140"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "did not see that yesterday, we were testing autoassign and spot 6 filled routinely.",
+        "ts": "1478817250.000141"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah",
+        "ts": "1478817255.000142"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im guessing its manual fill in from adding the users manually since that is what he would have been doing. even tho he did not report this fact. but due to the way he hasnt reported all the facts… this might be the case. I need more info when he reports issues",
+        "ts": "1478817328.000143"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so admin worked fine for me",
+        "ts": "1478817401.000144"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "now i have to assume he means populates on the wall?",
+        "ts": "1478817424.000145"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "im in a pre pro meeting for shoot.  let me know of specifc things i can test while on site.  but yeah, we need a general aceptance test on kyles side. dont worry, not planning a release of any kind yet.",
+        "ts": "1478817696.000146"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I can confirm that there isnt anything wrong with 6",
+        "ts": "1478818056.000147"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, ill dig at this use case: if there was a data set with 5 people in the system and *surprise* 6th person shows up",
+        "ts": "1478818077.000148"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "admin works fine, adding a person there is good, manual add is good, and they showed up in the display fine",
+        "ts": "1478818079.000149"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "if manually entered is there a problem?",
+        "ts": "1478818083.000150"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I added them manually and it was fine",
+        "ts": "1478818096.000151"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok good to know, thank you sir",
+        "ts": "1478818116.000152"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "took a dataset that had data from the api, and only used the ones from the api for 1-5 added 6 manual its all good",
+        "ts": "1478818253.000153"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im not seeing it, curious if its some network speed to load issue. like kill the display open again and it comes up? like one of those race conditions we had seen early on. the one in a 1000 times that something happens but refresh fixes",
+        "ts": "1478818328.000154"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good news!  I’m there in a few and can look at it.",
+        "ts": "1478818435.000155"
+    }
+]

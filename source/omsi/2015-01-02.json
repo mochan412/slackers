@@ -1,0 +1,284 @@
+[
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<!channel>: checking in...   today I am working on the actual HTML email template so it will look like something real, nut just a text link.   I'm talking with Joshua to make sure the links in the email go to an actually landing page that is functional - even if it's not 100% perfect on all browsers yet.",
+        "ts": "1420225809.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<!channel> progress report. I'm still trying to get supervisord to restart the app when it crashes. I currently have a build on the planar (\/Applications\/OMSI) that has a crash hardwired to the Home button. Supervisord is supposed to restart the app whenever it exits, but this is not happening for some reason. I'm a little stumped here. Should I get help from someone? Should I backtrack and check out launchd? I'm pretty new to daemons",
+        "ts": "1420245193.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Oh, and \"empty reading list message\" is implemented",
+        "ts": "1420245203.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I'd move on to something else and let me take a look at it.",
+        "ts": "1420245329.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok. running `supervisord -n`is pretty helpful, since it shows me that when the app starts up, it's actually starting up 4 or 5 times?",
+        "ts": "1420245393.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "what does your supervisor conf file look?",
+        "ts": "1420245410.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "if you run supervisorctl is omsi listed?",
+        "ts": "1420245420.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the only change from the stock .conf file is one simple program:\n[program:currentscience]\ncommand=open \/Applications\/OMSI.app\nautorestart=true",
+        "ts": "1420245460.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "ok, sounds good.   now run supervisorctl",
+        "ts": "1420245490.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "do you see currentscience listed?",
+        "ts": "1420245518.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "localhost:9001 refused connection",
+        "ts": "1420245532.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "sudo supervisorctl",
+        "ts": "1420245574.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "same",
+        "ts": "1420245604.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "ok, well that tells me that supervisor isn't running.",
+        "ts": "1420245620.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ps aux | grep 'supervisord' gives me a valid pid",
+        "ts": "1420245644.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "that's about all for me in terms or remote diagnostic..  if supervisorctl went further, then it might get us some more ideas",
+        "ts": "1420245694.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok",
+        "ts": "1420245720.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I will look further on my machine and see what I can find",
+        "ts": "1420245722.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the conf file is on jenkins Desktop in a directory called \"supervisord\"",
+        "ts": "1420245742.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "supervisor binaries installed to default locations (\/user\/local\/bin I think)",
+        "ts": "1420245759.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "that's on odd place for the conf file...  (the desktop)",
+        "ts": "1420245790.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "well i didn't want to muck around in \/etc. if you have a better location for it, feel free to move it",
+        "ts": "1420245817.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "... \/etc\/supervisor\/ is where it normally goes",
+        "ts": "1420245860.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i presume that jenkins will get cleaned when we're done with OMSI, so leaving files out in the open might help make that less of a headache",
+        "ts": "1420245872.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I might be missing something, but how does it know to find it's conf file there and not in \/etc\/supervisor ?",
+        "ts": "1420245926.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "supervisor always looks in . before looking in \/etc",
+        "ts": "1420245993.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "or you can run it with `-c path\/to\/file.conf` if you're not in the same directory as the conf file",
+        "ts": "1420246027.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok, i got currentscience to show up in supervisorctl",
+        "ts": "1420246074.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i had to run both supervisord and supervisorctl from the directory with the conf file :P",
+        "ts": "1420246088.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ctl lists current science as FATAL Exited too quickly",
+        "ts": "1420246108.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i think OMSI.app may be giving its exit status when it finishes launching. supervisord will successfully launch the app, then there's an \"exit status 0; not expected\" and supervisord attempts to restart the app. It does this for a number of times equal to the config \"startretries\", then it declares the program FATAL.",
+        "ts": "1420246422.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "That makes some.sense because OMSI.app is nothing other than a special folder... So your launch process id is actually different then the running app process id.",
+        "ts": "1420247118.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ohhhh right",
+        "ts": "1420247134.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "duh",
+        "ts": "1420247135.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "`open foo` will exit 0 when the thing is done opening",
+        "ts": "1420247146.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "There are.flags for the conf of start as group or something so that it follows child processes ",
+        "ts": "1420247176.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "And by conf I mean the current science specific config",
+        "ts": "1420247244.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "stopasgroup=true\nkillasgroup=true",
+        "ts": "1420247328.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "cool, I'll give that a shot",
+        "ts": "1420247351.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "On server stuff I am always pointing the command to a bash script which in turn. Launches the node.js app or whatever...  So I have a similar problem there.",
+        "ts": "1420247575.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "those flags didn't seem to make a change to the launch sequence",
+        "ts": "1420247595.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Not sure if there is a startasgroup flag",
+        "ts": "1420247625.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "there doesn't seem to be",
+        "ts": "1420247633.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i'm looking into opening the app binary itself, or somehow using a different command to start OMSI that won't exit when launch is complete",
+        "ts": "1420247660.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "OK, well fundamentally I think k that's the issue that needs to be solved. ",
+        "ts": "1420247673.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "huh, `\/Applications\/OMSI.app\/Contents\/MacOS\/OMSI` works. but it doesn't bring the app to the foreground",
+        "ts": "1420247699.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "d'oh. `open -W` is the answer",
+        "ts": "1420251193.000048"
+    }
+]

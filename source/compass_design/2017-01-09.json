@@ -1,0 +1,52 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Wanted to share some progress on the haze visualization… I’ve got three different recordings of how the progression can animate. \n\nVersion 1 includes both noise and cluster textures, and has them migrating during the lifespan of each layer.\n\nVersion 2 include both types of texture, but they do not migrate, they only fade in and fade out with the lifespan of each layer.\n\nVersion 3 only includes the noise texture, and has it migrate along with the layer.\n\nI have a bit of polishing still to do, including replacing the cluster texture to be less dense than it currently is.\n\nI recommend viewing this through Quicktime on a retina display and scrubbing through to different points to get a good feel for the “milestones” we’ve established. \n\nFeedback is welcome\/encouraged.\n\n(As always, render quality is much cleaner in the live device prototype)\n\n<https:\/\/www.dropbox.com\/s\/o5cwsu9ep6jnlzw\/170109_Haze_01.mp4?dl=0>\n<https:\/\/www.dropbox.com\/s\/ofaxzsqrv3bzykd\/170109_Haze_02.mp4?dl=0>\n<https:\/\/www.dropbox.com\/s\/sso74yne7czzpoe\/170109_Haze_03.mp4?dl=0>",
+        "attachments": [
+            {
+                "service_name": "Dropbox",
+                "title": "170109_Haze_01.mp4",
+                "title_link": "https:\/\/www.dropbox.com\/s\/o5cwsu9ep6jnlzw\/170109_Haze_01.mp4?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 170109_Haze_01.mp4",
+                "thumb_url": "https:\/\/www.dropbox.com\/temp_thumb_from_token\/s\/o5cwsu9ep6jnlzw?preserve_transparency=False&size_mode=2&size=1024x1024",
+                "from_url": "https:\/\/www.dropbox.com\/s\/o5cwsu9ep6jnlzw\/170109_Haze_01.mp4?dl=0",
+                "thumb_width": 576,
+                "thumb_height": 1024,
+                "id": 1
+            },
+            {
+                "service_name": "Dropbox",
+                "title": "170109_Haze_02.mp4",
+                "title_link": "https:\/\/www.dropbox.com\/s\/ofaxzsqrv3bzykd\/170109_Haze_02.mp4?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 170109_Haze_02.mp4",
+                "thumb_url": "https:\/\/www.dropbox.com\/temp_thumb_from_token\/s\/ofaxzsqrv3bzykd?preserve_transparency=False&size_mode=2&size=1024x1024",
+                "from_url": "https:\/\/www.dropbox.com\/s\/ofaxzsqrv3bzykd\/170109_Haze_02.mp4?dl=0",
+                "thumb_width": 576,
+                "thumb_height": 1024,
+                "id": 2
+            },
+            {
+                "service_name": "Dropbox",
+                "title": "170109_Haze_03.mp4",
+                "title_link": "https:\/\/www.dropbox.com\/s\/sso74yne7czzpoe\/170109_Haze_03.mp4?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 170109_Haze_03.mp4",
+                "thumb_url": "https:\/\/www.dropbox.com\/temp_thumb_from_token\/s\/sso74yne7czzpoe?preserve_transparency=False&size_mode=2&size=1024x1024",
+                "from_url": "https:\/\/www.dropbox.com\/s\/sso74yne7czzpoe\/170109_Haze_03.mp4?dl=0",
+                "thumb_width": 576,
+                "thumb_height": 1024,
+                "id": 3
+            }
+        ],
+        "ts": "1484012977.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Also, Ali and I were talking the other day and wanted to pose a question for potential discussion… the milestones we’ve set up in this system total somewhere around 36 I believe (and though it’s not set for it right now, it can loop infinitely in theory). Each one currently takes 30 minutes of activity to arrive at, which is a nice clean number to divide them up with. \n\nIf we find that too many users struggle to make it out of the 2nd or 3rd milestone, would we be open to adjusting the scale for easier progression? And if so, are there any proposals for what the new increment would be per milestone?",
+        "ts": "1484013355.000048"
+    }
+]

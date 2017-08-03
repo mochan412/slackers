@@ -1,0 +1,446 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> any chance you saw my feedback from last night?",
+        "ts": "1497631039.693392"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "actually, did anyone see it...?",
+        "ts": "1497631054.698206"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> I can’t speak to your other questions, however the ‘active’ overlay will appear on all cases for now until the account auth piece is finalized (I made a note of this on the ticket in Jira).",
+        "ts": "1497631350.796373"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I saw it",
+        "ts": "1497631372.803252"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "ohhh okay thanks Summer",
+        "ts": "1497631390.809041"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "saw that note but didn't quite understand that",
+        "ts": "1497631428.821927"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m on it. Re: Places #2 The text size was changed in the sketch files and seemed to match the deck (18sp from 24sp, across the generators), so I changed it across onboarding. It makes sense to do that because the text on the 3rd trends tutorial page is really long and looks a little strange in 24sp.",
+        "ts": "1497631678.904300"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I will triple check across the screens, for due diligence.",
+        "ts": "1497631763.931817"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Re: Places #3 - the dialog is triggered on pressing ‘Next’ button on page 2. I can see if I can set up some kind of listener to only move to the third page when the dialog gets a response. I got the dialog in there pretty last minute yesterday and didn’t want to rush on that piece of it, because I was unsure of the approach.",
+        "ts": "1497631908.979976"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "that completely makes sense, thanks Midori!!",
+        "ts": "1497632007.013078"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "that's why i wasn't sure either :blush: (on Places #3)",
+        "ts": "1497632028.020024"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’ll replace the checkmark gif (I thought it had already been corrected) and I’ll mess around with that dialog. Then I can start on the settings screen stuff.",
+        "ts": "1497632223.084755"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool, sounds great!",
+        "ts": "1497632357.130590"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5VS0MWNA\/notifications_test_build.apk|notifications_test_build.apk> and commented: <@U0U9WJB7F> Here is a build you can use to play with notifications",
+        "file": {
+            "id": "F5VS0MWNA",
+            "created": 1497633342,
+            "timestamp": 1497633342,
+            "name": "notifications_test_build.apk",
+            "title": "notifications_test_build.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 54637467,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5VS0MWNA\/notifications_test_build.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5VS0MWNA\/download\/notifications_test_build.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5VS0MWNA\/notifications_test_build.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5VS0MWNA-466833f8d5",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5V04763D",
+                "created": 1497633342,
+                "timestamp": 1497633342,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "<@U0U9WJB7F> Here is a build you can use to play with notifications"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1497633347.461355"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Here is how to register to the tokens manually: \nTo add a new token entry:\n<https:\/\/minime-collections.appspot.com\/device_tokens\/sample>\n\nModify the `installation_id` and `registration_id` fields for the token that you just added here using the logcat output: \n<https:\/\/console.cloud.google.com\/datastore\/entities\/query?project=minime-collections&amp;ns=&amp;kind=DeviceToken>\n\nTo create a new notification: \n<https:\/\/minime-collections.appspot.com\/notifications\/new>\n\nLet me know if anything needs to be changed around or if you need help adding new tokens!",
+        "attachments": [
+            {
+                "title": "Google Cloud Platform",
+                "title_link": "https:\/\/console.cloud.google.com\/datastore\/entities\/query?project=minime-collections&ns=&kind=DeviceToken",
+                "text": "Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google.",
+                "fallback": "Google Cloud Platform",
+                "from_url": "https:\/\/console.cloud.google.com\/datastore\/entities\/query?project=minime-collections&ns=&kind=DeviceToken",
+                "service_icon": "https:\/\/accounts.google.com\/favicon.ico",
+                "service_name": "accounts.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1497633378.471558"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5V0MQ50T\/screenshot_20170616-104323.png|Screenshot_20170616-104323.png> and commented: The edges of that asset look weird",
+        "file": {
+            "id": "F5V0MQ50T",
+            "created": 1497635031,
+            "timestamp": 1497635031,
+            "name": "Screenshot_20170616-104323.png",
+            "title": "Screenshot_20170616-104323.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 49777,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5V0MQ50T\/screenshot_20170616-104323.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5V0MQ50T\/download\/screenshot_20170616-104323.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5V0MQ50T-89bc6fa65e\/screenshot_20170616-104323_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5V0MQ50T-89bc6fa65e\/screenshot_20170616-104323_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5V0MQ50T-89bc6fa65e\/screenshot_20170616-104323_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5V0MQ50T-89bc6fa65e\/screenshot_20170616-104323_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5V0MQ50T-89bc6fa65e\/screenshot_20170616-104323_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5V0MQ50T-89bc6fa65e\/screenshot_20170616-104323_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5V0MQ50T-89bc6fa65e\/screenshot_20170616-104323_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5V0MQ50T-89bc6fa65e\/screenshot_20170616-104323_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5V0MQ50T-89bc6fa65e\/screenshot_20170616-104323_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5V0MQ50T\/screenshot_20170616-104323.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5V0MQ50T-b57d9a568b",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5V0MQVLK",
+                "created": 1497635031,
+                "timestamp": 1497635031,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "The edges of that asset look weird"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1497635034.019732"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> can you double check the version codes in those builds",
+        "ts": "1497635344.123940"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP>",
+        "ts": "1497635870.304216"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/drive.google.com\/drive\/folders\/0B8Nqz7v9YgvVeGtzaUNrX0RFQ3c>",
+        "ts": "1497635870.304404"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this is versionCode 86",
+        "ts": "1497635876.306174"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not 85",
+        "ts": "1497635880.307693"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it should be 85, could you build that?",
+        "ts": "1497635894.312490"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or is it the code on `develop`",
+        "ts": "1497635901.315301"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and i can build it",
+        "ts": "1497635905.316726"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> rebuilding `release-85`",
+        "ts": "1497636030.363273"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "really, shoot, I had done a clean and new build assemble. Sorry about that",
+        "ts": "1497638559.214307"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!here|@here> in the latest build if you dont have earth installed and try to use the shortcut it does not prompt you to download Google Earth (it just buzzes and fails to do anything)",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1497649333.000000"
+        },
+        "ts": "1497649315.197867"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0U9WJB7F> can you make a ticket for this when you have a chance?",
+        "ts": "1497649411.217756"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yes!",
+        "ts": "1497649498.235146"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> could someone just fix this",
+        "ts": "1497649580.251978"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah itd be great to prioritize",
+        "ts": "1497649622.260194"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok",
+        "ts": "1497649726.281455"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "should it just be going to the Google Earth play store?",
+        "ts": "1497649838.304427"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "uh oh - more info - looks like it was prompting the user to install at another point (natalie saw when she set trends wallpaper)",
+        "ts": "1497649885.313615"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(when both were installed)",
+        "ts": "1497649892.315117"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes <@U1ZG1UCAK>  - this was previously working - i tested it a couple of weeks ago",
+        "ts": "1497649908.318205"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":confused:",
+        "ts": "1497649966.329321"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i just havent tested it since, but came up during our meeting",
+        "ts": "1497650016.340049"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "For some reason `sendImmediateLaunchIntent` isn’t working. Calling startActivity on the context works though. I can send a build with this change if you’d like.",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1497651262.000000"
+        },
+        "ts": "1497651220.566212"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sorry...does that fix it? :slightly_smiling_face:",
+        "ts": "1497651287.577636"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "forgive my ignorance here",
+        "ts": "1497651294.578719"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sort of. It works like it did previously where the launch time varies rather than being immediate. I’m not sure how to get the launch intent to work immediately using the fix that Marco came up with.",
+        "ts": "1497651647.637183"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Can <@U3ZFEAPSP> help?",
+        "ts": "1497651809.663019"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "we chatted, I think we have a way of handling it",
+        "ts": "1497651918.680871"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Fix is: checking package manager for earth\/maps package before immediate launch intent. It works for our purposes, but I can push a branch if you want to review <@U026PHQ3J>. Otherwise, I can merge onto develop.",
+        "ts": "1497652703.800835"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i trust u",
+        "ts": "1497652716.802899"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<http:\/\/gph.is\/2dgFR8U>",
+        "attachments": [
+            {
+                "service_name": "Giphy",
+                "service_url": "http:\/\/giphy.com\/",
+                "image_url": "http:\/\/media4.giphy.com\/media\/rtmcNbtCPhoNq\/giphy.gif",
+                "image_width": 400,
+                "image_height": 246,
+                "image_bytes": 410230,
+                "fallback": "giphy: http:\/\/giphy.com\/gifs\/trust-rtmcNbtCPhoNq",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/giphy.png",
+                "id": 1
+            }
+        ],
+        "ts": "1497652770.810521"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "pushed on `develop`",
+        "ts": "1497652866.824881"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "the user account stuff is on the origin\/user_account_pairing\nto pull down. (to everyone else, I'm reviewing the user account stuff with summer &amp; midori)",
+        "ts": "1497654185.013418"
+    },
+    {
+        "user": "U3ZFEAPSP",
+        "text": "<@U3ZFEAPSP|oliver> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1497660047.613916"
+    }
+]

@@ -1,0 +1,445 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey team - jenna and i just went through the JIRA tickets listed above. were unclear on what is needed for some of these or why they are blocked, so please provide any additional insight \/ needs in the tickets (comment with <@U0U9WJB7F> so she's sure to get them while we're with kat + can follow up with you ASAP so you get what you need) :slightly_smiling_face:",
+        "ts": "1494349598.369889"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2670DYLE>",
+        "ts": "1494355497.062445"
+    },
+    {
+        "user": "U2670DYLE",
+        "inviter": "U026PHQ3J",
+        "text": "<@U2670DYLE|johncohoon> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494355501.063533"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2670DYLE> regarding lynsey’s comment in JIRA about push notifications, we’re going to want to add a flag to the push registration endpoint to mark “new world” users so people on modern (non-NFC hardware) will be somehow logically different on the backend and they can be bucketed",
+        "ts": "1494355595.090775"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(this makes more sense in person)",
+        "ts": "1494355600.092294"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Is this just a flag that is included in the payload of a push notification?",
+        "ts": "1494355651.107179"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes - thank you! john also happy to chat through in person (with client right now but can swing by later) if needed!",
+        "ts": "1494355715.125677"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "mostly wanted to jot it down before we forgot",
+        "ts": "1494355724.127902"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2670DYLE> no in this case we’d want to make sure that the inbound registration endpoint can capture if the user is “new” or “old” world",
+        "ts": "1494355755.137034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then when sending a push, we’d want to be able to say “only send to people with newer cases”",
+        "ts": "1494355770.141466"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or older",
+        "ts": "1494355773.142179"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "etc.",
+        "ts": "1494355774.142344"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if that makes sense",
+        "ts": "1494355775.142811"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Ok, that makes sense. we'll just query when it comes time to send the notification.",
+        "ts": "1494355828.158375"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep!",
+        "ts": "1494355901.179187"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> <@U2H61EJSG> <@U1ZG1UCAK> how are things coming along considering our Wednesday deadline tomorrow? I think the things we're *most* concerned about at this point are the Trends Visualization and the new Earth Images. Would love just a general update on progress\/blockers.",
+        "ts": "1494361191.625422"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Concerning the Trends visualisation, Here is the closest to the supplied image I can provide currently:",
+        "ts": "1494361688.759254"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5B3J8B6G\/screenshot_20170505-140406.png|Screenshot_20170505-140406.png>",
+        "file": {
+            "id": "F5B3J8B6G",
+            "created": 1494361690,
+            "timestamp": 1494361690,
+            "name": "Screenshot_20170505-140406.png",
+            "title": "Screenshot_20170505-140406.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 193820,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B3J8B6G\/screenshot_20170505-140406.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5B3J8B6G\/download\/screenshot_20170505-140406.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B3J8B6G-7182f1e300\/screenshot_20170505-140406_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B3J8B6G-7182f1e300\/screenshot_20170505-140406_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B3J8B6G-7182f1e300\/screenshot_20170505-140406_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B3J8B6G-7182f1e300\/screenshot_20170505-140406_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B3J8B6G-7182f1e300\/screenshot_20170505-140406_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B3J8B6G-7182f1e300\/screenshot_20170505-140406_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B3J8B6G-7182f1e300\/screenshot_20170505-140406_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B3J8B6G-7182f1e300\/screenshot_20170505-140406_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5B3J8B6G-7182f1e300\/screenshot_20170505-140406_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5B3J8B6G\/screenshot_20170505-140406.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5B3J8B6G-2687f4dc2d",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1494361700.762559"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Note that the height of the line can be changed, but the even thickness is the issue I brought up yesterday that I have not yet been able to tackle. I can include what you see in the above image for Wednesday’s build, but it is going to take some time for me to figure out an algorithm to determine the curve of the bottom graph so that it is evenly spaced from the top graph. Let me know what you think!",
+        "ts": "1494361727.769978"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Also, I am currently using the existing case colors but I can easily add more color options.",
+        "ts": "1494361936.827632"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Let's definitely update the colors, but it'd be a good idea to get <@U026PHQ3J> involved at this point! :slightly_smiling_face:",
+        "ts": "1494361968.836290"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i need a whiteboard",
+        "ts": "1494362000.845115"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and like 10 min where i’m not doing anything else",
+        "ts": "1494362008.847307"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> If you’ve got a spare moment today, I can find us a whiteboard.",
+        "ts": "1494362033.854081"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "For earth images, current thinking is that we’ll just put the case assets in the apk for now and hard-code where we need to make this happen.",
+        "ts": "1494362380.947794"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> looks like you're free from 1:50-2pm <@U2H61EJSG> maybe prepare a whiteboard and let him know where to meet you!",
+        "ts": "1494362656.021928"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not going to work",
+        "ts": "1494362687.030077"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "as far as earth images go, I am aiming for (and expecting) we will get that wrapped up by end of day today. I’m finishing up the nfc pieces currently and should have those in a couple of hours",
+        "ts": "1494362737.043499"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Okay, it doesn't have to happen at that time but it should happen at some point today considering we're delivering the build tomorrow <@U026PHQ3J> <@U2H61EJSG>",
+        "ts": "1494362816.064852"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> <@U1ZG1UCAK> <@U2H61EJSG> Just threw a meeting on the calendar for tonight at 5pm for a quick standup so we can understand exactly where y'all are at! Thanks!",
+        "ts": "1494369165.449957"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’ll have a build out in about 10 min that will reflect the Jira board’s status. Just as a guidepost, I think we have been updating those tasks, so that should hopefully be a reasonably accurate picture of where we are :slightly_smiling_face:",
+        "ts": "1494369238.462155"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sweet - looking forward to seeing the next iteration!",
+        "ts": "1494369294.471256"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "awesome!",
+        "ts": "1494369388.486496"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, there will be a lot in there! It’s looking good",
+        "ts": "1494369406.489370"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Are you able to summarize where you're at with supporting old NFC users?",
+        "ts": "1494369417.491112"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> ^",
+        "ts": "1494369499.503648"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, give me a min to finish merging &amp; reviewing these branches and I can go write that up",
+        "ts": "1494369559.512832"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "awesome, thanks.",
+        "ts": "1494369670.529876"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5ADYH7PS\/vz_sellin_5-9_builda.apk|vz_sellin_5-9_buildA.apk>",
+        "file": {
+            "id": "F5ADYH7PS",
+            "created": 1494370125,
+            "timestamp": 1494370125,
+            "name": "vz_sellin_5-9_buildA.apk",
+            "title": "vz_sellin_5-9_buildA.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 56401134,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ADYH7PS\/vz_sellin_5-9_builda.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ADYH7PS\/download\/vz_sellin_5-9_builda.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5ADYH7PS\/vz_sellin_5-9_builda.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5ADYH7PS-f4dd362327",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1494370134.599834"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "vz_sellin is up-to-date, test away on this to uncover anything that will come up. I’ll come find you <@U13GPDA1F> and @jenna and we can go over what is all in here",
+        "ts": "1494370303.624980"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> updated Earth and Trends animations here (they've just been shortened):\n\nSee v02:\n<https:\/\/drive.google.com\/drive\/folders\/0B_981GGstm-YSy1VRFN0cy1zTlU>",
+        "ts": "1494371653.822971"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I also created a ticket for this <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-215>",
+        "ts": "1494372420.927810"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "from bonnie: <https:\/\/developer.android.com\/studio\/build\/build-variants.html>",
+        "ts": "1494373136.023522"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also: <https:\/\/developer.android.com\/google\/play\/publishing\/multiple-apks.html#HowItWorks>",
+        "attachments": [
+            {
+                "title": "    Multiple APK Support | Android Developers  ",
+                "title_link": "https:\/\/developer.android.com\/google\/play\/publishing\/multiple-apks.html#HowItWorks",
+                "text": "Multiple APK support is a feature on Google Play that allows you to publish different APKs for your application that are each targeted to different device configurations. Each APK is a complete and independent version of your application, but they share…",
+                "fallback": "    Multiple APK Support | Android Developers  ",
+                "from_url": "https:\/\/developer.android.com\/google\/play\/publishing\/multiple-apks.html#HowItWorks",
+                "service_icon": "https:\/\/developer.android.com\/_static\/0ad3d8d05a\/images\/android\/touchicon-180.png",
+                "service_name": "developer.android.com",
+                "id": 1
+            }
+        ],
+        "ts": "1494373412.059280"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> sorry just need a few more minutes.",
+        "ts": "1494374739.226460"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> I just poked through your calendar to see if you have any time to chat about Trends visualization stuff tomorrow morning and it looks like your schedule is jammed pack. I’m happy to come in early tomorrow if you would be able to meet before your 9:00am appointment - does that work for you?",
+        "ts": "1494375648.332480"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> <@U3ZFEAPSP> don't worry about stripping out the old codes (per the conversation we just had)",
+        "ts": "1494376587.436063"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome, thanks!",
+        "ts": "1494376595.436931"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5C1PHWJ3\/vz_sellin_5-9_buildb.apk|vz_sellin_5-9_buildB.apk>",
+        "file": {
+            "id": "F5C1PHWJ3",
+            "created": 1494391700,
+            "timestamp": 1494391700,
+            "name": "vz_sellin_5-9_buildB.apk",
+            "title": "vz_sellin_5-9_buildB.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 48702150,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5C1PHWJ3\/vz_sellin_5-9_buildb.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5C1PHWJ3\/download\/vz_sellin_5-9_buildb.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5C1PHWJ3\/vz_sellin_5-9_buildb.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5C1PHWJ3-42ccefe421",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1494391706.184010"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "thanks Midori for getting the improved initial earth image for the build.\nBuild has the new, much shorter animations from UsTwo. We can figure out what sort of tweaks we want to make tomorrow during the day",
+        "ts": "1494392020.209043"
+    }
+]

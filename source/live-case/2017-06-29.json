@@ -1,0 +1,794 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Hey Team! For our DF Build today let's plan to do the following:\nRelease a test build for people without pixel2's (please make sure to put \"test\" in the version name). This build should also allow us to test push notifications.\n\nFor the actual DF build, we *do not* want to test notifications so please make sure that feature is turned off, we'll be releasing an Alpha, Beta AND experimental build (all version codes and files are in the merged APK folder and ready to go. \n\nLemme know if you have questions or a different understanding :slightly_smiling_face:",
+        "ts": "1498755630.387604",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hello <!here|@here>",
+        "ts": "1498756268.632424",
+        "reactions": [
+            {
+                "name": "wave::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U0260V1BX"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you pull develop and make sure i didn’t ruin everything",
+        "ts": "1498756278.635436"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i am making changes to the packages for dogfood",
+        "ts": "1498756287.639342"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and that branch should now include the new build flavors",
+        "ts": "1498756296.642331",
+        "reactions": [
+            {
+                "name": "icecream",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i also want to make sure i didnt’ accidentally ruin stuff",
+        "ts": "1498756303.645019"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes",
+        "ts": "1498756315.649216"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if everything is right, you’ll see all your nomal expected stuff in there (all your changes will be there)",
+        "ts": "1498756321.651413"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but also there will be a new build flavor called dogfood",
+        "ts": "1498756327.653477",
+        "reactions": [
+            {
+                "name": "dog",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "package now `com.google.android.apps.workshop_dogfood`?",
+        "ts": "1498757371.050367",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Yep!",
+        "ts": "1498757404.063593"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Aye",
+        "ts": "1498757483.094504"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m getting some runtime exception crashes on the download services for photos and earth",
+        "ts": "1498757527.111754"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "places was ok",
+        "ts": "1498757535.114495"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "crash on artworks too",
+        "ts": "1498757599.139562"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F61L9SXMH\/-.java|Untitled>",
+        "file": {
+            "id": "F61L9SXMH",
+            "created": 1498757640,
+            "timestamp": 1498757640,
+            "name": "-.java",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U1ZG1UCAK",
+            "editable": true,
+            "size": 2505,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F61L9SXMH\/-.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F61L9SXMH\/download\/-.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F61L9SXMH\/-.java",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F61L9SXMH-b1439e8447",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/midori\/F61L9SXMH\/-.java\/edit",
+            "preview": "java.lang.RuntimeException: An error occurred while executing doInBackground()\r\n                                                                                            at android.os.AsyncTask$3.done(AsyncTask.java:325)\r\n                                                                                            at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:354)\r\n                                                                                            at java.util.concurrent.FutureTask.setException(FutureTask.java:223)\r\n                                                                                            at java.util.concurrent.FutureTask.run(FutureTask.java:242)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">lang<\/span>.<span class=\"cm-variable\">RuntimeException<\/span>: <span class=\"cm-variable\">An<\/span> <span class=\"cm-variable\">error<\/span> <span class=\"cm-variable\">occurred<\/span> <span class=\"cm-keyword\">while<\/span> <span class=\"cm-variable\">executing<\/span> <span class=\"cm-def\">doInBackground<\/span>()<\/pre><\/div>\n<div><pre>                                                                                            <span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">os<\/span>.<span class=\"cm-variable\">AsyncTask$3<\/span>.<span class=\"cm-variable\">done<\/span>(<span class=\"cm-variable\">AsyncTask<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">325<\/span>)<\/pre><\/div>\n<div><pre>                                                                                            <span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">util<\/span>.<span class=\"cm-variable\">concurrent<\/span>.<span class=\"cm-variable\">FutureTask<\/span>.<span class=\"cm-variable\">finishCompletion<\/span>(<span class=\"cm-variable\">FutureTask<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">354<\/span>)<\/pre><\/div>\n<div><pre>                                                                                            <span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">util<\/span>.<span class=\"cm-variable\">concurrent<\/span>.<span class=\"cm-variable\">FutureTask<\/span>.<span class=\"cm-variable\">setException<\/span>(<span class=\"cm-variable\">FutureTask<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">223<\/span>)<\/pre><\/div>\n<div><pre>                                                                                            <span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">util<\/span>.<span class=\"cm-variable\">concurrent<\/span>.<span class=\"cm-variable\">FutureTask<\/span>.<span class=\"cm-variable\">run<\/span>(<span class=\"cm-variable\">FutureTask<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">242<\/span>)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 14,
+            "lines_more": 9,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1498757641.155890"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> do we have a new icon",
+        "ts": "1498757683.171859"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> can you trace it? i’m stuck for a bit in meetings until this afternoon",
+        "ts": "1498757693.175797"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yep",
+        "ts": "1498757703.179634"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "We haven't received it yet, i checked in yesterday afternoon and they are waiting for final approval.",
+        "ts": "1498757720.186186"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I can follow up again",
+        "ts": "1498757725.188250"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0U9WJB7F> can you ping <@U0260V1BX> and i build we should check out before it goes to client? (or if you have a sense of timing so we can plan to do a quick pass)",
+        "ts": "1498758330.420416"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "fosho!",
+        "ts": "1498758343.425434"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "traced crash: package name needed to be changed in content providers",
+        "ts": "1498758666.551036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh hm",
+        "ts": "1498758741.580335"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I thought i did that",
+        "ts": "1498758749.583505"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "must have reverted",
+        "ts": "1498758751.584460"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> or a strings file in that variant",
+        "ts": "1498758909.646292"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "merging that fix onto develop",
+        "ts": "1498765626.138565",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U2H61EJSG",
+                    "U0U9WJB7F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "merenguing that fix onto develop",
+        "ts": "1498765651.147206",
+        "reactions": [
+            {
+                "name": "egg",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "dancer::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "pushed",
+        "ts": "1498765865.223426"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "whenever you guys are able to send a test build I'll get to QA'ing!",
+        "ts": "1498766608.494682"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'm going to leave it up to <@U2H61EJSG> and <@U1ZG1UCAK>",
+        "ts": "1498766669.516719"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i also have to email andrei",
+        "ts": "1498766675.519025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "apparently the \"these are my cases\" endpoint has changed response formats again out of nowhere",
+        "ts": "1498766688.523953"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so your logcats probably have a JSONObject exception in them for \"[]\" not being valid",
+        "ts": "1498766706.530420"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "sure do!",
+        "ts": "1498766750.545869"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "different than the endpoint he sent us last week? <http:\/\/livecase.withgoogle.com\/api\/cases|livecase.withgoogle.com\/api\/cases> ? (also i could be totally off right now)",
+        "ts": "1498766820.570274"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "same endpoint, just different response format",
+        "ts": "1498766864.585302"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "well damn.",
+        "ts": "1498766912.602103"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah not a big deal yet",
+        "ts": "1498766922.605465"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just a little weirded out because if it starts working again out of nowhere it might get weird",
+        "ts": "1498766941.612325"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "for sure, do you want me to follow up with him or would you feel better handling that comm?",
+        "ts": "1498766971.622757"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill email him",
+        "ts": "1498767293.733616",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0XJFPSRL",
+        "inviter": "U0260V1BX",
+        "text": "<@U0XJFPSRL|elisecramer> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1498767687.869868",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0U9WJB7F",
+                    "U13GPDA1F",
+                    "U0XJFPSRL"
+                ],
+                "count": 3
+            },
+            {
+                "name": "sup",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U2H61EJSG",
+                    "U13GPDA1F"
+                ],
+                "count": 3
+            },
+            {
+                "name": "sunglasses",
+                "users": [
+                    "U06DFL7BP",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "ELISE!",
+        "ts": "1498769320.439280"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<!here|@here> I’m onboarding elise so that she can cover any UX \/ design needs when i’m on maternity leave.",
+        "ts": "1498769554.519570",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "That's great!",
+        "ts": "1498769571.525113"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Do we have any extra test devices around? I’d like to make sure she has one",
+        "ts": "1498769576.527071"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "we could steal the 5x from compass... maybe",
+        "ts": "1498769606.537078"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "we're a bit short on devices, but we can certainly figure something out",
+        "ts": "1498769622.542634"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Is there a special naming convention I should use for the build I am about to share?",
+        "ts": "1498769948.654411"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":point_up::skin-tone-4: <@U0U9WJB7F>",
+        "ts": "1498770064.695926"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F62MU6C87\/minime-debug-dogfood.apk|MiniMe-DEBUG-DOGFOOD.apk>",
+        "file": {
+            "id": "F62MU6C87",
+            "created": 1498770483,
+            "timestamp": 1498770483,
+            "name": "MiniMe-DEBUG-DOGFOOD.apk",
+            "title": "MiniMe-DEBUG-DOGFOOD.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24213254,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F62MU6C87\/minime-debug-dogfood.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F62MU6C87\/download\/minime-debug-dogfood.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F62MU6C87\/minime-debug-dogfood.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F62MU6C87-30dac0fa31",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C0BTK9LGH"
+            ]
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1498770484.835215"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U13GPDA1F> <@U0260V1BX> I'm going to get to QA'ing if y'all want to join :slightly_smiling_face:",
+        "ts": "1498770786.928608"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0U9WJB7F",
+        "item_type": "F",
+        "text": "<@U0U9WJB7F|jenna.simon> pinned <@U2H61EJSG|summer>’s APK <https:\/\/uncorked.slack.com\/files\/summer\/F62MU6C87\/minime-debug-dogfood.apk|MiniMe-DEBUG-DOGFOOD.apk> to this channel.",
+        "item": {
+            "id": "F62MU6C87",
+            "created": 1498770483,
+            "timestamp": 1498770483,
+            "name": "MiniMe-DEBUG-DOGFOOD.apk",
+            "title": "MiniMe-DEBUG-DOGFOOD.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24213254,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F62MU6C87\/minime-debug-dogfood.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F62MU6C87\/download\/minime-debug-dogfood.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F62MU6C87\/minime-debug-dogfood.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F62MU6C87-30dac0fa31",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C0BTK9LGH"
+            ]
+        },
+        "ts": "1498771020.001443"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<https:\/\/docs.google.com\/spreadsheets\/d\/1li2doI_D3KlEmllQ4mFT5G1fmdrIjdRznzvINJk4_v8\/edit#gid=67757670> \n\n^ link to the QA plan use tab 6.29",
+        "ts": "1498771378.110716"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> shared a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5UQ3JTL6\/qa_plan|QA Plan>",
+        "file": {
+            "id": "F5UQ3JTL6",
+            "created": 1497483414,
+            "timestamp": 1497483414,
+            "name": "QA Plan",
+            "title": "QA Plan",
+            "mimetype": "application\/vnd.google-apps.spreadsheet",
+            "filetype": "gsheet",
+            "pretty_type": "GDocs Spreadsheet",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 1071061,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/spreadsheets\/d\/1li2doI_D3KlEmllQ4mFT5G1fmdrIjdRznzvINJk4_v8\/edit#gid=1802873235",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5UQ3JTL6-9bc94b4277\/qa_plan_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5UQ3JTL6-9bc94b4277\/qa_plan_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5UQ3JTL6-9bc94b4277\/qa_plan_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 254,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5UQ3JTL6-9bc94b4277\/qa_plan_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 339,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5UQ3JTL6-9bc94b4277\/qa_plan_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5UQ3JTL6-9bc94b4277\/qa_plan_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 509,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5UQ3JTL6-9bc94b4277\/qa_plan_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1132,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5UQ3JTL6-9bc94b4277\/qa_plan_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 678,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5UQ3JTL6-9bc94b4277\/qa_plan_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 724,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1024,
+            "original_h": 1449,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5UQ3JTL6\/qa_plan",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C0BTK9LGH"
+            ],
+            "has_rich_preview": true
+        },
+        "user": "U0U9WJB7F",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1498771379.110915"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "forgot to mention:\nI added an extra order to Artworks for messing around with multiple cases",
+        "ts": "1498772550.448095"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "21XXXXX will launch Eliza McNitt\n22XXXXX will launch Space Cats",
+        "ts": "1498772608.463973",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F",
+                    "U0U9WJB7F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<https:\/\/open.spotify.com\/track\/03AnzlzStcTSuyUftozMDV>",
+        "attachments": [
+            {
+                "service_name": "Spotify",
+                "service_url": "https:\/\/www.spotify.com",
+                "title": "Movin' Right Along - From \"The Muppet Movie\"\/Soundtrack Version",
+                "title_link": "https:\/\/open.spotify.com\/track\/03AnzlzStcTSuyUftozMDV",
+                "thumb_url": "https:\/\/i.scdn.co\/image\/40e779841931358c183589f2650aeae20cc23d5c",
+                "thumb_width": 640,
+                "thumb_height": 640,
+                "fallback": "Spotify Audio: Link: Movin' Right Along - From \"The Muppet Movie\"\/Soundtrack Version",
+                "audio_html": "<iframe src=\"https:\/\/open.spotify.com\/embed\/track\/03AnzlzStcTSuyUftozMDV\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\"><\/iframe>",
+                "audio_html_width": 300,
+                "audio_html_height": 380,
+                "from_url": "https:\/\/open.spotify.com\/track\/03AnzlzStcTSuyUftozMDV",
+                "service_icon": "https:\/\/a.slack-edge.com\/e8ef6\/img\/unfurl_icons\/spotify.png",
+                "id": 1
+            }
+        ],
+        "ts": "1498773334.657310"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I found a thing :disappointed: with the case already paired dialog. If you enter a pairing code and hit the back button in the success onboarding screen, you’ll go back to the Enter Code screen. If you enter the same code (like in Earth) the dialog shows up and the “Back to App” button doesn’t work because the app thinks that onboarding is not finished.",
+        "ts": "1498774558.950440"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m going to pause testing and try to fix",
+        "ts": "1498774579.954981"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "good find Midori!",
+        "ts": "1498774785.999387"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0U9WJB7F",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[June 29th, 2017 2:43 PM] midori: 21XXXXX will launch Eliza McNitt\n22XXXXX will launch Space Cats",
+                "ts": "1498772608.463973",
+                "author_subname": "midori",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "21XXXXX will launch Eliza McNitt\n22XXXXX will launch Space Cats",
+                "author_name": "Midori Bowen",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/midori",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-07-31\/219438336432_7a1410a2d7bad1f7ce55_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U0U9WJB7F|jenna.simon> pinned a message to this channel.",
+        "ts": "1498775940.239997"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I think what I’m going to do is once the user gets into the success screen, if they hit the back button they can’t go back to the enter code screen. But the back action needs some work in general in onboarding\/tutorial :confused:",
+        "ts": "1498776319.314249"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Midori just walked Melissa and I through this-I'll create a ticket and we can add it to this sprint as an improvement.",
+        "ts": "1498777058.457702"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Can it be more of an improvement for generally tracking the tutorial view the user is in vs. specific to the issue of pressing back in the success tutorial screen?",
+        "ts": "1498777130.471249"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J>  Which build flavors are we sending?",
+        "ts": "1498780096.984519"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Dogfood!",
+        "ts": "1498780557.054610"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Sorry ",
+        "ts": "1498780562.055458"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Adrien is going to put this out on the new package name ",
+        "ts": "1498780660.070308"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So the dogfood flavors have the new package ",
+        "ts": "1498780693.075184"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": ":spaghetti:",
+        "ts": "1498781530.203205"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": ":spaghettios:",
+        "ts": "1498781544.205176"
+    }
+]

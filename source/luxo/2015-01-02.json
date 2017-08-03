@@ -1,0 +1,516 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "@joel I just read Luke's email. Can't think of what causing this issue. Maybe we could ask him to open Chrome's dev tools and send us a screenshot of the any errors in there.",
+        "ts": "1420228252.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02E3CRMA>: ^^^",
+        "ts": "1420228328.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'm stumped as well. I did ask him to refresh the window, figuring he didn't since he kicked the server.",
+        "ts": "1420228375.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "And yes, agree that a grab of the dev tools output would be helpful",
+        "ts": "1420228392.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "just had him do a clean uninstall\/reinstall",
+        "ts": "1420229146.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah it sounds like he's just not refreshing the browser to me... but i guess he is",
+        "ts": "1420229209.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Cool. Will keep an eye on the BC messages and will jump in if he keeps having UI issues.",
+        "ts": "1420229255.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "found the problem - main.js was still pointing to 10.1.10.19. Fixed on his rig, and will update in the package.",
+        "ts": "1420235298.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "nice one <@U02E3CRMA>. have we eradicated all the 10.1.10.19s?",
+        "ts": "1420235385.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "looks like it. grepped the whole tree, and the only ones were in main.js\/scripts.min.js",
+        "ts": "1420235719.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "OH, my bad. Thanks for helping out with this one.",
+        "ts": "1420235814.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02E3CRMA> About that latest email from Luke, do you know if he's comfortable with the browser dev tools? I can just ask him to type the one function in there instead of adding the click functionality to dismiss the welcome screen.",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1420246045.000000"
+        },
+        "ts": "1420246026.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "let me see if I can clean things up on his config before we make any changes",
+        "ts": "1420246108.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "he messed with the camera height and configuration, so I have no idea what we're dealing with right now",
+        "ts": "1420246136.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks. Just talked to Evans and the other thing we could do is have a dev version of the .html and .js code that with the UI devmode on.",
+        "ts": "1420246359.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Would it be easy for you to create a second Chromium button that opens on the dev html file?",
+        "ts": "1420246417.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Yes, very easy. What if you took an inline param to the js file that enabled dev mode? Then i can create a second icon that passes that URL. For instance file:\/\/\/usr\/local\/luxo\/ui\/index.html?debug=true",
+        "ts": "1420247064.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Sure. Already had that :simple_smile:",
+        "ts": "1420247294.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Just set devMode to true",
+        "ts": "1420247317.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Oh, wait, don't think I had it wired up to the URL param",
+        "ts": "1420247390.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "let me check",
+        "ts": "1420247394.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "excellent",
+        "ts": "1420247416.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02E3CRMA> Just pushed the code. Adding ?devMode=true to the url should now turn dev mode on.",
+        "ts": "1420248638.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Have to leave now but will be on slack and will be back online in 30 mins.",
+        "ts": "1420248680.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Thanks, Gaston. I'll get this all packaged up and sent over on Monday AM. Between setting up the cam and getting a new calibration, I think Luke's got plenty to do for now.",
+        "ts": "1420249960.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "vidId and hwId: \/dev\/video0, 1",
+        "ts": "1420257551.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X> ^^^",
+        "ts": "1420257566.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh hi jenny!",
+        "ts": "1420257571.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it said that before he plugged the mic in",
+        "ts": "1420257571.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hi",
+        "ts": "1420257574.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i'm guessing he tried recording after plugging the mic in...",
+        "ts": "1420257617.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh thats the last avconv output from the log he just posted",
+        "ts": "1420257631.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "lemme check it out i haven't looked yet",
+        "ts": "1420257645.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool cool",
+        "ts": "1420257649.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thank you, btw!",
+        "ts": "1420257721.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay yeah it's at the bottom of the log so i'm guessing he did try to record after plugging the mic in",
+        "ts": "1420257768.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "would it be helpful to have him run the probe command and send the output to you",
+        "ts": "1420257806.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "mmm that bash script pretty much just outputs what we're seeing in the logs",
+        "ts": "1420257906.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what about maybe running the avconv recording command by hand and seeing THAT output?",
+        "ts": "1420257923.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since now you know the variables",
+        "ts": "1420257931.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah. he should restart it after plugging in the mic if he hasn't already though. after that i can't imagine what the problem is unless the device names i'm grep - ing for in the bash script are different since he's using different hardware...",
+        "ts": "1420258015.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i mean on his end",
+        "ts": "1420258016.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh its possible",
+        "ts": "1420258030.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "...yeah",
+        "ts": "1420258037.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you send the probe command that the bash script runs, and the avconv command",
+        "ts": "1420258044.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah",
+        "ts": "1420258048.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and get him to post the results?",
+        "ts": "1420258052.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "and i'll tell him to restart if he hasn't",
+        "ts": "1420258054.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "SHERLOCK HOLMES",
+        "ts": "1420258057.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sweet thank you.",
+        "ts": "1420258068.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "woulda been nice if this had come up ~8 hours ago",
+        "ts": "1420258080.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I agree. If you point me at a file in the repo, i can orchestrate it as best i can and leave you alone!",
+        "ts": "1420258113.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "nah it's fine i'm curious now.",
+        "ts": "1420258151.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i'll write up directions for him in basecamp",
+        "ts": "1420258160.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "#cats",
+        "ts": "1420258162.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks. I'm gonna eat some dinner for a minute, but i'll be nearby",
+        "ts": "1420258187.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "kk",
+        "ts": "1420258193.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026PHQ3J> what's the command to list the details of the video devices in \/dev ?",
+        "ts": "1420258436.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I don't remember offhand",
+        "ts": "1420258454.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's in the bash script",
+        "ts": "1420258462.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(Sorry I literally just closed my laptop)",
+        "ts": "1420258475.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah, i'm having trouble coming up with a one-liner for him",
+        "ts": "1420258479.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok one sec",
+        "ts": "1420258495.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thanks!",
+        "ts": "1420258563.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ooh i see",
+        "ts": "1420258568.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh wait",
+        "ts": "1420258608.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like",
+        "ts": "1420258609.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "arecord -l",
+        "ts": "1420258611.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that's audio devices",
+        "ts": "1420258617.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right",
+        "ts": "1420258619.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do we care about video devices?",
+        "ts": "1420258623.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause you could tell him to get you the output of this:",
+        "ts": "1420258646.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "udevadm info --name=\/dev\/video0 &amp;&amp; udevadm info --name=\/dev\/video1",
+        "ts": "1420258655.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oo okay yeah",
+        "ts": "1420258661.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i just want to cover all our bases since you said that he's not using the same camera as us",
+        "ts": "1420258675.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "and that bash script was written specifically for what we have",
+        "ts": "1420258683.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right. i think its the same model, but a different firmware rev.",
+        "ts": "1420258685.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "agree.",
+        "ts": "1420258688.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "good call",
+        "ts": "1420258689.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in fact, send him this:",
+        "ts": "1420258695.000082"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "udevadm info --name=\/dev\/video0 &amp;&amp; udevadm info --name=\/dev\/video1 &amp;&amp; arecord -l",
+        "ts": "1420258708.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "k",
+        "ts": "1420258718.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it'll be a lot of output but it will get everything in one line",
+        "ts": "1420258724.000085"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "is the camera always video0 and video1?",
+        "ts": "1420258797.000086"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I think so",
+        "ts": "1420259190.000087"
+    }
+]

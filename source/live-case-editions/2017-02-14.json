@@ -1,0 +1,381 @@
+[
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Versions for when the Onboarding onBackPress bug would be first included are:\nVersion 28 - 2.0-df-12\/ Version 26 - 2.0.12",
+        "ts": "1487100394.748101"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "are these from 1\/17?",
+        "ts": "1487100475.788660"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i have 28 2.0.12 + 31_2.0_df-13 for that date",
+        "ts": "1487100565.836151"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "those should be right: - should include translation update and bug fixes",
+        "ts": "1487100727.931012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "2.0.12 is in beta right now?",
+        "ts": "1487100747.940431"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if you install one of the builds, you can check a bugreport for which version code it is",
+        "ts": "1487100783.959478"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im not sure if either of these went out",
+        "ts": "1487101030.083276"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but in my email history",
+        "ts": "1487101035.085579"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they didnt",
+        "ts": "1487101038.087418"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i sent them to bonnie on 1\/17 and told her to :slightly_smiling_face:",
+        "ts": "1487101042.089049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "last public release was 2.0.1",
+        "ts": "1487101045.090285"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in Nov",
+        "ts": "1487101048.091755"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i meant to DF",
+        "ts": "1487101062.098485"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ah. 1\/18",
+        "ts": "1487101078.105369"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ish",
+        "ts": "1487101078.105704"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also includes localizations for the toast",
+        "ts": "1487101111.121824"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "midori testing",
+        "ts": "1487101116.123809"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill follow up on thread",
+        "ts": "1487101120.126404"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Seeing some weird behavior with the back press stuff on these builds. But I know we verified previously, so I don't know what happened:confused:",
+        "ts": "1487103311.236977"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thats weird - but good that we’re verifying. can you look into getting a fix in for this and we can get updated builds over?",
+        "ts": "1487103534.342684"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "confession: I'm not into Skrillex, but I really like the wallpaper.",
+        "ts": "1487108581.733621",
+        "reactions": [
+            {
+                "name": "dizzy_face",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "fix for nfc onboarding issue on `onboarding_back_fix_jan_2017`",
+        "ts": "1487112059.331217"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Do we know what Version Name\/Code we’re looking for?",
+        "ts": "1487112596.528599"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> and <@U1ZG1UCAK> - I think y’all can handle this :slightly_smiling_face:",
+        "ts": "1487112612.534333"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can someone do code review (want to make sure we're doing this as part of regular process)",
+        "ts": "1487112650.547513"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I will try. I might need some volley-related help",
+        "ts": "1487112709.569830"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "since we never push the previous I think we can reuse the version codes from previous (as v2)",
+        "ts": "1487112738.580951",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I can give it a look, but need to be pointed in the right direction",
+        "ts": "1487112752.585517"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Version Code: 28\nVersion Name: 2.0.12\n\nVersion Code: 31\nVersion Name: 2.0-df-13",
+        "ts": "1487112759.587732"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I'm gonna get yelled at for being on my phone :grimacing: back in a bit",
+        "ts": "1487112810.605326"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oof yeah",
+        "ts": "1487113414.988847"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill generate it",
+        "ts": "1487113417.990031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`` gemini-air:LiveCase dave$ git merge onboarding_back_fix_jan_2017 ``\n`` Already up-to-date. ``",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1487113491.000000"
+        },
+        "ts": "1487113487.013364"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "OMG",
+        "ts": "1487113494.015692"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "weird tho",
+        "ts": "1487113499.017450"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ah got it",
+        "ts": "1487113559.067640"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> can you make folders?",
+        "ts": "1487113589.078013"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "OK.. it's literally just a shared pref",
+        "ts": "1487113594.079399"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or link to them",
+        "ts": "1487113595.079811"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<https:\/\/drive.google.com\/open?id=0BwP7wEvrJF7VN2NqQzhmWVBwazg>",
+        "ts": "1487113983.219292"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "2.0-df-13 ^^^",
+        "ts": "1487114005.227644"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i made some",
+        "ts": "1487114051.241100"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry",
+        "ts": "1487114051.241290"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "builds are uploaded",
+        "ts": "1487114364.392164"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lynsey has the directories for testing",
+        "ts": "1487114369.401718"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "note:",
+        "ts": "1487114371.402517"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i had to break with naming convention on release branches because this one was out of order",
+        "ts": "1487114382.407313"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`release-28a`",
+        "ts": "1487114385.408386"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is this release",
+        "ts": "1487114389.409919"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool im uploading those to the GM apk folder now (taking forever)",
+        "ts": "1487115413.855344",
+        "reactions": [
+            {
+                "name": "ok_hand::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/drive.google.com\/open?id=0B0GwY6N_EWLEb2FiNmV4WjRMSDg>",
+        "ts": "1487115523.938533"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can you do a quick pass to make sure everythings in the builds <@U1ZG1UCAK> ?",
+        "ts": "1487115594.961280"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "you got it, dude",
+        "ts": "1487115608.966460"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "need access",
+        "ts": "1487115668.987144"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh snap try now",
+        "ts": "1487115703.000553"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ah, I see it now.. v1 threw me off",
+        "ts": "1487115742.010178"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "the build looks good",
+        "ts": "1487116736.331538"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1487116842.367233"
+    }
+]

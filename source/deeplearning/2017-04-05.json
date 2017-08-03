@@ -1,0 +1,380 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Got a script to orchestrate everything. <@U1ZG1UCAK> is it possible to add a flag to Flickr to only run one batch and then exit?",
+        "ts": "1491403046.023220"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or is there one maybe and I missed it ",
+        "ts": "1491403059.030713"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Also can you switch the image size to one of the larges instead of the mediums. Doesn't have to be \"original\" cause I know that's a huge pain in the ass",
+        "ts": "1491403099.054348"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Like one batch = as many pages as possible or one page of results?\nI just got here and can get this to you quickly",
+        "ts": "1491403999.599638"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's no rush",
+        "ts": "1491404022.613100"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Basically the way it works right now where it schedules itself to run again ",
+        "ts": "1491404041.625082"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'd like to be able to make it just run once and exit instead of running again ",
+        "ts": "1491404061.637535"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F4U6EU480\/flickr-scraper-no-repeat.py.zip|flickr-scraper-no-repeat.py.zip>",
+        "file": {
+            "id": "F4U6EU480",
+            "created": 1491405027,
+            "timestamp": 1491405027,
+            "name": "flickr-scraper-no-repeat.py.zip",
+            "title": "flickr-scraper-no-repeat.py.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 1540,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4U6EU480\/flickr-scraper-no-repeat.py.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4U6EU480\/download\/flickr-scraper-no-repeat.py.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F4U6EU480\/flickr-scraper-no-repeat.py.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4U6EU480-c49a2fe1c5",
+            "channels": [
+                "C462L6AN9"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1491405028.247922"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks! Does it use a command line flag ",
+        "ts": "1491405415.481800"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or just exits by default ",
+        "ts": "1491405424.486976"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Just exits by default",
+        "ts": "1491405601.593972"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "K ",
+        "ts": "1491405625.609143"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks ",
+        "ts": "1491405627.610248"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Oh crud, I forgot to change the image size",
+        "ts": "1491405631.612828"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's ok! Let me know which letter to use ",
+        "ts": "1491405642.619840"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you both! ill be in shortly ( final fresh eyed pass at the doc + then help with anything I can) ",
+        "ts": "1491405814.725038"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Here are large options:\nb\t large, 1024 on longest side\nh \t large 1600, 1600 on longest side\nk \t large 2048, 2048 on longest side\n\nJust replace the 'z' in the URL setup area. The d is for download",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1491405965.000000"
+        },
+        "ts": "1491405924.790710"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "line 90",
+        "ts": "1491406354.053075"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool thanks",
+        "ts": "1491406749.288607"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i updated the number parser to save the cropped regions from yolo",
+        "ts": "1491408462.303272"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "added some of the cropped example images to the doc, as well",
+        "ts": "1491409641.948246"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome thank you!",
+        "ts": "1491409883.080225"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans - anything you need to do for level 2 recommendations? i see you assigned to yourself",
+        "ts": "1491409919.099326"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i need to refine it a bit",
+        "ts": "1491409929.104594"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause i’m finally getting real results",
+        "ts": "1491409947.114446"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay cool ill leave it for now",
+        "ts": "1491409949.115575"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "!!!",
+        "ts": "1491409951.116368"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "everyone good with the doc?",
+        "ts": "1491411831.113940"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> was thinking of just sharing the g-doc so they can comment, but can PDF for delivery if thats preferred on your end",
+        "ts": "1491411875.137591"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oops see you typing :slightly_smiling_face:",
+        "ts": "1491411907.153952"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "added a section on TensorBox",
+        "ts": "1491411917.159066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which was a localizatoin framework i was working on",
+        "ts": "1491411924.163371"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1:",
+        "ts": "1491411950.176924"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think it makes sense to keep as a living doc then, especially for questions but also if new things pop up we want to add",
+        "ts": "1491411980.192685"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I would kill for two more weeks of this project ",
+        "ts": "1491412408.418853"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!channel> Findings doc is now client-facings, so please act accordingly when it comes to commenting :slightly_smiling_face:",
+        "ts": "1491412424.426578"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/docs.google.com\/document\/d\/1R6YuzCA0xkfLG9bJZI3As_jE0u1ok6C7wy3MZfoZYYo\/edit>",
+        "ts": "1491412430.429942"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "KATS HERE :slightly_smiling_face: we’re in echo",
+        "ts": "1491413125.798958"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> where you",
+        "ts": "1491413206.842810"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/arxiv.org\/abs\/1703.07511>",
+        "ts": "1491418578.755015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "we on that neural stylee",
+        "ts": "1491418583.757860"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "TEAM!",
+        "ts": "1491418590.761548"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "AMAZING JOBBBBBBBB",
+        "ts": "1491418594.763564"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yo",
+        "ts": "1491418602.767948"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":tada::tada::tada::tada:",
+        "ts": "1491418604.768816"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and we get to keep the babyyyyyy for a little longer",
+        "ts": "1491418622.778115"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Were gonna have to buy our own eventually ",
+        "ts": "1491418646.790472"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you always have to buy your own baby",
+        "ts": "1491418665.800731"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "source: gonna be a dad",
+        "ts": "1491418668.802616"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "omgKristenStewart wrote an arxiv paper on style transfer",
+        "ts": "1491418831.890757"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "“co-wrote”",
+        "ts": "1491418841.896868"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<https:\/\/arxiv.org\/pdf\/1701.04928v1.pdf>",
+        "ts": "1491418847.899666",
+        "reactions": [
+            {
+                "name": "thinking_face",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "The Kristen Stewart????",
+        "ts": "1491418892.925285"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "The Kristen Stewart. Twilight-Olivier Assayas-star Kristen Stewart.",
+        "ts": "1491419314.145221"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Wososoowowiwwwwwww",
+        "ts": "1491420138.550727"
+    }
+]

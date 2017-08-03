@@ -1,0 +1,119 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here> Today’s updates:\n* Both Peter and I did some reading over the weekend, have a good handle on protocol now\n* Peter and I talked through the general flow of the firmware, including error handling and bill acceptor integration. He’s going to get what we have in Python ported over to Arduino, and add some other flow control for things like transaction abort\n* Miguel is soldering together a pass-through cable for development\n* I’ll give Henry and update in a moment, and queue up spending some time over there on Weds to do bringup\/integration.",
+        "ts": "1477335899.000111"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL> threw a hold on the calendar for weds, will check with Henry on timing",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1477338734.000000"
+        },
+        "ts": "1477338725.000112"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL> proper connector cable inbound from Josh D. for the MDB2PC -&gt; Arduino connection",
+        "ts": "1477339243.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks <@U02E3CRMA> im enjoying you documenting as you go :slightly_smiling_face:",
+        "ts": "1477340165.000115"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "to topline, is the hope to be done, done by the time you leave ADX wednesday afternoon?",
+        "ts": "1477340177.000116"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "best-case, yes",
+        "ts": "1477340204.000117"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "reality is probably having to go back for an hour later in the week to finish testing",
+        "ts": "1477340220.000118"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, i’m not holding to the fire as much as following along at this point :slightly_smiling_face:",
+        "ts": "1477340243.000119",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "\/giphy michael jackson popcorn",
+        "bot_id": "B03H06881",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/eating-michael-jackson-thriller-iLgbO6Y4EoRc4>",
+                "image_url": "https:\/\/media0.giphy.com\/media\/iLgbO6Y4EoRc4\/giphy.gif",
+                "image_width": 200,
+                "image_height": 136,
+                "image_bytes": 581332,
+                "is_animated": true,
+                "title": "michael jackson popcorn",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/eating-michael-jackson-thriller-iLgbO6Y4EoRc4"
+            }
+        ],
+        "ts": "1477340387.000120"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, got the decoder ring figured out for the bill acceptor responses...",
+        "ts": "1477341741.000121"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we should get a 30 82 09 on a $5 bill accept because:",
+        "ts": "1477341776.000122"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "1000 = bill stacked\n0010 = type (one-hot, LSB-first, so 0=$1, 1=$2, 2=$5)\n\n09=validator disabled status",
+        "ts": "1477341833.000123"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the bill type can be followed by any number of status bytes from the validator, but since it’s disabled, we should only get 09",
+        "ts": "1477341993.000124"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we should handle the stacker full poll code, however, and disable the bill reader:\n36 80 00",
+        "ts": "1477342093.000125"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and for rejections, they follow the form:\n1100xxxx\nthus C3 is bill rejected, type 3 ($10)",
+        "ts": "1477348604.000126"
+    }
+]

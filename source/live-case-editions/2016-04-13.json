@@ -1,0 +1,774 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Was able to reproduce that camera list issue",
+        "ts": "1460563196.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I think that's been in there forever. Could you check miniime?",
+        "ts": "1460563225.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's pretty straightforward to cut that over to a specific package intent ",
+        "ts": "1460563245.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh oh oh ",
+        "ts": "1460563248.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Might be an artifact of supporting Samsung ",
+        "ts": "1460563259.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yes MiniMe has the same issue",
+        "ts": "1460563267.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok. I think we can use the exact package, but we're using the generic \"launch camera\" intent that leaves it up to user ",
+        "ts": "1460563308.000011"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Gotcha",
+        "ts": "1460563339.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I really don’t want to hardcode a package",
+        "ts": "1460563438.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sending someone to a camera they don’t use would be shitty",
+        "ts": "1460563445.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the code had this weird thing where was using the image capture action to search for correct app info and then using that on a new intent that had action Main",
+        "ts": "1460563486.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "if there is no default app set, the new intent is just launching an ACTION_MAIN intent which is why you get all the wrong apps",
+        "ts": "1460563656.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Is there any way to mitigate that to only image capture apps, or is that just the only way to present the list?",
+        "ts": "1460563689.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m working on it now. Instead of trying to resolve a camera app, we should let the system handle it",
+        "ts": "1460563712.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the only problem with this is that it doesn’t work with ```intent.addCategory(Intent.CATEGORY_LAUNCHER);``` and I can’t remember why that’s in there",
+        "ts": "1460563794.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "could have been a samsung thing",
+        "ts": "1460563800.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Git blame",
+        "ts": "1460563928.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Git blame",
+        "ts": "1460563929.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m pretty sure it was in there for a good reason :wink:",
+        "ts": "1460564183.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "and I’m almost positive it was evans who figured out how to make it work",
+        "ts": "1460564195.000024"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Heh",
+        "ts": "1460564202.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I just meant to see if there's a commit with it that might explain :)",
+        "ts": "1460564208.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "something about the s6 and the way it keeps apps in history",
+        "ts": "1460564209.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t think I could find it",
+        "ts": "1460564240.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the code has been refactored too much",
+        "ts": "1460564247.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yeh",
+        "ts": "1460564414.000030"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Well, if we can test it on the 5x, 6, and 6p, that's all this release should be supporting (and 5x and 6p on workshop)  ",
+        "ts": "1460564506.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It was Samsung ",
+        "ts": "1460565325.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Their intent would preserve the NFC intent if you launched livecase from the background ",
+        "ts": "1460565348.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So once you triggered the button, you couldn't bring the app to the foreground anymore ",
+        "ts": "1460565370.000034"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> is this as change we'd want to make to workshop as well?",
+        "ts": "1460566063.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, would you make a card for it?",
+        "ts": "1460566072.000036"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Done!",
+        "ts": "1460566076.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sweet, thanks",
+        "ts": "1460566082.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> this is a lot of changes for one branch, we should break this up better in the future",
+        "ts": "1460566200.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Sorry, I know. I was on vacation and just wanted to knock them all out at once ",
+        "ts": "1460567018.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can redo",
+        "ts": "1460567024.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm also not supposed to be on my phone right now, but embarrassment compels me to respond ",
+        "ts": "1460567084.000042"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "re: the hardcoding of 1, kat: \n```there's an issue with the number of times a day we check to see if there's a new wallpaper available\n\n[3:51] \nsince i made the change on the server\n\n[3:51] \nto rotate\n\n[3:51] \nthere's only _ever_ one new one per day\n\n[3:51] \ni totally forgot that this would happen\n\n[3:52] \ncause it only advances the available one once a day\n\n[3:52] \nso we shouldn't be checking more than that\n\ncharlesv [3:52 PM] \nyeah we only need once a day\n\nevans [3:52 PM] \nunless she wants them faster than daily\n\n[3:52] \nok```",
+        "ts": "1460571978.000043"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so i think the preference is moot, yes",
+        "ts": "1460571984.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "cool, that’s what evans said too",
+        "ts": "1460572056.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "which is good because I just removed the other references :grimacing:",
+        "ts": "1460572078.000046"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":)",
+        "ts": "1460573178.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> the loader already is an asynctask but it's launched from a handler, which is weird",
+        "ts": "1460578139.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Yeah, on the surface I couldn’t tell that it was calling AsyncTasks, I was just unfamiliar with the JsonReadUtility which is apparently an AsyncTask as well as DownloaderUtility. There are lots of callbacks though that will get run on the MainThread, the whole thing seems a little messy. I made a card for us to go through and clean it up.",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1460578686.000000"
+        },
+        "ts": "1460578673.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "It’d also help to rename those utilities so it’s more clear what they are",
+        "ts": "1460578703.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool yes thanks ",
+        "ts": "1460578814.000052"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Hm. ",
+        "ts": "1460580910.000053"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Audio tour isn't playing on N",
+        "ts": "1460580914.000054"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(On that N 6)",
+        "ts": "1460580922.000055"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Nor on the 6 running Marshmallow",
+        "ts": "1460581748.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "But still works on 5x???",
+        "ts": "1460581954.000057"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yes",
+        "ts": "1460581961.000058"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Weird.",
+        "ts": "1460581962.000059"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "6P and 6 also aren't downloading new wallpapers it looks like? Confused. Kat's debugging now",
+        "ts": "1460581976.000060"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "It does appear to play the file (pause button reverts to play at the appropriate time).",
+        "ts": "1460582023.000061"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> carded those two",
+        "ts": "1460582231.000062"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "The downloading may work and it's missing the gate, I just don't know how to verify (and it's odd that it's consistently 5x vs 6\/6p)",
+        "ts": "1460582252.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "missing the gate?",
+        "ts": "1460582314.000064"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Like it's failing for whatever reason and not retrying",
+        "ts": "1460582529.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "looks like the job is never starting",
+        "ts": "1460582542.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "wondering if it has to do with being periodic and only happening 1\/day",
+        "ts": "1460582558.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "maybe it wouldn’t happen until tomorrow",
+        "ts": "1460582565.000068"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Weird it's happening on the 5x though? Or is that just cached data not actually getting deleted",
+        "ts": "1460582614.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "5x seems to be downloading, only debugging on 6 atm",
+        "ts": "1460582676.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "JobInfo.Builder setPeriodic() ```Specify that this job should recur with the provided interval, not more than once per period. You have no control over when within this interval this job will be executed, only the guarantee that it will be executed at most once within this interval.```",
+        "ts": "1460582769.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "so, it’s just not kicking off right away, it sounds like we’d see the update tomorrow, depending on the device",
+        "ts": "1460582800.000072"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ok",
+        "ts": "1460582804.000073"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I mean, nothing's changed on it, and it has been working in the past",
+        "ts": "1460582816.000074"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Just flagging that it wasn't identical on those test builds",
+        "ts": "1460582823.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, sounds like it just depends on what else is going on on the device",
+        "ts": "1460582839.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we could update it and do a really quick one during the first launch and queue the periodic version after that",
+        "ts": "1460582859.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but it seems like it’s working as expected",
+        "ts": "1460582877.000078"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "It's probably a better out of box experience to just have the one it comes with",
+        "ts": "1460582879.000079"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "So I think let's leave it",
+        "ts": "1460582887.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok",
+        "ts": "1460582890.000081"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Audio tour is weeeeeird tho",
+        "ts": "1460582899.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, looking at that next",
+        "ts": "1460582915.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "took out the mMediaPlayer.setVolume(0, 1) call and now you can hear it",
+        "ts": "1460583290.000084"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Was that in for a reason?",
+        "ts": "1460583322.000085"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "idk",
+        "ts": "1460583330.000086"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Hm",
+        "ts": "1460583334.000087"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ok",
+        "ts": "1460583336.000088"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Well I'll retest :)",
+        "ts": "1460583340.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "seems like it was the whole range, so it should have done that by default anyway",
+        "ts": "1460583345.000090"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that said, if that would be the default value anyway, why would it matter that it was in there?",
+        "ts": "1460583404.000091"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the passed in values are only supposed to be 0.0 - 1.0, but if I pass in 0, 100, you can hear him too… must be a difference in the way the 6 handles those values",
+        "ts": "1460583498.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m just going to remove the line",
+        "ts": "1460583501.000093"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Sounds (!)) good",
+        "ts": "1460583528.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "assembling a build now, I’ll send it to you and Jenkins when it’s ready",
+        "ts": "1460583546.000095"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thanks!",
+        "ts": "1460583584.000096"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Looks good!",
+        "ts": "1460584493.000097"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thank you Kat!",
+        "ts": "1460584496.000098"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I have a question",
+        "ts": "1460584504.000099"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "k",
+        "ts": "1460584507.000100"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "If I disable notifications",
+        "ts": "1460584511.000101"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Which are messaged as \"updates from Koons\"",
+        "ts": "1460584516.000102"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I presumably don't get pushes for the wallpapers?",
+        "ts": "1460584522.000103"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Or are those a separate fetch",
+        "ts": "1460584527.000104"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t know how that’s implemented, but the idea should be that you just wouldn’t get notifications visible to the user",
+        "ts": "1460584541.000105"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ll look",
+        "ts": "1460584545.000106"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Gotcha.",
+        "ts": "1460584546.000107"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ok",
+        "ts": "1460584547.000108"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that’s what we did for skrillex",
+        "ts": "1460584555.000109"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ok",
+        "ts": "1460584579.000110"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cool.",
+        "ts": "1460584581.000111"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "maybe <@U0EL0GLEL> knows?",
+        "ts": "1460584581.000112"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'm going to share the v2 you sent",
+        "ts": "1460584595.000113"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Do we need to rev a version code for unsigned?",
+        "ts": "1460584601.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "no",
+        "ts": "1460584608.000115"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thumbs up emoji",
+        "ts": "1460584629.000116"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "&gt; If we send this build out and it's loaded onto the influencers phones.. will they get the real JK digital collection content when we go live? ",
+        "ts": "1460586625.000117"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I think the answer to that is no, since it's all pointing at staging",
+        "ts": "1460586635.000118"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(Which <@U026PHQ3J> <@U0261PCRQ> is probably a reminder for us not to send shitty test messages if this is going to Influencers)",
+        "ts": "1460586738.000119"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "the prod unsigned versions we've been pushing to the play store, it sounds like they're pointed at production, which we haven't deployed the backend to, so they wouldn't be getting pushes or wallpapers?",
+        "ts": "1460587505.000120"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I suppose we could cut a signed production build and deploy?",
+        "ts": "1460587548.000121"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Production server doesn't speak koons",
+        "ts": "1460587575.000122"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "There's a card for it, but I expected some warning before that deploy ",
+        "ts": "1460587597.000123"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Wed been sending unsigned builds pointed at dev",
+        "ts": "1460587639.000124"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yeah. Trying to work through the issue of sending test pushes and iggy azalea getting them",
+        "ts": "1460587716.000125"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I think we should send signed builds pointed at prod and deploy over the next few days",
+        "ts": "1460588142.000126"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Can do",
+        "ts": "1460588149.000127"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Deploying to prod should be pretty simple. Will need to reup all animation zips ",
+        "ts": "1460588169.000128"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "But that's really it",
+        "ts": "1460588178.000129"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "K",
+        "ts": "1460588204.000130"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Can do in the AM",
+        "ts": "1460588656.000131"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cool. Shared debug unsigned fro them to push to dogfood and production signed for them to sideload on influencer devices.",
+        "ts": "1460588972.000132"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":+1:",
+        "ts": "1460589122.000133"
+    }
+]

@@ -1,0 +1,940 @@
+[
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel>: I just sent an email, but so everyone is in the loop -- The latest word is that the covers won't pass inspection, so we need to scramble quickly to see if there are other possible options.",
+        "ts": "1407435766.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "The Vera hub does say it supports Insteon devices",
+        "ts": "1407436022.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "\"the ability to bridge with virtually any control platform (Z-Wave, Insteon, Serial, X-10, etc.).  It’s also got more memory to run more apps.  Plus fast Wi-Fi!\"",
+        "ts": "1407436046.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "We used the veralite for Lumen. The only issue with it is that it gets overloaded with commands pretty quickly",
+        "ts": "1407436086.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "\"If you have a primarily Insteon network, I strongly recommend that you research the was the Vera works with Insteon. It is sort of a half implementation. Yes you can add Insteon devices once you buy and install a separate PLM, but the Vera only supports 1-way communication, so when you view your devices, they are never shown to be set as they are in reality. Also, Vera based scenes on Insteon devices update one light at a time, which feels like a throw-back to the days of X10. You will quickly find that most people using this thing with Insteon are using an alternate operating system called Altsteon which requires some moderately deep computing skills to install and use, and even then does not currently work with all your Insteon devices, or X10 for that matter. This thing seems to be primarily a Z-Wave-centric controller, that can also control a few Insteon lights if you have them laying around. DO NOT expect to drop this onto a pure Insteon network and be happy with the result.\"",
+        "ts": "1407436415.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "^Comment on the Vera Control hub here: <http:\/\/www.smarthome.com\/13705\/Vera-Control-LTD-VeraLite-INSTEON-Compatible-Z-Wave-Controller\/p.aspx>",
+        "attachments": [
+            {
+                "text": "Vera Control is offering home control that is affordable for everyone, with their new VeraLite, Z-Wave controller. Featuring a faster processor and more memory for downloading apps, Vera3 is more powerful than ever! B007005364",
+                "fallback": "Vera Control is offering home control that is affordable for everyone, with their new VeraLite, Z-Wave controller. Featuring a faster processor and more memory for downloading apps, Vera3 is more powerful than ever! B007005364",
+                "thumb_url": "http:\/\/cache3.smarthome.com\/images\/13705.jpg",
+                "from_url": "http:\/\/www.smarthome.com\/13705\/Vera-Control-LTD-VeraLite-INSTEON-Compatible-Z-Wave-Controller\/p.aspx",
+                "thumb_width": 275,
+                "thumb_height": 275,
+                "id": 1
+            }
+        ],
+        "ts": "1407436462.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "We would also need a usb insteon modem to control insteon devices from vera",
+        "ts": "1407436524.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "The VERA3 seems more robust",
+        "ts": "1407436533.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we have a vera3 here",
+        "ts": "1407436564.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what else do we need to test",
+        "ts": "1407436570.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Zwave",
+        "ts": "1407436579.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "we don't have any zwave anything, do we?",
+        "ts": "1407436924.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we have a couple things",
+        "ts": "1407437141.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "definitely",
+        "ts": "1407437145.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "lock, thermostat",
+        "ts": "1407437151.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "we returned the samsung lights",
+        "ts": "1407437162.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "there's a remote control too, i cant remember if it had an associated device",
+        "ts": "1407437172.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it was one of the outlets i think",
+        "ts": "1407437181.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that was paired to the remote",
+        "ts": "1407437185.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "oh yeah! outlets",
+        "ts": "1407437187.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "thats probably what we should use",
+        "ts": "1407437198.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "There seems to be a reasonable amount of Zwave TR outlets",
+        "ts": "1407437254.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Not sure about bulk, etc, but they do exist in multiple flavors",
+        "ts": "1407437269.000072"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Z-Wave also makes switches",
+        "ts": "1407437559.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "And it looks like motion sensors",
+        "ts": "1407437622.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "And open\/close sensors",
+        "ts": "1407437700.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Even some crazy water sensor: <http:\/\/www.fibaro.com\/us\/the-fibaro-system\/flood-sensor>",
+        "attachments": [
+            {
+                "text": "Fibaro to Twój Inteligentny dom który umożliwia bezinwazyjną instalację w każdym budynku. Sam sprawdza i monitoruje stan poszczególnych urządzeń wykonując wcześniej zaplanowane czynności.",
+                "fallback": "Fibaro to Twój Inteligentny dom który umożliwia bezinwazyjną instalację w każdym budynku. Sam sprawdza i monitoruje stan poszczególnych urządzeń wykonując wcześniej zaplanowane czynności.",
+                "from_url": "http:\/\/www.fibaro.com\/us\/the-fibaro-system\/flood-sensor",
+                "id": 1
+            }
+        ],
+        "ts": "1407437783.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Nice master list of a ton of ZWave stuff: <http:\/\/www.z-wave.com\/find_products\/sensors>",
+        "attachments": [
+            {
+                "text": "Search results from the Z-Wave Alliance's full catalog of certified Z-Wave products.",
+                "fallback": "Search results from the Z-Wave Alliance's full catalog of certified Z-Wave products.",
+                "from_url": "http:\/\/www.z-wave.com\/find_products\/sensors",
+                "id": 1
+            }
+        ],
+        "ts": "1407437889.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "No idea about compatability",
+        "ts": "1407437991.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is there a z-wave hub that we can talk to from the outside world?",
+        "ts": "1407438068.000081"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "<http:\/\/www.z-wave.com\/find_products\/gateways>",
+        "ts": "1407438087.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "It appears so - this one has an app, so there's gotta be some sort of external conncetion through their \"Wink\" hub",
+        "ts": "1407438213.000083"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wink supports 30 feet of range, but looks like it has a proprietary cloud service for connectivity",
+        "ts": "1407438356.000084"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "<http:\/\/www.actiontec.com\/246.html>",
+        "attachments": [
+            {
+                "text": "Actiontec Main Website",
+                "fallback": "Actiontec Main Website",
+                "from_url": "http:\/\/www.actiontec.com\/246.html",
+                "id": 1
+            }
+        ],
+        "ts": "1407438361.000085"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Not sure how open to other Z-Wave stuff this one is: <http:\/\/www.nexiahome.com\/compatible-products\/nexia-bridge\/>",
+        "ts": "1407438483.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Another interesting system: <http:\/\/zipato.com\/>",
+        "attachments": [
+            {
+                "text": "Smart home automation system based on cloud technology using zigbee and z-wave devices to provide safe and energy efficient connected home experience.",
+                "fallback": "Smart home automation system based on cloud technology using zigbee and z-wave devices to provide safe and energy efficient connected home experience.",
+                "from_url": "http:\/\/zipato.com\/",
+                "id": 1
+            }
+        ],
+        "ts": "1407439002.000088"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "And this could be of EXTREME intrest to the client: <http:\/\/zipato.com\/default.aspx?id=24&amp;pid=3&amp;page=1&amp;grupe=>",
+        "ts": "1407439116.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Behind the outlet switch control, with energy monitoring",
+        "ts": "1407439137.000091"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Pretty European, though",
+        "ts": "1407439444.000092"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "as a possible workaround, could we order up two of those small insteon devices that get wired in behind the plug? I can try to install them Friday or Monday and see how hard they are to install and how much volume they occupy in the box",
+        "ts": "1407439533.000093"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "this one: <http:\/\/www.smarthome.com\/2443-222\/INSTEON-Micro-On-Off-Module\/p.aspx>",
+        "attachments": [
+            {
+                "text": "The compact Micro On\/Off module wires in behind your existing switch, giving you all the remote control of an INSTEON relay switch without sacrificing your unique style. B00B1GHHW6",
+                "fallback": "The compact Micro On\/Off module wires in behind your existing switch, giving you all the remote control of an INSTEON relay switch without sacrificing your unique style. B00B1GHHW6",
+                "thumb_url": "http:\/\/cache3.smarthome.com\/images\/2443-222.jpg",
+                "from_url": "http:\/\/www.smarthome.com\/2443-222\/INSTEON-Micro-On-Off-Module\/p.aspx",
+                "thumb_width": 275,
+                "thumb_height": 275,
+                "id": 1
+            }
+        ],
+        "ts": "1407439567.000094"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'd rather adapt our plan a bit rather than go on a whole different course (if possible)",
+        "ts": "1407439603.000096"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "We can next day them for $50. Seems do-able",
+        "ts": "1407439605.000097"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "<@U02688JHZ>: Thoughts?",
+        "ts": "1407439618.000098"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I think we need to throw everything we can at this, so yes",
+        "ts": "1407439733.000099"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I have concerns about space, and kat has overheating concerns",
+        "ts": "1407439756.000100"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "What if we added a zwave module to the beaglebone?",
+        "ts": "1407439777.000101"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "but I don't think we're going to be able to get an answer from the developers before figuring out our contingencies",
+        "ts": "1407439785.000102"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Should I have Stephanie order them?",
+        "ts": "1407439837.000103"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I have concerns too but if they work out, they're probably the best course of action",
+        "ts": "1407439866.000104"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "agree with <@U02F8LF2X>",
+        "ts": "1407439878.000105"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Levity: its fun to talk to <@U02F8LF2X>",
+        "ts": "1407439890.000106"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I like the beaglebone+zwave idea... let me go look to see if that's possible",
+        "ts": "1407439899.000107"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "&lt;wookiee yell&gt;",
+        "ts": "1407439916.000108"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i know there are node modules that support it. If we could get the device mapped from the shield into the system, theoretically it would be a matter of writing glue",
+        "ts": "1407439930.000109"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "upshot being that if we decided to go all zwave on devices, we wouldn't have to rearchitect the hub",
+        "ts": "1407439955.000110"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "downshot: many",
+        "ts": "1407439966.000111"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "For those interested: <https:\/\/github.com\/jperkin\/node-openzwave>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "jperkin\/node-openzwave",
+                "title_link": "https:\/\/github.com\/jperkin\/node-openzwave",
+                "text": "node-openzwave - node.js interface to libopenzwave",
+                "fallback": "GitHub: jperkin\/node-openzwave",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/128042?v=2&s=400",
+                "from_url": "https:\/\/github.com\/jperkin\/node-openzwave",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "id": 1
+            }
+        ],
+        "ts": "1407439986.000112"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "Yep. It does seem like we can get the same devices on Z-Wave, though compatability is always a concern",
+        "ts": "1407440039.000114"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "this made me laugh: \" it is recommended to insert as much ground cobber below the ZM3102N Z-Wave Module as possible \"",
+        "ts": "1407440148.000115"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ground cobber",
+        "ts": "1407440150.000116"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "clobber",
+        "ts": "1407440238.000117"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.digikey.com\/product-detail\/en\/ZM5304AU-CME3R\/703-1075-1-ND\/4135432>",
+        "attachments": [
+            {
+                "text": "Buy ZM5304AU-CME3R Sigma Designs Inc (703-1075-1-ND) at <http:\/\/digikey.com|digikey.com>. Shop <http:\/\/digikey.com|digikey.com> for your RF\/IF and RFID RF Transceivers needs. DigiKey has the largest selection of electronic components, parts and suppliers.",
+                "fallback": "Buy ZM5304AU-CME3R Sigma Designs Inc (703-1075-1-ND) at <http:\/\/digikey.com|digikey.com>. Shop <http:\/\/digikey.com|digikey.com> for your RF\/IF and RFID RF Transceivers needs. DigiKey has the largest selection of electronic components, parts and suppliers.",
+                "from_url": "http:\/\/www.digikey.com\/product-detail\/en\/ZM5304AU-CME3R\/703-1075-1-ND\/4135432",
+                "id": 1
+            }
+        ],
+        "ts": "1407440603.000118"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "People seem to use the z-stick on beaglebone",
+        "ts": "1407440632.000120"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/www.amazon.com\/Aeon-Labs-DSA02203-ZWUS-Z-Wave-Z-Stick\/dp\/B003MWQ30E>",
+        "attachments": [
+            {
+                "text": "<http:\/\/Amazon.com|Amazon.com>: Aeon Labs DSA02203-ZWUS Z-Wave Z-Stick Series 2 USB Dongle: Computers &amp; Accessories",
+                "fallback": "<http:\/\/Amazon.com|Amazon.com>: Aeon Labs DSA02203-ZWUS Z-Wave Z-Stick Series 2 USB Dongle: Computers &amp; Accessories",
+                "from_url": "http:\/\/www.amazon.com\/Aeon-Labs-DSA02203-ZWUS-Z-Wave-Z-Stick\/dp\/B003MWQ30E",
+                "id": 1
+            }
+        ],
+        "ts": "1407440633.000121"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "also <http:\/\/razberry.z-wave.me\/docs\/razberry.pdf>",
+        "ts": "1407440731.000123"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ah that does look easier",
+        "ts": "1407440749.000124"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I saw the razberry but wasn't sure if it would be compatible",
+        "ts": "1407440828.000125"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I just linked that cause they use the sigma z-wave module",
+        "ts": "1407441005.000126"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "i feel like we bought a zstick",
+        "ts": "1407443475.000129"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "does anyone remember that?",
+        "ts": "1407443479.000130"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "different zstick",
+        "ts": "1407443485.000131"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "this one is Aeon labs, the other one was digi",
+        "ts": "1407443500.000132"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "well there you go",
+        "ts": "1407443606.000133"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "<http:\/\/www.insteon.com\/2423A1-iMeter-Solo.html>",
+        "ts": "1407447413.000134"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "<http:\/\/www.insteon.com\/2635-222-on-off-module.html>",
+        "ts": "1407447646.000135"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "just to throw more on the pile....we should note whether any of the new options are GFCI",
+        "ts": "1407451622.000136"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "I think that the behind the outlet style of devices should let us use the GFCI outlets they already insalled",
+        "ts": "1407451780.000137"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":thumbsup:",
+        "ts": "1407451873.000138"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Yes but GFCI outlets tend to be deeper so less room for the micro module",
+        "ts": "1407451917.000139"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "CHEWBACCA",
+        "ts": "1407452010.000140"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I added a note to my note to say (assuming there’s enough room for the internal modules).",
+        "ts": "1407452438.000141"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "So thank you.",
+        "ts": "1407452458.000142"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Sure thing",
+        "ts": "1407452500.000143"
+    },
+    {
+        "user": "U02F4147F",
+        "inviter": "U02688JHZ",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02F4147F|kinephoria> has joined the channel",
+        "ts": "1407452695.000144"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "<@U02F8LF2X>: What was our stance on these devices: <http:\/\/www.insteon.com\/2475SDB-In-LineLinc-Relay.html>",
+        "ts": "1407453320.000145"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U02F8LF2X>: Do you know\/remember how big the boxes are at grant park?",
+        "ts": "1407454521.000146"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "we're trying to make a model of the behind-the-outlet solution",
+        "ts": "1407454541.000147"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "since it doesn't arrive until tomorrow",
+        "ts": "1407454548.000148"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I don't really understand why you would use the 2475SDB thing instead of the micro module since they seem to do the same thing",
+        "ts": "1407454756.000149"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I don't remember the exact volume of the boxes in grant park, everyone was worried about space constraints from early on so they did specify deep boxes",
+        "ts": "1407454794.000150"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it will be difficult to model the boxes to see if these devices will fit",
+        "ts": "1407454837.000151"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "there may be multiple runs of romex terminating in the boxes",
+        "ts": "1407454852.000152"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "wirenuts are non-zero volume",
+        "ts": "1407454858.000153"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "ok, that was the question. Does 2475DB do anything interesting\/different than the one we ordered?",
+        "ts": "1407454861.000154"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "solid core conductor is relatively inflexible so hard to pack into the box",
+        "ts": "1407454877.000155"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "etc etc",
+        "ts": "1407454878.000156"
+    },
+    {
+        "user": "U02688JHZ",
+        "purpose": "wirenuts are non-zero volume",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "text": "<@U02688JHZ|mary> set the channel purpose: wirenuts are non-zero volume",
+        "ts": "1407454892.000157"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "at first glance they seem to do the same thing. let me go look closer",
+        "ts": "1407454895.000158"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "2475DB is physically bigger and is rated for 20 amps",
+        "ts": "1407455196.000159"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "micro module is smaller and is rated for 15 amps",
+        "ts": "1407455205.000160"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "is 15 amps sufficient?",
+        "ts": "1407455216.000161"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "depends if there are 15 amp breakers installed or 20 amp",
+        "ts": "1407455230.000162"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "that might be why people had overheating problems: running a giant vacuum cleaner or something through the micro module",
+        "ts": "1407455260.000163"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "hmmmmmm",
+        "ts": "1407455290.000164"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "we should probably add that as a con to the contingency doc",
+        "ts": "1407455309.000165"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<@U0261PCRQ> did we ever get pairing working just using the address and not physically pressing the pairing button?",
+        "ts": "1407455321.000166"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yes!",
+        "ts": "1407455329.000167"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I ask because any kind of button presses on these micro modules is going to be hard once installed behind the outlet",
+        "ts": "1407455341.000168"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok cool",
+        "ts": "1407455343.000169"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "good answer",
+        "ts": "1407455346.000170"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "right",
+        "ts": "1407455358.000171"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "<http:\/\/smartenit.com\/product\/zblc15\/>",
+        "attachments": [
+            {
+                "service_name": "Smartenit",
+                "title": "ZBLC15 – Model #4033A",
+                "title_link": "http:\/\/smartenit.com\/product\/zblc15\/",
+                "text": "ZigBee HA Dual-Relay Controller Monitor and control two devices such as overhead lights, ceiling fans, and small appliances plugged into power outlets or controlled by wall switches, with a controller that can be hidden anywhere, even in standard single-gang boxes.  Save money by eliminating idle power drawn by devices that are off or on standby mode.  Independently control 2 devices, based on your commands from phone tablet or web browser, or the state of  other devices or events in your system. Smart Possibilities Eliminate idle power drawn by devices that are off or on standby Trigger lights based on motion Turn on ceiling fans in response to temperature readings Use your lights to make it look like you're home when you're away",
+                "fallback": "Smartenit: ZBLC15 – Model #4033A",
+                "thumb_url": "http:\/\/smartenit.com\/sandbox\/wp-content\/uploads\/2013\/09\/ZBLC15-Main-300x300.jpg",
+                "from_url": "http:\/\/smartenit.com\/product\/zblc15\/",
+                "thumb_width": 300,
+                "thumb_height": 300,
+                "id": 1
+            }
+        ],
+        "ts": "1407456245.000172"
+    },
+    {
+        "type": "message",
+        "user": "U02AVBGQC",
+        "text": "\"Measures instantaneous (KW) and accumulated (KW-Hr) energy consumption of connected devices\"",
+        "ts": "1407456329.000174"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "That's pretty snazzy",
+        "ts": "1407458349.000175"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1407458813.000176"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "well the arc fault interrupt breakers at top are 15 -- that's nice",
+        "ts": "1407459130.000177"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "one of the 20 amp 120v breakers is dedicated to the fridge which we don't care about",
+        "ts": "1407459144.000178"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "one is probably dedicated to the washing machine which we don't care about",
+        "ts": "1407459159.000179"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so maybe 3-4 that we'd need to replace",
+        "ts": "1407459167.000180"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "at $10 apop",
+        "ts": "1407459171.000181"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so maybe this is ok?",
+        "ts": "1407459175.000182"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "so they may require replacing breakers to make that option work?",
+        "ts": "1407459746.000183"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Also, a quick question for you <@U02F8LF2X>",
+        "ts": "1407459753.000184"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "The In-LineLinc Relay",
+        "ts": "1407459769.000185"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "says: Install this in-line module inside a junction box",
+        "ts": "1407459774.000186"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah it shouldn't just be hanging out loose outside of a box",
+        "ts": "1407459830.000187"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "so I'm just noting as a con that it would require more retrofitting since it needs to go in a junction box and not in the outlet box itself",
+        "ts": "1407459833.000188"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "right?",
+        "ts": "1407459834.000189"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "outlet box == junction box",
+        "ts": "1407459845.000190"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "(I believe)",
+        "ts": "1407459851.000191"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "oh, so it would fit (presumably) in the same place that the other one does?",
+        "ts": "1407459863.000192"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "but it's so much bigger",
+        "ts": "1407459869.000193"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah I don't think it will fit",
+        "ts": "1407459876.000194"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "but if it did, it could go in the box behind the outlet",
+        "ts": "1407459885.000195"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "if it didn't fit, could it go somewhere else?",
+        "ts": "1407459922.000196"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "or would it simply require a bigger outlet box?",
+        "ts": "1407459932.000197"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "somewhere else= magical space inside the wall, I guess",
+        "ts": "1407459947.000198"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "if it was my house and I wanted to use those modules for some reason, I would pull out the box and put in a double box. The little relay module could live in the extra\/empty gang",
+        "ts": "1407460137.000199"
+    }
+]

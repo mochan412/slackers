@@ -1,0 +1,237 @@
+[
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'm working remotely today and will miss standup, unless you'd like me to join a GVC. I'm focused on plantlust at the moment, but I'm available to switch gears as needed.",
+        "edited": {
+            "user": "U2670DYLE",
+            "ts": "1500049585.000000"
+        },
+        "ts": "1500049556.243785",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "let's do a quick standup in the secret lounge!",
+        "ts": "1500049802.375661"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1500049817.383691"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "6049722349577382",
+        "ts": "1500050129.548032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> ^",
+        "ts": "1500050135.550778"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thanks!",
+        "ts": "1500050579.774766"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Response code is still 404",
+        "ts": "1500052907.960954"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> i have a secret to tell you about that 404",
+        "ts": "1500052976.995819"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Ohhh do tell!",
+        "ts": "1500053192.107028"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> just got an email from Adrien! Sounds like the 16 digit endpoint has been repaired!!!",
+        "ts": "1500058644.967009"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "let me know when I can test!",
+        "ts": "1500058655.972541"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool cool",
+        "ts": "1500059134.221305"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> ^^",
+        "ts": "1500059138.223220"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Still working out kinks with refreshing the add a case screen",
+        "ts": "1500059211.259290"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "woot!",
+        "ts": "1500059252.279298"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it doesnt work",
+        "ts": "1500059672.475431"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so don’t sweat it",
+        "ts": "1500059675.477068"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "ugh",
+        "ts": "1500059730.503339"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> <@U026PHQ3J> we just got this back from Mateus...\n\n\n\"We just adapted PUT \/api\/cases\/&lt;pairing_id&gt; to return the paired case in the response body. We will also work on making \/api\/cases return the paired case in the next days.\"",
+        "ts": "1500065616.082471"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool.",
+        "ts": "1500065651.096870"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> - IN THEORY this should just work",
+        "ts": "1500065658.100155"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0260V1BX> I’ve got a quick UX\/design question for you. Do you have a moment this afternoon?",
+        "ts": "1500066210.332194"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey sure, i’m free whenever",
+        "ts": "1500066234.342210"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> what can I help with, i’m about to do some 1:1s with only a little time in the middle, but we have to get a build out today",
+        "ts": "1500068332.092504"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I only just now finished triggering an account cases refresh. I haven’t had a chance to look into the 16 digit code stuff yet, so maybe you can help with that?",
+        "ts": "1500068532.157014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> from the dude working on the endpoint:",
+        "ts": "1500072255.171925"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "“I just found an issue regarding using the PUT method on a case that is already paired. I am working on it and should deploy a fix soon.”",
+        "ts": "1500072261.173158"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Cool, I was wondering why nothing was working all of a sudden",
+        "ts": "1500072283.178229"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "places update is on develop with fixed margins on set wallpaper button.",
+        "ts": "1500083805.770017",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U0260V1BX",
+                    "U026PHQ3J"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":raised_hands: ",
+        "ts": "1500084017.787874"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "have a great vacay Midori! :palm_tree: ",
+        "ts": "1500084042.790189",
+        "reactions": [
+            {
+                "name": "palm_tree",
+                "users": [
+                    "U2670DYLE",
+                    "U026PHQ3J",
+                    "U0U9WJB7F"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Thanks :-) also <@U0U9WJB7F> I put the XL on your desk",
+        "ts": "1500084367.817100",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

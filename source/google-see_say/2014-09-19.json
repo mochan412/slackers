@@ -1,0 +1,34 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Just posted new APKs... my insomniac idea about Press+Hold ended up working! I'm handling touch events through the Activity (which controls the view heirarchy for the capture screen and the voice note recording screen), so all I need to do is find out if the user is touching the screen in a certain place and do the right thing... the solution was to simplify rather than re-engineer it. But it could definitely use more testing.",
+        "ts": "1411152654.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Another change is that I made the app display names \"SeeSay PRESS\" and \"SeeSay TAP\" so it's easier to distinguish which is which in testing. You can have both installed on the same device since they have different package names, although they can't read each others' captions.",
+        "ts": "1411152781.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I was only able to reproduce and fix one camera bug, but I'll dive into more testing and edge cases on Mon.",
+        "ts": "1411153230.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks marissa!",
+        "ts": "1411153251.000005"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1411183956.000002"
+    }
+]

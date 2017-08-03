@@ -1,0 +1,135 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: just checking out the updates to the results screens - looks like there is a gradient on every background (probs b\/c active theory gave us gradient info for every card), but looking at the comps it doesn't seem there should be a gradient on every card, only a few of them",
+        "ts": "1434568466.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Yep, that is an interesting issue, isn't it",
+        "ts": "1434568484.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It would be great to know how to display a card that has both a background color and background gradient defined",
+        "ts": "1434568500.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "If we can answer that question, I can make it happen",
+        "ts": "1434568525.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Does it also seem that Active Theory should only give us gradient data for the cards that need the gradient?",
+        "ts": "1434568558.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "That's what I was expecting, but the JSON AT is giving us has a gradient background defined for every card",
+        "ts": "1434568587.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Right, ok that's what I figured. I'll bubble it up with them",
+        "ts": "1434568600.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: just assigned you a crash but i was able to reproduce it so evans and i are plugging it in and looking at it now",
+        "ts": "1434572393.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "looks like it's related to the gradients, like something changed or updated on AT's end and we don't know about those changes yet",
+        "ts": "1434572487.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<@U026103R3> Cool, I saw it come through crashlytics and I should have already fixed it in my current build (I saw it too, it's a parsing error when we try to check on previously played experiences for notification purposes, and if there aren't any, it could throw an exception)",
+        "ts": "1434572495.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "oh, I haven't seen that one yet, will check it out",
+        "ts": "1434572509.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool, thanks",
+        "ts": "1434572517.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i can also reproduce it and show it to you if it's helpful",
+        "ts": "1434572525.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I can reproduce it, since it happens every time we try to display results",
+        "ts": "1434572562.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool, evans mentioned it's likely because they took out those gradients so it's still passing them through as valid strings but there is no info there",
+        "ts": "1434572613.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yep, exactly it, I was checking for null when I should be checking for a 0-length string",
+        "ts": "1434572646.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool cool",
+        "ts": "1434572663.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "fixed... will push and close out the ticket",
+        "ts": "1434572693.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks!!",
+        "ts": "1434572699.000020"
+    },
+    {
+        "user": "U051P3FPY",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U051P3FPY|kaitlyn> has joined the channel",
+        "ts": "1434573799.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ok, 1.5 has been distributed over fabric",
+        "ts": "1434588311.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "release notes:\nRemoved client restriction on XWalkView redirects\nUI improvements to gallery cards\nUI improvements to results cards\nColor changes for grey text app-wide and on experience and gallery screens\nFeatured Experience is determined by most recent start date\nFix audio issues related to replaying and switching  experiences\nNavigation drawer opens behind status bar\nUpdate date format and other data from back-end",
+        "ts": "1434588315.000025"
+    }
+]

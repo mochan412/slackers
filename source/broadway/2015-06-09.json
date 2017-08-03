@@ -1,0 +1,262 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Hey <@U02F8TTPU> and <@U026PHQ3J> just loped you both in on an email from Andy and Annie - sounds like we're running into the same issue with the latest build where they need to uninstall and reinstall to see new content. Can we look into this and see if there's a fix that got overridden or that we can put in place for the build we're pushing today? ",
+        "ts": "1433863156.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Just read that... Will work on it first thing when I get in today. I wish I knew what the issue was so I can thoroughly test and fix it",
+        "ts": "1433863319.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm.",
+        "ts": "1433863875.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me think about this one",
+        "ts": "1433863890.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "If there are any questions that will help suss it out we can use that thread to ask the team.",
+        "ts": "1433865162.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "The original note didn't provide much insight",
+        "ts": "1433865170.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Yeah, I can't reproduce it or find any problem in the logging I've put in, it shows all the zips are up to date",
+        "ts": "1433868816.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "06-09 09:52:16.572  17846-18111\/com.uncorkedstudios.broadway.staging D\/ZipLoader﹕ zip whistlizer last modified 1433810561657, saved zip last modified 1433810561657\n06-09 09:52:16.572  17846-18111\/com.uncorkedstudios.broadway.staging D\/ZipLoader﹕ zip in list: Wish List\n06-09 09:52:16.572  17846-18111\/com.uncorkedstudios.broadway.staging D\/ZipLoader﹕ zip dandelion last modified 1433479250067, saved zip last modified 1433479250067\n06-09 09:52:16.572  17846-18111\/com.uncorkedstudios.broadway.staging D\/ZipLoader﹕ zip in list: Block Party\n06-09 09:52:16.572  17846-18111\/com.uncorkedstudios.broadway.staging D\/ZipLoader﹕ zip blockparty last modified 1433798646544, saved zip last modified 1433798646544\n06-09 09:52:16.572  17846-18111\/com.uncorkedstudios.broadway.staging D\/ZipLoader﹕ zip in list: Swipe to the Stars\n06-09 09:52:16.582  17846-18111\/com.uncorkedstudios.broadway.staging D\/ZipLoader﹕ zip swipe last modified 1433814211443, saved zip last modified 1433814211443\n06-09 09:52:16.582  17846-18111\/com.uncorkedstudios.broadway.staging D\/ZipLoader﹕ zip in list: Paper Planes\n06-09 09:52:16.582  17846-18111\/com.uncorkedstudios.broadway.staging D\/ZipLoader﹕ zip planes last modified 1433798560521, saved zip last modified 1433798560521",
+        "ts": "1433868824.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "But if there is a problem that I can reproduce and investigate by following a procedure, that would help a lot",
+        "ts": "1433868895.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yea for sure",
+        "ts": "1433868903.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Like some steps to reproduce and a description of what's wrong (old content displaying?)",
+        "ts": "1433868916.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Why don't I pass this info back to the team and see if there are more specific reproduction steps they can provide.",
+        "ts": "1433868924.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I did make some changes to the updater in the last week, so if they're still seeing it on the 0.9 build distributed via Fabric, the 1.0 build should be improved",
+        "ts": "1433868993.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Ok, let me bubble this up and get repro steps. Maybe that will help us pinpoint if last week's updates may resolve the issue they're seeing.",
+        "ts": "1433869067.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "1.0 has been distributed via Fabric (and has the new icon)",
+        "ts": "1433887440.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome, thanks for the head's up Marissa",
+        "ts": "1433887451.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The abridged release notes:\nMap results cards\nOnboarding screens with content and transitions\nAbout screen content\nJIRA issues",
+        "ts": "1433887480.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "super helpful thanks, i have the detailed list of jira issues you hit",
+        "ts": "1433887533.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: andy might be having some issues downloading this latest build",
+        "ts": "1433887716.000020"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026103R3|abby> uploaded a file: <https:\/\/uncorked.slack.com\/files\/abby\/F065610CV\/screen_shot_2015-06-09_at_3.08.12_pm.png|Screen Shot 2015-06-09 at 3.08.12 PM.png>",
+        "file": {
+            "id": "F065610CV",
+            "created": 1433887720,
+            "timestamp": 1433887720,
+            "name": "Screen Shot 2015-06-09 at 3.08.12 PM.png",
+            "title": "Screen Shot 2015-06-09 at 3.08.12 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026103R3",
+            "editable": false,
+            "size": 156996,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F065610CV\/screen_shot_2015-06-09_at_3.08.12_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F065610CV\/download\/screen_shot_2015-06-09_at_3.08.12_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F065610CV-fc20b145ec\/screen_shot_2015-06-09_at_3.08.12_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F065610CV-fc20b145ec\/screen_shot_2015-06-09_at_3.08.12_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F065610CV-fc20b145ec\/screen_shot_2015-06-09_at_3.08.12_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 354,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F065610CV-fc20b145ec\/screen_shot_2015-06-09_at_3.08.12_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 473,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F065610CV-fc20b145ec\/screen_shot_2015-06-09_at_3.08.12_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F065610CV-fc20b145ec\/screen_shot_2015-06-09_at_3.08.12_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 709,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F065610CV-fc20b145ec\/screen_shot_2015-06-09_at_3.08.12_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 945,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F065610CV-fc20b145ec\/screen_shot_2015-06-09_at_3.08.12_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1008,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1160,
+            "original_h": 1178,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/abby\/F065610CV\/screen_shot_2015-06-09_at_3.08.12_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F065610CV-30ee803765",
+            "channels": [
+                "C03U21PL1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026103R3",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "abby",
+        "bot_id": null,
+        "ts": "1433887725.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "From my plugin, it says BroadwaySTAGE 1.0 distributed at 3:03pm... I don't know why the crashlytics app is failing",
+        "ts": "1433887776.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I didn't change the package name or anything that I know would mess it up, just bumpbed the versionName and versionCode",
+        "ts": "1433887802.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hmm, he's going to try to uninstall and reinstall and see if that works",
+        "ts": "1433887831.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Crashlytics had an update last week, so if his crashlytics app is on the previous version, maybe it needs to update to use their latest APIs",
+        "ts": "1433887862.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ah interesting",
+        "ts": "1433887965.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sounds like he's downloaded the latest",
+        "ts": "1433888062.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "my plugin now says that 4 people have installed it",
+        "ts": "1433888135.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "annie, pete, ramona and andy",
+        "ts": "1433888153.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok sounds like they got it to install successfully",
+        "ts": "1433888407.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "but had to unstill and reinstall",
+        "ts": "1433888413.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "weird",
+        "ts": "1433888440.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: just a head's up that Andy is going to take a look at the latest build and spend some time in JIRA tonight. so you may see issues come in for lots of little tweaks now that we're getting closer",
+        "ts": "1433891089.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "he specifically mentioned the results cards and getting closer to the designs, so just look out for those and we'll triage accordingly",
+        "ts": "1433891107.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Sounds good, thanks for the heads up abby",
+        "ts": "1433891525.000035"
+    }
+]

@@ -1,0 +1,636 @@
+[
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U02HAJ6JF> how goes our fanciest new approach page?",
+        "ts": "1497889610.035027"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "ha! now its working locally, but not showing on staging :worried:",
+        "ts": "1497889664.055292"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "i think i need some guidance from <@U243UT96G>",
+        "ts": "1497889699.068371"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "lol your latest commit",
+        "ts": "1497889730.079598"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i mean i shouldn’t laugh but that message is making me :smile_cat:",
+        "ts": "1497889754.088896"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "i forget",
+        "ts": "1497889776.097250"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "`v confused`",
+        "ts": "1497889784.099983"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "is the page not showing up at all or is it the same as before where there’s a page but no content?",
+        "ts": "1497889802.107050"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "yeah, page, no content.",
+        "ts": "1497889824.115846"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "its a mystery",
+        "ts": "1497889829.117688"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "hm",
+        "ts": "1497889833.119280"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "<http:\/\/ucs-staging.netlify.com\/approach\/>",
+        "ts": "1497889844.123607"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "minimalistic",
+        "ts": "1497889860.129870",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U02HAJ6JF"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "on forestry the approach page is showing as empty",
+        "ts": "1497889995.181692"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<https:\/\/app.forestry.io\/sites\/w96fbozgnbmcng\/#\/pages\/hello-world-md\/?_k=ero3f2>",
+        "ts": "1497890012.188415"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "as in this part of forestry",
+        "ts": "1497890016.190033"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "seems somewhat relevant?",
+        "ts": "1497890032.195579"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "oh that’s your blank hello-world.md huh",
+        "ts": "1497890053.203085"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "as far as i can tell its an issue with how i've added ref to the Approach page to site\/config.yaml, and how I'm making reference in sites\/layouts\/_default\/list.html vs single.html",
+        "ts": "1497890136.233518"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "ahhh thanks <@U167FL70V>. good point, i wasn't able to get the page to show unless it had some content, even if unused.",
+        "ts": "1497890237.270123"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "seems like it hinges on list vs. single and how those are defined - which i think we were circling around last week right?",
+        "ts": "1497890382.322385"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "right, and i think i tried all combinations of refs and content v. no content",
+        "ts": "1497890462.351642"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "also sorry for saying the thing you just said",
+        "ts": "1497890469.354188"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i got up at 5:30 this morning that’s my only excuse",
+        "ts": "1497890478.357365"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "(i realize some people do that regularly ^^ but that’s crazy to me)",
+        "ts": "1497890533.377380",
+        "reactions": [
+            {
+                "name": "wave",
+                "users": [
+                    "U06DFL7BP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "but it works for you locally?",
+        "ts": "1497890551.384326"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "ha no worries. everything going ok?",
+        "ts": "1497890574.392534"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "yeah it works locally. i'm missing something.",
+        "ts": "1497890593.399045"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "lol everything is good, friend just got out of surgery and i get to pick her up in ~30",
+        "ts": "1497890609.405307"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "hmm :thinking_face:",
+        "ts": "1497890617.408108"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "must be a config\/build thing then",
+        "ts": "1497890625.410579"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "fuuuuuuu",
+        "ts": "1497890627.411285"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i just pulled your latest branch from staging and i’m getting a blank approach page as well (locally)",
+        "ts": "1497890697.437275"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": ":stuck_out_tongue_winking_eye:",
+        "ts": "1497890845.491914"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "try running `gulp build`",
+        "ts": "1497890857.496028"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "not sure if that actually helps this effort",
+        "ts": "1497890877.503372"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "now i get a really blank page",
+        "ts": "1497891047.566233"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "no header\/footer nothing",
+        "ts": "1497891057.569945"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "looking through hugo docs to see if i can find anything helpful",
+        "ts": "1497891257.644316"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "thanks",
+        "ts": "1497891568.759541"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "shiz gotta log off, but i’ll be back",
+        "ts": "1497891782.843460"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i’m not 100% sold that we should be using an archetype for the page, but still figuring things out",
+        "ts": "1497891807.852810"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F5W376EA1\/pasted_image_at_2017_06_19_01_11_pm.png|Pasted image at 2017-06-19, 1:11 PM> and commented: got the page to render w\/ these two changes",
+        "file": {
+            "id": "F5W376EA1",
+            "created": 1497892303,
+            "timestamp": 1497892303,
+            "name": "Pasted image at 2017_06_19 01_11 PM.png",
+            "title": "Pasted image at 2017-06-19, 1:11 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1S5GKTHQ",
+            "editable": false,
+            "size": 165103,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5W376EA1\/pasted_image_at_2017_06_19_01_11_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5W376EA1\/download\/pasted_image_at_2017_06_19_01_11_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5W376EA1-7b1af3831f\/pasted_image_at_2017_06_19_01_11_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5W376EA1-7b1af3831f\/pasted_image_at_2017_06_19_01_11_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5W376EA1-7b1af3831f\/pasted_image_at_2017_06_19_01_11_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 222,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5W376EA1-7b1af3831f\/pasted_image_at_2017_06_19_01_11_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 296,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5W376EA1-7b1af3831f\/pasted_image_at_2017_06_19_01_11_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5W376EA1-7b1af3831f\/pasted_image_at_2017_06_19_01_11_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 444,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5W376EA1-7b1af3831f\/pasted_image_at_2017_06_19_01_11_pm_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 493,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5W376EA1-7b1af3831f\/pasted_image_at_2017_06_19_01_11_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 592,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5W376EA1-7b1af3831f\/pasted_image_at_2017_06_19_01_11_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 631,
+            "image_exif_rotation": 1,
+            "original_w": 1350,
+            "original_h": 832,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F5W376EA1\/pasted_image_at_2017_06_19_01_11_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5W376EA1-6e5d74fdd3",
+            "channels": [
+                "C2JSJL2TY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5VA4PESU",
+                "created": 1497892303,
+                "timestamp": 1497892303,
+                "user": "U1S5GKTHQ",
+                "is_intro": true,
+                "comment": "got the page to render w\/ these two changes"
+            }
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1497892309.035859"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "found this: `pluralizelisttitles: true`",
+        "ts": "1497892544.120014"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i think that’s the default. i think thats why its “Approaches” vs “Approach”",
+        "ts": "1497892555.124327"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "Oooh interesting. ",
+        "ts": "1497892762.198763"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "But we're stuck with it being a list page still right?",
+        "ts": "1497892806.214170"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "I mean good that it's rendering this way but would be good if we can figure out how to make it a single one instead (since that's what this page will be)",
+        "ts": "1497892851.230839"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Gotcha. I think it renders as a single page right now (rendering landing_approach.html)",
+        "ts": "1497892894.246501"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "but yeah i think its inherently a list",
+        "ts": "1497892901.248677"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "v interesting. confused about capitalization as well.",
+        "ts": "1497892915.253774"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "the capital 'A' seemed to  affect whether the page rendered with the landing_approach partial",
+        "ts": "1497892991.281824"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "I think it's to do with Hugo running off of Go - the case sensitive piece",
+        "ts": "1497893111.325038"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "hey guys i’m back",
+        "ts": "1497893121.328970"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "Mo!!",
+        "ts": "1497893129.331778"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "can i help w this?  skimmed the thread",
+        "ts": "1497893141.336191"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "woohoo!",
+        "ts": "1497893150.339768"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "We are obvi lost without you",
+        "ts": "1497893153.340526"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "this is checked into `staging` branch?",
+        "ts": "1497893186.352802"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "yes",
+        "ts": "1497893192.354981"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "ok i can take a look",
+        "ts": "1497893214.363084",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "thanks. and welcome back.",
+        "ts": "1497893241.373081"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "WOOOO welcome back",
+        "ts": "1497893242.373625"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "thanks!  good to be home",
+        "ts": "1497893251.376976"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yay, mo!",
+        "ts": "1497893265.382362"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "europe seriously lacking in craft beer",
+        "ts": "1497893268.383355"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "sounds like an opportunity",
+        "ts": "1497893421.440925"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "<@U02HAJ6JF> pull latest staging and you’ll see your page",
+        "ts": "1497893629.519347"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "basically the problem is that `.Section` variable is only available on single content pages - it’s why `.Title` is used throughout and in that case, it needs to be pluralized for a section landing page",
+        "ts": "1497893678.537889",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1S5GKTHQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "so, `Approaches`.  I know its kinda weird",
+        "ts": "1497893702.546677"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "do we want to make this page editable thru the cms?",
+        "ts": "1497893829.593722"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "that makes sense",
+        "ts": "1497893896.618168"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "Good question! I don't think it has to be since it sounds like the content is set pretty much in stone",
+        "ts": "1497893970.646088"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": " But would be a good question for <@U1HKQRLMR> or any semio friend",
+        "ts": "1497894001.657542"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "I think we'll want it to be editable eventually, yes.",
+        "ts": "1497894091.690091"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "ok",
+        "ts": "1497894203.732286"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "btw now that stuff is in staging is anyone reviewing it?",
+        "ts": "1497900998.245433"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so that we can eventually move to production :slightly_smiling_face:",
+        "ts": "1497901006.247963"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is there a link to review? (sorry if I missed)",
+        "ts": "1497901951.570044"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<http:\/\/ucs-staging.netlify.com\/approach\/>",
+        "ts": "1497902099.621670"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yes! <@U13GPDA1F> ^^",
+        "ts": "1497902105.623824"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome! I'll take a peek and then can pass to James for approval (unless folks here have feedback we should address in advance)",
+        "ts": "1497902186.652021"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "sweet thanks :slightly_smiling_face: anyone from design we should get looking at it too?",
+        "ts": "1497902216.662546"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh one thing I noticed <@U02HAJ6JF> <@U02AUNA0P> - assets look a little lo-res on mobile ",
+        "ts": "1497902246.672896"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "hey thanks leia. phillip an i are in the process of smoothing-out the styles. will keep you all updated. keep the feedback coming!",
+        "ts": "1497902352.710303",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0914MEN7",
+        "text": "seems like there is lotso space between bullets\/paragraphs",
+        "ts": "1497902412.732611"
+    },
+    {
+        "type": "message",
+        "user": "U0914MEN7",
+        "text": "but this is getting exciting! :slightly_smiling_face:",
+        "ts": "1497902422.736615"
+    }
+]

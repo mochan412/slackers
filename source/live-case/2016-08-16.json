@@ -1,0 +1,986 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1S5GKTHQ>:  - fyi is sounds like we are going to be putting in notifications via the CMS for Artworks\/Collections. evans mentioned you were wondering about the notifications hooks in there - so keep em :slightly_smiling_face:",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1471369153.000000"
+        },
+        "ts": "1471369133.000341"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also - we’ll likely need to add a field in the CMS that allows the user to select a transparent overlay for the specific wallpaper image asset (some of the wallpapers are really busy \/ make seeing apps and text on homescreen difficult)",
+        "ts": "1471369207.000343"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "gotcha, thanks",
+        "ts": "1471369261.000344"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "will we need two upload fields per asset then? maybe im misunderstanding how transparent overlay works",
+        "ts": "1471369298.000345"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "in fact, im definitely misunderstanding how it works :stuck_out_tongue:",
+        "ts": "1471369310.000346"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry - essentially we need to give users the option to select a grey overlay for their image. i imagine this would just be one field\/check box per asset, but <@U026PHQ3J> lemme know if im wrong here",
+        "ts": "1471369374.000347"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "interesting",
+        "ts": "1471369405.000348"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think for now, yes",
+        "ts": "1471369434.000349"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also <@U1S5GKTHQ> - bug with the CMS reported from client - when admin got an error message (for bio too long or not adding a collection ID) it removed the all of the images + had to start over",
+        "ts": "1471369468.000350"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i’ll try to reproduce that now, but wanted to let you know",
+        "ts": "1471369480.000351"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(also - adding you to trello + creating tickets for these outside of slack)",
+        "ts": "1471369496.000352"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "ah ok, thanks for heads up. that’s an interesting one",
+        "ts": "1471369503.000353"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "if you can reproduce it, let me know. i think this may be b\/c we added a few new required fields and existing data was missing them. i thought i went through each existing record though. maybe i missed something.",
+        "ts": "1471369565.000354"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "any insight into this error message client received via CMS? _Exceeded soft private memory limit of 128 MB with 171 MB after servicing 60 requests total_",
+        "ts": "1471369854.000355"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "ive seen that once last year when working with file uploads in GAE",
+        "ts": "1471369915.000356"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "im curious how big the file was they were uploading (if that is even the case)",
+        "ts": "1471369926.000357"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "really shouldn’t be happening since that GAE project is just serving up basic CMS. not doing any heavy memory-intensive tasks.",
+        "ts": "1471369996.000358"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "looking at logs, this error happened during upload",
+        "ts": "1471370114.000359"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "im curious if we should limit how big of a file they can upload on client side",
+        "ts": "1471370143.000360"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah i think we probably should - at least extreme cases.",
+        "ts": "1471370194.000361"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "actually, i think i know what’s wrong. looks like they tried uploading w\/ 5 new assets",
+        "ts": "1471370256.000362"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "so its not one large file issue. but too many smaller images.",
+        "ts": "1471370294.000363"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "let me think about this one a bit longer. still would be good to get those files from them so we can reproduce if possible.",
+        "ts": "1471370327.000364"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome - ill ask",
+        "ts": "1471370335.000365"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J>: can you share a screenshot of the photo crop with small image? i am of the mind to just block the crop feature from images where its not going to be helpful, but would love <@U1A1A9L7N> to weigh in too",
+        "ts": "1471370366.000366"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think we can just make the call internally let them know",
+        "ts": "1471370412.000367"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1S5GKTHQ>: FYI - the error occurred when uploading just one image as well. it has since been uploaded successfully, but client shared the image just in case theres something up",
+        "ts": "1471371092.000368"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i was able to upload with no issue, so might be a fluke",
+        "ts": "1471371183.000369"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "memory may not be being cleared after each file upload. GAE has a limit before it restarts an instance. so this error might occur at different times. ill dig into it once we make the UI changes from yesterday’s chat!",
+        "ts": "1471371339.000370"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1: thank you!",
+        "ts": "1471371355.000371"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F>: I can preserve the old style\/color setting when toggling case image",
+        "ts": "1471374618.000372"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "working on updating the UI properly",
+        "ts": "1471374626.000373"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thats great to hear! thank you!",
+        "ts": "1471376586.000374"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "UI updates working",
+        "ts": "1471376614.000375"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F221D7FU7\/minime-debug-8_16_16-v1.apk|MiniMe-DEBUG-8_16_16-v1.apk>",
+        "file": {
+            "id": "F221D7FU7",
+            "created": 1471382878,
+            "timestamp": 1471382878,
+            "name": "MiniMe-DEBUG-8_16_16-v1.apk",
+            "title": "MiniMe-DEBUG-8_16_16-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 38602698,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221D7FU7\/minime-debug-8_16_16-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221D7FU7\/download\/minime-debug-8_16_16-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F221D7FU7\/minime-debug-8_16_16-v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F221D7FU7-98ebc3cc73",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1471382880.000376"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> (please test places &amp; crop tool in portrait)",
+        "ts": "1471382906.000377"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yessss will do",
+        "ts": "1471382915.000378"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also note that the gnome photo was apparently taken on 6p",
+        "ts": "1471382938.000379"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(back and forth with bonnie about it rn)",
+        "ts": "1471382957.000380"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it works now",
+        "ts": "1471383231.000381"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh hell yes \/ testing now",
+        "ts": "1471383416.000382"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F2218FULQ\/screenshot_20160816-144238.png|selected area>",
+        "file": {
+            "id": "F2218FULQ",
+            "created": 1471383936,
+            "timestamp": 1471383936,
+            "name": "Screenshot_20160816-144238.png",
+            "title": "selected area",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 1138995,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2218FULQ\/screenshot_20160816-144238.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2218FULQ\/download\/screenshot_20160816-144238.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2218FULQ-8d4eb0ff97\/screenshot_20160816-144238_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2218FULQ-8d4eb0ff97\/screenshot_20160816-144238_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2218FULQ-8d4eb0ff97\/screenshot_20160816-144238_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2218FULQ-8d4eb0ff97\/screenshot_20160816-144238_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2218FULQ-8d4eb0ff97\/screenshot_20160816-144238_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2218FULQ-8d4eb0ff97\/screenshot_20160816-144238_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2218FULQ-8d4eb0ff97\/screenshot_20160816-144238_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2218FULQ-8d4eb0ff97\/screenshot_20160816-144238_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F2218FULQ\/screenshot_20160816-144238.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2218FULQ-587612bd7d",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1471383940.000383"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F2215R8Q4\/screenshot_20160816-144549.png|as wallpaper \/ no parallax>",
+        "file": {
+            "id": "F2215R8Q4",
+            "created": 1471383994,
+            "timestamp": 1471383994,
+            "name": "Screenshot_20160816-144549.png",
+            "title": "as wallpaper \/ no parallax",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 1673393,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2215R8Q4\/screenshot_20160816-144549.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2215R8Q4\/download\/screenshot_20160816-144549.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2215R8Q4-6ffb3cf95d\/screenshot_20160816-144549_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2215R8Q4-6ffb3cf95d\/screenshot_20160816-144549_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2215R8Q4-6ffb3cf95d\/screenshot_20160816-144549_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2215R8Q4-6ffb3cf95d\/screenshot_20160816-144549_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2215R8Q4-6ffb3cf95d\/screenshot_20160816-144549_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2215R8Q4-6ffb3cf95d\/screenshot_20160816-144549_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2215R8Q4-6ffb3cf95d\/screenshot_20160816-144549_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2215R8Q4-6ffb3cf95d\/screenshot_20160816-144549_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F2215R8Q4\/screenshot_20160816-144549.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2215R8Q4-19696b533a",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1471383999.000384"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "height and centering appear off (will continue to test others)",
+        "ts": "1471384099.000385"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did you just add that one?",
+        "ts": "1471384143.000386"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah",
+        "ts": "1471384154.000387"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "o k",
+        "ts": "1471384157.000388"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "a few more taken from my phone appearing similarly",
+        "ts": "1471384173.000389"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "interesting",
+        "ts": "1471384207.000390"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "send me one",
+        "ts": "1471384212.000391"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the 6p photos work well over here. i wonder if its 5xish",
+        "ts": "1471384222.000392"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is that the same on all pics?",
+        "ts": "1471384234.000393"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or just ones you took with your phone",
+        "ts": "1471384240.000394"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F221GH85B\/img_20160816_143558.jpg|original photo>",
+        "file": {
+            "id": "F221GH85B",
+            "created": 1471384246,
+            "timestamp": 1471384246,
+            "name": "IMG_20160816_143558.jpg",
+            "title": "original photo",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 1927142,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221GH85B\/img_20160816_143558.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221GH85B\/download\/img_20160816_143558.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221GH85B-73e2629893\/img_20160816_143558_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221GH85B-73e2629893\/img_20160816_143558_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221GH85B-73e2629893\/img_20160816_143558_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 270,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221GH85B-73e2629893\/img_20160816_143558_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 360,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221GH85B-73e2629893\/img_20160816_143558_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221GH85B-73e2629893\/img_20160816_143558_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 540,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221GH85B-73e2629893\/img_20160816_143558_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 720,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221GH85B-73e2629893\/img_20160816_143558_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 768,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 3024,
+            "original_h": 4032,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F221GH85B\/img_20160816_143558.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F221GH85B-0eacb8a774",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1471384251.000395"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "looks like portrait shots taken on 5X",
+        "ts": "1471384255.000396"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool thanks one sec",
+        "ts": "1471384262.000397"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool",
+        "ts": "1471384268.000398"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh what",
+        "ts": "1471384332.000399"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that works fine on my phone",
+        "ts": "1471384338.000400"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "shit.",
+        "ts": "1471384339.000401"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh no :confused:",
+        "ts": "1471384359.000402"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F221ADXL0\/screenshot_20160816-144257.png|landscape photo crop>",
+        "file": {
+            "id": "F221ADXL0",
+            "created": 1471384460,
+            "timestamp": 1471384460,
+            "name": "Screenshot_20160816-144257.png",
+            "title": "landscape photo crop",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 1026870,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221ADXL0\/screenshot_20160816-144257.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221ADXL0\/download\/screenshot_20160816-144257.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221ADXL0-8fd6272c36\/screenshot_20160816-144257_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221ADXL0-8fd6272c36\/screenshot_20160816-144257_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221ADXL0-8fd6272c36\/screenshot_20160816-144257_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221ADXL0-8fd6272c36\/screenshot_20160816-144257_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221ADXL0-8fd6272c36\/screenshot_20160816-144257_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221ADXL0-8fd6272c36\/screenshot_20160816-144257_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221ADXL0-8fd6272c36\/screenshot_20160816-144257_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221ADXL0-8fd6272c36\/screenshot_20160816-144257_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F221ADXL0\/screenshot_20160816-144257.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F221ADXL0-f9f1873fcd",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1471384464.000403"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F221AFN72\/screenshot_20160816-145128.png|as wallpaper>",
+        "file": {
+            "id": "F221AFN72",
+            "created": 1471384477,
+            "timestamp": 1471384477,
+            "name": "Screenshot_20160816-145128.png",
+            "title": "as wallpaper",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 2825158,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221AFN72\/screenshot_20160816-145128.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221AFN72\/download\/screenshot_20160816-145128.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221AFN72-4a1bac4d53\/screenshot_20160816-145128_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221AFN72-4a1bac4d53\/screenshot_20160816-145128_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221AFN72-4a1bac4d53\/screenshot_20160816-145128_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221AFN72-4a1bac4d53\/screenshot_20160816-145128_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221AFN72-4a1bac4d53\/screenshot_20160816-145128_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221AFN72-4a1bac4d53\/screenshot_20160816-145128_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221AFN72-4a1bac4d53\/screenshot_20160816-145128_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221AFN72-4a1bac4d53\/screenshot_20160816-145128_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F221AFN72\/screenshot_20160816-145128.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F221AFN72-98696770ef",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1471384485.000404"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok so thats correct",
+        "ts": "1471384492.000405"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes",
+        "ts": "1471384494.000406"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and sort of creepy",
+        "ts": "1471384500.000407"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lol",
+        "ts": "1471384505.000408"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah sorry there is a tiny kid jumping off a bridge there",
+        "ts": "1471384517.000409"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "might have cropped him out",
+        "ts": "1471384521.000410"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "real badass tho",
+        "ts": "1471384549.000411"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "maps is looking :+1: btw",
+        "ts": "1471388578.000412"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sweet",
+        "ts": "1471388588.000413"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry about the N crap",
+        "ts": "1471388592.000414"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no its okay - im just annoyed i cant update this device successfully",
+        "ts": "1471388620.000415"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F221YDFF0\/screenshot_2016-08-16-16-58-54.png|image on 6 running 5.1.1> and commented: appearing correctly",
+        "file": {
+            "id": "F221YDFF0",
+            "created": 1471392032,
+            "timestamp": 1471392032,
+            "name": "Screenshot_2016-08-16-16-58-54.png",
+            "title": "image on 6 running 5.1.1",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 3722134,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221YDFF0\/screenshot_2016-08-16-16-58-54.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F221YDFF0\/download\/screenshot_2016-08-16-16-58-54.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221YDFF0-b7f762a40a\/screenshot_2016-08-16-16-58-54_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221YDFF0-b7f762a40a\/screenshot_2016-08-16-16-58-54_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221YDFF0-b7f762a40a\/screenshot_2016-08-16-16-58-54_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221YDFF0-b7f762a40a\/screenshot_2016-08-16-16-58-54_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221YDFF0-b7f762a40a\/screenshot_2016-08-16-16-58-54_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221YDFF0-b7f762a40a\/screenshot_2016-08-16-16-58-54_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221YDFF0-b7f762a40a\/screenshot_2016-08-16-16-58-54_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F221YDFF0-b7f762a40a\/screenshot_2016-08-16-16-58-54_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F221YDFF0\/screenshot_2016-08-16-16-58-54.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F221YDFF0-e7d1a8dd06",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc221Z3M08",
+                "created": 1471392032,
+                "timestamp": 1471392032,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "appearing correctly"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1471392038.000416"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so weird that its just seems to be the 5x thats funky",
+        "ts": "1471392079.000417"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "of course its just 5x",
+        "ts": "1471392805.000418"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F>: landscape cropping working on 6P",
+        "ts": "1471393397.000419"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nice! ",
+        "ts": "1471393433.000420"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are you still here?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1471393456.000000"
+        },
+        "ts": "1471393450.000421"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "took off to go to ladies night but happy to test from afar ",
+        "ts": "1471393697.000423"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(sorry)",
+        "ts": "1471393702.000424"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok no problem",
+        "ts": "1471393724.000425"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it wont work on the 5x anyway",
+        "ts": "1471393728.000426"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F2224PFML\/minime-debug-8_16_16-v2.apk|MiniMe-DEBUG-8_16_16-v2.apk>",
+        "file": {
+            "id": "F2224PFML",
+            "created": 1471394595,
+            "timestamp": 1471394595,
+            "name": "MiniMe-DEBUG-8_16_16-v2.apk",
+            "title": "MiniMe-DEBUG-8_16_16-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 38602943,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2224PFML\/minime-debug-8_16_16-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2224PFML\/download\/minime-debug-8_16_16-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F2224PFML\/minime-debug-8_16_16-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2224PFML-5790ac8528",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1471394597.000427"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "^ broken on 5x, but crop tool now works in portrait OR landscape",
+        "ts": "1471394719.000428"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but not both at the same time :disappointed:",
+        "ts": "1471394727.000429"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but thats not even possible so :slightly_smiling_face:",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1471394738.000000"
+        },
+        "ts": "1471394735.000430"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay weird - when I set the image in landscape (tried for kicks) it appears to be appearing on the wallpaper correctly...",
+        "ts": "1471397405.000432"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats possible",
+        "ts": "1471397493.000433"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since we rely on the reported width of the image",
+        "ts": "1471397535.000434"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it might just be reporting correctly",
+        "ts": "1471397542.000435"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Oh okay, that does make sense. Well, halfway to 5x success :upside_down_face:",
+        "ts": "1471402500.000436"
+    }
+]

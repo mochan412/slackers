@@ -1,0 +1,496 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "was just thinking that the editor right now runs on apache, and uses a few very very simple php scripts to save the files. when we get there we will be switching to the node server we are using for file serving for feeding up the files. so the editor wont be working. while the editor itself runs on angular and should be fine on a node server the php scripts would need to be converted to run on the node server for us to use that on site, which would be very much useful for tweak and continued dev. I really doubt it takes much to convert these script, they are a few lines and just save a file really",
+        "ts": "1465480010.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep all the templates are committed i do a nightly",
+        "ts": "1465480670.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: let's discuss at 9:15. This sounds crucial. ",
+        "ts": "1465481609.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep",
+        "ts": "1465481776.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: can you ensure all tickets that will be reviewable at 9:15 get updated by 9?  I wanna cull a short list of discussion items for our get together",
+        "ts": "1465485388.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "sure can",
+        "ts": "1465485738.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: please update jira tix for our 9:15",
+        "ts": "1465487952.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: can i hit cubbies here?  <http:\/\/192.168.169.90:9980\/DisplayActivityActivity\/index.html>",
+        "ts": "1465491284.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i wanna test full flow",
+        "ts": "1465491292.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah you can hit that if you push the workshop and preset",
+        "ts": "1465491413.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "which workshop, does it matter?",
+        "ts": "1465491501.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no",
+        "ts": "1465491514.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "kk",
+        "ts": "1465491714.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, i have a list of things for us to tes totgether",
+        "ts": "1465492066.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "updating jira ticket now; let’s get the questions right before the 11am <@U0EL0GLEL>",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1465492089.000000"
+        },
+        "ts": "1465492077.000081"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "added bodymovin to the ts-brandlab-default template",
+        "ts": "1465492337.000083"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "here’s backup",
+        "ts": "1465492345.000084"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U11JK4QSK|bryanhowarth> uploaded a file: <https:\/\/uncorked.slack.com\/files\/bryanhowarth\/F1FGKHMQC\/ts-brandlab-default-060916-1008am.txt|ts-brandlab-default-060916-1008am.txt>",
+        "file": {
+            "id": "F1FGKHMQC",
+            "created": 1465492358,
+            "timestamp": 1465492358,
+            "name": "ts-brandlab-default-060916-1008am.txt",
+            "title": "ts-brandlab-default-060916-1008am.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U11JK4QSK",
+            "editable": true,
+            "size": 16810,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1FGKHMQC\/ts-brandlab-default-060916-1008am.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1FGKHMQC\/download\/ts-brandlab-default-060916-1008am.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/bryanhowarth\/F1FGKHMQC\/ts-brandlab-default-060916-1008am.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1FGKHMQC-e7fa16b0ab",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/bryanhowarth\/F1FGKHMQC\/ts-brandlab-default-060916-1008am.txt\/edit",
+            "preview": "{\n  \"name\": \"ts-brandlab-default\",\n  \"style\": {\n    \"background-color\": \"#f9f9f9\",\n    \"height\": 2160,",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>{<\/pre><\/div>\n<div><pre>  &quot;name&quot;: &quot;ts-brandlab-default&quot;,<\/pre><\/div>\n<div><pre>  &quot;style&quot;: {<\/pre><\/div>\n<div><pre>    &quot;background-color&quot;: &quot;#f9f9f9&quot;,<\/pre><\/div>\n<div><pre>    &quot;height&quot;: 2160,<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 680,
+            "lines_more": 675,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U11JK4QSK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "bryanhowarth",
+        "bot_id": null,
+        "ts": "1465492360.000085"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "non-bodymovin version ^",
+        "edited": {
+            "user": "U11JK4QSK",
+            "ts": "1465492388.000000"
+        },
+        "ts": "1465492374.000086"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "bodymovin for the default topsweep is on wall if anyone is interested in looking at performance",
+        "ts": "1465492461.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U11JK4QSK>: come by!",
+        "ts": "1465492488.000090"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "omw",
+        "ts": "1465492492.000091"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U11JK4QSK|bryanhowarth> uploaded a file: <https:\/\/uncorked.slack.com\/files\/bryanhowarth\/F1FGWQQBG\/test-ts-brandlab-default-bodymovin-060916-1036am.txt|test-ts-brandlab-default-bodymovin-060916-1036am.txt>",
+        "file": {
+            "id": "F1FGWQQBG",
+            "created": 1465493807,
+            "timestamp": 1465493807,
+            "name": "test-ts-brandlab-default-bodymovin-060916-1036am.txt",
+            "title": "test-ts-brandlab-default-bodymovin-060916-1036am.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U11JK4QSK",
+            "editable": true,
+            "size": 610,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1FGWQQBG\/test-ts-brandlab-default-bodymovin-060916-1036am.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1FGWQQBG\/download\/test-ts-brandlab-default-bodymovin-060916-1036am.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/bryanhowarth\/F1FGWQQBG\/test-ts-brandlab-default-bodymovin-060916-1036am.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1FGWQQBG-ecc463ad03",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/bryanhowarth\/F1FGWQQBG\/test-ts-brandlab-default-bodymovin-060916-1036am.txt\/edit",
+            "preview": "{\n  \"name\": \"ts-brandlab-default\",\n  \"style\": {\n    \"background-color\": \"white\"\n  },",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>{<\/pre><\/div>\n<div><pre>  &quot;name&quot;: &quot;ts-brandlab-default&quot;,<\/pre><\/div>\n<div><pre>  &quot;style&quot;: {<\/pre><\/div>\n<div><pre>    &quot;background-color&quot;: &quot;white&quot;<\/pre><\/div>\n<div><pre>  },<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 28,
+            "lines_more": 23,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U11JK4QSK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "bryanhowarth",
+        "bot_id": null,
+        "ts": "1465493808.000092"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "topsweep default with bodymovin canvas raw backup ^",
+        "ts": "1465493840.000093"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "BrandLab Default has the SVGs replaced with PNGs and is ready for checking performance as soon as the wall is available",
+        "ts": "1465500561.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "should be free",
+        "ts": "1465500596.000095"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "k",
+        "ts": "1465500605.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "let’s review over pizza.  <@U11JK4QSK> move on to other tix for now please.  I like Quiet Top Sweep and then Welcome Top Sweep",
+        "ts": "1465500831.000097"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: whole team + charles working on top sweep performance concerns.  need to regroup once youre back",
+        "ts": "1465506831.000098"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "On my way back now",
+        "ts": "1465506935.000099"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Going to 1) try and fix loops in the GIFs so 2) can do performance tests with gif and 3) get an MP4 export from Emily so 4) can do performance tests with movies so that 5) we may have to export every triangle combination if that's the bottleneck",
+        "ts": "1465510829.000100"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks <@U06DFL7BP> in parallel, I’m cancelling sanity check today.  bryan’s working on  Welcome Top Sweep - CSS to get objects moving again and \tWelcome Top Sweep - Get Stats in place",
+        "ts": "1465513016.000101"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "gifs are not performant at scale",
+        "ts": "1465513341.000102"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "though i got them to loop",
+        "ts": "1465513345.000103"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":slightly_smiling_face:",
+        "ts": "1465513345.000104"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "darn",
+        "ts": "1465515239.000105"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "what about this <http:\/\/blog.imgur.com\/2014\/10\/09\/introducing-gifv\/>",
+        "attachments": [
+            {
+                "service_name": "The Imgur Blog",
+                "title": "Introducing GIFV - The Imgur Blog",
+                "title_link": "http:\/\/blog.imgur.com\/2014\/10\/09\/introducing-gifv\/",
+                "text": "GIFs are no longer about .GIFs–the culture of the GIF now trumps the file format. With Project GIFV, Imgur is reimagining the looping GIF video with all the richness it...",
+                "fallback": "The Imgur Blog: Introducing GIFV - The Imgur Blog",
+                "ts": 1412812837,
+                "from_url": "http:\/\/blog.imgur.com\/2014\/10\/09\/introducing-gifv\/",
+                "service_icon": "http:\/\/blog.imgur.com\/wp-content\/uploads\/2015\/11\/favicon-96x96.png",
+                "id": 1
+            }
+        ],
+        "ts": "1465515278.000106"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Webp",
+        "ts": "1465515476.000108"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "15 html5 video players is also not performing ",
+        "ts": "1465515706.000109"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Shockingly ",
+        "ts": "1465515710.000110"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Final test I'd think could be one video containing all cubbies or strips for each but I think we should do canvas and focus on top sweep ",
+        "ts": "1465515755.000111"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<https:\/\/developers.google.com\/web\/fundamentals\/performance\/rendering\/avoid-large-complex-layouts-and-layout-thrashing?hl=en>",
+        "attachments": [
+            {
+                "title": "Avoid large, complex layouts and layout thrashing | Web Fundamentals - Google Developers",
+                "title_link": "https:\/\/developers.google.com\/web\/fundamentals\/performance\/rendering\/avoid-large-complex-layouts-and-layout-thrashing?hl=en",
+                "text": "Layout is where the browser figures out the geometric information for elements: their size and location in the page. Each element will have explicit or implicit sizing information based on the CSS that was used, the contents of the element, or a parent element. The process is called Layout in Blink, WebKit browsers, and Internet Explorer. In Gecko-based browsers like Firefox it’s called Reflow, but effectively these processes are the same.",
+                "fallback": "Avoid large, complex layouts and layout thrashing | Web Fundamentals - Google Developers",
+                "from_url": "https:\/\/developers.google.com\/web\/fundamentals\/performance\/rendering\/avoid-large-complex-layouts-and-layout-thrashing?hl=en",
+                "service_icon": "https:\/\/developers.google.com\/web\/imgs\/favicon.ico",
+                "service_name": "developers.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1465518359.000112"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "^^^ <!channel>: Y’all probably read this, but just to be safe...",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1465518714.000000"
+        },
+        "ts": "1465518705.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh man we pulled up the gpu meter and it is definitely only using one of them",
+        "ts": "1465520222.000116"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "GOOOD ",
+        "ts": "1465520240.000117"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok so hows this affect plan?",
+        "ts": "1465520242.000118"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "how you wanna roll peter?",
+        "ts": "1465520249.000119"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "focus on experience, I think we have called out some great calls on performance, if we run it and see issues still we have things we can roll on site. and talk intelligently about. I think we had some great ideas today about back up plans and such. There are a couple of tests i still think are worth the 30-45 mins in the morning to roll with tho. remove the extra divs around the images, test without body moving in the dom, and even see if plugging in the cubby monitors into the higher port so that they are on the second gpu and see if they light up in the monitor. then the cubbies are on the second gpu and the top sweep on the other. and see what that does. wont take super long to roll these few and if they are a win they give us that extra alleviation, if not then we know and keep going on experience",
+        "ts": "1465520578.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "fuck yea!  thats exactly what we discussed.  jira reflects it.  feeling good.",
+        "ts": "1465522489.000121"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "we got a smart group of folks working on this.  last few days have been nothing but solid thought progression",
+        "ts": "1465522511.000122"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "we’ll review whatever’s checked in at 915, then we need to do a full sanity check with the team.  currently scheduled for 4pm, ideally we move to 2pm",
+        "ts": "1465523067.000123"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "templates commited, and everything pushed, suck it jenkins i beat you",
+        "ts": "1465526957.000124",
+        "reactions": [
+            {
+                "name": "fire",
+                "users": [
+                    "U02E3CRMA",
+                    "U06DFL7BP",
+                    "U026PHQ3J"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "brandlab - #34 Started by timer (<http:\/\/192.168.169.90:9000\/job\/brandlab\/34\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "brandlab - #34 Started by timer (<http:\/\/192.168.169.90:9000\/job\/brandlab\/34\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1465530513.000125"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "brandlab - #34 Success after 20 sec (<http:\/\/192.168.169.90:9000\/job\/brandlab\/34\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "brandlab - #34 Success after 20 sec (<http:\/\/192.168.169.90:9000\/job\/brandlab\/34\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1465530530.000126"
+    }
+]

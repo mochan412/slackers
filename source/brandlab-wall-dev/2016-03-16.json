@@ -1,0 +1,360 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U02E3CRMA>: the IS appears to work for me, I tried the display activity with the command “isbuild &amp;&amp; isrun” this I assume the firewall is still blocking? if we can open 999X for the activities and the default port for the master controller is 8080, but we probably dont need to use it at the moment",
+        "ts": "1458151419.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "999X and 22 (SSH) are currently open…give it a shot",
+        "ts": "1458151916.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL> ^^^",
+        "ts": "1458152398.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "looks like DisplayActivity is up and kicking",
+        "ts": "1458152408.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "nice, assming you guys are working on AWS instance?",
+        "ts": "1458152429.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet works",
+        "ts": "1458152453.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: are both Admin and Display running as backgrounded tasks?",
+        "ts": "1458153057.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "did not do that yet",
+        "ts": "1458153097.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "just ran one manually to try it",
+        "ts": "1458153105.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet was able to use their exhibit setup doc to get something to show up in the scheduler correctly. nice to have an example to go off. Im going to set it up around what we have now, so i can test the scheduler messaging and get a better look at how pretty works natively",
+        "ts": "1458154121.000022",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: and <@U0EL0GLEL> with myels approval, are we plannign to home roll features that aren’t available to us in IS and then later request google build that feature support or start by asking them to build, wait and then wind up homerolling for the sake of time?",
+        "ts": "1458165491.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I dont have plans for needing them to do anything, we are tapping into their system via an already existing route. them pushing in our custom UI. the underlying will use the exsiting system",
+        "ts": "1458165581.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "right but there are surely times where the existing system doesnt support specific features or nuances, yeah?",
+        "ts": "1458165666.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "we may need help or something new around the idea of a health check in the future, Im pretty sure we can just use their scheduler service to do so, but the docs on that are pretty slim. I think more thought needs to go into that before that is moved on",
+        "ts": "1458165680.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "understood but everything else we’re trying to do, foundationally, exists in IS?",
+        "ts": "1458165723.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I think so, we are tying directly into the existing preset system, and as far as IS is concerned we will be using it as intended. It will package up a preset and push it off to the wall on the schedule as needed. There is no changes there, that model fits fine. We will be doing the changes we need to support the profile\/workshop heirarchy in the admin app end of it. The compilation of the presets to be sent to IS will occur all there. It will basically be like its translating into the model that IS understands, really its not that far off. It’s just grouping the data based on one field that says oh this preset is in this profile, so group it up and show it on a UI that looks easier to diegest",
+        "ts": "1458165915.000028"
+    },
+    {
+        "user": "U026103R3",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U026103R3|abby> has left the channel",
+        "ts": "1458166055.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I went at this with lets see if it fits into what already exists as much as possible, and really it does fit its just that UI representation in the admin that doesn’t the UI in the admin and the display activity will process the data as they need on their ends to make things happen. I think we should be fine on moving forward without having to roll any new features aside from that health check. which may end up using current systems also, I just need to figure out how to use the scheduler service. If we were able to schedule a health check at X time before the thing goes live and that happens when the profile\/workshop is created as part of that save process I think that would work fine",
+        "ts": "1458166178.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I have more notes on details for how this process of how a save will need to carry out. I can start looking into prototyping this process soon. I think we should soon since i think there may be restrictions on the UI presentation possibly. There is likely a restriction that all the settings needed to save a preset needs to be on one interface. IE the template used for cubby and BFD and the questions asked, consumer barometer data, youtube videos whatever is sent through, we would need to have that all set on this one UI. Since that is how the preset admin system works from IS, you build out a data object for that preset and send it along. We would need to follow suit and do that also. Don’t see this as an issue just a design consideration",
+        "ts": "1458166419.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks i’m with ya",
+        "ts": "1458167160.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i think",
+        "ts": "1458167166.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "TL;DR understanding - the health check is really [maybe] the only custom functionality as it related ot the app.  then there’s data integration with Consumer Baromter, YT Trends and BL website.  Then there’s front-end dev fro the BFD.  overly simple or ‘kinda sorta, producer catching on'",
+        "ts": "1458167223.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dont think the health check is even custom, there is a high chance we can use the existing scheduler service and just call out to it and say hey schedule this health check for me",
+        "ts": "1458167306.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im not clear how that happens just yet, the docs are just the auto generated kind around that. will need to look into it more",
+        "ts": "1458167336.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the CB and YT and BL stuff should happen through the custom app we are building into the admin activity and really have no bearing on IS at all",
+        "ts": "1458167382.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the data from those just gets funneled into a data source that is packaged up to be sent over to the display activity in the preset",
+        "ts": "1458167410.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the BFD display is part of the cubby display activity, this activity will need to be revisited when we have an idea of what kind of stuff we want to do for these animations",
+        "ts": "1458167456.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i see it all fitting into my original model still fine, just work needs to be done around setting up those animations or transitions how we see them happening. and it sounds great that Gaston can tackle that, sounds like he has more experience with those",
+        "ts": "1458167541.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok cool, helpful and i hear ya on the helath check likely not needing to be custom.  loud and clear on that one",
+        "ts": "1458167639.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "sounds like you wanna start there with prototyping.  but i think we may know enought o work other areas as well.  what are your thoughts?",
+        "ts": "1458167659.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "which areas?",
+        "ts": "1458167988.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "AWS is running <http:\/\/52.90.53.30:9999\/AdminActivityActivity\/index.html>",
+        "ts": "1458168255.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<http:\/\/52.90.53.30:9992\/DisplayActivityActivity\/index.html>",
+        "ts": "1458168263.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "\\o\/",
+        "ts": "1458168266.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks <@U0EL0GLEL>!",
+        "ts": "1458168272.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0RJ7MNLV> ^^^^",
+        "ts": "1458168279.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "here is the command for future ref how I started the bg task for them run from the folder for the activity \"screen -dmS display isrun\"",
+        "ts": "1458168331.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "bg wouldnt work for some reason, but screen did",
+        "ts": "1458168340.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "very clever",
+        "ts": "1458168354.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "for once, the inability to successfully kill ‘screen’ is actually useful",
+        "ts": "1458168373.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so admin experienc eis avail a on aws and therefore outside the nework?",
+        "ts": "1458168440.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yep",
+        "ts": "1458168617.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i dot have charles proxy but connected ot it successfully when tethered to my phone hotspot",
+        "ts": "1458168663.000055"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i’ll pass along to ty",
+        "ts": "1458168668.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll lock access down to just our office IP and Tyesha’s once I have hers",
+        "ts": "1458168699.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i’ll get from her.",
+        "ts": "1458168904.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "just updated and tested - it’s currently set to only allow our IP (50.78..183.69)",
+        "ts": "1458168932.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0RJ7MNLV",
+        "text": "Where do I find my IP?",
+        "ts": "1458168935.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<http:\/\/whatsmyip.com|whatsmyip.com>",
+        "ts": "1458168949.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "will change as you move around though to coffee shops and the like...",
+        "ts": "1458168961.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "or google \"what is my ip\"",
+        "ts": "1458168961.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0RJ7MNLV>: since I’m whitelisting IPs for this, I’m assuming you’ll access it from the same place every time (e.g. home)",
+        "ts": "1458169013.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0RJ7MNLV",
+        "text": "duh. sorry. been a long day.",
+        "ts": "1458169044.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0RJ7MNLV",
+        "text": "I’ll have one while here in MN. Then I’ll have home and my office in Portland if that is ok. If not I’ll just do my office.",
+        "ts": "1458169077.000066"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "works for me",
+        "ts": "1458169100.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool",
+        "ts": "1458169165.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0RJ7MNLV",
+        "text": "Google will tell you your IP address. Those folks are so nice. 97.127.123.12",
+        "ts": "1458169809.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks <@U02E3CRMA> \/\\ \/\\",
+        "ts": "1458170444.000070"
+    }
+]

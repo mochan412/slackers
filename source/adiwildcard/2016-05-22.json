@@ -1,0 +1,237 @@
+[
+    {
+        "type": "message",
+        "user": "U1172PRDX",
+        "text": "<@U0B9N0HF0>: those are called radar graphs! super helpful when describing personality types as well",
+        "ts": "1463967860.000002"
+    },
+    {
+        "type": "message",
+        "user": "U1172PRDX",
+        "text": "<@U0B9N0HF0> <@U0GN0A9EV> check out this! it’s crazy fun to play with <http:\/\/mbostock.github.io\/d3\/talk\/20111116\/force-collapsible.html>",
+        "ts": "1463968185.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Awesome! I'll take a look. Yeah, thought the radar graph could be a great way to represent in-collective activity too",
+        "ts": "1463968497.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "A radar graph is good for displaying a lot of variables. If we are measuring 3 or less I feel like it is a bit overkill. ",
+        "ts": "1463969761.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "From a tech standpoint designing graphs is not a quick tasks. There are some frameworks to build off that can be customized but they can't do everything. ",
+        "ts": "1463971867.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "This was my first pass this weekend at building a basic graph with made up data:",
+        "ts": "1463971946.000007"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0K8ZSHN0|lee> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lee\/F1AT6RE30\/pasted_image_at_2016_05_22_07_52_pm.png|first pass>",
+        "file": {
+            "id": "F1AT6RE30",
+            "created": 1463971953,
+            "timestamp": 1463971953,
+            "name": "Pasted image at 2016_05_22 07_52 PM.png",
+            "title": "first pass",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0K8ZSHN0",
+            "editable": false,
+            "size": 70970,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1AT6RE30\/pasted_image_at_2016_05_22_07_52_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1AT6RE30\/download\/pasted_image_at_2016_05_22_07_52_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1AT6RE30-99184a9831\/pasted_image_at_2016_05_22_07_52_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1AT6RE30-99184a9831\/pasted_image_at_2016_05_22_07_52_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1AT6RE30-99184a9831\/pasted_image_at_2016_05_22_07_52_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 199,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1AT6RE30-99184a9831\/pasted_image_at_2016_05_22_07_52_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 265,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1AT6RE30-99184a9831\/pasted_image_at_2016_05_22_07_52_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1AT6RE30-99184a9831\/pasted_image_at_2016_05_22_07_52_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 398,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1AT6RE30-99184a9831\/pasted_image_at_2016_05_22_07_52_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 531,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1AT6RE30-99184a9831\/pasted_image_at_2016_05_22_07_52_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 566,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 750,
+            "original_h": 1356,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lee\/F1AT6RE30\/pasted_image_at_2016_05_22_07_52_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1AT6RE30-4483d1a877",
+            "channels": [
+                "C18HVJMCJ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0K8ZSHN0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lee",
+        "bot_id": null,
+        "ts": "1463971956.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "I took data from my phones steps and my wife’s steps and I’m going to try and make this into the sky scraper graphic we showed on friday.",
+        "ts": "1463971997.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "pretty neat",
+        "ts": "1463978497.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "Hi Team, sorry-been offline today. Here’s a super quick footwear exploration. Feel free to use it if it fits in for Mondays presentation. IF you do, please change the layout … just pasted these :slightly_smiling_face:",
+        "ts": "1463978500.000011"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0HPGQ4KH|felix> uploaded a file: <https:\/\/uncorked.slack.com\/files\/felix\/F1ATMHQN4\/adiwild.ai|adiwild.ai>",
+        "file": {
+            "id": "F1ATMHQN4",
+            "created": 1463978519,
+            "timestamp": 1463978519,
+            "name": "adiwild.ai",
+            "title": "adiwild.ai",
+            "mimetype": "application\/illustrator",
+            "filetype": "ai",
+            "pretty_type": "Illustrator File",
+            "user": "U0HPGQ4KH",
+            "editable": false,
+            "size": 5086375,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1ATMHQN4\/adiwild.ai?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1ATMHQN4\/download\/adiwild.ai?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/felix\/F1ATMHQN4\/adiwild.ai",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1ATMHQN4-d1007e3aba",
+            "channels": [
+                "C18HVJMCJ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0HPGQ4KH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "felix",
+        "bot_id": null,
+        "ts": "1463978520.000012"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0HPGQ4KH|felix> uploaded a file: <https:\/\/uncorked.slack.com\/files\/felix\/F1ASAM9LK\/adiwild.jpg|adiwild.jpg>",
+        "file": {
+            "id": "F1ASAM9LK",
+            "created": 1463978529,
+            "timestamp": 1463978529,
+            "name": "adiwild.jpg",
+            "title": "adiwild.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U0HPGQ4KH",
+            "editable": false,
+            "size": 2185270,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1ASAM9LK\/adiwild.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1ASAM9LK\/download\/adiwild.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1ASAM9LK-334584732b\/adiwild_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1ASAM9LK-334584732b\/adiwild_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1ASAM9LK-334584732b\/adiwild_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 233,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1ASAM9LK-334584732b\/adiwild_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 310,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1ASAM9LK-334584732b\/adiwild_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1ASAM9LK-334584732b\/adiwild_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 465,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1ASAM9LK-334584732b\/adiwild_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 620,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1ASAM9LK-334584732b\/adiwild_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 662,
+            "image_exif_rotation": 1,
+            "original_w": 2423,
+            "original_h": 1566,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/felix\/F1ASAM9LK\/adiwild.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1ASAM9LK-c2008f138a",
+            "channels": [
+                "C18HVJMCJ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "partyparrot",
+                    "users": [
+                        "U0K8ZSHN0",
+                        "U0B9N0HF0"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "user": "U0HPGQ4KH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "felix",
+        "bot_id": null,
+        "ts": "1463978535.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "FYI - it was an early thing that came up to give sara her year on a shoe or a piece of apparel - if it does not fit in your story tomorrow please do NOT fit it in - it can also wait till later ...",
+        "ts": "1463978623.000015"
+    }
+]

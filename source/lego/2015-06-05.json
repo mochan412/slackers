@@ -1,0 +1,501 @@
+[
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Hey <@U02688JHZ>, <@U026PHQ3J>. Slight problem that has nothing to do with us (but we may want to bring it up to the client because it breaks 1 entire feature of the app). The LEGO movies gallery no longer has movies in it. When I inspect the response from youtube I get the following:\n\n`&lt;errors xmlns='http:\/\/schemas.google.com\/g\/2005'&gt;&lt;error&gt;&lt;domain&gt;GData&lt;\/domain&gt;&lt;code&gt;NoLongerAvailableException&lt;\/code&gt;&lt;internalReason&gt;No longer available&lt;\/internalReason&gt;&lt;\/error&gt;&lt;\/errors&gt;`",
+        "edited": {
+            "user": "U026PT0D7",
+            "ts": "1433528101.000000"
+        },
+        "ts": "1433528080.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "This follows from my personal experience too. I had an RSS subscription to my Youtube feed, which recently stopped working. I think Youtube is just taking down this part of its api.",
+        "ts": "1433528148.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "For reference, the endpoint we're hitting is `<http:\/\/gdata.youtube.com\/feeds\/api\/playlists\/PLRNbTEZ7dhL3vzChkEshtXQ3gHymptnBx?v=2&amp;alt=json>`",
+        "ts": "1433528160.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "In the interim, I've put an alert view in place so users don't get confused about the empty screen.",
+        "ts": "1433528203.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Another problem. My fix for the sound playback is faulty. Basically, it will ignore headphones that are plugged in. I have some experience with Core Audio, but I think it would take another half day to fix and test properly.",
+        "ts": "1433530939.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I can take my \"fix\" out, and revert back to the existing version, where sounds will play out of the phone receiver",
+        "ts": "1433530966.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U02688JHZ> <@U026PHQ3J> I'm tracking down another bug that just came to light in yesterday's testing. still hoping for :thumbsup: on the Youtube thing and the sound-volume thing",
+        "ts": "1433532552.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>: <@U02688JHZ> does Lego know their youtube stuff is down? I have no opinion on fix, does anyone have a good idea here\/",
+        "ts": "1433532624.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02AUNA0P>:",
+        "ts": "1433532641.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I don't know if they know. I do know that my personal youtube rss has been down for weeks but not months",
+        "ts": "1433532659.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i guess my question is: is it broken in the build thats in the store as a result of the RSS getting taken down?",
+        "ts": "1433532692.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also: whats the graceful solve that gets them to the content that we want them to see?",
+        "ts": "1433532710.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ah, good question. I assume so, but haven't tested",
+        "ts": "1433532710.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "We need to get it sent today. My suggestion is that we submit it as is, and discuss the headphone-issue as part of bug fixing next week",
+        "ts": "1433532822.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh, yeah this is about the youtube thing",
+        "ts": "1433532839.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think the headphone rollback is prudent",
+        "ts": "1433532846.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I agree with rollback",
+        "ts": "1433532857.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "we're submitting to them for internal testing",
+        "ts": "1433532862.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I assume that the volume bug is present in current app store version",
+        "ts": "1433532876.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "So I can let them know about youtube videos being down, but wouldn't expect that to impact our deliverables\/timeline",
+        "ts": "1433532882.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "right?",
+        "ts": "1433532888.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "makes sense",
+        "ts": "1433532900.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "let me know if I'm misunderstanding",
+        "ts": "1433532902.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no i think this might affect the deliverable",
+        "ts": "1433532914.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I put in a quick alert view saying \"error parsing response, try again later\"",
+        "ts": "1433532915.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "do we think the youtube videos have changed\/need to update links in our code?",
+        "ts": "1433532922.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats why i was asking about how do we get people to see the content",
+        "ts": "1433532927.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "at best it's a URL change",
+        "ts": "1433532932.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "worst case we have to mess with some kind of Youtube API framework that won't play nicely? Just guessing though",
+        "ts": "1433532968.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "sorry, I meant that worst case is Youtube has completely removed this capability, and we have to do scraping and parsing of html.",
+        "ts": "1433533093.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "(spoofing the lego app as a web browser, of course)",
+        "edited": {
+            "user": "U026PT0D7",
+            "ts": "1433533162.000000"
+        },
+        "ts": "1433533149.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<!channel> the youtube playlist for lego picks: <https:\/\/www.youtube.com\/playlist?list=PLRNbTEZ7dhL3vzChkEshtXQ3gHymptnBx>",
+        "ts": "1433542204.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok, my bucket is empty, so I'm calling it. Tagging, archiving, writing up changelog and known issues, going through checklist and FTP the package to the client.",
+        "ts": "1433542638.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "(^ <@U02688JHZ>)",
+        "ts": "1433542646.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":clap:",
+        "ts": "1433542747.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Sounds great! Do you need me to download the end-to-end doc?",
+        "ts": "1433542772.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "that would be great! .xls or .xlsx please",
+        "ts": "1433542853.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "actually, I can download it myself. I don't need to open it afterwards :)",
+        "ts": "1433542874.000046"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02688JHZ|mary> uploaded a file: <https:\/\/uncorked.slack.com\/files\/mary\/F06153TJB\/lego_end-to-end_script.xlsx|LEGO End-to-End Script.xlsx>",
+        "file": {
+            "id": "F06153TJB",
+            "created": 1433542954,
+            "timestamp": 1433542954,
+            "name": "LEGO End-to-End Script.xlsx",
+            "title": "LEGO End-to-End Script.xlsx",
+            "mimetype": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "filetype": "xlsx",
+            "pretty_type": "Excel Spreadsheet",
+            "user": "U02688JHZ",
+            "editable": false,
+            "size": 29100,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06153TJB\/lego_end-to-end_script.xlsx?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06153TJB\/download\/lego_end-to-end_script.xlsx?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/mary\/F06153TJB\/lego_end-to-end_script.xlsx",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F06153TJB-adafe05b63",
+            "channels": [
+                "C03ASLFJE"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02688JHZ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mary",
+        "bot_id": null,
+        "ts": "1433542954.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "in the handover checklist, what does this question mean: \"Is LEGO application configuration used ?\"",
+        "ts": "1433543106.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "hmmmm",
+        "ts": "1433543160.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "and the next question says \"If LEGO application configuration is used, enter go url used \"",
+        "ts": "1433543207.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "No idea what a \"go url\" is",
+        "ts": "1433543215.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U026PHQ3J>: Do you know what that is, above? It's in the first section, under Basic Details -&gt; Application config",
+        "ts": "1433543664.000052"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02688JHZ|mary> uploaded a file: <https:\/\/uncorked.slack.com\/files\/mary\/F0615CZA5\/apphandoverchecklistforlegoqa.xlsx|AppHandoverChecklistForLEGOQA.xlsx>",
+        "file": {
+            "id": "F0615CZA5",
+            "created": 1433543700,
+            "timestamp": 1433543700,
+            "name": "AppHandoverChecklistForLEGOQA.xlsx",
+            "title": "AppHandoverChecklistForLEGOQA.xlsx",
+            "mimetype": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "filetype": "xlsx",
+            "pretty_type": "Excel Spreadsheet",
+            "user": "U02688JHZ",
+            "editable": false,
+            "size": 26586,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0615CZA5\/apphandoverchecklistforlegoqa.xlsx?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0615CZA5\/download\/apphandoverchecklistforlegoqa.xlsx?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/mary\/F0615CZA5\/apphandoverchecklistforlegoqa.xlsx",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0615CZA5-7296797f01",
+            "channels": [
+                "C03ASLFJE"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02688JHZ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "mary",
+        "bot_id": null,
+        "ts": "1433543701.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I think you have that, but just in case",
+        "ts": "1433543712.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no idea",
+        "ts": "1433544582.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok, then I'm putting no",
+        "ts": "1433544661.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":thumbsup:",
+        "ts": "1433544777.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "please post any other questions, spencer, and then if you can post the doc for review, that would be great",
+        "ts": "1433544819.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok. stand by",
+        "ts": "1433544851.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Deliverable package uploaded to NAS. clients &gt; POD &gt; Lego &gt; Interstitial Refresh &gt; Deliverables",
+        "ts": "1433545333.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I will wait for a green light to FTP it",
+        "ts": "1433545347.000061"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Looks good on my end! Please FTP it and let me know when it's up, so I can send a note to Flemming and Casey.",
+        "ts": "1433546305.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok!",
+        "ts": "1433546315.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Thank you!",
+        "ts": "1433546316.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U02688JHZ> FTP is up. Evans has asked that you also include a note to them about the Youtube stuff (see my writeup in changelog, under Known Issues)",
+        "ts": "1433546514.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "sorry, forgot to save the file before I uploaded it. It's fixed now (both on NAS and FTP)",
+        "ts": "1433546639.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "what's next? I feel a cold vacuum",
+        "ts": "1433546927.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "ha",
+        "ts": "1433547121.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "sorry for the cold vacuum feeling",
+        "ts": "1433547130.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I'm about to hit send on an email to flemming and casey",
+        "ts": "1433547138.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "go grab yourself a beer!!",
+        "ts": "1433547144.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "it's ok. i'm going out for drinks with my brother tonight",
+        "ts": "1433547150.000072"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":clap::clap:",
+        "ts": "1433547151.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the office is dry",
+        "ts": "1433547153.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "WHAT??!!",
+        "ts": "1433547168.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I KNOW",
+        "ts": "1433547172.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "that is tragic",
+        "ts": "1433547179.000077"
+    },
+    {
+        "user": "U026PLK4S",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U026PLK4S|matt> has left the channel",
+        "ts": "1433547909.000078"
+    }
+]

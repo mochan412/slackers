@@ -1,0 +1,90 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026PLK4S> Would it be possible to send me the originals for the 2 docs above? Would love to copy\/paste those values.",
+        "ts": "1417548831.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "yessir!",
+        "ts": "1417548842.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks!",
+        "ts": "1417548849.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<!channel>: Video UI is up on the NAS. We're in an extremely weird concurrent UX &amp; UI area, so look to 03.1_Video_Menu for direct user flow, and 01.1_System_Intro for alternate states &amp; other areas of the menu. Please, also, do not share with client until we can review with dev.",
+        "ts": "1417551529.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U026PLK4S> cool",
+        "ts": "1417554017.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I got video export running this morning, but it needs to move to the driver so we can make a usable frame rate",
+        "ts": "1417554040.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "should be there today",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1417554052.000000"
+        },
+        "ts": "1417554045.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02613K0X> <@U02618EV1> let's add a couple outbound messages from the Node server for debug\/development on the UI:",
+        "ts": "1417554099.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "`showcursor` shows a cursor on the UI",
+        "ts": "1417554128.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "`hidecursor` hides it",
+        "ts": "1417554135.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "`move,x,y` moves the cursor to a new location",
+        "ts": "1417554148.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay i will listen to those in node for now. <@U02618EV1> I'll let you know then they're added and exactly what events you should listen for on the frontend",
+        "ts": "1417554888.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "k node is listening for the three events from cooktop.py now. gaston, i edited the google doc with some examples of what to expect from those events in the *DEBUG* section. they're v straightforward.",
+        "ts": "1417555668.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks!",
+        "ts": "1417556177.000017"
+    }
+]

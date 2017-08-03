@@ -1,0 +1,532 @@
+[
+    {
+        "user": "U0H4SJN11",
+        "text": "<@U0H4SJN11|miguel> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1490363390.452802"
+    },
+    {
+        "user": "U1HKQRLMR",
+        "text": "<@U1HKQRLMR|megan.bauer> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1490363397.455153"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "HI Charles :)  \n\nSee note below…\n\nCan we add this at a additional cost to your approach ?\n\nI know you don’t generally do stuff this simple but is it possible to add for scale on your side?\n\nThank you!\nNeely \n\n\n\n\nBegin forwarded message:\n\nFrom: Geoff Guinta &lt;geoff.guinta@motherusa.com&gt;\nSubject: Mobile Web?\nDate: March 24, 2017 at 8:14:32 AM EDT\nTo: Neely Lisk &lt;neely@aarra.com&gt;\n\nHey Neely, \n\nApologies for the early email. I am traveling to CT today and wanted to get this out the door. \n\nThe guys have asked if we can also look at costs to build a simple responsive site to add scale for those that don't receive a device. A very simple 8-bit game with the same game logic as the demogotchi. The only \"new\" feature would be leveraging notifications in some capacity to tend to the little creature. \n\nNot sure how notifications would work on mobile web, perhaps there's a FB connect feature we could leverage? Maybe it's text alerts using Twilio? We're open to suggestions. \n\nWould love to explore time and money for the build. Again, just a responsive site, no native apps. \n\nBest\nGeoff\n",
+        "ts": "1490363433.466864"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "---- snip -----\nCan put together some numbers but my gut is this adds 100-150k. It's reimplementing the logic but, the display layer, the interface. The only way I see THAT working is using a different off the shelf web tamagotchi maybe. ",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1490363554.000000"
+        },
+        "ts": "1490363519.494507"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "But as is, it's \n1) re implementing the Tamaguino project which is no small task and \n2) integrating notifications for which there's no current concept in the game but \n3) this is predicated on the game itself not being as important as the object. You lose that entirely with a web version ",
+        "ts": "1490364005.658916"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J> let's talk on the web side of things today. ",
+        "ts": "1490364309.767568"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yes",
+        "ts": "1490364629.877972"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Notifications are possible but ",
+        "ts": "1490364658.887862"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I need time to think about why the shit you'd realistically use them ",
+        "ts": "1490364680.895976"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cause that will influence how complex the server has to be ",
+        "ts": "1490364713.906752"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yeah. You could hook into the stats and trigger at a gate. \"Your demo is hungry. How bout A CAT\"",
+        "ts": "1490364808.939780"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "But I'm more worried about reimplementing _the game_",
+        "ts": "1490364829.946980"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah. Will need to look. ",
+        "ts": "1490364998.007843"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Marce and evans both had the angle to push a kit. Will figure out some logistics but could be interesting (and cheaper) way to give exposure ",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1490371293.000000"
+        },
+        "ts": "1490371280.419298"
+    },
+    {
+        "user": "U0H4SJN11",
+        "text": "<@U0H4SJN11|miguel> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1490372903.014347"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "And way to tie PMMC into this. ",
+        "ts": "1490373517.232887"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "And Autodesk (who owns Instructables)",
+        "ts": "1490373535.238921"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Can we emulate arduino within a web app?",
+        "ts": "1490373593.259139"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<https:\/\/circuits.io\/>",
+        "attachments": [
+            {
+                "title": "Bring ideas to life with free online Arduino simulator and PCB apps | Autodesk Circuits",
+                "title_link": "https:\/\/circuits.io\/",
+                "fallback": "Bring ideas to life with free online Arduino simulator and PCB apps | Autodesk Circuits",
+                "image_url": "https:\/\/s3-us-west-1.amazonaws.com\/123d-circuits-assets\/ogImageDefault.jpg",
+                "from_url": "https:\/\/circuits.io\/",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 72746,
+                "service_icon": "https:\/\/circuits.io\/favicon.ico",
+                "service_name": "circuits.io",
+                "id": 1
+            }
+        ],
+        "ts": "1490373793.329330"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Owned by Autodesk. ",
+        "ts": "1490373799.331481"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "What doesn't autodesk own?",
+        "ts": "1490373875.358702"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "fwiw, i dont think <http:\/\/circuits.io|circuits.io> supports the components needed",
+        "ts": "1490382569.319422"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "at least, can’t find a display (which makes sense)",
+        "ts": "1490382575.321214"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "wait no i’m wrong",
+        "ts": "1490382623.335964"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "it’s just confusing",
+        "ts": "1490382628.337273"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Neely got some stud earrings and they fucking gold earring that she paid a bunch of money for just broke off.",
+        "ts": "1490389024.763023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "is what she just yelled in my ear",
+        "ts": "1490389037.766573"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "good share.",
+        "ts": "1490389048.769925"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "anyways, Unit 9 is engaged on this, sounds like Mother is going to serve up both us and them to netflix, Neely is angling us as the more credible one",
+        "ts": "1490389055.772030"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Geoff had a family emergency so all moved to Monday – she thinks they’d be interested in kits, wants to dig on it before wie propose anything real",
+        "ts": "1490389083.779853"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so no action now",
+        "ts": "1490389085.780324"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "I can put a kit bom together on Monday ",
+        "ts": "1490389340.852896"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Bill of materials",
+        "ts": "1490389350.855719"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "awesome",
+        "ts": "1490389526.902832"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "even for our per unit would be good to have",
+        "ts": "1490389532.904335"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i think i counted it ~less than hundo",
+        "ts": "1490389604.923087"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "For sure even if it's just retail ",
+        "ts": "1490389621.927355"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<@U0EL0GLEL> ",
+        "ts": "1490397348.381490"
+    },
+    {
+        "user": "U0EL0GLEL",
+        "inviter": "U0K8ZSHN0",
+        "text": "<@U0EL0GLEL|peter.bliss> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1490397354.382420"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<@U0EL0GLEL> please share your video here",
+        "ts": "1490397370.384600"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Peter ported the game to javascript",
+        "ts": "1490397449.395304"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Welp",
+        "ts": "1490397459.396519"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F4NSC37KJ\/dino.mov|dino.mov>",
+        "file": {
+            "id": "F4NSC37KJ",
+            "created": 1490397464,
+            "timestamp": 1490397464,
+            "name": "dino.mov",
+            "title": "dino.mov",
+            "mimetype": "video\/quicktime",
+            "filetype": "mov",
+            "pretty_type": "QuickTime Movie",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 479032,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4NSC37KJ\/dino.mov?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4NSC37KJ\/download\/dino.mov?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F4NSC37KJ\/dino.mov",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4NSC37KJ-c7bf961562",
+            "channels": [
+                "C4LMYLVRV"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1490397465.397228"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Lol did we do it again ",
+        "ts": "1490397472.398154"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Not possible with your budget, but we already did it",
+        "ts": "1490397491.400512"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's fun to have freetime Peter back ",
+        "ts": "1490397493.400725"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "lol",
+        "ts": "1490397503.402253"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "most of it i ported, just wanted to prove it was easy enough to port arduino to javascript. its missing the menu stuff, but it wouldnt take a whole lot to finish porting it over",
+        "ts": "1490397505.402676"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but this much took less than 2 hours",
+        "ts": "1490397519.404493"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Nice ",
+        "ts": "1490397539.407157"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The original is gpl so keep that in mind",
+        "ts": "1490397547.408001"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Well, let's keep it :)",
+        "ts": "1490397553.408655"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "That's awesome <@U0EL0GLEL> ",
+        "ts": "1490397583.412716"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "do we expose to client, or simply say we're confident it can be done?",
+        "ts": "1490397584.412949"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and yes - nice work peter.bliss!",
+        "ts": "1490397594.414226"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'd still say we are confident it can be done. There's a lot around this that we'd need to do beyond the game ",
+        "ts": "1490397601.415153"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "This removes some of the baseline ",
+        "ts": "1490397607.415917"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Moves us closer to the polish phase",
+        "ts": "1490397623.418028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Polish isn't a phase. ",
+        "ts": "1490397688.426695"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "This is prequel",
+        "ts": "1490397696.427755"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Are you saying we are going to turn this into an 8bit VR experience? ",
+        "edited": {
+            "user": "U0K8ZSHN0",
+            "ts": "1490397754.000000"
+        },
+        "ts": "1490397733.432463"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in my mind, once the project is done and great, THEN “polish” is “we made it an 8bit VR experience”",
+        "ts": "1490398379.513840"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, i used to have zelda for oculus and it was vomitously unplayable",
+        "ts": "1490398394.515462"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Still think we should sell kits and take a cut. ",
+        "ts": "1490402384.909642"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Sell them out of vending machines?",
+        "ts": "1490404982.097232"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0K8ZSHN0|lee> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lee\/F4PM3U4LD\/image_uploaded_from_ios._null_|Image uploaded from iOS>",
+        "file": {
+            "id": "F4PM3U4LD",
+            "created": 1490405180,
+            "timestamp": 1490405180,
+            "name": "Image uploaded from iOS.(null)",
+            "title": "Image uploaded from iOS",
+            "mimetype": "image\/gif",
+            "filetype": "gif",
+            "pretty_type": "GIF",
+            "user": "U0K8ZSHN0",
+            "editable": false,
+            "size": 2035511,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4PM3U4LD\/image_uploaded_from_ios._null_?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4PM3U4LD\/download\/image_uploaded_from_ios._null_?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PM3U4LD-7854e6ded7\/image_uploaded_from_ios_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PM3U4LD-7854e6ded7\/image_uploaded_from_ios_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PM3U4LD-7854e6ded7\/image_uploaded_from_ios_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 200,
+            "thumb_360_h": 319,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PM3U4LD-7854e6ded7\/image_uploaded_from_ios_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PM3U4LD-7854e6ded7\/image_uploaded_from_ios_360.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 200,
+            "original_h": 319,
+            "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PM3U4LD-7854e6ded7\/image_uploaded_from_ios_deanimate_gif.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lee\/F4PM3U4LD\/image_uploaded_from_ios._null_",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4PM3U4LD-5904764758",
+            "channels": [
+                "C4LMYLVRV"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0K8ZSHN0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lee",
+        "bot_id": null,
+        "ts": "1490405181.109816"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Seen so many of those in Japan. They were So popular",
+        "ts": "1490407791.260883"
+    },
+    {
+        "type": "message",
+        "user": "U0DCXC37U",
+        "text": "If Peter can do this in one week for a few $K, I say we fake a few weeks of work, take the crazy profit, and send Peter to Japan again :)",
+        "ts": "1490418507.743736",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0EL0GLEL"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

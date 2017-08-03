@@ -1,0 +1,192 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey all! reminder that our updated build is due by wed 11\/16 (for release to prod 11.\/17). i think biggest priorities for now are Onboarding, Blur intensity anything marked “Major” we have time to tackle :smile:",
+        "ts": "1479146333.002239"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> - Here are the two strings I need localizations for: \"Enable Location Services to utilize this feature.\" and \"Randomize artworks\".",
+        "ts": "1479146560.002240"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> what branch are you branched from right now?",
+        "ts": "1479147105.002242"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im trying to decide on a useful model for us",
+        "ts": "1479147113.002243"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I have three branches... `places_location_fix`, `randomize_artworks` and `GA_update`",
+        "ts": "1479147159.002244"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "They are all ready to be merged",
+        "ts": "1479147167.002245"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what are they based off of ?",
+        "ts": "1479147179.002246"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "release-48 or develop?",
+        "ts": "1479147185.002247"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "release-48",
+        "ts": "1479147187.002248"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok cool",
+        "ts": "1479147190.002249"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1479147190.002250"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "probably at lunch i’m going to collapse everything back into develop",
+        "ts": "1479147205.002251"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and branch off by date rather than release number",
+        "ts": "1479147217.002252"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m working on `gatekeeper_update` also branched off of `release-48`",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1479147254.000000"
+        },
+        "ts": "1479147238.002253"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "That sounds much less confusing!",
+        "ts": "1479147247.002254"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1479147268.002256"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> do you know where this string might be? `analytics_activity_gatekeeper`",
+        "ts": "1479147741.002257"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh i see, gatekeeper_update isn’t ready",
+        "ts": "1479147783.002258"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oops",
+        "ts": "1479147784.002259"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "my bad. will fix.",
+        "ts": "1479147794.002260"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It's in strings_analytics.",
+        "ts": "1479147826.002261"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "release-48 merge looks good re: `gatekeeper_update`",
+        "ts": "1479148917.002262"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1479149116.002263"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1479149118.002264"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Blur fixes are now in place on `release-48`",
+        "ts": "1479149128.002265"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "pushed some ugly code for handling large text &amp; large display &amp; german etc. on `gatekeeper_update`. Tested across 5x, 6p, pixel, and pixel xl.",
+        "ts": "1479161855.002266"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "works.",
+        "ts": "1479161874.002267"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "`gatekeeper_update` has ugly in function",
+        "ts": "1479171530.002268"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> I fixed something small in `places_location_fix`. Can you merge this into the new branch you created today?",
+        "ts": "1479171969.002269"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Didn't create yet!",
+        "ts": "1479172553.002270"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "But yes. Remind me of this in the AM ",
+        "ts": "1479172569.002271"
+    }
+]

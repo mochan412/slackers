@@ -1,0 +1,272 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1>, is what you need for the philosophy page video the same as for swoosh: mp4 file, vimeo ID, poster frame image url?",
+        "ts": "1408466294.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "and <!channel>, so far I have the following sizes for images: Eats desktop (645x164). Eats mobile (1280x650). Cocktails desktop (1280x354) Cocktails Mobile (1280x650), Philosophy Poster Frame (1152 x 550 ). Can I get confirmation on which, if any, of these I need to generate retina counterparts for? And I am still missing the size for the small cocktail image with the circle mask on desktop. Can I get that at some point today too?",
+        "ts": "1408466682.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> RE: the video, we a vimeo link in the format: \"<https:\/\/vimeo.com\/102928258>\"",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1408468478.000000"
+        },
+        "ts": "1408468456.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "And also a field for the image that shows at the top of the page. This isn't necessarily a poster frame but it's related to the video.",
+        "ts": "1408468532.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that path is just the vimeo id right? so i’ll just give you the vimeo id and the url to the image?",
+        "ts": "1408468633.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I think it's preferable to get the full url in case the client wants to use youtube or something else in the future.",
+        "ts": "1408468710.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay so the video url and the url to the image?",
+        "ts": "1408468787.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "is all you need",
+        "ts": "1408468796.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Image should be uploaded to the CMS",
+        "ts": "1408468824.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yes",
+        "ts": "1408468829.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i’m going to upload it to s3 and give you the url",
+        "ts": "1408468840.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Got it. Yes.",
+        "ts": "1408468855.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Also, those image sizes are missing some of the details <@U026AP8CM> and I discussed last week. Eg: Cocktails has 2 image sizes. One is for the full screen images and another for the ones in circles.",
+        "ts": "1408468918.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "So I'm going to go ahead and spend some time again getting all that info so we can avoid confusion.",
+        "ts": "1408468954.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay. thanks so much gaston, sorry for the trouble.",
+        "ts": "1408469000.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "No worries. Not your fault and I feel bad these images have been blocking you for days.",
+        "ts": "1408469037.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Let me know if you need a text version to copy\/paste.",
+        "ts": "1408469956.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "awesome!",
+        "ts": "1408469980.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "one size on philosophy video image?",
+        "ts": "1408469989.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes",
+        "ts": "1408470051.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Basecamp link for future ref: <https:\/\/basecamp.com\/1848688\/projects\/5657876\/messages\/29795089#events_message_29795089>",
+        "ts": "1408470064.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "this is perfect thanks gaston!!",
+        "ts": "1408470112.000026"
+    },
+    {
+        "text": "[smallbatch-frontend\/] 3 new commits:\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/7726134861f83e8e0262ae60c20b9e45c27c1cec|7726134861f8>: Fix backers grid.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/553318a709833b71f5ada2fc51fceba500dd40ff|553318a70983>: Add wider grid to header and footer.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/54206565fb4ff53fc864d582761802ff7c3a8ec1|54206565fb4f>: Remove source maps (too slow to compile) and add bottom padding to philosophy&gt;our space.\n - Gaston Figueroa",
+        "username": "bitbucket",
+        "bot_id": "B02AZR08H",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1408472590.000027"
+    },
+    {
+        "text": "[smallbatch-frontend\/] 2 new commits:\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/a88b452d94a3924fd5d6dcce2d6db49f8d299e59|a88b452d94a3>: Remove source maps (too slow to compile) and add bottom padding to philosophy&gt;our space.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/8b8e590536ea00304abe0bdca20cf1c1d2474934|8b8e590536ea>: Merge.\n - Gaston Figueroa",
+        "username": "bitbucket",
+        "bot_id": "B02AZR08H",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1408473106.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<@U02613K0X>:",
+        "ts": "1408481900.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "The four automatic Tank sensors are low, so you are most likely getting accurate readings.\nHe also informed me, that the numeric value for the Tanks (not the kegs) would never go above 440. Sounds like 440 will be the 100% full.",
+        "ts": "1408481902.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "recent note from client",
+        "ts": "1408481906.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ha okay cool. so “Tanks” are 0-440 and “Kegs” are 0-4095.",
+        "ts": "1408481983.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "i hope it helps",
+        "ts": "1408481999.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "or does it confuse things more",
+        "ts": "1408482003.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "and my readings are saying that two tanks and one keg are empty. hopefully that’s accurate",
+        "ts": "1408482005.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "I'll ask if that's accurate",
+        "ts": "1408482019.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it’s fine i just have to convert the values to percentages differently",
+        "ts": "1408482029.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "for kegs vs tanks",
+        "ts": "1408482035.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026AP8CM> I asked that in my last email. He says its correct",
+        "ts": "1408482042.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026AP8CM> do you happen to have the URL and credentials for their third party sharing service? I can't find them on my emails.",
+        "ts": "1408490098.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "one second i can look",
+        "ts": "1408490228.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks.",
+        "ts": "1408490443.000042"
+    },
+    {
+        "text": "[SmallBatch-CMS\/] 9 new commits:\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/b64af58f11ff1cd7ee89b9d5ce2ba55b4b0e4a21|b64af58f11ff>: menu item copy change and starting on bring back dates\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/83b93c768fbea27cb7f6938df450f94a51061cc2|83b93c768fbe>: adding beginnings of file upload\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/15084721184b590b07331da8c4bc1e9d7c6c3e92|15084721184b>: booleans &gt;&gt; enum in beer manager\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/b825ee6093675a7e17f1887eba6fca86421e0818|b825ee609367>: status update on archiving beer modal\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/650ceeed5bda0d72e4db3b0fee06bd5fd5fcaeaf|650ceeed5bda>: ontap and brewingnow booleans deprecated in favor of beer status string\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/87119c4758bf98811805e6b388dd693c6b3ef839|87119c4758bf>: archiving and unarchiving in beer page\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/04db908eeee524a2b5e9b97a84e3895ae2b6712c|04db908eeee5>: removing bring back and unarchive buttons from list view\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/29a85b75b6a35cce04b73bb513ec0bb2ab76e979|29a85b75b6a3>: modal for confirming beer status change and datesOnTap management\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/01dbbdfcb5120b824f6ac4a8a427cae23c416a5b|01dbbdfcb512>: exposing and editing date on tap ranges on beer pages\n - Jennifer Louthan",
+        "username": "bitbucket",
+        "bot_id": "B02AXN8LP",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1408490534.000043"
+    },
+    {
+        "text": "[SmallBatch-CMS\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/9bc3c1c1ad0cdf8bf53de3171e21bf57359fd3e7|9bc3c1c1ad0c>: starting to update philosophy page for video\n - Jennifer Louthan",
+        "username": "bitbucket",
+        "bot_id": "B02AXN8LP",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1408493422.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<@U02618EV1>: looking now",
+        "ts": "1408493488.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "apoloies",
+        "ts": "1408493490.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "apologies",
+        "ts": "1408493491.000049"
+    }
+]

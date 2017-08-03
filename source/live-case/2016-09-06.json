@@ -1,0 +1,477 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ> I'm going to try to find some time today to chat with you about push notifications (mostly token harvesting) for MiniMe",
+        "ts": "1473177635.000003"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "sounds great",
+        "ts": "1473177650.000004"
+    },
+    {
+        "user": "U2670DYLE",
+        "inviter": "U13GPDA1F",
+        "text": "<@U2670DYLE|johncohoon> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1473178293.000005"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F28MKHK4K\/styles_card.xml|styles_card.xml> and commented: <@U1ZG1UCAK> can you tell me what these strings are associated with? doesnt look like they need to be translated, but want to be sure",
+        "file": {
+            "id": "F28MKHK4K",
+            "created": 1473185632,
+            "timestamp": 1473185632,
+            "name": "styles_card.xml",
+            "title": "styles_card.xml",
+            "mimetype": "text\/plain",
+            "filetype": "xml",
+            "pretty_type": "XML",
+            "user": "U13GPDA1F",
+            "editable": true,
+            "size": 5944,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28MKHK4K\/styles_card.xml?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28MKHK4K\/download\/styles_card.xml?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F28MKHK4K\/styles_card.xml",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F28MKHK4K-1a3498eae9",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/lynsey\/F28MKHK4K\/styles_card.xml\/edit",
+            "preview": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n\n    <style name=\"Card\" parent=\"CardView.Light\">\n        <item name=\"android:layout_marginBottom\">4dp<\/item>",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">&lt;?xml<\/span> <span class=\"cm-meta\">version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">resources<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>    <span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">style<\/span> <span class=\"cm-attribute\">name<\/span>=<span class=\"cm-string\">&quot;Card&quot;<\/span> <span class=\"cm-attribute\">parent<\/span>=<span class=\"cm-string\">&quot;CardView.Light&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>        <span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">item<\/span> <span class=\"cm-attribute\">name<\/span>=<span class=\"cm-string\">&quot;android:layout_marginBottom&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span>4dp<span class=\"cm-tag cm-bracket\">&lt;\/<\/span><span class=\"cm-tag\">item<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 122,
+            "lines_more": 117,
+            "preview_is_truncated": null,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc28PGT8HY",
+                "created": 1473185632,
+                "timestamp": 1473185632,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "<@U1ZG1UCAK> can you tell me what these strings are associated with? doesnt look like they need to be translated, but want to be sure"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1473185632.000006"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also this guy:    &lt;string name=\"wallpaper_title_none\"&gt;None&lt;\/string&gt;",
+        "ts": "1473185794.000007"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "styles_card is a style sheet for card and contains no strings that need translation",
+        "ts": "1473185857.000008"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1473185878.000009"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "wallpaper_title_none is used when there are no wallpapers loaded for the home screen title",
+        "ts": "1473186108.000010"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "which… I’m not sure how this would happen, but it looks like a case-safety measure.",
+        "ts": "1473186183.000011"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "oh, also for other titles, but it looks where it’s used, it’s to give a title to various pages in case there are no wallpapers loaded",
+        "ts": "1473186298.000012"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you - one more (for now)",
+        "ts": "1473186548.000013"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "&lt;string name=\"content_description_empty\" \/&gt;",
+        "ts": "1473186549.000014"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "what screen is this on?",
+        "ts": "1473186558.000015"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "content descriptions for the icons on the shortcut button settings page and also for the icons  on the page when you select “Launches app” and it shows a list of all the apps on your phone",
+        "ts": "1473187000.000016"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F28PG86J2\/minime-strings_working_9.6.zip|MiniMe-Strings WORKING 9.6.zip> and commented: <@U1ZG1UCAK> - these are finally ready for you! can you check each and make sure that there are no errors given the addition of the descriptions added to strings. Last time there were a few minor formatting issues (missing spaces) that came up that I’ve tried to correct in this batch. Please confirm these are good (or indicate changes) and we’ll get these over to the client asap",
+        "file": {
+            "id": "F28PG86J2",
+            "created": 1473187827,
+            "timestamp": 1473187827,
+            "name": "MiniMe-Strings WORKING 9.6.zip",
+            "title": "MiniMe-Strings WORKING 9.6.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 41428,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28PG86J2\/minime-strings_working_9.6.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28PG86J2\/download\/minime-strings_working_9.6.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F28PG86J2\/minime-strings_working_9.6.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F28PG86J2-008586c036",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc28PGCVUG",
+                "created": 1473187827,
+                "timestamp": 1473187827,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "<@U1ZG1UCAK> - these are finally ready for you! can you check each and make sure that there are no errors given the addition of the descriptions added to strings. Last time there were a few minor formatting issues (missing spaces) that came up that I’ve tried to correct in this batch. Please confirm these are good (or indicate changes) and we’ll get these over to the client asap"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1473187827.000017"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F28QD2CMC\/minime-strings_working_9.6_-_revised.zip|MiniMe-Strings WORKING 9.6 - revised.zip>",
+        "file": {
+            "id": "F28QD2CMC",
+            "created": 1473192190,
+            "timestamp": 1473192190,
+            "name": "MiniMe-Strings WORKING 9.6 - revised.zip",
+            "title": "MiniMe-Strings WORKING 9.6 - revised.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 68110,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28QD2CMC\/minime-strings_working_9.6_-_revised.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28QD2CMC\/download\/minime-strings_working_9.6_-_revised.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F28QD2CMC\/minime-strings_working_9.6_-_revised.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F28QD2CMC-4862bc565b",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1473192191.000018"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you! are these good to go?",
+        "ts": "1473193908.000019"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1A1A9L7N> do you have a chance to help midori with some onboarding assets as she doesnt have illustrator on her machine?",
+        "ts": "1473198029.000020"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just sent an email with the folders + her request",
+        "ts": "1473198054.000021"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "It looks like they all will work, except for the second earth one (LiveCase_earth2_BB)",
+        "ts": "1473198899.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F28RQF22U\/livecase_earth2_bb-01.png|LiveCase_earth2_BB-01.png>",
+        "file": {
+            "id": "F28RQF22U",
+            "created": 1473199333,
+            "timestamp": 1473199333,
+            "name": "LiveCase_earth2_BB-01.png",
+            "title": "LiveCase_earth2_BB-01.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 319009,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28RQF22U\/livecase_earth2_bb-01.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28RQF22U\/download\/livecase_earth2_bb-01.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28RQF22U-a419731725\/livecase_earth2_bb-01_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28RQF22U-a419731725\/livecase_earth2_bb-01_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28RQF22U-a419731725\/livecase_earth2_bb-01_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 310,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28RQF22U-a419731725\/livecase_earth2_bb-01_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 413,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28RQF22U-a419731725\/livecase_earth2_bb-01_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28RQF22U-a419731725\/livecase_earth2_bb-01_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 620,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28RQF22U-a419731725\/livecase_earth2_bb-01_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 827,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28RQF22U-a419731725\/livecase_earth2_bb-01_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 882,
+            "image_exif_rotation": 1,
+            "original_w": 1254,
+            "original_h": 1080,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F28RQF22U\/livecase_earth2_bb-01.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F28RQF22U-f6c8b3968e",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1473199336.000023"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "This needs to be converted to png by somebody who has all of the assets being used in the illustrator file",
+        "ts": "1473199443.000024"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "that sounds like will :open_mouth:",
+        "ts": "1473200196.000025"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F28S50W3H\/google_-_live_case_3pr_160902__1___2_.jpg|Google - Live Case 3PR_160902 (1) (2).jpg> and commented: so the png in that she sent for reference - we cant use this, correct?",
+        "file": {
+            "id": "F28S50W3H",
+            "created": 1473200303,
+            "timestamp": 1473200303,
+            "name": "Google - Live Case 3PR_160902 (1) (2).jpg",
+            "title": "Google - Live Case 3PR_160902 (1) (2).jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 36272,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28S50W3H\/google_-_live_case_3pr_160902__1___2_.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F28S50W3H\/download\/google_-_live_case_3pr_160902__1___2_.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28S50W3H-70e89542b8\/google_-_live_case_3pr_160902__1___2__64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28S50W3H-70e89542b8\/google_-_live_case_3pr_160902__1___2__80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28S50W3H-70e89542b8\/google_-_live_case_3pr_160902__1___2__360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28S50W3H-70e89542b8\/google_-_live_case_3pr_160902__1___2__480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28S50W3H-70e89542b8\/google_-_live_case_3pr_160902__1___2__160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F28S50W3H-70e89542b8\/google_-_live_case_3pr_160902__1___2__720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "image_exif_rotation": 1,
+            "original_w": 960,
+            "original_h": 540,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F28S50W3H\/google_-_live_case_3pr_160902__1___2_.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F28S50W3H-874b8135e4",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc28RVDASC",
+                "created": 1473200303,
+                "timestamp": 1473200303,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "so the png in that she sent for reference - we cant use this, correct?"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1473200305.000026"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im able to see within the AI file (preview only)… <@U1A1A9L7N> can you let me know what i need to request from the client re: the file they sent in order to implement?",
+        "ts": "1473200406.000028"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U1A1A9L7N> - Could you adjust those images again, so that they’re 1440x1440 (vs. 1254x1231)? Extending the background on the right and left equally and on the top should work.",
+        "ts": "1473210059.000030"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<@U1ZG1UCAK> Sure. ",
+        "ts": "1473210319.000031"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<@U1ZG1UCAK> would you mind emailing me the AI file? I'm away from the office and don't have slack on this computer. Going off my phone right now",
+        "ts": "1473210411.000032"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "For sure, thank you!",
+        "ts": "1473210470.000033"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "this can happen in the am too! just trying to get this out tomorrow am :)",
+        "ts": "1473210474.000034"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "I can do it now",
+        "ts": "1473210484.000035"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "It'll be quick",
+        "ts": "1473210492.000036"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "Oh sorry I forgot Lynsey shared the file with me",
+        "ts": "1473210535.000037"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "Duh",
+        "ts": "1473210537.000038"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "thank you",
+        "ts": "1473210613.000039"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<@U1ZG1UCAK>: I emailed you the updated files. As mentioned in the email, I need to alter the shadow on one of the assets but you can at least drop these in and see if the placement works. I'll update when I get home and have access. ",
+        "ts": "1473212452.000042"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Great, thanks! I'm taking off now, but I can check at home",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1473212742.000000"
+        },
+        "ts": "1473212541.000043"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Checked it out. The positioning looks good. Thanks for updating these, <@U1A1A9L7N>",
+        "ts": "1473218558.000045"
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "Hey guys, I’m trying to run workshop to test if my toast works and I’m getting 401 errors when trying to preview the wallpaper. Anybody else getting that?",
+        "ts": "1439317223.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "goddamnit.",
+        "ts": "1439317298.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "check your clock",
+        "ts": "1439317300.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "soooooo per <@U0261PCRQ> \"All requests to the Google Drive API must be authorized by an authenticated user.” <https:\/\/developers.google.com\/drive\/web\/about-auth>",
+        "ts": "1439326662.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "which means we’d need to handle accounts \/ logins, which adam has historically been cagey on",
+        "ts": "1439326673.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right. i think we need to make sure he's aware. it has UX implications all over the place",
+        "ts": "1439327162.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "could\/should we do all requests from Jane Google",
+        "ts": "1439327301.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "and not have any access in the app?",
+        "ts": "1439327309.000011"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```Getting back into workshop, we’ve been talking through the Moments \/ Drive integration issues, and wanted to run some things by you:\n\n- Even in a public folder, in order to use the Drive API, all requests must be done via an authenticated user. We, in theory, could obfuscate this by having all requests from a hidden “google user”, otherwise we would need to add account management \/ access to the app, which I know has been a concern in the past\n- Alternatively, we could nix the drive integration and have all photos be local– when creating a case, the user would presumably upload N photos, and when activating the case, we’d get a manifest of the locations of those photos, and be able to download them to a local folder. The user could then manage and add to this local folder, and not worry about any authentication or external folder management.\n\nThe drive integration has a number of UX issues (folder creation if not there, access control changes, account management, etc) that might not be worth it for, what I imagine is the main use case: just having the photos you uploaded on your device.\n```\nThoughts?",
+        "ts": "1439327521.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "agree.",
+        "ts": "1439327710.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "+1",
+        "ts": "1439327726.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Local!",
+        "ts": "1439328482.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "siiiigh",
+        "ts": "1439330459.000016",
+        "reactions": [
+            {
+                "name": "cold_sweat",
+                "users": [
+                    "U051P3FPY"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

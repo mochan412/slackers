@@ -1,0 +1,50 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "still haven’t been able to fix analytics issue. I’d like to check with adam to see if any analytics have been reported",
+        "ts": "1449515725.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: I’ve seen that location helper crash a couple of times now. when I switch quickly from one wallpaper to the next. my tests have all been switching b\/w androidify and places though",
+        "ts": "1449515773.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whats the exception?",
+        "ts": "1449515790.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think that might be related to the spinner code",
+        "ts": "1449515808.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "java.lang.IllegalArgumentException: Receiver not registered: com.google.android.apps.workshop.wallpaper.LocationHelper$LocationReceiver@6c5b1c",
+        "ts": "1449515857.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "at com.google.android.apps.workshop.wallpaper.LocationHelper.onDestroy(LocationHelper.java:116)\n                                                       at com.google.android.apps.workshop.wallpaper.renderer.GLWallpaperRenderDispatch.onDestroy(GLWallpaperRenderDispatch.java:418)\n                                                       at com.google.android.apps.workshop.wallpaper.WorkshopWallpaperService$GLEngine.onDestroy(WorkshopWallpaperService.java:115)",
+        "ts": "1449515877.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i know what this is",
+        "ts": "1449515884.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or why this is",
+        "ts": "1449515892.000009"
+    }
+]

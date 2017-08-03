@@ -1,0 +1,124 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Ok <@U02613K0X>, I've got video clips up on the NAS: clients &gt; Immersion &gt; MWC Demo &gt; Motion &gt; Test Renders &gt; 5 Watch Faces – 2.10.15 &gt; _files_\n\nThe total of all 5 watch face clips are a little more than 5MB. This is w\/o moving video behind the weather faces, I've included ones with moving video in case you wanted to try them.\n\nAlso, I thought of another possible solution to trimming down sprite sheet sizes. It would require you to have a static background image of the watch face pieces that don't move, so the sprite wouldn't have all that repeating imagery in the sprite,  just a lot of transparent spaces around the moving parts. Let me know if you want to pursue this later on for any reason.",
+        "ts": "1423598778.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Great thanks for the videos trent! Your idea could definitely help with load time and stability. Could be something we can use later depending on how today goes.",
+        "ts": "1423602019.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U030TQFR3> <@U026E0ZNR> <@U026PHQ3J> a quick update:",
+        "ts": "1423602050.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "If we indeed need to launch one app from another, it is possible to set a spinner as a background image to show until the sprite asset loads, instead of a black screen.",
+        "ts": "1423602107.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Trying every combination of removing\/resetting\/preloading image sources, a swipe-to-show multiple watchface sprites in the same app is still always unstable",
+        "ts": "1423602183.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "However, since the haptic effects for the weather watchfaces are not triggered by a specific frames, animated gifs could be an option. As a preliminary test I converted the three weather faces w\/o  moving video videos that Trent uploaded today to gifs, and the resulting gifs are running well together in the same app",
+        "ts": "1423602343.000007"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Nice. Big win on the spinner during the black screen. And nice on the gif test. Keep going! ",
+        "ts": "1423602427.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Next I'm going to quickly try with gifs made from the videos w\/ moving video and see that performance. Then dive into tizen's video api.",
+        "ts": "1423602529.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Sounds great, nice progress!",
+        "ts": "1423602555.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Gifs with moving video work fine too memory-wise. There's a small delay between loading them that wasn't there with the static background versions, but it's &lt;1 sec for rain and lightning and ~1sec for wind",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1423602942.000000"
+        },
+        "ts": "1423602927.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<!channel>, Feedback is up from Dave B on Basecamp, I have questions:\n\nDid I miss something about a video with blowing grass for the wind comp? I can't recall what he's referring to.\n\nI'm fine doing most of the other video stuff he mentions but I'm wondering where we're landing on using video with the performance issues we've been having. Should we push for leaving that out or should we do what we can to make videos work?\n\nAnd his comment about the rewind of the watch hand not being \"cool\" like it was at first: the only thing that's changed is the frame rate from 30 to 24fps.",
+        "ts": "1423613181.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "<@U026E0ZNR> i think he was referring to the image in the flat comp i made for the wind watch face",
+        "edited": {
+            "user": "U02AUNA0P",
+            "ts": "1423613316.000000"
+        },
+        "ts": "1423613258.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "(no video)",
+        "ts": "1423613265.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "To your seconds question, with the success I've had with gifs today and what I'm seeing using mp4s right now, I'd say videos in the weather faces are still a go",
+        "ts": "1423613288.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Oh ok, great.",
+        "ts": "1423613679.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<@U026E0ZNR>: did he send another video that was grass? Trying to dig thru his feedback. I don't recall grass either, or maybe he's referring to one of the sample videos we sent over?",
+        "ts": "1423613998.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "^ Phillip explained it up there. You think I should dig around for a clip of grass or should we push to keep the leaves the way they are?",
+        "ts": "1423614074.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "yeah, i think he thought the grass image i used in the comps was a video screenshot or something",
+        "ts": "1423614106.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "or i mean, came from a video",
+        "ts": "1423614121.000022"
+    }
+]

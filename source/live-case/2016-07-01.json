@@ -1,0 +1,393 @@
+[
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Reminder: Update Harvest.",
+        "ts": "1467388800.000150"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hey <@U13GPDA1F> I have a bug I think I fixed, but i need cleaner testing on the initial conditions before testing the fix",
+        "ts": "1467401180.000151"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I have crummy service, so I'm not positive that I'm seeing the actual bug and not just very very slow downloads, so basically it goes like this:",
+        "ts": "1467401200.000152"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "1) Clean install",
+        "ts": "1467401202.000153"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "2) unlock places",
+        "ts": "1467401206.000154"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "3) Preview wallpaper and back out of it before initial tile download",
+        "ts": "1467401219.000155"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "4) change the style\/colorway and immediately re-preview the tile",
+        "ts": "1467401232.000156"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "see spinner and never see tile",
+        "ts": "1467401237.000157"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "-or-",
+        "ts": "1467401241.000158"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "5) choose \"set wallpaper\" while the spinner is up, and always just see black screen with spinner on homescreen",
+        "ts": "1467401261.000159"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> the branch is: `style_change_holder_error` its a simple set of fixes that makes it more likely that the engine will schedule a download even when its in the flip\/flop state of the cached image. Mostly moving around some boolean logic that already existed",
+        "ts": "1467401311.000160"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its based off of `release-30` which I think was the last release.",
+        "ts": "1467401335.000161"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if not, i can port it wherever",
+        "ts": "1467401344.000162"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "mostly I need someone to validate that this is actually the bug. I'll ship a build over to you guys on drive",
+        "ts": "1467401364.000163"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so someone can check the fix",
+        "ts": "1467401371.000164"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(again, i _think_ this is it, but I'm not in the best testing environment)",
+        "ts": "1467401382.000165"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "in a meeting but will get on this right after! ",
+        "ts": "1467401624.000166"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "did adam raise this? Or is this something you noticed?",
+        "ts": "1467401643.000167"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "he messaged me about it last night",
+        "ts": "1467401888.000168"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "of note: you'll see the black screen even in the fix, but it should download a tile quickly",
+        "ts": "1467402111.000169"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay thank you - will test in 15!",
+        "ts": "1467402212.000170"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thx. i don't know how much time i'll have for the rest of the day, so just LMK what you find",
+        "ts": "1467402231.000171"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "kat and i did an initial test",
+        "ts": "1467404792.000172"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "able to reproduce the bug",
+        "ts": "1467404796.000173"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and the fix appears to be working",
+        "ts": "1467404800.000174"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "shes doing a code review now",
+        "ts": "1467404812.000175"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(thank you <@U026PHQ3J>)",
+        "ts": "1467404820.000176"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "gonna have to give evans some pto back",
+        "ts": "1467404930.000177"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yep!",
+        "ts": "1467404944.000178"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "who’s his manager? :wink:",
+        "ts": "1467404965.000179"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i just assumed you were, kat :slightly_smiling_face:",
+        "ts": "1467405020.000180"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh right!",
+        "ts": "1467405057.000181"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "code looks Grrrrrreat!",
+        "ts": "1467405299.000182"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "\/giphy tony the tiger",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/90s-high-five-6yKquSnGwI5Ak>",
+                "image_url": "http:\/\/media4.giphy.com\/media\/6yKquSnGwI5Ak\/giphy.gif",
+                "image_width": 250,
+                "image_height": 199,
+                "image_bytes": 690967,
+                "is_animated": true,
+                "title": "tony the tiger",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/90s-high-five-6yKquSnGwI5Ak"
+            }
+        ],
+        "ts": "1467405315.000185"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome!",
+        "ts": "1467405315.000186"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool to share the build with adam?",
+        "ts": "1467405324.000187"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sure",
+        "ts": "1467405616.000188"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hold up. looks like we are not fixed yet. kat was able to make happen.",
+        "ts": "1467405998.000189"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I made my own build from the branch and saw it happen",
+        "ts": "1467406059.000190"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "haven’t reproduced with evans build",
+        "ts": "1467406067.000191"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just repro’d in evans build :confused:",
+        "ts": "1467406145.000192"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "location is always null and not getting updated",
+        "ts": "1467408280.000193"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Crap",
+        "ts": "1467408469.000194"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll take another stab shortly, but I'm running out of time :simple_smile: ",
+        "ts": "1467408499.000195"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m still trying to trace it too, will let you know",
+        "ts": "1467408664.000196"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "added some logging to getMostRecentLocationReading in LocationHelper. Google API client wasn’t connected, but the last location was still in there, it just doesn’t return it if the client isn’t connected.",
+        "ts": "1467408732.000197"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Interesting. Was just thinking that. What if we never disconnect ",
+        "ts": "1467408781.000198"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or what if we reconnect more aggressively ",
+        "ts": "1467408818.000199"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I had logic in there in on connected because it was reporting it but wasn't connected yet. ",
+        "ts": "1467408838.000200"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like the code in most recent can be refactored to always boot the api client which should set up the entire location callback process",
+        "ts": "1467409246.000201"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "looks like it takes a few tries. GoogleApiClient says it’s connected like 3 times but the first two times startLocationUpdates is called it says it’s not connected. Third time, it is and tries to start updates but doesn’t get any",
+        "ts": "1467409255.000202"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(if its not connected)",
+        "ts": "1467409257.000203"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":cool:",
+        "ts": "1467409265.000204"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "WTF",
+        "ts": "1467409282.000205"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "maybe it’s overloaded? can’t handle getting started so many times",
+        "ts": "1467409309.000206"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm. ill try that",
+        "ts": "1467409375.000207"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just have to go to a rehearsal dinner shortly",
+        "ts": "1467409393.000208"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":confused:",
+        "ts": "1467409394.000209"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it can probably wait",
+        "ts": "1467409419.000210"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "idk that I can get much further",
+        "ts": "1467409429.000211"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "seems like i’d spend a lot of time refamiliarizing to make progress in here",
+        "ts": "1467409474.000212"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah it's cool",
+        "ts": "1467409821.000213"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll take a look at it, it's been problematic between the preview\/set loop",
+        "ts": "1467409842.000214"
+    }
+]

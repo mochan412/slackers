@@ -1,0 +1,336 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026PLK4S>:  \"Let’s make sure we’re using Montseratt Bold at thoughtful size with the correct letter-spacing.\" Are we changing our UI font from Roboto to Montserrat?",
+        "ts": "1419274206.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "?",
+        "ts": "1419274228.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "sorry. i meant roboto condenced bold",
+        "ts": "1419274269.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Got it.",
+        "ts": "1419274274.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Only asking b\/c earlier comps were set in Montserrat.",
+        "ts": "1419274291.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<http:\/\/02.1_Burner_Control.ai|02.1_Burner_Control.ai>",
+        "ts": "1419274313.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes, I have that one.",
+        "ts": "1419274335.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Montserrat isn't in any of the production files. Or, it shouldn't be.",
+        "ts": "1419274374.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "just misspoke in the email. :simple_smile:",
+        "ts": "1419274385.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "thanks for checking",
+        "ts": "1419274394.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026PLK4S> Are the measurement\/snapshot dismiss buttons going to stay as you originally comped them? Asking b\/c video dismiss changed due its position near the right edge of the screen so I assumed we were doing something similar for those other buttons.",
+        "ts": "1419276976.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "there is no capture dismiss, since the whole unit is flashing",
+        "ts": "1419277021.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "measurement dismiss just needs to live in a place that is touchable.",
+        "ts": "1419277054.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "since we moved the video's dismiss button below, maybe we do the same with the measurement dismiss",
+        "ts": "1419277122.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Sorry, I meant the snapshot\/measurement that shows up on video playback.",
+        "ts": "1419277209.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "One concern about moving \"close\" below the image\/measurement is that it may touch the menu buttons.",
+        "ts": "1419277258.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "can we just make touching the photo dismiss?",
+        "ts": "1419277294.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i just don't think we need to break, or complicate they system for one very small feature.",
+        "ts": "1419277332.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "is the act of comparing a real world object to the photo going to make it dismiss?",
+        "ts": "1419277413.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "probably. I'm also not a huge fan of placing dismiss (x) below the video in the first place. I know we're trying to avoid the edge, but my initial suggestion was the place the (x) on the left side of the video. Then, you could repeat that technique for measurement and image capture. I'm not sure how easy it would be to accidentally misfire, but we're running out of available edges to place these consitently.",
+        "ts": "1419277591.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "and, personally, after seeing the demo performed a few times, I'm wondering aloud how necessary the dismiss function actually is... We may not even need it, or miss it if it's not included.",
+        "ts": "1419277686.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I agree. Feels too distracting. If you're cooking something you don't have to be dismissing things.",
+        "ts": "1419277813.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Also, I'm not sure how Mary and John want to prioritize, but this dismiss problem was lower on my VQA list.",
+        "ts": "1419277825.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "would be nice to solve, but think there are more urgent fish to fry",
+        "ts": "1419277856.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "i have no vote, other than that practical concern about the dismiss function being triggered by possible comparison \"gestures\"",
+        "ts": "1419277888.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I agree. I think avoiding that is worth more than providing a dismiss.",
+        "ts": "1419277973.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "+1",
+        "ts": "1419278159.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Late to this party, but also +1 ",
+        "ts": "1419280009.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Have to eyeball the snapshot location and scale.",
+        "ts": "1419280949.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<@U02688JHZ>: could I get a copy of the invoice for the 80\/20 order we placed for luke? I want to cut a length of bar matching the width of their rig for Joel to mount the depth camera tomorrow",
+        "ts": "1419282838.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "nice job, Gaston!",
+        "ts": "1419283916.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "a few notes after Evans and I worked on the rig:",
+        "ts": "1419301495.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "removing python3 broke the desktop - I'll have to reinstall",
+        "ts": "1419301544.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "i was able to run everything from ~\/luxo\/src and see the cooktop working, so the upgrade didn't appear to break anything",
+        "ts": "1419301576.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "doesn't run from \/usr\/local\/luxo, which I will fix after I get back from PIT",
+        "ts": "1419301604.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "i will pull the git repo tomorrow to get PIT running, worry about the package later",
+        "ts": "1419301628.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "reinstalling python3 now, will make sure nothing is dead before i leave",
+        "ts": "1419301737.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "latest update: installed gnome-desktop, still broken",
+        "ts": "1419302293.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "you're not blocked tomorrow, just need to work around a bit",
+        "ts": "1419302312.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ssh in, and start the services from \/home\/luxo\/src like we always do with fstart from luxo\/src",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1419302491.000000"
+        },
+        "ts": "1419302406.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "then, export DISPLAY=:0",
+        "ts": "1419302419.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "you can start the browser from there using chromium-browser ~\/luxo\/src\/ui\/dist\/index.html",
+        "ts": "1419302445.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "it'll bitch, but it runs",
+        "ts": "1419302452.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll be in on Friday to clean it up",
+        "ts": "1419302562.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "but you shouldn't be blocked on testing tomorrow",
+        "ts": "1419302614.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "as Marce said \"ah, the broken promise of open source\". indeed.",
+        "ts": "1419302629.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02618EV1>, <@U026PHQ3J> ^^^",
+        "ts": "1419302644.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup:",
+        "ts": "1419302679.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Will fix",
+        "ts": "1419302683.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Got it.",
+        "ts": "1419302699.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I think the Right Thing is to just reinstall the system clean at 14.10 on Friday and get things set up there",
+        "ts": "1419302751.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks guys",
+        "ts": "1419302768.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "couple of thoughts to capture here so I don't lose them:",
+        "ts": "1419318680.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Rig's IP address changed to 10.1.10.19 when we updated. Should eventually set up the external access routes once we're done messing around with OS updates",
+        "ts": "1419318746.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Install location from the package is \/usr\/local\/luxo. I could start\/stop the node server and run cooktop.py from there. However, node wasn't reporting events from cooktop. Same code worked fine in \/home\/luxo\/luxo\/src. I'll probably set up the PIT rig tomorrow to work out of the user's home directory, figure out the issue and update their rig later.",
+        "ts": "1419318985.000026"
+    }
+]

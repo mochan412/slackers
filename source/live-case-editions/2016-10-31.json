@@ -1,0 +1,879 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1S5GKTHQ> <@U026PHQ3J> Kat says unlikely there will be any push notifications on prod prior to js release but wants to understand ramifications if that changes - can you provide insight? what would user experience be if a Koons push came in?",
+        "ts": "1477929347.001422"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U13GPDA1F> if we fix the push issue how we fixed it on tidy (by clearing out all device data and making necessary code fixes), no pushes will go through at all until client app is updated and re-registers for updates in the background.",
+        "ts": "1477931370.001423"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "We could theoretically side step this by changing the structure of the pushes so that installs in the wild don't operate on them?",
+        "ts": "1477933119.001424"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Let me think on that ",
+        "ts": "1477933134.001425"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I think they’d want the Koons push to go through though",
+        "ts": "1477933200.001426"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "as far as i can tell, if key1 doesn’t exist in the push, the system wont operate on it",
+        "ts": "1477933461.001427"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we could modify JS to read a different key",
+        "ts": "1477933473.001428"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so we can safely send JS pushes, while Koons\/Skrill ignore the JS ones",
+        "ts": "1477933484.001429"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and JS could ignore the old messages",
+        "ts": "1477933492.001430"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so JS would have a newer structure, older ones could lean on the old structure, so when pushes for koons go out, existing installs would get it, but if they accidentally got JS pushes, they’d discard them",
+        "ts": "1477933577.001431"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "that would totally work as a client side fix. i need to think about a fix for server that doesn’t start with “wipe out all device data” :slightly_smiling_face:",
+        "ts": "1477933643.001432"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well",
+        "ts": "1477933656.001433"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we’d only need to wipe out JS installs on prod",
+        "ts": "1477933672.001434"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "new installs would be self-healing after it goes public",
+        "ts": "1477933690.001435"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right?",
+        "ts": "1477933707.001436"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(actual question, not an accusation)",
+        "ts": "1477933717.001437"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "im trying to remember what exactly was broken",
+        "ts": "1477933763.001438"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1477933770.001439"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "LMK, cause if we can adjust the client code to make it easier, we totally can do that",
+        "ts": "1477933783.001440"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just keep in mind that if key1 doesn’t exist in the message, the client discards it",
+        "ts": "1477933863.001441"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i believe pushes were bleeding through from one artist",
+        "ts": "1477933865.001442"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "good to know",
+        "ts": "1477933884.001443"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks!told kat potential bleed but we are looking into it +will provide more details soon",
+        "ts": "1477934535.001444"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1A1A9L7N> can you look at this one this am? <https:\/\/uncorkedstudios.atlassian.net\/browse\/LCG-26>",
+        "ts": "1477934572.001445"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "asset update annoyingness (hoping we can do here, but if not we’ll have to request from mixtape asap)",
+        "ts": "1477934657.001446"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!here|@here>! reminder that we are providing a final build (!!!) for JS (and 3pr) by 11\/4 - please prioritize anything scott-relatedl, and raise a flag if you have any blockers",
+        "ts": "1477934744.001447",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1S5GKTHQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh and we’ll likely provide a mid-week build to get whatever changes out we can to kat to test in advance so we avoid potential friday \/ weekend craziness :slightly_smiling_face:",
+        "ts": "1477934823.001448"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1A1A9L7N|leah> uploaded a file: <https:\/\/uncorked.slack.com\/files\/leah\/F2WDLSKK2\/fixicon.zip|@lynsey> and commented: Here are the screens updated. Do you need this made into an mp4?",
+        "file": {
+            "id": "F2WDLSKK2",
+            "created": 1477936514,
+            "timestamp": 1477936514,
+            "name": "fixIcon.zip",
+            "title": "@lynsey",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U1A1A9L7N",
+            "editable": false,
+            "size": 415014,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2WDLSKK2\/fixicon.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2WDLSKK2\/download\/fixicon.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/leah\/F2WDLSKK2\/fixicon.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2WDLSKK2-1c7f309293",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2WDMCA78",
+                "created": 1477936514,
+                "timestamp": 1477936514,
+                "user": "U1A1A9L7N",
+                "is_intro": true,
+                "comment": "Here are the screens updated. Do you need this made into an mp4?"
+            }
+        },
+        "user": "U1A1A9L7N",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "leah",
+        "bot_id": null,
+        "ts": "1477936515.001449"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> you worked on this previously - do you know ifyou need an mp4? (reassigning to you)",
+        "ts": "1477936554.001450"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "needs a gif",
+        "ts": "1477936584.001451"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1A1A9L7N> can you make a gif when you have a chance?",
+        "ts": "1477937030.001452"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(thanks midori)",
+        "ts": "1477937037.001453"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F2WEAE6TC\/step1_gatekeeper.gif|step1_gatekeeper.gif> and commented: This is the current asset used for reference",
+        "file": {
+            "id": "F2WEAE6TC",
+            "created": 1477937082,
+            "timestamp": 1477937082,
+            "name": "step1_gatekeeper.gif",
+            "title": "step1_gatekeeper.gif",
+            "mimetype": "image\/gif",
+            "filetype": "gif",
+            "pretty_type": "GIF",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 1005749,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2WEAE6TC\/step1_gatekeeper.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2WEAE6TC\/download\/step1_gatekeeper.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 195,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 260,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 390,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 520,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 555,
+            "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_360.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_480.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 780,
+            "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WEAE6TC-769f3e6ccd\/step1_gatekeeper_deanimate_gif.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F2WEAE6TC\/step1_gatekeeper.gif",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2WEAE6TC-17bbb1a37a",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2WE45X2T",
+                "created": 1477937082,
+                "timestamp": 1477937082,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "This is the current asset used for reference"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U13GPDA1F"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1477937114.001454"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "yup making it right now",
+        "ts": "1477937870.001456"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "actually, hrm I have 4 screens. this animation is more than what I have",
+        "ts": "1477937897.001457"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<https:\/\/uncorkedstudios.atlassian.net\/browse\/LCG-29>\nRe: ticket LCG-29: Need image editing assist on some icon images. They’re the wrong color and I’m having trouble getting an accurate color on web image editing.",
+        "ts": "1477941473.001458"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U1A1A9L7N> If you’re available to help, I can email or slack you a zip",
+        "ts": "1477941618.001459"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1S5GKTHQ> im going to make a news item in tidy so kat can test some share functionality updates - anything in particular i need to note? im assuming i just “create message”? (somehow i have yet to do this)",
+        "ts": "1477941900.001460"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "nope. should be good to go. do you care if push notification goes out?",
+        "ts": "1477941943.001461"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think we were trying to do a “news” item but not sure if there is a way to avoid push",
+        "ts": "1477942049.001462"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1A1A9L7N|leah> uploaded a file: <https:\/\/uncorked.slack.com\/files\/leah\/F2WFMN7PT\/js_nfc_icons_2.zip|@midori> and commented: Try these. Let me know if the edges look bad...I'll try another technique for applying color if so. Not usually the easiest changing color to .png files.",
+        "file": {
+            "id": "F2WFMN7PT",
+            "created": 1477942573,
+            "timestamp": 1477942573,
+            "name": "JS_nfc_icons_2.zip",
+            "title": "@midori",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U1A1A9L7N",
+            "editable": false,
+            "size": 16000,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2WFMN7PT\/js_nfc_icons_2.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2WFMN7PT\/download\/js_nfc_icons_2.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/leah\/F2WFMN7PT\/js_nfc_icons_2.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2WFMN7PT-efc8869978",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2WFLT83Z",
+                "created": 1477942573,
+                "timestamp": 1477942573,
+                "user": "U1A1A9L7N",
+                "is_intro": true,
+                "comment": "Try these. Let me know if the edges look bad...I'll try another technique for applying color if so. Not usually the easiest changing color to .png files."
+            }
+        },
+        "user": "U1A1A9L7N",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "leah",
+        "bot_id": null,
+        "ts": "1477942574.001463"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "also didn’t mean to label it <@U1ZG1UCAK>  :confused:",
+        "ts": "1477942625.001464"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Fix for Skrillex crash and push insurance policy committed\/pushed to `rel1.5-rc1`",
+        "ts": "1477942973.001465"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for anyone who wants to mess around with it",
+        "ts": "1477942979.001466",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1S5GKTHQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U13GPDA1F> looks like no push is created\/sent if you go to create a new item, but leave push notification text empty",
+        "ts": "1477944945.001467"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F2WG8CNQ7\/pasted_image_at_2016_10_31_04_17_pm.png|Pasted image at 2016-10-31, 4:17 PM> and commented: specifically: leave this text box empty. news item is created, but push notification isn't.",
+        "file": {
+            "id": "F2WG8CNQ7",
+            "created": 1477945056,
+            "timestamp": 1477945056,
+            "name": "Pasted image at 2016_10_31 04_17 PM.png",
+            "title": "Pasted image at 2016-10-31, 4:17 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1S5GKTHQ",
+            "editable": false,
+            "size": 41213,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2WG8CNQ7\/pasted_image_at_2016_10_31_04_17_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2WG8CNQ7\/download\/pasted_image_at_2016_10_31_04_17_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WG8CNQ7-614bb40236\/pasted_image_at_2016_10_31_04_17_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WG8CNQ7-614bb40236\/pasted_image_at_2016_10_31_04_17_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WG8CNQ7-614bb40236\/pasted_image_at_2016_10_31_04_17_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 292,
+            "thumb_360_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WG8CNQ7-614bb40236\/pasted_image_at_2016_10_31_04_17_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 320,
+            "original_h": 394,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F2WG8CNQ7\/pasted_image_at_2016_10_31_04_17_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2WG8CNQ7-19c47317e0",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2WEEAEPM",
+                "created": 1477945056,
+                "timestamp": 1477945056,
+                "user": "U1S5GKTHQ",
+                "is_intro": true,
+                "comment": "specifically: leave this text box empty. news item is created, but push notification isn't."
+            }
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1477945059.001468"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1477946150.001469"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> shared a file: <https:\/\/uncorked.slack.com\/files\/midori\/F2WGKEGMP\/screenshot_20161031-125400.png|Screenshot_20161031-125400.png>",
+        "file": {
+            "id": "F2WGKEGMP",
+            "created": 1477946263,
+            "timestamp": 1477946263,
+            "name": "Screenshot_20161031-125400.png",
+            "title": "Screenshot_20161031-125400.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 99155,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B_JWq5iYq6D-aTE5N1FhVi1NaE0\/view?usp=drivesdk",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WGKEGMP-ffe051d7c5\/screenshot_20161031-125400_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WGKEGMP-ffe051d7c5\/screenshot_20161031-125400_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WGKEGMP-ffe051d7c5\/screenshot_20161031-125400_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WGKEGMP-ffe051d7c5\/screenshot_20161031-125400_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WGKEGMP-ffe051d7c5\/screenshot_20161031-125400_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WGKEGMP-ffe051d7c5\/screenshot_20161031-125400_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WGKEGMP-ffe051d7c5\/screenshot_20161031-125400_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2WGKEGMP-ffe051d7c5\/screenshot_20161031-125400_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F2WGKEGMP\/screenshot_20161031-125400.png",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U1ZG1UCAK",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1477946265.001470"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Do the icons look right?",
+        "ts": "1477946290.001471"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<@U1ZG1UCAK> They look fine in the screenshot. Do they look alright on the phone?",
+        "ts": "1477946596.001472"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "The edges look fine. I really can’t tell the difference between the color change. When I opened the screencap in a browser with color picker, the hex was right.",
+        "ts": "1477946825.001473"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "If the edges look alright, then it’s good to me!",
+        "ts": "1477946856.001474"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1477948026.001475"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1S5GKTHQ> if you have any additional info on 1) push notifications 2) case match wallpaper download issues, let me know - client asked for an EOD status update, so thought i’d check (otherwise, will note: in progress)",
+        "ts": "1477949005.001476"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U13GPDA1F> 1) we should be good to go in this department with a fix on server side (not deployed to prod yet) and an extra check added to client app",
+        "ts": "1477949075.001477"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "does that mean that koons pushes are no longer a concern?",
+        "ts": "1477949113.001478"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or is that still something we should tell her to avoid",
+        "ts": "1477949122.001479"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "they are no longer a concern",
+        "ts": "1477949132.001480"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nice! thank you!",
+        "ts": "1477949136.001481"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "on tidy. i just want to reiterate that we haven’t deployed to production yet",
+        "ts": "1477949155.001482"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "2) i wasn’t looking into this. was pretty sure issue wasn’t on server-side. but if it is, i can help <@U1ZG1UCAK> \/ <@U026PHQ3J> debug!",
+        "ts": "1477949192.001483"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh right- what happens when we deploy to prod? concerns then?",
+        "ts": "1477949194.001484"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just trying to understand the impact of pushes when we get to prod (or if there is any reason we shouldnt go for it)",
+        "ts": "1477949246.001485"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "with today’s app update, if you’re not subscribed to a certain case push, you will not receive it.",
+        "ts": "1477949348.001486"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "server might still send it out, but app does a sanity check when it receives it",
+        "ts": "1477949369.001487"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "what im trying to say is.. it should work as expected :slightly_smiling_face:",
+        "ts": "1477949412.001488"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "there’s a chance that if you ARE subscribed, you will not receive an update. this is because I’m not exactly sure if data is correct on prod. when i solved the bug on server side, i was very surprised it ever worked.",
+        "ts": "1477949477.001489"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay so when we DO deploy we expect all good (want to note to her so we can get the go ahead to flip the switch)",
+        "ts": "1477949502.001490"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U026PHQ3J> does the app re-register for push on startup?",
+        "ts": "1477949530.001491"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes",
+        "ts": "1477949537.001492"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if it hasn’t registered before",
+        "ts": "1477949544.001493"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "ah",
+        "ts": "1477949549.001494"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but we can lift that requirement",
+        "ts": "1477949554.001495"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "kinda think we should to make system self-healing",
+        "ts": "1477949593.001496"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well, at the update, it will autorun",
+        "ts": "1477949612.001497"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause the version will mismatch",
+        "ts": "1477949616.001498"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "ah ok! so we’re set",
+        "ts": "1477949623.001499"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the same install wont auto-reg twice",
+        "ts": "1477949623.001500"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "makes sense",
+        "edited": {
+            "user": "U1S5GKTHQ",
+            "ts": "1477949631.000000"
+        },
+        "ts": "1477949627.001501"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so for *new* installs, it registers for nothing",
+        "ts": "1477949657.001503"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U13GPDA1F> yeah we can deploy prod update. i’d like to time it w\/ new android update",
+        "ts": "1477949663.001504"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then when\/if you enable JS",
+        "ts": "1477949664.001505"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it re-registers for artist",
+        "ts": "1477949668.001506"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "excellent",
+        "ts": "1477949680.001507"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool - iwould like to wait until client okays too - so maybe we deploy tomorrow if that works for <@U026PHQ3J> and co",
+        "ts": "1477949703.001508"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "and for old installs, upon app update it sees version mismatch and subscribes for all subscribed artists (?)",
+        "edited": {
+            "user": "U1S5GKTHQ",
+            "ts": "1477949719.000000"
+        },
+        "ts": "1477949704.001509"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep",
+        "ts": "1477949725.001511"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "sick",
+        "ts": "1477949729.001512"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "plus bare registration i think",
+        "ts": "1477949732.001513"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i honestly can’t remember if it does that or not",
+        "ts": "1477949746.001514"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like, im pretty sure it just says “artist pushes no\"",
+        "ts": "1477949760.001515"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or something",
+        "ts": "1477949760.001516"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "maybe not. i’m confusing workshop with editions",
+        "ts": "1477949770.001517"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i hear you, i do it all the time",
+        "ts": "1477949795.001518"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U13GPDA1F> sounds good. happy to wait for client go-ahead",
+        "ts": "1477949812.001519"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "a good amount of things were updated since prod was last deployed (push fix, auth flow changed, general project cleanup). so id like ample amount of time to test before launch",
+        "ts": "1477949869.001520"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sweet - thankyou! reminder we’re slotted to (gulp) wrap up by EOW so if there is anything we can support you on as far as testing goes please just let me\/us know <@U1S5GKTHQ> !",
+        "ts": "1477952336.001521"
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0B9N0HF0> What URL did we give Allie and the content partners for CMS admin? In the process of migrating to their deployment, I want to make sure there’s no loss of service on their end. Remind me to talk about this in our 2pm tomorrow…",
+        "ts": "1490088647.226388"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<@U02E3CRMA> the prod CMS URL (<http:\/\/net-contributor.appspot-preview.com>). Did it change?",
+        "thread_ts": "1490109877.001564",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U02E3CRMA",
+                "ts": "1490115587.285575"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1490109877.001564"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "<!channel> Final draft of the Invision prototype showing the podium flow and wall display. On any podium page, click on the google logo to see the corresponding wall display. Click on the google logo on the wall display to return to the relevant podium screen. Please let me know what feedback folks have <https:\/\/uncorkedstudios.invisionapp.com\/share\/TJAU7MU9Z>",
+        "attachments": [
+            {
+                "service_name": "InVision Share Link",
+                "title": "Click here to view the project `Net Contributor Podium Final`",
+                "title_link": "https:\/\/uncorkedstudios.invisionapp.com\/share\/TJAU7MU9Z",
+                "text": "Home",
+                "fallback": "InVision Share Link: Click here to view the project `Net Contributor Podium Final`",
+                "thumb_url": "https:\/\/s3.invisionapp-cdn.com\/storage.invisionapp.com\/screens\/thumbnails\/223309334.png?x-amz-meta-iv=1&response-cache-control=max-age%3D2419200&x-amz-meta-mdi=0&x-amz-meta-ck=a124ff7e475b5461b1f7dde826caa906&AWSAccessKeyId=AKIAJFUMDU3L6GTLUDYA&Expires=1493596800&Signature=py0Kdo5GRVRcsHrSiKf2YOew3IY%3D",
+                "from_url": "https:\/\/uncorkedstudios.invisionapp.com\/share\/TJAU7MU9Z",
+                "thumb_width": 370,
+                "thumb_height": 196,
+                "id": 1
+            }
+        ],
+        "ts": "1490114428.834888"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "What",
+        "ts": "1490114595.896805"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "This is an internal documentation tool",
+        "ts": "1490114755.958186"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "<@U06DFL7BP> we created an artifact for our internal reference documenting the intended behavior, to support 2.0 requests, or reported issues later on",
+        "ts": "1490114828.985857"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ahhh phew ",
+        "ts": "1490114852.995627"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Good!",
+        "ts": "1490114854.996566"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Nope. Just making sure we have all the details covered when they spin everything up on their end.",
+        "thread_ts": "1490109877.001564",
+        "parent_user_id": "U0B9N0HF0",
+        "ts": "1490115587.285575"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Just got the following from Max:\n“I am hoping James can take point on this since I am no longer on the Showtime team. I can help him take care of everything we discussed. James - when are you available to work with me on this?”",
+        "ts": "1490135465.782677"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "That explains the radio silence.",
+        "ts": "1490135473.784351"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Oh fun!",
+        "ts": "1490136730.033317"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "in other news: did all that cleanup work that needed to be done on our dev and prod servers:\n* moved all the content partner data over to the prod bucket\n* updated all the entries in the DB to point to that data (and not dev)\n* pushed the latest Admin to Prod with all John’s fixes in it\n* removed all the frontend stuff from prod so our rig uses Dev, and only the Admin is on prod\n* did a thorough test-out of the data on Prod via the admin",
+        "ts": "1490137230.130949"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "at this point, migration to Google’s GAE should take under an hour: copy all the files, export\/mod\/import the DB, and deploy the admin",
+        "ts": "1490137273.139368"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "(and they need to do it)",
+        "ts": "1490137561.192961"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes, that.",
+        "ts": "1490139112.459009"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0B9N0HF0> am I crazy or did you drop a readme with links to things like Invision etc in our gDrive folder?",
+        "ts": "1490139636.544812"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "we should add the Dev links CMS etc",
+        "ts": "1490139646.546296"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "You're not crazy. I did that. I can find for you later tonight and can add links in there",
+        "ts": "1490145298.342699"
+    }
+]

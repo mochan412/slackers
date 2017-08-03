@@ -1,0 +1,121 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Another inbound. I guess they’re updating. <@U0265G76F> they may well burn through half their contract this week before signing it. ",
+        "ts": "1501251946.436134"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "There is a button that is supposed to allow you choose wether to feature the work on the home page of the site or not. Since we are currently editing the latest group of 7 projects, it would be preferable that they don’t come up on the home page quite yet while the artists are still making final adjustments. The button to choose not to feature on home page seems to not be functioning. ",
+        "ts": "1501252001.467206"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I’ll try and spin up a better way for us to track these things if they are gone to continue ",
+        "ts": "1501252048.493505"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "at this all morning. still struggling with simple things like building sass-&gt;css from scratch. lots of cob webs here",
+        "ts": "1501253061.080324"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "ok.\n\n- “SHARE+” location fixed. kinda guesses where it should be as this has been broken for a while. \n- I *think* I know what’s up with the weird looking images. I think it’s a batch image upload + resize issue b\/c all images use the same \/tmp\/[filename]. Race condition of some sort. That’s why it’s always a little image of previous (or next) photo. As a fast fix, I would re-upload the photo specifically for a broken slide.\n- Looking into newest issue from this morning (project on homepage toggle)",
+        "ts": "1501259696.784328"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "The issue from today is fixed. There IS a “feature on homepage” toggle, but it does nothing for this project. It sets `is_featured` flag that never gets consumed. That said, there is functionality for what they’re trying to accomplish. They must *“unpublish”* the project to put it back into draft mode. Picture of button below.",
+        "ts": "1501271384.517146"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F6F8EL882\/pasted_image_at_2017_07_28_03_49_pm.png|Pasted image at 2017-07-28, 3:49 PM>",
+        "file": {
+            "id": "F6F8EL882",
+            "created": 1501271387,
+            "timestamp": 1501271387,
+            "name": "Pasted image at 2017_07_28 03_49 PM.png",
+            "title": "Pasted image at 2017-07-28, 3:49 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1S5GKTHQ",
+            "editable": false,
+            "size": 21826,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6F8EL882\/pasted_image_at_2017_07_28_03_49_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6F8EL882\/download\/pasted_image_at_2017_07_28_03_49_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6F8EL882-d45c4fe452\/pasted_image_at_2017_07_28_03_49_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6F8EL882-d45c4fe452\/pasted_image_at_2017_07_28_03_49_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6F8EL882-d45c4fe452\/pasted_image_at_2017_07_28_03_49_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 74,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6F8EL882-d45c4fe452\/pasted_image_at_2017_07_28_03_49_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 98,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6F8EL882-d45c4fe452\/pasted_image_at_2017_07_28_03_49_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6F8EL882-d45c4fe452\/pasted_image_at_2017_07_28_03_49_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 148,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6F8EL882-d45c4fe452\/pasted_image_at_2017_07_28_03_49_pm_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 164,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6F8EL882-d45c4fe452\/pasted_image_at_2017_07_28_03_49_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 197,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6F8EL882-d45c4fe452\/pasted_image_at_2017_07_28_03_49_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 210,
+            "image_exif_rotation": 1,
+            "original_w": 1210,
+            "original_h": 248,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F6F8EL882\/pasted_image_at_2017_07_28_03_49_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F6F8EL882-1638c87403",
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1501271389.518996"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "There was an issue with caching (even when unpublished, project list on homepage is cached and wouldn’t reset). CMS used a ghetto built in cache that wasn’t thread safe. Replaced with Redis and boom.",
+        "ts": "1501271468.553496"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "^^ <@U06DFL7BP> <@U0265G76F> I think that addresses all of the issues from last few days. Please let me know if anything else pops up.",
+        "ts": "1501271510.571949"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I will also try to address the bulk image uploading issue. It shouldn’t be a problem for updating photos one by one, only for bulk. But at least there’s a walkaround for now.",
+        "ts": "1501271544.586732"
+    }
+]

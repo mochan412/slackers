@@ -1,0 +1,47 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<https:\/\/xkcd.com\/1425\/>",
+        "attachments": [
+            {
+                "title": "Tasks",
+                "title_link": "http:\/\/xkcd.com\/1425\/",
+                "author_name": "xkcd",
+                "author_link": "http:\/\/xkcd.com\/",
+                "image_url": "http:\/\/imgs.xkcd.com\/comics\/tasks.png",
+                "image_width": 267,
+                "image_height": 448,
+                "image_bytes": 29585,
+                "text": "[Title text] \"In the 60s, Marvin Minsky assigned a couple of undergrads to spend the summer programming a computer to use a camera to identify objects in a scene. He figured they'd have the problem solved by the end of the summer. Half a century later, we're still working on it.\"",
+                "fallback": "xkcd: Tasks",
+                "id": 1
+            }
+        ],
+        "ts": "1411580026.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Today I added the trash icon to the layout, fixed some bugs in Tap, and started working on the proper animation for deleting SeeSays. So far I haven't had any luck doing arbitrary animations on views within a ViewPager (it might not be allowed, but I'll keep investigating and trying some new ideas) and there are some bugs with delete not always removing items from the ViewPager. I'd prefer not to post a build since Ryan will be displeased that it doesn't work perfectly at the moment, but I hope to get that working tomorrow and start on the other animations.",
+        "ts": "1411585725.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It would be good to communicate to Ryan that we need choreography for the items in the animation set (60fps video he sent yesterday), including easing values, positioning and timing for each item. (The source file would not be useful, just the values for the items to be animated.) That will make it possible to code the animations properly.",
+        "ts": "1411585944.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "just catching up now",
+        "ts": "1411586064.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "will ask him for this- thanks <@U02F8TTPU> !",
+        "ts": "1411586368.000007"
+    }
+]

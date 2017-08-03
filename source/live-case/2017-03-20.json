@@ -1,0 +1,344 @@
+[
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "from Adam’s emails on those reviews, my guess as for what is happening:\n1) App is crashes in background, I think we’ve seen similar behavior when we are working on early builds. Without crash-logging tools, we won’t really know where other than searching for suspect paths in the Earth flow\n2) Sounds like a bad chip id that is missed by their system (is that possible?) or the Earth Authentication endpoint was failing from bad chip or just bad timing from the user\n3) Could be related to #1 potentially if there was some instability event on the Earth service, but that reviewer 1 got hit at a different point and crashed and maybe #3 landed at some handled exception but it wiped all their images?\n\nI think requests we need from them would be, do they know of any issues with Earth service over the weekend? Do they have any crash log reports from the analytics we do have?\nFrom our end, I think reviewer 2 shows the need for fallback in pairing flow. I’m unsure of our error state handling, I know we are toast-heavy, which will show the user when it happens, but if it fails in the background when they aren’t looking, working through maintaining an error display to show when the user returns.",
+        "ts": "1490025981.543074"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Do we think it would be good to build a strategy to rebuild the rating in the app store? Even if it is as simple as doing the modal for active users that asks for their satisfaction and feedback, so that people who are frustrated can send messages direct to us and users that like the app are nudged towards the app store to review.",
+        "ts": "1490026110.579849"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> any thoughts on the oliver’s assessment above? i want to loop back with adam on this if possible",
+        "ts": "1490031102.059787"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> or <@U2H61EJSG> could someone code this as a chip and verify that it works",
+        "ts": "1490031135.069221"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`1|gVATl0xYdNHHEQAF|0`",
+        "ts": "1490031136.069602"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Will do!",
+        "ts": "1490031169.079096"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we can discuss the possibility of in-app rating in a future meeting <@U3ZFEAPSP> - thats not a bad idea, but curious to have that convo with them. i rarely see rating modals pop up for google products (or i havent noticed them at least) like i do 3rd party, so not sure what the rules around that are but happy to chat with them about it",
+        "ts": "1490031235.098189"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Not seeing any downtime in Earth API’s in the last week",
+        "ts": "1490031236.098421"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m not sure google does in-app popup for rating",
+        "ts": "1490031246.101111"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think thats more of a 3rd party thing",
+        "ts": "1490031258.104470"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> That tag worked just fine for me",
+        "ts": "1490031265.106516"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "per 1) above, we’d get a crash report with a stack if it died via their internal tool",
+        "ts": "1490031295.114912"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> thanks! how about this one? `1|IcXJKEkHiPvNgMwR|0`",
+        "ts": "1490031309.118680"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "That one works too",
+        "ts": "1490031477.166675"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "dope thanks",
+        "ts": "1490031581.196741"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "good to know. I forgot to be thinking of it as from them in that way. \n<@U026PHQ3J>, where are you able to see the status of Earth’s API? Just so I could be able to diagnose from there as well :slightly_smiling_face:",
+        "ts": "1490031737.241794"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gweb-uncorked-workshop gcp",
+        "ts": "1490031752.246271"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "on the appengine status page",
+        "ts": "1490031761.248897"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> how is systems health? can you let me know when thats good to go? bonnie mentioned theres something missing in screen off use case 2 (ive asked for clarification on that) but other than that?",
+        "ts": "1490031771.251930"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/console.cloud.google.com\/appengine?project=gweb-uncorked-workshop&amp;serviceId=default&amp;duration=P4D>",
+        "attachments": [
+            {
+                "title": "Google Cloud Platform",
+                "title_link": "https:\/\/console.cloud.google.com\/appengine?project=gweb-uncorked-workshop&serviceId=default&duration=P4D",
+                "text": "Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google.",
+                "fallback": "Google Cloud Platform",
+                "from_url": "https:\/\/console.cloud.google.com\/appengine?project=gweb-uncorked-workshop&serviceId=default&duration=P4D",
+                "service_icon": "https:\/\/accounts.google.com\/favicon.ico",
+                "service_name": "accounts.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1490031782.254950"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome, thanks!",
+        "ts": "1490031918.294933"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> I am running through some of the uses cases again since Bonnie highlighted a few areas due to ‘incremental increase’",
+        "ts": "1490031920.295306"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah okay",
+        "ts": "1490031929.297985"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I keep getting varied results so I’m not sure why the first time I ran through the use cases, the results were larger than they are this time around",
+        "ts": "1490031962.307737"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "be sure to reboot and\/or reset batterystats and meminfo just to be sure",
+        "ts": "1490031994.317236",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> I am going to remove Bonnie’s highlights so she can review the new and old versions again.",
+        "ts": "1490032146.361111"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1490032457.450368"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> bonnie request: if she changes any of the numbers for the other use cases, can she highlight them?",
+        "ts": "1490033078.635764"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(so maybe just in a different color?)",
+        "ts": "1490033088.638749"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sure!",
+        "ts": "1490034003.894927"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you - just let me know when you’re done and ill tell bonnie",
+        "ts": "1490034173.942835"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> Do you know any reason why ram usage is larger in places update than in the current store release when the user sets the wallpaper and then navigates to the home screen? Bonnie is looking for a rationale for this increase.",
+        "ts": "1490035302.256786"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "hmmm, my first thought would be RAM would spike when reading all the preview images into memory, but that would happen when launching into the Places fragment.\nI’m checking something on the request itself really quick",
+        "ts": "1490035908.419934"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I am only ever using the case image to run these use cases if that makes a difference.",
+        "ts": "1490035976.438512"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Is the case image one of the new tiles? Because these should at least be testing on the new styles.\nThe legacy and new tile endpoints are using the same size of image 1024x1024 and both write it to the MapTileDiskFileCache (the writing to that cache is unchanged from the previous build), so I’m not sure what would be responsible for an increase in RAM for just a tile update",
+        "ts": "1490036448.567259"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> I’m finished updating the systems health doc. Let me know if you or Bonnie have any questions!",
+        "ts": "1490037803.912800"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1490044661.629209"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> any more thoughts on the crashes above? or anything we can do to try to address on our end?",
+        "ts": "1490046056.930447"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "not sure. I was trying to reproduce the second review by forcing the Registration token fail (there were some \/api\/token\/ endpoint failures over the last week and I thought maybe one of those could have been that user), but Earth still was working.",
+        "ts": "1490046278.974837"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "For the other two. The first one, no real idea, it crashed somewhere and fell back to the default wallpaper, could have been any number of spots, I don’t know how to dig more on that.\nFor the third, also unsure, but that one had a bit more detail and could try to reproduce to see what we could get to that case, I was taking some stabs in the dark on Earth but have nothing.",
+        "ts": "1490046607.039335"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "next steps? just want to be thorough \/ avoid going back to adam to say we’re not sure",
+        "ts": "1490046692.056061"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not sure if he’d be able to tell us more than whats in the reports unfortunately",
+        "ts": "1490046728.063074"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Not sure what we could do on our end, I set Earth as my wallpaper and was going to keep it going…",
+        "ts": "1490046734.064006"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah i did to this am, but havent seen any wonkiness yet",
+        "ts": "1490046750.067569"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "let me know if theres anything in particular i can look for \/ try to break",
+        "ts": "1490046774.072309"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, the reviews sound like not outright crashes and there isn’t much more to go off, Earth endpoint seemed to be stable over the last week. so??? yea, I definitely will keep you posted and try to see what code paths can lead there",
+        "ts": "1490047088.135656"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "has there been any word back from the most recent places build?",
+        "ts": "1490047176.153198"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "google QA team is currently  looking at the latest builds :slightly_smiling_face:",
+        "ts": "1490047210.160760"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no word of any issues yet, but i see JIRA tickets moving",
+        "ts": "1490047222.163333"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(eugenia + lokesh are on the google QA team in case you see some names you dont recognize)",
+        "ts": "1490047246.168473"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "cool, good to know, thanks!",
+        "ts": "1490047440.205094"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "will make sure to bring up in stand up as well, but we met with the trends team it looks like there isnt currently a way to add categorial filtering in the “api” - so trends 2.0 will likely largely just been a visual refresh",
+        "ts": "1490048492.384803",
+        "reactions": [
+            {
+                "name": "neutral_face",
+                "users": [
+                    "U0260V1BX"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

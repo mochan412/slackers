@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U0EL0GLEL> was just re-reading that latest email from Jose and getting ready to respond and ask a couple of questions. have you had a chance to look at it, do you have any thoughts on that youtube API piece in particular? is that something we can implement within the IS version of the code for them?",
+        "ts": "1496339371.593504"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Yeah I read that and that sounds fine, We can certainly implement that and get a fix for that issue",
+        "ts": "1496339470.631328"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok awesome, is that something you and <@U5DP0DTUZ> could work on together this week\/early next? not sure if you two are also in the middle of other stuff",
+        "ts": "1496339561.665472"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure can do that, dont think it would take that long to implement. Then we would want to step thru and test to make sure the correct data goes thru. Fairly easy to do. there are some huge channels out there that we can test with, marvel in particular they called out. There is a little issue with testing since the BL Workshop api is ip restricted, and we cant talk to it. But I have a hot fix I apply to the live code running to bypass it and give me a workshop with an empty participant array, this allows me to create a workshop anyways. While this is a little hassle the work around is fine for now, and wont impact the code since its a hot fix. And we can still test and do this fix, just have to remember this anytime we touch the admin. The display has no such issues",
+        "ts": "1496339872.785676"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ooh that sounds like a good plan - testing with large channels and against your existing hot fix.",
+        "ts": "1496340007.840298"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "have we asked to have our internal IPs added to the workshop api whitelist? is that a thing they can do?",
+        "ts": "1496340052.858779"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I am not quite sure they can, that seems like it would be a security thing. I cant remember what was said when this was brought up. But seems like they are aware of this being a problem. Might want to remind them it effects us on things like this",
+        "ts": "1496340325.965492"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the work around is fine, im just pausing execution before it calls the api, and swapping in a version that doesnt call the api but just passes an array structured with one workshop and no participants in. So the code can continue. and we just manually add people from there",
+        "ts": "1496340389.991509"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "word, i’ll give them a bump on it :slightly_smiling_face:",
+        "ts": "1496342054.622764"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U0EL0GLEL> did you catch gidge\/jose’s response r.e. the IP? looks like good news as long as we can give them one that will stay solid",
+        "ts": "1496353934.607603"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The one here should, doubt it would change, and even if it did we could just update them. 207.173.172.68",
+        "ts": "1496354076.643846"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "okay thanks!",
+        "ts": "1496356673.223599"
+    }
+]

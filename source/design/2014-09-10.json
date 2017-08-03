@@ -1,0 +1,168 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hey <!channel> I spent some time last night doing some research on  the new iOS sizes and there're a couple of interesting things that may affect our workflow.",
+        "ts": "1410367742.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The 6+ will need @3x assets and the 6 @2x. Here's the thing: While the assets we give to  dev are @2x and @3x  the phone will upscale the @2x to 2.46x and @3x to 3.3. That means things like a crisp 1pt line may not be as easy to do as before.",
+        "ts": "1410367795.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "This may be a question for the <#C028L147V> channel, but does this mean that apps will now be that much heavier now due to having a third file to pull from for each of these images @3x?",
+        "ts": "1410368033.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I can answer that and it's a big YES.",
+        "ts": "1410368075.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "so if we are supporting all sizes, we will have to prepare 4 files?",
+        "ts": "1410368129.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I think it's 3: 1x, 2x, 3x",
+        "ts": "1410368158.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "1x, 2x (iphone 4\/5), 2x (6) and 3x (6+)",
+        "ts": "1410368165.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "?",
+        "ts": "1410368166.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hm ok so the 2x gets upsize d by the device itself",
+        "ts": "1410368180.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok",
+        "ts": "1410368181.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "so the iphone 6 display is slightly lower res?",
+        "ts": "1410368208.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I guess exporting in 2.46 then compressing to 2 doesn't help?",
+        "ts": "1410368231.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "(so that the phone would get the exported version when it uncompresses it?)",
+        "ts": "1410368255.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026PT0D7>: That would probably be a half pixel double-whammy of terror.",
+        "ts": "1410368256.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ah, yeah",
+        "ts": "1410368263.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Devs and designers on twitter have been talking about using SVG instead of rasters but that's outside my understanding in terms of implementation.",
+        "ts": "1410368285.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "it seems strange that apple would go for the best display possible then upsample everything anyway",
+        "ts": "1410368305.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes, that's crazy. Unless they figured out a way to do it well.",
+        "ts": "1410368408.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "if apple provided their upsampling algorithm then presumably we could downsample a 2.46x image to 2x",
+        "ts": "1410368836.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "but then it would look good only on 6\/6+, and bad on all other phones...",
+        "ts": "1410368850.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I think we're slowly moving towards more scalable methods of designing stuff. I.E, vector. The web has been doing that for years I think iOS and Android will get there soon.",
+        "ts": "1410368967.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "that would be nice :)",
+        "ts": "1410368981.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<https:\/\/www.kickstarter.com\/projects\/thestandardsmanual\/full-size-reissue-of-the-nycta-graphics-standards>",
+        "attachments": [
+            {
+                "service_name": "Kickstarter",
+                "service_url": "https:\/\/www.kickstarter.com\/",
+                "title": "Full-size reissue of the NYCTA Graphics Standards Manual.",
+                "title_link": "https:\/\/www.kickstarter.com\/projects\/thestandardsmanual\/full-size-reissue-of-the-nycta-graphics-standards",
+                "author_name": "Jesse Reed &amp; Hamish Smyth",
+                "author_link": "https:\/\/www.kickstarter.com\/profile\/thestandardsmanual",
+                "fallback": "Kickstarter Kickstarter: Link: Full-size reissue of the NYCTA Graphics Standards Manual.",
+                "audio_html": "<iframe frameborder=\"0\" height=\"360\" scrolling=\"no\" src=\"https:\/\/www.kickstarter.com\/projects\/thestandardsmanual\/full-size-reissue-of-the-nycta-graphics-standards\/widget\/video.html\" width=\"480\"><\/iframe>",
+                "audio_html_width": 480,
+                "audio_html_height": 360,
+                "from_url": "https:\/\/www.kickstarter.com\/projects\/thestandardsmanual\/full-size-reissue-of-the-nycta-graphics-standards",
+                "id": 1
+            }
+        ],
+        "ts": "1410380858.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "So stoked that this is happening. They got my $$. Will share when it arrives.",
+        "ts": "1410414968.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Online edition here: <http:\/\/thestandardsmanual.com\/>",
+        "ts": "1410415557.000029"
+    }
+]

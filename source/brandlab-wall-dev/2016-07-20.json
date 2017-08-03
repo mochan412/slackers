@@ -1,0 +1,175 @@
+[
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Just found another tool for AE—&gt;Code:",
+        "ts": "1469038687.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<http:\/\/www.marcuseckert.com\/squall\/>",
+        "ts": "1469038688.000095"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "looks like it’s for ios only tho?",
+        "ts": "1469038919.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Yeah, I saw that too. But still interesting.",
+        "ts": "1469038948.000097"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeh",
+        "ts": "1469038952.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Bitch don’t kill my vibes",
+        "ts": "1469038962.000099"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "\/giphy vibes for days",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/Ag9JjQI7A8fM4>",
+                "image_url": "http:\/\/media2.giphy.com\/media\/Ag9JjQI7A8fM4\/giphy.gif",
+                "image_width": 250,
+                "image_height": 130,
+                "image_bytes": 256051,
+                "is_animated": true,
+                "title": "vibes for days",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/Ag9JjQI7A8fM4"
+            }
+        ],
+        "ts": "1469038979.000100"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: i’d like to move the convo about how the rig is performing over to this channel.  can you post learnings, blockers or successes as you go?",
+        "ts": "1469050909.000101"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool",
+        "ts": "1469050931.000102"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "All the weird shit is cleared up",
+        "ts": "1469055123.000103"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "display is working great now",
+        "ts": "1469055130.000104"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "door motor didnt work",
+        "ts": "1469055139.000105"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Im not certain exactly what the display oddities was, nothing to do with the code none of it was changed to fix it. It might be either it works better with the data path plugged in (seems unlikely \/ doesnt make sense) or the topography i changed for the screens fixed it (much more likely) i put the cubbies the 4k displays on the top and moved the top sweep below that, so only one set of resolutions was in a row. Im guessing something with the way the screen res is track horizontally might have been the issue. and it was getting confused and kept flickering between the two resolutions",
+        "ts": "1469055321.000106"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dataviz worked great, only the motor no workie",
+        "ts": "1469055346.000107"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ah it thinks that is cubby 1 now that would be why",
+        "ts": "1469055471.000108"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh i know what happend, i have my mapping wrong in my display setup code for this version of the display layout",
+        "ts": "1469055516.000109"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "easy fix",
+        "ts": "1469055521.000110"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep that was it, all good now",
+        "ts": "1469057323.000111"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "awesome, next stand up let’s do a demo of what we’ve got, there",
+        "ts": "1469057636.000112"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "seeing the same expected youtube issues again, nothing new on this setup, im sure its the same network thing we seen before but wasnt an issue in production.",
+        "ts": "1469058049.000113"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Right. It's configured to be cubby 3 now",
+        "ts": "1469058069.000114"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I can change first thing tomorrow if we need it to be 1",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1469058105.000000"
+        },
+        "ts": "1469058092.000115"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Oh yes, I remembered that its fine",
+        "ts": "1469058134.000117"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Cool",
+        "ts": "1469058145.000118"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I had copied the code from the part that was setup to use it as 1 when i setup the section for the load of this display topology, changed to the proper topology and its all fine",
+        "ts": "1469058186.000119"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Aha",
+        "ts": "1469058197.000120"
+    }
+]

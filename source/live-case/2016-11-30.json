@@ -1,0 +1,658 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Let’s talk about this one after i’m done in this meeting",
+        "ts": "1480527397.002524"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok",
+        "ts": "1480527612.002525"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> i reviewed and merged",
+        "ts": "1480532947.002526"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cuttin debug builds now to test with",
+        "ts": "1480532952.002527"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Did you also merge `copy_updates`?",
+        "ts": "1480532986.002528"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i shared 53 3.0.1 to client-facing merged APK folder",
+        "ts": "1480534804.002529"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no i didn’t merge copy_updates",
+        "ts": "1480534842.002530"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there were unexpected changes in GA_update but they wanted the daily ping of count",
+        "ts": "1480534860.002531"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(you should only be doing one feature per branch for just these reasons)",
+        "ts": "1480534873.002532"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m going to merge release-53 back into develop which will include GA_update then merge copy_updates into there too",
+        "ts": "1480534897.002533"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are the changes critical on copy_updates?",
+        "ts": "1480534913.002534"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "actually i am getting an error on debug",
+        "ts": "1480534963.002535"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whats the error",
+        "ts": "1480534976.002536"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "“package confliuctwith an existing package by thesamename\"",
+        "ts": "1480534982.002537"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "clean installing",
+        "ts": "1480534986.002538"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1480534988.002539"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you can’t install a debug build over a store build",
+        "ts": "1480534994.002540"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh doi",
+        "ts": "1480535015.002541"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, this version code is lower than the last debug build",
+        "ts": "1480535029.002542"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which was 55",
+        "ts": "1480535031.002543"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can someone remind me what changes are included? this feels like a million years ago",
+        "ts": "1480535036.002544"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "want to make sure im checking the correct shiz",
+        "ts": "1480535060.002545"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can’t remember what went into 53, but this should include the daily “is this wallpaper set” GA ping",
+        "ts": "1480535078.002546"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and whatever else was on GA_updates",
+        "ts": "1480535082.002547"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which looks like some modifications to onboarding layouts",
+        "ts": "1480535089.002548"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "There was the GA tag for weekly image count for earth and photos",
+        "ts": "1480535280.002549"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah i see",
+        "ts": "1480535315.002550"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i added a jira label so going through tickets now but lots of non-issues",
+        "ts": "1480535346.002551"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "the only change on `copy_updates` was a fix for the trends wallpaper preview in landscape, where the preview imageview was not set to centerCrop scaleType, so the image didn't extend to the edge of the screen.\nThis issue: <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-82>",
+        "ts": "1480535557.002552"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome,thanks midori!",
+        "ts": "1480535606.002553"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "should i merge that?",
+        "ts": "1480535617.002554"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> what do you think?",
+        "ts": "1480535627.002555"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can rebuild",
+        "ts": "1480535630.002556"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no i think we should only include what was in the beta build + that one update",
+        "ts": "1480535678.002557"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1480535682.002558"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah then we’re good with the 55 build",
+        "ts": "1480535687.002559"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill merge copy_updates into develop",
+        "ts": "1480535693.002560"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok",
+        "ts": "1480535699.002561"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "updated and pushed",
+        "ts": "1480535744.002562"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i want to change the “is wallpaper set” service",
+        "ts": "1480536081.002563"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i don’t have time until after this long meet",
+        "ts": "1480536087.002564"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "meeting",
+        "ts": "1480536089.002565"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> does Bonnie need that APK right away",
+        "ts": "1480536097.002566"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this sets up the server to run in the app, and it should be from the wallpaper in onCreate",
+        "ts": "1480536117.002567"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i didn’t notice that this was persisted",
+        "ts": "1480536143.002568"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and it shouldn’t be",
+        "ts": "1480536145.002569"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay. \nmove all these ```if (!SetWallpaperCheckAnalyticsService.isPlacesScheduled(getActivity())) {\n                SetWallpaperCheckAnalyticsService.scheduleSetWallpaperCheck(getActivity(), mWallpaper);\n            }``` to onCreate \nand change setPersisted to false",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1480536223.000000"
+        },
+        "ts": "1480536211.002570"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also make sure that its removed in onDestroy",
+        "ts": "1480536224.002572"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in GLWallpaperRendere...",
+        "ts": "1480536237.002573"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "because we want it running _ONLY_ when the wallpaper is set and running",
+        "ts": "1480536248.002574"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and onCreate of the wallpaper service is the best place for that",
+        "ts": "1480536261.002575"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I’d suggest that instead of having all these variants for the wallpaper type, that you check the preference",
+        "ts": "1480536280.002576"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "because we track which wallpaper renderer is active at all times",
+        "ts": "1480536293.002577"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "WallpaperStyleUtility",
+        "ts": "1480536328.002578"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "public static Wallpaper getCurrentWallpaperType(Context context) {",
+        "ts": "1480536330.002579"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so you should be able to schedule it once for “any” wallpaper",
+        "ts": "1480536344.002580"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "wait sorry - just seeing this. do i need to tell bonnie to pull the prod release?",
+        "ts": "1480541116.002581"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i sent it an hour ago but dont know if they passed along yet",
+        "ts": "1480541144.002582"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J>",
+        "ts": "1480541155.002583"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Pull. ",
+        "ts": "1480541168.002584"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The implementation of the GA for wallpaper is somewhat incorrect ",
+        "ts": "1480541193.002585"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "But I missed it when doing the test build until I had time to test and check",
+        "ts": "1480541209.002586"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "will it fuck things up if she already passed along",
+        "ts": "1480541212.002587"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or just not work correctly",
+        "ts": "1480541221.002588"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i deleted from drive but want to give her some info",
+        "ts": "1480541239.002589"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It won't work right ",
+        "ts": "1480541263.002590"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> are you making the changes on GA_",
+        "ts": "1480541276.002591"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes",
+        "ts": "1480541288.002592"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Sorry I'm in a meeting ",
+        "ts": "1480541288.002593"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "K",
+        "ts": "1480541291.002594"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I'm working on it",
+        "ts": "1480541296.002595"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "You didn't rebranch did you ",
+        "ts": "1480541296.002596"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "no",
+        "ts": "1480541300.002597"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok",
+        "ts": "1480541302.002598"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool",
+        "ts": "1480541303.002599"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "she submitted :confused:",
+        "ts": "1480541318.002600"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ETA?",
+        "ts": "1480541323.002601"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(asking if she can pull)",
+        "ts": "1480541362.002602"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can also just renumber 55 to 53 and leave the GA changes out comply",
+        "ts": "1480541536.002603"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Completely",
+        "ts": "1480541541.002604"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Either way, what we sent shouldn't go out",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1480541572.000000"
+        },
+        "ts": "1480541557.002605"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cause it won't work for ppl who have the wallpaper currently set when upgrading ",
+        "ts": "1480541595.002607"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "And will over report for people who set after because it will run regardless of whether or not the wallpaper is set ",
+        "ts": "1480541635.002608"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I just was reviewing the code while yinz were testing ",
+        "ts": "1480541672.002609"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Didn't know it was going out during ",
+        "ts": "1480541681.002610"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry i thought it was good to send - jumped the  gun",
+        "ts": "1480541882.002611"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "waiting for bonnie to respond",
+        "ts": "1480541890.002612"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay shes pulling ",
+        "ts": "1480542099.002613"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "please use same version code and just add v2 to file name",
+        "ts": "1480542119.002614"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J>",
+        "ts": "1480542124.002615"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "K",
+        "ts": "1480542168.002616"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank youuuuuu",
+        "ts": "1480542214.002617"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> do you think you’ll have something to review by 4?",
+        "ts": "1480544642.002618"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or earlier?",
+        "ts": "1480544647.002619"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(earlier would be great :grimacing:)",
+        "ts": "1480544681.002620"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes to 4, not sure about earlier",
+        "ts": "1480544804.002621"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool, i let bonnie know it would be around then (as she’ll need to submit fairly quickly from there to get it in)",
+        "ts": "1480545058.002622"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> request from bonnie:\nCan we also get a version for dogfood so we an ensure we capture GA from dogfooders too? Should be Version Code 57, and Version Name 3.df.2",
+        "ts": "1480547692.002623"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep",
+        "ts": "1480547701.002624"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thankyou!",
+        "ts": "1480547717.002625"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "folder for that one on drive, when we’re ready for it <https:\/\/drive.google.com\/open?id=0BwP7wEvrJF7VT3M4djVzSzRLMFk>",
+        "ts": "1480547822.002626"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok, ready on GA_update",
+        "ts": "1480550394.002628"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks, merged to release-53",
+        "ts": "1480550477.002629"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks good",
+        "ts": "1480550480.002630"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "building 53\/3.0.1 now",
+        "ts": "1480550487.002631"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "will sync develop and cut 57 from develop",
+        "ts": "1480550493.002632"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "57 and 53 both uploaded",
+        "ts": "1480551065.002633"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "bonnies on it! thankyouuuuu",
+        "ts": "1480551369.002634"
+    }
+]

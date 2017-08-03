@@ -1,0 +1,304 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "thought of a few other options for the light sensor we need. best may be voltage divider formed by photoresistor and other (carefully chosen resistor) driving base of transistor. choose resistor in voltage divider such that transistor is in saturation when photoresistor sees light and resistance is low but not in saturation when photoresistor doesn't see light and has higher resistance. I'm not familiar with BC547B NPN transistor but here's a circuit: <http:\/\/pyevolve.sourceforge.net\/wordpress\/wp-content\/uploads\/2012\/08\/rpi_sigmoid3.png> that shows what I mean.",
+        "attachments": [
+            {
+                "from_url": "http:\/\/pyevolve.sourceforge.net\/wordpress\/wp-content\/uploads\/2012\/08\/rpi_sigmoid3.png",
+                "fallback": "400x385px image",
+                "image_url": "http:\/\/pyevolve.sourceforge.net\/wordpress\/wp-content\/uploads\/2012\/08\/rpi_sigmoid3.png",
+                "image_width": 400,
+                "image_height": 385,
+                "image_bytes": 7490,
+                "id": 1
+            }
+        ],
+        "ts": "1418288022.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "aka it's just a few wires",
+        "ts": "1418288029.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "if you say so",
+        "ts": "1418288095.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U02918BKW>, don't stare at the laser!",
+        "ts": "1418320709.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "looks nice though",
+        "ts": "1418320722.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "i used  my phone to look at the laser",
+        "ts": "1418320892.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok circuit seems to work. I had to adjust the resistor in the voltage divider to 1000 ohms",
+        "ts": "1418324641.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's spitting out 2.69 voltage which hopefully is high enough to be read as logic level high (3.3v nominal)",
+        "ts": "1418324668.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok verified working on raspberry pi",
+        "ts": "1418324773.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "logic level high is dark fridge, logic level low is light on",
+        "ts": "1418324806.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "woo hoo homer?",
+        "ts": "1418324821.000010"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/img3.wikia.nocookie.net\/__cb20111121223950\/simpsons\/images\/2\/26\/Woo_hoo!_poster.jpg>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/img3.wikia.nocookie.net\/__cb20111121223950\/simpsons\/images\/2\/26\/Woo_hoo!_poster.jpg",
+                "fallback": "200x283px image",
+                "image_url": "http:\/\/img3.wikia.nocookie.net\/__cb20111121223950\/simpsons\/images\/2\/26\/Woo_hoo!_poster.jpg",
+                "image_width": 200,
+                "image_height": 283,
+                "image_bytes": 12561,
+                "id": 1
+            }
+        ],
+        "ts": "1418324821.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Woo Hoo!",
+        "ts": "1418325072.000013"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/deadhomersociety.files.wordpress.com\/2010\/09\/thislittlewiggy1.png>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/deadhomersociety.files.wordpress.com\/2010\/09\/thislittlewiggy1.png",
+                "fallback": "512x384px image",
+                "image_url": "http:\/\/deadhomersociety.files.wordpress.com\/2010\/09\/thislittlewiggy1.png",
+                "image_width": 512,
+                "image_height": 384,
+                "image_bytes": 288684,
+                "id": 1
+            }
+        ],
+        "ts": "1418325072.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "woo hoo!",
+        "ts": "1418325089.000016"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<https:\/\/jdsmusings.files.wordpress.com\/2013\/08\/homer-woo-hoo.jpg>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/jdsmusings.files.wordpress.com\/2013\/08\/homer-woo-hoo.jpg",
+                "fallback": "851x314px image",
+                "image_url": "https:\/\/jdsmusings.files.wordpress.com\/2013\/08\/homer-woo-hoo.jpg",
+                "image_width": 851,
+                "image_height": 314,
+                "image_bytes": 22813,
+                "id": 1
+            }
+        ],
+        "ts": "1418325090.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok built two of these bad boys on breadboards",
+        "ts": "1418325951.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ready to be deployed in fridge and tested\/ software setup",
+        "ts": "1418325973.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "moving on to raspberry pi stack assembly",
+        "ts": "1418325985.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so I'll make this light sensor attached to pin 28 again",
+        "ts": "1418339027.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "set it up as an input pin and read from it:",
+        "ts": "1418339052.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "gpio mode 28 in",
+        "ts": "1418339055.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "gpio read 28",
+        "ts": "1418339058.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "should get a 1 if dark",
+        "ts": "1418339071.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "should get a 0 if light",
+        "ts": "1418339075.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "measured resistance in fridge but we can alter one of the resistors if I screwed up and the saturation point isn't fully on or never on",
+        "ts": "1418339141.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's set up on the 10.0.10.236 stand. I'll mark it with blue tape",
+        "ts": "1418339275.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "that is all",
+        "ts": "1418339277.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "236 and 235 are back cameras, right?",
+        "ts": "1418339859.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yes indeed Evans of Christmas Present",
+        "ts": "1418339976.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "they're not powered on though now",
+        "ts": "1418339988.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me do that",
+        "ts": "1418339989.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i may need outside internet access on the new pi's",
+        "ts": "1418340031.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just realized that",
+        "ts": "1418340033.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me rephrase",
+        "ts": "1418340039.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i DO need outside internet access",
+        "ts": "1418340044.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "that's nice",
+        "ts": "1418340072.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so you want the console cable?",
+        "ts": "1418340087.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1418340243.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's one command that i can't install from a downloaded package",
+        "ts": "1418340271.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "found you. just come back here in echo chamber when you're done.",
+        "ts": "1418340277.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "everything you need is here",
+        "ts": "1418340280.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok cool",
+        "ts": "1418340294.000045"
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "AWS instance running, installing IS now...",
+        "ts": "1457980265.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "sweeet",
+        "ts": "1457980292.000003"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joel\/F0SLFTQE8\/brandlab-dev.pem|brandlab-dev.pem>",
+        "file": {
+            "id": "F0SLFTQE8",
+            "created": 1457984752,
+            "timestamp": 1457984752,
+            "name": "brandlab-dev.pem",
+            "title": "brandlab-dev.pem",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U02E3CRMA",
+            "editable": true,
+            "size": 1696,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SLFTQE8\/brandlab-dev.pem?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SLFTQE8\/download\/brandlab-dev.pem?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F0SLFTQE8\/brandlab-dev.pem",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0SLFTQE8-260e7396ea",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/joel\/F0SLFTQE8\/brandlab-dev.pem\/edit",
+            "preview": "-----BEGIN RSA PRIVATE KEY-----\r\nMIIEpAIBAAKCAQEA0fkLNQFwa102CVnSX\/eg5W5ALD4bAETDZGFNrbrKBB7rIKOa\/GzIJHuezdva\r\nwgNECczXEf5bpukROCp7TyT62YZR4Ua5lgSLhb0ixCCxP7n5usiB1Kc\/XxqCcLmFXfDbqz9mzEQy\r\nhgmkcqAV9OrwLKrR6qMH\/kWXcHbMUDJF0bGM66phv8u2r+r3vcmZv2sHMuID1oBVMy0usa4s7qxM\r\nEe49xZNln7dekhlil6muX0vUCIg0eBHmn3n9Xjuwm8Vso+2h\/XX9K8ZIOVhkIwGKgP0D+SYF6THH\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>-----BEGIN RSA PRIVATE KEY-----<\/pre><\/div>\n<div><pre>MIIEpAIBAAKCAQEA0fkLNQFwa102CVnSX\/eg5W5ALD4bAETDZGFNrbrKBB7rIKOa\/GzIJHuezdva<\/pre><\/div>\n<div><pre>wgNECczXEf5bpukROCp7TyT62YZR4Ua5lgSLhb0ixCCxP7n5usiB1Kc\/XxqCcLmFXfDbqz9mzEQy<\/pre><\/div>\n<div><pre>hgmkcqAV9OrwLKrR6qMH\/kWXcHbMUDJF0bGM66phv8u2r+r3vcmZv2sHMuID1oBVMy0usa4s7qxM<\/pre><\/div>\n<div><pre>Ee49xZNln7dekhlil6muX0vUCIg0eBHmn3n9Xjuwm8Vso+2h\/XX9K8ZIOVhkIwGKgP0D+SYF6THH<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 23,
+            "lines_more": 18,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02E3CRMA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1457984752.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ssh -i brandlab-dev.pem ubuntu@52.90.53.30",
+        "ts": "1457984770.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "IS isn’t running yet, working on getting to not need chrome to launch",
+        "ts": "1457984788.000006"
+    },
+    {
+        "user": "U02618EV1",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02618EV1|gaston> has joined the channel",
+        "ts": "1457997186.000007"
+    }
+]

@@ -1,0 +1,524 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "James' is looking for the simple solve around our matching number sets as well :slightly_smiling_face:",
+        "ts": "1492529728.987104"
+    },
+    {
+        "user": "U0265G76F",
+        "text": "<@U0265G76F|iamewald> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1492532164.457398"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> any want\/need for a GVC or justa bit o time? :wink:",
+        "ts": "1492532180.466197"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I think its just a config thing. But i am double checking against the code to see for sure. I want to be sure I am saying the right thing as so much time has passed my memory is foggy on this. I should know soon whats going on.",
+        "ts": "1492532244.497925"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Totally fair ",
+        "ts": "1492532321.536199"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "I'm talking to josh on gvc ",
+        "ts": "1492532328.539948"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Have been since last night ",
+        "ts": "1492532395.572746"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>  i have to go into 1 hour of heads down meetings for care. know that Ewald and I gotchu. But if you have questions\/ideas you can respond to email directly",
+        "ts": "1492533006.881675"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i checked again and it looks like they might just have the wrong cubbyID in the url for the boxes in their display setup.",
+        "ts": "1492533016.887086"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there is a 1-1 mapping for the cubbyID in the url to the ip address called",
+        "ts": "1492533034.897171"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if they didnt touch the ipaddress mapping key",
+        "ts": "1492533040.900954"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if that got changed then it would cause this",
+        "ts": "1492533054.908262"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "which they may have done and I could see that",
+        "ts": "1492533066.914595"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hm",
+        "ts": "1492533163.966502"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "seems like a good place to start",
+        "ts": "1492533168.968812"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah it looks like they might have used the load order in the ipmapping config",
+        "ts": "1492533198.984570"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that order its calling looks a lot like the load order",
+        "ts": "1492533209.990180"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks for making time for this man",
+        "ts": "1492533399.085953"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it might well be something new introduced. Im setting up my mac with the latest pull from them to confirm. I had checked it on the nuc with the code that we had last delivered to them and it worked just as my understanding of how it was and what i sent over to them. Im going to check again against the changes they made and see if there is something differing there",
+        "ts": "1492534768.772671"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "how can you reference the changes made <@U0EL0GLEL> ? to my knowledge I'm still waiting of documentation that outlines what they've changed on staging.",
+        "ts": "1492534865.823673"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i dont think we can get an answer (jose out on vaca) but worth me poking at again? this would all be code they changed, yeah?",
+        "ts": "1492534885.833623"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Possibly. I need to spin up my Mac with the code base anyways so going to do that. It seems like Jose changed something related to load order possibly. He mentioned something about this when we talked last, i think. So it's possible this is what did it. I will see soon. I confirmed it was mapping just fine I the originally delivered code. So if it doesn't on the one I'm spinning up then they changed something",
+        "ts": "1492535130.953890"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "OK I'll chime in with the TL;DR that mapping looks good in ourcode base so we're pulling down latest from repo and doing a diff.",
+        "ts": "1492535189.982289"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The mapping isnt hard coded tho either. I was just able to confirm that it maps as intended. They need to have each box in the setup call the cubbyID= set to the physical id of the cubby, which is the same as the ip. This will only map correctly if they didnt mess with the ipmapping value. that is just there for an override if needed",
+        "ts": "1492535319.043375"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they need to check that the cubbyID of each box is the physical id, not the load order",
+        "ts": "1492535399.081004"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ah",
+        "ts": "1492535411.086472"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they need to check that the space.activity.ipmapping value is 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+        "ts": "1492535440.100353"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this would set them to map 1-1",
+        "ts": "1492535447.103891"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the physical id should match their schematic",
+        "ts": "1492535461.110425"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "at the risk of mispeaking, i deleted my draft and completely defer to you here :slightly_smiling_face:",
+        "ts": "1492535465.112229"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I already told them this in my response",
+        "ts": "1492535479.119028"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it sounds like one of those values is wrong, either the cubbyID they are using in the url they are pulling up is wrong, or they changed the ipmapping value",
+        "ts": "1492535523.140120"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "or the code has changed and its not respecting the mapping right anymore",
+        "ts": "1492535538.147095"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "youe right peter. i'll check with scott to see if he's had any luck looking at assignements. will also tell em we're pulling down latest code to see if anything may have changed that would impact this",
+        "ts": "1492535805.274633"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool, im trying to get my mac running the latest, as im sure that will be useful either way",
+        "ts": "1492535889.314447"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "yeah",
+        "ts": "1492535900.320310"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good opp for me to ask for doucmentation again :slightly_smiling_face:",
+        "ts": "1492535907.323418"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> just curious how you're doing with all the things this morning - you may be at lunch, which is fine - but curious if ya have what ya need",
+        "ts": "1492543427.663236"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "from Google",
+        "ts": "1492543434.665881"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Still getting setup locally, bit of a task to do. I needed to know the api for the workshops, they just got back to me with that. It appears i dont have permission to ping that tho. So sent them a ping about that",
+        "ts": "1492544170.965914"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "They got the mapping fixed, but ran into an issue with the messaging with the question answer and the bubble rising, I sent scott info about how it works and what to look for in the mean time while I try and get it setup",
+        "ts": "1492544232.990944"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Oh looks like they removed the admin auth in the newest code, and I am guessing the workshop api is locked to internal IP only. So this would block us from creating any workshops to test with",
+        "ts": "1492545280.421548"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "is there any VPN access?",
+        "ts": "1492545872.674996"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "No, so what im going to do is just remove the need for that call locally, this will let me create an empty workshop and add users manually. After the workshop is created this isnt a problem anymore",
+        "ts": "1492545982.722049"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "cool",
+        "ts": "1492545992.726188"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "then i can continue testing with that manually created workshop",
+        "ts": "1492546003.730578"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah that worked",
+        "ts": "1492546614.976362",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U0K8ZSHN0",
+                    "U026PHQ3J"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joel\/F50D4NQN5\/1ngwbp.jpg|Ronnie>",
+        "file": {
+            "id": "F50D4NQN5",
+            "created": 1492547444,
+            "timestamp": 1492547444,
+            "name": "1ngwbp.jpg",
+            "title": "Ronnie",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 49468,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F50D4NQN5\/1ngwbp.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F50D4NQN5\/download\/1ngwbp.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F50D4NQN5-6fac6d9157\/1ngwbp_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F50D4NQN5-6fac6d9157\/1ngwbp_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F50D4NQN5-6fac6d9157\/1ngwbp_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 345,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F50D4NQN5-6fac6d9157\/1ngwbp_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 460,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F50D4NQN5-6fac6d9157\/1ngwbp_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 498,
+            "original_h": 520,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F50D4NQN5\/1ngwbp.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F50D4NQN5-8f68f79794",
+            "channels": [
+                "C078JFZ7W"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02E3CRMA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1492547445.318292"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "where is the hammer and sickle emoji when you need it?",
+        "thread_ts": "1492547476.330842",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U02E3CRMA",
+                "ts": "1492548358.685780"
+            },
+            {
+                "user": "U02E3CRMA",
+                "ts": "1492548368.689742"
+            },
+            {
+                "user": "U02E3CRMA",
+                "ts": "1492548376.692740"
+            },
+            {
+                "user": "U0K8ZSHN0",
+                "ts": "1492548388.697691"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1492547476.330842"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "technically _is_ an emoji, but unsupported in Slack (for obvious reasons).",
+        "thread_ts": "1492547476.330842",
+        "parent_user_id": "U0K8ZSHN0",
+        "ts": "1492548358.685780"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Also a Unicode character: ☭",
+        "thread_ts": "1492547476.330842",
+        "parent_user_id": "U0K8ZSHN0",
+        "ts": "1492548368.689742"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":the-more-you-know:",
+        "thread_ts": "1492547476.330842",
+        "parent_user_id": "U0K8ZSHN0",
+        "ts": "1492548376.692740"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "thanks!",
+        "thread_ts": "1492547476.330842",
+        "parent_user_id": "U0K8ZSHN0",
+        "ts": "1492548388.697691"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Ah ha, figured out their issue with the initial bubbles, just user error, they needed to specify in the topSweep url that this is the view for the top sweep by using the topSweep=true flag. without that it didnt process the setup of the top sweep correctly causing failures",
+        "ts": "1492550614.549761"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "was able to reproduce the exact error by not including this flag",
+        "ts": "1492550630.555240"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "dude, youre the code detective today",
+        "ts": "1492550696.577786",
+        "reactions": [
+            {
+                "name": "sleuth_or_spy::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Scott mentioned there is some issue with the admin, Im trying to get more info about what this might be. I know that Jose has made a bunch of changes there",
+        "ts": "1492550708.581869"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "yeah, i anna see some record of what those changes are",
+        "ts": "1492550766.602029"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah not clear myself. I thought more was done, but when i looked at the UI it looked pretty much the same",
+        "ts": "1492550798.613366"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "unless its not checked into this repo i pulled",
+        "ts": "1492550809.617042"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "yeah, thats where we could use some guidance :slightly_smiling_face:",
+        "ts": "1492550886.643307"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "but not just wait and see if what you proposed works for them, yeah?",
+        "ts": "1492550897.647282"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "scott had pinged me on hangouts like 30 mins ago, was talking to him and he said they were there at the wall doing stuff. i sent him the info and he went silent. I expect they are doing something, likely hear back from him soon",
+        "ts": "1492550957.667650"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, im following email but let us know if thats not the full story",
+        "ts": "1492550992.679734"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Ive been reporting to both for visibility",
+        "ts": "1492551094.716077"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "scott says topsweep fix worked, and that the admin issue is that they cant seem reassign users in the admin",
+        "ts": "1492551310.788637"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "So Scott just revealed they are using version 1.1.3 currently, when the current release is 1.1.5. This might be why he is having a slight discrepancy in the mapping of the id. not sure yet. and not sure why they would be using the older one. Or at what point changes Jose were made. And which branch. Im looking at the dev branch of the code I pulled from gerrit yesterday, and not seeing changes from them here. So unclear the status of changes. Scott said that he can test the newer version on friday when they dont have anyone using the space.",
+        "ts": "1492557415.390660"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "He can make it work now tho using a setting that is off by one for the load order this works for all but the first and last cubby which end up not mapped, but is good enough to use it for now. Im going to test this older version quick and see if it does the same issue to me",
+        "ts": "1492557464.400753"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh so he now says they went ahead and tried 1.1.5 anyways",
+        "ts": "1492557655.440368"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "still off by 1, but its not for me using the same code",
+        "ts": "1492557671.443468"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "gonna talk to josh quickly about scott being on old code bae and just generaly take joshs temperature",
+        "ts": "1492560217.944073"
+    }
+]

@@ -1,0 +1,803 @@
+[
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "I’m on the line btw.",
+        "ts": "1435075344.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Cool",
+        "ts": "1435075350.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "jumping on webex now...",
+        "ts": "1435075357.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "looking for the link",
+        "ts": "1435075361.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "“Uncorked Solutions\"",
+        "ts": "1435075396.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "it’s our IT division",
+        "ts": "1435075761.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "i’m typing in teal into the google doc for clarity’s sake",
+        "ts": "1435076044.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool",
+        "ts": "1435076070.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "FWIW, I like the VPN option best. The whole thing is transparent to us, less to validate.",
+        "ts": "1435076306.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "good to know, and glad that's the preferred option",
+        "ts": "1435076356.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Existing or new, or it doesn’t matter?",
+        "ts": "1435076379.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "mostly existing, doesn’t matter since they’ll set it up",
+        "ts": "1435076475.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Roger.",
+        "ts": "1435076527.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "man, that iFrame options is technically ugly",
+        "ts": "1435076731.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "maybe we should jump in and say we prefer option #1",
+        "ts": "1435076763.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "?",
+        "ts": "1435076766.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Maurice is my homeboy",
+        "ts": "1435077315.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yea, let's use him more moving forward",
+        "ts": "1435077333.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "maybe we follow up in an email to him with some additional questions (the ones we wrote down but doesn't sound like we'll be able to answer)",
+        "ts": "1435077359.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026103R3> i’ll take a first stab at customer fields",
+        "ts": "1435077365.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome, thanks melissa",
+        "ts": "1435077370.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "extra bonus points to Good Guy Maurice for putting the Angular scripts in the page header.",
+        "ts": "1435077585.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":thumbsup:",
+        "ts": "1435077616.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "aha",
+        "ts": "1435077711.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Well, it first has to go through the Internet.",
+        "ts": "1435077725.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "she’s right",
+        "ts": "1435077734.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the VPN is server-to-server",
+        "ts": "1435077742.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "to use the VPN tunnel, we’d have to hit the Fathom server and have it forward to HAL",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1435077855.000000"
+        },
+        "ts": "1435077758.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "now I get why the questions on PCI",
+        "ts": "1435077771.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "because technically the CC data would hit <http:\/\/Fathom.org|Fathom.org> first",
+        "ts": "1435077882.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "on the flipside, if that’s the case, we can do all that server-side in Wordpress and keep things clean",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1435077932.000000"
+        },
+        "ts": "1435077927.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "the average of tuesday and thursday deployments. I was close.",
+        "ts": "1435078193.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":simple_smile:",
+        "ts": "1435078263.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "fwiw, the scanned doc is in the Google notes",
+        "ts": "1435078672.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and Basecamp - perfect. thanks",
+        "ts": "1435078689.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": ":simple_smile:",
+        "ts": "1435078715.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "MUUUUUUCH better",
+        "ts": "1435078844.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yayy",
+        "ts": "1435078886.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so much simpler",
+        "ts": "1435078955.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so, I’ll follow up with Josh to get our other questions answered",
+        "ts": "1435079470.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "glad we got the simpler option",
+        "ts": "1435079479.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and we’re not blocked since we can work against the existing qa endpoint for test",
+        "ts": "1435079497.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<https:\/\/trello.com\/b\/PAG8jvjY\/fathom>",
+        "ts": "1435103381.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "trello is pretty up to date, and we will continue to update it. just throwing it in here so we all know to use it",
+        "ts": "1435103406.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey abby can you add me to that trello board please?",
+        "ts": "1435104157.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "oh yea of course one sec",
+        "ts": "1435104180.000051"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F06NNCLTC\/screen_shot_2015-06-23_at_5.35.20_pm.png|Screen Shot 2015-06-23 at 5.35.20 PM.png> and commented: just noticed this super awkward wording ",
+        "file": {
+            "id": "F06NNCLTC",
+            "created": 1435106153,
+            "timestamp": 1435106153,
+            "name": "Screen Shot 2015-06-23 at 5.35.20 PM.png",
+            "title": "Screen Shot 2015-06-23 at 5.35.20 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 14097,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06NNCLTC\/screen_shot_2015-06-23_at_5.35.20_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06NNCLTC\/download\/screen_shot_2015-06-23_at_5.35.20_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06NNCLTC-5b5213bb19\/screen_shot_2015-06-23_at_5.35.20_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06NNCLTC-5b5213bb19\/screen_shot_2015-06-23_at_5.35.20_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06NNCLTC-5b5213bb19\/screen_shot_2015-06-23_at_5.35.20_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 265,
+            "thumb_360_h": 35,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06NNCLTC-5b5213bb19\/screen_shot_2015-06-23_at_5.35.20_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 265,
+            "original_h": 35,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F06NNCLTC\/screen_shot_2015-06-23_at_5.35.20_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F06NNCLTC-ee4ea9cdd6",
+            "channels": [
+                "C055NDRG1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc06NNFUN8",
+                "created": 1435106154,
+                "timestamp": 1435106154,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "just noticed this super awkward wording "
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1435106154.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "you don't want to have all the room for yourself?",
+        "ts": "1435106250.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "(i have no idea what that means)",
+        "ts": "1435106255.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Should be Have the Room All to Yourself (or No Roommates!)",
+        "ts": "1435107136.000055"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "you don’t know that",
+        "ts": "1435107156.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "or it means you’re obese",
+        "ts": "1435107158.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "maybe they mean literally of the room there is will be yours",
+        "ts": "1435107166.000058"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i think they meant to say “Have all the rooms for yourself” i.e. book the entire ship",
+        "ts": "1435107220.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "that would be pricey, but i like the idea",
+        "ts": "1435107234.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "next uncorked outing?",
+        "ts": "1435107237.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i think this should be the next uncorked outing: <http:\/\/www.311cruise.com\/>",
+        "attachments": [
+            {
+                "title": "311 Caribbean Cruise",
+                "title_link": "http:\/\/www.311cruise.com\/",
+                "text": "As you know, there will not be a 311 Caribbean Cruise in 2016. 311 nation will gather on land next March for 311 Day, and the plan is to come back together out on the sea in 2017.",
+                "fallback": "311 Caribbean Cruise",
+                "thumb_url": "http:\/\/cdn.sixthman.net\/2016\/311\/images\/fb-share.png",
+                "from_url": "http:\/\/www.311cruise.com\/",
+                "thumb_width": 1280,
+                "thumb_height": 600,
+                "id": 1
+            }
+        ],
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1435107280.000000"
+        },
+        "ts": "1435107274.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "thats the grossest thing I’ve seen since fermented bean curd",
+        "ts": "1435107324.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "i think they played at my grad night in high school",
+        "ts": "1435107364.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i can't believe this exists",
+        "ts": "1435107367.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "i think the fathom team should go on a cruise",
+        "ts": "1435107377.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "WHAT?! marce i would have thought that was so cool",
+        "ts": "1435107381.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yea i agree",
+        "ts": "1435107384.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "so marce, we just expense that right?",
+        "ts": "1435107393.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "it’s research",
+        "ts": "1435107399.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "seriously though, if we get the long tail portion of this project we are going to need to do field research",
+        "ts": "1435107426.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "OMG. They need a Sublime Cruise now",
+        "ts": "1435107557.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i just hope they dont send us to New England or something boring like that",
+        "ts": "1435107558.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "or an ICP cruise",
+        "ts": "1435107572.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ahhh",
+        "ts": "1435107575.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i will not go on an ICP cruise, even for work",
+        "ts": "1435107585.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<http:\/\/thephoenix.com\/boston\/life\/120379-photos-insane-clown-posses-juggalo-cruise\/>",
+        "attachments": [
+            {
+                "text": "Dark Carnival Cruise Lines",
+                "fallback": "Dark Carnival Cruise Lines",
+                "from_url": "http:\/\/thephoenix.com\/boston\/life\/120379-photos-insane-clown-posses-juggalo-cruise\/",
+                "thumb_url": "http:\/\/thephoenix.com\/secure\/uploadedImages\/The_Phoenix\/Life\/Lifestyle_Features\/5678191535_list.jpg",
+                "thumb_width": 66,
+                "thumb_height": 66,
+                "id": 1
+            }
+        ],
+        "ts": "1435107606.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "was literally just going to post that",
+        "ts": "1435107620.000081"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "What is wrong with this world?",
+        "ts": "1435107645.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<https:\/\/dl.dropboxusercontent.com\/spa\/ra93brplpldred1\/bvh7375u.png>",
+        "attachments": [
+            {
+                "fallback": "837x752px image",
+                "image_url": "https:\/\/dl.dropboxusercontent.com\/spa\/ra93brplpldred1\/bvh7375u.png",
+                "image_width": 837,
+                "image_height": 752,
+                "image_bytes": 751924,
+                "from_url": "https:\/\/dl.dropboxusercontent.com\/spa\/ra93brplpldred1\/bvh7375u.png",
+                "id": 1
+            }
+        ],
+        "ts": "1435107667.000083"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<http:\/\/thephoenix.com\/Boston\/life\/120230-on-the-good-ship-juggalo\/>",
+        "attachments": [
+            {
+                "service_name": "Boston Phoenix",
+                "title": "On the good ship Juggalo",
+                "title_link": "http:\/\/thephoenix.com\/Boston\/life\/120230-on-the-good-ship-juggalo\/",
+                "text": "Dark Carnival Cruise Lines",
+                "fallback": "Boston Phoenix: On the good ship Juggalo",
+                "from_url": "http:\/\/thephoenix.com\/Boston\/life\/120230-on-the-good-ship-juggalo\/",
+                "id": 1
+            }
+        ],
+        "ts": "1435107682.000085"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "12:43 AM The Juggalos begin to whoop.",
+        "ts": "1435107704.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "bout honestly - given this: <http:\/\/www.businessinsider.com\/how-carnival-went-from-fun-ship-to-poop-cruise-2013-2?op=1> aren’t all cruises sort of juggalo cruises?",
+        "attachments": [
+            {
+                "service_name": "Business Insider",
+                "title": "DISASTER TIMELINE: How Carnival Went From 'Fun Ship' To 'Poop Cruise'",
+                "title_link": "http:\/\/www.businessinsider.com\/how-carnival-went-from-fun-ship-to-poop-cruise-2013-2?op=1",
+                "text": "A checkered past of highs and lows.",
+                "fallback": "Business Insider: DISASTER TIMELINE: How Carnival Went From 'Fun Ship' To 'Poop Cruise'",
+                "thumb_url": "http:\/\/static1.businessinsider.com\/image\/51252ea2eab8ea393f000011\/disaster-timeline-how-carnival-went-from-fun-ship-to-poop-cruise.jpg",
+                "from_url": "http:\/\/www.businessinsider.com\/how-carnival-went-from-fun-ship-to-poop-cruise-2013-2?op=1",
+                "thumb_width": 421,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1435107733.000088"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "poop cruise is a fun term",
+        "ts": "1435107762.000090"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "until you’re ON the poop cruise",
+        "ts": "1435107811.000091"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "So cruises are now the Go Daddy of vacations.",
+        "ts": "1435107821.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "haha",
+        "ts": "1435107871.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "by the transitive property does that make Go Daddy the ICP of hosts?",
+        "ts": "1435107930.000094"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yes",
+        "ts": "1435107947.000095"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I feel like I’ve learned so much today",
+        "ts": "1435107980.000096"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Come to think of it, it could be worse. You could be going to a ICP cover band cruise.",
+        "ts": "1435108124.000097"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i've never once thought about the fact that insane clown posse cover bands exist",
+        "ts": "1435108185.000098"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i feel like with that, this day is pretty complete",
+        "ts": "1435108193.000099"
+    },
+    {
+        "user": "U0260V1BX",
+        "topic": "Cruises are now the Go Daddy of vacations",
+        "type": "message",
+        "subtype": "channel_topic",
+        "text": "<@U0260V1BX|melissa> set the channel topic: Cruises are now the Go Daddy of vacations",
+        "ts": "1435108288.000100"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Agreed. Going back to my daughter now to apologize from bringing her into a world where ICP cover bands exist.",
+        "ts": "1435108333.000101"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "You can’t shelter her forever, Gaston.",
+        "ts": "1435108397.000102"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<http:\/\/boards.cruisecritic.com\/showthread.php?t=1380434>",
+        "attachments": [
+            {
+                "service_name": "Cruise Critic",
+                "title": "Did anyone go on the 311 cruise?",
+                "title_link": "http:\/\/boards.cruisecritic.com\/showthread.php?t=1380434",
+                "text": "Did anyone go on the 311 cruise? Carnival Cruise Lines",
+                "fallback": "Cruise Critic: Did anyone go on the 311 cruise?",
+                "image_url": "http:\/\/images.cruisecritic.com\/CruiseCriticLogo.png",
+                "from_url": "http:\/\/boards.cruisecritic.com\/showthread.php?t=1380434",
+                "image_width": 225,
+                "image_height": 64,
+                "image_bytes": 12786,
+                "id": 1
+            }
+        ],
+        "ts": "1435108415.000103"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F06NPJL8L\/margarita.png|margarita.png>",
+        "file": {
+            "id": "F06NPJL8L",
+            "created": 1435108505,
+            "timestamp": 1435108505,
+            "name": "margarita.png",
+            "title": "margarita.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 59811,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06NPJL8L\/margarita.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06NPJL8L\/download\/margarita.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06NPJL8L-9645a629e5\/margarita_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06NPJL8L-9645a629e5\/margarita_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06NPJL8L-9645a629e5\/margarita_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 161,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06NPJL8L-9645a629e5\/margarita_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 378,
+            "original_h": 169,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F06NPJL8L\/margarita.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F06NPJL8L-4ad62b9aae",
+            "channels": [
+                "C055NDRG1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1435108507.000105"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That would make a charming back tattoo.",
+        "ts": "1435108538.000106"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "agreed. though <@U026103R3> already has a margarita-themed back tattoo so i don’t want to copy her.",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1435108613.000000"
+        },
+        "ts": "1435108605.000107"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "zing",
+        "ts": "1435108631.000109"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hey man, we were all in college at some point...",
+        "ts": "1435108695.000110"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hey, trust me, I know exactly what you mean.",
+        "ts": "1435108729.000111"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "In the words of David Brent: \"Been there, done that, bought the T Shirt. Next...\"",
+        "ts": "1435109020.000112"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Which is what I have tattooed on my back. ",
+        "ts": "1435110121.000113"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+        "ts": "1435114689.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I will say this: ICP cruise might be bucket list for me",
+        "ts": "1435116379.000115"
+    }
+]

@@ -1,0 +1,648 @@
+[
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Reminder: Update Harvest.",
+        "ts": "1475251200.000642"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> I'm going to push a branch for localization, then the following zip file will be relevant",
+        "ts": "1475253021.000643"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F2J2T2CF8\/res.zip|res.zip>",
+        "file": {
+            "id": "F2J2T2CF8",
+            "created": 1475253062,
+            "timestamp": 1475253062,
+            "name": "res.zip",
+            "title": "res.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 97990,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2J2T2CF8\/res.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2J2T2CF8\/download\/res.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F2J2T2CF8\/res.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2J2T2CF8-bcde96f2d0",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1475253063.000644"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`localization_2.0`",
+        "ts": "1475253177.000645"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is the branch",
+        "ts": "1475253180.000646"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Step 1: All .xml files in the above zip need to have linebreaks put back in. I suggest using a program like TextMate to replace &lt;\/string&gt; with (newline) &lt;\/string&gt;",
+        "ts": "1475253217.000647"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Step 2:",
+        "ts": "1475253258.000648"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "remove all entries in the localized string files that are translatable=\"false\"",
+        "ts": "1475253275.000649"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(for some reason they left them in, and it causes a collision at compile time)",
+        "ts": "1475253284.000650"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Step 3:",
+        "ts": "1475253290.000651"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Take all those directories under \"res\/\" in the zip, and put them into the project under \"res\/\"",
+        "ts": "1475253310.000652"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then we talk",
+        "ts": "1475253315.000653"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> we need to prioritize 3PR event.apk over JS stuff",
+        "ts": "1475255423.000654"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just spoke with kat",
+        "ts": "1475255428.000655"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1475255428.000656"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "she has a 1:30 meeting (4:30 her time) that she would like it for - its that possible",
+        "ts": "1475255451.000657"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(they need to load up all of the devices pre-party)",
+        "ts": "1475255461.000658"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> please come to exlo",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1475255538.000000"
+        },
+        "ts": "1475255536.000659"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/docs.google.com\/presentation\/d\/17syFxVpgHPuMrnp9XaTTB2Lt81XpQn-5_d4Mna79n5M\/edit#slide=id.g114365c7ac_0_2>",
+        "ts": "1475255564.000661"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> can you take a look at this before i share with kat (also testing on my end)",
+        "ts": "1475259758.000663"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> shared a file: <https:\/\/uncorked.slack.com\/files\/midori\/F2J4CNVAT\/app-preview-debug.apk|app-preview-debug.apk>",
+        "file": {
+            "id": "F2J4CNVAT",
+            "created": 1475259758,
+            "timestamp": 1475259758,
+            "name": "app-preview-debug.apk",
+            "title": "app-preview-debug.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 41412773,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B_JWq5iYq6D-Q1hsLUxjS29HeGs\/view?usp=drivesdk",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F2J4CNVAT\/app-preview-debug.apk",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1475259759.000664"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "weird, this is asking me to open with chrome on my device - evans, we had a similar issue with this on a previous build but cant remember what the solve was",
+        "ts": "1475259892.000666"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay that new one is opening :slightly_smiling_face:",
+        "ts": "1475259915.000667"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "crud :disappointed:",
+        "ts": "1475259920.000668"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i cant get past gatekeeper w\/ NfcChip.apk - should i be testing with something else?",
+        "ts": "1475259988.000669"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "me too, with prod",
+        "ts": "1475260012.000670"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is the known xml file updated",
+        "ts": "1475260046.000671"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Yes. the one in preview directory, right? Do I need to commit changes before assemble?",
+        "ts": "1475260103.000672"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1475260135.000673"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh oh oh",
+        "ts": "1475260138.000674"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "preview one only changes the entries in dev-debug and preview-debug",
+        "ts": "1475260154.000675"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec",
+        "ts": "1475260167.000676"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry",
+        "ts": "1475260169.000677"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "do I need to create a known_case_prefixes in prod directory?",
+        "ts": "1475260201.000678"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec",
+        "ts": "1475260222.000679"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry sorry",
+        "ts": "1475260224.000680"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "shit - onboarding copy needs to be updated currently says “…explore the location in the Google Earth app…” can we change to “explore the location on Google Maps”",
+        "ts": "1475260937.000681"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also  super weird but the Earth setting screen is displaying Trends copy “The topics displayed on the live wallpaper…\"",
+        "ts": "1475260992.000682"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I am also seeing this. I don’t understand why",
+        "ts": "1475261004.000683"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "shortcut looks good, learn more link looks good",
+        "ts": "1475261054.000684"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "(first one, is a string I missed)",
+        "ts": "1475261071.000685"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "found second issue with descriptive text, I don’t know why that happened, but I’ll send the build in a second",
+        "ts": "1475261470.000686"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1:",
+        "ts": "1475261493.000687"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> shared a file: <https:\/\/uncorked.slack.com\/files\/midori\/F2J4S5S9F\/app-prod-debug.apk|MiniMe-event-debug-9_30_16-v1.apk>",
+        "file": {
+            "id": "F2J4S5S9F",
+            "created": 1475261788,
+            "timestamp": 1475261788,
+            "name": "app-prod-debug.apk",
+            "title": "MiniMe-event-debug-9_30_16-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 39713630,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B_JWq5iYq6D-TjAyWm10UnQ2a0U\/view?usp=drivesdk",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F2J4S5S9F\/app-prod-debug.apk",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1475261788.000689"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks good to me",
+        "ts": "1475261988.000691"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "looks good to me too! im going to relabel and send to kat :slightly_smiling_face:",
+        "ts": "1475262018.000692"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F2J4PN82Z\/translations-9-30__1_.zip|translations-9-30 (1).zip> and commented: updated finalized localizations (use these)",
+        "file": {
+            "id": "F2J4PN82Z",
+            "created": 1475262200,
+            "timestamp": 1475262200,
+            "name": "translations-9-30 (1).zip",
+            "title": "translations-9-30 (1).zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 174841,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2J4PN82Z\/translations-9-30__1_.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2J4PN82Z\/download\/translations-9-30__1_.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F2J4PN82Z\/translations-9-30__1_.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2J4PN82Z-7b82dbd264",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2J4PNK6H",
+                "created": 1475262200,
+                "timestamp": 1475262200,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "updated finalized localizations (use these)"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1475262200.000693"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> what branch are the earth event changes on",
+        "ts": "1475268090.000694"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "copy_updates",
+        "ts": "1475268103.000695"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "satellite view link <https:\/\/www.google.com\/maps\/@-10.040181,143.560709,13z\/data=!3m1!1e3>",
+        "ts": "1475268135.000696"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> I have code for you",
+        "ts": "1475269766.000697"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one moment",
+        "ts": "1475269771.000698"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "GLWallpaperRenderDispatch around line 1560",
+        "ts": "1475269873.000699"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F2J5Y4AJZ\/-.txt|Untitled>",
+        "file": {
+            "id": "F2J5Y4AJZ",
+            "created": 1475269881,
+            "timestamp": 1475269881,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 990,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2J5Y4AJZ\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2J5Y4AJZ\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F2J5Y4AJZ\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2J5Y4AJZ-859add25e4",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F2J5Y4AJZ\/-.txt\/edit",
+            "preview": "            intent = new Intent();\r\n            intent.setAction(Intent.ACTION_VIEW);\r\n            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);\r\n\r\n            String oldUrl = earthImage.getLinkUrl();\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>            intent = new Intent();<\/pre><\/div>\n<div><pre>            intent.setAction(Intent.ACTION_VIEW);<\/pre><\/div>\n<div><pre>            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>            String oldUrl = earthImage.getLinkUrl();<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 22,
+            "lines_more": 17,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1475269881.000700"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since we're not saving the necessary parameters in earth at the moment",
+        "ts": "1475269896.000701"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that will parse them back out of the earth format and turn them into a maps url that will launch in satellite mode",
+        "ts": "1475269912.000702"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay, do you want me to create a new build with this?",
+        "ts": "1475269922.000703"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "test it but yes",
+        "ts": "1475269932.000704"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> could you assist?",
+        "ts": "1475269935.000705"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sure thing",
+        "ts": "1475269975.000706"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> shared a file: <https:\/\/uncorked.slack.com\/files\/midori\/F2J6F8JM8\/minime-event-debug-9_30_16-v2.apk|MiniMe-event-debug-9_30_16-v2.apk>",
+        "file": {
+            "id": "F2J6F8JM8",
+            "created": 1475271192,
+            "timestamp": 1475271192,
+            "name": "MiniMe-event-debug-9_30_16-v2.apk",
+            "title": "MiniMe-event-debug-9_30_16-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 40858766,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B_JWq5iYq6D-UVg0Nm1NZXV1YXc\/view?usp=drivesdk",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F2J6F8JM8\/minime-event-debug-9_30_16-v2.apk",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1475271192.000708"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> client says looks great + thank you!!!",
+        "ts": "1475271884.000710"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks everyone!",
+        "ts": "1475271944.000711"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "woohoo!",
+        "ts": "1475272063.000712"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/s66.photobucket.com\/user\/Pour1Malt\/media\/Homer_the_Jambo.jpg.html>",
+        "attachments": [
+            {
+                "service_name": "Photobucket",
+                "title": "Photo by Robertson Malt",
+                "title_link": "http:\/\/s66.photobucket.com\/user\/Pour1Malt\/media\/Homer_the_Jambo.jpg.html",
+                "text": "Explore Robertson Malt's photos on Photobucket.",
+                "fallback": "Photobucket: Photo by Robertson Malt",
+                "image_url": "http:\/\/i66.photobucket.com\/albums\/h248\/Pour1Malt\/Homer_the_Jambo.jpg",
+                "from_url": "http:\/\/s66.photobucket.com\/user\/Pour1Malt\/media\/Homer_the_Jambo.jpg.html",
+                "image_width": 249,
+                "image_height": 249,
+                "image_bytes": 15508,
+                "service_icon": "http:\/\/pic2.pbsrc.com\/common\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1475272064.000713"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> should we create a new branch off of localization_2.0?",
+        "ts": "1475276256.000715"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just use it",
+        "ts": "1475276264.000716"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "cool",
+        "ts": "1475276404.000717"
+    }
+]

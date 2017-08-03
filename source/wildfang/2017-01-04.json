@@ -1,0 +1,419 @@
+[
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<http:\/\/thenextweb.com\/apple\/2016\/03\/18\/study-shows-chrome-beats-safari-ios-maybe-not-long\/> via @thenextweb",
+        "attachments": [
+            {
+                "service_name": "The Next Web",
+                "title": "Chrome beats Safari on mobile, but not for long",
+                "title_link": "http:\/\/thenextweb.com\/apple\/2016\/03\/18\/study-shows-chrome-beats-safari-ios-maybe-not-long\/",
+                "text": "An Adobe study shows Chrome is beating Safari up on iOS, but users like Safari better. The days of Chrome's dominance may be coming to an end.",
+                "fallback": "The Next Web: Chrome beats Safari on mobile, but not for long",
+                "image_url": "https:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/03\/JPEG-image-FA641DC3E47B-1.jpeg",
+                "image_width": 454,
+                "image_height": 250,
+                "fields": [
+                    {
+                        "title": "Author",
+                        "value": "Nate Swanner",
+                        "short": true
+                    }
+                ],
+                "ts": 1458322146,
+                "from_url": "http:\/\/thenextweb.com\/apple\/2016\/03\/18\/study-shows-chrome-beats-safari-ios-maybe-not-long\/",
+                "image_bytes": 281477,
+                "service_icon": "https:\/\/cdn3.tnwcdn.com\/wp-content\/themes\/cyberdelia\/assets\/icons\/apple-touch-icon-57x57.png?v=1470647965",
+                "id": 1
+            }
+        ],
+        "ts": "1483557091.000217"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I believe Chrome on iOS is waaaay diff. from Chrom on Android devices. Everything on iOS is forced to use the Safari renderer underneath, so Chrome on iOS would have same video limitations.",
+        "ts": "1483557692.000219"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Trying to see if iOS 10 brought along any changes",
+        "ts": "1483557705.000220"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Looks like we CAN grab a thumbnail of selected video on iOS 10 Safari <https:\/\/codepen.io\/aertmann\/pen\/mAVaPx>",
+        "attachments": [
+            {
+                "service_name": "CodePen",
+                "title": "Video and image thumbnail for HTML file upload",
+                "title_link": "https:\/\/codepen.io\/aertmann\/pen\/mAVaPx",
+                "text": "...",
+                "fallback": "CodePen: Video and image thumbnail for HTML file upload",
+                "image_url": "http:\/\/s3-us-west-2.amazonaws.com\/i.cdpn.io\/766713.mAVaPx.6805870f-4482-48bf-bcaf-ac5a5acea832.png",
+                "from_url": "https:\/\/codepen.io\/aertmann\/pen\/mAVaPx",
+                "image_width": 427,
+                "image_height": 250,
+                "image_bytes": 19768,
+                "service_icon": "https:\/\/production-assets.codepen.io\/assets\/favicon\/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1483557837.000221"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U243UT96G> <@U167FL70V> ^^",
+        "ts": "1483557846.000223"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "chrome on ios uses safari webkit underpinning, yes",
+        "ts": "1483557929.000224"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "also this: <https:\/\/github.com\/bfred-it\/iphone-inline-video> looks like it’s possible now",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "bfred-it\/iphone-inline-video",
+                "title_link": "https:\/\/github.com\/bfred-it\/iphone-inline-video",
+                "text": "iphone-inline-video - :iphone: Make videos playable inline on the iPhone (prevents automatic fullscreen)",
+                "fallback": "GitHub: bfred-it\/iphone-inline-video",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/1402241?v=3&s=400",
+                "from_url": "https:\/\/github.com\/bfred-it\/iphone-inline-video",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "service_icon": "https:\/\/github.com\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1483557949.000225"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "for inline playback",
+        "ts": "1483557955.000227"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "silently only",
+        "ts": "1483557967.000228"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "it has other functionality around network management and google functionality, but rendering should be similar",
+        "ts": "1483557970.000229",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1S5GKTHQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you shouldn’t need a node module for that tho",
+        "ts": "1483558062.000230"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "any &lt;video&gt; tag with no audio or muted audio should autoplay, and display inline vs fullscreen if properly tagged",
+        "ts": "1483558079.000231"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i don’t know if those new policies extend to ios chrome though and would not be surprised if they didnt",
+        "ts": "1483558099.000232"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "good call. i think module is to make it work on ios 8\/9. not sure those versions matter anymore",
+        "ts": "1483558128.000233"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ohhhh, ios 10 added the inline silent autoplay policy i believe",
+        "ts": "1483558145.000234"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/mixpanel.com\/trends\/#report\/ios_10>",
+        "attachments": [
+            {
+                "title": "Mixpanel Trends - Mixpanel | Mobile Analytics",
+                "title_link": "https:\/\/mixpanel.com\/trends\/#report\/ios_10",
+                "text": "Learn how people use your app with the world's most advanced mobile &amp; web analytics. Try it for free.",
+                "fallback": "Mixpanel Trends - Mixpanel | Mobile Analytics",
+                "from_url": "https:\/\/mixpanel.com\/trends\/#report\/ios_10",
+                "service_icon": "http:\/\/cdn.mxpnl.com\/cache\/92d520eee0f98b7b5c3656211c99d9c0\/images\/favicon.png",
+                "service_name": "mixpanel.com",
+                "id": 1
+            }
+        ],
+        "ts": "1483558177.000235"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "85% 10",
+        "ts": "1483558187.000237"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "we need audio tho",
+        "ts": "1483558955.000238"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you can’t autoplay video with audio on ios",
+        "ts": "1483558975.000239"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "right, so for our purposes it sounds like we still need a video-less fallback option",
+        "ts": "1483558996.000240"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "which is fine since that’s what we decided",
+        "ts": "1483559017.000241"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "but still, good to know the limitations and expanded functionality",
+        "ts": "1483559046.000242"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah, for future: it doesn’t have to be silent, can be muted, and unmute on click for instance",
+        "ts": "1483559102.000243"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "ah gotcha.  so we could use inline video...",
+        "ts": "1483559203.000244"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "<@U026PHQ3J> <@U1S5GKTHQ> should we tell the ziba folks that we can do the landing page w\/ video on mute?",
+        "ts": "1483559350.000245"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "as long as we’re comfortable doing it",
+        "ts": "1483559385.000246"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i think - i’m reading thru the spec now seems it supports the design",
+        "ts": "1483559423.000247"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i mentioned it in the client project slack, but i think ziba folks should be msged directly. i think we should do it w\/ caveat that it won’t play any sound until user interaction.",
+        "ts": "1483559463.000248"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "would like to prototype it today",
+        "ts": "1483559477.000249"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "good resource: <https:\/\/webkit.org\/blog\/6784\/new-video-policies-for-ios\/>",
+        "ts": "1483559487.000250"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "yes!  was looking at that article",
+        "ts": "1483559511.000251"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "best lead-in image",
+        "ts": "1483559523.000252"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i’ll put something on the homepage today so we can test",
+        "ts": "1483559527.000253"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "ha!  yes very nice",
+        "ts": "1483559536.000254"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sweet",
+        "ts": "1483559658.000255"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "also do you need autoplay video or just inline video? autoplay can work inline with audio if it’s user initiated ie <https:\/\/nostalgic-wyrm.gomix.me>",
+        "attachments": [
+            {
+                "title": "Welcome to Gomix!",
+                "title_link": "https:\/\/nostalgic-wyrm.gomix.me",
+                "text": "A cool thing made with Gomix",
+                "fallback": "Welcome to Gomix!",
+                "from_url": "https:\/\/nostalgic-wyrm.gomix.me",
+                "service_name": "nostalgic-wyrm.gomix.me",
+                "id": 1
+            }
+        ],
+        "ts": "1483559717.000256"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "just sent out an email with follow up notes from our meeting today, if anyone is curious to know what is the what and didn’t get the message lmk and i’ll fwd it on",
+        "ts": "1483565477.000258"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "short version is that we’re gonna shoot for a soft launch by saturday",
+        "ts": "1483565501.000259"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i would love to have eyes on it!",
+        "ts": "1483565501.000260"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "which means we need some help from folks testing on friday if possible",
+        "ts": "1483565513.000261"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok <@U06DFL7BP> i’ll fwd it on to you",
+        "ts": "1483565533.000262"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thanks",
+        "ts": "1483565537.000263"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i am happy to test and am real good at breaking shit and documenting how",
+        "ts": "1483565548.000264"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "word up i will likely take you up on that",
+        "ts": "1483565566.000265"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i think we’ll have to play it by ear since it’s hinging on our ability to get everything up on the wf aws stack, which <@U1S5GKTHQ> is gonna be working on next couple days",
+        "ts": "1483565618.000266"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "but ideally we’d test some stuff friday morning so if there’s anything groundbreaking we can look into getting it fixed or deal with it then",
+        "ts": "1483565659.000267"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "the native iOS fullscreen controls don’t accept touch events, so you can’t unmute on fullscreen but",
+        "ts": "1483566360.000268"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you can unmute THEN fullscreen",
+        "ts": "1483566364.000269"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "currently tied this to just a general click on video, but could create other custom fullscreen UI elements to do the same",
+        "ts": "1483566378.000270"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/nostalgic-wyrm.gomix.me>",
+        "ts": "1483566383.000271"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "tested on ios 10 only :neutral_face:",
+        "ts": "1483566418.000272"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i will stop now",
+        "ts": "1483567091.000273"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "thanks <@U06DFL7BP>! really helpful. nice how simple this is. i was expecting a battle.",
+        "ts": "1483570107.000277"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "it will require some custom UI tho, so designers beware (and some decisions about like, unmuting in situ, or pausing on minimize, etc)",
+        "ts": "1483570870.000278"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i did a lot of stupid shit with mobile web video in previous jobs so please let me know if i can help",
+        "ts": "1483570880.000279"
+    }
+]

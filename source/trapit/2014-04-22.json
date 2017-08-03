@@ -1,0 +1,728 @@
+[
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "just to follow up — I spoke with Hank just now, and they ARE hoping to include comments on the blog",
+        "ts": "1398181520.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks for confirming that.",
+        "ts": "1398181714.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Also, quick update on the Hubspot Cert. We passed their test and I'm finishing a theme they ask us to build as a practicum. Should be done and shipped today.",
+        "ts": "1398181776.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "awesome",
+        "ts": "1398182274.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "fantastic",
+        "ts": "1398182280.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and have we pushed any updates to staging recently?",
+        "ts": "1398182289.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "THANK YOU GASTON!",
+        "ts": "1398182291.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Thanks gaston",
+        "ts": "1398182310.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "do you guys have any thoughts on commenting - whether we use styled hubspot built-in commenting vs some third party? i.e. facebook or disqus?",
+        "ts": "1398182354.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "assuming hubspot would be easiest",
+        "ts": "1398182361.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I'd defer to whatever is easiest from implementation detail",
+        "ts": "1398182386.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "If we are using hubspot's blog engine - we should be using their comment system.",
+        "ts": "1398182432.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "k",
+        "ts": "1398182439.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "As a precursor to Trapit state of Union meeting - Please holler any random questions you are having about the project. I'll try to gather as many answers as possible before our meeting tomorrow.",
+        "ts": "1398184013.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I'll kick it off:",
+        "ts": "1398184017.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "• Do we know where they're hosting videos? If yes, do we have credentials?",
+        "ts": "1398184039.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i believe theyre using YouTube for all of their videos",
+        "ts": "1398184057.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but i can email hank to confirm",
+        "ts": "1398184062.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i'm going to gather a bunch of stuff an email in single",
+        "ts": "1398184080.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok sounds good",
+        "ts": "1398184087.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "agree they've hosted on YT, just want to confirm and know that we have ability to pull as needed",
+        "ts": "1398184104.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "• Analytics — Do we have a solid handle on their desired setup? This applies to both HubSpot and GA. Guessing this is mostly covered by simple GA integration, but making sure we have all credentials we need.",
+        "ts": "1398184150.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Another question to add to the list is RE: sign up forms. This is probably more of a design question. Do we know which one the client wants to use? Do we have designs for error messages (required fields are empty)? Do we know where that email should be sent to?",
+        "ts": "1398186598.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "I haven't done error messages yet, but i am going to do that today",
+        "ts": "1398186638.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "when you say \"do we know which one the client wants to use\" what do you mean?",
+        "ts": "1398186650.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The PSD has a few different versions. I wasn't sure which one we're building.",
+        "ts": "1398186694.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "OH",
+        "ts": "1398186698.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes",
+        "ts": "1398186699.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0265G76F> i mocked up two different versions of the form— a traditional and a mad-lib style. Justin and i were chatting about maybe AB testing them?",
+        "ts": "1398186751.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "I'd say we should go ahead and build Form 1 and we may AB test that with Form 3",
+        "ts": "1398186799.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "in regards to analytics - we do have access to their GA account and Hubspot",
+        "ts": "1398186873.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "as for their DESIRED setup - I dont think there is one",
+        "ts": "1398186899.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I think we'll be driving that entirely on our end",
+        "ts": "1398186911.000034"
+    },
+    {
+        "text": "[trapit-site-2014\/] 4 new commits:\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/96c68f5b9e53a374fba20861ea60741c27497e88|96c68f5b9e53>: Added optimized image and deleted empty line.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/b4094a6aede1c70b4ff1a3fc69008353ea58ddee|b4094a6aede1>: Using previous version of Susy for stability.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/9a819d6469660771b38d24a1d14fb4e38bf8959d|9a819d646966>: Added stroke style to blocks and updated What People page.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/5263742c330bdb8f46f24edaa71a073ad09ff540|5263742c330b>: Applied block strokes to resources page.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B028E7DJW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1398190204.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "re: commenting - we'll want to know how many levels they want. i.e. do they want people to be able to respond to other user's comments or do they want a single level?",
+        "ts": "1398190229.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "think single is fine",
+        "ts": "1398190278.000037"
+    },
+    {
+        "text": "[trapit-site-2014\/master] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/fbd75fd2a29f30d1dde2e998904187a3e3bdd2bd|fbd75fd2a29f>: Added easytabs. Updated markup and styles for the tabs section.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B028E7DJW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1398196751.000038"
+    },
+    {
+        "text": "[trapit-site-2014\/] 3 new commits:\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/f293f038664b32f090deb2e9119bb55b05a11494|f293f038664b>: Removed hash update when switching between tabs.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/2d54bd0a78c9ddc9c6aa38117a4b7adc3b4fac41|2d54bd0a78c9>: Added arrow tips to the active content tabs.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/4aab5ac2ba133152c59961bbed81914bcbc96322|4aab5ac2ba13>: Extended tab nav beyond the layout's grid.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B028E7DJW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1398197674.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hey <@U0260V1BX>, I just pushed an initial implementation of the tabbed content to <http:\/\/trdev.uncorkedstudios.com\/resources|trdev.uncorkedstudios.com\/resources>",
+        "ts": "1398197771.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Can take a quick look and see if this the right direction? I wasn't sure what happens when folks click on \"Source name.\"",
+        "ts": "1398197820.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "awesome!",
+        "ts": "1398197821.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i am working on an updated PSD that has type styles for blog posts, commenting, error states for forms, and i will also make sure to add in hover states where applicable.",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1398197885.000000"
+        },
+        "ts": "1398197875.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "the only thing thats wrong here is that clicking on the title of the article should open the link in a new tab.",
+        "ts": "1398197919.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and the title should go to teal on hover (i think)",
+        "ts": "1398197931.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but the rollover state looks great! exactly what i had in mind.",
+        "ts": "1398197944.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Oh, totally misunderstood that. Got it now. Thanks!",
+        "ts": "1398197953.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah np- i didn't document it at all, so i wouldnt have expected you to necessarily get that :)",
+        "ts": "1398197975.000049"
+    },
+    {
+        "text": "[trapit-site-2014\/] 3 new commits:\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/8f0d52eb136d729d0e5f74bb036b19fac26483ea|8f0d52eb136d>: Made tab section modular and added it to the home page.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/80894072b45168cb12490eb7cd81f685080bb325|80894072b451>: Created temp tab item includes and made the tab item headers links.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/eb1301a1d586f13bea6bc3748b5bad75fe93381c|eb1301a1d586>: Using CSS transform for the content item's hover animation to improve performance.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B028E7DJW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1398201895.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "shaking the tree for a moment to see if there's any more random questions that have emerged — Clarifications, blockage, would be nice to knows, etc?",
+        "ts": "1398204959.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The only thing I can think of is Instagram related. We're going to need to create an \"app\" using their account so we can show the feed on the site. What we need from them is their Instagram credentials.",
+        "ts": "1398205220.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks gaston!",
+        "ts": "1398205413.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "just FYI for team Trapit here — I'm about to make our questions google doc a client-facing thing",
+        "ts": "1398207195.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sounds good",
+        "ts": "1398207206.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "sounds good",
+        "ts": "1398207210.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so if anything gets added to it, please remember Hank will be on it",
+        "ts": "1398207215.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks for the notice. think sharing with hank is a great idea!",
+        "ts": "1398207246.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "i'm going to take a quick pass if you don't mind waiting a minute to share.",
+        "ts": "1398207259.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "no prob. I've been rephrasing stuff to be less about 'we're going to need this from them..' more — we'd like to have this from you",
+        "ts": "1398207319.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "is there a new version? the one i am looking at was edited Mar 12",
+        "ts": "1398207341.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and if there is a new one can you share it with me pls",
+        "ts": "1398207375.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "yes",
+        "ts": "1398207419.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "added all trapit people",
+        "ts": "1398207445.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks",
+        "ts": "1398207453.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks",
+        "ts": "1398207455.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "if you have something to add, add it here first.",
+        "ts": "1398207457.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "re: the awards bit - i'd say lets steer them clear of showing any existing awards, as those are awards for an old product",
+        "ts": "1398207530.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "if they absolutely insist on showing awards, i will have to design a module for them.",
+        "ts": "1398207556.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and re: the signup form questions, those arent nec. questions for hank... except the last one.",
+        "ts": "1398207602.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Im not really involved in this day-to-day - but showing awards for something that doesn't exist any more feels off brand for a company that's supposed to be able clarity of information",
+        "ts": "1398207614.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "right",
+        "ts": "1398207628.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "agreed.",
+        "ts": "1398207633.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i imagine at some point they might win another award, so i would rather design for that now rather than have them shoehorn them in later",
+        "ts": "1398207665.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "or actually that can wait til later",
+        "ts": "1398207679.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I just want to steer them away of anything that even leans towards \"what can we get away with\"",
+        "ts": "1398207720.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "agreed.",
+        "ts": "1398207727.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "it's totally counter to what they need to be",
+        "ts": "1398207732.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "so karen i am going to delete that part",
+        "ts": "1398207743.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "what part",
+        "ts": "1398207752.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "the question about the awards",
+        "ts": "1398207763.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "because they dont have any",
+        "ts": "1398207769.000082"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ok",
+        "ts": "1398207782.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "who is in charge of this doc, ewald or karen?",
+        "ts": "1398207788.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "i am",
+        "ts": "1398207793.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "well, we're both adding\/changing things around",
+        "ts": "1398207801.000086"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "hopefully that answers it",
+        "ts": "1398207817.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i’ve got a couple CMS questions that i didn’t mention earlier bc they can be answered internally",
+        "ts": "1398207981.000088"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "e.g., image sizes, if we want min or max characters for certain text fields, etc.",
+        "ts": "1398207999.000089"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "but since this doc is an agenda of sorts, maybe we should add content restrictions as a topic to cover",
+        "ts": "1398208074.000090"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "sure, great addition",
+        "ts": "1398208096.000091"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<@U0265G76F>: think we should add this to an internal agenda or okay to add to the doc Trapit State of the Union",
+        "ts": "1398208138.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sorry - catching up",
+        "ts": "1398208311.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "re: awards — I hear you guys, as do the salespeople",
+        "ts": "1398208356.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i don't know if it makes sense to, somewhere in \"About\" put some sort of historical reference",
+        "ts": "1398208388.000095"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i don't think they should put the huge logos of awards",
+        "ts": "1398208398.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but I know they're still quite proud (and happy with the legitimacy it gets them) of the webby",
+        "ts": "1398208419.000097"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "think they could have a one paragraph blurb about the consumer years of Trapit, ending with \"we won a webby\"",
+        "ts": "1398208441.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "re: CMS — think those are likely more internal things that we can answer.",
+        "ts": "1398208467.000099"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "yeah - I think if it's contextualized, that's totally different",
+        "ts": "1398208480.000100"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "think we should add back in then\/",
+        "ts": "1398208554.000101"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "jenny i'll add your cms questions to the internal state of the union agenda &amp; i'll make sure we cover.",
+        "ts": "1398208572.000102"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "cool thx karen",
+        "ts": "1398208594.000103"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "OK. I will add that to my design task list as well",
+        "ts": "1398208599.000104"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "so is the agenda that’s shared with me the internal one?",
+        "ts": "1398208664.000105"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "external",
+        "ts": "1398208763.000106"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "the agenda that's internal looks the same but will house the additional things we mention here, i.e., questions that might be internal",
+        "ts": "1398208790.000107"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "happy to create another GDoc to share it",
+        "ts": "1398208809.000108"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0265G76F>: thoughts on making the nav stick to the top of the page?",
+        "ts": "1398210039.000109"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "(and with it, the free demo button\/CTA)",
+        "ts": "1398210049.000110"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "assuming it doesn't break anything, especially at mobile sizes, I think it'd be great",
+        "ts": "1398210411.000111"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah i would imagine we would just disable it for mobile",
+        "ts": "1398210429.000112"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "if it causes a problem",
+        "ts": "1398210437.000113"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and assuming we have enough visual division that would hold up — e.g. white nav with white backgrounds = potential confusion",
+        "ts": "1398210451.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "actually we'll probably have different solution for mobile altogether",
+        "ts": "1398210453.000115"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but in general, i think it's a great idea",
+        "ts": "1398210510.000116"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "*google doc is now public",
+        "ts": "1398210741.000117"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks David",
+        "ts": "1398210757.000118"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "no more swears against Hank or his family",
+        "ts": "1398210774.000119"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i'll keep those to slack",
+        "ts": "1398210798.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that's what it's for.",
+        "ts": "1398210820.000121"
+    }
+]

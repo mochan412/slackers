@@ -1,0 +1,527 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <!channel> i’m working on other projects today but am happy to help out on magnum if needed. Let me know if \/ how I can be of any help!",
+        "ts": "1440016821.000002"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "thanks melissa!",
+        "ts": "1440017746.000003"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "guys - ben just reached out with some ‘feedback’",
+        "ts": "1440017759.000004"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "using quotation marks here because i think by and large what he’s giving us feedback on can be changed in the CMS and this might be a good opportunity for us to show them how to make these changes and enter items into the cms",
+        "ts": "1440017799.000005"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "here’s what he wrote: \n- I noticed the front page takes lots of time to load, and was wondering if the thumbnail pictures could not be done in lower resolution)\n- The country for Samar Hazboun is missing\n- Would be good to space out a bit more between the dots for Lebanon and Palestine\n- Eman Helal’s dot of Egypt is now in Mauritania\n- Reem Falaknaz’ country should be UAE to keep it consistent with the others",
+        "ts": "1440017844.000006"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "<@U02618EV1>, do you have thoughts on the landing page load time\/resolution question?",
+        "ts": "1440017946.000007"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "i haven’t experienced a problem with loading it. thinking it might be ben’s connection speed.",
+        "ts": "1440017964.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "mauritania is my fault. :raised_hand: I should have let <@U026PLK4S> do the pins because apparently he’s really good at maps.",
+        "ts": "1440017973.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": ":simple_smile:",
+        "ts": "1440017984.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "LOL",
+        "ts": "1440017989.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "INSIDE JOKE GUYS",
+        "ts": "1440017995.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but hey, i just learned something. mauritania is right next to egypt",
+        "ts": "1440018012.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "wow no it is not",
+        "ts": "1440018028.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i thought mauritania was a weed cocktail",
+        "ts": "1440018032.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "haha",
+        "ts": "1440018038.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "personally, i think we can do something about the first one without using smaller thumbs.",
+        "ts": "1440018078.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "but i also don’t really know what i’m talking about, so take that with a grain of salt",
+        "ts": "1440018093.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah just like, optimize it or whatever",
+        "ts": "1440018127.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "sure. or even as some smoke and mirror. i doubt it’s in best practice, but we have some VQA notes \/ examples of sites that “pre-load” (maybe not the right word), but provide a  loading animation \/ page \/ etc. It doesn’t make the photos load any quicker, but it does make the site feel polished and deliberate.",
+        "ts": "1440018260.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i’ll look and post. not saying we should do it, or add it, but maybe we can talk about it",
+        "ts": "1440018288.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sorry, my comment was a joke",
+        "ts": "1440018319.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "dumb slack",
+        "ts": "1440018324.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "aaaaah. yeah.",
+        "ts": "1440018337.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but agree on the smoke and mirror as a way to mitigate if we can’t do anything else",
+        "ts": "1440018373.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "A couple of things, the original images are about 3 time bigger than the layout calls for. I think that after the mobile jambaroo we can come up with sizes for Jenny to add to the CMS. That in itself should help a bit.",
+        "ts": "1440018373.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "oh nice.",
+        "ts": "1440018388.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The benefit of lazyloading (over preloading) is that the user can see something immediately instead of waiting for 10 big images to load.",
+        "ts": "1440018442.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "are we preloading currently?",
+        "ts": "1440018483.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Nope",
+        "ts": "1440018486.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "right. well, i don’t think this should derail us. i say keep the eyes on the prize. this stuff should wait until we’re ready for final polish. maybe we can talk more about it then",
+        "ts": "1440018508.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Agreed.",
+        "ts": "1440018566.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "If we still think that may be an option, we should scope it out to get a sense for how long would take us to implement.",
+        "ts": "1440018619.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Awesome. That’s cool to hear.\n\nI’m like 50\/50 on lazy vs pre, personally. but just so everyone else can have some context, these are some examples of pre-loading that i collected. \n\nI bet when we optimize images, they’ll load fast enough to resolve the feedback, but if they don’t, maybe we can look into something like this:\n\n<http:\/\/www.nicolasfleure.com\/>\n<http:\/\/thenouncollective.com\/>\n<http:\/\/www.wearehive.co.uk\/>",
+        "attachments": [
+            {
+                "text": "We are hive, a London based studio designing digital products &amp; services. -",
+                "fallback": "We are hive, a London based studio designing digital products &amp; services. -",
+                "from_url": "http:\/\/www.wearehive.co.uk\/",
+                "id": 1
+            }
+        ],
+        "edited": {
+            "user": "U026PLK4S",
+            "ts": "1440018704.000000"
+        },
+        "ts": "1440018688.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "those are nice examples",
+        "ts": "1440018793.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "pretty minimal \/ tasteful, right? I had a handful more that were interesting, but pushed a little too far over the top.\n\n<http:\/\/ecap.co.nz\/>\n<http:\/\/houseworx.co.nz\/>\n<http:\/\/workdiary.de\/>",
+        "attachments": [
+            {
+                "title": "Michael Schmid - German Digital Designer &amp; Developer",
+                "title_link": "http:\/\/workdiary.de\/",
+                "text": "Michael Schmid is a German Digital Designer &amp; Developer, focusing on Graphic Design and Web Design.",
+                "fallback": "Michael Schmid - German Digital Designer &amp; Developer",
+                "image_url": "http:\/\/workdiary.de\/images\/icon_card.png",
+                "from_url": "http:\/\/workdiary.de\/",
+                "image_width": 333,
+                "image_height": 250,
+                "image_bytes": 110086,
+                "id": 1
+            }
+        ],
+        "ts": "1440019092.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Interesting. I think you’re right, they’re a little heavy… but this is one of the few place on this site where we can be a little clever right? So I almost wonder if we could push it a bit. I think my personal fave is the Nicolas Fleure one. Anyway, I’m getting ahead of myself - we’ll see if we even need to resort to this. Hopefully the smaller asset size will just work.",
+        "ts": "1440019507.000040"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "<@U02613K0X> thoughts on having them make changes to the projects that they requested in the CMS?",
+        "ts": "1440019674.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i changed mauritania to egypt",
+        "ts": "1440019713.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i am more than happy to make the changes unless you’d like to use it as an opportunity to introduce the cms",
+        "ts": "1440019764.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Well, we're going to have to teach them how to use the CMS sometime. Not sure what the plan for doing that was, but functionally I see no problem with them using it whenever.",
+        "ts": "1440019775.000044"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "if you think now is fine it seems like a great opportunity to me",
+        "ts": "1440019801.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah seems like a good idea",
+        "ts": "1440019805.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "We should make them a new CMS user account before giving them access",
+        "ts": "1440019805.000047"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "cool",
+        "ts": "1440019815.000048"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "can we copy their vimeo creds for ease?",
+        "ts": "1440019828.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Sure. I'll add the user in a min and let you know",
+        "ts": "1440019853.000050"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "thank you!",
+        "ts": "1440020861.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "there were problems with the length of the username, so I went with username and pass of magnum and magnum2015",
+        "ts": "1440021329.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hope that works",
+        "ts": "1440021332.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "can easily change either",
+        "ts": "1440021343.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "(this user has been added to the staging\/prod CMS, not dev)",
+        "ts": "1440021372.000055"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "can you send me the link to the staging\/prod CMS?",
+        "ts": "1440022204.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<http:\/\/cms.staging.arabdocphotography.org\/>",
+        "ts": "1440022221.000057"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "thank you!",
+        "ts": "1440022225.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "That is staging and controls content of the staging site. When we launch production the url will change but that's all. Prod and staging use the same datastore.",
+        "ts": "1440022270.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "theres a typo on the login page of the cms - admim instead of admin :simple_smile:",
+        "ts": "1440022272.000060",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U0260V1BX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "dang",
+        "ts": "1440022286.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "sorry to be the typo person",
+        "ts": "1440022294.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "admim has a nice ring to it",
+        "ts": "1440022297.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "fixing now!",
+        "ts": "1440022308.000064"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "<https:\/\/www.youtube.com\/watch?v=UNjkuHQGa2w>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Madam Mim (English)",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=UNjkuHQGa2w",
+                "author_name": "Muggio01",
+                "author_link": "https:\/\/www.youtube.com\/user\/Muggio01",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/UNjkuHQGa2w\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Madam Mim (English)",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"https:\/\/www.youtube.com\/embed\/UNjkuHQGa2w?feature=oembed\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=UNjkuHQGa2w",
+                "id": 1
+            }
+        ],
+        "ts": "1440022327.000065",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U0518TGU8",
+                    "U02613K0X",
+                    "U02618EV1"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":thumbsup:",
+        "ts": "1440022527.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U04JZANJF> do you know if we have ages for the artists? There's a spot in the designs for them to appear next to their location, but I haven't seen that info anywhere in stuff we've gotten from the client.",
+        "ts": "1440025343.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "not sure if that should be a required item.",
+        "ts": "1440025378.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "seems like it would just be a pain to keep updating...",
+        "ts": "1440025421.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah, it's not required, but there's a spot for it in the designs and to my knowledge we don't have it for anybody. is it something we'll ever get for anybody?",
+        "ts": "1440025425.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ha yeah",
+        "ts": "1440025430.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "29 (in 2015)",
+        "ts": "1440025445.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'd rather not write a script that updates everyone's ages given their bday",
+        "ts": "1440025449.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":birthday:",
+        "ts": "1440025461.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "we may want to change “REQUIRED ITEMS” to like…. “ARTIST INFO\"",
+        "ts": "1440025525.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ok i'll make that change",
+        "ts": "1440025597.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks jenny",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1440025619.000000"
+        },
+        "ts": "1440025614.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<!channel>: I wrote to Magnum president Susan Meiselas earlier today on another topic. She responded and added:\n\n\"VERY much like the work that Uncorked did for ADPP….elegant and essential!\"\n\nAll caps are hers. And I'm going on record that if anybody was to be a harsh critic, it's her. She's wonderful, but direct. \n\nSo...extra nice work, and a delight to get as part of an unprompted response. Go team! ",
+        "ts": "1440038377.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Great to  hear. Thanks for sharing, David.",
+        "ts": "1440038758.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "Love that critique. Very encouraging, couldn't agree more — great work team!",
+        "ts": "1440042862.000004"
+    }
+]

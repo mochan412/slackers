@@ -1,0 +1,495 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Couple of thoughts from call:\n- <@U0261PCRQ> using with thousands of photos is unwieldy - can we consider revisiting the flow for selection to allow users to go to drive? Should we let the user choose drive or photos (and if multiple accounts, which  account?)\n- <@U026PHQ3J> on location, would it be possible to spin up the gps on the hour in combination with the displacement to ensure a good lock once an hour?\n- cari is pushing on the color wash but wants to do two tone (the same effect on the website) - <@U026PHQ3J> can we use the color wash code we already tested for two tone (how much would it take to move to two-toning a gradient)? <@U0261PCRQ> would need a picker like the map styles with \"style your photo to match your case\" and let the user pick from a selection of two-tones",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1454449893.000000"
+        },
+        "ts": "1454449868.000002"
+    },
+    {
+        "user": "U02613K0X",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U02613K0X|jenny> has left the channel",
+        "ts": "1454449962.000004",
+        "reactions": [
+            {
+                "name": "disappointed",
+                "users": [
+                    "U06DFL7BP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "someone explain two tone to me",
+        "ts": "1454450257.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause i dont think so",
+        "ts": "1454450259.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "It's a color wash but instead of one color a gradient from one to another ",
+        "ts": "1454450308.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no definitely not",
+        "ts": "1454450345.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t understand how adding more sources for images makes the process less unwieldy",
+        "ts": "1454450677.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Drive has folders?:grimacing::grimacing::grimacing:",
+        "ts": "1454450738.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the selection we were using originally, that pulled from all the different image sources, is mostly what people are used to",
+        "ts": "1454451122.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "how many non-googlers even use drive?",
+        "ts": "1454451132.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "[to store their photos]",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1454451515.000000"
+        },
+        "ts": "1454451144.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we can add another choice for them to select the source, but account selection is going to be inside of that app, we can’t say “open drive using their personal account” just “open drive” and they’ll have to find their own personal account",
+        "ts": "1454451216.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I can do a test and take some screenshots of what it looks like",
+        "ts": "1454451224.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I cannot open the Drive app to allow users to select photos from there. If we want to do image selection from Drive as a standalone, we’d have to do an integration like we did for gifs, or we could look at the Drive API again and let users select images from the file picker that provides.",
+        "ts": "1454452110.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Hmmmmm",
+        "ts": "1454453754.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Can we do the selection like we had before but prompt for account every time? I'm guessing no ",
+        "ts": "1454453768.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> <@U026PHQ3J> that store build issue seems...weird ",
+        "ts": "1454454760.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its my fault from landscape fix",
+        "ts": "1454455068.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushing a fix now, but can't test in this meeting",
+        "ts": "1454455074.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> could you test this on the 6p? make sure that places looks ok, and moments landscapes are shifted left",
+        "ts": "1454455127.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, please rev the version info for it",
+        "ts": "1454455265.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry",
+        "ts": "1454455267.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: where is the 6p?",
+        "ts": "1454455319.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "maybe adrian has it",
+        "ts": "1454455343.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "got it",
+        "ts": "1454455363.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can also be tested on a 6",
+        "ts": "1454455365.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just tested moments",
+        "ts": "1454455368.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks fine",
+        "ts": "1454455370.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i dont have places unlocked on my phone)",
+        "ts": "1454455376.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(and i dont have a USB cable with me)",
+        "ts": "1454455382.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also he says not bother with back button thing yet",
+        "ts": "1454455799.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i got more info, its only when he launched to gatekeeper from launcher",
+        "ts": "1454455808.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then unlocked",
+        "ts": "1454455812.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "subsequent launches are fine",
+        "ts": "1454455816.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh interesting",
+        "ts": "1454455831.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "places looks good to me",
+        "ts": "1454455946.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool!",
+        "ts": "1454455983.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ship it",
+        "ts": "1454455985.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically the short format is that",
+        "ts": "1454455990.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to determine that a photo is landscape, i am going based on width vs. height",
+        "ts": "1454456007.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and if the photo is wider than it is tall",
+        "ts": "1454456015.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i shift off to the left by default",
+        "ts": "1454456021.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oic",
+        "ts": "1454456027.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in the case of places, where the tile is square",
+        "ts": "1454456028.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "tim doesn’t have a keystore apparently… he has a .pem and .pk8",
+        "ts": "1454456036.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "any insight there?",
+        "ts": "1454456039.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i have to lop off the bottom 30px to kill the google logo",
+        "ts": "1454456045.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which triggers the shift unexpectedly",
+        "ts": "1454456053.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in meeting, dunno",
+        "ts": "1454456256.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "brb",
+        "ts": "1454456257.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1454456259.000054"
+    },
+    {
+        "text": "set up a reminder “@kat to make separate build flavors for release builds” in this channel at 9am tomorrow, Pacific Standard Time. ",
+        "type": "message",
+        "subtype": "reminder_add",
+        "user": "U0261PCRQ",
+        "ts": "1454463881.000055"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Sorry y'all, back from inspection. Did we get any updated builds out or is that what the reminder is?",
+        "ts": "1454464675.000056"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "See em!",
+        "ts": "1454464862.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can reproduce the stuck tiles on location update thing",
+        "ts": "1454467035.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Will figure something out, but must be related to something outside of us",
+        "ts": "1454467052.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "weird thing on the tiles is geography and tiles are different scales",
+        "ts": "1454468086.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok so from my own stuff it looks like installing a debug build over another build makes location updates not deliver",
+        "ts": "1454468270.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "bug reports are not helpful",
+        "ts": "1454468657.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right",
+        "ts": "1454470721.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the thing about the debug builds is absolutely the case",
+        "ts": "1454470729.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the system silently stops sending location updates",
+        "ts": "1454470747.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i understand whats going on with it, i sent it in the email",
+        "ts": "1454471039.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "going to trace to see wtf is going on with the tabs.",
+        "ts": "1454471046.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Its glide I think",
+        "ts": "1454471492.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep;",
+        "ts": "1454471678.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gonna try using getContext().getApplicationContext()",
+        "ts": "1454471688.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like the glide error is killing it before the preference is necessarily commited. BUT",
+        "ts": "1454471711.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not sure about the places one",
+        "ts": "1454471715.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh wait",
+        "ts": "1454471717.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah the places one makes sense too in this case",
+        "ts": "1454471727.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushed the change to git.",
+        "ts": "1454471737.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sent a build to adam real quick to check. that fixed the crash but not the missing tab.",
+        "ts": "1454472994.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "will discuss in the AM",
+        "ts": "1454473000.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also",
+        "ts": "1454473020.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "adam asked about \"if photos has no images, can we set back to the system\"",
+        "ts": "1454473032.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which - oddly - we _might_ actually be able to do",
+        "ts": "1454473040.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/developer.android.com\/reference\/android\/app\/WallpaperManager.html>",
+        "ts": "1454473040.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/developer.android.com\/reference\/android\/app\/WallpaperManager.html#getDrawable()>",
+        "ts": "1454473061.000026"
+    }
+]

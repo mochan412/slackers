@@ -1,0 +1,168 @@
+[
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<!channel>: i'm set up in echo chamber for our 1030.",
+        "ts": "1420482641.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "we can move to the room with the planar if we need to.",
+        "ts": "1420482657.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026AP8CM> the GUI option for auto-restarting the app is Lingon: <https:\/\/www.peterborgapps.com\/lingon\/>",
+        "attachments": [
+            {
+                "text": "Lingon is an easy to use utility that run things automatically on your Mac",
+                "fallback": "Lingon is an easy to use utility that run things automatically on your Mac",
+                "from_url": "https:\/\/www.peterborgapps.com\/lingon\/",
+                "id": 1
+            }
+        ],
+        "ts": "1420484985.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U0265G76F>: I did a little bit of homework on touch screen hardware.   Planar has recently overhauled the \"EP\" line of displays - as in they no longer manufacture the display we\/OMSI\/ASC have.   In the overhaul, they have switched touch vendors to PQ Labs (And made the displays bigger 58\" and 65\" with 4k support).",
+        "ts": "1420486167.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "oh interesting",
+        "ts": "1420486184.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "The touch bezel they are now using is the G4 Basic 6 from here: <http:\/\/www.pqlabs.com\/product_kit.html>",
+        "ts": "1420486206.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it's still an IR, but it's pretty much the best IR bezel out there and would have been the exact one that I would have suggested.",
+        "ts": "1420486243.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "cool",
+        "ts": "1420486253.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "does it ONLY come in bigger size?",
+        "ts": "1420486261.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the downfall of the mac is that the mac currently has ZERO gesture support.  Or atleast vendors haven't figured out how to make the touch panel be registered like a trackpad - so all touch screens for macs are current'y registering as a mouse device and thus much of our pain...",
+        "ts": "1420486408.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "yes it ONLY comes in bigger.",
+        "ts": "1420486420.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "They make a \"PS\" series that still comes in smaller",
+        "ts": "1420486454.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "and those likewise have been upgraded recently to the PQ Labs touch bezels.   Those had been using ones from some vendor I dont know called Lumio",
+        "ts": "1420486506.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "PS screens come in 46\" (ASC),  55\" (OMSI\/us), 65\", and 70\"",
+        "ts": "1420486566.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "This is the closest replacement to what we have that Planar now makes: <http:\/\/www.planar.com\/products\/large-format-displays\/ps\/ps5561t\/>",
+        "attachments": [
+            {
+                "text": "Planar PS5561T, Ultra-slim 55\" multi-touch LCD display offering up to 6 touch points and is compatible with Windows 7, 8, Vista, XP, MacOS X and Linux.",
+                "fallback": "Planar PS5561T, Ultra-slim 55\" multi-touch LCD display offering up to 6 touch points and is compatible with Windows 7, 8, Vista, XP, MacOS X and Linux.",
+                "from_url": "http:\/\/www.planar.com\/products\/large-format-displays\/ps\/ps5561t\/",
+                "id": 1
+            }
+        ],
+        "ts": "1420486624.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "It also cost 1\/2 the price compared tothe one we have ($5k instead of $10k)",
+        "ts": "1420487037.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<!channel> so I'm pretty sure that mouse cursor bug is all because of the hardware. in particular, the IR bezel and its driver.",
+        "ts": "1420490490.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "assuming we change that out, the problem _should_ go away",
+        "ts": "1420490501.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I don't know yet about using a software solution to catch the error",
+        "ts": "1420490523.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026NB2U2>: Do you care if I directly email Planar with questions about upgrading the touch bezel?",
+        "ts": "1420492813.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I have two planar email addresses in my inbox from 1.5 years ago when we were first trying to do this with OMSI.",
+        "ts": "1420492853.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "no issues whatsoever - maybe cc Karen and me for continuity's sakes",
+        "ts": "1420494548.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "(or maybe name recognition from back then)",
+        "ts": "1420494560.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<!channel> today I tried to work out the mouse-cursor\/scrolling-stopped-working\/things-on-top-of-other-things bug. I may have fixed it but I can't tell. The mouse cursor still does show up sometimes though, because there's a second bug that causes that (related, but only at a very high level)",
+        "ts": "1420509022.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "oh also I did the change to the \"Filter Topic\" copy.",
+        "ts": "1420509052.000028"
+    }
+]

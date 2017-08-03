@@ -1,0 +1,236 @@
+[
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<@U0289USNA>, <@U02613K0X> here's a thought for the smart quotes button. I don' think I want to put it above the content container, but think it could be nice stuck to the bottom of the text field. As the system grows, i could see this area growing across the bottom for headlines, bold \/ italics, etc. \n\nThe quote icon is in fact already included in the font, and I'm hoping we can also increase the text padding below, so that we don't get any weird overlap. I don't quite remember if this is a toggle or just a button, but in either case we can use the orange+white as a way to show hover or toggle. \n\nWhat do we think?",
+        "ts": "1397583013.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1397583021.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "That's definitely a good starting point...",
+        "ts": "1397583246.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "not that we need the button on one line text fields like blog\/work titles but if we did, not sure how that would get implemented on single line - maybe it appear at the end of the line.",
+        "ts": "1397583348.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "and what do you think of the idea of only showing this button when the textbox is \"active\" (orange stroke rather than grey)",
+        "ts": "1397583387.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i like the idea of showing it only when “active”",
+        "ts": "1397583529.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Is there any other \"cleanup\" stuff that might make sense in a \"validate\" thing?",
+        "ts": "1397583560.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So instead of by-block, there would be a blanket \"check for a bunch of stuff\" option",
+        "ts": "1397583574.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I worry that this is a little cumbersome from an ease of use angle",
+        "ts": "1397583597.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "what else is there?",
+        "ts": "1397583597.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "probably nothing",
+        "ts": "1397583602.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":neutral_face:",
+        "ts": "1397583616.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oof",
+        "ts": "1397583620.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I guess what i'm thinking is that it adds a per-block action to writing a blog post",
+        "ts": "1397583636.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah i see what you mean",
+        "ts": "1397583646.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<@U0289USNA>, i forgot, is this going to work on the field overall? or only on a selection?",
+        "ts": "1397583754.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the field overall - not a selection",
+        "ts": "1397584386.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026PHQ3J>: we(?) decided that we cant do smart quotes as a blanket always validation task because to many people do things like &lt;a href=\"\"&gt; in their blog post and smart quotes will break those.",
+        "ts": "1397584492.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ahhhhh",
+        "ts": "1397584500.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That makes so much sense I could die.",
+        "ts": "1397584510.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "we are doing this on a block-by-block basis so people are responsible for their own content.",
+        "ts": "1397584554.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "we could do something like this: <http:\/\/cl.ly\/image\/363i05343n0l>",
+        "attachments": [
+            {
+                "service_name": "CloudApp",
+                "title": "Screen Shot 2014-04-15 at 11.02.23 AM.png",
+                "title_link": "http:\/\/cl.ly\/image\/363i05343n0l",
+                "fallback": "CloudApp: Screen Shot 2014-04-15 at 11.02.23 AM.png",
+                "image_url": "http:\/\/f.cl.ly\/items\/193M3f0Y32380u031y3S\/Screen%20Shot%202014-04-15%20at%2011.02.23%20AM.png",
+                "from_url": "http:\/\/cl.ly\/image\/363i05343n0l",
+                "image_width": 965,
+                "image_height": 542,
+                "image_bytes": 124890,
+                "id": 1
+            }
+        ],
+        "ts": "1397584956.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "make it appear when the block is active",
+        "ts": "1397584968.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "it could replace the \"hints\" for other things, like synopsis, this could replace \"one sentence\" when active",
+        "ts": "1397585102.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "that works too.",
+        "ts": "1397585516.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that one feels less intrusive to me",
+        "ts": "1397585634.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "not that the other one was really",
+        "ts": "1397585643.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "naw. this is fine. i was worried about conflicts with \"helper\" info, but if we're smart about showing when active, then i really like it",
+        "ts": "1397585672.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I think as long as we move users at this point to a common area for \"admin\" stuff, it solves my problem nicely",
+        "ts": "1397585684.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "If that list gets longer, we can sink it into a menu",
+        "ts": "1397585696.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but at least we can train people to look there for this kind of stuff",
+        "ts": "1397585712.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(yes, I treat galapagos as an external product and not an internal toy)",
+        "ts": "1397585738.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I've been thinking of ways to indicate when we're using the wrong tag in blog posts and came up with this:",
+        "ts": "1397586374.000035"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1397586388.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "What do you guys think? Too passive-agressive?",
+        "ts": "1397586429.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "BTW, this isn't targeted at you <@U026PLK4S>. I'm just thinking long term when we have new people\/interns, etc.",
+        "ts": "1397586516.000038"
+    }
+]

@@ -1,0 +1,309 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>: did you update the firmware on any of the TI beacons?",
+        "ts": "1403636173.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I attempted to but lost interest when I couldn't find a new firmware version to download from TI's website",
+        "ts": "1403636266.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1403636272.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i know one of the beacons is using fw from 7\/12, and another is using from 10\/12",
+        "ts": "1403636296.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J> do you need any of the data files on the S5 or can I can them?",
+        "ts": "1403636540.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nope",
+        "ts": "1403636609.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "k",
+        "ts": "1403636619.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Separate BLE implementation that seems to speak with the TI beacons: <https:\/\/github.com\/StevenRudenko\/BleSensorTag>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "StevenRudenko\/BleSensorTag",
+                "title_link": "https:\/\/github.com\/StevenRudenko\/BleSensorTag",
+                "text": "BleSensorTag - This is not an official application for TI SensorTag. It is a sample project for Bluetooth Low Energy (BLE) usage on Android. There was Texas Instruments SensorTag module used for demonstration.",
+                "fallback": "GitHub: StevenRudenko\/BleSensorTag",
+                "thumb_url": "https:\/\/avatars1.githubusercontent.com\/u\/72448?s=400",
+                "from_url": "https:\/\/github.com\/StevenRudenko\/BleSensorTag",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "id": 1
+            }
+        ],
+        "ts": "1403637678.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>:  you still around?",
+        "ts": "1403637800.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm modifying this guy's code a bit and would like to check it out on the s5 if possible",
+        "ts": "1403637814.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm doing a stationery test in the parking lot",
+        "ts": "1403637893.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1403637897.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I've got maybe 25 more minutes here",
+        "ts": "1403637921.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no rush",
+        "ts": "1403637928.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "The app still falls asleep btw",
+        "ts": "1403638310.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok. I'll find whatever the new method is for it in API &gt; 17",
+        "ts": "1403638324.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Thanks",
+        "ts": "1403638338.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>: working on wake lock still, but got you a standardized directory",
+        "ts": "1403638534.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for when you return",
+        "ts": "1403638537.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":grinning:",
+        "ts": "1403638538.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Cool!",
+        "ts": "1403638590.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>: i think I got wakelock working, but it still dims the screen (brightness, not lock) - but I can't test very well cause the battery is almost dead on this device",
+        "ts": "1403639331.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm also looking into this new library which seems to be most of what we care about, but also supports the TI chips - making sure I can 1:1 the data before I make the switch",
+        "ts": "1403639368.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Excellent",
+        "ts": "1403639388.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/makezine.com\/2014\/01\/03\/reverse-engineering-the-estimote\/>",
+        "attachments": [
+            {
+                "service_name": "MAKE",
+                "service_url": "http:\/\/makezine.com",
+                "title": "Reverse Engineering the Estimote",
+                "title_link": "http:\/\/makezine.com\/2014\/01\/03\/reverse-engineering-the-estimote\/",
+                "author_name": "Alasdair Allan",
+                "author_link": "https:\/\/makezine.com\/author\/aallan\/",
+                "thumb_url": "https:\/\/i1.wp.com\/makezineblog.files.wordpress.com\/2013\/12\/img_1312.jpg?fit=440%2C330",
+                "thumb_width": 440,
+                "thumb_height": 330,
+                "text": "It's actually fairly hard to get your hands on an Estimote developer preview kit—as its still shipping in limited numbers—but I managed to get one of the early developer kits and, predictably, took one of the beacons apart.",
+                "fallback": "MAKE Link: Reverse Engineering the Estimote",
+                "from_url": "http:\/\/makezine.com\/2014\/01\/03\/reverse-engineering-the-estimote\/",
+                "id": 1
+            }
+        ],
+        "ts": "1403645077.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Under the covers info on the Estimote and its weird iBeacon implementation",
+        "ts": "1403645092.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "interesting read",
+        "ts": "1403646635.000030"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403654296.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm about to take a nap, but I set up one of each of the three beacons in my apartment to see how they interacted in a small, but walled space. Granted these are three variants, but I can definitely see a few spots (there a place where \"bedroom\" and \"bathroom\" are generically equidistant) where its a little iffy so far as clarity on where I am in the place",
+        "ts": "1403654365.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Basically its easier to see where I'm not than it is to see where I am",
+        "ts": "1403654494.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "equidistant shouldn't make a difference to a triangulation algorithm?",
+        "ts": "1403654782.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "What I'm saying I guess is that the basic \"am I NOT in the bathroom\" search falls apart when I'm walking past it on my way to the bedroom",
+        "ts": "1403654886.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(Looking for floor plan right now)",
+        "ts": "1403654895.000036"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403655027.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Approx.",
+        "ts": "1403655031.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Beacon placement noted",
+        "ts": "1403655040.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The walls in here seem to have almost no affect on the signal, except around the washer\/dryer which are running",
+        "ts": "1403655245.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "A file was commented on",
+        "file": null,
+        "comment": null,
+        "ts": "1403660119.000041"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403677468.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "A couple things about these. The RSSI is a running average of the past 10 readings (arbitrary) - not doing any high\/lowpass filtering on it.",
+        "ts": "1403677492.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Its definitely the case that the TI has the strongest signal especially when close (it is the only one that stays consistently under -60dBm when next to it)",
+        "ts": "1403677530.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the only hangup is that it also goes into low-power mode every time it feels like it and stops responding",
+        "ts": "1403677551.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "This thing is determining that you are in a room based on a couple things: the average RSSI readings, their previous trend (were you getting closer or moving further away - since we can't teleport yet), the particular threshold for a given beacon device (in this case, I just capped it at -65, which isn't optimal for the general case), and whether or not the sensor that is the candidate is also the largest RSSI value. or smallest if you run the abs on it.",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1403678022.000000"
+        },
+        "ts": "1403677654.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going back to bed for a bit, but I'll modify this new app tomorrow to have some more useful testing features - right now its matching a \"Room\" object to the bluetooth address. Also its not recording anything to any files anymore.",
+        "ts": "1403677798.000047"
+    }
+]

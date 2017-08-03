@@ -1,0 +1,150 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks gaston. hey i was wondering if you could take a look at this plugin : <http:\/\/briangonzalez.github.io\/jquery.adaptive-backgrounds.js\/>",
+        "ts": "1398355956.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thinking about how to treat small feed images",
+        "ts": "1398355968.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "wondering if we can pull the dominant color from the image to fill in the background",
+        "ts": "1398356000.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "or if that will be too intensive",
+        "ts": "1398356008.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I guess we can try this and see how it performs. My only concern is that this will run on every image on those tabs, which isn't ideal. At this point I'm wondering if it would make more sense to use our backend to process images instead of having the browser do that plus everything else it has to do for those tabs.",
+        "ts": "1398358310.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "right that makes sense",
+        "ts": "1398358379.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok i am happy to just pick a hex to apply across the board",
+        "ts": "1398358392.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0289USNA>: What do you think? Some of the images we're getting from the feed are huge so it would be great to have a way to chop them so the browser doesn't have to scale that.",
+        "ts": "1398358416.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <@U02618EV1>, are we able to detect what type of device people are on and display content differently for folks on touchscreen devices? i'm thinking specificallly about blog links and feed links - would love to show a version of those tiles with the summary displayed since there will be no hover state.",
+        "ts": "1398362980.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes. We can detect when the device is touch enabled. The only caveat to that is that devices with pens or laptops with touch screens (such as the one next to my desk) are also put in the \"touch devices bucket.\"",
+        "ts": "1398363571.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "that's fine.",
+        "ts": "1398363595.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Cool.",
+        "ts": "1398363606.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "hey <@U0260V1BX> do you know which layout of the Our Story section in About is the one we're going with? 3 cols of text vs 2 cols of text + awards?",
+        "ts": "1398363823.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "lets go with 3 columns. i have a feeling we are going to have to put awards in somewhere but i'm not certain where it will go",
+        "ts": "1398363936.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "it depends on where they want to talk about it.",
+        "ts": "1398363952.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Perfect. Thanks.",
+        "ts": "1398364009.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "did trapit team\/hank\/pat pass along the in progress copy we talked about on wednesday during the state of the union",
+        "ts": "1398381243.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes, but theres not much yet",
+        "ts": "1398381336.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "is it in a google doc?",
+        "ts": "1398381395.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "just forwarded it to you",
+        "ts": "1398381437.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks",
+        "ts": "1398381441.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Ok <@U02618EV1>, i've posted PDFs of wires for every page for both mobile and tablet (~720) layouts, and also nav and footer: clients\/TrapIt\/Trapit Website 2014\/ Assets to Gaston\/PDF DOCUMENTATION\/MOBILE + MEDIUM WIDTH LAYOUTS \/",
+        "ts": "1398385492.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "these should be enough to get you going, and then we can tweak in QA if we need to.",
+        "ts": "1398385522.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks <@U0260V1BX>. Can you also post the Sketch\/PSD files? Sometimes measuring proportions and styles is easier done from the source file.",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1398387748.000000"
+        },
+        "ts": "1398387732.000025"
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> `NPE_Moments_7_6`",
+        "ts": "1467907078.000235"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "renamed `NPE_Moments_7_6` to `release-31`",
+        "ts": "1467909445.000236"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "might do the work for ApiClient in there later",
+        "ts": "1467909461.000237"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just not sure how fast that will be",
+        "ts": "1467909468.000238"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i'll branch off of release-31 to do it)",
+        "ts": "1467909474.000239"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "standup, ya’ll!",
+        "ts": "1467910828.000240"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> the fun thing is that even in the google sdk docs for the old camera API, they catch runtime exceptions on .open()",
+        "ts": "1467913318.000241"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/developer.android.com\/guide\/topics\/media\/camera.html>",
+        "attachments": [
+            {
+                "title": "    Camera | Android Developers  ",
+                "title_link": "https:\/\/developer.android.com\/guide\/topics\/media\/camera.html",
+                "text": "The Android framework includes support for various cameras and camera features available on devices, allowing you to capture pictures and videos in your applications. This document discusses a quick, simple approach to image and video capture and outlines…",
+                "fallback": "    Camera | Android Developers  ",
+                "from_url": "https:\/\/developer.android.com\/guide\/topics\/media\/camera.html",
+                "service_icon": "https:\/\/developer.android.com\/favicon.ico",
+                "service_name": "developer.android.com",
+                "id": 1
+            }
+        ],
+        "ts": "1467913324.000242"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sweet",
+        "ts": "1467914939.000244"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1J4BQX7G>: build coming your way to test if you get 5.1.1 installed and can recreate crash with store build.",
+        "ts": "1467919901.000245"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "5.1.1 is up and running and jenkins logged in",
+        "ts": "1467919916.000246"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "gonna try and repro in a few minutes",
+        "ts": "1467919932.000247"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F1PP8RY0G\/app-prod-debug.apk|app-prod-debug.apk>",
+        "file": {
+            "id": "F1PP8RY0G",
+            "created": 1467919948,
+            "timestamp": 1467919948,
+            "name": "app-prod-debug.apk",
+            "title": "app-prod-debug.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 38199073,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1PP8RY0G\/app-prod-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1PP8RY0G\/download\/app-prod-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F1PP8RY0G\/app-prod-debug.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1PP8RY0G-3991695c84",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1467919951.000248"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "run this AFTER you can make the crash happen. This will prevent the crash, but doesn't do much else ATM. If you see the crash happen, grab a bug report",
+        "ts": "1467919953.000249"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "I can repro the flashlight crash, but the GIFs and images crash is eluding me...might be because I don't have a photos chip around so I have to keep re-opening the NFC app to switch the background.",
+        "ts": "1467922830.000250"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "one problem: I can't seem to find where to generate a bug report on Lollipop 5.1.1 - if you have any ideas lemme know",
+        "ts": "1467922859.000251"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "There's no `Developer Options` in Settings",
+        "ts": "1467922872.000252"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "is there USB Debugging",
+        "ts": "1467922910.000253"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gifs and images in the store build is very tough to repro",
+        "ts": "1467923037.000254"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you have to turn developer options on",
+        "ts": "1467923053.000255"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "thanks to <@U06DFL7BP> for figuring out the incredibly obscure feature of repeatedly tapping on the Build Number to trigger Developer Mode",
+        "ts": "1467923145.000256"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "gg google",
+        "ts": "1467923147.000257"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m not going to make it to the meeting",
+        "ts": "1467923210.000258"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1J4BQX7G|jack> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jack\/F1PQL7U3C\/bugreport-2016-07-07-13-26-24.txt|bugreport-2016-07-07-13-26-24.txt> and commented: Old skool bug report",
+        "file": {
+            "id": "F1PQL7U3C",
+            "created": 1467924987,
+            "timestamp": 1467924987,
+            "name": "bugreport-2016-07-07-13-26-24.txt",
+            "title": "bugreport-2016-07-07-13-26-24.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U1J4BQX7G",
+            "editable": false,
+            "size": 9475669,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1PQL7U3C\/bugreport-2016-07-07-13-26-24.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1PQL7U3C\/download\/bugreport-2016-07-07-13-26-24.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jack\/F1PQL7U3C\/bugreport-2016-07-07-13-26-24.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1PQL7U3C-e33ceb582e",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc1PNPMY75",
+                "created": 1467924987,
+                "timestamp": 1467924987,
+                "user": "U1J4BQX7G",
+                "is_intro": true,
+                "comment": "Old skool bug report"
+            }
+        },
+        "user": "U1J4BQX7G",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jack",
+        "bot_id": null,
+        "ts": "1467924989.000259"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, i shouldve mentioned the dev mode million tap thing <@U1J4BQX7G> - totally forgot about that",
+        "ts": "1467925185.000260"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0261PCRQ> thank you so much for addressing Tims request! Just saw that",
+        "ts": "1467935936.000261"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "evans did the update, I just made the build",
+        "ts": "1467935968.000262"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you both then. ",
+        "ts": "1467936275.000263"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans was right next to me and i somehow missed him. so smooth ",
+        "ts": "1467936304.000264"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Very impressive",
+        "ts": "1467938974.000265"
+    }
+]

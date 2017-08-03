@@ -1,0 +1,106 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/hackaday.com\/2017\/07\/14\/a-3d-scanner-that-archimedes-could-get-behind\/>",
+        "attachments": [
+            {
+                "service_name": "Hackaday",
+                "service_url": "http:\/\/hackaday.com",
+                "title": "A 3D Scanner that Archimedes Could Get Behind",
+                "title_link": "http:\/\/hackaday.com\/2017\/07\/14\/a-3d-scanner-that-archimedes-could-get-behind\/",
+                "author_name": "Dan Maloney",
+                "author_link": "https:\/\/hackaday.com\/author\/dpsm64\/",
+                "thumb_url": "https:\/\/i1.wp.com\/hackadaycom.files.wordpress.com\/2017\/07\/dipping-e1499896395674.png?fit=200%2C150&ssl=1",
+                "thumb_width": 200,
+                "thumb_height": 113,
+                "text": "3D-scanning seems like a straightforward process &mdash; put the subject inside a motion control gantry, bounce light off the surface, measure the reflections, and do some math to reconstruct the shape in three dimensions. But traditional 3D-scanning isn&rsquo;t good for subjects with complex topologies and lots of nooks and crannies that light can&rsquo;t get to. Which is why volumetric 3D-scanning could become an important tool someday.\nAs the name implies, volumetric scanning relies&nbsp;on measuring the change in volume of a medium as an object is moved through it. In the case of [Kfir Aberman] and [Oren Katzir]&rsquo;s &ldquo;dip scanning&rdquo; method, the medium is a tank of water whose level is measured to a high precision with a float sensor. The object to be scanned is dipped slowly into the water by a robot as data is gathered. The robot removes the object, changes the orientation, and dips again. Dipping is repeated until enough data has been collected to run through a transformation algorithm that can reconstruct the shape of the object. Anywhere the water can reach can be scanned, and the video below shows how good the results can be with enough data. Full details are available in the PDF of their paper.\nWhile optical 3D-scanning with the standard turntable and laser configuration will probably be around for a while, dip scanning seems like a powerful method for getting topological data using really simple equipment.\nThanks to [bmsleight] for the tip.",
+                "fallback": "Hackaday Link: A 3D Scanner that Archimedes Could Get Behind",
+                "from_url": "http:\/\/hackaday.com\/2017\/07\/14\/a-3d-scanner-that-archimedes-could-get-behind\/",
+                "service_icon": "https:\/\/s0.wp.com\/wp-content\/themes\/vip\/hackaday-2\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1500102343.761874"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<https:\/\/www.thingiverse.com\/thing:1943171>",
+        "attachments": [
+            {
+                "title": "Curta Calculator Type I scaled at 3:1 by mwu",
+                "title_link": "https:\/\/www.thingiverse.com\/thing:1943171",
+                "text": "The Amazing Curta Calculator is now 3D Printable! New group for discussion, bragging rights, and help with Curta builds: <https:\/\/www.thingiverse.com\/groups\/curta> See video of the Curta in action. See for my original build for details on the project. The CAD files are shared on OnShape Update 7\/6\/2017 After manually aligning all the 5mm number stencils on the lower and upper housing and then messing up the paint, I decided to create stencils for it (lower_housing.dxf and upper housing numbers.dxf). Those stencils are now uploaded. Also, I have added a group for those building the Curta. I will be answering questions there and I look forward to seeing pictures of people's in-progress builds: <https:\/\/www.thingiverse.com\/groups\/curta> Update 6\/27\/2017 Updated the main axle and step drum model. The old one works, but the hole for the crank handle pin was 90 degrees off. This change is basically cosmetic. Update 5\/3\/2017 Updated a few files that were requiring too much manual fitting work. The zero positioning disk is updated for easier printing \/ better teeth for the anti-reversal pawl. Added missing crank pin file. Adding dxf files representing paint masks for numbering and lettering. I cut these from vinyl with a Cricut machine. Updating the BOM because the torsion springs for anti-reversal pawl and zero positioning lever recommended in the BOM were way too strong. I ended up making these springs by hand. The BOM is now available as PDF and XLS files. Adding the initial draft of the build manual. This covers the entire build process -- including making the springs mentioned above. Feedback on this build manual is desired and welcome -- help me improve it for others please. Update 3\/29\/2017 -- In the process of preparing the build manual, I have a list of several files which need correcting to get correct assembly and functionality out of the Curta. I recommend waiting until I can get these changes published before doing much printing if you haven't yet. Particularly, the mount hole for the crank handle on the main shaft was 90 degrees from where it should have been. While the build manual is taking me some time, I am excited by the progress on it so far. In the process I have disassembled and reassembled the second Curta which helped me find and eliminate extra friction. I will have another video of the Curta going up soon which will cover a simple, but difficult calculation that has eluded a correct result on the 3D printed Curta until now. That calculation is simply starting at 0, adding 1, then subtracting 1. The result should be a completely zero result with zero showing on the turns counter as well. Since the Curta utilizes addition for subtraction, the calculation requires the Curta to rotate every result and turns counter dial to 9 and a carry operation to cascade all the way around bringing each digit back to 0. Update 3\/9\/2017 -- I have assembled a second Curta and taken loads of pictures along the way. I can now either work on a build manual utilizing the photos I took or a series of build videos. There are a LOT of photos and a lot of steps involved. What would you prefer (google form poll)? Update 1\/18\/2017 -- I have updated the transmission gear and lockout parts to be printable using a 0.4mm nozzle instead of a 0.25mm nozzle. Thanks to the feedback from MikeHenry. I also updated a repaired Lower Housing.stl due to non-manifold edges. Update 01\/06\/2017 -- I found that the tens bell also had non-manifold edges causing problems when slicing. A repaired copy has been uploaded. Update 12\/30\/2016 -- I found that the main axle and step drum had non-manifold edges that may cause problems when slicing (Simplify3D skips a few layers in the next to last row of teeth). I uploaded a repaired copy. Update 12\/17\/2016 -- I found a part I had missed uploading a file for. It's the securing spring for the zero positioning plate. I have now added the file and added it to the BOM. Update 12\/12\/2016 -- I just added layer height, infill, orientation, and support notes to the printed files in the BOM. First step in getting actual build instructions.",
+                "fallback": "Curta Calculator Type I scaled at 3:1 by mwu",
+                "image_url": "https:\/\/cdn.thingiverse.com\/renders\/49\/22\/72\/c0\/48\/d8b77814593d458ded3a090bf172d17c_preview_featured.jpg",
+                "from_url": "https:\/\/www.thingiverse.com\/thing:1943171",
+                "image_width": 333,
+                "image_height": 250,
+                "image_bytes": 78142,
+                "service_icon": "https:\/\/www.thingiverse.com\/img\/favicons\/apple-touch-icon-57x57.png",
+                "service_name": "thingiverse.com",
+                "id": 1
+            }
+        ],
+        "ts": "1500145229.808783"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Woah. Nice.",
+        "ts": "1500145526.833373"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "part of the secret: stencils",
+        "ts": "1500145565.836571"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/imgur.com\/a\/ZAx7R>",
+        "attachments": [
+            {
+                "service_name": "Imgur",
+                "title": "3D Printed Curta Calculator Build",
+                "title_link": "http:\/\/imgur.com\/a\/ZAx7R",
+                "text": "Imgur: The most awesome images on the Internet.",
+                "fallback": "Imgur: 3D Printed Curta Calculator Build",
+                "image_url": "http:\/\/i.imgur.com\/TALlutF.jpg",
+                "image_width": 333,
+                "image_height": 250,
+                "from_url": "http:\/\/imgur.com\/a\/ZAx7R",
+                "image_bytes": 1320768,
+                "service_icon": "http:\/\/s.imgur.com\/images\/favicon-152.png",
+                "id": 1
+            }
+        ],
+        "ts": "1500145566.836645"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "(and bondo)",
+        "ts": "1500145577.837616"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "So great.",
+        "ts": "1500145611.840337"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Definitely want to print this someday.",
+        "ts": "1500145627.841616"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "For port #2 on the smooth stepper. <https:\/\/www.amazon.com\/Uxcell-Ribbon-Cable-Pitch-Length\/dp\/B01BI00AUA\/ref=sr_1_1?s=electronics&amp;ie=UTF8&amp;qid=1500153167&amp;sr=1-1&amp;keywords=idc+26>",
+        "ts": "1500153192.395218"
+    }
+]

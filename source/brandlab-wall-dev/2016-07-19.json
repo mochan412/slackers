@@ -1,0 +1,403 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: neither of these links loaded for me on Uncorked network.  Do I need to clear Local Storage or something?",
+        "ts": "1468945460.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its probably not running, will check",
+        "ts": "1468945513.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like the box got restarted and IS didnt",
+        "ts": "1468945531.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`\/usr\/local\/bin `",
+        "ts": "1468945553.000048"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<#C0MQJP06A>",
+        "ts": "1468945554.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "lol nice",
+        "ts": "1468945562.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":crab:",
+        "ts": "1468945564.000051",
+        "reactions": [
+            {
+                "name": "avp",
+                "users": [
+                    "U06DFL7BP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks <@U0EL0GLEL> i’m in the cubby experience but the access token pop up for admin won’t load.  cleared local stoage etc.  i think we’ve seen issues on the google side with this before, ya?",
+        "ts": "1468946207.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "You need to edit your \/etc\/hosts file. ",
+        "ts": "1468946284.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "appears to be the uncorked.ddns thing",
+        "ts": "1468946296.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i updated the ip there but it doesnt seem to have propogated",
+        "ts": "1468946307.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Or that...",
+        "ts": "1468946310.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "lol",
+        "ts": "1468946314.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "editing your host would fix is",
+        "ts": "1468946314.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "On my way in, but stuck on the wrong side of the train...",
+        "ts": "1468946353.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "A better fix would be to set up a dns on our network",
+        "ts": "1468946377.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah checked again on the ddns site, the right ip is in there, they just havnt updated yet for some reason",
+        "ts": "1468946387.000061"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you can also try clearing your dns cache locally (in terminal type ```dscacheutil -flushcache```)",
+        "ts": "1468946401.000062",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "trying",
+        "ts": "1468946427.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "adding <http:\/\/uncorked.ddns.net|uncorked.ddns.net> 192.168.170.123 to your \/etc\/hosts file would fix it",
+        "ts": "1468946447.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i added it to mine yesterday as they seemed to have been taking a while to propogate. surprising to see it still isnt updated today. last time i had to do that they had it updated within a few minutes of doing it",
+        "ts": "1468946517.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hm, ok thanks",
+        "ts": "1468946540.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "regarding cubby experience, how do i not get the unassigned cubby to show? <http:\/\/192.168.170.123:9980\/DisplayActivityActivity\/index.html#?cubbyID=14>  i keep changing the number of the ID but all i get is unassgined",
+        "ts": "1468946577.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "well you have to push the workshop and preset, if you cant get into admin then you are not able to do that",
+        "ts": "1468946685.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": ":slightly_smiling_face:",
+        "ts": "1468946809.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i’m in!",
+        "ts": "1468947600.000070"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #82 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #82 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468948625.000071"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #82 Failure after 25 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                "id": 1,
+                "color": "d00000",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #82 Failure after 25 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468948646.000072"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #83 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                "id": 1,
+                "color": "d00000",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #83 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468948866.000073"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #83 Back to normal after 6 days 16 hr (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #83 Back to normal after 6 days 16 hr (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468948887.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: whats the URL for preset admin?",
+        "ts": "1468949203.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "192.168.170.123:9990\/SchedulerAdminActivity\/index.html",
+        "ts": "1468949253.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "rad, thanks",
+        "ts": "1468949294.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "wow awesome! the initials on the bubbles worked first shot,",
+        "ts": "1468959937.000078",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Fuck yeah. ",
+        "ts": "1468960259.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Do a build and we can swing by around 3 to see alllll the progress?",
+        "ts": "1468960276.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "oh awesome",
+        "ts": "1468960293.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "nice work",
+        "ts": "1468960296.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure can do that, the letter isnt completely centered, i think destin used a W when he coded it which of course shows up centered but a P is to the left a little. Im looking into how to center that better. but otherwise it looks great. the whole transition is much better",
+        "ts": "1468960356.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Way to go man. Keep rockin ",
+        "ts": "1468960471.000084"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "in the free world",
+        "ts": "1468960515.000085"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: saw your jira updates. i can swing by at 3. can ya have build up on your machine by then?  also can i view this build by hitting the ip’s you shared earlier?",
+        "ts": "1468963022.000086"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its up on my machine now",
+        "ts": "1468963207.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if you look at test you will see it now",
+        "ts": "1468963217.000088"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks (in a mtg)",
+        "ts": "1468963235.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "coolz",
+        "ts": "1468963244.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "apologies if I’m thrashing your local wall display sessions - trying to get some messages via Traceroute",
+        "ts": "1468967735.000091"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll work on it later",
+        "ts": "1468967740.000092"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "for future reference, from Rob, regarding a slow motor setting: \"would need to be demo'd on hardware here, but need to be uploaded in mass by someone (likely me when I revisit bl sbo in like a month or whatever for campfire), and would have to be scoped\/change ordered\/ accordingly paid for\"",
+        "ts": "1468970698.000093"
+    }
+]

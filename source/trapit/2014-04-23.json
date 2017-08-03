@@ -1,0 +1,394 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> do you know when we can start using CMS to feed the FE? I.e.,  adding dummy content and accessing endpoints to test everything works on both ends.",
+        "ts": "1398272596.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1> you can start adding dummy content in whenever you like. There are probably some kinks that need to be worked out, so if you find anything crazy, let me know. Image uploads don’t work for most things yet; I’ll be working on that today.",
+        "ts": "1398272773.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "and give me ~10 minutes so i can finalize and push some changes i made this morning",
+        "ts": "1398272817.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Sounds good. Also, when convenient can you send me the url (and creds) and also the endpoints? Not a rush but whenever they are available.",
+        "ts": "1398272890.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "the url and credentials that work are on basecamp",
+        "ts": "1398272939.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "for the CMS",
+        "ts": "1398272942.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Oh, thanks.",
+        "ts": "1398272999.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I can add something with a list of endpoints to basecamp too",
+        "ts": "1398273077.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That helps a lot. Thanks!",
+        "ts": "1398273308.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1> I just posted the api endpoints to basecamp and the stating cms should be stable enough for you to add dummy content as you’d like. there’s a bit of dummy content in there already that I used for testing, but feel free to edit it however you want",
+        "ts": "1398274851.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "*staging",
+        "ts": "1398274858.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks",
+        "ts": "1398274990.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<https:\/\/www.youtube.com\/watch?v=o6zAfqrZIBg>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "http:\/\/www.youtube.com\/",
+                "title": "Trapit Customer Testimonial: SGI",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=o6zAfqrZIBg",
+                "author_name": "Trapit",
+                "author_link": "http:\/\/www.youtube.com\/user\/GoTrapit",
+                "thumb_url": "http:\/\/i1.ytimg.com\/vi\/o6zAfqrZIBg\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Trapit Customer Testimonial: SGI",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"http:\/\/www.youtube.com\/embed\/o6zAfqrZIBg?feature=oembed\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=o6zAfqrZIBg",
+                "id": 1
+            }
+        ],
+        "ts": "1398275058.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "the actual SGI video too",
+        "ts": "1398275065.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "oof - 'all over cyberspace'",
+        "ts": "1398275109.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ugh",
+        "ts": "1398275129.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "BUT",
+        "ts": "1398275138.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so so so much better than the dumb animation",
+        "ts": "1398275145.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes",
+        "ts": "1398275151.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hey <@U0260V1BX>  I found a couple of interesting things in those RSS feeds:\n1. They seem to have between 24 - 34 items. Each feed  has a different length. Given that we're using infinite scroll to show more and we probably won't get more than 10 rows, should we give the user some hint when there aren't items left and the infinite scroll stops?\n2. Thumbnail sizes and aspect ratios are all over the place. What should we do when we get very small images (e.g.: <http:\/\/images.higgs.trap.it\/sizes\/orig\/5afe7df7a86b456caadf84c55748bb12.png>)? Also, we don't have a way to center very long or wide images in a smart way so what's shown may be awkward.",
+        "attachments": [
+            {
+                "from_url": "http:\/\/images.higgs.trap.it\/sizes\/orig\/5afe7df7a86b456caadf84c55748bb12.png",
+                "fallback": "53x80px image",
+                "image_url": "http:\/\/images.higgs.trap.it\/sizes\/orig\/5afe7df7a86b456caadf84c55748bb12.png",
+                "image_width": 53,
+                "image_height": 80,
+                "image_bytes": 10200,
+                "id": 1
+            }
+        ],
+        "ts": "1398275210.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I'll give you 1 of those \"so\"s",
+        "ts": "1398275211.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ha",
+        "ts": "1398275214.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "its pretty non-terrific",
+        "ts": "1398275238.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "well - ship has sailed on that stuff. We take what we can get on this front",
+        "ts": "1398275245.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "yeah",
+        "ts": "1398275250.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I know",
+        "ts": "1398275251.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "their lack of taste internally is going to be a thorn in our side",
+        "ts": "1398275283.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "for sure, though as a guy who's worked with them for 3 years, I can see the slow change",
+        "ts": "1398275324.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "if we arm them with some better tools, help them by showing good examples (e.g. their new site) - it is never going to be exactly what we would do (also, what WOULD we do?) but will be more aligned than their own devices",
+        "ts": "1398275375.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02618EV1>: 1) I will work up a solution for reaching the end of the feed.",
+        "ts": "1398275459.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "2) first and foremost, trapit has the ability to edit images associated with each content item, so we should urge them to do so (hank has already mentioned wanting to do this)",
+        "ts": "1398275507.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but regardless i will work up a solution for small images. There's really no way to center them?",
+        "ts": "1398275526.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "so as it stands they are pegged to the upper left corner?",
+        "ts": "1398275537.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Centering small images is possible and easy. The problem is with big images that are of a different aspect ratio.",
+        "ts": "1398275626.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ah i see. so how would those get displayed right now - would the larger images shrink to the width or height of our image box and then the bottom or right side would get cropped?",
+        "ts": "1398275844.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and is there a way to make the image variable height?",
+        "ts": "1398275860.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "if not, that's fine, i just want to get a sense of what's easy\/possible",
+        "ts": "1398275897.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "They will shrink to their container's width and cropped at bottom. Not sure I understand the variable height question.",
+        "ts": "1398276026.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "If we change the height, the width changes to preserve the aspect ratio.",
+        "ts": "1398276050.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "all images would fit to the container width and the height would vary by the image's aspect ratio",
+        "ts": "1398276066.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That's right.",
+        "ts": "1398276082.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I'll try to add the feeds to our dev site in the next hr so we can prototype things around the actual images in there.",
+        "ts": "1398276407.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "set up in echo unless the main conference room is better",
+        "ts": "1398286661.000046"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1398288211.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yay",
+        "ts": "1398288219.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02618EV1> i've put trapit_01K.psd on the NAS",
+        "ts": "1398295429.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "it has some added hover states and a new \"watch video\" button for non-featured testimonials",
+        "ts": "1398295451.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome! Thanks.",
+        "ts": "1398298023.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02618EV1> i've made a new folder on the NAS: clients\/TrapIt\/Trapit Website 2014\/ Assets to Gaston",
+        "ts": "1398300136.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "theres a folder in there of PDF documentation",
+        "ts": "1398300202.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "including mobile wires, as well as info on how the homepage should animate",
+        "ts": "1398300220.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hoping for some animation as the user scrolls down the page, a la <http:\/\/tympanus.net\/Blueprints\/OnScrollEffectLayout\/>",
+        "attachments": [
+            {
+                "text": "Blueprint: On Scroll Effect Layout",
+                "fallback": "Blueprint: On Scroll Effect Layout",
+                "from_url": "http:\/\/tympanus.net\/Blueprints\/OnScrollEffectLayout\/",
+                "id": 1
+            }
+        ],
+        "ts": "1398300241.000055"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "or this <http:\/\/www.athenos.com\/>",
+        "attachments": [
+            {
+                "service_name": "Athenos",
+                "title": "Athenos. Made the Greek Way.",
+                "title_link": "http:\/\/www.athenos.com\/",
+                "text": "Plan your next meal with Yiayia. See her cooking show, browse our recipes, and find Athenos products locally. #athenos",
+                "fallback": "Athenos: Athenos. Made the Greek Way.",
+                "thumb_url": "http:\/\/authoring.athenos.com\/~\/media\/Athenos\/Images\/athenos-social.png",
+                "from_url": "http:\/\/www.athenos.com\/",
+                "thumb_width": 736,
+                "thumb_height": 571,
+                "id": 1
+            }
+        ],
+        "ts": "1398300249.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Perfect. Thanks.",
+        "ts": "1398300340.000059"
+    },
+    {
+        "text": "[trapit-site-2014\/] 3 new commits:\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/dba26e48f06dca271ac5cec6ab1a0483d5e0b7da|dba26e48f06d>: Added placeholder social links under the content items.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/95b2572b654b4331fc911be514fafd7fb84ed14c|95b2572b654b>: Loading Trapit feeds to tabbed UI.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/5df5e359141a0547c9a786a090d3ac64f3c17b1b|5df5e359141a>: Only run tabs script on home and resources pages. Also, trucate summary to the nearest word.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B028E7DJW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1398300664.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "All, just updated our dev site. Mostly structural stuff but the feeds are now showing up on home and resources. Hoping things moves faster from here on.",
+        "ts": "1398300802.000061"
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> just a head’s up that Andy is here and Israel and Alan are just about to arrive. Not sure what the plan is specifically but I’ve got courtyard booked all day if need be. I would expect we’ll have some dev meetings this morning :simple_smile:",
+        "ts": "1458232513.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yesterday’s meetings were a little forced on the mobile side of things",
+        "ts": "1458232575.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "good to know Kat, thank you",
+        "ts": "1458232588.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I’ll check in with those guys when they get here - maybe I can push it towards a work day with breakout convos as needed",
+        "ts": "1458232613.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026103R3> even though UX is going through a bit of a restart, do you think it would still be helpful for devs to attend the 1pm?",
+        "ts": "1458243685.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "unfortunately i don’t think so",
+        "ts": "1458243716.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i’d like to keep this focused on visual review",
+        "ts": "1458243738.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "UX won’t be presenting anything today",
+        "ts": "1458243744.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ok thanks! If it’s cool, I think I will still pop in anyway to get a general idea of where design is at right now",
+        "ts": "1458244105.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m planning to be there too. Some of the topics you mentioned this morning sounded really useful. Plus we’re still looking at different options for graphics and I’d like to know where that’s going.",
+        "ts": "1458244169.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": ":+1:",
+        "ts": "1458244257.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I added endpoints \/v1\/thirdparty\/connectFitbit and \/v1\/thirdparty\/connectJawbone to the CTN42 app, although I just pushed the code, I haven't deployed 'cause I don't want to upset the running AWS node environment",
+        "ts": "1458249483.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Once those go live, you can post to them with a payload like {\"oauthToken\":\"test_thisshouldbereplaced\", \"userId\": \"<mailto:test@test.com|test@test.com>\"}",
+        "ts": "1458249510.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "you can deploy!",
+        "ts": "1458249524.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "do I log in and kill -9 the node process, pull the latest code and restart it manually?",
+        "ts": "1458249623.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Jenny showed me how to deploy :simple_smile: So the new endpoints are live now, very rudimentary (just saving in couchbase for now) and using Basic auth",
+        "ts": "1458251716.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "awesome!",
+        "ts": "1458253129.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thank you",
+        "ts": "1458253145.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "np... tomorrow or early next week I'll see if it works for Adrian's testing, and start setting up subscriptions and their endpoints",
+        "ts": "1458253283.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I still owe you python code. Maybe I can just walk you through it conceptually rather than tossing a foreign language at you",
+        "ts": "1458253403.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yeah, that would be just fine, I don't think I need any python code",
+        "ts": "1458253420.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no one ever does these days :disappointed:",
+        "ts": "1458253428.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I know python but I don't want to put it into the real infrastructure (unless there's a good reason for us to implement some stuff in python)",
+        "ts": "1458253513.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Nooooooooo",
+        "ts": "1458254262.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oooode only",
+        "ts": "1458254286.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile: ",
+        "ts": "1458254412.000040"
+    }
+]

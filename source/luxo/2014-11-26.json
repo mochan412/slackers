@@ -1,0 +1,155 @@
+[
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel>: virtual stand-up again today! (we have a client call at 10am). How's everyone doing?",
+        "ts": "1417023784.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "My update: Yesterday I added some UI elements, refactored code and started adding a video window to the screen. Today I want to finish said video window, add all controls to the screen and hopefully test click and change my code based on yesterday's server changes.",
+        "ts": "1417023927.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I messed with the image preprocessing for pot identification some more and started identifying pots independent of their radii.",
+        "ts": "1417024179.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I also got the coordinates of the cooktop's corners in the depth cam coordinate system from Joel. They're hardcoded into node for now, so the events sent over the socket are giving normalized coordinates.",
+        "ts": "1417024188.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Would it be helpful to run <@U02618EV1> 's UI on the meijer display thats right there?",
+        "ts": "1417024351.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "We can try that.",
+        "ts": "1417024558.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Broken link",
+        "ts": "1417024788.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "aw what",
+        "ts": "1417024793.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/www.youtube.com\/watch?v=9J7GpVQCfms>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "http:\/\/www.youtube.com\/",
+                "title": "The Cicret Bracelet: Like a tablet...but on your skin.",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=9J7GpVQCfms",
+                "author_name": "Cicret App &amp; Bracelet",
+                "author_link": "http:\/\/www.youtube.com\/channel\/UCG8Plq5AK6oHg_ZfMLjsIBQ",
+                "thumb_url": "http:\/\/i.ytimg.com\/vi\/9J7GpVQCfms\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: The Cicret Bracelet: Like a tablet...but on your skin.",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"http:\/\/www.youtube.com\/embed\/9J7GpVQCfms?feature=oembed\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=9J7GpVQCfms",
+                "id": 1
+            }
+        ],
+        "ts": "1417024817.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":confused:",
+        "ts": "1417024837.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its a concept, obviously",
+        "ts": "1417024851.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Reminds me of this <http:\/\/www.ted.com\/talks\/pattie_maes_demos_the_sixth_sense>",
+        "attachments": [
+            {
+                "title": "Meet the SixthSense interaction",
+                "title_link": "http:\/\/www.ted.com\/talks\/pattie_maes_demos_the_sixth_sense",
+                "text": "This demo -- from Pattie Maes' lab at MIT, spearheaded by Pranav Mistry -- was the buzz of TED. It's a wearable device with a projector that paves the way for profound interaction with our environment. Imagine \"Minority Report\" and then some.",
+                "fallback": "Meet the SixthSense interaction",
+                "image_url": "http:\/\/img.tedcdn.com\/r\/images.ted.com\/images\/ted\/d98527eb9a28d694fd604228e328a91c0f0e58a8_1600x1200.jpg?c=1280%2C720&ll=1&quality=89&w=1200",
+                "from_url": "http:\/\/www.ted.com\/talks\/pattie_maes_demos_the_sixth_sense",
+                "image_width": 417,
+                "image_height": 250,
+                "image_bytes": 123149,
+                "id": 1
+            }
+        ],
+        "ts": "1417024975.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "update: \nmodded the driver to  get higher-res depth map from the camera, can resolve to ~10mm. will get click and tracking merged in to the main code this morning",
+        "ts": "1417024989.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026PHQ3J> But I think we should package this projection\/touch system we built and make more things with it.",
+        "ts": "1417025311.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":point_up_2: this",
+        "ts": "1417025405.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<!channel>",
+        "ts": "1417039467.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "there were some changes made by the client on our call, the largest being the removal of \"current temp\" displaying by the pot. I've updated all the pdfs &amp; design files on the NAS to reflect.",
+        "ts": "1417039533.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> \/ <@U02E3CRMA> Would it be possible to block a couple of hours next Monday so I can test on the server? Let me know and I can add that to our calendars.",
+        "ts": "1417045237.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yep! add away!",
+        "ts": "1417048199.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome. Thanks.",
+        "ts": "1417048351.000036"
+    }
+]

@@ -1,0 +1,319 @@
+[
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'm attending the Machine Learning for Artists workshop today. I'll share links\/etc here.",
+        "ts": "1498487497.898705"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<http:\/\/ml4a.github.io\/>",
+        "ts": "1498487498.899444"
+    },
+    {
+        "user": "U06DFL7BP",
+        "text": "<@U06DFL7BP|charlesv> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1498488330.227747"
+    },
+    {
+        "type": "message",
+        "user": "U07KCCF0V",
+        "text": "<@U2670DYLE> fantastic!",
+        "ts": "1498489822.844875"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<https:\/\/en.wikipedia.org\/wiki\/Neocognitron> inspiration for modern convolutional neural networks. Idea from 60s, but only in recent years have convolutional neural networks really been figured out.",
+        "attachments": [
+            {
+                "title": "Neocognitron",
+                "title_link": "https:\/\/en.wikipedia.org\/wiki\/Neocognitron",
+                "author_name": "Wikipedia",
+                "author_link": "http:\/\/en.wikipedia.org\/",
+                "text": "The neocognitron is a hierarchical, multilayered artificial neural network proposed by Kunihiko Fukushima in the 1980s. It has been used for handwritten character recognition and other pattern recognition tasks, and served as the inspiration for convolutional neural networks.\nThe neocognitron was inspired by the model proposed by Hubel &amp; Wiesel in 1959. They found two types of cells in the visual primary cortex called simple cell and complex cell, and also proposed a cascading model of these two types of cells for use in pattern recognition tasks.\nThe neocognitron is a natural extension of these cascading models. The neocognitron consists of multiple types of cells, the most important of which are called S-cells and C-cells. The local features are extracted by S-cells, and these features' deformation, such as local shifts, are tolerated by C-cells. Local features in the input are integrated gradually and classified in the higher layers. The idea of local feature integration is found in several other models, such as the LeNet model and the SIFT model.\nThere are various kinds of neocognitron. For example, some types of neocognitron can detect multiple patterns in the same input by using backward signals to achieve selective attention.",
+                "fallback": "wikipedia: Neocognitron",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/wikipedia.png",
+                "id": 1
+            }
+        ],
+        "ts": "1498490069.947271"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<http:\/\/ml4a.github.io\/ml4a\/convnets\/>",
+        "ts": "1498490083.953563"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Convnets are workhorse of computer vision. \"Convnets do everything.\"",
+        "ts": "1498490222.011236"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2670DYLE|johncohoon> uploaded a file: <https:\/\/uncorked.slack.com\/files\/johncohoon\/F5YT7MC2U\/screen_shot_2017-06-26_at_10.29.01_am.png|Convolutional filter demo>",
+        "file": {
+            "id": "F5YT7MC2U",
+            "created": 1498491069,
+            "timestamp": 1498491069,
+            "name": "Screen Shot 2017-06-26 at 10.29.01 AM.png",
+            "title": "Convolutional filter demo",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2670DYLE",
+            "editable": false,
+            "size": 541094,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5YT7MC2U\/screen_shot_2017-06-26_at_10.29.01_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5YT7MC2U\/download\/screen_shot_2017-06-26_at_10.29.01_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5YT7MC2U-ddcb0f072c\/screen_shot_2017-06-26_at_10.29.01_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5YT7MC2U-ddcb0f072c\/screen_shot_2017-06-26_at_10.29.01_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5YT7MC2U-ddcb0f072c\/screen_shot_2017-06-26_at_10.29.01_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 238,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5YT7MC2U-ddcb0f072c\/screen_shot_2017-06-26_at_10.29.01_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 317,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5YT7MC2U-ddcb0f072c\/screen_shot_2017-06-26_at_10.29.01_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5YT7MC2U-ddcb0f072c\/screen_shot_2017-06-26_at_10.29.01_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 475,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5YT7MC2U-ddcb0f072c\/screen_shot_2017-06-26_at_10.29.01_am_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 528,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5YT7MC2U-ddcb0f072c\/screen_shot_2017-06-26_at_10.29.01_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 634,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5YT7MC2U-ddcb0f072c\/screen_shot_2017-06-26_at_10.29.01_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 676,
+            "image_exif_rotation": 1,
+            "original_w": 2584,
+            "original_h": 1706,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/johncohoon\/F5YT7MC2U\/screen_shot_2017-06-26_at_10.29.01_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5YT7MC2U-41889c2884",
+            "channels": [
+                "C5T7Q7SN4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2670DYLE",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "johncohoon",
+        "bot_id": null,
+        "ts": "1498491073.357450"
+    },
+    {
+        "user": "U02F8TTPU",
+        "text": "<@U02F8TTPU|marissa> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1498492035.741176"
+    },
+    {
+        "user": "U026PHQ3J",
+        "text": "<@U026PHQ3J|evans> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1498492144.784110"
+    },
+    {
+        "user": "U167FL70V",
+        "text": "<@U167FL70V|leia> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1498493188.199559"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "\"Working with Tensorflow is really hard.\" Enter Keras. Keras is to Tensorflow what <http:\/\/openframeworks.cc\/> is to working in C++.",
+        "attachments": [
+            {
+                "title": "openFrameworks",
+                "title_link": "http:\/\/openframeworks.cc\/",
+                "text": "openFrameworks",
+                "fallback": "openFrameworks",
+                "from_url": "http:\/\/openframeworks.cc\/",
+                "service_icon": "http:\/\/openframeworks.cc\/favicon.ico",
+                "service_name": "openframeworks.cc",
+                "id": 1
+            }
+        ],
+        "edited": {
+            "user": "U2670DYLE",
+            "ts": "1498495998.000000"
+        },
+        "ts": "1498495978.205963"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah! TF 1.2 has way deep keras extensions ",
+        "ts": "1498496343.336689",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2670DYLE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(stab anyone who says to use caffe2)",
+        "ts": "1498496357.341880"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I have a field trip report to share as well... on Saturday morning I attended the symposium for the CSTA (CS Teacher's Association). The theme was \"digital literacy for all\". It was geared toward professional K-12 CS teachers, so I'm glad I was there to listen in on the concerns that face teachers and cross-pollinate with a bit of the industry perspective. I hope to make a presentation out of what I've learned in this area recently, I think there are some exciting points to consider.",
+        "ts": "1498499448.445235",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U2670DYLE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "One point that really hit me was that computation is now a fundamental skill. A person needs to understand computation in order to evaluate election outcomes, freedom of speech, and claims about the world. Leaving anyone out of CS education denies them full participation in society. Access to CS education is a civil right. And we as a society are not doing well at serving tech education fairly.",
+        "ts": "1498499876.606860"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "One teacher brought up the fact that home prices in Sherwood are incredibly high because they have \"the best\" schools that offer a lot of tech curriculum. Families tend to move to Sherwood during the school years and move away when the kids graduate HS. Good for families who can afford to buy an expensive house in the best school district.... not so good for families who work in the fields outside Sherwood.",
+        "ts": "1498500164.717687"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The CSTA hopes to build a framework and standards for CS education that can be offered in K-12 schools statewide... with a particular emphasis on training teachers in rural counties. Only 9 states have K-12 CS standards right now!",
+        "ts": "1498500288.763375",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U2670DYLE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The second-to-last speaker was Rep Rich Vial, the Republican state rep for district 26. He blathered about how for every 5 letters supporting education\/transportation funding, 100 letters oppose raising taxes until government can be held accountable. So he voted against expanding funds for education. He thinks schools and industry should be able to work together to provide tech education to students at zero cost. It was rather chilling to hear his remarks, but eye-opening to realize that outside of our Portland tech bubble, a lot of people think like him. We have a LOT of work to do to overcome the barriers to inclusive tech education. And it appears that we can expect little support and much opposition from our current administration.",
+        "ts": "1498501207.095423",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U2670DYLE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I don't have kids in school, but I care about my colleague's kids, my friend's kids, my neighborhood kids, and the kids of the people who pick my strawberries and maintain my landscaping. What happens now and in the next 4 years in tech education will have a huge effect on what kids in Oregon will have access to as they move through K-12. I don't have any grand ideas for fixing tech education yet, but I plan to use the influence I have to move the needle in the right direction.",
+        "ts": "1498502099.422057",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U2670DYLE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2670DYLE|johncohoon> uploaded a file: <https:\/\/uncorked.slack.com\/files\/johncohoon\/F60HV4K2A\/eyeo_rl.zip|reenforcement> and commented: Simple examples of re-enforcement learning.",
+        "file": {
+            "id": "F60HV4K2A",
+            "created": 1498508567,
+            "timestamp": 1498508567,
+            "name": "eyeo_rl.zip",
+            "title": "reenforcement",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U2670DYLE",
+            "editable": false,
+            "size": 3109933,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F60HV4K2A\/eyeo_rl.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F60HV4K2A\/download\/eyeo_rl.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/johncohoon\/F60HV4K2A\/eyeo_rl.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F60HV4K2A-49483a0dfa",
+            "channels": [
+                "C5T7Q7SN4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5ZPAHEEN",
+                "created": 1498508567,
+                "timestamp": 1498508567,
+                "user": "U2670DYLE",
+                "is_intro": true,
+                "comment": "Simple examples of re-enforcement learning."
+            }
+        },
+        "user": "U2670DYLE",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "johncohoon",
+        "bot_id": null,
+        "ts": "1498508570.639741"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "After installing requirements, you can run with ```python main.py table -e 1000 -R 10 -x 0 -g treasure```",
+        "ts": "1498508610.653267"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "There's a slew of config options to switch between models and display options. You can look at the code to see what is going there.",
+        "ts": "1498508666.671641"
+    }
+]

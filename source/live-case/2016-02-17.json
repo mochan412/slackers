@@ -1,0 +1,32 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> - crash occurred when I set an overlay and then previewed the wallpaper\n```FATAL EXCEPTION: main\n                                                                                  Process: com.google.android.apps.workshop, PID: 13531\n                                                                                  java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.apps.workshop.wallpaper.gl.GLSplitColorOverlay.setColors(int, int)' on a null object reference\n                                                                                      at com.google.android.apps.workshop.moments.view.MomentsBlurDimGLRenderer.onVisibilityChanged(MomentsBlurDimGLRenderer.java:382)\n                                                                                      at com.google.android.apps.workshop.wallpaper.renderer.GLWallpaperRenderDispatch.onVisibilityChanged(GLWallpaperRenderDispatch.java:377)\n                                                                                      at com.google.android.apps.workshop.wallpaper.WorkshopWallpaperService$GLEngine.onVisibilityChanged(WorkshopWallpaperService.java:135)\n                                                                                      at android.service.wallpaper.WallpaperService$Engine.updateSurface(WallpaperService.java:829)\n                                                                                      at android.service.wallpaper.WallpaperService$Engine.attach(WallpaperService.java:877)\n                                                                                      at android.service.wallpaper.WallpaperService$IWallpaperEngineWrapper.executeMessage(WallpaperService.java:1164)\n                                                                                      at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:37)\n                                                                                      at android.os.Handler.dispatchMessage(Handler.java:102)\n                                                                                      at android.os.Looper.loop(Looper.java:135)\n                                                                                      at android.app.ActivityThread.main(ActivityThread.java:5254)\n                                                                                      at java.lang.reflect.Method.invoke(Native Method)\n                                                                                      at java.lang.reflect.Method.invoke(Method.java:372)\n                                                                                      at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)\n                                                                                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)```",
+        "ts": "1455730383.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm weird.",
+        "ts": "1455730401.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ohhh",
+        "ts": "1455730436.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok i see whats up",
+        "ts": "1455730445.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill fix shortly",
+        "ts": "1455730449.000006"
+    }
+]

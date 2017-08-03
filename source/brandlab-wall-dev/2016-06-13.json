@@ -1,0 +1,132 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "After doing some research, I've found the best way to check lint is to use the Closure Linter.  There's also a fixjsstyle that comes with it, but when I tried it out, it doesn't appear to fix everything.  I also found this Eclipse Profile for JavaScript.  Hopefully that will work for you.  If that doesn't work, there are really 3 settings that will address most of the warnings I've seen:\nConvert Tabs to Spaces\n2 space indent\n4 space continuation indent.\nLet me know how it goes.",
+        "ts": "1465835116.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA>",
+        "ts": "1465835125.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "installed a jshint plugin for eclipse this actually seems to call out some of the issues in eclipse, was able to get eclipse to indent right finally. it wont fix the tab to spaces thing tho, not sure why. but i ran the code through another formatter and it fixed it. then ran back through jslint again and it came out good",
+        "ts": "1465840496.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ran this through for admin, will apply similar to everything else",
+        "ts": "1465840511.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "working from that last code point we sent, made a new branch im going to just commit to based from that last point",
+        "ts": "1465840543.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thank you",
+        "ts": "1465840590.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "still seeing strange things, like if you hit fix indentation, it formats it to what looks right, then hit format which is tied to the google style it takes a different format. which i assume is more right but who knows",
+        "ts": "1465841647.000020"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "¯\\_(ツ)_\/¯",
+        "ts": "1465841647.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Wanna send a wo k in progress to talk through and then we can keep moving?  Key here is to engage Myles. We don't need to solve on our own.",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1465841918.000000"
+        },
+        "ts": "1465841804.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: Josh just sent me - James is asking for the Windows presentation layer app, and the custom touch screen utility. At this point we're cool taking the binaries so we have something to work with - but this is the same stuff that should be submitted \/ go through linting and review with Myles.\n",
+        "ts": "1465844429.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "One workflow right? We send the linted which will include all of this, right?",
+        "ts": "1465844453.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll send him a note...",
+        "ts": "1465844459.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "it's annoying but let's put all this back on the main thread with everyone cc'd. Needed for orchestration. ",
+        "ts": "1465844503.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "looks like from James update that they got everything done today we’d want",
+        "ts": "1465854638.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and he gave props to <@U0EL0GLEL>’ setup utility",
+        "ts": "1465854676.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Awesome ",
+        "ts": "1465854818.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: peter just finished linting however whe’s not sure how to run it against myles tool set to see if any errors are still being thrown",
+        "ts": "1465855089.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "itd be rad if we could send what peter did today, with context of us knowing its still throwing some errors - just to keep myles moving",
+        "ts": "1465855109.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "works for me - I’ll close with Peter and re-submit",
+        "ts": "1465855298.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i know all the whitespace and tabs are fixed, I checked some of the files in jslint and they came up with a few odd error which really were just because it wasnt following angular so thats fine. I put this all on a new branch that was made from the point of the last submit we made, the branch is called PATCH1A i ran the code through a tool that cleaned the whitespace and tabs since eclipse apparently wont do it, even tho its set to do so. but it seems to have them right when you continue forward… then used the google style formatter to format the code layout to match spec. it looks pretty good. So i hope this is what we are looking for.",
+        "ts": "1465855582.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the branch is pushed to bitbucket",
+        "ts": "1465855590.000035"
+    }
+]

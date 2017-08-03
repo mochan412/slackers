@@ -1,0 +1,251 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0265G76F> <@U02618EV1> I thought the featured projects area of the homepage was supposed to be dynamic?? The data model and the CMS support it already. And anyway, if it’s not dynamic we should remove the “Display on home page” toggle from the CMS.",
+        "ts": "1400516989.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I think the problem was that we didn't have a weight system specific to the home page.",
+        "ts": "1400517224.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That prevented us from displaying things in the order we wanted them.",
+        "ts": "1400517258.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay i sort of remember that. seems to me like we should address this by either figuring out a sorting order (most recently published? we could reuse the weighting from the work section?) or removing the toggle from the CMS. <@U0265G76F> what do you think?",
+        "ts": "1400517426.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That'd be awesome. I'm not sure I can the front-end changes for that by Wed, though :wink:",
+        "ts": "1400517516.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i’d love to figure out the weighting issue for sure",
+        "ts": "1400517664.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but yeah - as gaston mentioned, don’t think it is critical for Wed",
+        "ts": "1400517682.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i have a number of things I’d like to improve over time, after using the CMS throughout weekend",
+        "ts": "1400517705.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "what’s on Wednesday..?",
+        "ts": "1400517990.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X>: travel.",
+        "ts": "1400518972.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "o right",
+        "ts": "1400518985.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sorry - was in a meeting",
+        "ts": "1400519565.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "yes. Travel",
+        "ts": "1400519568.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0265G76F> <@U026PLK4S> <http:\/\/galapagui.uncorkedstudios.com\/>",
+        "attachments": [
+            {
+                "title": "Uncorked Studios",
+                "title_link": "http:\/\/galapagui.uncorkedstudios.com\/",
+                "text": "Uncorked studios is a digital product agency. Innovation for the world, design for people.",
+                "fallback": "Uncorked Studios",
+                "thumb_url": "http:\/\/galapagui.uncorkedstudios.com\/images\/us-logo-1000.png",
+                "from_url": "http:\/\/galapagui.uncorkedstudios.com\/",
+                "thumb_width": 1000,
+                "thumb_height": 1000,
+                "id": 1
+            }
+        ],
+        "ts": "1400521120.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "nice!",
+        "ts": "1400521475.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i really dig it on desktop. I think it gets funky as we scale down. Any way to turn the parallax off when we get down too low?  the",
+        "ts": "1400521518.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<http:\/\/cl.ly\/image\/2P2r151J2V3P>",
+        "attachments": [
+            {
+                "service_name": "CloudApp",
+                "title": "Screen Shot 2014-05-19 at 10.45.47 AM.png",
+                "title_link": "http:\/\/cl.ly\/image\/2P2r151J2V3P",
+                "fallback": "CloudApp: Screen Shot 2014-05-19 at 10.45.47 AM.png",
+                "image_url": "http:\/\/f.cl.ly\/items\/2w1U3i3a3i2M2y161Y1v\/Screen%20Shot%202014-05-19%20at%2010.45.47%20AM.png",
+                "from_url": "http:\/\/cl.ly\/image\/2P2r151J2V3P",
+                "image_width": 653,
+                "image_height": 1054,
+                "image_bytes": 296304,
+                "id": 1
+            }
+        ],
+        "ts": "1400521552.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "or change the background strech\/cover method?",
+        "ts": "1400521607.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Good catch. Yes, we'll have to turn it off at a breakpoint.",
+        "ts": "1400522089.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "but wow. I think it looks rad.",
+        "ts": "1400522901.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026PLK4S> New version in galapagui. Hopefully is a tad faster and using a long image below 1024px.",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1400532943.000000"
+        },
+        "ts": "1400532918.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "yes!",
+        "ts": "1400538709.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "so good!",
+        "ts": "1400538711.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I'm into it. I'd be curious to see what <@U0265G76F> thinks, but i think we could push live and have a huge improvment",
+        "ts": "1400538840.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "looking",
+        "ts": "1400538864.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "awesome",
+        "ts": "1400538894.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "100% agree",
+        "ts": "1400538898.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome. I'm investigation 1 more thing that could further speed things up. Will push updates after that's done.",
+        "ts": "1400539545.000033"
+    },
+    {
+        "user": "U026AP8CM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026AP8CM|karen> has joined the channel",
+        "ts": "1400543186.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "OK, we're live!",
+        "ts": "1400543186.000035"
+    },
+    {
+        "user": "U026AP8CM",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U026AP8CM|karen> has left the channel",
+        "ts": "1400543195.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Also had a chance to fix the hover transition on the blog feed so it now does small fade in\/out on hover.",
+        "ts": "1400543230.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Nice!",
+        "ts": "1400543273.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "lookin' good!",
+        "ts": "1400543277.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "looks great!",
+        "ts": "1400543378.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome. I'll spend some hours away from it now so I can take a look at it later tonight with fresh eyes and see if we missed anything.",
+        "ts": "1400543382.000041"
+    }
+]

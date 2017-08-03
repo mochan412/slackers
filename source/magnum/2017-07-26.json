@@ -1,0 +1,439 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "just had a request come in from magnum (<@U0265G76F> we should talk about what this support agreement is)",
+        "ts": "1501097103.562550"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```Hi Uncorked Team,\n\nWe are having a bit of trouble updating the ADPP website. Please see my colleague Cloe's note below regarding the problem she's encountering.\n\nPlease let us know if there is a way to resolve. Thanks in advance for your help,\n\nEmma\n\n212 219 1248\n\n————\n————\n\n\nEmma, \n\nWe are experiencing trouble publishing new projects on the ADPP website. I have uploaded all of the projects into the CMS back end, but when I try to view the projects I get a \"502 Bad Gateway\" error message. If I go to the ADPP website and click on the drop down menu to view the links to all of the projects, the new projects that I just published are visible, but clicking on the links sends me to the same error message. The same is happening when I click the \"view\" button in the back end. This is only happening with the new projects that I just uploaded, and all of the projects from previous years are operating normally. \n\nBest,\nCloe```",
+        "ts": "1501097110.566234"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "and discuss who should actually be looking at these things",
+        "ts": "1501097165.594636"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "example is <http:\/\/arabdocphotography.org\/project\/the-fourth-pyramid-belongs-to-her>",
+        "ts": "1501097169.596369"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Whoa interesting",
+        "ts": "1501097506.772106"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U1S5GKTHQ> is this something you could \/ have bandwidth to look at",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1501097877.000000"
+        },
+        "ts": "1501097869.961881"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Looking now",
+        "ts": "1501097876.965877"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thank you!",
+        "ts": "1501097880.967533"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U06DFL7BP> looks like that artist (Sara Sallam) doesn’t have a profile photo. template is trying to access it directly triggering an error",
+        "ts": "1501098133.096528"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "can we try a placeholder image (blank?) to confirm?",
+        "ts": "1501098161.110821"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(can try after meeting)",
+        "ts": "1501098165.112985"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "good idea. will try 1x1px transparent gif",
+        "ts": "1501098188.124775"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "one additional note that may be related though they've not noted: Seems the home view (collected previews of individual projects) has some new sorts of scaling issues — Some images are full width, while some seem to be on the intended grid.",
+        "ts": "1501098771.423712"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "wondering if something is up with image upload",
+        "ts": "1501098847.464083"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Could be. Oh i wonder if home is filling in missing images with full-width or something. All old projects display as planned. Any new ones don't have preview images on any view",
+        "ts": "1501098916.500418"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "So yeah - if everything on new projects except images was successful in uploading, that could be what's going on",
+        "ts": "1501098956.521891"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Ok artist image mystery solved",
+        "edited": {
+            "user": "U1S5GKTHQ",
+            "ts": "1501100136.000000"
+        },
+        "ts": "1501100134.147035"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "It is required to provide “alt text” when uploading artist image. No error currently in CMS if omitted and it silently fails instead, yay.",
+        "ts": "1501100171.166272"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "can we set those to ” ” for now",
+        "ts": "1501100308.236432"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "problem is the form doesn’t update the artist object w\/ the URLs of the uploaded image. so they need to re-upload profile images of all new artists (i can do it for them since those profile images are somewhere on S3, just not tied to the artist in DB). i just need a list of all new projects and artists.",
+        "ts": "1501100419.293726"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i guess i can figure that out via the DB also",
+        "ts": "1501100434.301848"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "one sec, i can get that",
+        "ts": "1501100494.333868"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "New Grantees: \n\n• Tarek Al Haddad, Lebanon\n• Sima Ajlyakin, Syria\n• Mohamed Altoum, Sudan\n• Abd Doumany, Syria\n• Hesham Elsherif, Egypt\n• Mohamed Mahdy, Egypt\n• Rawan Mazeh, Lebanon\n• Btihal Remli, Morocco\n• Fethi Sahraoui, Algeria",
+        "ts": "1501100523.349246"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Great, thanks",
+        "ts": "1501100578.378966"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Going to go through those right now. As far as bad layout on homepage: each project needs to have a “press image” set. Looks like CMS doesn’t set one by default",
+        "ts": "1501100644.413288"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F6DEZ2QMN\/pasted_image_at_2017_07_26_04_24_pm.png|Pasted image at 2017-07-26, 4:24 PM>",
+        "file": {
+            "id": "F6DEZ2QMN",
+            "created": 1501100652,
+            "timestamp": 1501100652,
+            "name": "Pasted image at 2017_07_26 04_24 PM.png",
+            "title": "Pasted image at 2017-07-26, 4:24 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1S5GKTHQ",
+            "editable": false,
+            "size": 52653,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6DEZ2QMN\/pasted_image_at_2017_07_26_04_24_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6DEZ2QMN\/download\/pasted_image_at_2017_07_26_04_24_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6DEZ2QMN-9e2344ac77\/pasted_image_at_2017_07_26_04_24_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6DEZ2QMN-9e2344ac77\/pasted_image_at_2017_07_26_04_24_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6DEZ2QMN-9e2344ac77\/pasted_image_at_2017_07_26_04_24_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 194,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6DEZ2QMN-9e2344ac77\/pasted_image_at_2017_07_26_04_24_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 258,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6DEZ2QMN-9e2344ac77\/pasted_image_at_2017_07_26_04_24_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 654,
+            "original_h": 352,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F6DEZ2QMN\/pasted_image_at_2017_07_26_04_24_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F6DEZ2QMN-0939b94ed1",
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1501100654.418753"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "The homepage template doesn’t have some of them set which breaks the grid",
+        "ts": "1501100675.429303"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "gotcha.",
+        "ts": "1501100678.430779"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "These are all good things to take note for CMS improvements",
+        "ts": "1501100690.437396"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "totally",
+        "ts": "1501100695.439778"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "agree",
+        "ts": "1501100698.441169"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and on that press image, the site adjusts width, correct?",
+        "ts": "1501100719.452886"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so they can just pick one of the images from the project to designate for it",
+        "ts": "1501100731.459255"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "yup. for each uploaded image the CMS makes a whole lotta resized versions for future use",
+        "ts": "1501100770.479671"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "cool",
+        "ts": "1501100778.483830"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "hmm im not seeing those new grantees under artists. for example, the artist for the broken URL from above was Sara Sallam",
+        "edited": {
+            "user": "U1S5GKTHQ",
+            "ts": "1501100818.000000"
+        },
+        "ts": "1501100812.501614"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "hmm.",
+        "ts": "1501100830.510860"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "OH!",
+        "ts": "1501100872.534032"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Hadeer Ahmed, Love, Loss, Longing, Egypt\nIman Al-Dabbagh, Disgraceful, Forbidden, Sinful, Saudi Arabia\nMostafa Bassim, Revolution of the Mind, Egypt\nNadia Bseiso, Infertile Crescent, Jordan\nMehdy Mariouch, Shreds of Life, Morocco\nRoï Saade, The Epic of Dalieh, Lebanon\nMuhammad Salah, I Want to be Visible, Sudan\nSara Sallam, The Fourth Pyramid Belongs to Her, Egypt\nCarmen Yahchouchi, King Soleil Man, Lebanon",
+        "ts": "1501100874.535138"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that list i forwarded is the group that is going to be in program coming up",
+        "ts": "1501100891.544278"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "they're trying to upload 2016 grantees!",
+        "ts": "1501100903.550533"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "That second list ^^ is 2016, including Sara",
+        "ts": "1501100922.561312"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "awesome! got it",
+        "ts": "1501100965.584695"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "ok, all of the above with the exception of last one (Carmen Yahchouchi) are all set! i can’t find Carmen Yahchouchi’s entry though.",
+        "ts": "1501101351.793752"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "(not just the photo.. artist entry altogether)",
+        "ts": "1501101363.799834"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F6E452A4B\/image_uploaded_from_ios.jpg|Image uploaded from iOS>",
+        "file": {
+            "id": "F6E452A4B",
+            "created": 1501106840,
+            "timestamp": 1501106840,
+            "name": "Image uploaded from iOS.jpg",
+            "title": "Image uploaded from iOS",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 270432,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6E452A4B\/image_uploaded_from_ios.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6E452A4B\/download\/image_uploaded_from_ios.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6E452A4B-481a2b74d8\/image_uploaded_from_ios_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6E452A4B-481a2b74d8\/image_uploaded_from_ios_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6E452A4B-481a2b74d8\/image_uploaded_from_ios_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6E452A4B-481a2b74d8\/image_uploaded_from_ios_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6E452A4B-481a2b74d8\/image_uploaded_from_ios_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6E452A4B-481a2b74d8\/image_uploaded_from_ios_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6E452A4B-481a2b74d8\/image_uploaded_from_ios_800.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 600,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6E452A4B-481a2b74d8\/image_uploaded_from_ios_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 720,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F6E452A4B-481a2b74d8\/image_uploaded_from_ios_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 768,
+            "image_exif_rotation": 1,
+            "original_w": 2224,
+            "original_h": 1668,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F6E452A4B\/image_uploaded_from_ios.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F6E452A4B-ef7c5195a0",
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "upload_reply_to": "EFDF951C-8672-4E86-8FB0-A2ED17CACD10",
+        "ts": "1501106843.331339"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Not seeing heroes on those, is that the press image?",
+        "ts": "1501106860.337595"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U06DFL7BP> sorry was signed off. yup, press image",
+        "ts": "1501107225.466633"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cool, so tldr they needed to have alt text and profile photos for no error, and they need to upload press images for the landings ",
+        "ts": "1501107326.501299"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Yup! BUT press image is one of the project images. One of them just gets designated to be a press image",
+        "ts": "1501107525.568769"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ah so they just need to flag ",
+        "ts": "1501107539.573273"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Yup",
+        "ts": "1501107545.575351"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cool. Thank you! ",
+        "ts": "1501107547.575756"
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Do we have a URL that could be used as an Oauth landing page? the UP integration needs me to enter one in order to get a client key and secret to use the API.",
+        "ts": "1457638585.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Or alternatively, there must already be an app defined that has a key and secret, may I use those?",
+        "ts": "1457638651.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02613K0X>: ^ ?",
+        "ts": "1457638785.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I don’t have the key and secret that <@U026PHQ3J> is using for his integration. Is jawbone going to actually use the url for anything? Would this work for you:  <http:\/\/compass-d-compassl-17h0sxqa9891o-2050412355.us-west-2.elb.amazonaws.com\/v1\/authorization> ?",
+        "ts": "1457639150.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02HAJ6JF> might have the info here",
+        "ts": "1457639256.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(sorry I'm in a meeting)",
+        "ts": "1457639260.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Thanks Jenny! That URL worked and it let me have a key and secret, so I'm on to the next steps",
+        "ts": "1457639267.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there basically needs to be a callback URL from the jawbone OAuth",
+        "ts": "1457639269.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh wow",
+        "ts": "1457639271.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yay!",
+        "ts": "1457639279.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill keep pretending to be really engrossed in my meeting",
+        "ts": "1457639292.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":eyes:",
+        "ts": "1457639297.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks jenny\/marissa",
+        "ts": "1457639318.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Ah yeah, maybe I should edit that, but I'll at least try out the android SDK",
+        "ts": "1457639333.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Jawbone says the callback URL can be internal, so I set it to that",
+        "ts": "1457639364.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Authorization URL* Page that users will be brought to when they want to initiate the connection to your app from within the UP application. Must be a web page.",
+        "ts": "1457639375.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The UP Android SDK was last updated 2 years ago",
+        "ts": "1457639708.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":grimacing:",
+        "ts": "1457643275.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "their API has been generally stable for a while",
+        "ts": "1457643312.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i'm not really all that surprised",
+        "ts": "1457643324.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also their android team isn't very good",
+        "ts": "1457643331.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll make a private bitbucket repo and check in my updates to their SDK\/sample app that bring it up to the present day, juuust in case we might need it",
+        "ts": "1457650988.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "although the \/v1\/authorization endpoint is http and jawbone requires https for the callback, so there are some untested areas right now",
+        "ts": "1457651261.000025"
+    }
+]

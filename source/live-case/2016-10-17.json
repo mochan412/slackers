@@ -1,0 +1,96 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> while you're JIRA-ing, could you put that email from this morning in?",
+        "ts": "1476722286.001371"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Fwd: Issue 32198684: Can't select country",
+        "ts": "1476722286.001372"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that was the subject line",
+        "ts": "1476722291.001373"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yep!",
+        "ts": "1476722295.001374"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's also the thing from this weekend about the PCH unfuckup\/fuckup on the chip programming",
+        "ts": "1476722307.001375"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah lets talk about that - not sure what action is needed?",
+        "ts": "1476722324.001376"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i already made the fi",
+        "ts": "1476722331.001377"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fix",
+        "ts": "1476722332.001378"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we'll just need to get a build into dogfood today probably",
+        "ts": "1476722340.001379"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to make sure no one has issues",
+        "ts": "1476722345.001380"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> <@U2670DYLE> pulling up info i have for trends push notifications \/ communicated with client.",
+        "ts": "1476727477.001381"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "*Wanted to follow up with you regarding some of the conversations we've had regarding push notifications for Trends. \nBig picture is - we feel we can implement a first round of this for the November launch given our current understanding of work\/priorities* :slightly_smiling_face: \n\n*A few assumptions *\n- Will live with Artworks (<http:\/\/gweb-uncorked-workshop.appspot.com\/>)\n- Pushes will be manual, nothing automated (automated = nice to have, or future update) \n- 2 step process to display info to user (receive push, request locale or selected country from server). Potential for network errors (but we can work around)\n- Locale-specific scheduling still TBD (considering nice-to-have for November, but will reassess once we've dived deeper)\n- Push history not saved to app (a la Editions) as post content less suited for (can discuss further if this is a goal)\n\n*Need to define*\n- What content fields need to accommodate (assuming title, linked image, body copy)\n- How to handle locale-specific scheduling \n\n*Next steps (Uncorked)*\n- Implement the ability to associate each registered wallpaper with ID based on case (prior to minime public release) - in progress",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1476727626.000000"
+        },
+        "ts": "1476727478.001382"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can you provide any additional info needed to move forward outside (content fields+ how to handle locale-specific scheduling)?",
+        "ts": "1476727535.001383"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "post meeting update: trends push notifications will not be included in mid-nov launch. we should still work towards this, but considering a Q1 release for minime push notifications <@U2670DYLE> <@U1S5GKTHQ>",
+        "ts": "1476732864.001388"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "gotcha!",
+        "ts": "1476732890.001389"
+    }
+]

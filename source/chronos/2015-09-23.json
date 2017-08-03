@@ -1,0 +1,14 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "from momentjs:",
+        "ts": "1443055731.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "this week's sunday\n\nmoment().startOf('week')\nthis week's monday\n\nmoment().startOf('isoweek')\nthis week's saturday\n\nmoment().endOf('week')\ndifference between the current day to sunday\n\nmoment().diff(moment().startOf('week'),'days')\nthis week's wedesday\n\nmoment().startOf('week').add('days', 3)",
+        "ts": "1443055732.000003"
+    }
+]

@@ -1,0 +1,521 @@
+[
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U0289USNA> not sure if this will be helpful, but the system startup scripts for celery and uwsgi are in \/etc\/init.d",
+        "ts": "1401806213.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "These make the system start up those services at boot. I think there are some other config files somewhere that tell the celery daemon to run periodic tasks, but I may be remembering that incorrectly",
+        "ts": "1401806331.000061"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/bd04029240cc9707223a28edaaad3db1812eca2f|bd04029240cc>: get password refresh working\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401813418.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PHQ3J> and <@U0289USNA> later today I am going to push the button to localize the storyboards and nib files. I will let you know when that happens but if you have work to do in those files try to get it done before this afternoon. After I localize those files any changes made to interface files will have to go into both english and spanish versions",
+        "ts": "1401813840.000063"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/277349daf51369aa762d12aef9f7b18bd9c1e691|277349daf513>: version bump and badge number\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/2242fb5a6591f30d495f38c0da40ad91086e63f4|2242fb5a6591>: Merge branch 'develop' of <http:\/\/bitbucket.org:uncorkedstudios\/vroom-ios|bitbucket.org:uncorkedstudios\/vroom-ios> into develop\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401813842.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hey <@U0289USNA> can we get a new build this morning when it makes sense?",
+        "ts": "1401814077.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "you mean the build that's in your email right now?  :grinning:",
+        "ts": "1401814202.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ha, you're psychic!",
+        "ts": "1401814220.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel>: can everyone set their push notifications to 10am and say on here whether you got one or not?",
+        "ts": "1401814282.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02895311>:  this build had a model change right? Do we need to clean install it?",
+        "ts": "1401814380.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yep",
+        "ts": "1401814398.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<!channel> delete old versions of the app before installing latest build",
+        "ts": "1401814406.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup:",
+        "ts": "1401814456.000072"
+    },
+    {
+        "user": "U026E0ZNR",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U026E0ZNR|trent> has left the channel",
+        "ts": "1401814543.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "received",
+        "ts": "1401814842.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yay!",
+        "ts": "1401814846.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "better yet, didn't crash when i opened up. nice work <@U0289USNA>",
+        "ts": "1401814869.000076"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1401815169.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PLK4S> really all I need is the font and size for the \"forgot your password\" button",
+        "ts": "1401815408.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "should be the same as all the other forms",
+        "ts": "1401815420.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "but let me check on the forgot password size",
+        "ts": "1401815445.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<@U02895311>: Galaxie Bold 24px",
+        "ts": "1401815510.000081"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "thanks!",
+        "ts": "1401815514.000082"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/071617e7c0e1ac85a1a4d380e5d24b1eb7e13105|071617e7c0e1>: fix for john being annoyed by seeing placeholder text initiallt appear on todays vroom screen\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401816389.000083"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/65d4cf066ef79e4028afddfe80eda12d74a3c317|65d4cf066ef7>: fix VRIOS-37\n - mattwymore\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/770c920190368f8e78321c9de556be714f7c622a|770c92019036>: resolve merge conflict\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401817848.000084"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/b14e62e8a755d19c38c6f81b9eced1fb8667b962|b14e62e8a755>: fix VRIOS-62\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401818704.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hi <@U026PLK4S>",
+        "ts": "1401819387.000086"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "hero <@U0289USNA> fixing placeholder text! :grinning:",
+        "ts": "1401819560.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<!channel> if you see content getting chopped off when registering a new user I am already working on this (VRIOS-102)",
+        "ts": "1401819799.000088"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/ffc8f0bfac3d37de6cf666acdd83d9aaf0a7d621|ffc8f0bfac3d>: nagging the user if they dont enter a birthday\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/9334d1296e0638a8fd6d5fa785db7cb4b8ef01ae|9334d1296e06>: Merge branch 'develop' of <http:\/\/bitbucket.org:uncorkedstudios\/vroom-ios|bitbucket.org:uncorkedstudios\/vroom-ios> into develop\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401821262.000089"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U0289USNA> Hey. I changed the bar style on the birthdate picker because UIBarStyleBlackTranslucent is deprecated. Changed to UIBarStyleDefault",
+        "ts": "1401821627.000090"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/e3ee0d1336df7a87d79abbb14217bebf5d6ab97b|e3ee0d1336df>: fix VRIOS-102\n - mattwymore\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/908971dd121d8ae78bc4da374c982ce57280abb8|908971dd121d>: merging\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401821753.000091"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/764c5cfb13b62433c10b6da76f11f603b9db14cd|764c5cfb13b6>: VRIOS-109 more values for snooze duration\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/218c9493bbdf714bb9745de9fce66ce7925fb512|218c9493bbdf>: Merge branch 'develop' of <http:\/\/bitbucket.org:uncorkedstudios\/vroom-ios|bitbucket.org:uncorkedstudios\/vroom-ios> into develop\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401823373.000092"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/b0e73fa0db65ffd5637bf9ee332eb3e801c99a69|b0e73fa0db65>: new string for snooze notification\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/18b92a66a5303779cd5ce11d327a12ecaae74524|18b92a66a530>: VRIOS-90 3.5 inch bug on today's vroom\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401824051.000093"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<!channel>: here's what I'm thinking for loading and error messages. I like how the library we're using animates in and out, but would like to switch out some of the pieces to better fit with our brand story. see attached",
+        "ts": "1401825430.000094"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1401825440.000095"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U0289USNA> or <@U026PHQ3J>  do either of you want to look at modifying SVProgressHud for the second item?",
+        "ts": "1401825529.000097"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1401826301.000103"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02895311>:  <@U0289USNA>  I can take a look at the progress HUD",
+        "ts": "1401827752.000104"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "unless someone started already",
+        "ts": "1401827761.000105"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "go nuts",
+        "ts": "1401827767.000106"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/9dceaadc1490271a7d8efc1a5855e6c08117ee44|9dceaadc1490>: VRIOS-104 text on badge view\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401828128.000107"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/1ed70530594962a116204173f1e04004db1a1374|1ed705305949>: fix VRIOS-45\n - mattwymore\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/6193944763f4d772408337bc25927e8af9510052|6193944763f4>: merging\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401828717.000108"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel>: i'm going to log JIRA issues for the error message and spinner updates",
+        "ts": "1401828811.000109"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/a6daa50c803c86567f747e9e64a5d51d820375d3|a6daa50c803c>: make api call for viewing sciences\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401830373.000110"
+    },
+    {
+        "text": "[vroom-ios\/] 3 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/5f376a0b75501335341de66b152add77c29cf6a5|5f376a0b7550>: VRIOS-107 text annotation view\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/6b287ec24be9ad6e3c846fc4bf00f44768cb3267|6b287ec24be9>: viz bugs on completed vroom layout\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/5cd91aac31720670215a6bcc8cc3231a6681c53a|5cd91aac3172>: Merge branch 'develop' of <http:\/\/bitbucket.org:uncorkedstudios\/vroom-ios|bitbucket.org:uncorkedstudios\/vroom-ios> into develop\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401831293.000111"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/06da3b42c5bd944b7a8624e9e935bc7668b7c00b|06da3b42c5bd>: text spacing twekas on badge award view\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/2f1d812c76b5dda6befb3bb5ec235573391e5d4c|2f1d812c76b5>: removing swipe to delete.  fixing table view when adding more annotations\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401833878.000112"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/ddf5a0bf60287b088a9920e7d923334362bc6b98|ddf5a0bf6028>: no more black stuff in transitions\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401834945.000113"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/8a6c5054c8b271893d89c2706bb23911d38534d2|8a6c5054c8b2>: VRIOS-72 submit vroom in sidebar now being enabled\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401836101.000114"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/5b4d904aa0a24378129df135b73f9f5789d9da3c|5b4d904aa0a2>: VRIOS-115 - nudge measurements and positioning of image and detail on vroom teaser and detail screens\n - spaceLenny",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401837726.000115"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/bb90129067b2e3fd090616d65a6f1e135ea7139e|bb90129067b2>: VRIOS-50 - hand tweak some icon placement\n - spaceLenny",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401838737.000116"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/12eb95328fc11a20bad5910f6016fd863204e024|12eb95328fc1>: VRIOS-86 - increase edge inset on final section to give some overscroll room\n - spaceLenny",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401839179.000117"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/d5f64cebd77b659ad7eff259a76421fce1d67567|d5f64cebd77b>: add in offline behavior\n - mattwymore\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/3ea6fe42e64062c86e9f17e30c38282303410ef1|3ea6fe42e640>: merging\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401839245.000118"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<!channel> I just checked in another model change. When Scott pushes the next build please delete the old build from your device.",
+        "ts": "1401839281.000119"
+    },
+    {
+        "text": "[vroom-ios\/] 3 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/096ae7a3b70920b4befc741dd35b587235cc0193|096ae7a3b709>: VRIOS-118 local notifications\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/00aba5cdc6ce88a1db6fe5584f096a2ba5a60aad|00aba5cdc6ce>: merge\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/823592850f84ec821e9d0fb9e159d0afc81018d6|823592850f84>: Merge branch 'develop' of <http:\/\/bitbucket.org:uncorkedstudios\/vroom-ios|bitbucket.org:uncorkedstudios\/vroom-ios> into develop\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401839369.000120"
+    },
+    {
+        "text": "[Vroom Drupal Theme\/] 2 new commits:\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/4f44eaaf623ac1ed401d7e6dc4f88885d3942877|4f44eaaf623a>: Added page redirect to app store template.\n - gastonfig\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/99c7dc53d69f193c5d2a0a4d1782186c5d538d07|99c7dc53d69f>: Redirect to T&amp;A page if Apple or Google links are empty.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B026TMSJ4",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401840701.000121"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Bitbucket is down",
+        "ts": "1401841371.000122"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "holy cow",
+        "ts": "1401841410.000123"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<http:\/\/static3.beanscdn.co.uk\/modules\/ems-v2\/article\/images\/You_dont_understand_why_she_gets_mad_when_you_show_up_to_dinner_an_hour_late.gif.gif>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/static3.beanscdn.co.uk\/modules\/ems-v2\/article\/images\/You_dont_understand_why_she_gets_mad_when_you_show_up_to_dinner_an_hour_late.gif.gif",
+                "fallback": "460x209px image",
+                "image_url": "http:\/\/static3.beanscdn.co.uk\/modules\/ems-v2\/article\/images\/You_dont_understand_why_she_gets_mad_when_you_show_up_to_dinner_an_hour_late.gif.gif",
+                "image_width": 460,
+                "image_height": 209,
+                "image_bytes": 1199868,
+                "id": 1
+            }
+        ],
+        "ts": "1401841423.000124"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/media2.giphy.com\/media\/PPIusDh8elXJS\/giphy.gif>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/media2.giphy.com\/media\/PPIusDh8elXJS\/giphy.gif",
+                "fallback": "340x205px image",
+                "image_url": "http:\/\/media2.giphy.com\/media\/PPIusDh8elXJS\/giphy.gif",
+                "image_width": 340,
+                "image_height": 205,
+                "image_bytes": 1940646,
+                "id": 1
+            }
+        ],
+        "ts": "1401841506.000126"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/4575b907e7845fe14fbfc8071a059d8a2f479320|4575b907e784>: fix incorrect networking error\n - mattwymore\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/823bce544fee27f6fc7cb425276ac48dbceaf50a|823bce544fee>: merging\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1401841802.000128"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ooh yay",
+        "ts": "1401841814.000129"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026103R3> <@U026PLK4S> <@U026PHQ3J> question about text for things like settings: For the android app, many of the settings only capitalize the first word (\"Sign out\" \"Privacy policy\", etc). The comp for the iOS app has these terms capitalized on each word (\"Sign Out\" \"Privacy Policy\" etc). Life would be significantly easier for localization if we matched android's strings. Can you guys let me know what you think? Thanks.",
+        "ts": "1401845620.000130"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Hey <@U02895311> for sure please match the android strings. that's all the approved copy, including the camel case. ",
+        "ts": "1401846110.000131"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "okey dokey. Thanks.",
+        "ts": "1401846185.000132"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026103R3> one other thing... On android when you log out, the system just logs you out. on iOS we are putting up an alert to confirm if you want to log out. Can we just log the user straight out like android?",
+        "ts": "1401846281.000133"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "uh oh, seeing how long you are typing makes me think I won't get the answer I want. :shit: :shit: :shit:",
+        "ts": "1401846386.000134"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Haha So in the android app when you hit sign out it just signs out immediately, without any additional step? For as many times as I've used the app I don't remember it that way. ",
+        "ts": "1401846406.000135"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "And of course I forgot to being an android home with me ",
+        "ts": "1401846421.000136"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "I can leave the alert in there, we just need to get a translation for the text",
+        "ts": "1401846436.000137"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Leave it in for now and I'll ask the client for copy tomorrow morning if we decide to go that route. I'd like to see if that feels weird in android tomorrow as well. ",
+        "ts": "1401846552.000138"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "I think the alert is appropriate",
+        "ts": "1401846606.000139"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "better experience",
+        "ts": "1401846615.000140"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yea that's what I was thinking ",
+        "ts": "1401846655.000141"
+    }
+]

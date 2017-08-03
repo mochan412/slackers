@@ -1,0 +1,406 @@
+[
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #77 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/77\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #77 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/77\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468251308.001219"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #77 Success after 49 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/77\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #77 Success after 49 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/77\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468251351.001220"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #78 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/78\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #78 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/78\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468252460.001221"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #78 Success after 44 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/78\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #78 Success after 44 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/78\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468252503.001222"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: as discussed, we’re not pushing software til earliest Tuesday evening.  Ideally we chip away at the below tasks locally and depeneidng upon progress, we can decide whether we hold these and include in dot release or if we can roll em out and test them Tuesday evening\/Wednesday before we leave.  List is as follows:\n\n\t•\tNew loading order\n\t⁃\tRight now the drop down list populates to the right place in the order however, the graphic needs to be updated to reflect this otherwise it is confusing\n\t•\tAPI\/Admin: Check to ensure colors matching is sufficient\n\t•\tAdmin: when re-visiting a previously built workshop, James needs to refresh every time he comes back to the workshop.  Without refresh he won’t see the Brand Name populated so cubby assignments don’t show up.  \n\t•\tData Viz accuracy:\n\t⁃\tRight now I have to hardcode the questions in a auricular order (reference what we have in KFC - in this order it works).  When you switch around the order of these questions, sometimes the answers go to the wrong questions on TopSweep.  TL;DR a deeper look at the logic is required here.  \n\t⁃\tYesterday we had ten cubbies in use.  I answered for each cubby (no Skips).  One of the questions only logged 9 answers.  One logged 6.  One logged 11.   TL;DR a deeper look at the logic is required here.  \n\t•\tYT Trends pink triangle appears to have a jog because I think there are two assets here.  larger triangle is laid atop of a smaller triangle\n\t•\tIn order to get the YT watermark off of our YT Tends videos, can you look into a ‘modest browsing’ setting?  James gave us this tip.  \n\t•\tCubby question animation: dots should always come in before text \n\t•\tAdmin: Graceful fallback in the event a brand doesn’t have a YT channel",
+        "ts": "1468253759.001223"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "let me know if you wanna discuss any of these today.  if not, please keep a log of which ones have been completed.",
+        "ts": "1468253777.001224"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "already set modest browser, actually called modestbranding. this was set from the go, doesnt seem to care on all videos similar to the loop",
+        "ts": "1468254029.001225"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "one fix, make the triangle bigger",
+        "ts": "1468254052.001226"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dataviz sounds like could be a few triggers in the templates set wrong, will do a pass of those.",
+        "ts": "1468254103.001227"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "regarding the triangle, why dont we just remove the errant triangle underneath (or look for it) before we layer on something atop of it",
+        "ts": "1468254201.001228"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i need to see if there even is one, im talking about the yt logo, make it bigger it covers the logo completely then right now just a bit comes thru",
+        "ts": "1468254244.001229"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "gotcha",
+        "ts": "1468254307.001230"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "nah, not concerned about watermark",
+        "ts": "1468254312.001231"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "just due diligence on modestbaranding",
+        "ts": "1468254319.001232"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "as for color, im looking at kfc, zheng, hochman, giovanni, hisamoto, basically anyone red, didnt choose a color, and red is the fallback for that",
+        "ts": "1468254488.001233"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "steve kelly shows up yellow, and that color that comes thru is a very teal like color, so something is screwy there looking into it",
+        "ts": "1468254549.001234"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "what about barwick and graves?  did they choose yellow?",
+        "ts": "1468254644.001235"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "im following ya just curious",
+        "ts": "1468254647.001236"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "checking",
+        "ts": "1468254657.001237"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #79 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/79\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #79 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/79\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468254906.001245"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no color for barwick, graves got a 1720AC which is purple ish",
+        "ts": "1468254923.001246"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #79 Success after 49 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/79\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #79 Success after 49 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/79\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468254949.001247"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok yeah, lets look at that.  ps creating jira tix for these now that we’re not pushing multiple times a day.  will help keep us organized",
+        "ts": "1468254971.001248"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah thats good, and makes sense for our current cadence",
+        "ts": "1468255000.001249"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "random note - if you find that you need any help whatsoever from design team (colors, assets, etc) please holler.",
+        "ts": "1468255256.001250"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "while I’m currently (i think) the first in, we’re here for support",
+        "ts": "1468255270.001251"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "appreciate it",
+        "ts": "1468255348.001252"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: joel wrote lighting code last night that he tested and for IS reasons isn’t a good candidate.  as a result he had to rollback to  what i thin is the build we had yesterday morning.  I’m requesting a formal smoke test.  <@U02E3CRMA> will give the signal once the wall is clear and we can test.  10am target time",
+        "ts": "1468255897.001253"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "peter, i could use your eyes on that",
+        "ts": "1468255904.001254"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Filming is going well. James starting each time. How are you guys? ",
+        "ts": "1468273679.001255"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "good - I have TCP fix in, and now Peter’s testing the communications issues against the fixed version. As soon as they’re off the wall, we’ll get out there and test on the wall. In the meantime, we’ll keep cranking on debug.",
+        "ts": "1468273824.001256"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Ok they'll be filming in the auditorium shortly. We can hit wall then.",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1468273898.000000"
+        },
+        "ts": "1468273876.001257"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "sounds good",
+        "ts": "1468273900.001259"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Figure 15 min ",
+        "ts": "1468273926.001260"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "sounds good",
+        "ts": "1468274359.001261"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we’re ready when you are",
+        "ts": "1468274364.001262"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "from what im seeing here, it looks like we are on the right track and things sound logical.",
+        "ts": "1468274695.001263"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "is isnt running on the server??",
+        "ts": "1468277916.001264"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #80 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/80\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #80 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/80\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468281520.001265"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #80 Success after 58 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/80\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #80 Success after 58 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/80\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1468281575.001266"
+    }
+]

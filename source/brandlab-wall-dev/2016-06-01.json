@@ -1,0 +1,417 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: wall updated with last nightly",
+        "ts": "1464793541.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that explains why i had to reset IS yesterday after the deploy and it complained about the WS not working",
+        "ts": "1464793599.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "good to know",
+        "ts": "1464797009.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m going to file a bug report with Google then",
+        "ts": "1464797023.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "seems like that isdo script is pretty immature - lots of things in there that aren’t supported yet",
+        "ts": "1464797083.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "like Ctrl-C",
+        "ts": "1464797090.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "darn it, apparently the file uploader activity doesnt search subfolders for files, and only caches the file list on start of the activity. so that wont work for linking the uploaded files to that repo for serving them. Which makes me think yet another reason possibly for running the local apache for serving those images, as well as the templates \/ editor, and the body movin files",
+        "ts": "1464797125.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: currently YT trends is up on wall but ‘Open’ button doesn’t open the door; is that for any reason or is it worth me looking into?",
+        "ts": "1464800288.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "door motor isnt plugged in? last i knew the door wasnt hooked up",
+        "ts": "1464800313.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "word <@U02E3CRMA> sup wit the door?",
+        "ts": "1464801129.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "we didnt hit that in our smoke test :slightly_smiling_face:",
+        "ts": "1464801137.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "pinged Iontank again this am, just got a response from Craig. I’ll triage what it takes to fix or workaround it.",
+        "ts": "1464802289.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: sorry i dont understand, whats iontank owe us in order to get door working again?  it was working… sorry im dumb on this stuff.",
+        "ts": "1464802448.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "also <@U02E3CRMA> is code back with myles?",
+        "ts": "1464802555.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!channel>: I’m going to be messing with the wall for 5 minutes…will let you know when I’m done",
+        "ts": "1464803181.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>:  and i connected on motor, i’ll create a jira ticket",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1464804313.000000"
+        },
+        "ts": "1464804296.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: we agree; work on Admin not visibile in IS and then if you need another ticket -BWB-31 Bake In Re-usable Animations",
+        "ts": "1464804635.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "I’ll get you full list and key dates as soon as I’m out of meetings.",
+        "ts": "1464804651.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "whats there to do on 31?",
+        "ts": "1464804679.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I already did the animations I was aware of, and passed the sub ticket to bryan",
+        "ts": "1464804699.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "until we have more animations called out the 31 epic is just holding pattern",
+        "ts": "1464804728.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i dunno, carryover ticket from trello TBH",
+        "ts": "1464804731.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "maybe after Admin in IS <@U0EL0GLEL> sweeps his own backlog and calls out missing items and priorities as he ses em?",
+        "ts": "1464804768.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "fair enough, have a few items i can pick off",
+        "ts": "1464804800.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: commit 974d771 had all your changes from Myles’ feedback - it’s been pushed to Gerrit and is ready for his review.",
+        "ts": "1464804947.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not sure which that is, not seeing it, but there was a branch not just 1 commit that had quite a few commits in it",
+        "ts": "1464805135.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "it was your merge back into dev",
+        "ts": "1464805151.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "that had all those changes",
+        "ts": "1464805157.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so that we’re tracking dev commits when we push to Google",
+        "ts": "1464805167.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "thought so but im seeing that as a different id",
+        "ts": "1464805175.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "technically the first commit after the merge, but I used it since you fixed an error from the merge, and I didn’t want Myles to have broken code :slightly_smiling_face:",
+        "ts": "1464805256.000054",
+        "reactions": [
+            {
+                "name": "fire",
+                "users": [
+                    "U0ML49XU0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "\"Fixed a regrestion from a mistake in the merge\"",
+        "ts": "1464805259.000055"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ah i see what you did",
+        "ts": "1464805286.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool yes, found a little merge issue later in the day",
+        "ts": "1464805303.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, figured out the motor update",
+        "ts": "1464805776.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "will fix as soon as I’m out of here",
+        "ts": "1464805781.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "fix as in it will be at 11?",
+        "ts": "1464806689.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "according to our new address map, it should be at 192.168.33.101",
+        "ts": "1464806923.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "darn it zero padding...",
+        "ts": "1464807035.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "will add the logic, so much easier to just say its 1+ cubbyid",
+        "ts": "1464807061.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh well",
+        "ts": "1464807067.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: <@U11JK4QSK> and <@U02E3CRMA> i know jira can be overwhelming some times.  so if curious about your sprints click the search filtered link in the schedule email i just sent OR if you wanna see tickets referenced in a text doc, in order, joel or I can hook ya up",
+        "ts": "1464813780.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA> we finally got BL Registration API on Production.  Before I kick it to Peter to hook in, do we want to even do that at this stage or post-beta?  i’m thinking now and that we get Josh to point us towards some past workshops with rich data-sets",
+        "ts": "1464818287.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah I would say we should do that, use real data from the past",
+        "ts": "1464818320.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "right on, let me get some spec details for a ticket",
+        "ts": "1464818347.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "guys, i feel like we’re humming along these last few days (since Thursday).  hope you feel it too!",
+        "ts": "1464818364.000069"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joel\/F1DEXPL07\/img_20160601_165843.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F1DEXPL07",
+            "created": 1464825558,
+            "timestamp": 1464825558,
+            "name": "IMG_20160601_165843.jpg",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 2662549,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1DEXPL07\/img_20160601_165843.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1DEXPL07\/download\/img_20160601_165843.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1DEXPL07-51dec01007\/img_20160601_165843_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1DEXPL07-51dec01007\/img_20160601_165843_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1DEXPL07-51dec01007\/img_20160601_165843_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 269,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1DEXPL07-51dec01007\/img_20160601_165843_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 359,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1DEXPL07-51dec01007\/img_20160601_165843_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1DEXPL07-51dec01007\/img_20160601_165843_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 539,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1DEXPL07-51dec01007\/img_20160601_165843_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 718,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1DEXPL07-51dec01007\/img_20160601_165843_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 766,
+            "image_exif_rotation": 1,
+            "original_w": 4000,
+            "original_h": 2992,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F1DEXPL07\/img_20160601_165843.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1DEXPL07-c977b188e2",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02E3CRMA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1464825566.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "whitelist these, <https:\/\/brandlab-phase3.appspot.com>, <https:\/\/www.googleapis.com\/,http:\/\/www.consumerbarometer.com>",
+        "ts": "1464825785.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks!",
+        "ts": "1464827844.000072"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "brandlab - #23 Started by timer (<http:\/\/192.168.169.90:9000\/job\/brandlab\/23\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "brandlab - #23 Started by timer (<http:\/\/192.168.169.90:9000\/job\/brandlab\/23\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1464839318.000073"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "brandlab - #23 Success after 19 sec (<http:\/\/192.168.169.90:9000\/job\/brandlab\/23\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "brandlab - #23 Success after 19 sec (<http:\/\/192.168.169.90:9000\/job\/brandlab\/23\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1464839334.000074"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "From GCM, there is no way to request your registration ID. Each time you register, you receive the original registration ID (until unregister() is called), but register takes in a list of senderIds. 1. I don't know what UA's sender ID is. 2. We probably don't have a sender ID yet. I'm going to see what happens if I just don't pass an ID, but I'm wondering if you have any ideas <@U0289USNA> or <@U026PHQ3J>",
+        "ts": "1413915912.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Just spit balling here - but how about: AIzaSyAQmdD7JDJUiTlpkmwsh5v4Iu5Z_LjtvtA",
+        "ts": "1413916101.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "You should have that string baked into the app already someplace and it is likely what UA uses when registering.",
+        "ts": "1413916155.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "alright, I'll give that a shot",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1413916175.000000"
+        },
+        "ts": "1413916171.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "totally just guessing that.",
+        "ts": "1413916173.000006"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1413916203.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "so - silly question...   Users who get the app via the Amazon store...  do push notifications work for them? UA has a separate service for Amazon Device Messaging - which as of the moment is not enabled...",
+        "ts": "1413916357.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U0261PCRQ> ---^",
+        "ts": "1413916381.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "push notifications should still work for them as long as they have the play store on their device",
+        "ts": "1413916415.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "and that API key isn't the number I need, but I think it's on the google console",
+        "ts": "1413916436.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I used the Project Number from the Google Developer's Console and am receiving a registration ID. I'll let you know @ noon if I'm still receiving UA push notifications.",
+        "ts": "1413917083.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "by the way - in addition to the push token, I will need some sort of device identifier",
+        "ts": "1413917995.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "The push notifications on Android won't be supported on Amazon devices (or any android devices without Google Play Services). Should we be excluding those settings from the app if they're not supported?",
+        "ts": "1413936841.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026103R3> --^",
+        "ts": "1413936867.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "^ we just chatted :simple_smile:",
+        "ts": "1413937457.000021"
+    }
+]

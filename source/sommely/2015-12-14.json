@@ -1,0 +1,905 @@
+[
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "Let's stand up over slack today. ",
+        "ts": "1450116120.000002"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "Send updates when you can, please. Thanks team!",
+        "ts": "1450116150.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Could we get updates on 1) 3d printed caps including light ring, 2) the wine rack,  3.) are we set on the hub with temp sensors? 4.) what is our plan for the week when the hardware starts arriving?",
+        "ts": "1450116663.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "and if there’s anything else that hasn’t been completed yet that should have been? I feel like we’re missing something. Want to make sure we’re dialed in on our side.",
+        "ts": "1450116700.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "3) Yes. Working through I2C, but have an analog sensor working fine.",
+        "ts": "1450117391.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "was that the thermistor?",
+        "ts": "1450117504.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "4) Mostly drafting Intel’s lead on this one. We (at least me, perhaps more) will head out to Intel’s lab to help with bringup. They’ll have a power-on plan to follow. Power and battery board first, then BLE radio. LED board will be fully-tested here, so we’ll do that last. We never bottomed out on implementing a power-on-test app, so we’ll just roll with the example apps in the SDK",
+        "ts": "1450117506.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "is that our desired sensor?",
+        "ts": "1450117506.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "we have those sparkfun kits that shashi recommended as well",
+        "ts": "1450117528.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02F8LF2X>: yes. <@U026NB2U2>: I2C is preferred - more accurate and lower-power",
+        "ts": "1450117529.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "cool",
+        "ts": "1450117536.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "tried those, didn’t work on account of I2C",
+        "ts": "1450117541.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "got it",
+        "ts": "1450117546.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m going to scrub the Trello board today, and will capture power-on activities in there",
+        "ts": "1450117580.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "My updates: \n0) LED boards should ship today. Last check, they were on-schedule\n1) Got 3 cap boards up and running on Friday, could scan from the gateway. Building out the scanner code today to properly store them.\n2) Ran out of user data space in the firmware image. Not blocked, but needs to be fixed before deployment. Looks like I can tweak flash layout in the link file, but need to check with Richard to make sure that’s the case. Will resolve today.\n3) Will do major Trello update today.",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1450117817.000000"
+        },
+        "ts": "1450117645.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Mostly VQA and UX\/Interaction enhancements. <@U02E3CRMA> Let me know if I can help with anything at the Intel lab happy to go (depending on date\/time).",
+        "ts": "1450118642.000018"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "thanks team!",
+        "ts": "1450118781.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "status: sent email to shashi with questions\/feedback for the two versions of the sommely cap",
+        "ts": "1450118956.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "We’re waiting on Chris from Intel to give us mechanical specs for that. (and thanks Josh)",
+        "ts": "1450118966.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "need to order a vibratory tumbler of some sort",
+        "ts": "1450118978.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "where does one find such a thing?",
+        "ts": "1450118994.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "the internet has them",
+        "ts": "1450119001.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "or harborfreight if we need it immeadiately",
+        "ts": "1450119012.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "(ah saw your note)",
+        "ts": "1450119051.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<https:\/\/www.youtube.com\/watch?v=S1z_YLIVLL0&amp;t=240>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "3D Printing &amp; Polishing Metal Bitcoins Printed w\/ colorFabb Bronzefill",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=S1z_YLIVLL0&amp;t=240",
+                "author_name": "Barnacules Nerdgasm",
+                "author_link": "https:\/\/www.youtube.com\/user\/barnacules1",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/S1z_YLIVLL0\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: 3D Printing & Polishing Metal Bitcoins Printed w\/ colorFabb Bronzefill",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/S1z_YLIVLL0?feature=oembed&start=240&autoplay=1\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=S1z_YLIVLL0&amp;t=240",
+                "id": 1
+            }
+        ],
+        "ts": "1450119076.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "oh! and I should mention we purchased a new\/different hot-end for our printer that allows us to print flexible material",
+        "ts": "1450119115.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "cool.",
+        "ts": "1450119141.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "what do you need from us on the wine rack?",
+        "ts": "1450119155.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<@U02618EV1> - we also have time this week for you to look at the Google image recognition library as well.",
+        "ts": "1450119266.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome. Will do.",
+        "ts": "1450119308.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "wine rack: let me mock something up and get your approval today",
+        "ts": "1450119342.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "we decided on 6x4 bottle wall mount?",
+        "ts": "1450119358.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "yes on 6x4 (we should probably confirm w\/ shashi on whether or not we can mount it to the wall)",
+        "ts": "1450119432.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "I am worried about 24 bottles of wine",
+        "ts": "1450119439.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah it will be heavy",
+        "ts": "1450119444.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "attached to temporary dry wall",
+        "ts": "1450119445.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "can we put legs on it?",
+        "ts": "1450119453.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "can of course",
+        "ts": "1450119484.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "as long as we can get rid of the existing table there and artwork",
+        "ts": "1450119498.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "or move artwork up on wall",
+        "ts": "1450119504.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "we are allowed to move the artwork",
+        "ts": "1450119535.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok then the world is our oyster",
+        "ts": "1450119571.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "and we can probably move the table there. let’s do this: 1) finish the schematic (with legs) and let’s send to Shashi with a note on materials and finish to get approval.",
+        "ts": "1450119587.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Joel and I are also discussing briefing design once we have functioning hardware to see what a demo script might look like.",
+        "ts": "1450119690.000047"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U026NB2U2",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[December 14th, 2015 11:01 AM] marcelino: Joel and I are also discussing briefing design once we have functioning hardware to see what a demo script might look like.",
+                "ts": "1450119690.000047",
+                "author_subname": "marcelino",
+                "channel_id": "C026T598V",
+                "channel_name": "sommely",
+                "is_msg_unfurl": true,
+                "text": "Joel and I are also discussing briefing design once we have functioning hardware to see what a demo script might look like.",
+                "author_name": "Marcelino Alvarez",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/marcelino",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2014-10-22\/2855342572_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U026NB2U2|marcelino> pinned a message to this channel.",
+        "ts": "1450119695.000048"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F0GKHR20Z\/screen_shot_2015-12-14_at_1.24.05_pm.png|Screen Shot 2015-12-14 at 1.24.05 PM.png>",
+        "file": {
+            "id": "F0GKHR20Z",
+            "created": 1450128316,
+            "timestamp": 1450128316,
+            "name": "Screen Shot 2015-12-14 at 1.24.05 PM.png",
+            "title": "Screen Shot 2015-12-14 at 1.24.05 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 372267,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKHR20Z\/screen_shot_2015-12-14_at_1.24.05_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKHR20Z\/download\/screen_shot_2015-12-14_at_1.24.05_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHR20Z-96f7f975c7\/screen_shot_2015-12-14_at_1.24.05_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHR20Z-96f7f975c7\/screen_shot_2015-12-14_at_1.24.05_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHR20Z-96f7f975c7\/screen_shot_2015-12-14_at_1.24.05_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 347,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHR20Z-96f7f975c7\/screen_shot_2015-12-14_at_1.24.05_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 463,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHR20Z-96f7f975c7\/screen_shot_2015-12-14_at_1.24.05_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHR20Z-96f7f975c7\/screen_shot_2015-12-14_at_1.24.05_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 695,
+            "image_exif_rotation": 1,
+            "original_w": 774,
+            "original_h": 747,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F0GKHR20Z\/screen_shot_2015-12-14_at_1.24.05_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0GKHR20Z-d80115ef20",
+            "channels": [
+                "C026T598V"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1450128318.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok this is a 6x4 rack with legs and a little 2.5\" apron mortised in between the legs",
+        "ts": "1450128346.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "legs are 1.5\"x1.5\"",
+        "ts": "1450128358.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "everything else is 0.75\" thick",
+        "ts": "1450128364.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "legs are 32.25\" long",
+        "ts": "1450128436.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "which puts the rack between 32.25\" and 52\" off the ground. I think this works ergonomically in terms of interacting with the bottles with your hands and eyes",
+        "ts": "1450128479.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "thoughts?",
+        "ts": "1450128483.000055"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "love the way it looks",
+        "ts": "1450128663.000056"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "i think we need to revisit the discussion about mounting the tablet",
+        "ts": "1450128683.000057"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "i’m back to thinking it needs to be on top of the unit",
+        "ts": "1450128694.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's a bit high if on top",
+        "ts": "1450128710.000059"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "i agree",
+        "ts": "1450128715.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "certainly for someone stephanie's height",
+        "ts": "1450128716.000061"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "one of the reasons I liked the 8x3 layout",
+        "ts": "1450128729.000062"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "i’m with you",
+        "ts": "1450128736.000063"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "i’m still trying to resolve how people will know to look for a tablet to interact with it if they’re coming from one direction or the other",
+        "ts": "1450128769.000064"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "does that make sense?",
+        "ts": "1450128805.000065"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "putting a mount on the apron would be awkward",
+        "ts": "1450128835.000066"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "maybe mounting on the wall next to the unit is our best bet",
+        "ts": "1450128864.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me mock up one other idea.. stay tuned",
+        "ts": "1450128891.000068"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F0GKGTK99\/screen_shot_2015-12-14_at_1.44.05_pm.png|Screen Shot 2015-12-14 at 1.44.05 PM.png> and commented: idea 1: extend base left or right to create a ledge for the tablet to sit",
+        "file": {
+            "id": "F0GKGTK99",
+            "created": 1450129475,
+            "timestamp": 1450129475,
+            "name": "Screen Shot 2015-12-14 at 1.44.05 PM.png",
+            "title": "Screen Shot 2015-12-14 at 1.44.05 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 209782,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKGTK99\/screen_shot_2015-12-14_at_1.44.05_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKGTK99\/download\/screen_shot_2015-12-14_at_1.44.05_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKGTK99-77d4825219\/screen_shot_2015-12-14_at_1.44.05_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKGTK99-77d4825219\/screen_shot_2015-12-14_at_1.44.05_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKGTK99-77d4825219\/screen_shot_2015-12-14_at_1.44.05_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 313,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKGTK99-77d4825219\/screen_shot_2015-12-14_at_1.44.05_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 418,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKGTK99-77d4825219\/screen_shot_2015-12-14_at_1.44.05_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 583,
+            "original_h": 670,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F0GKGTK99\/screen_shot_2015-12-14_at_1.44.05_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0GKGTK99-6ab121106f",
+            "channels": [
+                "C026T598V"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0GKL4FHC",
+                "created": 1450129475,
+                "timestamp": 1450129475,
+                "user": "U02F8LF2X",
+                "is_intro": true,
+                "comment": "idea 1: extend base left or right to create a ledge for the tablet to sit"
+            }
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1450129477.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "I also think we could wall mount the tablet to the side - similar to the robin tablets",
+        "ts": "1450129764.000070"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F0GKHAW9H\/screen_shot_2015-12-14_at_1.49.43_pm.png|Screen Shot 2015-12-14 at 1.49.43 PM.png> and commented: another option. tablet in front",
+        "file": {
+            "id": "F0GKHAW9H",
+            "created": 1450129807,
+            "timestamp": 1450129807,
+            "name": "Screen Shot 2015-12-14 at 1.49.43 PM.png",
+            "title": "Screen Shot 2015-12-14 at 1.49.43 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 360905,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKHAW9H\/screen_shot_2015-12-14_at_1.49.43_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKHAW9H\/download\/screen_shot_2015-12-14_at_1.49.43_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHAW9H-3721ef116c\/screen_shot_2015-12-14_at_1.49.43_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHAW9H-3721ef116c\/screen_shot_2015-12-14_at_1.49.43_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHAW9H-3721ef116c\/screen_shot_2015-12-14_at_1.49.43_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 324,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHAW9H-3721ef116c\/screen_shot_2015-12-14_at_1.49.43_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 432,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHAW9H-3721ef116c\/screen_shot_2015-12-14_at_1.49.43_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKHAW9H-3721ef116c\/screen_shot_2015-12-14_at_1.49.43_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 648,
+            "thumb_720_h": 720,
+            "image_exif_rotation": 1,
+            "original_w": 679,
+            "original_h": 755,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F0GKHAW9H\/screen_shot_2015-12-14_at_1.49.43_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0GKHAW9H-789800ab4c",
+            "channels": [
+                "C026T598V"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0GKLHLHL",
+                "created": 1450129807,
+                "timestamp": 1450129807,
+                "user": "U02F8LF2X",
+                "is_intro": true,
+                "comment": "another option. tablet in front"
+            }
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1450129810.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "(both of these look weird)",
+        "ts": "1450129818.000072"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "agreed",
+        "ts": "1450129838.000073"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "<@U026NB2U2> that’s what i was trying to get at",
+        "ts": "1450129847.000074"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "re: mounting on the side",
+        "ts": "1450129857.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "we're going to try cardboard mockup and wall mount now",
+        "ts": "1450129879.000076"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "ok",
+        "ts": "1450129915.000077"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "thanks guys",
+        "ts": "1450129918.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "is there a lot of traffic in this hallway?",
+        "ts": "1450129945.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "we’re talking it out here IRL",
+        "ts": "1450130148.000080"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "call me?",
+        "ts": "1450130439.000081"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "cardboard mockup of 6x4 wine rack 32.5\" above ground on the end standing desk in the design room",
+        "ts": "1450137073.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "let me know if you have feedback about height or where to put the accompanying tablet",
+        "ts": "1450137089.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "especially <@U026NB2U2>",
+        "ts": "1450137093.000084"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<@U04JZANJF>: check it out tomorrow",
+        "ts": "1450139010.000085"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "k",
+        "ts": "1450139020.000086"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026NB2U2|marcelino> uploaded a file: <https:\/\/uncorked.slack.com\/files\/marcelino\/F0GKXB1H7\/screen_shot_2015-12-14_at_4.40.38_pm.png|Why Sommely Exists>",
+        "file": {
+            "id": "F0GKXB1H7",
+            "created": 1450140070,
+            "timestamp": 1450140070,
+            "name": "Screen Shot 2015-12-14 at 4.40.38 PM.png",
+            "title": "Why Sommely Exists",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026NB2U2",
+            "editable": false,
+            "size": 176282,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKXB1H7\/screen_shot_2015-12-14_at_4.40.38_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKXB1H7\/download\/screen_shot_2015-12-14_at_4.40.38_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKXB1H7-e8fa789220\/screen_shot_2015-12-14_at_4.40.38_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKXB1H7-e8fa789220\/screen_shot_2015-12-14_at_4.40.38_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKXB1H7-e8fa789220\/screen_shot_2015-12-14_at_4.40.38_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 152,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKXB1H7-e8fa789220\/screen_shot_2015-12-14_at_4.40.38_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 202,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKXB1H7-e8fa789220\/screen_shot_2015-12-14_at_4.40.38_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKXB1H7-e8fa789220\/screen_shot_2015-12-14_at_4.40.38_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 303,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKXB1H7-e8fa789220\/screen_shot_2015-12-14_at_4.40.38_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 404,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0GKXB1H7-e8fa789220\/screen_shot_2015-12-14_at_4.40.38_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 431,
+            "image_exif_rotation": 1,
+            "original_w": 2018,
+            "original_h": 850,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/marcelino\/F0GKXB1H7\/screen_shot_2015-12-14_at_4.40.38_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0GKXB1H7-80ff664803",
+            "channels": [
+                "C026T598V"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026NB2U2",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "marcelino",
+        "bot_id": null,
+        "ts": "1450140073.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "This just in: LED cap boards just shipped from the assembly house. UPS ground from Canby, so might get here tomorrow.",
+        "ts": "1450144060.000088"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yay!",
+        "ts": "1450145085.000089"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "Batteries will be here Wednesday. ",
+        "ts": "1450151054.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "sweet",
+        "ts": "1450151356.000091"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "Or Thursday :grin:",
+        "ts": "1450151414.000092"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "demi-sweet",
+        "ts": "1450151490.000093"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, last part we need: <http:\/\/www.batteryspace.com\/connectoradaptorjsttypejs-t-phconnectorwith22awgwire.aspx>",
+        "attachments": [
+            {
+                "service_name": "BatterySpace.com\/AA Portable Power Corp. Tel: 510-525-2328",
+                "title": "Connector\/Adaptor: JST-PHR-2 connector with  24 AWG wire",
+                "title_link": "http:\/\/www.batteryspace.com\/connectoradaptorjsttypejs-t-phconnectorwith22awgwire.aspx",
+                "text": "315",
+                "fallback": "BatterySpace.com\/AA Portable Power Corp. Tel: 510-525-2328: Connector\/Adaptor: JST-PHR-2 connector with  24 AWG wire",
+                "from_url": "http:\/\/www.batteryspace.com\/connectoradaptorjsttypejs-t-phconnectorwith22awgwire.aspx",
+                "thumb_url": "http:\/\/www.batteryspace.com\/ProductImages\/connectors\/thumb_JST1[1].jpg",
+                "thumb_width": 96,
+                "thumb_height": 60,
+                "id": 1
+            }
+        ],
+        "ts": "1450154415.000094"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U04JZANJF>: need 60 units. Looks like they already include pads. If they don’t <@U02F8LF2X> do we have some coming with the battery welder?",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1450154464.000000"
+        },
+        "ts": "1450154452.000096"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I have some tabs already on the bench",
+        "ts": "1450155671.000098"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "might not be the right size though...",
+        "ts": "1450155680.000099"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "oh wait those are not tabs, those are pigtails",
+        "edited": {
+            "user": "U02F8LF2X",
+            "ts": "1450155756.000000"
+        },
+        "ts": "1450155697.000100"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'm confused",
+        "ts": "1450155720.000101"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "It looks in the picture on the product page that the pigtails already have tabs soldered on",
+        "ts": "1450155772.000103"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "If the picture is accurate, we’re good, but I wanted to make sure we had tabs just in case",
+        "ts": "1450155788.000104"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I think I can find which size we have...",
+        "ts": "1450155838.000105"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.amazon.com\/gp\/product\/B0054XDZE6>",
+        "attachments": [
+            {
+                "text": "30 Pure nickel Solder Tabs for high capacity LiPo, NiCd and NiMh Battery Packs - Cordless Tool Battery Packs - <http:\/\/Amazon.com|Amazon.com>",
+                "fallback": "30 Pure nickel Solder Tabs for high capacity LiPo, NiCd and NiMh Battery Packs - Cordless Tool Battery Packs - <http:\/\/Amazon.com|Amazon.com>",
+                "from_url": "http:\/\/www.amazon.com\/gp\/product\/B0054XDZE6",
+                "id": 1
+            }
+        ],
+        "ts": "1450155866.000106"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "bought them for 18650 so they're pretty big. maybe can be cut down though in a pinch",
+        "ts": "1450155885.000108"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "perfect!",
+        "ts": "1450155945.000109"
+    }
+]

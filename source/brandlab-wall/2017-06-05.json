@@ -1,0 +1,396 @@
+[
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U0EL0GLEL> <@U5DP0DTUZ> how has that task to update our queries into the youtube API been going?",
+        "ts": "1496693825.249354"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "has whitelist of our internal IP helped smooth the way?",
+        "ts": "1496693907.276970"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U5DP0DTUZ> was making some progress last week on the api update. Im checking on the IP address whitelist.",
+        "ts": "1496694679.537476"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "nice. lmk how that works for you (or not)",
+        "ts": "1496694787.574372"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "also have you made any more progress with getting internal setup finalized?",
+        "ts": "1496694803.579816"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "one of the cubbies is setup aside from touch. I need to install drivers there still. There is a sample workshop loaded to it, and can bring up the cubby experience on it.",
+        "ts": "1496694881.605973"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "do you think you could get both set up fully by the end of this week? that way if there’s anything we need to work out logistically we can ask at our “standup” meeting on friday?",
+        "ts": "1496694958.632025"
+    },
+    {
+        "type": "message",
+        "user": "U5DP0DTUZ",
+        "text": "Yep, the YouTube thing should be set. Is there a way we can test it?",
+        "ts": "1496694975.637999"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Sure I can get them both setup. Seems like there is something funky with one of the screens tho. I need to investigate whats up there. Couldnt get anything to show on it. But the one with the touch screen and door was working. which was most important anyhow",
+        "ts": "1496695056.664838"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "where is the code for the youtube fix <@U5DP0DTUZ> ?",
+        "ts": "1496695072.670408"
+    },
+    {
+        "type": "message",
+        "user": "U5DP0DTUZ",
+        "text": "It's in a scratch file right now...I'll get it somewhere on BitBucket today.",
+        "ts": "1496695170.703408"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "cool! would be rad if we can get that tested and verified ahead of friday as well :slightly_smiling_face:",
+        "ts": "1496695245.728381"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "It does look like the ip is working for the api. I brought it up and found a Nesquick workshop on it, checked the network panel and see the query did work",
+        "ts": "1496695328.756147"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "nice! so we can remove our workaround when we’re testing the fix matthew has?",
+        "ts": "1496695386.775522"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "workaround was always a hot fix, it was never actually committed to anything so nothing to remove",
+        "ts": "1496695429.790173"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok, so we can test without hot fix",
+        "ts": "1496695449.796699"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure can",
+        "ts": "1496695457.799172"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there is a workshop on the api, can use that one to setup a sample dataset and do a test with that",
+        "ts": "1496695479.806541"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "sweet",
+        "ts": "1496695499.812471"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so i installed touch on the cubby, and it does work. but there appears to be something wrong with the hardware. the top left and some of the top right dont respond at all to touch. the button half seems to work, but not all of it. there appears to be a lot of dead spots. pressing harder doesnt seem to help.",
+        "ts": "1496697445.433057"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "oh shiz, is that something you can look into further?",
+        "ts": "1496697628.486288"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not really, theres not much i can do. im pretty  sure its the hardware. we had some touch issues originally in some spots being kinda dead. but this is much worse. I think it might have happened in the move. for the most part this should still be ok, the areas thats dead really isnt used. the bottom right seems to be ok and the other spots that are normally hot spots seem to respond",
+        "ts": "1496697806.536993"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i suppose if we're not radically shifting any sort of interaction patterns we should be ok",
+        "ts": "1496698244.666936"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "okay fair enough. what about the other cubby? wonder if there’s similar issues there or …",
+        "ts": "1496698685.793394"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they dont have touch screens",
+        "ts": "1496698814.827935"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "only one of them has a touch film installed. the others were used simply as others cubbies in the buffer",
+        "ts": "1496698897.849416"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "don't get me wrong - i'd love us to have a FULLY functional rig",
+        "ts": "1496698925.856673"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ah thank you for clarifying that",
+        "ts": "1496698928.857478"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "well i guess for now we can just move forward knowing that we are working with that restriction. and if we think we’re getting into a place where we’re testing or making significant changes to touch functionality then we’ll have to figure out what we should do",
+        "ts": "1496699005.877885"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "basically i’m jsut repeating what you both said :stuck_out_tongue:",
+        "ts": "1496699035.885774"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "helps me remember tho",
+        "ts": "1496699043.888036"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "There isnt any visible damage to the touch film or the screen. my best bet tho is that the ribbon cable might have come loose. thinking about it again seems like there was some issue with its seating at one point. The only way to get at it is through opening the door, and even this its tricky and tight to get at. but totally doable. this very well may be what happened. Ill see about opening the door and checking it",
+        "ts": "1496699115.907097"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "oh awesome thanks peter!",
+        "ts": "1496699176.923516"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": ":fingerscrossed: :fingerscrossed: :fingerscrossed:",
+        "ts": "1496699193.927899"
+    },
+    {
+        "type": "message",
+        "user": "U5DP0DTUZ",
+        "text": "I pushed the YouTube code to a branch called youtubefix for review\/testing. My understanding was that we were just checking if they have enough HD videos before applying a template and saving their three most popular videos to $scope. Let me know if I missed something and I can refactor. :grimacing:",
+        "ts": "1496699994.132839"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "was able to access the panel for the touch controller, and reseated the ribbon cables. it is slightly better now. but the top 1\/3 of the screen doesnt respond. I tried swapping the controller board for one of the extra we had, and that didnt help either. so something more complicated is wrong, it does feel like its the rows that are failing. there is a row connector and 2 column connectors on the board. Its possible something is wrong with the top 1\/3ish rows on the controller. maybe something happened to the ribbon cable. Sadly that cable is built directly into the film so couldnt replace it. Dont think there will be anything we can do about this. but at least the parts of the screen that our experience deal with seem to be responding.",
+        "ts": "1496703130.794250"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "okay thanks for troubleshooting so thoroughly peter! do you know what the order process was like if we ever do need to get a new one?",
+        "ts": "1496703407.846229"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so the problem is that these are professionally installed touch films, they had to have someone install this film to the screen its a serious process. Only way to fix this i think is to have someone remove the screen, take the glass off the screen and replace it with another glass that has the touch film installed. I seen them do this on site during install. it was quite a process. And required a spare for that swap",
+        "ts": "1496703918.942842"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "that’s what i was worried about, so that’d be something we’d have to raise to google folks if we want to get a replacement\/get it repaired?",
+        "edited": {
+            "user": "U167FL70V",
+            "ts": "1496704167.000000"
+        },
+        "ts": "1496704159.985234"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah, and likely ion tank guys",
+        "ts": "1496704365.021086"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": ":confused:",
+        "ts": "1496704380.023544"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "peanut gallery here: it seems like we can get by for a bit with what we have — as peter said, all of our current interactions are locked to the bottom of the screen. But since UX updates are on the table, I’d love to get out in front of getting this fixed with Google",
+        "ts": "1496704445.034887"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "since iontank is going to have to build us a new door, turn around seems like it could be in the weeks-to-months timeframe",
+        "ts": "1496704501.044337"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah, I would expect such a timeline :confused:",
+        "ts": "1496704604.061896"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Im wondering if it’s maybe a thing for us to ship them of our non-touch screens now-ish to have that worked into a door, and then just replacing that",
+        "ts": "1496704676.074158"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I don’t know what goes into swapping out just a door, or if that’s even a thing",
+        "ts": "1496704690.076409"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "why does iontank have to build us a new door? (sorry if i’m being dense here)",
+        "ts": "1496704739.084863"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "is that part of touch screen fix or something separate?",
+        "ts": "1496704747.086199"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "like do you mean they’d have to build us a new door in order to fix touch screen?",
+        "ts": "1496704785.092510"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "yeah",
+        "ts": "1496704793.093768"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "because - as I understand it (and I could be wrong) the touchfilm is fixed to the screen. And then entire thing is encased in the shroud",
+        "ts": "1496704835.100750"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok just making sure that’s not an entirely new thing they also have to do for us :grin:",
+        "ts": "1496704869.106508"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there is a plastic part that is around the outside of the screen, remove that and they would have access to the screen. To fix this they would remove that and use this suction cup thing to take the glass off the screen, the glass has the touch film adhered to it. Then swap a new glass with touch film in. This is not an easy task. Last time i seen them do it they had 3 guys holding things and being very careful",
+        "ts": "1496704880.108471"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yea i get freaked out every time i have to put one of those cell phone protectors on even…",
+        "ts": "1496704926.116465"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "same idea",
+        "ts": "1496704944.119361"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they actually have someone who does this do them. I think that was how i was done. I dont think they did them. But they put it together",
+        "ts": "1496704985.126430"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "crazy levels of poise and concentration",
+        "ts": "1496705040.135887"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so if this is an iontank thing, do we reach out to them or to google to get a new one put on?",
+        "ts": "1496705092.145386"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "would not know on that one. Not sure the relationship. I had heard at one point talk of sending this one back to them to be updated to the production level setup. but that didnt happen. Someone else know?",
+        "ts": "1496705218.166379"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I would guess that we’d want to start with the google team — probably Josh or Gidge",
+        "ts": "1496705306.181156"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "fair enough. i’ll see about getting in touch with folks at the goog",
+        "ts": "1496705394.195935"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "and thanks!",
+        "ts": "1496705408.198457"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Im happy to help with any of this too",
+        "ts": "1496705417.200021"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "you’ve had the ball lately on comms, but I can always jump in if needed",
+        "ts": "1496705435.203206"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks!",
+        "ts": "1496705492.212916"
+    }
+]

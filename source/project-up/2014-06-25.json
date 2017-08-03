@@ -1,0 +1,260 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Can I get the BT addresses of all our beacons organized by manufacturer?",
+        "ts": "1403718246.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026PT0D7>: can you help evans out with that?",
+        "ts": "1403718279.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "all of the data i've collected on that is in the Device List sheet of the data spreadsheet",
+        "ts": "1403718398.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<https:\/\/docs.google.com\/a\/uncorkedstudios.com\/spreadsheets\/d\/1i9cvcHetZ0anzmUZ6VmPoBPVwt2DOXBKrK9GrK3EXmc\/edit?usp=sharing>",
+        "ts": "1403718399.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I can fill out the rest of that sheet this morning",
+        "ts": "1403718433.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "but what we want is a separate table of device addresses, convenience names, and manufacturer, right?",
+        "ts": "1403718502.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "oh thats what it is",
+        "ts": "1403718553.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": ":grinning:",
+        "ts": "1403718556.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i need the mapping of address to manufacturer so i can add filtering into the app",
+        "ts": "1403718556.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "i was looking at the wrong thing",
+        "ts": "1403718557.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the TI mac addresses I got from the labels on the devices themselves",
+        "ts": "1403718590.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are those the full addresses tho or just the unique parts?",
+        "ts": "1403718667.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "anyway, i need the full addresses. I'll add manufacturer filtering. <@U02895311>: we're gonna lose some data in this cutover. in particular, we're gonna lose tx_power",
+        "ts": "1403718707.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if thats a huge deal, we can keep tx_power, but we won't be able to track the TI sensors",
+        "ts": "1403718722.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(library incompatibility)",
+        "ts": "1403718733.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PHQ3J>, I don't need the TX power. Go ahead and drop it from the data",
+        "ts": "1403718836.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J> i doubt those are the full addresses for the TI",
+        "ts": "1403718854.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the Kontakt and #2 SnF are the full addresses",
+        "ts": "1403718875.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J> the S5 was already on my desk",
+        "ts": "1403722039.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>: w2g",
+        "ts": "1403722053.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "an old read but a good read that i just revisited w\/r\/t Up! <http:\/\/www.cooper.com\/journal\/2012\/08\/the-best-interface-is-no-interface>",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1403726718.000000"
+        },
+        "ts": "1403726701.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J> the S5 still falls asleep during scan (iBeaconTest app), but it appears to record data even so",
+        "ts": "1403729104.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Also, the S5\/iBeaconTest still doesn't pick up TI or SnF",
+        "ts": "1403729138.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats correct.",
+        "ts": "1403729150.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stand by",
+        "ts": "1403729151.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U02895311>: linear train test data is up on dropbox <https:\/\/www.dropbox.com\/sh\/yja6dstpe9mrdkm\/AAD1sUIrIT382gh84574Cl7ra>",
+        "attachments": [
+            {
+                "service_name": "Dropbox",
+                "title": "12 linear train, 3k",
+                "title_link": "https:\/\/www.dropbox.com\/sh\/yja6dstpe9mrdkm\/AAD1sUIrIT382gh84574Cl7ra",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 12 linear train, 3k",
+                "thumb_url": "https:\/\/www.dropbox.com\/static\/images\/icons128\/folder_dropbox.png",
+                "from_url": "https:\/\/www.dropbox.com\/sh\/yja6dstpe9mrdkm\/AAD1sUIrIT382gh84574Cl7ra",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "id": 1
+            }
+        ],
+        "ts": "1403736960.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "note that since i was turning around the train+phone assembly, the data for the middle beacon (\"just right\"\/C1:C9...) will look different for a forward vs backward leg.",
+        "ts": "1403737009.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PT0D7>: Thanks. I am looking at the distance data form earlier and going to try building a model now",
+        "ts": "1403737235.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U02895311>: for the outside stationary test the phone's box is 17.75\" tall and the beacon's box is 18.875\" tall",
+        "ts": "1403737838.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PT0D7>: Hey... Were there only 2 beacons in the train test you just did? just want to make sure",
+        "ts": "1403738497.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "no, 3",
+        "ts": "1403738511.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "too hot and too cold were at either end, and just right in the middle",
+        "ts": "1403738525.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "although I dropped one of them and it broke open. if i put it back together incorrectly it's possible it was unpowered? I'll verify",
+        "ts": "1403738553.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "sorry, too cold had no antenna in it at all",
+        "ts": "1403738650.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i may have to re-run all of my tests today",
+        "ts": "1403738658.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J> we have complete BT MAC addresses in the data spreadsheet",
+        "ts": "1403739016.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks. I need to borrow the s5 or s4 at some point after i'm out of this meeting that i'm in now",
+        "ts": "1403739045.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U02895311>: would you like me to get new data for the linear train test? I found the third Kontakt antenna",
+        "ts": "1403739083.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PT0D7>: No need to run the train test yet. The distance model sucks at the moment so 2 beacons are fine",
+        "ts": "1403739172.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok",
+        "ts": "1403739230.000043"
+    }
+]

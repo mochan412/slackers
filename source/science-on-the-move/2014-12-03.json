@@ -1,0 +1,373 @@
+[
+    {
+        "user": "U026AP8CM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026AP8CM|karen> has joined the channel",
+        "ts": "1417646559.000002"
+    },
+    {
+        "user": "U026PHQ3J",
+        "inviter": "U026AP8CM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026PHQ3J|evans> has joined the channel",
+        "ts": "1417646591.000003"
+    },
+    {
+        "user": "U0265G76F",
+        "inviter": "U026AP8CM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0265G76F|iamewald> has joined the channel",
+        "ts": "1417646591.000004"
+    },
+    {
+        "user": "U0260V4K1",
+        "inviter": "U026AP8CM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0260V4K1|justin> has joined the channel",
+        "ts": "1417646591.000005"
+    },
+    {
+        "user": "U026NB2U2",
+        "inviter": "U026AP8CM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026NB2U2|marcelino> has joined the channel",
+        "ts": "1417646591.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "I think the document reads well.\nKnowing Mark, he's probably going to vacillate between the physical implementation details and what's the big sexy idea he can sell to Nike",
+        "edited": {
+            "user": "U026NB2U2",
+            "ts": "1417646639.000000"
+        },
+        "ts": "1417646629.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Which is to say, we should probably list out what the implementation deliverables might be (in a list) for discussion in a way that ties to what we're saying",
+        "ts": "1417646700.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Makes sense, thanks for the insight, <@U026NB2U2> .",
+        "ts": "1417646750.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "so in the current example, we would be using one to several screens, would need a wifi connection, etc",
+        "ts": "1417646754.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "in some cases those might already exist, and in others, we'd need to implement",
+        "ts": "1417646785.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "ah - okay. Yeah I wasn't going to get into that with this doc, but we can if you think it will help",
+        "ts": "1417646788.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "i think a nod to the fact that we're beginning to think about the production details will help",
+        "ts": "1417646805.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I haven't had a chance to bring evans into this - mostly because I've been trying to figure out what we're going to do",
+        "ts": "1417646820.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "even if those details are caveated to the extreme (that it can and will change as the strategy and concepts evolve)",
+        "ts": "1417646822.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "okay",
+        "ts": "1417646823.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "makes a lot of sense",
+        "ts": "1417646836.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "so if we're talking about 8 bus shelters per city, that means 16 displays, 16 wifi or cell connection points, etc etc",
+        "ts": "1417646865.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "okay",
+        "ts": "1417646902.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "so a quick check-in w\/ evans on it would be good",
+        "ts": "1417646916.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "since he's done transit stuff before",
+        "ts": "1417646923.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "(by the way - why two displays per shelter?)",
+        "ts": "1417646926.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "two cities * 8 displays",
+        "ts": "1417646943.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I see",
+        "ts": "1417646947.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "single display per shelter",
+        "ts": "1417646951.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "right",
+        "ts": "1417646955.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "okay - im just slow on the pick up",
+        "ts": "1417646961.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "all good (I wasn't clear)",
+        "ts": "1417646971.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "karen - can you see if we can grab evans for 15-20 today?",
+        "ts": "1417647003.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "I'll see what I can do.",
+        "ts": "1417647014.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "we should call out that our next deliverable would start including cost breakdowns for the buildouts if we were actually supplying all the parts (which might be way less if we use existing infrastructure)",
+        "ts": "1417647059.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Just sent Evans a note",
+        "ts": "1417647064.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "thanks",
+        "ts": "1417647080.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "based on their feedback tomorrow, we should start stubbing out the design &amp; development costs for a platform that would let us feed content into these displays.",
+        "edited": {
+            "user": "U026NB2U2",
+            "ts": "1417647159.000000"
+        },
+        "ts": "1417647110.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "so question:",
+        "ts": "1417647127.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "we didn't get any feedback today, but i'm hopeful we'll get more tomorrow.",
+        "ts": "1417647133.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can hear you guys. I already owe karen some time. How about at 4?",
+        "ts": "1417647138.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "sorry - meant tomororw",
+        "ts": "1417647151.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "all good, we were hoping to get some today.",
+        "ts": "1417647176.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can make some time!",
+        "ts": "1417647183.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "right now we're charged with writing the proposal that mark would take to brands and also giving him an estimate of what it would cost to build the system",
+        "ts": "1417647187.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "is that correct?",
+        "ts": "1417647191.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "also - <@U026PHQ3J> - I just shared the google doc we're working out of",
+        "ts": "1417647250.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "this is shared with Mark and Kate, so that keep that in mind",
+        "ts": "1417647263.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<@U0260V4K1> that's correct",
+        "ts": "1417647268.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "my guess is (and we can find this out tomorrow) that to sell to the Nike's of the world, he'll need more conceptual details",
+        "ts": "1417647353.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "oh for sure",
+        "ts": "1417647369.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "so being prepared for that as we sell this through",
+        "ts": "1417647380.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "or talk through it",
+        "ts": "1417647388.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "will help the flow of the meeting",
+        "ts": "1417647396.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "yeah - I mean, at this point I just want him to say either \"yes, go with this direction\" or \"no, stay with the original\"",
+        "ts": "1417647426.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "we still need to flesh out either direction much further, but we don't have the budget to do that until we have agreement on direction",
+        "ts": "1417647460.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<@U026NB2U2>:  maybe you have insight into this but my takeaway from today was no stay w\/ the original?",
+        "ts": "1417647535.000055"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "<@U026AP8CM> - if that's the case then we don't need the meeting tomorrow, so we should make sure we on this one",
+        "ts": "1417647588.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "my take was that he didn't know what we were talking about",
+        "ts": "1417647603.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "got it",
+        "ts": "1417647613.000058"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "but I don't want to discount your perspective on this",
+        "ts": "1417647644.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I don't want to look like a dummy in there tomorrow if hes like \"I said to just go with the original direction! Dummy.\"",
+        "ts": "1417647679.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Im in echo for this 4pm",
+        "ts": "1417651163.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/industryweapon.com>",
+        "ts": "1417651909.000062"
+    }
+]

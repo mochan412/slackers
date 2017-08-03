@@ -1,0 +1,106 @@
+[
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Hey guys, I've posted designs &amp; screens in the room with the Yellow couch. Most have a few alternate versions, but I've placed green arrows over my 1st choices. Feel free to take a look when you're able, and come find me if you'd like to go over anything. — <@U0289USNA> <@U026NAD9A> <@U02895311> <@U0265G76F>  <@U026103R3>",
+        "ts": "1398197693.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks <@U026PLK4S>  guys, feel free to do so on your own time today. if it's more helpful for us to all talk together we can find some time this afternoon but i'l be in and out of meetings until 3:30 so feel free to take a look before then.",
+        "ts": "1398197854.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "This is mostly for <@U026NAD9A>, but for localized strings the keys should be of the form: org.joinvroom.&lt;controller name&gt;.&lt;key&gt;",
+        "ts": "1398199604.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "<@U02895311>: ok",
+        "ts": "1398199854.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "Also, I am going to establish a common table for localized strings that get reused a lot. NSLocalizedString calls will look like:NSString *okString = NSLocalizedStringWithDefaultValue(@\"org.joinvroom.Common.OK\", @\"Common\", [NSBundle mainBundle], @\"OK\", nil);",
+        "ts": "1398199951.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "okString",
+        "ts": "1398200049.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "the storyboard is getting CRAY-ZEE",
+        "ts": "1398200097.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026NAD9A> Yeah... we may want to rethink its structure a little and move more stuff out to nibs. Just have navigation flow in the story board maybe",
+        "ts": "1398201256.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "never! it's worjking great!",
+        "ts": "1398201272.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "regardless of nibs, even the structure is getting big, but it's very organized",
+        "ts": "1398201294.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "the main part of the app is mostly linear",
+        "ts": "1398201304.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "i just checked some more changes in. pull and take a look",
+        "ts": "1398201320.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026103R3>: do you still have a video you want me to format?",
+        "ts": "1398203582.000016"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1398211102.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "got it",
+        "ts": "1398211249.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "thanks!",
+        "ts": "1398211250.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "there are other colors, but I think they will mostly be assets. These are the core for type \/ bkgs \/ etc",
+        "ts": "1398211475.000020"
+    }
+]

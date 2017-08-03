@@ -1,0 +1,178 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "There's a chunk of code somewhere that leans on WallpaperManager to get the fast drawable for the default system wallpaper. I'd suggest finding that and tracing back to see how it can get there from earth. Then see how we can recreate it in lab conditions (like breaking our own debug build on purpose) to try to track down. Also, might make sense to double check uptime stats of web portion <@U1S5GKTHQ> ",
+        "ts": "1491405389.300458"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> <@U2H61EJSG> can you divide and conquer on this?",
+        "ts": "1491409489.589165"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we dont have much beyond playstore reviews (summer ill forward you the latest)",
+        "ts": "1491409509.594461"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sure thing! I’m poking through the WallpaperManager source code for clues at the moment.",
+        "ts": "1491409525.599423"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you wont find much in there other than deadsystemexceptions :slightly_smiling_face:",
+        "ts": "1491409549.606398"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Darn :disappointed:",
+        "ts": "1491409559.609568"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m curious mainly about when Earth goes to get the system default image",
+        "ts": "1491409569.612295"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and whether or not there’s some way to avoid that by skipping past the one that would fail",
+        "ts": "1491409585.617249"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there very well may be a bad image in the set",
+        "ts": "1491409599.621395"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "web stuff all looks OK (up &amp; running). is this earth specific?",
+        "ts": "1491409742.662099",
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "seems to be.",
+        "ts": "1491409759.666798"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks for sanity",
+        "ts": "1491409761.667570"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F4V828G69\/trends_shake_to_open_search_double_tap_to_adv_updated.apk|trends_shake_to_open_search_double_tap_to_adv_updated.apk> and commented: <@U13GPDA1F> Here is a build with update you asked for. Google Search should only come up when the user shakes the phone while the wallpaper is visible and neither double tap nor shake are detected in the wallpaper preview.",
+        "file": {
+            "id": "F4V828G69",
+            "created": 1491428534,
+            "timestamp": 1491428534,
+            "name": "trends_shake_to_open_search_double_tap_to_adv_updated.apk",
+            "title": "trends_shake_to_open_search_double_tap_to_adv_updated.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35233068,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4V828G69\/trends_shake_to_open_search_double_tap_to_adv_updated.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4V828G69\/download\/trends_shake_to_open_search_double_tap_to_adv_updated.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F4V828G69\/trends_shake_to_open_search_double_tap_to_adv_updated.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4V828G69-1752fe2e09",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4VRSFUKH",
+                "created": 1491428534,
+                "timestamp": 1491428534,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "<@U13GPDA1F> Here is a build with update you asked for. Google Search should only come up when the user shakes the phone while the wallpaper is visible and neither double tap nor shake are detected in the wallpaper preview."
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1491428537.771194"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome! thank you! ill test it out in a min",
+        "ts": "1491429121.889662"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> can you start looking into a possible trends exploration with targetted tap on the trends terms",
+        "ts": "1491436771.058577"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sure! Are you looking to do something in response to a user clicking on the trend term text vs the entire wallpaper?",
+        "ts": "1491436849.069811"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ideally yes, if that’s a thing we can do",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1491436895.000000"
+        },
+        "ts": "1491436871.072602"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": ":slightly_smiling_face:",
+        "ts": "1491436872.072788"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m pretty sure we can do that. Let me experiment and get back to you!",
+        "ts": "1491436895.075743"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks summer!",
+        "ts": "1491436899.076216"
+    }
+]

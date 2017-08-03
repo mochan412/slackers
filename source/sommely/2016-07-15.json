@@ -1,0 +1,96 @@
+[
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "this looks better than yesterday: ```[    3.054742] usb 1-2.4: New USB device found, idVendor=0a5c, idProduct=21e8\n[    3.054745] usb 1-2.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3\n[    3.054747] usb 1-2.4: Product: BCM920702 Bluetooth 4.0\n[    3.054748] usb 1-2.4: Manufacturer: Broadcom Corp\n[    3.054749] usb 1-2.4: SerialNumber: 5CF37074943A\n[    3.060639] Bluetooth: hci4: BCM: patching hci_ver=06 hci_rev=153a lmp_ver=06 lmp_subver=220e\n[    3.146577] Bluetooth: hci0: BCM: firmware hci_ver=06 hci_rev=153a lmp_ver=06 lmp_subver=220e\n[    3.366444] Bluetooth: hci2: BCM: firmware hci_ver=06 hci_rev=153a lmp_ver=06 lmp_subver=220e\n[    3.569254] Bluetooth: hci3: BCM: firmware hci_ver=06 hci_rev=153a lmp_ver=06 lmp_subver=220e\n[    3.721174] Bluetooth: hci4: BCM: firmware hci_ver=06 hci_rev=153a lmp_ver=06 lmp_subver=220e\n[    3.781694] ahci 0000:00:1f.2: port does not support device sleep\n```",
+        "ts": "1468600362.000413"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "looks like bluetooth radio firmware was updated automatically because we have the right driver",
+        "edited": {
+            "user": "U0K8ZSHN0",
+            "ts": "1468600583.000000"
+        },
+        "ts": "1468600394.000414"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "and that the auto suspend for usb has been correctly disabled",
+        "ts": "1468600406.000415"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "all bluetooth usb radios are still running after a day",
+        "ts": "1468600418.000416"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "but sadly not all caps are staying connected",
+        "ts": "1468600444.000417"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "seeing a bunch of ```[56171.586178] Bluetooth: hci2 link tx timeout\n[56171.586183] Bluetooth: hci2 killing stalled connection c2:23:3a:30:40:6a\n[56171.586185] Bluetooth: hci2 killing stalled connection c7:c2:eb:4e:bc:60\n[56171.586188] Bluetooth: hci2 killing stalled connection e5:a6:47:fd:cf:a9\n[56171.586191] Bluetooth: hci2 killing stalled connection ed:4e:40:93:d8:8c\n[56171.586193] Bluetooth: hci2 killing stalled connection e0:38:2d:cf:5d:03\n```",
+        "ts": "1468600490.000418"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "the internets suggests downgrading bluez to 4.79",
+        "ts": "1468601231.000420"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "which may be difficult",
+        "ts": "1468601252.000421"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "this seems to be linked to devices getting stuck in the \"connecting\" state",
+        "ts": "1468601371.000422"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "```Fri, 15 Jul 2016 16:46:52 GMT sommelycap status of e7:e6:89:3b:47:70 is: connecting\nFri, 15 Jul 2016 16:46:52 GMT sommelycap status of e1:c1:a7:fb:2a:65 is: connecting\nFri, 15 Jul 2016 16:46:52 GMT sommelycap status of d3:dd:c6:73:df:e6 is: connecting\nFri, 15 Jul 2016 16:46:52 GMT sommelycap status of ef:c6:fa:85:3b:32 is: connecting\nFri, 15 Jul 2016 16:46:52 GMT sommelycap status of e9:66:bb:b3:87:00 is: connecting\nFri, 15 Jul 2016 16:46:52 GMT sommelycap status of fd:bc:a9:f6:db:1f is: connecting```",
+        "ts": "1468601376.000423"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "which used to work fine in the old single radio days of yore",
+        "ts": "1468601407.000424"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "big wtf moment: ```[    2.898827] usb 1-2.4: new full-speed USB device number 8 using xhci_hcd\n[    3.002459] usb 1-2.4: New USB device found, idVendor=0a5c, idProduct=21e8\n[    3.002462] usb 1-2.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3\n[    3.002464] usb 1-2.4: Product: BCM20702A0\n[    3.002478] usb 1-2.4: Manufacturer: Broadcom Corp\n[    3.002479] usb 1-2.4: SerialNumber: 5CF37074943A\n[    3.003547] bluetooth hci4: Direct firmware load for brcm\/BCM20702A0-0a5c-21e8.hcd failed with error -2\n[    3.003552] Bluetooth: hci4: BCM: patch brcm\/BCM20702A0-0a5c-21e8.hcd not found\n```",
+        "ts": "1468617723.000425"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "it went back to the old driver somehow",
+        "ts": "1468617728.000426"
+    },
+    {
+        "type": "message",
+        "user": "U1LL9K6BC",
+        "text": "what",
+        "ts": "1468617962.000427"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "im ordering some different bluetooth adapters",
+        "ts": "1468617983.000428"
+    }
+]

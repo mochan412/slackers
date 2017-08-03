@@ -1,0 +1,101 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> <@U243UT96G> and <@U2670DYLE> i’m currently researching ways to run automated backups from gDrive.  If any of you have a moment to help, lemme know",
+        "ts": "1475183782.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i think i was misremembering when we spoke, <@U0ML49XU0>",
+        "ts": "1475184420.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i was remembering a google storage CLI",
+        "ts": "1475184424.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but a cron job to run <https:\/\/github.com\/prasmussen\/gdrive>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "prasmussen\/gdrive",
+                "title_link": "https:\/\/github.com\/prasmussen\/gdrive",
+                "text": "gdrive - Google Drive CLI Client",
+                "fallback": "GitHub: prasmussen\/gdrive",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/720405?v=3&s=400",
+                "from_url": "https:\/\/github.com\/prasmussen\/gdrive",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "service_icon": "https:\/\/github.com\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1475184454.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "to download the folder, *should work*",
+        "ts": "1475184458.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "saw that, thanks.  <@U2670DYLE> is helping out as well",
+        "ts": "1475184540.000009"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "i’m checking out <http:\/\/rclone.org\/drive\/> as an option",
+        "attachments": [
+            {
+                "title": "Google drive",
+                "title_link": "http:\/\/rclone.org\/drive\/",
+                "text": "Rclone docs for Google drive",
+                "fallback": "Google drive",
+                "from_url": "http:\/\/rclone.org\/drive\/",
+                "service_icon": "http:\/\/rclone.org\/img\/rclone-16x16.png",
+                "service_name": "rclone.org",
+                "id": 1
+            }
+        ],
+        "ts": "1475184571.000010"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<@U0ML49XU0>  I just ran a test on osx with gdrive. A ‘download’ followed by a ‘sync upload’ works just fine for the scenario we talked about. It’s slow. probably want to schedule the two actions a few hours apart.",
+        "ts": "1475188336.000012"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "example commands with arguments",
+        "ts": "1475188358.000013"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "...",
+        "ts": "1475188360.000014"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "gdrive download --recursive --force 0B5jdsctGslH0fkNoOVN3LWo4aUY0eGdZRFZnNG5MelNFSVRzOGd3N0JoRzQ1NDVJSWZsRG8",
+        "ts": "1475188362.000015"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "gdrive sync upload Toolbox 0B8ipfdPY7zAXOU10S2ZHT2RDUmc",
+        "ts": "1475188376.000016"
+    }
+]

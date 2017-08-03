@@ -1,0 +1,142 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hi gang, im going to be in a little closer to 10, so going to miss stand-up but happy to check in via slack + in person when I'm there ",
+        "ts": "1490800160.491994"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "today I'm going to try to build a shell for our findings deliverable, check out midoris image acquisition findings, and am on deck to tackle asset spreadsheet when needed. ",
+        "ts": "1490800241.540714"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "mo delivered her initial pass - Evans let me know if additional work is needed there and I can help there ",
+        "ts": "1490800303.578513"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yep, I took a look yesterday and it's pretty close to what I need. Plan is to finish integration of all steps today\/tonight ",
+        "ts": "1490800675.799330"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Downloading every frame from a 2 hour YT video of NY marathon... May be ill-advised... At 25fps, that'll be ~180,000 images :grimacing:",
+        "ts": "1490840191.960576"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you set a frame offset\/",
+        "ts": "1490842669.386595"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like grab some ratio of total frames",
+        "ts": "1490842680.388398"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "youtube-dl plus ffmpeg might work <https:\/\/trac.ffmpeg.org\/wiki\/Create%20a%20thumbnail%20image%20every%20X%20seconds%20of%20the%20video>",
+        "ts": "1490843007.446142"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Probably. I'm using avconv right now. I could set it to capture 1 frame per second. I mostly wanted to stress test a little",
+        "ts": "1490844065.611844"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "&amp; youtube-dl. It's a great tool! Thanks for recommending",
+        "ts": "1490844620.697047"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Whoa avconv vs. ffmpeg is quite the embroiled Ubuntu debate...",
+        "ts": "1490845070.765782"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ffmpeg has been around for a super super long time",
+        "ts": "1490845199.785475"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, linux dorks love arguing",
+        "ts": "1490845205.786601"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F4R5QJHJM\/screen_shot_2017-03-29_at_8.59.31_pm.png|Screen Shot 2017-03-29 at 8.59.31 PM.png>",
+        "file": {
+            "id": "F4R5QJHJM",
+            "created": 1490846420,
+            "timestamp": 1490846420,
+            "name": "Screen Shot 2017-03-29 at 8.59.31 PM.png",
+            "title": "Screen Shot 2017-03-29 at 8.59.31 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 6247495,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4R5QJHJM\/screen_shot_2017-03-29_at_8.59.31_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4R5QJHJM\/download\/screen_shot_2017-03-29_at_8.59.31_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4R5QJHJM-ff6974e5b6\/screen_shot_2017-03-29_at_8.59.31_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4R5QJHJM-ff6974e5b6\/screen_shot_2017-03-29_at_8.59.31_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4R5QJHJM-ff6974e5b6\/screen_shot_2017-03-29_at_8.59.31_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 225,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4R5QJHJM-ff6974e5b6\/screen_shot_2017-03-29_at_8.59.31_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 300,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4R5QJHJM-ff6974e5b6\/screen_shot_2017-03-29_at_8.59.31_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4R5QJHJM-ff6974e5b6\/screen_shot_2017-03-29_at_8.59.31_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4R5QJHJM-ff6974e5b6\/screen_shot_2017-03-29_at_8.59.31_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 600,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4R5QJHJM-ff6974e5b6\/screen_shot_2017-03-29_at_8.59.31_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 640,
+            "image_exif_rotation": 1,
+            "original_w": 2560,
+            "original_h": 1600,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F4R5QJHJM\/screen_shot_2017-03-29_at_8.59.31_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4R5QJHJM-715e335235",
+            "channels": [
+                "C462L6AN9"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1490846425.972200"
+    }
+]

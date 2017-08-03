@@ -1,0 +1,183 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "stand up :simple_smile:",
+        "ts": "1462294955.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ>:  !",
+        "ts": "1462295101.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Bonnie’s phone looks f-ed up",
+        "ts": "1462299237.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that’s the launcher, not the wallpaper",
+        "ts": "1462299246.000005"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh is that it?",
+        "ts": "1462299351.000006"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is it worth calling that out to her in advance (if so, any more info here?) or should we go through the process of trying to replicate with the NFC chip ID she provided?",
+        "ts": "1462299353.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t think that using the NFC chip ID is going to make a difference.",
+        "ts": "1462299548.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "The fact that the whole screen is reacting so funny including the launcher icons and Google header bar make it look like it’s not within control of the wallpaper. The wallpaper is just reacting the same way the rest of the launcher is.",
+        "ts": "1462299609.000009"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, i see. i can follow up and suggest that might be it - cool?",
+        "ts": "1462299989.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sounds good to me",
+        "ts": "1462300799.000011"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, evans on the case :simple_smile:",
+        "ts": "1462300911.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "perfect",
+        "ts": "1462300955.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i have no idea what to do with her feedback",
+        "ts": "1462305177.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Let's bring a chip to the meeting and try and reproduce \/ have her do it live",
+        "ts": "1462305492.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\/giphy bill do it live",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/bill-oreilly-do-it-live-whatwecallconsulting-q7UpJegIZjsk0>",
+                "image_url": "http:\/\/media0.giphy.com\/media\/q7UpJegIZjsk0\/giphy.gif",
+                "image_width": 320,
+                "image_height": 240,
+                "image_bytes": 1407267,
+                "is_animated": true,
+                "title": "bill do it live",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/bill-oreilly-do-it-live-whatwecallconsulting-q7UpJegIZjsk0"
+            }
+        ],
+        "ts": "1462305551.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right through the basketball ring!",
+        "ts": "1462305563.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> the analytics event on NFC app selection ",
+        "ts": "1462308445.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Does that log the selected app?",
+        "ts": "1462308451.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Or is it the event ",
+        "ts": "1462308454.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/trello.com\/c\/sGmGCxfw>",
+        "ts": "1462308468.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "does not log the selected app",
+        "ts": "1462308473.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just that “launch app”was selected",
+        "ts": "1462308480.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ok. Cool",
+        "ts": "1462308483.000024"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "That wasn't in the launch build?",
+        "ts": "1462308497.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "nfc camera action",
+        "ts": "1462308606.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "update: store build has the landscape issue. develop build does not.",
+        "ts": "1462312088.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "?????",
+        "ts": "1462312094.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "and both should have the landscape fix merged in",
+        "ts": "1462312105.000029"
+    }
+]

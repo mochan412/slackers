@@ -1,0 +1,98 @@
+[
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Reminder: Update harvest.",
+        "ts": "1486141200.000324"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Re: skrillex crash, stacktrace says it's the skrillex wallpaper rendering at night, so I'm going to set the wallpaper and see if anything happens over the weekend",
+        "ts": "1486155425.000325"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "interesting. do you have the decoded stacktrace handy",
+        "ts": "1486155455.000326"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "```java.lang.RuntimeException: Error receiving broadcast Intent\n{ act=UpdateImage flg=0x14 bqHint=4 (has extras) }\nin com.google.android.apps.live_case.artists.skrillex.wallpaper.c$a@3167a01\nat android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:1003)\nat android.os.Handler.handleCallback(Handler.java:739)\nat android.os.Handler.dispatchMessage(Handler.java:95)\nat android.os.Looper.loop(Looper.java:158)\nat android.app.ActivityThread.main(ActivityThread.java:7224)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)\n\nCaused by: java.lang.IllegalArgumentException: Problem decoding into existing bitmap\nat android.graphics.BitmapFactory.decodeResource(BitmapFactory.java:718)\nat com.google.android.apps.live_case.artists.skrillex.wallpaper.model.Widget.void init(android.content.res.Resources)(SourceFile:79)\nat com.google.android.apps.live_case.artists.skrillex.wallpaper.HUDManager.void createNightConfiguration(android.content.res.Resources,com.google.android.apps.live_case.artists.skrillex.wallpaper.Hud,java.util.List,int,int,int,float,boolean)(SourceFile:483)\nat com.google.android.apps.live_case.artists.skrillex.wallpaper.SkrillexGLRenderer.void updateHUD(boolean)(SourceFile:707)\nat com.google.android.apps.live_case.artists.skrillex.wallpaper.SkrillexGLRenderer.void transition()(SourceFile:738)\nat com.google.android.apps.live_case.artists.skrillex.wallpaper.SkrillexGLRenderer.void access$100(com.google.android.apps.live_case.artists.skrillex.wallpaper.SkrillexGLRenderer)(SourceFile:71)\n                                                                                   boolean access$202(com.google.android.apps.live_case.artists.skrillex.wallpaper.SkrillexGLRenderer,boolean)\nat com.google.android.apps.live_case.artists.skrillex.wallpaper.SkrillexGLRenderer$WallpaperBroadcastReceiver.void onReceive(android.content.Context,android.content.Intent)(SourceFile:1259)\nat android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:993)\n... 7 more```\n\nmight be misinterpreting, so appreciate another look",
+        "ts": "1486155490.000327"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh the HUD stack",
+        "ts": "1486155516.000328"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ugh",
+        "ts": "1486155517.000329"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah see if it crashes for you. Those are notoriously hard to debug",
+        "ts": "1486155530.000330"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok, I liked reading the AstroUtils, btw. Does HUD stand for something?",
+        "ts": "1486155580.000331"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "heads up display",
+        "ts": "1486155595.000332"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hahah AstroUtils is some of the most complex code ive ever done, and no one cares about it",
+        "ts": "1486155610.000333"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so thank you",
+        "ts": "1486155612.000334"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yeah it's cool. Time is so weird",
+        "ts": "1486155648.000335"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fun fact: it only works in the northern hemisphere",
+        "ts": "1486155706.000336"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "makes sense",
+        "ts": "1486155720.000337"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "looks like it was fun to write",
+        "ts": "1486155827.000338"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i did a lot of work on paper to convert a bunch of old school functions to code and then cross checked with some off the shelf astronomy toys for kids",
+        "ts": "1486155874.000339"
+    }
+]

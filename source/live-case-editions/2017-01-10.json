@@ -1,0 +1,92 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey gang - kat is reporting an issue with “shake to animate” on the latest build of scott. im not experiencing - is anyone else? looking to repro",
+        "ts": "1484087041.000253"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "What is happening on shake?",
+        "ts": "1484087159.000254"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nothing at first. then",
+        "ts": "1484087184.000255"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "\"Hmm. worked now, but it seemed like i had to swipe to another home screen before it worked.\"",
+        "ts": "1484087200.000256"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "then clear app data and seemed to animate on delay?",
+        "ts": "1484087214.000257"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "its working normally on my end, but she is seeing something different",
+        "ts": "1484087245.000258"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok, so the image is just not animating? No crash?",
+        "ts": "1484087343.000259"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes, thats what she’s reporting",
+        "ts": "1484087702.000260"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I think Midori and I figured this one out.",
+        "ts": "1484087839.000261"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It appears that all of the frames in the gif are slow to download from the server. You can only shake to animate after all of the frames are finished downloading which takes about 15 seconds at the moment.",
+        "ts": "1484087887.000262"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Did Kat mention if she was shaking to animate right after installing or setting the wallpaper?",
+        "ts": "1484087922.000263"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah i believe so - there was a slight delay she mentioned",
+        "ts": "1484091228.000264"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "any thoughts on what might be causing server slowness <@U1S5GKTHQ> <@U026PHQ3J> (assuming thats it)?",
+        "ts": "1484091248.000265"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nothing changes in this build that would have affected how the wallpapers function, right?",
+        "ts": "1484091279.000266"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "No this is entirely client side ",
+        "ts": "1484091335.000267"
+    }
+]

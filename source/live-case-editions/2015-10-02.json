@@ -1,0 +1,198 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "wtf",
+        "ts": "1443802962.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "fixed it",
+        "ts": "1443808423.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "latest change to activity detection is pushed",
+        "ts": "1443810404.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "relies on the API's \"most probable\" determination",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1443810417.000000"
+        },
+        "ts": "1443810415.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I have another update to the activity stuff that I'll push when I get home",
+        "ts": "1443819361.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "mmhmm",
+        "ts": "1443825163.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just added a method to get the next image for moments\n```MomentsImageTable.getNextMomentsImageForWallpaper(this, getContentResolver());```",
+        "ts": "1443825201.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":smile:",
+        "ts": "1443825221.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> the method automatically increments the last_used date, lmk if you would rather do that in a separate operation",
+        "ts": "1443825236.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "also, the gallery looks terrible in landscape",
+        "ts": "1443825267.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but people don’t really use their phones like that..",
+        "ts": "1443825273.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup: pushed?",
+        "ts": "1443826228.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yep",
+        "ts": "1443826291.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sweet",
+        "ts": "1443826581.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushing my change from earlier",
+        "ts": "1443826586.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i am rolling back the changes i made this morning and only adjusting the confidence level required to trigger an activity update",
+        "ts": "1443826609.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh great. now my build is crashing at startup about null locations",
+        "ts": "1443826901.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "figured it out. Apparently there's a real chance that the first time you launch, activity recognition will fire before location.",
+        "ts": "1443826998.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ooohhhh",
+        "ts": "1443828416.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically the solution is to make sure current location is set before scheduling",
+        "ts": "1443828440.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause all other location-based cases are handled, just not that particular one",
+        "ts": "1443828452.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(cause its never happened before, and is out of character for that service)",
+        "ts": "1443828468.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\"character\"",
+        "ts": "1443828478.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":clown:",
+        "ts": "1443828486.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":hamburgular:",
+        "ts": "1443828494.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":hamburger:",
+        "ts": "1443828499.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":hammer:",
+        "ts": "1443828502.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and... scene.",
+        "ts": "1443828508.000030"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I added a new emoji ",
+        "ts": "1443828662.000031"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":micdrop: ",
+        "ts": "1443828666.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":chart:",
+        "ts": "1443828706.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i really like micdrop, but im afraid to use it",
+        "ts": "1443828736.000034"
+    }
+]

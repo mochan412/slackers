@@ -1,0 +1,364 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: tested out new node services, looks like it’s good. I have to run to a 1:1, but I’ll deploy the new package during lunchtime when nobody’s on the box and fully test",
+        "ts": "1469814686.000191"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "let’s see how the perf is with grayscale on the server, and I can enable resizing as well as an experiment",
+        "ts": "1469814730.000192"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: remind me, is there still a mask to handle the ‘shape’\/size of photos or was that removed in it’s entirety?",
+        "ts": "1469814779.000193"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i only removed the grey scale, any size or shape mask would still be there unless joel did something",
+        "ts": "1469814956.000194"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, <@U02E3CRMA> can ya confirm you left these?  it’s my recommendation that this is what we launch with.  i dont wanna mess with sizing.",
+        "ts": "1469815010.000195"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I didn't touch them",
+        "ts": "1469815275.000196"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "And won't",
+        "ts": "1469815284.000197"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks.  will we have data wiz as well?",
+        "ts": "1469815296.000198"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "also <@U0EL0GLEL> i know you’ve got some slick bonus round stuff to include.  care to prime our expectations?",
+        "ts": "1469815669.000199"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "went through the open close transitions, on all of them, should be good. names all go to the line, i think everything goes to the line that is supposed to now. added proper blind out transition to the goodbye question, had thought i couldn’t with previous blind out method, but figured out one that would work. Emily sent me some ease values for some of the choreography stuff, dropping that in. tweaked some timings. looking much more polished overall.",
+        "ts": "1469815824.000200"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thats great",
+        "ts": "1469816263.000201"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "catching up on tix as well.",
+        "ts": "1469816270.000202"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: can you seed some photos for goodbye?",
+        "ts": "1469816279.000203"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: please resolve jira tix inthe 1.02 and 1.1 epic",
+        "ts": "1469816290.000204"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah i can seed that",
+        "edited": {
+            "user": "U0EL0GLEL",
+            "ts": "1469816314.000000"
+        },
+        "ts": "1469816310.000205"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U0EL0GLEL> this one - you left highlight in tact, right?  so it highlights and outs before screen wash?\n<https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-418>",
+        "ts": "1469817919.000207"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah seemed strange to remove",
+        "ts": "1469817943.000208"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i like your instincts and appreciate being a vanguard for consistency of the visual language",
+        "ts": "1469817963.000209"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "looking forward to seeing this one",
+        "ts": "1469817967.000210"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: node package updated on the system. VM rebooted to get the images drive properly connected.",
+        "ts": "1469822506.000211"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ve tested out, and the images, files, and bodymovin endpoints all look like they’re working",
+        "ts": "1469822524.000212"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "it’s choking on the file names in the image directory since they have spaces in them, but that’s easy to fix locally since the camera will never do that",
+        "ts": "1469822557.000213"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: Would you fire IS back up? I saw that IS was running under ‘uncorked’ not ‘cec’ earlier, so I’ll leave it to you to start the correct instance since I don’t want to break your workflow.",
+        "ts": "1469822596.000214"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure",
+        "ts": "1469823089.000215"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "So will imgs show up?",
+        "ts": "1469823097.000216"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "which?",
+        "ts": "1469823119.000219"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes, as soon as I fix the names",
+        "ts": "1469823120.000220"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the camera folder",
+        "ts": "1469823123.000221"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "fixing now...",
+        "ts": "1469823128.000222"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i launched IS, it appears like the node server is down? at least the cors proxy is",
+        "ts": "1469824189.000223"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yep - I’m trying to get it restarted",
+        "ts": "1469824280.000224"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "bailing out with no notice...",
+        "ts": "1469824288.000225"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ugh…node vs. nodejs",
+        "ts": "1469824380.000226"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "fecker",
+        "ts": "1469824382.000227"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and it’s good!!",
+        "ts": "1469824406.000228"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "let’s test this puppy",
+        "ts": "1469824500.000229"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "nice",
+        "ts": "1469824529.000230"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "My mtg is running long. Will grab you guys soon. ",
+        "ts": "1469826022.000231"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: node server is all cleaned up, but I have to get in to basically all the cubby templates to change how their URLs are formatted",
+        "ts": "1469829173.000232"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I know you’re in there, so give me a shout when you have a break and I’ll fix",
+        "ts": "1469829183.000233"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah i am in there applying these easings",
+        "ts": "1469829362.000234"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "will be like 30-40mins",
+        "ts": "1469829389.000235"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ok",
+        "ts": "1469829428.000236"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "go for it when ready",
+        "ts": "1469832339.000237"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "go forth",
+        "ts": "1469832394.000238"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "can I go first instead?",
+        "ts": "1469832827.000239"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "#dadjokes",
+        "ts": "1469832832.000240"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "....",
+        "ts": "1469833388.000241"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":crickets:",
+        "ts": "1469833586.000242"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: templates updated, all appear to be working correctly with all the updates",
+        "ts": "1469834482.000243"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "merging and pushing to dev now",
+        "ts": "1469834493.000244"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #84 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/84\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #84 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/84\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1469834559.000247"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #84 Success after 22 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/84\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #84 Success after 22 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/84\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1469834578.000248"
+    }
+]

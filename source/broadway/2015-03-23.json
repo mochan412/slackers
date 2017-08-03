@@ -1,0 +1,229 @@
+[
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<!channel> Hey team. We are up and running at Active Theory in sunny Venice, California.",
+        "ts": "1427133627.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": ":surfer:",
+        "ts": "1427133663.000003"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<@U02618EV1> Out of our initial kickoff meeting -- I think you can hang tight for a while. Marissa is sitting next to Michael (their dev) and will send notes as she comes up with them.",
+        "ts": "1427133715.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "here's a stream of consciousness dev notes from our morning meeting:",
+        "ts": "1427133730.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Leap second (everyone records 1-sec video that gets edited together in the cloud) may be the first piece of content.\n\nNeed a plan for java vs javascript development and integration... Content goals may drive this.\n\nAT wants to create web content that we load into the app for debug purposes, eventually this content may be downloaded and stored locally.\n\nDaniel (droga5) is interested in our perspectives and insights on testing against different android devices and OS versions.",
+        "ts": "1427133737.000006"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<@U0260V1BX>: Daniel is going through your notes in the UX doc. And he's really excited about it.",
+        "ts": "1427133797.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks for the notes <@U02F8TTPU>",
+        "ts": "1427133975.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "oh good",
+        "ts": "1427133976.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Map&lt;String, String&gt; extraHeaders = new HashMap&lt;String, String&gt;();\n        extraHeaders.put(\"X-FakeAuth-Header\",\"GARBAGETOKEN\");",
+        "ts": "1427135063.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "webview.loadUrl(URL, extraHeaders);",
+        "ts": "1427135084.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "XWalkPreferences.setValue(XWalkPreferences.REMOTE_DEBUGGING, true);",
+        "ts": "1427135337.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U030TQFR3> any news on whether or not we'll be using Crosswalk?",
+        "ts": "1427135613.000013"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Sounds like the goal is to make Crosswalk happen. Sounds like <@U02F8TTPU> had some success in first implementation.",
+        "ts": "1427135645.000014"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<@U02F8TTPU> --what's your current thinking on crosswalk?",
+        "ts": "1427135656.000015"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "(note: still no confirmation on actually getting it google approved, which will be a challenge)_",
+        "ts": "1427135723.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Understood. Thanks.",
+        "ts": "1427135826.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm working with Michael @ AT on Crosswalk and integrating with their JS right now. They seem very intent on using Crosswalk and that works fine so far, it's just an open question whether the big G will accept it.",
+        "ts": "1427135931.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I don't see much of anything that crosswalk is offering at this point that we couldn't pivot away from if we needed to",
+        "ts": "1427136200.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "agreed, everything we're doing so far is a lightweight JS\/Java bridge",
+        "ts": "1427136875.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/echoprint.me\/start>",
+        "attachments": [
+            {
+                "title": "Get started",
+                "title_link": "http:\/\/echoprint.me\/start",
+                "text": "Let’s help you get started using Echoprint! I want to identify a song on my hard drive or on my server I want to deduplicate a big collection I want to identify a song on an iOS device I want to run an Echoprint server with your data If you are going to use Echoprint at all, it’s a good idea to join the Echoprint Google Group. I want to identify a song on my hard drive or on my server Great! Read the codegen readme and get it from GitHub. Build it for your platform (it should compile almost everywhere, if not, file an issue report!) and feed it a file: You can then pass that code to your server. I want to deduplicate a big collection Check out the server README first. What you’ll want to do is boot either a “local” server (no Solr or Tokyo Tyrant required) or boot the whole stack, depending on the size of the data you need to de-dupe. Then, ingest your entire catalog with fp.ingest and then query for each track using the method fp.query_fp(). I want to identify a song on an iOS device The easiest way is to start with the echoprint-ios-sample, but note this is very far from a production app — more of a demo of what is possible. But it contains information on how to compute codes on the device from microphone input or files in a users’ iPod library as well as how to query the song\/identify service. I want to run an Echoprint server with your data Check out the server README and read about fastingest.. Get data from us.",
+                "fallback": "Get started",
+                "thumb_url": "http:\/\/assets.tumblr.com\/images\/default_avatar_128.png",
+                "from_url": "http:\/\/echoprint.me\/start",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "id": 1
+            }
+        ],
+        "ts": "1427137222.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Just checking in to see if there's anything I can help with.",
+        "ts": "1427144856.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "we just synced up after lunch... JS-&gt;Java bridge is working with a vibrate test experience, and we're about to enable Java-&gt;JS callbacks so we can start on accelerometer experience.",
+        "ts": "1427146653.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome.",
+        "ts": "1427146680.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Another open question is whether we will support orientation changes, but that has been brought up and is in the queue of considerations.",
+        "ts": "1427146842.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Does orientation change affect anything other that ui\/design?",
+        "ts": "1427146964.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It affects the activity lifecycle (gracefully stopping\/restarting any background threads) but that's doable, it just takes time",
+        "ts": "1427147399.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Got it.",
+        "ts": "1427147455.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I just pushed some changes with the latest working bridge code and forced it to be in portrait for now.",
+        "ts": "1427149183.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pulling.",
+        "ts": "1427153942.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02F8TTPU> trying this out and it's timing out.",
+        "ts": "1427153977.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<@U02618EV1> yep, the test server (with the receiving JS) is on the local network here. We're working on getting a \"secure enough\" dev server that we can all use.",
+        "ts": "1427154045.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "there's little to learn from this current code, it's all pretty crappy as a first-pass at understanding what needs to happen :simple_smile:",
+        "ts": "1427154084.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "np.",
+        "ts": "1427154098.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "It's all good. That's the software equivalent of Anne Lamott's Shitty First Drafts :wink:",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1427154220.000000"
+        },
+        "ts": "1427154196.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "just did another push that slightly cleans the code up and adds accelerometer and gyroscope data gathering... still no public URL yet, though.",
+        "ts": "1427155469.000039"
+    }
+]

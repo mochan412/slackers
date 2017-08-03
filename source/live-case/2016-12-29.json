@@ -1,0 +1,108 @@
+[
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<!here> Good morning team. Apologies I will not make stand up this morning. Will be in shortly. ",
+        "ts": "1483032531.000588"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we should dump standup today",
+        "ts": "1483032540.000589"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "We should share what resolved yesterday for Places ",
+        "ts": "1483032579.000590"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "I can do that when I get in",
+        "ts": "1483032585.000591",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh good call.",
+        "ts": "1483032816.000592"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is that places update something Midori can start working on (on a new branch since we'll likely do another push to prod in advance of places update)?",
+        "ts": "1483033465.000593"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "assuming there's not a bunch of other stuff on your plate, Midori! (don't mind me :grimacing:)",
+        "ts": "1483033539.000594"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Sort of... I've been working on flaremail stuff, but happy to jump in",
+        "ts": "1483033573.000595"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we don’t know enough about the method of requesting yet",
+        "ts": "1483033579.000596"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it will be good to know whats happening with it, but there’s not much we can do functionally at the moment",
+        "ts": "1483033606.000597"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hopefully sometime next week (when dan is back) we’ll get a peek at how they’re implementing or want to implement the changes to the request model",
+        "ts": "1483033633.000598"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in the meantime, i’m going to take a look (currently) at how we can sidestep the single-server model and hit the maps API directly",
+        "ts": "1483033652.000599"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(and whether or not its even possible that way)",
+        "ts": "1483033662.000600"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "most of my changes from earlier this week (for memory management) are on `bugfixes_12_2016`",
+        "ts": "1483033942.000601"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay! sounds good! thanks everyone, for bearing with me as I poke my nose in things ;) ",
+        "ts": "1483035798.000602"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "do your thangs! happy thursday!",
+        "ts": "1483035830.000603"
+    }
+]

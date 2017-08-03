@@ -1,0 +1,136 @@
+[
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "Hey everybody.  Just a note for testing... If you go to \"Pick a vroom\" and pick a vroom you may see an error that says \"Request Failed: Forbidden\" This is just because the dev server does not have vrooms in every category. This error had been bugging me so I wanted to make sure everyone knew it was not a server issue.",
+        "ts": "1400600359.000002"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/ea19396710e5060d81b338c365de44cbc615d64d|ea19396710e5>: fix login crash and get rid of some extra logging\n - mattwymore\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/d8a055eed6796ddbbec103df4e26bec0348c7b6c|d8a055eed679>: merging\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400600544.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02895311>: We can talk about this later when we go over strings, but there is error copy for the event that there's no childvroom in the category: \"Sorry, there is no Vroom here for your child\\'s age, try another!\"",
+        "ts": "1400603453.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U0261PCRQ> Thanks! Some of the error messages on the interface still have placeholders that shawn put in. We will have to start folding in the real stuff this week.",
+        "ts": "1400603545.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02895311>: I can also make sure there is a Vroom in every category so we're not running in to that issue but yes, we have better copy for it :grinning:",
+        "ts": "1400604276.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "Right now I would not worry about putting in a bunch of new vrooms. I think testing the error state is valuable and it highlights that, like you and Kat said, we need the correct text.",
+        "ts": "1400604341.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sounds good",
+        "ts": "1400604354.000008"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/74fd7c201f58d860a559c22c962353f564aa4143|74fd7c201f58>: badge hub styling\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400606536.000009"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/cab69b8a0a76e359a0feb70288b08fb904a79e9e|cab69b8a0a76>: more badge hub style\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400609018.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026103R3> and <@U026PHQ3J> probably not today, but at some point I will need to talk to you about the offline behavior of the app. When do we just happily display cached data and when do we throw up an alert to say \"Hey you are not connected to the internet.\" Our data model makes showing cached data very straightforward.",
+        "ts": "1400610213.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02895311>: great call. i think we should loop <@U0261PCRQ> in and basically match what we're doing with the android app. I also this this is something that would be great to tackle really early next week",
+        "ts": "1400610624.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "since i won't be here next week, i'm going to add a trello card so there's a reminder",
+        "ts": "1400610641.000013"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/4796398a09732c04c446288d54b18dab5a8d236f|4796398a0973>: meta badge buttons in badge hub tray play movies\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400610755.000014"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/1a3d30b81d6904a21f90bf147caaf737c8f6fcd2|1a3d30b81d69>: revert color changes on badge hub\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400614185.000015"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/fbc444af38068308f7e38b97676ae867e5b58400|fbc444af3806>: make brainy background walkthrough appear on vroom detail view\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400615838.000016"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/5a1e684f4edc09028c35711c7a9ac6edc4de94e9|5a1e684f4edc>: skip tutorial button on walkthrough dismisses now\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400617909.000017"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/b9aee40f43bf03d81ee850e910c92d195d8a6951|b9aee40f43bf>: single button on walkthroughs using a single screen\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400624207.000018"
+    },
+    {
+        "text": "[vroom-ios\/analytics] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/ba55d9db381cd373bff8c2ef4ba82af86f41ce87|ba55d9db381c>: more analytics\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400626004.000019"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/4cdd381a7285775593badb73a32310d6229f3773|4cdd381a7285>: Merge branch 'analytics' into develop\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/311e68305ab442268de2decd6c3ef4048e7b0b85|311e68305ab4>: version bump\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1400629448.000020"
+    }
+]

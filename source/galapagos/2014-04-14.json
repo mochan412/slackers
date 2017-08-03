@@ -1,0 +1,166 @@
+[
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Hey guys, I'm having some problems viewing \/ previewing a new Blog Post. Occasionally, the preview page will only load the synopsis &amp; title, others it will load the rest of the content after a refresh, but in all cases, I cant get the hero\/parralax to load.",
+        "ts": "1397503811.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Interesting, I see the same thing. The hero image doesn't load and the post doesn't know that it should be styled as a \"hero post\"",
+        "ts": "1397504282.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0289USNA> \/ <@U02613K0X> this looks like a BE thing.",
+        "ts": "1397504323.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1>:  The data model on the backend is correct. Matt’s post has a heroImage object on it with the correct urls.  Are you not seeing that data on the client?",
+        "ts": "1397508055.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I think <@U02613K0X> is correct - this sounds like a <@U02618EV1> rendering hiccup in the template",
+        "ts": "1397508128.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Fight Fight Fight Fight",
+        "ts": "1397508142.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That's definitely possible. I'll take a look.",
+        "ts": "1397508172.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "not super urgent, as I haven't written anything yet. But the wip post is here. (sorry for the Gangster Lorem Ipsum) <http:\/\/www.uncorkedstudios.com\/blog\/from-the-uncorked-print-department-holiday-posters>",
+        "attachments": [
+            {
+                "service_name": "Uncorked Studios",
+                "title": "Uncorked Studios Blog From the Uncorked Print Department: Holiday Posters",
+                "title_link": "http:\/\/www.uncorkedstudios.com\/blog\/from-the-uncorked-print-department-holiday-posters",
+                "text": "Lorem fo izzle sit amizzle, own yo' adipiscing elit. Nullam gangsta velizzle, da bomb volutpat, gangsta boofron, gravida vel, dang. Pellentesque check out this tortor. Sed erizzle. That's the shizzle izzle dolor dapibus turpis tempizzle daahng dawg. You son of a bizzle mammasay mammasa mamma oo sa nibh doggy turpis. Sizzle in ghetto. Pellentesque things i'm in the shizzle get down get down. Pimpin' break yo neck, yall habitasse platea dictumst. Donec dapibizzle. Curabitur yo mamma pizzle, pretizzle doggy, mattizzle ac, bling bling vitae, nunc. suscipizzle. Rizzle semper uhuh ... yih! crackalackin rizzle.",
+                "fallback": "Uncorked Studios: Uncorked Studios Blog From the Uncorked Print Department: Holiday Posters",
+                "thumb_url": "http:\/\/www.uncorkedstudios.com\/images\/us-logo-1000.png",
+                "from_url": "http:\/\/www.uncorkedstudios.com\/blog\/from-the-uncorked-print-department-holiday-posters",
+                "thumb_width": 1000,
+                "thumb_height": 1000,
+                "id": 1
+            }
+        ],
+        "ts": "1397508342.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yea i don't see the hero image load either when I try to preview that post",
+        "ts": "1397508365.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "THEY KNOW!",
+        "ts": "1397508384.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "haha ok",
+        "ts": "1397508391.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Fixed!",
+        "ts": "1397510074.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Also fixed the weird lineheight on the post subheadings.",
+        "ts": "1397510122.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026PLK4S> Looks like you're using H1s instead of H2s for your subheadings.",
+        "ts": "1397510199.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Cool. Thanks. Yeah, I haven't decided which one I want to use. I may even ask for a new style........ Don't kill me. ",
+        "ts": "1397510395.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I don't think it's a matter of styles. I'm happy to add more H2 styles. I would strongly recommend against using H1 because it would break the pages' hierarchy.",
+        "ts": "1397510565.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026PLK4S>: I still want that button for smart quotes sometime.   Also we could try to make it so it only appears when the text field is active or something like that if you were wanting to do something more interesting with it's placement.",
+        "ts": "1397510629.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Ah. I see. Okay. Thanks for the note. And yes, Scott. I'll get that to you tomorrow 1st thing. I'm at PSU for the rest of the day today. So sorry. ",
+        "ts": "1397510858.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks for fixing that <@U02618EV1> . and <@U0289USNA> i agree, that button would be awesome",
+        "ts": "1397511513.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026PLK4S> and <@U026NB2U2>, three word teaser previews and block highlighting are live now on the cms btw",
+        "ts": "1397514039.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks <@U02613K0X>! i see the block three word preview working well. the block highlighting is great but i only see it happening on work posts currently, can we apply that to blog posts as well?",
+        "ts": "1397514137.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it’s on blogposts too right now. you might have to do a hard refresh to see it.",
+        "ts": "1397514217.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "weird, i hard refreshed and didn't see it only on the blog posts but opened up a new browser and there it is!",
+        "ts": "1397514319.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thank jenny, it looks great",
+        "ts": "1397514324.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Nice!",
+        "ts": "1397518358.000027"
+    }
+]

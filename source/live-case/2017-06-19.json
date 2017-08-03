@@ -1,0 +1,1192 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> did the above branch get merged?",
+        "ts": "1497888454.511008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do you know?",
+        "ts": "1497888464.514890"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m not sure, but I can check",
+        "ts": "1497888476.519386"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool thanks",
+        "ts": "1497888482.521541"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "You mean into develop, right?.",
+        "ts": "1497888494.526138"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1497888497.527282"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It looks like it has",
+        "ts": "1497888599.566891"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool thanks!",
+        "ts": "1497888655.589050"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Actually scratch that, it hasn’t been merged yet.",
+        "ts": "1497888807.646668"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Let's do standup! Secret lounge! :slightly_smiling_face:",
+        "ts": "1497889796.018062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "be there in a moment",
+        "ts": "1497889809.023503"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F5W2XN1T7\/-.py|Untitled>",
+        "file": {
+            "id": "F5W2XN1T7",
+            "created": 1497891523,
+            "timestamp": 1497891523,
+            "name": "-.py",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 1299,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5W2XN1T7\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5W2XN1T7\/download\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F5W2XN1T7\/-.py",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5W2XN1T7-e6540da571",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F5W2XN1T7\/-.py\/edit",
+            "preview": "java.lang.RuntimeException\r\n\tat android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2649)\r\n\tat android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2710)\r\n\tat android.app.ActivityThread.-wrap12(ActivityThread.java)\r\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1461)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">java<\/span>.<span class=\"cm-property\">lang<\/span>.<span class=\"cm-property\">RuntimeException<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-property\">app<\/span>.<span class=\"cm-property\">ActivityThread<\/span>.<span class=\"cm-property\">performLaunchActivity<\/span>(<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-property\">java<\/span>:<span class=\"cm-number\">2649<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-property\">app<\/span>.<span class=\"cm-property\">ActivityThread<\/span>.<span class=\"cm-property\">handleLaunchActivity<\/span>(<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-property\">java<\/span>:<span class=\"cm-number\">2710<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-property\">app<\/span>.<span class=\"cm-property\">ActivityThread<\/span>.<span class=\"cm-operator\">-<\/span><span class=\"cm-variable\">wrap12<\/span>(<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-property\">java<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-property\">app<\/span>.<span class=\"cm-property\">ActivityThread<\/span><span class=\"cm-error\">$<\/span><span class=\"cm-variable\">H<\/span>.<span class=\"cm-property\">handleMessage<\/span>(<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-property\">java<\/span>:<span class=\"cm-number\">1461<\/span>)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 19,
+            "lines_more": 14,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1497891524.643459"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> if you get a moment. this is release 83",
+        "ts": "1497891529.645702"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5VD7FK25\/-.java|Untitled>",
+        "file": {
+            "id": "F5VD7FK25",
+            "created": 1497892068,
+            "timestamp": 1497892068,
+            "name": "-.java",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U1ZG1UCAK",
+            "editable": true,
+            "size": 3516,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5VD7FK25\/-.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5VD7FK25\/download\/-.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5VD7FK25\/-.java",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5VD7FK25-9fdc5d62cf",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/midori\/F5VD7FK25\/-.java\/edit",
+            "preview": "java.lang.RuntimeException\r\n\tat android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2649)\r\n\tat android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2710)\r\n\tat android.app.ActivityThread.-wrap12(ActivityThread.java)\r\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1461)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">lang<\/span>.<span class=\"cm-variable\">RuntimeException<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">app<\/span>.<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-variable\">performLaunchActivity<\/span>(<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">2649<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">app<\/span>.<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-variable\">handleLaunchActivity<\/span>(<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">2710<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">app<\/span>.<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-operator\">-<\/span><span class=\"cm-variable\">wrap12<\/span>(<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-variable\">java<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">app<\/span>.<span class=\"cm-variable\">ActivityThread$H<\/span>.<span class=\"cm-variable\">handleMessage<\/span>(<span class=\"cm-variable\">ActivityThread<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">1461<\/span>)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 35,
+            "lines_more": 30,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1497892069.846051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1497892401.960410"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> I'm assigning some tickets to you based on feedback we received on Friday! hmu if you have questions",
+        "ts": "1497892691.062769",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "where did the test xl wander to?",
+        "ts": "1497892957.157715"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":raised_hand_with_fingers_splayed:",
+        "ts": "1497892980.166135"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Not sure if you saw above, but `user_account_pairing` is not yet merged into `develop`. Sorry for the confusion.",
+        "ts": "1497893987.531228"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats cool. thanks!",
+        "ts": "1497894005.537665"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m doing some cleanup on the Constants object methodology in the app",
+        "ts": "1497894023.544308"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then ill start into that",
+        "ts": "1497894028.546141"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> could you ask bonnie if we can get the codenames for the new devices (walleye is one of them)",
+        "ts": "1497894186.602677"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it will help us silo the experiences between first\/second gen more cleanly",
+        "ts": "1497894200.607822"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "for sure",
+        "ts": "1497894233.620353"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks!",
+        "ts": "1497894236.621270"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "she might say no",
+        "ts": "1497894241.623296"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which is fine",
+        "ts": "1497894254.628096"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "haha okay",
+        "ts": "1497894282.638507"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "jenna - do you have an understand of what ustwo is testing this week?",
+        "ts": "1497895546.113833"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also <@U026PHQ3J> <@U0U9WJB7F> - looks like the mov files they are proposing might have quality issues (per that annoying screen shot they sent)",
+        "ts": "1497895622.142245"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I have looked thru the deck",
+        "ts": "1497895692.167461"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also like - just kill the second screen animation and replace with static altogether?",
+        "ts": "1497895693.167842"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "one sec-let me list out what they are doing",
+        "ts": "1497895712.175143"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool",
+        "ts": "1497895722.179022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5WS0CTUP\/screen_shot_2017-06-19_at_11.11.03_am.png|Screen Shot 2017-06-19 at 11.11.03 AM.png> and commented: 1.Top horizontal navigation\n2.PDPs with interactive features\n3.Gated app onboarding (prototype*)\n4.Standard app onboarding (build)\n\nParticipants will be handed the Earth case. Using the Pixel phone, participants will be asked to pair the case and expected follow the on boarding experience. Participants then will be asked to interact with the Live wallpaper and its different settings.",
+        "file": {
+            "id": "F5WS0CTUP",
+            "created": 1497895886,
+            "timestamp": 1497895886,
+            "name": "Screen Shot 2017-06-19 at 11.11.03 AM.png",
+            "title": "Screen Shot 2017-06-19 at 11.11.03 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 196936,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5WS0CTUP\/screen_shot_2017-06-19_at_11.11.03_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5WS0CTUP\/download\/screen_shot_2017-06-19_at_11.11.03_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0CTUP-51b5c96633\/screen_shot_2017-06-19_at_11.11.03_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0CTUP-51b5c96633\/screen_shot_2017-06-19_at_11.11.03_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0CTUP-51b5c96633\/screen_shot_2017-06-19_at_11.11.03_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 204,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0CTUP-51b5c96633\/screen_shot_2017-06-19_at_11.11.03_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 272,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0CTUP-51b5c96633\/screen_shot_2017-06-19_at_11.11.03_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0CTUP-51b5c96633\/screen_shot_2017-06-19_at_11.11.03_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 408,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0CTUP-51b5c96633\/screen_shot_2017-06-19_at_11.11.03_am_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 453,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0CTUP-51b5c96633\/screen_shot_2017-06-19_at_11.11.03_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 543,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0CTUP-51b5c96633\/screen_shot_2017-06-19_at_11.11.03_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 580,
+            "image_exif_rotation": 1,
+            "original_w": 1376,
+            "original_h": 779,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5WS0CTUP\/screen_shot_2017-06-19_at_11.11.03_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5WS0CTUP-5855eebe3b",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5W1JNQV8",
+                "created": 1497895886,
+                "timestamp": 1497895886,
+                "user": "U0U9WJB7F",
+                "is_intro": true,
+                "comment": "1.Top horizontal navigation\n2.PDPs with interactive features\n3.Gated app onboarding (prototype*)\n4.Standard app onboarding (build)\n\nParticipants will be handed the Earth case. Using the Pixel phone, participants will be asked to pair the case and expected follow the on boarding experience. Participants then will be asked to interact with the Live wallpaper and its different settings."
+            }
+        },
+        "user": "U0U9WJB7F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1497895891.241086"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5WS0EAA3\/screen_shot_2017-06-19_at_11.10.57_am.png|Screen Shot 2017-06-19 at 11.10.57 AM.png>",
+        "file": {
+            "id": "F5WS0EAA3",
+            "created": 1497895892,
+            "timestamp": 1497895892,
+            "name": "Screen Shot 2017-06-19 at 11.10.57 AM.png",
+            "title": "Screen Shot 2017-06-19 at 11.10.57 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 99372,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5WS0EAA3\/screen_shot_2017-06-19_at_11.10.57_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5WS0EAA3\/download\/screen_shot_2017-06-19_at_11.10.57_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0EAA3-9e0eecbea7\/screen_shot_2017-06-19_at_11.10.57_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0EAA3-9e0eecbea7\/screen_shot_2017-06-19_at_11.10.57_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0EAA3-9e0eecbea7\/screen_shot_2017-06-19_at_11.10.57_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0EAA3-9e0eecbea7\/screen_shot_2017-06-19_at_11.10.57_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 271,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0EAA3-9e0eecbea7\/screen_shot_2017-06-19_at_11.10.57_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0EAA3-9e0eecbea7\/screen_shot_2017-06-19_at_11.10.57_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 406,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0EAA3-9e0eecbea7\/screen_shot_2017-06-19_at_11.10.57_am_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 452,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0EAA3-9e0eecbea7\/screen_shot_2017-06-19_at_11.10.57_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 542,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5WS0EAA3-9e0eecbea7\/screen_shot_2017-06-19_at_11.10.57_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 578,
+            "image_exif_rotation": 1,
+            "original_w": 1382,
+            "original_h": 780,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5WS0EAA3\/screen_shot_2017-06-19_at_11.10.57_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5WS0EAA3-b2323f9d8d",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0U9WJB7F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1497895896.242946"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> can you put more detail on this ticket?",
+        "ts": "1497896380.421626"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-254>",
+        "ts": "1497896380.421800"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I am going to close that ticket-once Midori updates the Settings screens for Places, Photos and Artworks this should be taken care of.",
+        "ts": "1497896813.581138"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Sorry for any confusion.",
+        "ts": "1497896850.594923"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha all good",
+        "ts": "1497896879.606055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!here|@here> sorry for channeling, but what is this:",
+        "ts": "1497899010.399101"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F5W0D95TM\/-.py|Untitled>",
+        "file": {
+            "id": "F5W0D95TM",
+            "created": 1497899015,
+            "timestamp": 1497899015,
+            "name": "-.py",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 300,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5W0D95TM\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5W0D95TM\/download\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F5W0D95TM\/-.py",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5W0D95TM-3b692b77f1",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F5W0D95TM\/-.py\/edit",
+            "preview": "\"https:\/\/earth.google.com\/web\/@41.89067693,12.48931887,31.07484307a,\"\r\n                        + \"3986.68207622d,35y,0h,60t,\"\r\n                        + \"0r\/data=CksaSRJDChYweDA6MHg5MzM4MDFlZjgzZWQzNTk3GZ7Vw\"\r\n                        + \"-ZY8URAISRJkiSJ9yhAKhdSb3NldG8gZGkKUm9tYSBDYXBpdGFsZRgCIAEoAg\";",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-string\">&quot;https:\/\/earth.google.com\/web\/@41.89067693,12.48931887,31.07484307a,&quot;<\/span><\/pre><\/div>\n<div><pre>                        <span class=\"cm-operator\">+<\/span> <span class=\"cm-string\">&quot;3986.68207622d,35y,0h,60t,&quot;<\/span><\/pre><\/div>\n<div><pre>                        <span class=\"cm-operator\">+<\/span> <span class=\"cm-string\">&quot;0r\/data=CksaSRJDChYweDA6MHg5MzM4MDFlZjgzZWQzNTk3GZ7Vw&quot;<\/span><\/pre><\/div>\n<div><pre>                        <span class=\"cm-operator\">+<\/span> <span class=\"cm-string\">&quot;-ZY8URAISRJkiSJ9yhAKhdSb3NldG8gZGkKUm9tYSBDYXBpdGFsZRgCIAEoAg&quot;<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1497899016.401444"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "That looks like a google earth url.",
+        "ts": "1497899057.416029"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "where are you seeing that?",
+        "ts": "1497899064.418384"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its hard coded into the app for 8 separate images",
+        "ts": "1497899081.424397"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i’m like :confused:",
+        "ts": "1497899089.426991"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":gif_thinking_face:",
+        "ts": "1497899094.428623"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "That was a remnant from sell-in",
+        "ts": "1497899110.434542"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":disappointed:",
+        "ts": "1497899113.435614"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can i destroy this info?",
+        "ts": "1497899136.443595"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes",
+        "ts": "1497899141.445306"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(which i realize is illegal by laws of physics)",
+        "ts": "1497899146.447198",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            },
+            {
+                "name": "mars",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1497899148.447789"
+    },
+    {
+        "user": "U0HPGQ4KH",
+        "text": "<@U0HPGQ4KH|felix> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1497899438.547516",
+        "reactions": [
+            {
+                "name": "thinking_face",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> is this familiar:",
+        "ts": "1497900691.972840"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F5WTKPGNT\/-.py|Untitled>",
+        "file": {
+            "id": "F5WTKPGNT",
+            "created": 1497900696,
+            "timestamp": 1497900696,
+            "name": "-.py",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 1032,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5WTKPGNT\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5WTKPGNT\/download\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F5WTKPGNT\/-.py",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5WTKPGNT-75a6ee782d",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F5WTKPGNT\/-.py\/edit",
+            "preview": "java.lang.NullPointerException\r\n\tat com.google.android.apps.workshop.earth.b.a(Unknown Source:4)\r\n\tat com.google.android.apps.workshop.earth.b.onDoubleTap(Unknown Source:65)\r\n\tat com.google.android.apps.workshop.wallpaper.renderer.GLWallpaperRenderDispatch.onDoubleTap(Unknown Source:46)\r\n\tat android.view.GestureDetector.onTouchEvent(GestureDetector.java:565)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">java<\/span>.<span class=\"cm-property\">lang<\/span>.<span class=\"cm-property\">NullPointerException<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-property\">google<\/span>.<span class=\"cm-property\">android<\/span>.<span class=\"cm-property\">apps<\/span>.<span class=\"cm-property\">workshop<\/span>.<span class=\"cm-property\">earth<\/span>.<span class=\"cm-property\">b<\/span>.<span class=\"cm-property\">a<\/span>(<span class=\"cm-variable\">Unknown<\/span> <span class=\"cm-variable\">Source<\/span>:<span class=\"cm-number\">4<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-property\">google<\/span>.<span class=\"cm-property\">android<\/span>.<span class=\"cm-property\">apps<\/span>.<span class=\"cm-property\">workshop<\/span>.<span class=\"cm-property\">earth<\/span>.<span class=\"cm-property\">b<\/span>.<span class=\"cm-property\">onDoubleTap<\/span>(<span class=\"cm-variable\">Unknown<\/span> <span class=\"cm-variable\">Source<\/span>:<span class=\"cm-number\">65<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-property\">google<\/span>.<span class=\"cm-property\">android<\/span>.<span class=\"cm-property\">apps<\/span>.<span class=\"cm-property\">workshop<\/span>.<span class=\"cm-property\">wallpaper<\/span>.<span class=\"cm-property\">renderer<\/span>.<span class=\"cm-property\">GLWallpaperRenderDispatch<\/span>.<span class=\"cm-property\">onDoubleTap<\/span>(<span class=\"cm-variable\">Unknown<\/span> <span class=\"cm-variable\">Source<\/span>:<span class=\"cm-number\">46<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-property\">view<\/span>.<span class=\"cm-property\">GestureDetector<\/span>.<span class=\"cm-property\">onTouchEvent<\/span>(<span class=\"cm-variable\">GestureDetector<\/span>.<span class=\"cm-property\">java<\/span>:<span class=\"cm-number\">565<\/span>)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 14,
+            "lines_more": 9,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1497900697.974636"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Maybe? what’s the build?",
+        "ts": "1497900775.001906"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oops",
+        "ts": "1497900946.060060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "85",
+        "ts": "1497900947.060512"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry",
+        "ts": "1497900948.060773"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2670DYLE> regarding the default earth images (we talked about this a while ago) this URL might be of interest to you:",
+        "ts": "1497900964.066230"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/gweb-uncorked-3pr.appspot.com\/\/api\/earth\/get_image?case_id=4>",
+        "ts": "1497900964.066345"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "some of the images are blessed by being on the cases, and they’re mapped from (SOME_ID) to (KAN)",
+        "ts": "1497900986.073621"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think its something like:",
+        "ts": "1497901007.080656"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "caseId = 1  kan = 5555\ncaseId = 2  kan = 1243\ncaseId = 3  kan = 2170\ncaseId = 4  kan = 5584\ncaseId = 5  kan = 1957",
+        "ts": "1497901064.099323"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the app will toss caseId up at that URL",
+        "ts": "1497901095.109519"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and expect back whatever currently comes back",
+        "ts": "1497901102.112058"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but as of right now two things:",
+        "ts": "1497901112.115169"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> <@U1ZG1UCAK> <@U2H61EJSG> can one of you tell me if the keyboard images for Jeremy Scott are built into the app?",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1497901125.000000"
+        },
+        "ts": "1497901118.117331"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "1) when that caseId is not found, it still 200's (which is a bummer)",
+        "ts": "1497901123.118756"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "2) {“msg”: “Image not found”, “success”: false} is the current response (which is fine)",
+        "ts": "1497901135.122456"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> yes they are",
+        "ts": "1497901140.124324"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay thank you!",
+        "ts": "1497901152.128091"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do you need them",
+        "ts": "1497901158.130125"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "nope!",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1497901165.000000"
+        },
+        "ts": "1497901161.131195"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I'm just working on that feature list\/risks",
+        "ts": "1497901171.134552"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<@U026PHQ3J> so is the idea to throw an error response when an image isn't found?",
+        "ts": "1497901263.165012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh thats less important, mostly a nice to have",
+        "ts": "1497901279.170615"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "as long as those caseIds map to the right KAN",
+        "ts": "1497901286.173107"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then i’m happy",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1497901294.000000"
+        },
+        "ts": "1497901289.174029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think 3 of them do",
+        "ts": "1497901297.176805"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the last two might not be mapped yet",
+        "ts": "1497901302.178294"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "oh, ok, i can update in the datastore. i'll look",
+        "ts": "1497901306.179819"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool thanks!",
+        "ts": "1497901335.188670"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah i’m not sure what the mechanism is for that mapping",
+        "ts": "1497901346.192621"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "i think it is just a field in the datastore. I'm running through them to see if any are missing.",
+        "ts": "1497901480.237488"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5W15BECB\/-.java|Untitled> and commented: Looks like an Earth wallpaper crash on double tap",
+        "file": {
+            "id": "F5W15BECB",
+            "created": 1497901494,
+            "timestamp": 1497901494,
+            "name": "-.java",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U1ZG1UCAK",
+            "editable": true,
+            "size": 3542,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5W15BECB\/-.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5W15BECB\/download\/-.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5W15BECB\/-.java",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5W15BECB-16e8af9588",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/midori\/F5W15BECB\/-.java\/edit",
+            "preview": "java.lang.NullPointerException\r\n\tat com.google.android.apps.workshop.earth.EarthBlurDimGLRenderer.void recomputeMaxPrescaledBlurPixels()(Unknown Source:4)\r\n                                                                  void hintViewportSize(int,int)\r\n                                                                  void setNormalOffsetX(float)\r\n                                                                  void setAndConsumeBitmapRegionLoader(com.google.android.apps.workshop.wallpaper.image.BitmapRegionLoader)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">lang<\/span>.<span class=\"cm-variable\">NullPointerException<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">earth<\/span>.<span class=\"cm-variable\">EarthBlurDimGLRenderer<\/span>.<span class=\"cm-variable-3\">void<\/span> <span class=\"cm-def\">recomputeMaxPrescaledBlurPixels<\/span>()(<span class=\"cm-variable\">Unknown<\/span> <span class=\"cm-variable\">Source<\/span>:<span class=\"cm-number\">4<\/span>)<\/pre><\/div>\n<div><pre>                                                                  <span class=\"cm-variable-3\">void<\/span> <span class=\"cm-def\">hintViewportSize<\/span>(<span class=\"cm-variable-3\">int<\/span>,<span class=\"cm-variable-3\">int<\/span>)<\/pre><\/div>\n<div><pre>                                                                  <span class=\"cm-variable-3\">void<\/span> <span class=\"cm-def\">setNormalOffsetX<\/span>(<span class=\"cm-keyword\">float<\/span>)<\/pre><\/div>\n<div><pre>                                                                  <span class=\"cm-variable-3\">void<\/span> <span class=\"cm-def\">setAndConsumeBitmapRegionLoader<\/span>(<span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">wallpaper<\/span>.<span class=\"cm-variable\">image<\/span>.<span class=\"cm-variable\">BitmapRegionLoader<\/span>)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 29,
+            "lines_more": 24,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5WTA6BNJ",
+                "created": 1497901494,
+                "timestamp": 1497901494,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Looks like an Earth wallpaper crash on double tap"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1497901495.242519"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "There's not a record for kan = 5584",
+        "ts": "1497901544.259413"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I just updated case id 5 to be set to 1957",
+        "ts": "1497901675.302911"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "so that one now resolves. ```{\n  \"images\": [\n    {\n      \"zoom\": 16,\n      \"earth_link\": \"<https:\/\/g.co\/ev\/1957>\",\n      \"image_link\": \"<https:\/\/www.gstatic.com\/prettyearth\/assets\/full\/1957.jpg>\",\n      \"image_id\": 1957,\n      \"location\": [\n        32.466197999999999,\n        -0.902555\n      ],\n      \"earth_3d_link\": \"<https:\/\/earth.google.com\/web\/@32.46619802,-0.902555,1570.80901768a,27993.93565742d,35y,85.84811664h,0t,0r\/data=CmYaZBJeCiQweGQ4NmY2MTBlZWMxMWQxOToweGFiNjhjYzk4MDg0ODk1NDcZ8Zc8kO8yQEAhLDiEQzg07r8qJERqZW5pZW5lCkJvdXJlemcK2KzZhtmK2YYg2KjZiNix2LLZghgCIAE>\",\n      \"maps_link\": \"<https:\/\/www.google.com\/maps\/@32.466198,-0.902555,16z\/data=!3m1!1e3>\"\n    }\n  ],\n  \"success\": true\n}```",
+        "ts": "1497901713.315786"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "???\n<https:\/\/www.gstatic.com\/prettyearth\/assets\/full\/5584.jpg>",
+        "attachments": [
+            {
+                "fallback": "1800x1200px image",
+                "image_url": "https:\/\/www.gstatic.com\/prettyearth\/assets\/full\/5584.jpg",
+                "image_width": 1800,
+                "image_height": 1200,
+                "image_bytes": 537305,
+                "from_url": "https:\/\/www.gstatic.com\/prettyearth\/assets\/full\/5584.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1497901756.330403"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "oh wait",
+        "ts": "1497901799.344651"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I just updated that one, too. <https:\/\/gweb-uncorked-3pr.appspot.com\/api\/earth\/get_image?case_id=4> should get you this, now: ```{\n  \"images\": [\n    {\n      \"zoom\": 16,\n      \"earth_link\": \"<https:\/\/g.co\/ev\/5584>\",\n      \"image_link\": \"<https:\/\/www.gstatic.com\/prettyearth\/assets\/full\/5584.jpg>\",\n      \"image_id\": 5584,\n      \"location\": [\n        -23.574971000000001,\n        15.050668999999999\n      ],\n      \"earth_3d_link\": \"<https:\/\/earth.google.com\/web\/@-23.56135155,15.04061575,404.81738744a,3835.13096746d,35y,268.05142724h,60t,0r\/data=CkoaSBJCCiUweDFjNzNmZDdmY2NlOGZlNTc6MHg3MTJkYTQ2ZjQzMjQwNTFlGVCpEmVvjzfAIQWQkDevFC5AKgdHb2JhYmViGAIgASgC>\",\n      \"maps_link\": \"<https:\/\/www.google.com\/maps\/@-23.574971,15.050669,16z\/data=!3m1!1e3>\"\n    }\n  ],\n  \"success\": true\n}```",
+        "ts": "1497901948.394774"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "sweeeeet :slightly_smiling_face:",
+        "ts": "1497901960.398783"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh cool",
+        "ts": "1497902017.418302"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks!",
+        "ts": "1497902021.419573"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2670DYLE> tested and works! thanks",
+        "ts": "1497902537.600680"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "awesome. Thank you!",
+        "ts": "1497902547.604431"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> I assigned this to you, but perhaps Summer can take it?",
+        "ts": "1497903480.922039"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-304>",
+        "ts": "1497903481.922409"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I can take that",
+        "ts": "1497903511.932962"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sweet",
+        "ts": "1497903518.935455"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Regarding the 10x lockout ticket, is the user supposed to see the error dialog after 10 attempts at the SAME code or 10 attempts with ANY code?",
+        "ts": "1497903649.979325"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "any!",
+        "ts": "1497904380.231691"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i know we talked about it-just wanted to put it on record :slightly_smiling_face:",
+        "ts": "1497904390.234788"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ugh. no one updated the wallpaper xml file so the settings activity from system wallpaper picker is very broken",
+        "ts": "1497905857.736641"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically SettingsActivity is only a legacy thing now",
+        "ts": "1497905878.743669"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":disappointed:",
+        "ts": "1497906071.811565"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I can put a comment in this ticket (<https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-294>) to fix that. Pr <@U0U9WJB7F> should I make a new ticket, in case we get crashes from that and need to track it?",
+        "ts": "1497906276.879455"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m going to make a new ticket",
+        "ts": "1497906298.886816"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’ve got a stopgap in place on this weirdo branch i’m working thru",
+        "ts": "1497906311.890614"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "whatever works for you",
+        "ts": "1497906313.891287"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sorry, should i have done something else here?!",
+        "ts": "1497906320.893783"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":confused:",
+        "ts": "1497906322.894521"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay… should a make a ticket to fix it for real though? (curious: what’s the stopgap?)",
+        "ts": "1497906409.922067",
+        "reactions": [
+            {
+                "name": "fuckyeah",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "FYI just hit up ustwo\/google folks to try and get a better check mark asset considering the most recent one is still pretty jagged around the edges. Also decided to surface having that asset be a static image v. a gif to see if we can get traction there.",
+        "ts": "1497908813.603680"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> <@U0U9WJB7F> is this still real?",
+        "ts": "1497909177.696683"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-231>",
+        "ts": "1497909177.696777"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I feel totally nuts but I no longer see it",
+        "ts": "1497909244.713439"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I know multiple people noticed it though at the time",
+        "ts": "1497909257.716806"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I don’t think so, but I’ve left it because I want to go back and double check the colors.",
+        "ts": "1497910221.958937"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool sounds good",
+        "ts": "1497910238.963101"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Reminder we've got our retro tomorrow morning, start thinkin' of things you want to bring up :slightly_smiling_face:",
+        "ts": "1497917756.331448"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’ll read my notes :japanese_ogre:",
+        "ts": "1497917973.362709"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Does anyone know where I can find an order id for a new Places case?",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1497923210.000000"
+        },
+        "ts": "1497923061.054048"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "we faked it!",
+        "ts": "1497924569.250300"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "0xxx-xxxx : Places\n1xxx-xxxx: Moments\n2xxx-xxxx: Collections",
+        "ts": "1497924586.252457"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Where x can be any number or letter",
+        "ts": "1497924601.254213"
+    }
+]

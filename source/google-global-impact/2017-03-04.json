@@ -1,0 +1,1467 @@
+[
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> can you send latest .mov for review on attract mode?",
+        "thread_ts": "1488642417.832857",
+        "reply_count": 14,
+        "replies": [
+            {
+                "user": "U0J6TE0CA",
+                "ts": "1488657211.040927"
+            },
+            {
+                "user": "U02F9CXTL",
+                "ts": "1488657353.042853"
+            },
+            {
+                "user": "U0J6TE0CA",
+                "ts": "1488657764.048125"
+            },
+            {
+                "user": "U0J6TE0CA",
+                "ts": "1488657951.050573"
+            },
+            {
+                "user": "U0J6TE0CA",
+                "ts": "1488658051.051835"
+            },
+            {
+                "user": "U02F9CXTL",
+                "ts": "1488658324.054610"
+            },
+            {
+                "user": "U0J6TE0CA",
+                "ts": "1488658487.056772"
+            },
+            {
+                "user": "U02F9CXTL",
+                "ts": "1488658567.057847"
+            },
+            {
+                "user": "U0J6TE0CA",
+                "ts": "1488658593.058348"
+            },
+            {
+                "user": "U02F9CXTL",
+                "ts": "1488658644.059138"
+            },
+            {
+                "user": "U0J6TE0CA",
+                "ts": "1488658901.063065"
+            },
+            {
+                "user": "U02F9CXTL",
+                "ts": "1488658903.063098"
+            },
+            {
+                "user": "U0J6TE0CA",
+                "ts": "1488662274.107998"
+            },
+            {
+                "user": "U0J6TE0CA",
+                "ts": "1488662280.108116"
+            }
+        ],
+        "unread_count": 14,
+        "ts": "1488642417.832857"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "damn, getting messaging server errors now, cant connect again to their server",
+        "ts": "1488656699.035193"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "WebSocket connection to '<wss:\/\/messaging-dev.experiencecentersplatform.goog\/ws>' failed: Error in connection establishment: net::ERR_INSECURE_RESPONSE",
+        "ts": "1488656702.035240"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sent a message on the hangout to the google team. this one is new, havnt seen this exact message before",
+        "ts": "1488656727.035535"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this really hinders ability to work on most anything. the messaging is what puts the system into the various states. without that cant really do a whole lot. im going to do what i can to work around it while its not working",
+        "ts": "1488656785.036065"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sorry to hear",
+        "ts": "1488656847.036641"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<@U0ML49XU0> or <@U0B9N0HF0> anybody we can contact google side engineering that might be able to help?",
+        "ts": "1488656883.037091"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "actually i just did a little more research and figured out a way to trick chrome into ignoring the error, this will let me continue, it seems to be working again. this will work for us for now. But there is certainly something screwy on their server. I have let max and james know about it",
+        "ts": "1488657120.039892",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U0J6TE0CA",
+                    "U02E3CRMA",
+                    "U02F9CXTL"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U02E3CRMA> <@U243UT96G> <@U2670DYLE> if you add this to your components file definitions it will ignore this invalid certificate and the messaging server will connect \"chromeFlags\": [ \"--ignore-certificate-errors\" ]",
+        "ts": "1488657166.040372",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they had recently added ssl to the messaging server, it appears like there is an error with it now, but this will ignore that error and chorme connects anyways",
+        "ts": "1488657209.040889"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "jstrand: Is this just to check in? I'd rather bring in Trent's work and cruise forward if that is kosher",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488657211.040927"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Thanks Peter. ",
+        "ts": "1488657232.041160"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "To be clear, this needs to be fixed by what point in order to really proceed\/ launch unencumbered?",
+        "ts": "1488657265.041589"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Want to see what was worked on last night. And where we stand to get everything finished.",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488657353.042853"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "This is a work able fix, but not ideal. I think it has something to do with the new secure certificate on their server, but that not being our server I cant really say for sure. But this unblocks us to continue. I have let them know that this occurred and the fix that we are using to work around it. I would hope that it is fixed on their end before launch as it would just be a hygenic thing to not have this in place. tho I dont think its hindering anything to continue with it as long as we need to. For today at least im unblocked and can continue. It is likely something simple on their end and fixed soon i would suspect",
+        "ts": "1488657427.043815"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Ok roger that. If something. Changes and you want this escalated, let <@U02E3CRMA> and <@U0B9N0HF0> and I know. Otherwise I appreciate the existing communications and the tenacity. ",
+        "ts": "1488657712.047360"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Gotta pull things in",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488657764.048125"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "There's some journey lines I need to include in Trent's piece (I already had them animated, so it didn't make much sense or him to re-animate all that stuff). Need to composite in his stuff (got part of the way, but keep getting sidetracked), also need to replace the Google logo ai have in there currently as its too small",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488657951.050573"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Here's what I shared with Justin last night:\n1. Some buttoning up on the file (cleanup overall, can happen after Beta)\n2. copying &amp; pasting in the new journey lines\n3. slowing the overall movement of the 4UP\n4. replacing Google logo with a vector format (Trent found a higher res PNG that I need to include)\n5. Need to talk to Peter about the write-up you provided &amp; how that will appear (If we want it to appear like the rest of the copy, I suspect it will need to be separate than the Bodymovin file)",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488658051.051835"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Can send . Mov file?",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488658324.054610"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Ok, just going to postpone the Bodymovin handoff by a bit",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488658487.056772"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Attract needs to get check off from CDs before it's handed off too dev.",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488658567.057847"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "ok, I've got 2 rendering now",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488658593.058348"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like james filed a bug report on their end. They are on it. We need to bring that guy some hot sauce :wink:",
+        "ts": "1488658607.058688",
+        "reactions": [
+            {
+                "name": "fire_engine",
+                "users": [
+                    "U0J6TE0CA",
+                    "U02E3CRMA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Oooh",
+        "ts": "1488658637.059021"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Is this different work from last night?",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488658644.059138"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Some is",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488658901.063065"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Was hoping to see where that landed out...",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488658903.063098"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": ":lit:",
+        "ts": "1488660120.078252"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D3EK881\/attractmode_l_flank_20170304.mp4|L Flank>",
+        "file": {
+            "id": "F4D3EK881",
+            "created": 1488661616,
+            "timestamp": 1488661616,
+            "name": "AttractMode_L Flank_20170304.mp4",
+            "title": "L Flank",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 22169882,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3EK881\/attractmode_l_flank_20170304.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3EK881\/download\/attractmode_l_flank_20170304.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D3EK881\/attractmode_l_flank_20170304.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4D3EK881-d73a81853a",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488661618.098052"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4EEAAJAK\/attractmode_3up_20170304.mp4|3UP>",
+        "file": {
+            "id": "F4EEAAJAK",
+            "created": 1488661700,
+            "timestamp": 1488661700,
+            "name": "AttractMode_3UP_20170304.mp4",
+            "title": "3UP",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 20512888,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EEAAJAK\/attractmode_3up_20170304.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EEAAJAK\/download\/attractmode_3up_20170304.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4EEAAJAK\/attractmode_3up_20170304.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4EEAAJAK-00b2b1f6de",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488661703.099108"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "New since 6",
+        "ts": "1488661752.099633"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U02F9CXTL>",
+        "ts": "1488661758.099681"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Any thoughts?",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488662274.107998"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Posted in channel",
+        "thread_ts": "1488642417.832857",
+        "parent_user_id": "U02F9CXTL",
+        "ts": "1488662280.108116"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": ":raised_hands:",
+        "ts": "1488662287.108241"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Cool - thanks Emily. So then do we just need to kick out the body movin files?",
+        "ts": "1488662488.110413"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U0260V4K1> Yeah, still need to slow down 4UP though, but figured I can kick out Bodymovin today",
+        "ts": "1488662619.111954"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Yeah, asap on the BM files",
+        "ts": "1488662666.112465"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "One thing to consider: For the text writeup that you worked on Justin, we can either bake it into Bodymovin (easiest on Dev) or we can have it be editable &amp; in that case it would have to  be programmed.",
+        "ts": "1488662672.112539"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "I know <@U02F9CXTL> DM'd me about getting approval before kicking out Bodymovin files, so as long as I have CD blessing I can kick out Bodymovin.",
+        "ts": "1488662714.113004"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Yeah, let's just bake it in at this stage and hope for the best ",
+        "ts": "1488662777.113716"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Good plan! Need to animate that, it was just placed in, so that will have to come tomorrow with the slower 4UP speed. Sound good?",
+        "ts": "1488662808.114071"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Well, so what if we don't animate it?",
+        "ts": "1488662944.115625"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I'd really really really love to have 4-up out the door today so dev can focus all day tomorroe",
+        "ts": "1488662977.115950"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Yeah, we can just have that be static. We've aleady definted the movement for text, thats not the issue.",
+        "ts": "1488663020.116620"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "I'll kick out all the Bodymovin I have right now then",
+        "ts": "1488663030.116732"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Rad. Thank you!",
+        "ts": "1488663046.116881"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U02E3CRMA|joel> commented on <@U0J6TE0CA|emilyskaer>’s file <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D3EK881\/attractmode_l_flank_20170304.mp4|L Flank>: Minor typographical nit: needs to be São",
+        "file": {
+            "id": "F4D3EK881",
+            "created": 1488661616,
+            "timestamp": 1488661616,
+            "name": "AttractMode_L Flank_20170304.mp4",
+            "title": "L Flank",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 22169882,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3EK881\/attractmode_l_flank_20170304.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3EK881\/download\/attractmode_l_flank_20170304.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D3EK881\/attractmode_l_flank_20170304.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4D3EK881-d73a81853a",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2
+        },
+        "comment": {
+            "id": "Fc4DS25LBX",
+            "created": 1488663049,
+            "timestamp": 1488663049,
+            "user": "U02E3CRMA",
+            "is_intro": false,
+            "comment": "Minor typographical nit: needs to be São"
+        },
+        "is_intro": false,
+        "ts": "1488663049.116913"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "(To be clear, everything is moving. It's really just the text animating &amp; slowing down the 4UP movement)",
+        "ts": "1488663064.117116",
+        "reactions": [
+            {
+                "name": "raised_hands::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U0J6TE0CA|emilyskaer> commented on <@U0J6TE0CA|emilyskaer>’s file <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D3EK881\/attractmode_l_flank_20170304.mp4|L Flank>: Ok, that will have to be remedied next round since all the type is shape layers now (ie not editable anymore. This has to be done in order for me to kick out Bodymovin, it won't export text files)",
+        "file": {
+            "id": "F4D3EK881",
+            "created": 1488661616,
+            "timestamp": 1488661616,
+            "name": "AttractMode_L Flank_20170304.mp4",
+            "title": "L Flank",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 22169882,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3EK881\/attractmode_l_flank_20170304.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3EK881\/download\/attractmode_l_flank_20170304.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D3EK881\/attractmode_l_flank_20170304.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4D3EK881-d73a81853a",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2
+        },
+        "comment": {
+            "id": "Fc4DQKAVJ8",
+            "created": 1488663209,
+            "timestamp": 1488663209,
+            "user": "U0J6TE0CA",
+            "is_intro": false,
+            "comment": "Ok, that will have to be remedied next round since all the type is shape layers now (ie not editable anymore. This has to be done in order for me to kick out Bodymovin, it won't export text files)"
+        },
+        "is_intro": false,
+        "ts": "1488663209.119076"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "**Note, Peter has links to all the images used",
+        "ts": "1488663442.121822"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DMFSG9Z\/rflank_20170304.json|RFlank_20170304.json>",
+        "file": {
+            "id": "F4DMFSG9Z",
+            "created": 1488663442,
+            "timestamp": 1488663442,
+            "name": "RFlank_20170304.json",
+            "title": "RFlank_20170304.json",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U0J6TE0CA",
+            "editable": true,
+            "size": 50201,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DMFSG9Z\/rflank_20170304.json?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DMFSG9Z\/download\/rflank_20170304.json?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DMFSG9Z\/rflank_20170304.json",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DMFSG9Z-7c390f139a",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DMFSG9Z\/rflank_20170304.json\/edit",
+            "preview": "{\"assets\":[{\"id\":\"image_0\",\"w\":1334,\"h\":853,\"u\":\"images\/\",\"p\":\"img_0.png\"},{\"id\":\"image_1\",\"w\":764,\"h\":1528,\"u\":\"images\/\",\"p\":\"img_1.png\"}],\"layers\":[{\"ddd\":0,\"ind\":0,\"ty\":2,\"nm\":\"Lines\",\"refId\":\"image_0\",\"ks\":{\"o\":{\"k\":100},\"r\":{\"k\":0},\"p\":{\"k\":[1570,940.5,0]},\"a\":{\"k\":[667,426.5,0]},\"s\":{\"k\":[100,100,100]}},\"ao\":0,\"ip\":0,\"op\":2100.00008553475,\"st\":0,\"bm\":0,\"sr\":1},{\"ddd\":0,\"ind\":1,\"ty\":4,\"nm\":\"New York\",\"ks\":{\"o\":{\"k\":100},\"r\":{\"k\":0},\"p\":{\"k\":[516.676,364.913,0]},\"a\":{\"k\":[0,0,0]},\"s\":{\"k\":[86.201,86.201,100]}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"ind\":0,\"ty\":\"sh\",\"ks\":{\"k\":{\"i\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"o\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"v\":[[29.789,-34.125],[25.172,-34.125],[25.172,-8.133],[25.031,-8.086],[8.602,-34.125],[3.984,-34.125],[3.984,0],[8.602,0],[8.602,-26.016],[8.742,-26.062],[25.172,0],[29.789,0]],\"c\":true}},\"nm\":\"N\",\"mn\":\"ADBE Vector Shape - Group\"},{\"ty\":\"fl\",\"fillEnabled\":true,\"c\":{\"k\":[0.98,0.98,0....",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>{<span class=\"cm-string\">&quot;assets&quot;<\/span>:[{<span class=\"cm-string cm-property\">&quot;id&quot;<\/span>:<span class=\"cm-string\">&quot;image_0&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;w&quot;<\/span>:<span class=\"cm-number\">1334<\/span>,<span class=\"cm-string cm-property\">&quot;h&quot;<\/span>:<span class=\"cm-number\">853<\/span>,<span class=\"cm-string cm-property\">&quot;u&quot;<\/span>:<span class=\"cm-string\">&quot;images\/&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;p&quot;<\/span>:<span class=\"cm-string\">&quot;img_0.png&quot;<\/span>},{<span class=\"cm-string cm-property\">&quot;id&quot;<\/span>:<span class=\"cm-string\">&quot;image_1&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;w&quot;<\/span>:<span class=\"cm-number\">764<\/span>,<span class=\"cm-string cm-property\">&quot;h&quot;<\/span>:<span class=\"cm-number\">1528<\/span>,<span class=\"cm-string cm-property\">&quot;u&quot;<\/span>:<span class=\"cm-string\">&quot;images\/&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;p&quot;<\/span>:<span class=\"cm-string\">&quot;img_1.png&quot;<\/span>}],<span class=\"cm-string\">&quot;layers&quot;<\/span>:[{<span class=\"cm-string cm-property\">&quot;ddd&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;ind&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;ty&quot;<\/span>:<span class=\"cm-number\">2<\/span>,<span class=\"cm-string cm-property\">&quot;nm&quot;<\/span>:<span class=\"cm-string\">&quot;Lines&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;refId&quot;<\/span>:<span class=\"cm-string\">&quot;image_0&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;ks&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;o&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:<span class=\"cm-number\">100<\/span>},<span class=\"cm-string cm-property\">&quot;r&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:<span class=\"cm-number\">0<\/span>},<span class=\"cm-string cm-property\">&quot;p&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">1570<\/span>,<span class=\"cm-number\">940.5<\/span>,<span class=\"cm-number\">0<\/span>]},<span class=\"cm-string cm-property\">&quot;a&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">667<\/span>,<span class=\"cm-number\">426.5<\/span>,<span class=\"cm-number\">0<\/span>]},<span class=\"cm-string cm-property\">&quot;s&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">100<\/span>,<span class=\"cm-number\">100<\/span>,<span class=\"cm-number\">100<\/span>]}},<span class=\"cm-string cm-property\">&quot;ao&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;ip&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;op&quot;<\/span>:<span class=\"cm-number\">2100.00008553475<\/span>,<span class=\"cm-string cm-property\">&quot;st&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;bm&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;sr&quot;<\/span>:<span class=\"cm-number\">1<\/span>},{<span class=\"cm-string cm-property\">&quot;ddd&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;ind&quot;<\/span>:<span class=\"cm-number\">1<\/span>,<span class=\"cm-string cm-property\">&quot;ty&quot;<\/span>:<span class=\"cm-number\">4<\/span>,<span class=\"cm-string cm-property\">&quot;nm&quot;<\/span>:<span class=\"cm-string\">&quot;New York&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;ks&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;o&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:<span class=\"cm-number\">100<\/span>},<span class=\"cm-string cm-property\">&quot;r&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:<span class=\"cm-number\">0<\/span>},<span class=\"cm-string cm-property\">&quot;p&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">516.676<\/span>,<span class=\"cm-number\">364.913<\/span>,<span class=\"cm-number\">0<\/span>]},<span class=\"cm-string cm-property\">&quot;a&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>]},<span class=\"cm-string cm-property\">&quot;s&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">86.201<\/span>,<span class=\"cm-number\">86.201<\/span>,<span class=\"cm-number\">100<\/span>]}},<span class=\"cm-string cm-property\">&quot;ao&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;shapes&quot;<\/span>:[{<span class=\"cm-string cm-property\">&quot;ty&quot;<\/span>:<span class=\"cm-string\">&quot;gr&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;it&quot;<\/span>:[{<span class=\"cm-string cm-property\">&quot;ind&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;ty&quot;<\/span>:<span class=\"cm-string\">&quot;sh&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;ks&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;i&quot;<\/span>:[[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>]],<span class=\"cm-string cm-property\">&quot;o&quot;<\/span>:[[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">0<\/span>,<span class=\"cm-number\">0<\/span>]],<span class=\"cm-string cm-property\">&quot;v&quot;<\/span>:[[<span class=\"cm-number\">29.789<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">34.125<\/span>],[<span class=\"cm-number\">25.172<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">34.125<\/span>],[<span class=\"cm-number\">25.172<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">8.133<\/span>],[<span class=\"cm-number\">25.031<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">8.086<\/span>],[<span class=\"cm-number\">8.602<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">34.125<\/span>],[<span class=\"cm-number\">3.984<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">34.125<\/span>],[<span class=\"cm-number\">3.984<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">8.602<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">8.602<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">26.016<\/span>],[<span class=\"cm-number\">8.742<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">26.062<\/span>],[<span class=\"cm-number\">25.172<\/span>,<span class=\"cm-number\">0<\/span>],[<span class=\"cm-number\">29.789<\/span>,<span class=\"cm-number\">0<\/span>]],<span class=\"cm-string cm-property\">&quot;c&quot;<\/span>:<span class=\"cm-atom\">true<\/span>}},<span class=\"cm-string cm-property\">&quot;nm&quot;<\/span>:<span class=\"cm-string\">&quot;N&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;mn&quot;<\/span>:<span class=\"cm-string\">&quot;ADBE Vector Shape - Group&quot;<\/span>},{<span class=\"cm-string cm-property\">&quot;ty&quot;<\/span>:<span class=\"cm-string\">&quot;fl&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;fillEnabled&quot;<\/span>:<span class=\"cm-atom\">true<\/span>,<span class=\"cm-string cm-property\">&quot;c&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">0.98<\/span>,<span class=\"cm-number\">0.98<\/span>,<span class=\"cm-number\">0.<\/span><span class=\"cm-meta\">...<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488663444.121829"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4EEE31QX\/rflank_images.zip|RFlank_images.zip>",
+        "file": {
+            "id": "F4EEE31QX",
+            "created": 1488663504,
+            "timestamp": 1488663504,
+            "name": "RFlank_images.zip",
+            "title": "RFlank_images.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 8934862,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EEE31QX\/rflank_images.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EEE31QX\/download\/rflank_images.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4EEE31QX\/rflank_images.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4EEE31QX-283b17cd66",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488663504.122511"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DPGPHEE\/lflank_20170304.json|L Flank>",
+        "file": {
+            "id": "F4DPGPHEE",
+            "created": 1488663607,
+            "timestamp": 1488663607,
+            "name": "LFlank_20170304.json",
+            "title": "L Flank",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U0J6TE0CA",
+            "editable": true,
+            "size": 62462,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DPGPHEE\/lflank_20170304.json?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DPGPHEE\/download\/lflank_20170304.json?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DPGPHEE\/lflank_20170304.json",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DPGPHEE-60c9be863d",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DPGPHEE\/lflank_20170304.json\/edit",
+            "preview": "{\"assets\":[{\"id\":\"image_0\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_0.png\"},{\"id\":\"image_1\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_1.png\"},{\"id\":\"image_2\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_2.png\"}],\"fonts\":{\"list\":[{\"fName\":\"Roboto-Medium\",\"fFamily\":\"Roboto\",\"fStyle\":\"Medium\",\"ascent\":76.171875},{\"fName\":\"Roboto-Regular\",\"fFamily\":\"Roboto\",\"fStyle\":\"Regular\",\"ascent\":76.171875}]},\"layers\":[{\"ddd\":0,\"ind\":0,\"ty\":4,\"nm\":\"Line 1\",\"ks\":{\"o\":{\"k\":75},\"r\":{\"k\":-36.036},\"p\":{\"k\":[1630.572,-75.842,0]},\"a\":{\"k\":[477.234,310.755,0]},\"s\":{\"k\":[87.372,87.372,100]}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"ind\":0,\"ty\":\"sh\",\"ks\":{\"k\":{\"i\":[[110.73,-35.97],[17.417,-17.684],[-0.648,-88.841],[-113.909,119.365],[-98.351,-7.223]],\"o\":[[-34.47,11.198],[-102.859,126.106],[0.813,111.307],[81.865,-85.787],[44.071,3.237]],\"v\":[[-290.281,-254.42],[-369.375,-210.905],[-295.813,75.958],[-92.232,186.39],[218.911,97.528]],\"c\":false}},\"nm\":\"Path 1\",\"mn\":\"ADBE Vector Shape - Group\"},{\"ty\":\"st\",\"fillEnabled\":true,\"c\":{\"k\":[1,1,1,1]},\"o\"...",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>{<span class=\"cm-string\">&quot;assets&quot;<\/span>:[{<span class=\"cm-string cm-property\">&quot;id&quot;<\/span>:<span class=\"cm-string\">&quot;image_0&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;w&quot;<\/span>:<span class=\"cm-number\">1081<\/span>,<span class=\"cm-string cm-property\">&quot;h&quot;<\/span>:<span class=\"cm-number\">1081<\/span>,<span class=\"cm-string cm-property\">&quot;u&quot;<\/span>:<span class=\"cm-string\">&quot;images\/&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;p&quot;<\/span>:<span class=\"cm-string\">&quot;img_0.png&quot;<\/span>},{<span class=\"cm-string cm-property\">&quot;id&quot;<\/span>:<span class=\"cm-string\">&quot;image_1&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;w&quot;<\/span>:<span class=\"cm-number\">1081<\/span>,<span class=\"cm-string cm-property\">&quot;h&quot;<\/span>:<span class=\"cm-number\">1081<\/span>,<span class=\"cm-string cm-property\">&quot;u&quot;<\/span>:<span class=\"cm-string\">&quot;images\/&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;p&quot;<\/span>:<span class=\"cm-string\">&quot;img_1.png&quot;<\/span>},{<span class=\"cm-string cm-property\">&quot;id&quot;<\/span>:<span class=\"cm-string\">&quot;image_2&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;w&quot;<\/span>:<span class=\"cm-number\">1081<\/span>,<span class=\"cm-string cm-property\">&quot;h&quot;<\/span>:<span class=\"cm-number\">1081<\/span>,<span class=\"cm-string cm-property\">&quot;u&quot;<\/span>:<span class=\"cm-string\">&quot;images\/&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;p&quot;<\/span>:<span class=\"cm-string\">&quot;img_2.png&quot;<\/span>}],<span class=\"cm-string\">&quot;fonts&quot;<\/span>:{<span class=\"cm-string\">&quot;list&quot;<\/span>:[{<span class=\"cm-string cm-property\">&quot;fName&quot;<\/span>:<span class=\"cm-string\">&quot;Roboto-Medium&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;fFamily&quot;<\/span>:<span class=\"cm-string\">&quot;Roboto&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;fStyle&quot;<\/span>:<span class=\"cm-string\">&quot;Medium&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;ascent&quot;<\/span>:<span class=\"cm-number\">76.171875<\/span>},{<span class=\"cm-string cm-property\">&quot;fName&quot;<\/span>:<span class=\"cm-string\">&quot;Roboto-Regular&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;fFamily&quot;<\/span>:<span class=\"cm-string\">&quot;Roboto&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;fStyle&quot;<\/span>:<span class=\"cm-string\">&quot;Regular&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;ascent&quot;<\/span>:<span class=\"cm-number\">76.171875<\/span>}]},<span class=\"cm-string\">&quot;layers&quot;<\/span>:[{<span class=\"cm-string cm-property\">&quot;ddd&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;ind&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;ty&quot;<\/span>:<span class=\"cm-number\">4<\/span>,<span class=\"cm-string cm-property\">&quot;nm&quot;<\/span>:<span class=\"cm-string\">&quot;Line 1&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;ks&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;o&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:<span class=\"cm-number\">75<\/span>},<span class=\"cm-string cm-property\">&quot;r&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">36.036<\/span>},<span class=\"cm-string cm-property\">&quot;p&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">1630.572<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">75.842<\/span>,<span class=\"cm-number\">0<\/span>]},<span class=\"cm-string cm-property\">&quot;a&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">477.234<\/span>,<span class=\"cm-number\">310.755<\/span>,<span class=\"cm-number\">0<\/span>]},<span class=\"cm-string cm-property\">&quot;s&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">87.372<\/span>,<span class=\"cm-number\">87.372<\/span>,<span class=\"cm-number\">100<\/span>]}},<span class=\"cm-string cm-property\">&quot;ao&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;shapes&quot;<\/span>:[{<span class=\"cm-string cm-property\">&quot;ty&quot;<\/span>:<span class=\"cm-string\">&quot;gr&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;it&quot;<\/span>:[{<span class=\"cm-string cm-property\">&quot;ind&quot;<\/span>:<span class=\"cm-number\">0<\/span>,<span class=\"cm-string cm-property\">&quot;ty&quot;<\/span>:<span class=\"cm-string\">&quot;sh&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;ks&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;i&quot;<\/span>:[[<span class=\"cm-number\">110.73<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">35.97<\/span>],[<span class=\"cm-number\">17.417<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">17.684<\/span>],[<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">0.648<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">88.841<\/span>],[<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">113.909<\/span>,<span class=\"cm-number\">119.365<\/span>],[<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">98.351<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">7.223<\/span>]],<span class=\"cm-string cm-property\">&quot;o&quot;<\/span>:[[<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">34.47<\/span>,<span class=\"cm-number\">11.198<\/span>],[<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">102.859<\/span>,<span class=\"cm-number\">126.106<\/span>],[<span class=\"cm-number\">0.813<\/span>,<span class=\"cm-number\">111.307<\/span>],[<span class=\"cm-number\">81.865<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">85.787<\/span>],[<span class=\"cm-number\">44.071<\/span>,<span class=\"cm-number\">3.237<\/span>]],<span class=\"cm-string cm-property\">&quot;v&quot;<\/span>:[[<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">290.281<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">254.42<\/span>],[<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">369.375<\/span>,<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">210.905<\/span>],[<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">295.813<\/span>,<span class=\"cm-number\">75.958<\/span>],[<span class=\"cm-operator\">-<\/span><span class=\"cm-number\">92.232<\/span>,<span class=\"cm-number\">186.39<\/span>],[<span class=\"cm-number\">218.911<\/span>,<span class=\"cm-number\">97.528<\/span>]],<span class=\"cm-string cm-property\">&quot;c&quot;<\/span>:<span class=\"cm-atom\">false<\/span>}},<span class=\"cm-string cm-property\">&quot;nm&quot;<\/span>:<span class=\"cm-string\">&quot;Path 1&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;mn&quot;<\/span>:<span class=\"cm-string\">&quot;ADBE Vector Shape - Group&quot;<\/span>},{<span class=\"cm-string cm-property\">&quot;ty&quot;<\/span>:<span class=\"cm-string\">&quot;st&quot;<\/span>,<span class=\"cm-string cm-property\">&quot;fillEnabled&quot;<\/span>:<span class=\"cm-atom\">true<\/span>,<span class=\"cm-string cm-property\">&quot;c&quot;<\/span>:{<span class=\"cm-string cm-property\">&quot;k&quot;<\/span>:[<span class=\"cm-number\">1<\/span>,<span class=\"cm-number\">1<\/span>,<span class=\"cm-number\">1<\/span>,<span class=\"cm-number\">1<\/span>]},<span class=\"cm-string cm-property\">&quot;o&quot;<\/span><span class=\"cm-meta\">...<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488663609.124219"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D2QN2BA\/lflank_20170304.zip|L Flank Images>",
+        "file": {
+            "id": "F4D2QN2BA",
+            "created": 1488663657,
+            "timestamp": 1488663657,
+            "name": "LFlank_20170304.zip",
+            "title": "L Flank Images",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 10859699,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D2QN2BA\/lflank_20170304.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D2QN2BA\/download\/lflank_20170304.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D2QN2BA\/lflank_20170304.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4D2QN2BA-274f10b808",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488663658.124745"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DMGGG03\/4up_images_20170304.zip|4UP IMages>",
+        "file": {
+            "id": "F4DMGGG03",
+            "created": 1488663776,
+            "timestamp": 1488663776,
+            "name": "4UP Images 20170304.zip",
+            "title": "4UP IMages",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 11012570,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DMGGG03\/4up_images_20170304.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DMGGG03\/download\/4up_images_20170304.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DMGGG03\/4up_images_20170304.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DMGGG03-f328568825",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488663777.126257"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DPH4RUJ\/4up_20170304.js|4UP Bodymovin>",
+        "file": {
+            "id": "F4DPH4RUJ",
+            "created": 1488663786,
+            "timestamp": 1488663786,
+            "name": "4UP_20170304.js",
+            "title": "4UP Bodymovin",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U0J6TE0CA",
+            "editable": true,
+            "size": 602782,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DPH4RUJ\/4up_20170304.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DPH4RUJ\/download\/4up_20170304.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DPH4RUJ\/4up_20170304.js",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DPH4RUJ-343c608393",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4DPH4RUJ\/4up_20170304.js\/edit",
+            "preview": "!function(t,e){\"function\"==typeof define&&define.amd?define(e):\"object\"==typeof module&&module.exports?module.exports=e():t.bodymovin=e()}(window,function(){function ProjectInterface(){return{}}function roundValues(t){bm_rnd=t?Math.round:function(t){return t}}function roundTo2Decimals(t){return Math.round(1e4*t)\/1e4}function roundTo3Decimals(t){return Math.round(100*t)\/100}function styleDiv(t){t.style.position=\"absolute\",t.style.top=0,t.style.left=0,t.style.display=\"block\",t.style.transformOrigin=t.style.webkitTransformOrigin=\"0 0\",t.style.backfaceVisibility=t.style.webkitBackfaceVisibility=\"visible\",t.style.transformStyle=t.style.webkitTransformStyle=t.style.mozTransformStyle=\"preserve-3d\"}function styleUnselectableDiv(t){t.style.userSelect=\"none\",t.style.MozUserSelect=\"none\",t.style.webkitUserSelect=\"none\",t.style.oUserSelect=\"none\"}function BMEnterFrameEvent(t,e,s,r){this.type=t,this.currentTime=e,this.totalTime=s,this.direction=0>r?-1:1}function BMCompleteEvent(t,e){this.type=t,this.direction=0>e?-1:1}fun...",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>!function(t,e){&quot;function&quot;==typeof define&amp;&amp;define.amd?define(e):&quot;object&quot;==typeof module&amp;&amp;module.exports?module.exports=e():t.bodymovin=e()}(window,function(){function ProjectInterface(){return{}}function roundValues(t){bm_rnd=t?Math.round:function(t){return t}}function roundTo2Decimals(t){return Math.round(1e4*t)\/1e4}function roundTo3Decimals(t){return Math.round(100*t)\/100}function styleDiv(t){t.style.position=&quot;absolute&quot;,t.style.top=0,t.style.left=0,t.style.display=&quot;block&quot;,t.style.transformOrigin=t.style.webkitTransformOrigin=&quot;0 0&quot;,t.style.backfaceVisibility=t.style.webkitBackfaceVisibility=&quot;visible&quot;,t.style.transformStyle=t.style.webkitTransformStyle=t.style.mozTransformStyle=&quot;preserve-3d&quot;}function styleUnselectableDiv(t){t.style.userSelect=&quot;none&quot;,t.style.MozUserSelect=&quot;none&quot;,t.style.webkitUserSelect=&quot;none&quot;,t.style.oUserSelect=&quot;none&quot;}function BMEnterFrameEvent(t,e,s,r){this.type=t,this.currentTime=e,this.totalTime=s,this.direction=0&gt;r?-1:1}function BMCompleteEvent(t,e){this.type=t,this.direction=0&gt;e?-1:1}fun...<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488663788.126424"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Videos look hot. ",
+        "ts": "1488663796.126500"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Did ya slow down the travel time for locations?",
+        "ts": "1488663806.126599"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U0ML49XU0> That + Animating the text Justin provided for the project are the two things that need adjustment, I can clean those up for tomorrow. For today, we have everything else ready for testing.",
+        "ts": "1488663865.127146"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D3KCWGH\/3up_bodymovin_20170304.json|3UP_Bodymovin>",
+        "file": {
+            "id": "F4D3KCWGH",
+            "created": 1488663923,
+            "timestamp": 1488663923,
+            "name": "3UP_Bodymovin_20170304.json",
+            "title": "3UP_Bodymovin",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U0J6TE0CA",
+            "editable": true,
+            "size": 328655,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3KCWGH\/3up_bodymovin_20170304.json?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3KCWGH\/download\/3up_bodymovin_20170304.json?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D3KCWGH\/3up_bodymovin_20170304.json",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4D3KCWGH-1dfc434aa0",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D3KCWGH\/3up_bodymovin_20170304.json\/edit",
+            "preview": "{\"assets\":[{\"id\":\"image_0\",\"w\":764,\"h\":1528,\"u\":\"images\/\",\"p\":\"img_0.png\"},{\"id\":\"image_1\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_1.png\"},{\"id\":\"image_2\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_2.png\"},{\"id\":\"image_3\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_3.png\"},{\"id\":\"image_4\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_4.png\"},{\"id\":\"image_5\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_5.png\"},{\"id\":\"image_6\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_6.png\"},{\"id\":\"image_7\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_7.png\"},{\"id\":\"image_8\",\"w\":1081,\"h\":1081,\"u\":\"images\/\",\"p\":\"img_8.png\"},{\"id\":\"image_9\",\"w\":239,\"h\":78,\"u\":\"images\/\",\"p\":\"img_9.png\"}],\"layers\":[{\"ddd\":0,\"ind\":0,\"ty\":4,\"nm\":\"Global Impact Outlines\",\"ks\":{\"o\":{\"k\":100},\"r\":{\"k\":0},\"p\":{\"k\":[1183.336,1371.547,0]},\"a\":{\"k\":[-154.664,9.547,0]},\"s\":{\"k\":[165.551,165.551,100]}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"ind\":0,\"ty\":\"sh\",\"ks\":{\"k\":{\"i\":[[0,0],[0,0],[0,0],[0,0],[0,0],[1.484,-0.704],[2.341,0],[1.912,2.234],[0,3.488],[0,0],[-1.836,2.173],[-2.999...",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>{&quot;assets&quot;:[{&quot;id&quot;:&quot;image_0&quot;,&quot;w&quot;:764,&quot;h&quot;:1528,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_0.png&quot;},{&quot;id&quot;:&quot;image_1&quot;,&quot;w&quot;:1081,&quot;h&quot;:1081,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_1.png&quot;},{&quot;id&quot;:&quot;image_2&quot;,&quot;w&quot;:1081,&quot;h&quot;:1081,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_2.png&quot;},{&quot;id&quot;:&quot;image_3&quot;,&quot;w&quot;:1081,&quot;h&quot;:1081,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_3.png&quot;},{&quot;id&quot;:&quot;image_4&quot;,&quot;w&quot;:1081,&quot;h&quot;:1081,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_4.png&quot;},{&quot;id&quot;:&quot;image_5&quot;,&quot;w&quot;:1081,&quot;h&quot;:1081,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_5.png&quot;},{&quot;id&quot;:&quot;image_6&quot;,&quot;w&quot;:1081,&quot;h&quot;:1081,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_6.png&quot;},{&quot;id&quot;:&quot;image_7&quot;,&quot;w&quot;:1081,&quot;h&quot;:1081,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_7.png&quot;},{&quot;id&quot;:&quot;image_8&quot;,&quot;w&quot;:1081,&quot;h&quot;:1081,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_8.png&quot;},{&quot;id&quot;:&quot;image_9&quot;,&quot;w&quot;:239,&quot;h&quot;:78,&quot;u&quot;:&quot;images\/&quot;,&quot;p&quot;:&quot;img_9.png&quot;}],&quot;layers&quot;:[{&quot;ddd&quot;:0,&quot;ind&quot;:0,&quot;ty&quot;:4,&quot;nm&quot;:&quot;Global Impact Outlines&quot;,&quot;ks&quot;:{&quot;o&quot;:{&quot;k&quot;:100},&quot;r&quot;:{&quot;k&quot;:0},&quot;p&quot;:{&quot;k&quot;:[1183.336,1371.547,0]},&quot;a&quot;:{&quot;k&quot;:[-154.664,9.547,0]},&quot;s&quot;:{&quot;k&quot;:[165.551,165.551,100]}},&quot;ao&quot;:0,&quot;shapes&quot;:[{&quot;ty&quot;:&quot;gr&quot;,&quot;it&quot;:[{&quot;ind&quot;:0,&quot;ty&quot;:&quot;sh&quot;,&quot;ks&quot;:{&quot;k&quot;:{&quot;i&quot;:[[0,0],[0,0],[0,0],[0,0],[0,0],[1.484,-0.704],[2.341,0],[1.912,2.234],[0,3.488],[0,0],[-1.836,2.173],[-2.999...<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488663924.127820"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Good. That means we should have complete asset needs for beta and only planned refinements for post-beta. assuming the files work for <@U0EL0GLEL> ",
+        "ts": "1488664013.128545",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U0J6TE0CA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: you planning to dive into this today? Or all tied up on comms issues?",
+        "ts": "1488664030.128675"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i can test this today",
+        "ts": "1488664046.128814"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "All assets uploaded here as well: <https:\/\/drive.google.com\/drive\/u\/0\/folders\/0B2saO1SetZcbaXhPQ0lSRk13bXM>",
+        "ts": "1488664079.129186"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Slack keeps not uploading files, it's taking awhile on the last one I am uploading.",
+        "ts": "1488664100.129430"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Gonna be offline for moment, be back around 3:30",
+        "ts": "1488664150.129979"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "I'll have my cell &amp; thus slack, need anything just @ me",
+        "ts": "1488664167.130125"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D2RQEGG\/3up_images_20170304.zip|3UP Images>",
+        "file": {
+            "id": "F4D2RQEGG",
+            "created": 1488664193,
+            "timestamp": 1488664193,
+            "name": "3UP Images 20170304.zip",
+            "title": "3UP Images",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 15280784,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D2RQEGG\/3up_images_20170304.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D2RQEGG\/download\/3up_images_20170304.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F4D2RQEGG\/3up_images_20170304.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4D2RQEGG-c0461c87b9",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1488664194.130404"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "great pulling them down, will run thru them",
+        "ts": "1488664319.131886"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Cool thanks <@U0J6TE0CA> and <@U0EL0GLEL> anything Peter finds in terms of errors or questions should be treated as priority over existing refinements planned for <@U0J6TE0CA> ",
+        "ts": "1488664327.132011"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "yep",
+        "ts": "1488664570.134856"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> can you send all latest .mov to a folder? Getting lost in slack.",
+        "ts": "1488665014.139708"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U02F9CXTL> after 4",
+        "ts": "1488665125.140926"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> just so im clear - i see an L Flank and 3 up. Need these in one central location - outside of slack.",
+        "edited": {
+            "user": "U02F9CXTL",
+            "ts": "1488665421.000000"
+        },
+        "ts": "1488665392.143592"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U02F9CXTL> 4Up &amp; R Flank were t uploading on Slack, I can send a link after 4. Just wanted to get you everything before I was offline",
+        "ts": "1488665816.150722"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<@U0J6TE0CA>: are we waiting for things to upload or for you to be back? Need these files ASAP ",
+        "ts": "1488666141.154704"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U0265G76F> <@U0EL0GLEL> has all the files to work from, there's one export that is giving us problems so we are troubleshooting. Not sure why but Bodymovin is not kicking out a usable file",
+        "ts": "1488666264.156762"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> 2 flank - 3 up - 4up? Creative needs to review as well.",
+        "ts": "1488666329.157394"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U02F9CXTL> needs to check out the R Flank .mov",
+        "ts": "1488666339.157488"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U02F9CXTL> all the rest of the files have been uploaded, be back in at my meeting at the moment",
+        "ts": "1488666389.157909"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> if you can put everything in one folder outside of slack as im not seeing those.",
+        "ts": "1488666423.158253",
+        "reactions": [
+            {
+                "name": "point_up_2",
+                "users": [
+                    "U0265G76F",
+                    "U02F9CXTL"
+                ],
+                "count": 2
+            },
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U0J6TE0CA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looking like the images matching up is fixed, the latest have the right images, i do need them to have BW filter applied. if someone could run thru those and apply that if that is the desired filter",
+        "ts": "1488668344.180141"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "<@U02F9CXTL> - can you hit this?",
+        "ts": "1488668537.183564"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "i can jam that out real quick if you’re busy jason",
+        "ts": "1488668764.186184"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "These? <https:\/\/drive.google.com\/open?id=0B2saO1SetZcbejJUT1lLSHRudDQ>",
+        "ts": "1488668767.186245"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U0EL0GLEL> :point_up:",
+        "ts": "1488668793.186919"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<https:\/\/drive.google.com\/drive\/u\/0\/folders\/0B2saO1SetZcbaXhPQ0lSRk13bXM>",
+        "ts": "1488668827.187315"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "these",
+        "ts": "1488668829.187422"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "each of the zips",
+        "ts": "1488668833.187472"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Thanks <@U026E0ZNR> !",
+        "ts": "1488668861.187922"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they have a pile of images in them, they are very specific to the animation they are for, so must be careful to grab them filter and zip back up just as they are now",
+        "ts": "1488668882.188401"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Thanks <@U026E0ZNR>! ",
+        "ts": "1488668945.189152"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I just say what <@U0260V4K1> says now",
+        "ts": "1488668957.189266"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": ":facepunch::skin-tone-3: <@U026E0ZNR> ",
+        "ts": "1488669207.192480"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U026E0ZNR> thanks man - talking fri - emily was going to export those from AE with an adjustment layer for black and white with bodymovin. Holla if you need and help.",
+        "ts": "1488669490.195794"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "all good. from looking at the body movin files last night, looks like it _can_ account for the values, tho not sure what error may have happened in most recent export… if it’s reading it correctly or not",
+        "ts": "1488670419.208513"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": " <@U026E0ZNR> just messaged <@U0EL0GLEL> about this you beat me ",
+        "ts": "1488670475.209024"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah probably a body moving thing, they are showing up in color",
+        "ts": "1488670480.209085"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "currently uploading new zips to the same folder, overwriting old ones (i’ve saved originals locally jic), please verify the “Modified Last” time stamp before you try pulling images again <@U0EL0GLEL>",
+        "ts": "1488670551.209877"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "… upload looks good on my end",
+        "ts": "1488670565.210023",
+        "reactions": [
+            {
+                "name": "metal-hair",
+                "users": [
+                    "U0ML49XU0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok sweet",
+        "ts": "1488670578.210139"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "made sure to keep the Google logo in color",
+        "ts": "1488670584.210221"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "all names should be the same",
+        "ts": "1488670599.210349"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Ok back online",
+        "ts": "1488671504.221415"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> please upload all screens in one folder for review.",
+        "ts": "1488671986.225633"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U02F9CXTL> Already ahead of ya",
+        "ts": "1488672020.226099"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Files syncing....",
+        "ts": "1488673166.238095"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U02F9CXTL> <https:\/\/drive.google.com\/drive\/u\/0\/folders\/0B2saO1SetZcbM0szcEhhM08xREk>",
+        "ts": "1488673971.245785"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "small thing: Santiago on AttractMode_4up… is missing its underscore",
+        "ts": "1488674516.250979"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> thanks",
+        "ts": "1488674524.251061"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> lets plan on coming in tomorrow at 9am to make design tweaks - in the meantime this should be enough for <@U0EL0GLEL>",
+        "ts": "1488674607.251811"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Jah?",
+        "ts": "1488674644.252155"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Can you give me feedback now <@U02F9CXTL> so I can work on them before?",
+        "ts": "1488674710.252754"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "More productive at night I'd rather put hours in tonight",
+        "ts": "1488674743.253016"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0J6TE0CA> too much to write down - if you want to meet for some coffee this evening - im down.",
+        "ts": "1488674829.253827",
+        "reactions": [
+            {
+                "name": "coffee",
+                "users": [
+                    "U0ML49XU0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Ok let's do that, 3hrs before doesn't sound like enough time",
+        "ts": "1488674863.254125"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Hey there <!channel>: I wanted to do a heat check. How's everybody feeling about both progress and path forward? \n\nAnyone blocked? ",
+        "ts": "1488686021.371767"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Doing good here.",
+        "ts": "1488686042.372006"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I closed most of my tickets today, looking great",
+        "ts": "1488686054.372093"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Feeling good here. I'm not blocked. I think we are in a good spot.",
+        "ts": "1488686158.372984"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": ":ok_hand:",
+        "ts": "1488686164.373079"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Awesome. ",
+        "ts": "1488686334.374560"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "In great shape to do a build and push to our rig first thing tomorrow morning. Looking forward to seeing all the progress.",
+        "ts": "1488686339.374634"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Thanks everybody. I know this is a push",
+        "ts": "1488686345.374707"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": ":+1::skin-tone-4:",
+        "ts": "1488686366.374845"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll run through everything and take good notes. ",
+        "ts": "1488686391.374983"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Love this. ",
+        "ts": "1488686580.377280"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Excited to see all this tomorrow ",
+        "ts": "1488686586.377336"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I've been seeing the flurry of tickets today. Please make sure you close yours out tonight since I'll be going through them tomorrow morning as we're testing.",
+        "ts": "1488687512.388666"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "+1 was going to say status report is probably best to come after we do testing tmrw @ 1230, but I've seen great progress in the channels and on Jira!",
+        "ts": "1488688249.394785",
+        "reactions": [
+            {
+                "name": "partyparrot",
+                "users": [
+                    "U0J6TE0CA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U0EL0GLEL> Just realized, if we were to put the text in Attract Mode in Bodymovin, it would be on a 1min rotation. This might not be the best approach.",
+        "ts": "1488694257.442733"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "How not <@U0J6TE0CA> maybe I'm lacking a little imagination but if it cycles we just have to end it where it started so it's circular, right?",
+        "ts": "1488696426.461479"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "You referring to the text? Like it unveils in 1 min then goes off then a min or so later again? Like the concept of timing isn't long enough? Would need much more animation filler to space it out?",
+        "ts": "1488697359.468741"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "They cycle of the animation overall for attract mode is 1min",
+        "ts": "1488698915.480608"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Yeah the text",
+        "ts": "1488698922.480646"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Reviewing the speed of the overall Attract mode. Do we recall the date the last one was sent to the client? I want to look at my movement vs the last one the client saw.",
+        "ts": "1488700362.492996"
+    }
+]

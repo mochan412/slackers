@@ -1,0 +1,621 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> 2 JIRA tickets assigned to you to tackle before we deliver a build for dogfood - can you give an ETA on these when you get a chance? ",
+        "ts": "1489164959.603093"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I'll create folders with version codes for the new builds + share shortly",
+        "ts": "1489164982.608306"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "are those just the two copy stories? I think for the MLC-141 it will be a minute. Is the second one the dialog? The dialog was done, should that be moved over to ready for google testing? Or have there been any other issues that have come up from their run through of it?",
+        "ts": "1489165403.710287"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "oh and 145, I can change that ordering pretty quickly, give me ~15-20min for both",
+        "ts": "1489165634.763513"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "copy + ordering 141 + 145",
+        "ts": "1489165650.767264"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "can someone add me to the livecase JIRA?",
+        "ts": "1489166235.892643"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "plz",
+        "ts": "1489166237.893130"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh shit sorry Melissa! I will shortly!",
+        "ts": "1489166328.913142"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4GQLRW2H\/places_update_forgoogle_3.apk|places_update_forGoogle_3.apk> and commented: for testing 145, it will need to be a clean install with a non-legacy case",
+        "file": {
+            "id": "F4GQLRW2H",
+            "created": 1489166962,
+            "timestamp": 1489166962,
+            "name": "places_update_forGoogle_3.apk",
+            "title": "places_update_forGoogle_3.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 34591906,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4GQLRW2H\/places_update_forgoogle_3.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4GQLRW2H\/download\/places_update_forgoogle_3.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4GQLRW2H\/places_update_forgoogle_3.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4GQLRW2H-826d2b7dd6",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4HCXTZM5",
+                "created": 1489166962,
+                "timestamp": 1489166962,
+                "user": "U3ZFEAPSP",
+                "is_intro": true,
+                "comment": "for testing 145, it will need to be a clean install with a non-legacy case"
+            }
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1489166964.049397"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":gif_thinking_face:",
+        "ts": "1489167009.059041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "why is that",
+        "ts": "1489167013.059847"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sorting. It works already for legacy cases",
+        "ts": "1489167030.063735"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "if it has a legacy case, it builds the list manually by ordering its construction as, {case} + {all new styles} + {legacySelection}",
+        "ts": "1489167082.074663"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is the talk back fix in here as well?",
+        "ts": "1489167083.075032"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yep ^@lynsey",
+        "ts": "1489167092.076994"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1:",
+        "ts": "1489167098.078180"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for 141, the grey ordering? right",
+        "ts": "1489167114.081621",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "and if it is a new style, then it just grabs the all new styles array and shifts the selected case to be at the front and leaves everything else as is",
+        "ts": "1489167154.090020"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I want to pull out all the sorting stuff, and just have a style view container that handles putting the case style in the correct spot and not just putting whatever the first index is",
+        "ts": "1489167245.109020"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "one sec on sending the build out",
+        "ts": "1489167348.129813"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I want to dig into what summer just found",
+        "ts": "1489167363.133008"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F4G2CEBS5\/versioning_for_places_update_builds.txt|Versioning for Places Update Builds> and commented: <@U3ZFEAPSP>",
+        "file": {
+            "id": "F4G2CEBS5",
+            "created": 1489167926,
+            "timestamp": 1489167926,
+            "name": "Versioning_for_Places_Update_Builds.txt",
+            "title": "Versioning for Places Update Builds",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U13GPDA1F",
+            "editable": true,
+            "size": 168,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4G2CEBS5\/versioning_for_places_update_builds.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4G2CEBS5\/download\/versioning_for_places_update_builds.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4G2CEBS5\/versioning_for_places_update_builds.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4G2CEBS5-b74bece4c8",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4G2CEBS5\/versioning_for_places_update_builds.txt\/edit",
+            "preview": "once resolved, ill need you to create unsigned + debug builds with specific version codes: \r\n69_3.1 (Beta) - debug + unsigned \r\n72_3.df.1 (Alpha) - debug + unsigned\r\n\r\n",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>once resolved, ill need you to create unsigned + debug builds with specific version codes: <\/pre><\/div>\n<div><pre>69_3.1 (Beta) - debug + unsigned <\/pre><\/div>\n<div><pre>72_3.df.1 (Alpha) - debug + unsigned<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4GPDFHFE",
+                "created": 1489167926,
+                "timestamp": 1489167926,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "<@U3ZFEAPSP>"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1489167927.252778"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "please test on your end before sharing build",
+        "ts": "1489167952.258649"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "^ if someone could just go through what that build process means, it would be appreciated",
+        "ts": "1489168212.314408",
+        "reactions": [
+            {
+                "name": "hand::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep. Update the version code to 69, versionName to 3.1",
+        "ts": "1489168502.377504"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "run gradle assemble",
+        "ts": "1489168505.378138"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "rename and upload the prod_debug and prod_unsigned builds (as well as the mapping.txt) to the folders on drive",
+        "ts": "1489168527.382852"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then do the same for the alpha build (vC: 72, vN: 3.df.1)",
+        "ts": "1489168559.389764"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "thanks",
+        "ts": "1489168578.393851"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "once they accept\/push the build, merge back to develop and cut a release-69 branch",
+        "ts": "1489168591.396660"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4HDQPS1M\/minime-debug-72-3.df.1-3-10-17-v1.apk|MiniMe-DEBUG-72-3.df.1-3-10-17-v1.apk> and commented: If someone could take a quick double check, I'd appreciate it :slightly_smiling_face:",
+        "file": {
+            "id": "F4HDQPS1M",
+            "created": 1489169623,
+            "timestamp": 1489169623,
+            "name": "MiniMe-DEBUG-72-3.df.1-3-10-17-v1.apk",
+            "title": "MiniMe-DEBUG-72-3.df.1-3-10-17-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 35050922,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4HDQPS1M\/minime-debug-72-3.df.1-3-10-17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4HDQPS1M\/download\/minime-debug-72-3.df.1-3-10-17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4HDQPS1M\/minime-debug-72-3.df.1-3-10-17-v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4HDQPS1M-3d8c02ba15",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4G2VJQ73",
+                "created": 1489169623,
+                "timestamp": 1489169623,
+                "user": "U3ZFEAPSP",
+                "is_intro": true,
+                "comment": "If someone could take a quick double check, I'd appreciate it :slightly_smiling_face:"
+            }
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1489169625.621159"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Just did a pass through it and everything looks good to me",
+        "ts": "1489169856.668499"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "summer - did you try to install this over the previous (store) debug as well?",
+        "ts": "1489169994.697055"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just to make sure there are no issue there? (i understand the ordering change needs to be tested as clean install but want to make sure nothing popped up) - or <@U3ZFEAPSP> if you tested this?",
+        "ts": "1489170047.708090"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "if not, can you? (i am testing as well)",
+        "ts": "1489170334.767122"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I was just checking that everything was working as expected from a clean install. I will install it over an older version and let you know if I find any issues.",
+        "ts": "1489170354.771180",
+        "reactions": [
+            {
+                "name": "tada",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I ran  through a couple of the update paths, still looking fine",
+        "ts": "1489170416.784122"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m noticing one issue actually. If I turn location services off in Settings, then back on,  return to the app and select ‘match my location’ again, the wallpaper shows that white progress spinner but never actually updates.",
+        "ts": "1489171115.931278"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Even toggling ‘match my location’ on and off a few times doesn’t seem to trigger an update",
+        "ts": "1489171154.938881"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U13GPDA1F> lets make monday’s mtg an hour if we can",
+        "ts": "1489171394.990605"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hard to do a brainstorm in 30min. and i’m happy to facilitate",
+        "ts": "1489171410.994454"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yep! ill update!",
+        "ts": "1489171434.999831"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thx",
+        "ts": "1489171659.050023"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> <@U3ZFEAPSP> any more info on the endless spinner issue?",
+        "ts": "1489173340.422284"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The issue was caused by a poor wifi connection. As soon as I switched to Uncorked Sansa I no longer had any issues when toggling location services on and off.",
+        "ts": "1489173386.432059"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ahhh okay so we still feel comfortable delivering these builds to the client?",
+        "ts": "1489173649.487891"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I think so. Although we might want to discuss at some point a more elegant way to handle bad connectivity throughout the app.",
+        "ts": "1489173850.531458"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "For example, if the user is not connected to a network and selects a different style tile, the wallpaper preview just turns gray and doesn’t give any indication to the user that it is unable to load the new style",
+        "ts": "1489173941.551642"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I think I'm going to be heading home a little after lunch, already past 40 for the week,\n I'll be watching slack and can jump on any issues that come up, just make sure to tag me so I get the push notification :slightly_smiling_face:",
+        "ts": "1489175291.844490"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did the builds go out?",
+        "ts": "1489175317.850272"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i might have missed it",
+        "ts": "1489175319.850776"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i just sent",
+        "ts": "1489175338.855093"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "JUST",
+        "ts": "1489175341.855603"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just saw",
+        "ts": "1489175341.855780"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":slightly_smiling_face:",
+        "ts": "1489175342.855951"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "FYI team - looks like photo recognition in onboarding is BACKKKKK",
+        "ts": "1489181623.057824"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> :point_up_2: getting more info but kari wants it",
+        "ts": "1489181809.089323",
+        "reactions": [
+            {
+                "name": "camera_with_flash",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hey <@U3ZFEAPSP> quick thing that might be coming ASAP",
+        "ts": "1489182515.215151"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "bonnie might need to have the dogfood build versionName changed",
+        "ts": "1489182523.216675"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can cut a build, is the code pushed?",
+        "ts": "1489182562.223434"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK>",
+        "ts": "1489182566.224118"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I don’t know",
+        "ts": "1489182656.239446"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Me neither",
+        "ts": "1489182661.240337"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "it doesn’t look like there’s a release-69 branch yet and develop isn’t yet merged on remote",
+        "ts": "1489182894.281440"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I can get it out, what does it need to update to?\nAs for the branch, it has still been in the places_tile_update which should be up to date",
+        "ts": "1489183036.306732"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok she’s pushing Alpha build to monday release",
+        "ts": "1489183089.316353"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we’ll need to regen that apk with 3.1.df as the VN",
+        "ts": "1489183108.319996"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(sorry! this is my bad!)",
+        "ts": "1489183138.325393"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "also for branching, do we branch at the point we send over to dogfood, for the relase-xy branches?",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1489183380.000000"
+        },
+        "ts": "1489183354.365144"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you could do the release-69 branch at this point",
+        "ts": "1489183641.412413"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "kk, I'll update the df build here in a sec then branch for release-69",
+        "ts": "1489183712.424361"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "dope. thanks",
+        "ts": "1489183757.431789"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "both up",
+        "ts": "1489184257.514131"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thankyou!!!",
+        "ts": "1489184358.531645"
+    }
+]

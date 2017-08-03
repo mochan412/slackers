@@ -1,0 +1,433 @@
+[
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "gotta rescue car troubled family, will try and be back for standup!",
+        "ts": "1452186244.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "compass devs: I have to have a meeting at 10, which means no go for standup for me at the prescribed time. Can we do earlier or later?",
+        "ts": "1452187358.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "either way works for me",
+        "ts": "1452187482.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "either is good for me too. sounds like later for joshua?",
+        "ts": "1452187631.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool, thanks",
+        "ts": "1452187829.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> FYI we’re having a creative workshop this morning, so dev team, please have standup at 10:15 without us!",
+        "ts": "1452189219.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Err, whenever you’re all available!",
+        "ts": "1452189239.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "dev standup?",
+        "ts": "1452192112.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "let’s dooooo it",
+        "ts": "1452192190.000010"
+    },
+    {
+        "user": "U0HUKRME0",
+        "inviter": "U026103R3",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0HUKRME0|adrian> has joined the channel",
+        "ts": "1452193566.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm getting a 400 error for this request: `{\"requests\":[{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timeStamp\":1452213212905},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timeStamp\":1452213213811},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timeStamp\":1452213214835},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timeStamp\":1452213215922},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timeStamp\":1452213217057},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timeStamp\":1452213217809},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timeStamp\":1452213220099},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timeStamp\":1452213221206},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timeStamp\":1452213222096},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}}]}`",
+        "ts": "1452213332.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "trying to post that to \/v1\/batch",
+        "ts": "1452213357.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i’ll take a look",
+        "ts": "1452213387.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "`{\"statusCode\":400,\"error\":\"Bad Request\",\"message\":\"child \\\"requests\\\" fails because [\\\"requests\\\" at position 0 does not match any of the allowed types]\",\"validation\":{\"source\":\"payload\",\"keys\":[\"requests.0\"]}}`",
+        "ts": "1452213390.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I am posting the timestamp as a long instead of a string, not sure if that causes a parsing error? should the timestamp be a string?",
+        "ts": "1452213431.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "It should work as a number or a string",
+        "ts": "1452213460.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "so you’re good there",
+        "ts": "1452213466.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02F8TTPU> what’s your user’s access token?",
+        "ts": "1452213866.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "f2914e1ff9e110ad3ee03b9a0e025d59a915ba8e95820ba7fd841edc2e4b2b96b2a758ed5f01abffe5e4db804d0e16d73822c369cd15d05e4180f342af9932c5",
+        "ts": "1452213983.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "<@U02613K0X> that error could be from the xsrf validation.",
+        "ts": "1452214037.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "want me to take it out and see if that helps?",
+        "ts": "1452214074.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hmm.. I’m testing it out in postman and getting a valid response",
+        "ts": "1452214078.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "cool",
+        "ts": "1452214086.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02F8TTPU> is that token expired?",
+        "ts": "1452214237.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I saw a log message that it expired 5 minutes ago at 16:46",
+        "ts": "1452214277.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "starting afresh",
+        "ts": "1452214306.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ahh I see, there's a 401 unauthorized on other (atomic) requests",
+        "ts": "1452214365.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "did you get a new access token I could try?",
+        "ts": "1452214398.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "e800d64e9cc7ecfd12c308b3b7a0eae31acfb8a809894714fae8a814a993e7fc7cfc52ebc17e428eab084e966936d33e9ad917c1a1b5943516b2c9f7518aa91f",
+        "ts": "1452214458.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I can post to all the other endpoints successfully using that token",
+        "ts": "1452214500.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "weird I’m still not seeing the same error, do you mind sharing the email\/pass for that user?",
+        "ts": "1452214528.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "err I could also just look it up myself",
+        "ts": "1452214542.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "well not the password I guess",
+        "ts": "1452214559.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "user: <mailto:test@test.com|test@test.com>, pass: password",
+        "ts": "1452214595.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "it's the autofilled credentials that were already in the app",
+        "ts": "1452214625.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I never made a new user...",
+        "ts": "1452214643.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that’s fine..",
+        "ts": "1452214666.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02F8TTPU> when you log in with those credentials, is the userId returned the same one you’re using in the batch request?",
+        "ts": "1452214925.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "also, I believe the timestamp parameter is case sensitive and should be all lowercase",
+        "ts": "1452214957.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "the userId is 0361898e-39e3-4069-a093-4fdbaa7252dc and that works for the other endpoints",
+        "ts": "1452215112.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I changed timestamp to lowercase but same error",
+        "ts": "1452215144.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "`{\"requests\":[{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215079581},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215080353},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215081462},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215082351},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215083449},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215084798},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215085617},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215086613},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215087786},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}},{\"method\":\"POST\",\"path\":\"\/v1\/heart_rates\",\"payload\":{\"heartRate\":{\"bpm\":70,\"timestamp\":1452215088624},\"userId\":\"0361898e-39e3-4069-a093-4fdbaa7252dc\"}}]}`",
+        "ts": "1452215151.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "weeird I’m getting a response from \/v1\/batch that says the token is not found or expired",
+        "ts": "1452215204.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh",
+        "ts": "1452215228.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "is the root url set to  <http:\/\/compass-d-compassl-17h0sxqa9891o-2050412355.us-west-2.elb.amazonaws.com\/> ?",
+        "ts": "1452215243.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "or the old azure one?",
+        "ts": "1452215251.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "the base URL is <http:\/\/api.dev.ctn42.com\/v1\/>",
+        "ts": "1452215275.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "aw",
+        "ts": "1452215278.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "damn, I should have made all that more clear. I’m sorry",
+        "ts": "1452215294.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "we switched to a new AWS VPC",
+        "ts": "1452215307.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "so base URL should be <http:\/\/compass-d-compassl-17h0sxqa9891o-2050412355.us-west-2.elb.amazonaws.com\/v1\/>",
+        "ts": "1452215327.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "my bad!",
+        "ts": "1452215346.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "(you’ll have to log in again and get another access token and user ID)",
+        "ts": "1452215388.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ahh cool... so what should be the test user credentials for the new URL? I set it to the new one but I can't login",
+        "ts": "1452215392.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "oh I see, the login endpoint has a 500 error",
+        "ts": "1452215422.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "{\"statusCode\":500,\"error\":\"Internal Server Error\",\"message\":\"Failed to call client::fetchById method\"}",
+        "ts": "1452215441.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "aw right, you’ll need to update your auth header too",
+        "ts": "1452215456.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "the Basic one. Are you taking a client ID and secret and encoding them?",
+        "ts": "1452215523.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I can get you a new client ID",
+        "ts": "1452215527.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Yep, it's using Basic auth right now",
+        "ts": "1452215542.000061"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "current client id is 8c7b18d8-5dd4-4cd4-8b9b-7a320f46c18e, secret is appSecret",
+        "ts": "1452215568.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "cool one sec..",
+        "ts": "1452215582.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "412b03c8-905b-41da-adb9-f261cbd37f3f",
+        "ts": "1452215629.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "^ new client ID",
+        "ts": "1452215633.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Secret is the same",
+        "ts": "1452215635.000066"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Yay, it works! Batch heart rates are happily posting and getting responses :tada: Thanks Jenny!",
+        "ts": "1452215732.000067",
+        "reactions": [
+            {
+                "name": "tada",
+                "users": [
+                    "U0261PCRQ",
+                    "U026PHQ3J"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "woohoo!",
+        "ts": "1452215770.000068"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg>",
+        "attachments": [
+            {
+                "fallback": "788x500px image",
+                "image_url": "http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg",
+                "image_width": 788,
+                "image_height": 500,
+                "image_bytes": 108184,
+                "from_url": "http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1452215770.000069"
+    }
+]

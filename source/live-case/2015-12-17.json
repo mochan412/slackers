@@ -1,0 +1,144 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so with respect to the change in blur functionality. where did that requirement end up?",
+        "ts": "1450372263.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I know the switch is now \"enable\/disable\"",
+        "ts": "1450372271.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but are we doing the timed \"stay blurred then unblur\" thing",
+        "ts": "1450372286.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "i don’t think so, I think it’s still double tap to blur, double tap to turn off",
+        "ts": "1450372307.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but I could be wrong",
+        "ts": "1450372310.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1450372314.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i need to adjust the blur execution",
+        "ts": "1450372323.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to track blur state on transition",
+        "ts": "1450372328.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause i had been relying on the instantaneous value of the preference",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1450372352.000000"
+        },
+        "ts": "1450372337.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Let me check with Adam- last was re the UX team and he was going to talk to zoltan but I believe it will end up enable blur and doubletap will unblur temporarily ",
+        "ts": "1450372491.000012"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'll follow up this morning ",
+        "ts": "1450372523.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1450372596.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the temp blur\/unblur (timed) is going to take a few days",
+        "ts": "1450372617.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if thats what it is",
+        "ts": "1450372625.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "So does this make sense with blur and animation:",
+        "ts": "1450376612.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```Home page item:\n- Enable blur (on \/ off)\n\nFunctionality:\nBLUR ON: Wallpaper is blurred - double tap to unblur temporarily, and after a few seconds, reblur\nIF ANIMATED: do nothing on visibility, on doubletap, play back after unblur, revert to first frame and reblur\n\nBLUR OFF: Wallpaper is unblurred - double tap has no effect on blur\nIF ANIMATED: play back on visibility, remain on last frame. replay on doubletap\n```",
+        "ts": "1450376614.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "^^^ that goes against Adam's previous preference to play back animated while blurred, but that seems...goofy?",
+        "ts": "1450377329.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah it does",
+        "ts": "1450377343.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "seem goofy",
+        "ts": "1450377349.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Regardless of technical complexity, it just seems like it will look stupid",
+        "ts": "1450377533.000022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "So given that, above looks good? <@U026PHQ3J>?",
+        "ts": "1450377828.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep",
+        "ts": "1450377874.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "in using the colorway\/style selection screen, I think there’s some bugs in choosing the preview. Probably not going to get to it today, but it’s a thing.",
+        "ts": "1450379778.000025"
+    }
+]

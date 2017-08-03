@@ -1,0 +1,227 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey gang, going to be in around 930 - gotta​ run a quick errand before work. slack if you need anything!",
+        "ts": "1494949384.241854"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Hey team, I’m taking a sick day today to get my legs back under me and to hopefully get rid of this non-stop headache. I was able to get the Nfc legacy build far enough along to start testing it. I made it so that Pixel devices get the new flow, and 5x, 6p &amp; pixel xl are legacy. \nEarth and Trends will work like before for legacy (but has all the new stuff as of Friday from the vz_sellin branch). \nThe branch I’m working off for it is origin\/legacy_fork\nI could fine tune and probably have summer and midori help me on some tasks Wed. when I could be around to explain how it’s built",
+        "ts": "1494950968.755915"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5E7NF212\/legacy_nfc_fork-5-16.apk|legacy_nfc_fork-5-16.apk>",
+        "file": {
+            "id": "F5E7NF212",
+            "created": 1494951045,
+            "timestamp": 1494951045,
+            "name": "legacy_nfc_fork-5-16.apk",
+            "title": "legacy_nfc_fork-5-16.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 54112541,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5E7NF212\/legacy_nfc_fork-5-16.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5E7NF212\/download\/legacy_nfc_fork-5-16.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5E7NF212\/legacy_nfc_fork-5-16.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5E7NF212-f61f473ffe",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1494951054.782375"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you Oliver! hope you feel better!!!",
+        "ts": "1494951087.792473"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thank you Oliver...ugh headaches are the worst-feel better soon",
+        "ts": "1494951921.040259"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> any chance you have one of the older devices?",
+        "ts": "1494952535.222919"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "6p is on my desk",
+        "ts": "1494952557.229275",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> and <@U2H61EJSG> would one of you mind testing this build as well?",
+        "ts": "1494958412.944643",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Of course, anything special that we should be looking out for?",
+        "ts": "1494958452.956197"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "for legacy cases, should the ability to set the shortcut button action still be available for all generators?",
+        "ts": "1494960324.507649"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Yes, I'm sure that's on <@U3ZFEAPSP> 's list, but if you could make a ticket for it that'd be great",
+        "ts": "1494961041.721288"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Actually I thought the shortcuts should be limited to just that list? As in the NFC button would only do one thing, no user option to change it.  I think I needed to clear out that view from being inflated as a setting, is that right?",
+        "ts": "1494962578.154589"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "My understanding was that NFC doesn't change for legacy, works as it does now",
+        "ts": "1494963747.473849"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "should be able to confirm in the deck kat provided - pretty sure she mapped this out",
+        "ts": "1494965062.845898"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i'll go back through the deck and confirm. ",
+        "ts": "1494966305.184622",
+        "reactions": [
+            {
+                "name": "thanks",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> We're not stripping out anything for Legacy users, if you're able to check page 7 in the Deck (<https:\/\/docs.google.com\/presentation\/d\/1ZM4wx9w4sqSai-13QOgrro2Cl602oMeSGfooHy5ISkk\/edit#slide=id.g21a01c8585_0_11>) it should help clarify. Let us know if you have questions.",
+        "ts": "1494971413.435353"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> shared a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5DS1GWNN\/live_case_app_legacy_vs_2017_overview|Live Case App Legacy vs 2017 Overview>",
+        "file": {
+            "id": "F5DS1GWNN",
+            "created": 1494885129,
+            "timestamp": 1494885129,
+            "name": "Live Case App Legacy vs 2017 Overview",
+            "title": "Live Case App Legacy vs 2017 Overview",
+            "mimetype": "application\/vnd.google-apps.presentation",
+            "filetype": "gpres",
+            "pretty_type": "GDocs Presentation",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 5174,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/presentation\/d\/1ZM4wx9w4sqSai-13QOgrro2Cl602oMeSGfooHy5ISkk\/edit#slide=id.g21a01c8585_0_203",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5DS1GWNN-67ac19b912\/live_case_app_legacy_vs_2017_overview_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5DS1GWNN-67ac19b912\/live_case_app_legacy_vs_2017_overview_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5DS1GWNN-67ac19b912\/live_case_app_legacy_vs_2017_overview_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5DS1GWNN-67ac19b912\/live_case_app_legacy_vs_2017_overview_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5DS1GWNN-67ac19b912\/live_case_app_legacy_vs_2017_overview_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5DS1GWNN-67ac19b912\/live_case_app_legacy_vs_2017_overview_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5DS1GWNN-67ac19b912\/live_case_app_legacy_vs_2017_overview_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 450,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5DS1GWNN\/live_case_app_legacy_vs_2017_overview",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "D54DKEPMG"
+            ],
+            "has_rich_preview": true
+        },
+        "user": "U0U9WJB7F",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1494971414.435476"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Alright, can get that back in there. Thanks!!",
+        "ts": "1494975838.185342"
+    }
+]

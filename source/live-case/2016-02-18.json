@@ -1,0 +1,14 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Changing MainActivity to SingleTask that we did last week to fix the weird two-homescreen bug that Adam saw, is causing us to not close the home screen when the nfc action is used :disappointed:",
+        "ts": "1455823328.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m going to remove singleTask on the HomeActivity for the build today, because I think that the nfc button working correctly is more important. It occurs a lot more frequently. At this point, I’m not sure how to fix the original bug, but I’m going to reintroduce it for this build, most people won’t see it anyway",
+        "ts": "1455832376.000003"
+    }
+]

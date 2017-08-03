@@ -1,0 +1,144 @@
+[
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U0289USNA> <@U026PHQ3J> <@U026AP8CM> what's the next step for Trello #58 (<https:\/\/trello.com\/c\/o6E9HbBT\/158-consider-how-to-remote-update-the-app>): Consider How to Remote Update The App? I've halfway-implemented Sparkle, but we need another bit of infrastructure before it'll work. Namely, a server where we can host archived builds, and serve the RSS \"appcast\" from.",
+        "edited": {
+            "user": "U026PT0D7",
+            "ts": "1423077870.000000"
+        },
+        "ts": "1423077855.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the server exists...   you can use galapagos3 and server it from <http:\/\/cs.uncorkedstudios.com|cs.uncorkedstudios.com>",
+        "ts": "1423078162.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "I personally don't know. It sounds like a sticky one. <@U0289USNA> <@U026PHQ3J> any additional ideas to try?",
+        "ts": "1423078167.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Nevermind thought this was about another trello card.",
+        "ts": "1423078183.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Cool let's use galapagos3.",
+        "ts": "1423078201.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Is that a long-term solution, can we keep it on that server without it impacting whatever else we have on there? Or, eventually will the server conversation need to come up with OMSI and Arizona?",
+        "ts": "1423078231.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026PT0D7>: that domain is running a node.js express app that runs all the landing pages for the readinglist emails",
+        "ts": "1423078253.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "you should be able to just put what you need in the public folder of the express app",
+        "ts": "1423078329.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "cool",
+        "ts": "1423078390.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U0289USNA> how do I connect to galapagos3?",
+        "ts": "1423078556.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "ssh galapagos3 !  (assuming you have it in your ssh config and have the rsa key and, yeah, you probably need stuff from me)",
+        "ts": "1423078697.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "hah",
+        "ts": "1423078709.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "^ <@U0289USNA> <@U026PHQ3J>",
+        "ts": "1423082006.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I think this is Bad, because Sparkle requires each version to be signed by the same author",
+        "ts": "1423084495.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "also: <http:\/\/www.oregonlive.com\/silicon-forest\/index.ssf\/2015\/02\/planar_shares_plunge_on_slower.html>",
+        "attachments": [
+            {
+                "service_name": "OregonLive.com",
+                "title": "Planar shares plunge on slower growth forecast",
+                "title_link": "http:\/\/www.oregonlive.com\/silicon-forest\/index.ssf\/2015\/02\/planar_shares_plunge_on_slower.html",
+                "text": "Planar forecast considerably slower annual growth in the current quarter, just 23 percent.",
+                "fallback": "OregonLive.com: Planar shares plunge on slower growth forecast",
+                "thumb_url": "http:\/\/media.oregonlive.com\/design\/alpha\/img\/logo_olive.gif",
+                "from_url": "http:\/\/www.oregonlive.com\/silicon-forest\/index.ssf\/2015\/02\/planar_shares_plunge_on_slower.html",
+                "thumb_width": 226,
+                "thumb_height": 79,
+                "id": 1
+            }
+        ],
+        "ts": "1423091083.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "woo",
+        "ts": "1423091174.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I wish now I hadn't invested my entire 401k in Planar",
+        "edited": {
+            "user": "U0260V4K1",
+            "ts": "1423091203.000000"
+        },
+        "ts": "1423091196.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ha",
+        "ts": "1423091213.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "This is not, and should not be regarded as investment advice or as a recommendation regarding any particular security or course of action. Opinions expressed herein are current opinions as of the date appearing in this material only and are subject to change without notice. Reasonable people may disagree about the opinions expressed herein.",
+        "ts": "1423091231.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "cc <@U02918BKW>",
+        "ts": "1423091242.000025"
+    }
+]

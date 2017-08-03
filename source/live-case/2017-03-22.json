@@ -1,0 +1,931 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> what's the status of those preview images from yesterday (that Adam sent again this am)? have those been updated? ",
+        "ts": "1490198186.566621"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "whoops, that fell off my radar with the other issues yesterday. \nThe styles are all the same, the ones from dan are zoomed in a little more than what we have\nI just have to convert those to webp format and upload them, should be ~15min but I don’t have a good feel for how long it takes to propagate from the server, last time it took a little bit longer before it was consistently the updated image",
+        "ts": "1490198546.690916",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool thanks - when it's updated this am will you respond to the thread and let Adam\/ everyone know?",
+        "ts": "1490198653.726424"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Also, I’ll be WFH today. I have a few updates on things I was trying on the bugs from yesterday but will knock this photo thing out first",
+        "ts": "1490198981.832729"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "previews are working now with the new images from dan.",
+        "ts": "1490199704.062608"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just saw your email - perfect! thanks!",
+        "ts": "1490199912.128408"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "So from yesterday’s exploration, no real resolution on the bitmap loading crashes yet (not reproducible), although <@U2H61EJSG> was getting the crash if a gif was marked as static (I don’t remember if that was fixed or not, that was like my second day here and was a bit of a blur :stuck_out_tongue: )\nThere was inconsistent weirdness if an image was marked as inactive, if it was just in the Collections’ set, then it would be properly removed\/restored when isActive was toggled. If the image was the person’s case image and the user had paired the case while the image was active, then later the image was marked as inactive, it would hang around as the first image in the collection (which I believe we expect). But, if the image was marked inactive before the user pairs, sometimes it had worked for Summer (I think, correct me if I am wrong), but then a lot of the time we get stuck on the final pairing screen with the loading dialog. Killing the app and resuming it takes us into the Artworks Manager, but with 0 images.\nSo definitely a bad state ^, although not what those crashers were.\nWriting it out, I wonder if the inactive flag was the same thing Reviewer 1 from Adam’s earlier email was getting? Do the Earth images from the platform side follow the same ‘mark as inactive’,‘upload new images’,‘delete old’ flow? Maybe they had bad timing and were hitting the platform when it was inactive?? I still can’t repro that issue on Earth, even with blowing up the api\/token auth endpoint",
+        "ts": "1490200611.351805"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "On separate test, I was trying to see if maybe it was the automatic wallpaper updates with big files that was causing the bitmap crash, thinking that it could be trying to update the wallpaper at some bad timing with other processes. I made a build with uncorked dogs with all the huge gifs and had the slideshow update every minute\n\nI did get one crash, phone had stalled and then got an ANR from the background with, \nReason: Broadcast of Intent { act=UpdateSlideshowImage flg=0x14 (has extras) }\n E\/ActivityManager: Found activity ActivityRecord{e4e0d9f u0 com.google.android.apps.workshop\/.activity.HomeActivity t3274 f} in proc activity list using null instead of expected ProcessRecord{5408e87 29303:com.google.android.apps.workshop\/u0a274}\nAnd I’m trying to see if I can get it consistently (right now slideshow has been stuck on one image, ??)",
+        "ts": "1490200944.454970"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> - question in there for you - Do the Earth images from the platform side follow the same ‘mark as inactive’,‘upload new images’,‘delete old’ flow?",
+        "ts": "1490201053.488749"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont remember",
+        "ts": "1490201107.505885"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0260V1BX> fyi natalie sent an invite to evans + i to hangout at 10:30 re: GA (just added you)",
+        "ts": "1490201109.506653"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks",
+        "ts": "1490201126.512200"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> appreciate all this info- sounds like it might be premature to update the client? not sure what next steps are on this, so please let me know what you’re thinking and we’ll go from there",
+        "ts": "1490201275.559425"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Yea, not sure what we would send back to them yet. I think Evans was saying that we were told mark inactive wouldn’t happen like it did on the Craig &amp;Karl one. So the one thing I think we have enough certainty on, is that for people that have that image as their case image can have some bad user experiences, namely not being able to pair and potentially other issues.",
+        "ts": "1490201624.670048"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "The others, I’m going to keep trying to narrow down where those issues could be coming from today",
+        "ts": "1490201823.735484"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "which image is it? asset id?",
+        "ts": "1490201858.746733"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(i can check if not easily accessible)",
+        "ts": "1490201878.753180"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "ck1",
+        "ts": "1490201888.756247"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "If we need to change server and client code to fix that, we should ",
+        "ts": "1490201913.764173"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "ok, I’ll focus on seeing about what the fix would be before sending anything over their way then?",
+        "ts": "1490202006.794966"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> do you have any sense of timing on the pairing flow APK?",
+        "ts": "1490204364.534862"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(natalie is asking - just looking for a ballpark)",
+        "ts": "1490204376.538590"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "they want to do a user study",
+        "ts": "1490204396.544983"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I can probably finish the views within the next day or two, but I have no idea how long it will take to actually hook it up so that we can fetch the cases associated with a user’s account or pair a case using photo recognition, etc.",
+        "ts": "1490204545.590703"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "For now I am just setting flags in the code manually so that I can interact with the app as though case data was retrieved",
+        "ts": "1490204592.604663"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh yeah, we can fake that - similar to how we did in olivers previous flow apk",
+        "ts": "1490204605.609119"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ll poke through there and see how he did that then",
+        "ts": "1490204626.615660"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome - yeah hopefully you can steal that :slightly_smiling_face:",
+        "ts": "1490204660.625856"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you! im going to set up some time for us to review internally later this week, prior to sharing with client <@U2H61EJSG>",
+        "ts": "1490204739.650407"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sounds good!",
+        "ts": "1490204782.663332"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U2H61EJSG>, for the photo pair, I just had it advance to the next screen automatically after the photo was taken.",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1490205255.000000"
+        },
+        "ts": "1490205156.779255"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "We could make that navigation (for user either having a case tied to their acct vs no cases) just randomly select a path when we get to it for now?",
+        "ts": "1490205233.802928"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I can always create multiple buttons on each of the necessary screens to launch the various pairing flows",
+        "ts": "1490205325.831693"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Otherwise randomising it sounds good too. Does the UI need to look neat and tidy?",
+        "ts": "1490205356.841377"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah i think multiple flows would be awesome (vs random) but not surehow heavy of a lift that is",
+        "ts": "1490205388.851425"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It shouldn’t be too bad. There will just be more buttons on the UI which will look a little messy.",
+        "ts": "1490205428.863642"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, imight not be understanding what i just asked of you then",
+        "ts": "1490205450.870461"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill swing by after we’re out of client meeting to talk through",
+        "ts": "1490205466.875577"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hahaha ok let’s do that so I am clear on what you’re asking",
+        "ts": "1490205487.881929",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "in the meantime <@U2H61EJSG> <@U3ZFEAPSP> - theres still some blanks in systems health we need to take care of :grimacing: basically explanation is needed for increases for each use case",
+        "ts": "1490205624.926426"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "this is needed today so we can submit (its holding up places release to dogfood)",
+        "ts": "1490205648.934409"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "ok, will jump to that. I’m guessing anything in red then?",
+        "ts": "1490205705.952542",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yellow",
+        "ts": "1490205715.955700"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ive added comments for you",
+        "ts": "1490205724.958553"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "to indicate but you’ll find them mostly in column I",
+        "ts": "1490205756.967013"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "please ping me when done so i can give bonnie the okay to submit <@U3ZFEAPSP>",
+        "ts": "1490205788.977234"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> test cases 5&amp;6 are within the std dev for any changes, some went up some went down. Should I turn those back to blue?",
+        "ts": "1490206271.122049"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "each line item needs a rationale associated with it if increase (if decrease i think it would be marked “n\/a”)- im not sure what you mean by blue to black tho - so let me know if im not understanding your question",
+        "ts": "1490206467.179456"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I mean the cell color. Some of them were set to yellow. \nI’m a little confused because there are ones that were marked as yellow for review but our memory usage fell drastically on some of those. Some of them, the avg value went higher but the increase is within the std dev’s of the measurement, so it is not a significant result. Do you want me to comment on each of those?",
+        "ts": "1490206791.274210"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I think some of them are yellow because those were the rows that Bonnie had highlighted in red before I re ran the use cases",
+        "ts": "1490207198.396293"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> ^",
+        "ts": "1490207205.398238"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "You can probably just remove the highlight unless there are big differences in the RAM usage for the given field",
+        "ts": "1490207237.408016"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "ok cool, I was confused, I’ll just find the diffs. Just to sanity check, \nI see Use case 5 as biggest, and Summer wrote up that response)\nUse case 1 has a smaller increase, I’ll do some thinking and explaining there\nand use case 3 has then a smaller increase, and I’ll fill that in. \nFor the description, is it fine to write it up for the full test case and not line-by-line.",
+        "ts": "1490207499.486659"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I think it’s fine to write a description for the entire use case and not line by line",
+        "ts": "1490207547.500680"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "It looks like the rest of the test cases either had no change outside of std. dev or saw a significant decrease. \nDoes that assessment check out?",
+        "ts": "1490207549.501351"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sorry for the confusion!",
+        "ts": "1490207553.502492"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "That sounds about right. Unless Bonnie highlighted something new in red everything should be fine.",
+        "ts": "1490207623.523000"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "no worries, I was thinking I had to explain some of the incremental diffs",
+        "ts": "1490207626.524041"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "coolio, thanks!",
+        "ts": "1490207638.527330"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> im going through and cleaning up some of these to make more concise - but wanted to as about cell I-40 9 (use case one) - are preview images really 1MB+? even when optimized as webp?",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1490210045.000000"
+        },
+        "ts": "1490210036.209579"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh oh - i was thinking 1MB each but now realizing this means total - disregard if thats the case!",
+        "ts": "1490210100.226545"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I got through all but Test case 3 for why the system jumped up so much, as a whole, the memory usage fell considerably, but I am still thinking what could be the cause for that. Everything else is done, I apologize for the super long response on 6, it sort of dawned on me what was likely the case as I was writing it",
+        "ts": "1490210235.262010"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "going through now -just a reminder its a client-facing doc so we should communicate in that way (but im on it now - so you can just reference what  we end up with)",
+        "ts": "1490210334.288952"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "let me know on use case 3 and ill take a look at that before letting her know!",
+        "ts": "1490210352.293584"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I mean, it is the system… so there could be other processes messing that up. \nFor what we changed, I would only really be expecting to see differences on the heap.",
+        "ts": "1490210502.333795"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hm so what do we do with that?",
+        "ts": "1490210544.345183"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wait, batterystats is siloed by package",
+        "ts": "1490210561.349681"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "meminfo too",
+        "ts": "1490210564.350667"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "so then what is the System score in meminfo? I was assuming it was the total usage by the phone in that time",
+        "ts": "1490210605.361587"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is the image size that comes from the endpoint materially larger data-wise than the old endpoint",
+        "ts": "1490210607.362117"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "no, they both kick back 1024x1024 images",
+        "ts": "1490210635.369840"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "the test case is where match my location is flipped on",
+        "ts": "1490210673.380224"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no the filesize",
+        "ts": "1490210682.382714"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "1024x1024 doesnt’ mean much when decompressing the bitmap into memory",
+        "ts": "1490210712.390630"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the content of the actual compressed png is really what effects that",
+        "ts": "1490210725.394240"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but that said, what value actually spiked?",
+        "ts": "1490210736.397417"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Both heaps went down by 16000 KiB and 4600KiB, graphics went down 3200, but Ssystem went up 4400",
+        "ts": "1490210837.423439"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do you have the meminfo output?",
+        "ts": "1490210853.428178"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for that run?",
+        "ts": "1490210861.430351"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you send it to me?",
+        "ts": "1490210870.432632"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "that would be <@U2H61EJSG> ^",
+        "ts": "1490210875.434097"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I don’t have the output anymore, but I could rerun the use case",
+        "ts": "1490210896.439105"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m looking at the spreadsheet",
+        "ts": "1490211092.491194"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what are we all freaking out about right now?",
+        "ts": "1490211096.492369"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":slightly_smiling_face:",
+        "ts": "1490211100.493339"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "that is just the last one. Bonnie had tagged it as well,",
+        "ts": "1490211111.496203"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "cell, I-101",
+        "ts": "1490211118.498125"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "and that’s an i capitolized :slightly_smiling_face:",
+        "ts": "1490211134.502163"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "thanks for taking a look <@U026PHQ3J> \nI’m not sure what would be responsible for that given the code changes",
+        "ts": "1490211253.533793"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh i see",
+        "ts": "1490211354.560565"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so System is shared system memory. we don’t explicitly create or destroy that, its usually from things like play services and whatever",
+        "ts": "1490211381.567423"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Directly from the “Decoding Memory Usage” doc (which is google internal)",
+        "ts": "1490211415.576438"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`The System field lists the memory your application uses that is shared with the system. For the most part this is shared memory that you are not responsible for.`",
+        "ts": "1490211417.576928"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so someone should point that out to Bonnie and ask her if she can get clarity on whether or not there’s some document for us to pull out what it means, or if its not relevant given the above",
+        "ts": "1490211457.587340"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> i spoke too soon - can you take a stab at re-writing\/simplifying cell  I-181 for Use Case 6? im having trouble determining what most relevant here, but happy to finesse after you take another pass",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1490212268.000000"
+        },
+        "ts": "1490212114.762450"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sure",
+        "ts": "1490212452.856653"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "simplified, let me know if there is something specifically that could use better explaining.",
+        "ts": "1490213074.030361"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I think then that everything is covered now on that doc? Shouldn’t be blocking release to dogfood?",
+        "ts": "1490213104.038473"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just the open item in use case 3 we called out - but hopefully bonnie can get us around that",
+        "ts": "1490213128.045296"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(looking now)",
+        "ts": "1490213133.046551"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> does this cover it? ) _Increase assumed to be related to Google Maps fetching\/rendering map to generate static image for app view_",
+        "ts": "1490213366.109184"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not sure we need the rest but let me know if you think anything key is missing here",
+        "ts": "1490213403.119030"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "mainly calling out that the memory increase has an equal decrease",
+        "ts": "1490213672.191158"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "where is the corresponding decrease?",
+        "ts": "1490213715.202773"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "also, for test case 6 in general, (as Bonnie just put another two comments on it), we didn’t touch anything in that section of Places, so changes here seem more like noise than anything else…",
+        "ts": "1490213725.205509"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> im not sure i understand your answer to my use case 3 question. y\/n? we just need to give them basic explanation of increase so lemme know if i need to supplement",
+        "ts": "1490213901.253097"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "oh, whoops, I was still thinking about use case 6, the increase in code bin with a decrease in the graphics bin.",
+        "ts": "1490213985.275888"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "For use case 3, with the systems increase, Evans wrote up where that measurement is coming from, its outside our app and is shared, so a bit out of our control",
+        "ts": "1490214053.294708"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry - now im confusing things :slightly_smiling_face: i did mean 6. also updated use case 3 to include that call out (but waiting to hear from bonnie if there are next steps on that)",
+        "ts": "1490214177.328306"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay so there are still some open items we need to cover (bonnies commenting away) before we can get to dogfood",
+        "ts": "1490214284.357519"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "For the other two things that just got comments, \nlike, the 11.3% increase seems significant, but the values are 719+-30 and 646+-28, so for the departure from std dev we are talking about a few 10s of KiB…",
+        "ts": "1490214296.360829"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not sure where you’re looking - but you can comment back to bonnie to clarify if needed",
+        "ts": "1490214440.399364"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "everything in yellow needs updating",
+        "ts": "1490214615.447189"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> do you recall why some of the numbers required a redo? (bonnie had previously submitted those and wants to be able to explain if someone asks)",
+        "ts": "1490214771.489619"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "that one is I-182.\nI think more that she is using % as a way of evaluating significant increase of the average, but that it is misleading like in above. \nUse Case #6 is tough because it doesn’t encompass anything that was changed in this Places update",
+        "ts": "1490214825.504417"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Originally Bonnie asked for justification as to why the update caused an increase in ram usage, but after re-running some of the use cases on the updated APK I noticed the numbers were a lot lower so I decided to redo all of them. It turns out restarting the device makes a big difference on the results.",
+        "ts": "1490214990.549189",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F>, for use case #6, I’m just going to put that because of background processes can vary to get this through, the increase in actual KiB is small even though the % artificially inflates its significance",
+        "ts": "1490215491.681210"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sounds good",
+        "ts": "1490215504.684614"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I’m somewhat confused about why this systems health is taking so long\/is so complicated.",
+        "ts": "1490215636.719623"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i get that the System memory issue was troubling, but that seems to be a non-issue. Was there something else egregiously out of line?",
+        "ts": "1490215663.727198"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah, outside of that one its just a matter of us need to plug in info to rationalize increases over previous release",
+        "ts": "1490215725.743411"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we moved functionality from one activity to the main activity of the app. That would result in an overall inflated default RAM usage as that used to be siloed into a standalone activity that would have been tracked in a separate (now removed) test case.",
+        "ts": "1490215795.761931"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(that isn’t directed at you <@U13GPDA1F> its just a summary that we should lean on)",
+        "ts": "1490215825.770237"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":slightly_smiling_face:",
+        "ts": "1490215827.770682"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "that makes sense to me from a context perspective (thank you) but its just a matter of filling out those individual cells with explanations so we can submit",
+        "ts": "1490215884.786207"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "copy\/paste that in",
+        "ts": "1490215894.788895"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":slightly_smiling_face:",
+        "ts": "1490215895.789197"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> <@U2H61EJSG> there’s no need to get into the fine-grained differences for each row when we’re anticipating an overall increase in userspace given that we removed\/subsumed a testcase",
+        "ts": "1490215952.804475",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sounds good.",
+        "ts": "1490216081.838588"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so any in-app test cases should be noted to have an expected increase given that an entire activity has been ported to the main screen of the app",
+        "ts": "1490216105.844957"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the wallpaper test case (i think) is the one that had the overally System line growth as its only issue",
+        "ts": "1490216123.849994"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also <@U2H61EJSG>, are you doing batterystats \/ meminfo reset`s` between runs? cause the reboot would theoretically have the same effect",
+        "ts": "1490216229.878269"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Yes I was",
+        "ts": "1490216259.886411"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "interesting",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1490216268.000000"
+        },
+        "ts": "1490216265.888226"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i wonder why the mismatch then",
+        "ts": "1490216271.890115"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "after this goes out (PLEASE TELL ME THIS IS GOING OUT LIKE….SOON) we should double check that behavior and report it if its inconsistent",
+        "ts": "1490216363.915197"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im doing a pass now + will ping bonnie if all looks good outside of that system shared piece (she asked vivek about it(",
+        "ts": "1490216406.927581"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "vivek!",
+        "ts": "1490216473.946318"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "missed ya, buddy",
+        "ts": "1490216487.950347"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I updated Bonnie’s most recent comment, just fixing the cell and giving context for why the private code is expected to increase for the update",
+        "ts": "1490219636.672739"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "which use case\/cell? i’ll check out",
+        "ts": "1490219878.723266"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "J97",
+        "ts": "1490219911.730287",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U051P3FPY",
+        "text": "<@U051P3FPY|kaitlyn> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1490224638.522887"
+    }
+]

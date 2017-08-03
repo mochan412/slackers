@@ -1,0 +1,127 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U06DFL7BP> starting to hone in on what's wrong with vroom pushes. Looks what's being used to run scheduled tasks on the vroom server is what's failing. There's a function that sends pushes using parse that is set to run each hour, and it's never being called. If I go in and run the function manually, the pushes get sent just fine.",
+        "ts": "1439575598.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "So I'll spend some time trying to figure out what's wrong with Celery (our task queue). If it's super broken we can schedule the pushes a different way.",
+        "ts": "1439575673.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ok, thanks!",
+        "ts": "1439575679.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "np! It's good news that parse isn't broken :simple_smile:",
+        "ts": "1439575713.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "we were tracking down to see if they don’t have a credit card :stuck_out_tongue:",
+        "ts": "1439575747.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "On a sorta related note, I was curious how our postgres backups were doing, so I tried to log into the vroom production AWS account to check them out on S3, and it looks like the credentials we have for that account are out of date <@U06DFL7BP>",
+        "ts": "1439578671.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Maybe that's on purpose to keep us out? But it seems like a good idea for us to maintain access",
+        "ts": "1439578697.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "username: <mailto:kasey@bezosfamilyfoundation.org|kasey@bezosfamilyfoundation.org> password: vroom2013 is what I'm trying with no luck",
+        "ts": "1439578737.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Amazon Web Services\n<http:\/\/aws.amazon.com\/>\nuser: <mailto:nicole@bezosfamilyfoundation.org|nicole@bezosfamilyfoundation.org>\npass: vroom2013",
+        "attachments": [
+            {
+                "service_name": "Amazon Web Services, Inc.",
+                "title": "Amazon Web Services (AWS) -  Cloud Computing Services",
+                "title_link": "http:\/\/aws.amazon.com\/",
+                "text": "Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.",
+                "fallback": "Amazon Web Services, Inc.: Amazon Web Services (AWS) -  Cloud Computing Services",
+                "from_url": "http:\/\/aws.amazon.com\/",
+                "id": 1
+            }
+        ],
+        "ts": "1439578757.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "perhaps?",
+        "ts": "1439578759.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "lemme try",
+        "ts": "1439578778.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "no luck",
+        "ts": "1439578828.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "hmmm i will poke",
+        "ts": "1439578839.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thanks charles!",
+        "ts": "1439578858.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it's not urgent",
+        "ts": "1439578900.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Pushes are running with a cron job now. I'll watch parse to make sure it stays fine and good but 3pm pushes went out fine.",
+        "ts": "1439589992.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i got mine btw ^",
+        "ts": "1439590181.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yay",
+        "ts": "1439590276.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":smile:",
+        "ts": "1439590775.000021"
+    }
+]

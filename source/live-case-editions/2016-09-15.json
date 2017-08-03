@@ -1,0 +1,196 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> come back",
+        "ts": "1473962899.000255"
+    },
+    {
+        "user": "U026PHQ3J",
+        "inviter": "U13GPDA1F",
+        "text": "<@U026PHQ3J|evans> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1473962904.000256"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":pray:",
+        "ts": "1473965032.000257"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hahah",
+        "ts": "1473965052.000258"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh yeah the old volley crap",
+        "ts": "1473965070.000259"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "volley broke my heart",
+        "ts": "1473965081.000260"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":broken_heart:",
+        "ts": "1473965084.000261"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "same",
+        "ts": "1473965294.000262"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> can i get a ballpark gatekeeper ETA?",
+        "ts": "1473965838.000263"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "tomorrow, mid-day",
+        "ts": "1473965998.000264"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'm going to fix the background loader bug (i might be the only one who notices it cause i'm running at one-minute intervals)",
+        "ts": "1473966025.000265"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh yeah, it would also be great to get keyboard UI updates if thats manageable",
+        "ts": "1473966078.000266"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "midori - anything we (or evans) can do to help? i know we lost a day on technicalities but we promised to the client today",
+        "ts": "1473966120.000267"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "if not, i can reset expectations, but wanted to check",
+        "ts": "1473966132.000268"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I just need to do it. I don’t know if what I’m planning will work, so I’m trying an estimation model I’ve seen before.",
+        "ts": "1473966225.000269"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what are you planning on doing?",
+        "ts": "1473966238.000270"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you could theoretically take the MiniMe onboarding activity\/pager and move that code (and its dependencies) into the Gatekeeper activity on Editions",
+        "ts": "1473966263.000271"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> its going to take some doing on my part for new keyboard UI (since it had been in \"groups\" but now we're removing those)",
+        "ts": "1473966279.000272"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "that’s what I’m doing, sort of",
+        "ts": "1473966282.000273"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "check back in at 3pm on progress, and we can review where you are",
+        "ts": "1473966302.000274"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "just with the existing Gatekeeper fragment",
+        "ts": "1473966306.000275"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh, that should work",
+        "ts": "1473966345.000276"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "except its a support fragment so tread carefully",
+        "ts": "1473966363.000277"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "what does that mean?",
+        "ts": "1473966380.000278"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "(or: why tread carefully)",
+        "ts": "1473966400.000279"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "support fragments are different from non support fragments",
+        "ts": "1473966402.000280"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and the autocompletes will sometimes mix them",
+        "ts": "1473966412.000281"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so just keep an eye on what you're expecting when you see Fragment",
+        "ts": "1473966430.000282"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whether its a support.v4.Fragment or not",
+        "ts": "1473966440.000283"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> hows it going?",
+        "ts": "1473980805.000284"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I have questions",
+        "ts": "1473981025.000285"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im in exlo",
+        "ts": "1473981034.000286"
+    }
+]

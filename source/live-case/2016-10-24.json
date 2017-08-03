@@ -1,0 +1,286 @@
+[
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> I created a new branch with my changes to the onboarding process for users with multiple collections cases. It’s called `multiple_case_onboarding_process`",
+        "ts": "1477341505.001629"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "What happens ",
+        "ts": "1477341559.001630"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "If the user has a new case from an existing collection pressing the NFC button will perform the action configured in the NfcConfigurationsActivity rather than taking them through the onboarding process again",
+        "ts": "1477341621.001631"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That's not exactly right tho",
+        "ts": "1477341636.001632"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Oh? That’s how bonnie outlined it in the task on JIRA",
+        "ts": "1477341661.001633"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's very close ",
+        "ts": "1477341665.001634"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So the problem is that there's a chance that your new case is a new asset that you don't have ",
+        "ts": "1477341682.001635"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Ohhh I didn’t realize that",
+        "ts": "1477341699.001636"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So at a minimum for now, cross check the asset",
+        "ts": "1477341700.001637"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Will do",
+        "ts": "1477341708.001638"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Are there any cases where this might happen so I can test it?",
+        "ts": "1477341724.001639"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's hard to recreate because of the push notifications ",
+        "ts": "1477341741.001640"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "But",
+        "ts": "1477341742.001641"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "If take a phone off of the network ",
+        "ts": "1477341757.001642"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "And add an asset to dogs ",
+        "ts": "1477341763.001643"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Such that the device doesn't get the push ",
+        "ts": "1477341774.001644"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Then that would maybe cause the issue",
+        "ts": "1477341788.001645"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Ok, I can mess around with that",
+        "ts": "1477341798.001646"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It's an edge case, but it's possible",
+        "ts": "1477341808.001647"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Basically, you want to make sure that you have the asset that they're looking for ",
+        "ts": "1477341828.001648"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Which is probably already what you're doing ",
+        "ts": "1477341840.001649"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Currently I’m checking to see if the orderId matches an existing assetId. If it doesn’t then I am assuming the case is not affiliated with the existing collection",
+        "ts": "1477341899.001650"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "therefore the user will go through onboarding again",
+        "ts": "1477341908.001651"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah that's probably fine ",
+        "ts": "1477341912.001652"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Sorry I didn't quite understand",
+        "ts": "1477341923.001653"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No worries. I’ll test it out either way with Dogs",
+        "ts": "1477341940.001654"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup: yeah, mostly just double check what the experience is if they have the artist, but dont have the asset",
+        "ts": "1477341972.001655"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so that when bonnie files a bug for it",
+        "ts": "1477341991.001656"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we know what shes talking about :slightly_smiling_face:",
+        "ts": "1477341998.001657"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I see that you are well versed in predicting Bonnie bug fixes!",
+        "ts": "1477342063.001658"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F2TJHC4CR\/screenshot_20161024-142226.png|Slack for Android Upload>",
+        "file": {
+            "id": "F2TJHC4CR",
+            "created": 1477344183,
+            "timestamp": 1477344183,
+            "name": "Screenshot_20161024-142226.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 68858,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2TJHC4CR\/screenshot_20161024-142226.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2TJHC4CR\/download\/screenshot_20161024-142226.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2TJHC4CR-4b606501ff\/screenshot_20161024-142226_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2TJHC4CR-4b606501ff\/screenshot_20161024-142226_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2TJHC4CR-4b606501ff\/screenshot_20161024-142226_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2TJHC4CR-4b606501ff\/screenshot_20161024-142226_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2TJHC4CR-4b606501ff\/screenshot_20161024-142226_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2TJHC4CR-4b606501ff\/screenshot_20161024-142226_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2TJHC4CR-4b606501ff\/screenshot_20161024-142226_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2TJHC4CR-4b606501ff\/screenshot_20161024-142226_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F2TJHC4CR\/screenshot_20161024-142226.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2TJHC4CR-5cacbf0676",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1477344187.001659"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yikes",
+        "ts": "1477344499.001660"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no good, also can we make sure we capture the need for a string for this?",
+        "ts": "1477345020.001661"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "what do you mean?",
+        "ts": "1477345146.001662"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh for some reason i thought this wasnt translated (in addition to being a bug that shouldnt appear) bit i couldve made that up",
+        "ts": "1477345288.001663"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’ll check the translations, but it’s just a string that missed getting parameters.",
+        "ts": "1477345329.001664"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Should say Photos and Drive",
+        "ts": "1477345355.001665"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "fix on copy_updates",
+        "ts": "1477348256.001666"
+    }
+]

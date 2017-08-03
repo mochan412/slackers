@@ -1,0 +1,188 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm sorry, I will be in late today. I have a really bad insomnia headache and I need to try to sleep before I try to code today. I'll keep you posted.",
+        "ts": "1434975861.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hope you feel better Marissa, let us know how it goes.",
+        "ts": "1434998553.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm here now, getting started with the audio\/whistlizer stuff",
+        "ts": "1434998568.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I will try to redo it to force the bufferSize to the one Whistlizer wants (256) and if that buffer size is not offered by the audio hardware, prevent the user from starting the experience",
+        "ts": "1434998594.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "(with a Toast saying sorry, this device does not support audio capture)",
+        "ts": "1434998618.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "or actually, since whistlizer is currently disabled, just enable it if the audio hardware supports that buffer size, and leave it disabled if not",
+        "ts": "1434998714.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok, let us know what you find, hope is to get back to where we were before when it was working in some capacity on all devices. happy to chat about it though",
+        "ts": "1434998987.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "OK, I re-enabled whistlizer and set the bufferSize to 256 as it was before, but I'm not seeing any visualizations... the console is logging that we're sending values through, so I don't think it's a native problem.",
+        "ts": "1434999332.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Can you bubble that up to AT in the broadway slack channel?",
+        "ts": "1434999352.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8TTPU>: regarding the icon, it wants the url for the image to be urlencoded i think",
+        "ts": "1435003378.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "event tho their sample code shows it bare",
+        "ts": "1435003388.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<@U026PHQ3J> I tried that, didn't work",
+        "ts": "1435003389.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "blah",
+        "ts": "1435003391.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I tried both ways",
+        "ts": "1435003395.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I tried partially encoding it too",
+        "ts": "1435003401.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "so I'm just testing out different things at this point",
+        "ts": "1435003424.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool cool",
+        "ts": "1435003428.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah i've never used a totally custom icon in there before i just know it says you can",
+        "ts": "1435003440.000018"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "hey guys, I’m gonna be pushing a commit that made small changes to almost every file (reformatting). It won’t be pushed for about 10 minutes but just a heads up.",
+        "ts": "1435003546.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "no problem kaitlyn.anderson, I already have the build assembled to go out",
+        "ts": "1435003574.000020"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "about to push some more cleaned up code. Just a heads up :simple_smile:",
+        "ts": "1435011799.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I merged in all of Kaitlyn's cleanup changes, and re-enabled whistlizer with error handling, and got the custom map markers to work",
+        "ts": "1435015013.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome thanks marissa",
+        "ts": "1435015034.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll send you the APK, should I also do a fabric release?",
+        "ts": "1435015055.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yep let's do a fabric release as well so it can all be tested",
+        "ts": "1435015077.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Sounds good, that will be out shortly.",
+        "ts": "1435015085.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks!",
+        "ts": "1435015106.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i think after that we should go back to JIRA and work on some of the bigger things we held off of for the beta like 193, 189, etc",
+        "ts": "1435015174.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "1.16 distributed. Release notes:\nCode cleanup\nRe-enabled Whistlizer with error handling\nAdded custom markers to map results cards",
+        "ts": "1435015225.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "OK, going to work on jira issues now",
+        "ts": "1435015344.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks!",
+        "ts": "1435016200.000031"
+    }
+]

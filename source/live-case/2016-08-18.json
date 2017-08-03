@@ -1,0 +1,165 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F22NF851Q\/screen_shot_2016-08-18_at_11.15.51_am.png|Screen Shot 2016-08-18 at 11.15.51 AM.png> and commented: <@U1S5GKTHQ>: can we remove the Artworks artist bio character limit (client request)",
+        "file": {
+            "id": "F22NF851Q",
+            "created": 1471544228,
+            "timestamp": 1471544228,
+            "name": "Screen Shot 2016-08-18 at 11.15.51 AM.png",
+            "title": "Screen Shot 2016-08-18 at 11.15.51 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 14189,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F22NF851Q\/screen_shot_2016-08-18_at_11.15.51_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F22NF851Q\/download\/screen_shot_2016-08-18_at_11.15.51_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F22NF851Q-c2b60e1582\/screen_shot_2016-08-18_at_11.15.51_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F22NF851Q-c2b60e1582\/screen_shot_2016-08-18_at_11.15.51_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F22NF851Q-c2b60e1582\/screen_shot_2016-08-18_at_11.15.51_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 352,
+            "thumb_360_h": 165,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F22NF851Q-c2b60e1582\/screen_shot_2016-08-18_at_11.15.51_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 352,
+            "original_h": 165,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F22NF851Q\/screen_shot_2016-08-18_at_11.15.51_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F22NF851Q-570c5c27d9",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc22MXSD4N",
+                "created": 1471544228,
+                "timestamp": 1471544228,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "<@U1S5GKTHQ>: can we remove the Artworks artist bio character limit (client request)"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1471544231.000515"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U13GPDA1F>: yup absolutely",
+        "ts": "1471544258.000516"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Has the endpoint on artist bios changed?",
+        "ts": "1471552020.000517"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "collections\/artworks for the time being should be considered non-functional",
+        "ts": "1471552088.000518"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1S5GKTHQ>: fyi - artist bio pic should be optional",
+        "ts": "1471555438.000519"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U13GPDA1F>: got it! will fix first thing in the morning",
+        "ts": "1471559170.000520",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK>: <@U026PHQ3J> - FYI (will create trello cards for this) but heads up that the photos PREVIEW functionality is going to go away.",
+        "ts": "1471560344.000521"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i mention because i know this was an accessibility challenge",
+        "ts": "1471560356.000522"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but for photos w\/ the cropping the client though the UI was cluttered and the cropping sort of serves that purpose already",
+        "ts": "1471560384.000523"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(if we think there is a valid reason to keep, happy to push back, but wanted to pass along in case it causes impact on accessibility work)",
+        "ts": "1471560426.000524"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Is this also going away on Earth?",
+        "ts": "1471561087.000525"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F>:",
+        "ts": "1471561113.000526"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hmmm great question - probably not",
+        "ts": "1471561137.000527"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or - we can make a case for it if we think they should be consistent",
+        "ts": "1471561167.000528"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "that makes sense since there isn’t a crop on earth",
+        "ts": "1471561176.000529"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but that wasnt discussed yet",
+        "ts": "1471561180.000530"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok",
+        "ts": "1471561235.000531"
+    }
+]

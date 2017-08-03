@@ -1,0 +1,176 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The cubby template editor is live and usable, there are a few more tweaks I will do to it, but can be used now. I am going to work on a few bug fixes there, some reason image upload broke when i went live. I am also working on opening up this editor to the top sweep also. right now being locked to just cubby since its based on my prototype from earlier. And top sweep is a little more complicated since its huge and doesnt fit nicely on the screen. but they can start sending things to the cubby right now to work against those touch screen imperfections. Also working on finishing the touch forwarder after we can get that last screen zoomed in with the correct planar config. early tests show it works just need to dial it in for the zoom. since its calibrated to the full 4k due to the way it works etc... easy software fix just need the working screen to do that calibration on",
+        "ts": "1460656195.000340"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "fixed the image issue on the template working nice now, they can start to use that whenever ready. I can write up docs for it at some point, but i would think for now just a quick training would be quicker",
+        "ts": "1460657658.000341"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i was plannign to do a quick write up to ensure that i got it as well",
+        "ts": "1460673913.000342"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "is it wired up to go to the wall?  i’ll be careful with my test images",
+        "ts": "1460673922.000343"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah its wired to the wall, anything saved will appear on the wall next refresh",
+        "ts": "1460674222.000344"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "how to refresh the wall?",
+        "ts": "1460675111.000345"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "hit f5 on the keyboard",
+        "ts": "1460675207.000346"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "remotely or the keyboard connected to head node",
+        "ts": "1460675415.000347"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "on the headnode, you really shouldnt be doing this remote anyways",
+        "ts": "1460675452.000348"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "oh ok so template editor is meant to be used on headnode, jason shouldnt connect to it from his desk where his files are?  OR cool to connect remote to template editor and then need to walk over to refresh on head node?",
+        "ts": "1460676373.000349"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh he can certainly do it on his desk, upload the design he wants, images etc. then save. walk over to the head node hit refresh and see it",
+        "ts": "1460676823.000350"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you will see a preview in the editor while you are building it out. but if you wanted to do fast iteration and changes it would make more sense to take your laptop over",
+        "ts": "1460676864.000351"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, let’s tack this demo onto our 11am code demo show and tell, cool?",
+        "ts": "1460676889.000352"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah",
+        "ts": "1460676905.000353"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "im excited",
+        "ts": "1460676909.000354"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "youre killing it man, hope you feel good",
+        "ts": "1460676914.000355"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not far from getting the touch to open the door too. briefly looked at the java library for it, would just clone what the python is doing in java, so it can be done from IS. when we get to that priority have a good path to run down",
+        "ts": "1460676987.000356"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "what do you see as higher priority than that right now?  i’m willing to negotiate for door open!",
+        "ts": "1460677026.000357"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "So right now, im finalizing touch forwarding, have a little more research to try and nuke that initial touch in favor of just the forwarded one. but if i cant i will be just adding a deadzone to that part of the screen so nothing happens there. nearly done with the template editor for top sweep. pretty much just have to add a few lines for the top sweep mode to save to the right spot on the server. then I would imagine we could probably go for the door open. other than that building out some better looking demo templates so we can show off a little better",
+        "ts": "1460677236.000358"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "think i will work on the top sweep bit first so i can have that finished for tomorrow so they can get at it. the touch stuff is minor since the system is functionally working. the editor would be blocking",
+        "ts": "1460677394.000359"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "agreed",
+        "ts": "1460677437.000360"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "also the editor is only available form the UCS network?",
+        "ts": "1460677446.000361"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i cant access form hom",
+        "ts": "1460677448.000362"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah",
+        "ts": "1460677474.000363"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its running directly on the head node",
+        "ts": "1460677482.000364"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: and <@U0EL0GLEL> this info we’re getting from ted, wheres the best place to document these req’s options in existing documentation?  i dont wanan create more sprawl but i want it out of email",
+        "ts": "1460677487.000365"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so no outside port forwarding",
+        "ts": "1460677489.000366"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "word",
+        "ts": "1460677596.000367"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: \/\\ \/\\ \/\\",
+        "ts": "1460678356.000368"
+    }
+]

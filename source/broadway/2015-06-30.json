@@ -1,0 +1,170 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Android Studio appears to be fine after disabling, uninstalling, and installing an updated version of the Fabric plugin.",
+        "ts": "1435683183.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah, something about fabric is messing with new builds of studio",
+        "ts": "1435683202.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "kat ran into it yesterday too",
+        "ts": "1435683207.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "had to edit plugin config on disk",
+        "ts": "1435683216.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "My plugin was version 2.2.0 and after updating, I have 2.2.1 (the plugin download doesn't specify its version)",
+        "ts": "1435683269.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s good to know that an update fixes it.",
+        "ts": "1435683378.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Just pushed commits that update crosswalk (13.42.319.11-arm), volley to latest, crashlytics (2.4.0), and all the google libraries to latest. Looking fine so far.",
+        "ts": "1435686031.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Arbitrary division factor 2.5E50 for FFT samples seems to work, I used the tone generator and saw a little visual in whistlizer.",
+        "ts": "1435688432.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8TTPU|marissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/marissa\/F071NNPGW\/gather1.23_with_fft_logging.apk|Gather1.23_with_fft_logging.apk>",
+        "file": {
+            "id": "F071NNPGW",
+            "created": 1435688542,
+            "timestamp": 1435688542,
+            "name": "Gather1.23_with_fft_logging.apk",
+            "title": "Gather1.23_with_fft_logging.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U02F8TTPU",
+            "editable": false,
+            "size": 26090691,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F071NNPGW\/gather1.23_with_fft_logging.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F071NNPGW\/download\/gather1.23_with_fft_logging.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/marissa\/F071NNPGW\/gather1.23_with_fft_logging.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F071NNPGW-4b678cbf14",
+            "channels": [
+                "C03U21PL1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8TTPU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "marissa",
+        "bot_id": null,
+        "ts": "1435688547.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome thanks marissa, i'll pass this on to active theory and have them check it out",
+        "ts": "1435688576.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm building the APK with FFT logging commented out, and that is what I'll distribute to Fabric. (I'll also put it in here)",
+        "ts": "1435688607.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool",
+        "ts": "1435688632.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Distributed on Fabric. Release notes:\nUpdate Crosswalk and Android libraries to latest\nLimit range of FFT sample data",
+        "ts": "1435688893.000014"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8TTPU|marissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/marissa\/F071P5FU4\/gather1.23.apk|Gather1.23.apk> and commented: no FFT logging",
+        "file": {
+            "id": "F071P5FU4",
+            "created": 1435688925,
+            "timestamp": 1435688925,
+            "name": "Gather1.23.apk",
+            "title": "Gather1.23.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U02F8TTPU",
+            "editable": false,
+            "size": 26090647,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F071P5FU4\/gather1.23.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F071P5FU4\/download\/gather1.23.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/marissa\/F071P5FU4\/gather1.23.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F071P5FU4-adba9aca91",
+            "channels": [
+                "C03U21PL1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc071P0R0F",
+                "created": 1435688938,
+                "timestamp": 1435688938,
+                "user": "U02F8TTPU",
+                "is_intro": true,
+                "comment": "no FFT logging"
+            }
+        },
+        "user": "U02F8TTPU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "marissa",
+        "bot_id": null,
+        "ts": "1435688938.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks!",
+        "ts": "1435691804.000016"
+    }
+]

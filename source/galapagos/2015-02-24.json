@@ -1,0 +1,135 @@
+[
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U02618EV1>: wrt that gif support.   how do you want the response?   images currently come back with mdpi and xhdpi keys in the object.  do you want just the mdpi key with url to the gif or do you want me to still populate both mdpi and xhdpi but provide the same URL to both?",
+        "ts": "1424809838.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hmm. Good question. I think we can just create the mdpi version.",
+        "ts": "1424809903.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "for SVG, I am providing a seperate key called 'svg'",
+        "ts": "1424809903.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "but also sending the same url for the mdpi\/xhdpi keys",
+        "ts": "1424809934.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "You know, let's actually do that. Under image but with the same URL for both mdpi and xhdpi.",
+        "ts": "1424810022.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "ok , will do.",
+        "ts": "1424810065.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thank you.",
+        "ts": "1424810069.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U02618EV1> - galapagos now supports both SVG and GIF images for all the upload image dialogues in the CMS",
+        "ts": "1424810567.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Woohoo!",
+        "ts": "1424810621.000010"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg",
+                "fallback": "788x500px image",
+                "image_url": "http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg",
+                "image_width": 788,
+                "image_height": 500,
+                "image_bytes": 108184,
+                "id": 1
+            }
+        ],
+        "ts": "1424810621.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":clap:",
+        "ts": "1424810708.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<http:\/\/i.imgur.com\/emg3jbO.gif>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/i.imgur.com\/emg3jbO.gif",
+                "fallback": "359x202px image",
+                "image_url": "http:\/\/i.imgur.com\/emg3jbO.gif",
+                "image_width": 359,
+                "image_height": 202,
+                "image_bytes": 8377666,
+                "id": 1
+            }
+        ],
+        "ts": "1424810865.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026E0ZNR> - let me know that it works for you once you try it.",
+        "ts": "1424810936.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U0289USNA> I was able to upload a GIF successfully but I was not able to preview the blog post. It jumps to a 404 page.",
+        "ts": "1424815582.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<http:\/\/uncorkedstudios.com\/blog\/we-have-a-3d-printer>",
+        "attachments": [
+            {
+                "service_name": "Uncorked Studios",
+                "title": "Uncorked Studios Blog We Have a 3D Printer",
+                "title_link": "http:\/\/uncorkedstudios.com\/blog\/we-have-a-3d-printer",
+                "text": "Yes we recently purchased a 3D printer. Yes we’re excited. No we can’t print real food with it… yet. But our fingers are crossed. We’re always looking for new lunch ideas.",
+                "fallback": "Uncorked Studios: Uncorked Studios Blog We Have a 3D Printer",
+                "image_url": "http:\/\/uncorkedstudios.com\/images\/us-logo-1000.png",
+                "from_url": "http:\/\/uncorkedstudios.com\/blog\/we-have-a-3d-printer",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 17626,
+                "id": 1
+            }
+        ],
+        "ts": "1424815923.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sometimes the url gets weird",
+        "ts": "1424815928.000020"
+    }
+]

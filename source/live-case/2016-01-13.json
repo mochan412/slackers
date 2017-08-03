@@ -1,0 +1,674 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yay! (My slack went into dnd mode)",
+        "ts": "1452698653.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Added and pushed the minimum loop code",
+        "ts": "1452703786.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> <@U02F8TTPU>  We need to add one of the \"update to the latest play services\" dialogs",
+        "ts": "1452709891.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in the case that the installed version is &lt; 8.4",
+        "ts": "1452709902.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "definitely!",
+        "ts": "1452709913.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "huge couldn't load tiles because they were running with 8.1",
+        "ts": "1452709914.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "should we add it in MainActivity? NfcHandlerActivity?",
+        "ts": "1452709957.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I suppose HomeActivity makes the most sense. We don’t really want the dialog appearing in the Gatekeeper",
+        "ts": "1452710097.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m noticing that the TutorialActivity doesn’t extend NfcHandlerActivity though. I’m going to make a note that we need to update that along with the other architecture changes.",
+        "ts": "1452710140.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I added it to the gatekeeper card <@U02F8TTPU> lmk if you want me to look into that when you’re done. I did a lot of work on NfcHandlerActivity",
+        "ts": "1452710318.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll do that, I'm already mostly done (it was necessary for the other changes I started working on yesterday)",
+        "ts": "1452710326.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "it's not ready to commit yet, but once I figure out how to dynamically add that third card, all the tutorial activities should be refactored into a single one that extends NfcHandlerActivity",
+        "ts": "1452710394.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "love it",
+        "ts": "1452710409.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thinking through the photo selection buttons - still hunting down the Creations icon, but is that really appropriate here? Since we're really pulling all animated stuff, not just creations. Wondering if this makes the most sense as a combo party <https:\/\/design.google.com\/icons\/#ic_movie_filter>",
+        "attachments": [
+            {
+                "title": "Material icons - Google Design",
+                "title_link": "https:\/\/design.google.com\/icons\/#ic_movie_filter",
+                "text": "Material icons are beautifully crafted, delightful, and easy to use in your web, Android, and iOS projects.",
+                "fallback": "Material icons - Google Design",
+                "image_url": "https:\/\/material-icons.storage.googleapis.com\/external-assets\/v1\/social.png",
+                "from_url": "https:\/\/design.google.com\/icons\/#ic_movie_filter",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 83282,
+                "id": 1
+            }
+        ],
+        "ts": "1452711010.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "There's also <https:\/\/design.google.com\/icons\/#ic_gif>",
+        "attachments": [
+            {
+                "title": "Material icons - Google Design",
+                "title_link": "https:\/\/design.google.com\/icons\/#ic_gif",
+                "text": "Material icons are beautifully crafted, delightful, and easy to use in your web, Android, and iOS projects.",
+                "fallback": "Material icons - Google Design",
+                "image_url": "https:\/\/material-icons.storage.googleapis.com\/external-assets\/v1\/social.png",
+                "from_url": "https:\/\/design.google.com\/icons\/#ic_gif",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 83282,
+                "id": 1
+            }
+        ],
+        "ts": "1452711565.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Talked to Adam, we want to use the Gif icon",
+        "ts": "1452711732.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "cool",
+        "ts": "1452711930.000022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "for copy, let's use \"Photos\" and \" Animated GIFs\" ?",
+        "ts": "1452711939.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok",
+        "ts": "1452711962.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "do you want that copy below the icons on the buttons?",
+        "ts": "1452711986.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Si",
+        "ts": "1452711998.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sounds good. I’ll send some screenshots when I get a chance so we can make alterations",
+        "ts": "1452712059.000027"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thank you!",
+        "ts": "1452712096.000028"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Evans was saying we should swap the location of them?",
+        "ts": "1452712110.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Photos on the right, awesome on the left",
+        "ts": "1452712117.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "easy enough",
+        "ts": "1452712150.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "makes sense too, generally want default on the right",
+        "ts": "1452712161.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Places response:\n```{\n\t\"status\": 200,\n\t\"order\": {\n\t\t\"state\": {\n\t\t\t\"case\": {\n\t\t\t\t\"sku\": \"NEX6-MM-M\",\n\t\t\t\t\"name\": \"Nexus 6\"\n\t\t\t},\n\t\t\t\"style\": 6,\n\t\t\t\"attribution\": \"Map data \\u00a92016 Google, INEGI\",\n\t\t\t\"zoom\": 6,\n\t\t\t\"color\": 1,\n\t\t\t\"location\": {\n\t\t\t\t\"lat\": 39.224174296428529,\n\t\t\t\t\"lng\": -110.403532375,\n\t\t\t\t\"description\": \"United States\"\n\t\t\t},\n\t\t\t\"device\": {\n\t\t\t\t\"sku\": \"nexus-6\",\n\t\t\t\t\"name\": \"Nexus 6\"\n\t\t\t}\n\t\t},\n\t\t\"id\": 2610001234567897,\n\t\t\"nfc_string\": \"com.google.android.apps.workshop|0|2610001\"\n\t}\n}```",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1452713743.000000"
+        },
+        "ts": "1452713459.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "and downloading a photo works too!",
+        "ts": "1452713494.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":astonished:",
+        "ts": "1452713503.000035"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "You mean places?",
+        "ts": "1452713614.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "..yes",
+        "ts": "1452713748.000038"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Phew. That's a weird looking photo. ",
+        "ts": "1452713777.000039"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0261PCRQ|kat> uploaded a file: <https:\/\/uncorked.slack.com\/files\/kat\/F0JCL6R89\/screenshot_20160113-115302.png|dialog>",
+        "file": {
+            "id": "F0JCL6R89",
+            "created": 1452714923,
+            "timestamp": 1452714923,
+            "name": "Screenshot_20160113-115302.png",
+            "title": "dialog",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0261PCRQ",
+            "editable": false,
+            "size": 416380,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JCL6R89\/screenshot_20160113-115302.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JCL6R89\/download\/screenshot_20160113-115302.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/kat\/F0JCL6R89\/screenshot_20160113-115302.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0JCL6R89-b244a5a8cc",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "U0261PCRQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "kat",
+        "bot_id": null,
+        "ts": "1452714930.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U0261PCRQ|kat> commented on <@U0261PCRQ|kat>’s file <https:\/\/uncorked.slack.com\/files\/kat\/F0JCL6R89\/screenshot_20160113-115302.png|dialog>: I meant to tighten the space between icons and text before committing, but didn’t. lmk if I should do that or other changes, or I’m just going to leave it.",
+        "file": {
+            "id": "F0JCL6R89",
+            "created": 1452714923,
+            "timestamp": 1452714923,
+            "name": "Screenshot_20160113-115302.png",
+            "title": "dialog",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0261PCRQ",
+            "editable": false,
+            "size": 416380,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JCL6R89\/screenshot_20160113-115302.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JCL6R89\/download\/screenshot_20160113-115302.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCL6R89-5ed833d26e\/screenshot_20160113-115302_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/kat\/F0JCL6R89\/screenshot_20160113-115302.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0JCL6R89-b244a5a8cc",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "Fc0JCM16NA",
+            "created": 1452715012,
+            "timestamp": 1452715012,
+            "user": "U0261PCRQ",
+            "is_intro": false,
+            "comment": "I meant to tighten the space between icons and text before committing, but didn’t. lmk if I should do that or other changes, or I’m just going to leave it."
+        },
+        "is_intro": false,
+        "ts": "1452715012.000041"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I think they should be up a little bit closer",
+        "ts": "1452715102.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "any other suggestions to go with that change?",
+        "ts": "1452718793.000043"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Isss that the photos icon we should be using? I'm not sure what the guidelines say",
+        "ts": "1452719076.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s from the material design icons",
+        "ts": "1452719088.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "like the gif one",
+        "ts": "1452719092.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s under both “image” and “photo\"",
+        "ts": "1452719098.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "testing with the same map code as earlier today: response code: 200, response: {\"status\": 404, \"message\": \"Order not found\"}",
+        "ts": "1452721210.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "1) can I not request one that I’ve already used? 2) response codes are important",
+        "ts": "1452721240.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "testing with a new code now...",
+        "ts": "1452721280.000050"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Possible they wiped them... And yes.",
+        "ts": "1452721294.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "turns out, I am *not* using the same code as earlier :flushed: second point still stands",
+        "ts": "1452721358.000052"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "emailed ...",
+        "ts": "1452721903.000053"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "can you send me a screenshot of the photo options with the revised layout",
+        "ts": "1452721915.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "in a minute",
+        "ts": "1452722056.000055"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thank you",
+        "ts": "1452722252.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "code is not currently set up to download new moments images if a second case is used fyi",
+        "ts": "1452722327.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "(nor for places, but I don’t think that’s a use case we talked about)",
+        "ts": "1452722348.000058"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0261PCRQ|kat> uploaded a file: <https:\/\/uncorked.slack.com\/files\/kat\/F0JCSJ78C\/screenshot_20160113-140010.png|newer moments dialog>",
+        "file": {
+            "id": "F0JCSJ78C",
+            "created": 1452722465,
+            "timestamp": 1452722465,
+            "name": "Screenshot_20160113-140010.png",
+            "title": "newer moments dialog",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0261PCRQ",
+            "editable": false,
+            "size": 381632,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JCSJ78C\/screenshot_20160113-140010.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JCSJ78C\/download\/screenshot_20160113-140010.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCSJ78C-3c5efbe94d\/screenshot_20160113-140010_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCSJ78C-3c5efbe94d\/screenshot_20160113-140010_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCSJ78C-3c5efbe94d\/screenshot_20160113-140010_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCSJ78C-3c5efbe94d\/screenshot_20160113-140010_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCSJ78C-3c5efbe94d\/screenshot_20160113-140010_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCSJ78C-3c5efbe94d\/screenshot_20160113-140010_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCSJ78C-3c5efbe94d\/screenshot_20160113-140010_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JCSJ78C-3c5efbe94d\/screenshot_20160113-140010_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/kat\/F0JCSJ78C\/screenshot_20160113-140010.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0JCSJ78C-7169bee933",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0261PCRQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "kat",
+        "bot_id": null,
+        "ts": "1452722471.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U06DFL7BP>: ^ new screenshot",
+        "ts": "1452722478.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m going to add that update play services dialog now",
+        "ts": "1452723724.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: is there a specific place you want to check for play services?",
+        "ts": "1452724951.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I added to main activity, but there’s also a method to show a notification, if you need",
+        "ts": "1452724964.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its really only relevant to places",
+        "ts": "1452724967.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "play services dialogs and notifications have been added.",
+        "ts": "1452726044.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup:",
+        "ts": "1452726089.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fixed framerate with respect to duration of looping",
+        "ts": "1452726271.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushed.",
+        "ts": "1452726276.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(also the frames are -1 indexed artificially, which is why it was weird)",
+        "ts": "1452726292.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "quickly attempting another memory optimization that may fail spectacularly",
+        "ts": "1452726428.000070"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J>\tthoughts on a build today? Unlocked, pending onboarding",
+        "ts": "1452730192.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "testing on N6 at present (as soon as its done flashing), then I'm good from a gif\/places standpoint",
+        "ts": "1452730217.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8TTPU>: what are we missing in onboarding?",
+        "ts": "1452730241.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can i help?",
+        "ts": "1452730243.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "All the layouts, assets and colors are in <@U026PHQ3J>, what remains is refactoring the gatekeeper\/tutorial workflow into a single activity that handles No Case, Places and Moments in a single ViewPager, only showing the first 2 pages and adding the 3rd depending on what type of case is attached via NFC. ViewPager and pagetransformer have so far resisted my requests to change after the views are initialized and displayed, so my working code is currently worse than the existing gatekeeper workflow",
+        "ts": "1452731712.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, is what you have so far anywhere i can get it?",
+        "ts": "1452731820.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It's not committed but you can grab it from my IDE if you want to take a look, I left my laptop there",
+        "ts": "1452731900.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can just take a look at a method for adding a page to the pager",
+        "ts": "1452731981.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "If it were possible to make a smaller commit that didn't create multiple new issues I definitely would have, but I've started from scratch twice and I probably need to do so again",
+        "ts": "1452732022.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> is looking at it and ill pick it up if it makes sense",
+        "ts": "1452733749.000080"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Thanks so much, I'm sorry to be such a pain! I was hoping it would be a quick layout update.",
+        "ts": "1452734048.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Looks to be done for portrait. We'll have to revisit tomorrow!",
+        "ts": "1452734683.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Yay, thanks!!  me = :keepitzero: on this project",
+        "ts": "1452740699.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "also, I have an appointment until 9:30 in Beaverton tomorrow, so unless traffic is awesome I may be late for standup... I'll be in as soon as I can",
+        "ts": "1452740792.000003"
+    }
+]

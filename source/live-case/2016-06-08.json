@@ -1,0 +1,110 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "hey <@U13GPDA1F> I just sent you an email with the “safe zones” lmk if you need anything else!",
+        "ts": "1465412781.000050"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you so much <@U0261PCRQ>! i’ll take a look and follow up with any questions after the lunch + learn! otherwise, ill copy you guys when sending",
+        "ts": "1465412840.000051"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0261PCRQ> realized that adam is also looking for some insight into gifs (in addition to image sizes) do we have a POV \/ reco on these:",
+        "ts": "1465418326.000052"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Acceptable Image sizes (Pixels)\nImage size limit (MB)\nOptimal gif duration, also max and min\nanything else?",
+        "ts": "1465418328.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: has more insight into this",
+        "ts": "1465418346.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this is tough. optimal gif duration is mostly a UX question (how long is a reasonable expection)",
+        "ts": "1465418500.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "acceptable image size tends to be sub 20MB in total. BUT",
+        "ts": "1465418529.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we haven't tested gifs this size (tho i don't expect it to be a major factor)",
+        "ts": "1465418539.000057"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, duration  - that totally makes sense.",
+        "ts": "1465418720.000058"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool - thank you!",
+        "ts": "1465418723.000059"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "apologies in advance if i have further questions on this",
+        "ts": "1465418745.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its cool. its hard to guess at it without throwing some examples at it",
+        "ts": "1465418773.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in general, we only saw performance degredation on singular images &gt; 20MB in size",
+        "ts": "1465418793.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and since a gif is a packed set of single images, it would follow that as long as no single frame is greater than 20mb we'd be ok",
+        "ts": "1465418814.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ON THE OTHER HAND",
+        "ts": "1465418816.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in kooons we found that the file size (once it got up around a meg for a frame) started to drop framerate",
+        "ts": "1465418834.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(given the amount of time needed to decode the frame into memory)",
+        "ts": "1465418844.000066"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thats super helpful",
+        "ts": "1465419375.000067"
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i used to use google fit all the time without issue, but i stopped a few months ago in favor of fitbit",
+        "ts": "1491236894.034382"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Hey team, just a heads up. I’m going to go out around 2pm, for an afternoon day in the park with my sister for my birthday. Even though we live in the same house I hardly see her because she works nights and weekends at the ER, womp womp.\nAlso, I think I may WFH tomorrow and go heads down on getting the code recognition piece into the onboarding flow. I have another afternoon meeting with my engineer to hammer out a detail that the county raised with my plans.\nUnless something new comes up from the client, I’ll be cleaning up some of the quick fixes we made to the onboarding flow to get that over to them",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1491239318.000000"
+        },
+        "ts": "1491238670.516309"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> I added shake detection to Trends like you requested. Did Natalie specify if she wanted this shake APK to include the new onboarding flow? Also does she want double tap to show next trend to be disabled?",
+        "ts": "1491241936.412491"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "she hasnt specified yet - i shared these builds (requested by kat in jan) that do not include pairing + asked her to tell us if we need to combine <https:\/\/drive.google.com\/drive\/folders\/0BwP7wEvrJF7VZkFHbEk2ZHl6OVE?usp=sharing>",
+        "ts": "1491242281.510521"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "they include:",
+        "ts": "1491242320.521907"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "_Double tap_\n- trends no longer advance on double tap (advance based on phone wake up\/ app exit)\n- double opens search (replacing NFC button)\n\n_Shake_\n- trend advance via double tap (consistent with current) \n- shake launches news (replacing NFC button)\n- shake not currently implemented for non-default shortcuts (ie - does not trigger, say “flashlight” let us know if this is needed and we can update accordingly)",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1491242391.000000"
+        },
+        "ts": "1491242321.522230"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not sure where this lives in the code, but ill keep you posted on what i hear from natalie on if we need to combine or alter",
+        "ts": "1491242352.531135"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sounds good! It should only take me a few minutes to change this so just keep me posted on what she wants.",
+        "ts": "1491242394.543282"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "perfect thank you!",
+        "ts": "1491242400.545296"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "From Bonnie’s email &amp; that issue, we haven’t pushed out any updates that address those nefarious background crashes. It sounded like she thought maybe there was a fix for that in the Places update?",
+        "ts": "1491248609.203461"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I think she's more letting us know in hopes we can find a solve",
+        "ts": "1491249695.484861"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "any thoughts on what might cause this?",
+        "ts": "1491249737.496472"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "the issue itself is a background crash that will then unset us from the wallpaper and puts the OS’s default background onscreen.\nFor what is actually causing this falls into that bucket of undetermined crasher sources we’ve been butting up against the last couple of weeks unfortunately",
+        "ts": "1491250077.585992"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh so same earth\/artworks issue :disappointed:",
+        "ts": "1491250181.611967"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so we know shit is breaking but have no way to proceed?",
+        "ts": "1491250286.638550"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Not necessarily the same mechanism or point of failure, but in so far has never been able to be consistently reproduced to track down what is failing for those users who wrote in",
+        "ts": "1491250353.655107"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay, just so im clear - are there any steps we can take (that we havent already taken) to try to identify what the cause might be?",
+        "ts": "1491250615.720801"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or do you feel like we covered all of the bases with last weeks investigation?",
+        "ts": "1491250627.723826"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(just trying to figure out how to respond to adam)",
+        "ts": "1491250636.726083"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I feel like I’ve scrapped the bottom for what could consistently be happening. \nThe more I’ve been thinking about it, the more I think that on the path where we load the bitmap, we should catch Out of memory errors and all Runtime Exceptions, then hit a new endpoint we build to give us more context (image attempted, case type, error type, or whatever else we can under their PII restrictions), and then put in a level of fallback or error messaging for the user. \nIt isn’t ideal. As in dark arts of programming practice. It will take some thinking through, so wouldn’t be a day-of fix. My reasons to justify it are: these are very edge case-y, infrequent and not reproducible on our end but high stakes bugs. Then, we will be uploading the logs to give us an idea of what’s breaking so that we won’t be relying on this crutch for long and can fix the underlying issue. \nI’m going to lean on <@U026PHQ3J> for his discretion, but it is the last thing I can think of that would alleviate some of these recent issues that have come over. For what it’s worth, on Friday I made a build that would intentionally blow up the memory on an image in the wallpaper slideshow and it was able to handle moving on to the next gracefully.",
+        "ts": "1491251622.982156"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> natalie is now asking for pairing flow+ shake w\/ trends (double tap = advance term, shake to open search)",
+        "ts": "1491265864.432794"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "they are testing tomorrow :disappointed: so the goal would be to get this to them as quickly as possible tomorrow AM",
+        "ts": "1491265893.435974"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No problem! I didn't bring my computer home with me this evening but I'll come in earlier tomorrow so I can get it to her ASAP ",
+        "ts": "1491272565.111257"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "really appreciate that summer! thank you! ",
+        "ts": "1491272629.116838"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "We need to do it to prove this in user research, but I've been running trends shake-to-open tonight and it's THE WORST. every time I put my phone down search opens. it's super jarring and annoying. #nothappenin",
+        "ts": "1491281146.431410"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":sickymouse:",
+        "ts": "1491281163.432713"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "it made me hate trends. and I LOVE trends. uninstall",
+        "ts": "1491281204.435708"
+    }
+]

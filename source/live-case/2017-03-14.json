@@ -1,0 +1,253 @@
+[
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "for example:",
+        "attachments": [
+            {
+                "fallback": "1024x1024px image",
+                "image_url": "http:\/\/mars.jpl.nasa.gov\/msl-raw-images\/proj\/msl\/redops\/ods\/surface\/sol\/01000\/opgs\/edr\/fcam\/FLB_486265257EDR_F0481570FHAZ00323M_.JPG",
+                "image_width": 1024,
+                "image_height": 1024,
+                "image_bytes": 417579,
+                "id": 1,
+                "color": "D0D0D0",
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/nerds\/p1489442096958283",
+                "is_share": true
+            }
+        ],
+        "ts": "1489509889.038826"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "front camera ^^",
+        "ts": "1489510067.096897"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<https:\/\/www.google.com\/destination\/compare?q=south+america+destinations&amp;safe=strict&amp;espv=2&amp;biw=1274&amp;bih=681&amp;site=search&amp;output=search&amp;dest_mid=\/m\/06n3y&amp;sa=X&amp;ved=0ahUKEwja88OBic3SAhVSVWMKHeSXAUcQ6tEBCDkoBDAA#dest_mid=\/m\/06n3y&amp;tcfs=[null,null,1]&amp;trifp=cfs%3D[null,null,null,[]]%26t%3De>",
+        "ts": "1489512298.812953"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey gang - posting (ROUGH) notes from brainstorm here in case anyone has any additional ideas post-meeting they want to add <https:\/\/docs.google.com\/document\/d\/1xhvZbdIbLBmIAq8Ft6kTj4nVCjUnqRtl0mh-DF5Zss4\/edit>",
+        "ts": "1489514179.402581"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "havent had time to clean this up, but wanted to at least provide a space to dump stuff - i’ll make nice before our earth brainstorm :rocket:",
+        "ts": "1489514275.433655"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> <@U3ZFEAPSP> added some comments\/questions to the TDD + Systems Health doc - can you take a look and resolve\/update if needed? I’d like <@U026PHQ3J> to review before we deliver to Bonnie today",
+        "ts": "1489516311.053392"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i know you both are working on stuff, so just let me know when you’ve had a chance to look at \/ confirm you’re good to go :slightly_smiling_face:",
+        "ts": "1489516337.061233"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I think Oliver might be able to speak more to whether or not we would need any additional use cases as I’m not entirely sure what else he changed. As for the geofencing use case, I still have not been able to actually run any stats since I can’t seem to trigger a new tile download even when lowering the minimum displacement.",
+        "ts": "1489516665.158808"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Is it necessary to have that use case?",
+        "ts": "1489516692.166360"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> <@U2H61EJSG> \nThe new style updates effects will be captured by the just setting the wallpaper for a new style test. This will see the impact of hitting the new tile request endpoint. Other than that there isn’t really anything for testing system health",
+        "ts": "1489517264.335849"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F>, I got a fix for the cropping issue to work, now I need to implement it.  I probably won’t have it ready to send out for internal testing until EOD today, but there should be a debug build ready to send to Google for tomorrow.",
+        "ts": "1489524262.235981"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks for the update!",
+        "ts": "1489527457.035590"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> ill follow up with google now that we have a better sense of timing - so if you find that you estimate shifts as you get deeper into the implementation please raise a flag for me",
+        "ts": "1489528234.203155"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4JFDUUCD\/image_rotate_fix.apk|image_rotate_fix.apk>",
+        "file": {
+            "id": "F4JFDUUCD",
+            "created": 1489529512,
+            "timestamp": 1489529512,
+            "name": "image_rotate_fix.apk",
+            "title": "image_rotate_fix.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 34559033,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4JFDUUCD\/image_rotate_fix.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4JFDUUCD\/download\/image_rotate_fix.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4JFDUUCD\/image_rotate_fix.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4JFDUUCD-f293208681",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1489529514.467510"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Now with less rotation of Midori’s cats on our wallpapers :slightly_smiling_face:\nAlso, fixed a crash if you tapped the Crop button before the image had loaded from disk (Button is disabled until the photo is loaded, make sure it doesn’t get into a state of it not enabling, it should only stay that way if there was an error loading the image).\nIf you give it a test, check on other images for cropping as well. Unfortunately the cropping performance has taken a hit because we now read in the full image, but that performance is only seen at the saving the writing the image to disk, let me know if you have any issues memory-wise with that, I tried to use large photos from my phone)",
+        "ts": "1489529959.550034"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> do you mind doing a pass at testing the build? I'm in meetings for the rest of the day :\/",
+        "ts": "1489530019.560878"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No problemo!",
+        "ts": "1489530081.572201",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "and code is at \/origin\/mlc-94\nif anyone wants to take a look over that",
+        "ts": "1489530135.581786"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "thanks summer",
+        "ts": "1489530149.584418"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> I haven’t noticed any issues with image orientation - woot!\nHowever, to clarify, what exactly should I be looking for in regards to the cropping functionality? I haven’t noticed any issues cropping the case image or images that were taken with the device’s camera, but I am unable to crop any of Midori’s cat images. I assume that has to do with the aspect ratio of the images though. Is there anything that I neglected to look over?",
+        "ts": "1489531591.831719"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yep, <@U026PHQ3J> had been saying that the aspect ratio would work out that way for those images.\nI think that is the desired result, that cropping works without noticing anything has changed",
+        "ts": "1489533273.090993",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "thanks summer.",
+        "ts": "1489533294.093949"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4HNLJY7J\/places_color_talkback.apk|places_color_talkback.apk>",
+        "file": {
+            "id": "F4HNLJY7J",
+            "created": 1489538814,
+            "timestamp": 1489538814,
+            "name": "places_color_talkback.apk",
+            "title": "places_color_talkback.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 34592620,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4HNLJY7J\/places_color_talkback.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4HNLJY7J\/download\/places_color_talkback.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4HNLJY7J\/places_color_talkback.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4HNLJY7J-dcfc558e6b",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1489538816.793451"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "^from the release-69 branch, updated to include color in the talkback as, ‘color’ + ‘style’ \nchanges pushed to that branch as well",
+        "ts": "1489538838.795873"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "team, I'll be in the office around 10:15 but reachable before then so just ping me if you need (sorry for the short notice - forgot I had an appt on the calendar) ",
+        "ts": "1489544210.347611"
+    }
+]

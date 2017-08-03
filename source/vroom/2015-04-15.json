@@ -1,0 +1,296 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U04B6F5MV> <@U0289USNA>  got this message in my logcat this morning:",
+        "ts": "1429112148.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "04-15 08:34:23.986  19140-19140\/org.joinvroom.dailyvroom.develop V\/com.parse.PushService﹕ Tried to use push, but this app is not configured for push due to: Push is not configured for this app because the app manifest is missing required declarations. Please add the following declarations to your app manifest to support either GCM or PPNS for push (or both). To enable GCM support, please make sure that these permissions are declared as children of the root &lt;manifest&gt; element:\n    &lt;uses-permission android:name=\"android.permission.INTERNET\" \/&gt;\n    &lt;uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" \/&gt;\n    &lt;uses-permission android:name=\"android.permission.VIBRATE\" \/&gt;\n    &lt;uses-permission android:name=\"android.permission.WAKE_LOCK\" \/&gt;\n    &lt;uses-permission android:name=\"android.permission.GET_ACCOUNTS\" \/&gt;\n    &lt;uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" \/&gt;\n    &lt;permission android:name=\"org.joinvroom.dailyvroom.develop.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" \/&gt;\n    &lt;uses-permission android:name=\"org.joinvroom.dailyvroom.develop.permission.C2D_MESSAGE\" \/&gt;\n    Also, please make sure that these services and broadcast receivers are declared as children of the &lt;application&gt; element:\n    &lt;service android:name=\"com.parse.PushService\" \/&gt;\n    &lt;receiver android:name=\"com.parse.GcmBroadcastReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"&gt;\n    &lt;intent-filter&gt;\n    &lt;action android:name=\"com.google.android.c2dm.intent.RECEIVE\" \/&gt;\n    &lt;action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" \/&gt;\n    &lt;category android:name=\"org.joinvroom.dailyvroom.develop\" \/&gt;\n    &lt;\/intent-filter&gt;\n    &lt;\/receiver&gt;\n    To enable PPNS support, please make sure that these permissions are declared as children of the root &lt;manifest&gt; element:\n    &lt;uses-permission android:name=\"android.permission.INTERNET\" \/&gt;\n    &lt;uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" \/&gt;\n    &lt;uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" \/&gt;\n    &lt;uses-permission android:name=\"android.permission.VIBRATE\" \/&gt;\n    &lt;uses-permission android:name=\"android.permission.WAKE_LOCK\" \/&gt;\n    Also, please make sure that these services and broadcast receivers are declared as children of the &lt;application&gt; element:\n    &lt;service android:name=\"com.parse.PushService\" \/&gt;\n    &lt;receiver android:name=\"com.parse.ParseBroadcastReceiver\"&gt;\n    &lt;intent-filter&gt;\n    &lt;action android:name=\"android.intent.action.BOOT_COMPLETED\" \/&gt;\n    &lt;action android:name=\"android.intent.action.USER_PRESENT\" \/&gt;\n    &lt;\/intent-filter&gt;\n    &lt;\/receiver&gt;\n04-15 08:34:25.826  19140-19140\/org.joinvroom.dailyvroom.develop V\/com.parse.ParseBroadcastReceiver﹕ received android.intent.action.USER_PRESENT",
+        "ts": "1429112149.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Not sure how real it is",
+        "ts": "1429112152.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Is that cause it only works on production and the dev manifest doesn't declared it?  Totally guessing.  ",
+        "ts": "1429112344.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U0261PCRQ>?",
+        "ts": "1429112352.000006"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "Taking a look now.",
+        "ts": "1429113860.000007"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "The following permissions are specified for Production :",
+        "ts": "1429114227.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Scott is probably right on this one",
+        "ts": "1429114299.000009"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "&lt;permission android:name=\"org.joinvroom.dailyvroom.[_xxxdevelopxxx_].permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" \/&gt;\n   &lt;uses-permission android:name=\"org.joinvroom.dailyvroom.[_xxxdevelopxxx_].permission.C2D_MESSAGE\" \/&gt;",
+        "ts": "1429114304.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "if I recall correctly, Parse was pickier about the permissions than Urban Airship was",
+        "ts": "1429114319.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I had done some of these changes on master previously (sorry), maybe we should try pulling them onto the latest branch",
+        "ts": "1429114530.000012"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "The following appear in the develop flavor manifest",
+        "ts": "1429114571.000013"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "?   &lt;receiver android:name=\"com.parse.GcmBroadcastReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"&gt;\n   &lt;intent-filter&gt;\n? (in develop flavor manifest)  &lt;action android:name=\"com.google.android.c2dm.intent.RECEIVE\" \/&gt;\n? (in develop flavor manifest)  &lt;action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" \/&gt;",
+        "ts": "1429114573.000014"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "And in the production flavor manifest.",
+        "ts": "1429114613.000015"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "I'm guessing adding develop to the permissions above will do the job. Not sure how to test.",
+        "ts": "1429114696.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the packages in the permission and actions you listed should be the google ones, but does the Manifest list this: &lt;permission android:name=\"org.joinvroom.dailyvroom.develop.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" \/&gt; ??",
+        "ts": "1429114880.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Not sure if you saw what I said above, but we may want to pull changes from master into develop (or whichever branch you’re on)",
+        "ts": "1429114976.000018"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "The manifest had the listing missing the \"develop\" segment.",
+        "ts": "1429114977.000019"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "I'm working in development now.",
+        "ts": "1429114992.000020"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "But keeping an eye on differences.",
+        "ts": "1429115004.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the latest changes seem to be on the git branch Analytics2, we should probably pull in changes from the master branch",
+        "ts": "1429115085.000022"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "I have added the above \"permission\" and \"uses-permission\" tags to the \"develop\" flavor manifest and given them \"develop\" segments.",
+        "ts": "1429115257.000023"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "I also note (in a diff between my analytics2 and origin\/master) that the lines:\n--keep class com.parse.** { *; }\n--keep public class org.joinvroom.dailyvroom.PushBroadcastReceiver\n--keep public class org.bezosfamilyfoundation.vroom.PushBroadcastReceiver",
+        "ts": "1429115737.000024"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "have been removed from the proguard-vroom.txt file",
+        "ts": "1429115750.000025"
+    },
+    {
+        "text": "[Vroom\/Analytics2] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom\/commits\/c2d3f8527ee1262b5b0f75cfdfd42df23abf913c|c2d3f8527ee1>: Adjust gcm parse issue in manifests.\n - Daniel Kahn",
+        "username": "bitbucket",
+        "bot_id": "B026P8PHP",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1429116024.000026"
+    },
+    {
+        "text": "[Vroom\/Analytics2] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom\/commits\/7513d4dbb9748fcb2cd31c22110884ca2e14daf1|7513d4dbb974>: Commit post master merge.\n - Daniel Kahn",
+        "username": "bitbucket",
+        "bot_id": "B026P8PHP",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1429118546.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U0289USNA>",
+        "ts": "1429122358.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U04B6F5MV>: sorry that this didn't get communicated, I didn't realize we were ready for Ad words",
+        "ts": "1429122379.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "here's the note from the client:",
+        "ts": "1429122386.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Hi Mary, \n\nThe Google Analytics ID specific to the Android app is UA-43489969-4.\n\nWith regards to the Google AdWords codes we previously sent you - we’d actually like you guys to hold on that implementation if you can until we get back to you. Google is going through the process of approving our Google Grant application and we should have approval in the next 3 days. At that time - we’ll follow up with the latest and final codes from Google AdWords that we’ll need implemented in the apps.  Google accidentally had us submit two accounts - so we may need to send you new Google AdWords conversion codes. \n\nWe’ll keep you updated and thanks!\n\n-Ben",
+        "ts": "1429122393.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Looks like the codes might be changing",
+        "ts": "1429122406.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U0289USNA>: what are your thoughts?",
+        "ts": "1429122452.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "We are not ready for adwords",
+        "ts": "1429124610.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "because ben is not ready for adwords",
+        "ts": "1429124621.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "he said hold off - so I am holding off.",
+        "ts": "1429124646.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U04B6F5MV>: should be doing AppsFlyer right now",
+        "ts": "1429124663.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "and then we are moving on to groups",
+        "ts": "1429124677.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "just got an email relating to that so i forwarded it to mary and scott",
+        "ts": "1429124685.000039"
+    },
+    {
+        "type": "message",
+        "user": "U04B6F5MV",
+        "text": "eating lunch right now. Then back to AppsFlyer.",
+        "ts": "1429125227.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I didn't get it Abby ",
+        "ts": "1429128545.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Can you please resend?",
+        "ts": "1429128572.000042"
+    },
+    {
+        "text": "[Vroom\/AppsFlyer] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom\/commits\/8ab26214aed41395cd429a5be51f4777f315c314|8ab26214aed4>: Integrate App Flyer\n - Daniel Kahn",
+        "username": "bitbucket",
+        "bot_id": "B026P8PHP",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1429128727.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yep one sec ",
+        "ts": "1429128770.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02688JHZ> doing some work on vroom today to add support for research groups and I'm not on any vroom-y project on harvest. Will you add me?",
+        "ts": "1429136021.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hey jenny mary is in transit at the moment, i assume this is for evansville correct?",
+        "ts": "1429136277.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yep",
+        "ts": "1429136284.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool, i added you to that harvest",
+        "ts": "1429136292.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thanks abby!",
+        "ts": "1429136411.000049"
+    }
+]

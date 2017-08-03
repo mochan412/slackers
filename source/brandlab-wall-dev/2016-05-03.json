@@ -1,0 +1,50 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: good morning!  Would you be abel to get eyes on the DR API that Josh sent before lunch?  Mostly curious if we have connection or digestion questions.  i’m also not sure how we seed test data into it. i can easily work through this with Josh today if you have time for it",
+        "ts": "1462297270.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool i can do that.",
+        "ts": "1462297404.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thnaks man",
+        "ts": "1462297832.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looking at this again, i am seeing a possible interesting bit in how this has to work. the api has a call out for which brands it knows about, and an associated ID. This is cool. Now here is the odd part. The flow from that to the user list. This is not an issue with their api but more in how IS works. We go to make a new workshop, we enter a name, cool. now sent to the page to edit the admin for the workshop. the system will make a call out to their api, get a list of the brands. now if the name of the workshop provided matches any of the ones there, thats great, we now have the id for this brand and can get the list of participants. another call is made and the list is grabbed, this should happen pretty quickly might be a slight lag but the user probably doesnt notice and we are all cool. now if the brand doesnt match any of the ones provided, i will need to display an error and they can change the name, thats fine, no problem. this means that text field really should be a drop down as they must have a name that matches the api, ok fine. now if there isnt a match, I will show an error message. but also should hide the rest of the admin till this is fixed. as there are no participants and this is a huge issue so continuing isnt an option. Now none of this is a deal breaker here, I just think this is something I have to call out here as how the system works and what I will work against here in finishing up this part. Going to start getting that api integrated now. got through about half of the comments in invision and been tightening up the admin. there are other outstandings i listed in the trello card",
+        "ts": "1462299246.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U0ML49XU0>: ^ and had an issue with the api, sent a response with a question to the email",
+        "ts": "1462306184.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "their sample auth from the doc did work tho, but it wasnt actually pointed at the right api, im sure the client id sent over is the right api, but not sure what the redirect url setup is",
+        "ts": "1462306247.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool so in catching up on the emails <@U0EL0GLEL> looks like we are blocked til we hear back from myles.",
+        "ts": "1462324695.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "On that part yeah",
+        "ts": "1462324957.000042"
+    }
+]

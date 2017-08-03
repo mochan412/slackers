@@ -1,0 +1,350 @@
+[
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U02688JHZ> <@U026PT0D7> I’m heading out for the night - but I will be working over the weekend - you can follow along on trello if you want to see my status",
+        "ts": "1430525499.000002"
+    },
+    {
+        "user": "U026PHQ3J",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026PHQ3J|evans> has joined the channel",
+        "ts": "1430526134.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "hey guys, gonna take off in a little bit. \n\nif you guys need any design support from me, feel free to shoot me an email or message me on here. i should be available mid afternoon saturday, and should be available most of sunday.",
+        "ts": "1430526733.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so should i be able to run from the stickerModel branch?",
+        "ts": "1430527964.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause right now i get an exception while trying to add my first frame",
+        "ts": "1430527971.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "there are a lot of commits like that",
+        "ts": "1430528010.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "but I don't know the answer to your question",
+        "ts": "1430528039.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh. it looks like there’s no overlay button in the ipad cameraview",
+        "ts": "1430528591.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I’m adding the dropdown in the xib",
+        "ts": "1430528910.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "<@U026PHQ3J> the iPad version doesn't have the overlay drop down because it had more space.",
+        "ts": "1430529071.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1430529088.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’ll add the buttons then",
+        "ts": "1430529092.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "Is this a problem on the dev side? (Having the iPhone version be different)?",
+        "ts": "1430529097.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(just finished putting the dropdown in place)",
+        "ts": "1430529103.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not a problem to rip it out",
+        "ts": "1430529107.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "Okay cool",
+        "ts": "1430529125.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok just added them onto the bar",
+        "ts": "1430529498.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can use the app on the ipad now",
+        "ts": "1430529498.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the video object in mergeVideoAndAudio has no tracks :confused:",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1430529762.000000"
+        },
+        "ts": "1430529747.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "anyone have any tips on how to get the camera to enable on simulator?",
+        "ts": "1430530157.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "apparently it's impossible <http:\/\/stackoverflow.com\/a\/25486148\/1167833>",
+        "attachments": [
+            {
+                "title": "How to access iOS simulator camera",
+                "title_link": "http:\/\/stackoverflow.com\/a\/25486148\/1167833",
+                "text": "Hi friends i am doing camera app. i need to test the app in simulator but i can't able to access the iOS simulator camera. Any help for my problem. If not possible in simulator means i need to acc...",
+                "fallback": "How to access iOS simulator camera",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/stackoverflow\/img\/apple-touch-icon@2.png?v=ea71a5211a91&a",
+                "from_url": "http:\/\/stackoverflow.com\/a\/25486148\/1167833",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1430530208.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So its not possible to test the app on simulator at all?",
+        "ts": "1430530378.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Like doesnt fall back to gallery automatically?",
+        "ts": "1430530394.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "when you create a new movie, it sends you directly to the camera view. Exit out of that and you should be able to Add Frame, either from camera roll or LEGO library (interstitials)",
+        "ts": "1430530462.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "got it",
+        "ts": "1430530517.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7> you working on this this weekend?",
+        "ts": "1430532299.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to debug the missing video thing on the iPad which seems to be related to the avaudio delegate changes",
+        "ts": "1430532346.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I wasn't planning on working on lego this weekend. kegerator and woodworking tomorrow. homebrewing sunday.",
+        "ts": "1430532593.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok could you and scott please make the trello board less pointless before you duck out for the weekend",
+        "ts": "1430532933.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I think Scott is going to work on the hit list board this weekend. I can add cards to it tracking my own set of problems.",
+        "ts": "1430532972.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026PHQ3J> yes I am working on Lego this weekend.  The ONLY column on that trello board that currently means anything is the first column which I started last night with things I knew of top of mind and then have been adding to it throughout today.  The resolved column are the items I got done during the day today. ",
+        "ts": "1430533965.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok cool",
+        "ts": "1430534081.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks",
+        "ts": "1430534083.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I assigned myself to two cards in the hitlist which is what I will be picking off first. ",
+        "ts": "1430534106.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U0289USNA> alright if I add my own cards to the hit list?",
+        "ts": "1430534141.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "or should I make my own board?",
+        "ts": "1430534157.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "If all your cards are specific to the interstitials then I would like to keep that in a new list and keep this hitlist for bugs and such as we clean up the rest of the app",
+        "ts": "1430534238.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok",
+        "ts": "1430534256.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026PHQ3J> I know you are all simulator centric but on Lego I'm generally always on a device.",
+        "ts": "1430534374.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hahah nah I just didn't understand why it was giving me such a weird error",
+        "ts": "1430534668.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm pushed into the `interstitials` branch, and I did a little trello work in a new board. heading home now, I'm available via email\/DM\/@mention tonight and this weekend, and I'm able to put minutes of work into it as needed, but I am not able to put hours of work into it.",
+        "ts": "1430535292.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "tracked down the crash i introduced, <@U0289USNA>",
+        "ts": "1430539735.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its fixed and pushed",
+        "ts": "1430539740.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the deprecated since 6.0 warnings are clean now. Going back to make sure i caught it everywhere",
+        "ts": "1430539763.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Awesome thanks!",
+        "ts": "1430540087.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I think I brought an iOS 6 device home so I'll pull and try running on that device.",
+        "ts": "1430540188.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we just made a really intense movie of my big white dog chewing his leg",
+        "ts": "1430540188.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool. i think i’m hitting memory crashes",
+        "ts": "1430540200.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i added an all exceptions breakpoint to the project so theoretically you can catch where it fail",
+        "ts": "1430540223.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fails",
+        "ts": "1430540224.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one of the avassetwriter functions is now block based, which is why there are a few places to clean up",
+        "ts": "1430540238.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and also why the video was always 0 seconds long after i updated it",
+        "ts": "1430540253.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Oh wow. ",
+        "ts": "1430540261.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i also cleaned up a bunch of long\/int crap (thanks, apple - bunch of jerks with your unsigned long indexPaths)",
+        "ts": "1430540383.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "yeah and just when they get you all used to that %lu they bring swift along and it’s all la-dee-dah just use ‘int’ for everything",
+        "ts": "1430540693.000015"
+    }
+]

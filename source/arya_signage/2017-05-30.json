@@ -1,0 +1,99 @@
+[
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<!here|@here> : Melodee has removed any confusing prototype by-products and has replaced with new placeholders! (Thank you Melodee!)\nSigns now is ready to go into production, all they need is a CRCD for the deposit, and our final treatment for the \"shop\".",
+        "ts": "1496188524.138158"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "After some chatting with folks, sounds like \"Wood Shop\" is most correct, but know that Josh internally calls it the \"Chop Shop\". Thoughts?",
+        "ts": "1496188575.146327"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Thanks Matt, I can provide payment tomorrow morning. \n\nAnd personally I prefer Wood Shop, but I also don't really feel like I have a dog in the fight. <@U0265G76F> <@U02918BKW> do you guys have a preference? ",
+        "ts": "1496190073.373129"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "remember slack voting?",
+        "ts": "1496190243.396335"
+    },
+    {
+        "text": "<@U026103R3> used `\/poll`!",
+        "username": "polly",
+        "icons": {
+            "image_48": "https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2017-02-13\/140155532385_48.png"
+        },
+        "bot_id": "B331Q5YJJ",
+        "attachments": [
+            {
+                "callback_id": "6SQaA6MEJoyqWmuXt",
+                "fallback": "What name do you prefer",
+                "title": "What name do you prefer",
+                "id": 1,
+                "color": "35A8E0",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "one",
+                        "text": "Wood Shop",
+                        "type": "button",
+                        "value": "0",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "two",
+                        "text": "Chop Shop",
+                        "type": "button",
+                        "value": "1",
+                        "style": ""
+                    }
+                ]
+            },
+            {
+                "callback_id": "6SQaA6MEJoyqWmuXt",
+                "fallback": "What name do you prefer",
+                "id": 2,
+                "fields": [
+                    {
+                        "title": "Wood Shop",
+                        "value": "`▇▇▇▇▇▇▇▇▇▇▇▇▇` 33% (2)\n<@U0GN0A9EV>, <@U0260V1BX>",
+                        "short": false
+                    },
+                    {
+                        "title": "Chop Shop",
+                        "value": "`▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇` 67% (4)\n<@U0HPGQ4KH>, <@U02918BKW>, <@U0H4SJN11>, <@U026PLK4S>",
+                        "short": false
+                    },
+                    {
+                        "title": "Total votes",
+                        "value": "6",
+                        "short": true
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "3",
+                        "name": "add_comments",
+                        "text": "Add a Comment",
+                        "type": "button",
+                        "value": "MNsyEzBH9ByBbQh3C",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1496190396.417237"
+    }
+]

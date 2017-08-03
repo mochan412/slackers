@@ -1,0 +1,101 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I’m investigating YOLO as a replacement for the bib localizer",
+        "ts": "1490842718.619564"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes. Yolo.",
+        "ts": "1490842726.620444"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/github.com\/thtrieu\/darkflow>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "thtrieu\/darkflow",
+                "title_link": "https:\/\/github.com\/thtrieu\/darkflow",
+                "text": "darkflow - Translate darknet to tensorflow. Load trained weights, retrain\/fine-tune using tensorflow, export constant graph def to mobile devices",
+                "fallback": "GitHub: thtrieu\/darkflow",
+                "from_url": "https:\/\/github.com\/thtrieu\/darkflow",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/9194247?v=3&s=400",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1490842956.648438"
+    },
+    {
+        "type": "message",
+        "user": "U4K0WAADP",
+        "text": "Nice, I'm familiar with that YOLO actually -- there's some impressive demo videos on YouTube using it to do those red-boxed labeled identifications on really fast-action movie trailers.",
+        "ts": "1490854182.805363"
+    },
+    {
+        "type": "message",
+        "user": "U4K0WAADP",
+        "text": "<https:\/\/youtu.be\/VOC3huqHrss>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "YOLO v2",
+                "title_link": "https:\/\/youtu.be\/VOC3huqHrss",
+                "author_name": "YOLO Object Detection",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UC7ev3hNVkx4DzZ3LO19oebg",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/VOC3huqHrss\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: YOLO v2",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/VOC3huqHrss?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/youtu.be\/VOC3huqHrss",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1490854271.815976"
+    },
+    {
+        "type": "message",
+        "user": "U4K0WAADP",
+        "text": "And when I say \"I'm familiar with that\", what I actually mean is: _i am not at all FAMILIAR with that, but I've heard of it and watched some rad videos showing it_ ",
+        "ts": "1490854366.827930",
+        "reactions": [
+            {
+                "name": "nerd_face",
+                "users": [
+                    "U026PHQ3J"
+                ],
+                "count": 1
+            },
+            {
+                "name": "smile",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so there’s a framework that yolo is closely tied to called darknet",
+        "ts": "1490854812.881934"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right now i’m working on a training set for darknet that will do localization based on the yolo2 implementations (which innnnn therrooorrryyyyy) could be used in video to at least track bib locations",
+        "ts": "1490854865.888533"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "user": "U027PV4AP",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U027PV4AP|stephanie> has left the channel",
+        "ts": "1442159782.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U026PT0D7>, <@U02618EV1>: quick status update…dev branch now has core angular plumbing on project routes that reads data from the API and then renders accordingly (including route links). the Chronos link will 404 on the API since I left that one in as a dummy to show styling and the project ID is non-existent. the API has been updated to return dummy data that’s consistent across interfaces, and will return single people and projects on those endpoints.",
+        "ts": "1442207898.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "all that got merged into dev and deployed on the server.",
+        "ts": "1442207915.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "There is a UI issue to take a look at tomorrow: the project partial isn’t filling the frame vertically with the RESOURCES and TASKS columns - they get truncated to however long the RESOURCES list is...",
+        "ts": "1442207972.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "that’s enough fun for 1 night…catch you in the AM",
+        "ts": "1442208012.000005"
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the method we used yesterday to add vroom_group information to the GA checkpoints isn’t going to work. Looking into custom Dimensions now to see if that’s the right route.",
+        "ts": "1433436604.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> it looks like you can set custom dimensions on a tracker",
+        "ts": "1433438584.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "NSString *dimensionValue = @\"SOME_DIMENSION_VALUE\";\n[tracker set:[GAIFields customDimensionForIndex:1] value:dimensionValue];",
+        "ts": "1433438592.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh cool. i thought it was by event",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1433438707.000000"
+        },
+        "ts": "1433438702.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "all the examples show by event, but if you create a dimension with a User scope it shows examples for each platform like above",
+        "ts": "1433438796.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that said, the Android example might have been for v3 instead of v4, still trying to figure that out",
+        "ts": "1433438813.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, it was for v3, I’m going to have to set it on eah hit",
+        "ts": "1433439714.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "supposedly, if I do it once, it should carry over to subsequent calls, but I don’t really trust it",
+        "ts": "1433439732.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "The answer to this question might be obvious, but I'm going to ask anyway. Since we're trying to figure out the best way to report on these user groups, and aren't sure yet, is it safe to assume that we need to push back our delivery? I'd like to give the client a heads up, but thought I'd verify.",
+        "ts": "1433441784.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "if this works correctly, I should still be ready tomorrow, but if it’s the wrong solution, yes, we’ll need more time",
+        "ts": "1433441923.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: I set up this dimension with a user scope which seems like it should carry over to following hits. Because of this, we may have to send a null value if no group is set.",
+        "ts": "1433442021.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Thanks, <@U0261PCRQ>!",
+        "ts": "1433442027.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "recorded some analytics, they should appear in GA tomorrow :fingerscrossed:",
+        "ts": "1433443337.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I’ll add mine now",
+        "ts": "1433445165.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<@U02688JHZ>: working on submission materials now. It would be a real help if I knew specially what iTunes and Google Play need as far as images and assets are concerned. \n\nIt may not the same as before, as there are iPhone 6’s and 6+’s into the mix.  Also, are they still asking for 3.5” stuff like we did previously? And lastly, are there any changes to icon sizes, featured images, etc.",
+        "ts": "1433456603.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PLK4S> and <@U02688JHZ> don’t forget about Amazon",
+        "ts": "1433456716.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I dont think I ever made anything specifically for Amazon… Maybe we just re-used google stuff.",
+        "ts": "1433456760.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Just found\/fixed a nasty bug in leaving groups in iOS. Will need help testing the spanish (which I _think_ is done)",
+        "ts": "1433458732.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think <@U0261PCRQ> if we just side by side the apps, we’ll be good",
+        "ts": "1433458745.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X> - your spacing fix looks good!",
+        "ts": "1433458877.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thank you",
+        "ts": "1433458878.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "np :smile_cat:",
+        "ts": "1433458920.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "woo",
+        "ts": "1433459105.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Thanks, <@U026PLK4S> Abby confirms that amazon assets are the same as google.",
+        "ts": "1433460119.000026"
+    }
+]

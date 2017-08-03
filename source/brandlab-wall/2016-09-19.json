@@ -1,0 +1,189 @@
+[
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Reminder: Remember to log your time in Harvest!",
+        "ts": "1474308000.000058"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U243UT96G> and <@U2670DYLE> joel an di had a meeting this morning. let’s tighten up the feedback loop by checking in and talking more.  in parallel, we’re reaching out to google again this week to see if we can get some insight into showtime rollout",
+        "ts": "1474308526.000059",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U0HPGQ4KH",
+                    "U243UT96G"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> wfh this afternoon.  fully avail",
+        "ts": "1474308733.000060"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "This is a great comprehensive write-up of animations on the web that I stumbled upon today:  <https:\/\/medium.com\/@fmuaddib\/the-following-are-the-possible-ways-to-create-professional-animations-in-svg-9d4caca5f4ec#.w217e0u68>",
+        "attachments": [
+            {
+                "service_name": "Medium",
+                "title": "The following are the possible ways to create professional animations in SVG:",
+                "title_link": "https:\/\/medium.com\/@fmuaddib\/the-following-are-the-possible-ways-to-create-professional-animations-in-svg-9d4caca5f4ec#.w217e0u68",
+                "text": "1) ANIMATE WITH SMIL",
+                "fallback": "Medium: The following are the possible ways to create professional animations in SVG:",
+                "image_url": "https:\/\/cdn-images-1.medium.com\/max\/1200\/1*jVi1CDKrGChnFEIkq4aAlA.jpeg",
+                "fields": [
+                    {
+                        "title": "Reading time",
+                        "value": "15 min read",
+                        "short": true
+                    }
+                ],
+                "ts": 1457816948,
+                "from_url": "https:\/\/medium.com\/@fmuaddib\/the-following-are-the-possible-ways-to-create-professional-animations-in-svg-9d4caca5f4ec#.w217e0u68",
+                "image_width": 703,
+                "image_height": 250,
+                "image_bytes": 79043,
+                "service_icon": "https:\/\/cdn-static-1.medium.com\/_\/fp\/img\/apple-touch-icon-ipad-retina.Akq8aSfZqfW1fceMxKqBZA.png",
+                "id": 1
+            }
+        ],
+        "ts": "1474314536.000061",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "the embedded demos are great, and it discusses both code-based and GUI-driven tools in tandem",
+        "ts": "1474314617.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks for this mo, I will check out",
+        "ts": "1474324521.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "that said, do you have an early indication about how you’d like to handle cubby animations for a future project?  See any compelling reasons to getting away from Bodymovin exports? just curious <@U243UT96G> i know we keep coming back to this point",
+        "ts": "1474324578.000065"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i'm looking at other options, but i keep coming back to bodymovin because a) our animator is happy with AE as the animation tool, b) it's improved in terms of performance and functionality since the last iteration of BL wall",
+        "ts": "1474324741.000066"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i'm trying to recreate animation from AE in animate cc and it looks janky.  fine-tuned control over tweens etc is not as reliable",
+        "ts": "1474324771.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "we do need to test the latest, as when we were on site and got an update, all the objects it exported were completely black",
+        "ts": "1474324791.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good points all around",
+        "ts": "1474324842.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U243UT96G> if this is literaly what you are in the midst of, maybe you and peter can look at the black\/roken (?) exports and try to better understand that?",
+        "ts": "1474324871.000070"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "yea sure",
+        "ts": "1474325165.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "FWIW, exports were broken such that I\/we could not load on the corresponding player. Looked like extra HTML was being tacked on the end of the export.",
+        "ts": "1474325743.000072"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "deployed version was the only one that worked - everything after that was broken",
+        "ts": "1474325764.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its looking like its been updated since we used it last",
+        "ts": "1474325769.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "at least a couple minor revs",
+        "ts": "1474325848.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "wow there has been a ton of dev done on it since we deployed it looks like, there are a lot of commits in there",
+        "ts": "1474325869.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i’ll capture thi sin a jira ticket",
+        "ts": "1474325899.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "jira updated",
+        "ts": "1474326379.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "also <@U243UT96G> and <@U2670DYLE> we had ya jump into code and specifically with an eye towards IS.  I think now’s a good time to circulate some pertinent project-level docs to help fill in your understanding without completely inundating ya.  will email ya shortly.  I encourage you to spend time with these docs tomorrow and ask Joel, Peter and I questions",
+        "ts": "1474326570.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U243UT96G> and <@U2670DYLE> as you’re new to our jira set up (ask me questions) but please note that we ask the team to 'Resolve' issues  when done and assign to me.  I'll then close, defer to Joel or re-open if I can’t verify or we need to go deeper.",
+        "ts": "1474329165.000080"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "ok dennis, willdo",
+        "ts": "1474329253.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "awesome.  im excited we’re grooving",
+        "ts": "1474329327.000082"
+    }
+]

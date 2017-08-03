@@ -1,0 +1,332 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I found a small issue with the logic on the download, but its fixed now, and it appears that the download from the cms is working now. The app does check on a daily basis and the cms is set to put them up on a daily basis, you cant test by just throwing a new one up and expecting an update. I tested via fudging the numbers in the app to think its last update was a few days ago then it seen today as a new one and grabbed it. there is a new one to be pulled tomorrow, and the day after currently set. I think its working, but we will see for sure over the next 2 days in a more real world test if those come down each day right.",
+        "ts": "1453313424.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: it looks like the frame rate has dropped a bit in this build. Do we think that's the updated assets?",
+        "ts": "1453323014.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Also: can you turn off analytics in editions? We are looking at analytics and we have a quarter of all sessions from Portland? :sweat_smile:",
+        "ts": "1453324056.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh ha, I will take a look at those",
+        "ts": "1453324411.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cool. I'll write an email tonight but we want to try and get a build for Koons.",
+        "ts": "1453326317.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im checking on a few things now with the frame rate stuff",
+        "ts": "1453326481.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Awesome ",
+        "ts": "1453326486.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":peterwalk:",
+        "ts": "1453326495.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "file_mention",
+        "text": "<@USLACKBOT|slackbot> mentioned a file: <https:\/\/uncorked.slack.com\/files\/matt\/F0H8U8RSP\/peter.gif|peter.gif>.",
+        "file": {
+            "id": "F0H8U8RSP",
+            "created": 1450894830,
+            "timestamp": 1450894830,
+            "name": "peter.gif",
+            "title": "peter.gif",
+            "mimetype": "image\/gif",
+            "filetype": "gif",
+            "pretty_type": "GIF",
+            "user": "U026PLK4S",
+            "editable": false,
+            "size": 917706,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0H8U8RSP\/peter.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0H8U8RSP\/download\/peter.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0H8U8RSP-c339f1a56c\/peter_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0H8U8RSP-c339f1a56c\/peter_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0H8U8RSP-c339f1a56c\/peter_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 240,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0H8U8RSP-c339f1a56c\/peter_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 320,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0H8U8RSP-c339f1a56c\/peter_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0H8U8RSP-c339f1a56c\/peter_360.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0H8U8RSP-c339f1a56c\/peter_480.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 467,
+            "original_h": 700,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/matt\/F0H8U8RSP\/peter.gif",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0H8U8RSP-fd40f00914",
+            "channels": [
+                "C0260V1C3"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "num_stars": 1,
+            "reactions": [
+                {
+                    "name": "joy",
+                    "users": [
+                        "U0261PCRQ",
+                        "U0B9N0HF0",
+                        "U02AUNA0P",
+                        "U04JZANJF",
+                        "U026103R3",
+                        "U0260V1BX",
+                        "U026NB2U2",
+                        "U027PV4AP",
+                        "U0XCJ372R",
+                        "U02F9CXTL",
+                        "U0ML49XU0",
+                        "U0J6TE0CA"
+                    ],
+                    "count": 12
+                },
+                {
+                    "name": "100",
+                    "users": [
+                        "U0GN0A9EV",
+                        "U026PHQ3J",
+                        "U02E3CRMA",
+                        "U02F8TTPU",
+                        "U026E0ZNR",
+                        "U0260V4K1",
+                        "U026103R3",
+                        "U0ML49XU0",
+                        "U0J6TE0CA"
+                    ],
+                    "count": 9
+                },
+                {
+                    "name": "metal-hair",
+                    "users": [
+                        "U0ML49XU0"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "mario",
+                    "users": [
+                        "U0K8ZSHN0",
+                        "U0261PCRQ",
+                        "U0ML49XU0",
+                        "U0J6TE0CA"
+                    ],
+                    "count": 4
+                }
+            ]
+        },
+        "user": "USLACKBOT",
+        "ts": "1453326496.000011"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Sorry get a build for Friday, that came out early",
+        "ts": "1453326503.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "But if we can clean a few things up, that would be great. ",
+        "ts": "1453326537.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0EL0GLEL>: stash this crash somewhere, but it will need to get fixed",
+        "ts": "1453326772.000015"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F0K0BQ0AK\/crash.txt|crash.txt>",
+        "file": {
+            "id": "F0K0BQ0AK",
+            "created": 1453326780,
+            "timestamp": 1453326780,
+            "name": "crash.txt",
+            "title": "crash.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 7430,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0K0BQ0AK\/crash.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0K0BQ0AK\/download\/crash.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F0K0BQ0AK\/crash.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0K0BQ0AK-0d44128bf3",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F0K0BQ0AK\/crash.txt\/edit",
+            "preview": "--------- beginning of crash\n01-20 16:37:22.596 10076 10076 E AndroidRuntime: FATAL EXCEPTION: main\n01-20 16:37:22.596 10076 10076 E AndroidRuntime: Process: com.google.android.apps.live_case, PID: 10076\n01-20 16:37:22.596 10076 10076 E AndroidRuntime: java.lang.OutOfMemoryError: Failed to allocate a 6451212 byte allocation with 2871808 free bytes and 2MB until OOM\n01-20 16:37:22.596 10076 10076 E AndroidRuntime: \tat dalvik.system.VMRuntime.newNonMovableArray(Native Method)",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>--------- beginning of crash<\/pre><\/div>\n<div><pre>01-20 16:37:22.596 10076 10076 E AndroidRuntime: FATAL EXCEPTION: main<\/pre><\/div>\n<div><pre>01-20 16:37:22.596 10076 10076 E AndroidRuntime: Process: com.google.android.apps.live_case, PID: 10076<\/pre><\/div>\n<div><pre>01-20 16:37:22.596 10076 10076 E AndroidRuntime: java.lang.OutOfMemoryError: Failed to allocate a 6451212 byte allocation with 2871808 free bytes and 2MB until OOM<\/pre><\/div>\n<div><pre>01-20 16:37:22.596 10076 10076 E AndroidRuntime:    at dalvik.system.VMRuntime.newNonMovableArray(Native Method)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 61,
+            "lines_more": 56,
+            "preview_is_truncated": true,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1453326780.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: sorry for the rapid fire, can we get a locked build so we can walk through onboarding? From what ever last stable commit would be ",
+        "ts": "1453326805.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah can send that over",
+        "ts": "1453326830.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "wild, I haven’t gotten any out of memory crashes",
+        "ts": "1453326910.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its on 6P, so might just be a resolution thing",
+        "ts": "1453327053.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U06DFL7BP>: I have two chips",
+        "ts": "1453327186.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "programmed",
+        "ts": "1453327188.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0EL0GLEL>:  Koons is artist 3, right?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1453327312.000000"
+        },
+        "ts": "1453327197.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "koons is set at 2",
+        "ts": "1453327345.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool thanks",
+        "ts": "1453327354.000028"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0K0ELABS\/livecase_editions_locked.apk|livecase_editions_locked.apk> and commented: this one is locked",
+        "file": {
+            "id": "F0K0ELABS",
+            "created": 1453328280,
+            "timestamp": 1453328280,
+            "name": "livecase_editions_locked.apk",
+            "title": "livecase_editions_locked.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 60382569,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0K0ELABS\/livecase_editions_locked.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0K0ELABS\/download\/livecase_editions_locked.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0K0ELABS\/livecase_editions_locked.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0K0ELABS-e6a8d5991a",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0K0E1SKH",
+                "created": 1453328280,
+                "timestamp": 1453328280,
+                "user": "U0EL0GLEL",
+                "is_intro": true,
+                "comment": "this one is locked"
+            }
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1453328283.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Awesome ",
+        "ts": "1453328538.000030"
+    }
+]

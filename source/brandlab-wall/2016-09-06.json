@@ -1,0 +1,72 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> and <@U0EL0GLEL> check out rob (IonTank’s note).  first we’re hearing of these plans. my suggesstion is that we jump on a HO to discuss one level deeper.  agree?",
+        "ts": "1473180718.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "already formulating a response",
+        "ts": "1473180741.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "basically “sounds good, let’s get on a hangout to review what we have and make sure Kyle’s all set\"",
+        "ts": "1473180763.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I think we will be fine, the software identifies them based on the hardware id of the controller. I am not completely sure about calibration tho. it might just carry over due to the controller not changing. But if they need to do it again its a pretty simple task kyle could be walked throuh",
+        "ts": "1473180877.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the motor slow-mode is a (minor) change-order to the system scripts",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1473180912.000000"
+        },
+        "ts": "1473180902.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> - same page.  i think the subtext of response is that any changes require discussion and larger orchestration",
+        "ts": "1473180904.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "our system scripts <@U02E3CRMA> ?",
+        "ts": "1473180923.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes - since this feature was for the all-open\/all-close calls, which call the motor control scripts under the hood. A few lines to change, minor stuff. But we can’t test until we get the new cubby since our motor won’t do it.",
+        "ts": "1473180982.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "which means an incremental bump, build and install a new Debian package",
+        "ts": "1473181006.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> coming by to discuss",
+        "ts": "1473181058.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> is replying to thead, pointing out the code work that would need to be done, and asking to jump on a quick HO.  <@U0EL0GLEL> standby",
+        "ts": "1473182892.000014"
+    }
+]

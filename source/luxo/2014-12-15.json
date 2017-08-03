@@ -1,0 +1,346 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02E3CRMA>: let's test performance of old style blob detection + blob on cat finger output as a combo ",
+        "ts": "1418657282.000149"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Putting this here as a reminder to myself :) ",
+        "ts": "1418657296.000150"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02618EV1> seeing \"undefined\" on the burner controls this AM",
+        "ts": "1418660560.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "luxo is calling us out on the client-side management of the project :wink:",
+        "ts": "1418660791.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cat filter debug output in cooktop. Note the VAST improvement of fingertip identification in all corners. Bottom right still an issue (maybe we special case the density? Maybe we change the menu target?)",
+        "ts": "1418660865.000005"
+    },
+    {
+        "user": "U026PHQ3J",
+        "topic": "Vast improvements on fingertips",
+        "type": "message",
+        "subtype": "channel_topic",
+        "text": "<@U026PHQ3J|evans> set the channel topic: Vast improvements on fingertips",
+        "ts": "1418661370.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "catFilter3 has the beginnings of an idea i had around using dilation to beef up our \"known good\" pixels and then erode them back into more solid, less cartoonish, masses",
+        "ts": "1418663841.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i will keep this to myself for the moment",
+        "ts": "1418663848.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel>: bunk for lunch? Please send me your orders and Stephanie will help get food for us. Thanks!",
+        "ts": "1418667318.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02688JHZ> grilled cheeze pleeze",
+        "ts": "1418668745.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!channel> restarting server with the catFilter version now",
+        "ts": "1418669411.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02688JHZ> Grilled cheese. Thanks.",
+        "ts": "1418671646.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U026PHQ3J> and <@U02618EV1> Do either of you want tomato soup?",
+        "ts": "1418671719.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no thanks",
+        "ts": "1418671726.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "No, thanks.",
+        "ts": "1418671730.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "cool!",
+        "ts": "1418671734.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hows it going over there? I'm working on glaze imagery and on hold again",
+        "ts": "1418673252.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "LMK if i can help via slack typing until I can get over there",
+        "ts": "1418673261.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "made progress on up-clicks",
+        "ts": "1418673779.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "working with Gaston now to get them good enough to video",
+        "ts": "1418673807.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool.",
+        "ts": "1418673811.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "TL;DR: need better math on cooktop, will fix after we send update vid",
+        "ts": "1418673844.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha. i figured as much. seems like most of the stuff that was in place to do it before would be largely invalid given the new data",
+        "ts": "1418673866.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "simpler than that: i need to apply the same homography technique Jenny's using for the bounds-check, using the calibration points",
+        "ts": "1418673922.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "a cv-style bounding box gives out-of-bounds points :confused:",
+        "ts": "1418673936.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "are the grey boxes back on point, or do we need to make more adjustments?",
+        "ts": "1418673950.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02E3CRMA> ^^",
+        "ts": "1418674048.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02688JHZ> they're on",
+        "ts": "1418674256.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":thumbsup:",
+        "ts": "1418674752.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "will come back after this call",
+        "ts": "1418674822.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "(google, not luxo)",
+        "ts": "1418674830.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02688JHZ> let's grab a vid when you do",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1418675259.000000"
+        },
+        "ts": "1418675253.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "out-of-bounds issues fixed, pinch events are passing up to Node",
+        "ts": "1418681872.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool.",
+        "ts": "1418682031.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hows it all shaping up over there?",
+        "ts": "1418682037.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we got a good vid right before lunch showing pot controls and clicks. <@U02618EV1> and <@U02613K0X> are working on getting pinch events normalized and rendered in the UI. I'm working on cleanup so we can move faster without the cam losing us",
+        "ts": "1418682174.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Great",
+        "ts": "1418682198.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "does two blob-detects kill performance?",
+        "ts": "1418682204.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I posted the video to basecamp",
+        "ts": "1418682210.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1418682210.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll get some numbers now",
+        "ts": "1418682223.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause the non-filtered blob tracking should be fine for drag events",
+        "ts": "1418682244.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool, smooth, unfiltered blobs",
+        "ts": "1418682252.000046"
+    },
+    {
+        "user": "U026PHQ3J",
+        "topic": "cool, smooth, unfiltered blobs",
+        "type": "message",
+        "subtype": "channel_topic",
+        "text": "<@U026PHQ3J|evans> set the channel topic: cool, smooth, unfiltered blobs",
+        "ts": "1418682258.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I might want to do another burner control video but my priority is pinch stuff",
+        "ts": "1418682260.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "now, in Menthol flavor....",
+        "ts": "1418682271.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U026PHQ3J>: yes, as long as we can grab up-clicks reliably",
+        "ts": "1418682292.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "i'll get effective frame rate here in a couple mins so we can compare",
+        "ts": "1418682303.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U026PHQ3J> As it's implemented now, we're running at ~55fps. Camera is at 25fps, so we're above the Nyquist rate. :simple_smile:",
+        "ts": "1418684536.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ugh",
+        "ts": "1418684553.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we can look into cranking up the depth cam frequency",
+        "ts": "1418684570.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "faster data refresh would offset the lag we're seeing by feeding the filter faster",
+        "ts": "1418684622.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "going to dig into the hybrid approach now to get drag responsiveness back",
+        "ts": "1418684713.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Video recording and playback is all wired up to the server.",
+        "ts": "1418687828.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":heavy_check_mark:",
+        "ts": "1418687848.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "SO AWESOME!!! :clap:",
+        "ts": "1418688999.000059"
+    }
+]

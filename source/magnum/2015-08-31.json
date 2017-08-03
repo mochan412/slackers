@@ -1,0 +1,218 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> Hi team! To keep everyone in the loop - here's our current plan: Gaston and Joshua are working on a few critical bugs this morning that were logged over the weekend. When finished, Gaston will roll on to polish\/lower priority items and work through EOD and Joshua will look into hyperlinking in emails. Dev should be complete by end of day today. Magnum is going to update captions tomorrow (Tuesday), so we are currently planning to wait for Emma's word and launch the site Wednesday morning. Let me know if any questions or concerns come up. Thanks!",
+        "ts": "1441041840.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks Abby!",
+        "ts": "1441041862.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "excellent, thanks for the update!",
+        "ts": "1441041872.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "Sounds good!",
+        "ts": "1441041879.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hey <@U026PLK4S>, do we still want to try to tackle <https:\/\/uncorkedstudios.atlassian.net\/browse\/MA-45>?",
+        "ts": "1441048207.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "if you have time!",
+        "ts": "1441048255.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "also, we didn’t file it as a bug (i think we were hoping to get to it in a jambaroo) but can we update the fade in screen with the new asset?",
+        "ts": "1441048293.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i can make a ticket if you’d like",
+        "ts": "1441048306.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That would be great. Thanks.",
+        "ts": "1441048425.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Hey team, FYI I just went through and closed any bugs in JIRA I felt I could. There are still a handful in there so if Matt and\/or Melissa you'd like to check them out please do. I'll keep an eye on it throughout the day and continue to close or reopen as needed.",
+        "ts": "1441048491.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "10-4",
+        "ts": "1441048505.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026103R3> and <@U0265G76F> I believe I may fixed the bug in which content would show up when switching between projects. When you have a minute, could you take a look and let me know if you still see it? You may need to refresh the page a few times. Thanks!",
+        "ts": "1441053199.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "will do.",
+        "ts": "1441053288.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Thanks <@U02618EV1>",
+        "ts": "1441053295.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and while we're here - are there any new pushes that may have broken slideshow on mobile? I'm having inconsistent issues with the slideshows themselves, but know you've all been working on stuff today",
+        "ts": "1441053345.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<@U02618EV1> - not seeing that issue anymore. Thanks for the update",
+        "ts": "1441053460.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks David. Re: the slideshow, that may be new stuff. Could you log the issue or just send it over slack? We’ll look into it now.",
+        "ts": "1441053662.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "surely",
+        "ts": "1441053672.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "oh - you know - Abby logged a very similar bug two hours ago (MA-117).",
+        "ts": "1441053785.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<@U02618EV1> ^^",
+        "ts": "1441053789.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that screen is the same as I'm seeing - which appears to actually be two issues: \n\n1) The slideshow doesn't take over full screen\n2) The caption slides up over photos, meaning you can never see photo + caption at same time",
+        "ts": "1441053844.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Got it. Thank you.",
+        "ts": "1441053917.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Gaston - can also confirm i'm not seeing that weird issue when switching between projects anymore.",
+        "ts": "1441053946.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Also can vouch for the issue(s) Ewald's seeing on mobile. That's what I saw as well.",
+        "ts": "1441053970.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey guys, I didn’t see this logged so apologize if it’s redundant - there’s a flash of the artist section before the nav opens on both desktop (chrome \/ safari) and mobile (safari) - havent tried other devices\/browsers yet",
+        "ts": "1441053984.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "logged as MA-120",
+        "ts": "1441054004.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thank you.",
+        "ts": "1441054130.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel>: Hey team, new update! I've heard from Emma and unfortunately they are having a tough time getting everyone together to write\/edit\/review copy for the captions. SO the update is that they will now have it all completed by Tuesday 8\/8 (next week). We'll then publish the site on Wednesday 8\/9. All of this is in prep for publicly announcing the site on 9\/18 I believe at one of their events.",
+        "ts": "1441062682.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "TLDR: We're pushing launch by a week, but doesn't change anything on our side except the date we flip the switch.",
+        "ts": "1441062738.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Let me know if questions\/concerns come up!",
+        "ts": "1441062743.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> just wanted to say the site looks amazing!! and mad props to the dev team who got JIRA down to 3 trivial bugs\/improvements!!",
+        "ts": "1441065841.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Feelin like we're now in a solid spot to wait until Magnum is ready with updated captions. Nice work team.",
+        "ts": "1441065853.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "oh hell yeah",
+        "ts": "1441065854.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks devs, you are the shit",
+        "ts": "1441065861.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and agree the site looks amazing!",
+        "ts": "1441065878.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Awesome. Nice work everybody. Will check it out later, but know it is stellar. Thanks team!",
+        "ts": "1441066321.000037"
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> <@U026PHQ3J> after benefits let's try and recreate that onboarding stuck? I'm guessing it's like double stacking onboarding",
+        "ts": "1454094639.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "although I could reproduce in the 22nd build, I can’t in the current code. looking back to see what changes have been made.",
+        "ts": "1454098787.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm",
+        "ts": "1454098798.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just made a new build from master. it worked fine when I ran it from Android Studio, but not when I made a build from command line.",
+        "ts": "1454099235.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "amicrazy?",
+        "ts": "1454099326.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "cleaning and running from AS. it’s been nothing but headaches lately, maybe a clean from there will help me reproduce?",
+        "ts": "1454099390.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "This is stupid but",
+        "ts": "1454099470.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Is it possible android studio changed the location of build tools",
+        "ts": "1454099481.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "And App is using explicit location, command line is using some old \/usr\/bin bigness",
+        "ts": "1454099494.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "**flails**",
+        "ts": "1454099500.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just finished up with alan and israel, looking at this again now",
+        "ts": "1454103187.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "reproduced",
+        "ts": "1454104166.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it must have been a clean build thing",
+        "ts": "1454104257.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "\/shruggie",
+        "ts": "1454104287.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Issue was with a clean build, or with not a clean build?",
+        "ts": "1454104588.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "could only reproduce on clean build",
+        "ts": "1454104617.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think it’s a race condition, which is why we can’t always reproduce it",
+        "ts": "1454104792.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "saving the chip data only happens *after* we receive a response",
+        "ts": "1454104841.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Hm",
+        "ts": "1454104887.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "We don't save the case style or anything?",
+        "ts": "1454104895.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "not until after",
+        "ts": "1454105028.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "will have to change some logic, but I think we can fix it!",
+        "ts": "1454105174.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> want to get an unsigned build ready too?",
+        "ts": "1454106670.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yes!",
+        "ts": "1454106916.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I do have to do a new build though, with a version bump",
+        "ts": "1454106929.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "9790001772087661",
+        "ts": "1454108669.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "thanks",
+        "ts": "1454108799.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ve been using dimple, which I think makes me a little slower",
+        "ts": "1454108816.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "since using a chip, i’m able to hit “done” more quickly",
+        "ts": "1454108825.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I still think it’s a race, but now idk why",
+        "ts": "1454108831.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think I’m getting there",
+        "ts": "1454110092.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "testing and working out kinks",
+        "ts": "1454110101.000033"
+    }
+]

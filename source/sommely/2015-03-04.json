@@ -1,0 +1,218 @@
+[
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "This was a good read: <http:\/\/designmind.frogdesign.com\/2015\/02\/iots-mortal-enemy-the-product-owner\/?utm_campaign=Future%20Of%20Work%202015&amp;utm_content=12665722&amp;utm_medium=social&amp;utm_source=linkedin>",
+        "attachments": [
+            {
+                "title": "frog",
+                "title_link": "http:\/\/designmind.frogdesign.com\/2015\/02\/iots-mortal-enemy-the-product-owner\/?utm_campaign=Future%20Of%20Work%202015&utm_content=12665722&utm_medium=social&utm_source=linkedin",
+                "text": "The future of the Internet of Things is less certain than it seems.",
+                "fallback": "frog",
+                "from_url": "http:\/\/designmind.frogdesign.com\/2015\/02\/iots-mortal-enemy-the-product-owner\/?utm_campaign=Future%20Of%20Work%202015&utm_content=12665722&utm_medium=social&utm_source=linkedin",
+                "id": 1
+            }
+        ],
+        "ts": "1425505510.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/somme.ly|somme.ly> reflow attempt #1 in progress",
+        "ts": "1425524224.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Anticip",
+        "ts": "1425524308.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ation ",
+        "ts": "1425524332.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "cooling",
+        "ts": "1425524704.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "hum tried to start another cycle automatically. no reflow oven I do not want to rereflow",
+        "ts": "1425524779.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "one of the leds is sitting a little askew. otherwise looks pretty good?",
+        "ts": "1425526214.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ALL I CAN SEE IS AN ASKEW LED",
+        "ts": "1425529316.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "JK - AWESOME ",
+        "ts": "1425529326.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "OK THANKS",
+        "ts": "1425529332.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "No really, that's amazing. ",
+        "ts": "1425529646.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "pretty sure that's fucked but anyway, yeah, pretty good for a first try",
+        "ts": "1425529877.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "holy shit!! This looks great!",
+        "ts": "1425533310.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I see you swapped out for 0603 resistors - much better.",
+        "ts": "1425533316.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "And that LED should work just fine, even if it's cattawampus.",
+        "ts": "1425533327.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Is that a random stray resistor hanging off the pushbutton pad?",
+        "ts": "1425533368.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I was wondering where it went...",
+        "ts": "1425533491.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "heh, you're right, that is a random resistor. that's pretty funny :simple_smile:",
+        "ts": "1425536564.000022"
+    },
+    {
+        "user": "U02F8LF2X",
+        "topic": "Is that a random stray resistor",
+        "type": "message",
+        "subtype": "channel_topic",
+        "text": "<@U02F8LF2X|chewbacca> set the channel topic: Is that a random stray resistor",
+        "ts": "1425536587.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "that is a contingency resistor",
+        "ts": "1425536601.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "like the button sewn on the inside of a nice dress shirt. don't you guys know anything?",
+        "ts": "1425536614.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "backup resistor. just in case",
+        "ts": "1425536644.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "or edge of case, in this case",
+        "ts": "1425536732.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "awesome!",
+        "ts": "1425537329.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Discovered that the red led can only take 2.4V max and I'm driving 3.3V. Workaround now is to drive it low with the PWM (~40% duty-cycle) so it'll come on.",
+        "ts": "1425537513.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Drove G and B at full-power and they're BRIGHT.",
+        "ts": "1425537623.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "cool, now I will have to get going on that 3d printed diffusor",
+        "ts": "1425537961.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":simple_smile:",
+        "ts": "1425538009.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'm also ordering some new tweezers in celebration",
+        "ts": "1425538238.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll start cataloging changes for the next rev. Once we test the radio circuit out we can pull the trigger on a second run.",
+        "ts": "1425538324.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":beer:",
+        "ts": "1425538509.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "great work on the reflow, BTW",
+        "ts": "1425538547.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "thanks, nice work on getting the lights working",
+        "ts": "1425538689.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'm feeling better about the RF section",
+        "ts": "1425538714.000042"
+    }
+]

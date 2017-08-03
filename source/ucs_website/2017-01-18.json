@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U0DCXC37U",
+        "text": "Image from <@U0914MEN7> blog post not working on mobile FYI",
+        "ts": "1484732975.000174"
+    },
+    {
+        "type": "message",
+        "user": "U0DCXC37U",
+        "text": "Note: could be Hawaii internet but I've tried to reload like 10x",
+        "ts": "1484733006.000175"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks <@U0DCXC37U>. I'm getting the same error. Filing in Jira. <@U0914MEN7> just to confirm, did you load a standard image in there?",
+        "ts": "1484752823.000176"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "fwiw, it is trying to load `\/responsive\/mobile\/forestryio\/images\/wmv_hero_2-1.png` which doesn't exist, while on &gt; phones it appears to be loading `\/forestryio\/images\/wmv_hero_2-1.png`",
+        "ts": "1484753366.000177"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "reproducible in safari with responsive design mode",
+        "ts": "1484753386.000178"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "[ and is a problem with some other, but not all blog posts on mobile currently, so I don't think it's exclusively a content issue ]",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1484753457.000000"
+        },
+        "ts": "1484753449.000179"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks Charles. Logged in Jira as <https:\/\/uncorkedstudios.atlassian.net\/secure\/RapidBoard.jspa?rapidView=4&amp;projectKey=UM&amp;view=detail&amp;selectedIssue=UM-38>",
+        "ts": "1484761431.000181"
+    },
+    {
+        "text": "<http:\/\/i.imgur.com\/nmVV632.gif>",
+        "attachments": [
+            {
+                "fallback": "176x233px image",
+                "image_url": "http:\/\/i.imgur.com\/nmVV632.gif",
+                "image_width": 176,
+                "image_height": 233,
+                "image_bytes": 112699,
+                "is_animated": true,
+                "from_url": "http:\/\/i.imgur.com\/nmVV632.gif",
+                "id": 1
+            }
+        ],
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1484761431.000182"
+    },
+    {
+        "user": "U2670DYLE",
+        "text": "<@U2670DYLE|johncohoon> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1484772219.000184"
+    }
+]

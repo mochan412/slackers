@@ -1,0 +1,152 @@
+[
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Buddies, here's a quick status update for today:\n- We are currently awaiting feedback on watch face design and current build.\n- We are working toward a Friday review day, which should include...\n     - Revised analog and digital watch face design (pending feedback)\n     - Flip-clock watch face design\n     - Animation test: analog and digital watch faces\n     - Updated build (pending feedback and assets that are ready. maybe incorporate test watch face animations?)",
+        "ts": "1422466949.000002"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "(<!channel>)",
+        "ts": "1422466960.000003"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<@U02613K0X> <@U026E0ZNR> <@U02AUNA0P> -- I'm heading off site at the moment. Have stand up without me if you need it, otherwise press on!",
+        "ts": "1422467038.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey <@U02613K0X>, we were talking about the digital watch face this morning and wondering how much effort it might take you if you were to code an actual hh:mm:ss clock based on Phillip's design. As opposed to baking it into the animation.",
+        "ts": "1422472846.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Good question. I looked into it a bit the other day. Does the hh:mm:ss text animate?",
+        "ts": "1422472957.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "If the numbers aren't part of any fancy animation it should be fine. I'll go back and look at the digital watch face design.",
+        "ts": "1422473089.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah that should be fine",
+        "ts": "1422473256.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Ok cool. We were thinking it would be valuable to have the time operating independently of the background animations to allow for more flexibility in moving between options while maintaining the movement of time.",
+        "ts": "1422473377.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "That makes sense. Shouldn't be a problem.",
+        "ts": "1422474246.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Here's a first stab at the digital watch face... sample video clip bg, animated icon, but no clock yet as I'm banking on Jenny coding that in. Should I make the effort to mock up time passing for the sake of envisioning the dream? <https:\/\/www.dropbox.com\/s\/wne9os7iuapt4fi\/DigitalWeatherClock_01.mp4?dl=0>",
+        "ts": "1422487328.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Also it helps if you download the video, open it in Quicktime and set it to loop. It's currently seamless.",
+        "ts": "1422487363.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "hey there - looks pretty good",
+        "ts": "1422487631.000013"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Nice. My vote is to leave the clock static in your tests. Then we'll show the moving version when it's actually coded in the build.",
+        "ts": "1422487986.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "that looks really great trent.",
+        "ts": "1422488065.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey thanks dudes",
+        "ts": "1422488084.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i had started typing what ben said - let's leave static for now",
+        "ts": "1422488105.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Cool. I figured it would be kind of a waste of time. (seriously, no pun intended)",
+        "ts": "1422488193.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Is one good for now? Should I animate the other icons and pretend the rain is a different video until we get final footage figured out? We'll be animating the 3 icons regardless right?",
+        "ts": "1422488306.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "we'll be animating the three yeah",
+        "ts": "1422488332.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i honestly think it's good for now - to get them thinking about what we're doing",
+        "ts": "1422488346.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "one question - is the rain video low res for this demo?",
+        "ts": "1422488359.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "It's whatever I could find for free online.",
+        "ts": "1422488378.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I actually shrunk it down from the original but I think the quality was already low",
+        "ts": "1422488394.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "cool - i figured. Mostly wondering if it'd look (potentially) higher res based on source video",
+        "ts": "1422488406.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Yeah I'm sure it will.",
+        "ts": "1422488428.000026"
+    }
+]

@@ -1,0 +1,304 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey <@U2H61EJSG> hows it going on the trends builds?",
+        "ts": "1492622843.472404"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Slow :confused: OpenGL is hard",
+        "ts": "1492622882.483551"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "let me know if you think today isnt doable :slightly_smiling_face:",
+        "ts": "1492622901.489081"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I will finish this attempt and let you know from there",
+        "ts": "1492622977.512011"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool! thanks!",
+        "ts": "1492623681.718674"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> can you please do an audit of all of the ways that double tap is used in the wallpapers?",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1492625975.000000"
+        },
+        "ts": "1492624070.835861"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes",
+        "ts": "1492626216.474473"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thank youuu",
+        "ts": "1492626681.614431"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> one more thing...can you please create a build that crashes every time you set the wallpaper? If you could give me an ETA on when you can get that over to us that'd be awesome!",
+        "ts": "1492629372.386912"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Should this be on any generator? Does it matter what type of crash it is?",
+        "ts": "1492629426.401141",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U3ZFEAPSP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "is that for the silent crash email from bonnie?",
+        "ts": "1492629542.430681"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Yes <@U3ZFEAPSP>",
+        "ts": "1492629553.433448"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> a build crashing on every generator please!",
+        "ts": "1492629584.441725"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay, can you forward me that email so I can have more information?",
+        "ts": "1492629847.510025"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U1ZG1UCAK>, go into:\n GLWallpaperRenderDispatch::VisibilityChanged\nand throw a new runtimeException (just as long as it isn’t an IOexception type), with some message so we know for sure we caused it and that should do it for . And then cut a build (<@U13GPDA1F> any specific test build numbers we use?)",
+        "ts": "1492629875.517453"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no need for specific versioning - just an unsigned that she can load up (we should indicate in labeling of APK that its “for crashing”)",
+        "ts": "1492630023.555659"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay, that shouldn’t take me long - probably no more than an hour (generously)",
+        "ts": "1492630066.567172"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F52CHPYKY\/double-tap_audit_list.txt|Double-tap audit list>",
+        "file": {
+            "id": "F52CHPYKY",
+            "created": 1492630164,
+            "timestamp": 1492630164,
+            "name": "Double-tap_audit_list.txt",
+            "title": "Double-tap audit list",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U1ZG1UCAK",
+            "editable": true,
+            "size": 449,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52CHPYKY\/double-tap_audit_list.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52CHPYKY\/download\/double-tap_audit_list.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F52CHPYKY\/double-tap_audit_list.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F52CHPYKY-716072627b",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/midori\/F52CHPYKY\/double-tap_audit_list.txt\/edit",
+            "preview": "Double-tap audit\r\n\t1.\tPlaces\r\n\t\t◦\tBlur\/Unblur - Wallpaper & Preview Wallpaper\r\n\t2.\tPhotos\r\n\t\t◦\tBlur\/Unblur - Wallpaper & Preview Wallpaper\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>Double-tap audit<\/pre><\/div>\n<div><pre>    1.  Places<\/pre><\/div>\n<div><pre>        ◦ Blur\/Unblur - Wallpaper &amp; Preview Wallpaper<\/pre><\/div>\n<div><pre>    2.  Photos<\/pre><\/div>\n<div><pre>        ◦ Blur\/Unblur - Wallpaper &amp; Preview Wallpaper<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 14,
+            "lines_more": 9,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1492630164.593343"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F51JQRB98\/crash-on-set-wallpaper.apk|crash-on-set-wallpaper.apk> and commented: Throws an ActivityNotFoundException with message, \"This is an intentional crash\"",
+        "file": {
+            "id": "F51JQRB98",
+            "created": 1492631722,
+            "timestamp": 1492631722,
+            "name": "crash-on-set-wallpaper.apk",
+            "title": "crash-on-set-wallpaper.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 35069485,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F51JQRB98\/crash-on-set-wallpaper.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F51JQRB98\/download\/crash-on-set-wallpaper.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F51JQRB98\/crash-on-set-wallpaper.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F51JQRB98-e3c3c9abf9",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc51L48KQC",
+                "created": 1492631722,
+                "timestamp": 1492631722,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Throws an ActivityNotFoundException with message, \"This is an intentional crash\""
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1492631724.006548"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks! ill test out when I'm back in a bit and we'll get Jenna set up on the test pixel so she can run through there moving forward",
+        "ts": "1492632024.089654"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<!channel> Just a heads up that I added all of our tasks from the spreadsheet we were working out of last night to JIRA. Tomorrow I'll be exploring ways to make the board easier for everyone to work out of! We can discuss more in standup tomorrow :relaxed:",
+        "ts": "1492641087.176514",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            },
+            {
+                "name": "smile",
+                "users": [
+                    "U3ZFEAPSP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks jenna!",
+        "ts": "1492641104.179479"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> re earth shortcut options you provided, in the Knowledge Graph Search API query - do you meant that we could pull this info into the app similar to Artworks bio (but obvs more robust given the content)?",
+        "ts": "1492645828.856334"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just want to be clear when you say “quick facts section”",
+        "ts": "1492645851.859332"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh wait - quick facts of the knowledge card not the app",
+        "ts": "1492645910.866993"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "dont mind me, ive confused myself",
+        "ts": "1492645918.868024"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "That is maybe what we were thinking — similar to Artworks bio, but wanted to leave that somewhat open ended. To be clear, the only really useful information we’re able to pull from the Knowledge Graph is the detailed description, not any of the geographic statistics.",
+        "ts": "1492646294.914752",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> lmk if you need\/want more clarification",
+        "ts": "1492646836.983962"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> I’m still working on that trends icon - I forgot a lot of what I learned when working on Gauge so it’s taking longer than anticipated. I hope to have something by the end of day tomorrow at the latest. Let me know if there is anything else that it more pressing otherwise i’ll keep plucking away.",
+        "ts": "1492650117.352073"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "keep plugging! let's check in tomorrow - appreciate the update!",
+        "ts": "1492650382.380377"
+    }
+]

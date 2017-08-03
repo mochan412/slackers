@@ -1,0 +1,239 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "@here FYI Google has decided not to proceed with live case background image updates",
+        "ts": "1435253926.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "java.lang.SecurityException: Permission Denial: reading com.android.providers.media.MediaDocumentsProvider uri <content:\/\/com.android.providers.media.documents\/document\/image%3A142> from pid=19385, uid=10140 requires android.permission.MANAGE_DOCUMENTS, or grantUriPermission()",
+        "ts": "1435262312.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ>",
+        "ts": "1435262313.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "weirrrdddd.",
+        "ts": "1435262316.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "welp!",
+        "ts": "1435263102.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "their printing vendor shit the bed and they’re pushing launch out to q1 2016 which means androidify is potentially back in play – adam wants to grab some time with <@U026PHQ3J> to chat about what means w\/r\/t scope of work etc",
+        "ts": "1435263142.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "GOOD NEWS I WAS JUST THINKING ABOUT THIS",
+        "ts": "1435265745.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "where are you",
+        "ts": "1435265747.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ>: halp: <http:\/\/www.andreamaglie.com\/blog\/2015\/01\/09\/access-storage-framework-uri-permission\/>",
+        "ts": "1435267273.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "well that’s good to know",
+        "ts": "1435267661.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to push my changes",
+        "ts": "1435267745.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause i made some changes to the image helper",
+        "ts": "1435267753.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(to load the bitmaps scaled)",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1435267762.000000"
+        },
+        "ts": "1435267758.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> what do you know about a 410 from the places server?",
+        "ts": "1435267931.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "bad request",
+        "ts": "1435267939.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stand by",
+        "ts": "1435267948.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me check to see if it has built in valid zoom levels",
+        "ts": "1435267958.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "where are you checking that?",
+        "ts": "1435267979.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh right, you have source",
+        "ts": "1435267987.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we’re sending 13 which was the default before",
+        "ts": "1435268007.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "MAX_ZOOM = 21\nVALID_SCALES = (1, 2, 4)",
+        "ts": "1435268015.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what colorway value are you using?",
+        "ts": "1435268033.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "style 1 colorway 2",
+        "ts": "1435268060.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we shouldn’t use style 1, I don’t think. maybe that’s the problem",
+        "ts": "1435268100.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "probably not",
+        "ts": "1435268156.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also",
+        "ts": "1435268157.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is the clock on the device correct?",
+        "ts": "1435268162.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U051P3FPY>: PLACES_API_BASE_URL",
+        "ts": "1435268816.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "make the value of that this:",
+        "ts": "1435268827.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/hugeinc-gw-minime-staging.appspot.com\/>",
+        "ts": "1435268827.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "without the http garbage",
+        "ts": "1435268836.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/hugeinc-gw-minime-staging.appspot.com|hugeinc-gw-minime-staging.appspot.com>",
+        "ts": "1435268838.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Update: permissions issue has been solved. Need to mess around with aspect ratio some more.",
+        "ts": "1435279897.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":thumbsup:",
+        "ts": "1435279907.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i think the images I had as placeholders were too politely square)",
+        "ts": "1435279910.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "woohoo",
+        "ts": "1435279911.000038"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/voices.washingtonpost.com\/securityfix\/homer.jpg>",
+        "attachments": [
+            {
+                "fallback": "237x329px image",
+                "image_url": "http:\/\/voices.washingtonpost.com\/securityfix\/homer.jpg",
+                "image_width": 237,
+                "image_height": 329,
+                "image_bytes": 19872,
+                "from_url": "http:\/\/voices.washingtonpost.com\/securityfix\/homer.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1435279911.000039"
+    }
+]

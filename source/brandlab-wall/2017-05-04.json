@@ -1,0 +1,108 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "scott pinged me, he is setting up some hardware for us. Said he is installing the same setup they have there on site, sounds like they are using showtime to launch the display instances for the cubbies now. Its still hosted in IS but using showtime as the mechanism to bring it up on the cubby displays",
+        "ts": "1493935031.700956"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "technically its _frankenstein’s monster_",
+        "ts": "1493935197.751820"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "pretty fair description at this point",
+        "ts": "1493935292.783178"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "eesh yea that sounds like what Jose was telling us yesterday as well. some weird mix of IS and showtime although not 100% on what the reasoning was there",
+        "ts": "1493936177.025286"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "lee and i are working on getting set up with showtime, getting creds and stuff from them. gidge reference rabbitMQ access - <@U0EL0GLEL> is that something you can help us get set up with?",
+        "ts": "1493936446.092716"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "he said user is uncorked but he doesn’t have PW\/doesn’t want to reset because it could mess things up if anyone is using it",
+        "ts": "1493936470.098958"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "It has to do with how IS works, normally it would throw up the activity automatically when you start it, opening a browser to it. But since these are all remote and not on the machine running IS it will not open it on them, and there isnt a mechanism to do so. Before when it was running on the other server there was an app that handled that and the touch events. Now they need something to replace that and showtime helps fill that gap since that actually should work failrly well here for this, albeit its a bit of a mess right now. But hopefully that is just a first step towards conversion to showtime and off IS",
+        "ts": "1493936530.114013"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The repo creds are username: uncorked\npassword: 02U_5BawE=1ZTP7CY9Vx",
+        "ts": "1493936646.142860"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "where does it live?",
+        "edited": {
+            "user": "U167FL70V",
+            "ts": "1493936795.000000"
+        },
+        "ts": "1493936786.178489"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that i would need to look up, dont remember that one",
+        "ts": "1493936952.219204"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "do you have access here?",
+        "ts": "1493937161.273018"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<https:\/\/showtime-qa.appspot.com>",
+        "ts": "1493937162.273277"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh and it looks like the page that had all the showtime help on it is now 404",
+        "ts": "1493937183.278784"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i do have access to that",
+        "ts": "1493937218.286928"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I think it had been a link from help page, but it looks like that has been moved and they didnt update the help link on that qa site",
+        "ts": "1493937228.289602"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "hmm okay i guess i’ll follow up with jose\/gidge then to see if i can get more info on getting set up",
+        "ts": "1493939838.871565"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks!",
+        "ts": "1493939842.872265"
+    }
+]

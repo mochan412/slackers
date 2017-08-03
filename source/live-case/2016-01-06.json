@@ -1,0 +1,212 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> do you know if its good or bad or stupid to use a static member variable in an IntentService?",
+        "ts": "1452102057.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "most of the time I dislike using non-final static variables",
+        "ts": "1452102098.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "seems worse in an IntentService imo",
+        "ts": "1452102113.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah. i think i need to restructure the activitydetection intent service",
+        "ts": "1452102204.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically part of the issue on here is that the confidences are lower, but the rate of update is WAY higher",
+        "ts": "1452102238.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think i can help smooth out the crap a little better if i take advantage of getElapsedRealtimeMillis to make sure we're not responding to the flood",
+        "ts": "1452102267.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "does the activity with highest value change a lot?",
+        "ts": "1452102274.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "generally for \"on foot\" ones its fine, but it has a really hard time staying in \"IN_VEHICLE\" and tries really hard to dump back down to on foot",
+        "ts": "1452102319.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "on my way in today, the 6P got into vehicle mode, but then almost immediately switched to bicycle and then back to on foot",
+        "ts": "1452102359.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause i was in traffic",
+        "ts": "1452102366.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but it wasn't like \"bad\" traffic",
+        "ts": "1452102380.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so if i force it to abide by the 5 min rule (which is the frequency we're requesting but are in passive mode) that should help a lot",
+        "ts": "1452102403.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that’s weird. that used to be so good",
+        "ts": "1452102404.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sounds like a good solution",
+        "ts": "1452102421.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think marshmallow relies on activity detection at a very low level",
+        "ts": "1452102424.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for doze and low power modes",
+        "ts": "1452102431.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "right",
+        "ts": "1452102433.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the OS itself seems to burning hot on activities",
+        "ts": "1452102438.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which explains why the TILTING activity is so common now",
+        "ts": "1452102447.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s weird that they’d care so much about in_vehicle though",
+        "ts": "1452102453.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "tilting would be the most important",
+        "ts": "1452102459.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "unless they’re also dozing while you drive?",
+        "ts": "1452102472.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think its a bad interaction between TILTING powering up the location listener",
+        "ts": "1452102479.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and then the time for a lock on location",
+        "ts": "1452102487.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so basically tilting happens often",
+        "ts": "1452102495.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "location takes time to wake back up",
+        "ts": "1452102502.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "decides its in vehicle",
+        "ts": "1452102508.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then gets a better lock and decides you're still",
+        "ts": "1452102518.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since the delta between the initial rough lock and the refined location are small",
+        "ts": "1452102533.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think our use case is outside of their goals for the performance of that feature",
+        "ts": "1452102591.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah",
+        "ts": "1452102661.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> Re: static variables - <https:\/\/groups.google.com\/forum\/#!topic\/android-developers\/jEvXMWgbgzE>",
+        "ts": "1452125593.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Seems like it’s the way to go for me right now",
+        "ts": "1452125629.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Detection with my latest changes is still overly rapid but at least performs almost exactly the same across 5x and 6P",
+        "ts": "1452132484.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So that's a little progress",
+        "ts": "1452132495.000003"
+    }
+]

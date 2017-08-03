@@ -1,0 +1,339 @@
+[
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "hey evans some of the NFC features aren't working on Lollipop 5.1.1\nI know we're not supporting it so I figured I'd ask whether you're curious to see a bug report at all or if you're not bothered",
+        "ts": "1468430052.000378"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which ones",
+        "ts": "1468430064.000379"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "flashlight &amp; app launching",
+        "ts": "1468430077.000380"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think app launching is known",
+        "ts": "1468430099.000381"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and will be fixed",
+        "ts": "1468430107.000382"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "will look into flashlight",
+        "ts": "1468430112.000383"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "ok I'll paste bug report here in just a sec",
+        "ts": "1468430140.000384"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wont matter.",
+        "ts": "1468430152.000385"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "will need to trace it with you",
+        "ts": "1468430156.000386"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "flashlight working on my 5x running 6.0.1",
+        "ts": "1468430189.000387"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(at least no issues yet)",
+        "ts": "1468430199.000388"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1J4BQX7G> do you have time to try and repro on M and N?",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1468430243.000000"
+        },
+        "ts": "1468430235.000389"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "sure I can give it a go",
+        "ts": "1468430265.000391"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "tested on Nougat and most everything looks great. Unselected photos do not appear when cycling through photos using NFC and the NFC flashlight activation works fine. NFC app launching is still not working properly but that's known\/out of scope for now, right?",
+        "ts": "1468433534.000392"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome - thanks jack! do you mind adding these as trello cards (on the workshop board, under collections) so we can track these 2?",
+        "ts": "1468434855.000393"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and yes NFC app launch should be fixed when we do super merge (was tackled previously before branched)",
+        "ts": "1468434899.000394"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry <@U1J4BQX7G> ^",
+        "ts": "1468434913.000395"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F1RGKHZK7\/collections-7_13_16_v1.apk|Collections-7_13_16_v1.apk>",
+        "file": {
+            "id": "F1RGKHZK7",
+            "created": 1468445995,
+            "timestamp": 1468445995,
+            "name": "Collections-7_13_16_v1.apk",
+            "title": "Collections-7_13_16_v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 38355858,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1RGKHZK7\/collections-7_13_16_v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1RGKHZK7\/download\/collections-7_13_16_v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F1RGKHZK7\/collections-7_13_16_v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1RGKHZK7-f48a8f0315",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1468445998.000396"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Contains a fix for torch mode in Lollipop, and fixes the App Launch issue for NFC.",
+        "ts": "1468446065.000397"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Fixing flashlight in the new feature branch as well",
+        "ts": "1468446083.000398"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill take a look. <@U1J4BQX7G> can you test on lollipop (if you havent already)",
+        "ts": "1468446186.000399"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "yup Lollipop checks out - can't find a trace of the old bugs or any new ones",
+        "ts": "1468446833.000400"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "gg evans",
+        "ts": "1468447025.000401"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sweet! thank you <@U1J4BQX7G> mind doing a quick test on later os versions before I send to the client to make sure nothing popped up there? ",
+        "ts": "1468447095.000402"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "just tested it on Nougat - works great from what I can see",
+        "ts": "1468447359.000403"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "fixed the NFC app launch bug",
+        "ts": "1468447370.000404"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "don't have an M version handy and I have to go to a meeting unfortunately, but the latest build is on the top of Jenkins' inbox",
+        "ts": "1468447400.000405"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill test on M on my 5x - thanks <@U1J4BQX7G>",
+        "ts": "1468447451.000406"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I have an appt tomorrow and will miss standup, and my status is Supporting",
+        "ts": "1468451499.000407"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks marissa! :slightly_smiling_face: happy we have your support!",
+        "ts": "1468451858.000408"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F1RH6FW80\/minime-debug-7_13_16_v1.apk|MiniMe-DEBUG-7_13_16_v1.apk>",
+        "file": {
+            "id": "F1RH6FW80",
+            "created": 1468452050,
+            "timestamp": 1468452050,
+            "name": "MiniMe-DEBUG-7_13_16_v1.apk",
+            "title": "MiniMe-DEBUG-7_13_16_v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 38205044,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1RH6FW80\/minime-debug-7_13_16_v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1RH6FW80\/download\/minime-debug-7_13_16_v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F1RH6FW80\/minime-debug-7_13_16_v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1RH6FW80-7986935594",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1468452053.000409"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1J4BQX7G> <@U13GPDA1F> MiniMe build with :new: features!",
+        "ts": "1468452095.000410"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":dope:",
+        "ts": "1468452152.000411"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cant wait to test dat toggle",
+        "ts": "1468452991.000412"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh wait",
+        "ts": "1468453594.000413"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lol - our chip location, is that the office?",
+        "ts": "1468453602.000414"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J>: can i come find you? cant tell if things are buggy or its a user error :slightly_smiling_face:",
+        "ts": "1468453673.000415"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F1RHWLLAE\/minime-debug-7_13_16_v2.apk|MiniMe-DEBUG-7_13_16_v2.apk>",
+        "file": {
+            "id": "F1RHWLLAE",
+            "created": 1468454369,
+            "timestamp": 1468454369,
+            "name": "MiniMe-DEBUG-7_13_16_v2.apk",
+            "title": "MiniMe-DEBUG-7_13_16_v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 38205149,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1RHWLLAE\/minime-debug-7_13_16_v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1RHWLLAE\/download\/minime-debug-7_13_16_v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F1RHWLLAE\/minime-debug-7_13_16_v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1RHWLLAE-49839ef7c8",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1468454372.000416"
+    }
+]

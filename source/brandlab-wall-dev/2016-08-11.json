@@ -1,0 +1,317 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Just calling attention to Kyle's note on YouTube vids not playing - did they work on our end?",
+        "ts": "1470927696.000520"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "They did first attempt, but then when i tried again after refreshing the app they didnt. They would have worked first try since they were cached from tests yesterday. I just dug into it and the trends api is dead",
+        "ts": "1470931416.000521"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "There was a sunset alert announced a while ago and we knew this was coming",
+        "ts": "1470931430.000522"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Now the api url just gives a 404",
+        "ts": "1470931441.000523"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "seems it was shut off today",
+        "ts": "1470931447.000524"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<https:\/\/www.youtube.com\/trendsmap_ajax?action_get_trendsmap_data=1&amp;feed=views&amp;gender=male&amp;age=25-34>",
+        "ts": "1470931631.000525"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cooooooooooool",
+        "ts": "1470931827.000526"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Do we have any fallback plan to mitigate, or should we pressure Josh to in turn pressure the Youtube team (though it sounds like he already did that and uh, failed).",
+        "ts": "1470932074.000527"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i.e. can we point at a static playlist, or anything else to have non-dead content up there",
+        "ts": "1470932120.000528"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they can just skip using that mode",
+        "ts": "1470932136.000529"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they dont have to use lunch at all if they dont want to",
+        "ts": "1470932146.000530"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "just keep it in quiet mode",
+        "ts": "1470932153.000531"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "only thing special about lunch is the video playback on the top",
+        "ts": "1470932168.000532"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I’m not familiar with the details of lunch mode, but my presumption is it’s something active to be a conversation starter \/ background visual noise during lunch?",
+        "ts": "1470932223.000533"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Something like that, they would walk past that on the way to lunch and its meant for the conversation starter. the cubby doesnt change",
+        "ts": "1470932264.000534"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah.",
+        "ts": "1470932305.000535"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "if you have it can you or <@U02E3CRMA> forward me any email from josh about trends api not sunsetting",
+        "ts": "1470932318.000536"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sent you what i have",
+        "ts": "1470932449.000537"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like the plan was to run quiet mode if this happens",
+        "ts": "1470932459.000538"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "thats what kyle said he would do this morning",
+        "ts": "1470932481.000539"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "k, thank you – trying to get up to speed on where we sit there.  <@U02E3CRMA> if you have a response to your request for a different endpoint, just want to make sure we got acknowledgement before i push josh to hunt for a solution",
+        "ts": "1470932764.000540"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "We never got a formal response on that. We discussed in SBO, but didn't have a fallback option from their end we could count on once the API shut down.",
+        "ts": "1470934575.000541"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U02E3CRMA> let me know when we have a way to run against the gerrit stuff locally. I have a branch that i have linted the spacing, and fixed the minor things he mentioned. as well as i ran all the code through jshint and adjusted the recommended tweaks it said. Im going to test this and make sure I didn’t break anything in doing so. And would be awesome if we can test it against their validator before we submit anything again",
+        "ts": "1470936781.000542"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Chiming in here — In the fallback option vacuum, do we have a recommendation on what a fallback might look like?",
+        "ts": "1470937134.000543"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: I have their post-commit hook set up. Let me know when it’s checked into a branch and we can run it.",
+        "ts": "1470937242.000544"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Forwarded some youtube-fu to joel and charles for consideration",
+        "ts": "1470937302.000545",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: ran that branch through ‘gjslint —strict -r .’ which is what Gerrit does inbound on their end. The results file has 494K lines.",
+        "ts": "1470939260.000546"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m digging through now to see what the general trends are",
+        "ts": "1470939292.000547"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Will share the file with you in a moment",
+        "ts": "1470939344.000548"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok cool",
+        "ts": "1470939574.000549"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m going to run the auto-cleanup and see if that helps any...",
+        "ts": "1470939681.000550"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like spacing… should be something that an auto task should be able to do",
+        "ts": "1470939693.000551"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "also what is this? \/Users\/joelm\/Development\/brandlabwall\/is-wall\/com.google.brandlab.wall.activity.admin\/run\/tmp\/google-chrome\/Default\/Extensions\/efljpceoflcibfjgnclohfnhionodddo\/1.0_0\/js\/jq.js",
+        "ts": "1470939863.000552"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "why is it scanning this",
+        "ts": "1470939868.000553"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "a ton of the errors appear to be from files not related",
+        "ts": "1470939922.000554"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "that run directory has been removed from master, then got back-propagated to dev",
+        "ts": "1470939928.000555"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I suspect you pulled before that merge",
+        "ts": "1470939939.000556"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "lemme fix and re-run",
+        "ts": "1470939942.000557"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ahh i see",
+        "ts": "1470939999.000558"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "fixed and pushed",
+        "ts": "1470940031.000559"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool will pull that",
+        "ts": "1470940099.000560"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like indentation issues and a few spacing. I tried to run through a formatter that would break at 80 and fix the spacing to the general idea they wanted, it looked fine. When I would use eclipse format it would blow up the spacing, suddenly there is not 4 spaces but like 12 in places",
+        "ts": "1470940306.000561"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i dont know what the heck is up with that format thing",
+        "ts": "1470940306.000562"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: I’m headed out to bias training, but let’s do this to get a drop by EOD that’s clean:\n* carry on with the formatter you have that does line breaks and spacing (take good notes so we can automate)\n* follow Google’s instructions on checking format - it was easy to get running on Mac, so nothing special there: <https:\/\/developers.google.com\/closure\/utilities\/docs\/linter_howto>\n* once we have a clean version, let’s merge into dev and then QA to make sure it’s not broken\n* make sure the other issues are fixed from Myles’ feedback (static date, etc)\n* I’ll clean up the couple installer things (git repo warning, etc)\n* I’ll submit a patch update EOD when that’s done to Google",
+        "ts": "1470944379.000563"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "also, let’s A-B compare rev 1.0 and 1.1.x against the Phoenix data to make sure we fixed the issue. Just being water-tight on that will buy us cred with Myles &amp; team",
+        "ts": "1470944421.000564"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I tested my changes around the static date that looks great. seemed to have missed that one, had a comment in there to change before live oops. it pulls from today till a month out now.",
+        "ts": "1470945208.000565"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Im looking through that list and almost all of it is just spacing. will fix anything that isnt right away. not sure if we have a better way to fix the spacing, the eclipse plugin for their style guide clearly doesnt work",
+        "ts": "1470945253.000566"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "about 70% of those errors in that file are from the libraries including the ones from google",
+        "ts": "1470950412.000567"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the lint branch is all good except for the spacing issues and a few &gt; 80 chars lines but not a whole lot of those. Not sure how we want to fix this exact spacing issue. if their tool can fix this aswesome. going to look at that more",
+        "ts": "1470950725.000568"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "tried the fixjsstyle command, it didnt change any of the spacing",
+        "ts": "1470953789.000569"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yeah, that command seems like it fixes a small fraction of the issues it checks for",
+        "ts": "1470962621.000570"
+    }
+]

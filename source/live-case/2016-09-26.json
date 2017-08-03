@@ -1,0 +1,290 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> <@U1ZG1UCAK> - can you remind me if we completed the accessibility update for 3PR (earth + trends links need own focus + to be announced as links)? or is this still in progress",
+        "ts": "1474906816.000492"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F2G0Y2MPD\/nfcchip.apk|NfcChip.apk>",
+        "file": {
+            "id": "F2G0Y2MPD",
+            "created": 1474906997,
+            "timestamp": 1474906997,
+            "name": "NfcChip.apk",
+            "title": "NfcChip.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 1617159,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2G0Y2MPD\/nfcchip.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2G0Y2MPD\/download\/nfcchip.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F2G0Y2MPD\/nfcchip.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2G0Y2MPD-15adc92749",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1474906998.000493"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Updated NfcChip with some of the new styles\/colorways.",
+        "ts": "1474907008.000494"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they only work on a build pointed at the staging server right now",
+        "ts": "1474907024.000495"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sending that in a moment",
+        "ts": "1474907028.000496"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F>: focusable links are fixed in the descriptive text, but not on the about modal",
+        "ts": "1474910892.000497"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "In the about modal, I have it marginally better, because Talkback gives some feedback that there is a link there",
+        "ts": "1474911187.000498"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so, still in progress?",
+        "ts": "1474912136.000499"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thats cool",
+        "ts": "1474912143.000500"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/docs.google.com\/presentation\/d\/1jbIpSOT3dOcLrpU_cyDHCr3ZT7MTsmyCPgsVA_Pd7DY\/edit#slide=id.g16b1d67c85_0_317>",
+        "ts": "1474914604.000501"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ> any ideas on registering multiple generators for push?",
+        "ts": "1474922478.000502"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Yup. Was just working on that now. ",
+        "ts": "1474922700.000503"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I'm going to expect a generator int. And if it's a 2, expect asset ids otherwise will just store the generator value",
+        "ts": "1474922803.000504"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sweet",
+        "ts": "1474922858.000505"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you're my hero",
+        "ts": "1474922862.000506"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ> `{\"registration_id\":\"f8owpYjMLrM:APA91bFPvYm5cXDYCXQLL2kqq2oGFg21-l7LiCnhvVITezGQnT_QXIlgD7OpBTGRseQuIKAFJvLDXwfbdAt3q7Xbx544DWxH0eJpsdz4L_zuA1HtujA0e1mtn6jktq3-NnEQCg_D-5Si\",\"installation_id\":\"f8owpYjMLrM\",\"generators\":[0,2],\"assets\":[\"XlcKyA_fgMqJqHNJ\"]}`",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1474932380.000000"
+        },
+        "ts": "1474932370.000507"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Want me to verify?",
+        "ts": "1474932405.000509"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i have no reason to believe it didn't work :slightly_smiling_face:",
+        "ts": "1474932447.000510"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "save it for tomorrow",
+        "ts": "1474932457.000511"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "meantime, ill protect the client code so that pushes from other generators don't crash it",
+        "ts": "1474932469.000512"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "\/giphy fancy math",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/s3-6HSP407dwMpoI>",
+                "image_url": "http:\/\/media4.giphy.com\/media\/6HSP407dwMpoI\/giphy.gif",
+                "image_width": 128,
+                "image_height": 128,
+                "image_bytes": 37606,
+                "is_animated": true,
+                "title": "fancy math",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/s3-6HSP407dwMpoI"
+            }
+        ],
+        "ts": "1474932581.000513"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "David \"Fancy Math Man\" Evans",
+        "ts": "1474932598.000514",
+        "reactions": [
+            {
+                "name": "coolevans",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "jk, my middle name is Stephen",
+        "ts": "1474932616.000515"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(sidenote: i know a girl named fancy pantagiotes aka “fancy pants”)",
+        "ts": "1474932678.000516"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(not great at math tho)",
+        "ts": "1474932688.000517"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "dont bring your cobb house shit in this channel",
+        "ts": "1474932717.000518"
+    },
+    {
+        "user": "U13GPDA1F",
+        "text": "<@U13GPDA1F|lynsey> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1474932727.000519"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U1ZG1UCAK",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[September 26th, 2016 4:32 PM] lynsey: <@U13GPDA1F|lynsey> has left the channel",
+                "ts": "1474932727.000519",
+                "msg_subtype": "channel_leave",
+                "author_subname": "lynsey",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "<@U13GPDA1F|lynsey> has left the channel",
+                "author_name": "Lynsey Oetinger",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/lynsey",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-05-04\/40161058307_9d754700d8d1f1db1b22_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U1ZG1UCAK|midori> pinned a message to this channel.",
+        "ts": "1474932742.000520"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> don't try to use my own joke on me",
+        "ts": "1474932747.000521"
+    },
+    {
+        "user": "U13GPDA1F",
+        "inviter": "U026PHQ3J",
+        "text": "<@U13GPDA1F|lynsey> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1474932751.000522"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i just left to create my own cob channel",
+        "ts": "1474932795.000523"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U026PHQ3J> looks good here",
+        "ts": "1474933398.000524"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup:",
+        "ts": "1474933407.000525"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!here|@here> ill be in the office a little late tomorrow (appt). will be in before standup + online and available before that",
+        "ts": "1474934308.000526"
+    }
+]

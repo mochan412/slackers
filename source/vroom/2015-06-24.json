@@ -1,0 +1,179 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U06DFL7BP>:  I made those copy updates this morning, but I’m still looking into the log-in-after-updating thing. It’s reproduced, just haven’t narrowed it down fully yet. My initial thought is it’s because of a model update.",
+        "ts": "1435183673.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "awesome, thanks <@U0261PCRQ>!",
+        "ts": "1435185037.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U06DFL7BP>:  I actually have to take back what I said. When I thought I had reproduced the issue, I was actually installing a different build flavor (basically a different version of the same app) and in that version I was not logged in. Going to try a few more tests to reproduce, but right now, I actually haven’t.",
+        "ts": "1435185158.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "hmmmmkay",
+        "ts": "1435185193.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "have we tried just the previous play store tag vs the last release?",
+        "ts": "1435185227.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "wondering if last release -&gt; dev might not repro",
+        "ts": "1435185241.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I just tested with the last release and most recent release. Going to try again with  the last release and then pulling the latest from the play store.",
+        "ts": "1435185349.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "do you know if this is on Android or if it was a fire phone issue?",
+        "ts": "1435185364.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m currently testing on android, but wonder if it might be specific to fire phone",
+        "ts": "1435185423.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i don’t, i can ask – my presumption would be fire phone",
+        "ts": "1435185440.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "k, I’ll test that in a couple minutes",
+        "ts": "1435185637.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "so, I tried installing amazon v10 then amazon v11 on the firephone and could not recreate the issue. Tried installing v10 and then updating from the amazon store, but I was not given the option to update, only open, the app.",
+        "ts": "1435186447.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "hmmm",
+        "ts": "1435186466.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I suspect that most of the users at Amazon are iphone users, could it be an iOS issue?",
+        "ts": "1435186480.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "asked him to verify the list where I marked it ‘android only’ to confirm but anything’s possible :wink: i’ll ask",
+        "ts": "1435186508.000016"
+    },
+    {
+        "user": "U02618EV1",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U02618EV1|gaston> has left the channel",
+        "ts": "1435186586.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "possible they were on dev version then updated to play store version and that caused them to have to log in again",
+        "ts": "1435186595.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "?",
+        "ts": "1435186600.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the dev version and production versions have different signatures, so they could have both versions on their device, they won’t overwrite each other",
+        "ts": "1435186633.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s possible they didn’t have the production version before installing from the play store and that could cause some confusion",
+        "ts": "1435186649.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "are they savvy enough to know that",
+        "ts": "1435186655.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "probably not",
+        "ts": "1435186663.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah i think we’re headed in the same direction",
+        "ts": "1435186665.000024"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "they had dev, installed play store, had to log in again",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1435186679.000000"
+        },
+        "ts": "1435186672.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but there’s a line \"This has caused some confusion among users…\"",
+        "ts": "1435186689.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "makes it sound like real users complained about it",
+        "ts": "1435186695.000028"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or their internal users :wink:",
+        "ts": "1435186731.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "either way – hit up Taylor",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1435186764.000000"
+        },
+        "ts": "1435186739.000030"
+    }
+]

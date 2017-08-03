@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like gif jank is actually because of a memory leak",
+        "ts": "1494190242.791963"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i moved the gifs out of raw and into drawable xxxx so that it would be able to auto-resample, which lowered the overall memory overhead, but if you let them run and loop, they leak like crazy",
+        "ts": "1494190276.793530"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "trying to figure that out now",
+        "ts": "1494190280.793745"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also reminder <!channel> please format your source files so that they lint and align with the proper column count",
+        "ts": "1494191719.860833"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so it looks like whats happening is that the gifs leak when they’re off screen.",
+        "ts": "1494192063.876440"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(and also on, but it seems worse when they’re off screen)",
+        "ts": "1494192070.876797"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry, what's going on? is this something in the wild?",
+        "ts": "1494192125.879348"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I'll be back to full service in a couple of hours it you need me to help test or run anything",
+        "ts": "1494192166.881046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh nah. I'm looking at gif performance in the onboarding screens ",
+        "ts": "1494193638.946300"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1: ",
+        "ts": "1494193661.947332"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thanks for digging into this today. ",
+        "ts": "1494197013.104165"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Gonna see if I can figure out why it's leaking. The perf gets shittier and shittier as it leaks more and more ",
+        "ts": "1494197114.108480"
+    }
+]

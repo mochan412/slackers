@@ -1,0 +1,466 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U11JK4QSK> and <@U0EL0GLEL> confirming you guys are unblcoked in ‘binding code to templates’ today.  can you please confirm you’re all good to do this?",
+        "ts": "1462813646.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im good, i have the code updated on the headnode, im almost done with adding the ability to add text label that rotates text for quiet mode. I have this working just adding animations to that for transitions. Bryan should be able to start doing the templating anytime",
+        "ts": "1462813837.000065"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "sounds like we’re good to go",
+        "ts": "1462813868.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "word",
+        "ts": "1462815331.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U11JK4QSK>: are you clear on how to do the templating?  this shoul dbe something wedo once or do we need to use the template editor each time we make a revision to animations?",
+        "ts": "1462815361.000068"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "i believe the latter",
+        "ts": "1462815406.000069"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U0EL0GLEL>: am i correct?",
+        "ts": "1462815426.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "editor can be used for revisions, you can edit the keyframes in the editor. and with bodymotion stuff you would just be uploading the new animation file",
+        "ts": "1462815492.000071"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "k",
+        "ts": "1462815673.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool",
+        "ts": "1462815757.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "form a workflow stand point, i’d imagine bryan would actually process those edits; would a stakeholder like me ever need ot use template editor?  would you benefit from certain types of QA on it?",
+        "ts": "1462815794.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Im not sure you would ever need to touch the editor. but could if you were curious or wanted to make an adjustment.",
+        "ts": "1462816373.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Im updating the editor on the headnode now, the label object now supports adding multiple values to it, and there are onEnter and onExit animation hooks. so if you make a label with multiple text values and give it a rotation value it will rotate randomly through the list, and the animation hooks can be used for adding transitions",
+        "ts": "1462816459.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "will use this on quiet mode for the quotes, possibly other places if needed",
+        "ts": "1462816482.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "noted, thanks guys",
+        "ts": "1462816926.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA> let’s add that that bufer diagram to gdrive.  send it here?",
+        "ts": "1462826468.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "working on it...",
+        "ts": "1462826559.000080"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F17CNDWMN\/topology.png|Topology.png>",
+        "file": {
+            "id": "F17CNDWMN",
+            "created": 1462827101,
+            "timestamp": 1462827101,
+            "name": "Topology.png",
+            "title": "Topology.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 116334,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F17CNDWMN\/topology.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F17CNDWMN\/download\/topology.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CNDWMN-86bcf2ff22\/topology_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CNDWMN-86bcf2ff22\/topology_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CNDWMN-86bcf2ff22\/topology_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 240,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CNDWMN-86bcf2ff22\/topology_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 320,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CNDWMN-86bcf2ff22\/topology_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CNDWMN-86bcf2ff22\/topology_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 480,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CNDWMN-86bcf2ff22\/topology_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 640,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CNDWMN-86bcf2ff22\/topology_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 683,
+            "image_exif_rotation": 1,
+            "original_w": 3072,
+            "original_h": 2048,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F17CNDWMN\/topology.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F17CNDWMN-d12b979c88",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1462827106.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: i didnt grok this in real time, need to change this based on display ports or we golden?",
+        "ts": "1462827374.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "We're good",
+        "ts": "1462828043.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "rad",
+        "ts": "1462828063.000084"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F17CW7287\/screen_shot_2016-05-09_at_2.09.13_pm.png|@joel: put in the exact right place!>",
+        "file": {
+            "id": "F17CW7287",
+            "created": 1462828179,
+            "timestamp": 1462828179,
+            "name": "Screen Shot 2016-05-09 at 2.09.13 PM.png",
+            "title": "@joel: put in the exact right place!",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 160733,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F17CW7287\/screen_shot_2016-05-09_at_2.09.13_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F17CW7287\/download\/screen_shot_2016-05-09_at_2.09.13_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CW7287-7d9cffba45\/screen_shot_2016-05-09_at_2.09.13_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CW7287-7d9cffba45\/screen_shot_2016-05-09_at_2.09.13_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CW7287-7d9cffba45\/screen_shot_2016-05-09_at_2.09.13_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 155,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CW7287-7d9cffba45\/screen_shot_2016-05-09_at_2.09.13_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 206,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CW7287-7d9cffba45\/screen_shot_2016-05-09_at_2.09.13_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CW7287-7d9cffba45\/screen_shot_2016-05-09_at_2.09.13_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 310,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CW7287-7d9cffba45\/screen_shot_2016-05-09_at_2.09.13_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 413,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F17CW7287-7d9cffba45\/screen_shot_2016-05-09_at_2.09.13_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 440,
+            "image_exif_rotation": 1,
+            "original_w": 2102,
+            "original_h": 904,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F17CW7287\/screen_shot_2016-05-09_at_2.09.13_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F17CW7287-1a62fa0846",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0ML49XU0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1462828182.000085"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "\\o\/",
+        "ts": "1462828196.000086"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "apparently the eyefi card requires a wifi adapter to work, we will need to have a wifi adapater in the head node for that, makes sense. but this also means that the internet will likely be all routed through the wifi not hardline",
+        "ts": "1462830225.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not sure that matters",
+        "ts": "1462830279.000088"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "this would just be the internet needs for eyfi, rest of headnode needs are hard wired, yeah?",
+        "ts": "1462830308.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not sure",
+        "ts": "1462830384.000090"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "possibly, since you can tell the virtual box to use a specific adapter, so i would think yeah",
+        "ts": "1462830403.000091"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cuz im nervous about relying on wifi for everything else critical for obvious reasons",
+        "ts": "1462830431.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i would think a solid card and they already said good wifi wouldnt be a huge concern. but thinking about it I see the hardline has an address, and you tell virtual box which adapter to feed from so it would be specifically telling linux to use that connection so shouldnt be an issue I think. either way i would say a good wifi is needed. not these cheap little usb wifi adapters, something with an antenna and decent reliability",
+        "ts": "1462830555.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I am testing the eyefi loop. it looks like we can have the eyefi card upload to a folder in windows, which is shared to a mount in linux, which is located inside the filesystem of the file uploader activity which serves them up on a little file server through IS. I tried just dropping images manually into a folder there with success. going to try the full loop now.",
+        "ts": "1462830652.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if that works right, we would want to just wipe this folder nightly. unless they are archiving from it? but the images are still on the card so they can always go from that",
+        "ts": "1462830690.000095"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "The head node will be accessible on the room network. Eyefi can’t connect via the room’s wifi on that network?",
+        "ts": "1462830800.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no their system is setup to connect directly to a computer that will get the files. when i installed the app it said oh you dont have wifi this wont work till you do",
+        "ts": "1462830848.000097"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "well, shit",
+        "ts": "1462830880.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its quite possible that the tech would work just fine, but their devs never dreamed someone would do that, so they skipped even trying in the app",
+        "ts": "1462830890.000099"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "let me talk with folks here to see if that’s a show-stopper or not",
+        "ts": "1462830922.000100"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and I’ll get you an answer",
+        "ts": "1462830927.000101"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok sure",
+        "ts": "1462830963.000102"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ah ha, figured it out, there is a \"pro\" version of the card that is much more expensive that allows you to connect it to an existing wifi and transfer over that. I was thinking this looked like it was doing some adhoc thing to transfer. The pro version allows for selection of a network and saying use that to send files over. and it also has this selective transfer thing. where if they write protect a file on the camera only those will be transfered so curation can be done at time of taking the pictures, pretty neat option but doubt they want to do that part",
+        "ts": "1462832166.000103"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sounds like they will need to have the pro card",
+        "ts": "1462832185.000104"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "from what ive seen with this one its pretty quick to send files over. takes like 10-20 secs for these photos to send over",
+        "ts": "1462832224.000105"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "trying to get confirmation from their docs about this, but its a bit vauge",
+        "ts": "1462832580.000106"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "sounds pretty promising",
+        "ts": "1462832598.000107"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "says you can connect directly to a wifi network with the pro card",
+        "ts": "1462832603.000108"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but then says you cant transfer files unless the computer you are going to is on that same network",
+        "ts": "1462832624.000109"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "also its important that they setup their camera to not shut off after 30seconds of not using it. set it to something much higher so the files have a chance to connect and send",
+        "ts": "1462832870.000110"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "can you point me at the info? I’d like to review with folks on this end to make sure we can satisfy any network requirements",
+        "ts": "1462832929.000111"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "their info is terrible",
+        "ts": "1462833198.000112"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<https:\/\/mobihelp.eyefi.com\/hc\/en-us>",
+        "ts": "1462833209.000113"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there are apparently other cards too such as <http:\/\/www.amazon.com\/Toshiba-FlashAir-Wireless-Memory-PFW032U-1CCW\/dp\/B00UOYPZP2\/ref=sr_1_6?s=pc&amp;ie=UTF8&amp;qid=1462832370&amp;sr=1-6&amp;keywords=eyefi+mobi+pro>",
+        "attachments": [
+            {
+                "title": "Amazon.com: Toshiba 32GB FlashAir III Wireless SD Memory Card, White,(PFW032U-1CCW): Computers &amp; Accessories",
+                "title_link": "http:\/\/www.amazon.com\/Toshiba-FlashAir-Wireless-Memory-PFW032U-1CCW\/dp\/B00UOYPZP2\/ref=sr_1_6?s=pc&ie=UTF8&qid=1462832370&sr=1-6&keywords=eyefi+mobi+pro",
+                "text": "<http:\/\/Amazon.com|Amazon.com>: Toshiba 32GB FlashAir III Wireless SD Memory Card, White,(PFW032U-1CCW): Computers &amp; Accessories",
+                "fallback": "Amazon.com: Toshiba 32GB FlashAir III Wireless SD Memory Card, White,(PFW032U-1CCW): Computers &amp; Accessories",
+                "from_url": "http:\/\/www.amazon.com\/Toshiba-FlashAir-Wireless-Memory-PFW032U-1CCW\/dp\/B00UOYPZP2\/ref=sr_1_6?s=pc&ie=UTF8&qid=1462832370&sr=1-6&keywords=eyefi+mobi+pro",
+                "id": 1
+            }
+        ],
+        "ts": "1462833244.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "what im not following is if the card is setup to connect to wifi and download to your computer via that, how do you setup where the files go? the folder on the computer they are going to would need to be shared on the network somehow. not seeing any info about this. it is sounding like they still want you to have the computer they are going to on the wifi network. the pro is better since it has direct to wifi not adhoc which would likely not work at all due to range. but can we expose a shared folder on the network to dump into? on the head node in linux? or even windows with it just hardlined. not finding any info on this",
+        "ts": "1462833617.000116"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh and the card actually by default created a folder dated to put the images into. so we will be able to pull from that dated folder easily enough to get just that dates images",
+        "ts": "1462833809.000117"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "getting the feeling that the app on the head node would need to request out to the card over the wifi anyway you look at it to get the files to the system, requireing wifi in the system",
+        "ts": "1462834624.000118"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the toshiba card works by setting up its own AP and you can connect to it over wifi and copy files over. appears to be a much more simplistic system, looks like thats what others are doing too likely what eyefi is doing in some way",
+        "ts": "1462835071.000119"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "awesome, the scheduler preset admin is wired up, this is what exposes the presets that the scheduler will use for scheduling against, and sending that id to the display to tell it which template to switch to. This will not be exposed to the admin, will be setup once and left, it will just be a set of presets such as Morning, with a value of 0. it worked great. just as I hoped, push a new preset and the template clicked over to the correct one. this is huge. this confirms that the system is working just as it will when the scheduler is setup to automate that change",
+        "ts": "1462842741.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this is actually how we will test these templates also. I will have these presets setup in this admin, one for each time of day, and we would just send that one to the wall that corresponds to the template that you want to test (just as if the scheduler did) and that would cause the wall to load up that segment of the day and we would see the template we wanted",
+        "ts": "1462842813.000121"
+    }
+]

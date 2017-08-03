@@ -1,2 +1,2 @@
 # slackers
-experimental slack analysis
+experimental slack analysis for UCS

@@ -1,0 +1,539 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Loaded the University of Phoenix data and not seeing any of the issues reported. Videos all loaded fine too. I do see there is a user with a dash, that was never an issue was aware of and doesnt seem to have caused any issue. There is also a strange &amp;#9; coming in from the api it renders in the admin but on the display it doesnt. at first look it appears like things are all fine with this update. Going to continue to try more tests",
+        "ts": "1470853892.000440"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "that’s a tab",
+        "ts": "1470854100.000441"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "would like to recreate tests on 1.1.1 as well",
+        "ts": "1470854150.000442"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "and see how it was broken :)}",
+        "ts": "1470854157.000443"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "29 - Definitive just setup wrong, 30 - The user list is only queried on creation of the workshop, if they added users to the api after the fact a recreation of the workshop would be needed. There had been issues with adding additional users. But the current release has been tested changing users around quite a bit with additional users in the list and never had anyone disseapear 31 - Logic error it in the random number generator, it would pull one number too high in the index of possible colors, so would pass nothing for the color since colors[10] doenst exist. So requesting a bodymovin animation with a color that doesnt exist errors and returns nothing, then the transition system would try and play that bodymovin and fail. result whitescreen. Only happened when the api didnt pass a color for the user, and then it was still a random draw so only a few of the users ever possibly got this no color. Most of the time the color from the api was there and we were fine. Explains why it took a while to see and happened once. 32 - user error, this is not how the admin works, the checkbox for asking questions has nothing to do with travel distance 33 - this could happen if the cubby was running the sequence and they reset the preset while it was still waiting for the other transitions to occur, like it was on the auto advancing slides and they reset it. In the flurry of the 5 mins before launch i could see that happening.",
+        "ts": "1470855020.000444"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":thumbsup:  thank you!",
+        "ts": "1470855062.000445"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F20617XEG\/-.txt|Untitled>",
+        "file": {
+            "id": "F20617XEG",
+            "created": 1470855140,
+            "timestamp": 1470855140,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 1473,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F20617XEG\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F20617XEG\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F20617XEG\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F20617XEG-c99e2e05df",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F20617XEG\/-.txt\/edit",
+            "preview": "29 - Definitive just setup wrong, \r\n\r\n30 - The user list is only queried on creation of the workshop, if they added users to the api after the fact a \r\nrecreation of the workshop would be needed. There had been issues with adding additional users. But the current \r\nrelease has been tested changing users around quite a bit with additional users in the list and never had anyone \r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>29 - Definitive just setup wrong, <\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>30 - The user list is only queried on creation of the workshop, if they added users to the api after the fact a <\/pre><\/div>\n<div><pre>recreation of the workshop would be needed. There had been issues with adding additional users. But the current <\/pre><\/div>\n<div><pre>release has been tested changing users around quite a bit with additional users in the list and never had anyone <\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 20,
+            "lines_more": 15,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1470855141.000446"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Myles sent a few minor lint adjustments, Im going to apply those. This spacing thing is crazy, i am using the google plugin for eclipse and it should auto format the spacing. I even hit the format text thing… Looks like a minor code change. Going to apply these and do more tests.",
+        "ts": "1470855216.000447"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Let me know when you're done. I might have the right recipe for gslint and want to verify.",
+        "ts": "1470861335.000448"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "gslint?",
+        "ts": "1470861704.000449"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "jslint?",
+        "ts": "1470861708.000450"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Islint, sorry",
+        "ts": "1470862656.000451"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "In the is install",
+        "ts": "1470862672.000452"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like if i run the code through a basic formatter then run the eclipse format it fixes the issues. No idea why the format wont just do it from the start, it seems to not care if the spacing is all wrong and the eclipse correct indentation thing jacks it up badly",
+        "ts": "1470862699.000453"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I ran the admin through this method and checked the format against what gerrit complained about and it appears to be right",
+        "ts": "1470862727.000454"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if it were easier to run against whatever gerritt does without submitting that would be nice",
+        "ts": "1470862762.000455"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "pinging Myles right now to get their Gerrit config...",
+        "ts": "1470863522.000456"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```hi there\nso update\n:\nthe new build is working and has resolved all of our critical and high issues\nhooray\nhooray!\nJoshua Jeffery (<mailto:joshuajeffery@google.com|joshuajeffery@google.com>)\nhowever, we're now noticing a new bug\nwhich is very critical:\nfor some reason, the lunchtime youtube videos now do not play\nthey load, but are black```",
+        "ts": "1470867861.000457"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```I also noticed that the photos at the end are color \/ not black and white now\nwhich is lower priority```",
+        "ts": "1470867906.000458"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>:  and <@U02E3CRMA> can you take a look at the above? the youtube one is critical, “i can live with color photos\"",
+        "ts": "1470867952.000459"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "did they create the workshop they are playing on the current build?",
+        "ts": "1470868344.000460"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if it was built prior they wont work",
+        "ts": "1470868350.000461"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i just tried the same package with phoenix data this morning and videos all played for me",
+        "ts": "1470868372.000462"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the color thing sounds like an imagemagik issue or the template they are using OR maybe they didnt update the templates right",
+        "ts": "1470868413.000463"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it would explain the video issue also",
+        "ts": "1470868420.000464"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "OK. We should flag breaking upgrades for them.",
+        "ts": "1470868651.000465"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":point_up:",
+        "ts": "1470868676.000466"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "by imagemagick issue is that a version mismatch, or configuration or?",
+        "ts": "1470868695.000467"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(and we see b\/w on our end?)",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1470868717.000000"
+        },
+        "ts": "1470868714.000468"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Dont know joel handled all that",
+        "ts": "1470868812.000470"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02E3CRMA>",
+        "ts": "1470868818.000471"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: I’mm responding to Kyle now",
+        "ts": "1470868840.000472"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I sent kyle a package with the latest templates in it, will have him load those first",
+        "ts": "1470868843.000473"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "It could be that the deploy package didnt load them properly",
+        "ts": "1470868854.000474"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "If that happened it would definitely cause both issues",
+        "ts": "1470868882.000475"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the system install package was triple-checked on our system, and it worked perfectly from their image",
+        "ts": "1470868918.000476"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I am going through it now to confirm it is including the correct files (one more time)",
+        "ts": "1470868946.000477"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im imagining the errors he had with imagemagick install or whatever caused an issue in the install?",
+        "ts": "1470868951.000478"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes",
+        "ts": "1470868957.000479"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m going to get on a hangout with Kyle and bottom out",
+        "ts": "1470868982.000480"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "in a gchat with josh and kyle",
+        "ts": "1470868986.000481"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ok",
+        "ts": "1470868987.000482"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’ll let you joel",
+        "ts": "1470868989.000483"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I think the deb install bailed, thus templates never loaded",
+        "ts": "1470868997.000484"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool, i sent them all an email with the templates in it",
+        "ts": "1470869001.000485"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah thats my thought too",
+        "ts": "1470869007.000486"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "figured it out: Kyle didn’t follow the directions, didn’t run apt-get as per the doc, so the post-install script didn’t get run from the install package and thus templates didn’t get updated",
+        "ts": "1470869606.000487"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "everything’s good now, re-doing to confirm",
+        "ts": "1470869617.000488"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ahhhh",
+        "ts": "1470869627.000489"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "you were right <@U0EL0GLEL>…it was all template stuff that didn’t get propagated",
+        "ts": "1470869632.000490"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "made sense, cool. Glad it was simple",
+        "ts": "1470869648.000491"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yay!",
+        "ts": "1470870123.000492"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thanks y'all",
+        "ts": "1470870137.000493"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall_master - #3 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall_master\/3\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall_master - #3 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall_master\/3\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470871125.000494"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall_master - #3 Success after 27 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall_master\/3\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall_master - #3 Success after 27 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall_master\/3\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470871149.000495"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "does it still need workshops to be created on the new build?",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1470871203.000000"
+        },
+        "ts": "1470871171.000496"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "As long as it was made since they deployed today nothing changed there",
+        "ts": "1470871379.000499"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cool",
+        "ts": "1470871382.000500"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did we let them know that it was a breaking change before it shipped?",
+        "ts": "1470872044.000501"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\"breaking\"",
+        "ts": "1470872048.000502"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh was only because of fucked install?",
+        "ts": "1470872105.000503"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(sorry, i'm behind)",
+        "ts": "1470872113.000504"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Yeah its outlined in the update document",
+        "ts": "1470872115.000505"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool!",
+        "ts": "1470872136.000506"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and bolded even",
+        "ts": "1470872148.000507"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lol",
+        "ts": "1470872163.000508"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "it was a PEBKAC error...",
+        "ts": "1470872440.000509"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "haha",
+        "ts": "1470872479.000510"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: <https:\/\/developers.google.com\/closure\/utilities\/docs\/linter_howto>",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1470886977.000000"
+        },
+        "ts": "1470885599.000511"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "note the bit at the end that says you can \"substitute fixjsstyle for gjslint to automatically fix many of the errors that gjslint checks for.\"",
+        "ts": "1470885617.000512"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "javascript only, though",
+        "ts": "1470885884.000513"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ugh, barely useful",
+        "ts": "1470886246.000516"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the fix only addresses a few things, with the majority of errors still in there",
+        "ts": "1470886267.000517"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "but at least we can use it to verify our linting",
+        "ts": "1470886430.000518"
+    }
+]

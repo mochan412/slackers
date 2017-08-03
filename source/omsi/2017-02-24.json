@@ -1,0 +1,566 @@
+[
+    {
+        "user": "U06DFL7BP",
+        "text": "<@U06DFL7BP|charlesv> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1487974887.970441"
+    },
+    {
+        "user": "U06DFL7BP",
+        "text": "<@U06DFL7BP|charlesv> un-archived the channel",
+        "type": "message",
+        "subtype": "channel_unarchive",
+        "ts": "1487974887.970444"
+    },
+    {
+        "user": "U1S5GKTHQ",
+        "inviter": "U06DFL7BP",
+        "text": "<@U1S5GKTHQ|dimitry> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1487974893.970615"
+    },
+    {
+        "user": "U02HAJ6JF",
+        "inviter": "U06DFL7BP",
+        "text": "<@U02HAJ6JF|joshua> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1487974901.970877"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U1S5GKTHQ> <@U02HAJ6JF> trying to track down the <http:\/\/csapi.uncorkedstudios.com|csapi.uncorkedstudios.com> code that actually sends the email.",
+        "ts": "1487974923.971704"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "sup",
+        "ts": "1487974941.972349"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I believe it’s on `www-3` which, <@U1S5GKTHQ> do we need anything to get to it? ¿pem?",
+        "ts": "1487974945.972517"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but it looks like it may be on deployd",
+        "ts": "1487974996.973749"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "hey hey",
+        "ts": "1487975041.974910"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "its on `www-3`. i just started two screen sessions, one for each node instance",
+        "ts": "1487975064.975540"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "can you run `dpd showkey`",
+        "ts": "1487975089.976068"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "one sec",
+        "ts": "1487975187.979235"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "we got it!",
+        "ts": "1487975253.980964"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "making progress",
+        "ts": "1487975255.981005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "THANK YOU",
+        "ts": "1487975257.981039"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "sorry, doing a lot of reverse forensics",
+        "ts": "1487975272.981352"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "hmm i haven’t run anything yet :stuck_out_tongue:",
+        "ts": "1487975298.982171"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah joshua is in",
+        "ts": "1487975304.982346"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "ah ok! i actually thought that was him replying haha your two icons are too confusing",
+        "ts": "1487975347.983678"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":smile:",
+        "ts": "1487975351.983768"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "you can see both sessions with `screen -ls` and connect to one via `screen -x <http:\/\/csapi.ucs.com|csapi.ucs.com>`",
+        "ts": "1487975396.984782"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "dpd key :",
+        "ts": "1487975399.984833"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ah, thank you",
+        "ts": "1487975400.984852"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "sorry if this is common knowledge",
+        "ts": "1487975404.984967"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02HAJ6JF|joshua> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joshua\/F4AC549HT\/-.js|Untitled>",
+        "file": {
+            "id": "F4AC549HT",
+            "created": 1487975407,
+            "timestamp": 1487975407,
+            "name": "-.js",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U02HAJ6JF",
+            "editable": true,
+            "size": 512,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4AC549HT\/-.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4AC549HT\/download\/-.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joshua\/F4AC549HT\/-.js",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4AC549HT-d8567ebf10",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/joshua\/F4AC549HT\/-.js\/edit",
+            "preview": "42097a25e748f721205d201a46446272f7e78584e316d828d63b1348eb21d7470a6db9e1af4ec3550fec851684c13dd104be9d5e563ffcfb1feb1eb508275822f7b85129fd1c9b49ef1fcf1f6e74d367e5a2ddc437d7df24529ce3372541f62f2f83153b097fee528b52ff5cc2f55d8cf367e2b9583fa0111189a237a72a693afdbd6e46f5c2e3267a57087d49ac471424d6a1095a00d0483a0d905419de65a703584e477d4b2f9d19bf10247696e4780928fe935c7f5d14d22a302f2d302b4c43247612c7cad859a82dfe21b82047671e9bc197b7ff2dd1f6d068c45bf5e325e1d6f0bd83581619e5ef940f5fbb997d061b4db5a287231cdfdc932b0486a39e",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-number\">42097<\/span><span class=\"cm-variable\">a25e748f721205d201a46446272f7e78584e316d828d63b1348eb21d7470a6db9e1af4ec3550fec851684c13dd104be9d5e563ffcfb1feb1eb508275822f7b85129fd1c9b49ef1fcf1f6e74d367e5a2ddc437d7df24529ce3372541f62f2f83153b097fee528b52ff5cc2f55d8cf367e2b9583fa0111189a237a72a693afdbd6e46f5c2e3267a57087d49ac471424d6a1095a00d0483a0d905419de65a703584e477d4b2f9d19bf10247696e4780928fe935c7f5d14d22a302f2d302b4c43247612c7cad859a82dfe21b82047671e9bc197b7ff2dd1f6d068c45bf5e325e1d6f0bd83581619e5ef940f5fbb997d061b4db5a287231cdfdc932b0486a39e<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C02E9D4EH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02HAJ6JF",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joshua",
+        "bot_id": null,
+        "ts": "1487975407.985023"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "<http:\/\/csapi.uncorkedstudios.com\/dashboard|csapi.uncorkedstudios.com\/dashboard>",
+        "ts": "1487975422.985350"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Ping me if you need me! At my folks for dinner but got my lappy",
+        "ts": "1487975464.986306"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thanks! no rush",
+        "ts": "1487975622.991143"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "on deployd: evaluate entity and serve appropriate template AND domain\n\t- change to <http:\/\/cs.uncorkedstudios.com|cs.uncorkedstudios.com> [to change to ASC domain later]\n\n[charles to build new email template]\n\non the landing page server: \n- evalute baseURL, if not <http:\/\/mobilemuseum.omsi.edu|mobilemuseum.omsi.edu>, server -other handlebar templates\n\n[charles to build new handlebar templates for ASC]",
+        "ts": "1487976722.017571"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "do we want diff GA for ASC?",
+        "ts": "1487977655.037477"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "looks like we might need to add an ASC ‘User’ into the dpd Resources&gt;Users&gt;data ?",
+        "ts": "1487978559.054488"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "@charles i threw a test email template in <http:\/\/csapi.uncorkedstudios.com|csapi.uncorkedstudios.com> - templates &gt; asc_3.html\nif you wanna mess around",
+        "ts": "1487979733.074666"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02HAJ6JF> can you send me the updated footer you put together so i’m linking the same stuff in email",
+        "ts": "1487980025.079191"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "yo! <https:\/\/bitbucket.org\/uncorkedstudios\/currentscience-landing\/src\/cef56af5d37bf4cff9e0e78fe59e0f5d1c7a7bc3\/views\/partials\/footer.handlebars?at=master&amp;fileviewer=file-view-default>",
+        "attachments": [
+            {
+                "title": "Bitbucket",
+                "title_link": "https:\/\/bitbucket.org\/uncorkedstudios\/currentscience-landing\/src\/cef56af5d37bf4cff9e0e78fe59e0f5d1c7a7bc3\/views\/partials\/footer.handlebars?at=master&fileviewer=file-view-default",
+                "text": "Bitbucket is a Git and Mercurial based source code management and collaboration solution in the cloud. Bitbucket is simple and powerful, enables code collaboration for teams, works with the tools that matter, and is easy to use even for teams new to Git and Mercurial",
+                "fallback": "Bitbucket",
+                "from_url": "https:\/\/bitbucket.org\/uncorkedstudios\/currentscience-landing\/src\/cef56af5d37bf4cff9e0e78fe59e0f5d1c7a7bc3\/views\/partials\/footer.handlebars?at=master&fileviewer=file-view-default",
+                "service_icon": "https:\/\/d301sr5gafysq2.cloudfront.net\/c4a7121149e9\/img\/bitbucket_avatar\/192\/bitbucket.png",
+                "service_name": "Bitbucket",
+                "id": 1
+            }
+        ],
+        "ts": "1487980069.079815"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "asc_3.html updated",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1487980496.000000"
+        },
+        "ts": "1487980481.085734"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(on server)",
+        "ts": "1487980501.086009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "asc logo added to cs.*",
+        "ts": "1487980506.086084"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F4A8C5SR1\/asc_3.html|asc_3.html>",
+        "file": {
+            "id": "F4A8C5SR1",
+            "created": 1487980518,
+            "timestamp": 1487980518,
+            "name": "asc_3.html",
+            "title": "asc_3.html",
+            "mimetype": "text\/plain",
+            "filetype": "html",
+            "pretty_type": "HTML",
+            "user": "U06DFL7BP",
+            "editable": true,
+            "size": 42170,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4A8C5SR1\/asc_3.html?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4A8C5SR1\/download\/asc_3.html?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F4A8C5SR1\/asc_3.html",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4A8C5SR1-a9a4e0d0df",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/charlesv\/F4A8C5SR1\/asc_3.html\/edit",
+            "preview": "<!DOCTYPE html PUBLIC \"-\/\/W3C\/\/DTD XHTML 1.0 Strict\/\/EN\" \"http:\/\/www.w3.org\/TR\/xhtml1\/DTD\/xhtml1-strict.dtd\">\n<html xmlns=\"http:\/\/www.w3.org\/1999\/xhtml\">\n    <head>\n    \t<!-- NAME: 2:1 COLUMN -->\n        <meta http-equiv=\"Content-Type\" content=\"text\/html; charset=UTF-8\">",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">&lt;!DOCTYPE html PUBLIC &quot;-\/\/W3C\/\/DTD XHTML 1.0 Strict\/\/EN&quot; &quot;http:\/\/www.w3.org\/TR\/xhtml1\/DTD\/xhtml1-strict.dtd&quot;&gt;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">html<\/span> <span class=\"cm-attribute\">xmlns<\/span>=<span class=\"cm-string\">&quot;http:\/\/www.w3.org\/1999\/xhtml&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>    <span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">head<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<div><pre>    \t<span class=\"cm-comment\">&lt;!-- NAME: 2:1 COLUMN --&gt;<\/span><\/pre><\/div>\n<div><pre>        <span class=\"cm-tag cm-bracket\">&lt;<\/span><span class=\"cm-tag\">meta<\/span> <span class=\"cm-attribute\">http-equiv<\/span>=<span class=\"cm-string\">&quot;Content-Type&quot;<\/span> <span class=\"cm-attribute\">content<\/span>=<span class=\"cm-string\">&quot;text\/html; charset=UTF-8&quot;<\/span><span class=\"cm-tag cm-bracket\">&gt;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1105,
+            "lines_more": 1100,
+            "preview_is_truncated": true,
+            "channels": [
+                "C02E9D4EH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1487980518.086257"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F4ACZEB1T\/asc_logo_refined.png|ASC_logo_refined.png>",
+        "file": {
+            "id": "F4ACZEB1T",
+            "created": 1487980520,
+            "timestamp": 1487980520,
+            "name": "ASC_logo_refined.png",
+            "title": "ASC_logo_refined.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 16500,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4ACZEB1T\/asc_logo_refined.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4ACZEB1T\/download\/asc_logo_refined.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4ACZEB1T-e3146bd46b\/asc_logo_refined_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4ACZEB1T-e3146bd46b\/asc_logo_refined_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4ACZEB1T-e3146bd46b\/asc_logo_refined_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 215,
+            "thumb_360_h": 73,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4ACZEB1T-e3146bd46b\/asc_logo_refined_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 215,
+            "original_h": 73,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F4ACZEB1T\/asc_logo_refined.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4ACZEB1T-b8892072ad",
+            "channels": [
+                "C02E9D4EH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1487980521.086306"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02HAJ6JF> figured out why ASC is failing: {\"message\":\"Email address is not verified. The following identities failed the check in region US-EAST-1: <mailto:info@azscience.org|info@azscience.org>\",\"code\":\"MessageRejected\",\"time\":\"2017-02-25T01:31:15.785Z\",\"statusCode\":400,\"retryable\":false,\"retryDelay\":30}\nreturned from email request: nu",
+        "ts": "1487986297.162837"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so we probably need them to verify the email",
+        "ts": "1487986303.162898"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "Yes!",
+        "ts": "1487986396.163680"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F49LGU881\/screen_shot_2017-02-24_at_5.33.13_pm.png|Screen Shot 2017-02-24 at 5.33.13 PM.png>",
+        "file": {
+            "id": "F49LGU881",
+            "created": 1487986403,
+            "timestamp": 1487986403,
+            "name": "Screen Shot 2017-02-24 at 5.33.13 PM.png",
+            "title": "Screen Shot 2017-02-24 at 5.33.13 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 100537,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F49LGU881\/screen_shot_2017-02-24_at_5.33.13_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F49LGU881\/download\/screen_shot_2017-02-24_at_5.33.13_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49LGU881-82ee3de345\/screen_shot_2017-02-24_at_5.33.13_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49LGU881-82ee3de345\/screen_shot_2017-02-24_at_5.33.13_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49LGU881-82ee3de345\/screen_shot_2017-02-24_at_5.33.13_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 204,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49LGU881-82ee3de345\/screen_shot_2017-02-24_at_5.33.13_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 271,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49LGU881-82ee3de345\/screen_shot_2017-02-24_at_5.33.13_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49LGU881-82ee3de345\/screen_shot_2017-02-24_at_5.33.13_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 407,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49LGU881-82ee3de345\/screen_shot_2017-02-24_at_5.33.13_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 543,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49LGU881-82ee3de345\/screen_shot_2017-02-24_at_5.33.13_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 579,
+            "image_exif_rotation": 1,
+            "original_w": 1160,
+            "original_h": 656,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F49LGU881\/screen_shot_2017-02-24_at_5.33.13_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F49LGU881-d57b89be4a",
+            "channels": [
+                "C02E9D4EH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1487986405.163755"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(changing to info@omsi works, so the system’s working, not sure why email isn’t)",
+        "ts": "1487986418.163860"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "also not sure…how…that verifcation happens",
+        "ts": "1487986430.163948"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/github.com\/UncorkedStudios\/dpd-ses>",
+        "attachments": [
+            {
+                "title": "GitHub - UncorkedStudios\/dpd-ses: Deployd AWS SES module",
+                "title_link": "https:\/\/github.com\/UncorkedStudios\/dpd-ses",
+                "text": "dpd-ses - Deployd AWS SES module",
+                "fallback": "GitHub - UncorkedStudios\/dpd-ses: Deployd AWS SES module",
+                "from_url": "https:\/\/github.com\/UncorkedStudios\/dpd-ses",
+                "service_icon": "https:\/\/assets-cdn.github.com\/favicon.ico",
+                "service_name": "github.com",
+                "id": 1
+            }
+        ],
+        "ts": "1487986521.164946"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "pretttttty sure this SES stuff is under scott’s account",
+        "ts": "1487986580.165412"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "Oy vey",
+        "ts": "1487986774.167125"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "we'll work it out, but cs.* seems to be not responding (nothing useful in logs) and emails are borked, so i’ll work on those tonight",
+        "ts": "1487986818.167493"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "just times out",
+        "ts": "1487986839.167761"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(production omsi is likely broken too)",
+        "ts": "1487986930.168434"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "looks like the dpd email service is using <http:\/\/amazonses.com|amazonses.com>\ni don’t have access to uncorked’s aws. might we be able to set authorized email accts there?",
+        "ts": "1488002793.256231"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "just checked out #developers :wink:",
+        "ts": "1488002867.256607"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "We got it! ",
+        "ts": "1488003154.258745"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I reached out to get them verified ",
+        "ts": "1488003165.258934"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Still don't get why the email is fucked ",
+        "ts": "1488003179.259117"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "you the man",
+        "ts": "1488004531.268731"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "i’ll check in over the wknd. ping me if you get any news. nighty.",
+        "ts": "1488004584.269042"
+    }
+]

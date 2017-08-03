@@ -1,0 +1,490 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "anyone provide any insight into kat’s question re: CMS \/ HTML tags (shes trying to add some line breaks + ital and wants to make sure it will appear correctly if she uses &lt;\/BR&gt; and &lt;\/I&gt;)",
+        "ts": "1463079064.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t think it will",
+        "ts": "1463079072.000018"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ahhhh",
+        "ts": "1463079077.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "would have to test to be sure",
+        "ts": "1463079087.000020"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is there a way she can proceed instead?",
+        "ts": "1463079090.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m not sure if formatting will be preserved, but she could just type it in with the line breaks",
+        "ts": "1463079113.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "instead of adding the tags",
+        "ts": "1463079119.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "can’t do italics though",
+        "ts": "1463079133.000024"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or can we test? (apologies not familiar with the CMS piece but i should be!)",
+        "ts": "1463079145.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "not sure if it’s still live, should be able to use a test build w\/ dev server",
+        "ts": "1463079161.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "will look into it",
+        "ts": "1463079164.000027"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks so much kat!",
+        "ts": "1463079185.000028"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U06DFL7BP>: when you have a sec can you cancel today’s check in with adam? we’re just going to hold off until next week (hes OOO friday-next wed)",
+        "ts": "1463079426.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "line breaks, although they do not appear on the preview, will look correct in the app without adding html tags. I cannot think of a way to add italics as the tags will show in the app.",
+        "ts": "1463079543.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "That’s a future feature we can add to support html, but the current app won't",
+        "ts": "1463079558.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sorry, that’s the best I got :confused: <@U13GPDA1F>",
+        "ts": "1463079611.000032"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no, thats great - appreciate you taking the time to do that <@U0261PCRQ>! and i might bug you for a CMS overview when you have a free moment so i have a better sense of where we are",
+        "ts": "1463079683.000033"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "You could do an html embed :upside_down_face:",
+        "ts": "1463079723.000034"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(Don't do that)",
+        "ts": "1463079744.000035"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "tell me more",
+        "ts": "1463079748.000036"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(oh okay)",
+        "ts": "1463079751.000037"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":slightly_smiling_face:",
+        "ts": "1463079769.000038"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "any sense of how heavy a lift adding HTML support would be?",
+        "ts": "1463079853.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Dev is still live. Hi from dentist chair.",
+        "ts": "1463079869.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Shits about to get real over here ",
+        "ts": "1463079882.000041"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "HI!",
+        "ts": "1463079886.000042"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "whats happening in that mouth?",
+        "ts": "1463079896.000043"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sending you good vibes",
+        "ts": "1463079912.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "It's pretty small lift, just have to run the text through a method. Would want to test, but it's like a couple hour type thing.",
+        "ts": "1463079978.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Would be happy to show you the cms, Lynsey. It might also be good to show Kat the test cms so she can try out her pushes first? Unless there's a reason we're not showing that",
+        "ts": "1463080098.000046"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome - good to know (just for my context \/ wont pass around)",
+        "ts": "1463080112.000047"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh she doesn’t have access to test? i just assumed she did. <@U06DFL7BP> any insight here \/ reason not to share?",
+        "ts": "1463080162.000048"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Uh, she should? She tested all those Zeppelin posts? Am I high rn y\/n",
+        "ts": "1463080218.000049"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Yes.",
+        "ts": "1463080218.000050"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thanks slackbot ",
+        "ts": "1463080224.000051"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/i.imgur.com\/5GVoUDN.jpg>",
+        "attachments": [
+            {
+                "fallback": "200x200px image",
+                "image_url": "http:\/\/i.imgur.com\/5GVoUDN.jpg",
+                "image_width": 200,
+                "image_height": 200,
+                "image_bytes": 41514,
+                "from_url": "http:\/\/i.imgur.com\/5GVoUDN.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1463080225.000052"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lol",
+        "ts": "1463080227.000054"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "are there credentials for the test CMS that i might provide to her?",
+        "ts": "1463080246.000055"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(and myself)",
+        "ts": "1463080253.000056"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J>: just want set kat’s expectations on the nexus 5 rotation bug, so let me know if you have a rough ETA i can pass along  (i know you are dentisting + compassing today).",
+        "ts": "1463080469.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "No credentials, will send the link. Just wondering why she didn't try it?",
+        "ts": "1463080584.000058"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "¯\\_(ツ)_\/¯",
+        "ts": "1463080680.000059"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "she will have to have a dev-pointed build installed",
+        "ts": "1463080721.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "What he said ^",
+        "ts": "1463081908.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<http:\/\/tidy-federation-859.appspot.com\/artists>",
+        "ts": "1463081909.000062"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F18GX6QF3\/screenshot_20160512-144900.png|re: skrillex rotation bug> and commented: <@U026PHQ3J> here is how its appearing on 5X in landscape. getting cut off but not crashing. if we don’t think there is anything we can easily do to finesse i will ask her to send screen cap of issue (assuming theres anything else) or offer up an unsigned build, cool?",
+        "file": {
+            "id": "F18GX6QF3",
+            "created": 1463089905,
+            "timestamp": 1463089905,
+            "name": "Screenshot_20160512-144900.png",
+            "title": "re: skrillex rotation bug",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 325761,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F18GX6QF3\/screenshot_20160512-144900.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F18GX6QF3\/download\/screenshot_20160512-144900.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GX6QF3-046ff5ea8e\/screenshot_20160512-144900_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GX6QF3-046ff5ea8e\/screenshot_20160512-144900_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GX6QF3-046ff5ea8e\/screenshot_20160512-144900_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GX6QF3-046ff5ea8e\/screenshot_20160512-144900_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GX6QF3-046ff5ea8e\/screenshot_20160512-144900_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GX6QF3-046ff5ea8e\/screenshot_20160512-144900_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GX6QF3-046ff5ea8e\/screenshot_20160512-144900_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GX6QF3-046ff5ea8e\/screenshot_20160512-144900_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1080,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F18GX6QF3\/screenshot_20160512-144900.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F18GX6QF3-b0f63415a9",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc18FBA7FV",
+                "created": 1463089905,
+                "timestamp": 1463089905,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "<@U026PHQ3J> here is how its appearing on 5X in landscape. getting cut off but not crashing. if we don’t think there is anything we can easily do to finesse i will ask her to send screen cap of issue (assuming theres anything else) or offer up an unsigned build, cool?"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1463089909.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Try on 5 pls",
+        "ts": "1463089937.000064"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F18GGPUMA\/screenshot_20160512-145456.png|landscape on 5>",
+        "file": {
+            "id": "F18GGPUMA",
+            "created": 1463090164,
+            "timestamp": 1463090164,
+            "name": "Screenshot_20160512-145456.png",
+            "title": "landscape on 5",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 460504,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F18GGPUMA\/screenshot_20160512-145456.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F18GGPUMA\/download\/screenshot_20160512-145456.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GGPUMA-6f97017356\/screenshot_20160512-145456_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GGPUMA-6f97017356\/screenshot_20160512-145456_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GGPUMA-6f97017356\/screenshot_20160512-145456_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GGPUMA-6f97017356\/screenshot_20160512-145456_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GGPUMA-6f97017356\/screenshot_20160512-145456_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GGPUMA-6f97017356\/screenshot_20160512-145456_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GGPUMA-6f97017356\/screenshot_20160512-145456_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F18GGPUMA-6f97017356\/screenshot_20160512-145456_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1080,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F18GGPUMA\/screenshot_20160512-145456.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F18GGPUMA-1225129e4f",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1463090168.000065"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "pretty similar results. not able to make crash on with that build.  dude’s getting cut off \/ increased in size on landscape",
+        "ts": "1463090461.000066"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> if we think this is sufficient i think we can pass along a unsigned build maybe?",
+        "ts": "1463092478.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Could you send her these SShots and ask her to verify the test build on 5?",
+        "ts": "1463093562.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "mainly cause i want her to be on board with unsigned!",
+        "ts": "1463093570.000069"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sure thing",
+        "ts": "1463093958.000070"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> just so i am framing right - is the appearance (cut off) as good as we can get it w\/out significant effort? (or perhaps at all?)",
+        "ts": "1463094269.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right. the best case scenario is that it renders, but is cut off",
+        "ts": "1463094284.000072"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "perfect",
+        "ts": "1463094290.000073"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you",
+        "ts": "1463094292.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!here|@here> release 19 sent",
+        "ts": "1463096170.000075",
+        "reactions": [
+            {
+                "name": "metal-hair",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

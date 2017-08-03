@@ -1,0 +1,322 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02AUNA0P|designer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/designer\/F0L9WCCJG\/pasted_image_at_2016_02_04_10_02_am.png|Pasted image at 2016-02-04, 10:02 AM>",
+        "file": {
+            "id": "F0L9WCCJG",
+            "created": 1454608974,
+            "timestamp": 1454608974,
+            "name": "Pasted image at 2016_02_04 10_02 AM.png",
+            "title": "Pasted image at 2016-02-04, 10:02 AM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02AUNA0P",
+            "editable": false,
+            "size": 203957,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0L9WCCJG\/pasted_image_at_2016_02_04_10_02_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0L9WCCJG\/download\/pasted_image_at_2016_02_04_10_02_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0L9WCCJG-8b6bbcf034\/pasted_image_at_2016_02_04_10_02_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0L9WCCJG-8b6bbcf034\/pasted_image_at_2016_02_04_10_02_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0L9WCCJG-8b6bbcf034\/pasted_image_at_2016_02_04_10_02_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 336,
+            "thumb_360_h": 334,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0L9WCCJG-8b6bbcf034\/pasted_image_at_2016_02_04_10_02_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 336,
+            "original_h": 334,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/designer\/F0L9WCCJG\/pasted_image_at_2016_02_04_10_02_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0L9WCCJG-199e678dd5",
+            "channels": [
+                "C078JFZ7W"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02AUNA0P",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "designer",
+        "bot_id": null,
+        "ts": "1454608975.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> sorry team, stuck on a call so no real standup today. i’ll check in with all of you when i’m off",
+        "ts": "1454611580.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "* Have all the hardware for the box controller. LED ring is connected and installed in the box. Working on getting the network adapter to work right now so that we can control the box from the IS code that <@U0EL0GLEL> wrote yesterday.\n* Got updated drawings last night from <@U0260V4K1> via the doc we sent to the GC. Going to spend some quality time with the TDD today. Responded to a couple comments Myles made in the doc. Will follow up with him today about the touch activity they have so we can integrate with our IS code",
+        "ts": "1454611843.000019",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0HPGQ4KH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I have a functional IS setup with a demo of an admin, where you can drag and drop images on to a spot on the wall, if you click the spot it talks to another activity that handles the communication, it pings the tcp to the controller joel is making. Should be able to setup a demo where clicking the box on the screen makes the controller do something. Im working on fleshing out more of this admin and communications setup with IS. its pretty rough but functional so far.",
+        "ts": "1454612051.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Sounds good on both fronts, thanks for the update guys. Keeping pushing those forward.",
+        "ts": "1454612149.000021"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0LAA15AS\/screenshot_from_2016-02-04_10-59-02.png|Screenshot from 2016-02-04 10-59-02.png> and commented: rough admin, you can drag images to their spots. and click a spot to send a command to open it. Mostly figuring out how all the communication works. and saving and loading the data.",
+        "file": {
+            "id": "F0LAA15AS",
+            "created": 1454612609,
+            "timestamp": 1454612609,
+            "name": "Screenshot from 2016-02-04 10-59-02.png",
+            "title": "Screenshot from 2016-02-04 10-59-02.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 78701,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0LAA15AS\/screenshot_from_2016-02-04_10-59-02.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0LAA15AS\/download\/screenshot_from_2016-02-04_10-59-02.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAA15AS-c5d184ab79\/screenshot_from_2016-02-04_10-59-02_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAA15AS-c5d184ab79\/screenshot_from_2016-02-04_10-59-02_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAA15AS-c5d184ab79\/screenshot_from_2016-02-04_10-59-02_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 261,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAA15AS-c5d184ab79\/screenshot_from_2016-02-04_10-59-02_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 348,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAA15AS-c5d184ab79\/screenshot_from_2016-02-04_10-59-02_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAA15AS-c5d184ab79\/screenshot_from_2016-02-04_10-59-02_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 522,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAA15AS-c5d184ab79\/screenshot_from_2016-02-04_10-59-02_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 696,
+            "image_exif_rotation": 1,
+            "original_w": 978,
+            "original_h": 709,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0LAA15AS\/screenshot_from_2016-02-04_10-59-02.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0LAA15AS-68cb1c9d9d",
+            "channels": [
+                "C078JFZ7W"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0LA6NQDR",
+                "created": 1454612609,
+                "timestamp": 1454612609,
+                "user": "U0EL0GLEL",
+                "is_intro": true,
+                "comment": "rough admin, you can drag images to their spots. and click a spot to send a command to open it. Mostly figuring out how all the communication works. and saving and loading the data."
+            },
+            "reactions": [
+                {
+                    "name": "clap",
+                    "users": [
+                        "U02613K0X",
+                        "U02E3CRMA",
+                        "U0260V4K1"
+                    ],
+                    "count": 3
+                },
+                {
+                    "name": "+1",
+                    "users": [
+                        "U0HPGQ4KH"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1454612611.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "nice!",
+        "ts": "1454612669.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Im excited that we’re integrating more cats into Cubby",
+        "ts": "1454614586.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I think this is important work",
+        "ts": "1454614593.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yes. cats are a must in this concept.",
+        "ts": "1454614643.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "seemed like the obvious choice for sample data",
+        "ts": "1454614650.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "you’re a very smart person",
+        "ts": "1454614686.000031"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/d1s82l1atzspzx.cloudfront.net\/threadless-media\/artist_shops\/jenmussari\/6331\/walls_02.jpg?w=1272&amp;h=960&amp;q=96>",
+        "attachments": [
+            {
+                "fallback": "1272x960px image",
+                "image_url": "https:\/\/d1s82l1atzspzx.cloudfront.net\/threadless-media\/artist_shops\/jenmussari\/6331\/walls_02.jpg?w=1272&h=960&q=96",
+                "image_width": 1272,
+                "image_height": 960,
+                "image_bytes": 190605,
+                "from_url": "https:\/\/d1s82l1atzspzx.cloudfront.net\/threadless-media\/artist_shops\/jenmussari\/6331\/walls_02.jpg?w=1272&h=960&q=96",
+                "id": 1
+            }
+        ],
+        "ts": "1454614708.000032"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joel\/F0LAAJU5T\/pasted_image_at_2016_02_04_11_45_am.png|Box controller haz internetz>",
+        "file": {
+            "id": "F0LAAJU5T",
+            "created": 1454615175,
+            "timestamp": 1454615175,
+            "name": "Pasted image at 2016_02_04 11_45 AM.png",
+            "title": "Box controller haz internetz",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 22888,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0LAAJU5T\/pasted_image_at_2016_02_04_11_45_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0LAAJU5T\/download\/pasted_image_at_2016_02_04_11_45_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAAJU5T-4341f715e7\/pasted_image_at_2016_02_04_11_45_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAAJU5T-4341f715e7\/pasted_image_at_2016_02_04_11_45_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAAJU5T-4341f715e7\/pasted_image_at_2016_02_04_11_45_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 221,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAAJU5T-4341f715e7\/pasted_image_at_2016_02_04_11_45_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 295,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0LAAJU5T-4341f715e7\/pasted_image_at_2016_02_04_11_45_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 550,
+            "original_h": 338,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F0LAAJU5T\/pasted_image_at_2016_02_04_11_45_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0LAAJU5T-16c087faf3",
+            "channels": [
+                "C078JFZ7W"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02E3CRMA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1454615179.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: I’ll get the ethernet and lights code integrated, and then we can talk about network setup and messaging structure",
+        "ts": "1454615254.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "perfect",
+        "ts": "1454615304.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "what if we put cats IN the cubbies",
+        "ts": "1454616445.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "new project name: cat cubbies",
+        "ts": "1454616522.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Google LitterBox™",
+        "ts": "1454616736.000039",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U0HPGQ4KH"
+                ],
+                "count": 1
+            },
+            {
+                "name": "cat",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

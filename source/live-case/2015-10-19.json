@@ -1,0 +1,108 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ve been looking at the nearby places api, it doesn’t look like there’s even a method to get a list of locations. We could continue using the google nearbysearch web request that rehab had put in place.",
+        "ts": "1445279470.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "As for the UI, I can try to mimic what the Place Picker gives us, but the more I look at it, the less confident I feel about producing something that is as nice.",
+        "ts": "1445279502.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ>: <@U026PHQ3J> NFC question per adam",
+        "ts": "1445291417.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```\nthe new NFC string\nis it just the app name space and a unique ID for the order\nor is it app name space, unique ID for order, and Unique ID for generator\nlike each generator will be 1,2,3, etc```",
+        "ts": "1445291423.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i thought it was the latter?",
+        "ts": "1445291426.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, having some sort of identifier as part of the payload would be ideal",
+        "ts": "1445291459.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that way we can start the onboarding process before we’ve downloaded the relevant data",
+        "ts": "1445291478.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so we don’t have it defined",
+        "ts": "1445291483.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "?",
+        "ts": "1445291495.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "We talked about adding one but never actually locked down how long the order IDs are",
+        "ts": "1445291615.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "We can pack a 0,1,2 etc into the extra data space (like we do artist)",
+        "ts": "1445291636.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or even the way colorways are for places",
+        "ts": "1445291645.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "They're basically ride-along data for the mime record",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1445291665.000000"
+        },
+        "ts": "1445291656.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "“we” being huge, though",
+        "ts": "1445291683.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "\/ google",
+        "ts": "1445291691.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Generator would be preferred. Talked to Katie about that and I was under the impression we had all agreed on (prefix)(orderid)",
+        "ts": "1445291752.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah",
+        "ts": "1445291761.000019"
+    }
+]

@@ -1,0 +1,1124 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <!channel> can someone please point me to specs for the pre-login slideshow screens? I can’t seem to locate them on Comp Share",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1481823381.000000"
+        },
+        "ts": "1481823371.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "I dont think a spec was built for pre-login. right now there are flat assets of the background and the dialog box in the foreground",
+        "ts": "1481823575.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok, thanks",
+        "ts": "1481823621.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0XJFPSRL> one thing i am noticing now is that sharing a workout gives no indication of what activity was done… did we specify anything about that in the wires? I wonder how we might edit that byline text to give a bit more context … screenshot coming...",
+        "ts": "1481828143.000020"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F3FESHTNG\/img_55ff19459d4f-2.jpeg|IMG_55FF19459D4F-2.jpeg>",
+        "file": {
+            "id": "F3FESHTNG",
+            "created": 1481828170,
+            "timestamp": 1481828170,
+            "name": "IMG_55FF19459D4F-2.jpeg",
+            "title": "IMG_55FF19459D4F-2.jpeg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 528698,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3FESHTNG\/img_55ff19459d4f-2.jpeg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3FESHTNG\/download\/img_55ff19459d4f-2.jpeg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FESHTNG-f76e65bd9a\/img_55ff19459d4f-2_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FESHTNG-f76e65bd9a\/img_55ff19459d4f-2_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FESHTNG-f76e65bd9a\/img_55ff19459d4f-2_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FESHTNG-f76e65bd9a\/img_55ff19459d4f-2_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FESHTNG-f76e65bd9a\/img_55ff19459d4f-2_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FESHTNG-f76e65bd9a\/img_55ff19459d4f-2_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 720,
+            "image_exif_rotation": 1,
+            "original_w": 750,
+            "original_h": 750,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F3FESHTNG\/img_55ff19459d4f-2.jpeg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3FESHTNG-533a0234e9",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1481828172.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "It had the byline in the Dx completion screen, I’m not sure why its not in the sharing screen too",
+        "edited": {
+            "user": "U0XCJ372R",
+            "ts": "1481828266.000000"
+        },
+        "ts": "1481828255.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "or maybe that is only for discoveries and not all actives.",
+        "ts": "1481828310.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "the wires specify that the byline should say ALL DAY · {TODAY’S DATE}",
+        "ts": "1481828321.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0XJFPSRL> it wasn’t feasible to dynamically pull in the activity name into the overlay text, correct? wondering what levers we might be able to pull here",
+        "ts": "1481828573.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "<@U0260V1BX> trying to remember if this was a scope issue and I think it was easiest to make the sharing flow the same for all workouts (beyond dynamically updating the stats)",
+        "ts": "1481828727.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "I am going to add this as an item in the post-beta priorities spreadsheet. I have a feeling this ship has sailed for launch.",
+        "ts": "1481829033.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Okay, sounds good. Thanks",
+        "ts": "1481829052.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Thanks Melissa - agreed",
+        "ts": "1481829195.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026103R3> is that spreadsheet still the right venue?",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1481829255.000000"
+        },
+        "ts": "1481829250.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "I’m working on updating home screen comps, but I can’t track down the PSDs for the past days, zero states, and the home screen messages. <@U0260V1BX> where these screens you had worked on?",
+        "ts": "1481829375.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yep that’s still the correct place <@U0260V1BX>",
+        "ts": "1481829430.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "Also, abby, do you want the post-launch versions with the center number and white type added to the wireframe doc, or leave that be for now?",
+        "ts": "1481829540.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "It would be great to do if we have the time, but if we’re worried about timing at all it can be last priority and we can circle back to it if need be.",
+        "ts": "1481829652.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0XCJ372R> i *think* phillip should have those PSDs? I might have the zero state psd, let me look. But phillip made the hs messages comps and I believe past days as well",
+        "ts": "1481829669.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "Thanks Melissa",
+        "ts": "1481829693.000038"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> shared a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F3ENDQPEV\/myday_emptystate.psb|MyDay_emptystate.psb>",
+        "file": {
+            "id": "F3ENDQPEV",
+            "created": 1481829739,
+            "timestamp": 1481829739,
+            "name": "MyDay_emptystate.psb",
+            "title": "MyDay_emptystate.psb",
+            "mimetype": "application\/octet-stream",
+            "filetype": "binary",
+            "pretty_type": "Binary",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 6076231,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/o9c9se0l7nf5z24\/MyDay_emptystate.psb?dl=0",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F3ENDQPEV\/myday_emptystate.psb",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "thanks",
+                    "users": [
+                        "U0XCJ372R"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U0260V1BX",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1481829739.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "And I already have the comps for post-luanch (at least the basic ones, not ALL states) so it’s more up to Elise who I’m assuming would be adding them to the wires.",
+        "ts": "1481829751.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "I can add another page in the INDD for post-launch home comps if we want",
+        "ts": "1481829933.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "sending ali my psd right now",
+        "ts": "1481829971.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks <@U02AUNA0P>",
+        "ts": "1481829976.000046"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F3G5VTELF\/screen_shot_2016-12-15_at_1.40.24_pm.png|Screen Shot 2016-12-15 at 1.40.24 PM.png> and commented: <@U0XCJ372R> and <@U0XJFPSRL> - apparently the pillar icons have been removed from the homescreen enrolled Dxs for launch - we’ll have to either mark those icons as post launch in the wires and annotate that the text should move left… or update the comps to show the launch version. Can you two please coordinate these updates? Thanks\/sorry :slightly_smiling_face:",
+        "file": {
+            "id": "F3G5VTELF",
+            "created": 1481838062,
+            "timestamp": 1481838062,
+            "name": "Screen Shot 2016-12-15 at 1.40.24 PM.png",
+            "title": "Screen Shot 2016-12-15 at 1.40.24 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 255696,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3G5VTELF\/screen_shot_2016-12-15_at_1.40.24_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3G5VTELF\/download\/screen_shot_2016-12-15_at_1.40.24_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G5VTELF-8e18bf2a92\/screen_shot_2016-12-15_at_1.40.24_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G5VTELF-8e18bf2a92\/screen_shot_2016-12-15_at_1.40.24_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G5VTELF-8e18bf2a92\/screen_shot_2016-12-15_at_1.40.24_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 252,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G5VTELF-8e18bf2a92\/screen_shot_2016-12-15_at_1.40.24_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 337,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G5VTELF-8e18bf2a92\/screen_shot_2016-12-15_at_1.40.24_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 482,
+            "original_h": 338,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F3G5VTELF\/screen_shot_2016-12-15_at_1.40.24_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3G5VTELF-cd5f0fc922",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc3G5JAF62",
+                "created": 1481838062,
+                "timestamp": 1481838062,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "<@U0XCJ372R> and <@U0XJFPSRL> - apparently the pillar icons have been removed from the homescreen enrolled Dxs for launch - we’ll have to either mark those icons as post launch in the wires and annotate that the text should move left… or update the comps to show the launch version. Can you two please coordinate these updates? Thanks\/sorry :slightly_smiling_face:"
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1481838065.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "We got it, thanks!",
+        "ts": "1481838281.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Thanks Melissa for making sure we’re clear on that, and for Ali, Melodee, and Elise for continuing to make updates!",
+        "ts": "1481838455.000049"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0XJFPSRL|elisecramer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/elisecramer\/F3G600NR4\/screen_shot_2016-12-15_at_2.13.17_pm.png|Screen Shot 2016-12-15 at 2.13.17 PM.png> and commented: Trying to understand the goal of this screen so I can decide whether to delete or update",
+        "file": {
+            "id": "F3G600NR4",
+            "created": 1481840035,
+            "timestamp": 1481840035,
+            "name": "Screen Shot 2016-12-15 at 2.13.17 PM.png",
+            "title": "Screen Shot 2016-12-15 at 2.13.17 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0XJFPSRL",
+            "editable": false,
+            "size": 213793,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3G600NR4\/screen_shot_2016-12-15_at_2.13.17_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3G600NR4\/download\/screen_shot_2016-12-15_at_2.13.17_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G600NR4-507233440d\/screen_shot_2016-12-15_at_2.13.17_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G600NR4-507233440d\/screen_shot_2016-12-15_at_2.13.17_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G600NR4-507233440d\/screen_shot_2016-12-15_at_2.13.17_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 187,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G600NR4-507233440d\/screen_shot_2016-12-15_at_2.13.17_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 250,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G600NR4-507233440d\/screen_shot_2016-12-15_at_2.13.17_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G600NR4-507233440d\/screen_shot_2016-12-15_at_2.13.17_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 375,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G600NR4-507233440d\/screen_shot_2016-12-15_at_2.13.17_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 500,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3G600NR4-507233440d\/screen_shot_2016-12-15_at_2.13.17_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 533,
+            "image_exif_rotation": 1,
+            "original_w": 1686,
+            "original_h": 878,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/elisecramer\/F3G600NR4\/screen_shot_2016-12-15_at_2.13.17_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3G600NR4-56b11c39d5",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc3EQZQ66M",
+                "created": 1481840035,
+                "timestamp": 1481840035,
+                "user": "U0XJFPSRL",
+                "is_intro": true,
+                "comment": "Trying to understand the goal of this screen so I can decide whether to delete or update"
+            }
+        },
+        "user": "U0XJFPSRL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "elisecramer",
+        "bot_id": null,
+        "ts": "1481840039.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "you can remove it.",
+        "ts": "1481840090.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks",
+        "ts": "1481840095.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Cool thanks",
+        "ts": "1481840115.000053"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0XJFPSRL|elisecramer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/elisecramer\/F3FHU4AMS\/screen_shot_2016-12-15_at_2.15.30_pm.png|Screen Shot 2016-12-15 at 2.15.30 PM.png> and commented: Is this still true?",
+        "file": {
+            "id": "F3FHU4AMS",
+            "created": 1481840147,
+            "timestamp": 1481840147,
+            "name": "Screen Shot 2016-12-15 at 2.15.30 PM.png",
+            "title": "Screen Shot 2016-12-15 at 2.15.30 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0XJFPSRL",
+            "editable": false,
+            "size": 52172,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3FHU4AMS\/screen_shot_2016-12-15_at_2.15.30_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3FHU4AMS\/download\/screen_shot_2016-12-15_at_2.15.30_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FHU4AMS-3e0601f6c5\/screen_shot_2016-12-15_at_2.15.30_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FHU4AMS-3e0601f6c5\/screen_shot_2016-12-15_at_2.15.30_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FHU4AMS-3e0601f6c5\/screen_shot_2016-12-15_at_2.15.30_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 171,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FHU4AMS-3e0601f6c5\/screen_shot_2016-12-15_at_2.15.30_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 228,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FHU4AMS-3e0601f6c5\/screen_shot_2016-12-15_at_2.15.30_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FHU4AMS-3e0601f6c5\/screen_shot_2016-12-15_at_2.15.30_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 342,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FHU4AMS-3e0601f6c5\/screen_shot_2016-12-15_at_2.15.30_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 457,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3FHU4AMS-3e0601f6c5\/screen_shot_2016-12-15_at_2.15.30_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 487,
+            "image_exif_rotation": 1,
+            "original_w": 1110,
+            "original_h": 528,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/elisecramer\/F3FHU4AMS\/screen_shot_2016-12-15_at_2.15.30_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3FHU4AMS-c2bb4f5e31",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc3G6CERPH",
+                "created": 1481840147,
+                "timestamp": 1481840147,
+                "user": "U0XJFPSRL",
+                "is_intro": true,
+                "comment": "Is this still true?"
+            }
+        },
+        "user": "U0XJFPSRL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "elisecramer",
+        "bot_id": null,
+        "ts": "1481840151.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "I’ll change pattern to canvas. Mostly wondering about the “add 20 min\"",
+        "edited": {
+            "user": "U0XJFPSRL",
+            "ts": "1481840198.000000"
+        },
+        "ts": "1481840174.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I believe that is still true, yes. <@U0260V1BX> can confirm",
+        "ts": "1481840212.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yup",
+        "ts": "1481840246.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "So in chatting with Matt I’m reminded that we had conversations around the design of the new haze visualization, and one idea was to make the discovery completions add 30 min instead of 20 because each new color starts to show at 30 min marks. This might feel more like milestones. Not sure if we should make the change to dev though - <@U0260V1BX> do you have thoughts on that?",
+        "ts": "1481840960.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i think that’s fine.",
+        "ts": "1481841062.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "if we do, then you'll ensure a more consistent color change for each completion. otherwise, you'd get mixed results",
+        "ts": "1481841144.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Ok cool, sounds like discovery completion adding 30 min rather than 20 is preferable. Let me reach out to Israel and Alan and follow up here as to whether or not we can make the change.",
+        "ts": "1481841215.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> Ok team we’re updating disco session completions to add 30min of active minutes instead of 20 min. <@U0XJFPSRL> can you make sure the wires are updated to reflect that?",
+        "ts": "1481842034.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Already updated :+1::skin-tone-2:",
+        "ts": "1481842113.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Confirming that you mean all discovery sessions?",
+        "ts": "1481842181.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Even if i do a 15min strong video, it adds 30minutes? Or just discoveries related to mindfulness, sleep, nutrition add 30 minutes",
+        "edited": {
+            "user": "U0XJFPSRL",
+            "ts": "1481842214.000000"
+        },
+        "ts": "1481842201.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "just mindfulness\/sleep\/nutrition",
+        "ts": "1481842337.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Cool",
+        "ts": "1481842357.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "those should not add active minutes",
+        "ts": "1481842361.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "just affect the visualization",
+        "ts": "1481842365.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Yep",
+        "ts": "1481842371.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026103R3> just want to make sure that’s clear ^",
+        "ts": "1481842373.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "That's what I had in there",
+        "ts": "1481842377.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yep thanks",
+        "ts": "1481842402.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "activity dx sessions will add the # active minutes associated with each session. Whether or not we add 30in worth to the visualization.... i suppose that would be consistent with how we’re treating all other dx? thoughts?",
+        "ts": "1481842438.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026PLK4S> do you have thoughts on that?",
+        "ts": "1481842473.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "fwiw i think we need to keep it as however it is built now",
+        "ts": "1481842492.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "the reason we could change to 30 min is because it’s simply a value change",
+        "ts": "1481842507.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "asking to change the logic will likely get pushback",
+        "ts": "1481842517.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i think that's okay.",
+        "ts": "1481842843.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "the 30 min thing, for me, is really about giving some kind of feedback when no real minutes are added",
+        "ts": "1481842889.000082"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0260V1BX> are you cool with that? keeping as is i mean. i think it’s something we should all test out when we have it built, and i’m feeling like changing would become a post launch thing anyway, so maybe we test it when it’s built and see if it’s something we should raise then.",
+        "ts": "1481843201.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah that’s fine",
+        "ts": "1481843259.000084"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "let’s leave it as is for activity dx sessions",
+        "ts": "1481843275.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sounds good, thanks",
+        "ts": "1481843281.000086"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "but discoveries related to mindfulness, sleep, nutrition will still add 30 minutes to the visualization",
+        "ts": "1481843427.000087"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yes",
+        "ts": "1481843555.000088"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0XCJ372R> <@U0XJFPSRL> did we decide to replace the X button on discovery enrollment with a “Cancel” button?",
+        "ts": "1481844675.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "Can you post the screen?",
+        "ts": "1481844697.000090"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F3ERWLAMP\/5.4_number_of_sessions-3.png|5.4 Number of Sessions-3.png>",
+        "file": {
+            "id": "F3ERWLAMP",
+            "created": 1481844753,
+            "timestamp": 1481844753,
+            "name": "5.4 Number of Sessions-3.png",
+            "title": "5.4 Number of Sessions-3.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 48700,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3ERWLAMP\/5.4_number_of_sessions-3.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3ERWLAMP\/download\/5.4_number_of_sessions-3.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3ERWLAMP-fb9deb3381\/5.4_number_of_sessions-3_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3ERWLAMP-fb9deb3381\/5.4_number_of_sessions-3_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3ERWLAMP-fb9deb3381\/5.4_number_of_sessions-3_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3ERWLAMP-fb9deb3381\/5.4_number_of_sessions-3_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3ERWLAMP-fb9deb3381\/5.4_number_of_sessions-3_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3ERWLAMP-fb9deb3381\/5.4_number_of_sessions-3_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3ERWLAMP-fb9deb3381\/5.4_number_of_sessions-3_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3ERWLAMP-fb9deb3381\/5.4_number_of_sessions-3_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 750,
+            "original_h": 1334,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F3ERWLAMP\/5.4_number_of_sessions-3.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3ERWLAMP-8a0f154ec3",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1481844756.000091"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "hang on, I'll reference the pattern library for that",
+        "ts": "1481844781.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "I belive it should be a cancel since we do not want the  X icon to appear on the right side.",
+        "ts": "1481844814.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "just did - the Xs are in the comps with a note that says it should be Cancel",
+        "ts": "1481844822.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sorry, should have just looked at that first :slightly_smiling_face:",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1481844852.000000"
+        },
+        "ts": "1481844845.000095"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "is that something we should update in the comps though since we’re doing that?",
+        "ts": "1481844867.000097"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "It is something we are currently working on, I’ll make a note of it.",
+        "ts": "1481844887.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes, and that annotation doesnt exist in the dx wires so it’s best to update the comps",
+        "ts": "1481844891.000099"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks!",
+        "ts": "1481844895.000100"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok <@U0XCJ372R> <@U0XJFPSRL> i’m sure you see that but want to make sure",
+        "ts": "1481844915.000101"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "also melissa i’m assuming you’re makin the jira ticket to update, that true?",
+        "ts": "1481844920.000102"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yup",
+        "ts": "1481844927.000103"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "word",
+        "ts": "1481844951.000104"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "thanks all, for background, we made this change so we didn't have inconsistencies in how many button types and positions we were using throughout",
+        "ts": "1481844953.000105"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks megan, appreciate it",
+        "ts": "1481844969.000106"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "is it supposed to be “cancel” in android too? currently we just have an x in the upper left",
+        "ts": "1481844995.000107"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah it was much needed and is much appreciated!!",
+        "ts": "1481844997.000108"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0HP6TFNX> can you answer whether that should also be cancel in android?",
+        "ts": "1481845078.000109"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "I believe that’s fine kat. we have a back button on iOS that necessitates the exit\/cancel button moving to the right, but on Android we are just using the system back button",
+        "ts": "1481845142.000110"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok, cool",
+        "ts": "1481845153.000111"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "will look to <@U0HP6TFNX> to confirm that tho",
+        "ts": "1481845164.000112"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "yes, the patterns apply to both platforms",
+        "ts": "1481845216.000113"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hm i’m confused. if the patterns apply to both platforms that means we *should* make the update on android?",
+        "ts": "1481845304.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "so we would then be adding a back button into the enrollment flow <@U0HP6TFNX>?",
+        "ts": "1481845341.000115"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "sorry, I mean that we'd use the upper right cancel button in both cases",
+        "ts": "1481845359.000116"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "k, gotcha. <@U0261PCRQ> ^^",
+        "ts": "1481845416.000117"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ignore what i said",
+        "ts": "1481845421.000118"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":grimacing: ok...",
+        "ts": "1481845443.000119"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0XJFPSRL> this also means we should remove the note on p13 of the Dx Instances wires that says back buttons should be removed on Android...",
+        "ts": "1481845562.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the up button in the upper left really should have a different functionality from the system back button",
+        "ts": "1481845603.000121"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "otherwise we shouldn’t include it",
+        "ts": "1481845605.000122"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0HP6TFNX> thoughts?",
+        "ts": "1481845636.000123"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s not always completely different, but it should take you to a parent view, not a sibling",
+        "ts": "1481845661.000124"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "let me look at p13. but from memory, we audited this and decided to remove the back button from android when there was no parent",
+        "ts": "1481845703.000125"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "ok, in page 13 of the Dx instance, we'd go with the annotation: no back button (in favor of system back), and upper right is a cancel button to drop out of the flow and return to the previous screen",
+        "ts": "1481845812.000126"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok, so for android we can keep the back button out, but move the close button to the right and change it to cancel?",
+        "ts": "1481845830.000127"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "WHEW",
+        "ts": "1481845840.000128"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok",
+        "ts": "1481845841.000129"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0261PCRQ> does that work for you?",
+        "ts": "1481845846.000130"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sorry for the confusion, folks, i think that was all me.",
+        "ts": "1481845858.000131"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "makes sense",
+        "ts": "1481845901.000132"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Sorry, I’m multitasking on a bunch of things, do I need to update",
+        "ts": "1481845908.000133"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "TL;DR - change X to cancel in enrollment comps, keep Android note on p13 of wires",
+        "ts": "1481845911.000134"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Okay, thanks",
+        "ts": "1481845965.000135"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Sorry I'm always making sure, but Melissa would you mind filing an android ticket for that? Want to make sure we're covered there ",
+        "ts": "1481846199.000136"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yep will do",
+        "ts": "1481846238.000137"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Thanks! ",
+        "ts": "1481846574.000138"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<!here|@here> FYI: I'll be OOO tomorrow and monday, but will be around if you need me. Back on tuesday.",
+        "ts": "1481848708.000139"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "same same (out tomorrow)!",
+        "ts": "1481848730.000140"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Heads up on Haze progress: worked a ton with Chris today, who genuinely kicked ass, and we were able to finally come up with a solution we feel good about. When I get back after the new year I intend to work with him on trying to get noise texture into the thing, fine tuning opacity\/color blending and introduce randomness to the variables. He’s currently working on aligning timing just right to get half hour milestones to line up at the appropriate points. This is a screen recording of 0-510 minutes, and is what's now been pushed into both iOS and Android versions of OpenGL code. Feel free to jot down adjustment suggestions for when I’m back in!\n\n<https:\/\/www.dropbox.com\/s\/2245tcza6sjnwrv\/161215_Haze_01.mov?dl=0>",
+        "attachments": [
+            {
+                "service_name": "Dropbox",
+                "title": "161215_Haze_01.mov",
+                "title_link": "https:\/\/www.dropbox.com\/s\/2245tcza6sjnwrv\/161215_Haze_01.mov?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 161215_Haze_01.mov",
+                "thumb_url": "https:\/\/www.dropbox.com\/temp_thumb_from_token\/s\/2245tcza6sjnwrv?preserve_transparency=False&size_mode=2&size=1024x1024",
+                "from_url": "https:\/\/www.dropbox.com\/s\/2245tcza6sjnwrv\/161215_Haze_01.mov?dl=0",
+                "thumb_width": 750,
+                "thumb_height": 668,
+                "id": 1
+            }
+        ],
+        "ts": "1481857076.000143",
+        "reactions": [
+            {
+                "name": "partyparrot",
+                "users": [
+                    "U0XCJ372R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Thank you for the update Trent!!",
+        "ts": "1481857129.000145"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "That sounds like a great plan ",
+        "ts": "1481857172.000146"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Also let me know if there’s any answers to urgent questions I can provide on this. Def willing to answer those if you ask by tomorrow",
+        "ts": "1481857195.000147"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Merry Christmas and Happy New Year to all!",
+        "ts": "1481857229.000148"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "haze is so beautiful :')",
+        "ts": "1481858433.000149"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "This is fantastic work. ",
+        "ts": "1481860875.000150"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Thanks for kicking ass Trent. ",
+        "ts": "1481861103.000151"
+    }
+]

@@ -1,0 +1,309 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "nexus 5 should be here between tuesday and friday next week",
+        "ts": "1427477888.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "*expected on tuesday",
+        "ts": "1427477932.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "day images now download exactly once if its nighttime and the app has received a push to let it know that its supposed to download new images",
+        "ts": "1427493557.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "so <@U026PHQ3J>, are users with old installs of the app going to see the text in key1 and\/or key2 that comes with background image update pushes?",
+        "ts": "1427493934.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes.",
+        "ts": "1427493945.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ok, and I know you said so earlier and I forgot but should we tell them to update their app there?",
+        "ts": "1427493989.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "or just something else non-assuming?",
+        "ts": "1427494000.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah just something soft. Chatting with Adam about it now.",
+        "ts": "1427494033.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "do you have a specific string it should be?",
+        "ts": "1427494099.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Nah, he wants to talk about it next week, but for the time being, i think just something to the effect of \"You're only seeing this because your app is out of date\"",
+        "ts": "1427494134.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sounds kind of passive aggressive",
+        "ts": "1427494245.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok, how about:",
+        "ts": "1427494315.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "'hey asshole, update Live Case'",
+        "ts": "1427494322.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and then key2 can be 'ass.'",
+        "ts": "1427494326.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh nice",
+        "ts": "1427494333.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "'Daytime Images Updated. These messages will disappear with your next app update.'",
+        "ts": "1427494385.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that's what i'm going with",
+        "ts": "1427494400.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "also tidy-federation is down right now and i have no clue why",
+        "ts": "1427494540.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ugh",
+        "ts": "1427494783.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "does anyone have any clue?",
+        "ts": "1427494793.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looking",
+        "ts": "1427494801.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "looks like it's been down for like 20 mins",
+        "ts": "1427494807.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'm not sure how to get anything helpful from appengine logs",
+        "ts": "1427494833.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "started 500'ing at 2:40 it looks like",
+        "ts": "1427494951.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looking around in the portal for anything helpful",
+        "ts": "1427494973.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I see 2:56?",
+        "ts": "1427494990.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the graphs are crummy, i was estimating :simple_smile:",
+        "ts": "1427495034.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh yeah, one of its little health requests failed at 2:40, then it worked til 2:56?",
+        "ts": "1427495038.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "graphs huh",
+        "ts": "1427495049.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it's back up",
+        "ts": "1427495092.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "(that health request I thought failed didn't actually fail)",
+        "ts": "1427495150.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026PHQ3J> did you do something or did it respawn?",
+        "ts": "1427495162.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I did nothing",
+        "ts": "1427495168.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hmph",
+        "ts": "1427495171.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i was just reading the \"operations\" thing",
+        "ts": "1427495178.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "30 mins is a long time to be down",
+        "ts": "1427495184.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "where it showed itself respawning",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1427495191.000000"
+        },
+        "ts": "1427495184.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "what's the operations thing?",
+        "ts": "1427495198.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh wait, that was yesterday",
+        "ts": "1427495229.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "operations nav on the left under Compute Engine",
+        "ts": "1427495242.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hmm",
+        "ts": "1427495376.000043"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026E0ZNR|trent> uploaded a file: <https:\/\/uncorked.slack.com\/files\/trent\/F0462LPKN\/weird_siamese.gif|Weird_Siamese.gif>",
+        "file": {
+            "id": "F0462LPKN",
+            "created": 1427503875,
+            "timestamp": 1427503875,
+            "name": "Weird_Siamese.gif",
+            "title": "Weird_Siamese.gif",
+            "mimetype": "image\/gif",
+            "filetype": "gif",
+            "pretty_type": "GIF",
+            "user": "U026E0ZNR",
+            "editable": false,
+            "size": 1022242,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0462LPKN\/weird_siamese.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0462LPKN\/download\/weird_siamese.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0462LPKN-70e33c9416\/weird_siamese_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0462LPKN-70e33c9416\/weird_siamese_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0462LPKN-70e33c9416\/weird_siamese_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0462LPKN-70e33c9416\/weird_siamese_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0462LPKN-70e33c9416\/weird_siamese_360.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 600,
+            "original_h": 600,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/trent\/F0462LPKN\/weird_siamese.gif",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0462LPKN-1c92e8a4e1",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026E0ZNR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "trent",
+        "bot_id": null,
+        "ts": "1427503883.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "Whoa",
+        "ts": "1427504918.000047"
+    }
+]

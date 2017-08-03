@@ -1,0 +1,540 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "melissa: Hey there! Any chance you were able to jam on this yesterday?",
+        "thread_ts": "1497039720.070804",
+        "parent_user_id": "U0260V1BX",
+        "ts": "1497358984.323117"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<!here|@here> 10min trend refresh is independent of the actual API to get the trend data from GAE. The API call is usually 50-60ms response time.",
+        "ts": "1497360662.915653"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F5T0923M2\/pasted_image_at_2017_06_13_09_32_am.png|Pasted image at 2017-06-13, 9:32 AM> and commented: The cron job service takes 6-10 mins as seen here. We have 47 countries and for each, we get list of trend items and then details about each trend item (up to 20), so altogether a max of 987 API calls.",
+        "file": {
+            "id": "F5T0923M2",
+            "created": 1497360888,
+            "timestamp": 1497360888,
+            "name": "Pasted image at 2017_06_13 09_32 AM.png",
+            "title": "Pasted image at 2017-06-13, 9:32 AM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1S5GKTHQ",
+            "editable": false,
+            "size": 383385,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5T0923M2\/pasted_image_at_2017_06_13_09_32_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5T0923M2\/download\/pasted_image_at_2017_06_13_09_32_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5T0923M2-8f4699785c\/pasted_image_at_2017_06_13_09_32_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5T0923M2-8f4699785c\/pasted_image_at_2017_06_13_09_32_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5T0923M2-8f4699785c\/pasted_image_at_2017_06_13_09_32_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 185,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5T0923M2-8f4699785c\/pasted_image_at_2017_06_13_09_32_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 247,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5T0923M2-8f4699785c\/pasted_image_at_2017_06_13_09_32_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5T0923M2-8f4699785c\/pasted_image_at_2017_06_13_09_32_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 371,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5T0923M2-8f4699785c\/pasted_image_at_2017_06_13_09_32_am_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 412,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5T0923M2-8f4699785c\/pasted_image_at_2017_06_13_09_32_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 494,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5T0923M2-8f4699785c\/pasted_image_at_2017_06_13_09_32_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 527,
+            "image_exif_rotation": 1,
+            "original_w": 2322,
+            "original_h": 1196,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F5T0923M2\/pasted_image_at_2017_06_13_09_32_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5T0923M2-a8fa0614a0",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5T092VK6",
+                "created": 1497360888,
+                "timestamp": 1497360888,
+                "user": "U1S5GKTHQ",
+                "is_intro": true,
+                "comment": "The cron job service takes 6-10 mins as seen here. We have 47 countries and for each, we get list of trend items and then details about each trend item (up to 20), so altogether a max of 987 API calls."
+            }
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1497360892.002562"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I believe this used to be faster back in the day, but def. slowed down.",
+        "ts": "1497360932.018323"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "One solution: improve the script by implementing timeouts for each API call. the downside is if any of the 20 trend detail calls fail, that whole country won’t get a refreshed list (or we can skip that specific trend?). the upside is limiting the max execution time and no more 500s.\n\nAnother solution: reimplement this completely. I was thinking of using Google Cloud Functions BUT I’m getting the following when trying to access that panel in GAE:\n\n&gt; To use Cloud Functions with this project, contact a project owner to enable billing",
+        "edited": {
+            "user": "U1S5GKTHQ",
+            "ts": "1497361217.000000"
+        },
+        "ts": "1497361112.088690"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "This is for `gweb-uncorked-3PR` project. I thought our client had done some special magic to this GAE project to lift the quotas and “unlock” it?",
+        "ts": "1497361161.108967"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh hm. ",
+        "ts": "1497362597.712595"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Will find out.",
+        "ts": "1497362615.719868"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "My question was mostly a sanity check. The internal tools that track the pixel 2 prerelease detected three long running trend update service requests ",
+        "ts": "1497362663.739596"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "And I wasn't sure if when those happened if something was happening server side",
+        "ts": "1497362679.746262"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Seems like maybe the time out needs to be adjusted on the client side ",
+        "ts": "1497362691.751180"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "No, I can try and devote some time to it today. ",
+        "thread_ts": "1497039720.070804",
+        "parent_user_id": "U0260V1BX",
+        "ts": "1497365598.003045"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5TTR9STH\/stacktrace_from_8_00_yesterday.java|stacktrace from 8:00 yesterday>",
+        "file": {
+            "id": "F5TTR9STH",
+            "created": 1497373620,
+            "timestamp": 1497373620,
+            "name": "stacktrace_from_8_00_yesterday.java",
+            "title": "stacktrace from 8:00 yesterday",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U1ZG1UCAK",
+            "editable": true,
+            "size": 4363,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5TTR9STH\/stacktrace_from_8_00_yesterday.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5TTR9STH\/download\/stacktrace_from_8_00_yesterday.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5TTR9STH\/stacktrace_from_8_00_yesterday.java",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5TTR9STH-816f847d66",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/midori\/F5TTR9STH\/stacktrace_from_8_00_yesterday.java\/edit",
+            "preview": "java.lang.IllegalArgumentException\r\n\tat android.graphics.Bitmap.checkWidthHeight(Bitmap.java:413)\r\n\tat android.graphics.Bitmap.createBitmap(Bitmap.java:732)\r\n\tat android.graphics.Bitmap.createBitmap(Bitmap.java:701)\r\n\tat com.google.android.apps.workshop.wallpaper.image.BitmapRegionLoader.com.google.android.apps.workshop.wallpaper.image.BitmapRegionLoader newInstance(java.io.InputStream)(Unknown Source)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">lang<\/span>.<span class=\"cm-variable\">IllegalArgumentException<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">graphics<\/span>.<span class=\"cm-variable\">Bitmap<\/span>.<span class=\"cm-variable\">checkWidthHeight<\/span>(<span class=\"cm-variable\">Bitmap<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">413<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">graphics<\/span>.<span class=\"cm-variable\">Bitmap<\/span>.<span class=\"cm-variable\">createBitmap<\/span>(<span class=\"cm-variable\">Bitmap<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">732<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">graphics<\/span>.<span class=\"cm-variable\">Bitmap<\/span>.<span class=\"cm-variable\">createBitmap<\/span>(<span class=\"cm-variable\">Bitmap<\/span>.<span class=\"cm-variable\">java<\/span>:<span class=\"cm-number\">701<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">wallpaper<\/span>.<span class=\"cm-variable\">image<\/span>.<span class=\"cm-variable\">BitmapRegionLoader<\/span>.<span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">wallpaper<\/span>.<span class=\"cm-variable\">image<\/span>.<span class=\"cm-variable\">BitmapRegionLoader<\/span> <span class=\"cm-def\">newInstance<\/span>(<span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">io<\/span>.<span class=\"cm-variable\">InputStream<\/span>)(<span class=\"cm-variable\">Unknown<\/span> <span class=\"cm-variable\">Source<\/span>)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 31,
+            "lines_more": 26,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1497373621.384547"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hey <@U2H61EJSG> how are notifications coming?",
+        "ts": "1497379033.474316"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Alright-ish. I am waiting for the CMS changes to be complete and then I’ll have some things to fix up after that. There are still some strange kinks in the recyclerview with glide that I’m working on now.",
+        "ts": "1497379130.512087"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans - melissa is working on some putting together some FE CMS tweaks today from ux\/design perspective which will make their way to john so we can button that up and get that over to clients for review (along with ability to test in-app)",
+        "ts": "1497379545.669052"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(just some context for timing)",
+        "ts": "1497379562.675688"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> what changes are you waiting on? wondering if there is anything that john can tackle in advance of melissas feedback so as to not block you?",
+        "ts": "1497379708.730032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> what are you waiting on",
+        "ts": "1497379712.731505"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lol jinx",
+        "ts": "1497379720.734231",
+        "reactions": [
+            {
+                "name": "tropical_drink",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":dancers:",
+        "ts": "1497379746.744650"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I don’t know exactly what the data is going to look like when I receive it from the CMS so I am going to need to make changes to how it’s parsed, saved, and then displayed",
+        "ts": "1497379810.769297"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<@U13GPDA1F> summer and I met on monday to talk about what I can get a head start on. I'm cranking on making those non-cosmetic changes in the CMS currently",
+        "ts": "1497379857.788276"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think melissas changes will be largely FE \/ not impact the data but i might be incorrect (still catching up)",
+        "ts": "1497379866.791888"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "perfect! thanks john!",
+        "ts": "1497379870.793019"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Also, <@U2H61EJSG>, if you would like me to send you sample data that will be in the final format. i can do that as well.",
+        "ts": "1497379885.798910",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":raised_hands:",
+        "ts": "1497379899.803783"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "That would be great, thanks <@U2670DYLE>!",
+        "ts": "1497379903.805187"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Cool. I will get that over to you this afternoon.",
+        "ts": "1497379921.812014"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome, thank you both for moving this along!",
+        "ts": "1497379946.822219",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2670DYLE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<@U2H61EJSG> let me know if this makes sense \/ looks good to you.",
+        "ts": "1497385129.689948"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "This is a video example",
+        "ts": "1497385135.692423"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "```{\n    \"notification_type\": \"live_case_update\",\n    \"media_type\": \"youtube_video\",\n    \"youtube_video\": {\n        \"id\": \"Ikw5HhxC5UM\",\n        \"video_description\": \"Check out this video.\",\n        \"include_thumb\": 1\n    },\n    \"links\": [{\n        \"link_title\": \"Link number one\",\n        \"link_url\": \"<http:\/\/www.example.com>\"\n    }, {\n        \"link_title\": \"Link number two\",\n        \"link_url\": \"<http:\/\/www.example.com>\"\n    }],\n    \"locale\": \"en_ca\",\n    \"notification_title\": \"This is the push notification title\",\n    \"notification_message\": \"This is the push notification message\",\n    \"generator\": [1, 2],\n    \"in_app_title\": \"In-app title\",\n    \"in_app_message\": \"In-app message\",\n    \"generations\": \"new\"\n}```",
+        "edited": {
+            "user": "U2670DYLE",
+            "ts": "1497386826.000000"
+        },
+        "ts": "1497385144.696035"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "and this is a GIF example",
+        "ts": "1497385157.700593"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "```{\n    \"notification_type\": \"live_case_update\",\n    \"media_type\": \"app_image\",\n    \"app_image\": {\n        \"image_url\": \"<http:\/\/www.example.com\/>\",\n        \"image_description\": \"Check out this gif.\",\n        \"filetype\": \"gif\",\n        \"width\":100,\n        \"height\":100\n    },\n    \"links\": [{\n        \"link_title\": \"Just the one link\",\n        \"link_url\": \"<http:\/\/www.example.com>\"\n    }],\n    \"locale\": \"en_ca\",\n    \"notification_title\": \"This is the push notification title\",\n    \"notification_message\": \"This is the push notification message\",\n    \"generator\": [1, 2],\n    \"in_app_title\": \"In-app title\",\n    \"in_app_message\": \"In-app message\",\n    \"generations\": \"new\"\n}\n```",
+        "edited": {
+            "user": "U2670DYLE",
+            "ts": "1497386868.000000"
+        },
+        "ts": "1497385168.704534"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'm showing an example where there is one link or more than one links in each of these. If there are no links, it will be an empty array",
+        "ts": "1497385235.728129"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Also, filetype is just the three letter extension. I think on your end, you can ignore if it is not gif",
+        "ts": "1497385337.762111"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "This is perfect! Thank you!!",
+        "ts": "1497385347.765313"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U2670DYLE>  Quick question, what is returned if ‘media_type’ is not set?",
+        "ts": "1497385492.816208"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "media_type will be set to \"none, and key\/values for \"app_image\" and \"youtube_video\" will be absent in the json.",
+        "ts": "1497385563.841327"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "perfect",
+        "ts": "1497385588.850159"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Is ‘google.sent_time’ still included like it was previously?",
+        "ts": "1497385630.865258"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "good catch. Yes!",
+        "ts": "1497385660.876304",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "This is the example with no media type in case it is helpful",
+        "ts": "1497385699.889730"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "```{\n    \"notification_type\": \"live_case_update\",\n    \"media_type\": \"none\",\n    \"links\": [{\n        \"link_title\": \"Just the one link\",\n        \"link_url\": \"<http:\/\/www.example.com>\"\n    }],\n    \"locale\": \"en_ca\",\n    \"notification_title\": \"This is the push notification title\",\n    \"notification_message\": \"This is the push notification message\",\n    \"generator\": [1, 2],\n    \"in_app_title\": \"In-app title\",\n    \"in_app_message\": \"In-app description\",\n    \"generations\": \"new\"\n}```",
+        "edited": {
+            "user": "U2670DYLE",
+            "ts": "1497386912.000000"
+        },
+        "ts": "1497385705.891836"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Is there a field for ‘notification_title’?",
+        "ts": "1497385913.965904"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "There should be 4 fields for title and message; 2 for notification and 2 for in-app (unless the ‘same as notification content’ box is checked",
+        "ts": "1497386012.000749"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Oh, ok. Before we just had one field for the notification. I can change the fields to notification_title and notification_message and in_app_title and in_app_message. I'll change the title in the links section to be links_title for consistency.",
+        "edited": {
+            "user": "U2670DYLE",
+            "ts": "1497387173.000000"
+        },
+        "ts": "1497386240.079911"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'll edit the snippets above, so as not to confuse things.",
+        "ts": "1497386259.087123"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thank you!",
+        "ts": "1497386287.097176"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5TA58VGS\/-.java|Untitled> and commented: ArithmeticException",
+        "file": {
+            "id": "F5TA58VGS",
+            "created": 1497396981,
+            "timestamp": 1497396981,
+            "name": "-.java",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U1ZG1UCAK",
+            "editable": true,
+            "size": 3151,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": true,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5TA58VGS\/-.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5TA58VGS\/download\/-.java?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5TA58VGS\/-.java",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5TA58VGS-305ae916ed",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/midori\/F5TA58VGS\/-.java\/edit",
+            "preview": "java.lang.ArithmeticException\r\n\tat com.google.android.apps.workshop.wallpaper.gl.GLPicture.void <init>(com.google.android.apps.workshop.wallpaper.image.BitmapRegionLoader,int,int,int,int)(Unknown Source)\r\n                                                            void <init>(com.google.android.apps.workshop.wallpaper.image.BitmapRegionLoader,int,int)\r\n                                                            void <init>(android.graphics.Bitmap)\r\n\tat com.google.android.apps.workshop.earth.view.EarthBlurDimGLRenderer$GLPictureSet.void load(com.google.android.apps.workshop.wallpaper.image.BitmapRegionLoader)(Unknown Source)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">java<\/span>.<span class=\"cm-variable\">lang<\/span>.<span class=\"cm-variable\">ArithmeticException<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">wallpaper<\/span>.<span class=\"cm-variable\">gl<\/span>.<span class=\"cm-variable\">GLPicture<\/span>.<span class=\"cm-variable-3\">void<\/span> <span class=\"cm-operator\">&lt;<\/span><span class=\"cm-variable\">init<\/span><span class=\"cm-operator\">&gt;<\/span>(<span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">wallpaper<\/span>.<span class=\"cm-variable\">image<\/span>.<span class=\"cm-variable\">BitmapRegionLoader<\/span>,<span class=\"cm-variable-3\">int<\/span>,<span class=\"cm-variable-3\">int<\/span>,<span class=\"cm-variable-3\">int<\/span>,<span class=\"cm-variable-3\">int<\/span>)(<span class=\"cm-variable\">Unknown<\/span> <span class=\"cm-variable\">Source<\/span>)<\/pre><\/div>\n<div><pre>                                                            <span class=\"cm-variable-3\">void<\/span> <span class=\"cm-operator\">&lt;<\/span><span class=\"cm-variable\">init<\/span><span class=\"cm-operator\">&gt;<\/span>(<span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">wallpaper<\/span>.<span class=\"cm-variable\">image<\/span>.<span class=\"cm-variable\">BitmapRegionLoader<\/span>,<span class=\"cm-variable-3\">int<\/span>,<span class=\"cm-variable-3\">int<\/span>)<\/pre><\/div>\n<div><pre>                                                            <span class=\"cm-variable-3\">void<\/span> <span class=\"cm-operator\">&lt;<\/span><span class=\"cm-variable\">init<\/span><span class=\"cm-operator\">&gt;<\/span>(<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">graphics<\/span>.<span class=\"cm-variable\">Bitmap<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">earth<\/span>.<span class=\"cm-variable\">view<\/span>.<span class=\"cm-variable\">EarthBlurDimGLRenderer$GLPictureSet<\/span>.<span class=\"cm-variable-3\">void<\/span> <span class=\"cm-def\">load<\/span>(<span class=\"cm-variable\">com<\/span>.<span class=\"cm-variable\">google<\/span>.<span class=\"cm-variable\">android<\/span>.<span class=\"cm-variable\">apps<\/span>.<span class=\"cm-variable\">workshop<\/span>.<span class=\"cm-variable\">wallpaper<\/span>.<span class=\"cm-variable\">image<\/span>.<span class=\"cm-variable\">BitmapRegionLoader<\/span>)(<span class=\"cm-variable\">Unknown<\/span> <span class=\"cm-variable\">Source<\/span>)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 22,
+            "lines_more": 17,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5TA58Z98",
+                "created": 1497396981,
+                "timestamp": 1497396981,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "ArithmeticException"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1497396982.755209"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> just wanted to let you know we got some updated translations that I've assigned to you in JIRA!",
+        "ts": "1497397738.879269",
+        "reactions": [
+            {
+                "name": "thanks",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

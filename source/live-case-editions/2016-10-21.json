@@ -1,0 +1,76 @@
+[
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Reminder: Update harvest.",
+        "ts": "1477065600.001110"
+    },
+    {
+        "user": "U026E0ZNR",
+        "text": "<@U026E0ZNR|trent> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1477068450.001111",
+        "reactions": [
+            {
+                "name": "thinking_face",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Wrote something for this ticket: <https:\/\/uncorkedstudios.atlassian.net\/browse\/LCG-11>\nI pushed it on ```different_locale_wallpaper_download```\nI set the Calendar in getMillisUntilMidnight to Pacific Time, since the times in Berlin and Eastern Time are the same time (except I think daylight savings time happens a different week in Europe, so that might get weird). I tried out creating separate methods for each case, but it seemed messy when they’re generally happening at the same time.",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1477097491.000000"
+        },
+        "ts": "1477097402.001112"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":mantelpiece_clock: Time is weird",
+        "ts": "1477097550.001114"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Wait ",
+        "ts": "1477098427.001115"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That code computes midnight in the local timezone ",
+        "ts": "1477098443.001116"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Why would we change that",
+        "ts": "1477098468.001117"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "To have the wallpaper change at different times in Berlin &amp; EST.\nNow, I'm guessing that I misjudged what it's doing...",
+        "ts": "1477098858.001118"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Isn't that where the time for the wallpaper change is being set? Via setAlarm?",
+        "ts": "1477099121.001119"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah but it calculates milliseconds to midnight for the phones current time ",
+        "ts": "1477104793.001120"
+    }
+]

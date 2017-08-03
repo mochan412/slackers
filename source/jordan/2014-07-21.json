@@ -1,0 +1,256 @@
+[
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel>: I'm going to push back our stand-up to 11am, since David, David and Justin all have a meeting at 10am. <@U0265G76F>  still won't be able to join, but at least that gets us closer to a quorum.",
+        "ts": "1405958970.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X>: challenges \/ credentials in user object?",
+        "ts": "1405966389.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "those real?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1405966394.000000"
+        },
+        "ts": "1405966391.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "as in: do I care about them ever?",
+        "ts": "1405966404.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "no",
+        "ts": "1405966448.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thx",
+        "ts": "1405966453.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X> realm i take it is also pointless",
+        "ts": "1405966692.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah. there’s a lot of properties loopback thinks are important that i’m not using",
+        "ts": "1405966725.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sure",
+        "ts": "1405966730.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i can look into removing them if you want",
+        "ts": "1405966733.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "?",
+        "ts": "1405966733.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nah",
+        "ts": "1405966735.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i don't think you're being sloppy, i just don't want to bother parsing them out if i'll never need em",
+        "ts": "1405966753.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "gotcha",
+        "ts": "1405966762.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ooh one more questin",
+        "ts": "1405966833.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "uuid or id",
+        "ts": "1405966838.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i've been using id thus far, but is there ever a reason to need uuid?",
+        "ts": "1405966850.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that’s a good question. uuid exists because i was planning to make it the id, but overriding the default id property isn’t straightforward, so i never actually did it",
+        "ts": "1405966888.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool cool",
+        "ts": "1405966900.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "easiest thing would be to just go ahead with id",
+        "ts": "1405966920.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thats what I'm gonna do",
+        "ts": "1405966929.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i’ll get rid of uuid",
+        "ts": "1405966944.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Small update to Network connector: avatar images now have unique file names in s3. They didn't before because, frankly, I'm an idiot.",
+        "ts": "1405972668.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh okay you’re handling that on the client?",
+        "ts": "1405973011.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I am now!",
+        "ts": "1405973019.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay cool. I was going to prefix the filenames on the server before uploading them",
+        "ts": "1405973038.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "with an id or something",
+        "ts": "1405973047.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ooh yeah thats cool",
+        "ts": "1405973050.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just generate a UUID and append the file extension",
+        "ts": "1405973061.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that’s cool too",
+        "ts": "1405973069.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "user ID probably makes sense too",
+        "ts": "1405973087.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause eventually those will collide",
+        "ts": "1405973091.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i can still add user ID before uploading if you want",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1405973162.000000"
+        },
+        "ts": "1405973153.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah. I'm a little nervous about the file extension detection, too",
+        "ts": "1405973170.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but we'll refine",
+        "ts": "1405973178.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "and message id and post id for other upload endpoints",
+        "ts": "1405973181.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes! please do that",
+        "ts": "1405973189.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "k i will",
+        "ts": "1405973197.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0289USNA> once the login endpoint returns the logged in user, I'll have that update in there for you",
+        "ts": "1405974659.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks <@U02613K0X> - i see the nested token object",
+        "ts": "1405976053.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "wow you’re really on top of the bitbucket commits",
+        "ts": "1405976071.000044"
+    }
+]

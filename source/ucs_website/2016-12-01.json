@@ -1,0 +1,282 @@
+[
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "hey guys, we are in the process of switching our DNS to the static version of the site - may experience some outages, but Dimitry is working on it.  Please disregard stackdriver alerts for the time being",
+        "ts": "1480634342.000060",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U167FL70V",
+                    "U0265G76F",
+                    "U1HKQRLMR"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so v exciting!",
+        "ts": "1480634897.000061"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "changeover is complete.  everything looks good so far, and the old issues of http:\/\/ and https:\/\/ domains not resolving correctly are fixed as well",
+        "ts": "1480635599.000062"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "shout out to <@U1S5GKTHQ>, thank you for your help on this!  also shoutout to netlify customer support, who has been v helpful",
+        "ts": "1480635639.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Great job team!",
+        "ts": "1480635649.000064"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "This was all Netlify. They’re seriously awesome",
+        "ts": "1480635692.000065"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "wooowowowow so fast and everything is just working now?",
+        "ts": "1480635917.000066"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "go <@U243UT96G> and <@U1S5GKTHQ>!!",
+        "ts": "1480635942.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Does a static site mean that the comment section of our blog doesn't work anymore?",
+        "ts": "1480636267.000068"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "It uses Disqus so should still work",
+        "ts": "1480636288.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "All the comments on my angular post disappeared :confused:",
+        "ts": "1480636308.000070"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "good catch",
+        "ts": "1480636373.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i’m in a meeting, sort of passively looking at this. Random other thing (not on any timeline nor urgency) — wondering if instagram pulling into our site still functions the same.",
+        "ts": "1480636454.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "think there’s a couple images post-tie fighter image that should have been pulled in",
+        "ts": "1480636481.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "And also the post doesn't appear to be searchable in google anymore...maybe it's just time to let it die? Although it did contribute to &gt;50% or our site's page views, and it's kind of sad if our blog doesn't have SEO",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1480636550.000000"
+        },
+        "ts": "1480636539.000074"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "interesting. all the comments still exist (<https:\/\/disqus.com\/home\/discussion\/uncorkedstudios\/blog_multipartform_data_file_upload_with_angularjs_uncorked_studios\/>) must be a mapping issue",
+        "ts": "1480636552.000076"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i think its bare domain vs. www issue",
+        "ts": "1480636602.000077"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "<@U02613K0X> i believe it's a result of the previous DNS switch, which broke a lot of old links",
+        "ts": "1480636610.000078"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "the present incarnation of the site should have better SEO, but it takes a while for changes to translate to search results",
+        "ts": "1480636638.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oo ok <@U243UT96G> that makes sense",
+        "ts": "1480636692.000080"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "does anyone have our Disqus account login?",
+        "ts": "1480636788.000081"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that's a great question, Gaston managed it in the past, I don't know where the creds would be...",
+        "ts": "1480636870.000082",
+        "reactions": [
+            {
+                "name": "expressionless",
+                "users": [
+                    "U167FL70V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "<@U0265G76F> looking into instagram thing now, it looks like i had to update the build.  hopefully it'll fix the issue",
+        "ts": "1480636920.000083"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<https:\/\/help.disqus.com\/customer\/portal\/articles\/912627-domain-migration-wizard>",
+        "attachments": [
+            {
+                "service_name": "DISQUS",
+                "title": "Domain Migration Tool",
+                "title_link": "https:\/\/help.disqus.com\/customer\/portal\/articles\/912627-domain-migration-wizard",
+                "text": "The migration tool is meant for simple domain changes, such as from <http:\/\/example1.com|example1.com> to <http:\/\/example2.com|example2.com>. Note: The Migration...",
+                "fallback": "DISQUS: Domain Migration Tool",
+                "from_url": "https:\/\/help.disqus.com\/customer\/portal\/articles\/912627-domain-migration-wizard",
+                "service_icon": "https:\/\/a.disquscdn.com\/1377204025\/img\/favicon16-32.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1480636987.000084"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i think this is all we’ll need to do, but need to login to our account :scream:",
+        "ts": "1480637029.000086"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "if there’s any way to tell what email it’s managed under we could send a password reset (even if it’s to gaston’s old uc email google admins should be able to check)",
+        "ts": "1480637069.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "great minds, <@U167FL70V>, I think I just sent one to Marce",
+        "ts": "1480637107.000088"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ooo",
+        "ts": "1480637124.000089"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "hi everybody",
+        "ts": "1480637132.000090",
+        "reactions": [
+            {
+                "name": "wave",
+                "users": [
+                    "U167FL70V",
+                    "U02613K0X"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "was just about to ask about the disqus email - how can i help?",
+        "ts": "1480637148.000091"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<https:\/\/disqus.com\/home\/settings\/account\/>",
+        "attachments": [
+            {
+                "service_name": "Disqus",
+                "title": "Disqus – The Web’s Community of Communities",
+                "title_link": "https:\/\/disqus.com\/home\/settings\/account\/",
+                "text": "The web's community of communities now has one central hub.",
+                "fallback": "Disqus: Disqus – The Web’s Community of Communities",
+                "from_url": "https:\/\/disqus.com\/home\/settings\/account\/",
+                "service_icon": "http:\/\/a.disquscdn.com\/next\/current\/home\/img\/brand\/apple-touch-icon-57x57.png",
+                "id": 1
+            }
+        ],
+        "ts": "1480637187.000092"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "if it’s under your account, could you reset and send <@U1S5GKTHQ> or <@U243UT96G> the new pw?",
+        "ts": "1480637187.000093"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "incoming PW to them",
+        "ts": "1480637200.000095"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "awesome thanks!",
+        "ts": "1480637209.000096"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "and feel free to change the name and the email it goes to - I don’t think this is my personal disqus, though if you find any comments about the Marlins winning the world series it might be.",
+        "ts": "1480637227.000097"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yeah we should also move it off your email and onto our handy dandy tech.admin email account :nerd_face:",
+        "ts": "1480637256.000098"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "yay",
+        "ts": "1480637282.000099"
+    }
+]

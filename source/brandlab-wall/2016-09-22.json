@@ -1,0 +1,172 @@
+[
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Reminder: if you’re working on the BL 2016 Onboarding JIRA project please post updates to your status (with ticket numbers if relevant)",
+        "ts": "1474563600.000115"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Working on unit tests for BO-13. Also still working to figure out unit test strategy that really makes sense with this app in it’s current state.",
+        "ts": "1474563920.000116"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U2670DYLE> what are some specific goals or targets for tests?",
+        "ts": "1474564369.000117"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "ultimately, I think we should be writing tests for portions of the app that could be considered fragile. Stuff that might break if we were to refactor certain pieces of the app.",
+        "ts": "1474564443.000118"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "also, after talking with mo, I think we should focus on strategy that sets us up for TDD for work in 2017.",
+        "ts": "1474564504.000119"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I would like to talk about refactor strategies and improvements at some point after I get back. get a white board and go over what we have, and what Ive been thinking about for improvements. I certainly think there are areas that need refactor and update. With the time we have to move forward on it we can really get it solid. Will be very interested in the TDD strategies you two net out with moving forward.",
+        "ts": "1474564660.000120",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "TDD meaning something other than Technical Design Doc?",
+        "ts": "1474564819.000121"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Also wouldn’t fragile areas of the app lead us to concatenation or integration points?  Is that a good place to start?",
+        "ts": "1474564837.000122"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> \/\\ I don’t wanna trounce on any plans you’ve laid out.",
+        "ts": "1474565201.000123"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Test driven development",
+        "ts": "1474565234.000124",
+        "reactions": [
+            {
+                "name": "point_up_2::skin-tone-3",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "too many TDD’s lol",
+        "ts": "1474565327.000125"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks Peter",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1474565359.000000"
+        },
+        "ts": "1474565329.000126"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<@U0ML49XU0> apologies for acronym. Yes, Test Driven Development. We are looking at integration points as a place to start. Peter pointed us to areas of codebase that are good candidates for testing.",
+        "ts": "1474565469.000128"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Too-many Damn Denotions",
+        "ts": "1474565477.000129",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U0ML49XU0",
+                    "U02E3CRMA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "my favorite was the old PCMCIA standard which must have meant People Can’t Memorize Industrial Acronyms",
+        "ts": "1474565555.000130"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> and <@U02E3CRMA> where are we at with documentation before Peter leaves?",
+        "ts": "1474566241.000131"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im making a few more detail additions right now around the activity descriptions",
+        "ts": "1474566484.000132"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "it’s pencils-down from Peter today, then I’m going to take a pass or two through tomorrow editing what we have",
+        "ts": "1474566745.000133"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i see 29 pages of goodness!",
+        "ts": "1474567092.000134"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> i don’t see activity around these sections: Engineering Doc Overview, Exhibit Summary, Operation of Exhibiti (Update Process) - you planning to fill in?",
+        "ts": "1474567115.000135"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes - that’s all my stuff",
+        "ts": "1474567263.000136"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "makes sense",
+        "ts": "1474567288.000137"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "let me know how i can help",
+        "ts": "1474567293.000138"
+    }
+]

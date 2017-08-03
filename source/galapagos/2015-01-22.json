@@ -1,0 +1,570 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<https:\/\/files.slack.com\/files-pri\/T0260V1BR-F03EC3NBD\/screen_shot_2015-01-22_at_11.51.39_am.png>",
+        "ts": "1421956456.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I think <@U0289USNA> fixed this before but Danielle's title is now too long.",
+        "ts": "1421956497.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hmm",
+        "ts": "1421956555.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "is there something we can do in terms of the type size or spacing?",
+        "ts": "1421956576.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "not sure we can cut it down to Dir Biz Dev",
+        "ts": "1421956586.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah it seems like we have run into that a few times now and should probably build for multi-line titles... also, I read that as \"Der! Biz Dev!\"",
+        "ts": "1421956644.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "which i hope is what danielle says when people ask her what she does",
+        "ts": "1421956689.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "can we switch to 3 columns a little earlier?",
+        "ts": "1421956798.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "like at 1250?",
+        "ts": "1421956822.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "We could. But we would probably have to recode some (if not most) of the responsive code for screen sizes below that.",
+        "ts": "1421956905.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "And our images are small so if we have 3 cols at 1250 they may look pixelated.",
+        "ts": "1421956955.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "eh. seems to also break again at like 850",
+        "ts": "1421957065.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "exactly",
+        "ts": "1421957069.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i wonder if we can do something about the padding \/ margin so that if it goes two lines (in the rare places it does) it wont break the grid",
+        "ts": "1421957155.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I tried that with other sites in the past and got mixed results. It's not reliable in my experience.",
+        "ts": "1421957226.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I would say making the type smaller and adding padding to the bottom of all thumbs may be the best solution for now.",
+        "ts": "1421957318.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<http:\/\/cl.ly\/image\/2r1o3o2I2W31>",
+        "attachments": [
+            {
+                "service_name": "CloudApp",
+                "title": "Screen Shot 2015-01-22 at 12.10.29 PM.png",
+                "title_link": "http:\/\/cl.ly\/image\/2r1o3o2I2W31",
+                "fallback": "CloudApp: Screen Shot 2015-01-22 at 12.10.29 PM.png",
+                "image_url": "http:\/\/f.cl.ly\/items\/351C3N1b132E11422X1i\/Screen%20Shot%202015-01-22%20at%2012.10.29%20PM.png",
+                "from_url": "http:\/\/cl.ly\/image\/2r1o3o2I2W31",
+                "image_width": 826,
+                "image_height": 250,
+                "image_bytes": 198143,
+                "id": 1
+            }
+        ],
+        "ts": "1421957456.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Screenshot of new type size?",
+        "ts": "1421957565.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "naw, i dont understand why that wouldnt' work I guess. Seems like bottom margin is pushing down too far when it doesn't have to. <http:\/\/cl.ly\/image\/0m433C0L0r2P>",
+        "attachments": [
+            {
+                "service_name": "CloudApp",
+                "title": "Screen Shot 2015-01-22 at 12.13.43 PM.png",
+                "title_link": "http:\/\/cl.ly\/image\/0m433C0L0r2P",
+                "fallback": "CloudApp: Screen Shot 2015-01-22 at 12.13.43 PM.png",
+                "image_url": "http:\/\/f.cl.ly\/items\/3D1Z2Q2T1Z0k0e052339\/Screen%20Shot%202015-01-22%20at%2012.13.43%20PM.png",
+                "from_url": "http:\/\/cl.ly\/image\/0m433C0L0r2P",
+                "image_width": 191,
+                "image_height": 250,
+                "image_bytes": 43205,
+                "id": 1
+            }
+        ],
+        "ts": "1421957674.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "the room is there",
+        "ts": "1421957694.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "It's actually something else. Each one of those blocks is floated, stacked against the previous one. So if a block from above is longer than the others on the same row it will stop the stack on the bottoms row.",
+        "ts": "1421958069.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "In this case Danielle's block is longer than the others and Trent's block is \"prevented\" from flowing to the left of the screen.",
+        "ts": "1421958163.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "then the blocks are all too small",
+        "ts": "1421958167.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "exactly",
+        "ts": "1421958176.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "If we globally removed the spacing on all blocks, Danielle's would still be longer so that would fix the problem.",
+        "ts": "1421958241.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "that sounds like a good plan. we def don't want to keep just making the type size smaller and get into this situation again",
+        "ts": "1421958271.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026103R3> My plan includes making the type a little smaller.",
+        "ts": "1421958317.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i wouldnt'",
+        "ts": "1421958341.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "is it absolutely necessary to make the type smaller?",
+        "ts": "1421958372.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The other solution is to assign each block a height, but we would have to manually code new heights as the screen shrinks.",
+        "ts": "1421958431.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The most scalable solution is going back to what Matt suggested and jump to 3 cols sooner.",
+        "ts": "1421958479.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "And also 2 later when we get into the 800px neighborhood.",
+        "ts": "1421958509.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Here's my point of view.  We've learned that this area needs the space for two lines now. However we have to do it, we need to do it. Sr Designer, Dir Prototype Labs, and Sr App Architect are unacceptable.",
+        "ts": "1421958615.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Agreed.",
+        "ts": "1421958659.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "agreed over here as well",
+        "ts": "1421958692.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "clearly this will be a major consideration for the new site... :wink:",
+        "ts": "1421958773.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "thanks Gaston",
+        "ts": "1421958780.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Absolutely, and funny enough I was working on that aspect of the new site when Kat noticed this bug.",
+        "ts": "1421958821.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I think I found a clean, quick solution for the live site, thought, pushing it in a few and will ask you to take a look soon.",
+        "ts": "1421958857.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "sweeeeet",
+        "ts": "1421958912.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thank you!!",
+        "ts": "1421959141.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Boom! <http:\/\/galapagui.uncorkedstudios.com\/us>",
+        "attachments": [
+            {
+                "title": "Uncorked Studios",
+                "title_link": "http:\/\/galapagui.uncorkedstudios.com\/us",
+                "text": "Uncorked studios is a digital product agency. Innovation for the world, design for people.",
+                "fallback": "Uncorked Studios",
+                "from_url": "http:\/\/galapagui.uncorkedstudios.com\/us",
+                "id": 1
+            }
+        ],
+        "ts": "1421959786.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Let me know if it looks good and I can push the changes to prod.",
+        "ts": "1421961674.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026PLK4S> ^",
+        "ts": "1421961791.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Nice!",
+        "ts": "1421961832.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Let's also change everyone's abbrevs",
+        "ts": "1421961841.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "and see if it holds up",
+        "ts": "1421961863.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Just changed it live on my browser and works great. <@U026103R3> can you change that via the CMS? I can't change things in there.",
+        "ts": "1421962205.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "oh yea, just change all the titles to the full word?",
+        "ts": "1421962231.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i can do that",
+        "ts": "1421962240.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks",
+        "ts": "1421962247.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026PLK4S>: <@U02618EV1> i'm starting to change then",
+        "ts": "1421962422.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "them* check them out as i go",
+        "ts": "1421962426.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "that happens when i collapse my browser a bit, but otherwise that spacing between lines is much tighter",
+        "ts": "1421962484.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Try again. Should work now.",
+        "ts": "1421962520.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool looks good",
+        "ts": "1421962646.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "should i spell out ceo, coo, cto etc?",
+        "ts": "1421962655.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i think we shoud",
+        "ts": "1421962665.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "should that is",
+        "ts": "1421962680.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "thanks <@U026103R3>",
+        "ts": "1421962686.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "no problem <@U0265G76F>",
+        "ts": "1421962695.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool think it's done, let me know if other adjustments need to be made",
+        "ts": "1421962777.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "cool",
+        "ts": "1421963071.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "shit, I'm not Señor Designer anymore?",
+        "ts": "1421963108.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ah well",
+        "ts": "1421963109.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "??",
+        "ts": "1421963117.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Sr &gt; Señor",
+        "ts": "1421963133.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "In that case, Señorita Designer and then Señora Designer after your wedding.",
+        "ts": "1421963173.000076"
+    },
+    {
+        "text": "[galapagos frontend\/master] <https:\/\/bitbucket.org\/uncorkedstudios\/galapagos-frontend\/commits\/a6d401c1d8bc8eb1faf754a91f5edee12afa09c1|a6d401c1d8bc>: US page: Fix titles.\n - Gaston Figueroa",
+        "username": "bitbucket",
+        "bot_id": "B02K00VEW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1421963480.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "since we're in there, we should move our new FTers up the Our People section.",
+        "ts": "1421963506.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "yeah - that's one thing abby and i were just discussing",
+        "ts": "1421963544.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "only thing missing are bios",
+        "ts": "1421963549.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i'm working on getting phillip",
+        "ts": "1421963702.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "phillip's bio then will move him up",
+        "ts": "1421963709.000082"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "think that's the only one that needs to change though",
+        "ts": "1421963722.000083"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "oh, ha missed the other announcement",
+        "ts": "1421963746.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I hope there is a Lil B reference in Phillips...",
+        "ts": "1421963869.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hahah",
+        "ts": "1421964021.000086"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i think we have our counterpoint to my email alias: BigD, LilB",
+        "ts": "1421964674.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "we can set up <mailto:LilB@uncorkedstudios.com|LilB@uncorkedstudios.com>",
+        "ts": "1421964685.000088"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "haha.",
+        "ts": "1421965010.000089"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026103R3> There's a typo in Marce's title.",
+        "ts": "1421965546.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "\"Eexecutive\"",
+        "ts": "1421965591.000091"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "fixed!",
+        "ts": "1421965594.000092"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks.",
+        "ts": "1421965602.000093"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thank you for pointing it out!",
+        "ts": "1421965626.000094"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Eek",
+        "ts": "1421966122.000095"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "or Eex",
+        "ts": "1421966315.000096"
+    }
+]

@@ -1,0 +1,1401 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the above fixes are on `rel1.5-rc1`",
+        "ts": "1478540413.001862"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if anyone wants to see if they’re terrible",
+        "ts": "1478540417.001863"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also:",
+        "ts": "1478540420.001864"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Fixed the NFC handler to deal with unknown cases",
+        "ts": "1478540427.001865"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool - <@U2H61EJSG> can you verify the fixes the large text landscape above",
+        "ts": "1478540872.001866"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "then lets get a GM build out",
+        "ts": "1478540881.001867"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Of course!",
+        "ts": "1478540906.001868"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Everything in German large text with large display looks just fine in landscape and portrait",
+        "ts": "1478541517.001869"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh sweet - so we are ready to provide a build?",
+        "ts": "1478543643.001870"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1478543812.001871"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause normal text in large display doesn’t look good",
+        "ts": "1478543820.001872"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im working on it now",
+        "ts": "1478543828.001873"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh",
+        "ts": "1478543943.001874"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool :slightly_smiling_face: thankyou - misunderstood",
+        "ts": "1478543956.001875"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> Are we going to need localizations for this ticket? <https:\/\/uncorkedstudios.atlassian.net\/browse\/LCG-52> Kat said that this is primarily for their testers.",
+        "ts": "1478544636.001876"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah we should provide string for her to make that call, but def not an issue for today",
+        "ts": "1478544669.001877"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think theres a few strings across the board that will need translation so maybe once builds go out we can huddle and make sure we have everything we need",
+        "ts": "1478544704.001878"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(thanks for checking)",
+        "ts": "1478544712.001879"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Got it. <@U026PHQ3J> I pushed this small change to a new branch called `no_content_shared`",
+        "ts": "1478544897.001880"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "merging",
+        "ts": "1478544943.001881"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`rel1.5-rc1` has latest for large screen setting",
+        "ts": "1478545439.001882"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oops, pushed!",
+        "ts": "1478545612.001883"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(lost wifi and didn’t notice)",
+        "ts": "1478545616.001884"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can someone make me a build? :angel:",
+        "ts": "1478545715.001885"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can",
+        "ts": "1478545779.001886"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "version info?",
+        "ts": "1478545784.001887"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "asking for confirmation",
+        "ts": "1478545888.001888"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "\"I'm not really sure what y'all are doing with version name on GM, but here is what the version codes should be: Production s\/b version 20\nBeta s\/b version 24\"",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1478547432.000000"
+        },
+        "ts": "1478546966.001889"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you make me a folder?",
+        "ts": "1478549163.001891"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/drive.google.com\/open?id=0BwP7wEvrJF7VSlF0MXdUdnh6ME0>",
+        "ts": "1478549320.001893"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F2ZGR8HGV\/text_centering_issue.png|text_centering_issue.png> and commented: The text is off center in the latest build. This screen shot is in regular text - landscape.",
+        "file": {
+            "id": "F2ZGR8HGV",
+            "created": 1478550408,
+            "timestamp": 1478550408,
+            "name": "text_centering_issue.png",
+            "title": "text_centering_issue.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 123562,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2ZGR8HGV\/text_centering_issue.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2ZGR8HGV\/download\/text_centering_issue.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZGR8HGV-55e586a323\/text_centering_issue_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZGR8HGV-55e586a323\/text_centering_issue_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZGR8HGV-55e586a323\/text_centering_issue_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZGR8HGV-55e586a323\/text_centering_issue_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZGR8HGV-55e586a323\/text_centering_issue_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZGR8HGV-55e586a323\/text_centering_issue_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZGR8HGV-55e586a323\/text_centering_issue_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZGR8HGV-55e586a323\/text_centering_issue_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1080,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F2ZGR8HGV\/text_centering_issue.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2ZGR8HGV-2a7ac87da7",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2ZGR94KX",
+                "created": 1478550408,
+                "timestamp": 1478550408,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "The text is off center in the latest build. This screen shot is in regular text - landscape."
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1478550411.001896"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "doesnt look like this got in: <https:\/\/uncorkedstudios.atlassian.net\/browse\/LCG-52>? (not a blocker, but wanted to note)",
+        "ts": "1478550509.001897"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm",
+        "ts": "1478550559.001898"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i merged the branch",
+        "ts": "1478550642.001899"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can try it again?",
+        "ts": "1478550648.001900"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "says its up to date",
+        "ts": "1478550664.001901"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":confused:",
+        "ts": "1478550665.001902"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The app crashes when transitioning from portrait to landscape during onboarding. If you navigate back to the first onboarding screen and then rotate the screen the app crashes.",
+        "ts": "1478550691.001903"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you come over and recreate this while i watch?",
+        "ts": "1478550960.001904"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> I just checked out `rel1.5-rc1` and my \"No shared content\" fix doesn't seem to be included for some reason. Is that the most up to date branch?",
+        "ts": "1478550961.001905"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm weird",
+        "ts": "1478550967.001906"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`gemini-air:LiveCase dave$ git merge origin\/no_content_shared`\n`Already up-to-date.`",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1478551000.000000"
+        },
+        "ts": "1478550993.001907"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": ":thinking_face:",
+        "ts": "1478551014.001909"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you come recreate this crash?",
+        "ts": "1478551081.001910"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I just checked the commit history for `rel1.5-rc1`and I didn't see my commits from `no_content_shared`",
+        "ts": "1478551252.001911"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<http:\/\/g.co\/jeremyscott|g.co\/jeremyscott>",
+        "ts": "1478551585.001912"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F2YP9LJQY\/-.txt|Untitled>",
+        "file": {
+            "id": "F2YP9LJQY",
+            "created": 1478552156,
+            "timestamp": 1478552156,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 1692,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2YP9LJQY\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2YP9LJQY\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F2YP9LJQY\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2YP9LJQY-9ed3943b5a",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F2YP9LJQY\/-.txt\/edit",
+            "preview": "gemini-air:LiveCase dave$ git merge origin\/no_content_shared\r\nMerge made by the 'recursive' strategy.\r\n LiveCase\/app\/src\/main\/java\/com\/google\/android\/apps\/live_case\/activity\/AboutPartnerActivity.java                 |  2 ++\r\n LiveCase\/app\/src\/main\/java\/com\/google\/android\/apps\/live_case\/adapter\/AboutArtistAdapter.java                    | 27 ++++++++++++++++++++++++---\r\n LiveCase\/app\/src\/main\/java\/com\/google\/android\/apps\/live_case\/adapter\/updatesviewholder\/NoContentViewHolder.java | 14 ++++++++++++++\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>gemini-air:LiveCase dave$ git merge origin\/no_content_shared<\/pre><\/div>\n<div><pre>Merge made by the 'recursive' strategy.<\/pre><\/div>\n<div><pre> LiveCase\/app\/src\/main\/java\/com\/google\/android\/apps\/live_case\/activity\/AboutPartnerActivity.java                 |  2 ++<\/pre><\/div>\n<div><pre> LiveCase\/app\/src\/main\/java\/com\/google\/android\/apps\/live_case\/adapter\/AboutArtistAdapter.java                    | 27 ++++++++++++++++++++++++---<\/pre><\/div>\n<div><pre> LiveCase\/app\/src\/main\/java\/com\/google\/android\/apps\/live_case\/adapter\/updatesviewholder\/NoContentViewHolder.java | 14 ++++++++++++++<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 18,
+            "lines_more": 13,
+            "preview_is_truncated": true,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1478552157.001913"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats what got merged",
+        "ts": "1478552159.001914"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "tracing",
+        "ts": "1478552214.001915"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just need a minute",
+        "ts": "1478552223.001916"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "still getting spinner on no_content_shared branch",
+        "ts": "1478552269.001917"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hmmmm",
+        "ts": "1478552301.001918"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "NoContentViewHolder exists on rel1.5-rc1",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1478552349.000000"
+        },
+        "ts": "1478552343.001919"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "as expected",
+        "ts": "1478552354.001921"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I'll look into it",
+        "ts": "1478552359.001922"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we'll likely launch with update so not sure I want to hold on build delivery on this (unless it's quick)",
+        "ts": "1478552369.001923"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F2YPBTU3S\/german_regular_text_landscape.png|german_regular_text_landscape.png> and commented: German in regular text on the Pixel isn't displaying properly in landscape :confused:",
+        "file": {
+            "id": "F2YPBTU3S",
+            "created": 1478552411,
+            "timestamp": 1478552411,
+            "name": "german_regular_text_landscape.png",
+            "title": "german_regular_text_landscape.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 224087,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2YPBTU3S\/german_regular_text_landscape.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2YPBTU3S\/download\/german_regular_text_landscape.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YPBTU3S-c75145cfe4\/german_regular_text_landscape_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YPBTU3S-c75145cfe4\/german_regular_text_landscape_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YPBTU3S-c75145cfe4\/german_regular_text_landscape_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YPBTU3S-c75145cfe4\/german_regular_text_landscape_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YPBTU3S-c75145cfe4\/german_regular_text_landscape_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YPBTU3S-c75145cfe4\/german_regular_text_landscape_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YPBTU3S-c75145cfe4\/german_regular_text_landscape_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YPBTU3S-c75145cfe4\/german_regular_text_landscape_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1080,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F2YPBTU3S\/german_regular_text_landscape.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2YPBTU3S-3e80ba4279",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2YQ92SJV",
+                "created": 1478552411,
+                "timestamp": 1478552411,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "German in regular text on the Pixel isn't displaying properly in landscape :confused:"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1478552414.001924"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Or unless it might cause issues I'm unaware of",
+        "ts": "1478552421.001925"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whats wrong with it?",
+        "ts": "1478552428.001926"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, this check:",
+        "ts": "1478552479.001927"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`            if (response == null) {`",
+        "ts": "1478552482.001928"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "doesn’t cover off on a nonnull but empty response",
+        "ts": "1478552490.001929"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is that not scrolling <@U2H61EJSG> ? Is text getting cut off? (I can't tell)",
+        "ts": "1478552512.001930"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "does it not scroll?",
+        "ts": "1478552521.001931"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG>",
+        "ts": "1478552523.001932"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "empty news is fixed",
+        "ts": "1478552537.001933"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushing to rel1.5-rc1",
+        "ts": "1478552540.001934"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No scroll",
+        "ts": "1478552553.001935"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> - How did you fix the empty news problem?",
+        "ts": "1478552588.001936"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in AboutPartnerActivity:",
+        "ts": "1478552623.001937"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F305J423H\/-.txt|Untitled>",
+        "file": {
+            "id": "F305J423H",
+            "created": 1478552637,
+            "timestamp": 1478552637,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 478,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F305J423H\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F305J423H\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F305J423H\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F305J423H-2307ce37d4",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F305J423H\/-.txt\/edit",
+            "preview": "        @Override\r\n        protected void deliverResponse(List<NewsItem> response) {\r\n            if (response == null || response.size() == 0) {\r\n                Log.d(TAG, \"news items are null\");\r\n                adapter.showNoContent();\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>        @Override<\/pre><\/div>\n<div><pre>        protected void deliverResponse(List&lt;NewsItem&gt; response) {<\/pre><\/div>\n<div><pre>            if (response == null || response.size() == 0) {<\/pre><\/div>\n<div><pre>                Log.d(TAG, &quot;news items are null&quot;);<\/pre><\/div>\n<div><pre>                adapter.showNoContent();<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 12,
+            "lines_more": 7,
+            "preview_is_truncated": false,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1478552637.001940"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "checked to see if the response size is 0",
+        "ts": "1478552645.001941"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "even tho its not null",
+        "ts": "1478552649.001942"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Got it. Thanks",
+        "ts": "1478552664.001943"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "np",
+        "ts": "1478552691.001944"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the changes were there",
+        "ts": "1478552701.001945"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they werent being triggered",
+        "ts": "1478552705.001946"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F2YQFAKFT\/designer_updates_german.png|designer_updates_german.png> and commented: Is this how 'Designer Updates' is supposed to read in German?",
+        "file": {
+            "id": "F2YQFAKFT",
+            "created": 1478553131,
+            "timestamp": 1478553131,
+            "name": "designer_updates_german.png",
+            "title": "designer_updates_german.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 1036243,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2YQFAKFT\/designer_updates_german.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2YQFAKFT\/download\/designer_updates_german.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQFAKFT-be77aa9431\/designer_updates_german_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQFAKFT-be77aa9431\/designer_updates_german_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQFAKFT-be77aa9431\/designer_updates_german_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQFAKFT-be77aa9431\/designer_updates_german_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQFAKFT-be77aa9431\/designer_updates_german_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQFAKFT-be77aa9431\/designer_updates_german_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQFAKFT-be77aa9431\/designer_updates_german_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQFAKFT-be77aa9431\/designer_updates_german_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F2YQFAKFT\/designer_updates_german.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2YQFAKFT-0d9461a2ac",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2ZHF8SSH",
+                "created": 1478553131,
+                "timestamp": 1478553131,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "Is this how 'Designer Updates' is supposed to read in German?"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1478553135.001947"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "check the translations please",
+        "ts": "1478553147.001948"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but i believe so",
+        "ts": "1478553156.001949"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It's `Designerupdates` in the DE translations. It just seemed strange to me.",
+        "ts": "1478553215.001950"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do you speak german?",
+        "ts": "1478553299.001951"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "That’s what the de resource has",
+        "ts": "1478553353.001952"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Nein",
+        "ts": "1478553355.001953"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> everything is looking good with the landscape layouts now - even with german, large text, and large display!",
+        "ts": "1478553509.001954"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "noice!",
+        "ts": "1478553522.001955"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "guess we need dogfood version for GM as well, then <@U026PHQ3J> - not sure of version are you? if so lemme know and ill make a folder",
+        "ts": "1478554609.001956"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Is this 10 bucks?",
+        "ts": "1478554627.001957"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "No idea on version ",
+        "ts": "1478554637.001958"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "kat  said messaging spelled wrong on first onboarding screen?",
+        "ts": "1478554661.001959"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(need to verify)",
+        "ts": "1478554666.001960"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F2YQW5PCZ\/screenshot_20161107-134022.png|Typos> and commented: Messenging \/ messenger ",
+        "file": {
+            "id": "F2YQW5PCZ",
+            "created": 1478554849,
+            "timestamp": 1478554849,
+            "name": "Screenshot_20161107-134022.png",
+            "title": "Typos",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 313392,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2YQW5PCZ\/screenshot_20161107-134022.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2YQW5PCZ\/download\/screenshot_20161107-134022.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQW5PCZ-4013007c3d\/screenshot_20161107-134022_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQW5PCZ-4013007c3d\/screenshot_20161107-134022_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQW5PCZ-4013007c3d\/screenshot_20161107-134022_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQW5PCZ-4013007c3d\/screenshot_20161107-134022_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQW5PCZ-4013007c3d\/screenshot_20161107-134022_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQW5PCZ-4013007c3d\/screenshot_20161107-134022_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQW5PCZ-4013007c3d\/screenshot_20161107-134022_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2YQW5PCZ-4013007c3d\/screenshot_20161107-134022_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F2YQW5PCZ\/screenshot_20161107-134022.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2YQW5PCZ-d36522392e",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc30635T1D",
+                "created": 1478554849,
+                "timestamp": 1478554849,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "Messenging \/ messenger "
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1478554853.001961"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay so \"messenging apps\" should be “messaging apps\"",
+        "ts": "1478554909.001962"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "“Messenger” (as in product) is correct as is",
+        "ts": "1478554932.001963"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "whos can fix asap?",
+        "ts": "1478554945.001964"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill fix",
+        "ts": "1478554984.001965"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since no one volunteered",
+        "ts": "1478554989.001966"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you",
+        "ts": "1478555007.001967"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you clear that directory?",
+        "ts": "1478555088.001968"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and ill run a v3",
+        "ts": "1478555091.001969"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes",
+        "ts": "1478555104.001970"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "clear",
+        "ts": "1478555114.001971"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are there other changes?",
+        "ts": "1478555122.001972"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not yet",
+        "ts": "1478555141.001973"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "should i wait",
+        "ts": "1478555148.001974"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nah, they are testing on their end, but no reason to think something else will pop up",
+        "ts": "1478555178.001975"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "assuming <@U1ZG1UCAK> or <@U2H61EJSG> havent found any issues",
+        "ts": "1478555195.001976"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":dope: gimme",
+        "ts": "1478555287.001977"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No issues from my end",
+        "ts": "1478555315.001978"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "v3 uploaded",
+        "ts": "1478555371.001979"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lmk on dogfood numbers",
+        "ts": "1478555379.001980"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "will do - wanting for bonbon :moneybag:",
+        "ts": "1478555494.001981"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m gonna go home a millionaire",
+        "ts": "1478555596.001982"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill just be over here, rich “in experiences” :confused:",
+        "ts": "1478555635.001983"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> does 29 1.5-df-10 work ? Or should last number be single digit (ie- 29 1.5-df-1)?",
+        "ts": "1478555822.001984"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or does it not matter to you",
+        "ts": "1478555829.001985"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "apparently last dogfood was 23",
+        "ts": "1478555880.001986"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so actually… 24?",
+        "ts": "1478555886.001987"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":sleuth_or_spy: fml",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1478555907.000000"
+        },
+        "ts": "1478555902.001988"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "EVERYONE LOVES HORSES LETS TALK ABOUT HORSES",
+        "ts": "1478555918.001990"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, ill do 24 1.5-df-10",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1478555929.000000"
+        },
+        "ts": "1478555926.001991"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gimmee a folder",
+        "ts": "1478555938.001993"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": ":horse:",
+        "ts": "1478555942.001994"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, i’m going to do 2.0-df-10",
+        "ts": "1478555957.001995"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since release is going to be 2.0",
+        "ts": "1478555962.001996"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "horses are terrifying large animals",
+        "ts": "1478555982.001997"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/drive.google.com\/open?id=0BwP7wEvrJF7VOXcySThhVUJPMXc>",
+        "ts": "1478555989.001998"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "aaaaand now we’re all talking about horses",
+        "ts": "1478555993.002000"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec everyone, im going to be doing work for a few",
+        "ts": "1478556003.002001"
+    },
+    {
+        "user": "U13GPDA1F",
+        "topic": "no horses just builds ",
+        "text": "<@U13GPDA1F|lynsey> set the channel topic: no horses just builds ",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1478556011.002002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "2.0 df 10",
+        "ts": "1478556032.002003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not 1.5",
+        "ts": "1478556034.002004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "please rename",
+        "ts": "1478556037.002005",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "20-df-10 <https:\/\/drive.google.com\/open?id=0BwP7wEvrJF7VNGlQVEhtR0NzQWs>",
+        "ts": "1478556076.002006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont have write perms to that dir",
+        "ts": "1478556187.002008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for some reason",
+        "ts": "1478556189.002009"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "heres a new one: <https:\/\/drive.google.com\/open?id=0BwP7wEvrJF7VaEFmcnl0VDl6OGs>",
+        "ts": "1478556242.002010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no perms",
+        "ts": "1478556272.002012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "good now!",
+        "ts": "1478556291.002013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "uploading",
+        "ts": "1478556293.002014"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "looks like 24 is in 20-df-10 folder can i move?",
+        "ts": "1478556405.002015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "?",
+        "ts": "1478556482.002016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "2.0-df-10",
+        "ts": "1478556485.002017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "version code 24",
+        "ts": "1478556490.002018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/uncorked.slack.com\/archives\/live-case-editions\/p1478555886001987>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/live-case-editions\/p1478555886001987",
+                "fallback": "[November 7th, 2016 1:58 PM] lynsey: so actually… 24?",
+                "ts": "1478555886.001987",
+                "author_subname": "lynsey",
+                "channel_id": "C032B7BAY",
+                "channel_name": "live-case-editions",
+                "is_msg_unfurl": true,
+                "text": "so actually… 24?",
+                "author_name": "Lynsey Oetinger",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/lynsey",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-05-04\/40161058307_9d754700d8d1f1db1b22_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "footer": "Posted in #live-case-editions"
+            }
+        ],
+        "ts": "1478556504.002019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/drive.google.com\/drive\/u\/0\/folders\/0BwP7wEvrJF7VSlF0MXdUdnh6ME0>",
+        "ts": "1478557007.002021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats the prod release",
+        "ts": "1478557013.002023"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay kat just reached out",
+        "ts": "1478557044.002024"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "apparently df-6 just failed",
+        "ts": "1478557050.002025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what",
+        "ts": "1478557058.002026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "failed what",
+        "ts": "1478557060.002027"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "it went black- also same issue with phones for jeremy team",
+        "ts": "1478557073.002028"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "IDK sending br now",
+        "ts": "1478557078.002029"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "screen went black",
+        "ts": "1478557084.002030"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<@U13GPDA1F> Wanted to run this past you before uploading to JIRA. This blue matches the blue in the screengrab Bonnie sent, but is a different blue than I updated the icons with last week, FYI. Does this seem correct to you?",
+        "ts": "1478568082.002031"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1A1A9L7N|leah> uploaded a file: <https:\/\/uncorked.slack.com\/files\/leah\/F2ZLAUC6R\/ic_gif.png|ic_gif.png>",
+        "file": {
+            "id": "F2ZLAUC6R",
+            "created": 1478568086,
+            "timestamp": 1478568086,
+            "name": "ic_gif.png",
+            "title": "ic_gif.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1A1A9L7N",
+            "editable": false,
+            "size": 1871,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2ZLAUC6R\/ic_gif.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2ZLAUC6R\/download\/ic_gif.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZLAUC6R-cece67b5f4\/ic_gif_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZLAUC6R-cece67b5f4\/ic_gif_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZLAUC6R-cece67b5f4\/ic_gif_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 104,
+            "thumb_360_h": 104,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2ZLAUC6R-cece67b5f4\/ic_gif_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 104,
+            "original_h": 104,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/leah\/F2ZLAUC6R\/ic_gif.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2ZLAUC6R-e93bc4ca1d",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1A1A9L7N",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "leah",
+        "bot_id": null,
+        "ts": "1478568088.002032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> JS is submitted?",
+        "ts": "1478570387.002033"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "YES",
+        "ts": "1478570440.002034"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just got word - things were slow today but in!",
+        "ts": "1478570452.002035"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "WOO HOO WOO HOO",
+        "ts": "1478570849.002036"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "now we anxiously wait for this to go public",
+        "ts": "1478570861.002037"
+    }
+]

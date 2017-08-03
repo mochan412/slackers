@@ -1,0 +1,483 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no issues on that earth build yet from my end :grimacing: ",
+        "ts": "1491924827.670478"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Same",
+        "ts": "1491925296.815147"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Hitting some unexpected traffic on my back route, will be in about 9:08",
+        "ts": "1491925648.922952"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks for the heads up! we'll wait to huddle until you're in (drive safe!)",
+        "ts": "1491925777.963002"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": ":steam_locomotive:",
+        "ts": "1491926210.099668"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey i’m in a full day care worksession. i’m here for support but not actively working on anything Live case",
+        "ts": "1491927419.459980"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "xo",
+        "ts": "1491927420.460568"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks melissa - can we find a few to chat before you head out to japan (today or tomorrow) just want to make sure i know where things are SHOULD we need to pull in another designer while youre out (i dont expect to, but ya know)",
+        "ts": "1491927475.475920"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> NASA’s API portal is currently down so I will look more into Natalie’s question later this afternoon.",
+        "ts": "1491927499.482545"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yep np",
+        "ts": "1491928052.638318"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<https:\/\/api.nasa.gov\/index.html>",
+        "ts": "1491928810.850581"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F4XP99JTW\/bugreport-nof27b-2017-04-11-09-33-05.txt|bugreport-NOF27B-2017-04-11-09-33-05.txt> and commented: Bug report from Earth wallpaper crash",
+        "file": {
+            "id": "F4XP99JTW",
+            "created": 1491929070,
+            "timestamp": 1491929070,
+            "name": "bugreport-NOF27B-2017-04-11-09-33-05.txt",
+            "title": "bugreport-NOF27B-2017-04-11-09-33-05.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 18405173,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4XP99JTW\/bugreport-nof27b-2017-04-11-09-33-05.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4XP99JTW\/download\/bugreport-nof27b-2017-04-11-09-33-05.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F4XP99JTW\/bugreport-nof27b-2017-04-11-09-33-05.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4XP99JTW-a70b1cdb5d",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4XQSFX37",
+                "created": 1491929070,
+                "timestamp": 1491929070,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Bug report from Earth wallpaper crash"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1491929072.921542"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "`EarthImageUtility: next earth image | local URI: \/data\/user\/0\/com.google.android.apps.workshop\/app_EarthImage\/1812.jpg image address: \/data\/user\/0\/com.google.android.apps.workshop\/app_EarthImage\/1812.jpg link URL: <https:\/\/www.google.com\/maps\/@55.702119,12.73324,18z\/data=!3m1!1e3>`",
+        "ts": "1491929843.135037"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "It got the FileNotFoundException, which would lead to that un-resettable default OS wallpaper image that hopefully the ‘quicker’ fix will do. So, it’s good we have finally been able to repro this one, good job <@U1ZG1UCAK>",
+        "ts": "1491930021.187904"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":raised_hands:",
+        "ts": "1491930055.198393"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Happy to “help” (watch my phone and wait)",
+        "ts": "1491930139.223083"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I reset the Earth wallpaper and got another crash a little bit ago. Looks like the same crash, though on a different image. Can share if it’s helpful",
+        "ts": "1491932904.001112"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "share it! im curious how many images we’re dealing with here",
+        "ts": "1491932998.027123"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "still no crash from my end",
+        "ts": "1491933005.029077"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(btw me re: kat <https:\/\/www.youtube.com\/watch?v=iPUmE-tne5U>)",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Katrina &amp; The Waves - Walking On Sunshine",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=iPUmE-tne5U",
+                "author_name": "KatrinaTheWavesVEVO",
+                "author_link": "https:\/\/www.youtube.com\/user\/KatrinaTheWavesVEVO",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/iPUmE-tne5U\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Katrina & The Waves - Walking On Sunshine",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"https:\/\/www.youtube.com\/embed\/iPUmE-tne5U?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=iPUmE-tne5U",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1491933196.085254"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "One thing that I started doing, that might effect it crashing, is saving images. Just for added stress testing",
+        "ts": "1491933259.103701"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ooh okay ill try that too",
+        "ts": "1491933312.119207"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F4XPR1J74\/bugreport-nof27b-2017-04-11-10-31-37.txt|bugreport-NOF27B-2017-04-11-10-31-37.txt> and commented: Search for \"FileNotFoundException\". There will be a Debug message with a link to the image through Google Maps Satellite",
+        "file": {
+            "id": "F4XPR1J74",
+            "created": 1491934002,
+            "timestamp": 1491934002,
+            "name": "bugreport-NOF27B-2017-04-11-10-31-37.txt",
+            "title": "bugreport-NOF27B-2017-04-11-10-31-37.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 18584104,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4XPR1J74\/bugreport-nof27b-2017-04-11-10-31-37.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4XPR1J74\/download\/bugreport-nof27b-2017-04-11-10-31-37.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F4XPR1J74\/bugreport-nof27b-2017-04-11-10-31-37.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4XPR1J74-dabb968f80",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4XSDG1J9",
+                "created": 1491934002,
+                "timestamp": 1491934002,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Search for \"FileNotFoundException\". There will be a Debug message with a link to the image through Google Maps Satellite"
+            },
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U13GPDA1F"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1491934004.324518"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "branch is up for the file not found fix at, \/origin\/earth_fallback_fix",
+        "ts": "1491941733.431031"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "In EarthBlurDimGLRenderer &amp; EarthImageUtility, I put \/\/TESTING: \ncomments to denote areas where you, <@U2H61EJSG> &amp; <@U1ZG1UCAK>, can manually break the code to make sure it is handling the failures correctly (or just build and run it normal and see if you can repro your earlier crashes midori, although it would need to grab the changes to the faster slideshow speed from summer’s branch)",
+        "ts": "1491941954.486685"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Awesome! I’ll test it out. I can add the changes I made to speed up the slide show to your existing branch and push those up if that would be easier for everyone",
+        "ts": "1491942335.584712"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "that works for me",
+        "ts": "1491942461.617361"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome - please keep me posted on that testing + remember to smoke test photos + artworks as well, as oliver mentioned those might be affected",
+        "ts": "1491943084.780094"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i can take some time (likely tonight or tomorrow) to do some testing once you guys have checked out that fix from your end",
+        "ts": "1491943116.788723"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Ok I made a branch off of Oliver’s changes that we can use for testing. It’s called `earth_fallback_fix_test_branch`. <@U13GPDA1F> I can make you a build if you would like to test too.",
+        "ts": "1491943126.791252"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i also have an expanded theory that artworks is actually causing the skia crash",
+        "ts": "1491943132.792974"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thatd be great <@U2H61EJSG>",
+        "ts": "1491943165.801264"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh hi evans - whats your theory?",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1491943180.000000"
+        },
+        "ts": "1491943172.802981"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that is the theory",
+        "ts": "1491943190.807530"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and HOWS HAWAII :palm_tree:",
+        "ts": "1491943200.809913"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh i saw “expanded” and thought there was more :upside_down_face:",
+        "ts": "1491943223.816042"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "any suggestions for how to track down?",
+        "ts": "1491943237.819548"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "similar.",
+        "ts": "1491943281.830663"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "up the rotation speed",
+        "ts": "1491943284.831490"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sweet - summer, can you also make a speedy artworks build we can start loading on test devices?",
+        "ts": "1491943324.840987"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sure thing!",
+        "ts": "1491943342.845578"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "if we find something itd be great to get these fixes out together, and we’re a little ahead of schedule  (go, <@U3ZFEAPSP>!) so we might as well take advantage",
+        "ts": "1491943398.860035"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F4XSMQM7U\/earth_fallback_fix_test_build.apk|earth_fallback_fix_test_build.apk> and commented: Here is the \"speedy\" Earth build we can all use for testing",
+        "file": {
+            "id": "F4XSMQM7U",
+            "created": 1491943459,
+            "timestamp": 1491943459,
+            "name": "earth_fallback_fix_test_build.apk",
+            "title": "earth_fallback_fix_test_build.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35064387,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4XSMQM7U\/earth_fallback_fix_test_build.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4XSMQM7U\/download\/earth_fallback_fix_test_build.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F4XSMQM7U\/earth_fallback_fix_test_build.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4XSMQM7U-6cec1e7e61",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4YHL8CB1",
+                "created": 1491943459,
+                "timestamp": 1491943459,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "Here is the \"speedy\" Earth build we can all use for testing"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1491943462.876096"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1491943473.879059"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F4XR40M5Z\/speedy_artworks_build.apk|speedy_artworks_build.apk> and commented: And now for the \"speedy\" Artworks build!",
+        "file": {
+            "id": "F4XR40M5Z",
+            "created": 1491945078,
+            "timestamp": 1491945078,
+            "name": "speedy_artworks_build.apk",
+            "title": "speedy_artworks_build.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35063439,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4XR40M5Z\/speedy_artworks_build.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4XR40M5Z\/download\/speedy_artworks_build.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F4XR40M5Z\/speedy_artworks_build.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4XR40M5Z-a545c85d4e",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4XT3EMAN",
+                "created": 1491945078,
+                "timestamp": 1491945078,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "And now for the \"speedy\" Artworks build!"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1491945080.282720"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome I'll run this one while you guys test earth if that works best for you",
+        "ts": "1491945138.295784"
+    }
+]

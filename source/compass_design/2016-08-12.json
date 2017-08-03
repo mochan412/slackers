@@ -1,0 +1,734 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0XCJ372R>: can you point me to the Sharing PSD when you have a chance?",
+        "ts": "1471017882.001061"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026E0ZNR> I know you’re jamming on motion stuff but since this is your piece I thought I’d let you delegate :slightly_smiling_face: For the full-screen media player, we need to decide what is displaying on the screen when it’s in AirPlay mode. Currently we have a placeholder image but the devs will need to know what that image is. From a backend perspective, specifying a unique image per session is not ideal as that adds a bunch of extra assets to the download package. An ideal solution would specify a hex color or default image that would work across all discoveries. Less preferable (but probably still doable? we’d have to check with leia et al) would be an image for each discovery that would display for all sessions.",
+        "ts": "1471018091.001062"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0MKH0BE0> when you get in I have a request from the adidas team re: some of the pickers in the enrollment flow.",
+        "ts": "1471018116.001063"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "note on the above: if we wanted to have a default image across all discoveries, it would be about the same size impact\/effort impact as a single image that works for each discovery and is used across all sessions",
+        "ts": "1471018680.001064"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "oh good to know- thanks leia",
+        "ts": "1471018928.001065"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "<@U0260V1BX>: <https:\/\/www.dropbox.com\/s\/66boc8ylxyg347f\/160802_Share_DX_Specs_AG.psd?dl=0>",
+        "ts": "1471019370.001066"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thank you!",
+        "ts": "1471019394.001068"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0XCJ372R|ali> shared a file: <https:\/\/uncorked.slack.com\/files\/ali\/F20UJ2JN6\/160802_share_dx_specs_ag.psd|160802_Share_DX_Specs_AG.psd>",
+        "file": {
+            "id": "F20UJ2JN6",
+            "created": 1471019602,
+            "timestamp": 1471019602,
+            "name": "160802_Share_DX_Specs_AG.psd",
+            "title": "160802_Share_DX_Specs_AG.psd",
+            "mimetype": "application\/photoshop",
+            "filetype": "psd",
+            "pretty_type": "Photoshop Document",
+            "user": "U0XCJ372R",
+            "editable": false,
+            "size": 26853704,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/66boc8ylxyg347f\/160802_Share_DX_Specs_AG.psd?dl=0",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/ali\/F20UJ2JN6\/160802_share_dx_specs_ag.psd",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0XCJ372R",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "ali",
+        "bot_id": null,
+        "ts": "1471019602.001069"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U026E0ZNR",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[August 11th, 2016 6:41 PM] trent: Motion Sample Renders: <https:\/\/www.dropbox.com\/sh\/ayr3sopv9q7lzfo\/AAD923zoi6TI_gKOPW5HvEB7a?dl=0>",
+                "ts": "1470966093.001049",
+                "author_subname": "trent",
+                "channel_id": "C12DB31V4",
+                "channel_name": "compass_design",
+                "is_msg_unfurl": true,
+                "text": "Motion Sample Renders: <https:\/\/www.dropbox.com\/sh\/ayr3sopv9q7lzfo\/AAD923zoi6TI_gKOPW5HvEB7a?dl=0>",
+                "author_name": "Trent Edwards",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/trent",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-12-07\/113311621520_403ac54aa7d7f3f2371a_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U026E0ZNR|trent> pinned a message to this channel.",
+        "ts": "1471021127.001073"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026E0ZNR|trent> uploaded a file: <https:\/\/uncorked.slack.com\/files\/trent\/F20UDKD1S\/5.8.4_media_player-airplaying_.png|5.8.4 Media Player-AirPlaying .png> and commented: I know both <@U02AUNA0P> and <@U0XCJ372R> have done some work on Media Player since I lasted touched it, but I wanted to share this quick mockup I made of what I’m imagining. It makes the most sense to me to have a universal background image that doesn’t distract from the UI or whatever screen is being airplayed to. It’s also a nice opportunity to bring branding in at an unexpected moment. This is taken directly from the opening splash screen, we can use this exact image size\/lockup or alter it. But I’m hoping this can be a starting point for (probably) <@U02AUNA0P> to poke at when he’s got a few moments. Let me know what you all think.",
+        "file": {
+            "id": "F20UDKD1S",
+            "created": 1471021856,
+            "timestamp": 1471021856,
+            "name": "5.8.4 Media Player-AirPlaying .png",
+            "title": "5.8.4 Media Player-AirPlaying .png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026E0ZNR",
+            "editable": false,
+            "size": 70741,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F20UDKD1S\/5.8.4_media_player-airplaying_.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F20UDKD1S\/download\/5.8.4_media_player-airplaying_.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F20UDKD1S-19fa103bbe\/5.8.4_media_player-airplaying__64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F20UDKD1S-19fa103bbe\/5.8.4_media_player-airplaying__80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F20UDKD1S-19fa103bbe\/5.8.4_media_player-airplaying__360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F20UDKD1S-19fa103bbe\/5.8.4_media_player-airplaying__480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F20UDKD1S-19fa103bbe\/5.8.4_media_player-airplaying__160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F20UDKD1S-19fa103bbe\/5.8.4_media_player-airplaying__720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F20UDKD1S-19fa103bbe\/5.8.4_media_player-airplaying__960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F20UDKD1S-19fa103bbe\/5.8.4_media_player-airplaying__1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 750,
+            "original_h": 1334,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/trent\/F20UDKD1S\/5.8.4_media_player-airplaying_.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F20UDKD1S-562dd36909",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc20UGB3L0",
+                "created": 1471021856,
+                "timestamp": 1471021856,
+                "user": "U026E0ZNR",
+                "is_intro": true,
+                "comment": "I know both <@U02AUNA0P> and <@U0XCJ372R> have done some work on Media Player since I lasted touched it, but I wanted to share this quick mockup I made of what I’m imagining. It makes the most sense to me to have a universal background image that doesn’t distract from the UI or whatever screen is being airplayed to. It’s also a nice opportunity to bring branding in at an unexpected moment. This is taken directly from the opening splash screen, we can use this exact image size\/lockup or alter it. But I’m hoping this can be a starting point for (probably) <@U02AUNA0P> to poke at when he’s got a few moments. Let me know what you all think."
+            }
+        },
+        "user": "U026E0ZNR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "trent",
+        "bot_id": null,
+        "ts": "1471021859.001074"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Hey <@U026E0ZNR>, let's tackle the motion + BOS stuff on Monday. Today's a little too hectic for me. ",
+        "ts": "1471023580.001075"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "all good",
+        "ts": "1471023602.001076"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U0260V1BX> does the add activity button disappear completely when day view transitions to week view?",
+        "ts": "1471025148.001077"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes but it is going to stay when you go back to past days. adding that into the wires today",
+        "ts": "1471025212.001078"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "you mean it disappears when looking at the week collection but remains when swiping between individual days?",
+        "ts": "1471025277.001079"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes'm",
+        "ts": "1471025333.001080"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "good deal",
+        "ts": "1471025347.001081"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F210443U1\/screen_shot_2016-08-12_at_11.11.13_am.png|Screen Shot 2016-08-12 at 11.11.13 AM.png> and commented: <!channel> does anyone know where i can find the source PSD for this screen? It’s not in Ali’s sharing PSD as i thought it would be?",
+        "file": {
+            "id": "F210443U1",
+            "created": 1471025540,
+            "timestamp": 1471025540,
+            "name": "Screen Shot 2016-08-12 at 11.11.13 AM.png",
+            "title": "Screen Shot 2016-08-12 at 11.11.13 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 175957,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F210443U1\/screen_shot_2016-08-12_at_11.11.13_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F210443U1\/download\/screen_shot_2016-08-12_at_11.11.13_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F210443U1-e0ca8bc303\/screen_shot_2016-08-12_at_11.11.13_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F210443U1-e0ca8bc303\/screen_shot_2016-08-12_at_11.11.13_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F210443U1-e0ca8bc303\/screen_shot_2016-08-12_at_11.11.13_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 189,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F210443U1-e0ca8bc303\/screen_shot_2016-08-12_at_11.11.13_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 252,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F210443U1-e0ca8bc303\/screen_shot_2016-08-12_at_11.11.13_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F210443U1-e0ca8bc303\/screen_shot_2016-08-12_at_11.11.13_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 378,
+            "thumb_720_h": 720,
+            "image_exif_rotation": 1,
+            "original_w": 386,
+            "original_h": 735,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F210443U1\/screen_shot_2016-08-12_at_11.11.13_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F210443U1-d20452dba2",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2101GNS3",
+                "created": 1471025540,
+                "timestamp": 1471025540,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "<!channel> does anyone know where i can find the source PSD for this screen? It’s not in Ali’s sharing PSD as i thought it would be?"
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1471025542.001082"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "Oh, I think I forgot to add it. I made it during the craziness of switching computers. Give me a moment…",
+        "ts": "1471025585.001083"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "np THANK YOU",
+        "ts": "1471025657.001084"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "<@U0260V1BX>: <https:\/\/www.dropbox.com\/s\/p9gftuxxmfb5p14\/5.9%20Session%20Complete.psd?dl=0>",
+        "ts": "1471025811.001085"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0XCJ372R|ali> shared a file: <https:\/\/uncorked.slack.com\/files\/ali\/F21061HC1\/5.9_session_complete.psd|5.9 Session Complete.psd>",
+        "file": {
+            "id": "F21061HC1",
+            "created": 1471025823,
+            "timestamp": 1471025823,
+            "name": "5.9 Session Complete.psd",
+            "title": "5.9 Session Complete.psd",
+            "mimetype": "application\/photoshop",
+            "filetype": "psd",
+            "pretty_type": "Photoshop Document",
+            "user": "U0XCJ372R",
+            "editable": false,
+            "size": 12413424,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "dropbox",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/www.dropbox.com\/s\/p9gftuxxmfb5p14\/5.9%20Session%20Complete.psd?dl=0",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/ali\/F21061HC1\/5.9_session_complete.psd",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0XCJ372R",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "ali",
+        "bot_id": null,
+        "ts": "1471025823.001086"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thank you!",
+        "ts": "1471026084.001087"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U0260V1BX>, Air Playing screen updated to Comp Share folder",
+        "ts": "1471026574.001088"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks!",
+        "ts": "1471026623.001089"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0MKH0BE0|melodee> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melodee\/F211790CU\/5.3.2.png|5.3.2.png>",
+        "file": {
+            "id": "F211790CU",
+            "created": 1471034005,
+            "timestamp": 1471034005,
+            "name": "5.3.2.png",
+            "title": "5.3.2.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0MKH0BE0",
+            "editable": false,
+            "size": 43547,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F211790CU\/5.3.2.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F211790CU\/download\/5.3.2.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211790CU-072aff5594\/5.3.2_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211790CU-072aff5594\/5.3.2_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211790CU-072aff5594\/5.3.2_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211790CU-072aff5594\/5.3.2_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211790CU-072aff5594\/5.3.2_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211790CU-072aff5594\/5.3.2_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211790CU-072aff5594\/5.3.2_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211790CU-072aff5594\/5.3.2_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 750,
+            "original_h": 1334,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melodee\/F211790CU\/5.3.2.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F211790CU-dc3cf7b233",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0MKH0BE0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melodee",
+        "bot_id": null,
+        "ts": "1471034010.001090"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0MKH0BE0|melodee> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melodee\/F211HKVN1\/5.3.4.png|5.3.4.png> and commented: <@U0260V1BX>: let me know if this ui works better",
+        "file": {
+            "id": "F211HKVN1",
+            "created": 1471034101,
+            "timestamp": 1471034101,
+            "name": "5.3.4.png",
+            "title": "5.3.4.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0MKH0BE0",
+            "editable": false,
+            "size": 50212,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F211HKVN1\/5.3.4.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F211HKVN1\/download\/5.3.4.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211HKVN1-06c8875417\/5.3.4_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211HKVN1-06c8875417\/5.3.4_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211HKVN1-06c8875417\/5.3.4_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211HKVN1-06c8875417\/5.3.4_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211HKVN1-06c8875417\/5.3.4_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211HKVN1-06c8875417\/5.3.4_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211HKVN1-06c8875417\/5.3.4_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F211HKVN1-06c8875417\/5.3.4_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 750,
+            "original_h": 1334,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melodee\/F211HKVN1\/5.3.4.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F211HKVN1-25907a3f12",
+            "channels": [
+                "C12DB31V4"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc211AJU48",
+                "created": 1471034101,
+                "timestamp": 1471034101,
+                "user": "U0MKH0BE0",
+                "is_intro": true,
+                "comment": "<@U0260V1BX>: let me know if this ui works better"
+            }
+        },
+        "user": "U0MKH0BE0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melodee",
+        "bot_id": null,
+        "ts": "1471034105.001091"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "all comps are shared on dropbox",
+        "ts": "1471034126.001092"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "you rule melodee! I will float this by israel and team and see if this addresses their concerns",
+        "ts": "1471034254.001093"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "this looks really nice <@U0MKH0BE0> ! :clap:",
+        "ts": "1471035097.001094"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": ":+1::skin-tone-5: Thanks <@U026E0ZNR>",
+        "ts": "1471035168.001095"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah they look great, thanks for being so fast!",
+        "ts": "1471035306.001096",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-5",
+                "users": [
+                    "U0MKH0BE0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Awesome!",
+        "ts": "1471036631.001097",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-5",
+                "users": [
+                    "U0MKH0BE0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U026PLK4S> <@U026103R3> <@U0U9WJB7F> Took me awhile to interpret Scott’s latest “email jazz” but I think I know what he’s asking for (and don’t think it’s anything I haven’t already made), <@U026PLK4S> let’s discuss this InVision prototype Monday to see if we can potentially add an animated gif of the home screen “explosion”\/“burst of pixels” to be triggered when you tap on the home pattern window so it’s an interactive experience rather than a video they watch in isolation",
+        "ts": "1471036936.001098"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey team, I’d love some eyes on this for feedback. It’s broken down into the three main parts:\n\n1) Resting home screen in the day view\n2) Interactive sequence reacting to user pulling down on the screen\n3) Gesture completes and launches a predefined sequence of the day cards sliding upward to stack over the current day’s summary\n\nTo get the full effect, drag your scrubber (while clip is playing) along the middle interactive sequence and let go once the circle finishes drawing to get a feel for how it would react when you’d let go on the actual device.\n\nI’m not particularly married to the circle, but the tension of the incomplete circle serves the function of compelling the user to finish the motion to launch the new view, and since we have no current plans for displaying tooltips\/overlays\/etc to educate the user on how to find Week View the graphic also potentially solves for discoverability concerns without being cumbersome or using labels. They’ll figure it out merely by playing\n\n<@U0260V1BX> let me know who else might need eyes on this and if I can share it before I take off today.\n\n<https:\/\/www.dropbox.com\/s\/hn8gy3kbb6ncw9i\/160812_DaytoWeekView_01.mov?dl=0>",
+        "attachments": [
+            {
+                "service_name": "Dropbox",
+                "title": "160812_DaytoWeekView_01.mov",
+                "title_link": "https:\/\/www.dropbox.com\/s\/hn8gy3kbb6ncw9i\/160812_DaytoWeekView_01.mov?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 160812_DaytoWeekView_01.mov",
+                "thumb_url": "https:\/\/photos-6.dropbox.com\/t\/2\/AADv-zR2oTZUXOifArODYuaNdbGPr3W16ZgtKI-AjtzIdQ\/12\/228725634\/jpeg\/1024x1024\/2\/_\/0\/4\/160812_DaytoWeekView_01.mov\/CIKniG0gAiAHKAIoBw\/hn8gy3kbb6ncw9i\/AACcLsMc1hZUiL5gSjit4KDKa\/160812_DaytoWeekView_01.mov",
+                "from_url": "https:\/\/www.dropbox.com\/s\/hn8gy3kbb6ncw9i\/160812_DaytoWeekView_01.mov?dl=0",
+                "thumb_width": 576,
+                "thumb_height": 1024,
+                "id": 1
+            }
+        ],
+        "ts": "1471041572.001099"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "hey there - not sure if i’m a good set of eyes at this point, but…eyes nonetheless. \n\nI think it looks pretty nice, especially after the release. My only caveat with the lead up to the release state is helping users understand the shift of context. Without it on a phone, it’s hard to judge - might be totally fine. Main thought being that a person will need to understand they’re switching views by pulling down, not really doing a ‘refresh’ as is typically the case in these sorts of cases. \n\nAgain, it all LOOKS fine. That’s really my only thought for something to consider. \n\nWhile I know the specific implementation will likely be different in iOS based on how it’s all built, I think this is a decent baseline of what we’re hoping for.",
+        "ts": "1471042154.001101"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "And of course, at some point, what the logical android need would be for similar functionality (if there is one).",
+        "ts": "1471042198.001102"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "yeah i think the circle does connote a content refresh. wondering if that graphic could be an abstract representation of the cards separating, like three staple-like shapes moving closer to each other, initiating the followup transition once they all touch. does it feel like the pull down gesture itself leads to unexpected results? or is it the lack of clarity over what the circle graphic is alluding to?",
+        "ts": "1471042834.001103"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "One realization I had, was that, at minimum if the circle drawing on was tied to a person’s finger movement (which I believe it does in here) — it’d help. \n\nWithout getting too fancy, I’m also wondering if there’s a way to hint that the background moves (e.g. context shift) along with the circle competition. My thought is that if we get too crazy with things moving around, well…it’d get too crazy. To that end, I love the fade that goes alongside the circle.",
+        "ts": "1471042942.001104"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "To answer the above, and again just my two cents, I think it’s the lack of clarity for what the circle does",
+        "ts": "1471042967.001105",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U026E0ZNR"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "cool",
+        "ts": "1471042984.001106"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "all of that said - i wonder if it’s best to work alongside dev team with this as a concept, but working in actual code to best understand what parameters we have to play with\/how to push it all forward. Much of what i’m describing, i think, is nuance",
+        "ts": "1471043056.001107"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "i do agree that there is potential with some other thing happening to carry the user through to the new state a little more gracefully, though part of me thinks no matter what that is, it may end up being a 1.x thing",
+        "ts": "1471043077.001108"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "oh and to give you context on what this particular study is for...",
+        "ts": "1471043090.001109"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "this is a simplified concept from our original intent (cards introducing perspective like Safari mobile tabs view) so that dev can actually execute a transition between day and week within our timeframe",
+        "ts": "1471043162.001110"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "right",
+        "ts": "1471043191.001111"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "on all of those fronts",
+        "ts": "1471043201.001112"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "a lot of my moves are trying to use the easiest way of getting all excess day content off and all week view content on with the fewest moves possible",
+        "edited": {
+            "user": "U026E0ZNR",
+            "ts": "1471043234.000000"
+        },
+        "ts": "1471043210.001113"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so for me, i THINK if some of the background elements even hinted that they were ‘moving’, i believe it’d do that and hit a bunch of different balances that we’re describing",
+        "ts": "1471043254.001115"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "they move, the fade happens and it snaps",
+        "ts": "1471043261.001116"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "not move all the way off screen, just a hint tied to the finger movement",
+        "ts": "1471043276.001117"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "if that makes any sense",
+        "ts": "1471043289.001118"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "yeah that all makes sense. i’ll need to play more with it on monday",
+        "ts": "1471043483.001119"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "cool. I’d also love to hear what UX and dev thoughts there are on this front. Appreciate the work - think it’s looking great overall",
+        "ts": "1471043526.001120"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "anyone feel free to repost that link to another channel if necessary. I’ve gotta jet, but we’ll talk more about it next week",
+        "ts": "1471043634.001121"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <@U026E0ZNR> just looking at this now. One thing to note is that Today should move to the BOTTOM of the screen and be at the TOP of the stack, and scrolling backward would indicate scrolling back in time. This makes day order \/ weeks read a lot more naturally.",
+        "ts": "1471044001.001122"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I blame Twitter for that",
+        "ts": "1471044122.001123"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Thanks for pointing it out",
+        "ts": "1471044129.001124"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": ":slightly_smiling_face:",
+        "ts": "1471044395.001125"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "np",
+        "ts": "1471044398.001126"
+    }
+]

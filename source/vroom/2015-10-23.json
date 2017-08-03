@@ -1,0 +1,328 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "heeeeeyyy <@U06DFL7BP> did we ever get creds for the Vroom production AWS account?",
+        "ts": "1445620317.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I’d love to see if the db backup script we’ve got is uploading to S3 alright",
+        "ts": "1445620368.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i belieeeeve",
+        "ts": "1445620787.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Username: <mailto:dailyvroom@joinvroom.org|dailyvroom@joinvroom.org>\nPassword: 946Mi@ny!",
+        "ts": "1445620787.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hmmm, logs me in but I can’t get to the AWS console or anywhere without filling out a form with name, address, etc. Looks like that account hasn’t finished being set up. Should I talk to Rob about this?",
+        "ts": "1445621163.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yes! <@U0B9N0HF0>",
+        "ts": "1445621198.000007"
+    },
+    {
+        "user": "U0B9N0HF0",
+        "inviter": "U06DFL7BP",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0B9N0HF0|rob> has joined the channel",
+        "ts": "1445621204.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’ll look around too",
+        "ts": "1445621207.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thanks!!",
+        "ts": "1445621239.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0B9N0HF0> to fill you in, the creds we have for the AWS account that manages vroom production aren’t working, and I’d like to log in and check out our db backups on S3 and generally make sure everything looks okay",
+        "ts": "1445621295.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Let me check. I had signed in a few days ago when I was checking logins",
+        "ts": "1445621618.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks!",
+        "ts": "1445621623.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Hmmm yeah… Does JHC generally handle AWS now? I could reach out to Taylor and see if he could get in touch with them and ask whether they have changed the pw?",
+        "ts": "1445621826.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i don’t think we’ve had any reason to log into AWS before",
+        "ts": "1445621847.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "just the dev console for app management",
+        "ts": "1445621851.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’d start with taylor",
+        "ts": "1445621862.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "though he will likely deflect",
+        "ts": "1445621868.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Yeah. I’ll shoot him a note. Just to confirm, does any other vendor\/partner run AWS or is that our show?",
+        "ts": "1445622018.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U06DFL7BP> what dev console do you mean?",
+        "ts": "1445622085.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "to manage the amazon app store",
+        "ts": "1445622092.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oic",
+        "ts": "1445622102.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "You know what? Since that account is tied to Nicoles email, I bet she unknowingly changed it. I’ll shoot Taylor a note to that effect",
+        "ts": "1445622118.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "the aws account isn't",
+        "ts": "1445622162.000024"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ohhhh",
+        "ts": "1445622169.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i missed that",
+        "ts": "1445622171.000026"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Amazon Web Services\n<http:\/\/aws.amazon.com\/>\nuser: <mailto:nicole@bezosfamilyfoundation.org|nicole@bezosfamilyfoundation.org>\npass: vroom2013",
+        "attachments": [
+            {
+                "service_name": "Amazon Web Services, Inc.",
+                "title": "Amazon Web Services (AWS) -  Cloud Computing Services",
+                "title_link": "http:\/\/aws.amazon.com\/",
+                "text": "Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.",
+                "fallback": "Amazon Web Services, Inc.: Amazon Web Services (AWS) -  Cloud Computing Services",
+                "from_url": "http:\/\/aws.amazon.com\/",
+                "id": 1
+            }
+        ],
+        "ts": "1445622174.000027"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah that’s the login we HAD, but no longer works",
+        "ts": "1445622189.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so ^jenny we shouldn’t need to set up AWS on the dailyvroom@ email but ^rob yes, nicole’s pass is changed",
+        "ts": "1445622216.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah that’s the one I want",
+        "ts": "1445622242.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "tried vroom2014 :disappointed:",
+        "ts": "1445622249.000032"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "lolll",
+        "ts": "1445622252.000033"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "did you try vroom2015",
+        "ts": "1445622255.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "you know you’d think I had. trying now",
+        "ts": "1445622284.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "no",
+        "ts": "1445622330.000036"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ha",
+        "ts": "1445622334.000037"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah rob if you can ask for new pass that’d be great!",
+        "ts": "1445622342.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "on it!",
+        "ts": "1445622375.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thanks!",
+        "ts": "1445622413.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "wow I didn’t know that Credential Doc existed",
+        "ts": "1445622464.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": ":grin: You’re added now :simple_smile:",
+        "ts": "1445622673.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thank you!",
+        "ts": "1445622737.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "1:30 meeting is in Courtyard btw",
+        "ts": "1445623121.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":thumbsup:",
+        "ts": "1445623248.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "The creds they sent us are valid, but looks like it’s for the account that manages the EC2 instances hosting the Drupal site. We’re after the production server",
+        "ts": "1445626025.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks! Followed up w\/ Taylor",
+        "ts": "1445629839.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Wooo we’re in!",
+        "ts": "1445631372.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Awesome! Thanks",
+        "ts": "1445631465.000049"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":smile:",
+        "ts": "1445631546.000050"
+    },
+    {
+        "text": "[Vroom Drupal Theme\/2015update] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/fafa2fced40428350504c8889ccae6bda59c76a4|fafa2fced404>: adds tracking for \/amazon\/\n - JFingert",
+        "bot_id": "B026TMSJ4",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1445634810.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Does anyone mind if I disable bitbucket integration for this channel?",
+        "ts": "1445635046.000052"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "noooo",
+        "ts": "1445635125.000053"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(-one minds)",
+        "ts": "1445635131.000054"
+    }
+]

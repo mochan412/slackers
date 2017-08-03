@@ -1,0 +1,451 @@
+[
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Hey team Jordan,",
+        "ts": "1404224635.000268"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I know we're running at a wall on this project, with time being short. \n\nWhile I know we have Slack as a mechanism to put files, I'm populating the Trello board I invited everybody to as a clear place of status for material. As we discussed yesterday, our priority is to get the Feed, Menu and Chat areas cleaned up and final by EOD today. Feed is already done, including assets used in the feed. Menu and Chat will be done today. \n\nI'll continue populating the Trello board, though I think we need to use Slack in much more low stakes\/quick strike ways. Given how scattered the team is, we need to keep clear lines of communication flowing. \n\nAnyway, Slack for quick strike. I'm posting things to Trello.",
+        "ts": "1404224952.000269"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "hey team",
+        "ts": "1404235236.000270"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "let's jambaroo on usernames\/passwords in the war room",
+        "ts": "1404235253.000271"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Passwords?",
+        "ts": "1404235809.000272"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Usernames?",
+        "ts": "1404235815.000273"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "login",
+        "ts": "1404235817.000274"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "On vms",
+        "ts": "1404235827.000275"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cms",
+        "ts": "1404235830.000276"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "?",
+        "ts": "1404235833.000277"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "no for the app",
+        "ts": "1404235842.000278"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "When did login creep in?",
+        "ts": "1404235852.000279"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "username - email address, password - employee number",
+        "ts": "1404235888.000280"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Why do we need that in the app?",
+        "ts": "1404235955.000281"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "allows us to have one link for log-in, and to know who's app it is",
+        "ts": "1404235993.000282"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "log-in\/log-out doesn't seem like key functionality to me, but best practices",
+        "ts": "1404236003.000283"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Best practices?",
+        "ts": "1404236116.000284"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "For Jordan internal apps?",
+        "ts": "1404236128.000285"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I missed that class ",
+        "ts": "1404236139.000286"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "We didn't have login pass on BLL",
+        "ts": "1404236199.000287"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "We used Facebook. <@U026PHQ3J>  what do you want to do besides email\/employee ID login?",
+        "ts": "1404236245.000288"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Address book entry",
+        "ts": "1404236254.000289"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I'd rather not tie this to Facebook",
+        "ts": "1404236255.000290"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok well, I thought maybe we could come up with some other solution",
+        "ts": "1404236403.000291"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "If we need to do it this way, are we now implementing password reset on first login",
+        "ts": "1404236468.000292"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Just trying to get my head in this space",
+        "ts": "1404236492.000293"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0289USNA> is that the plan? ",
+        "ts": "1404236521.000294"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "No password reset. No passwords even. We’re thinking users login with their email and employee id.",
+        "ts": "1404236610.000295"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Employee id not unique enough?",
+        "ts": "1404236638.000296"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Can we send them a link to their phone, they click, we shuttle them back to app with URL scheme that handles auth\/id for them",
+        "ts": "1404236676.000297"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "so - Im of two minds here: 1) If we're going to basically auto-log people into the app, then it doesn't make a lot of sense of even have a notion of \"log out\". It's high on convenience, but not on security. 2) If want to give Jordan a way to actually log out, then it seems like we need to have a manual log in\/out",
+        "ts": "1404237116.000298"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "am I thinking about this wrong though?",
+        "ts": "1404237122.000299"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I could make a strong case for either - but they do seem philosophically going opposite directions",
+        "ts": "1404237147.000300"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "but again, maybe I'm just not understanding this",
+        "ts": "1404237161.000301"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "evans, can you clarify your objection? Not sure I'm following. Technical development time? Something else?",
+        "ts": "1404237217.000302"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Nope just didn't know we were doing login ",
+        "ts": "1404237394.000303"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Resolved. We'll use auto log-in, asking users to allow us access to their address book. But, when the app is downloaded, there will first be an onboarding screen that lets them know what will happen next, and that they'll need to give us access to their address book. This should help cut down on people who say no, and then have to jump through a lot of hoops to get back in.",
+        "ts": "1404240369.000304"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "In our next review, we'll raise the issue, and if they have any issues (or feel strongly that the user needs to be able to log out), we'll suggest a combo of email address + employee ID.",
+        "ts": "1404240410.000305"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "The danger there is that someone could hack into their coworkers account (emp ID's not being like social security numbers). (But they're all grownups, so we shouldn't worry about this too much).",
+        "ts": "1404240451.000306"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Third choice option would be username\/password. That's our least favorite, since it would require us to do re-set\/forgot password\/etc.",
+        "ts": "1404240488.000307"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "matt: iamewald - confirmed that I can easily tint your icons in iOS 7.   It doesn't seem to matter what color you supply them in, be that black or white.  I'd probably go with black personally just so they are easy to look at in finder\/preview.   the tint will use pixel and alpha information from the image you supply but will ignore color data and instead use the \"tint\" color that I define in code.",
+        "ts": "1404242808.000308"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "still looking at SVG",
+        "ts": "1404242821.000309"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks guys!",
+        "ts": "1404243153.000310"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "matt:  there is no native SVG support - but I see two third party libraries we could try exploring if you really wanted to go with SVG - so it comes down to how strong you feel that you want SVGs or if the tinted 2x icons will be sufficient.",
+        "ts": "1404243297.000311"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i think tint sounds awesome",
+        "ts": "1404243334.000312"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<!channel>: as far as design (comps, spec, &amp; assets), would we rather have Profile or Add Content first?",
+        "ts": "1404247111.000313"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0289USNA> :point_up:",
+        "ts": "1404247266.000314"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "profile - add content last",
+        "ts": "1404247433.000315"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "perfect. thanks",
+        "ts": "1404247445.000316"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "messaging before adding content too",
+        "ts": "1404247450.000317"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "sounds good",
+        "ts": "1404247467.000318"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<http:\/\/www.amazon.com\/Spalding-Slam-Over-The-Door-Mini-Basketball\/dp\/B0085AOZIK>",
+        "attachments": [
+            {
+                "text": "<http:\/\/Amazon.com|Amazon.com> : Spalding NBA Slam Jam Over-The-Door Mini Basketball Hoop : Wall Mount Basketball Backboards : Sports &amp; Outdoors",
+                "fallback": "<http:\/\/Amazon.com|Amazon.com> : Spalding NBA Slam Jam Over-The-Door Mini Basketball Hoop : Wall Mount Basketball Backboards : Sports &amp; Outdoors",
+                "from_url": "http:\/\/www.amazon.com\/Spalding-Slam-Over-The-Door-Mini-Basketball\/dp\/B0085AOZIK",
+                "id": 1
+            }
+        ],
+        "ts": "1404249897.000319"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1404250024.000321"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "<@U0289USNA>: do you have a quick second to talk adding content?",
+        "ts": "1404251745.000322"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<http:\/\/www.toysrus.com\/product\/index.jsp?productId=12940448&amp;KPID=12844829&amp;mr:trackingCode=7C536366-7315-E311-A497-90E2BA285E75&amp;mr:referralID=NA&amp;mr:filter=69202259446&amp;camp=PLAPPC-_-PID12844829&amp;mr:ad=48938830006&amp;mr:device=c&amp;mr:match=&amp;mr:adType=pla_with_promotion&amp;cagpspn=plat_12844829&amp;mr:keyword=>",
+        "attachments": [
+            {
+                "service_name": "Toysrus",
+                "title": "Nerf Firevision Sports - Nerfhoop",
+                "title_link": "http:\/\/www.toysrus.com\/product\/index.jsp?productId=12940448&KPID=12844829&mr:trackingCode=7C536366-7315-E311-A497-90E2BA285E75&mr:referralID=NA&mr:filter=69202259446&camp=PLAPPC-_-PID12844829&mr:ad=48938830006&mr:device=c&mr:match=&mr:adType=pla_with_promotion&cagpspn=plat_12844829&mr:keyword=",
+                "fallback": "Toysrus: Nerf Firevision Sports - Nerfhoop",
+                "image_url": "http:\/\/www.toysrus.com\/images\/tru_hdrLogo.gif\/graphics\/product_images\/pTRU1-12844829reg.jpg",
+                "from_url": "http:\/\/www.toysrus.com\/product\/index.jsp?productId=12940448&KPID=12844829&mr:trackingCode=7C536366-7315-E311-A497-90E2BA285E75&mr:referralID=NA&mr:filter=69202259446&camp=PLAPPC-_-PID12844829&mr:ad=48938830006&mr:device=c&mr:match=&mr:adType=pla_with_promotion&cagpspn=plat_12844829&mr:keyword=",
+                "image_width": 220,
+                "image_height": 220,
+                "image_bytes": 10163,
+                "id": 1
+            }
+        ],
+        "ts": "1404251942.000323"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "<http:\/\/www.toysrus.com\/graphics\/product_images\/pTRU1-12844829_alternate1_dt.jpg>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/www.toysrus.com\/graphics\/product_images\/pTRU1-12844829_alternate1_dt.jpg",
+                "fallback": "500x500px image",
+                "image_url": "http:\/\/www.toysrus.com\/graphics\/product_images\/pTRU1-12844829_alternate1_dt.jpg",
+                "image_width": 500,
+                "image_height": 500,
+                "image_bytes": 21780,
+                "id": 1
+            }
+        ],
+        "ts": "1404251983.000325"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ha",
+        "ts": "1404251989.000327"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i was working on getting him in there",
+        "ts": "1404251994.000328"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that's the one that i saw",
+        "ts": "1404252002.000329"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "<@U026PLK4S>: <@U02AUNA0P> I posted first round wireframes for adding content to trello. When you guys start designing that part of things let me know so we can talk through those.",
+        "ts": "1404253478.000330"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "was i supposed to get an invite or something to trello?",
+        "ts": "1404253517.000331"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "shit",
+        "ts": "1404253528.000332"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "yes",
+        "ts": "1404253528.000333"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "one sec",
+        "ts": "1404253530.000334"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "cool. i may be able to get into it on thursday.",
+        "ts": "1404253694.000335"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "cool - np",
+        "ts": "1404253722.000336"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<!channel>: Comps, Spec and Assets are finished for Feed Detail and posted to Trello.",
+        "ts": "1404259956.000337"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "still working on actions \/ functionality",
+        "ts": "1404260052.000338"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U0289USNA>: confirmed, iPhone 5 or better :)",
+        "ts": "1404267931.000339"
+    }
+]

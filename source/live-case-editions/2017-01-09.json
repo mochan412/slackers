@@ -1,0 +1,867 @@
+[
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "summer &amp; I confirmed venmo is causing crash on build 25",
+        "ts": "1483986805.000109"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll have a fix for this as soon as I have wifi again",
+        "ts": "1483987426.000110"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "If it's not already on develop or whatever branch we left off on for editions ",
+        "ts": "1483987441.000111"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Same for earlier minime crash from this morning ",
+        "ts": "1483987450.000112"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I just tried sending a JS gif on venmo using the code currently on `develop` and instead of crashing, it displayed a list of apps that can handle the image. It looks like this fix just wasn’t included in the current store build.",
+        "ts": "1483987801.000113"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "^^ not included in builds 26-28 (Drive builds)",
+        "ts": "1483988371.000114"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> thank you! how is court?",
+        "ts": "1483989499.000115"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> briefly had wifi and possibly successfully pushed to editions develop branch ",
+        "ts": "1483991628.000116"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":thumbsup::skin-tone-4:\nI just pushed a branch `onboarding_koons_crash_fix` that has a fix for the onBackPressed crash from last week and adds an onBackPressed override to homeactivity that exits the app, to prevent from returning to the gatekeeper screen.\nI removed some strange code in onboarding, so could use review",
+        "ts": "1483991861.000117"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> - doesn't look like develop updated",
+        "ts": "1483992110.000119"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "K",
+        "ts": "1483992122.000120"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Will push as soon as I can ",
+        "ts": "1483992133.000121"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "try now",
+        "ts": "1483992233.000122"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im typing into my bookbag and maybe breaking a law?",
+        "ts": "1483992243.000123"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dunno",
+        "ts": "1483992249.000124"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> could you give me a quick summary of where i should look in this branch?",
+        "ts": "1483992334.000125"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i wanna get set up for next block of time i get",
+        "ts": "1483992342.000126"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "OnboardingActivity in onCreate, the area that checks which onboarding screens are complete and \nHomeActivity, toward the bottom, I added an onBackPressed override with an intent that exits the app",
+        "ts": "1483992661.000127"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "K thx",
+        "ts": "1483992699.000128"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "What was actually happening ",
+        "ts": "1483992707.000129"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Just so I can compare",
+        "ts": "1483992720.000130"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "in koons onboarding if you set the nfc, it crashed, I think because it tried to go back to OnboardingActivity and didn't know where to go because !nfcComplete didn't get hit from koons.",
+        "ts": "1483992813.000131"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "And then for HomeActivity, if you hit the back button from there, it goes to the last Gatekeeper screen (the blue one) and is unable to get back to the homeactivity, because the case is already unlocked",
+        "ts": "1483992913.000132"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thx",
+        "ts": "1483992974.000133"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Any luck testing develop",
+        "ts": "1483997363.000134"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> :point_up_2: ?",
+        "ts": "1483997988.000135"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "trying it out now..",
+        "ts": "1483998006.000136"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool cool cool",
+        "ts": "1483998020.000137"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Still getting a similar stacktrace about context wrapper. Will dm evans",
+        "ts": "1483998861.000138"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thx",
+        "ts": "1483998872.000139"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this is keyboard in venmo right",
+        "ts": "1483998891.000140"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "got it",
+        "ts": "1483998909.000143"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes",
+        "ts": "1483998909.000144"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks for stack",
+        "ts": "1483998912.000145"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "does this mean that mContextWeakReference is null?",
+        "ts": "1483999033.000146"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes, but thats ok",
+        "ts": "1483999051.000147"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "check out whats on develop",
+        "ts": "1483999057.000148"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "k",
+        "ts": "1483999061.000149"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just pushed",
+        "ts": "1483999068.000150"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it means that the context that is stored there isn’t accessible (its null, but isn’t dereferenced, which is likely a way that the system deals with externals like this)",
+        "ts": "1483999106.000151"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "changed to application context",
+        "ts": "1483999112.000152",
+        "reactions": [
+            {
+                "name": "open_mouth",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> will review your branch in a bit",
+        "ts": "1483999873.000153"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok\nJust tested application context change and still getting null pointer exception :confused:",
+        "ts": "1483999921.000154"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "same one?",
+        "ts": "1483999927.000155"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "similar. on line 215 of keyboard",
+        "ts": "1483999958.000156"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "interesting",
+        "ts": "1483999976.000157"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "get the latest on develop and run it. If you see this message: \"Oh this is weird. Hello there.” in a toast, then LMK",
+        "ts": "1484000049.000158"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(sorry I dont have a cable with me and i’m trying to hide my “kill” sticker while working",
+        "ts": "1484000063.000159"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "lol",
+        "ts": "1484000089.000160"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "show it and get kicked out of that jury pool already!",
+        "ts": "1484000108.000161"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "still NPE on line 213... I'm befuddled",
+        "ts": "1484000497.000162"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stack?",
+        "ts": "1484000609.000163"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK>",
+        "ts": "1484000752.000164"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(sorry i’m sort of bouncing between seeing this and listening to ppl talk)",
+        "ts": "1484000764.000165"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "One sec",
+        "ts": "1484000854.000166"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "try this narrowed one i just pushed to develop please",
+        "ts": "1484001134.000167"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and thank you for helping!",
+        "ts": "1484001137.000168"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there’s a weird interaction between the protected context access and the inputmethodservice that we’re running into",
+        "ts": "1484001255.000169"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey all we just got a message from kat that we need to dig into (assuming its not already covered by the work you are doing)",
+        "ts": "1484001279.000170"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Hi gang,\n\nWe have a review on the play store of someone reporting that the Jeff Koons app has a blank screen and stops when you open the app. The review has been updated a few times:\n2016-07-07\nUpdated: 2016-12-04\nUpdate: 2017-1-05\n\nThis sounds similar to what happened to me when the CMS was down. Could you all see if you could recreate this? Or dig into what's going on.\n\nThanks,\nKat",
+        "ts": "1484001284.000171"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "try the latest. The thing is that the InputMethodService is its own context, but its not a _display_ context",
+        "ts": "1484001984.000172"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i plumbed through a display context into the listener callback",
+        "ts": "1484001995.000173"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which should let it use the display context to show the toast",
+        "ts": "1484002009.000174"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "weird one.",
+        "ts": "1484002010.000175"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> is there a link to the review? Looking in play store and not seeing something to fit description",
+        "ts": "1484002042.000176"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> testing",
+        "ts": "1484002061.000177"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "me either actually - i doubt we have more info that what kat provided, but i can ask",
+        "ts": "1484002191.000178"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "woot! no_share toast is showing",
+        "ts": "1484002191.000179"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1484002303.000180"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> can you give me a folder",
+        "ts": "1484002309.000181"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes 1 sec",
+        "ts": "1484002317.000182"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill do a debug build after i review midori’s code",
+        "ts": "1484002319.000183"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no rush",
+        "ts": "1484002320.000184"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just trying to get everything in order",
+        "ts": "1484002326.000185"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok, was thinking that it might be good to specify in toast. Something like \"This app does not support sharing from the Live Case Editions keyboard.\"",
+        "ts": "1484002409.000186"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "here’s the folder: <https:\/\/drive.google.com\/open?id=0BwP7wEvrJF7VcHFWazdBelRwTEk>",
+        "ts": "1484002444.000187"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can you guys give me a quick client-friendly “heres what updated”?",
+        "ts": "1484002467.000189",
+        "reactions": [
+            {
+                "name": "grimacing",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "once i’m done i will",
+        "ts": "1484002474.000190"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you thank you",
+        "ts": "1484002478.000191"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, yeah sure, someone come up with a string. we’ll need to get it translated",
+        "ts": "1484002484.000192"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah that toast sounds good <@U1ZG1UCAK>",
+        "ts": "1484002697.000193"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> i’m testing the build of your branch on my phone (thru drive stuff) and it looks like if you hit back it exits to the gatekeeper",
+        "ts": "1484002780.000194"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "If you hit back from onboarding or from homeactivity?",
+        "ts": "1484002826.000195"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "onboarding",
+        "ts": "1484002845.000196"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh also from the nfc configurator",
+        "ts": "1484002882.000197"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it dropped me back into gatekeeper",
+        "ts": "1484002890.000198"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "hmm, okay, I'll see what I can do",
+        "ts": "1484003002.000199"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I'm not getting that result on my branch. Did you make a build off that branch to test?",
+        "ts": "1484003138.000200"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes",
+        "ts": "1484003488.000201"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "checkout the branch called `onboarding_back_fix_jan_2017`",
+        "ts": "1484005103.000202"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and try that out",
+        "ts": "1484005106.000203"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i see one small issue in skrillex onboarding that i’m going to see if i can fix quickly, but not going to sweat it if i cant",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1484005290.000000"
+        },
+        "ts": "1484005287.000204"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since no one can unlock skrillex anymore anyway",
+        "ts": "1484005298.000206"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "why can no one unlock skillex anymore? or is that just like - we know no one is really using it and no newbies?",
+        "ts": "1484005520.000207"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i mean, they can",
+        "ts": "1484005826.000208"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but its highly unlikely",
+        "ts": "1484005832.000209"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, it doesn’t crash if you unlock it",
+        "ts": "1484005840.000210"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it just doesn’t go back to the correct screen at the moment",
+        "ts": "1484005849.000211"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1:",
+        "ts": "1484005916.000212"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "signing off for a bit, <@U1ZG1UCAK> LMK if that branch works. If it does, you can change the string in the toast (its called “no_share” in strings.xml) and gradle assemble some builds (the versionCode and Name should be correct for a debug build)",
+        "ts": "1484006272.000213"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you for going above and beyond your civic duty evans",
+        "ts": "1484006663.000214"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> - re: nervousness - there seem to be some branch inconsistencies and want to make sure that things are working as expected",
+        "ts": "1484011895.000215"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Which branches ",
+        "ts": "1484011913.000216"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "None of your stuff is in that branch ",
+        "ts": "1484011922.000217"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can look into it tonight if you let me know which aren't there ",
+        "ts": "1484012007.000218"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> I pushed a few small changes to your `onboarding_back_fix_jan_2017` branch and now I am trying to make a build for us all to test. I keep getting a build failure though :disappointed: This is where the error is occurring: `Script '\/Users\/summerbrochtrup\/Desktop\/Editions\/default\/LiveCase\/volley\/bintray.gradle' line: 64` Any ideas what this means?",
+        "ts": "1484012274.000219"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec",
+        "ts": "1484012374.000220"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "back at laptop",
+        "ts": "1484012376.000221"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh hey. looks like my change didn’t actually push before i closed my laptop",
+        "ts": "1484012408.000222"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to that branch",
+        "ts": "1484012411.000223"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what all is new on this branch?",
+        "ts": "1484012417.000224"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I added a flag to remove the gatekeeper activity from the backstack when navigating to onboarding and overwrote the onBackPressed method in NfcConfigurationOptionActivity so that it brings the user back to the right place in onboarding if that’s where they were previously",
+        "ts": "1484012538.000225"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so here’s the thing, when you pulled this earlier",
+        "ts": "1484012558.000226"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did the back button thing work at all?",
+        "ts": "1484012563.000227"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause it looks like i didn’t get my changes pushed before i closed my laptop",
+        "ts": "1484012574.000228"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i’m curious",
+        "ts": "1484012576.000229"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "no",
+        "ts": "1484012578.000230"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok i didn’t see that in here",
+        "ts": "1484012588.000231"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok well ill check this out, but the logic hole in onboarding is still there in this code",
+        "ts": "1484012651.000232"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "in onCreate?",
+        "ts": "1484012667.000233"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m testing it",
+        "ts": "1484012677.000234"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry i didn’t get this pushed right",
+        "ts": "1484012688.000235"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i wish someone would have said something",
+        "ts": "1484012692.000236"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ll hold off on trying to create a build then",
+        "ts": "1484012694.000237"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah, good plan",
+        "ts": "1484012701.000238"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m just not sure that onBackPressed needs to be overridden",
+        "ts": "1484012733.000239"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in the future, could y’all move some of the chatter to the channel",
+        "ts": "1484012791.000240"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok",
+        "ts": "1484012817.000241"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im just going to check that the onbackPressed code is good, otherwise this is fine",
+        "ts": "1484012850.000242"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "doing builds",
+        "ts": "1484012926.000243"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you can pull. i just cleaned up some imports",
+        "ts": "1484013098.000244"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "onBackPressed is good",
+        "ts": "1484013101.000245"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> about your build issue, we can check it tomorrow, thats probably because of some dumb volley stuff that is still wonky since 1.0",
+        "ts": "1484013205.000246"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thank you for helping me out on this today!",
+        "ts": "1484013215.000247"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "+1 on volley issue",
+        "ts": "1484013243.000248"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i put a debug build in the folder, and merged everything down to develop",
+        "ts": "1484013245.000249",
+        "reactions": [
+            {
+                "name": "raised_hands::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> :raised_hands: <@U2H61EJSG> and <@U13GPDA1F> also for helping with this jury thing",
+        "ts": "1484013555.000250"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank YOU <@U026PHQ3J> I'll pull the debug down and test on my end tonight ",
+        "ts": "1484013921.000251"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Woohoo, thanks!",
+        "ts": "1484014259.000252"
+    }
+]

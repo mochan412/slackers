@@ -1,0 +1,282 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I think I will have the push-based daytime download code in place shortly. I also added a little bit of handler code to help when it gets an unexpected message type",
+        "ts": "1427387905.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "good deal",
+        "ts": "1427387980.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the wallpaper is crashing at sunrise, so I need to figure out what's happening there",
+        "ts": "1427388006.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "really wish we had crashlytics in this one",
+        "ts": "1427388015.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm.",
+        "ts": "1427388592.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It seems odd, unless maybe there's an imageindex mismatch?",
+        "ts": "1427388866.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, I thought I had fixed an issue related to that yesterday",
+        "ts": "1427388891.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0261PCRQ> <@U026PHQ3J> what should the content of the push for updating background images be?",
+        "ts": "1427389820.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "refreshDayImages",
+        "ts": "1427390844.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if the key is defined at all, it sets them to download",
+        "ts": "1427390867.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the value of the key isn't relevant",
+        "ts": "1427390877.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "refreshDayImages is the key?",
+        "ts": "1427390890.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1427390892.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can make it whatever",
+        "ts": "1427390896.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that's fine",
+        "ts": "1427390900.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hey <@U026PHQ3J> so there's a receivesArtistPushes flag on devices now that defaults to false, and a push is sent to everyone when background images are updated in the cms",
+        "ts": "1427393780.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I can deploy it to gweb-uncorked for testing",
+        "ts": "1427393824.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "or something else if you want",
+        "ts": "1427393829.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no thats a good idea. I'll push my changes in a minute so the dev builds <@U0261PCRQ> is working with should support it",
+        "ts": "1427393853.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "are there new endpoints?",
+        "ts": "1427393897.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "you can update the flag with a put to \/api\/device\/:deviceId",
+        "ts": "1427393938.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "if that's what you're after",
+        "ts": "1427393954.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can make those changes, just wanted to get the proper push logic in place",
+        "ts": "1427393997.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "its id is the same as the installationId",
+        "ts": "1427393999.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "k, cool",
+        "ts": "1427394050.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ok it's up on gweb-uncorked",
+        "ts": "1427394584.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U026E0ZNR>: <@U0261PCRQ>: Animation Feedback! \"these look great.  The only thing I’d say is maybe slow down Night template C animation a little.\"",
+        "ts": "1427399805.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02688JHZ>, the parallax I just showed you will only work on supported devices. the callbacks I'm using aren't called on S5, for example (probably because it loops through the home screens)",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1427402532.000000"
+        },
+        "ts": "1427402522.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> can I have the N6? I'm going to need to test push",
+        "ts": "1427402632.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, <@U02613K0X> I'm ready to test push and will likely need some help from you to verify.",
+        "ts": "1427402648.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it's with jason in the echo chamber",
+        "ts": "1427402656.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "you can have the n5 back too if youwant",
+        "ts": "1427402662.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ok",
+        "ts": "1427402668.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool. thanks. I'm just cleaning it up.",
+        "ts": "1427402693.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I just pushed my changes",
+        "ts": "1427402742.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> to verify, I'm going to remove the delete action from push notifications",
+        "ts": "1427406675.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, I can't think of a reason we'd need it",
+        "ts": "1427406713.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "java.lang.NullPointerException: Attempt to read from field 'com.google.android.apps.live_case.wallpaper.model.Widget com.google.android.apps.live_case.wallpaper.Hud.skrillexLogoWidget' on a null object reference",
+        "ts": "1427408664.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "can you send me the full trace?",
+        "ts": "1427409447.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll dig it up",
+        "ts": "1427413200.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry i missed this",
+        "ts": "1427413203.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Process: com.google.android.apps.live_case, PID: 8594\n    java.lang.NullPointerException: Attempt to read from field 'com.google.android.apps.live_case.wallpaper.model.Widget com.google.android.apps.live_case.wallpaper.Hud.skrillexLogoWidget' on a null object reference\n            at com.google.android.apps.live_case.wallpaper.SkrillexWallpaper$GlitchTestEngine.isWithinLogo(SkrillexWallpaper.java:524)\n            at com.google.android.apps.live_case.wallpaper.SkrillexWallpaper$GlitchTestEngine.onCommand(SkrillexWallpaper.java:516)\n            at android.service.wallpaper.WallpaperService$Engine.doCommand(WallpaperService.java:990)\n            at android.service.wallpaper.WallpaperService$IWallpaperEngineWrapper.executeMessage(WallpaperService.java:1185)\n            at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:37)\n            at android.os.Handler.dispatchMessage(Handler.java:102",
+        "ts": "1427413243.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to commit my push changes on master. They don't currently work against tidy-federation.",
+        "ts": "1427413273.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> ^^^^ <@U02688JHZ>",
+        "ts": "1427413286.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh yeah, I'll wait until I can properly test the dayImageDownload",
+        "ts": "1427413343.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "k, I fixed that",
+        "ts": "1427414295.000049"
+    }
+]

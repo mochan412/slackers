@@ -1,0 +1,258 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the messed up missing cubbies we seen on joel’s workshop was due to the fact that those other templates hadn’t had an unassigned cubby template setup yet. so the cubbies that would have had that unassigned template assigned to them had nothing, so the space wasnt being used so the dom collapsed, or errored when it hit the unassigned ones, and since his started with an unassigned spot it showed nothing. where as the one i had made had complete assignment of users except that last spot, so was unseen as an issue. easy fix, just setup the template with the unassigned template. done",
+        "ts": "1463674225.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "nice",
+        "ts": "1463675580.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: and <@U0EL0GLEL> producer room is ours from 4-5pm for record",
+        "ts": "1463675591.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U11JK4QSK>: got your note that you’ll be in at 10:30.  CC <@U02E3CRMA>",
+        "ts": "1463675614.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: i see you motoring through to do items!  wanted to get your morning level of confidence in us being able to record a live worskshop set up.  feeling good about it?",
+        "ts": "1463675697.000084"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not worried about it",
+        "ts": "1463675818.000085"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, planning to film that after the happy path demo of Melanie (nike logo)",
+        "ts": "1463675971.000086"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "re-iterating <!here|@here> there’s no more creative story for ‘views since last oened cubby’ no more work here <@U0EL0GLEL> move on to something else",
+        "ts": "1463678271.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im rolling through the admin, there appears to be some new bugs that got introduced when recently. Display is working pretty good, templates are looking good with a few minor things still standing",
+        "ts": "1463680738.000088"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "what’ve noticed in particular?",
+        "ts": "1463680875.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "some oddities with assignment, it was working usually, but when came back to edit the list it started to act strange, not showing changes. and sometimes when i edit it doesnt set the brand name even tho its set in the data. the drop down is set",
+        "ts": "1463681071.000090"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "also noticed that if i leave admin open long enough for my session to expire it causes hell since it cant pull the list of data anymore since the session expired, will need to reauth",
+        "ts": "1463681106.000091"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "just some strange small things mostly. works fine first run, mostly things on edit",
+        "ts": "1463681128.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok i see a bunch of trello cards being created.  let’s review and prioritize after we film alpha",
+        "ts": "1463683894.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA> \/\\ \/\\",
+        "ts": "1463683905.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Ran through all of it on my local machine and on the wall, its all working. fixed a bunch of small things in the admin, some of the things were just something so minor broke up the chain which caused a bunch of stuff to not load due to stopping of the code processing, so looked worse than it was.",
+        "ts": "1463690721.000095"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I think we should video the Metro test thats in there now, then build out the Melanie Test which has the full data set, the metro one has unassigned cubbies which will show on the bottom 2 screens, which is a little better story to show off in full",
+        "ts": "1463690774.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thats helpful.",
+        "ts": "1463691046.000097"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "what if we filmed at 2 instead of just ‘talking about the filming’?",
+        "ts": "1463691055.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "you ready for that?",
+        "ts": "1463691058.000099"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im going to play with the touch settings for a bit first, trying to see if i can dial that better",
+        "ts": "1463691078.000100"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: ima let you do your thing.  i’m gonna hit the functional specification between now and then",
+        "ts": "1463691949.000101"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im ready whenever, i think i need to dial the touch app algorithm more in the app to dial it better. its close but still off enough to look a little funky. totally works but the touch bubble isnt exactly where you touched",
+        "ts": "1463694229.000102"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: is that soethign that would impact our final software or is it just about pushing our test rig to work betteR?  sounds like the latter to me",
+        "ts": "1463694726.000103"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "That effects the final system, trying to get the math that determines the new touch position from the supplied one to be more dialed in",
+        "ts": "1463694811.000104"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok cool, is ther ea specific trello card for this?  if not, i’ll spin oneup",
+        "ts": "1463694837.000105"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Don't think there is",
+        "ts": "1463694852.000106"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok i gots",
+        "ts": "1463695065.000107"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dont know what joel is working on but again ready whenever",
+        "ts": "1463697518.000108"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m done",
+        "ts": "1463697529.000109"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "back in 1 minute...",
+        "ts": "1463697537.000110"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "im planning on working on my stuff til 4",
+        "ts": "1463697605.000111"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "kicking producers out then as well",
+        "ts": "1463697616.000112"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA> i need another 3 min, jammin on something with client.",
+        "ts": "1463698777.000113"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U0ML49XU0>: should i head in for this?",
+        "ts": "1463698833.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "no <@U11JK4QSK> keep on doing the motion thing",
+        "ts": "1463698868.000115"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "ok",
+        "edited": {
+            "user": "U11JK4QSK",
+            "ts": "1463698887.000000"
+        },
+        "ts": "1463698880.000116"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA> thanks for the patience im good to go",
+        "ts": "1463699077.000118"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<http:\/\/meyerweb.com\/eric\/tools\/matrix\/>",
+        "ts": "1463703454.000119"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U02E3CRMA> ^",
+        "ts": "1463703464.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: emailing you clarification on the Welcome and Goodbye Messages, there’s some finagling we need to do based on old artifact and me trying to keep a lid on client expectations",
+        "ts": "1463703555.000121"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Cool, think that's the only thing not mapped in right now. And good bye photos because there is effort needed there to do it right",
+        "ts": "1463703660.000122"
+    }
+]

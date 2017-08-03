@@ -1,0 +1,751 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "^^^ <@U026PHQ3J> <@U02618EV1>",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1418614118.000000"
+        },
+        "ts": "1418614111.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "No shit!",
+        "ts": "1418614206.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02E3CRMA>: you want me to drive down and throw my hand in the viewport?",
+        "ts": "1418614227.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can after dinner",
+        "ts": "1418614234.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes, let's do this:",
+        "ts": "1418614272.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "debug sucks over my connection",
+        "ts": "1418614277.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll create a version with a cv window",
+        "ts": "1418614285.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "just fire that up, you'll get an OpenCV window that will enable testing",
+        "ts": "1418614302.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll also add a switch to record video from that script so we can keep results run-to-run",
+        "ts": "1418614325.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "sound good?",
+        "ts": "1418614335.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Great!",
+        "ts": "1418614368.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll take laptop with me",
+        "ts": "1418614373.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So I can slack",
+        "ts": "1418614377.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and thanks for making the run over there",
+        "ts": "1418614377.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "K I'll ping channel when I'm headed down",
+        "ts": "1418614514.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Looking good.",
+        "ts": "1418615099.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "OpenCV video out is giving me fits - won't play on the mac",
+        "ts": "1418615937.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "but, the script is there",
+        "ts": "1418615942.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "also in a new branch called catfilter",
+        "ts": "1418615949.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "On my way. We can talk on here. As long as I can see output in window we'll be good ",
+        "ts": "1418616054.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Yep, you should be good",
+        "ts": "1418616378.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm here",
+        "ts": "1418616949.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ssh'ing in",
+        "ts": "1418616954.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "k...gimme 1 sec...",
+        "ts": "1418616959.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1418616982.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "all yours",
+        "ts": "1418616989.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "default is buffer depth of 5",
+        "ts": "1418617003.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "adding --depth &lt;int&gt; will give you a different filter depth",
+        "ts": "1418617014.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "3 was too little to filter noise",
+        "ts": "1418617023.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "5 seemed good",
+        "ts": "1418617026.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha",
+        "ts": "1418617027.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "video export may work, just doesn't play for me",
+        "ts": "1418617048.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "meh",
+        "ts": "1418617049.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "non-essential feature :simple_smile:",
+        "ts": "1418617099.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gonna fork this a second",
+        "ts": "1418617186.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "no worries",
+        "ts": "1418617240.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hm",
+        "ts": "1418617326.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "feel free to hack that one in-place - everything's in Git",
+        "ts": "1418617329.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i still only see fingers at about 3 inches from the surface",
+        "ts": "1418617336.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "probably because of where I cut off the depth map",
+        "ts": "1418617391.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "took an arbitrary cooktop location (it was a guess based on averages)",
+        "ts": "1418617405.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so it may be cutting it off too high",
+        "ts": "1418617416.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is that the 850?",
+        "ts": "1418617427.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yep",
+        "ts": "1418617430.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "right...was gonna make that a command-line param...",
+        "ts": "1418617444.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool, no big deal",
+        "ts": "1418617450.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "it's workingish?",
+        "ts": "1418617459.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hn",
+        "ts": "1418617534.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "even at a frame depth of 10 its not filtering noise",
+        "ts": "1418617543.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "still shimmering a lot",
+        "ts": "1418617550.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "eek",
+        "ts": "1418617554.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "as in lots of surrounding noise, or the hand is noisy?",
+        "ts": "1418617572.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it mostly seems like the distance for the cooktop is where all the noise cancellation is happening",
+        "ts": "1418617605.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not in the filter at all",
+        "ts": "1418617611.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "well, nuts",
+        "ts": "1418617665.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "weird - i was seeing filtering in the first few frames when I captured the empty cooktop",
+        "ts": "1418617691.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'm assuming the raw frames are even worse?",
+        "ts": "1418617778.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "then again, I had the wrong depth",
+        "ts": "1418617819.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "running it with actual distance plugged in",
+        "ts": "1418617974.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "for reference, the frames I grabbed are in images.tgz",
+        "ts": "1418617986.000080"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "first 5 or so show what I was seeing for noise cancellation",
+        "ts": "1418617998.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are you running?",
+        "ts": "1418618022.000082"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cooktop right?",
+        "ts": "1418618028.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "nope",
+        "ts": "1418618029.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm",
+        "ts": "1418618031.000085"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "there's one copy up from forever",
+        "ts": "1418618048.000086"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in debug mode?",
+        "ts": "1418618060.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "no",
+        "ts": "1418618065.000088"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "weird.",
+        "ts": "1418618067.000089"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "orphaned",
+        "ts": "1418618087.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the one from Dec 13 came from forever yesterday morning before I left",
+        "ts": "1418618135.000091"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "15 frames knocks back the other noise, but you're covered in bees",
+        "ts": "1418618359.000094"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "think it's workable?",
+        "ts": "1418618372.000095"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "(hard to tell from the vid)",
+        "ts": "1418618381.000096"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "n\/m....i see now that you haven't any fingers in the filtered frames",
+        "ts": "1418618553.000097"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec",
+        "ts": "1418618585.000098"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<https:\/\/i.imgflip.com\/fbtjb.jpg>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/i.imgflip.com\/fbtjb.jpg",
+                "fallback": "490x604px image",
+                "image_url": "https:\/\/i.imgflip.com\/fbtjb.jpg",
+                "image_width": 490,
+                "image_height": 604,
+                "image_bytes": 92694,
+                "id": 1
+            }
+        ],
+        "ts": "1418618596.000099"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "bwahaha",
+        "ts": "1418618606.000101"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "20 frame filter + dilation as a 2x5 matrix",
+        "ts": "1418618638.000102"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "will shoot video in a moment",
+        "ts": "1418618642.000103"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "right on",
+        "ts": "1418618647.000104"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "still tweaking",
+        "ts": "1418618931.000105"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont think the filter is quite right",
+        "ts": "1418618937.000106"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "k",
+        "ts": "1418618945.000107"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i think its close",
+        "ts": "1418618947.000108"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "that's encouraging",
+        "ts": "1418618959.000109"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "what if we Gaussian blur first?",
+        "ts": "1418619102.000110"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Testing with danlyns short fingers",
+        "ts": "1418619140.000112"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "damn, that ain't bad!",
+        "ts": "1418619144.000113"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "holy shit - you're just off the surface",
+        "ts": "1418619205.000114"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "had the sound off the first time and missed that part",
+        "ts": "1418619257.000115"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "if you think it's workable, I can get it plumbed in to the main line code tonight",
+        "ts": "1418619288.000116"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "catFilter2.py --depth 20",
+        "ts": "1418619368.000118"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the secret sauce is a 3x1 dilation kernel with 2 iterations",
+        "ts": "1418619390.000119"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it makes things vertically longer",
+        "ts": "1418619397.000120"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we'll have to test it against the blob detection but, yes, those are actual taps on the surface that you're hearing",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1418619415.000000"
+        },
+        "ts": "1418619412.000121"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "bottom right is still noisy, but definitely visible within reason",
+        "ts": "1418619432.000123"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "burner area seems highly legible",
+        "ts": "1418619445.000124"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "kickass!!",
+        "ts": "1418619537.000125"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, I'll plumb it in tonight",
+        "ts": "1418619555.000126"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thank you and Danlyn for doing the test-out",
+        "ts": "1418619569.000127"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "coding now...",
+        "ts": "1418619614.000128"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "how long you sticking around?",
+        "ts": "1418620375.000129"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "leaving in a few",
+        "ts": "1418620381.000130"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "k",
+        "ts": "1418620384.000131"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "catFilter3 has some more erosion ideas in them",
+        "ts": "1418620394.000132"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which is to say, filter, dilate, erode back to tighter resolution",
+        "ts": "1418620408.000133"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "bottom right is still an issue",
+        "ts": "1418620413.000134"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "bane of my existence, yes...",
+        "ts": "1418620421.000135"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but",
+        "ts": "1418620425.000136"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think the combo of those might help",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1418620435.000000"
+        },
+        "ts": "1418620431.000137"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically big dilate, small granularity erode",
+        "ts": "1418620447.000139"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yeah, makes a lot of sense",
+        "ts": "1418620454.000140"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me know whats up",
+        "ts": "1418620463.000141"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im heading out",
+        "ts": "1418620467.000142"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "will do",
+        "ts": "1418620665.000143"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks again",
+        "ts": "1418620669.000144"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool cool. ",
+        "ts": "1418623103.000145"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "cat filter is now in cooktop.py, in the catfilter branch",
+        "ts": "1418623211.000146"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "runs clean, will test first thing tomorrow when I get in",
+        "ts": "1418623223.000147"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool thanks",
+        "ts": "1418625779.000148"
+    }
+]

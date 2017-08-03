@@ -1,0 +1,205 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "activity detection isn't working as well as i thought. need to test\/trace today before a build goes out.",
+        "ts": "1441725930.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```Yes, still on track with the wallpaper design based on the concepts. The background image is still up in the air, but the main design concept is good. For the thing that happens at the 30 second mark, we last discussed with Jared's team the idea of flashing a message. I think it could be some words or symbols that flash just for a second, almost like a subliminal message.\n```",
+        "ts": "1441733965.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "they really like to include “subliminal messages” in the wallpapers",
+        "ts": "1441734320.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```Another update! We just got some feedback from Jared's team that would influence the wallpaper design. What do you think the feasibility would be (given our timing) of having the background image of the wallpaper change 4x times per day? The images would be sunrise, daytime clouds, sunset, and nighttime stars. This would be in addition to the clock functionality previously discussed. \n```",
+        "ts": "1441736739.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "uh",
+        "ts": "1441736899.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lets talk.",
+        "ts": "1441736908.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we can definitely determine that stuff",
+        "ts": "1441736915.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(skrillex already does)",
+        "ts": "1441736919.000009"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/i.imgur.com\/WM80cZ2.gif>",
+        "attachments": [
+            {
+                "fallback": "300x169px image",
+                "image_url": "http:\/\/i.imgur.com\/WM80cZ2.gif",
+                "image_width": 300,
+                "image_height": 169,
+                "image_bytes": 935336,
+                "from_url": "http:\/\/i.imgur.com\/WM80cZ2.gif",
+                "id": 1
+            }
+        ],
+        "ts": "1441736919.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Latest updates to LocationHelper pushed to mater in workshop. <@U0261PCRQ> could you run it a while and see how it performs? I've tried it from clean installs and stuff and everything looks ok",
+        "ts": "1441739732.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I can run it in the office",
+        "ts": "1441739769.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I also cleaned up some misisng templating on the result callback listeners",
+        "ts": "1441739771.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but that’s about it",
+        "ts": "1441739773.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that should actually work pretty well",
+        "ts": "1441739779.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok :thumbsup:",
+        "ts": "1441739783.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "initially, the system has no concept of activity",
+        "ts": "1441739787.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so it should be zoomed out",
+        "ts": "1441739790.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "after about 2 min or so, it will get its first activity update",
+        "ts": "1441739797.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "at which point, it will likely switch over",
+        "ts": "1441739803.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "fresh install. in preview, there was a second with no image, but it loaded pretty quickly",
+        "ts": "1441740367.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "according to logs, it looks like location updates may not be on because of the switch from preview to wallpaper",
+        "ts": "1441740391.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: ^",
+        "ts": "1441740406.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "No image thing will be fixed once I have the loading screen re-implemented ",
+        "ts": "1441740884.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i might have to take a walk up the street to test this detection stuff",
+        "ts": "1441740910.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I think I've got a bug in failed downloads. ",
+        "ts": "1441741714.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Easy fix. ",
+        "ts": "1441741720.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like you can't easily share a datastore across appengine projects",
+        "ts": "1441744481.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the recommendation is to house two versions of your app",
+        "ts": "1441744491.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which confuses the shit out of me.",
+        "ts": "1441744500.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Yeah saw that",
+        "ts": "1441744511.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'm looking into another possible way to do it tho",
+        "ts": "1441744539.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'll know if it will work in a few probably",
+        "ts": "1441744555.000034"
+    }
+]

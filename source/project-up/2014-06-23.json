@@ -1,0 +1,833 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>: I'm sick today, but I'll be doing some refinements to the collection app, let me know if you see a pattern on the manufacturer codes so i can put filtering in place",
+        "ts": "1403539466.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok. i'm wrestling with the sticknfinds this morning. the onboarding process is aggravating",
+        "ts": "1403540997.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i have the sticknfinds paired with my phone, but they don't show up when the S5 scans. I'm inclined to say that's because they're cheap and poorly-made, or made to only pair with their own app? But that's a hasty opinion",
+        "ts": "1403541986.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thats odd, but not out of the realm of possibility",
+        "ts": "1403542062.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they may not be real beacons",
+        "ts": "1403542067.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "The TI beacons also don't show up on the S5 scan (I did hit the button on the side presumably turning on the TI)",
+        "ts": "1403542242.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "so it's likely I\"m doing something wrong? Or could the test app not be scanning all frequencies, so to speak?",
+        "ts": "1403542287.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well, there may be holes in its implementation. There are special cases in the open source library for estimote.",
+        "ts": "1403542322.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "take a look here",
+        "ts": "1403542333.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/github.com\/RadiusNetworks\/android-ibeacon-service>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "RadiusNetworks\/android-ibeacon-service",
+                "title_link": "https:\/\/github.com\/RadiusNetworks\/android-ibeacon-service",
+                "text": "android-ibeacon-service - An Android library providing APIs to interact with iBeacons",
+                "fallback": "GitHub: RadiusNetworks\/android-ibeacon-service",
+                "thumb_url": "https:\/\/avatars1.githubusercontent.com\/u\/1120426?s=400",
+                "from_url": "https:\/\/github.com\/RadiusNetworks\/android-ibeacon-service",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "id": 1
+            }
+        ],
+        "ts": "1403542334.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "is this where we started? do you have a fork of it I can join?",
+        "ts": "1403542426.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i do not",
+        "ts": "1403542435.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we're using the \"pro\" library",
+        "ts": "1403542444.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which isn't open",
+        "ts": "1403542455.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "gotcha",
+        "ts": "1403542463.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but has most of the same guts",
+        "ts": "1403542464.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i'm not sure I have a productive way forward with either sticknfinds or TI. so I'll start setting up the next test with the kontakts",
+        "ts": "1403542626.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "in case you were wondering what progress looks like... <http:\/\/instagram.com\/p\/pmGpooQqhZ\/>",
+        "attachments": [
+            {
+                "service_name": "Instagram",
+                "service_url": "http:\/\/instagram.com\/p\/pmGpooQqhZ\/",
+                "text": "spilliams's photo on Instagram",
+                "fallback": "Instagram: ",
+                "image_url": "http:\/\/photos-e.ak.instagram.com\/hphotos-ak-xpf1\/10507894_581185771997172_217036421_n.jpg",
+                "from_url": "http:\/\/instagram.com\/p\/pmGpooQqhZ\/",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 87152,
+                "id": 1
+            }
+        ],
+        "ts": "1403545734.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>: try restarting the phone and re-reading. I'm looking into the docs in between naps",
+        "ts": "1403554037.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PHQ3J> I think for the future we should have time stamps output as seconds since 1970 in beacon data.",
+        "ts": "1403555939.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stand by",
+        "ts": "1403555969.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "UTC ok?",
+        "ts": "1403555992.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "that is fine. It will just be easier to process if it is in seconds instead of a formatted date",
+        "ts": "1403556145.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k.",
+        "ts": "1403556152.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll have a new build in a few min",
+        "ts": "1403556156.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J>: restarting the phone made no difference in the readability of TI or SnF beacons",
+        "ts": "1403556264.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Odd. The ibeacon library is set to accept any and all",
+        "ts": "1403556302.000030"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403556372.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That should theoretically be installable onto the S5 with no trouble",
+        "ts": "1403556383.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "now using seconds since epoch",
+        "ts": "1403556389.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>: Let me see what I can find. Can you point me at any docs on the TI beacons?",
+        "ts": "1403556416.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the user guide is [here](<http:\/\/processors.wiki.ti.com\/index.php\/SensorTag_User_Guide>). I haven't gotten very far into it",
+        "ts": "1403556456.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026PT0D7>: downloading their android and ios source code",
+        "ts": "1403556460.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "damn, thought they'd implement markdown. oh well.",
+        "ts": "1403556467.000037"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403556505.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "What is this nonsense",
+        "ts": "1403556511.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "Hahahahahahahaha!",
+        "ts": "1403556556.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "it's an android app. for your Windows personal computer",
+        "ts": "1403556562.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Here someone figure this out for me",
+        "ts": "1403556582.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/www.ti.com\/tool\/sensortag-sw>",
+        "ts": "1403556582.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i'm trying to download the android source but they want me to tell them how it'll be used",
+        "ts": "1403557042.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we're just trying out ibeacons",
+        "ts": "1403557066.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok",
+        "ts": "1403557085.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "Holy shit. This stupid windows installer is lame",
+        "ts": "1403557193.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "yeah it is",
+        "ts": "1403557315.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm trying the linux installer but Terminal tells me it can't execute the .run binary file",
+        "ts": "1403557459.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "I got the apk.",
+        "ts": "1403557620.000050"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403557652.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "let me know if that works.",
+        "ts": "1403557661.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "windows is awesome... apk in that installer, 572Kb. Uninstaller that it created, 3.7 Mb.",
+        "ts": "1403557744.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "hahaha. thanks",
+        "ts": "1403558470.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Source included in these?",
+        "ts": "1403560629.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i think i can extract it from the apk",
+        "ts": "1403560688.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "via <http:\/\/stackoverflow.com\/a\/6081365\/1167833>",
+        "attachments": [
+            {
+                "title": "Is there a way to get the source code from an APK file?",
+                "title_link": "http:\/\/stackoverflow.com\/a\/6081365\/1167833",
+                "text": "The hard drive on my laptop just crashed and I lost all the source code for an app that I have been working on for the past two months. All I have is the APK file that is stored in my email from wh...",
+                "fallback": "Is there a way to get the source code from an APK file?",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/stackoverflow\/img\/apple-touch-icon@2.png?v=fde65a5a78c6",
+                "from_url": "http:\/\/stackoverflow.com\/a\/6081365\/1167833",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1403560725.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/developer.radiusnetworks.com\/2013\/11\/04\/how-to-make-an-ibeacon-with-the-ti-cc2540.html>",
+        "ts": "1403561524.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I don't know how well this works with the 2541 (which is the development kit that we have) but it might be a good place to start",
+        "ts": "1403561550.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I finally got the source to download\/install",
+        "ts": "1403561920.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Looking now.",
+        "ts": "1403561924.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also: dumbest download process of all time",
+        "ts": "1403561934.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I got the apk to decompile most of the way. gonna try importing to Studio...",
+        "ts": "1403562162.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm looking at the iOS source code",
+        "ts": "1403562194.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the S4 is the most recent galaxy phone that is listed as compatible",
+        "ts": "1403562210.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i'm going to take a gamble and say to try that guy out before you spend any more time on their code",
+        "ts": "1403562226.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hopefully it reads them",
+        "ts": "1403562232.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "yeah, abby just handed me one. I'm going to try again with the sensors. How can I install iBeaconTest on it?",
+        "ts": "1403562250.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that apk i tossed up onto here",
+        "ts": "1403562266.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can put it into dropbox",
+        "ts": "1403562286.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and email you a link",
+        "ts": "1403562288.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or whatever",
+        "ts": "1403562290.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it should just install without much trouble",
+        "ts": "1403562295.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "kat can help in a pinch",
+        "ts": "1403562299.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "oh, i found it. i had missed that message",
+        "ts": "1403562310.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool cool",
+        "ts": "1403562437.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "LMK what happens witht hat",
+        "ts": "1403562440.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to see if i can dig the UUID out of the iOS code in a meaningful way",
+        "ts": "1403562453.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this code was clearly written by java devs",
+        "ts": "1403562471.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I got the app installed but I can't see the button that should be at top right",
+        "ts": "1403562628.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "also this phone prompts me to log in every 10 seconds, which isn't annoying at all",
+        "ts": "1403562641.000082"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh yeah, on the s4, use the menu button on the bottom of the phone",
+        "ts": "1403562660.000083"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "phone face i should say",
+        "ts": "1403562665.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "gotcha",
+        "ts": "1403562696.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "also I've noticed (even on the s5) that rotation doesn't work, so the only way to clear the log is to kill and restart the app",
+        "ts": "1403562719.000086"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "not a huge problem",
+        "ts": "1403562722.000087"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I turned rotation off",
+        "ts": "1403562727.000088"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the visible log is only there as a hint",
+        "ts": "1403562742.000089"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can have it self-clear when you start a new file",
+        "ts": "1403562751.000090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec",
+        "ts": "1403562752.000091"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403562841.000092"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "There you go",
+        "ts": "1403562845.000093"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "can the log show the first few tokens in the mac address instead of showing the proximity uuid?",
+        "ts": "1403562873.000094"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep",
+        "ts": "1403562879.000095"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": ":smile:",
+        "ts": "1403562882.000096"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec",
+        "ts": "1403562887.000097"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1403562937.000098"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats showing the bluetooth address of the devices its seeing",
+        "ts": "1403562975.000099"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and the proximity bucket (\"immediate\" \"far\" \"near\" etc)",
+        "ts": "1403562986.000100"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "TI UUID seems to be: F000AA00-0451-4000-B000-000000000000",
+        "ts": "1403563029.000101"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ooh, just had an idea",
+        "ts": "1403563077.000102"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "but it requires a little more structure in the test app. tell me what you think: instead of spewing one line per ping, what if there were one line per mac address, and that line updates with new pings from that mac?",
+        "ts": "1403563129.000103"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thats actually how Kat wrote it, so thats in there",
+        "ts": "1403563161.000104"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I just have it hidden\/off at the moment",
+        "ts": "1403563167.000105"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "while we make sure we can gather data",
+        "ts": "1403563172.000106"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ah, ok",
+        "ts": "1403563180.000107"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i want to build this out further, after this initial info is solid",
+        "ts": "1403563202.000108"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, listviews in android with live updates are ugly",
+        "ts": "1403563219.000109"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm waiting for the phone and laptop batteries to recharge a bit, then I'll go back in there and throw phones at beacons until the right mac addresses come out",
+        "ts": "1403563249.000110"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool. I'll see if I can scare up the sticknfind uuid",
+        "ts": "1403563277.000111"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i thought the point of android was that there are no rules for UI?",
+        "ts": "1403563278.000112"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that is the point",
+        "ts": "1403563284.000113"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also that their listviews are garbagey",
+        "ts": "1403563292.000114"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ohok",
+        "ts": "1403563299.000115"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "how did such an awful platform get so prevalent?",
+        "ts": "1403563334.000116"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "(a memoir)",
+        "ts": "1403563340.000117"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cheapness will always win eventually",
+        "ts": "1403563361.000118"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Taking a break for a few, back in a bit. ",
+        "ts": "1403563483.000119"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PT0D7> on your next train test can you let the phone do more trips around the track? Thanks",
+        "ts": "1403563548.000120"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "will do",
+        "ts": "1403563641.000121"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "sweet. Thanks",
+        "ts": "1403563653.000122"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "and I'll record lap times too.",
+        "ts": "1403563668.000123"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "psa: there's a sensortag app on the mac app store. it is worthless.",
+        "ts": "1403567344.000124"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i mean, it costs $3. But it has very little, if any, of that value.",
+        "ts": "1403567361.000125"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J> would upgrading the TI beacons' firmware help any?",
+        "ts": "1403567415.000126"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It probably wouldn't hurt",
+        "ts": "1403567487.000127"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "But id make sure to do one then check before all 8",
+        "ts": "1403567509.000128"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "k",
+        "ts": "1403567664.000129"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "we use the 2451s?",
+        "ts": "1403567694.000130"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "2541, sorry",
+        "ts": "1403567705.000131"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "one of TI's iphone apps is 4+...I'd love to meet the 4-year-old who understands this stuff",
+        "ts": "1403567944.000132"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hahaha",
+        "ts": "1403568760.000133"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U02895311>: i'll have new results for you in about 15 minutes",
+        "ts": "1403569089.000134"
+    }
+]

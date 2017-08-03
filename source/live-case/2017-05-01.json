@@ -1,0 +1,159 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Pushing standup to 11am!",
+        "ts": "1493656745.410492"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> <@U1ZG1UCAK> us two is going to optimize for us, what is the preferred format? ",
+        "ts": "1493664905.408061"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "a GIF, for the animations. PNG for static images.",
+        "ts": "1493665047.445880",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3ZFEAPSP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thank you! what about resolution? ",
+        "ts": "1493665076.453613"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "The images that we currently have are fairly consistently about 1440 pixels wide (with height to scale). I think this is a good baseline for what looks good.",
+        "ts": "1493665659.600868"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "still doing testing on trends double-tap -&gt; chrome lag",
+        "ts": "1493666478.791115"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its weird. will need to side-by-side some stuff",
+        "ts": "1493666487.793149",
+        "reactions": [
+            {
+                "name": "wave::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay thanks <@U1ZG1UCAK> ",
+        "ts": "1493668060.155765"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <@U0U9WJB7F> can you point me to ustwo’s sketch files on drive?",
+        "ts": "1493672115.119670"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "JK i found them",
+        "ts": "1493672167.131974"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh <@U026PHQ3J> i can come by and side-by-side w\/ you if you like. we have a quick meeting at 2, but can swing up after that if that works for you",
+        "ts": "1493672246.150673"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just need an nfc chip",
+        "ts": "1493672255.152500"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill bring one up",
+        "ts": "1493672272.156812"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So the double tap is definitely slower for no discernable reason ",
+        "ts": "1493689052.535261"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Our code executes and exits fast, but the system kind of sits on the launch intent for a while. ",
+        "ts": "1493689078.537744"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "phooey",
+        "ts": "1493689105.540035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah ",
+        "ts": "1493689110.540438"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I don't really understand why",
+        "ts": "1493689117.540984"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "appreciate you looking into that :\/ ",
+        "ts": "1493689131.542399"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I even retooled it to fire the same broadcast that the NFC parser sends",
+        "ts": "1493689142.543444"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "To see if it was a super nuanced threading issue but nope ",
+        "ts": "1493689157.544933"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "As for the missing case image thing. I am tracing thru to see what is causing that. Will have an answer at some point tomorrow ",
+        "ts": "1493689238.552381"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "that's awesome. thanks for taking a look! I'm super curious about that one ",
+        "ts": "1493689531.579396"
+    }
+]

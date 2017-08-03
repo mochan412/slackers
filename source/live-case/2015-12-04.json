@@ -1,0 +1,321 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "welp, the order resolution URLs are broken",
+        "ts": "1449273568.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i wasted most of my day",
+        "ts": "1449273592.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and now i have to make sure that i didn't break the app before we can ship a build",
+        "ts": "1449273609.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "lmk what I can do",
+        "ts": "1449274520.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you pull and see if everything breaks?",
+        "ts": "1449274670.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1449274671.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yes I can",
+        "ts": "1449275196.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh also",
+        "ts": "1449275222.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you clean-checkout from the security repo and see if it builds?",
+        "ts": "1449275234.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "phil is having some issue",
+        "ts": "1449275238.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(and i'm in a meeting)",
+        "ts": "1449275242.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1449275243.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "maybe not a clean checkout per se",
+        "ts": "1449275269.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but a clean \"new\" project in studio",
+        "ts": "1449275274.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I can pull that too",
+        "ts": "1449275275.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the app\/wallpapers look good with your latest changes. There was a crash when switching from androidify to places, which I don’t think is related to your changes",
+        "ts": "1449275576.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I saved the stack trace. it had to do with unregistering the locationreceiver when the receiver was not registered",
+        "ts": "1449275638.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats embarrassing",
+        "ts": "1449275674.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for me",
+        "ts": "1449275676.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "LMK about the clean project thing",
+        "ts": "1449275682.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry for asking you to do something so dumb",
+        "ts": "1449275688.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "no worries",
+        "ts": "1449275697.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "doing it now",
+        "ts": "1449275699.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "builds for me",
+        "ts": "1449275856.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "any more deets?",
+        "ts": "1449275885.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nope",
+        "ts": "1449276201.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "how hard is it to try with 1.5?",
+        "ts": "1449276312.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "1.5?",
+        "ts": "1449276412.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "studio 1.5",
+        "ts": "1449276652.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Phil: \"Can you also provide a list of the Android SDK packages you have installed etc. so I can check against mine?\"",
+        "ts": "1449276753.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "wtf",
+        "ts": "1449276880.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "his error would be a lot more helpful",
+        "ts": "1449276890.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ll see if I can get studio 1.5",
+        "ts": "1449276896.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "maybe he needs the sdk platform tools from the preview channel",
+        "ts": "1449277043.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec",
+        "ts": "1449277126.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "$ MiniMe\/workshop$ ..\/gradlew build\n\nFAILURE: Build failed with an exception.\n\n* Where:\nBuild file '\/usr\/local\/google\/home\/philames\/clients\/gob\/MiniMe\/workshop\/build.gradle' line: 1\n\n* What went wrong:\nA problem occurred evaluating root project 'workshop'.\n&gt; Failed to apply plugin [id 'com.android.application']\n   &gt; Plugin with id 'com.android.application' not found.",
+        "ts": "1449277138.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oof",
+        "ts": "1449277156.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "looks like he needs to update gradle?",
+        "ts": "1449277537.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "also: .\/gradlew build doesn’t work for me either. different error, but it fails. .\/gradlew assembleDebug works.",
+        "ts": "1449277584.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "weird.",
+        "ts": "1449277636.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "volley error?",
+        "ts": "1449277660.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "change mavenCentral in volley's gradle file to jcenter",
+        "ts": "1449277672.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "mine? mine was a lint error and it aborted. something about a potential misspelling.. but it wasn’t..",
+        "ts": "1449277775.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh yeah",
+        "ts": "1449277782.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the xmlns one?",
+        "ts": "1449277786.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in cardlayout",
+        "ts": "1449277788.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah",
+        "ts": "1449277790.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ahhhh",
+        "ts": "1449277819.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "does it hate percentages?",
+        "ts": "1449277824.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "idk what you mean",
+        "ts": "1449277853.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<http:\/\/stackoverflow.com\/questions\/24795079\/error1-0-plugin-with-id-com-android-application-not-found>",
+        "attachments": [
+            {
+                "title": "Error:(1, 0) Plugin with id 'com.android.application' not found",
+                "title_link": "http:\/\/stackoverflow.com\/questions\/24795079\/error1-0-plugin-with-id-com-android-application-not-found",
+                "text": "This is my first attempt at Android Studio. I installed 0.8.0 and updated to 0.8.2. As soon as a project is created I get the error message: Error:(1, 0) Plugin with id 'com.android.applicati...",
+                "fallback": "Error:(1, 0) Plugin with id 'com.android.application' not found",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/stackoverflow\/img\/apple-touch-icon@2.png?v=73d79a89bded&a",
+                "from_url": "http:\/\/stackoverflow.com\/questions\/24795079\/error1-0-plugin-with-id-com-android-application-not-found",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1449278015.000052"
+    }
+]

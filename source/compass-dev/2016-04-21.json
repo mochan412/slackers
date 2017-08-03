@@ -1,0 +1,218 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0WDS9THQ>: is there a small bit of instruction we can provide to folks getting the TTM Tips app? I realize it’s more of a dev tool and I’ve asked the team to send it out to a bunch more folks based on their request, but Felix would like to know what he should do with the app and how he can help :simple_smile:",
+        "ts": "1461263294.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "I built it off of a napkin spec, so I dont completely even understand the use of it myself to be completely honest",
+        "ts": "1461263329.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "I was surprised when it got sent out to so many people so fast",
+        "ts": "1461263341.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "israel was the one who put together the spec",
+        "ts": "1461263390.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yea, wasn’t totally ideal and I tried to set the expectation. Well not to worry, I can let Felix know that and that we’ll pass along more info if\/when we build more into it and get a better understanding. Probs when Israel is back.",
+        "ts": "1461263403.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "from my understanding its basically a way to test the various input values to get the tip data",
+        "ts": "1461263405.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yea that’s all i understood too, ok cool",
+        "ts": "1461263434.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "joshua may be the best person to talk to about the endpoint that the app talks to",
+        "ts": "1461263436.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "perhaps we could get more insight there",
+        "ts": "1461263443.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "given thats all the app is, a wrapper for a single endpoint",
+        "ts": "1461263456.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "hey hey",
+        "ts": "1461263532.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yea makes sense, basically user chooses options from dropdowns sees the tip content being returned from that endpoint. that’s all.",
+        "ts": "1461263535.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "joshua anything else to add to that thread ^",
+        "ts": "1461263542.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "?",
+        "ts": "1461263544.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "i’m not really sure what the app does...",
+        "ts": "1461263564.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "i worked on the tip xlsx upload\/download",
+        "ts": "1461263585.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "the app has two dropdowns to pick the two inputs for the randomSingleTip endpoint",
+        "ts": "1461263589.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "and a send button, and then it shows the json response in a text view",
+        "ts": "1461263602.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "oh ok, sorry, i heard your name come up a bunch related to this endpoint",
+        "ts": "1461263624.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "via israel",
+        "ts": "1461263631.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "israel wrote those endpoints, right?",
+        "ts": "1461263643.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "happy to help, if i can",
+        "ts": "1461263651.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Think we’re all good. I’m assuming Israel may have more use for it or ways he wants to push it forward when he’s back. Just wanted to give testers some background on what it’s for.",
+        "ts": "1461263684.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "this is what israel had said to me:",
+        "ts": "1461263720.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "It's super basic\nBut it will be something DS can look at with UX\nand the have content management in the backend for tips\nto make them feel better---\nand eventually center them around a given discovery and user attributes",
+        "ts": "1461263728.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Gotcha. Well Steve really liked it so I think we’re getting there!",
+        "ts": "1461263761.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Totally makes sense, and I’ve communicated such. Thanks for the background Shawn.",
+        "ts": "1461263780.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "np",
+        "ts": "1461263800.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": "its all really just that beautiful app icon i made",
+        "ts": "1461263813.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0WDS9THQ",
+        "text": ":laughing:",
+        "ts": "1461263817.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "lol it is nice!!!",
+        "ts": "1461264127.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "As of right now there's no nuance in the ttm levels, so like 4 is just any tip at level 4",
+        "ts": "1461265392.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I have yet to get a good answer as to why that is, but for now it's basically a \"random tip from ttm level X\" generator",
+        "ts": "1461265460.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Like a very positive and health oriented magic 8 ball",
+        "ts": "1461265476.000035"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "My reply is no",
+        "ts": "1461265476.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks, <@USLACKBOT> ",
+        "ts": "1461265492.000037"
+    }
+]

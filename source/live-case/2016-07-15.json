@@ -1,0 +1,179 @@
+[
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Reminder: Update Harvest.",
+        "ts": "1468598400.000439"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1J4BQX7G>: were you able to reproduce the the places issues (wrong map appearing with chip) yesterday? or did wifi issues get in the way?",
+        "ts": "1468601716.000440"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "Wifi issues went away and then as soon as I downloaded the updated build to N the wifi issues came back",
+        "ts": "1468601781.000441"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "I'll check the phone today, see if they're still happening",
+        "ts": "1468601808.000442"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sweet, keep me posted. thats a weird one.",
+        "ts": "1468601875.000443"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "Based on the number of angry rants I found on online forums it seems to be a semi-common one, at least",
+        "ts": "1468602002.000444"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "well, lets try to reproduce and we can work on getting a fix in place + calm the mobs :slightly_smiling_face:",
+        "ts": "1468602123.000445"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "the bug where the Live Case app doesn't return the map that matches your case holds true for the Nougat. Should have been taken to Waikoloa, HI, was taken to somewhere...not Hawaii.\nAlso I'm not sure if the NFC shortcut `Show places around you` option is meant to be implemented but it's very buggy. It seems to open Google Maps for a split second but if you tap on the map then the app instantly crashes and the wallpaper goes blank",
+        "ts": "1468608543.000446"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "show places around you wont work in debug builds",
+        "ts": "1468608575.000447"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "gotcha - in that case the only thing to report is the case map\/app map mismatch",
+        "ts": "1468608644.000448"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can help with this ",
+        "ts": "1468608862.000449"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Give me a minute ",
+        "ts": "1468608872.000450"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "To prep, <@U1J4BQX7G> do a clean install ",
+        "ts": "1468608912.000451"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": ":+1:",
+        "ts": "1468608922.000452"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "come see me in exlo",
+        "ts": "1468609183.000453"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "there's no list of Order Ids corresponding to live case map locations, which means I can't test if this issue repros across map locations or something about Hawaii makes Live Case upset",
+        "ts": "1468609954.000454"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "maybe we could ask g-Kat for some?",
+        "ts": "1468609988.000455"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> is there a way to find some other case ids? otherwise i can bug bonnie (just want to make sure its not something we can access without her)",
+        "ts": "1468610170.000456"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me see if i have any",
+        "ts": "1468610178.000457"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Photos: b_acNDT7X8NeUfnQ\nPhotos: vYqJc5s9DTW03e_f\nPlaces: QUBbiWJ-EsYj-mzU\nPhotos: uiiTgSfCzoWVzF7H \nPlaces: -MI1fPNn0ygHxiy5\nPhotos: G9skHLqYtXzS1Ksr",
+        "ts": "1468610200.000458",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome thank you! <@U1J4BQX7G> ^^^",
+        "ts": "1468610258.000459"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and <@U1J4BQX7G> when you test, can you report on these + create a trello ticket (under workshop) for this bug so we can track?",
+        "ts": "1468610298.000460"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "bug added in Trello! I'll check out some of the ids evans just posted",
+        "ts": "1468610462.000461"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool - please add any info you find on those IDs to the ticket as well when you get through them. thanks for your help!",
+        "ts": "1468610659.000462"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "<@U026PHQ3J>: do you have any idea where those ids are supposed to take you to?",
+        "ts": "1468610789.000463"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1468610794.000464"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "`QUBbiWJ-EsYj-mzU` takes me to China",
+        "ts": "1468610802.000465"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i asked bonnie for ids + location, will let you know what we get",
+        "ts": "1468610981.000466"
+    }
+]

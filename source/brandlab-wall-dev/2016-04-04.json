@@ -1,0 +1,260 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "got the demo running locally, looks like it isnt additive but they are saving each of those parts separate, not sure how this effects things just yet. still looking at what they are doing",
+        "ts": "1459788054.000156"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks peter",
+        "ts": "1459788066.000157"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah there isnt really anything in this demo i would build on. The preset admin template system uses a system of a flat html file that you feed it that defines the admin for each preset. but really what they have here is their best guesses and im not sure that we would use it. nothing here is really much of a help. It’s pretty heavy shoe horning to fit their model. But I dont see why we have to. What I want to do doesnt deviate so much and is cleaner",
+        "ts": "1459792062.000158"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "when do we want to sync up on this? I have some notes ready for how\/what they did ready",
+        "ts": "1459792156.000159"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "let’s meet at 11:30 right after my new biz ops meeting",
+        "ts": "1459792181.000160"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure",
+        "ts": "1459792187.000161"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: letting you guys rock, let me know how i can help",
+        "ts": "1459794520.000162"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "will do",
+        "ts": "1459794531.000163"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U0EL0GLEL> joel just caught me up on TL;DR.  with him jumping into some other stuff this afternoon, want ya to know i’m briefed and here for you",
+        "ts": "1459800516.000164"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im working on a write up",
+        "ts": "1459800538.000165"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i’m tracking in two deliverables.  1) articulating why the globalized of templates won’t work and a sense of how we lead them to work with us on this  then 2) stnading up our data model within their UI",
+        "ts": "1459800567.000166"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "sounds like same page",
+        "ts": "1459800571.000167"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah, thats what i would like to see happen",
+        "ts": "1459800619.000168"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "word, ping me when you’ve got the write up and i’ll swift focus towards it",
+        "ts": "1459800725.000169"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U0ML49XU0>: my notes are in, left my proposed ideas in there also for contrast.",
+        "ts": "1459806588.000170"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok review now",
+        "ts": "1459807185.000171"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not completely sure about this propping up part, what we are looking for there. If I am looking to show our data model etc, that would basically be like saying make nearly the whole admin experience. To do it justice and show things it would be a lot of work and basically completing what we need to do for it anyways. So not sure what quicker version we want for that ask. I called out what I would like to see in the notes. I can do a very simple example of how the routing works. and how I am planning on saving the templates if that works for this. but much more than that is a considerable effort",
+        "ts": "1459808971.000172"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "yeah we’re in MVP mode for ‘stanidng this thing up’  Not asking for full re-build",
+        "ts": "1459809344.000173"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "we wont be able to show the full experience im saying without a lot of work and nearly just doing it. I can show off a few key points here that differ tho as ive already coded that, and can copy them over into a simple demo that is more polished ready to be reviewed",
+        "ts": "1459809423.000174"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so i just re-read the whole write up",
+        "ts": "1459809594.000175"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and the TL;DR is a good gap analysis.  would your demo for tomorrow attempt to prove that out or would it instead be something we’re looking for google to put their hooks into?",
+        "ts": "1459809628.000176"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i ask because in talking with <@U02E3CRMA>, we know that the primary issue is the globalization of templates so the primary objective for tomorrow is highlighting this in a way where we can have goolgle partner with us on a solution.  if that’s cleared, this becomes much more work-able, yeah?",
+        "ts": "1459809675.000177"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if we are saying that we want to demo that, im saying that to be able to demo that you nearly need to just make the whole thing. As to functionally show that you are making it. and the display would have to work with it. that is a point that you would simply want to talk about right now, you couldnt demo anything to show that. What I would want to show them tho is that their approach is overly complex and feels like square peg round hole. I can do a demo that shows the tabs coming from one activity. and how we are going hooking in and customizing our admin experience. I see that as being a sticking point that they need to understand clearly and be like ohhhhh cool. Or we will continue to have this disscussion of we are being too off base and custom, which i dont think we are",
+        "ts": "1459809918.000178"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good points man",
+        "ts": "1459810005.000179"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i’m with ya",
+        "ts": "1459810007.000180"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "primary focus: articulating the fallibility of globalized templates.  ’Set it and Forget it mode’ to the max.  Secondary: if you can spin up a quick demp that shows tabs, their UI strcuture and one activity, that’s the win",
+        "ts": "1459810073.000181"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i dont have anything to show about the templates. that will need to be simply talked about. not sure how to show anything other than disscussing it in person since It feels like they didn’t catch it from the docs",
+        "ts": "1459810165.000182"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok so what is there to ‘show’?",
+        "ts": "1459810425.000183"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "well that is part of what im asking, I can show them our method of customization and how we are doing our admin. through the routing and calling out to the preset admin for saving a preset. That is a big point where we differ from stock. But I dont see what there is to show around this issue of a global template. what would you show? you would need a way to say here is the admin, which would need to be nearly complete and functional. it would need to have all those fields on it, and save the presets as we need them saved, it would need to have the ui that does the proper grouping of the presets into the workshop, it would need to have the display on the other end also ready to accept the preset sent over. then we would need the scheduler integrated so we can schedule 2 workshops and in our model they would then be able to see that when each was pushed they  had different options for the templates used. and not the same ones that their system locks to. So essentially if we were to show something to prove that we have to do it, which is nearly the whole thing",
+        "ts": "1459810970.000184"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "maybe i misunderstood you earlier peter but was there not something we could do to show them our intention of using their stock Pretty UI and tabs?  That alone would get us far but, like you, I’m arful with my time investments",
+        "ts": "1459811270.000185"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I am just not seeing anything we should show that says the point that their setup causes the modules to be static. it should be fairly clear to just say that",
+        "ts": "1459811341.000186"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "They seem to call that out in their video, they seem to think that stuff never changes, they pretty much said that",
+        "ts": "1459811375.000187"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "not disagreeing",
+        "ts": "1459811382.000188"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and that global, static nature is the TL;DR of all TL;DR’s yeah?",
+        "ts": "1459811396.000189"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah i would certainly think so",
+        "ts": "1459811430.000190"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so how could google iterate something that would unblock us here?",
+        "ts": "1459812375.000191"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "im trying to figure out what we’d potentially be asking them to do rather than poke holes (beyond the hole-poking we’e done which sis good and necessary)",
+        "ts": "1459812411.000192"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "well im getting lost now, im not sure we are conveying the same thing here",
+        "ts": "1459813116.000193"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok let me try again (sorry multitasking)",
+        "ts": "1459813230.000194"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "just come here and i can show you what we can show them",
+        "ts": "1459813422.000195"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "been in a couple head spaces.  preference is face to face, yeah",
+        "ts": "1459813712.000196"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good news, joel and i aligned.  he’s gonnnana circle up with peter, likely best use oftime being get back on the touch FWD'r",
+        "ts": "1459813740.000197"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "put a screenshot of the admin demo I made into the feedback doc. this is a very quick demo of what I think we have to do for the admin. all tabs come out of the same activity, the UI fits exactly into what pretty uses.",
+        "ts": "1459814634.000198"
+    }
+]

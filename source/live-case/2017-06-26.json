@@ -1,0 +1,1504 @@
+[
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Just a reminder that I'm at a conference today. Today, is the machine learning for artists workshop which is likely to be more hands on\/live coding than the rest of the days at the conference.",
+        "thread_ts": "1498482144.649328",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1498491025.011743"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1498482144.649328",
+        "reactions": [
+            {
+                "name": "partyparrot",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U0U9WJB7F",
+                    "U2H61EJSG"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sorry to blow up your inboxes, i'm moving tickets to the next sprint.",
+        "ts": "1498490901.959220",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "eek! so excited for you john! have a blast",
+        "thread_ts": "1498482144.649328",
+        "parent_user_id": "U2670DYLE",
+        "ts": "1498491025.011743"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F>: <@U1ZG1UCAK> actually fixed the settings crash bug ",
+        "ts": "1498492213.494608",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U13GPDA1F",
+                    "U0U9WJB7F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "that's awesome!!",
+        "ts": "1498492345.548076"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hey gang, at the milk run semio thing on 4. Can we push standup a bit? ",
+        "ts": "1498494056.213951"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(also come up! This is pretty neat)",
+        "ts": "1498494068.218504"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yah for sure ",
+        "ts": "1498494071.219458"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "let's say tbd but 945 (agreed this is cool and y'all should join)!",
+        "ts": "1498494095.228422"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":slightly_smiling_face: oh, good, I wanted to come up and eat snacks",
+        "ts": "1498494105.232035"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> <@U0260V1BX> <@U13GPDA1F> <@U1ZG1UCAK> <@U2H61EJSG> let's do standup at 10:45.",
+        "ts": "1498497910.617638",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U2H61EJSG",
+                    "U13GPDA1F"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sounds good",
+        "ts": "1498497919.620998"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> does that memory inflation happen if you stay in portrait only",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1498500755.000000"
+        },
+        "ts": "1498500752.668785"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or is landscape necessary",
+        "ts": "1498500759.671270"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I think it happens in portrait only, I was just flipping back and forth between landscape\/portrait to be stressful",
+        "ts": "1498500811.690707"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hmmmmmm",
+        "ts": "1498500824.695321"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you try it with this branch?",
+        "ts": "1498500850.704980"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`test_onboard_leak_plug`",
+        "ts": "1498500852.705533"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and let me know what you see",
+        "ts": "1498500857.707603"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "looking at it again, allocated hops up on changing between landscape\/portrait",
+        "ts": "1498500926.733708"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "but the jump still happens on portrait",
+        "ts": "1498500936.737258"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’ll try out the branch and see what happens",
+        "ts": "1498500968.748986"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1498501118.804551"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5Z1G3EV6\/screen_shot_2017-06-26_at_11.23.58_am.png|Screen Shot 2017-06-26 at 11.23.58 AM.png> and commented: Jump up ~17s is third tutorial screen. Jump back down around 28s is hitting the garbage collect button.",
+        "file": {
+            "id": "F5Z1G3EV6",
+            "created": 1498501545,
+            "timestamp": 1498501545,
+            "name": "Screen Shot 2017-06-26 at 11.23.58 AM.png",
+            "title": "Screen Shot 2017-06-26 at 11.23.58 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 10670,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z1G3EV6\/screen_shot_2017-06-26_at_11.23.58_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z1G3EV6\/download\/screen_shot_2017-06-26_at_11.23.58_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1G3EV6-ed73c57ac5\/screen_shot_2017-06-26_at_11.23.58_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1G3EV6-ed73c57ac5\/screen_shot_2017-06-26_at_11.23.58_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1G3EV6-ed73c57ac5\/screen_shot_2017-06-26_at_11.23.58_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 61,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1G3EV6-ed73c57ac5\/screen_shot_2017-06-26_at_11.23.58_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 81,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1G3EV6-ed73c57ac5\/screen_shot_2017-06-26_at_11.23.58_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 693,
+            "original_h": 117,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5Z1G3EV6\/screen_shot_2017-06-26_at_11.23.58_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5Z1G3EV6-fec584272d",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5ZM2KGKC",
+                "created": 1498501545,
+                "timestamp": 1498501545,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Jump up ~17s is third tutorial screen. Jump back down around 28s is hitting the garbage collect button."
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1498501547.964988"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats good",
+        "ts": "1498501580.978104"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what happens if you go thru onboard (and fuck around in portrait\/landscape) and then exit it and GC",
+        "ts": "1498501598.984603"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "it jumped from about 130 megs to 108 and stayed there",
+        "ts": "1498501744.041626"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm",
+        "ts": "1498501757.046784"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1498501758.047044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats the XL?",
+        "ts": "1498501777.054341"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or the 6P?",
+        "ts": "1498501780.055434"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "XL",
+        "ts": "1498501782.056479"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5ZJZ6SLB\/screen_shot_2017-06-26_at_11.28.00_am.png|Screen Shot 2017-06-26 at 11.28.00 AM.png> and commented: the little valleys from 32s to 56s are switching between portrait and landscape",
+        "file": {
+            "id": "F5ZJZ6SLB",
+            "created": 1498501833,
+            "timestamp": 1498501833,
+            "name": "Screen Shot 2017-06-26 at 11.28.00 AM.png",
+            "title": "Screen Shot 2017-06-26 at 11.28.00 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 15490,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ZJZ6SLB\/screen_shot_2017-06-26_at_11.28.00_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ZJZ6SLB\/download\/screen_shot_2017-06-26_at_11.28.00_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ZJZ6SLB-9a167f6b54\/screen_shot_2017-06-26_at_11.28.00_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ZJZ6SLB-9a167f6b54\/screen_shot_2017-06-26_at_11.28.00_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ZJZ6SLB-9a167f6b54\/screen_shot_2017-06-26_at_11.28.00_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 33,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ZJZ6SLB-9a167f6b54\/screen_shot_2017-06-26_at_11.28.00_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 44,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ZJZ6SLB-9a167f6b54\/screen_shot_2017-06-26_at_11.28.00_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ZJZ6SLB-9a167f6b54\/screen_shot_2017-06-26_at_11.28.00_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 66,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ZJZ6SLB-9a167f6b54\/screen_shot_2017-06-26_at_11.28.00_am_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 73,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ZJZ6SLB-9a167f6b54\/screen_shot_2017-06-26_at_11.28.00_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 88,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5ZJZ6SLB-9a167f6b54\/screen_shot_2017-06-26_at_11.28.00_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 94,
+            "image_exif_rotation": 1,
+            "original_w": 1340,
+            "original_h": 123,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5ZJZ6SLB\/screen_shot_2017-06-26_at_11.28.00_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5ZJZ6SLB-c735db059e",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5ZQ33DC5",
+                "created": 1498501833,
+                "timestamp": 1498501833,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "the little valleys from 32s to 56s are switching between portrait and landscape"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1498501836.077989"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you do this on a pixel?",
+        "ts": "1498501856.085818"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and compare",
+        "ts": "1498501859.087090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its really strange",
+        "ts": "1498501861.087969"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Pixel seems to be really lean on memory",
+        "ts": "1498501880.095524"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "sure",
+        "ts": "1498502016.146716"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "*FYI:*\n\nGoogle code names for new Pixel devices: \nSmall new Pixel:  Pinscher\nLarge new Pixel:  Bulldog",
+        "ts": "1498502197.214749"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0U9WJB7F",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[June 26th, 2017 11:36 AM] jenna.simon: *FYI:*\n\nGoogle code names for new Pixel devices: \nSmall new Pixel:  Pinscher\nLarge new Pixel:  Bulldog",
+                "ts": "1498502197.214749",
+                "author_subname": "jenna.simon",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "*FYI:*\n\nGoogle code names for new Pixel devices: \nSmall new Pixel:  Pinscher\nLarge new Pixel:  Bulldog",
+                "author_name": "Jenna Simon",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/jenna.simon",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-01-03\/123002289349_a4039ee376b090eb3613_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U0U9WJB7F|jenna.simon> pinned a message to this channel.",
+        "ts": "1498502202.216868"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(these aren’t the model names, so we don’t really care)",
+        "ts": "1498502233.228308"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":)",
+        "ts": "1498502234.228711"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "walleye is one of them",
+        "ts": "1498502241.231209"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "basically..fake fake names",
+        "ts": "1498502254.236370"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "tiamen is the other one",
+        "ts": "1498502254.236404"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well, walleye and tiamen will probably stay",
+        "ts": "1498502266.241018"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":grimacing:",
+        "ts": "1498502301.254501"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5Z1T71GQ\/screen_shot_2017-06-26_at_11.40.41_am.png|Screen Shot 2017-06-26 at 11.40.41 AM.png> and commented: on pixel - 20s-38s = landscape\/portrait on 3rd tutorial screen, then flatten out on home. Drop at 46s is GC.",
+        "file": {
+            "id": "F5Z1T71GQ",
+            "created": 1498502523,
+            "timestamp": 1498502523,
+            "name": "Screen Shot 2017-06-26 at 11.40.41 AM.png",
+            "title": "Screen Shot 2017-06-26 at 11.40.41 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 14285,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z1T71GQ\/screen_shot_2017-06-26_at_11.40.41_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z1T71GQ\/download\/screen_shot_2017-06-26_at_11.40.41_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1T71GQ-fa4d6f8e99\/screen_shot_2017-06-26_at_11.40.41_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1T71GQ-fa4d6f8e99\/screen_shot_2017-06-26_at_11.40.41_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1T71GQ-fa4d6f8e99\/screen_shot_2017-06-26_at_11.40.41_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 43,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1T71GQ-fa4d6f8e99\/screen_shot_2017-06-26_at_11.40.41_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 58,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1T71GQ-fa4d6f8e99\/screen_shot_2017-06-26_at_11.40.41_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1T71GQ-fa4d6f8e99\/screen_shot_2017-06-26_at_11.40.41_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 87,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z1T71GQ-fa4d6f8e99\/screen_shot_2017-06-26_at_11.40.41_am_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 96,
+            "image_exif_rotation": 1,
+            "original_w": 913,
+            "original_h": 110,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5Z1T71GQ\/screen_shot_2017-06-26_at_11.40.41_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5Z1T71GQ-01ddf3d2dc",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc60GG7EBZ",
+                "created": 1498502523,
+                "timestamp": 1498502523,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "on pixel - 20s-38s = landscape\/portrait on 3rd tutorial screen, then flatten out on home. Drop at 46s is GC."
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1498502525.339532"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hmmmmmmmmm",
+        "ts": "1498502541.345754"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i hate that i can’t recreate this on the Pixel now",
+        "ts": "1498502982.509962"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":confused:",
+        "ts": "1498503018.523293"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "you wanna use the XL?",
+        "ts": "1498503031.527867"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Do you know which locations each of the Earth case ids correspond to?",
+        "ts": "1498504685.116259"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey team, I’ve got a doc appt at 1 and will be WFH after that. Hit me up on Slack if you need me!",
+        "ts": "1498504744.135684"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> - it looks like you didn’t push changes to `test_onboard_leak_plug`",
+        "ts": "1498506381.681005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Goddamnit. Ok getting lunch and will be back shortly ",
+        "ts": "1498506493.718204"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Sorry",
+        "ts": "1498506496.719278"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "should’ve noticed earlier :confused: it _was_ weird that I wasn’t seeing much difference and this makes more sense",
+        "ts": "1498506542.735184"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> lemme check on that",
+        "ts": "1498507813.170662"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "how it works stuff is pushed to develop",
+        "ts": "1498507829.175908"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":gif_thinking_face:",
+        "ts": "1498508219.304532"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "* [new branch]      test_onboard_leak_plug -&gt; test_onboard_leak_plug",
+        "ts": "1498508219.304668"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that was from before",
+        "ts": "1498508223.306154",
+        "reactions": [
+            {
+                "name": "question",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Here is what the toast in legacy says “Hold tight. We are loading your artworks”",
+        "ts": "1498508510.401490"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U0260V1BX> Artworks takes about 8 seconds to download (this is the same for legacy), but in the legacy experience we have a toast that says \"Hold tight. We are loading your artworks\" \n\nI think we should add this to the 2017 experience as well. Are you okay with that?",
+        "thread_ts": "1498508543.412551",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U0260V1BX",
+                "ts": "1498510593.104046"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1498508543.412551"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> last commit on the remote is from Friday",
+        "ts": "1498508790.496486"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "try now",
+        "ts": "1498508823.507854"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i pushed to the wrong origin :face_with_rolling_eyes:",
+        "ts": "1498508840.513510"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "got it :thumbsup::skin-tone-4:",
+        "ts": "1498508886.529561"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "way better",
+        "ts": "1498509079.597557"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "interesting.",
+        "ts": "1498509087.600210"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "nice commit message :joy:",
+        "ts": "1498509227.648046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hey <!here|@here>: we’re going to be using a different package name for dogfood builds.",
+        "ts": "1498509595.770365"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I need to cut off of doing code for a bit to make some changes to gradle to support this",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1498509618.000000"
+        },
+        "ts": "1498509610.775560"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but <@U1ZG1UCAK> that branch had really minimal changes, but if it fixed the issue, we should merge\/test it",
+        "ts": "1498509637.784550"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m going to add some flavors for dogfood",
+        "ts": "1498509653.789913"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "i don’t know if it fixed the issue, but it seemed better. Maybe oversold.",
+        "ts": "1498509667.794288"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so build.gradle is going to look different in a few min",
+        "ts": "1498509669.794889"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ha",
+        "ts": "1498509671.795569"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well, if it seems better, thats a start",
+        "ts": "1498509678.798015"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":confused: I’ll keep testing… I wonder why this XL holds onto so much more garbage?",
+        "ts": "1498510018.911245"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah its weird",
+        "ts": "1498510142.952397"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it should flush it",
+        "ts": "1498510144.953126"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is your pixel on N",
+        "ts": "1498510155.956714"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or O",
+        "ts": "1498510157.957360"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "mine is on N and so is the XL",
+        "ts": "1498510179.964439"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":gif_thinking_face: :gif_thinking_face: :gif_thinking_face: :gif_thinking_face: :gif_thinking_face: :gif_thinking_face: :gif_thinking_face: :gif_thinking_face: :gif_thinking_face: :gif_thinking_face: :gif_thinking_face:",
+        "ts": "1498510230.981565"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ugh GC not working. abort. not better. :confounded:",
+        "ts": "1498510451.055871"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m going to try on my pixel and see if the how it works screen addition is causing problems.",
+        "ts": "1498510516.077620"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0U9WJB7F> yes that's fine, thanks!",
+        "thread_ts": "1498508543.412551",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1498510593.104046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> could you run this build thru some testing please?",
+        "ts": "1498512428.672969"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F5ZRW3BRA\/app-dogfood-debug.apk|app-dogfood-debug.apk>",
+        "file": {
+            "id": "F5ZRW3BRA",
+            "created": 1498512440,
+            "timestamp": 1498512440,
+            "name": "app-dogfood-debug.apk",
+            "title": "app-dogfood-debug.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 24202658,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ZRW3BRA\/app-dogfood-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ZRW3BRA\/download\/app-dogfood-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F5ZRW3BRA\/app-dogfood-debug.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5ZRW3BRA-a9d878395f",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1498512442.677070"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "clean install?",
+        "ts": "1498512500.693493"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1498512525.700545"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in fact",
+        "ts": "1498512527.701124"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just install it and tell me what happens",
+        "ts": "1498512532.702666"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":)",
+        "ts": "1498512533.702965"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "k",
+        "ts": "1498512584.717502"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "legacy experience pops up",
+        "ts": "1498512605.723579"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "\"The stuff you love, all around your phone.\" is the first screen!",
+        "ts": "1498512630.730959"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats expected",
+        "ts": "1498513239.896654"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "great!",
+        "ts": "1498513249.899085"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you go into your app drawer and tell me if youhave two minime’s",
+        "ts": "1498513256.901154"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "nope, just one!",
+        "ts": "1498513329.920477"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hmmm",
+        "ts": "1498513359.928472"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you send me the app info for it",
+        "ts": "1498513364.929761"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "version 3.3-dogfood",
+        "ts": "1498513403.939602"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1498513448.951304"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you didn’t clean install tho?",
+        "ts": "1498513451.952188"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I just redid everything to see what happened.",
+        "ts": "1498513650.004003"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I downloaded a build Midori sent first",
+        "ts": "1498513660.006529"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "then downloaded what you sent thru",
+        "ts": "1498513665.007744"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Got this error message: App not installed, the package conflicts with an existing package by the same name.",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1498513691.000000"
+        },
+        "ts": "1498513684.012533"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Had the same issue when trying to install over the Debug build sent out on Friday.",
+        "ts": "1498513751.029530"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok good",
+        "ts": "1498513908.069635"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1498513910.070043"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "should legacy earth shortcut still be maps? or should that go to earth (similar to 2017)? that was my assumption but that was based wayyyy back when kat was here",
+        "ts": "1498514144.129686"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":heart_eyes_cat:",
+        "ts": "1498514155.132506"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "my very cool phone has stopped being able to find location",
+        "ts": "1498514281.164204"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i’m rebooting",
+        "ts": "1498514283.164718"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im trying to opt out of o beta rn because its ruining my liffffffe(case)",
+        "ts": "1498514421.200905"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "my impression was that it should be maps.",
+        "ts": "1498514603.247445"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "and that is what the legacy deck states",
+        "ts": "1498514610.249221"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "learn more is gone on non-3pr :wave::skin-tone-4: . gonna merge to develop.",
+        "ts": "1498514719.275582"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Can we send a build with everything that was just merged in?",
+        "ts": "1498515206.384749"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I'm testing a build from a few hours ago, but I think we should try to get to a good stopping place so we can release a DF build around 4pm",
+        "ts": "1498515226.389094"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Curious if someone on our team wrote the copy in Artworks under \"More about this collection\"?",
+        "ts": "1498515442.435551"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Reads:\nSpace Catz\nI haz a phone case with a space catz! Thanks for finding our secret little easter egg. Keep checking in to see what comes next.",
+        "ts": "1498515471.441655"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5Z5JRG1W\/minime-debug-6_26_2017-v2.apk|MiniMe-DEBUG-6_26_2017-v2.apk>",
+        "file": {
+            "id": "F5Z5JRG1W",
+            "created": 1498515478,
+            "timestamp": 1498515478,
+            "name": "MiniMe-DEBUG-6_26_2017-v2.apk",
+            "title": "MiniMe-DEBUG-6_26_2017-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24208096,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z5JRG1W\/minime-debug-6_26_2017-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z5JRG1W\/download\/minime-debug-6_26_2017-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5Z5JRG1W\/minime-debug-6_26_2017-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5Z5JRG1W-6db68a1b80",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1498515481.443914"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I believe this is the issue you've been tackling this morning <@U1ZG1UCAK> <@U026PHQ3J> but none of my gifs are showing up in Onboarding (screen 3 for all) or in the \"how it works\" overflow menu due to being 'out of memory' \n\nit's likely this is an edge case as most people won't be paired with 4 generators, but I can see it being an issue for dogfooders...?",
+        "ts": "1498516298.614054"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> double tapping earth is launching maps :confused:",
+        "ts": "1498517088.770573",
+        "reactions": [
+            {
+                "name": "weary",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I installed the debug 83 build first and your (summer) build over it",
+        "ts": "1498517216.795549"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "if someone else can try to repro that'd be great",
+        "ts": "1498517225.797325"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i saw maps as default on legacy - is that correct (per above)",
+        "ts": "1498517773.903418"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0U9WJB7F> ?",
+        "ts": "1498517778.904485"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "if so i repro'd",
+        "ts": "1498517784.905703"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "its opening earth on my device",
+        "ts": "1498517816.911809"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "what did you see on the 2017 experience maps or earth <@U13GPDA1F> ?",
+        "ts": "1498518107.969031"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i saw maps shortcut on the legacy version of earth  (sorry for being confusing)",
+        "ts": "1498518187.983612"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5Z66B6GY\/minime-debug-6_26_2017-v3.apk|MiniMe-DEBUG-6_26_2017-v3.apk>",
+        "file": {
+            "id": "F5Z66B6GY",
+            "created": 1498518839,
+            "timestamp": 1498518839,
+            "name": "MiniMe-DEBUG-6_26_2017-v3.apk",
+            "title": "MiniMe-DEBUG-6_26_2017-v3.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24207885,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z66B6GY\/minime-debug-6_26_2017-v3.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z66B6GY\/download\/minime-debug-6_26_2017-v3.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5Z66B6GY\/minime-debug-6_26_2017-v3.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5Z66B6GY-5a2de58b9f",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1498518841.099948"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Earth codes should be correct in this build",
+        "ts": "1498518848.101121"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sweet",
+        "ts": "1498518872.105188"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5ZUQHW21\/minime-legacy_debug-6_26_2017.apk|MiniMe-LEGACY_DEBUG-6_26_2017.apk>",
+        "file": {
+            "id": "F5ZUQHW21",
+            "created": 1498518945,
+            "timestamp": 1498518945,
+            "name": "MiniMe-LEGACY_DEBUG-6_26_2017.apk",
+            "title": "MiniMe-LEGACY_DEBUG-6_26_2017.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24207588,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ZUQHW21\/minime-legacy_debug-6_26_2017.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ZUQHW21\/download\/minime-legacy_debug-6_26_2017.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5ZUQHW21\/minime-legacy_debug-6_26_2017.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5ZUQHW21-9026cf6958",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1498518947.118349"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> created two new folders in the merged APK file \nMiniMe Release:87\t3.2.5 (Beta 06.26.17)\nMiniMe Release: 88      3.2.df.5 (Alpha 06.26.17)",
+        "ts": "1498519459.205752"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Bonnie added this note \"Also need an identical build for the new experimental channel as 3.2.exp.5\"",
+        "ts": "1498519474.208366"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`new_package_gradle_dogfood`",
+        "ts": "1498520431.368714"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U026PHQ3J",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[June 26th, 2017 4:40 PM] evans: `new_package_gradle_dogfood`",
+                "ts": "1498520431.368714",
+                "author_subname": "evans",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "`new_package_gradle_dogfood`",
+                "author_name": "Elise \"Cramer\" evans",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/evans",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-07-12\/211206015585_3e81a7fdcc5a58c2e48c_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U026PHQ3J|evans> pinned a message to this channel.",
+        "ts": "1498520436.369625"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> Codes applicable to today's DF in the Merged APK folder are: 20, 27, 58, 76",
+        "thread_ts": "1498520649.404535",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1498522763.732339"
+            },
+            {
+                "user": "U0U9WJB7F",
+                "ts": "1498524909.023181"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1498520649.404535"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I've got an appointment at 5pm that I can't miss. \n\nPlease let me know when the Merged APK folder has been updated and send thru another build that google folks will be able to test (that has test in the naming convention as we talked about earlier).",
+        "ts": "1498521157.484877"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I've got an email drafted that I'll send out once we're good2go.",
+        "ts": "1498521167.486426"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> i dont know what those numbers mean",
+        "ts": "1498522279.660646"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "jenna.simon: :thinking_face: can you clarify what these are? i dont see anything in the merged apk folder or versioning sheet?",
+        "thread_ts": "1498520649.404535",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1498522763.732339"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/drive.google.com\/drive\/u\/0\/folders\/0B0GwY6N_EWLEWG5WdXdaVF9fSkk>",
+        "ts": "1498523143.785295"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(link to merged apk :point_up_2:)",
+        "ts": "1498523260.801600"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5ZA6T8PK\/minime-88-debug-3.2.exp.5-6_26_17-v1.apk|MiniMe-88-DEBUG-3.2.exp.5-6_26_17-v1.apk>",
+        "file": {
+            "id": "F5ZA6T8PK",
+            "created": 1498523890,
+            "timestamp": 1498523890,
+            "name": "MiniMe-88-DEBUG-3.2.exp.5-6_26_17-v1.apk",
+            "title": "MiniMe-88-DEBUG-3.2.exp.5-6_26_17-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24208650,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ZA6T8PK\/minime-88-debug-3.2.exp.5-6_26_17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5ZA6T8PK\/download\/minime-88-debug-3.2.exp.5-6_26_17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5ZA6T8PK\/minime-88-debug-3.2.exp.5-6_26_17-v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5ZA6T8PK-ba1233e625",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1498523892.888093"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0U9WJB7F> builds uploaded to folders, no inclusion of those codes, but hopefully that works for them :grin: at least until tomorrow",
+        "ts": "1498524342.947405"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sorry yes on the versioning spreadsheet ",
+        "thread_ts": "1498520649.404535",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1498524909.023181"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> I asked Adrien which of the package names we should use in this DF build and he just said The new \"__dogfood\"\n\nDoes that help at all? I'm not following.",
+        "ts": "1498525636.124438"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok the builds we put in drive shouldn't be sent",
+        "ts": "1498525703.133248"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "He said the _dogfood package stuff would be set up later this week ",
+        "ts": "1498525718.135386"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So we shouldn't push those to alpha and beta ",
+        "ts": "1498525727.136555"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(but he and Bonnie should talk)",
+        "ts": "1498525733.137483"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Okay",
+        "ts": "1498525819.148812"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah I'm confused too ",
+        "ts": "1498527800.406244"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cause he sent that thing today and said \"later this week\" but i didn't know he meant don't do these ",
+        "ts": "1498527825.409628"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yeah let me get clairity.",
+        "ts": "1498528295.468909"
+    }
+]

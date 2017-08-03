@@ -1,0 +1,68 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<http:\/\/www.meetup.com\/pdxweb\/events\/197555672\/>",
+        "attachments": [
+            {
+                "service_name": "Meetup",
+                "title": "PDX Web &amp; Design",
+                "title_link": "http:\/\/www.meetup.com\/pdxweb\/events\/197555672\/",
+                "text": "Join us August 14 for a presentation by Edward Irby on the UI Developers toolkit. There’s a military adage, prior preparation prevents poor performance. It’s something we can apply to all parts of our",
+                "fallback": "Meetup: PDX Web &amp; Design",
+                "thumb_url": "http:\/\/photos3.meetupstatic.com\/photos\/event\/b\/3\/5\/8\/highres_16545912.jpeg",
+                "from_url": "http:\/\/www.meetup.com\/pdxweb\/events\/197555672\/",
+                "thumb_width": 179,
+                "thumb_height": 180,
+                "id": 1
+            }
+        ],
+        "ts": "1407343381.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0289USNA> and <@U02613K0X> I know we talked about running \"node app.js\" and \"grunt watch\" on the same terminal tab months ago and we couldn't find a way to do it. I just found a way that seems to work well:",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1407383793.000000"
+        },
+        "ts": "1407383683.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Use <https:\/\/github.com\/sindresorhus\/grunt-shell> with something like:",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "sindresorhus\/grunt-shell",
+                "title_link": "https:\/\/github.com\/sindresorhus\/grunt-shell",
+                "text": "grunt-shell - Run shell commands",
+                "fallback": "GitHub: sindresorhus\/grunt-shell",
+                "thumb_url": "https:\/\/avatars1.githubusercontent.com\/u\/170270?v=2&s=400",
+                "from_url": "https:\/\/github.com\/sindresorhus\/grunt-shell",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "id": 1
+            }
+        ],
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1407383803.000000"
+        },
+        "ts": "1407383743.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "shell: {\n      server: {\n        command: [\n          'node app.js',\n          ' grunt watch'\n        ].join('&amp;')\n      }\n    }",
+        "ts": "1407383749.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "And voilà!",
+        "ts": "1407383851.000013"
+    }
+]

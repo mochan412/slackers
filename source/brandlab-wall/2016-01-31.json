@@ -1,0 +1,183 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02F8LF2X>: which hinge do we have mocked up in our cubby sample?",
+        "ts": "1454272130.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "I believe it's the Sagitsune LIN-X450",
+        "ts": "1454272404.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yes that is the one",
+        "ts": "1454272500.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks!",
+        "ts": "1454272561.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.amazon.com\/gp\/product\/B00IKFNZYU?psc=1&amp;redirect=true&amp;ref_=oh_aui_detailpage_o06_s00>",
+        "attachments": [
+            {
+                "text": "Sugatsune, Lamp LIN-X450 Cabinet Door Hardware, Nickel\/ Aluminium, Nickel\/ Anodised: <http:\/\/Amazon.com|Amazon.com>: Industrial &amp; Scientific",
+                "fallback": "Sugatsune, Lamp LIN-X450 Cabinet Door Hardware, Nickel\/ Aluminium, Nickel\/ Anodised: <http:\/\/Amazon.com|Amazon.com>: Industrial &amp; Scientific",
+                "from_url": "http:\/\/www.amazon.com\/gp\/product\/B00IKFNZYU?psc=1&redirect=true&ref_=oh_aui_detailpage_o06_s00",
+                "id": 1
+            }
+        ],
+        "ts": "1454272621.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the Teensy 3.2, ethernet module, and SD+WiFi adapter are all on order. Should be here Wednesday.",
+        "ts": "1454272697.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "sweeet",
+        "ts": "1454272727.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll dig up mechanicals for the stack, and we can throw together a housing for it",
+        "ts": "1454272751.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "do you want that other capacitive button with the alternate driver?",
+        "ts": "1454272755.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "doesn’t look like we’ll need it since current design direction has us using the touch films on the screens",
+        "ts": "1454272791.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "plus this driver is Good Enough",
+        "ts": "1454272810.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "once we test out the light ring in the box, would you be cool punching a hole in the top <@U02F8LF2X>?",
+        "ts": "1454272855.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we could grab some plastic samples from TAP and see how that ring looks in the box with a diffuser",
+        "ts": "1454272887.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "the back is mostly opening if you just want to route wires out but yes, could also do a hole in top",
+        "ts": "1454273145.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's just a rough prototype",
+        "ts": "1454273151.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Perfect",
+        "ts": "1454273356.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so reading tea leaves here, does that mean the drawer plan is nixed?",
+        "ts": "1454273811.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "Yeah - drawers are dead. ",
+        "ts": "1454273958.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "Tea leaves read right. Abby and Justin filled me in after a google call. ",
+        "ts": "1454273958.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "On Friday afternoon",
+        "ts": "1454273979.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok",
+        "ts": "1454274131.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02F8LF2X>: did you ever get that quote spreadsheet from Planar with all the details filled in?",
+        "ts": "1454306143.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "wanted to make sure I have the right kit called out in the TDD",
+        "ts": "1454306187.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "another data point: BeagleBone Black can drive a ton of LEDs using a port of the FastLED libs: <http:\/\/www.nycresistor.com\/2013\/07\/27\/ledscape\/>",
+        "attachments": [
+            {
+                "title": "LEDscape",
+                "title_link": "http:\/\/www.nycresistor.com\/2013\/07\/27\/ledscape\/",
+                "text": "Are you building a giant LED display for your hackerspace or Burning Man and need a way to control multiple kilometers of LED strips? Are you tired of running massive USB hubs of Teensys for each row? Then you might be interested in my LEDscape code for the BeagleBone Black to drive up to 500…",
+                "fallback": "LEDscape",
+                "thumb_url": "http:\/\/www.nycresistor.com\/wp-content\/uploads\/2014\/04\/LEDscape-test.jpg",
+                "from_url": "http:\/\/www.nycresistor.com\/2013\/07\/27\/ledscape\/",
+                "thumb_width": 1024,
+                "thumb_height": 683,
+                "id": 1
+            }
+        ],
+        "ts": "1454306512.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "has ethernet onboard, runs Linux",
+        "ts": "1454306539.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "OTOH, probably overkill for how dumb our cubbies need to be. More complexity = more points of failure.",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1454307278.000000"
+        },
+        "ts": "1454306556.000007"
+    }
+]

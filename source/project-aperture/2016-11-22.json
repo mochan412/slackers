@@ -1,0 +1,228 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> in reading more about needy bot two things jumped out at me:\n1.  They used Apache 2.0 license.  I perused this site a bit - can you help me understand you licensing preferences?  <http:\/\/choosealicense.com\/licenses\/>\n2.  Needybot open source page strikes a good balance of info and tonality.  This should be a model for our wiki: <http:\/\/make.needybot.io\/>",
+        "attachments": [
+            {
+                "service_name": "Choose a License",
+                "title": "Licenses",
+                "title_link": "http:\/\/choosealicense.com\/licenses\/",
+                "text": "Non-judgmental guidance on choosing a license for your open source project",
+                "fallback": "Choose a License: Licenses",
+                "from_url": "http:\/\/choosealicense.com\/licenses\/",
+                "service_icon": "http:\/\/choosealicense.com\/favicon.ico",
+                "id": 1
+            },
+            {
+                "title": "Make a Needybot",
+                "title_link": "http:\/\/make.needybot.io\/",
+                "text": "Needybot, the social robotics experiment started by The Lodge at Wieden+Kennedy, is now open source. What will you do with Needybot?",
+                "fallback": "Make a Needybot",
+                "thumb_url": "http:\/\/make.needybot.io\/images\/needybot_og.png",
+                "from_url": "http:\/\/make.needybot.io\/",
+                "thumb_width": 1200,
+                "thumb_height": 630,
+                "service_name": "make.needybot.io",
+                "id": 2
+            }
+        ],
+        "ts": "1479846448.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Has the wiki stuff been migrated?  I have some time today and can review\/help",
+        "ts": "1479846464.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I mostly have just some how to notes punched up right now, there isnt a wiki built up yet. Will need to build that off my notes",
+        "ts": "1479846635.000019"
+    },
+    {
+        "type": "message",
+        "user": "U1172PRDX",
+        "text": "<@U0ML49XU0> hey those are my hands assembling the frame!",
+        "ts": "1479846872.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U1172PRDX> :smile:",
+        "ts": "1479846888.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "gotcha <@U0EL0GLEL> i dont think we wanna take you out of coding tasks.  <@U02E3CRMA> wanna paralel this or let peter rock out after code?",
+        "ts": "1479846922.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I tested the linux unity and it didnt accept sketchup files also seemed to have some issues with the google vr, I think they are having some issues with it due to the GL libraries or some dependancies they are using in Windows and OSX not being quite the same in linux. A damn shame. Oh well, we can setup our server to run off the windows lab computer, that should work. Would require a windows version of the build scripts. The ones I have now are solely geared to OSX. fairly simple, mostly file path changes and \\ vs \/ stuff. and I havent tested this in windows yet at all.",
+        "ts": "1479851383.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Interesting. <@U0EL0GLEL> can you work on converting to windows scripts or looking for a tag in?",
+        "ts": "1479854213.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I will do it",
+        "ts": "1479854231.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll get on documentation this afternoon...",
+        "ts": "1479854339.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0ML49XU0> this chart is great, thanks for the link: <http:\/\/choosealicense.com\/appendix\/>",
+        "attachments": [
+            {
+                "service_name": "Choose a License",
+                "title": "Appendix",
+                "title_link": "http:\/\/choosealicense.com\/appendix\/",
+                "text": "Non-judgmental guidance on choosing a license for your open source project",
+                "fallback": "Choose a License: Appendix",
+                "from_url": "http:\/\/choosealicense.com\/appendix\/",
+                "service_icon": "http:\/\/choosealicense.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1479855158.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "for our purposes, I'd say we're interested in:\n1) using this project as a calling card, so our name needs to travel with the code\/project\/inheritance\n2) reserving the right to use and license as we wish, including IP if that comes up (doubtful, but nice to reserve the right)",
+        "ts": "1479855305.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "though they're all roughly equivalent on 1), I like the CC by SA because it's both lightweight (GPL and Apache can be pretty heavy for this kind of project)  and because they explicitly require users to disclose the original source.",
+        "ts": "1479855391.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "nice to see the CC by SA 4.0 prohibits IP filing",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1479855426.000000"
+        },
+        "ts": "1479855408.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "you make good points and i want to dig in one more time",
+        "ts": "1479855449.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I guess my other bias is that CC is pretty common in the Maker community, so it's going to feel familiar to that audience",
+        "ts": "1479855462.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "conversely, GPL and Apache specifically raise a lot of hackles in that community, and can be perceived as heavy-handed or corporate",
+        "ts": "1479855506.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good perspective",
+        "ts": "1479855516.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "because we, ourselves as makers would benefit from contributions",
+        "ts": "1479855527.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yep",
+        "ts": "1479855533.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ultimately, it's about boosting our brand and generating good will in the community around UCS",
+        "ts": "1479855551.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "backing up our message of collaboration with action",
+        "ts": "1479855567.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i’m more familiar with MIT and Apache TBH and am not pushing back on CC by SA",
+        "ts": "1479855571.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "no worries",
+        "ts": "1479855582.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "it's a discussion :slightly_smiling_face:",
+        "ts": "1479855587.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "mostly brain-dumping it here so we have it for reference later",
+        "ts": "1479855597.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "no totally, your POV is strong and i don’t really knwo of a good reason to push back, just want to be a critical part of the process",
+        "ts": "1479855894.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "where in CC do you see that name travels with the code?  looks like disclose source isn’t mandated...",
+        "ts": "1479856405.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> wikidocs?",
+        "ts": "1479862625.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0ML49XU0>:\nAttribution.\nIf You Share the Licensed Material (including in modified form), You must:\nretain the following if it is supplied by the Licensor with the Licensed Material:\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);",
+        "ts": "1479881030.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02918BKW> makes a great point - if we intend to distribute this as part of a client project, then we need to ensure we don't pollute their IP in the process.",
+        "ts": "1479881911.000049"
+    }
+]

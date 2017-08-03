@@ -1,0 +1,333 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "whoa",
+        "ts": "1424279346.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> I'm going to set up to take a registrationId and deviceToken for the push stuff",
+        "ts": "1424279909.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "params named that way.",
+        "ts": "1424279918.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "k",
+        "ts": "1424279922.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "POST will go to \/registerdevice",
+        "ts": "1424279946.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "DELETE to same with deviceToken to unregister",
+        "ts": "1424279960.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(delete isn't fully implemented\/tested yet)",
+        "ts": "1424279992.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "what's the base url?",
+        "ts": "1424280040.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "btw, I got a registration id",
+        "ts": "1424280063.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i haven't decided yet because this is stuff thats gonna get moved",
+        "ts": "1424280063.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "installation ID: 75747d654301e0443d41596b90a9fc0c, registration ID: APA91bEt7o0dv8TmgjfVUu4lrg_XadXSiSrFNT5EHY4KmHHAvULSSM_BAJq1ETcuhaqExRT3TRkibZTZmWxqE29L2oQKP7sAUAoZnW8rCOrxhFVDfMzOFQrw_CFC8ozR0g4rrrvLtkTn1XS3XP5m3ziQniKygUtsl_8wPHf_J6MOdldww41nf2o",
+        "ts": "1424280064.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh cool",
+        "ts": "1424280074.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll spin this up in a few min and we can test",
+        "ts": "1424280086.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is the installationID the deviceToken?",
+        "ts": "1424280091.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or should I just use that as the identifier?",
+        "ts": "1424280100.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think we should use it as a deviceToken",
+        "ts": "1424280155.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but it's not 1:1",
+        "ts": "1424280159.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm.",
+        "ts": "1424280261.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that sounds risky",
+        "ts": "1424280265.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "idk if all samsung devices will have a deviceToken",
+        "ts": "1424280366.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "there have been cases where all devices of the same type have the same token",
+        "ts": "1424280378.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I'll see if there's anything else we can use",
+        "ts": "1424280436.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Good morning <!channel> ! Since Ewald and I are headed to the airport, let's do a virtual stand-up this morning. On my end: Heading to the airport. Constellation image creation is underway (by Skrillex's friend Sus Boy, above). We should have the first few on the 20th, all final files due on the 25th. Sent image CMS (initial response was good). Sent Overview Deck. Production meeting with the bigger team on Thursday.",
+        "ts": "1424280501.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/192.168.169.162:8080\/>",
+        "ts": "1424280579.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "support for josh - <@U02688JHZ> did we send the wallpaper CMS frames as well?",
+        "ts": "1424280721.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I'm working with evans to set up push notification registration",
+        "ts": "1424280771.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U02F9CXTL>: yes! those were sent at the end of last week. Adam had a few questions, mostly around wanting icons to be more like real emojis,  I'm letting him know that can't be done, and will pass along any feedback that needs to be responded to.",
+        "ts": "1424280844.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "wait - not sure what you mean by wallpaper CMS. That's what I was calling \"image CMS\" (the latest). Got an initial thumbs up and will await any formal feedback",
+        "ts": "1424280882.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Ahh - gotcha - wallpaper\/image CMS. Cool!",
+        "ts": "1424280941.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "yesterday — i finished the overview deck (with all the edits + added copy) and also made that wallpaper template for Skrillex's friend",
+        "ts": "1424280985.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "Hey! Just checked in with Evans, I'm going to move into figuring out the image upload for the image CMS. Styling is in a pretty good spot, there is more detail work to do.",
+        "ts": "1424281130.000033"
+    },
+    {
+        "user": "U026PHQ3J",
+        "topic": "Temporary GA tracker ID: UA-59890429-1",
+        "type": "message",
+        "subtype": "channel_topic",
+        "text": "<@U026PHQ3J|evans> set the channel topic: Temporary GA tracker ID: UA-59890429-1",
+        "ts": "1424283688.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "temporary GA tracker ID UA-59890429-1",
+        "ts": "1424283694.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":thumbsup:",
+        "ts": "1424285318.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> 192.168.169.162",
+        "ts": "1424286918.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Confirmed: we can send emoji in push notifications",
+        "ts": "1424290576.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> ^^^^",
+        "ts": "1424290583.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "sweet!",
+        "ts": "1424290612.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "cool! standard emojis as part of the message, right? assuming custom icons still need to be handled as icons, only displayed at the end of the message?",
+        "ts": "1424290663.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yes about standard emojis. Icons will be placed on the left where the image is or in the small icon location which would be on the lower right of the medium icon shown.",
+        "ts": "1424290713.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/getemoji.com>",
+        "attachments": [
+            {
+                "text": "Copy and Paste Emoji :thumbsup: No apps required. :smile::blush::wink::heart_eyes::kissing_heart::kissing_closed_eyes::stuck_out_tongue_winking_eye::stuck_out_tongue_closed_eyes::flushed::grin::persevere::cry::joy::sob::sleepy::disappointed_relieved::cold_sweat::weary:",
+                "fallback": "Copy and Paste Emoji :thumbsup: No apps required. :smile::blush::wink::heart_eyes::kissing_heart::kissing_closed_eyes::stuck_out_tongue_winking_eye::stuck_out_tongue_closed_eyes::flushed::grin::persevere::cry::joy::sob::sleepy::disappointed_relieved::cold_sweat::weary:",
+                "from_url": "http:\/\/getemoji.com",
+                "id": 1
+            }
+        ],
+        "ts": "1424290742.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(to copy\/paste emoji)",
+        "ts": "1424290747.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "note that android emoji look WAY different from iOS emoji",
+        "ts": "1424290757.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/emojipedia.org\/google-emoji-list\/>",
+        "attachments": [
+            {
+                "service_name": "Emojipedia 📙",
+                "title": "Emoji for 📱 Android and 💬 Hangouts — 👽 Google Emoji List",
+                "title_link": "http:\/\/emojipedia.org\/google-emoji-list\/",
+                "text": "This Google Emoji List contains all the Emoji seen on Android  4.4 KitKat and Google Hangouts. :white_check_mark: Android 4.4 KitKat :white_check_mark: Google Hangouts Android Emoji List Click the list to view the meanings of all Google Emoji. Related pages :mag: Browse Emoji Meanings :green_apple: Apple Emoji List :computer: Microsoft Emoji List :bird: Twitter Emoji List",
+                "fallback": "Emojipedia 📙: Emoji for 📱 Android and 💬 Hangouts — 👽 Google Emoji List",
+                "image_url": "http:\/\/emojipedia.org\/wp-content\/uploads\/2014\/06\/google-emoji.png",
+                "from_url": "http:\/\/emojipedia.org\/google-emoji-list\/",
+                "image_width": 98,
+                "image_height": 250,
+                "image_bytes": 1326010,
+                "id": 1
+            }
+        ],
+        "ts": "1424290797.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "?",
+        "ts": "1424290797.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "looks right to me",
+        "ts": "1424290842.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel>: I'm setting up a trello board to get us through the next few weeks. Can you all please send me your trello name? Without photos next to usernames, I'm always worried I'm going to invite some random person to our project. (off to add a photo for myself while I'm at it...)",
+        "ts": "1424295491.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "@davidewald",
+        "ts": "1424295532.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "phillipnguyen3",
+        "ts": "1424295536.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "joshuafingert",
+        "ts": "1424295720.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<mailto:jason.strand@uncorkedstudios.com|jason.strand@uncorkedstudios.com>",
+        "ts": "1424295982.000056"
+    }
+]

@@ -1,0 +1,123 @@
+[
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Solved the font issue in iOS 6…   thanks to these whopper of an answer:   <http:\/\/stackoverflow.com\/a\/19553827\/262012>",
+        "attachments": [
+            {
+                "title": "Custom installed font not displayed correctly in UILabel",
+                "title_link": "http:\/\/stackoverflow.com\/a\/19553827\/262012",
+                "text": "I'm trying to use a Helvetica Neue Condensed font which I got from the Adobe Font Collection Pro Package. Unfortunately, it seems to draw incorrectly when I use it within a UILabel. The line height",
+                "fallback": "Custom installed font not displayed correctly in UILabel",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/stackoverflow\/img\/apple-touch-icon@2.png?v=ea71a5211a91&a",
+                "from_url": "http:\/\/stackoverflow.com\/a\/19553827\/262012",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1430560501.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Nice",
+        "ts": "1430581471.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks, Apple",
+        "ts": "1430590483.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "kAudioFormatFlagsNativeFloatPacked",
+        "ts": "1430590483.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "11:14:19.729 WARNING:   246: Default audio device changed. Restart the simulator to have it use the newly-selected device.",
+        "ts": "1430590492.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0289USNA> i went through and made a bunch of (some minimal, some not so minimal) changes to get the warnings down to 50ish. Mostly updated the formats and the implicit casts but also the audio unit canonical type deprecations. I pushed to the branch “warningsfixups” cause I only have an 8 and 7 device here and can’t test on 6.",
+        "ts": "1430590855.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and I think 6 might be where some of it falls apart.",
+        "ts": "1430590872.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, i cleaned up the compiler flags and LD options a bit cause they were being noisy",
+        "ts": "1430590892.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Ok.. I'll test on my 6",
+        "ts": "1430590916.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks. you should see basically no change if everything is ok :simple_smile:",
+        "ts": "1430590928.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh and i committed a fix to the stickerModel branch this morning",
+        "ts": "1430590961.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to finish the changes i made to the assetwriter cleanup stuff",
+        "ts": "1430590973.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Got some showings with our house so we need to leave for a bit , but I'll check it out when I'm back this afternoon and let you know ",
+        "ts": "1430590977.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh cool! good luck!",
+        "ts": "1430590983.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I’ll be around except for haircut time (mowhawk, obvs)",
+        "ts": "1430590994.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026PHQ3J> - stickerModel branch on iOS 6 is currently functioning just fine - as is warningsfixups.  I see no problems with assetwriter or otherwise.",
+        "ts": "1430607378.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1430607387.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "movie wiht background audio and sound effects composites just fine.",
+        "ts": "1430607399.000004"
+    }
+]

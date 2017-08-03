@@ -1,0 +1,164 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hi team, im stuck at the insurance co right now so I'll be a little late (but should be in for stand-up!) ",
+        "ts": "1481648535.000046"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "let me know if you need anything in advance",
+        "ts": "1481648545.000047"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'm remote today. I'm working on <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-41> focusing on adding locales. Give me a shout if you have questions\/need anything or if you would like to do a google hangout.",
+        "ts": "1481649485.000048"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks John! are you still thinking you'll wrap this up this week?",
+        "ts": "1481649797.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool. I’ll have some work to do in the app when its ready",
+        "ts": "1481649828.000050"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'm hoping too, but I'm still pretty early on in development. I know that I have some google work coming up starting in the last week of december, so I'm hoping to get in front of that so there's not a conflict",
+        "ts": "1481649951.000051"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "this is for the installation in mtv",
+        "ts": "1481649965.000052"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah, Leia mentioned that! we really need to wrap this up before moving on to that project so let's keep in touch on this as the week goes on and figure out how we can support you!",
+        "ts": "1481650125.000053"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "heading upstairs now!",
+        "ts": "1481650259.000054"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "ok, sounds good.",
+        "ts": "1481650286.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2670DYLE> Goldmember CMS should stay independent",
+        "ts": "1481655201.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The workshop CMS houses the push tokens for ALL workshop wallpapers",
+        "ts": "1481655300.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the UI for pushing should be written within that framework",
+        "ts": "1481655310.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "each push token has a set of generators associated with it",
+        "ts": "1481655321.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(Artworks, Places, Photos, Trends or Earth)",
+        "ts": "1481655333.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So all that should be doable within the workshop CMS stack (which is currently JUST artworks)",
+        "ts": "1481655351.000071"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "ok, that makes a little more sense. So we shouldn't need to make updates to  3PR in addition to the workshop CMS.",
+        "ts": "1481655480.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right",
+        "ts": "1481655484.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "3PR server is an artifact",
+        "ts": "1481655498.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which will need to be migrated into the workshop stack at some point",
+        "ts": "1481655511.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but its not particularly pressing",
+        "ts": "1481655523.000076"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "phew, thanks for talking through this",
+        "ts": "1481655530.000077"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Awesome, thank you, and sorry for the point of confusion.",
+        "ts": "1481655566.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "np",
+        "ts": "1481655622.000079"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> What kind of string would be used for text recognition. Currently using 16 character randomized strings of digits, lower-, and upper-case",
+        "ts": "1481672805.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "probbaly some dashes and stuff. I think <@U13GPDA1F> can probably help craft the email to adam\/dan about what format the strings for the chips are",
+        "ts": "1481672834.000081"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay, dashes might help. On first glance, this seems very possible. What I'm currently working with has trouble recognizing randomized strings perfectly. I get the sense text recognition in vision API does better with recognized words.",
+        "ts": "1481673143.000082"
+    }
+]

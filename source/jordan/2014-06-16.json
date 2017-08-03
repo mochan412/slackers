@@ -1,0 +1,236 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X> Looks like hipchat API allows user creation and private room creation via REST calls:  <https:\/\/www.hipchat.com\/docs\/api\/method\/rooms\/create>",
+        "attachments": [
+            {
+                "text": "HipChat is hosted group chat and video chat built for teams. Supercharge real-time collaboration with persistent chat rooms, file sharing, and screen sharing.",
+                "fallback": "HipChat is hosted group chat and video chat built for teams. Supercharge real-time collaboration with persistent chat rooms, file sharing, and screen sharing.",
+                "from_url": "https:\/\/www.hipchat.com\/docs\/api\/method\/rooms\/create",
+                "id": 1
+            }
+        ],
+        "ts": "1402936233.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Could someone doublecheck pricing on this today so we can answer that part of the question as well? They don't have SQS service, but I haven't spent enough time looking into their RT options",
+        "ts": "1402936273.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "They do have this: <https:\/\/github.com\/nkohari\/node-hipchat>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "nkohari\/node-hipchat",
+                "title_link": "https:\/\/github.com\/nkohari\/node-hipchat",
+                "text": "node-hipchat - simple node.js library for communicating with hipchat's rest api",
+                "fallback": "GitHub: nkohari\/node-hipchat",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/1576?s=400",
+                "from_url": "https:\/\/github.com\/nkohari\/node-hipchat",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "id": 1
+            }
+        ],
+        "ts": "1402936313.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "But we'll have to look into their rate limiting stuff so far as RT comms goes. Or get in touch with them directly about it",
+        "ts": "1402936332.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026PHQ3J> right but IIRC it has the same limitation as slack where you can’t listen for private room messages.",
+        "ts": "1402936684.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "and as far as i can tell there also isn’t an out of the box endpoint for uploading files into messages like slack offers",
+        "ts": "1402936704.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X>: gotcha. So if I create a private room on hipchat, there's no resultant incoming notification? Is it all polling for private?",
+        "ts": "1402936768.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Not important. Seems like private messages are going to be our problem. Slack has no API based account creation tho, right? Is there any way we can double check that? (Sorry I'm in a cab and just been thinking about these)",
+        "ts": "1402936861.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i think you’re right about slack account creation. i looked for it on friday and didn’t see anything in the docs. i’ll double check this morning though.",
+        "ts": "1402937016.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "No user account creation via Slack API:",
+        "ts": "1402952056.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "“Sorry, user creation isn't part of our API yet. It's something we're considering for later on, and I'm happy to let the platform team know you're interested in it. Sorry it's not available right now.\"",
+        "ts": "1402952065.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "very apologetic though",
+        "ts": "1402952070.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thats nice of them",
+        "ts": "1402957838.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh yes",
+        "ts": "1402957864.000017"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402961696.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "NICE!",
+        "ts": "1402962530.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "nice",
+        "ts": "1402970179.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402970319.000023"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402970326.000024"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402970334.000025"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402970338.000026"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402971010.000029"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402971055.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "had to fix some spacing on the Feed",
+        "ts": "1402971068.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "k",
+        "ts": "1402971083.000032"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402972315.000033"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402972318.000034"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402972322.000035"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402973086.000036"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402973247.000037"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1402973293.000038"
+    }
+]

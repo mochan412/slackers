@@ -1,0 +1,252 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Good morning, can you please look into this <@U1ZG1UCAK>",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1501000431.000000"
+        },
+        "ts": "1501000426.710862"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-395>",
+        "ts": "1501000441.719340",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`keytool -list -alias androiddebugkey -keystore debug.keystore -storepass android -keypass android -v`",
+        "ts": "1501001530.353186"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F6DBF5ZDZ\/minime-multiple_moments_cases_test_build-07_25_17.apk|MiniMe-MULTIPLE_MOMENTS_CASES_TEST_BUILD-07_25_17.apk> and commented: <@U0U9WJB7F> Here is a build that you can use to test what it’s like to have multiple moments cases attached to your account. The response from the account server is hardcoded so I don’t recommend sharing this build with anyone outside of our team!",
+        "file": {
+            "id": "F6DBF5ZDZ",
+            "created": 1501002638,
+            "timestamp": 1501002638,
+            "name": "MiniMe-MULTIPLE_MOMENTS_CASES_TEST_BUILD-07_25_17.apk",
+            "title": "MiniMe-MULTIPLE_MOMENTS_CASES_TEST_BUILD-07_25_17.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24219843,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6DBF5ZDZ\/minime-multiple_moments_cases_test_build-07_25_17.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6DBF5ZDZ\/download\/minime-multiple_moments_cases_test_build-07_25_17.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F6DBF5ZDZ\/minime-multiple_moments_cases_test_build-07_25_17.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F6DBF5ZDZ-2ac78cfad5",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc6CT9LT25",
+                "created": 1501002638,
+                "timestamp": 1501002638,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "<@U0U9WJB7F> Here is a build that you can use to test what it’s like to have multiple moments cases attached to your account. The response from the account server is hardcoded so I don’t recommend sharing this build with anyone outside of our team!"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1501002639.009075"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i'll check it out, thank you!",
+        "ts": "1501002668.025080"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "It's working as expected, nice job! I'll start testing multiple Places cases now :slightly_smiling_face:",
+        "ts": "1501002985.210053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> can you branch a release branch of whatever is going to users",
+        "ts": "1501007506.961026"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "hmmm, interestingly, that moments wallpaper crash that bonnie got this morning seems to have happened because the local uri is listed as `workshop` not `workshop_dogfood`, but I can’t reproduce in Android Studio. It seems weird that the authority would be wrong on that build in that instance because she was able to set her wallpaper initially…",
+        "ts": "1501007537.979995"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Are we releasing any of these builds to users? I thought they were still in development so there shouldn’t be a reason to create a release branch just yet.",
+        "ts": "1501007664.057090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah i’m not sure, honestly",
+        "ts": "1501007698.076944"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "can i help here at all?",
+        "ts": "1501007719.089119"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "is there something you need me to clarify with Bonnie and Adrien?",
+        "ts": "1501007738.100190"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Maybe I will wait to create a release branch until we actually release something.",
+        "ts": "1501007753.108841"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "(removing standup tomorrow as both Summer and I have appointments in the morning)!",
+        "ts": "1501013385.246779"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> I will make a ticket for this, but B&amp;A would like us to add the ability to 'Give Feedback' in the Legacy experience as well.",
+        "ts": "1501016951.150385"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Any questions\/concerns?",
+        "ts": "1501016957.152885"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "no, I’ll copy over what’s done in 2017 experience. Should be pretty straightforward",
+        "ts": "1501016991.169567"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "awesome, thanks!",
+        "ts": "1501016998.172540"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> B&amp;A would also like the same notification experience for Legacy as we've implemented for 2017 so I'll assign you a ticket as well :slightly_smiling_face:",
+        "ts": "1501017147.244495"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Okie dokie!",
+        "ts": "1501017171.256193"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Do you know if Bonnie is clean installing when she is messing around with the test builds?",
+        "ts": "1501021013.881846"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I'd assume so?",
+        "ts": "1501026319.435241"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I can definitely ask though.",
+        "ts": "1501026323.436268"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> I think I resolved that issue you were experiencing with Places earlier today. Can you try out the following build and let me know if everything is working as expected for you?",
+        "ts": "1501026992.599498",
+        "reactions": [
+            {
+                "name": "tada",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F6DKDKCN6\/minime-2017_devices_test_build-7_25_17-v2.apk|MiniMe-2017_DEVICES_TEST_BUILD-7_25_17-v2.apk>",
+        "file": {
+            "id": "F6DKDKCN6",
+            "created": 1501027017,
+            "timestamp": 1501027017,
+            "name": "MiniMe-2017_DEVICES_TEST_BUILD-7_25_17-v2.apk",
+            "title": "MiniMe-2017_DEVICES_TEST_BUILD-7_25_17-v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24219266,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6DKDKCN6\/minime-2017_devices_test_build-7_25_17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6DKDKCN6\/download\/minime-2017_devices_test_build-7_25_17-v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F6DKDKCN6\/minime-2017_devices_test_build-7_25_17-v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F6DKDKCN6-4bf5ae5947",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1501027019.605603"
+    }
+]

@@ -1,0 +1,217 @@
+[
+    {
+        "user": "U0B9N0HF0",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0B9N0HF0|rob> has joined the channel",
+        "ts": "1450734187.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<@U02618EV1>: <@U0H4SJN11>",
+        "ts": "1450734213.000003"
+    },
+    {
+        "user": "U02618EV1",
+        "inviter": "U0B9N0HF0",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02618EV1|gaston> has joined the channel",
+        "ts": "1450734216.000004"
+    },
+    {
+        "user": "U0H4SJN11",
+        "inviter": "U0B9N0HF0",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0H4SJN11|miguel> has joined the channel",
+        "ts": "1450734216.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<@U0GN0A9EV>:",
+        "ts": "1450734219.000006"
+    },
+    {
+        "user": "U0GN0A9EV",
+        "inviter": "U0B9N0HF0",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0GN0A9EV|ivan> has joined the channel",
+        "ts": "1450734223.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<http:\/\/www.instructables.com\/id\/Arduino-is-Slow-and-how-to-fix-it\/>",
+        "attachments": [
+            {
+                "service_name": "Instructables.com",
+                "title": "Arduino is Slow - and how to fix it!",
+                "title_link": "http:\/\/www.instructables.com\/id\/Arduino-is-Slow-and-how-to-fix-it\/",
+                "text": "Arduino is slow? What? This instructable will show just how slow a part of Arduino is, and how to fix it.&amp;nbsp;It&amp;rsquo;s true &amp;ndash; more specifically, Arduino&amp;rsquo;s digitalWrite command takes a considerable amount of time. If you are just switching on a LED once or something, you won&amp;rsquo;t be able to notice it. However, I realized how slow it was while I was trying to use a TLC5947 PWM driver. That requires the microcontroller to shift in 288 bytes each time! Each byte required about 12 digitalWrites, for a total of 3456 digitalWrites each time I wanted to shift in new data to the TLC5947.&amp;nbsp;How long did that take? 30 seconds of just digitalWrite!&amp;nbsp;But there is a solution &amp;ndash; using &amp;ldquo;true c&amp;rdquo; style commands, or what the AVR GCC (GNU C Compiler) uses. The brains behind Arduinos are ATMega168s or ATMega328s. The AVR community typically uses &amp;ldquo;true c&amp;rdquo; commands to program ...",
+                "fallback": "Instructables.com: Arduino is Slow - and how to fix it!",
+                "image_url": "http:\/\/cdn.instructables.com\/F07\/2OOF\/G145RVES\/F072OOFG145RVES.MEDIUM.jpg",
+                "from_url": "http:\/\/www.instructables.com\/id\/Arduino-is-Slow-and-how-to-fix-it\/",
+                "image_width": 290,
+                "image_height": 250,
+                "image_bytes": 37638,
+                "id": 1
+            }
+        ],
+        "ts": "1450735388.000008"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0H4SJN11|miguel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/miguel\/F0H5BBPSA\/vid_20151221_172415.mp4|Dimming LEDs on Arduino!> and commented: The LED dimming works, but my phone's camera may have some issues. ",
+        "file": {
+            "id": "F0H5BBPSA",
+            "created": 1450747746,
+            "timestamp": 1450747746,
+            "name": "VID_20151221_172415.mp4",
+            "title": "Dimming LEDs on Arduino!",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U0H4SJN11",
+            "editable": false,
+            "size": 2188705,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0H5BBPSA\/vid_20151221_172415.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0H5BBPSA\/download\/vid_20151221_172415.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/miguel\/F0H5BBPSA\/vid_20151221_172415.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0H5BBPSA-cfe6527941",
+            "channels": [
+                "C08V1REB0"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0H58E6G3",
+                "created": 1450747746,
+                "timestamp": 1450747746,
+                "user": "U0H4SJN11",
+                "is_intro": true,
+                "comment": "The LED dimming works, but my phone's camera may have some issues. "
+            }
+        },
+        "user": "U0H4SJN11",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "miguel",
+        "bot_id": null,
+        "ts": "1450747746.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.digikey.com\/product-detail\/en\/E1042S.30.10\/E1042S-1000-ND\/307373>",
+        "attachments": [
+            {
+                "text": "Find General Cable\/Carol Brand E1042S.30.10 (E1042S-1000-ND) at DigiKey. Check stock and pricing, view product specifications, and order online.",
+                "fallback": "Find General Cable\/Carol Brand E1042S.30.10 (E1042S-1000-ND) at DigiKey. Check stock and pricing, view product specifications, and order online.",
+                "from_url": "http:\/\/www.digikey.com\/product-detail\/en\/E1042S.30.10\/E1042S-1000-ND\/307373",
+                "id": 1
+            }
+        ],
+        "ts": "1450750635.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.digikey.com\/product-detail\/en\/EPS-200%203%2F16%22BL48%22BX\/EPS2316-1R0-ND\/4517745>",
+        "attachments": [
+            {
+                "text": "Find 3M EPS-200 3\/16\"BL48\"BX (EPS2316-1R0-ND) at DigiKey. Check stock and pricing, view product specifications, and order online.",
+                "fallback": "Find 3M EPS-200 3\/16\"BL48\"BX (EPS2316-1R0-ND) at DigiKey. Check stock and pricing, view product specifications, and order online.",
+                "from_url": "http:\/\/www.digikey.com\/product-detail\/en\/EPS-200%203%2F16%22BL48%22BX\/EPS2316-1R0-ND\/4517745",
+                "id": 1
+            }
+        ],
+        "ts": "1450750889.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.digikey.com\/product-detail\/en\/TIP120\/TIP120-ND\/1052441>",
+        "attachments": [
+            {
+                "text": "Find Fairchild Semiconductor TIP120 (TIP120-ND) at DigiKey. Check stock and pricing, view product specifications, and order online.",
+                "fallback": "Find Fairchild Semiconductor TIP120 (TIP120-ND) at DigiKey. Check stock and pricing, view product specifications, and order online.",
+                "from_url": "http:\/\/www.digikey.com\/product-detail\/en\/TIP120\/TIP120-ND\/1052441",
+                "id": 1
+            }
+        ],
+        "ts": "1450750944.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.mcmaster.com\/#7360k65\/=10cch2h>",
+        "attachments": [
+            {
+                "title": "McMaster-Carr",
+                "title_link": "http:\/\/www.mcmaster.com\/#7360k65\/=10cch2h",
+                "text": "McMaster-Carr supplies products used to maintain manufacturing plants and large commercial facilities worldwide.",
+                "fallback": "McMaster-Carr",
+                "image_url": "http:\/\/images2.mcmaster.com\/mvA\/gfx\/mcm_logo_hires.png?ver=1449058048",
+                "from_url": "http:\/\/www.mcmaster.com\/#7360k65\/=10cch2h",
+                "image_width": 582,
+                "image_height": 250,
+                "image_bytes": 24479,
+                "id": 1
+            }
+        ],
+        "ts": "1450752002.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.mcmaster.com\/#69915k56\/=10ccilz>",
+        "attachments": [
+            {
+                "title": "McMaster-Carr",
+                "title_link": "http:\/\/www.mcmaster.com\/#69915k56\/=10ccilz",
+                "text": "McMaster-Carr supplies products used to maintain manufacturing plants and large commercial facilities worldwide.",
+                "fallback": "McMaster-Carr",
+                "image_url": "http:\/\/images2.mcmaster.com\/mvA\/gfx\/mcm_logo_hires.png?ver=1449058048",
+                "from_url": "http:\/\/www.mcmaster.com\/#69915k56\/=10ccilz",
+                "image_width": 582,
+                "image_height": 250,
+                "image_bytes": 24479,
+                "id": 1
+            }
+        ],
+        "ts": "1450752178.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.mcmaster.com\/#69915k54\/=10ccixq>",
+        "attachments": [
+            {
+                "title": "McMaster-Carr",
+                "title_link": "http:\/\/www.mcmaster.com\/#69915k54\/=10ccixq",
+                "text": "McMaster-Carr supplies products used to maintain manufacturing plants and large commercial facilities worldwide.",
+                "fallback": "McMaster-Carr",
+                "image_url": "http:\/\/images2.mcmaster.com\/mvA\/gfx\/mcm_logo_hires.png?ver=1449058048",
+                "from_url": "http:\/\/www.mcmaster.com\/#69915k54\/=10ccixq",
+                "image_width": 582,
+                "image_height": 250,
+                "image_bytes": 24479,
+                "id": 1
+            }
+        ],
+        "ts": "1450752223.000021"
+    }
+]

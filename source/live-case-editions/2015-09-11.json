@@ -1,0 +1,215 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> \"\t- If we keep all of the synced files between Drive and the app, that could get really unwieldy depending on how many images the user puts in their Drive folder.”",
+        "ts": "1441984643.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "is that an option to not keep them in sync?",
+        "ts": "1441984654.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or are you talking about ading to a local folder from multiple sources and then syncing in that scenario, rather than just pointing at the drive folder and your’e adding from drive",
+        "ts": "1441984676.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I was suggesting that we shouldn’t keep all of the drive files locally. If the user chooses to “expand with drive” we should delete most of the local images that aren’t being used at the time.",
+        "ts": "1441986742.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U06DFL7BP> ^",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1441986869.000000"
+        },
+        "ts": "1441986860.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "gotcha",
+        "ts": "1441986876.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I think i figured out whats going on",
+        "ts": "1441992083.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "with the tiles",
+        "ts": "1441992085.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically the maptilesubscriber that rehab wrote overly-agressively unsubscribes EVERYTHING when it goes out of scope",
+        "ts": "1441992107.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "am working to fix it presently.",
+        "ts": "1441992118.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So basically fixing a shitton of race conditions and scoping issues with contexts",
+        "ts": "1441992246.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok, here's the update:",
+        "ts": "1441994334.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "1) changed location helper to be a singleton",
+        "ts": "1441994341.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "2) added a Set of location listeners",
+        "ts": "1441994348.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "3) LocationHelper survives preview getting destroyed in a predictable way when the homescreen engine gets created out of order with destroy",
+        "ts": "1441994375.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "4) Changed map tile subscriber to remove only the listener that is being destroyed",
+        "ts": "1441994388.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "5) this seems to have fixed all the weird things where it was still getting location updates and requesting tiles, just never telling anyone",
+        "ts": "1441994411.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Am testing further, but this is very likely the end of the issue.",
+        "ts": "1441994428.000022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Awesome!",
+        "ts": "1441994569.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "last issue seems to be a GL threading issue. Solvable when reproduced...",
+        "ts": "1441996483.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: the artist id on some skrillex cases can be null, right?",
+        "ts": "1442006571.000025"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/i.imgur.com\/WM80cZ2.gif>",
+        "attachments": [
+            {
+                "fallback": "300x169px image",
+                "image_url": "http:\/\/i.imgur.com\/WM80cZ2.gif",
+                "image_width": 300,
+                "image_height": 169,
+                "image_bytes": 935336,
+                "from_url": "http:\/\/i.imgur.com\/WM80cZ2.gif",
+                "id": 1
+            }
+        ],
+        "ts": "1442006572.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes",
+        "ts": "1442006580.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its not guaranteed to exist",
+        "ts": "1442006586.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok, thanks, I’m going to update some logic in the NfcHandler",
+        "ts": "1442006807.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup:",
+        "ts": "1442006814.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "seems like the flashlight stuff isn’t working on the nexus 6 either :disappointed:",
+        "ts": "1442007761.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what happened?!",
+        "ts": "1442007969.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":disappointed:",
+        "ts": "1442007976.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":flashlight:",
+        "ts": "1442007984.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "no se",
+        "ts": "1442008172.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "false alarm. it’s just not working on one of the nexus 6s.",
+        "ts": "1442009069.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Bike zooming is nice",
+        "ts": "1442021854.000038"
+    }
+]

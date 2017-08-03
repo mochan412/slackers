@@ -1,0 +1,536 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Places update went live! All looks good on my end :tada: Shout out to Oliver for all his work on this one + for his first live case feature release! \n:tada: ",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1490801093.000000"
+        },
+        "ts": "1490800954.331167",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U2H61EJSG",
+                    "U13GPDA1F",
+                    "U026PHQ3J",
+                    "U0260V1BX"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I'm going to be in around 10 am (was up sick and need a little extra time to recover) but reach out if you need something before then!  ",
+        "ts": "1490801064.366255"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "thanks <@U13GPDA1F>, yay new Places. Feel better. \nI will be WFH and Les Schwab today because someone thought it would be cool to slash a bunch of people’s tires yesterday under the Morrison bridge :confused:",
+        "thread_ts": "1490802827.933964",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1490806329.974325"
+            },
+            {
+                "user": "U3ZFEAPSP",
+                "ts": "1490806568.044609"
+            },
+            {
+                "user": "U13GPDA1F",
+                "ts": "1490806847.127990"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1490802827.933964",
+        "reactions": [
+            {
+                "name": "scream",
+                "users": [
+                    "U2H61EJSG",
+                    "U0260V1BX",
+                    "U13GPDA1F"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Oh no! That's​ terrible!",
+        "ts": "1490802900.956972"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I mean, I suppose they were considerate enough to just do one tire on everyone…",
+        "ts": "1490803124.029293"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh noooooo wtf?! im so sorry that sucks",
+        "ts": "1490805372.700551"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oliver: can you prioritizes on looking at those artworks crashes this am (Adam sent another this am you prob saw) and then shift back to auth after that? curious if we get anything we can work with from that latest 6p crash ",
+        "thread_ts": "1490802827.933964",
+        "parent_user_id": "U3ZFEAPSP",
+        "ts": "1490806329.974325"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Sure, looking at the most recent one from this morning I have no idea, but I will keep on trying things on Collections to see if I can find anything amiss",
+        "thread_ts": "1490802827.933964",
+        "parent_user_id": "U3ZFEAPSP",
+        "ts": "1490806568.044609"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oliver: cool, yeah it sounded like we'd (of course) benefit from more info but fingers crossed there's a clue in there. let's plan on check in a little later and we can make a call to shift gears if we're getting no where. but ideally, even without a fix we can get them a little more info\/context for the crash. ",
+        "thread_ts": "1490802827.933964",
+        "parent_user_id": "U3ZFEAPSP",
+        "ts": "1490806847.127990"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> we got another native crash (this one is on pixel) - <@U2H61EJSG> also, could y’all spin thru all the collections and see what happens? something’s fishy",
+        "ts": "1490811431.457962"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U026PHQ3J>, are you meaning the one from the ‘this app keeps stopping’ report? Or was there another?",
+        "ts": "1490811486.474074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one just came in, will forward.",
+        "ts": "1490811498.477422"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its also a skia crash, so there’s no good info in it",
+        "ts": "1490811506.479576"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "oh man, yikes.",
+        "ts": "1490811510.480889"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there must be an issue in a collection. its all i can think of that would see this happen so regularly",
+        "ts": "1490811548.491600"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "unless its a crop tool update thing, but i feel like that would be less frequent",
+        "ts": "1490811559.494806"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’ve been putting scenarios together to stress the transition &amp; setting of the collections images, haven’t been able to reproduce it still.",
+        "ts": "1490811610.509068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just asked bonnie for a list of which assets are for sale",
+        "ts": "1490811752.551009"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks evans",
+        "ts": "1490811758.552521"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay <@U3ZFEAPSP> looped you into the thread + dan provided the IDs. im assuming you dont have chips to program at home - maybe this is something summer can help you with when she’s done with her meeting",
+        "ts": "1490813026.927734"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Should theoretically work with nfcchip",
+        "ts": "1490813047.933568"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay cool - then oliver, just let us know if we can help+ how best to",
+        "ts": "1490813071.940538"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F4SA19ATH\/artworks____case__ids_currently_active.txt|Artworks \/\/ Case +IDs currently active> and commented: source for troubleshooting reported artworks crashes",
+        "file": {
+            "id": "F4SA19ATH",
+            "created": 1490813150,
+            "timestamp": 1490813150,
+            "name": "Artworks____Case__IDs_currently_active.txt",
+            "title": "Artworks \/\/ Case +IDs currently active",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U13GPDA1F",
+            "editable": true,
+            "size": 4078,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4SA19ATH\/artworks____case__ids_currently_active.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4SA19ATH\/download\/artworks____case__ids_currently_active.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4SA19ATH\/artworks____case__ids_currently_active.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4SA19ATH-3d8031bf2f",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4SA19ATH\/artworks____case__ids_currently_active.txt\/edit",
+            "preview": "{   'Chris Hadfield': [   'zPHdQlJUJL5x52iv',\r\n                          'dM_8sYY9Twm3pV8G',\r\n                          'iX6d7vrL3yuGd1VG',\r\n                          'S-WrpMev6ise6PiQ',\r\n                          'kSifneYt3FTJI94x',\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>{   'Chris Hadfield': [   'zPHdQlJUJL5x52iv',<\/pre><\/div>\n<div><pre>                          'dM_8sYY9Twm3pV8G',<\/pre><\/div>\n<div><pre>                          'iX6d7vrL3yuGd1VG',<\/pre><\/div>\n<div><pre>                          'S-WrpMev6ise6PiQ',<\/pre><\/div>\n<div><pre>                          'kSifneYt3FTJI94x',<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 88,
+            "lines_more": 83,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4RK25EV8",
+                "created": 1490813150,
+                "timestamp": 1490813150,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "source for troubleshooting reported artworks crashes"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1490813151.963764"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ll take a look now",
+        "ts": "1490813643.105802"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I have a chip here, I’ll start working through the ids as well.",
+        "ts": "1490813787.147558"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ll start from the bottom if you want to start from the top <@U3ZFEAPSP>",
+        "ts": "1490813842.163567",
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sounds good",
+        "ts": "1490814060.229218"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Alright. I got it to crash twice, both on the Hadfield collection but for different ids, but all other times those ids have worked. The crash is not exactly the same as we have seen from the reports, but it does occur when setting the wallpaper.\nI haven’t been able to get it on any of the other collections yet, right now I have been trying to isolate what is doing it to reproduce more consistently. I haven’t been able to narrow down how to make it happen, but my gut is telling me it is a timing issue instead of data corruption, I’ll email out to just the Uncorked team the crash reports",
+        "ts": "1490822015.346532"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F>, as for messaging to the google side, give me a chance to re-run through setting each image individually on Hadfield to double check data validity and to get Summer’s results and if Evans sees anything clear in the crash reports I’ll post.",
+        "ts": "1490822307.413477",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I haven’t experienced any issues yet. Is there anything specific that you did to create those crashes in Hadfield?",
+        "ts": "1490822411.437438"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1: thank you for the update",
+        "ts": "1490822421.439955"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "a race condition “on set” isn’t out of the question. Note that the “onDestroy” of the preview engine and the “onCreate” of the system engine don’t always happen in a predictable order",
+        "ts": "1490822459.448928"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "-or-",
+        "ts": "1490822519.462584"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they do now and the stuff that used to try to sidestep that condition is now the problem",
+        "ts": "1490822530.465058"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U026PHQ3J>, that’s where I’m leaning, it would cover the diversity of crashes we are getting and failing at different points in the process. Unfortunately, not an easy spot to point of failure to patch. Let me know what you think after seeing the crash logs too. I’m trying to rule out the other possibilities\/make it more consistently reproducible before going down the, let’s synchronize the wallpaper service as our suggested fix",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1490823265.000000"
+        },
+        "ts": "1490823240.628589"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "both of those crashes seem to be happening in the blurred image caching path",
+        "ts": "1490823694.727118"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ooooh!",
+        "ts": "1490823724.733626"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(long story, but we have to always preload blurred frames “just in case” given that no one wanted to tolerate a black screen when you turn it on even if you had it off before)",
+        "ts": "1490823732.735209"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its the nature of GL Contexts",
+        "ts": "1490823738.736706"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but that suggests to me that there’s a hiding OOM in here",
+        "ts": "1490823749.739096"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which means that either the base image is setting off an OOM or that the blurred image is",
+        "ts": "1490823805.751088"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "that helps explain that. I noticed all Collections went through that path.",
+        "ts": "1490823813.752849"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "-or-",
+        "ts": "1490823891.769762"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the blurrer is broken",
+        "ts": "1490823901.771709"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which seems unlikley",
+        "ts": "1490823909.773300"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm actually",
+        "ts": "1490823945.781227"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no, i thought maybe it was definitely an off-screen issue",
+        "ts": "1490823994.791136"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but its not",
+        "ts": "1490823995.791380"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "will the OOM be so silent though? I don’t see any memory churn logs picking up.",
+        "ts": "1490824041.800900"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "none of this explains skia crash tho",
+        "ts": "1490824066.806214"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this might:",
+        "ts": "1490824070.807191"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Bitmap scaledBitmap = Bitmap.createScaledBitmap(\n                                tempBitmap, scaledWidth, scaledHeight, true);",
+        "ts": "1490824071.807260"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but it also seems unlikely.",
+        "ts": "1490824080.809158"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this all ultimately seems to point back at",
+        "ts": "1490824217.836197"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "mHasBitmap = (bitmapRegionLoader != null);",
+        "ts": "1490824218.836377"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but",
+        "ts": "1490824245.842367"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats tricky because by the time it gets to that code, if the bitmapRegionLoader were null, it would have blown up",
+        "ts": "1490824272.847816"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "however, oddly",
+        "ts": "1490824320.857736"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`                regionLoaderHeight = bitmapRegionLoader.getHeight() - 1;`",
+        "ts": "1490824322.858175"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "would theoretically result in a 0 or negative height regionLoaderHeight",
+        "ts": "1490824333.860337"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sorry for the long response (have been back and forth with insurance, apparently I have to buy a whole set of tires for awd but insurance will only pay for one :confused: ). I just finished running through setting each of the photos in the Hadfield collection, no issue it worked. Tried backgrounding the app n’ such while doing it and it remained stable. So I’m feeling more confident on it not being a corrupted data issue.",
+        "ts": "1490827989.512699"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oof on the tire front :confused:",
+        "ts": "1490828395.576105"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Thanks.\nFor a response to give Google, the best I have is: We have been able to reproduce similar crashing behavior but not the exact issues. That issue doesn’t seem to be with the data itself, but rare, yet unresolved, behavior when the wallpaper is set.",
+        "ts": "1490828807.640178"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks oliver - ill shoot something over to them to let them know where we are!",
+        "thread_ts": "1490829381.720524",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U3ZFEAPSP",
+                "ts": "1490829701.764287"
+            },
+            {
+                "user": "U13GPDA1F",
+                "ts": "1490829976.801132"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1490829381.720524"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’m going to walk back to the tire place, but then will look through the GL rendering paths some more while it is fresh in mind. I think I will pick back up the account verification tomorrow and get something to send Andrei's way when my head isn't so scrambled",
+        "thread_ts": "1490829381.720524",
+        "parent_user_id": "U13GPDA1F",
+        "ts": "1490829701.764287"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "makes total sense - appreciate that! lets plan to connect on accounts tomorrow when you’re back!",
+        "thread_ts": "1490829381.720524",
+        "parent_user_id": "U13GPDA1F",
+        "ts": "1490829976.801132"
+    }
+]

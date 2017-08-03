@@ -1,0 +1,80 @@
+[
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "you aren't getting a background because in viewWillAppear you are alloc-initing a new NSClipView (default white BG) and assigning that new view to be the content view of the scroll view.",
+        "ts": "1419019847.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Also, I think you are using NSScrollView wrong...  I'll play with it some today and report back what I find",
+        "ts": "1419020053.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "I've shared the images that OMSI has selected with <@U026E0ZNR> . I've also created a document with their license usage needs. Looks like all of them require attribution.",
+        "ts": "1419024014.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "I'll share that document with the project team.",
+        "ts": "1419024021.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026E0ZNR> - come find me before you leave today",
+        "ts": "1419031112.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U0289USNA> that makes total sense. thanks for looking into it!",
+        "ts": "1419033524.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<@U0289USNA> Trent just gave us the update on the slideshow pagination. Let's chat about what design needs you may have next week for a temporary solution.",
+        "ts": "1419035848.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "also let us know if you want to walk through updates before we head out for the weekend",
+        "ts": "1419036176.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "we're hanging out in the display room now working on Ecotrust",
+        "ts": "1419036192.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026PT0D7>: I just pushed to develop a working\/scrolling slideshow with snapping to 'pages'.  (no little circle pagination control yet though)",
+        "ts": "1419036964.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "with a correct background as well of course.",
+        "ts": "1419036993.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": ":thumbsup:",
+        "ts": "1419037064.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Ok, I think my stuff is in a good spot for you all to work with while I'm gone. <@U0289USNA> I tagged you with the location of email design specs in Trello. In case any of you need to my access design docs: \n\nNAS &gt; clients &gt; OMSI &gt; Current Science &gt; Design &gt; (anything labeled with an orange dot)",
+        "ts": "1419040463.000014"
+    }
+]

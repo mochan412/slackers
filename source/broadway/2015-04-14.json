@@ -1,0 +1,38 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "hi team, I've been spewing a bit in the #app-dev channel on the other slack, but I wanted to update here too... I've got one more screen to build for this afternoon (the placeholder gallery listview) so I'm working on that, but I found a problem where the WebView no longer renders",
+        "ts": "1429046068.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I stepped through commits to find out when that situation started, and it was after adding the and font and applying styles\/colors",
+        "ts": "1429046108.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Not sure why that breaks the crosswalk webview, and there are no error messages pointing in the right direction, so I'll just raise that as an issue in today's release notes and we can assign time to debug it as necessary",
+        "ts": "1429046134.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Posted the build, with a fix for the webview rendering issue",
+        "ts": "1429054688.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Weirdly, a couple of lines where I changed the background of the share menu to white caused that issue... at least I know where it is, and it's a pretty minor visual thing, so hopefully I can find a workaround later",
+        "ts": "1429054814.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "For now, I commented out that style so the webview loads",
+        "ts": "1429054827.000007"
+    }
+]

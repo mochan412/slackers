@@ -1,0 +1,134 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0289USNA>: question relating to the email we just got about image quality - is imagemagick doing any resizing or quality changes before it gets to the mobile app?",
+        "ts": "1429635918.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "right now, in this new “simple crop” scenario it is not doing any resizing of any kind (that’s the reasons why the images are smaller than they were when we were debarrelling)",
+        "ts": "1429636342.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it simply goes to a defined x,y coordinate in the source image and then crops out a defined width, height.   those pixels are copied 1:1 into the final output image.  No scaling\/resizing.",
+        "ts": "1429636394.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the intermidiate crop step is a jpeg, so we are jpegging a jpeg, but imagemagick’s default quality should be 100 (no compression).  the final image is then a composite jpeg of the many jpegs, so again it is recompressed, and this final step I do have the quality setting on that specifically set to 95 because in my long experience, your eye cant see the difference between 100 and 95, but it makes a respectable dent in file size for the final image.",
+        "ts": "1429636574.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its not the compression in the NUC at all",
+        "ts": "1429636599.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it looks like a resample in app for the cache",
+        "ts": "1429636612.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i think server-wise its fine",
+        "ts": "1429636624.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "not sure what we are discussing, but yes, server side I am not doing anything that would degrade the image.",
+        "ts": "1429636639.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "in the debarrel version of the scenario, we are legitimately manipulating and distorting pixels so there is going to be some quality loss.",
+        "ts": "1429636688.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "but the gain in “real perspective” should negate any loss in quality in the debarrel (in my opinion).",
+        "ts": "1429636733.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "But I get the sense that is not what you are having a problem with.",
+        "ts": "1429636750.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks scott, we're on it",
+        "ts": "1429637279.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "is there any sense in having ImageMagick make an image file output that is perfectly sized for the Android app's display region?",
+        "ts": "1429637379.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "doesn’t matter.",
+        "ts": "1429637536.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "cool",
+        "ts": "1429637929.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah I don't really have anything to add. it was a free side effect thing",
+        "ts": "1429639731.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "if you want me to chime in to reiterate I can, but don't really have much new to add",
+        "ts": "1429639758.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yea just chime in and reiterate to button it up",
+        "ts": "1429639783.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "coo",
+        "ts": "1429639791.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0261PCRQ> <@U026PHQ3J> glaze code walkthrough in the mountain room!",
+        "ts": "1429649556.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0289USNA> ^",
+        "ts": "1429649560.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "would love to have everyone here a few minutes early to set up as it's a google hangout and will need kat and scott to share screens",
+        "ts": "1429649803.000023"
+    }
+]

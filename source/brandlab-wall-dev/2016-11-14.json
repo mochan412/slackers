@@ -1,0 +1,86 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> heads up I think Joel is going to ask that the Showtime call be re-scheduled.  <@U02E3CRMA> to advise",
+        "ts": "1479152093.000156"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and yo <@U0EL0GLEL> let’s catch up on my chat with Kyle on Friday.",
+        "ts": "1479152105.000157"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure whenever you are ready",
+        "ts": "1479152116.000158"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Me and John both got showtime working on our systems, you can access the admin fine, and I was able to run the agent which should connect my local to the admin, but the exhibit didnt show up in the admin like the tutorial said it should. so not clear what we are doing wrong there. but otherwise the demos ive tried work. basic messaging worked fine",
+        "ts": "1479152201.000159"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "pretty sweet, i defined a new exhibit in an agent file, setup the basic configs and ran the agent thingy, and they showed up in the admin as expected.  settings page filled out correctly with all the defaults i gave it. damn that was easy",
+        "ts": "1479164395.000160"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "planting the seed: our friends at ZGF have a Goolge Tilt Brush.  If we wanted to\/needed to use this for any future installation work, we may be able to ask to ‘borrow’ some time on it.",
+        "ts": "1479164707.000161"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oooh neat",
+        "ts": "1479164876.000162"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "a google tilt brush?",
+        "ts": "1479166996.000163"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "oh i had no idea that tilt brush was a google project",
+        "ts": "1479167011.000164"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "neato",
+        "ts": "1479167019.000165"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "aint it tho?",
+        "ts": "1479167040.000166"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Im reviewing how showtime would relate to how we would do what we did for the admin. it falls appart in a lot of ways. The massive over simplifying they would want to do with how the admin worked from a simply data input form that is run off a schema is pretty far from what ours does. We have lots of prefetch going on around the youtube videos, validation of the data from there so that it doesnt have to be done on the display side. As well as extra meta data stored for the questions asked around how to word them on the top sweep and cubby etc… As well i dont see anything about how they simply validate a fields input. And If I am following along it would store a more strict list of data, im not clear if we can save more data to info stored for the show or not as it is. I stored quite a bit of extra data and pre processing of the data input. What im saying is if it was iframed, would we be able to store all the data we needed, or would it be simply looking for a field of data to come back. I think we will need to inform them around this as we progress. Would like to see things do the reusability and such that they are aiming for. but expose the route for the custom data for these cases where utter flex is needed",
+        "ts": "1479167712.000167"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but the setup they have provided here for getting things defined is great. super easy and far better than IS",
+        "ts": "1479167788.000168"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Also you loose all that nice formatting of the admin experience, it becomes a unformatted form fields. no grouping or nice formatting, i think they could fix that by exposing another key in their field definition allowing fields to be grouped optionally",
+        "ts": "1479168142.000169"
+    }
+]

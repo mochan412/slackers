@@ -1,0 +1,111 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "dudes, dudettes: got the chinese megas working.",
+        "ts": "1453935079.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it was a three step process: install the usb drivers for the CH340G chip, disable kext signing, softlinking an alias to the screwy device name that contains a space",
+        "ts": "1453935123.000003"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8LF2X|chewbacca> uploaded a file: <https:\/\/uncorked.slack.com\/files\/chewbacca\/F0KJGUQ6B\/ch341ser_mac.zip|ch341ser_mac.zip> and commented: these are the drivers I used for step 1",
+        "file": {
+            "id": "F0KJGUQ6B",
+            "created": 1453935156,
+            "timestamp": 1453935156,
+            "name": "ch341ser_mac.zip",
+            "title": "ch341ser_mac.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U02F8LF2X",
+            "editable": false,
+            "size": 296387,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0KJGUQ6B\/ch341ser_mac.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0KJGUQ6B\/download\/ch341ser_mac.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/chewbacca\/F0KJGUQ6B\/ch341ser_mac.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0KJGUQ6B-6a548bed7d",
+            "channels": [
+                "C08V1REB0"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0KJGUQ9M",
+                "created": 1453935156,
+                "timestamp": 1453935156,
+                "user": "U02F8LF2X",
+                "is_intro": true,
+                "comment": "these are the drivers I used for step 1"
+            },
+            "num_stars": 1
+        },
+        "user": "U02F8LF2X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "chewbacca",
+        "bot_id": null,
+        "ts": "1453935157.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "step 2 will vary depending on osx version. I followed these instructions for 10.10: <http:\/\/apple.stackexchange.com\/questions\/163059\/how-can-i-disable-kext-signing-in-mac-os-x-10-10-yosemite>",
+        "attachments": [
+            {
+                "title": "How can I disable kext signing in Mac OS X 10.10 Yosemite?",
+                "title_link": "http:\/\/apple.stackexchange.com\/questions\/163059\/how-can-i-disable-kext-signing-in-mac-os-x-10-10-yosemite",
+                "text": "I know the disadvantages of disabling kext signing, but I was wondering how I can actually disable this on Mac OS X 10.10 \"Yosemite\"?",
+                "fallback": "How can I disable kext signing in Mac OS X 10.10 Yosemite?",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/apple\/img\/apple-touch-icon@2.png?v=b514451ec60c&a",
+                "from_url": "http:\/\/apple.stackexchange.com\/questions\/163059\/how-can-i-disable-kext-signing-in-mac-os-x-10-10-yosemite",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1453935180.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "step 3 I'll leave as an exercise for the user",
+        "ts": "1453935190.000007",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U0K8ZSHN0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U026103R3",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U026103R3|abby> has left the channel",
+        "ts": "1453935212.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I scared off abby",
+        "ts": "1453936350.000009"
+    }
+]

@@ -1,0 +1,124 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i’m outta here. Slack, text, or call if you need anything! <tel:415-813-0718|415-813-0718>",
+        "ts": "1437093358.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Is this a thing?",
+        "ts": "1437095498.000003"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02618EV1|gaston> uploaded a file: <https:\/\/uncorked.slack.com\/files\/gaston\/F07PRHUCR\/pasted_image_at_2015_07_16_18_11.png|Pasted image at 2015-07-16, 18:11>",
+        "file": {
+            "id": "F07PRHUCR",
+            "created": 1437095500,
+            "timestamp": 1437095500,
+            "name": "Pasted image at 2015_07_16 18_11.png",
+            "title": "Pasted image at 2015-07-16, 18:11",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02618EV1",
+            "editable": false,
+            "size": 49330,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07PRHUCR\/pasted_image_at_2015_07_16_18_11.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07PRHUCR\/download\/pasted_image_at_2015_07_16_18_11.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07PRHUCR-cd394cff9e\/pasted_image_at_2015_07_16_18_11_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07PRHUCR-cd394cff9e\/pasted_image_at_2015_07_16_18_11_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07PRHUCR-cd394cff9e\/pasted_image_at_2015_07_16_18_11_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 128,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07PRHUCR-cd394cff9e\/pasted_image_at_2015_07_16_18_11_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 170,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07PRHUCR-cd394cff9e\/pasted_image_at_2015_07_16_18_11_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07PRHUCR-cd394cff9e\/pasted_image_at_2015_07_16_18_11_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 255,
+            "image_exif_rotation": 1,
+            "original_w": 936,
+            "original_h": 332,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/gaston\/F07PRHUCR\/pasted_image_at_2015_07_16_18_11.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F07PRHUCR-016c0f45b7",
+            "channels": [
+                "C055NDRG1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02618EV1",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "gaston",
+        "bot_id": null,
+        "ts": "1437095503.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Don’t know how many but there’re multiple phone # formats across countries.",
+        "ts": "1437095572.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "looks like we have 3 options:",
+        "ts": "1437104317.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "'US_telephone'        : new RegExp(\/^\\+?(\\(?\\d\\)?[- .]?){10}$\/),\n    'CA_telephone'        : new RegExp(\/^\\+?(\\(?\\d\\)?[- .]?){10}$\/),\n    'other_telephone'     : new RegExp(\/^\\+?(\\(?\\d\\)?[- .]?){6,13}$\/),",
+        "ts": "1437104317.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "10-digit for US and Canada, 6-13 digits for all other countries",
+        "ts": "1437104337.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Ok",
+        "ts": "1437105891.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "for the record, there are more console.log statements in both angular.js and porthole.js. but I took most of ours out anyway.",
+        "ts": "1437109623.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Cool beans ",
+        "ts": "1437110652.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "minor request, but having an “In Review” option for some issues would be really handy since some fixes will require deploying to servers and checking final behavior.",
+        "ts": "1437110928.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "is it possible to add an optional step in the workflow so we can put some in review?",
+        "ts": "1437110958.000005"
+    }
+]

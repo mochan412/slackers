@@ -1,0 +1,146 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Is it all up and running?",
+        "ts": "1458311672.000113"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Yup. <@U0EL0GLEL> is ultimate judge though.",
+        "ts": "1458319363.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "nice <@U0EL0GLEL> looked like he was able to use today.  hows it going @peter?",
+        "ts": "1458319561.000115"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks great, initial tests show only used about 6gig of ram max on basic load of a ton of videos. maxed out the cpu a bit doing that basic animation but wasnt bad when the size was smaller, looked sluggish on 8k. Optimization would be needed as Gaston was mentioning, looks pretty optimistic tho",
+        "ts": "1458319755.000116"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "network is the major bottle neck ive seen so far",
+        "ts": "1458319767.000117"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Crazy idea here: Couldn’t we just download a few hundred videos in advance and use a custom player instead of using live Google videos?",
+        "ts": "1458319922.000118"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I imagine all that buffering plus the Google video player itself may be causing some of the perf issues.",
+        "ts": "1458319969.000119"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "interesting!",
+        "ts": "1458320366.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "possibly, does add complexity tho. timing the download of the videos, getting them all downloaded before we go live with it, removing them when done. filling up the hard possibly. It also means that the prep for the workshop has to be done with enough time in advance to allow for those downloads. But if they were local they sure would load up and play faster",
+        "ts": "1458320525.000121"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i was able to get about 80-90 to load before it crapped out tho, so if we think that is enough for what we want we are probably fine with streaming",
+        "ts": "1458320558.000122"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the entire levis channel at 41 popped up pretty quickly and played without issue",
+        "ts": "1458320585.000123"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "even with code running to slide the videos back and forth the 41 played fine. that performance of the slide seen degredation as i increased my video size, but thats probably due to how its being done more than anything.",
+        "ts": "1458320674.000124"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "stretching the videos to 8k width worked fine just they are stretched to hell as expected",
+        "ts": "1458320697.000125"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: im doing some trello prep for our planning meeting, please know that 1) i’m adjusting titles to ‘outdated’ for things i no longer think are relevant and ‘DISCUSS’ if i feel there have a place for today.  all cards we create today should start with ‘3.25 prototype'",
+        "ts": "1458333523.000126"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and im starting with some in the backlog",
+        "ts": "1458333529.000127"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> running 2 min late!",
+        "ts": "1458336645.000128"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "wrapping a management sesh, will be with you in ~5 mins",
+        "ts": "1458336707.000129"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "heading out now...",
+        "ts": "1458337052.000130"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Before I forget: the AWS instance running our current wall code is hosted on Uncorked’s Amazon account. Gaston has the creds in the servers spreadsheet if you need it for some reason.",
+        "ts": "1458361260.000131"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "It’s running the current dev branch code. I cloned with my Bitbucket account, but a ‘pull’ to get updates shouldn’t require a PW.",
+        "ts": "1458361306.000132"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Ok thank you Joel. ",
+        "ts": "1458361461.000133"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "And thank you for the last all clear on TDD",
+        "ts": "1458361473.000134"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":thumbsup:",
+        "ts": "1458362724.000135"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Happy vacation ",
+        "ts": "1458363124.000136"
+    }
+]

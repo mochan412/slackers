@@ -1,0 +1,32 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm going to work on some jira issues now, starting with the animations. I'm not sure if there's much more we can do about GIFs (since we're already simply loading a gif in a webview), so I am going to try extracting all the frames and make an AnimationDrawable to see if that improves the look.",
+        "ts": "1433959064.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Cool, just saw the JIRA comment you made on that one. Sounds like a good plan.",
+        "ts": "1433959166.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "today's build has been distributed on fabric... I'll announce it on the other slack too.",
+        "ts": "1433972854.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Release notes:\nClear cache on XWalkView before loading\nRenamed app title to Gather\nGather splash animation converted to AnimationDrawable\nProduct Tour link on About screen\nMore animation delay in gallery cards 2-3\nShow an alert when disconnected from network instead of entering app\nLock the navigation drawer from being swiped open",
+        "ts": "1433972876.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks so much marissa",
+        "ts": "1433972908.000006"
+    }
+]

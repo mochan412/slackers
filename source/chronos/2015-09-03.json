@@ -1,0 +1,495 @@
+[
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "hey all! is anything ready enough for me to take a look at before the work session today?",
+        "ts": "1441304599.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "login screen should be polished enough. not sure what we're doing about deployment today, if anything",
+        "ts": "1441304786.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "sounds good",
+        "ts": "1441304861.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll put it up on the server now...",
+        "ts": "1441305188.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "keep in mind login form is currently commented-out in git",
+        "ts": "1441305208.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yep, will fix",
+        "ts": "1441305232.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Oh, sorry about that. Keep forgetting to uncomment before I push.",
+        "ts": "1441305343.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "s'ok",
+        "ts": "1441305359.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m going to move it to a config var anyway on the next push",
+        "ts": "1441305377.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "or it could check for existence of a cookie (what will become the session cookie?)",
+        "ts": "1441305403.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes, that’s the way it’s working with client-side auth",
+        "ts": "1441305421.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "but for UI development, I was going to throw a variable in there to keep us sane",
+        "ts": "1441305435.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i just tend to comment out the js line that opens the modal",
+        "ts": "1441305453.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yep",
+        "ts": "1441305457.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "sorry - is there a link or something?",
+        "ts": "1441305980.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02E3CRMA>: Maddie needs a link to look at the progress",
+        "ts": "1441306136.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "i know..working on it right now",
+        "ts": "1441306147.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Ok, was just hoping she would have had that this morning to be able to dig in before our meeting.",
+        "ts": "1441306187.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "also <!channel> does anyone have a lunch preference? would bunk or boke suffice?",
+        "ts": "1441306199.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "gotcha, sorry <@U02E3CRMA> thanks!!!",
+        "ts": "1441306230.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "no lunch preference from me",
+        "ts": "1441306238.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "all food is equal",
+        "ts": "1441306247.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "agreed",
+        "ts": "1441306260.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0518TGU8>: <https:\/\/chronos.uncorkedstudios.com\/>",
+        "ts": "1441306272.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool - everyone alright with boke? if so, please let me know what you'd like",
+        "ts": "1441306312.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "fine by me.",
+        "ts": "1441306335.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome, joel what can i get ya?",
+        "ts": "1441306372.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "fried chicken bowl, please",
+        "ts": "1441306384.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool, <@U0518TGU8>: what can i get you?",
+        "ts": "1441306466.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "same! friend chicken bowl please",
+        "ts": "1441306548.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "perfect, i'm on it!",
+        "ts": "1441306555.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "also everyone i think we should meet in the courtyard for our meeting in a few minutes",
+        "ts": "1441306580.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "gaston - lunch?",
+        "ts": "1441306669.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Just reading this Abby. I brought lunch today so I’m good.",
+        "ts": "1441306690.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool",
+        "ts": "1441306693.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks.",
+        "ts": "1441306697.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "np",
+        "ts": "1441306700.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02618EV1>, <@U026PT0D7> Looks like the menu bar is wonky again on Safari. Thought that got fixed a checkin ago. Any ideas?",
+        "ts": "1441306843.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "lemme take a look",
+        "ts": "1441306861.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1441306875.000000"
+        },
+        "ts": "1441306868.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0518TGU8>: <@U026PLK4S> <@U02618EV1> <@U02E3CRMA> please join us in the courtyard",
+        "ts": "1441306903.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<https:\/\/www.youtube.com\/watch?v=LKnqECcg6Gw>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Computer Color is Broken",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=LKnqECcg6Gw",
+                "author_name": "minutephysics",
+                "author_link": "https:\/\/www.youtube.com\/user\/minutephysics",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/LKnqECcg6Gw\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Computer Color is Broken",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/LKnqECcg6Gw?feature=oembed\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=LKnqECcg6Gw",
+                "id": 1
+            }
+        ],
+        "ts": "1441309871.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "fix for the title bar is pushed",
+        "ts": "1441311267.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "just changed the flex settings",
+        "ts": "1441311273.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Thanks!",
+        "ts": "1441311355.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll push to the server later tonight.",
+        "ts": "1441311407.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm having trouble finding a date-range-picker that (a) works with angular and (b) doesn't use one calendar each for start and end dates",
+        "ts": "1441314981.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "should we write our own module for it? or change the design to include two calendars?",
+        "ts": "1441315007.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Here's an example of the 2-calendar approach (all the way at the bottom): <http:\/\/monterail.github.io\/angular-mighty-datepicker\/>",
+        "ts": "1441315049.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "how big of an undertaking it is to write our own module?",
+        "ts": "1441315102.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "that's a good question. i'm inclined to say about a full day, including styles",
+        "ts": "1441315136.000057"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "oops missed the angular req",
+        "ts": "1441315136.000058"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "then i’ll change the design.",
+        "ts": "1441315144.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "but i've never written an angular module before",
+        "ts": "1441315149.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "i’ll get you a mockup in a few minutes!",
+        "ts": "1441315164.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "awesome, thank you!",
+        "ts": "1441315169.000062"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PT0D7>: this appears to be one? <https:\/\/github.com\/ivanbylinkin\/angular-simple-calendar>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "ivanbylinkin\/angular-simple-calendar",
+                "title_link": "https:\/\/github.com\/ivanbylinkin\/angular-simple-calendar",
+                "text": "angular-simple-calendar - simple date range calendar",
+                "fallback": "GitHub: ivanbylinkin\/angular-simple-calendar",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/6291298?v=3&s=400",
+                "from_url": "https:\/\/github.com\/ivanbylinkin\/angular-simple-calendar",
+                "thumb_width": 420,
+                "thumb_height": 420,
+                "id": 1
+            }
+        ],
+        "ts": "1441315305.000063"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<http:\/\/ivanbylinkin.github.io>",
+        "ts": "1441315324.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "oh good call",
+        "ts": "1441315341.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "demo's pretty ugly but it appears to function the way we want it",
+        "ts": "1441315357.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "thanks!",
+        "ts": "1441315359.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "sweet!",
+        "ts": "1441315370.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i may fork it and try to get the hover\/drag effect we wanted",
+        "ts": "1441315393.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "maddie how important is the hover\/drag thing?",
+        "ts": "1441315406.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "i’d love to have it if it’s reasonable\/possible. if not, it’s fine without it.",
+        "ts": "1441315594.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok, i'll see how hard it is to add to the one charles found",
+        "ts": "1441315610.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "if the light green doesn’t follow you on hover after you select a start date, can we at least have it show up once the end date is selected? or is that the same problem",
+        "ts": "1441315654.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "also note that in that one, first click is begin date and second click is end date. From your earlier description it sounded like first click should be one of the dates, and to allow the user to select the second date either before or after that first date",
+        "ts": "1441315672.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "oh, the green can definitely show up after both clicks. I'm just talking about it following your mouse around between clicks",
+        "ts": "1441315701.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "perfect then.",
+        "ts": "1441315714.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "also i think the first click should definitely be the start date.",
+        "ts": "1441315725.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ah, ok",
+        "ts": "1441315731.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i imagine that's how most people think of it anyway",
+        "ts": "1441315744.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": "for sure",
+        "ts": "1441315750.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "so we're not losing too much by requiring that",
+        "ts": "1441315755.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0518TGU8",
+        "text": ":thumbsup:",
+        "ts": "1441315769.000083"
+    }
+]

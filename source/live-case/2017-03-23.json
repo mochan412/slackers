@@ -1,0 +1,309 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG> we can chat about it more in our internal review, but we just spoke with adam + co about the pairing APKs and a few things to note:",
+        "ts": "1490304319.339758"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "- request to strip out the account piece (not worth testing at this time because its happening)",
+        "ts": "1490304338.343903"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "- focus on testing the picture\/code\/nfc instead",
+        "ts": "1490304360.348920"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lets plan to provide separate apks for their initial review + keep it to single case users at this stage (knowing we might adjust\/expand later)",
+        "ts": "1490304450.368986"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also would like to have the user be able to type in a code (just allow for any 4 numbers to fake it for now)",
+        "ts": "1490304617.406497"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F4PKK1RML\/Client_Check_in____Meeting_Notes_3_23.txt|Client Check in \/\/ Meeting Notes 3.23> and commented: Client meeting notes 3\/23",
+        "file": {
+            "id": "F4PKK1RML",
+            "created": 1490305133,
+            "timestamp": 1490305133,
+            "name": "Client_Check_in____Meeting_Notes_3_23.txt",
+            "title": "Client Check in \/\/ Meeting Notes 3.23",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U13GPDA1F",
+            "editable": true,
+            "size": 874,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4PKK1RML\/Client_Check_in____Meeting_Notes_3_23.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4PKK1RML\/download\/Client_Check_in____Meeting_Notes_3_23.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4PKK1RML\/Client_Check_in____Meeting_Notes_3_23.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4PKK1RML-0777e00edb",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4PKK1RML\/Client_Check_in____Meeting_Notes_3_23.txt\/edit",
+            "preview": "PLACES UPDATE\r\n- no dogfood feedback yet\r\n- waiting on approval confirmation of systems health\r\n- awaiting completed localizations for legacy style talkback\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>PLACES UPDATE<\/pre><\/div>\n<div><pre>- no dogfood feedback yet<\/pre><\/div>\n<div><pre>- waiting on approval confirmation of systems health<\/pre><\/div>\n<div><pre>- awaiting completed localizations for legacy style talkback<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 23,
+            "lines_more": 18,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4PKWLTB9",
+                "created": 1490305133,
+                "timestamp": 1490305133,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "Client meeting notes 3\/23"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1490305134.519493"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!here|@here> can someone get the O preview set up on a test device? <https:\/\/developer.android.com\/preview\/download.html>",
+        "attachments": [
+            {
+                "title": "    Download Android O | Android Developers  ",
+                "title_link": "https:\/\/developer.android.com\/preview\/download.html",
+                "text": "Instructions for downloading and installing Android O Developer Preview device images",
+                "fallback": "    Download Android O | Android Developers  ",
+                "from_url": "https:\/\/developer.android.com\/preview\/download.html",
+                "service_icon": "https:\/\/developer.android.com\/_static\/d48629a5e1\/images\/android\/touchicon-180.png",
+                "service_name": "developer.android.com",
+                "id": 1
+            }
+        ],
+        "ts": "1490305852.670503"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m trying on test 6p device",
+        "ts": "1490306066.714098",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<!here> running a few minutes behind from my appointment ",
+        "ts": "1490306228.746548"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "see you soon, summer!",
+        "ts": "1490306410.783287"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "updates from our internal review:",
+        "ts": "1490308408.134900"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "- melissa to create NFC package screen, summer to implement",
+        "ts": "1490308444.140598"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "- remove icons on case selector (just gray box to match rest of flow)",
+        "ts": "1490308462.143688"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "- leverage camera confirmation screen from olivers apk",
+        "ts": "1490308479.146348"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":slightly_smiling_face: great job <@U2H61EJSG>! let us know if you need anything to proceed!",
+        "ts": "1490308501.149755"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah looks great <@U2H61EJSG>",
+        "ts": "1490309352.281929"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F4PLG7B4N\/nfc_pair.png|NFC pair.png> and commented: <@U2H61EJSG>",
+        "file": {
+            "id": "F4PLG7B4N",
+            "created": 1490309416,
+            "timestamp": 1490309416,
+            "name": "NFC pair.png",
+            "title": "NFC pair.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 27650,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4PLG7B4N\/nfc_pair.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4PLG7B4N\/download\/nfc_pair.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PLG7B4N-60025b556b\/nfc_pair_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PLG7B4N-60025b556b\/nfc_pair_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PLG7B4N-60025b556b\/nfc_pair_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PLG7B4N-60025b556b\/nfc_pair_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4PLG7B4N-60025b556b\/nfc_pair_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 360,
+            "original_h": 640,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F4PLG7B4N\/nfc_pair.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4PLG7B4N-b91dea38dd",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4N9XTTL1",
+                "created": 1490309416,
+                "timestamp": 1490309416,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "<@U2H61EJSG>"
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1490309417.291984"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thank you!",
+        "ts": "1490309813.353258"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0260V1BX> Could you send me just the nfc pairing image?",
+        "ts": "1490312193.685921"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F4P239G68\/nfc_graphic.png|nfc_graphic.png>",
+        "file": {
+            "id": "F4P239G68",
+            "created": 1490312521,
+            "timestamp": 1490312521,
+            "name": "nfc_graphic.png",
+            "title": "nfc_graphic.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 22642,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4P239G68\/nfc_graphic.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4P239G68\/download\/nfc_graphic.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4P239G68-32e7a4485e\/nfc_graphic_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4P239G68-32e7a4485e\/nfc_graphic_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4P239G68-32e7a4485e\/nfc_graphic_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 348,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4P239G68-32e7a4485e\/nfc_graphic_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 464,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4P239G68-32e7a4485e\/nfc_graphic_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 524,
+            "original_h": 542,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F4P239G68\/nfc_graphic.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4P239G68-c69fe4f1cf",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U13GPDA1F"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1490312523.727063"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thanks!!",
+        "ts": "1490312533.728191"
+    }
+]

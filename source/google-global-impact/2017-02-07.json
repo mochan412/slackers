@@ -1,0 +1,470 @@
+[
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "I can take a look at CMS and close things out on the to do list when it's ready.",
+        "ts": "1486477959.004070"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "Head up that it's currently throwing an error though",
+        "ts": "1486477970.004071"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "is it the invalid token error?",
+        "ts": "1486481329.004080"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I was able to get in fine, site is working. I did have to strip back to the bare URL after login to get around the token error.",
+        "ts": "1486481624.004081"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>  and I can look into it this morning",
+        "ts": "1486481634.004082"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "It worked after stripping to the bare URL",
+        "thread_ts": "1486482379.004089",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U02E3CRMA",
+                "ts": "1486508486.004170"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1486482379.004089"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Thanks you all. ",
+        "ts": "1486482738.004090"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "thats what i was looking for, i knew there was some handler there",
+        "thread_ts": "1486448412.004017",
+        "parent_user_id": "U0EL0GLEL",
+        "ts": "1486484216.004091"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you are going to get more than a deploy there tho, you will also get hits if the app crashes and has to restart",
+        "thread_ts": "1486448412.004017",
+        "parent_user_id": "U0EL0GLEL",
+        "ts": "1486484304.004093"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "now that is a damn fine article about how to build slack integration. that woudlnt be too hard to do",
+        "thread_ts": "1486448412.004017",
+        "parent_user_id": "U0EL0GLEL",
+        "ts": "1486487493.004102"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> starting now",
+        "ts": "1486492247.004104"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> CMS: <https:\/\/net-contributor-dev.appspot-preview.com\/admin\/projects\/>",
+        "ts": "1486493536.004105"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here> net-contributor-dev has been moved into the Uncorked organization on AppEngine. Shouldn't break anything, but give either me or <@U0EL0GLEL> a shout if something seems wonky",
+        "ts": "1486494073.004107"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> im review this link with allie now",
+        "ts": "1486494107.004108"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "should be fine",
+        "ts": "1486494217.004109"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "any concern would be on the development side when we deploy",
+        "ts": "1486494229.004110"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I think im following now on the current thinking for the how the api needs to feed the display. The podium will resolve an id that relates to a story, that story may or may not have an initiative that it will pull information for. It may or may not have children stories that it will resolve the data for. then that set of data with its needed display layout based on the data provided. This will allow for the initiative to be displayed, the story and whatever rotation through children stories. There will also be messaging from the podium that will cause updates to this display to occur as they interact TBD. Does this sound like what i need? a dataset of all the data relating to what should be shown so it can be displayed, then expect updates to manipulate that data as the presenter interacts on the podium?",
+        "ts": "1486495947.004111"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "<@U2670DYLE> <@U0EL0GLEL> I'm unable to successfully add a partner organization. For the purpose of doing a CMS demo with Allie at 1, can we get \"Coalition for Queens\" added in the database so we can show how to add a complete story?",
+        "ts": "1486496212.004112"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I see whats up",
+        "ts": "1486496355.004113"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you can create them now",
+        "ts": "1486496603.004114"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the podium notes wont show up still, there is a descrepency in the field name still but the record creates with the color and name",
+        "ts": "1486496640.004115"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "will need to do a deploy to fix the notes issue",
+        "ts": "1486496650.004116"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "added coalition for queens",
+        "ts": "1486496692.004117"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "thanks <@U0EL0GLEL> that works for now, I'd rather go in with a known issue rather than try to get a deploy in before our client review",
+        "ts": "1486496840.004118"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it still does save the podium notes value to the database, its just that the key it reads from is still description. so the value will appear blank after you save",
+        "ts": "1486497004.004119"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "k, good to know",
+        "ts": "1486497036.004120"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U2670DYLE> and <@U0EL0GLEL> I'm going to push to Gerrit at EOD today, after we have everything deployed to staging and prod. Let's have pencils-down at 5pm, with everything checked in so I can pull\/squash\/push to gerrit.",
+        "ts": "1486497180.004121"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "In the meantime, I'll get the updated app.yaml files set up for dev and prod, and do a push to prod.",
+        "ts": "1486497225.004122"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> we are reviewing CMS now.  \n\nWhile I have you, here’s the laundry list of workstreams we discussed. Look to whiteboard for high-level deadlines.  \n\nCMS:\n- Once link is locked, John to set up dev\/stage environment.  \n- Then keep sprinting on CMS refinements.\n- We’ll move <@U2670DYLE>  to Podium on Thursday \n- Dennis to send link to Allie after 1pm (prep at 12:30) \n\nDisplay Design:\n- Share with client at 11: *I owe type up of feedback*\n- Jason and Trent to connect on Display Production design.  What other instances need to be accounted for?\n- Connect with Dev team\n- *Goal is for this to be in active development right away* and ready, in dev on rig by Friday AM.  \n- Peter working on updating API based on what he knows about Design.  \n- *Emily working on proof for animation to be sent to client today following client call*\n\nUX\n- Megan to focus on CMS training\n- To support CMS training, it’d be good to starting filling in the WIP Content Guide. <@U0XJFPSRL>   Can we cut a draft 1 for Wednesday eve?\nAfter 1pm today, asking <@U0HP6TFNX>  to shift back to Podium to be completed for Thursday.  \n- *Podium Wires due Thursday* Keep Jason close.  Designs can persist til Monday  2\/13\n- Let’s discuss: I think we need a func spec.",
+        "ts": "1486501955.004123"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "I don’t anticipate that being an issue <@U0ML49XU0> unless Compass stuff comes up",
+        "ts": "1486502057.004124"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "you know how i feel about that :wink:",
+        "ts": "1486502076.004125",
+        "reactions": [
+            {
+                "name": "no_good::skin-tone-2",
+                "users": [
+                    "U0XJFPSRL"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im a little confused, i heard we were giving them the link for the net contributor gae, and we dev on the net contributor dev, currently the system lives at dev. but the database isnt setup on the prod site yet, and the app isnt there yet. so whats the plan here? thought turn over was right now?",
+        "ts": "1486502891.004127"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Turn over is right now.  <@U02E3CRMA> can speak to locations i’m waiting on the all-clear on that myself",
+        "ts": "1486503011.004128"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i just setup the database on the prod server and cleared it out",
+        "ts": "1486503060.004129"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so maybe this helps: training is right now “turn over” Ie link delivery happens right after call, once we’re all clear on this plan",
+        "ts": "1486503138.004130"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im setting up prod now. Training on dev is totally fine. We will need to do a few things to get prod up. wont take too long",
+        "ts": "1486503275.004131"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "again, <@U02E3CRMA> indicated to me this was in progress but i don’t have command of the details so i dont want you to spin up parallel endeavors.  He can help orchestrate here",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1486503441.000000"
+        },
+        "ts": "1486503434.004132"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, we're aligned",
+        "ts": "1486503891.004134"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Peter is pushing to prod now, he and I will sort all the automation out once it's live",
+        "ts": "1486503909.004135"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "kk send me link when done yo",
+        "ts": "1486503932.004136"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks to you both",
+        "ts": "1486503935.004137"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<https:\/\/net-contributor.appspot-preview.com\/>",
+        "ts": "1486505274.004138"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this is prod, it appears to be live",
+        "ts": "1486505280.004139",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "go ahead and run a few tests, make sure its up and we should be able to pass this url over",
+        "ts": "1486505294.004140"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> i’m seeding users in there now.  <@U2670DYLE> is sanity testing",
+        "ts": "1486506943.004162"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "great",
+        "ts": "1486506953.004163"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'm drinking coffee.",
+        "ts": "1486508268.004168"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and doing the heavy looking-on",
+        "ts": "1486508278.004169"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "megan: Figured it out. If you start from <https:\/\/net-contributor.appspot.com\/> it errors since it redirects to <https:\/\/net-contributor.appspot-preview.com\/>, but the auth token was generated on <https:\/\/net-contributor.appspot.com\/>.",
+        "thread_ts": "1486482379.004089",
+        "parent_user_id": "U0HP6TFNX",
+        "ts": "1486508486.004170"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "delivering link now.  Remember any updates we do to prod need to occur between 5-6pm otherwise we intefere with their workflow",
+        "ts": "1486508566.004172"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "AHHH it’s attack of the docs!  <@U2670DYLE> <@U0HP6TFNX> and <@U0XJFPSRL> I need to give client visibility into our CMS backlog so I ported over our todo list from the Google Doc to this Google Sheet: <https:\/\/docs.google.com\/spreadsheets\/d\/1L22_CkwWnuefWfesuaPbOXF6dVXiTMUsBOe-I1UPVvQ\/edit?usp=sharing>\n\nI will capture the questions and decisions from the previous doc as well.",
+        "ts": "1486509224.004173"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/rob\/F408F69MX\/_google_net_contrib__cms_user_test_feedback|[Google Net Contrib] CMS Dogfood Feedback>",
+        "file": {
+            "id": "F408F69MX",
+            "created": 1486168002,
+            "timestamp": 1486168002,
+            "name": "[Google Net Contrib] CMS User Test Feedback",
+            "title": "[Google Net Contrib] CMS Dogfood Feedback",
+            "mimetype": "application\/vnd.google-apps.spreadsheet",
+            "filetype": "gsheet",
+            "pretty_type": "GDocs Spreadsheet",
+            "user": "U0B9N0HF0",
+            "editable": false,
+            "size": 33082,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/spreadsheets\/d\/1L22_CkwWnuefWfesuaPbOXF6dVXiTMUsBOe-I1UPVvQ\/edit?usp=sharing",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gsheet_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gsheet_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/rob\/F408F69MX\/_google_net_contrib__cms_user_test_feedback",
+            "channels": [
+                "C026T598V",
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1486509224.004174"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "this is going to the client",
+        "ts": "1486509227.004178"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0ML49XU0> <@U0HP6TFNX> <@U2670DYLE> Hey all! Looks like we have a meeting now - but not 100% sure what its about.",
+        "ts": "1486512217.004179"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I think <@U0HP6TFNX> and I have a meeting now too",
+        "ts": "1486512250.004180"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": ":slightly_smiling_face:",
+        "ts": "1486512252.004181"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "its just cms backlog",
+        "ts": "1486512444.004182"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> check out five videos from Google of their other “on screen” experiences.  this is a) a benchmark for our experience.  I think we fit in nicely and our stuff comes across well and b) acts as inspiration for the Attract Mode",
+        "ts": "1486516150.004187"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<https:\/\/drive.google.com\/open?id=0B2hvp3pmOYCFVV9JZ001Q0l4Vk0>",
+        "ts": "1486516153.004188"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL> and <@U2670DYLE> I'm set to push to gerrit as soon as I'm out of this meeting. I'll give the heads up when I'm done so you can pull the updates. ",
+        "ts": "1486516861.004190"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Just FYI.. I'm currently deploying to net-contributor-dev",
+        "ts": "1486516965.004191"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "all my latest is checked in.",
+        "ts": "1486516981.004192"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Perfect. Thanks",
+        "ts": "1486517050.004193"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Deploy is finished. It includes the helper text and the pagination fix.",
+        "ts": "1486517134.004194"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, I did a squash all the way back to the first commit after gerrit pull, have 3 merge conflicts. They're all <@U0EL0GLEL>'s changes, so I'll catch you first thing tomorrow to resolve them together before I push.",
+        "ts": "1486523083.004195"
+    }
+]

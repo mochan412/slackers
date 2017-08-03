@@ -1,0 +1,154 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> and <@U0EL0GLEL> sorry i used to know the answer to this and forgot to ask for help in our meeting this morning - last time we looked on our rig,; data viz didn’t trigger and initials were’nt in cubby bubbles.\n\n- data viz was because it was first user, first answer.  right?\n- did we figure out the cubby initials?",
+        "ts": "1469467698.000141"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah those are fine now",
+        "ts": "1469467818.000142"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok thank you for the sanity check :slightly_smiling_face:",
+        "ts": "1469467881.000143"
+    },
+    {
+        "user": "U1S5GKTHQ",
+        "inviter": "U0ML49XU0",
+        "text": "<@U1S5GKTHQ|dimitry> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1469472001.000144"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: remind me, whats debounce time set to?  750 ms?",
+        "ts": "1469473629.000145"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sounds right",
+        "ts": "1469473660.000146"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks for good notes on fix and how to test :slightly_smiling_face:",
+        "ts": "1469473684.000147"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U0EL0GLEL> good call with the mismatched colors on cubby find",
+        "ts": "1469479991.000148"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "help me remember, how does this ‘problem’ manifest?  this isn’t just a manifestation of creating a new user (john doe x2) just so you can give the user a new color, right?",
+        "ts": "1469480031.000149"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "we had noticed it during some of our testing on the wall for the first time. But we had only seen it after we had been messing around with it doing a bunch of stuff. Which makes more sense now. We had never seen it since our test set had 1 color, and the next set had 2 and they were mostly the same. So wouldnt have manifested in a way that we would notice. Its shows up when the workshop has been sent to the wall, its displaying, then the admin says oh shit move another person to some spot, the move will happen but the body movin animation for that first animation was already loaded with the previous color, the file doesnt appear to be rerequested in the new color. but the other data does so the color of the circle doesnt  match the links. and when you move past that first screen the others are in the right color. Can recreate by opening the display, push the workshop, then change the assignment of the one you are looking at. to someone with a different color assignment. you will see the original color circle persist. I looked at the network logs and could see that it never requested it again. Which makes sense when i think about it. Would need to add something to refresh that",
+        "ts": "1469480276.000150"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good find.  helpful explanation",
+        "ts": "1469480429.000151"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "let’s hijack that ticket to put a fix for this in.  for now, gonna give the BL team a show note that if, after a workshop is up on the wall, if you re-assign someone or add a new person to change their color, pusha  new work shop and then push the correct workshop to affectively ‘refresh'",
+        "ts": "1469480489.000152"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool?",
+        "ts": "1469480491.000153"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "was finding that one strange, due to how it occurs was having issue pinpointing. then found it finally happened locally and was able to spot it. Will want to address it. Those strange ghosts are tricky ones",
+        "ts": "1469480509.000154"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah",
+        "ts": "1469480512.000155"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that would address it for now",
+        "ts": "1469480516.000156"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dont think a fix is difficult, identifying it was probably harder",
+        "ts": "1469480531.000157"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok, this is good stuff",
+        "ts": "1469480762.000158"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "while i have ya",
+        "ts": "1469480766.000159"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-406>",
+        "ts": "1469480783.000160"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "this ticket is representative of three things:\n1) Peter prep work (is it done?)\n\n2) front end\n3) integration\nwill create new tix",
+        "ts": "1469480822.000161"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i havnt touched this one yet, will need to reexpose the admin bit. then there is some work to do for the display around the template expose logic to show the correct template based on a variable. there isnt anything like this yet. so will need to add that. right now it just says change template to this one. It will need to be based on this value change to one of these",
+        "ts": "1469480928.000162"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i think it would be fairly simple to make it implicit, based on number of questions, so the template name just becomes ts-dataviz-1 ts-dataviz-2 txdataviz-3 and that just pulls the right one that way. fairly simple way to handle it",
+        "ts": "1469481002.000163"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i like what you’re saying.  i’ll add notes about how to word the ‘no selection’ questions that would enable an admin to only config 1 or 2 questions.  Peter: cna you wokr on this item next so that it unblocks the rest of the workflow?",
+        "ts": "1469481191.000164"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure nearly done with the one im working on now",
+        "ts": "1469481214.000165"
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "USB power mgt is disabled at the kernel level on boot with:\n`usbcore.autosuspend=-1`",
+        "ts": "1468517919.000393"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "you can check the state on \/sys\/module\/usbcore\/parameters\/autosuspend to see if it’s currently powering down or not",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1468517948.000000"
+        },
+        "ts": "1468517943.000394"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "thank you",
+        "ts": "1468518042.000396"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "it is set to 2",
+        "ts": "1468518266.000397"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ah",
+        "ts": "1468518320.000398"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "but i know ive set it to -1 on the other system and still had issues",
+        "ts": "1468518337.000399"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "feh",
+        "ts": "1468518351.000400"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "my feeling is that it is a firmware issue with the broadcom chip in the usb device",
+        "ts": "1468518366.000401"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "that presents itself as a power issue",
+        "ts": "1468518374.000402"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "oof",
+        "ts": "1468518398.000403"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Doing some UHF calculations for RFID and all I can think about:",
+        "ts": "1468519975.000404"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "\/giphy i’m gonna drink from the fire hose",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/fire-from-drink-1hZUTNg53Ii4g>",
+                "image_url": "http:\/\/media.giphy.com\/media\/1hZUTNg53Ii4g\/giphy-tumblr.gif",
+                "image_width": 250,
+                "image_height": 187,
+                "image_bytes": 1522882,
+                "is_animated": true,
+                "title": "i'm gonna drink from the fire hose",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/fire-from-drink-1hZUTNg53Ii4g"
+            }
+        ],
+        "ts": "1468519993.000405"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0K8ZSHN0|lee> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lee\/F1RRMGWRE\/uhf.jpg|UHF>",
+        "file": {
+            "id": "F1RRMGWRE",
+            "created": 1468519992,
+            "timestamp": 1468519992,
+            "name": "UHF.jpg",
+            "title": "UHF",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U0K8ZSHN0",
+            "editable": false,
+            "size": 1185258,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1RRMGWRE\/uhf.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1RRMGWRE\/download\/uhf.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1RRMGWRE-1b9f9e3b74\/uhf_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1RRMGWRE-1b9f9e3b74\/uhf_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1RRMGWRE-1b9f9e3b74\/uhf_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 173,
+            "thumb_360_h": 131,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1RRMGWRE-1b9f9e3b74\/uhf_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 173,
+            "original_h": 131,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lee\/F1RRMGWRE\/uhf.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1RRMGWRE-7fece5701b",
+            "channels": [
+                "C026T598V"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0K8ZSHN0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lee",
+        "bot_id": null,
+        "ts": "1468519993.000406"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Charles gets me",
+        "ts": "1468520037.000407"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<https:\/\/www.youtube.com\/watch?v=pXLHcMPkKUo>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "UHF - FULL MOVIE",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=pXLHcMPkKUo",
+                "author_name": "yudha nadiro",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UCoL1bxV7YmeLvEgNAcFScWQ",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/pXLHcMPkKUo\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: UHF - FULL MOVIE",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/pXLHcMPkKUo?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=pXLHcMPkKUo",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1468520216.000408"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "changing usb ports didnt help",
+        "ts": "1468527203.000410"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "```[  944.672935] usb 1-4.3: USB disconnect, device number 7\n[  945.043400] usb 1-4.3: new full-speed USB device number 9 using xhci_hcd\n[  945.147006] usb 1-4.3: New USB device found, idVendor=0a5c, idProduct=21e8\n[  945.147010] usb 1-4.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3\n[  945.147013] usb 1-4.3: Product: BCM20702A0\n[  945.147015] usb 1-4.3: Manufacturer: Broadcom Corp\n[  945.147016] usb 1-4.3: SerialNumber: 5CF370749576\n[  945.148014] bluetooth hci3: Direct firmware load for brcm\/BCM20702A0-0a5c-21e8.hcd failed with error -2\n[  945.148021] Bluetooth: hci3: BCM: patch brcm\/BCM20702A0-0a5c-21e8.hcd not found\n```",
+        "ts": "1468527217.000411"
+    },
+    {
+        "type": "message",
+        "user": "U1LL9K6BC",
+        "text": "damn",
+        "ts": "1468527253.000412"
+    }
+]

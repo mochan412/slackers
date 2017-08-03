@@ -1,0 +1,60 @@
+[
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Good morning team. Sorry for being \"away\" most of yesterday,  but the Sommely grant proposal is now submitted and I can look forward. ",
+        "ts": "1481134387.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Hoping to get a sense of everyone's work streams. My understanding is that <@U02AUNA0P> <@U1172PRDX> spent last 2 days, compiling together inspiration\/insights and are applying those to 2 key screens. <@U1S5GKTHQ> was documentation and the code base to get a sense of LOE. And <@U243UT96G> will follow in those foot steps: getting local setup, getting acquainted with Django today and tomorrow. Tomorrow afternoon we will review design direction and dev comfort with the Django upgrade. Can I get a sense from all of you on how accurate that is and how it went\/is going?",
+        "edited": {
+            "user": "U0B9N0HF0",
+            "ts": "1481134608.000000"
+        },
+        "ts": "1481134580.000003"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I’ve been able to get a good chunk of code updated to Django 1.8 (from 1.5). Target version is 1.10. 1.8 is an incremental step to make workload manageable (proposed by Marcus). Biggest challenge is that most of the 3rd party dependency libs are outdated as well (and some are no longer maintained so won’t work with latest Django). I’m trying to make basic functionality work (data pulls from MySQL, Solr &amp; Mongo). Probably 70% there (MySQL is all good, Mongo too. Solr a bit problematic but making headways).",
+        "ts": "1481134893.000005"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Jumping from 1.8 to 1.10 will be much easier since most of the complexity is actually in updating dependency libs.",
+        "ts": "1481134921.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Great. Thanks for the update <@U1S5GKTHQ>. Have you been documenting the libraries that can be updates vs. can't?",
+        "ts": "1481135753.000007"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "yup! taking notes",
+        "ts": "1481135808.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Awesome! Thank you!",
+        "ts": "1481137557.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Moving this to the PlantLust org. <@U1S5GKTHQ> will you repost your progress there and <@U1172PRDX> <@U02AUNA0P> <@U243UT96G> will you post your responses to my repost there. Cheers!",
+        "ts": "1481137657.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "yeah, i've been collecting inspo and reviewing the wireframe docs. still need to print everything out and pin it up on a board (not sure if this is of use to sarah or anyone else, but def helps me). had printer probs last night, so was gonna do that sometime today.",
+        "ts": "1481137789.000011"
+    }
+]

@@ -1,0 +1,473 @@
+[
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "```Error   : java.io.FileNotFoundException: \/data\/user\/0\/com.google.android.apps.live_case\/files\/Artist3_Wallpapers\/wallpaper\/maskedcatwallpaperalpha\/maskedcatwallpaperbg.webp (No such file or directory)```",
+        "ts": "1481045343.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there we go",
+        "ts": "1481045521.000029"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "going to try mapping",
+        "ts": "1481045554.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no need",
+        "ts": "1481045571.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’d check the zip on the server",
+        "ts": "1481045586.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to make sure that file actually is in the zip",
+        "ts": "1481045595.000033"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "it could be the directory those files are in. When I checked the zip, the directory is 'maskedcat', but in this error it says maskedcatwallpaperalpha",
+        "ts": "1481046482.000034"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "midori - lemme know where we shake out on this so i can follow up with kat accordingly",
+        "ts": "1481052439.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what happens with it right now?",
+        "ts": "1481052485.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like, is maskedcat broken?",
+        "ts": "1481052489.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, is its name nonstandard?",
+        "ts": "1481052516.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause that would be broken for everyone",
+        "ts": "1481052523.000039"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I'm not sure. I don't know where this directory name comes from: 'maskedcatwallpaperalpha'",
+        "ts": "1481052569.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its probably in the code :eyes:",
+        "ts": "1481052670.000041"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay... I need the mapping file from that build then. It's versionCode 27 &amp; versionName 2.0-df-11. I found a file for Live Case version 27, but the versionName listed is different",
+        "ts": "1481052761.000042"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "This one: <https:\/\/drive.google.com\/open?id=0BwP7wEvrJF7VOFlHZl9qbjJxZXc>",
+        "ts": "1481052826.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "one sec",
+        "ts": "1481052826.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you’ll need to load the data from the server",
+        "ts": "1481052903.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the stack trace wont have the info you care about",
+        "ts": "1481052911.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it will just tell you where it failed to open that file",
+        "ts": "1481052920.000048"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Here's an example of the whole stack trace: \n```12-05 14:24:50.709 21159 25435 D Error   : \/data\/user\/0\/com.google.android.apps.live_case\/files\/Artist3_Wallpapers\/wallpaper\/maskedcatwallpaperalpha\/maskedcatwallpaperalpha0001.webp (No such file or directory)\n12-05 14:24:50.765 21159 21159 E Error   : Error decoding background \n12-05 14:24:50.765 21159 21159 E Error   : java.io.FileNotFoundException: \/data\/user\/0\/com.google.android.apps.live_case\/files\/Artist3_Wallpapers\/wallpaper\/maskedcatwallpaperalpha\/maskedcatwallpaperbg.webp (No such file or directory)\n12-05 14:24:50.765 21159 21159 E Error   : \tat java.io.FileInputStream.open(Native Method)\n12-05 14:24:50.765 21159 21159 E Error   : \tat java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:146)\n12-05 14:24:50.765 21159 21159 E Error   : \tat java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:99)\n12-05 14:24:50.765 21159 21159 E Error   : \tat com.google.android.apps.live_case.artists.artist3.b.a.d(SourceFile:320)\n12-05 14:24:50.765 21159 21159 E Error   : \tat com.google.android.apps.live_case.artists.artist3.b.a.a(SourceFile:299)\n12-05 14:24:50.765 21159 21159 E Error   : \tat com.google.android.apps.live_case.artists.artist3.b.d.a(SourceFile:232)\n12-05 14:24:50.765 21159 21159 E Error   : \tat com.google.android.apps.live_case.artists.artist3.b.c.d(SourceFile:110)\n12-05 14:24:50.765 21159 21159 E Error   : \tat com.google.android.apps.live_case.artists.artist3.b.c.a(SourceFile:165)\n12-05 14:24:50.765 21159 21159 E Error   : \tat com.google.android.apps.live_case.wallpaper.b.b.a(SourceFile:199)\n12-05 14:24:50.765 21159 21159 E Error   : \tat com.google.android.apps.live_case.wallpaper.SkrillexWallpaper$a.onVisibilityChanged(SourceFile:93)\n12-05 14:24:50.765 21159 21159 E Error   : \tat android.service.wallpaper.WallpaperService$Engine.reportVisibility(WallpaperService.java:925)\n12-05 14:24:50.765 21159 21159 E Error   : \tat android.service.wallpaper.WallpaperService$Engine$3.onDisplayChanged(WallpaperService.java:1061)\n12-05 14:24:50.765 21159 21159 E Error   : \tat android.hardware.display.DisplayManagerGlobal$DisplayListenerDelegate.handleMessage(DisplayManagerGlobal.java:462)\n12-05 14:24:50.765 21159 21159 E Error   : \tat android.os.Handler.dispatchMessage(Handler.java:102)\n12-05 14:24:50.765 21159 21159 E Error   : \tat android.os.Looper.loop(Looper.java:154)\n12-05 14:24:50.765 21159 21159 E Error   : \tat android.app.ActivityThread.main(ActivityThread.java:6119)\n12-05 14:24:50.765 21159 21159 E Error   : \tat java.lang.reflect.Method.invoke(Native Method)\n12-05 14:24:50.765 21159 21159 E Error   : \tat com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)\n12-05 14:24:50.765 21159 21159 E Error   : \tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)\n12-05 14:24:50.766 21159 21159 D Error   : \/data\/user\/0\/com.google.android.apps.live_case\/files\/Artist3_Wallpapers\/wallpaper\/maskedcatwallpaperalpha\/maskedcatwallpaperalpha0001.webp (No such file or directory)\n12-05 14:24:50.766 21159 21159 D c       : Setting alarm```",
+        "ts": "1481053238.000049"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "seems to be trying to get the wallpaper files every 30 seconds or so and failing",
+        "ts": "1481053329.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its trying to render a missing file",
+        "ts": "1481053415.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which is never going to suddenly be there",
+        "ts": "1481053420.000052"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F3ALS80AC\/response.json|response.json>",
+        "file": {
+            "id": "F3ALS80AC",
+            "created": 1481053427,
+            "timestamp": 1481053427,
+            "name": "response.json",
+            "title": "response.json",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 10902,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3ALS80AC\/response.json?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3ALS80AC\/download\/response.json?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F3ALS80AC\/response.json",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3ALS80AC-69642a0c01",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F3ALS80AC\/response.json\/edit",
+            "preview": "{\n\t\"wallpapers\": [{\n\t\t\"date\": 1477958400,\n\t\t\"campaignId\": \"5949304810023423\",\n\t\t\"framename\": \"poodlewallpaperalpha\",",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>{<\/pre><\/div>\n<div><pre>\t<span class=\"cm-string\">&quot;wallpapers&quot;<\/span>: [{<\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-string cm-property\">&quot;date&quot;<\/span>: <span class=\"cm-number\">1477958400<\/span>,<\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-string cm-property\">&quot;campaignId&quot;<\/span>: <span class=\"cm-string\">&quot;5949304810023423&quot;<\/span>,<\/pre><\/div>\n<div><pre>\t\t<span class=\"cm-string cm-property\">&quot;framename&quot;<\/span>: <span class=\"cm-string\">&quot;poodlewallpaperalpha&quot;<\/span>,<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 301,
+            "lines_more": 296,
+            "preview_is_truncated": true,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1481053427.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if you look at a device that has Editions on it via adb",
+        "ts": "1481053453.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and look at the directory names",
+        "ts": "1481053458.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is maskedcat there and does it look right?",
+        "ts": "1481053465.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\"framename\": \"maskedcatwallpaperalpha\",",
+        "ts": "1481053478.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "mostly it looks like from that exception that the zip file didn’t initially match the expected structure",
+        "ts": "1481053522.000058"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F3BA6UTL3\/-.txt|Untitled>",
+        "file": {
+            "id": "F3BA6UTL3",
+            "created": 1481053581,
+            "timestamp": 1481053581,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 206,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3BA6UTL3\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3BA6UTL3\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F3BA6UTL3\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3BA6UTL3-25aec4c735",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F3BA6UTL3\/-.txt\/edit",
+            "preview": "            FileInputStream fileInputStream = new FileInputStream(\r\n                    mAnimationPack.getWallpaperForegroundAssetPath() + File.separator\r\n                            + formattedFrameCount);",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>            FileInputStream fileInputStream = new FileInputStream(<\/pre><\/div>\n<div><pre>                    mAnimationPack.getWallpaperForegroundAssetPath() + File.separator<\/pre><\/div>\n<div><pre>                            + formattedFrameCount);<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1481053582.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "from list retrieval:",
+        "ts": "1481053648.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`                inboundImage.setWallpaperForegroundAssetFilenameFormat(wallpaperInternal.getFramename());`",
+        "ts": "1481053655.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the data thinks that the directory should be named `maskedcatwallpaperalpha`",
+        "ts": "1481053684.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and i think the rest of them are named like that",
+        "ts": "1481053693.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the zip contents are misspelled",
+        "ts": "1481053753.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "maskcatwallpaperalpha",
+        "ts": "1481053754.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it looks like",
+        "ts": "1481053762.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "double checking",
+        "ts": "1481053814.000069"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay, that's weird. I downloaded what I most recently uploaded from drive and the names were right. I can re-upload it",
+        "ts": "1481053874.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it looks very boringly like that dogfooder might have downloaded maskedcat when the zip was misspelled in the API",
+        "ts": "1481053979.000071"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "The last upload was in September though",
+        "ts": "1481054037.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the API data",
+        "ts": "1481054041.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not the zip",
+        "ts": "1481054044.000074"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "oh.. ok",
+        "ts": "1481054053.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think there was a typo in maskedcat in the API",
+        "ts": "1481054064.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and i think you fixed it",
+        "ts": "1481054069.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or maybe dimitry did",
+        "ts": "1481054128.000078"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I don't have access to the API, so dimitry",
+        "ts": "1481054154.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or lynsey",
+        "ts": "1481054159.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well, problem solved",
+        "ts": "1481054174.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/storage.googleapis.com\/gldmmbr-wallpapers\/maskedcat.zip>",
+        "ts": "1481054624.000082"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F3AN35A8Z\/maskcat.zip|maskcat.zip>",
+        "file": {
+            "id": "F3AN35A8Z",
+            "created": 1481055005,
+            "timestamp": 1481055005,
+            "name": "maskcat.zip",
+            "title": "maskcat.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 1844265,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3AN35A8Z\/maskcat.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3AN35A8Z\/download\/maskcat.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F3AN35A8Z\/maskcat.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3AN35A8Z-060a643c4d",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1481055006.000083"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "should I upload that here: <http:\/\/gweb-uncorked.appspot.com\/Artist-Three\/wallpapersettings>",
+        "ts": "1481055025.000084"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> lmk if\/how I can help with this",
+        "ts": "1481057720.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "should be fixed on server now",
+        "ts": "1481057815.000086"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "great!",
+        "ts": "1481057848.000087"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just needed to figure out how to trick the devices in the wild to download a patch",
+        "ts": "1481058000.000088"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yayay! thank you for fixing",
+        "ts": "1481059582.000089"
+    }
+]

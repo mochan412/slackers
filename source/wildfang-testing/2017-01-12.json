@@ -1,0 +1,1245 @@
+[
+    {
+        "user": "U02F8TTPU",
+        "text": "<@U02F8TTPU|marissa> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1484244721.000137"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<!channel> anyone around today who would be willing to help test a little bit more? in particular we need help with testing the video upload flow with some longer videos. so far we’ve been getting a lot under 30 seconds and we want to see what happens when we push that a little bit more",
+        "ts": "1484250100.000138"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i can help this afternoon",
+        "ts": "1484250117.000139",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1S5GKTHQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "awesome!",
+        "ts": "1484250122.000140"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i don’t think we’ll have a particular test plan for this one because it’s as simple as try recording\/uploading a 2 minute video and see what happens :smile:",
+        "ts": "1484250193.000141"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "I can help too. But from home.",
+        "ts": "1484250272.000142"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Same",
+        "ts": "1484250279.000143"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "of course from home is totally fine :smile:",
+        "ts": "1484250312.000144"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Well good b\/c you have no choice hahaha",
+        "ts": "1484250326.000145"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "lolol",
+        "ts": "1484250330.000146"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i know i am stuck in deep",
+        "ts": "1484250334.000147"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "I never got the time code to add to Harvest btw.",
+        "ts": "1484250349.000148"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ahh <@U06DFL7BP> did we get folks who tested the other day added to the project?",
+        "ts": "1484250363.000149"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Oh ya me too hahah. At the bottom of the biggest hill.",
+        "ts": "1484250365.000150"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Just give a holler when it's testing time. I'm happy to upload",
+        "ts": "1484250411.000151"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "great!",
+        "ts": "1484250420.000152"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Ditto",
+        "ts": "1484250490.000153"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U0265G76F> <@U0260V1BX> <@U1HKQRLMR> please test whenever is convenient for you (just before 3pm please) - and then let me + <@U1S5GKTHQ> know how it went with the specific time, and what browser\/OS you were using, and then any thing that went awry",
+        "ts": "1484250514.000154"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "also thank you so much!",
+        "ts": "1484250526.000155"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "everyone should be on harvest now",
+        "ts": "1484250570.000156",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1HKQRLMR",
+                    "U0J6TE0CA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "cool. Will do",
+        "ts": "1484250793.000157"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "thanks",
+        "ts": "1484250794.000158"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "hey <@U167FL70V> and <@U1S5GKTHQ> — Did some attempts at testing longer videos on Chrome Version 55.0.2883.95 (64-bit) via MBP. \n\nFirst two tries, I let the timeline run out to full 2 min and had some odd bugs thereafter. Rather than moving to a submit state, it simply starts the recording over (red button) but all functionality doesn't work. \n\nThird try, I stopped recording manually at 1:59 and it worked. \n\nIn all cases, during the recording state, the scrubber at bottom of video preview is out of alignment with the video. Looks like it's about 10 pixels to the left overall. Small thing, but made a note of it.",
+        "ts": "1484252872.000159"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U0265G76F> thank you! will dig into this",
+        "ts": "1484252914.000160"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ooh awesome thanks <@U0265G76F> that behavior at full 2 mins is similar to another bug someone else reported so good to have it confirmed",
+        "edited": {
+            "user": "U167FL70V",
+            "ts": "1484253439.000000"
+        },
+        "ts": "1484253412.000161"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0260V1BX",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[January 10th, 2017 4:14 PM] leia: <!channel> here’s the info for testing today: \n\nHow to get there\nURL: <https:\/\/www.millionwomensvoices.com\/>\nUsername: demo\nPassword: W1ldFangMWV\n\nTesting feedback\n\nPlease use the Uncorked tab on the testing spreadsheet and follow the steps outlined on the left hand side. For each case we’re asking that you give us a simple Y if the test worked, if it didn’t please encourage folks to give us as much detail as possible. In particular having the exact time, browser and OS will help us debug what went wrong when performing a post mortem.  \n\nSpreadsheet: <https:\/\/docs.google.com\/spreadsheets\/d\/1Pb3d5DJHsz1pl-A6qpnDMPWjnqY4VJd8l5HOC9dWQSM\/edit?usp=sharing>\n\nKnown limitations:\n\nSafari - mobile and desktop - upload videos only, no record. \nFor all browsers and OS's we are only supporting the latest version.",
+                "ts": "1484093655.000067",
+                "author_subname": "leia",
+                "channel_id": "C3MJM6DR6",
+                "channel_name": "wildfang-testing",
+                "is_msg_unfurl": true,
+                "text": "<!channel> here’s the info for testing today: \n\nHow to get there\nURL: <https:\/\/www.millionwomensvoices.com\/>\nUsername: demo\nPassword: W1ldFangMWV\n\nTesting feedback\n\nPlease use the Uncorked tab on the testing spreadsheet and follow the steps outlined on the left hand side. For each case we’re asking that you give us a simple Y if the test worked, if it didn’t please encourage folks to give us as much detail as possible. In particular having the exact time, browser and OS will help us debug what went wrong when performing a post mortem.  \n\nSpreadsheet: <https:\/\/docs.google.com\/spreadsheets\/d\/1Pb3d5DJHsz1pl-A6qpnDMPWjnqY4VJd8l5HOC9dWQSM\/edit?usp=sharing>\n\nKnown limitations:\n\nSafari - mobile and desktop - upload videos only, no record. \nFor all browsers and OS's we are only supporting the latest version.",
+                "author_name": "Leia Sefkin",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/leia",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-03-13\/153133799088_63008bb9165131981097_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U0260V1BX|melissa> pinned a message to this channel.",
+        "ts": "1484253773.000163"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "wow that little megaphone icon is NOT a clear call to action...",
+        "ts": "1484253841.000164"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U167FL70V> i can’t get to the uploader on Pixel… the TELL IT button is not working… potentially because of the presence of the megaphone button?",
+        "ts": "1484253985.000165"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok any way you can send a screenshot?",
+        "ts": "1484254009.000166"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F3Q5Z33AL\/screenshot_20170112-124631.png|Slack for Android Upload>",
+        "file": {
+            "id": "F3Q5Z33AL",
+            "created": 1484254015,
+            "timestamp": 1484254015,
+            "name": "Screenshot_20170112-124631.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 101428,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3Q5Z33AL\/screenshot_20170112-124631.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3Q5Z33AL\/download\/screenshot_20170112-124631.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q5Z33AL-528f387c5e\/screenshot_20170112-124631_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q5Z33AL-528f387c5e\/screenshot_20170112-124631_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q5Z33AL-528f387c5e\/screenshot_20170112-124631_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q5Z33AL-528f387c5e\/screenshot_20170112-124631_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q5Z33AL-528f387c5e\/screenshot_20170112-124631_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q5Z33AL-528f387c5e\/screenshot_20170112-124631_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q5Z33AL-528f387c5e\/screenshot_20170112-124631_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q5Z33AL-528f387c5e\/screenshot_20170112-124631_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F3Q5Z33AL\/screenshot_20170112-124631.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3Q5Z33AL-03abaa9f8d",
+            "channels": [
+                "C3MJM6DR6"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1484254017.000167"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "awesome thanks!",
+        "ts": "1484254025.000168"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "np",
+        "ts": "1484254028.000169"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thats just my pixel tho, will test on iphone as well",
+        "ts": "1484254041.000170"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": ":raised_hands: you’re the best",
+        "ts": "1484254050.000171"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "this has actually been fixed! my bad, we haven’t deployed the latest version yet.",
+        "ts": "1484254076.000172"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Okay. So, I just tried typing in <http:\/\/millionwomenvoices.com|millionwomenvoices.com> and it took me to a GoDaddy page. Now typed in actual URL and it's not loading the site at all. I'm on my iPhone 6s on Chrome.",
+        "ts": "1484254116.000173"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "It says the \"site cannot be reached.\" I can use the Slack URL to do through Safari.",
+        "ts": "1484254162.000174"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thx <@U1HKQRLMR> right now bare url of site doesn’t work",
+        "ts": "1484254163.000175"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so you have to do www. in front of it",
+        "ts": "1484254176.000176"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "known issue we are working on :slightly_smiling_face:",
+        "ts": "1484254199.000177"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "also I think it's \"millionwomensvoices\", not \"millionwomenvoices\"",
+        "ts": "1484254209.000178"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Sorry. I did use an \"s\" I just didn't type it that way to you!",
+        "ts": "1484254224.000179"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yeah the S is key thank you for catching <@U02613K0X> :smile:",
+        "ts": "1484254225.000180"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "they do have “millionwomenvoices” domain. will setup forwarding right now",
+        "ts": "1484254272.000181"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "That works though.",
+        "ts": "1484254298.000182"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "with the www",
+        "ts": "1484254302.000183"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "In Chrome on iPhone 6s. When I press the megaphone it opens up the \"You Look like a Woman\" page. When I press \"tell it\" or the megaphone, it just goes back to the page with videos. I can't get past that step.",
+        "ts": "1484254438.000184"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey i have a question… when it reaches 1000000, will the counter expand to 7 digits at the top of the screen? cause i just noticed its 6 rn",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1484254514.000000"
+        },
+        "ts": "1484254445.000185"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U1HKQRLMR> good catch. this was fixed. i’m deploying the latest version right now.",
+        "ts": "1484254539.000187"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U0260V1BX> good question!",
+        "ts": "1484254550.000188"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Okay. How long should I wait <@U1S5GKTHQ>?",
+        "ts": "1484254586.000189"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "It's doing the same thing on my Safari",
+        "ts": "1484254591.000190"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Will ping you here shortly.",
+        "ts": "1484254595.000191"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Kk",
+        "ts": "1484254597.000192"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "seems like we should just add a 7th digit in there so that there’s no deflating moment of going from 999999 to 000000 :wink:",
+        "ts": "1484254811.000193"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Hahah",
+        "ts": "1484254830.000194"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and is a good statement of the goal — let's get to the million",
+        "ts": "1484254841.000195"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i knwo that's a TON of people more than 54, but seems easy enough.",
+        "ts": "1484254858.000196"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U1HKQRLMR> please try refreshing. latest version pushed live",
+        "ts": "1484255742.000197"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "on an iPhone 6 the video did not time out at 2min, it just kept recording",
+        "ts": "1484255765.000198"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "unfortunately, we can’t limit native iOS camera recording\/video selection",
+        "ts": "1484255825.000199"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "can’t only limit if it’s done in-browser",
+        "ts": "1484255835.000200"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F3RHT9XPY\/screenshot_20170112-131651.png|Slack for Android Upload> and commented: Seeing this on Android Chrome now",
+        "file": {
+            "id": "F3RHT9XPY",
+            "created": 1484255847,
+            "timestamp": 1484255847,
+            "name": "Screenshot_20170112-131651.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 177548,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3RHT9XPY\/screenshot_20170112-131651.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3RHT9XPY\/download\/screenshot_20170112-131651.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RHT9XPY-442e9ae6ca\/screenshot_20170112-131651_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RHT9XPY-442e9ae6ca\/screenshot_20170112-131651_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RHT9XPY-442e9ae6ca\/screenshot_20170112-131651_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RHT9XPY-442e9ae6ca\/screenshot_20170112-131651_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RHT9XPY-442e9ae6ca\/screenshot_20170112-131651_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RHT9XPY-442e9ae6ca\/screenshot_20170112-131651_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RHT9XPY-442e9ae6ca\/screenshot_20170112-131651_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RHT9XPY-442e9ae6ca\/screenshot_20170112-131651_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F3RHT9XPY\/screenshot_20170112-131651.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3RHT9XPY-911c568775",
+            "channels": [
+                "C3MJM6DR6"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc3R0DKME1",
+                "created": 1484255847,
+                "timestamp": 1484255847,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "Seeing this on Android Chrome now"
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1484255852.000201"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks <@U0260V1BX> we’re still working through updating things as y’all are testing so there may be some visual bugs here and there...",
+        "ts": "1484255922.000202"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "mostly right now we are concerned with upload flow :slightly_smiling_face:",
+        "ts": "1484255934.000203"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "I think that’s just caching old CSS",
+        "ts": "1484255935.000204"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U0260V1BX> mind closing that window and opening a new one?",
+        "ts": "1484255953.000205"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yup, still getting it",
+        "ts": "1484255990.000206"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "15 tabs on mobile!",
+        "ts": "1484256004.000207"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "k sorry to get off track :flushed:",
+        "ts": "1484256006.000208"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":slightly_smiling_face:",
+        "ts": "1484256008.000209"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ha",
+        "ts": "1484256016.000210"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah i miss the way android used to treat chrome tabs, allowing me to close them with all my other apps",
+        "ts": "1484256057.000211"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "now i just forget about them",
+        "ts": "1484256068.000212"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok, the recording timed out at 2:33 on android… got an upload error asking me to try again which brought me back to the name\/city page… tapping CONTINUE exited back to the homescreen…",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1484256521.000000"
+        },
+        "ts": "1484256446.000213"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "not the gallery, the landing page",
+        "ts": "1484256458.000214"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "interesting.",
+        "ts": "1484256536.000216"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and now i can’t access the video i just made from the site because it just goes straight to my camera",
+        "ts": "1484256543.000217"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "though the video was saved to Photos",
+        "ts": "1484256552.000218"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "have to hop into a mtg but will be back in a bit",
+        "ts": "1484256563.000219"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Can't use the same email more than once. What if someone wants to upload multiple videos?",
+        "ts": "1484256593.000220"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F3Q7G8VS5\/screenshot_20170112-162808.png|Slack for Android Upload> and commented: How it loads on Nexus 5",
+        "file": {
+            "id": "F3Q7G8VS5",
+            "created": 1484256592,
+            "timestamp": 1484256592,
+            "name": "Screenshot_20170112-162808.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1S5GKTHQ",
+            "editable": false,
+            "size": 1078251,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3Q7G8VS5\/screenshot_20170112-162808.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3Q7G8VS5\/download\/screenshot_20170112-162808.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q7G8VS5-40b81eccdb\/screenshot_20170112-162808_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q7G8VS5-40b81eccdb\/screenshot_20170112-162808_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q7G8VS5-40b81eccdb\/screenshot_20170112-162808_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q7G8VS5-40b81eccdb\/screenshot_20170112-162808_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q7G8VS5-40b81eccdb\/screenshot_20170112-162808_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q7G8VS5-40b81eccdb\/screenshot_20170112-162808_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q7G8VS5-40b81eccdb\/screenshot_20170112-162808_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Q7G8VS5-40b81eccdb\/screenshot_20170112-162808_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F3Q7G8VS5\/screenshot_20170112-162808.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3Q7G8VS5-e15b5da1a2",
+            "channels": [
+                "C3MJM6DR6"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc3RHZSC3Y",
+                "created": 1484256592,
+                "timestamp": 1484256592,
+                "user": "U1S5GKTHQ",
+                "is_intro": true,
+                "comment": "How it loads on Nexus 5"
+            }
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1484256596.000221"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U1HKQRLMR> that was a client ask (limiting to one per email)",
+        "ts": "1484256613.000222"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "got it",
+        "ts": "1484256624.000223"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Well gosh that means I have to experiment with personal emails :wink: hahaha",
+        "ts": "1484256638.000224"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U1HKQRLMR> you can just use <mailto:test@123.com|test@123.com> or make shit up",
+        "ts": "1484256681.000225"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Melissa... Lol. I guess I was overthinking that hahahah.",
+        "ts": "1484256697.000226"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "In Safari got to \"Hell Yes!\" page. The \"Skip\" in green at the button is cut off.",
+        "ts": "1484256710.000227"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "when pressed x ended up with page below. When pressed microphone again was able to scroll on page with skip.",
+        "edited": {
+            "user": "U1HKQRLMR",
+            "ts": "1484256808.000000"
+        },
+        "ts": "1484256755.000228"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1HKQRLMR|megan.bauer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/megan.bauer\/F3RJ1FSQ6\/image_uploaded_from_ios.jpg|Image uploaded from iOS>",
+        "file": {
+            "id": "F3RJ1FSQ6",
+            "created": 1484256774,
+            "timestamp": 1484256774,
+            "name": "Image uploaded from iOS.jpg",
+            "title": "Image uploaded from iOS",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U1HKQRLMR",
+            "editable": false,
+            "size": 59691,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3RJ1FSQ6\/image_uploaded_from_ios.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3RJ1FSQ6\/download\/image_uploaded_from_ios.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RJ1FSQ6-1253a144cd\/image_uploaded_from_ios_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RJ1FSQ6-1253a144cd\/image_uploaded_from_ios_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RJ1FSQ6-1253a144cd\/image_uploaded_from_ios_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RJ1FSQ6-1253a144cd\/image_uploaded_from_ios_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RJ1FSQ6-1253a144cd\/image_uploaded_from_ios_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RJ1FSQ6-1253a144cd\/image_uploaded_from_ios_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 406,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RJ1FSQ6-1253a144cd\/image_uploaded_from_ios_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 541,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3RJ1FSQ6-1253a144cd\/image_uploaded_from_ios_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 577,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 640,
+            "original_h": 1136,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/megan.bauer\/F3RJ1FSQ6\/image_uploaded_from_ios.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3RJ1FSQ6-9e3ccab1f0",
+            "channels": [
+                "C3MJM6DR6"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1HKQRLMR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "megan.bauer",
+        "bot_id": null,
+        "ts": "1484256779.000229"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "damn. the server has pretty aggressive caching setup. not ideal for testing. latest styles not loading.",
+        "ts": "1484256857.000232"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1HKQRLMR|megan.bauer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/megan.bauer\/F3R0V64ER\/image_uploaded_from_ios.jpg|Image uploaded from iOS> and commented: On Chrome the dots are overlapping with submit button. Won't let me click submit button. ",
+        "file": {
+            "id": "F3R0V64ER",
+            "created": 1484257616,
+            "timestamp": 1484257616,
+            "name": "Image uploaded from iOS.jpg",
+            "title": "Image uploaded from iOS",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U1HKQRLMR",
+            "editable": false,
+            "size": 114286,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3R0V64ER\/image_uploaded_from_ios.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3R0V64ER\/download\/image_uploaded_from_ios.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0V64ER-bd593955d0\/image_uploaded_from_ios_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0V64ER-bd593955d0\/image_uploaded_from_ios_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0V64ER-bd593955d0\/image_uploaded_from_ios_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0V64ER-bd593955d0\/image_uploaded_from_ios_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0V64ER-bd593955d0\/image_uploaded_from_ios_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0V64ER-bd593955d0\/image_uploaded_from_ios_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 406,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0V64ER-bd593955d0\/image_uploaded_from_ios_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 541,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0V64ER-bd593955d0\/image_uploaded_from_ios_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 577,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 640,
+            "original_h": 1136,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/megan.bauer\/F3R0V64ER\/image_uploaded_from_ios.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3R0V64ER-5509d4dc73",
+            "channels": [
+                "C3MJM6DR6"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc3R0V6L1K",
+                "created": 1484257616,
+                "timestamp": 1484257616,
+                "user": "U1HKQRLMR",
+                "is_intro": true,
+                "comment": "On Chrome the dots are overlapping with submit button. Won't let me click submit button. "
+            }
+        },
+        "user": "U1HKQRLMR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "megan.bauer",
+        "bot_id": null,
+        "ts": "1484257618.000233"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "<@U1S5GKTHQ>",
+        "ts": "1484258173.000234"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "thank you",
+        "ts": "1484258196.000235"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U1S5GKTHQ> is there a filesize limit on video uploads? i keep getting upload errors",
+        "ts": "1484258696.000236"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "aaaand it just tossed me back to the landing screen again",
+        "ts": "1484258720.000237"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i noticed a bug on android if you hit return\/submit key on keyboard when entering email, it goes to landing screen",
+        "ts": "1484258758.000238"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "or are you on desktop?",
+        "ts": "1484258763.000239"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "no thats exacty whats happening",
+        "ts": "1484258771.000240"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "yeah, bug unfortunately. wrote it down. if you scroll down and hit the Continue button, it should work.",
+        "ts": "1484258796.000241"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "k thx",
+        "ts": "1484258801.000242"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "re: size limit. i dont believe we implemented one but we should",
+        "ts": "1484258808.000243"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ah yea that was intention to have a size limit but i don’t think we ever landed on one! i’ll add it to our to-do list...",
+        "ts": "1484258894.000244"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "k, then i just can’t upload… keep getting an error.",
+        "ts": "1484258908.000245"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F3R0W065S\/screenshot_20170112-140802.png|Slack for Android Upload>",
+        "file": {
+            "id": "F3R0W065S",
+            "created": 1484258923,
+            "timestamp": 1484258923,
+            "name": "Screenshot_20170112-140802.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 79704,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3R0W065S\/screenshot_20170112-140802.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3R0W065S\/download\/screenshot_20170112-140802.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0W065S-44d8bcedb0\/screenshot_20170112-140802_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0W065S-44d8bcedb0\/screenshot_20170112-140802_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0W065S-44d8bcedb0\/screenshot_20170112-140802_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0W065S-44d8bcedb0\/screenshot_20170112-140802_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0W065S-44d8bcedb0\/screenshot_20170112-140802_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0W065S-44d8bcedb0\/screenshot_20170112-140802_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0W065S-44d8bcedb0\/screenshot_20170112-140802_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3R0W065S-44d8bcedb0\/screenshot_20170112-140802_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F3R0W065S\/screenshot_20170112-140802.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3R0W065S-158acc3e21",
+            "channels": [
+                "C3MJM6DR6"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1484258925.000246"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "also we should probably fix that sentence to say Please try submitting again",
+        "ts": "1484258941.000247"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i guess the most frustrating part of this is that i can’t just access the video that i already recorded.",
+        "ts": "1484258978.000248"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "what do you mean?",
+        "ts": "1484259000.000249"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "that you can’t upload? or that you uploaded one and now you can’t find it?",
+        "ts": "1484259025.000250"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "on android it doesnt give me the option to use my camera or select an existing video",
+        "ts": "1484259042.000251"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "it just goes straight to the camera",
+        "ts": "1484259049.000252"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ah",
+        "ts": "1484259056.000253"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "hmm i’m not sure that we can have that at this point unfortunately",
+        "ts": "1484259069.000254"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "we’re browser detecting to have *either* record or upload flow",
+        "ts": "1484259081.000255"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "not both",
+        "ts": "1484259083.000256"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "just a limitation of dev",
+        "ts": "1484259088.000257"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "it asked on my iphone",
+        "ts": "1484259091.000258"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yes because we’re browser detecting",
+        "ts": "1484259098.000259"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ah",
+        "ts": "1484259102.000260"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "and we know iphone upload only works",
+        "ts": "1484259106.000261"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "gotcha",
+        "ts": "1484259111.000262"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "no its a native implementation. its different on android. doesn’t ask just goes to the camera",
+        "ts": "1484259137.000263"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "iphone gives u a few more options",
+        "ts": "1484259149.000264"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "well the UX of just going straight to the camera is good until i record a video and then it fails to upload.",
+        "ts": "1484259149.000265"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thx melissa",
+        "ts": "1484259163.000266"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "we’ll look into the failed upload",
+        "ts": "1484259175.000267"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "it fails on my android device too, so should be easy to pinpoint i hope",
+        "ts": "1484259193.000268"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sorry, not trying to make this more difficult :flushed:",
+        "ts": "1484259244.000269"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "it’s ok, we want to find bugs",
+        "ts": "1484259253.000270"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "fixing bugs is harder...",
+        "ts": "1484259257.000271"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U0260V1BX> not at all! super helpful",
+        "ts": "1484259275.000272"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "and we have to prioritize what we *can* do at this point b\/c we’re trying to go live TOMORROW",
+        "ts": "1484259280.000273"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Go team, go!",
+        "ts": "1484259381.000274"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "Is there anything else I can do right now? I reported Safari results and couldn't get any further in Chrome.",
+        "ts": "1484259425.000275"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Desktop \/ Chrome Version 55.0.2883.95 (64-bit) (same version as ewald) -  I ran into the same video timeout error as ewald. was not able to submit\/re-take. Was only presented with a red record button which re-activated the camera. Manually stopping the video before it times out at 2:00 works just fine.",
+        "ts": "1484259646.000276"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thx for confirming <@U0260V1BX>",
+        "ts": "1484259855.000277"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "One other random bit I'm finding — same setup as before: Desktop \/ Chrome Version 55.0.2883.95 (64-bit). If I add odd characters to max out the form field (e.g. **)*¥¥ˆ¥´††®œøππ¨´π¨·°‡‚ﬂ‚·°ﬂ‚·‡ﬂﬁ‡°›) I can't submit any videos of any length. It allows me to record, but stalls at the 'submit' screen.",
+        "ts": "1484260491.000278"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "unsure if that's due to character length or odd characters, but wanted to make note",
+        "ts": "1484260523.000279"
+    }
+]

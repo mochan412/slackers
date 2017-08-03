@@ -1,0 +1,122 @@
+[
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm starting to familiarize myself with the Trapit API. Does anyone know where I might find the \"org_slug\" referenced in their docs? <http:\/\/trapit.github.io\/documentation\/?#\/Getting-Started-Public>",
+        "attachments": [
+            {
+                "text": "Documentation website",
+                "fallback": "Documentation website",
+                "from_url": "http:\/\/trapit.github.io\/documentation\/?#\/Getting-Started-Public",
+                "id": 1
+            }
+        ],
+        "ts": "1407357038.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "(<@U026PHQ3J> <@U02613K0X>)",
+        "ts": "1407357062.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "I can reach out Ethan and trapit and ask",
+        "ts": "1407357105.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "if <@U026PHQ3J> and <@U02613K0X> aren't familiar",
+        "ts": "1407357112.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I don’t know the url base or the slug. If I’m remembering correctly from the kickoff meeting, OMSI has already set up a trapit account with some traps, so it should only be a matter of retrieving that info from them if we haven’t already.",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1407357298.000000"
+        },
+        "ts": "1407357286.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<http:\/\/omsi.trap.it|omsi.trap.it>",
+        "ts": "1407357306.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "is omsi's account if that helps. login info: user\/ <mailto:karen@uncorkedstudios.com|karen@uncorkedstudios.com>, pass\/ trapitKO",
+        "ts": "1407357325.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "that covers the url base, but not the slug. I checked around the dashboard for it, but didn't find any clues.",
+        "ts": "1407357412.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "what's a slug",
+        "ts": "1407357497.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "let me know what you need and i can email ethan at trapit for ya. he'll get you what you need.",
+        "ts": "1407357522.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "is it the thing that gets appended to the url",
+        "ts": "1407357530.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "where do we go to login to a trapit account?",
+        "ts": "1407357598.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<http:\/\/omsi.trap.it|omsi.trap.it>",
+        "ts": "1407357629.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "it will redirect you to <http:\/\/omsi.trap.it\/curate\/|omsi.trap.it\/curate\/> but <http:\/\/omsi.trap.it|omsi.trap.it> is sufficient",
+        "ts": "1407357648.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "our api url will be <https:\/\/omsi.trap.it\/api\/v4\/{org_slug}\/public-traps\/> but we'll have to get the org_slug from someone--I'm assuming Ethan is our best bet",
+        "ts": "1407357708.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "According to the doc \"All Trapit clients using public traps will receive a custom, organization specific URL base and org_slug\". So maybe it's buried in whatever activation email was sent when the account was originally set up?",
+        "ts": "1407357789.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ok, i'll ask ethan.",
+        "ts": "1407357810.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "thanks Karen",
+        "ts": "1407357836.000021"
+    }
+]

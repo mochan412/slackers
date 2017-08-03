@@ -1,0 +1,239 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Swimsuit reminder for any swimmers ",
+        "ts": "1471527451.000418",
+        "reactions": [
+            {
+                "name": "bikini",
+                "users": [
+                    "U0J6TE0CA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "swimmer::skin-tone-4",
+                "users": [
+                    "U0J6TE0CA",
+                    "U1HKQRLMR",
+                    "U06DFL7BP"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "<@U06DFL7BP>: When are we going? I’m waiting to eat until after the swim",
+        "ts": "1471546256.000419"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "noon?",
+        "ts": "1471546281.000420"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "okay! I’m gonna go change!",
+        "ts": "1471546344.000421"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "who’s all goin? i might walk down and hang out with yas and grab some lunch at sugar street.",
+        "ts": "1471546580.000422",
+        "reactions": [
+            {
+                "name": "hand",
+                "users": [
+                    "U051P3FPY"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll come along to watch and cheer you on",
+        "ts": "1471546598.000423"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im going!",
+        "ts": "1471546630.000424"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i will come and get a burrito",
+        "ts": "1471546642.000425"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": ":hand::skin-tone-4:",
+        "ts": "1471546708.000426"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Kaitlyn and I are suited up and waiting by Kate's desk :) :dark_sunglasses:",
+        "ts": "1471547019.000427"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "Email has been offline today and we think Joel has a fix in progress. Amazing how long it took us to notice. Fuck you slack.",
+        "ts": "1471550155.000428"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02918BKW>: how do we know that its offline?",
+        "ts": "1471550313.000429"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "when did it go offline?",
+        "ts": "1471550332.000430"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": ":flushed:",
+        "ts": "1471550376.000431"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, switched things back to where they were pre-changeover",
+        "ts": "1471550425.000432"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and it looks like DNS has propagated",
+        "ts": "1471550431.000433"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "receiving mails. any guesses whats going to happen to messages “received” during the blackout?",
+        "ts": "1471550478.000434"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the strange bit is that MT is configured to use Google as an external mail server, so we’ll have to dig into how routing works on MT’s side before cutting over again",
+        "ts": "1471550540.000435"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/uncorked.slack.com\/archives\/announce\/p1471550332000430>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/announce\/p1471550332000430",
+                "fallback": "[August 18th, 2016 12:58 PM] evans: when did it go offline?",
+                "ts": "1471550332.000430",
+                "author_subname": "evans",
+                "channel_id": "C02AXGXJQ",
+                "channel_name": "announce",
+                "is_msg_unfurl": true,
+                "text": "when did it go offline?",
+                "author_name": "Budget Evans",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/evans",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-08-02\/65510754612_e8f9ceaf4bd2804fd05b_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "footer": "Posted in #announce"
+            }
+        ],
+        "ts": "1471550579.000436"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yea john’s question makes me a little nervous… i know i was sent an email during the down period and although i’m getting email now, that one hasn’t come through",
+        "ts": "1471550643.000438"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "switch happened at 7:50, website was running on Heroku at 8am",
+        "ts": "1471550686.000439"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Mail servers should retry ",
+        "ts": "1471550689.000440"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "switched back at 1",
+        "ts": "1471550691.000441"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yep - depending on retry interval, things should trickle in now",
+        "ts": "1471550707.000442"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thx. just notifying some clients.",
+        "ts": "1471550708.000443"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll get on the phone with MT support today to root-cause and understand how to move without breaking mail",
+        "ts": "1471550801.000444"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "and won’t change-over until the weekend",
+        "ts": "1471550808.000445"
+    },
+    {
+        "type": "message",
+        "user": "U1FTVHWR5",
+        "text": "An email sent to me at 11:59am was delivered now so I think emails will start to funnel in",
+        "ts": "1471550876.000446"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Looks like MT has 2 DNS servers configured - one on the dashboard for the domain(s), and one on the server configured through Plesk. So even if you follow all the instructions on the dashboard (like I did), the other one was still configured to route to <http:\/\/mail.uncorkedstudios.com|mail.uncorkedstudios.com> behind the scenes. Appears to be the issue.",
+        "ts": "1471551050.000447"
+    },
+    {
+        "type": "message",
+        "user": "U0HS41J3Y",
+        "text": "<!channel> We’re having a hood to coast team meeting at 5:30 today so Gaston will be dropping by!",
+        "ts": "1471564123.000448",
+        "reactions": [
+            {
+                "name": "tada",
+                "users": [
+                    "U026E0ZNR",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

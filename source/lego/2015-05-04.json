@@ -1,0 +1,116 @@
+[
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "What happened to the DEBUG flag?",
+        "ts": "1430772078.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I removed it",
+        "ts": "1430772111.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I dont like that I removed it",
+        "ts": "1430772127.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "but I did it.",
+        "ts": "1430772136.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "haha, should it stay removed?",
+        "ts": "1430772143.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "you can put it back but the app wont compile",
+        "ts": "1430772154.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "there is stuff in the listening tool that just flat out wont compile if DEBUG is true and I have been able to rectify.",
+        "ts": "1430772198.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok",
+        "ts": "1430772204.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "there’s a trello card to remove stuff from there that we dont need, with the hope of being able to cut out the offending garbage and then add back the DEBUG flag.",
+        "ts": "1430772231.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Since DEBUG isn't defined, LSLog doesn't run. Should I change over to NSLog or import a DLog-type solution?",
+        "ts": "1430772237.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Ah, let me actually change the flags….  It didn’t occur to me that all I have to do is just change the #ifdef DEBUG in the listener to be ifdef’ing on something other than DEBUG",
+        "ts": "1430772322.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "then you can have DEBUG back",
+        "ts": "1430772334.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok. thanks!",
+        "ts": "1430772342.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "commit is pushed to stickerModel",
+        "ts": "1430773214.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<https:\/\/bitbucket.org\/uncorkedstudios\/lego-superheroes\/commits\/be7dcf589e242ed8599af89ccec17342cf95e639>",
+        "ts": "1430773231.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "you can choose to cherry pick, merge, or just manually make those changes in your branch.",
+        "ts": "1430773254.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "thanks",
+        "ts": "1430773268.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<!channel>: over-install test went just fine.  (Yay!) I will merge into spencer’s branch and then work out of that. - anyone can get the latest build or the appstore build from this link: <http:\/\/bit.ly\/1OVi9Lt>",
+        "ts": "1430779157.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":metal-hair:",
+        "ts": "1430779180.000020"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> can you and <@U0EL0GLEL> connect on lines 2 and 8 of this doc? <https:\/\/docs.google.com\/a\/google.com\/spreadsheets\/d\/1RPFv8YMJ8W5KA__HZdQkERXcb7usGJGSkbYuN5r9W14\/edit?usp=sharing>\nRoot Cause anlaysis.  Can we repro?  We in control over em or do to config\/code changes on their side?",
+        "ts": "1491516695.904691"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F4VT5MYBX\/_feature_list|Global Impact Exhibit | Bug \/ Feature List>",
+        "file": {
+            "id": "F4VT5MYBX",
+            "created": 1491516696,
+            "timestamp": 1491516696,
+            "name": " Feature List",
+            "title": "Global Impact Exhibit | Bug \/ Feature List",
+            "mimetype": "application\/vnd.google-apps.spreadsheet",
+            "filetype": "gsheet",
+            "pretty_type": "GDocs Spreadsheet",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 58753,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/google.com\/spreadsheets\/d\/1RPFv8YMJ8W5KA__HZdQkERXcb7usGJGSkbYuN5r9W14\/edit?usp=sharing",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gsheet_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gsheet_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F4VT5MYBX\/_feature_list",
+            "channels": [
+                "C21JQC57E"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1491516696.904945"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "doing a call with them tomorrow to have them explain em to us.  Wanna be prepared on the call",
+        "ts": "1491516708.908525"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> whatcha make of this?",
+        "ts": "1491522903.232160"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "2 looks like a CMS admin issue, Peter appears to have a fix, can path\/QA\/deploy. Low-risk. Data is correct in the dev DB, not in prod. We cleaned up test data before demo, can port over.",
+        "ts": "1491542081.900513"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "We never saw anything like 8 on our rig, and tested for it. We will attempt to repro tomorrow AM with code as-delivered to determine if it’s due to the changes Jose introduced.",
+        "ts": "1491542138.907379"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok, sorry i started convo in wrong channel",
+        "ts": "1491542328.928299"
+    }
+]

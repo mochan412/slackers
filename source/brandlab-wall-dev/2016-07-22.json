@@ -1,0 +1,62 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: in jira tickets for upcoming sprints i’m trying to use use stories and see if this can catch on with client.  let me know if this is NOT helpful.  i feel that its worked well for us in the past",
+        "ts": "1469205093.000131"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: as discussed, until our estimation meeting it’s a good use of peter’s time to de-bug the lack of initials on bubbles on Wall.  <@U0J6TE0CA> will be doing an independent audit of the experience as well, sending me any findings",
+        "ts": "1469210048.000132"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: got this in Myles’ feedback:\n\nPS1, Line 184:\nangular.element(\"#circle_\"+$scope.questionID+\"_\"+$scope.answerID+\" .fill\").css(transform_styles[i], 'rotate('\n+ fill_rotation + 'deg)');\n              :\nangular.element(\"#circle_\"+$scope.questionID+\"_\"+$scope.answerID+\" .mask.full\").css(transform_styles[i], 'rotate('\n+ fill_rotation + 'deg)');\n              :\nangular.element(\"#circle_\"+$scope.questionID+\"_\"+$scope.answerID+\" .fill.fix\").css(transform_styles[i], 'rotate('\n+ fix_rotation + 'deg)');\nIt's generally a bad practice to access dom from a controller.  A better\noption here would be to use the element parameter of the link method.",
+        "ts": "1469230201.000133"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "How much do we care\/is it worth fixing?",
+        "ts": "1469230211.000134"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that seems like a pretty big change",
+        "ts": "1469230545.000135"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yep, thought so",
+        "ts": "1469230940.000136"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: just pushed linting updates to dev",
+        "ts": "1469230949.000137"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "SHOULD be a non-issue, purely cosmetic, but let’s verify when we get a chance on-wall",
+        "ts": "1469230966.000138"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool",
+        "ts": "1469230988.000139"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: does that mean we are pushing back on that piece of feedback?",
+        "ts": "1469238143.000140"
+    }
+]

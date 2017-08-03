@@ -1,0 +1,116 @@
+[
+    {
+        "text": "[smallbatch-frontend\/] 2 new commits:\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/0ede6f7e8c46da00176fbef30668142be51246d4|0ede6f7e8c46>: adding server task and push w\/o imagemin\n - Jennifer Louthan\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/87d05ec114ef2f8ba9967f4f573ed1b09072ddd7|87d05ec114ef>: only displaying published beers and cocktails\n - Jennifer Louthan",
+        "username": "bitbucket",
+        "bot_id": "B02AZR08H",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1413311556.000002"
+    },
+    {
+        "text": "[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/>:  - ",
+        "username": "bitbucket",
+        "bot_id": "B02AZR08H",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1413311705.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<!channel>: hey everybody. on mobile, clicking about this beer from the beer detail page, all beers are showing their correct values and associated numbers, though the copy description for each beer is the same across all 8 beers. can we take a look at this when we get a chance?",
+        "ts": "1413322646.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "looks like its missing a {{this.description}}",
+        "ts": "1413323331.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Is that a new bug?",
+        "ts": "1413324334.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "yes",
+        "ts": "1413324491.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "client just sent this a few moments ago.",
+        "ts": "1413324525.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "is this something we can fix or is it a new feature in your minds?",
+        "ts": "1413324566.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Happy to take a look",
+        "ts": "1413324613.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02HAJ6JF> Found the problem: We need to update line 46 of the beer-mobile and beer-mobile-landing views and replace the text with {{this.description}}",
+        "ts": "1413325917.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I'm happy to do this but I'm still unable to push to the server without messing up the animations.",
+        "ts": "1413325965.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i'll just do it",
+        "ts": "1413326013.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "you got it. but there's an issue with navigating to \/beers, the description is still the default. when you navigate back to mr mizzles the description is updated",
+        "ts": "1413326015.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02HAJ6JF> let me know if you need me to do anything to push to production once you have the fixes",
+        "ts": "1413326070.000015"
+    },
+    {
+        "text": "[smallbatch-frontend\/master] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/e7bf0db656378c9c08bdad8d4cdef83180ba6d05|e7bf0db65637>: adds this.description to mobile beers views\n - JFingert",
+        "username": "bitbucket",
+        "bot_id": "B02AZR08H",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1413326513.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks all!",
+        "ts": "1413327258.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026AP8CM> joshua's changes have been pushed",
+        "ts": "1413328617.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks!",
+        "ts": "1413328925.000019"
+    }
+]

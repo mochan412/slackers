@@ -1,0 +1,431 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Fyi - update from Kat, first JS push will be a video so need to test share functionality for that ",
+        "ts": "1478115945.001670"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oooh interesting",
+        "ts": "1478116074.001671"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we have a video in Koons I thought we could test but there's no share button associated with it?",
+        "ts": "1478116112.001672"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "hm",
+        "ts": "1478116280.001673"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!here|@here> we’ve just received some new launch blockers for JS in JIRA - i’ve assigned, but please take a look and make all blockers priority over other tasks",
+        "ts": "1478117011.001674"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and let me know if you have questions",
+        "ts": "1478117021.001675"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(ie - both JS + Workshop have blockers, let’s tackle em all asap)",
+        "ts": "1478117083.001676"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1S5GKTHQ> <@U026PHQ3J> any idea why that video (its the first\/bottom notification from koons) doesnt have a share? i think thatd be the best way to test on prod",
+        "ts": "1478117227.001677"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "lookin'",
+        "ts": "1478117261.001678"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thankyou!",
+        "ts": "1478117342.001679"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i see a share under the video",
+        "ts": "1478117454.001680"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "unless im missing something",
+        "ts": "1478117457.001681"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F2XTFU2Q5\/screenshot_20161102-161107.png|Slack for Android Upload>",
+        "file": {
+            "id": "F2XTFU2Q5",
+            "created": 1478117484,
+            "timestamp": 1478117484,
+            "name": "Screenshot_20161102-161107.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1S5GKTHQ",
+            "editable": false,
+            "size": 276420,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2XTFU2Q5\/screenshot_20161102-161107.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2XTFU2Q5\/download\/screenshot_20161102-161107.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XTFU2Q5-ef498c8616\/screenshot_20161102-161107_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XTFU2Q5-ef498c8616\/screenshot_20161102-161107_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XTFU2Q5-ef498c8616\/screenshot_20161102-161107_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XTFU2Q5-ef498c8616\/screenshot_20161102-161107_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XTFU2Q5-ef498c8616\/screenshot_20161102-161107_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XTFU2Q5-ef498c8616\/screenshot_20161102-161107_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XTFU2Q5-ef498c8616\/screenshot_20161102-161107_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XTFU2Q5-ef498c8616\/screenshot_20161102-161107_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F2XTFU2Q5\/screenshot_20161102-161107.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2XTFU2Q5-350577046d",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1478117488.001682"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "oh weird, its gone now",
+        "ts": "1478117529.001683"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah not seeing on my end at all :confused: thats weird",
+        "ts": "1478117581.001684"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "looking at a previous build pointed at tidy i see another video that also doesnt have share",
+        "ts": "1478117605.001685"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so wondering if its something video-specific",
+        "ts": "1478117617.001686"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It might be something video specific ",
+        "ts": "1478117973.001687"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i dont see anything different between media &amp; image news item",
+        "ts": "1478118785.001688"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":thinking_face: ",
+        "ts": "1478118941.001689"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hmm we gotta get to the bottom on this one <@U026PHQ3J> any ideas? wondering if something related to the ordering mix up fix we made a while back?",
+        "ts": "1478120029.001690"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "found something. might have a fix",
+        "ts": "1478120226.001691"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "woo hoo!",
+        "ts": "1478120237.001692"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/s66.photobucket.com\/user\/Pour1Malt\/media\/Homer_the_Jambo.jpg.html>",
+        "attachments": [
+            {
+                "service_name": "Photobucket",
+                "title": "Photo by Robertson Malt",
+                "title_link": "http:\/\/s66.photobucket.com\/user\/Pour1Malt\/media\/Homer_the_Jambo.jpg.html",
+                "text": "Explore Robertson Malt's photos on Photobucket.",
+                "fallback": "Photobucket: Photo by Robertson Malt",
+                "image_url": "http:\/\/i66.photobucket.com\/albums\/h248\/Pour1Malt\/Homer_the_Jambo.jpg",
+                "from_url": "http:\/\/s66.photobucket.com\/user\/Pour1Malt\/media\/Homer_the_Jambo.jpg.html",
+                "image_width": 249,
+                "image_height": 249,
+                "image_bytes": 15508,
+                "service_icon": "http:\/\/pic2.pbsrc.com\/common\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1478120237.001693"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(oh jeez)",
+        "ts": "1478120247.001695"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U1A1A9L7N> We need to change the color of two icons for Jeremy Scott. Would you have a moment to change some colors? I'll attach the images and hex values",
+        "ts": "1478125311.001696"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F2Y06ME3E\/nfc_ic_news_weather_unselected.png|nfc_ic_news_weather_unselected.png> and commented: white (#ffffff)",
+        "file": {
+            "id": "F2Y06ME3E",
+            "created": 1478125389,
+            "timestamp": 1478125389,
+            "name": "nfc_ic_news_weather_unselected.png",
+            "title": "nfc_ic_news_weather_unselected.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 4071,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2Y06ME3E\/nfc_ic_news_weather_unselected.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2Y06ME3E\/download\/nfc_ic_news_weather_unselected.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2Y06ME3E-2cf03033f8\/nfc_ic_news_weather_unselected_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2Y06ME3E-2cf03033f8\/nfc_ic_news_weather_unselected_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2Y06ME3E-2cf03033f8\/nfc_ic_news_weather_unselected_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 160,
+            "thumb_360_h": 160,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2Y06ME3E-2cf03033f8\/nfc_ic_news_weather_unselected_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 160,
+            "original_h": 160,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F2Y06ME3E\/nfc_ic_news_weather_unselected.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2Y06ME3E-22c544e191",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2Y0N910X",
+                "created": 1478125389,
+                "timestamp": 1478125389,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "white (#ffffff)"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1478125391.001697"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F2XU7QT3M\/nfc_ic_news_weather_selected.png|nfc_ic_news_weather_selected.png> and commented: google blue - #4285F4",
+        "file": {
+            "id": "F2XU7QT3M",
+            "created": 1478125403,
+            "timestamp": 1478125403,
+            "name": "nfc_ic_news_weather_selected.png",
+            "title": "nfc_ic_news_weather_selected.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 5542,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2XU7QT3M\/nfc_ic_news_weather_selected.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2XU7QT3M\/download\/nfc_ic_news_weather_selected.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XU7QT3M-5932fd5dc5\/nfc_ic_news_weather_selected_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XU7QT3M-5932fd5dc5\/nfc_ic_news_weather_selected_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XU7QT3M-5932fd5dc5\/nfc_ic_news_weather_selected_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 160,
+            "thumb_360_h": 160,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2XU7QT3M-5932fd5dc5\/nfc_ic_news_weather_selected_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 160,
+            "original_h": 160,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F2XU7QT3M\/nfc_ic_news_weather_selected.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2XU7QT3M-2395534d0b",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2XU7R4SX",
+                "created": 1478125403,
+                "timestamp": 1478125403,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "google blue - #4285F4"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1478125405.001698"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yo <@U1A1A9L7N> you around to help with this snazzy asset colors swap?",
+        "ts": "1478128787.001699"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not a firedrill, but would be great to have today if possible",
+        "ts": "1478128826.001700"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "if not we can tackle in am",
+        "ts": "1478128834.001701"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1A1A9L7N|leah> uploaded a file: <https:\/\/uncorked.slack.com\/files\/leah\/F2Y1D7SUF\/archive.zip|Archive.zip> and commented: <@U2H61EJSG> Try these. Let me know if the edges don't look good enough when on the device",
+        "file": {
+            "id": "F2Y1D7SUF",
+            "created": 1478129295,
+            "timestamp": 1478129295,
+            "name": "Archive.zip",
+            "title": "Archive.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U1A1A9L7N",
+            "editable": false,
+            "size": 7498,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2Y1D7SUF\/archive.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2Y1D7SUF\/download\/archive.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/leah\/F2Y1D7SUF\/archive.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2Y1D7SUF-6f1485397e",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc2Y120VML",
+                "created": 1478129295,
+                "timestamp": 1478129295,
+                "user": "U1A1A9L7N",
+                "is_intro": true,
+                "comment": "<@U2H61EJSG> Try these. Let me know if the edges don't look good enough when on the device"
+            }
+        },
+        "user": "U1A1A9L7N",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "leah",
+        "bot_id": null,
+        "ts": "1478129296.001702"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thank you mucho!",
+        "ts": "1478129463.001703"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> All of the changes I made in Editions today are on `localization_update` (I probably should have created a new branch, whoops!)",
+        "ts": "1478131837.001704"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "so are mine",
+        "ts": "1478131924.001705"
+    }
+]

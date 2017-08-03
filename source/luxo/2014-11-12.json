@@ -1,0 +1,210 @@
+[
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "was there some kind of luxo standup?",
+        "ts": "1415820112.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "jenny?",
+        "ts": "1415820136.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "don't leave me hanging",
+        "ts": "1415820140.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "haha",
+        "ts": "1415820143.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "busted!",
+        "ts": "1415820146.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "no i don't think so",
+        "ts": "1415820151.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "okay, can everyone throw a brief update on here",
+        "ts": "1415820157.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "i know there are weird meetings and stuff, and tomorrow it looks like we have a call with luke at standup time",
+        "ts": "1415820176.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "me: waiting on projector decision. once that happens I want to rebuild the rig with just that projector at the right height. then I can start worrying about counter and glass",
+        "ts": "1415820276.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'm working on building out the node app to handle events it gets straight from opencv and gaston's frontend over websocket. Hopefully will get to test it out on the rig later today.",
+        "ts": "1415820398.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I wrote a quick page to generate dummy pan movements to style things until we have our server up and running.",
+        "ts": "1415820489.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "is the projector decision expected shortly? is it Luke's call?",
+        "ts": "1415821387.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yes and yes. I made my recommendations on basecamp",
+        "ts": "1415821644.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I posted my findings from a basic food boundary test yesterday, and today I'm finishing outlining their proposed script into UX illustrations (also referred to as \"storyboards\").  I'm also highlighting our key questions and concerns, while outlining a proposed feature list.",
+        "ts": "1415822656.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Question for <!channel>: How will pot\/pan recognition work if the pot\/pan is full of water?",
+        "ts": "1415822716.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i filled the little pot with water last week and it didn't seem to affect the recognition at all",
+        "ts": "1415822760.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "cool",
+        "ts": "1415822764.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Then I spilled it",
+        "ts": "1415822827.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I literally just wrote down \"will moving a pot full of water spill?\"",
+        "ts": "1415822855.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "We ask the tough questions.",
+        "ts": "1415822869.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i think it depends on whether or not the person moving the pot know it has water in it",
+        "ts": "1415822902.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "but more research may be required",
+        "ts": "1415822919.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "if water spills on the surface, could it mess with touch detections?",
+        "ts": "1415823011.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "basically, i'm trying to make the case (for or against) using actual food &amp; water in this demo",
+        "ts": "1415823195.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I don't expect water on the surface will affect touch",
+        "ts": "1415825424.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "question from luke that i would like to answer eventually : what's the status\/thinking on video recording from above?",
+        "ts": "1415828081.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we can do this now - we have code samples for both the Kinect and Intel cam that will capture the RGB stream to video via OpenCV",
+        "ts": "1415829298.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, I'm about to back-rev OpenCV to 2.4.9 on the box to clean up some build issues. I will keep the CV3.0 build as a backup",
+        "ts": "1415834931.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "k",
+        "ts": "1415835107.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "all installed. <@U02613K0X>: would you mind doing a quick rebuild on your stuff to make sure I didn't (completely) break anything?",
+        "ts": "1415835345.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X> you will likely get some naming errors",
+        "ts": "1415835580.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "CV_ prefix vs. COLOR_ prefix",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1415835592.000000"
+        },
+        "ts": "1415835589.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i see. i'll be in in 10 mins?",
+        "ts": "1415835604.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "still working fine",
+        "ts": "1415837898.000038"
+    }
+]

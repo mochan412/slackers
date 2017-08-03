@@ -1,0 +1,126 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026AP8CM> do we have descriptions for the new eats category names?",
+        "ts": "1408990706.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1408990711.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "is the description the \"beer loves pizza. pizza loves beer\" text",
+        "ts": "1408990748.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes",
+        "ts": "1408990813.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "i will ask",
+        "ts": "1408990944.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks.",
+        "ts": "1408990966.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Also, could you bring to their attention what happens when the title + description break into 2 lines? I don't think that was accounted for in their comps.",
+        "ts": "1408991048.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "yds",
+        "ts": "1408991091.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "yes*",
+        "ts": "1408991093.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026AP8CM>, in the last email, they said tank inputs will never read lower than 80. Currently there are a couple that read 0. So I’m going to treat both readings of 80 and readings less than 80 as empty tanks. just fyi in case it comes up in the future",
+        "ts": "1408995429.000011"
+    },
+    {
+        "text": "[SmallBatch-CMS\/] 6 new commits:\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/827d9ee09660df1c434b1a84e1a04a8963455de2|827d9ee09660>: saving beers as published\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/11fc520af4526e3b9a6cf7045e02dc45130b63e1|11fc520af452>: background color problem\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/672fd2df68454a6342fa34f8eee93523d0a74664|672fd2df6845>: support for recurring events\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/4c1c8647b19be197f3e78422341d7be940de5617|4c1c8647b19b>: giving beers appropriate image objects\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/78188bca611c46edc6e873edfcee2c87e306a3c3|78188bca611c>: removing beers from beer manager correctly\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/c808dc150751cc47628b65bb0fce31cfbdab9130|c808dc150751>: more updates for beer model\n - Jennifer Louthan",
+        "username": "bitbucket",
+        "bot_id": "B02AXN8LP",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1408995750.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1> beer images are updated in the CMS now. You should look for imageDesktop and imageMobile objects on the beer model now",
+        "ts": "1408996095.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<@U02613K0X>: makes sense. will let the client know. thanks~",
+        "ts": "1408996104.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "(beer tank levels not cms images)",
+        "ts": "1408996141.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thank <@U02613K0X>.",
+        "ts": "1408996609.000016"
+    },
+    {
+        "text": "[SmallBatch-CMS\/] 10 new commits:\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/dd9a58046455da92262b9bbb83f7329928dd8cc0|dd9a58046455>: removing infinite scroll and adding date sorting to events manager\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/1e432c41f96a7d76125e2832f149701703a2d662|1e432c41f96a>: loading all items at once on eats manager\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/559d5cc52663d7419e531d61f1c6672f38d66ac6|559d5cc52663>: only looking for published entries\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/5c6de36828351718f3000f57258230c2bf62af7a|5c6de3682835>: ensuring beer weights are maintained correctly\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/eb5fee6e2d60fbab21c38d53578ed1e69ed4fbba|eb5fee6e2d60>: updating weights when deleting beers\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/6e30d6fb666232fbd875bb5d18c39d22749de872|6e30d6fb6662>: setting weights properly on cocktails and eats\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/8ced3e64b12f44c92414d7cdf3eef85b17e85376|8ced3e64b12f>: gracefully deleting menu items\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/727a76fd480a9a63087bffc615299f07ac340cb6|727a76fd480a>: fixing beer style select\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/b6f299f3a61df3f118b3b4c20cb66930974332d7|b6f299f3a61d>: form validation for cocktails and menu items\n - Jennifer Louthan\n[SmallBatch-CMS\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-cms\/commits\/83559c55449c5b3ac41b0c8bd676d749de26881f|83559c55449c>: form validation for philosophy and event pages\n - Jennifer Louthan",
+        "username": "bitbucket",
+        "bot_id": "B02AXN8LP",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1409012984.000017"
+    },
+    {
+        "text": "[smallbatch-frontend\/] 8 new commits:\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/ebb61a1fde09acda131960295cbf70684e81c92a|ebb61a1fde09>: Wire up home&gt;brewing now.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/772bb3d47b2a6537ca79804c7c36112e17765223|772bb3d47b2a>: Fix desktop&gt;eats.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/faccd5d71b4b1b1f428544d7b1839b76c4ab43ef|faccd5d71b4b>: Add bring back vote.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/b880608855118139dff59c93b106b793e3f504da|b88060885511>: Fix archive height bug on Safari.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/975ad74b06f9f5571638fb1c7a424127f42e65b0|975ad74b06f9>: Prevent clicks on voted after user voted.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/7e6eaf23bbaca131d966907bc8f6378891eeb887|7e6eaf23bbac>: Add beer images to archive.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/620b24d7544a7098c6300ec6fc16180a8ce0427a|620b24d7544a>: Add beer images to home page.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/41a3a5dc0aded2cae49a5c491b1341d761380500|41a3a5dc0ade>: Wire up beer voting.\n - Gaston Figueroa",
+        "username": "bitbucket",
+        "bot_id": "B02AZR08H",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1409015996.000018"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1409024457.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":beers:",
+        "ts": "1409030126.000002"
+    }
+]

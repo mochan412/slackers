@@ -1,0 +1,70 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I don't know if anyone else noticed this... but they got their real URL for the first time. used to be <http:\/\/weareinstrument.com|weareinstrument.com>",
+        "attachments": [
+            {
+                "text": "We are an independent digital creative agency in Portland, Oregon.",
+                "fallback": "We are an independent digital creative agency in Portland, Oregon.",
+                "from_url": "http:\/\/weareinstrument.com",
+                "id": 1
+            }
+        ],
+        "ts": "1412701173.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<http:\/\/instrument.com|instrument.com> used to be some industrial manufacturer site.",
+        "attachments": [
+            {
+                "service_name": "Instrument",
+                "title": "Homepage",
+                "title_link": "http:\/\/instrument.com",
+                "text": "We are an independent digital creative agency in Portland, Oregon.",
+                "fallback": "Instrument: Homepage",
+                "from_url": "http:\/\/instrument.com",
+                "id": 1
+            }
+        ],
+        "ts": "1412701187.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Homepage! I love that site",
+        "ts": "1412701194.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "haha, they say they are all about simplifying.",
+        "ts": "1412701317.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<http:\/\/photoshopsecrets.tumblr.com\/post\/99320444200\/whats-new-in-photoshop-cc-2014-v2>",
+        "attachments": [
+            {
+                "title": "What's New in Photoshop CC 2014 V2",
+                "title_link": "http:\/\/photoshopsecrets.tumblr.com\/post\/99320444200\/whats-new-in-photoshop-cc-2014-v2",
+                "text": "Yes! Another amazing update from Adobe is available today! I&#8217;m really proud of the Photoshop team for making so many great improvements to this already unbeatable tool! So what&#8217;s new? Libraries Panel Window > Libraries This is the panels of all panels! You can now create libraries of common elements used on your designs. If I&#8217;m designing an app or a website for example, I can create a Library which will include all common icons, logos, color schemes, Layer Styles, Text Styles and even Adjustment Layers and Brushes. [[MORE]]I can have as many Libraries as I want and they are synced into the cloud so it&#8217;s available on all machines using your Creative Cloud account. You can add anything into it by selecting a layer and pressing  the little shapes icon on the bottom left of the panel (dragging layers into the panel doesn&#8217;t work). Then to add something into your design you can drag from the panel into your canvas. To add a color, select a shape layer or text layer, and in a few seconds (there&#8217;s a lag) you&#8217;ll see the little squares at the bottom of the panel will update - just click it and that color will get added to your Library. Once you have colors in, you can just tap the color and your selected shape layers and text layers will change to that color. Same with Text Styles and Layer Styles, just click on it to apply it to the selected layer. This feature is also available in Illustrator, so you can drag stuff in and out of either app. Illustrator shapes will get added as a Smart Object into your Photoshop canvas - unfortunately there&#8217;s no way to select whether you want it as a Shape, Smart Object, Path or Shape Layer like you can when you paste stuff in from Illustrator. Sharing and collaboration are the obvious missing features here, but I&#8217;m sure it&#8217;ll be coming in the next update. Words of warning: Sadly, if you add a Smart Object in your Library, when you place it into your document, each time you place it, it creates a new instance of that Smart Object. So, once you drag it, if you want the Smart Object to remain the same you need to duplicate the Layer on your document rather than dragging it in again. Updating things in the Library will also have no effect on your existing documents. Essentially, once the Layer is dragged into your document it is not at all linked with your Library, it&#8217;s a one-way system. If you want to edit an item in your Library just right-click the item and pick Edit. _______________________________________________________________________________ Generator GUI (Extract Assets) Right-Click layer(s) > Extract Assets Generator now gets a GUI to make it easier for you to generate assets by automatically naming your layers with the correct formats. It&#8217;s even backwards compatible, so if you already have documents with Generator set up, you&#8217;ll see the settings and be able to edit it from here. Originally generator required you to name every layer with every size you wanted to export. So if you were exporting for 1x, 2x and 3x you needed to type Shape.png, 200% <mailto:Shape@2x.png|Shape@2x.png>, 300% Shape3x.png and that was messy! Now Generator allows you to specify defaults at the top of the document on an empty layer. So you only need to name your layer &#8220;Shape.png&#8221; and that top layer will take care of the rest. The above will generate LayerNames.png, <mailto:LayerNames@2x.png|LayerNames@2x.png>, LayerNames3x.png and place the 2x and 3x inside subfolders. _______________________________________________________________________________ Guide Layouts View > New Guide Layout… If you ever used GuideGuide, this is very similar, but native. You can now create custom guides that are automatically spaced for you within your canvas. Just specify the number of guides, width\/height and gutter and you&#8217;re set! If you don&#8217;t specify the width\/height it uses your canvas size. A few missing features that are available on GuideGuide are midpoints for Gutters, Columns and Rows. And midpoint and edge guides for your canvas. So if you use those, you might want to keep GuideGuide. Oh and if you want to experiment with your Guide Layouts, don&#8217;t forget you can click and drag(left\/right) on the labels (Number, Width\/Height and Gutter) and the guides will update in real-time. _______________________________________________________________________________ Guides from Shapes View > New Guides from Shapes If you prefer to set your guides based on an existing design or set your guides based on shapes you draw on your canvas, just select the layers and go to View > New Guides from Shapes. This will place a guide or all the horizontal and vertical edges of the shapes. &#8216; _______________________________________________________________________________ Overscroll Preferences > Interface > Overscroll (checkbox on lower right) You know when you use Photoshop in full-screen mode, and you zoom out of your canvas and then you can no longer scroll, making your canvas stuck to the center of the screen and making it impossible for you to grab that item that somehow ended up way off canvas? Well, now you can overscroll all you want and grab that object! _______________________________________________________________________________ Other cool stuff! New Document Size Presets Including iPhone sizes, iPad, Web, etc Export SVG! You can now export SVG with Generator!! Just add .svg to the end of your Layer and go to File > Generate > Image Assets. The SVG will be exported into a subfolder in the same directory your PSD file is. \"Save\" now shows up in History It obviously can&#8217;t be undone, but it serves as a marker for you to know at what point you have saved your document. Group icon now works as expected Select Layers, Press the little Group icon at the bottom of the Layer&#8217;s Panel, and instead of creating an empty Group, it will add the selected layers to the Group. Adobe Color Go to Window > Extensions > Adobe Color, and make sure you download the iPhone app too, it syncs with Photoshop! Transparency on &#8220;Copy&#8221; If you copy your canvas on Photoshop and paste it into Keynote, now it comes with full transparency! Collapse all your Groups Click on the Layer Panel Options icon (top right of Panel) and selecting Collapse All Groups.",
+                "fallback": "What's New in Photoshop CC 2014 V2",
+                "thumb_url": "https:\/\/31.media.tumblr.com\/047749c2346030b802537911c80427a5\/tumblr_inline_nczjxj93cI1qzwysf.png",
+                "from_url": "http:\/\/photoshopsecrets.tumblr.com\/post\/99320444200\/whats-new-in-photoshop-cc-2014-v2",
+                "thumb_width": 500,
+                "thumb_height": 305,
+                "id": 1
+            }
+        ],
+        "ts": "1412704690.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "SVG export!",
+        "ts": "1412704743.000033"
+    }
+]

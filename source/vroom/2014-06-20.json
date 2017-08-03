@@ -1,0 +1,690 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "scott i'm dying",
+        "ts": "1403247604.000155"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "same",
+        "ts": "1403247607.000156"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "scenario:   logged into facebook in the settings app.  launch vroom,.  because that user is already configured as a user int eh vroom ecosystem...  on first run after install, I never had to even see the login screen - it just blew right past it, which was kind of cool.",
+        "ts": "1403247634.000157"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "however I wanted to try login, so I logged out...  but loggin out of vroom actually also completely logged me out of facebook including in the settings app.",
+        "ts": "1403247675.000158"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it's annoying that logging out in an app logs you out across your whole device.",
+        "ts": "1403247698.000159"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that sounds wrong. the facebook login doesn't get triggered unless you click the button",
+        "ts": "1403247710.000160"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did you install over an old logged in copy?",
+        "ts": "1403247720.000161"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I have had this problem online with cinemama...  logging out on the cinemama website actually logs you our of <http:\/\/facebook.com|facebook.com> as well.",
+        "ts": "1403247731.000162"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stand b",
+        "ts": "1403247745.000163"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stand by",
+        "ts": "1403247747.000164"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me check that part",
+        "ts": "1403247751.000165"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "standing by",
+        "ts": "1403247758.000166"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0289USNA> could you run a build of the latest commit in the meantime?",
+        "ts": "1403247858.000167"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "closeAndClearTokenInformation isn't supposed to touch the system login stuff, and its entirely possible that vroom thought you were logged in (otherwise, you would have needed to click the facebook button to set off any auth request)",
+        "ts": "1403247907.000168"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "building",
+        "ts": "1403247960.000169"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what to expect in this build: if you have the native app installed, it will use that to log in",
+        "ts": "1403248052.000170"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "last build I was forcing the webview",
+        "ts": "1403248065.000171"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "K",
+        "ts": "1403248074.000172"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "build is out",
+        "ts": "1403248090.000173"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "go team go",
+        "ts": "1403248095.000174"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026PHQ3J>: are we working on a change or are we testing this as a release candidate?",
+        "ts": "1403248100.000175"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Worked with native for me, in app (53)",
+        "ts": "1403248134.000176"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/105dbf5bcc0c965416f554f1ed5cb2d29e5b381c|105dbf5bcc0c>: version bump\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1403248153.000177"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026103R3> - someone verify system logout",
+        "ts": "1403248158.000178"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can't get it to happen",
+        "ts": "1403248164.000179"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i wasn't logged in to the native app so it forced me to the web view, is that to be expected?",
+        "ts": "1403248175.000180"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep",
+        "ts": "1403248181.000181"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "keeps it in-app to the extent that it can",
+        "ts": "1403248214.000182"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Worked well with FB installed",
+        "ts": "1403248215.000183"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok and we think that's cool? i have no problem signing in and out with FB",
+        "ts": "1403248220.000184"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i will uninstall fb and try that too",
+        "ts": "1403248232.000185"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just tested signed into settings and no FB app",
+        "ts": "1403248232.000186"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and its actually a really pleasant experience",
+        "ts": "1403248243.000187"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "That's vroom for you ",
+        "ts": "1403248258.000188"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "wait, <@U026PHQ3J> i'm confused. is that correct or incorrect?",
+        "ts": "1403248283.000189"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Its correct",
+        "ts": "1403248295.000190"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The FB SDK tries to keep you in the app that you're in",
+        "ts": "1403248304.000191"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok gotcha",
+        "ts": "1403248313.000192"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I am good with this one",
+        "ts": "1403248322.000193"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0289USNA> - i can't trigger the system logout",
+        "ts": "1403248335.000194"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I am testing without native app installed and I like the flow.",
+        "ts": "1403248344.000195"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "going thru again with vroom removed from my fb account",
+        "ts": "1403248411.000196"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "evans: yeah I think I wasn't actually using daily vroom but an old vrom dev build when I saw logout  touch the system logout.   on 53, it logs me out of Daily Vroom only and tapping the facebook button immediately puts me right back in becasue I am still logged in at the OS Settigns level.",
+        "ts": "1403248429.000197"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "flow works great if you ask me.",
+        "ts": "1403248457.000198"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U026103R3> - how about you?",
+        "ts": "1403248472.000199"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm thru my permutations and they all worked",
+        "ts": "1403248478.000200"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "so far so good on my end - no issues loggin in or out without fb installed. also no issues logging in our out WITH fb app installed and logged in thru settings",
+        "ts": "1403248512.000201"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "logging out only logs me out of daily vroom",
+        "ts": "1403248519.000202"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "if i tap fb, i'm in fb not the app. all looks good.",
+        "ts": "1403248528.000203"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Me too. Uninstalled FB, removed vroom from FB auth: all seem fine",
+        "ts": "1403248552.000204"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do we need to change a screenshot in itunesconnect?",
+        "ts": "1403248558.000205"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hang on, let me check",
+        "ts": "1403248569.000206"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "no we're lal good",
+        "ts": "1403248580.000207"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "all*",
+        "ts": "1403248582.000208"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1403248582.000209"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "so submit to apple?",
+        "ts": "1403248593.000210"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yes",
+        "ts": "1403248596.000211"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks <@U0265G76F>",
+        "ts": "1403248597.000212"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Submit! ",
+        "ts": "1403248605.000213"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "GO GO GO",
+        "ts": "1403248607.000214"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Thank you guys",
+        "ts": "1403248611.000215"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its like 1pm in bangalore",
+        "ts": "1403248613.000216"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "haha",
+        "ts": "1403248616.000217"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "seriously though, did you see the grammar again?",
+        "ts": "1403248632.000218"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep. Plus the time pattern here is a dead giveaway",
+        "ts": "1403248645.000219"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i'm totally with you",
+        "ts": "1403248655.000220"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Slumdog apple jerks",
+        "ts": "1403248680.000221"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hahaha",
+        "ts": "1403248750.000222"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I swear to god if apple's servers timeout a bunch, i'm gonna flip",
+        "ts": "1403248897.000223"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026PHQ3J>: don't even...",
+        "ts": "1403248948.000224"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it's not timing out...",
+        "ts": "1403248979.000225"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "….?",
+        "ts": "1403248991.000226"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "but I'm gettign bounced for a code signing error...   hold tight.",
+        "ts": "1403249006.000227"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok",
+        "ts": "1403249015.000228"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Bangalore!!!!!",
+        "ts": "1403249036.000229"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "submitted",
+        "ts": "1403249373.000230"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "YES",
+        "ts": "1403249396.000231"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thank you",
+        "ts": "1403249414.000232"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sweet",
+        "ts": "1403249418.000233"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": ":muscle::grin:",
+        "ts": "1403249442.000234"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Goodnight all. Thanks again",
+        "ts": "1403249485.000235"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "seriously, thank you guys for jumping on thi",
+        "ts": "1403249498.000236"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "s",
+        "ts": "1403249499.000237"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "abby:  you will respond to apple and let them know the changes we ahve made?",
+        "ts": "1403249505.000238"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "can you give me a brief summary?",
+        "ts": "1403249522.000239"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "acutally",
+        "ts": "1403249541.000240"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "we don't get a chanc",
+        "ts": "1403249545.000241"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "one we respond to a rejection they strip our ability to repsond",
+        "ts": "1403249558.000242"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i can email them for sure but there's no knowing if that's going to help much",
+        "ts": "1403249575.000243"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "will for sure try anyway",
+        "ts": "1403249584.000244"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I thought we could respond in the \"resolution center\"",
+        "ts": "1403249663.000245"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I'm in there right now and do not see anything.",
+        "ts": "1403249676.000246"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "nope, they remove the reply button",
+        "ts": "1403249677.000247"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "after you reply once",
+        "ts": "1403249683.000248"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "that's lame.",
+        "ts": "1403249752.000249"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm headed to bed, brain builders.",
+        "ts": "1403249779.000250"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Turned my ringer up incase anything happens.",
+        "ts": "1403249790.000251"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Feel free to ring it if need be",
+        "ts": "1403249799.000252"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i emailed <mailto:appreview@apple.com|appreview@apple.com>",
+        "ts": "1403249805.000253"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "that's the best i can do",
+        "ts": "1403249810.000254"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks everyone.",
+        "ts": "1403249850.000255"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks x a million. i've got to hit the hay as well.",
+        "ts": "1403249866.000256"
+    },
+    {
+        "text": "[Vroom Drupal Theme\/] 8 new commits:\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/08ce1bc7e2161cfc98fceb303d7a0862184f852d|08ce1bc7e216>: Added App store button to T&amp;A and header popup.\n - gastonfig\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/e7bc3f80c91f255774c034c7a1a0075d34f3a1af|e7bc3f80c91f>: Added new download button.\n - gastonfig\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/24e9fe7e19762b3c34206642a058bb69e0fb69b5|24e9fe7e1976>: Styled donwload app button and social icons.\n - gastonfig\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/e2cb5a22613fb86f8f7352dd4033f8486ea7cd71|e2cb5a22613f>: Updated download popup text.\n - gastonfig\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/11c237a981818e0c0cc5bcaee4e12a786a40c630|11c237a98181>: Made T&amp;A download buttons smaller.\n - gastonfig\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/c3e39b5a8823599a74e2317965848bb17624b8eb|c3e39b5a8823>: Added Spanish version of top donwload button and updated styles.\n - gastonfig\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/2d10a93a20965aa53f53c18b504f02f93624dbdf|2d10a93a2096>: Fixed merge conflicts.\n - gastonfig\n[Vroom Drupal Theme\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-drupal-theme\/commits\/73ef601f4eb539b468989541be4c42c1b684a925|73ef601f4eb5>: Fixed more merge conflicts.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B026TMSJ4",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1403300087.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> vroom iOS is processing for App Store! Way to go Brain Builders!!",
+        "ts": "1403315208.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "it's live in the store!! <https:\/\/itunes.apple.com\/us\/app\/daily-vroom\/id885948312?mt=8>",
+        "attachments": [
+            {
+                "text": "Connecting to the iTunes Store.",
+                "fallback": "Connecting to the iTunes Store.",
+                "from_url": "https:\/\/itunes.apple.com\/us\/app\/daily-vroom\/id885948312?mt=8",
+                "id": 1
+            }
+        ],
+        "ts": "1403315219.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Yes!!!!!",
+        "ts": "1403315264.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "Wtg!",
+        "ts": "1403315530.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<http:\/\/31.media.tumblr.com\/ba82b147da17e0ee0fcbf8da7275c59a\/tumblr_mfpiqzDzDq1rflkf7o1_500.gif>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/31.media.tumblr.com\/ba82b147da17e0ee0fcbf8da7275c59a\/tumblr_mfpiqzDzDq1rflkf7o1_500.gif",
+                "fallback": "500x282px image",
+                "image_url": "http:\/\/31.media.tumblr.com\/ba82b147da17e0ee0fcbf8da7275c59a\/tumblr_mfpiqzDzDq1rflkf7o1_500.gif",
+                "image_width": 500,
+                "image_height": 282,
+                "image_bytes": 1013768,
+                "id": 1
+            }
+        ],
+        "ts": "1403315635.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<http:\/\/media.giphy.com\/media\/S8dSnEwDPQRz2\/giphy.gif>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/media.giphy.com\/media\/S8dSnEwDPQRz2\/giphy.gif",
+                "fallback": "144x48px image",
+                "image_url": "http:\/\/media.giphy.com\/media\/S8dSnEwDPQRz2\/giphy.gif",
+                "image_width": 144,
+                "image_height": 48,
+                "image_bytes": 5753,
+                "id": 1
+            }
+        ],
+        "ts": "1403326804.000002"
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the blaze is awful. I wanted to see the sleep data, so I wore it to bed last night. Woke up to it shining in my face at 1 am.",
+        "ts": "1459442365.000002",
+        "reactions": [
+            {
+                "name": "sickymouse",
+                "users": [
+                    "U02HAJ6JF"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "gross",
+        "ts": "1459442389.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "ooof",
+        "ts": "1459442390.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yuuuck",
+        "ts": "1459442573.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> creative touchbase starting in one min",
+        "ts": "1459457975.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Hey dev team, I’m going to upload the deck that Melissa walked through in just a moment. So if you weren’t at the meeting or want to take a deeper dive, feel free and put together your notes and questions so we can discuss with UX next Thurs",
+        "ts": "1459463134.000007",
+        "reactions": [
+            {
+                "name": "muscle",
+                "users": [
+                    "U02HAJ6JF"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026103R3|abby> uploaded a file: <https:\/\/uncorked.slack.com\/files\/abby\/F0X3HKLB1\/compass_home_31mar2016.pdf|Compass_Home_31Mar2016.pdf>",
+        "file": {
+            "id": "F0X3HKLB1",
+            "created": 1459463203,
+            "timestamp": 1459463203,
+            "name": "Compass_Home_31Mar2016.pdf",
+            "title": "Compass_Home_31Mar2016.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U026103R3",
+            "editable": false,
+            "size": 3235288,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0X3HKLB1\/compass_home_31mar2016.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0X3HKLB1\/download\/compass_home_31mar2016.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/abby\/F0X3HKLB1\/compass_home_31mar2016.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0X3HKLB1-9daa0389ed",
+            "channels": [
+                "C0LDEJLG3"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026103R3",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "abby",
+        "bot_id": null,
+        "ts": "1459463204.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "There's now a POST endpoint that accepts a userId",
+        "ts": "1459463860.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8TTPU|marissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/marissa\/F0X3L65K9\/-.txt|Untitled>",
+        "file": {
+            "id": "F0X3L65K9",
+            "created": 1459463876,
+            "timestamp": 1459463876,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U02F8TTPU",
+            "editable": true,
+            "size": 292,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0X3L65K9\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0X3L65K9\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/marissa\/F0X3L65K9\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0X3L65K9-9e4a444e3c",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/marissa\/F0X3L65K9\/-.txt\/edit",
+            "preview": "curl -H \"Authorization: bearer 19af9e30e7802acdcf831a5d1b161a23d0a08d44c2af1f25d42e43712592f222d5d20721fe7c8c7cf63728c02ac1b354cbb6e106bf3a46c86bbdf724870c4aac\" -H \"Content-Type: application\/json\" -X POST -d '{\"userId\": \"test@test.com\"}' https:\/\/compass42.com\/v1\/thirdparty\/getThirdPartyToken",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>curl -H &quot;Authorization: bearer 19af9e30e7802acdcf831a5d1b161a23d0a08d44c2af1f25d42e43712592f222d5d20721fe7c8c7cf63728c02ac1b354cbb6e106bf3a46c86bbdf724870c4aac&quot; -H &quot;Content-Type: application\/json&quot; -X POST -d '{&quot;userId&quot;: &quot;test@test.com&quot;}' https:\/\/compass42.com\/v1\/thirdparty\/getThirdPartyToken<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0LDEJLG3"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8TTPU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "marissa",
+        "bot_id": null,
+        "ts": "1459463876.000010"
+    }
+]

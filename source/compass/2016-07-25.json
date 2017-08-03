@@ -1,0 +1,193 @@
+[
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Reminder: Hey everyone, if you haven’t yet filled out and submitted your Harvest time sheet from last week, please make sure to do it today by end of day. Thanks!",
+        "ts": "1469466000.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0XCJ372R|ali> uploaded a file: <https:\/\/uncorked.slack.com\/files\/ali\/F1UT6UU3A\/global_list_specs_0725.zip|Global List Specs 0725.zip> and commented: <@U0HUKRME0>: I’m working on specs for IOS and I just wanted to make sure these made sense to you. I wasn’t sure when to include padding verse just defining the height of an area for the rows. Also, if an item is right aligned, where does it make sense to indicate padding for that as well.",
+        "file": {
+            "id": "F1UT6UU3A",
+            "created": 1469467426,
+            "timestamp": 1469467426,
+            "name": "Global List Specs 0725.zip",
+            "title": "Global List Specs 0725.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0XCJ372R",
+            "editable": false,
+            "size": 159382,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1UT6UU3A\/global_list_specs_0725.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1UT6UU3A\/download\/global_list_specs_0725.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/ali\/F1UT6UU3A\/global_list_specs_0725.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1UT6UU3A-111f795b40",
+            "channels": [
+                "C037D5R8X"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc1UT30VQU",
+                "created": 1469467426,
+                "timestamp": 1469467426,
+                "user": "U0XCJ372R",
+                "is_intro": true,
+                "comment": "<@U0HUKRME0>: I’m working on specs for IOS and I just wanted to make sure these made sense to you. I wasn’t sure when to include padding verse just defining the height of an area for the rows. Also, if an item is right aligned, where does it make sense to indicate padding for that as well."
+            }
+        },
+        "user": "U0XCJ372R",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ali",
+        "bot_id": null,
+        "ts": "1469467427.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "Thanks ali",
+        "ts": "1469467488.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "Are these numbers @2x values?",
+        "edited": {
+            "user": "U0HUKRME0",
+            "ts": "1469467610.000000"
+        },
+        "ts": "1469467540.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "Yes",
+        "ts": "1469467611.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "ok.  As we are beginning these, we should decide across all specs which values make sense for ios and android.  For iOS, @1x values are best because they get reset according to @2x\/@3x automatically.",
+        "ts": "1469467688.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "Good to know!",
+        "ts": "1469467862.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U0HUKRME0> correct me if i’m wrong, but @1x devices are mostly obsolete at this point right? we’re wondering if we need to have everything @2x be evenly divisible. the only case so far where dropping values down by half might force adjustments is that we have 1px rules separating list items in @2x comps. do you see any issues with this? asking you to draw .5px lines @1x sounds funny...",
+        "ts": "1469469301.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "Apple devices work in point sizes, rather than pixels.  The easiest way to think of that is as a 1x device even though we aren’t supporting 1x devices.  In terms of 1px lines, Apple handles the conversion automatically to 2x\/3x, and I think that 1pt lines might be treated as a special case because you are correct that you wouldn’t specify .5, but when Apple renders on 2x\/3x devices they seem to be truly 1px lines.  I’m not sure of this though.",
+        "ts": "1469469530.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Yeah it seems like an exception to how it normally works but am wondering if that will actually fly",
+        "ts": "1469469645.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "Apple makes extensive use of hairlines so that is what makes me think they treat them differently",
+        "ts": "1469469690.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "(And thanks for laying that out, I know this internally but am struggling to relay that concept of points vs pixels in an articulate way :)",
+        "ts": "1469469700.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Does anyone know if the native status bar will be present in any part of this app? I know for sure not on the home page, but I do recall talk about it at least needing to be present in the Dx Library for indication of connection to WiFi. Any definitive decisions made on this?",
+        "ts": "1469485409.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026E0ZNR> no but that’s a good to-do item for me",
+        "ts": "1469485873.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "ok cool, so that leads me to another question. If we are turning status bar on and off in any instance, do we account for that space (is it 20px or something?) for positioning things below it when it’s turned off? Like, does the introduction of the status bar push down the back arrow and overflow menu button an extra 20px from where it normally lands when the status bar isn’t there?",
+        "ts": "1469486073.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Not sure if this is a design question or a technical question",
+        "ts": "1469486115.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0HUKRME0>: see trents question above ^^",
+        "ts": "1469486143.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "Thanks Trent for the question.  First off, It would be helpful to us to have status bar in the UX docs where applicable—I expect that will be the case when things are decided",
+        "ts": "1469486218.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "I think the answer is that it doesn’t affect the spec document except to the extent that your designs should crop 20px shorter so that we can be sure we’re getting parity with the spec",
+        "ts": "1469486288.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "Otherwise it will seem like we are off",
+        "ts": "1469486306.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026E0ZNR> <!channel> from a UX perspective the status bar should always be visible except for during full screen media play. Matt convinced me to let him hide it on the home screen but I think it should come back as soon as the user dives into details. So let’s go with: hide on homescreen \/ past days \/ week view  and full-screen media player. Keep visible on all other screens.",
+        "ts": "1469490031.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0HUKRME0> we can document this somewhere for you guys, but I’d prefer not to go back and updated every single wireframe \/ deck",
+        "ts": "1469490075.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "It would be good to document, but I understand not wanting to change everything.  I’ll let you know if I have any ideas",
+        "ts": "1469490245.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i’ll add a page at the beginning of the Homescreen wires.",
+        "ts": "1469490759.000047"
+    }
+]

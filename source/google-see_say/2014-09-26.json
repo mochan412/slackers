@@ -1,0 +1,50 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I posted today's Press+Hold APK, with altered timing to show the full progress bar if the user is still holding down. I'm trying my best to hold the SpeechRecognizer listening up to the 5-second timeout and beyond, but I have tested and confirmed that it seems to stop listening on my Nexus 5 after a shorter silence. At any rate, the UI should be more clear with what's happening during the hold period even if we can't catch any more words.",
+        "ts": "1411761126.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I started on trying to detect a swipe up to open Timeline, but I haven't yet got that working.",
+        "ts": "1411761165.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Since we're already detecting touch events in the view hierarchy, adding a swipe up is going to take some more investigating and testing.",
+        "ts": "1411761243.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks marissa",
+        "ts": "1411761304.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<http:\/\/developer.android.com\/reference\/android\/speech\/RecognizerIntent.html#EXTRA_SPEECH_INPUT_MINIMUM_LENGTH_MILLIS>",
+        "ts": "1411761352.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The important text there is \"Additionally, depending on the recognizer implementation, these values may have no effect.\" Which seems to be true in the KitKat implementation on my Nexus 5.",
+        "ts": "1411761394.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Anyway, just some extra info to explain the situation. Have a great weekend and see you Monday!",
+        "ts": "1411761430.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks!",
+        "ts": "1411761466.000009"
+    }
+]

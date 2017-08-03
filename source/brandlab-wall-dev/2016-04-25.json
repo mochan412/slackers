@@ -1,0 +1,300 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "light control is implemented for the cubby, the templates can now be populated with commands to control them on button click or load of the template, or whatever else we may need, timeout?  only issue im having is the color doesnt seem to work right, I seem to get green everytime, and bright doesnt work at all",
+        "ts": "1461603755.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Writting command color [1  156  0  0]",
+        "ts": "1461603805.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "TCP client got response from server: {\"command\":\"color [1  156  0  0 ]\",\"response\":\"OK\"}",
+        "ts": "1461603807.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but its light green",
+        "ts": "1461603811.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that should be red i would think",
+        "ts": "1461603818.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Writting command bright [50]\ndoes nothing",
+        "ts": "1461603844.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and i think it might crash the teensy. ive had to hard reset it a few times",
+        "ts": "1461603858.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U02E3CRMA>: ^",
+        "ts": "1461604303.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Well shit.",
+        "ts": "1461604625.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Color was working great on Friday via command line",
+        "ts": "1461604672.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Aha...",
+        "ts": "1461604694.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "My instructions sucked, sorry",
+        "ts": "1461604713.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "No square brackets",
+        "ts": "1461604721.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "So it's",
+        "ts": "1461604734.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "color 1 156 0 0",
+        "ts": "1461604750.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL> ^^^^",
+        "ts": "1461604820.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so none on any of the commands?",
+        "edited": {
+            "user": "U0EL0GLEL",
+            "ts": "1461605071.000000"
+        },
+        "ts": "1461605065.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Correct. Sorry. ",
+        "ts": "1461605100.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that fixed the fact that it was addressing all of the lights, not just the 1. now it turns off and on 1 only, and sets it green not red or purple only, and brightness still does nothing",
+        "ts": "1461605355.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Brightness isn't in the loaded image\n Have to update from this weekend's work.",
+        "ts": "1461605668.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Sorry, not following. Does color work now?",
+        "ts": "1461605728.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no",
+        "ts": "1461605795.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "always green",
+        "ts": "1461605809.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Ugh",
+        "ts": "1461605836.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "What about from the command line? ",
+        "ts": "1461605901.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "havnt tried",
+        "ts": "1461605986.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "for now have a template that can turn on and off each light so we can demo we have closed on that communication",
+        "ts": "1461607097.000029"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F13KX1U20\/15x15_cubby_color_screen_example.png|15x15 CUBBY_color_screen example.png> and commented: <@U0EL0GLEL>: <@U02E3CRMA> top sweep and cubby templates to have loaded and ready for the template editor demo",
+        "file": {
+            "id": "F13KX1U20",
+            "created": 1461629590,
+            "timestamp": 1461629590,
+            "name": "15x15 CUBBY_color_screen example.png",
+            "title": "15x15 CUBBY_color_screen example.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 3715834,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F13KX1U20\/15x15_cubby_color_screen_example.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F13KX1U20\/download\/15x15_cubby_color_screen_example.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13KX1U20-cf83b0e4d6\/15x15_cubby_color_screen_example_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13KX1U20-cf83b0e4d6\/15x15_cubby_color_screen_example_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13KX1U20-cf83b0e4d6\/15x15_cubby_color_screen_example_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13KX1U20-cf83b0e4d6\/15x15_cubby_color_screen_example_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13KX1U20-cf83b0e4d6\/15x15_cubby_color_screen_example_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13KX1U20-cf83b0e4d6\/15x15_cubby_color_screen_example_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13KX1U20-cf83b0e4d6\/15x15_cubby_color_screen_example_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13KX1U20-cf83b0e4d6\/15x15_cubby_color_screen_example_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1098,
+            "original_h": 1098,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F13KX1U20\/15x15_cubby_color_screen_example.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F13KX1U20-49cd1360d8",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc13L535PS",
+                "created": 1461629590,
+                "timestamp": 1461629590,
+                "user": "U0ML49XU0",
+                "is_intro": true,
+                "comment": "<@U0EL0GLEL>: <@U02E3CRMA> top sweep and cubby templates to have loaded and ready for the template editor demo"
+            }
+        },
+        "user": "U0ML49XU0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1461629593.000030"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F13LC6U3B\/default.png|Default.png>",
+        "file": {
+            "id": "F13LC6U3B",
+            "created": 1461629595,
+            "timestamp": 1461629595,
+            "name": "Default.png",
+            "title": "Default.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 4011610,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F13LC6U3B\/default.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F13LC6U3B\/download\/default.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13LC6U3B-201c92a021\/default_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13LC6U3B-201c92a021\/default_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13LC6U3B-201c92a021\/default_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 57,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13LC6U3B-201c92a021\/default_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 77,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13LC6U3B-201c92a021\/default_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13LC6U3B-201c92a021\/default_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 115,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13LC6U3B-201c92a021\/default_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 153,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F13LC6U3B-201c92a021\/default_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 163,
+            "image_exif_rotation": 1,
+            "original_w": 2500,
+            "original_h": 399,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F13LC6U3B\/default.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F13LC6U3B-80846bf54f",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0ML49XU0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1461629598.000031"
+    }
+]

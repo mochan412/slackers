@@ -1,0 +1,148 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<http:\/\/uncorkedstudios.com|uncorkedstudios.com> appears to be down (<http:\/\/www.uncorkedstudios.com|www.uncorkedstudios.com> is still working)",
+        "ts": "1496243666.333159"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "checking",
+        "ts": "1496243879.423607"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<https:\/\/netlifystatus.com\/>",
+        "ts": "1496244005.477330"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "&gt;This issue only affects customers using an “A” DNS record for part or all of their traffic - CNAME\/ALIAS\/ANAME to netlify sitenames are working as usual.",
+        "ts": "1496244021.484003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "lol",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1496244025.000000"
+        },
+        "ts": "1496244022.484535"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Yup",
+        "ts": "1496244024.485422"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Will keep an eye. Good catch!",
+        "thread_ts": "1496244046.495021",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U06DFL7BP",
+                "ts": "1496244108.522272"
+            },
+            {
+                "user": "U1S5GKTHQ",
+                "ts": "1496244893.864682"
+            },
+            {
+                "user": "U243UT96G",
+                "ts": "1496247263.865055"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1496244046.495021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "dimitry: i’m getting rob’s stackdriver alerts. is anyone else?",
+        "thread_ts": "1496244046.495021",
+        "parent_user_id": "U1S5GKTHQ",
+        "ts": "1496244108.522272"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Not me",
+        "thread_ts": "1496244046.495021",
+        "parent_user_id": "U1S5GKTHQ",
+        "ts": "1496244893.864682"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i get them",
+        "thread_ts": "1496244046.495021",
+        "parent_user_id": "U1S5GKTHQ",
+        "ts": "1496247263.865055"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you! :pray:",
+        "ts": "1496248214.237697"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "What happened? _some_ DNS went dead?",
+        "ts": "1496248392.307855"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Yeah, our core domain is routed to Netlify via an A record to their IP. This is the part that’s failing on their infrastructure. They said they narrowed it down to a Google Cloud issue and awaiting reply from Google. The `www` subdomain is CNAMEd to our unique netlify endpoint, so it’s still up.",
+        "ts": "1496249079.568823"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "This is their recommended config for SSL to work properly, so our DNS zone is configured fine (and was working fine since switchover)",
+        "ts": "1496249133.589988"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "it’s back",
+        "ts": "1496249716.810176",
+        "reactions": [
+            {
+                "name": "partyparrotrev",
+                "users": [
+                    "U1S5GKTHQ",
+                    "U026PHQ3J",
+                    "U13GPDA1F"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": ":thumbsup:",
+        "ts": "1496249720.811778"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Weirddddd",
+        "ts": "1496249798.842060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":v::spock-hand::v:🤙:the_horns::ok_hand::+1:",
+        "ts": "1496249811.847310"
+    }
+]

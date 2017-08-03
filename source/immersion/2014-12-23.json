@@ -1,0 +1,152 @@
+[
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<!channel>: friends, can you please make sure you are up to date with logging hours in harvest by the end of the day? Many thanks.",
+        "ts": "1419360586.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm sorry, I'm totally striking out on pushing apps to the black gear S. I've deleted and re-done our certificate settings 4 times, and it successfully installs to the white one (same cert), but the black one gets SIGNATURE_INVALID. I sent out a ping to Abe to see if he's encountered this, it seems to me that the IDE is caching some setting attached to the white one, but I'm unsure what to try next.",
+        "ts": "1419361204.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think there's a .metadata directory in the workspace that I can try deleting and see if re-importing the project changes anything",
+        "ts": "1419361232.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "\"deleting random files\/directories\" makes me uncomfortable as a troubleshooting method though",
+        "ts": "1419361328.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "two thoughts: \n\n1) <@U026PHQ3J>? \n\n2) This is grasping at straws, but I wonder if there's any Samsung contacts we could create out of our PIT friends to at least shed any light on such corners the Gear S appears to have a habit of painting us into",
+        "ts": "1419361417.000006"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "If you are still able to push to white, let's prioritize finishing the build over getting a second device running.",
+        "ts": "1419361419.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can work on setting up the black stuff on my laptop",
+        "ts": "1419361565.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "sigh, same result after deleting .metadata in the workspace, .sign in the project, and disabling RDS (all random tizen things I know about)",
+        "ts": "1419361588.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I wish Tizen were not so grasping-at-strawsy",
+        "ts": "1419361603.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll go back to working on the white device",
+        "ts": "1419361618.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Well, those actions made it give SIGNATURE_INVALID when I try to push to the white device now, so that's progress",
+        "ts": "1419361734.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Time to re-do the certificates from scratch again",
+        "ts": "1419361749.000013"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Stay strong! :fist:",
+        "ts": "1419361952.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "new certificate, white one working again",
+        "ts": "1419362110.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": ":fist:",
+        "ts": "1419362139.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<@U026PHQ3J> pointed out that wrong clock times can cause SSL problems, and the black watch is ahead by 15 min, so that could be why it keeps getting rejected",
+        "ts": "1419362155.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I am going to re-pair it with its phone buddy so the smartwatch can actually get the correct time and try it again",
+        "ts": "1419362181.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Oh, the black phone in the drawer wasn't paired with the black gear (it has a blue sticker)",
+        "ts": "1419362545.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "There should be a phone with an orange sticker that's paired with this black gear",
+        "ts": "1419362573.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0265G76F> has it",
+        "ts": "1419362634.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "on his desk",
+        "ts": "1419362636.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<!channel> hey dudes, as we're working through trello, please either @ me or add me to a card if you need my input on anything! Otherwise I won't see it!!",
+        "ts": "1419382933.000023"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "I was explicitly told that you read minds.",
+        "ts": "1419383044.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "slap the fool who told you such lies!",
+        "ts": "1419383063.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "will do!",
+        "ts": "1419383285.000026"
+    }
+]

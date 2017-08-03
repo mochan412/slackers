@@ -1,0 +1,276 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: creative review as soon as <@U0J6TE0CA> is in",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1469725319.000000"
+        },
+        "ts": "1469725266.000132"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>:  and <@U02E3CRMA>  lan you prep the wall?",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1469725338.000000"
+        },
+        "ts": "1469725273.000133"
+    },
+    {
+        "user": "U1S5GKTHQ",
+        "text": "<@U1S5GKTHQ|dimitry> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1469726317.000136"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: fantastic review today.  best iteration of product yet.  we are tracking really well.  i’m legit proud of the way we’ve handled refinements (and i’m grateful that we’re self motivated in these regards)",
+        "ts": "1469728119.000137"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looking at the structure of the goodbye text for happy, the highlight wont work with the current transitions, the transitions are setup based on the container size, the size of the container for these is not just the text but encompasses the area of the animation above it so that the animation is clickable. since they are stacked full screen animations. this makes the highlight transition do a very strange wipe that covers the whole block text and smily thing, and the overlayed test is all position funny. I could make a special version of this transition that does it as we want just highlighting the text. But that is more effort than just trying what we have. so if we want to do that let me know",
+        "ts": "1469728316.000138"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "interesting. Thanks for looking into this",
+        "ts": "1469728529.000139"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I’m inclined to leave it for this release. But that’s just me",
+        "ts": "1469728561.000140"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "I’m with justin",
+        "ts": "1469728672.000141"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "So we just found out the library I use for all the transitions supports incredibly simple easing. and you can find the values that you want from using this page. <http:\/\/cubic-bezier.com|cubic-bezier.com> you just determine the curve you want, hit save, then those values can be dropped into the template editor for each transition motion giving them the easing we want. incredibly simple. will add a nice level of polish to things",
+        "ts": "1469730234.000142"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Big Day",
+        "ts": "1469730257.000143"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "added easing support to the transition system and the editor",
+        "ts": "1469735170.000144"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: where are we planning to add this easing?",
+        "ts": "1469735381.000145"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "any of the text slide outs could use it, and the choreography would make sense to add there. im sure emily has plenty of areas that she feels would look nice with it. its such a simple add",
+        "ts": "1469735445.000146"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "mainly text transitions i think, we had mentioned the speed seemed off in the choreography, I looked at the motion again, there is a bit of an ease there that gave that appearance of slowing it a little. we should be able to get it very close to the motion with this easing",
+        "ts": "1469735577.000147"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "applying to copy is ok; let me know whereever else youre feeling it.  want to keep the group aligned on how we evolve this",
+        "ts": "1469735651.000148"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I would keep it mostly to copy. other things are not as easy",
+        "ts": "1469735698.000149"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<!channel> — \n\n*FOR INTERNAL VIEWING ONLY*\nWe’ve been working on figuring out how we’re going to tell OUR BrandLab story. Of course, it’s huge and complex — so even figuring out how to talk about it is difficult. \n\nAs part of that, I asked Josh to see if they had a cut of the video they were filming during install. Oddly enough, they’re at BrandLab doing quite a few pickup shots based on this edit. \n\nI thought you’d like to see for yourselves: \n\n<https:\/\/vimeo.com\/175185462>\npass: cubby\n\nNice work team!",
+        "ts": "1469744939.000150",
+        "reactions": [
+            {
+                "name": "clap::skin-tone-3",
+                "users": [
+                    "U1172PRDX",
+                    "U02E3CRMA",
+                    "U0J6TE0CA",
+                    "U0H4SJN11"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "spoiler alert: there’s only one shot of me and i’m eating",
+        "ts": "1469744972.000151"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "it’s hard to get a shot without you eating dude",
+        "ts": "1469745067.000152",
+        "reactions": [
+            {
+                "name": "pizzaspin",
+                "users": [
+                    "U06DFL7BP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "wow thats fantastic",
+        "ts": "1469745237.000153"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F1W7YJFAL\/screen_shot_2016-07-28_at_4.05.47_pm.png|No burrito?>",
+        "file": {
+            "id": "F1W7YJFAL",
+            "created": 1469747183,
+            "timestamp": 1469747183,
+            "name": "Screen Shot 2016-07-28 at 4.05.47 PM.png",
+            "title": "No burrito?",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 453711,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1W7YJFAL\/screen_shot_2016-07-28_at_4.05.47_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1W7YJFAL\/download\/screen_shot_2016-07-28_at_4.05.47_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W7YJFAL-55218788f1\/screen_shot_2016-07-28_at_4.05.47_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W7YJFAL-55218788f1\/screen_shot_2016-07-28_at_4.05.47_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W7YJFAL-55218788f1\/screen_shot_2016-07-28_at_4.05.47_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 348,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W7YJFAL-55218788f1\/screen_shot_2016-07-28_at_4.05.47_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 464,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W7YJFAL-55218788f1\/screen_shot_2016-07-28_at_4.05.47_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 544,
+            "original_h": 526,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F1W7YJFAL\/screen_shot_2016-07-28_at_4.05.47_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1W7YJFAL-537917bbac",
+            "channels": [
+                "C078JFZ7W"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1469747185.000154"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0J6TE0CA|emilyskaer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/emilyskaer\/F1W6K8QDR\/screen_shot_2016-07-28_at_4.08.11_pm.png|WTF do you mean it’s not working>",
+        "file": {
+            "id": "F1W6K8QDR",
+            "created": 1469747381,
+            "timestamp": 1469747381,
+            "name": "Screen Shot 2016-07-28 at 4.08.11 PM.png",
+            "title": "WTF do you mean it’s not working",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0J6TE0CA",
+            "editable": false,
+            "size": 939346,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1W6K8QDR\/screen_shot_2016-07-28_at_4.08.11_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1W6K8QDR\/download\/screen_shot_2016-07-28_at_4.08.11_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W6K8QDR-27245cc84c\/screen_shot_2016-07-28_at_4.08.11_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W6K8QDR-27245cc84c\/screen_shot_2016-07-28_at_4.08.11_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W6K8QDR-27245cc84c\/screen_shot_2016-07-28_at_4.08.11_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 233,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W6K8QDR-27245cc84c\/screen_shot_2016-07-28_at_4.08.11_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 311,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W6K8QDR-27245cc84c\/screen_shot_2016-07-28_at_4.08.11_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W6K8QDR-27245cc84c\/screen_shot_2016-07-28_at_4.08.11_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 466,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1W6K8QDR-27245cc84c\/screen_shot_2016-07-28_at_4.08.11_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 622,
+            "image_exif_rotation": 1,
+            "original_w": 1022,
+            "original_h": 662,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/emilyskaer\/F1W6K8QDR\/screen_shot_2016-07-28_at_4.08.11_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1W6K8QDR-b94352b17e",
+            "channels": [
+                "C078JFZ7W"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0J6TE0CA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "emilyskaer",
+        "bot_id": null,
+        "ts": "1469747384.000155"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Cool to see it documented, but not a fan of the cinematography.",
+        "ts": "1469747497.000156"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "agreed on that. The camera movement",
+        "ts": "1469747827.000157"
+    }
+]

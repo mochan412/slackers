@@ -1,0 +1,108 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "A subject I'm very interested in + I'm Dan Mall fan",
+        "ts": "1399913425.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<http:\/\/typecast.com\/seminars\/post-psd>",
+        "attachments": [
+            {
+                "service_name": "Typecast",
+                "title": "Design deliverables for a post-PSD era | Seminar | Design in the browser with web fonts and real content — Typecast",
+                "title_link": "http:\/\/typecast.com\/seminars\/post-psd",
+                "text": "A browser-based app for creating beautiful, realistic and consistent designs based on typography.",
+                "fallback": "Typecast: Design deliverables for a post-PSD era | Seminar | Design in the browser with web fonts and real content — Typecast",
+                "thumb_url": "http:\/\/typecast.com\/images\/site\/typecast-logo-og.png",
+                "from_url": "http:\/\/typecast.com\/seminars\/post-psd",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "id": 1
+            }
+        ],
+        "ts": "1399913426.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I may take an early lunch to watch this if you want to join me at a conf room.",
+        "ts": "1399914376.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Read this over the weekend and found a lot of small but useful tips for InDesign. Above all, he shows how to set system wide defaults to your liking. _After all these years!!_",
+        "ts": "1399914768.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<http:\/\/blog.fontshop.com\/2014\/05\/08\/indesign-defaults\/>",
+        "attachments": [
+            {
+                "service_name": "FontShop Blog",
+                "service_url": "http:\/\/blog.fontshop.com",
+                "title": "InDesign Defaults",
+                "title_link": "http:\/\/blog.fontshop.com\/2014\/05\/08\/indesign-defaults\/",
+                "author_name": "David Sudweeks",
+                "author_link": "https:\/\/blog.fontshop.com\/author\/davidsudweeks\/",
+                "thumb_url": "https:\/\/i1.wp.com\/fontshopblog.files.wordpress.com\/2014\/05\/screen-shot-2014-05-08-at-10-13-05-pm.png?fit=440%2C330",
+                "thumb_width": 440,
+                "thumb_height": 255,
+                "text": "When Matthew Butterick mentioned this series as a good online source for reading about typography, he also mentioned its general bias towards InDesign in the examples I give. That’s true. And while I deal with and have dealt with plenty of other tools, software and otherwise, for editing, writing, drawing, setting and composing what will ultimately become design that’s typographic in nature, InDesign, particularly the few-generations-old InDesign, is the one I regularly turn to when working with digital type.\n\nI have to a limited extent touched on the most popular typographic medium, hypertext, and its conveyance, your browser, but it’s still unnecessarily complicated to talk about a simple concept in a simple way, say, kerning, or small caps, when web standards aren’t there yet, and there’s no good way of ensuring that the results I’m getting are the ones you’ll get. Other stuff like columnar layout and text flow, H&amp;J, baseline grids, and the ability to detect the size of final output, are altogether missing from browsers or in their infancy. All that, and the fact that a fixed medium  lends itself well to making a single set of arbitrary and finite adjustments here and there is one of the things that has always drawn me to print work, and for this specific purpose (demonstrating the principles of typography), caused me to remain with a tool made for print production. (That said, I do plan to focus more on typography in the new medium as part of Using Type, but I’ve had a good long run so far sticking to the basics in the old.)\nInternal note\nAs a kind of wrap to what I’ve written in the series thus far I thought, ‘This writing isn’t really giving much of a glimpse into the typographer’s brain; more like the brain stem.’ These principles I’ve covered aren’t what typographers talk about, just as musicians rarely discuss fingerings, or emergency room doctors their stitching technique. These become built-in, and felt, and what happens beyond that point in the creative process becomes much harder to describe. That’s where I want to go though. At least get to something concrete that articulates a principle better than, ‘You’ve just got to feel it.’ There’s wisdom in following one’s instincts, but if the reader doesn’t see the reasoning that leads to the platform from which the typographer instinctively leaps—to the next decision, little good it does. Those benefited are almost exclusively the readers who already understand the concept, those who also ‘just feel it.’\nAnyway, forget all this. I’ll get to it and either strike gold or retreat. Today, and over the next couple of weeks, I want to talk more about what happens inside that typographer’s brain stem. And this is shop talk, the painter reviewing his list of brushes and ladders, the photographer his lenses. Kind of as a last final rundown, I want to go specifically over the conscious decisions made working with InDesign before the first project file opens.\nGeneral note on setting defaults\nWhen in InDesign, or any of the major CS or CC Adobe apps, the way to set a program-wide default is by setting something while no documents are open. To make document-wide defaults, (and I’m actually not sure this works everywhere) you specify something while nothing in the document is selected. There are other defaults, such as New Document and Print menu defaults, which are set within those menus using a Save Preset dialog.\nThe defaults\nWith no documents open, consider what to keep from what’s already chosen for you by default. In the Character palette, set the font family and size if you have one in mind. Here I set mine to Jordi Embodas’s Pona 9 pt and leave the leading set to auto. That’s what the parentheses mean.\n\nNow, this next part is important. Set the kerning value to Metrics. This, not optical, should be your default. See above.\n\nAlso, through the top rightmost button on the Character palette, which looks like a tiny down arrow next to three horizontal lines, enable Ligatures and Contextual alternates. This last one allows for example complex connected scripts to work as intended.\n\nOn to Paragraph. Select the Align to baseline grid option at the lower right. I also recommend hyphenation being on by default. Change if you disagree, or if the language you primarily work in doesn’t have a very good hyphenation dictionary or whatever.\n\nThe place you set up the baseline grid is under (on the Mac) InDesign &gt; Preferences &gt; Grids, or the same under the Edit menu in Windows. Here I set my increment to 6 pt, and Start at the top, 0 in.\nAnd of course I use points and inches because I’m an American, but if you’d prefer millimeters and centimeters, the same can be set one dialog up from Grids in Units and Increments.\n\nUnless you work primarily with Pro fonts, the following is ill-advised: Go to Advanced Type and set the Small Cap height to 25%. And while you’re at it, you may consider altering the superscript and subscript values. What will this do? Instead of InDesign surreptitiously inserting fake small caps, this setting will make all fake small caps terribly noticeable. You can then go and replace them with properly drawn and proportioned real small caps. The same goes with these settings for super- and subscripts.\n\n \nLastly, hyphenation and justification. Follow these settings, referring to my post on the subject to know when to deviate, for example, when exporting a PDF to be read primarily on-screen you should never scale glyphs. These are set from the top rightmost corner of the Paragraph palette. After looking at it, I think I’ll have to revisit my decisions on the hyphenation of certain words or words that lie in precarious places.\nThat’s it for now. What am I leaving out? Next week we’ll continue on the subject of defaults. Thanks again goes to Jordi Embodas’s Pona (my new default!) for setting the title.",
+                "fallback": "FontShop Blog Link: InDesign Defaults",
+                "from_url": "http:\/\/blog.fontshop.com\/2014\/05\/08\/indesign-defaults\/",
+                "id": 1
+            }
+        ],
+        "ts": "1399914770.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "&gt; When in InDesign, or any of the major CS or CC Adobe apps, the way to set a program-wide default is by setting something _while no documents are open_. To make document-wide defaults, (and I’m actually not sure this works everywhere) you specify something _while nothing in the document is selected_.",
+        "edited": {
+            "user": "U026E0ZNR",
+            "ts": "1399914848.000000"
+        },
+        "ts": "1399914791.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Also, an article that was linked to in the previous one: <http:\/\/blog.fontshop.com\/2013\/09\/12\/kerning-defaults-metrics-or-auto-not-optical\/>",
+        "attachments": [
+            {
+                "service_name": "FontShop Blog",
+                "service_url": "http:\/\/blog.fontshop.com",
+                "title": "Kerning Defaults: Metrics (or Auto), Not Optical",
+                "title_link": "http:\/\/blog.fontshop.com\/2013\/09\/12\/kerning-defaults-metrics-or-auto-not-optical\/",
+                "author_name": "David Sudweeks",
+                "author_link": "https:\/\/blog.fontshop.com\/author\/davidsudweeks\/",
+                "thumb_url": "https:\/\/i2.wp.com\/fontshopblog.files.wordpress.com\/2013\/09\/picture-3.png?fit=440%2C330",
+                "thumb_width": 440,
+                "thumb_height": 248,
+                "text": "Just to make it extra clear while we wrap the subject of kerning, I do have a preference on kerning defaults, and you should too.\n\nThe main message of last week’s piece on kerning is that you should only kern what you have to. Take advantage of the kerning that comes built into your fonts. Do this by setting your default kern settings to Metrics in InDesign, and Auto in Illustrator. Don’t set your default to zero, and don’t set it to Optical.\nBut Optical sounds so nice.\nIt does. It’s alluringly named. Here’s what zero does, and what Optical does: Setting the kerning value to zero ignores the kerns in the font data. Setting it to Optical ignores the kerns in the font data, and essentially makes a spacing exception between every character, meaning that it’s more than the troublesome pairs who need it that get kerned, everything gets kerned by a robot that’s not very good at kerning.\n\nThe above is InDesign kerning FF Legato based on—respectively—the font’s metrics set by its designer, the font’s spacing values only (no kerning), and based on an algorithm that discards both spacing and kerning values and comes up with its own. Note how Optical sets WA a little loose, and LT and ER tight?\nFor display work, you’ll probably be able to spot this stuff and fix it. But what I really worry about is when Optical kerning is applied unknowingly and nobody catches it—in body copy. At text sizes, Optical kerning leaves things kind of tight overall and otherwise just slightly off.\nHow do I set the kerning default to Metrics?\n\nOpen InDesign without any documents open. In the Character palette, set the kerning field to Metrics. All done.\nAren’t we making a lot of assumptions here?\nOnly a couple. One—that the fonts you use most are good. Two, that when you could potentially benefit from Optical kerning, that you’ll know to switch over from your default.\nThat’s it. Catch Using Type here Thursdays.",
+                "fallback": "FontShop Blog Link: Kerning Defaults: Metrics (or Auto), Not Optical",
+                "from_url": "http:\/\/blog.fontshop.com\/2013\/09\/12\/kerning-defaults-metrics-or-auto-not-optical\/",
+                "id": 1
+            }
+        ],
+        "ts": "1399914933.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "When I saw Jessica Hische talk she mentioned something about _Optical_  kerning being the worst possible way to kern your type... Now I know why.",
+        "ts": "1399915006.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i’d love to join the typecast thing",
+        "ts": "1399915107.000014"
+    }
+]

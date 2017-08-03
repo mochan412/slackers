@@ -1,0 +1,320 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I have two offscreen use cases to cover in syshealth",
+        "ts": "1456941762.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then i'm ready to go",
+        "ts": "1456941765.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "code yellow battery profile one-sheet is done as well",
+        "ts": "1456941776.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "woohoo!",
+        "ts": "1456941785.000005"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/voices.washingtonpost.com\/securityfix\/homer.jpg>",
+        "attachments": [
+            {
+                "fallback": "237x329px image",
+                "image_url": "http:\/\/voices.washingtonpost.com\/securityfix\/homer.jpg",
+                "image_width": 237,
+                "image_height": 329,
+                "image_bytes": 19872,
+                "from_url": "http:\/\/voices.washingtonpost.com\/securityfix\/homer.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1456941785.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> I'm guessing this is similar to what we're actually doing",
+        "ts": "1456944620.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<http:\/\/stackoverflow.com\/questions\/20097554\/android-intent-to-open-google-maps-application-at-explore-nearby-screen>",
+        "attachments": [
+            {
+                "title": "Android Intent To Open Google Maps Application At Explore Nearby Screen",
+                "title_link": "http:\/\/stackoverflow.com\/questions\/20097554\/android-intent-to-open-google-maps-application-at-explore-nearby-screen",
+                "text": "I want to directly open up Google Maps Application at the Explore Nearby Screen, e.g. Eat like this screenshot here <https:\/\/dl.dropboxusercontent.com\/u\/14944627\/Google%20Maps%20Application%20Image>...",
+                "fallback": "Android Intent To Open Google Maps Application At Explore Nearby Screen",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/stackoverflow\/img\/apple-touch-icon@2.png?v=73d79a89bded&a",
+                "from_url": "http:\/\/stackoverflow.com\/questions\/20097554\/android-intent-to-open-google-maps-application-at-explore-nearby-screen",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1456944623.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ah never mind the comments below actually say it doesn't work :)",
+        "ts": "1456944653.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, that was the only relevant search I found too",
+        "ts": "1456944707.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the answer I gave adam is basically the same, I think",
+        "ts": "1456944718.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Would it be useful to sniff the traffic to see what it's requesting to try and recreate? Or am I getting too silly",
+        "ts": "1456944785.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Not recreate, but to see if we can figure out what an intent would be",
+        "ts": "1456944799.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(But it's also very possible it just doesn't have it.  afaik the explore around you is android-only, so no web analog)",
+        "ts": "1456944836.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that doesn’t seem super useful to me. we need to figure out how to get into the activity, it’s not really a web-traffic issue",
+        "ts": "1456944863.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Fair. Was thinking of mapping how other requests align to known intents, to see if we can guess one ;)",
+        "ts": "1456944904.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the easiest thing would probably be to just ask the maps team",
+        "ts": "1456944958.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "since their other intents are documented, I bet it just doesn’t exist",
+        "ts": "1456944991.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Rad. ",
+        "ts": "1456945068.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "our onboarding \/ unlock scenario only uses 0.00749mAh of battery",
+        "ts": "1456952991.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(this is a very small number)",
+        "ts": "1456952995.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "That's very small",
+        "ts": "1456953036.000024"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "That's 7940 nAh tho",
+        "ts": "1456953088.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Which is a very big number",
+        "ts": "1456953091.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Also our longest wakelock (so far) is only 138ms partial",
+        "ts": "1456953234.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Need to orchestrate downloading a tile with screen off better tho",
+        "ts": "1456953268.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That will be longer because of the disk io",
+        "ts": "1456953276.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ>: talking with Adam yesterday about schedule, we're targeting 3\/14 for final build delivery",
+        "ts": "1456955413.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh i see",
+        "ts": "1456955493.000031"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Looking at material icons what do you think about auto renew for next image",
+        "ts": "1456955595.000032"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/design.google.com\/icons\/#ic_autorenew>",
+        "attachments": [
+            {
+                "title": "Material icons - Google Design",
+                "title_link": "https:\/\/design.google.com\/icons\/#ic_autorenew",
+                "text": "Material icons are beautifully crafted, delightful, and easy to use in your web, Android, and iOS projects.",
+                "fallback": "Material icons - Google Design",
+                "image_url": "https:\/\/material-icons.storage.googleapis.com\/external-assets\/v1\/social.png",
+                "from_url": "https:\/\/design.google.com\/icons\/#ic_autorenew",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 83282,
+                "id": 1
+            }
+        ],
+        "ts": "1456955596.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "seems fine",
+        "ts": "1456955628.000035"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0GN0A9EV>: can we get the above icon as assets for the NFC selection screen? Should be the same colors as the others in there. Let me know if you don't have access to the others and we can get you set up",
+        "ts": "1456955674.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Volumes\/clients\/Google\/Live\\ case\/Live\\ case\/Dev\/Production\\ ready\\ assets\/NFC\\ icons\/11_11_2015",
+        "ts": "1456955723.000037"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(Tyvm)",
+        "ts": "1456955739.000038"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i like Katie’s comment on the html documentation",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1456972309.000000"
+        },
+        "ts": "1456972307.000039"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "\"much friendlier than a google document.\"",
+        "ts": "1456972310.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\"We have completed a lot of work in response to a request from Uncorked t\"",
+        "ts": "1456972612.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "WTF",
+        "ts": "1456972614.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "how on earth is this a lot of work",
+        "ts": "1456972621.000044"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "we just need to let them know if this won't be accepted by us, etc.,",
+        "ts": "1456972796.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we're awful",
+        "ts": "1456972838.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\"could you maybe have your server tell us the truth?\"",
+        "ts": "1456972858.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\"you're awful, uncorked. Just awful\"",
+        "ts": "1456972865.000048"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "will you please just accept it",
+        "ts": "1456972866.000049"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "etc",
+        "ts": "1456972867.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "etc.",
+        "ts": "1456972870.000051"
+    }
+]

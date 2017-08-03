@@ -1,0 +1,368 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> new \"winged dollar\" emojis here for implementation: <https:\/\/drive.google.com\/drive\/folders\/0BwP7wEvrJF7VRWx1OXFRd0lNY3c>",
+        "attachments": [
+            {
+                "title": "Meet Google Drive – One place for all your files",
+                "title_link": "https:\/\/drive.google.com\/drive\/folders\/0BwP7wEvrJF7VRWx1OXFRd0lNY3c",
+                "text": "Google Drive is a free way to keep your files backed up and easy to reach from any phone, tablet, or computer. Start with 15GB of Google storage – free.",
+                "fallback": "Meet Google Drive – One place for all your files",
+                "from_url": "https:\/\/drive.google.com\/drive\/folders\/0BwP7wEvrJF7VRWx1OXFRd0lNY3c",
+                "service_icon": "https:\/\/accounts.google.com\/favicon.ico",
+                "service_name": "accounts.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1473873155.000203"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> sent you “winged dollar” animations for wallpaper creation + upload - just lemme know if you have any questions (or when you’re done)!",
+        "ts": "1473873330.000205"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> is there any way you could provide me with specs for the editions onboarding images? gkat is requesting so she can create new versions for JS",
+        "ts": "1473878259.000206"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "1440 x 1120 jpg images seem to be the standard for the onboarding images",
+        "ts": "1473879355.000207"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome - evans no flags on your end with that, right?",
+        "ts": "1473879382.000208"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is there a resolution we should pass along",
+        "ts": "1473879464.000209"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(just realized she asked for this as well - sorry)",
+        "ts": "1473879474.000210"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "although the current gatekeeper image seems to have separate images for landscape, with different sizes for different screen densities",
+        "ts": "1473879509.000211"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just grab the existing ones from minime and send them",
+        "ts": "1473879577.000212"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> - sent",
+        "ts": "1473879775.000213"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "also, I uploaded winged dollar",
+        "ts": "1473879787.000214",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> - any recommendation on configuring this project?",
+        "ts": "1473880378.000215"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what?",
+        "ts": "1473880401.000216"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what do you mean?",
+        "ts": "1473880406.000217"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Gradle is not allowing me to build the project, I think because there is both LiveCase and NFCWriter",
+        "ts": "1473880494.000218"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m doing something wrong and I have no idea what",
+        "ts": "1473880512.000219"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you should only import one or the other",
+        "ts": "1473880535.000220"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not the top level directory",
+        "ts": "1473880538.000221"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "right, I tried that and got error: “Configuration with name ‘default’ not found.\"",
+        "ts": "1473880579.000222"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well default would be the top level directory",
+        "ts": "1473880658.000223"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "delete your local copy",
+        "ts": "1473880662.000224"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "re-checkout the project",
+        "ts": "1473880669.000225"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "these onboarding images are two different sizes:  1520 × 1120 pixels vs 1440 x 1120 - is one preferred to another?",
+        "ts": "1473880707.000226"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "bigger is always better",
+        "ts": "1473880773.000227"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool :slightly_smiling_face:",
+        "ts": "1473880778.000228"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in this case, actually 1440 makes more sense",
+        "ts": "1473880781.000229"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lol",
+        "ts": "1473880784.000230"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay thats what i will request",
+        "ts": "1473880792.000231"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1473880795.000232",
+        "reactions": [
+            {
+                "name": "coolevans",
+                "users": [
+                    "U13GPDA1F",
+                    "U1ZG1UCAK"
+                ],
+                "count": 2
+            },
+            {
+                "name": "evans-approves",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U026PHQ3J",
+        "text": "<@U026PHQ3J|evans> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1473880867.000233"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "finally :wink:",
+        "ts": "1473880885.000234"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U13GPDA1F",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[September 14th, 2016 12:21 PM] evans: <@U026PHQ3J|evans> has left the channel",
+                "ts": "1473880867.000233",
+                "msg_subtype": "channel_leave",
+                "author_subname": "evans",
+                "channel_id": "C032B7BAY",
+                "channel_name": "live-case-editions",
+                "is_msg_unfurl": true,
+                "text": "<@U026PHQ3J|evans> has left the channel",
+                "author_name": "Elise \"Cramer\" evans",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/evans",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-07-12\/211206015585_3e81a7fdcc5a58c2e48c_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U13GPDA1F|lynsey> pinned a message to this channel.",
+        "ts": "1473880898.000235"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "haha",
+        "ts": "1473880937.000236"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<@U026PHQ3J> <@U13GPDA1F> Take a look at the keyboard pres. Do these make sense? Feel free to tweak the descripts included…just want to provide a bit context about the screens rather than just showing (it’s how I sell design!)",
+        "ts": "1473881126.000237"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<https:\/\/docs.google.com\/a\/uncorkedstudios.com\/presentation\/d\/1bVNWYVjUbnYF9jlNsob3ZlzFXhA2KSwoWsOaT6tEoUI\/edit?usp=sharing>",
+        "ts": "1473881137.000238"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "this looks awesome leah!",
+        "ts": "1473881272.000239"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "only thing - theres some extra gifs on the last page",
+        "ts": "1473881295.000240"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "why the heck did evans leave the channel",
+        "ts": "1473881305.000241"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i can delete but wanted to make sure you werent planning on them doing something else",
+        "ts": "1473881315.000242"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "for some reason the hangouts screen (and maybe others) are looking really lo-res - was that intentional so keyboard stands out? (just let me know and will position to client accordingly)",
+        "ts": "1473881430.000243"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "no",
+        "ts": "1473881620.000244"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "sorry…no they shouldn’t be looking low res",
+        "ts": "1473881701.000245"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "and don’t on my screen",
+        "ts": "1473881704.000246"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "I’ll try saving them out as something else",
+        "ts": "1473881722.000247"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "try resizing your browser window",
+        "ts": "1473881731.000248"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, weird. as i resize it sometimes is clear sometimes isnt",
+        "ts": "1473882833.000249"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "prob not a big deal to fuss about - everything that needs attention is always crystal",
+        "ts": "1473882857.000250"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "you cool with me sharing with kat?",
+        "ts": "1473882879.000251"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<@U13GPDA1F> When you’re available (after the food event) can you please send me the screen that has the earth icon on it for reference? Thanks!",
+        "ts": "1473887949.000252"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Yep! ",
+        "ts": "1473888188.000253"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Steps to finish setting up project: ```1. Clone volley <https:\/\/android.googlesource.com\/platform\/frameworks\/volley>\n2. Go to Project Structure dialog and hit plus in upper left\n3. Select Import Eclipse ADT Project\n```",
+        "ts": "1473894356.000254"
+    }
+]

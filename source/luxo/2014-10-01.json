@@ -1,0 +1,147 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Reference: <https:\/\/itunes.apple.com\/us\/app\/roomscan-app-that-draws-floor\/id571436618?mt=8>",
+        "attachments": [
+            {
+                "service_name": "App Store",
+                "title": "RoomScan - The app that draws floor plans by itself",
+                "title_link": "https:\/\/itunes.apple.com\/us\/app\/roomscan-app-that-draws-floor\/id571436618?mt=8",
+                "text": "Get RoomScan - The app that draws floor plans by itself on the App Store. See screenshots and ratings, and read customer reviews.",
+                "fallback": "App Store: RoomScan - The app that draws floor plans by itself",
+                "from_url": "https:\/\/itunes.apple.com\/us\/app\/roomscan-app-that-draws-floor\/id571436618?mt=8",
+                "id": 1
+            }
+        ],
+        "ts": "1412175456.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "finished teardown on the kinect and had a crazy idea. what if we hacked off the camera\/IR emitter portion of the front and mounted it on the end of the circuit boards so the whole thing was kind of t-shaped. Mount t-shaped thing in a light socket converted to supply 5VDC to make a light bulb socket mounted kinect.",
+        "ts": "1412187051.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "we would need some longer flat flex cable.. or an flat flex extension cable if such a thing exists. Any ideas with that Joel?",
+        "ts": "1412187086.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02E3CRMA>:",
+        "ts": "1412187098.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah that",
+        "ts": "1412187102.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "oh and I had question for you <@U026103R3>, what is the function of the microphones? There are (4) downward facing microphones in the kinect. Are they just for voice commands or does it try to use them for another (location?) purpose? 4 seems like a ridiculously large number of mikes.",
+        "ts": "1412187181.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "the only purpose i know is for voice commands. <@U02AVBGQC> actually said there are some game triggers based on sound (like, if in FIFA you swear after a play you get a yellow card haha) but that's all i know of",
+        "ts": "1412187251.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "also \"Kinect sensor's microphone array enables Xbox 360 to conduct acoustic source localization and ambient noise suppression, allowing for things such as headset-free party chat over Xbox Live.[9]\"",
+        "ts": "1412187292.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "seems like that's pretty much it",
+        "ts": "1412187326.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "acoustic source localization -- ok that explains the number I guess",
+        "ts": "1412187455.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "thanks!",
+        "ts": "1412187456.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02F8LF2X> <@U026103R3> sorry - just seeing this thread",
+        "ts": "1412202629.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "used this in the past: <http:\/\/no.mouser.com\/ProductDetail\/Temp-Flex\/F3007S-60-025-85\/?qs=sGAEpiMZZMsJiFh04Lj2rhh5wLBy1Ob6qYJH2SxCNHQ%3d>",
+        "attachments": [
+            {
+                "service_name": "Mouser Electronics",
+                "title": "F3007S-60-025-85 Temp-Flex | Mouser",
+                "title_link": "http:\/\/no.mouser.com\/ProductDetail\/Temp-Flex\/F3007S-60-025-85\/?qs=sGAEpiMZZMsJiFh04Lj2rhh5wLBy1Ob6qYJH2SxCNHQ%3d",
+                "text": "F3007S-60-025-85 Temp-Flex Flat Cables 60C 30AWG FEP RIBBON PRICED PER FT Flat Cables Pricing and Availability",
+                "fallback": "Mouser Electronics: F3007S-60-025-85 Temp-Flex | Mouser",
+                "from_url": "http:\/\/no.mouser.com\/ProductDetail\/Temp-Flex\/F3007S-60-025-85\/?qs=sGAEpiMZZMsJiFh04Lj2rhh5wLBy1Ob6qYJH2SxCNHQ%3d",
+                "id": 1
+            }
+        ],
+        "ts": "1412202643.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "high-density with lots of conductors means we can ground-reference all the signals for better signal integrity",
+        "ts": "1412202706.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/www.mashape.com\/imagesearcher\/camfind>",
+        "attachments": [
+            {
+                "title": "CamFind API Documentation",
+                "title_link": "http:\/\/www.mashape.com\/imagesearcher\/camfind",
+                "text": "CamFind API is the image recognition and reverse image search that powers the popular mobile visual search engine app, CamFind. It is the welcomed replacement for the void left following the purchase of IQ Engines by Yahoo!. CamFind API promises to be the best solution for state of the art image recognition and reverse image recognition, which developers can incorporate into both apps and web applications.",
+                "fallback": "CamFind API Documentation",
+                "thumb_url": "http:\/\/i.imgur.com\/TYp6nMU.png",
+                "from_url": "http:\/\/www.mashape.com\/imagesearcher\/camfind",
+                "thumb_width": 2,
+                "thumb_height": 2,
+                "id": 1
+            }
+        ],
+        "ts": "1412202724.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02F8LF2X> <@U026103R3>: if we think we're going to be highly noise-sensitive, then the Cooper Flex products would be a good choice given they can be fully shielded with a continuous ground plane:",
+        "ts": "1412203345.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<http:\/\/www.molex.com\/molex\/products\/group?channel=PRODUCTS&amp;key=copper_flex_products>",
+        "attachments": [
+            {
+                "text": "Providing solutions to packaging, tight spaces and harsh environments; ranging from high-speed signals to power connections",
+                "fallback": "Providing solutions to packaging, tight spaces and harsh environments; ranging from high-speed signals to power connections",
+                "from_url": "http:\/\/www.molex.com\/molex\/products\/group?channel=PRODUCTS&key=copper_flex_products",
+                "id": 1
+            }
+        ],
+        "ts": "1412203345.000021"
+    }
+]

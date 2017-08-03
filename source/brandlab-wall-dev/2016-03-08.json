@@ -1,0 +1,8 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "just realized that the touch vs regular mouse being relative might not matter, since i get mouse position at time of click. and that position would be polled exactly the same if it were touch vs mouse. So really the code I have now should work on either. I currently have it being set to an arbitrary offset. I am going to tie that into the settings from IS, I think we should be able to manage the offsets through an admin. I hope that it always just works right but if there was drift of some kind or need a tweak on the touch, we should be able to set it up so that an admin interface allows for adjustment of that touch offset per panel. Im also not sure how the touch screens calibrate, im hoping we can cut some of that admin out of the picture. The current method im using puts some of that on the OS so that it is doing the ping for the current location of the cursor. As long as the touch screen itself is seen having a 0,0 in upper left and a 960,960 in lower right. The translation will be carried out by the app to position it on the bigger picture. Will certainly know more when we get these. But I think we are looking really good. Tested with 2 mice doing simultaneous clicks no issue.",
+        "ts": "1457466021.000002"
+    }
+]

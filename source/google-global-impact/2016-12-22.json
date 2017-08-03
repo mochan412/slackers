@@ -1,0 +1,218 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0HP6TFNX> and <@U0XJFPSRL> i’d like to move the Content Audit doc you’re working in to our project folder.  you won’t lose access though",
+        "ts": "1482430715.000393"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Ok",
+        "ts": "1482430739.000394"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "ok, thanks",
+        "ts": "1482430745.000395"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "donezo.  and i like what you’re doing! <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/spreadsheets\/d\/1nHUYv4nYsgtgeBz6augqSUlLXf8K4JeeG-tmwQDKSRk\/edit?usp=sharing>",
+        "ts": "1482430767.000396"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/rob\/F3HMW5QH1\/google_net_contributor_content_audit|Google Net Contributor Content Audit - DATA MODEL>",
+        "file": {
+            "id": "F3HMW5QH1",
+            "created": 1482357293,
+            "timestamp": 1482357293,
+            "name": "Google Net Contributor Content Audit",
+            "title": "Google Net Contributor Content Audit - DATA MODEL",
+            "mimetype": "application\/vnd.google-apps.spreadsheet",
+            "filetype": "gsheet",
+            "pretty_type": "GDocs Spreadsheet",
+            "user": "U0B9N0HF0",
+            "editable": false,
+            "size": 58204,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/spreadsheets\/d\/1nHUYv4nYsgtgeBz6augqSUlLXf8K4JeeG-tmwQDKSRk\/edit?usp=sharing",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gsheet_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gsheet_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/rob\/F3HMW5QH1\/google_net_contributor_content_audit",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C3C7Z6ECF"
+            ],
+            "has_rich_preview": false
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1482431747.000397"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Good morning team. Here's a recap of the discussed approach to next week and our shared work streams.",
+        "ts": "1482433870.000398"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Cross-posted in email for email for posterity. Teams “in office” next week are <@U02F9CXTL>\/ <@U0J6TE0CA>  from Design, Megan from UX and <@U0EL0GLEL> from development. The plan for next week is:\n\t•\tTuesday as a “heads down” day\n\t•\tWednesday AM “heads down”\n\t•\tWednesday PM “Regroup Meeting and discuss progress, blockers, pain points” etc. Please note: We’ll still have open Slack channels on Tuesday and Wednesday AM, so please don’t save up any pain points\/blockers, however this will be a space to discuss them in more detail. \n\t•\tThursday “heads down” work based on Wednesdays discussion  \n\nAs discussed, the work streams for next week are:\n\t:black_small_square:\tDevelopment: @Peter to continue to refine the Software Approach document. He will also continue to push forward on environment set-up and begin to put the pieces in place for an Angular admin that connects to Showtime via API. Deliverable: Send out document to client on Wed. 12\/28 following team regroup. \n\t:black_small_square:\tDesign: Next week, Jason and Emily are going to review existing content, begin envisioning what that content might look like using Material design language. \n\t⁃\tThursday, 12\/22 Jason, Emily and John are going to review Material design animations\/transitions to give John a better sense of front-end development scope and to inform Jason\/Emily of any transition\/animation constraints that impact Material from a CSS3 perspective.\n\t⁃\tJason and Emily are also going to devise a quick font-size test that we can run on the Mt. View displays to get a sense of the upper and lower bounds of acceptable font size on those displays. \n\t:black_small_square:\tUX: Thursday, 12\/22 Megan and Elise are continuing to work on the data model. Starting first with the content audit worksheet. Current plan is to have the data model in a shareable state by the Wednesday regroup meeting (12\/28). \n\nIf you see anything here that looks odd or catches  you by surprise, please call it out. Also, please let us know of any questions you have and if anything new comes up  that may impact this approach.",
+        "ts": "1482433923.000399"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Thanks Rob!",
+        "ts": "1482434146.000400"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "I responded to the email with additional context.  I love all of this and I think we’ll try to keep long form artifacts and dependency plans in email (so get used to checking there) and this channel for more transactional\/real time stuffz.",
+        "ts": "1482440586.000402"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "some of you may have noticed felix and i discussing discrepencies in screen sizes listed in various documentation.  bad news: there’s some discrepency.  good news: we are working to get clarity AND the discrepency isn’t that big AND felix gave us some planning guides",
+        "ts": "1482440641.000403"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F3J4U2DGS\/pasted_image_at_2016_12_22_11_52.png|Pasted image at 2016_12_22 11_52.png>",
+        "file": {
+            "id": "F3J4U2DGS",
+            "created": 1482440653,
+            "timestamp": 1482440653,
+            "name": "Pasted image at 2016_12_22 11_52.png",
+            "title": "Pasted image at 2016_12_22 11_52.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 284687,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3J4U2DGS\/pasted_image_at_2016_12_22_11_52.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3J4U2DGS\/download\/pasted_image_at_2016_12_22_11_52.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3J4U2DGS-540a13f2c1\/pasted_image_at_2016_12_22_11_52_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3J4U2DGS-540a13f2c1\/pasted_image_at_2016_12_22_11_52_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3J4U2DGS-540a13f2c1\/pasted_image_at_2016_12_22_11_52_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 230,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3J4U2DGS-540a13f2c1\/pasted_image_at_2016_12_22_11_52_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 306,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3J4U2DGS-540a13f2c1\/pasted_image_at_2016_12_22_11_52_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3J4U2DGS-540a13f2c1\/pasted_image_at_2016_12_22_11_52_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 460,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3J4U2DGS-540a13f2c1\/pasted_image_at_2016_12_22_11_52_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 613,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3J4U2DGS-540a13f2c1\/pasted_image_at_2016_12_22_11_52_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 654,
+            "image_exif_rotation": 1,
+            "original_w": 2196,
+            "original_h": 1402,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F3J4U2DGS\/pasted_image_at_2016_12_22_11_52.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3J4U2DGS-5683405c89",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0ML49XU0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1482440656.000404"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/rob\/F3HMW5QH1\/google_net_contributor_content_audit|Google Net Contributor Content Audit - DATA MODEL>",
+        "file": {
+            "id": "F3HMW5QH1",
+            "created": 1482357293,
+            "timestamp": 1482357293,
+            "name": "Google Net Contributor Content Audit",
+            "title": "Google Net Contributor Content Audit - DATA MODEL",
+            "mimetype": "application\/vnd.google-apps.spreadsheet",
+            "filetype": "gsheet",
+            "pretty_type": "GDocs Spreadsheet",
+            "user": "U0B9N0HF0",
+            "editable": false,
+            "size": 58204,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/spreadsheets\/d\/1nHUYv4nYsgtgeBz6augqSUlLXf8K4JeeG-tmwQDKSRk\/edit?usp=sharing",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gsheet_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gsheet_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/rob\/F3HMW5QH1\/google_net_contributor_content_audit",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C3C7Z6ECF"
+            ],
+            "has_rich_preview": false
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1482445831.000405"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0HP6TFNX> and <@U0XJFPSRL> good news on the Google thread y’all are CC’d on. I'll chime in on this thread to articulate what we’re doing in the data model, trying to identify lowest common denominators so we can plan content around it (?) and ask how GABO may differ, to being to align client expectations",
+        "ts": "1482450295.000406"
+    }
+]

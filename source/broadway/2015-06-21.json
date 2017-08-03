@@ -1,0 +1,473 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm trying to dodge talking to michael on the phone",
+        "ts": "1434944916.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "andy is hitting me with a million little things and he and michael decided that the crash is in the the app",
+        "ts": "1434944931.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and not crosswalk",
+        "ts": "1434944934.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which is hilarious",
+        "ts": "1434944937.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i'm basically about to flip out on both of them",
+        "ts": "1434944945.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "We need to cut Andy off on the little changes ",
+        "ts": "1434945310.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "And let him know hat any changes at this point run he risk of new instability ",
+        "ts": "1434945328.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "none of his stuff is little",
+        "ts": "1434945518.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i added progress spinners everywhere but they look like shit",
+        "ts": "1434945528.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "messing with those now",
+        "ts": "1434945534.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "1.10 released via Crashlytics:",
+        "ts": "1434949014.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "1) Added a fuckton of spinners all over the place",
+        "ts": "1434949023.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "2) Fixed a crash when config.json wasn't downloaded by the time the first screen appeared",
+        "ts": "1434949042.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "3) Disabled Whistlizer artificially",
+        "ts": "1434949050.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "4) Changed the color of text on the paper planes results view",
+        "ts": "1434949066.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I added some broadcast receivers in there, which someone else should validate on other hardware (I only have N4 and N6 at home)",
+        "ts": "1434949100.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to fix 2 above, I had to toss up a progress dialog and register a receiver for the end of the download process",
+        "ts": "1434949128.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its nearly impossible to recreate",
+        "ts": "1434949134.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I'll test this build on multiple devices early Monday AM",
+        "ts": "1434949165.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: Monday morning let's make looking into the whistlizer data that AT is seeing first priority",
+        "ts": "1434949195.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "my guess is the launch crash will reappear",
+        "ts": "1434949250.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "under different circumstances",
+        "ts": "1434949257.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "eesh",
+        "ts": "1434949263.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its ok tho",
+        "ts": "1434949269.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we can fix it if we have another crash or two",
+        "ts": "1434949277.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just dont have much data on it",
+        "ts": "1434949287.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok i'll make testing the new build tomorrow my #1 priority and have the enzyme QA team do the same",
+        "ts": "1434949312.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "OK, understood, will be on it",
+        "ts": "1434950294.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks!",
+        "ts": "1434950301.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "OMG i didn't think i'd have to wait for a comp of what progress spinners should look like",
+        "ts": "1434950643.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but then again, it IS sunday night",
+        "ts": "1434950648.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": ":disappointed: :disappointed: :disappointed:",
+        "ts": "1434950655.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i mean, reduce by 50% seemed straightforward enough",
+        "ts": "1434950671.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right but he's upset that they're not super smooth",
+        "ts": "1434950682.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which is totally true",
+        "ts": "1434950686.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "right",
+        "ts": "1434950696.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i can understand why having multiple on the screen would cause that though",
+        "ts": "1434950708.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "totally.",
+        "ts": "1434950716.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "homegame:",
+        "ts": "1434951925.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F06L4E47P\/device-2015-06-21-224435.mp4|device-2015-06-21-224435.mp4>",
+        "file": {
+            "id": "F06L4E47P",
+            "created": 1434951938,
+            "timestamp": 1434951938,
+            "name": "device-2015-06-21-224435.mp4",
+            "title": "device-2015-06-21-224435.mp4",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 5247699,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06L4E47P\/device-2015-06-21-224435.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06L4E47P\/download\/device-2015-06-21-224435.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F06L4E47P\/device-2015-06-21-224435.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F06L4E47P-62681a1431",
+            "channels": [
+                "C03U21PL1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1434951940.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "looks great to me",
+        "ts": "1434951960.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "aww thanks abby",
+        "ts": "1434951992.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "andy actually called it \"beautiful\"",
+        "ts": "1434951997.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": ":simple_smile: :simple_smile:",
+        "ts": "1434951998.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so ...",
+        "ts": "1434952000.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hahaha",
+        "ts": "1434952002.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "well... i mean.. it's GORGEOUS",
+        "ts": "1434952008.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "OH DAMN",
+        "ts": "1434952021.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Shit. Did you see that?",
+        "ts": "1434952027.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "OMG",
+        "ts": "1434952029.000051"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F06L4A4RL\/screen_shot_2015-06-21_at_10.47.10_pm.png|Screen Shot 2015-06-21 at 10.47.10 PM.png>",
+        "file": {
+            "id": "F06L4A4RL",
+            "created": 1434952039,
+            "timestamp": 1434952039,
+            "name": "Screen Shot 2015-06-21 at 10.47.10 PM.png",
+            "title": "Screen Shot 2015-06-21 at 10.47.10 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 23825,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06L4A4RL\/screen_shot_2015-06-21_at_10.47.10_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06L4A4RL\/download\/screen_shot_2015-06-21_at_10.47.10_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06L4A4RL-74c40518b4\/screen_shot_2015-06-21_at_10.47.10_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06L4A4RL-74c40518b4\/screen_shot_2015-06-21_at_10.47.10_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06L4A4RL-74c40518b4\/screen_shot_2015-06-21_at_10.47.10_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 90,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06L4A4RL-74c40518b4\/screen_shot_2015-06-21_at_10.47.10_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 426,
+            "original_h": 106,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F06L4A4RL\/screen_shot_2015-06-21_at_10.47.10_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F06L4A4RL-893542566a",
+            "channels": [
+                "C03U21PL1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1434952041.000052"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026103R3|abby> uploaded a file: <https:\/\/uncorked.slack.com\/files\/abby\/F06L4CB6F\/screen_shot_2015-06-21_at_10.47.02_pm.png|Screen Shot 2015-06-21 at 10.47.02 PM.png>",
+        "file": {
+            "id": "F06L4CB6F",
+            "created": 1434952042,
+            "timestamp": 1434952042,
+            "name": "Screen Shot 2015-06-21 at 10.47.02 PM.png",
+            "title": "Screen Shot 2015-06-21 at 10.47.02 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026103R3",
+            "editable": false,
+            "size": 24036,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06L4CB6F\/screen_shot_2015-06-21_at_10.47.02_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F06L4CB6F\/download\/screen_shot_2015-06-21_at_10.47.02_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06L4CB6F-b7dd0fe5d9\/screen_shot_2015-06-21_at_10.47.02_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06L4CB6F-b7dd0fe5d9\/screen_shot_2015-06-21_at_10.47.02_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06L4CB6F-b7dd0fe5d9\/screen_shot_2015-06-21_at_10.47.02_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 102,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F06L4CB6F-b7dd0fe5d9\/screen_shot_2015-06-21_at_10.47.02_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 422,
+            "original_h": 120,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/abby\/F06L4CB6F\/screen_shot_2015-06-21_at_10.47.02_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F06L4CB6F-0126d9ca99",
+            "channels": [
+                "C03U21PL1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026103R3",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "abby",
+        "bot_id": null,
+        "ts": "1434952044.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "goddamn you beat me",
+        "ts": "1434952052.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also he said ship it",
+        "ts": "1434952071.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "HE SAID SHIP IT",
+        "ts": "1434952076.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "SHIP IT",
+        "ts": "1434952076.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":ring:",
+        "ts": "1434952083.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": ":tada:",
+        "ts": "1434952097.000059"
+    }
+]

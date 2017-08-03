@@ -1,0 +1,378 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> i’m catching up.  Looks like we are unblocked by card reader set up but can <@U0EL0GLEL> and <@U02E3CRMA> give me a tl;dr status update relative to delivery?",
+        "ts": "1476719988.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Peter was able to talk to the card reader on Friday, but was having some problems getting correct responses back. I'm basically taking the day to work on this.",
+        "ts": "1476720105.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "script gets card reader response to kick the Darkroom software into action, right?",
+        "ts": "1476720134.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "That's correct. It's also doing all the setup and configuration for the card reader and then triggers the darkroom software. We're thinking because the script is the same every time that will be able to move it to the Arduino once it's working",
+        "ts": "1476720195.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'm still on my way in but I'll come find you as soon as I'm in the office and give you the rundown.",
+        "ts": "1476720210.000055"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The init and the basic stuff seems to respond with the expected 00 code for ack but the code that is supposed to do the setup and set price responds with FF and not sure what that means. Also just getting 00 back doesnt really inspire confidence to me that it is indeed responding to my command. Yea that is what it should do but that is also just a generic yep i heard you, yes dear, type response. The card reader had been doing something with the radio showing up on the lcd when you hit the radio button on the box, it would show some count down, i assume time out for connection. After i talked to henry and he got it setup on their end it stopped doing that. it now only shows unable to accept a card or something like that. and eventually the system seems to time out and shut off. It does also respond only with FF if the system has not been turned on and booted up so the ack might be responding right.",
+        "ts": "1476720619.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "helpful, thanks dudes.  <@U02E3CRMA> I don’t see this as top priority so don’t drop what you’re doing just to catch me up but yes, lets find time today to jump me in if i can help in any way.  Even if just on communication stuff.",
+        "ts": "1476720747.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Interesting: <http:\/\/www.upstatenetworks.com\/mdbuserguide.htm>",
+        "attachments": [
+            {
+                "title": "Upstate Networks MDB2PC Users Guide",
+                "title_link": "http:\/\/www.upstatenetworks.com\/mdbuserguide.htm",
+                "text": "Upstate Networks, PC controlled vending, foreign currency, free software, software,kiosk, vending, MDB, MDB2PC, coins, Bills, smart cards, vending interface",
+                "fallback": "Upstate Networks MDB2PC Users Guide",
+                "from_url": "http:\/\/www.upstatenetworks.com\/mdbuserguide.htm",
+                "service_icon": "http:\/\/www.upstatenetworks.com\/picts\/icon.ico",
+                "service_name": "upstatenetworks.com",
+                "id": 1
+            }
+        ],
+        "ts": "1476741820.000060"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joel\/F2QFPBNBS\/pasted_image_at_2016_10_17_03_03_pm.png|Pasted image at 2016-10-17, 3:03 PM>",
+        "file": {
+            "id": "F2QFPBNBS",
+            "created": 1476741835,
+            "timestamp": 1476741835,
+            "name": "Pasted image at 2016_10_17 03_03 PM.png",
+            "title": "Pasted image at 2016-10-17, 3:03 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 74555,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2QFPBNBS\/pasted_image_at_2016_10_17_03_03_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2QFPBNBS\/download\/pasted_image_at_2016_10_17_03_03_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFPBNBS-8f3e5d68cf\/pasted_image_at_2016_10_17_03_03_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFPBNBS-8f3e5d68cf\/pasted_image_at_2016_10_17_03_03_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFPBNBS-8f3e5d68cf\/pasted_image_at_2016_10_17_03_03_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 77,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFPBNBS-8f3e5d68cf\/pasted_image_at_2016_10_17_03_03_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 103,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFPBNBS-8f3e5d68cf\/pasted_image_at_2016_10_17_03_03_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFPBNBS-8f3e5d68cf\/pasted_image_at_2016_10_17_03_03_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 155,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFPBNBS-8f3e5d68cf\/pasted_image_at_2016_10_17_03_03_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 206,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFPBNBS-8f3e5d68cf\/pasted_image_at_2016_10_17_03_03_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 220,
+            "image_exif_rotation": 1,
+            "original_w": 1442,
+            "original_h": 310,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F2QFPBNBS\/pasted_image_at_2016_10_17_03_03_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2QFPBNBS-dc0fd5328e",
+            "channels": [
+                "C2KCNUTB7"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02E3CRMA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1476741837.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "should be taken care of automatically by the USB serial cable, but worth a sanity-check",
+        "ts": "1476741924.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "interesting, didnt see that part. I looked through their vb6 code example and didnt really look like we were doing anything different.",
+        "ts": "1476741928.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "good to know",
+        "ts": "1476741934.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m probably being paranoid",
+        "ts": "1476741939.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "at this point its worth it, i hate those small stupid doh moments that cause it all to not work",
+        "ts": "1476741962.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "from the MDB session examples:",
+        "ts": "1476742416.000068"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joel\/F2QFT1Q9E\/pasted_image_at_2016_10_17_03_13_pm.png|Pasted image at 2016-10-17, 3:13 PM>",
+        "file": {
+            "id": "F2QFT1Q9E",
+            "created": 1476742419,
+            "timestamp": 1476742419,
+            "name": "Pasted image at 2016_10_17 03_13 PM.png",
+            "title": "Pasted image at 2016-10-17, 3:13 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 58700,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2QFT1Q9E\/pasted_image_at_2016_10_17_03_13_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F2QFT1Q9E\/download\/pasted_image_at_2016_10_17_03_13_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFT1Q9E-a4b48deb51\/pasted_image_at_2016_10_17_03_13_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFT1Q9E-a4b48deb51\/pasted_image_at_2016_10_17_03_13_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFT1Q9E-a4b48deb51\/pasted_image_at_2016_10_17_03_13_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 75,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFT1Q9E-a4b48deb51\/pasted_image_at_2016_10_17_03_13_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 101,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFT1Q9E-a4b48deb51\/pasted_image_at_2016_10_17_03_13_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFT1Q9E-a4b48deb51\/pasted_image_at_2016_10_17_03_13_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 151,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFT1Q9E-a4b48deb51\/pasted_image_at_2016_10_17_03_13_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 201,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F2QFT1Q9E-a4b48deb51\/pasted_image_at_2016_10_17_03_13_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 215,
+            "image_exif_rotation": 1,
+            "original_w": 1680,
+            "original_h": 352,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F2QFT1Q9E\/pasted_image_at_2016_10_17_03_13_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F2QFT1Q9E-73012d5f04",
+            "channels": [
+                "C2KCNUTB7"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02E3CRMA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1476742422.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "looks like that 10 00 is a response from the POLL from MDB2PC",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1476742448.000000"
+        },
+        "ts": "1476742432.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "not sure if that effs our sequence, so I’m modding our script to kick off the config right after it sees the JUST RESET response",
+        "ts": "1476742506.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this might be of use too, <http:\/\/www.upstatenetworks.com\/nama_specs\/mdb_7.pdf> that site is pretty terribly laid out, keep finding new things on it that were not available from the nav right away",
+        "ts": "1476742645.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this is an interesting bit The cashless device may provide an informational response in two ways. It may respond\nimmediately with the requested data, or the cashless device may ACK the VMC command. If\nACKed, the VMC must issue POLLs until the cashless device responds with the requested\ndata, or until the Application Maximum Response Time (defined in READER\nCONFIGURATION response) has elapsed.",
+        "ts": "1476742784.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "have to keep issuing poll until the ack comes thru, i wonder if im skipping past the setup config too fast? like issue the command and we need to keep issuing poll until an ack?",
+        "ts": "1476742856.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "like the FF is just the start of some data, it needs to ping the server, and it takes a little while to get back",
+        "ts": "1476742885.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "need to just keep pushing a poll till the 00 comes in",
+        "ts": "1476742898.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "in that 0xFF is a NACK, makes sense",
+        "ts": "1476742930.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "updating now to explicitly wait until an ACK returns",
+        "ts": "1476742950.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet",
+        "ts": "1476743729.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "FFH - Diagnostic\nResponse",
+        "ts": "1476743918.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "apparently thats what it means",
+        "ts": "1476743943.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "codes are on here <http:\/\/www.upstatenetworks.com\/nama_specs\/mdb_7.pdf>",
+        "ts": "1476743952.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m thinking flow control is next, since i got this:\n\nConnected to COM4\nRESPONSE: b'10 00\\r\\n'\nGot an MDB JUST RESET, running config sequence\n\nCOMMAND: 0x10 (Reset)\n\nRESPONSE: b'FF \\r\\n'\nRESPONSE: b'1'\nRESPONSE: b'0'\nRESPONSE: b' '\nRESPONSE: b'0'\nRESPONSE: b'0'\nRESPONSE: b'\\r'\nRESPONSE: b'\\n’",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1476748151.000000"
+        },
+        "ts": "1476748122.000084"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I should basically get an immediate 0x00 back...",
+        "ts": "1476748164.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "update: script now sends a reset and gets an ACK back",
+        "ts": "1476757559.000088"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "polling then gets 0xFF",
+        "ts": "1476757574.000089"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "going to ping ePort tomorrow",
+        "ts": "1476757580.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL> I’m wondering if this MDB card is really stupid, and though it’s hex, you have to send each DIGIT one byte at a time. If you look at the response above, I would expect hex code 0x10 to come back in 1 byte. But it’s not - it’s split into 2. Keep in mind those are raw byte values, not ASCII byte chars. Right now we're writing a single byte for reset `CMD_RESET = b'\\x10’;`. I think we need to write 2 bytes - 1 and 0 as b’10'",
+        "ts": "1476758860.000091"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "to your point earlier - all the docs describe the protocol on the MDB side",
+        "ts": "1476759474.000092"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "but I think the MDB2PC is making it “easy” by allowing us to just write straight text for the hex codes, and it’s then converting\/encoding",
+        "ts": "1476759498.000093"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "other side-note: adding the flow control is the difference between seeing an ACK and not right now",
+        "ts": "1476759574.000094"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "def writeserial(str):\n\tser.setDTR(True);\n\tser.write(str);\n\tser.setDTR(False);\n\ttime.sleep(.1);",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1476759626.000000"
+        },
+        "ts": "1476759582.000095"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I was wondering about the plain text thing too. The vb 6 code looked like that might be the case. Went to try with python but it complained it wasn't a byte our something and didn't get to try further",
+        "ts": "1476762933.000100"
+    }
+]

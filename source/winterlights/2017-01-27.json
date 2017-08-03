@@ -1,0 +1,414 @@
+[
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Alright. Update on arduino. Simple as using the non-deprecated library for ethernet. Really odd that Arduino IDE comes with the old library as one would expect to just be able to use that one.",
+        "ts": "1485535988.000376"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Working on making sure the OSC communication works on my computer right now. Also putting together my old laptop to program. Seems like my work laptop seems to have a lot of trouble programming. Not sure if it has to do with the water damage from last year's festival preparation.",
+        "ts": "1485536138.000377"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Is there a meeting today? Is it something that would be helpful for me to be a part of?",
+        "ts": "1485536400.000378"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "We had planned on heading over to DDD today at 11. I think Nathan would benefit from having you around. It seems like he is the guy actually working on the stuff.",
+        "ts": "1485536478.000379"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Okay, can you send me the calendar invite?",
+        "ts": "1485537038.000380"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "We actually never had one. Should be in the office around 10:45 to give anyone a ride who wants to come.",
+        "ts": "1485537730.000381"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "I can make a calendar invite though.",
+        "ts": "1485537754.000382"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Cool, if you don’t mind, that would be great. Just want to block it out on my calendar",
+        "ts": "1485538598.000383"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Sure thing",
+        "edited": {
+            "user": "U0H4SJN11",
+            "ts": "1485538662.000000"
+        },
+        "ts": "1485538655.000384"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0XJFPSRL> and <@U0H4SJN11> Josh, Rob, nor I are able to go today. Happy to join in via call for part of it, if necessary otherwise im still curious what DDD and ZGF are thinking in terms of build, test, deploy...",
+        "ts": "1485540646.000386"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Got it. Wasn't expecting you guys would want\/need to come. ",
+        "ts": "1485541343.000387"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "project boxes should be delivered today via usps",
+        "ts": "1485549774.000388"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "fyi",
+        "ts": "1485549775.000389"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "?",
+        "ts": "1485550189.000390"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "project boxes that miguel asked for to hold his arduino stuff",
+        "ts": "1485550454.000391"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Sweet. Was going to ask. ",
+        "ts": "1485550484.000392"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Here",
+        "ts": "1485557315.000393"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here> talked with Elise and Miguel regarding today’s meeting and it sounds as though it was a productive meeting!\n- OSC communicatin figured out.  <@U0H4SJN11> anything left to do\/test\/deliver here?\n- there’s a lighting\/touch sensor route conflict that they’re asking us to work around.  <@U0H4SJN11> is testing today.  it is our *strong opinion* that if touch sensor accuracy is diminished by this request that we push back on the re-route.  <@U0H4SJN11> i want to bottom out on this today.\n- MACRO-LEVEL: ZGF is workign the wknd to finish the structure and they’ve expressed a want to regroup on monday based on progress\n- no help required from us this and so as not to put too much pressure on ZGF going into the weekend,  Elise thinks the best play (and I trust her) to follow up with them on Monday on what the plan to stage, test, deploy, test, run is.  This leaves some risk but by all accounts, those on the ground today see things looking good and coming together.\n\nPlease chime in with any questions, ideas or differences in understanding",
+        "ts": "1485557787.000394"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Did the LEDs arrive yet? :grimacing: are they integrated?",
+        "ts": "1485558269.000395"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0H4SJN11> :arrow_up: but fromt he sounds of the larger context, yes (?)",
+        "ts": "1485558329.000396"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Need to make code work with sensor and ethernet protocol. I'm on my way to deliver a project box and wire sample for them to integrate. Will be testing today with capacitive sensor.",
+        "ts": "1485559865.000397"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "LEDs have arrive. They sound like they will be integrated once DDD receives the final podiums.",
+        "ts": "1485559891.000398"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so LED integration Monday, assuming ZGF finishes this weeknd?",
+        "ts": "1485559907.000399"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Yes.",
+        "ts": "1485559910.000400"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Felix just pointed out that Winterlights kicks off the same day as our holiday party. Online, OMSI says Winterlights starts Wednesday from 6-10",
+        "ts": "1485562778.000401"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Just wanted to put this potential conflict on people’s radar",
+        "ts": "1485562792.000402"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah fun times",
+        "ts": "1485562826.000403"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "great call out <@U0XJFPSRL> thanks.  <@U0H4SJN11> has clas on tuesday as well so help\/support is limited to monday and Wed AM\/early afternoon",
+        "ts": "1485562840.000404"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0H4SJN11> can you keep monday open?  and <@U02F8LF2X> you avail for triage on tuesday in miguel’s absence?",
+        "ts": "1485562866.000405"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Will keep Mon open. ",
+        "ts": "1485562882.000406"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'm available",
+        "ts": "1485562892.000407"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "May need to help early on Weds with holiday party. ",
+        "ts": "1485562900.000408"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good points",
+        "ts": "1485562906.000409"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and thanks",
+        "ts": "1485562907.000410"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0H4SJN11> any ETA on when you may be able to test the touch sensors?",
+        "ts": "1485562924.000411"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Off purchasing connectors for enclosures. Will be back shortly. ",
+        "ts": "1485563013.000412"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "shit i won’t be around then to test this.  Can you and Josh handle and let me know?  Again, let’s be realistic with our findings, I think the touch interaction being intuitive and reliable is paramount to the experience",
+        "ts": "1485563119.000413"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Will do. Sorry I delayed getting it sorted before you had to leave. ",
+        "ts": "1485565141.000414"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "youre cool",
+        "ts": "1485565172.000415"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i wanna help if i can is all",
+        "ts": "1485565176.000416"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0H4SJN11|miguel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/miguel\/F3YDG3JCX\/dsc_0024.jpg|Shadow> and commented: Ok. Justified the requirement to have the foil on the spot requested. Here is a pic with it as we had in mind. It makes a pretty serious shadow that isn't ideal.",
+        "file": {
+            "id": "F3YDG3JCX",
+            "created": 1485575621,
+            "timestamp": 1485575621,
+            "name": "DSC_0024.JPG",
+            "title": "Shadow",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U0H4SJN11",
+            "editable": false,
+            "size": 784913,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3YDG3JCX\/dsc_0024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3YDG3JCX\/download\/dsc_0024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3YDG3JCX-a8b30d00ba\/dsc_0024_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3YDG3JCX-a8b30d00ba\/dsc_0024_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3YDG3JCX-a8b30d00ba\/dsc_0024_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3YDG3JCX-a8b30d00ba\/dsc_0024_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3YDG3JCX-a8b30d00ba\/dsc_0024_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3YDG3JCX-a8b30d00ba\/dsc_0024_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3YDG3JCX-a8b30d00ba\/dsc_0024_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3YDG3JCX-a8b30d00ba\/dsc_0024_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1080,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/miguel\/F3YDG3JCX\/dsc_0024.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3YDG3JCX-784e8626d0",
+            "channels": [
+                "C08V1REB0"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc3X2L1JN5",
+                "created": 1485575621,
+                "timestamp": 1485575621,
+                "user": "U0H4SJN11",
+                "is_intro": true,
+                "comment": "Ok. Justified the requirement to have the foil on the spot requested. Here is a pic with it as we had in mind. It makes a pretty serious shadow that isn't ideal."
+            }
+        },
+        "user": "U0H4SJN11",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "miguel",
+        "bot_id": null,
+        "ts": "1485575623.000417"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0H4SJN11|miguel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/miguel\/F3XNKQ80J\/dsc_0026.jpg|This seems like the ideal touch setup>",
+        "file": {
+            "id": "F3XNKQ80J",
+            "created": 1485575756,
+            "timestamp": 1485575756,
+            "name": "DSC_0026.JPG",
+            "title": "This seems like the ideal touch setup",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U0H4SJN11",
+            "editable": false,
+            "size": 898379,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3XNKQ80J\/dsc_0026.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3XNKQ80J\/download\/dsc_0026.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3XNKQ80J-f7568cfadf\/dsc_0026_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3XNKQ80J-f7568cfadf\/dsc_0026_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3XNKQ80J-f7568cfadf\/dsc_0026_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3XNKQ80J-f7568cfadf\/dsc_0026_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3XNKQ80J-f7568cfadf\/dsc_0026_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3XNKQ80J-f7568cfadf\/dsc_0026_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3XNKQ80J-f7568cfadf\/dsc_0026_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3XNKQ80J-f7568cfadf\/dsc_0026_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/miguel\/F3XNKQ80J\/dsc_0026.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3XNKQ80J-29c4d8d0c2",
+            "channels": [
+                "C08V1REB0"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0H4SJN11",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "miguel",
+        "bot_id": null,
+        "ts": "1485575759.000418"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "This configuration seemed to work fine, even with simulated tiny hands. Would be great if we could get an actual child to try though.",
+        "ts": "1485576600.000419"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "So three things ",
+        "ts": "1485584623.000420"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "1. Thank you for doing all this. ",
+        "ts": "1485584629.000421"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "2. Re top post, original configuration looks funny. And inappropriate ;)",
+        "ts": "1485584652.000422"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "3. How did you simulate tiny hands?",
+        "ts": "1485584662.000423"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Hah. Just used my knuckles.",
+        "ts": "1485586924.000424"
+    }
+]

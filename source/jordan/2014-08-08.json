@@ -1,0 +1,138 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0289USNA> are we using the enterprise profile for jordan right now?",
+        "ts": "1407533110.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0289USNA>: i need to make an app id so i can generate the push certs so i might do a big swap of some app ids",
+        "ts": "1407533132.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "whatever you need....",
+        "ts": "1407537120.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "yes we are using enterprise",
+        "ts": "1407537126.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "pushed",
+        "ts": "1407537273.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0289USNA> <@U026PHQ3J> is there a notion of removing or adding tags to a post after its initial creation?",
+        "ts": "1407537449.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "there is no notion of it currently to my knowledge",
+        "ts": "1407538994.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay thanks",
+        "ts": "1407539015.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0289USNA> <@U026PHQ3J> what about deleting posts after they’ve been posted?",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1407539542.000000"
+        },
+        "ts": "1407539525.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "dont hate me if I'm worng someday about those tags...",
+        "ts": "1407539879.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "someday would be okay",
+        "ts": "1407539896.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "today would be a bit of a headache",
+        "ts": "1407539905.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "as far as deleting a post - that's up for discussion as to whether that truly deletes or just changes state to a \"deleted\" state",
+        "ts": "1407539917.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "definitely not today",
+        "ts": "1407539924.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "if we delete posts in the docs...  that works ?",
+        "ts": "1407539954.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "well, i just changed it so now instead of deleting it gives the post a state of -1",
+        "ts": "1407540003.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "does that sound alright?",
+        "ts": "1407540046.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "works for me.",
+        "ts": "1407540054.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "cool",
+        "ts": "1407540059.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the main activity feed at somepoint soon will switch to filter and display only state of approved",
+        "ts": "1407540086.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "cool. i’ve been approving things in the CMS",
+        "ts": "1407540107.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i dk if we’ve talked about this before but to be clear, I’m setting the posts state to 0 for awaiting approval, 1 for approved, and -1 for deleted",
+        "ts": "1407540154.000034"
+    }
+]

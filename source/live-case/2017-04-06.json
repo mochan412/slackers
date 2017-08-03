@@ -1,0 +1,362 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like Earth goes to default screen when there’s an IOException in loading up the next image. ~line 151 in EarthImageUtility",
+        "ts": "1491495438.598780"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which could mean a broken image or something else.",
+        "ts": "1491495470.608164"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i think it could be side-stepped if detected in GLWallpaperRenderer",
+        "ts": "1491495561.633714"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "around line 600",
+        "ts": "1491495568.635883"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "660",
+        "ts": "1491495570.636312"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry",
+        "ts": "1491495571.636613"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "or just when the BitmapLoader.newInstance gets back null, a couple cases for that",
+        "ts": "1491495571.636735"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right.",
+        "ts": "1491495576.638227"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "normally we’d want to panic there, but since we should have a group of images to choose from, i think a softer landing might make sense",
+        "ts": "1491495593.643032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "something like what happens in artworks where it moves on",
+        "ts": "1491495600.645152"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if there’s an error",
+        "ts": "1491495603.645990"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I was trying to force it to go null and see how many times it would loop through to try next and I was getting 1 to 3 attempts, so I have been trying to figure out where the decision path is there",
+        "ts": "1491495686.670895"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its kind of fuzzy, because there’s always a chance that its legit fucked and will eventually have to fail",
+        "ts": "1491495708.677390"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so that was really just an assumption (magic number 3)",
+        "ts": "1491495726.682341"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but also it might work to set the flag to load the next image on next visibility switch",
+        "ts": "1491495761.692303"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and make the system deal with it naturally",
+        "ts": "1491495769.694713"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "however, it would be useful and probably smart to yank the failing image from rotation if\/when it fails",
+        "ts": "1491495785.699454"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ooooh!",
+        "ts": "1491495808.705880"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "ok, cool. One thing I was noticing walking through the actual WallpaperManager yesterday was noticing that when they load in bitmaps they also are catching OutOfMemory errors, just as a, they may be hitting similar issues as what we are maybe seeing in artworks, and so there is precedence",
+        "ts": "1491495816.708412"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah i dont hate it on its own.",
+        "ts": "1491495836.714337"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the java dev in me just gets creeped out by catching OOMs",
+        "ts": "1491495849.717959"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, i’m not sure this OOM would be catchable",
+        "ts": "1491495855.719522"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "because ultimately its an input stream error",
+        "ts": "1491495863.722304"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, I like the attempt to move on after a failure and just marking the bad image, either labeling it to skip or straight delete it",
+        "ts": "1491495866.723147"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "anyway i gotta miss standup for PP meetings today",
+        "ts": "1491495941.745278"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so consider this my standup",
+        "ts": "1491495944.746290"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> we can catch up on natalie\/adam emails after",
+        "ts": "1491495954.749437",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I agree, it isn’t great, but I think if it was isolated to just the bitmaploading block, and then pushing a logging string up to the platform with the image &amp; device type it hit it on would give us a better idea if there is a particular image that’s triggering them",
+        "ts": "1491495978.756498"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think it would be cool to skip\/delete the image and make sure at very least that the slideshow doesn’t stop working",
+        "ts": "1491495984.758179"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "attaching the image name that fails to a GA event would actually be smart",
+        "ts": "1491496006.764507"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Yea, for this we are already catching it, so we may as well handle it and move on",
+        "ts": "1491496025.770241"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it looks like the real pisser about this bug is that when it does fail, (for some dumb reason I created this part of the bug which is _THE WORST_) it doesn’t reschedule the transition alarm",
+        "ts": "1491496096.791685"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F4VKFDHHA\/-.py|Untitled>",
+        "file": {
+            "id": "F4VKFDHHA",
+            "created": 1491496103,
+            "timestamp": 1491496103,
+            "name": "-.py",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 502,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4VKFDHHA\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4VKFDHHA\/download\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F4VKFDHHA\/-.py",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4VKFDHHA-ceba225ffa",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F4VKFDHHA\/-.py\/edit",
+            "preview": "\r\n                        long millTilNextAlarm;\r\n                        if (speed == SlideshowSpeed.SLIDE_SHOW_SPEED_DAILY) {\r\n                            \/\/find the next midnight and schedule this\r\n                            millTilNextAlarm = EarthPreferences.getMillisUntilMidnight();\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre>                        <span class=\"cm-builtin\">long<\/span> <span class=\"cm-variable\">millTilNextAlarm<\/span>;<\/pre><\/div>\n<div><pre>                        <span class=\"cm-keyword\">if<\/span> (<span class=\"cm-variable\">speed<\/span> == <span class=\"cm-variable\">SlideshowSpeed<\/span>.<span class=\"cm-property\">SLIDE_SHOW_SPEED_DAILY<\/span>) {<\/pre><\/div>\n<div><pre>                            <span class=\"cm-operator\">\/\/<\/span><span class=\"cm-variable\">find<\/span> <span class=\"cm-variable\">the<\/span> <span class=\"cm-builtin\">next<\/span> <span class=\"cm-variable\">midnight<\/span> <span class=\"cm-keyword\">and<\/span> <span class=\"cm-variable\">schedule<\/span> <span class=\"cm-variable\">this<\/span><\/pre><\/div>\n<div><pre>                            <span class=\"cm-variable\">millTilNextAlarm<\/span> = <span class=\"cm-variable\">EarthPreferences<\/span>.<span class=\"cm-property\">getMillisUntilMidnight<\/span>();<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 11,
+            "lines_more": 6,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1491496103.793781"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sweet. Do you think we should try to catch the other divideByZero and indexBounds errors on the artworks stuff as well and at least send a GAtag? Those probably aren’t what the underlying issue is, but they are the exceptions being thrown and we know that we are seeing them on the bitmapLoading?",
+        "ts": "1491496188.818074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think send the GA tag before adding the catches",
+        "ts": "1491496208.823842"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we really want them to get a better idea of what the images are doing first",
+        "ts": "1491496223.828381"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for those crashes though, when would we actually be wanting to fire the tag? Wouldn’t we need to catch the execptions?",
+        "ts": "1491496278.844397"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh duh you’re right",
+        "ts": "1491496290.847865"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F4VMB2Q91\/trends_double_tap_to_adv_single_tap_text_to_open_search.apk|trends_double_tap_to_adv_single_tap_text_to_open_search.apk> and commented: <@U13GPDA1F> Here is a build you can share with Natalie that opens Google Search on trend term single tap. Hopefully this will persuade her to abandon any annoying shake implementations! Google Search is slow to load so if she does decide to go this way we might want to give some indication to the user that the device registered the tap (such as vibrate, etc.)",
+        "file": {
+            "id": "F4VMB2Q91",
+            "created": 1491511908,
+            "timestamp": 1491511908,
+            "name": "trends_double_tap_to_adv_single_tap_text_to_open_search.apk",
+            "title": "trends_double_tap_to_adv_single_tap_text_to_open_search.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35232142,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4VMB2Q91\/trends_double_tap_to_adv_single_tap_text_to_open_search.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4VMB2Q91\/download\/trends_double_tap_to_adv_single_tap_text_to_open_search.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F4VMB2Q91\/trends_double_tap_to_adv_single_tap_text_to_open_search.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4VMB2Q91-df887d2c5e",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4WE96VN3",
+                "created": 1491511908,
+                "timestamp": 1491511908,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "<@U13GPDA1F> Here is a build you can share with Natalie that opens Google Search on trend term single tap. Hopefully this will persuade her to abandon any annoying shake implementations! Google Search is slow to load so if she does decide to go this way we might want to give some indication to the user that the device registered the tap (such as vibrate, etc.)"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1491511910.172120"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "omg PERFECT TIMING",
+        "ts": "1491512048.208035",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1491512201.248280"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey gang - here is a copy of the (WIP) 2017 feature roadmap. i can set up some time for us to walk through this, but take a peek and let me know if you have any immediate questions. we’re still waiting on definition on a lot of these items but sounds like we’ll get that shortly!",
+        "ts": "1491521175.880469"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/docs.google.com\/spreadsheets\/d\/1WRCWvmJwFVn-sOmgSVH8SVba77QsZOzdVWuZQuf2kfo\/edit#gid=0>",
+        "ts": "1491521179.881101"
+    }
+]

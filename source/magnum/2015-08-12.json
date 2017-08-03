@@ -1,0 +1,430 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hey <@U026PLK4S> looking at MA-7 and fade in\/out makes more sense. It does look weird on the homepage when the nav bar is long. What happens now is that on click the nav contracts to 70px while the menu fades in.  Is there something else we want to do in there?",
+        "ts": "1439397950.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "oh cool! i wasn’t sure how hard some of that stuff was\/is, but glad to hear that you’re into fade too.  Maybe instead of shrinking down to 70px, it can grow down to fill the page with that grey color, then fade the Nav in. I’m not totally sure, but maybe we can look into that after we get a feel for the fade.",
+        "edited": {
+            "user": "U026PLK4S",
+            "ts": "1439398303.000000"
+        },
+        "ts": "1439398172.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "(also, i really like the pace of your hover fades. think it’s a perfect fit here)",
+        "ts": "1439398256.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Cool. Will play with that.",
+        "ts": "1439398354.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Actually, just pushed the fade to staging. Will prob need your thoughts on where you would like to go (direction wise) when the nav is tall.",
+        "ts": "1439398645.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Ok. i’ll check it out and hit you up.",
+        "ts": "1439398788.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks",
+        "ts": "1439398795.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<https:\/\/dl.dropboxusercontent.com\/spa\/ra93brplpldred1\/ozo6dq53.png>",
+        "attachments": [
+            {
+                "fallback": "736x301px image",
+                "image_url": "https:\/\/dl.dropboxusercontent.com\/spa\/ra93brplpldred1\/ozo6dq53.png",
+                "image_width": 736,
+                "image_height": 301,
+                "image_bytes": 65679,
+                "from_url": "https:\/\/dl.dropboxusercontent.com\/spa\/ra93brplpldred1\/ozo6dq53.png",
+                "id": 1
+            }
+        ],
+        "ts": "1439405243.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":disappointed:",
+        "ts": "1439405263.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "a lot of these captions are just a little too long… how do we feel about making it a soft character limit?",
+        "ts": "1439405383.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sorry, these stories are just heartbreaking. I am feeling pretty awful about having them edit them down...",
+        "ts": "1439405428.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Sure, I assume we could. The 450 limit was mostly a guess, but a decently considered one. In my (probably flawed) photoshop test, captions beyond 450 routinely had text falling below the fold on mobile. This of course isn’t the end of the world,  and something we should expect to see in extreme mobile scenarios.  So, bumping the limit up to 500 doesn’t necessarily break anything on the design side but it certainly isn’t as “ideal.” \n\nLooking back at the basecamp post and spreadsheet that analyzed every caption length, it looks like this is only a real problem for one specific project, Just Stop. \n<https:\/\/dl.dropboxusercontent.com\/spa\/5rar3xay44yc491\/-35p0rn3.png>\n\nI agree, those captions are absolutely heartbreaking. I’m just not sure a bump to 500 is really going to help them edit down when they’ve got  7  that are 660+, and 4 that are 1220+. I just wonder if 50 more characters is really going to help.",
+        "attachments": [
+            {
+                "fallback": "1070x94px image",
+                "image_url": "https:\/\/dl.dropboxusercontent.com\/spa\/5rar3xay44yc491\/-35p0rn3.png",
+                "image_width": 1070,
+                "image_height": 94,
+                "image_bytes": 33610,
+                "from_url": "https:\/\/dl.dropboxusercontent.com\/spa\/5rar3xay44yc491\/-35p0rn3.png",
+                "id": 1
+            }
+        ],
+        "ts": "1439410458.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Think we need to chat with Magnum in general about captions. At one point, their team specifically talked about editing things down. So yes we need to find a balance between everything, but especially on content side, I want it them to be looped in to whatever we're doing",
+        "ts": "1439410484.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "You’re right <@U026PLK4S>, Just Stop is the one where they will really need to edit a lot. Most will be fine, and are cutting off in the middle of the last sentence or so. I just wonder if we can remove the character limit from the CMS and see how slightly longer captions play out on the staging site. thoughts?",
+        "ts": "1439410994.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i'd be happy to do it, will take ~5 mins",
+        "ts": "1439411051.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "part of me thinks this will make it tougher to QA. It may be tough to tell if the type is too big or if the caption is too long? also, we should remember that part of the design preview feedback was to not give the captions as much visual weight. To me, everything we’ve heard from them has been AOK with a caption limit. In fact, they actually liked the constraint. I hear where you’re coming from, but if we’re building a system, we should be probably be removing variables instead of adding them in. Once it’s VQ’d, we’ll know WAY more about what it can handle.",
+        "ts": "1439411380.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok i hear you on the QA front. happy to wait until we’re through that and potentially revisit later.",
+        "ts": "1439411470.000021"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "hey <!channel>: sending an email to magnum EOD with the following questions. if you have others please send them to me so i can send a single email and not bombard with individual emails for single questions:\n\n*Caption character limit*\nAre you able to edit the captions for types and bring them down below the 450 character limit? \n\n*Arabic Font* \nLooking for it in .eot and .woff formats. If you don’t have them does your license allow for us to convert them? (This is a clarification on a previous question)\n\n*Video*\nCan we get access to your Vimeo account?\n\n*Project Press Images*\nThe Dropbox link you sent has expired. Can you send again? \n\nEnding this with a request to get them on a call and show them where we are with dev. Ultimately we’ll be asking for a bit of an extension to the launch date since we’re a bit behind.",
+        "ts": "1439418926.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "We could add that we'd like access to their Vimeo to tweak the embed settings to make sure videos show up correctly in the slide show. Just so we're not asking for credentials without good reason.",
+        "ts": "1439419100.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Team, Joshua and I are starting to run out of tasks to work on. There’s some structural work we could do but that may need rework based on VQA. Do we have a sense for when the next batch VQA items may be available?",
+        "ts": "1439419718.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026PLK4S> \/ <@U0260V1BX> ^^^",
+        "ts": "1439420188.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "will start filing project page stuff asap",
+        "ts": "1439420291.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "is staging all pushed and ready for a pass \/ ready to close bugs?",
+        "edited": {
+            "user": "U026PLK4S",
+            "ts": "1439420362.000000"
+        },
+        "ts": "1439420309.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02618EV1> should we be looking at mobile too or is that still being worked on?",
+        "ts": "1439420357.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes",
+        "ts": "1439420365.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i assumed mobile via jambaroo again",
+        "ts": "1439420385.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i dont know what that means",
+        "ts": "1439420394.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "When do we want to do the jambaroo?",
+        "ts": "1439420428.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "so i should only be looking at desktop?",
+        "ts": "1439420450.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i thought we’d do what we did last time, lock up desktop, then jambaroo down",
+        "ts": "1439420462.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "so after we close most of these, we’ll get in a room. hopefully this week.",
+        "ts": "1439420475.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "k",
+        "ts": "1439420478.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0260V1BX> We’re constantly working on mobile but I think you should look into it to help us confirm the assumptions made from the comps.",
+        "ts": "1439420514.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <@U026PLK4S> what is that GIF screencast recorder that you found?",
+        "ts": "1439420575.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and <@U026PLK4S> do you want me and <@U0265G76F> to funnel our notes through you into JIRA so that we’re not logging redundant tickets? Or should we round up and go through our notes?",
+        "ts": "1439420681.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "What we\/I are trying to avoid is situations where we spend a good chunk of time on desktop but the mobile solution we arrive to during the jambaroo requires us to redo all that.",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1439421238.000000"
+        },
+        "ts": "1439420684.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "Hey - I’m late to the party. My changes are up on staging, I know Gaston is working on a few more. Let me know if you see anything; a lot of stuff depends on text limits, so some areas are looking funky. Thanks for your help!",
+        "ts": "1439420987.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "My CPU died. Looking for a charger. Standby. ",
+        "ts": "1439421004.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<@U0260V1BX>, funneling through me would be great if you guys are okay with that.",
+        "ts": "1439421949.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "cool, I’ll assign to you",
+        "ts": "1439421969.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "and <@U02618EV1>, if you want mobile tickets instead of a jambaroo, or before a jambaroo, that’s completely fine. I want to do whatever is best for you guys. I thought you preferred what we had planned, but we’re super flexible. maybe melissa can help with that?",
+        "ts": "1439422092.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "wait, melissa, you already created tickets?",
+        "ts": "1439422132.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i created like 3",
+        "ts": "1439422214.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "just now",
+        "ts": "1439422227.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "if you prefer I can just give you a big list of notes for you to turn into tickets...",
+        "ts": "1439422278.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "sorry, that’s what i thought you were saying \/ asking earlier.",
+        "ts": "1439422304.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok, i’m plenty happy to not make tickets. I’ll start a google doc or something, that way i can add stuff as I go.",
+        "ts": "1439422361.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes, Matt and sorry b\/c my note above wasn’t helpful. Ideally it would be great if you could log glaring or straightforward issues now. Things like “this is not what we meant on the comp” or something is missing. Still love the idea of the jambaroo for the more delicate issues and fine-tunning. Eg., padding across widths and some of those issues were we’re going to have to test things live. What do you think? If that doesn’t work, waiting for the jambaroo is great too.",
+        "ts": "1439422430.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "okay great. perfect example is melissa’s bug that she filed about swipe being weird. That is a perfect thing to file pre-jambaroo",
+        "ts": "1439422465.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "type scale \/ layout stuff may not be",
+        "ts": "1439422476.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes, absolutely agree.",
+        "ts": "1439422484.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "and melissa, yes to google doc + strikethrough when filed",
+        "ts": "1439422520.000058"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "word",
+        "ts": "1439422529.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<@U02618EV1> \/ <@U02HAJ6JF> : should i file something for not seeing typekit on staging, or are you guys already on that",
+        "ts": "1439422793.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "i think gastons on it, but go ahead and file so we actually fix it",
+        "ts": "1439423016.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "k",
+        "ts": "1439423031.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey dudes can we hide the photo safe area? or have some way to toggle it off?",
+        "ts": "1439425638.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I can turn it off now.",
+        "ts": "1439425686.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "cool - not sure if <@U026PLK4S> still wants it on for any QA reasons",
+        "ts": "1439425759.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i’m almost done with the project page VQA, when it’s done, then we can turn it off. Still need to check some of the alternate slide-types",
+        "ts": "1439425815.000066"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "No worries. Should be super easy to switch off.",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1439426023.000000"
+        },
+        "ts": "1439426015.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok i’m taking off. <@U026PLK4S> there is a bunch of stuff in that google doc but it’s not totally thorough- I’ll continue to kick tires tomorrow.",
+        "ts": "1439426526.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "great!",
+        "ts": "1439426594.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Just added about 13 improvements for product pages, will keep adding more tomorrow",
+        "ts": "1439426631.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "although there isn’t much left",
+        "ts": "1439426638.000072"
+    }
+]

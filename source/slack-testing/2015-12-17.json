@@ -1,0 +1,39 @@
+[
+    {
+        "user": "U06DFL7BP",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U06DFL7BP|charlesv> has joined the channel",
+        "ts": "1450382805.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "\/apps howdy",
+        "ts": "1450382820.000003"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Here are the top three apps I found for \"howdy\":",
+        "attachments": [
+            {
+                "text": "Howdy provides an extensible team bot that helps you do your work by automating common tasks!",
+                "title": "Howdy",
+                "id": 1,
+                "title_link": "https:\/\/slack.com\/apps\/A09RDP4AW",
+                "thumb_height": 96,
+                "thumb_width": 96,
+                "thumb_url": "https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/avatars\/2015-12-15\/16747060519_b4cbfae7661cabea36fc_96.png",
+                "color": "4F68B0",
+                "fallback": "NO FALLBACK DEFINED"
+            },
+            {
+                "text": "<https:\/\/slack.com\/apps\/search?q=howdy|See all results for \"howdy\" in the App Directory>",
+                "id": 2,
+                "fallback": "NO FALLBACK DEFINED"
+            }
+        ],
+        "ts": "1450382820.000004"
+    }
+]

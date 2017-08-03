@@ -1,0 +1,107 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "anyone lunching and can grab me something?",
+        "thread_ts": "1492109395.820450",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U0261PCRQ",
+                "ts": "1492110395.229019"
+            },
+            {
+                "user": "U06DFL7BP",
+                "ts": "1492110411.235179"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1492109395.820450"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "charlesv: I'm going for a walk, can get you something",
+        "thread_ts": "1492109395.820450",
+        "parent_user_id": "U06DFL7BP",
+        "ts": "1492110395.229019"
+    },
+    {
+        "text": "I got got, thank you!",
+        "thread_ts": "1492109395.820450",
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "user": "U06DFL7BP",
+        "root": {
+            "type": "message",
+            "user": "U06DFL7BP",
+            "text": "anyone lunching and can grab me something?",
+            "thread_ts": "1492109395.820450",
+            "reply_count": 2,
+            "replies": [
+                {
+                    "user": "U0261PCRQ",
+                    "ts": "1492110395.229019"
+                },
+                {
+                    "user": "U06DFL7BP",
+                    "ts": "1492110411.235179"
+                }
+            ],
+            "unread_count": 2,
+            "ts": "1492109395.820450"
+        },
+        "ts": "1492110411.235179"
+    },
+    {
+        "timestamp": "1492110411235179",
+        "is_multiteam": false,
+        "slog_is_shared": "0",
+        "slog_is_mpdm": "0",
+        "slog_is_slackbot_dm": false,
+        "slog_is_self_dm": false,
+        "is_thread_broadcast": true,
+        "plain_text": "I got got, thank you!",
+        "new_broadcast": true,
+        "attachments": [
+            {
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/C0GQS9WSD\/p1492109395820450",
+                "fallback": "[April 13th, 2017 11:49 AM] charlesv: anyone lunching and can grab me something?",
+                "ts": "1492109395.820450",
+                "author_subname": "charlesv",
+                "channel_id": "C0GQS9WSD",
+                "channel_name": "lunch",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "text": "anyone lunching and can grab me something?",
+                "author_name": "Charrles Vestal",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/charlesv",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-02-22\/145373808964_8efd1099c4f6c092246e_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "footer": "2 replies"
+            },
+            {
+                "fallback": "I got got, thank you!",
+                "author_name": "Charrles Vestal",
+                "author_subname": "charlesv",
+                "text": "I got got, thank you!",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "author_link": "https:\/\/uncorked.slack.com\/team\/charlesv",
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/C0GQS9WSD\/p1492110411235179?thread_ts=1492109395820450&cid=C0GQS9WSD",
+                "ts": "1492110411.235179",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-02-22\/145373808964_8efd1099c4f6c092246e_48.jpg",
+                "id": 2
+            }
+        ],
+        "text": "",
+        "type": "message",
+        "subtype": "reply_broadcast",
+        "user": "U06DFL7BP",
+        "ts": "1492110411.235211"
+    }
+]

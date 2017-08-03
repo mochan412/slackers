@@ -1,0 +1,563 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ>: <@U2670DYLE> <https:\/\/cloud.google.com\/endpoints\/docs\/restricting-api-access-with-api-keys>",
+        "ts": "1473258277.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "New endpoints release seems to make API key style access limiters public ",
+        "ts": "1473258296.000047",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1S5GKTHQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> couple of string questions for you",
+        "ts": "1473266379.000048"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can you tell me where this lives? \"Current: Not configured\" in strings_cards.xml",
+        "ts": "1473266385.000049"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oops &lt;string name=\"card_subtitle_home_nfc\"&gt;Current: Not configured&lt;\/string&gt;",
+        "ts": "1473266402.000050"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and  &lt;string name=\"set_options\"&gt;Set options&lt;\/string&gt; (somewhere in onboarding)",
+        "ts": "1473267062.000051"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "the first one doesn’t seem to be used anywhere...",
+        "ts": "1473267233.000052"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah okay - i can update to not translate",
+        "ts": "1473267253.000053"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I think it might be a remnant and maybe at some point it was used to catch an exception, if users get to that screen and haven’t loaded a wallpaper or if something is broken",
+        "ts": "1473267325.000054"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "what about the second? “set options”?",
+        "ts": "1473267371.000055"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or is that what you are referring to?",
+        "ts": "1473267379.000056"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "still talking about the card_subtitle_home_nfc",
+        "ts": "1473267396.000057"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool, yeah we’ll just kill that one :slightly_smiling_face:",
+        "ts": "1473267477.000058"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "set_options also doesn’t appear to be used.",
+        "ts": "1473267479.000059"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can you tell me where  \"Turn on NFC?” appears <@U1ZG1UCAK>? (sorry - last one)",
+        "ts": "1473267969.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its an alert that pops up if you run the app with NFC turned off",
+        "ts": "1473268150.000061"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, sorry i meant where can i find the strings \/ which XML file it belongs to",
+        "ts": "1473268193.000062"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "strings_nfcaction",
+        "ts": "1473268262.000063"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "found it, thanks!",
+        "ts": "1473268288.000064"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U1A1A9L7N> - could you see what the hex values are for the backgrounds in the the trends and earth images, through ai? What I’m pulling from them is not accurate",
+        "ts": "1473268980.000065"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "Sure",
+        "ts": "1473269378.000066"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "<@U1ZG1UCAK> The dark color is #2D3079",
+        "ts": "1473270042.000067"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": "and light color is #95F3EB",
+        "ts": "1473270059.000068"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "perfect!",
+        "ts": "1473270395.000069"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "thanks",
+        "ts": "1473270403.000070"
+    },
+    {
+        "type": "message",
+        "user": "U1A1A9L7N",
+        "text": ":+1:",
+        "ts": "1473270405.000071"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> - trends\/earth onboarding update pushed on earth_trends_onboarding_update branch",
+        "ts": "1473274900.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Is that the only updated branch",
+        "ts": "1473274926.000073"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes",
+        "ts": "1473274966.000074"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":raised_hands:",
+        "ts": "1473274981.000075"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks for tackling that midori!",
+        "ts": "1473274998.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> i'm not seeing the branch",
+        "ts": "1473275328.000077"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> are you working off of a different branch now, from livecase_to_mylivecase",
+        "ts": "1473280190.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "No",
+        "ts": "1473280303.000079"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "question from gkat - if we force line breaks in the en-us onboarding, will that potentially f up localization?",
+        "ts": "1473281902.000080"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> <@U1ZG1UCAK> :point_up_2: :slightly_smiling_face:",
+        "ts": "1473281925.000081"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "we’d have to re-force them for each language",
+        "ts": "1473283127.000082"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> can you confirm if we use this string \"pref_moments_some_photos\"",
+        "ts": "1473287749.000083"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes, it’s used in collections and moments",
+        "ts": "1473287886.000084"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "to say how many photos are selected",
+        "ts": "1473287905.000085"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome thank you - is the in just the stings_moments.xml or does that appear elsewhere?",
+        "ts": "1473287912.000086"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "on the settings",
+        "ts": "1473287918.000087"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes, in strings_moments",
+        "ts": "1473287940.000088"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you - and assuming the string you are working on is in strings_moments as well?",
+        "ts": "1473287998.000089"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like the string as Aiden returned it to us isn't really right anyway",
+        "ts": "1473288050.000090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it should be PH_1 photos selected",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1473288062.000000"
+        },
+        "ts": "1473288056.000091"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah i didnt get that part",
+        "ts": "1473288069.000093"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not PH_1 PH_2 selected",
+        "ts": "1473288071.000094"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "he find\/replaced the string \"places\"",
+        "ts": "1473288078.000095"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and tried to parameterize it",
+        "ts": "1473288085.000096"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "with the product name",
+        "ts": "1473288105.000097"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but its the noun",
+        "ts": "1473288107.000098"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`    &lt;string name=\"pref_moments_some_photos\" tools:ignore=\"true\"&gt;%1$d %2$s selected&lt;\/string&gt;`",
+        "ts": "1473288115.000099"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that should look like this:",
+        "ts": "1473288118.000100"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`    &lt;string name=\"pref_moments_some_photos\" &gt;%1$d photos selected&lt;\/string&gt;`",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1473288141.000000"
+        },
+        "ts": "1473288129.000101"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "duh",
+        "ts": "1473288133.000102"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah thats what it looks like in OUR xml",
+        "ts": "1473288138.000103"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ive ignored his in making these updates...",
+        "ts": "1473288149.000105"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh i pulled that from the file he attached",
+        "ts": "1473288159.000106"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> for the copy update for the focus tool screen? probably?",
+        "ts": "1473288161.000107"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes",
+        "ts": "1473288165.000108"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m working on earth about copy update",
+        "ts": "1473288175.000109"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F29ADF2Q1\/-.txt|Untitled>",
+        "file": {
+            "id": "F29ADF2Q1",
+            "created": 1473288193,
+            "timestamp": 1473288193,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 394,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F29ADF2Q1\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F29ADF2Q1\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F29ADF2Q1\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F29ADF2Q1-800a48226a",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F29ADF2Q1\/-.txt\/edit",
+            "preview": "public static String getNumberImagesString(Context context) {\r\n        int numPhotos = ArtworksAssetTable.getTotalNumberAssets(context);\r\n\r\n        switch (numPhotos) {\r\n            case 1:\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>public static String getNumberImagesString(Context context) {<\/pre><\/div>\n<div><pre>        int numPhotos = ArtworksAssetTable.getTotalNumberAssets(context);<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>        switch (numPhotos) {<\/pre><\/div>\n<div><pre>            case 1:<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 11,
+            "lines_more": 6,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1473288193.000110"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we just put the number of selected photos into that string",
+        "ts": "1473288199.000111"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so it should be",
+        "ts": "1473288207.000112"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/uncorked.slack.com\/archives\/live-case\/p1473288129000101>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/live-case\/p1473288129000101",
+                "fallback": "[September 7th, 2016 3:42 PM] evans: `    &lt;string name=\"pref_moments_some_photos\" &gt;%1$d photos selected&lt;\/string&gt;`",
+                "ts": "1473288129.000101",
+                "author_subname": "evans",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "`    &lt;string name=\"pref_moments_some_photos\" &gt;%1$d photos selected&lt;\/string&gt;`",
+                "author_name": "Budget Evans",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/evans",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-08-22\/71754547877_ad7d80bb436ebef8d47f_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "footer": "Posted in #live-case"
+            }
+        ],
+        "ts": "1473288208.000113"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":upside_down_face:",
+        "ts": "1473288374.000115"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "need more guava cake",
+        "ts": "1473288388.000116"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "once midori has finished updates, im going to send a response to this email and provide updated versions of our xmls to avoid confusion (letting him format - or tell us to go that route).",
+        "ts": "1473288501.000117"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but bonnie says: Wow... Aiden's thread is so confusing. Too much forking.",
+        "ts": "1473288508.000118"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so at least its not just me",
+        "ts": "1473288517.000119"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":fork_and_knife:",
+        "ts": "1473288528.000120"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "He's all over the road!",
+        "ts": "1473288530.000121"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":upside_down_face::slightly_smiling_face::upside_down_face::slightly_smiling_face:",
+        "ts": "1473288535.000122"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "This would all be easier with wave ",
+        "ts": "1473288543.000123",
+        "reactions": [
+            {
+                "name": "expressionless",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im going to make it better or worse. TBD",
+        "ts": "1473288553.000124"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans - FYI midori made some copy updates for Earth. Can we make sure those are also includes in the next build with the N\/ 5X fix?",
+        "ts": "1473290657.000125"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sure",
+        "ts": "1473290714.000126"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> - those updates + copy update for photos are pushed on earth_trends_onboarding_update",
+        "ts": "1473296257.000127"
+    }
+]

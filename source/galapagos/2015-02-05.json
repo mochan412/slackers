@@ -1,0 +1,122 @@
+[
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<!channel> - any update on the type on our site? We have a pretty important group of people coming in from Adidas today and are specifically going to be sending them to parts of our site. It'd be great to have it shine as best as possible. Any movement on updating this?",
+        "ts": "1423170893.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Not sure what needs to happen for our SSL certificate to get renewed. I could move our fonts back to where they were a few weeks back so things will work on the non-SSL version of our site.",
+        "ts": "1423171058.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Which is better that not working at all.",
+        "ts": "1423171068.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "All that until our SSL stuff is working again.",
+        "ts": "1423171088.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Is that something we want to do to make sure things for while Adidas is here?",
+        "ts": "1423171139.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "not necessarily needed for adidas. Just thinking after this meeting when folks start checking out work we've done",
+        "ts": "1423171236.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i'm not trying to make mountains out of molehills, but it'd be great to do the short term if it is an easy fix",
+        "ts": "1423171260.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "in parallel to the actual SSL renewal",
+        "ts": "1423171282.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U02618EV1> - are you loading the type over https?   trying to understand why it's failing for http",
+        "ts": "1423171315.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0289USNA> Yes",
+        "ts": "1423171354.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U0265G76F>: I will look into what I can do to fix it.",
+        "ts": "1423171356.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "OK, I am gettign close to answers...",
+        "ts": "1423173320.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the SSL cert was financially renewed in January.   However part of the process for generating a new updated cert is that the company (geotrust) generating the cert emails the domain administrartor listed in the WHOIS data fro the domain... with a link to verify.  that currently was emailed to \"<mailto:uncorkedstudios.com@domainsbyproxy.com|uncorkedstudios.com@domainsbyproxy.com>\" and nobody clicked on it.",
+        "ts": "1423173467.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "so the cert was not auto-updated.",
+        "ts": "1423173502.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U0265G76F>: <@U02618EV1> - a new SSL cert has been requested - got John to click on the link in the email it sent to verify and now we are just waiting.   Screen said 12-72 hours...   the tech support guy at media temple says 1-2 hours.",
+        "ts": "1423174141.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "So I will have SSL back up in an hour or two",
+        "ts": "1423174178.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thank you <@U0289USNA>",
+        "ts": "1423174477.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Can we at least update the fallback to a sans? Arial, Helvetica, sans-serif",
+        "ts": "1423174906.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes.",
+        "ts": "1423174979.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "We're now using a sans-serif font-stack as a fallback for Gotham.",
+        "ts": "1423175749.000022"
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U02618EV1>: I migrated all of the images on work and blog pages to be served from cloudfront URLs rather than the s3 bucket.",
+        "ts": "1424730715.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "All future images uploaded through the CMS will be given cloudfront urls",
+        "ts": "1424730735.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Nice",
+        "ts": "1424730747.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it is up to you at this point to update the home page.",
+        "ts": "1424730751.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "those are all statically linked images",
+        "ts": "1424730767.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Or just use it for hercules",
+        "ts": "1424730797.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Is the API pointing to the new URLs?",
+        "ts": "1424730797.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "in what way?",
+        "ts": "1424730812.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "When you upload an image for anything in the CMS - the API returns URLs that point to cloudFront instead of galapi",
+        "ts": "1424730891.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "and then I scrubbed all people, work, and blog post content in the database and replaced all images with galapi URLs to be cloudfront urls",
+        "ts": "1424730930.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Oh, I get it now.",
+        "ts": "1424730940.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "It's huge.",
+        "ts": "1424731126.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "no kiding.",
+        "ts": "1424731140.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I think it was added right before you added the image compression module.",
+        "ts": "1424731209.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "yeah, it must have been...  I know it took them a long time to write it, so it was atleast started before then.",
+        "ts": "1424731245.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Haha... 4.7mb for that one image.",
+        "ts": "1424731294.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "there's another one further down that is 5.1mb",
+        "ts": "1424731360.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "it's a really nice photo of us",
+        "ts": "1424731370.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I'll compress it manually and upload later.",
+        "ts": "1424731371.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I love it.",
+        "ts": "1424731376.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Although the one with Evans in front of that german car takes the cake.",
+        "ts": "1424731426.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "OK. I compressed the 4 images that were a little too big. We went from 11.8MB to 1.7MB. Not bad.",
+        "ts": "1424735795.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0289USNA> Looks like Galapagos won't let us upload gif files to blog posts.",
+        "ts": "1424744599.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Just a heads-up <@U026E0ZNR> and I will probably bug you about this tomorrow.",
+        "ts": "1424744649.000028"
+    },
+    {
+        "user": "U026E0ZNR",
+        "inviter": "U02618EV1",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026E0ZNR|trent> has joined the channel",
+        "ts": "1424744654.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U02618EV1>: that's no problem to support.  I can add a pass-through for .gifs the same way that I added a pass-through for SVG.   We will need to have a known policy though that .gifs are for animation only and will not be resized.",
+        "ts": "1424749629.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That's awesome. Thanks Scott.",
+        "ts": "1424750824.000003"
+    }
+]

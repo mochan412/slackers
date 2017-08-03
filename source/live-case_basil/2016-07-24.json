@@ -1,0 +1,67 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Roughed out a script to cache trends. Will try to deploy to a GAE instance today and cut the app over to it.",
+        "ts": "1469375325.000131"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Also, the 3PR build I shared yesterday can be configured from OS ",
+        "ts": "1469375720.000132"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F1UL11AJ0\/trends.py|trends.py>",
+        "file": {
+            "id": "F1UL11AJ0",
+            "created": 1469409848,
+            "timestamp": 1469409848,
+            "name": "trends.py",
+            "title": "trends.py",
+            "mimetype": "text\/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 1932,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1UL11AJ0\/trends.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1UL11AJ0\/download\/trends.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F1UL11AJ0\/trends.py",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1UL11AJ0-3bee2f60e5",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F1UL11AJ0\/trends.py\/edit",
+            "preview": "import urllib\nimport urllib2\nimport json\nimport collections\n",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">urllib<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">urllib2<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">json<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">import<\/span> <span class=\"cm-variable\">collections<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 53,
+            "lines_more": 48,
+            "preview_is_truncated": null,
+            "channels": [
+                "C1JLGNM0F"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1469409848.000133"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Going to work on getting this into datastore if i dont completely ruin dinner",
+        "ts": "1469409865.000134"
+    }
+]

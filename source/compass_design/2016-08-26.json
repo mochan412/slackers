@@ -1,0 +1,132 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "A few new things going on here:\n\n• All versions include my one take on introduction of multiple (3) events at once, there is no different on that feature across the options\n• All versions try a different approach to hinting at the drawer with a label\n• v01 – Replaces only the time stamp to change as little as possible in header, but still needed more descriptive copy to set the hinting apart from the date stamp\n• v02 – Removes all header content not related to activity icons and places simplified, isolated label front and center\n• v03 – Removes all header content not related to activity icons, but puts simplified labeling within the same footprint of the date\/time\n\nIf we’re talking in terms of Goldilocks, I personally feel 1 is too subtle, 2 is too blatant, and 3 is just right. Curious to hear how you all respond though.\n\nI’d also suggest making an attempt to “ignore” the label after watching it loop a few times to get a feel for how it might recede through repeated exposure.\n\n<https:\/\/www.dropbox.com\/s\/vx1llwsqars56cx\/160826_ActivityBar_NewAddition_Multi_01.mov?dl=0>\n<https:\/\/www.dropbox.com\/s\/w4zzhpkk3yom6fm\/160826_ActivityBar_NewAddition_Multi_02.mov?dl=0>\n<https:\/\/www.dropbox.com\/s\/a211to8m8aqzq1b\/160826_ActivityBar_NewAddition_Multi_03.mov?dl=0>",
+        "attachments": [
+            {
+                "service_name": "Dropbox",
+                "title": "160826_ActivityBar_NewAddition_Multi_01.mov",
+                "title_link": "https:\/\/www.dropbox.com\/s\/vx1llwsqars56cx\/160826_ActivityBar_NewAddition_Multi_01.mov?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 160826_ActivityBar_NewAddition_Multi_01.mov",
+                "thumb_url": "https:\/\/photos-3.dropbox.com\/t\/2\/AABnw8Y5ZK2N2wtd2Q6_SuMgdjnGb3JnKfA-_LFYrKOxHw\/12\/228725634\/jpeg\/1024x1024\/2\/_\/0\/4\/160826_ActivityBar_NewAddition_Multi_01.mov\/CIKniG0gAiAHKAIoBw\/vx1llwsqars56cx\/AAD_XezO9DImzOtsaw1VXlEma\/160826_ActivityBar_NewAddition_Multi_01.mov",
+                "from_url": "https:\/\/www.dropbox.com\/s\/vx1llwsqars56cx\/160826_ActivityBar_NewAddition_Multi_01.mov?dl=0",
+                "thumb_width": 576,
+                "thumb_height": 1024,
+                "id": 1
+            },
+            {
+                "service_name": "Dropbox",
+                "title": "160826_ActivityBar_NewAddition_Multi_02.mov",
+                "title_link": "https:\/\/www.dropbox.com\/s\/w4zzhpkk3yom6fm\/160826_ActivityBar_NewAddition_Multi_02.mov?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 160826_ActivityBar_NewAddition_Multi_02.mov",
+                "thumb_url": "https:\/\/photos-2.dropbox.com\/t\/2\/AAAUT0gjFjL7rUspchqtPrTL6SKPHXing-_U9CYTXEBRHw\/12\/228725634\/jpeg\/1024x1024\/2\/_\/0\/4\/160826_ActivityBar_NewAddition_Multi_02.mov\/CIKniG0gAiAHKAIoBw\/w4zzhpkk3yom6fm\/AABZ1Y1HAMk6JZHP1QDgWwXZa\/160826_ActivityBar_NewAddition_Multi_02.mov",
+                "from_url": "https:\/\/www.dropbox.com\/s\/w4zzhpkk3yom6fm\/160826_ActivityBar_NewAddition_Multi_02.mov?dl=0",
+                "thumb_width": 576,
+                "thumb_height": 1024,
+                "id": 2
+            },
+            {
+                "service_name": "Dropbox",
+                "title": "160826_ActivityBar_NewAddition_Multi_03.mov",
+                "title_link": "https:\/\/www.dropbox.com\/s\/a211to8m8aqzq1b\/160826_ActivityBar_NewAddition_Multi_03.mov?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 160826_ActivityBar_NewAddition_Multi_03.mov",
+                "thumb_url": "https:\/\/photos-1.dropbox.com\/t\/2\/AABy4PePUIeEKAulebnfSibFhjeELK1ksAvCBUOerxkKxQ\/12\/228725634\/jpeg\/1024x1024\/2\/_\/0\/4\/160826_ActivityBar_NewAddition_Multi_03.mov\/CIKniG0gAiAHKAIoBw\/a211to8m8aqzq1b\/AACzKJ651TI0iy1H0Dc8uL6Aa\/160826_ActivityBar_NewAddition_Multi_03.mov",
+                "from_url": "https:\/\/www.dropbox.com\/s\/a211to8m8aqzq1b\/160826_ActivityBar_NewAddition_Multi_03.mov?dl=0",
+                "thumb_width": 576,
+                "thumb_height": 1024,
+                "id": 3
+            }
+        ],
+        "ts": "1472243667.001568"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "these are great explorations, trent. One thing that I’d note is that the “Expand” hint shows in the expanded state, which seems a bit confusing… TBH i didn’t notice the hint text at all the first few times i watched them because there were other things going on on the screen. I wonder if *right after* everything updates is when we show that message…",
+        "ts": "1472243892.001570"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "I thought the same thing. I like the idea of hinting to expand the drawer after it collapses.",
+        "ts": "1472244469.001571"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "as a transient hint that gets replaced with the standard chrome after a moment, maybe?",
+        "ts": "1472244494.001572"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "yeah good call. i was wondering how that might be viewed as a whole by someone that hasn’t been watching this loop a hundred times :)\n\nthen let me ask this, if focusing in on only the hint, is there one of the three options that feels like the right balance of visibility?",
+        "ts": "1472244601.001573"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "I’d lean toward 3… I’d also wonder if replacing the icons were an option, or replacing the date text… hard to say what’s going to be more effective without seeing it",
+        "ts": "1472244695.001574"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "I liked 2, but I don’t have any strong objection to 3",
+        "ts": "1472244755.001575"
+    },
+    {
+        "type": "message",
+        "user": "U0XCJ372R",
+        "text": "I also liked 2.",
+        "ts": "1472244944.001576"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "ok cool. so i think there’s a nice visual balance to be struck with what is visible and what’s not, but then there’s the UX implications of it too, like what positioning of the label would be most clear in communicating without extra words that the entire header (except for the icons) is the target for a pull down gesture? thinking about it that way, i actually lean toward 2 as well, even if 3 feels for balanced visually",
+        "ts": "1472245183.001577"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i’ll buy that. let’s explore #2",
+        "ts": "1472245210.001578"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "yeah i’ll explore that one a bit more and see how it feels with the label appearing after the icons are done doing their dance",
+        "ts": "1472245453.001579"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "update: <https:\/\/www.dropbox.com\/s\/asd0q4c1dtmayrh\/160826_ActivityBar_NewAddition_Multi_04.mov?dl=0>",
+        "attachments": [
+            {
+                "service_name": "Dropbox",
+                "title": "160826_ActivityBar_NewAddition_Multi_04.mov",
+                "title_link": "https:\/\/www.dropbox.com\/s\/asd0q4c1dtmayrh\/160826_ActivityBar_NewAddition_Multi_04.mov?dl=0",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: 160826_ActivityBar_NewAddition_Multi_04.mov",
+                "thumb_url": "https:\/\/photos-2.dropbox.com\/t\/2\/AACA23P4YGpAI003v_Z8ziXk8pJ88laaEVxm0c0hXzJqwg\/12\/228725634\/jpeg\/1024x1024\/2\/_\/0\/4\/160826_ActivityBar_NewAddition_Multi_04.mov\/CIKniG0gAiAHKAIoBw\/asd0q4c1dtmayrh\/AACIX0gDm1C6A1heZZvrftYRa\/160826_ActivityBar_NewAddition_Multi_04.mov",
+                "from_url": "https:\/\/www.dropbox.com\/s\/asd0q4c1dtmayrh\/160826_ActivityBar_NewAddition_Multi_04.mov?dl=0",
+                "thumb_width": 576,
+                "thumb_height": 1024,
+                "id": 1
+            }
+        ],
+        "ts": "1472251605.001580"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "this has the delayed introduction of the hinting label",
+        "ts": "1472252309.001582"
+    }
+]

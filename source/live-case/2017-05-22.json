@@ -1,0 +1,345 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "let's meet in Slate for standup! :slightly_smiling_face:",
+        "ts": "1495472422.359753"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey guys - ive got to prep for this pitch so i wont be joining - but please let me know if theres anything i can help with!",
+        "ts": "1495472585.405809"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "(we’re in secret lounge)",
+        "ts": "1495472590.407175"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "all good, thanks!",
+        "ts": "1495472598.409645"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "hey all, just a heads up now. Let’s stop working off of origin\/vz_sellin, and leave that branch alone for any last minute requests. But from now on going forwards, branch off of origin\/legacy_fork\nfor work aiming towards the july 15 release",
+        "ts": "1495485952.819874"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i know im out of the loop so excuse me if this was talked about in standup, but any update on that lingering not-earth-but-we-thought-it-was crash?",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1495492039.000000"
+        },
+        "ts": "1495492029.042945"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Just so everyone is on the same page, we're going to shift priorities for the next 1\/2day-ish. Just heard from Bonnie that during the sell in meeting they won't be able to side load the app so they'll be using the forked build we created. We did spend time testing that, but we should really make sure it's flawless for this meeting--let's cut a build so we can get to testing that. :slightly_smiling_face:",
+        "ts": "1495493793.297215"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "no new updates on it <@U13GPDA1F> . With photos we haven’t added in any of the additional  fallbacks like we’ve been doing for Earth. But Moments doesn’t have the same daily\/weekly refresh, so it is more surprising that it would get to that state, but the behavior would be what is reported.",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1495493836.000000"
+        },
+        "ts": "1495493824.301520"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> we got some new translations, I'll create a ticket for ya!",
+        "ts": "1495494534.401979"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok",
+        "ts": "1495494545.403491"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-233>",
+        "ts": "1495494624.414028"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "translation question: Do we want to translate the trends color names?",
+        "ts": "1495494640.416190"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes",
+        "ts": "1495494807.437921"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":ok:",
+        "ts": "1495494847.442978"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i'll make sure we request this, thanks for pointing it out.",
+        "ts": "1495495186.485400"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5G0R1GHX\/minime-debug-testing-3.2.1.leg-05.22.17-v1.apk|MiniMe-DEBUG-testing-3.2.1.leg-05.22.17-v1.apk> and commented: Loads new fork for pixel, XL, &amp; 6P. Legacy for 5X.",
+        "file": {
+            "id": "F5G0R1GHX",
+            "created": 1495496222,
+            "timestamp": 1495496222,
+            "name": "MiniMe-DEBUG-testing-3.2.1.leg-05.22.17-v1.apk",
+            "title": "MiniMe-DEBUG-testing-3.2.1.leg-05.22.17-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 54607678,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5G0R1GHX\/minime-debug-testing-3.2.1.leg-05.22.17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5G0R1GHX\/download\/minime-debug-testing-3.2.1.leg-05.22.17-v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5G0R1GHX\/minime-debug-testing-3.2.1.leg-05.22.17-v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5G0R1GHX-f54e848abb",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5GL7EU1K",
+                "created": 1495496222,
+                "timestamp": 1495496222,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Loads new fork for pixel, XL, &amp; 6P. Legacy for 5X."
+            },
+            "reactions": [
+                {
+                    "name": "raised_hands",
+                    "users": [
+                        "U0U9WJB7F"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1495496225.617274"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sweet thanks",
+        "ts": "1495496420.640474"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Summer created a label called \"fixes_for_sellin\" for anything that we need to work on in this forked build specifically for next week <@U3ZFEAPSP> <@U1ZG1UCAK>",
+        "ts": "1495497572.780283"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> FYI those string changes we made late on Friday are not included in the build Midori created above.",
+        "ts": "1495497764.805645"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Perfect! thanks <@U2H61EJSG> \nI think we are going to need to cherry-pick a couple of the last minute changes we had made on Friday",
+        "ts": "1495497773.806749"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yep! was just seeing that, I can handle pulling those commits over.",
+        "ts": "1495497875.818462"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thanks!!",
+        "ts": "1495497909.822543"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I let Bonnie know we need a little more time to test this DF build and that we will upload another build tomorrow afternoon...so that's the deadline for having anything else completely wrapped up for sell in! <@U3ZFEAPSP> <@U1ZG1UCAK> <@U2H61EJSG>",
+        "ts": "1495498846.923942"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thanks for looking at it with a close eye, once again!",
+        "ts": "1495498861.925626"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sounds good",
+        "ts": "1495498864.925969"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "mama mia! Thanks for buying us some time, Jenna!",
+        "ts": "1495498887.928366"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> can we add shake in for the sell in forked build tomorrow morning? I'll create a new folder for it in the merged APK folder (MiniMe Release: 80 3.2.df.0 (Alpha 5.19.17)|| NEEDS NEW VERSION CODE ). There's two builds going to Beta one for dogfooders and one for sell in.",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1495501811.000000"
+        },
+        "ts": "1495501706.215553"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Bonnie is hoping to get this out for testing ASAP.",
+        "ts": "1495501720.216938"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Please don't remove anything from this folder (MiniMe Release: 80 3.2.df.0 (Alpha 5.19.17)",
+        "ts": "1495501867.231991"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "If one is going for sell-in separate from the dog-fooders, then why can't we just use the build we gave them? Could we just make an unsigned release build from the vz-sellin branch?",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1495502674.000000"
+        },
+        "ts": "1495502616.306401"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I think the difference is earth shake-to-update-wallpaper for sell in demo",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1495502669.000000"
+        },
+        "ts": "1495502660.310793"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I mean, if they can’t side-load the app, but they can control the two separate apks between the alpha &amp; beta channels, then why don’t they just upload the build we already made for the sell-in meeting to that channel?",
+        "ts": "1495502854.329806"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "because that sell in build isn't forked? totally get what you're saying and Jenna was talking through with Bonnie to try to get clarity but at this stage I'm assuming it's less effort to just give her what she's asking for? (Unless I'm misunderstanding the effort - which might be the case, because I'm totally jumping in out of turn! Sorry <@U0U9WJB7F>!) ",
+        "ts": "1495503152.360436"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "it might just be a \"Bonnie request\" though tbh ",
+        "ts": "1495503192.364133"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "She's still getting up to speed and the channel thing is always semi confusing so I wouldnt be surprised either way",
+        "ts": "1495503313.376110"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Sure, sure. Yea, I think it is more of making sure we aren’t creating unnecessary work, I’m worried that they would get the forked build and not have it show the new 3PR stuff for people running ‘legacy’ devices (since that was what we had been thinking they originally wanted for the meeting)",
+        "ts": "1495503323.377029"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "she wants to get on a call tomorrow morning which i think is a good idea a this point ",
+        "ts": "1495503415.386197"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1: ",
+        "ts": "1495503457.389995"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "We can bring the shake to advance in. I more just get worried where we have a stable build that we have tested on the vz_sellin branch, so I think I would prefer to cut the build from there, plus that would be ready immediately. \nPutting it into the legacy_fork build as a  last-minute change just adds a little risk, although it will probably be fine, just calling it out",
+        "ts": "1495503476.391839"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "930am! i will send an invite.",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1495503491.000000"
+        },
+        "ts": "1495503478.392068"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "agreed. I’ll jump onto bringing that over when I start tomorrow (I’ll have an earlier start without having to drive :slightly_smiling_face: ) just so we’re ready for whichever direction it goes.",
+        "ts": "1495503521.396210"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool thanks oliver, sorry for the run around I'm trying to get it sorted :face_with_rolling_eyes:",
+        "ts": "1495503547.398637"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "no worries. Thanks for handling the 11th hour Bonnie request Jenna",
+        "ts": "1495503685.412204",
+        "reactions": [
+            {
+                "name": "grimacing",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

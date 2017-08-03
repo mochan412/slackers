@@ -1,0 +1,248 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02613K0X|jenny> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jenny\/F041Y0RJ3\/screen_shot_2015-03-16_at_11.33.32_am.png|Screen Shot 2015-03-16 at 11.33.32 AM.png>",
+        "file": {
+            "id": "F041Y0RJ3",
+            "created": 1426530879,
+            "timestamp": 1426530879,
+            "name": "Screen Shot 2015-03-16 at 11.33.32 AM.png",
+            "title": "Screen Shot 2015-03-16 at 11.33.32 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02613K0X",
+            "editable": false,
+            "size": 1087694,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F041Y0RJ3\/screen_shot_2015-03-16_at_11.33.32_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F041Y0RJ3\/download\/screen_shot_2015-03-16_at_11.33.32_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041Y0RJ3-104460eb79\/screen_shot_2015-03-16_at_11.33.32_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041Y0RJ3-104460eb79\/screen_shot_2015-03-16_at_11.33.32_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041Y0RJ3-104460eb79\/screen_shot_2015-03-16_at_11.33.32_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 201,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041Y0RJ3-104460eb79\/screen_shot_2015-03-16_at_11.33.32_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041Y0RJ3-104460eb79\/screen_shot_2015-03-16_at_11.33.32_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 403,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041Y0RJ3-104460eb79\/screen_shot_2015-03-16_at_11.33.32_am_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 573,
+            "image_exif_rotation": 1,
+            "original_w": 1988,
+            "original_h": 1112,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenny\/F041Y0RJ3\/screen_shot_2015-03-16_at_11.33.32_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F041Y0RJ3-785b9f51db",
+            "channels": [
+                "C03SUJR0L"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02613K0X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jenny",
+        "bot_id": null,
+        "ts": "1426530886.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nice.",
+        "ts": "1426533004.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you send me the python script youre using to pull the depth map?",
+        "ts": "1426533014.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "sure",
+        "ts": "1426533021.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it's using the same lib_dscapture library from luxo",
+        "ts": "1426533039.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "also the code i'm using is pretty buried in a copy of luxo right now. do you need it right away?",
+        "ts": "1426533249.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nope",
+        "ts": "1426533437.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i want to check that we're not arbitrarily doing depth masks somewhere",
+        "ts": "1426533449.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or at least not converting to 8 bit",
+        "ts": "1426533469.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah i'm looking into taht right now",
+        "ts": "1426533478.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool cool",
+        "ts": "1426533481.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i should have known.",
+        "ts": "1426533483.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'm pretty much just grabbing the matrix from the frame I get from the library's get_dframe() method",
+        "ts": "1426533562.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "so i'm looking into what that's doing",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1426533588.000000"
+        },
+        "ts": "1426533585.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool",
+        "ts": "1426533588.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/nypdecider.files.wordpress.com\/2015\/03\/kimmy-schmidt-4.png>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/nypdecider.files.wordpress.com\/2015\/03\/kimmy-schmidt-4.png",
+                "fallback": "642x428px image",
+                "image_url": "https:\/\/nypdecider.files.wordpress.com\/2015\/03\/kimmy-schmidt-4.png",
+                "image_width": 642,
+                "image_height": 428,
+                "image_bytes": 369087,
+                "id": 1
+            }
+        ],
+        "ts": "1426533613.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i don't get it :disappointed:",
+        "ts": "1426533686.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "no spoilers, evans!",
+        "ts": "1426533823.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X>: Unbreakable Kimmy Schmidt on Netflix.",
+        "ts": "1426533840.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "tina fey's newest project. super good",
+        "ts": "1426533856.000023"
+    },
+    {
+        "user": "U026103R3",
+        "inviter": "U02618EV1",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026103R3|abby> has joined the channel",
+        "ts": "1426538314.000024"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02618EV1|gaston> uploaded a file: <https:\/\/uncorked.slack.com\/files\/gaston\/F041ZT3JD\/pasted_image_at_2015_03_16_13_56.png|Progress>",
+        "file": {
+            "id": "F041ZT3JD",
+            "created": 1426539363,
+            "timestamp": 1426539363,
+            "name": "Pasted image at 2015_03_16 13_56.png",
+            "title": "Progress",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02618EV1",
+            "editable": false,
+            "size": 316797,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F041ZT3JD\/pasted_image_at_2015_03_16_13_56.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F041ZT3JD\/download\/pasted_image_at_2015_03_16_13_56.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041ZT3JD-137d2b7f9f\/pasted_image_at_2015_03_16_13_56_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041ZT3JD-137d2b7f9f\/pasted_image_at_2015_03_16_13_56_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041ZT3JD-137d2b7f9f\/pasted_image_at_2015_03_16_13_56_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 194,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041ZT3JD-137d2b7f9f\/pasted_image_at_2015_03_16_13_56_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F041ZT3JD-137d2b7f9f\/pasted_image_at_2015_03_16_13_56_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 389,
+            "image_exif_rotation": 1,
+            "original_w": 974,
+            "original_h": 526,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/gaston\/F041ZT3JD\/pasted_image_at_2015_03_16_13_56.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F041ZT3JD-bfebd402da",
+            "channels": [
+                "C03SUJR0L"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02618EV1",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "gaston",
+        "bot_id": null,
+        "ts": "1426539367.000025"
+    }
+]

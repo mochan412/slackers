@@ -1,0 +1,1663 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey all! looks like they made an update to a look up ID on some cases which resulted in users getting cases not compatible with app (couldn't get through gatekeeper) and this resulted in some negative reviews :( ",
+        "ts": "1487782281.602427"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans already fixed but I'd love to get some help testing ",
+        "ts": "1487782297.602889"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Uploaded builds 67 &amp; 70 \n\nusing NFCWriter, just add a “|0” to the end of whatever lookup ID you put in. \nThis should also work with old format cases without issue ",
+        "ts": "1487782462.606485"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B8oziE2kHpvTWWFzUkJTaHlDY2M\/view?usp=drivesdk>",
+        "ts": "1487782578.609670"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "whenever you get in, settled and chipped just confirm you're seeing this work as expected (it's an \"emergency fix\" so we'll want to test this am)  and THANK YOU!",
+        "ts": "1487782683.612201"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(also their bad not ours ;)) ",
+        "ts": "1487782739.613562"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hey.",
+        "ts": "1487784126.643396"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im in a partner meeting so i cant leave to explain this",
+        "ts": "1487784137.643599"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i *think* that at the moment the only cases affected would be collections",
+        "ts": "1487784154.643978"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "please try a collection chip with “|0” at the end of the chip string against the play store build",
+        "ts": "1487784176.644408"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if this is true, we could deploy a change to the workshop CMS to deal with it in the meantime",
+        "ts": "1487784187.644601"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ> this may involve you at some point today. The asset Id’s coming into the workshop CMS might currently have an erroneous trailing “|&lt;INT&gt;” at the end of them right now",
+        "ts": "1487784245.645805"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "does this make sense to anyone?",
+        "ts": "1487784294.646878"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "lemme take a look at logs. easy fix if so",
+        "ts": "1487784350.648037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i love you",
+        "ts": "1487784377.648603",
+        "reactions": [
+            {
+                "name": "man-kiss-man",
+                "users": [
+                    "U0260V1BX",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            },
+            {
+                "name": "gif_two_men_holding_hands",
+                "users": [
+                    "U026PHQ3J",
+                    "U13GPDA1F",
+                    "U0260V1BX"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nice thank you",
+        "ts": "1487784504.651312"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "yes, im seeing `2|1zEdO1jldiX1dcuk|0`",
+        "ts": "1487785545.674642"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oooh",
+        "ts": "1487785610.675912"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you strip the leading and trailing “|&lt;INT&gt;\"",
+        "ts": "1487785620.676106"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "&lt;INT&gt;|",
+        "ts": "1487785625.676216"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if they exist",
+        "ts": "1487785630.676301"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i can, but also, `1zEdO1jldiX1dcuk` doesn’t resolve to any current asset id",
+        "ts": "1487785667.676983"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lets table that for a second, but are you seeing a lot of them?",
+        "ts": "1487785699.677672"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i spent like 3 hours yesterday mocking up a new app nav structure for adam that he didn’t actually request, because i misread a comment in Google Slides :confounded:",
+        "ts": "1487785720.678087"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "a good amount",
+        "ts": "1487785781.679255"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "",
+        "bot_id": "B03H06881",
+        "attachments": [
+            {
+                "fallback": "giphy: http:\/\/giphy.com\/gifs\/retrofunk-christmas-afv-snowman-agYXQwSl5gGje",
+                "image_url": "http:\/\/media2.giphy.com\/media\/agYXQwSl5gGje\/giphy-downsized.gif",
+                "image_width": 250,
+                "image_height": 166,
+                "image_bytes": 1162263,
+                "is_animated": true,
+                "title": "oops",
+                "footer": "Posted using \/giphy | GIF by <https:\/\/giphy.com\/retrofunk\/|RETROFUNK>",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/retrofunk-christmas-afv-snowman-agYXQwSl5gGje"
+            }
+        ],
+        "ts": "1487785806.679779",
+        "reactions": [
+            {
+                "name": "laughing",
+                "users": [
+                    "U1S5GKTHQ",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ> go ahead and scrub those requests if possible",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1487785899.000000"
+        },
+        "ts": "1487785895.681992"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we’ll chase down that asset info",
+        "ts": "1487785904.682196"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans - FYI <@U3ZFEAPSP>  noticed a couple of weird things on places (not allowing user to “match location”) and requiring an additional button press to advance through onboarding",
+        "ts": "1487785905.682221"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whats causing it?",
+        "ts": "1487785922.682553"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think when the chip was written with a character off in the lookup id, right <@U3ZFEAPSP>?",
+        "ts": "1487785965.683491"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is that in play store build too?",
+        "ts": "1487785969.683563"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1487785970.683601"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh did it give you a “failed order lookup” notification?",
+        "ts": "1487785986.683942"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, it was a badly formatted lookupid",
+        "ts": "1487785989.684037"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "no, it didn't give a notification there",
+        "ts": "1487786002.684444"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I had a typo in it, and then it just showed that default location centered in san fran but the locationbutton was disabled",
+        "ts": "1487786040.685373"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "so that could happen if the lookupid parses the new thing incorrectly, but would otherwise only happen from corruption on that key",
+        "ts": "1487786071.686006"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah i dont have a good sense of if this is something we need to worry about or not?",
+        "ts": "1487786129.687361"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F492G6V1S\/bugreport-nof26v-2017-02-22-09-44-31.txt|bugreport-NOF26V-2017-02-22-09-44-31.txt> and commented: took a BR in that state in case thats helpful",
+        "file": {
+            "id": "F492G6V1S",
+            "created": 1487786130,
+            "timestamp": 1487786130,
+            "name": "bugreport-NOF26V-2017-02-22-09-44-31.txt",
+            "title": "bugreport-NOF26V-2017-02-22-09-44-31.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 22890894,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F492G6V1S\/bugreport-nof26v-2017-02-22-09-44-31.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F492G6V1S\/download\/bugreport-nof26v-2017-02-22-09-44-31.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F492G6V1S\/bugreport-nof26v-2017-02-22-09-44-31.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F492G6V1S-f6c0c7203f",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc489LGRT3",
+                "created": 1487786130,
+                "timestamp": 1487786130,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "took a BR in that state in case thats helpful"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1487786132.687415"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "for this one",
+        "ts": "1487786136.687536"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "right now I'm getting a notification though when I the places is set as wallpaper and I turn off its location permission afterwards that says, 'Open Live Case, Set %1$s wallpaper in Live Case app', where is the notification being triggered? I was trying to hunt that down (just as an aside, not related to the lookup id )",
+        "ts": "1487786173.688361"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whoa. not sure.",
+        "ts": "1487786199.689023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "seems vestigial",
+        "ts": "1487786213.689348",
+        "reactions": [
+            {
+                "name": "charles",
+                "users": [
+                    "U06DFL7BP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but who knows",
+        "ts": "1487786215.689404"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0260V1BX> sorry :confused:",
+        "ts": "1487786234.689806"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "heh its fine",
+        "ts": "1487786247.690134"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im unable to reproduce the original issue on the store build yet :upside_down_face: any one else able to?",
+        "ts": "1487786704.701561"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> Authenticating with a Places that has the extra |0 will cause the unEnabled match my current location on the current play store (but they can go through onboarding ok)",
+        "ts": "1487786740.702574",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "what are you seeing with collections + |01 ?",
+        "ts": "1487786781.703579"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay (just capturing here) current store build with artworks |01 results in user getting the “hold tight we’re loading your artworks” screen infinitely. if user leaves app and reopens they advance to homescreen (without assets).",
+        "ts": "1487787013.709270"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "seeing it perform as expected on latest debug",
+        "ts": "1487787050.710128"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(takes a second to load but appears correctly)",
+        "ts": "1487787070.710660"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm. this doesn’t explain the gatekeeper issue",
+        "ts": "1487787071.710671"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for Earth (on store build) with tag of 3|2|1, crashes on read of chip,\nthen relaunching will bring it into live case with no photos",
+        "ts": "1487787079.710912"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ooh yeah <@U1S5GKTHQ> this might be relevant",
+        "ts": "1487787097.711304"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> can you ask on thread if they’re doing 3PR cases in new format already or is that channel stale?",
+        "ts": "1487787113.711803"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill ask!",
+        "ts": "1487787130.712247"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "(sorry in a standup)",
+        "ts": "1487787134.712313"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "np",
+        "ts": "1487787141.712468"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> <@U1S5GKTHQ> that asset from earlier you called out is <http:\/\/gweb-uncorked-workshop.appspot.com\/collections\/4513137810210816\/artists\/1\/>",
+        "ts": "1487787248.715076"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "ah!",
+        "ts": "1487787465.720162"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "requested id: `1zEdO1jldiX1dcuk`",
+        "ts": "1487787477.720454"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "id in admin: `lzEdOljldiX1dcuk`",
+        "ts": "1487787483.720618"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "notice 6th char in that ID. good old `1` vs `l`",
+        "edited": {
+            "user": "U1S5GKTHQ",
+            "ts": "1487787517.000000"
+        },
+        "ts": "1487787502.721124"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oooooh",
+        "ts": "1487787541.722249"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "oh, also 1st char",
+        "ts": "1487787545.722327"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "jesus",
+        "ts": "1487787547.722361"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ugh thanks dimitry - im reaching out to them to update this in the admin",
+        "ts": "1487787740.727509"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "in the meantime, working on fix to strip `&lt;int&gt;|` and `|&lt;int&gt;`",
+        "ts": "1487787741.727522"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U13GPDA1F> yeah, i’d lean on them to check all asset IDs in that collection. hoping it’s an isolated issue though",
+        "ts": "1487787865.730818",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "FYI - google confirmed no 3PR cases should be effected (trends\/earth)",
+        "ts": "1487788139.737252"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Someone please unlock some Jen Stark's ",
+        "thread_ts": "1487788333.742638",
+        "reply_count": 7,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1487788428.744897"
+            },
+            {
+                "user": "U13GPDA1F",
+                "ts": "1487788536.747559"
+            },
+            {
+                "user": "U2H61EJSG",
+                "ts": "1487788603.749394"
+            },
+            {
+                "user": "U2H61EJSG",
+                "ts": "1487788703.751781"
+            },
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1487789429.770418"
+            },
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1487789597.774686"
+            },
+            {
+                "user": "U13GPDA1F",
+                "ts": "1487789605.774860"
+            }
+        ],
+        "unread_count": 7,
+        "ts": "1487788333.742638"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans: working on it",
+        "thread_ts": "1487788333.742638",
+        "parent_user_id": "U026PHQ3J",
+        "ts": "1487788428.744897"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im getting no assets loading with 2|JS_1|01 on store build - will test on debug",
+        "thread_ts": "1487788333.742638",
+        "parent_user_id": "U026PHQ3J",
+        "ts": "1487788536.747559"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m getting infinite scrolling with the store build `2|JS_3|0`",
+        "thread_ts": "1487788333.742638",
+        "parent_user_id": "U026PHQ3J",
+        "ts": "1487788603.749394"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F49M96WMV\/pasted_image_at_2017_02_22_01_37_pm.png|Pasted image at 2017-02-22, 1:37 PM> and commented: fix is live",
+        "file": {
+            "id": "F49M96WMV",
+            "created": 1487788668,
+            "timestamp": 1487788668,
+            "name": "Pasted image at 2017_02_22 01_37 PM.png",
+            "title": "Pasted image at 2017-02-22, 1:37 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1S5GKTHQ",
+            "editable": false,
+            "size": 7559,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F49M96WMV\/pasted_image_at_2017_02_22_01_37_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F49M96WMV\/download\/pasted_image_at_2017_02_22_01_37_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49M96WMV-1744494c77\/pasted_image_at_2017_02_22_01_37_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49M96WMV-1744494c77\/pasted_image_at_2017_02_22_01_37_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49M96WMV-1744494c77\/pasted_image_at_2017_02_22_01_37_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 326,
+            "thumb_360_h": 52,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49M96WMV-1744494c77\/pasted_image_at_2017_02_22_01_37_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 326,
+            "original_h": 52,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F49M96WMV\/pasted_image_at_2017_02_22_01_37_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F49M96WMV-87569ee56f",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc489K9BB2",
+                "created": 1487788668,
+                "timestamp": 1487788668,
+                "user": "U1S5GKTHQ",
+                "is_intro": true,
+                "comment": "fix is live"
+            },
+            "reactions": [
+                {
+                    "name": "tada",
+                    "users": [
+                        "U13GPDA1F"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1487788669.751017"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No issues with 67 though!",
+        "thread_ts": "1487788333.742638",
+        "parent_user_id": "U026PHQ3J",
+        "ts": "1487788703.751781"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I'm getting the assets to load, with appended |0 on play store build. But after the assets are loaded, if I press nfc again (activate \"action\"), I go back to the artworks onboarding screen instead of launching website.",
+        "thread_ts": "1487788333.742638",
+        "parent_user_id": "U026PHQ3J",
+        "ts": "1487789429.770418"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can someone check this id P-1SNmLkjR9c9Aac ? it should be jen stark but its appearing with ghetto gastro assets (or im nuts)",
+        "thread_ts": "1487789573.774094",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1487789831.780840"
+            },
+            {
+                "user": "U1S5GKTHQ",
+                "ts": "1487790088.787325"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1487789573.774094"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "^^ But same chip is working as expected in build 67",
+        "thread_ts": "1487788333.742638",
+        "parent_user_id": "U026PHQ3J",
+        "ts": "1487789597.774686"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome",
+        "thread_ts": "1487788333.742638",
+        "parent_user_id": "U026PHQ3J",
+        "ts": "1487789605.774860"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "this might be admin-error so its secondary",
+        "ts": "1487789620.775296"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!here|@here> do we feel confident in our testing for them to push to prod?",
+        "ts": "1487789645.776070"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im seeing it behave how it should - sounds like yall are too via JS thread but wanted to see if you thought we should be checking anything else before we green-light",
+        "ts": "1487789685.777196"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(they are eager to get this out)",
+        "ts": "1487789696.777441"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "lynsey: I'm getting jen stark with that id",
+        "thread_ts": "1487789573.774094",
+        "parent_user_id": "U13GPDA1F",
+        "ts": "1487789831.780840"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "y’all know better than me",
+        "ts": "1487789880.781945"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> vote on your findings please",
+        "ts": "1487789951.783732"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U1ZG1UCAK",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[February 22nd, 2017 10:58 AM] evans: y’all know better than me",
+                "ts": "1487789880.781945",
+                "author_subname": "evans",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "y’all know better than me",
+                "author_name": "Elise \"Cramer\" evans",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/evans",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-07-12\/211206015585_3e81a7fdcc5a58c2e48c_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U1ZG1UCAK|midori> pinned a message to this channel.",
+        "ts": "1487789997.785000"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i’ve tested artworks + places with\/without the |01 and feeling good about our fix. will test photos now",
+        "ts": "1487790068.786834"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "me too (getting jen stark)",
+        "thread_ts": "1487789573.774094",
+        "parent_user_id": "U13GPDA1F",
+        "ts": "1487790088.787325"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "confident as always",
+        "ts": "1487790107.787791"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "(until things break again)",
+        "ts": "1487790113.787949",
+        "reactions": [
+            {
+                "name": "broken_heart",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> adam sent screenshots of some of the new chip scans",
+        "ts": "1487790731.802418"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "just saw that",
+        "ts": "1487790737.802578"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!here|@here> please recreate those and test with",
+        "ts": "1487790739.802614"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F491KUJM8\/morsc-hsgc9pmb_unt0001482.jpg|MORSC-hsGc9pmB_UNT0001482.jpg>",
+        "file": {
+            "id": "F491KUJM8",
+            "created": 1487790768,
+            "timestamp": 1487790768,
+            "name": "MORSC-hsGc9pmB_UNT0001482.jpg",
+            "title": "MORSC-hsGc9pmB_UNT0001482.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 2836978,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F491KUJM8\/morsc-hsgc9pmb_unt0001482.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F491KUJM8\/download\/morsc-hsgc9pmb_unt0001482.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F491KUJM8-4efbe45506\/morsc-hsgc9pmb_unt0001482_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F491KUJM8-4efbe45506\/morsc-hsgc9pmb_unt0001482_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F491KUJM8-4efbe45506\/morsc-hsgc9pmb_unt0001482_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F491KUJM8-4efbe45506\/morsc-hsgc9pmb_unt0001482_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F491KUJM8-4efbe45506\/morsc-hsgc9pmb_unt0001482_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F491KUJM8-4efbe45506\/morsc-hsgc9pmb_unt0001482_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 404,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F491KUJM8-4efbe45506\/morsc-hsgc9pmb_unt0001482_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 539,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F491KUJM8-4efbe45506\/morsc-hsgc9pmb_unt0001482_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 575,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 2336,
+            "original_h": 4160,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F491KUJM8\/morsc-hsgc9pmb_unt0001482.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F491KUJM8-88d8c7f65f",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1487790772.803750"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F49ML5DTQ\/morsc0j-70yauk_unt0001485.jpg|MORSC0J-70YaUK_UNT0001485.jpg>",
+        "file": {
+            "id": "F49ML5DTQ",
+            "created": 1487790775,
+            "timestamp": 1487790775,
+            "name": "MORSC0J-70YaUK_UNT0001485.jpg",
+            "title": "MORSC0J-70YaUK_UNT0001485.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 2166852,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F49ML5DTQ\/morsc0j-70yauk_unt0001485.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F49ML5DTQ\/download\/morsc0j-70yauk_unt0001485.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49ML5DTQ-1168181bcc\/morsc0j-70yauk_unt0001485_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49ML5DTQ-1168181bcc\/morsc0j-70yauk_unt0001485_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49ML5DTQ-1168181bcc\/morsc0j-70yauk_unt0001485_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49ML5DTQ-1168181bcc\/morsc0j-70yauk_unt0001485_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49ML5DTQ-1168181bcc\/morsc0j-70yauk_unt0001485_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49ML5DTQ-1168181bcc\/morsc0j-70yauk_unt0001485_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 404,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49ML5DTQ-1168181bcc\/morsc0j-70yauk_unt0001485_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 539,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49ML5DTQ-1168181bcc\/morsc0j-70yauk_unt0001485_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 575,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 2336,
+            "original_h": 4160,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F49ML5DTQ\/morsc0j-70yauk_unt0001485.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F49ML5DTQ-0b1170615c",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1487790779.803988"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U1ZG1UCAK",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[February 22nd, 2017 8:56 AM] lynsey: <https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B8oziE2kHpvTWWFzUkJTaHlDY2M\/view?usp=drivesdk>",
+                "ts": "1487782578.609670",
+                "author_subname": "lynsey",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "<https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B8oziE2kHpvTWWFzUkJTaHlDY2M\/view?usp=drivesdk>",
+                "author_name": "Lynsey Oetinger",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/lynsey",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-05-04\/40161058307_9d754700d8d1f1db1b22_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U1ZG1UCAK|midori> pinned a message to this channel.",
+        "ts": "1487790869.806134"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Working on photos testing: \nstore build - sometimes shows spinner then next button, but image is not loaded in home.\nbuild 67 - nfc behaves as expected",
+        "thread_ts": "1487790937.807699",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1487791002.809171"
+            },
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1487791297.816065"
+            },
+            {
+                "user": "U13GPDA1F",
+                "ts": "1487791448.819761"
+            },
+            {
+                "user": "U3ZFEAPSP",
+                "ts": "1487791476.820493"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1487790937.807699",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> looks like editions is effected",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1487790997.000000"
+        },
+        "ts": "1487790938.807729",
+        "reactions": [
+            {
+                "name": "confounded",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "UGH",
+        "ts": "1487790949.807966"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah...",
+        "ts": "1487790953.808055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it also has the most garbage NFC decoding stack cause of all the historical fuckups",
+        "ts": "1487790975.808515"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "midori: thank you! <@U2H61EJSG> <@U3ZFEAPSP>  are you seeing the same?",
+        "thread_ts": "1487790937.807699",
+        "parent_user_id": "U1ZG1UCAK",
+        "ts": "1487791002.809171"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we have an editions build slotted to go out next week i think, so we can prob keep to that schedule and swap out the builds with the fix",
+        "ts": "1487791125.812143"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "unless im misunderstanding and this will effect existing JS users (vs just new, which dont really exist)?",
+        "ts": "1487791162.813042"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "NFC Chip Photos ID is: \nMC-rIeXNc7MoQgVo",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1487791313.000000"
+        },
+        "thread_ts": "1487790937.807699",
+        "parent_user_id": "U1ZG1UCAK",
+        "ts": "1487791297.816065"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i am seeing the same as midori",
+        "thread_ts": "1487790937.807699",
+        "parent_user_id": "U1ZG1UCAK",
+        "ts": "1487791448.819761"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, likewise, works with new build, not on current play store build",
+        "thread_ts": "1487790937.807699",
+        "parent_user_id": "U1ZG1UCAK",
+        "ts": "1487791476.820493",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay <@U026PHQ3J> <@U3ZFEAPSP>  on build 67 i am seeing the same “match my location issue” - unable to toggle on\/off, receive toast “press nfc button to enable” toast, press nfc = shortcut triggered but no change to setting toggle",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1487794213.000000"
+        },
+        "ts": "1487794202.884871"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":point_up_2: ignore this, i bonnied the writing of this chip",
+        "ts": "1487794618.893298"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> this release is riding on your testing, btw :slightly_smiling_face:",
+        "ts": "1487794998.900812"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thank you",
+        "ts": "1487795010.901060"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Here's what I'm seeing now for Jen Stark testing:\nArtworks: P-1SNmLkjR9c9Aac|0\n- Store build (3.0.10): Loading wallpapers, nfc action launches onboarding (should launch action - default: artist website)\n- Build 67 (3.0.11): Loading wallpapers, nfc action launches My Live Case home activity",
+        "ts": "1487795138.903851"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what does this mean",
+        "ts": "1487795231.905921"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "on both builds it's downloading the wallpapers correctly, then when I press the button, to launch the artist website, it launches HomeActivity instead",
+        "ts": "1487795317.907580"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what does this mean?",
+        "thread_ts": "1487795619.914034",
+        "reply_count": 0,
+        "replies": [],
+        "ts": "1487795619.914034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont read threads",
+        "ts": "1487795904.920360"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "it appears to be re-launching onboarding instead of the shortcut",
+        "ts": "1487796027.922897"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or home",
+        "ts": "1487796039.923139"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but not shortcut, correct midori?",
+        "ts": "1487796052.923401"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes",
+        "ts": "1487796063.923612"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "why",
+        "ts": "1487796071.923752"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and is that true of all generators?",
+        "ts": "1487796099.924333"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or just collections",
+        "ts": "1487796101.924387"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay so <@U026PHQ3J> sounds like this is only a collection issue",
+        "ts": "1487796851.940499"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im chatting with adam right now",
+        "ts": "1487796855.940585"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and he wants to push it as-is but wanted to get your thoughts",
+        "ts": "1487796871.940888"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "_and then in the next bug fix release we can did a data purge to fix those few customers cases\nyou agree?\nthe fasterwe get this out, the fewer people impacted_",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1487796888.000000"
+        },
+        "ts": "1487796873.940923"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes",
+        "ts": "1487796879.941069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "agree with all that",
+        "ts": "1487796883.941143"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i want to stop the bleeding then repair fully",
+        "ts": "1487796888.941257"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you",
+        "ts": "1487796973.943624"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "anything i can do?",
+        "ts": "1487797331.951962"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not yet, dimitry (or at least not from my end) but thank you! we’ll keep you posted",
+        "ts": "1487797461.954939",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1S5GKTHQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm thinking about the repair options. Seems like the bad cached button is only noticeable at unlock (fixed) or if you stashed a bad chip and are using the button. At that point, we know if it's a new style or old style tho.",
+        "ts": "1487799540.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "If it's new style, that's our chance to fix it in place. ",
+        "ts": "1487799553.000566"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cause a user who isn't using the button won't even know it's broken ",
+        "ts": "1487799574.001086"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for Collections, the launching home activity continuously instead of the set NFC action, is from the lookup_id not matching, but not being overwritten because it is in a valid state (still loading images and all). However, as that is the only one that isn't obfuscated, our fix of reading out the orderId and removing the suffix will work without needing the user to push the NFC button.",
+        "ts": "1487799790.005610"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F492NUG3V\/download_20170222_143122.jpg|download_20170222_143122.jpg> and commented: google provided this - can we recreate this tag and test on latest to see if working? :disappointed: reporting that its not",
+        "file": {
+            "id": "F492NUG3V",
+            "created": 1487801568,
+            "timestamp": 1487801568,
+            "name": "download_20170222_143122.jpg",
+            "title": "download_20170222_143122.jpg",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 171368,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F492NUG3V\/download_20170222_143122.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F492NUG3V\/download\/download_20170222_143122.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F492NUG3V-5c330dee69\/download_20170222_143122_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F492NUG3V-5c330dee69\/download_20170222_143122_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F492NUG3V-5c330dee69\/download_20170222_143122_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F492NUG3V-5c330dee69\/download_20170222_143122_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F492NUG3V-5c330dee69\/download_20170222_143122_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F492NUG3V-5c330dee69\/download_20170222_143122_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F492NUG3V-5c330dee69\/download_20170222_143122_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F492NUG3V-5c330dee69\/download_20170222_143122_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F492NUG3V\/download_20170222_143122.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F492NUG3V-50d0999f0e",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc492NUZ6X",
+                "created": 1487801568,
+                "timestamp": 1487801568,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "google provided this - can we recreate this tag and test on latest to see if working? :disappointed: reporting that its not"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1487801571.046111"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> I just tested this on 67 and it’s not working :disappointed:",
+        "ts": "1487801939.053373"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "fuccccckkkk",
+        "ts": "1487801949.053565"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "whats happening",
+        "ts": "1487801957.053719"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "????",
+        "ts": "1487801981.054157"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is it: \"Just did, now when I'm on the last screen where I should activate the background and press the button it takes me back to the first welcome screen\"",
+        "ts": "1487801989.054288"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i dont understand why his didnt work but the other IDs we tested did...",
+        "ts": "1487802078.056132"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what happened summer",
+        "ts": "1487802117.057077"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":cry:",
+        "ts": "1487802128.057461"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "0|dZrjJr3CF-EKs1Gf|0",
+        "ts": "1487802683.068256"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "places order id",
+        "ts": "1487802687.068325"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F49302D19\/screenshot_20170222-141838_720.png|screenshot_20170222-141838_720.png>",
+        "file": {
+            "id": "F49302D19",
+            "created": 1487802897,
+            "timestamp": 1487802897,
+            "name": "screenshot_20170222-141838_720.png",
+            "title": "screenshot_20170222-141838_720.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 88191,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F49302D19\/screenshot_20170222-141838_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F49302D19\/download\/screenshot_20170222-141838_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49302D19-f4c5e7b59e\/screenshot_20170222-141838_720_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49302D19-f4c5e7b59e\/screenshot_20170222-141838_720_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49302D19-f4c5e7b59e\/screenshot_20170222-141838_720_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49302D19-f4c5e7b59e\/screenshot_20170222-141838_720_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F49302D19-f4c5e7b59e\/screenshot_20170222-141838_720_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 405,
+            "original_h": 720,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F49302D19\/screenshot_20170222-141838_720.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F49302D19-742acb2df6",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1487802899.072263"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F497T42TW\/screen_shot_2017-02-22_at_3.06.16_pm.png|Screen Shot 2017-02-22 at 3.06.16 PM.png> and commented: Evillincoln knows what's up",
+        "file": {
+            "id": "F497T42TW",
+            "created": 1487804840,
+            "timestamp": 1487804840,
+            "name": "Screen Shot 2017-02-22 at 3.06.16 PM.png",
+            "title": "Screen Shot 2017-02-22 at 3.06.16 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 41075,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F497T42TW\/screen_shot_2017-02-22_at_3.06.16_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F497T42TW\/download\/screen_shot_2017-02-22_at_3.06.16_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F497T42TW-b13107d756\/screen_shot_2017-02-22_at_3.06.16_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F497T42TW-b13107d756\/screen_shot_2017-02-22_at_3.06.16_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F497T42TW-b13107d756\/screen_shot_2017-02-22_at_3.06.16_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 311,
+            "thumb_360_h": 300,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F497T42TW-b13107d756\/screen_shot_2017-02-22_at_3.06.16_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 311,
+            "original_h": 300,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F497T42TW\/screen_shot_2017-02-22_at_3.06.16_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F497T42TW-554803c068",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc48EXEB4Z",
+                "created": 1487804840,
+                "timestamp": 1487804840,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Evillincoln knows what's up"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1487804841.106955"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "He's my fav",
+        "ts": "1487806105.127258"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Midori - can you make sure to share any emails you get re: your live case order",
+        "ts": "1487806141.127780",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "wondering if they are going to get Infront of the issue by messaging to folks with orders on the way",
+        "ts": "1487806196.128577"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "'We hope you like your broken case. Did you know all Google cases are covered by a one year warranty. Reach out to our customer service team for a full refund.' \nThat's my bet :stuck_out_tongue:",
+        "ts": "1487806379.131099"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":) ",
+        "ts": "1487806432.132152"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "we got sabotaged",
+        "ts": "1487811285.193459",
+        "reactions": [
+            {
+                "name": "partyparrot",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            },
+            {
+                "name": "dollar",
+                "users": [
+                    "U0260V1BX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you melissa! :heart: who is quietly killing it on her own over there :slightly_smiling_face:",
+        "ts": "1487811986.201464",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U2H61EJSG",
+                    "U0265G76F",
+                    "U1ZG1UCAK"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "of course!",
+        "ts": "1487812000.201653"
+    }
+]

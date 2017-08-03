@@ -1,0 +1,755 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "collections video looks awesome!",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1468341047.000000"
+        },
+        "ts": "1468341033.000292"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> - thoughts on adams note re: location vs. image? i lean towards location from user perspective, but am less clear on the technical implications of that path",
+        "ts": "1468341145.000294"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im assuming the NFC would need to be triggered either way (per your earlier comment) to make that location\/image appear?",
+        "ts": "1468341172.000295"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F>: and <@U1J4BQX7G> here's a cut of Collections (incomplete) but I'd like to get some first-pass testing on it if possible.",
+        "ts": "1468355568.000296"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Known issues:",
+        "ts": "1468355578.000297"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "1) needs divider on gallery view for multi-artist",
+        "ts": "1468355586.000298"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "2) same for bios",
+        "ts": "1468355592.000299"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "3) gallery view reloads completely when selecting an image",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1468355607.000000"
+        },
+        "ts": "1468355604.000300"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F1R2MK22F\/collections-7_12_16_v1.apk|Collections-7_12_16_v1.apk>",
+        "file": {
+            "id": "F1R2MK22F",
+            "created": 1468355603,
+            "timestamp": 1468355603,
+            "name": "Collections-7_12_16_v1.apk",
+            "title": "Collections-7_12_16_v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 38356040,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R2MK22F\/collections-7_12_16_v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R2MK22F\/download\/collections-7_12_16_v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F1R2MK22F\/collections-7_12_16_v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1R2MK22F-f76b8ce061",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1468355606.000302"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool, ill look at shortly. <@U1J4BQX7G> would appreciate if you do the same if you have time when you are done with your meeting  :slightly_smiling_face:",
+        "ts": "1468355704.000304"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks evans",
+        "ts": "1468355724.000305"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "working on changes to places right now",
+        "ts": "1468355736.000306"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "collections keeps stopping when i try to add trigger another artist via the nfcchip.apk",
+        "ts": "1468356136.000307"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "bug report coming your way in a min",
+        "ts": "1468356147.000308"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "K. I expect it will be a quick fix ",
+        "ts": "1468356258.000309"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Sorry about that ",
+        "ts": "1468356261.000310"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F1R46HXL0\/bugreport-2016-07-12-13-41-33.zip|bugreport-2016-07-12-13-41-33.zip> and commented: stops when attempting to trigger another collection via nfcchip",
+        "file": {
+            "id": "F1R46HXL0",
+            "created": 1468356288,
+            "timestamp": 1468356288,
+            "name": "bugreport-2016-07-12-13-41-33.zip",
+            "title": "bugreport-2016-07-12-13-41-33.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 2171873,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R46HXL0\/bugreport-2016-07-12-13-41-33.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R46HXL0\/download\/bugreport-2016-07-12-13-41-33.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F1R46HXL0\/bugreport-2016-07-12-13-41-33.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1R46HXL0-6658a54718",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc1R4HV9B3",
+                "created": 1468356288,
+                "timestamp": 1468356288,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "stops when attempting to trigger another collection via nfcchip"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1468356289.000311"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no sweat - im going to grab a quick snack but ill be ready to test when you are .thank you!",
+        "ts": "1468356402.000312"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no sweat - im going to grab a quick snack but ill be ready to test when you are .thank you!",
+        "ts": "1468356446.000313"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Updated\/Fixed. Was just a dumb mistake on my part.",
+        "ts": "1468357054.000314"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F1R483BLN\/collections-7_12_16_v2.apk|Collections-7_12_16_v2.apk>",
+        "file": {
+            "id": "F1R483BLN",
+            "created": 1468357061,
+            "timestamp": 1468357061,
+            "name": "Collections-7_12_16_v2.apk",
+            "title": "Collections-7_12_16_v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 38356017,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R483BLN\/collections-7_12_16_v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R483BLN\/download\/collections-7_12_16_v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F1R483BLN\/collections-7_12_16_v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1R483BLN-5864d4796b",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1468357063.000315"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F> &amp; <@U1J4BQX7G> ^^^",
+        "ts": "1468357065.000316"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1468357094.000317"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oooh",
+        "ts": "1468357616.000318"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "should the bio open their link?",
+        "ts": "1468357620.000319"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i guess yes. Will do that, but someone please remind me",
+        "ts": "1468357627.000320"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah believe so - will confirm when back at my desk",
+        "ts": "1468357884.000321"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F1R4NKJET\/screenshot_20160712-140909.png|artist not expandjng as expected (assets not being shown)> and commented: This is weird and im having trouble reproducing but after a rapid fire select\/deselect the first collection stopped expanding (was able to access by going back to manage my wallpaper)",
+        "file": {
+            "id": "F1R4NKJET",
+            "created": 1468358085,
+            "timestamp": 1468358085,
+            "name": "Screenshot_20160712-140909.png",
+            "title": "artist not expandjng as expected (assets not being shown)",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 267606,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R4NKJET\/screenshot_20160712-140909.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R4NKJET\/download\/screenshot_20160712-140909.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R4NKJET-eda8755800\/screenshot_20160712-140909_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R4NKJET-eda8755800\/screenshot_20160712-140909_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R4NKJET-eda8755800\/screenshot_20160712-140909_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R4NKJET-eda8755800\/screenshot_20160712-140909_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R4NKJET-eda8755800\/screenshot_20160712-140909_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R4NKJET-eda8755800\/screenshot_20160712-140909_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R4NKJET-eda8755800\/screenshot_20160712-140909_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R4NKJET-eda8755800\/screenshot_20160712-140909_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F1R4NKJET\/screenshot_20160712-140909.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1R4NKJET-e17ab58655",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc1R32H5S7",
+                "created": 1468358085,
+                "timestamp": 1468358085,
+                "user": "U13GPDA1F",
+                "is_intro": true,
+                "comment": "This is weird and im having trouble reproducing but after a rapid fire select\/deselect the first collection stopped expanding (was able to access by going back to manage my wallpaper)"
+            }
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1468358089.000322"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "budgies ^ should have assets",
+        "ts": "1468358120.000323"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes, it should",
+        "ts": "1468358199.000324"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not sure why it doesnt",
+        "ts": "1468358211.000325"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can anyone access this:",
+        "ts": "1468358414.000326"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/console.developers.google.com\/home\/dashboard?project=minime-collections|console.developers.google.com\/home\/dashboard?project=minime-collections>",
+        "ts": "1468358414.000327",
+        "reactions": [
+            {
+                "name": "no_entry_sign",
+                "users": [
+                    "U02F8TTPU"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i can!",
+        "ts": "1468358530.000328"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "YAY!",
+        "ts": "1468358541.000329"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "go into the IAM console and add me as an admin",
+        "ts": "1468358547.000330"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F1R354VBM\/slack_for_ios_upload.jpg|Slack for iOS Upload>",
+        "file": {
+            "id": "F1R354VBM",
+            "created": 1468358557,
+            "timestamp": 1468358557,
+            "name": "Slack for iOS Upload.jpg",
+            "title": "Slack for iOS Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 303930,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R354VBM\/slack_for_ios_upload.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1R354VBM\/download\/slack_for_ios_upload.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R354VBM-1db4e6aebb\/slack_for_ios_upload_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R354VBM-1db4e6aebb\/slack_for_ios_upload_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R354VBM-1db4e6aebb\/slack_for_ios_upload_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R354VBM-1db4e6aebb\/slack_for_ios_upload_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R354VBM-1db4e6aebb\/slack_for_ios_upload_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R354VBM-1db4e6aebb\/slack_for_ios_upload_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R354VBM-1db4e6aebb\/slack_for_ios_upload_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 720,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1R354VBM-1db4e6aebb\/slack_for_ios_upload_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 768,
+            "image_exif_rotation": 1,
+            "original_w": 2732,
+            "original_h": 2048,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F1R354VBM\/slack_for_ios_upload.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1R354VBM-1bc157c83f",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1468358561.000331"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok someone add me as an admin",
+        "ts": "1468358579.000332"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "trying one min",
+        "ts": "1468358717.000333"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "wifi problems",
+        "ts": "1468358723.000334"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh wait you’re in there as an owner, <@U06DFL7BP> prob gotcha already",
+        "ts": "1468358747.000335"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lemme know if youre not in <@U026PHQ3J>",
+        "ts": "1468358761.000336"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you resend the invite?",
+        "ts": "1468358841.000337"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its not showing up",
+        "ts": "1468358844.000338"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "anything?",
+        "ts": "1468358893.000339"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I don't think we have access to that dashboard, per what projects k actually see",
+        "ts": "1468358897.000340"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> collections looks good - are you okay with me sharing with the client?",
+        "ts": "1468361328.000341"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes.",
+        "ts": "1468361334.000342"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oops",
+        "ts": "1468361334.000343"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh thats not a good oops",
+        "ts": "1468361345.000344"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hahahaha no no i just realized the weird expanding issue was still a thing, but ill just try to repro on that \/ not hold on sending",
+        "ts": "1468361376.000345"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "that was an internal oops",
+        "ts": "1468361382.000346"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "one thing to note - the first\/default shortcut should be \"Partner website” (assuming they have the URL)",
+        "ts": "1468361469.000347"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i can just note this it TK",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1468361491.000000"
+        },
+        "ts": "1468361476.000348"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what weird expanding issue?",
+        "ts": "1468362236.000350"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "the one i screenshotted above",
+        "ts": "1468362309.000351"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no assets appearing when expanded",
+        "ts": "1468362368.000352"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh",
+        "ts": "1468362377.000353"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah that shouldn't happen",
+        "ts": "1468362381.000354"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im not sure why it did",
+        "ts": "1468362386.000355"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah i think its due to “deselect all\"",
+        "ts": "1468362420.000356"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm",
+        "ts": "1468362442.000357"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you show me",
+        "ts": "1468362453.000358"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yep",
+        "ts": "1468362463.000359"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1468362470.000360"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill come find you",
+        "ts": "1468362474.000361"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stand by",
+        "ts": "1468362475.000362"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "the flashlight functionality still isn't working - just changes the background picture even when you've set it to toggle the flashlight",
+        "ts": "1468362570.000363"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "this is on Lollipop 5.1.1",
+        "ts": "1468362583.000364"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "is this in MiniMe or the collections build?",
+        "ts": "1468362630.000365"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause they're different builds",
+        "ts": "1468362642.000366"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "Collections",
+        "ts": "1468362669.000367"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "hmm none of the Shortcut Button options are working - no matter what you set it just changes the wallpaper to the next picture",
+        "ts": "1468363001.000368"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ok pull the build ",
+        "ts": "1468363037.000369"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "This would have been good info to have before we sent it",
+        "ts": "1468363048.000370"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F>: ^^^",
+        "ts": "1468363054.000371"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "gah",
+        "ts": "1468363059.000372"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "another bug: if you've selected a subset of your collection, using the shortcut functionality overrides your selection and cycles through all images in the collection",
+        "ts": "1468363183.000373"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "it works fine if your background is set to a certain picture and then you deselect that picture - it gracefully switches to any selected picture in the collection. The bug is only triggered by using the shortcut functionality",
+        "ts": "1468363235.000374"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The NFC seems to have a hole in the logic ",
+        "ts": "1468363251.000375"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry for not catching that earlier, guys.  my bad.",
+        "ts": "1468363304.000376"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "app is working great except for the shortcut functionality",
+        "ts": "1468363375.000377"
+    }
+]

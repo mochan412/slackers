@@ -1,0 +1,232 @@
+[
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Hey team, whatever bug I had yesterday took a turn for the worse yesterday evening. I’m going to wfh today. <@U3QNW6PPC> - I can call into the Jon Summers meeting today. I’ll also find some time tomorrow to regroup on stuff. Same w\/ <@U026PLK4S>.",
+        "ts": "1487692009.692480"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Oh no! Feel better. ",
+        "ts": "1487694550.276763"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "Bummer. Hope you can cure it out quickly. ",
+        "ts": "1487697643.936507"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "thanks, guys. My update for today - going to keep working on the resource spreadsheet. Rob, I may send you a note later to begin connecting it to the other work you’ve done in parallel. Trying to get better clarity on the size of the MVP effort.",
+        "ts": "1487697725.977092"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Sounds good! I'll keep my eye out ",
+        "ts": "1487699463.962807"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "My update is I'm working on the over the air efficiency of transmission and error recovery. Wireless transmissions are fraught with errors.",
+        "ts": "1487699779.129934"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<@U0K8ZSHN0> Interesting. What are the nature of the errors? Signal interruption? or on the encoding\/decoding side?",
+        "ts": "1487700368.438005"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Marc is at the Oregon Wine Symposium today. He’s found a couple co’s to add to our winery dashboard competitive set: <http:\/\/www.winery-software.com\/?lang=tus>",
+        "attachments": [
+            {
+                "service_name": "Vintrace",
+                "title": "vintrace: Cloud Winery Software - Free demo, great support",
+                "title_link": "http:\/\/www.winery-software.com\/?lang=tus",
+                "text": "vintrace is the best Cloud winery software for winemakers for inventory, bulk wine, QA, lab, sales, purchases, compliance, reporting. Easy to use, free demo",
+                "fallback": "Vintrace: vintrace: Cloud Winery Software - Free demo, great support",
+                "image_url": "http:\/\/www.vinx2.com\/wp-content\/uploads\/2015\/10\/social-logo.jpg",
+                "from_url": "http:\/\/www.winery-software.com\/?lang=tus",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 12358,
+                "service_icon": "http:\/\/www.winery-software.com\/wp-content\/themes\/true-theme\/assets\/img\/favicon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1487700618.557583"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<http:\/\/www.ecellar1.com\/>",
+        "attachments": [
+            {
+                "title": "Missing Link Networks - eCellar",
+                "title_link": "http:\/\/www.ecellar1.com\/",
+                "text": "eCellar® is your best web-based solution covering transactions across all sales channels and storing customer data in one database.",
+                "fallback": "Missing Link Networks - eCellar",
+                "image_url": "http:\/\/www.missinglink.net\/img\/eCellar_logo.png",
+                "from_url": "http:\/\/www.ecellar1.com\/",
+                "image_width": 340,
+                "image_height": 83,
+                "image_bytes": 43006,
+                "service_icon": "http:\/\/www.ecellar1.com\/favicon.ico",
+                "service_name": "ecellar1.com",
+                "id": 1
+            }
+        ],
+        "ts": "1487700634.564743"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<@U0B9N0HF0> errors are inherent in any wireless system. An error is when you transmits any bit and it arrives different then how you intended to send it. The wireless medium is lossy and at best 67% efficient. That means 1 in 3 bits is either interrupted or changed in route",
+        "ts": "1487701007.741699"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "There are various ways of handling errors. ",
+        "ts": "1487701031.752500"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "But ultimately i need to ensure that a cap has received a firmware update with all bits intact. ",
+        "ts": "1487701058.765038"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Otherwise I cannot overwrite it and must resend the whole package",
+        "ts": "1487701075.773560"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "And for reference I'm sending about 4-5 thousand bytes so that's 32-40k bits",
+        "edited": {
+            "user": "U0K8ZSHN0",
+            "ts": "1487701143.000000"
+        },
+        "ts": "1487701119.792705"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Interesting challenge. How do phone handle OTA updates?",
+        "ts": "1487701488.980726"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "they are most likely using TCP\/IP which has built in error handling",
+        "ts": "1487701811.140048"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "TCP = transmission control protocol",
+        "ts": "1487701822.146101"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "so every packet you send you have to send back an acknowledgement that you received it",
+        "ts": "1487701836.154931"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "also it make sense to send a checksum, since tcp doesnt handle errors within the packet",
+        "ts": "1487701862.174265"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "these TI chips have some built in error handling that im reading about",
+        "ts": "1487701883.186242"
+    },
+    {
+        "type": "message",
+        "user": "U3QNW6PPC",
+        "text": "lee: Interesting... and applicable to us",
+        "thread_ts": "1487620597.044650",
+        "parent_user_id": "U0K8ZSHN0",
+        "ts": "1487704162.613523"
+    },
+    {
+        "type": "message",
+        "user": "U3QNW6PPC",
+        "text": "Hey Gang - very interesting inputs from market and competition - I have a \"spy\" in the audience networking and note-taking and I'm doing the tradeshow - some additional companies to look at:  Vintrace;  <http:\/\/jorypayments.com|jorypayments.com>; <http:\/\/ecellar1.com|ecellar1.com>; <http:\/\/winesoftware.com|winesoftware.com> ..... I've grabbed some additional info ... and connecting with SiliconValleyBank tonight\/tomorrow....  good inputs for our planning...",
+        "ts": "1487704395.730316"
+    },
+    {
+        "type": "message",
+        "user": "U3QNW6PPC",
+        "text": "<@U026PLK4S>  how you coming on the updated sommely standard PPT\/Deck?  Would like to review and share with one\/two people privately in the next 24-48 hours...",
+        "ts": "1487704467.762581"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Hey Marc, I've got all of our notes from Friday. Trying to find a good chunk of time to address it, but I'm also battling a fire on my other large project. I should have some time this afternoon, and can share a PPT or even a PDF that has _some_ of the changes we talked about. If we need something more, I _may_ be able to pull another designer onto it — but they may not have all the same context.",
+        "ts": "1487707384.295666"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Hey <@U3QNW6PPC> cool news on the \"spy\" front! Quickly jumping in here with as well regards to deck status. As Matt he had to jump in on a design sprint for his primary project starting yesterday morning, so hasn't had the time to start the updates to the deck that we discussed on Friday. Given the 24-48 hr. window, if you had any top priorities\/must haves given the current state of the deck, what would those be?",
+        "ts": "1487708200.705243"
+    },
+    {
+        "type": "message",
+        "user": "U3QNW6PPC",
+        "text": "Share whatever you can get completed based on our discussion later tonight <@U026PLK4S>  I will be reviewing late tonight or first thing in the AM - and have two near term presentation opportunities I'd like to capitalize on (vs. using my lame drawing skills on a whiteboard  :disappointed:   Feel free to drop me a text @ 5033299628 on progress or input needs... thanks!!",
+        "ts": "1487715878.730785"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Cool. I'll get you something by EOD. I'll be teaching tomorrow AM, but class wraps around noon.",
+        "ts": "1487715963.784644"
+    },
+    {
+        "type": "message",
+        "user": "U3QNW6PPC",
+        "text": "OK - I will plan to look at it this evening - thanks",
+        "ts": "1487716126.857023"
+    },
+    {
+        "type": "message",
+        "user": "U3QNW6PPC",
+        "text": "Also - we need to quickly scale down our Sommely website to describe the basics ... taking video\/other off and having the \"update\" to Sommely coming soon...  <@U026NB2U2> <@U0B9N0HF0>  - how do we pair it down to basics ... we need not to be currently sharing info that is not representative... and go silent for ~60 days then reannounce....",
+        "ts": "1487716237.903769"
+    },
+    {
+        "type": "message",
+        "user": "U3QNW6PPC",
+        "text": "relaunch",
+        "ts": "1487716244.906365"
+    },
+    {
+        "type": "message",
+        "user": "U3QNW6PPC",
+        "text": "restate",
+        "ts": "1487716247.907749"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "I think <@U0K8ZSHN0> has the ability to remove the video and update the language. Defer to <@U026NB2U2> on specific language",
+        "ts": "1487716363.955651"
+    }
+]

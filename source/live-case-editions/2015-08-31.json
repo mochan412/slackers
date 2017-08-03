@@ -1,0 +1,235 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Any schedule feedback? <@U02613K0X> we should probably sync on what i’m talking about :simple_smile:",
+        "ts": "1441039392.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":simple_smile:",
+        "ts": "1441039664.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that'd be cool",
+        "ts": "1441039699.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh. i have a BD meeting during standup time",
+        "ts": "1441039737.000005"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F09U4B60K\/livecase_video_sync-2.pdf|updated deck> and commented: <@U0261PCRQ> can you look at the sync tile “notification” piece and make sure that makes sense",
+        "file": {
+            "id": "F09U4B60K",
+            "created": 1441053344,
+            "timestamp": 1441053344,
+            "name": "livecase_video_sync-2.pdf",
+            "title": "updated deck",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 191227,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F09U4B60K\/livecase_video_sync-2.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F09U4B60K\/download\/livecase_video_sync-2.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F09U4B60K\/livecase_video_sync-2.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F09U4B60K-39d263495d",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc09U4B61H",
+                "created": 1441053344,
+                "timestamp": 1441053344,
+                "user": "U06DFL7BP",
+                "is_intro": true,
+                "comment": "<@U0261PCRQ> can you look at the sync tile “notification” piece and make sure that makes sense"
+            }
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1441053344.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, what’s there makes sense. I have questions about what happens if a second piece of content is ready and the first content has not been dismissed though.",
+        "ts": "1441053708.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you don’t get it",
+        "ts": "1441053739.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":simple_smile:",
+        "ts": "1441053742.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "mostly because it’s likely the same content",
+        "ts": "1441053751.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ie a gallery you’re already in",
+        "ts": "1441053755.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m getting more confused",
+        "ts": "1441053925.000012"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’ll find you shortly :simple_smile:",
+        "ts": "1441053952.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ>: i’m guessing in the app, we can’t use youtube for the companion video since we’re painting on top of it?",
+        "ts": "1441056350.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think we could paint on top of a youtube video",
+        "ts": "1441056380.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m not sure how much control we have over the display of a youtube video in a YoutubeVideoPlayer though",
+        "ts": "1441056430.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we may not be able to remove time selection, etc",
+        "ts": "1441056457.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah - and they’re trying to obfuscate the URL and i’m guessing using the youtube player would make that harder",
+        "ts": "1441056671.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I can whip up a test app to see what it looks like",
+        "ts": "1441056724.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "if we get efficiency from using the youtube API and can prevent users from seeing the URL might be worth it",
+        "ts": "1441056813.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J>: ```For AppEngine, still TBD. Will the schedule include when you need a call on this?\n\nThe externally is still TBD as well. Could you let us know a deadline on this as well?```",
+        "ts": "1441056830.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the api keeps a lot of state for us which would be nice since we have to support configuration changes",
+        "ts": "1441056863.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "looking into it",
+        "ts": "1441056865.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I haven’t figured out how to apply it yet, but it looks like I can remove the chrome from the youtube player",
+        "ts": "1441059310.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "there is this little nugget on the docs though: “it is not permitted to overlay the view with other views while a video is playing\"",
+        "ts": "1441059333.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "^^^",
+        "ts": "1441059387.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "tru",
+        "ts": "1441059401.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you speak da tru tru",
+        "ts": "1441059412.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(cloud atlas fans unite)",
+        "ts": "1441059421.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(preferrably somewhere that i'm not)",
+        "ts": "1441059434.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "so.. I may have spoken too soon. Can remove chrome and control playback.",
+        "ts": "1441060326.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "putting view in front of player results in this: \n``` YouTube video playback stopped due to unauthorized overlay on top of player. The YouTubePlayerView is obscured by android.view.View{248b5c98 V.ED.... ........ 0,0-1440,2108 #7f0c004e app:id\/block_view}. YouTubePlayerView is completely covered, with the distance in px between each edge of the obscuring view and the YouTubePlayerView being: left: 0, top: 0, right: 0, bottom: 1298..```",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1441060377.000000"
+        },
+        "ts": "1441060368.000036"
+    }
+]

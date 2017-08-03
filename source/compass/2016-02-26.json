@@ -1,0 +1,265 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0KMN36GJ> help commands",
+        "ts": "1456505875.000039"
+    },
+    {
+        "text": "I understand a variety of commands.",
+        "username": "howdy",
+        "icons": {
+            "image_48": "https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-02-24\/22945919233_48.png"
+        },
+        "attachments": [
+            {
+                "id": 1,
+                "color": "FF0000",
+                "fields": [
+                    {
+                        "title": "run &lt;custom question set&gt; with &lt;@user or #channel&gt;",
+                        "value": "I'll run a custom meeting with a group of people or an entire channel. (Read <http:\/\/howdy.ai\/faq\/#privatechan|how to run meetings in a private group>)",
+                        "short": false
+                    }
+                ],
+                "fallback": "NO FALLBACK DEFINED"
+            },
+            {
+                "id": 2,
+                "color": "FF7F00",
+                "fields": [
+                    {
+                        "title": "train",
+                        "value": "You can teach me a custom set of questions to send to your team.",
+                        "short": false
+                    }
+                ],
+                "fallback": "NO FALLBACK DEFINED"
+            },
+            {
+                "id": 3,
+                "color": "FFFF00",
+                "fields": [
+                    {
+                        "title": "schedule &lt;custom question set&gt; with &lt;@user or #channel&gt;",
+                        "value": "Schedule scripts to run automatically.",
+                        "short": false
+                    }
+                ],
+                "fallback": "NO FALLBACK DEFINED"
+            },
+            {
+                "id": 4,
+                "color": "00FF00",
+                "fields": [
+                    {
+                        "title": "status",
+                        "value": "I'll provide a status update on the meetings that are currently running in this channel.",
+                        "short": false
+                    }
+                ],
+                "fallback": "NO FALLBACK DEFINED"
+            },
+            {
+                "id": 5,
+                "color": "0000FF",
+                "fields": [
+                    {
+                        "title": "list",
+                        "value": "I'll give you a list of my available scripts and schedules.",
+                        "short": false
+                    }
+                ],
+                "fallback": "NO FALLBACK DEFINED"
+            },
+            {
+                "id": 6,
+                "color": "4b0082",
+                "fields": [
+                    {
+                        "title": "support",
+                        "value": "I'll send a support request to the Howdy team for you! Just chat at me.",
+                        "short": false
+                    }
+                ],
+                "fallback": "NO FALLBACK DEFINED"
+            },
+            {
+                "id": 7,
+                "color": "8F00FF",
+                "fields": [
+                    {
+                        "title": "feedback",
+                        "value": "I can send feedback directly to the product team at <http:\/\/Howdy.ai|Howdy.ai>!",
+                        "short": false
+                    }
+                ],
+                "fallback": "NO FALLBACK DEFINED"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1456505875.000040"
+    },
+    {
+        "text": "I can provide detailed help on any of these topics. Say `help &lt;topic&gt;` to learn more. You may also want to view <http:\/\/howdy.ai\/faq|my FAQs>.",
+        "username": "howdy",
+        "icons": {
+            "image_48": "https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-02-24\/22945919233_48.png"
+        },
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1456505876.000041"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(Y'all don't have to use howdy! But it can run stand ups pretty easily, DMs each person what they did \/ are doing \/ need help on and consolidates into one report)",
+        "ts": "1456508280.000042"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "Reminder: Standup!!",
+        "ts": "1456510500.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U026103R3> maybe you should reset the slackbot reminder to include an [at]channel notifier?",
+        "ts": "1456511574.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yes good call trent!",
+        "ts": "1456511738.000045"
+    },
+    {
+        "text": "deleted the reminder “Standup!!”.",
+        "type": "message",
+        "subtype": "reminder_delete",
+        "user": "U026103R3",
+        "ts": "1456513294.000046"
+    },
+    {
+        "text": "set up a reminder “@channel Standup!! every dat” in this channel at 10:15am tomorrow, Pacific Standard Time. ",
+        "type": "message",
+        "subtype": "reminder_add",
+        "user": "U026103R3",
+        "ts": "1456513315.000047"
+    },
+    {
+        "text": "set up a reminder “@channel Standup!” in this channel at 10:15am every day, Pacific Standard Time. ",
+        "type": "message",
+        "subtype": "reminder_add",
+        "user": "U026103R3",
+        "ts": "1456513338.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Hate that I can’t delete the one where I made a typo...",
+        "ts": "1456513358.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Slackbot put me on blast",
+        "ts": "1456513367.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> Hey creative team - head’s up that I’m going to get our trello board updated over today and next week so we can get dialed in what we’re working on. I’ll send out a note when I think I’ve got all of my notes in there so you can check it out and help me keep it updated moving forward.",
+        "ts": "1456514288.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Here’s a link to the board for reference: <https:\/\/trello.com\/b\/H0Zvu3Pv\/compass-creative>",
+        "ts": "1456521056.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I’ve got some more detail in their now but would love for you guys to add tasks you don’t see",
+        "ts": "1456521985.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<http:\/\/www.joshuadavis.com\/>",
+        "ts": "1456530985.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I want leggings printed with all of that",
+        "ts": "1456532030.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> creative team - here’s a link to notes from that meeting",
+        "ts": "1456535432.000056"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026103R3|abby> shared a file: <https:\/\/uncorked.slack.com\/files\/abby\/F0PA6ETD1\/compassvisualworkshop226|[Compass] Visual Workshop 2\/26>",
+        "file": {
+            "id": "F0PA6ETD1",
+            "created": 1456535434,
+            "timestamp": 1456535434,
+            "name": "CompassVisualWorkshop226",
+            "title": "[Compass] Visual Workshop 2\/26",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U026103R3",
+            "editable": false,
+            "size": 4775,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1K6Hs9R4DKaNkkzUyJcPZ7_Csm1H1NOH9gxp6y6hkWI8\/edit?usp=drivesdk",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gdoc_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gdoc_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/abby\/F0PA6ETD1\/compassvisualworkshop226",
+            "channels": [
+                "C037D5R8X"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U0HPGQ4KH"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U026103R3",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "abby",
+        "bot_id": null,
+        "ts": "1456535434.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Anyone else is welcome to view, just request access if you’d like it",
+        "ts": "1456535442.000060"
+    }
+]

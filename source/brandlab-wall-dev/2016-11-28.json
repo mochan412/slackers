@@ -1,0 +1,128 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> and <@U02E3CRMA> how’s it going with cubbies on Rpi?  <@U02E3CRMA> is this something you were hoping to discuss with Josh tomorrow?",
+        "ts": "1480369698.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I left the cable on Peter's desk. That was the last piece to test video",
+        "ts": "1480370303.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "can ya’ll demo for me today?",
+        "ts": "1480370375.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dont see the cable on my desk",
+        "ts": "1480371507.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "found it",
+        "ts": "1480371745.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cable doesnt work, looked into it an apparently this doesnt work. you cant go hdmi to display port, you can only go the other way, <https:\/\/www.raspberrypi.org\/forums\/viewtopic.php?f=5&amp;t=5934>",
+        "ts": "1480372909.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "need an active adapter to do it not just a cable",
+        "ts": "1480372928.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "need something like this <https:\/\/www.amazon.com\/StarTech-com-HDMI2DP-DisplayPort-Active-Converter\/dp\/B004I6IYSM\/ref=sr_1_1?ie=UTF8&amp;qid=1480373008&amp;sr=8-1&amp;keywords=StarTech+HDMI+or+DVI+to+DisplayPort+Active+Converter>",
+        "ts": "1480373022.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I think i actually have one of these now that im thinking about it, Pretty sure I know where it is, will bring it in",
+        "ts": "1480373124.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> also ping <@U02F8LF2X> to see if he has what you need?  I bet one of you two does, haha",
+        "ts": "1480373156.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its very uncommon and kinda expensive adapter, i doubt he has one",
+        "ts": "1480373191.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "worth checking though, right?",
+        "ts": "1480373253.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh hmm mine is usb 3 to displayport, not sure it would work here",
+        "ts": "1480373300.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the pi only has usb 2, so i dont think my adapter would work there",
+        "ts": "1480373417.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like we need this to do it <https:\/\/www.amazon.com\/dp\/B0144NS4Z6\/ref=twister_B01DTQZWOA?_encoding=UTF8&amp;psc=1>",
+        "ts": "1480373540.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and where in the overall process are we?",
+        "ts": "1480373598.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it worked on the other monitor, touch worked using the test boards. We should be able to just hook it up and see it work on the cubby monitor",
+        "ts": "1480373683.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I didnt see any issues with the cubby experience. the board is powerful enough for running a single cubby from what I can see. it wont run the top sweep that choked out on the render of the animations but i expected that. We would use something else for that. But for the cubby itself I didnt see any issue running the experience. But my test also was running on a different monitor, at a different resolution. I would expect that it might get better not worse on the cubby tho, it is a lower resolution that the monitor i ran it on",
+        "ts": "1480373803.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "gotcha and the cable allows you to connect to cubby and test there, eh?",
+        "ts": "1480373857.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its not a cable, its an active converter actually. The issue is the signals are not compatible so cant just use a cable sadly. So the cable we got doesnt work. If we got the active convertor we can plug the cubby directly in, test the whole setup on there directly know that it works properly and we are in business with that type of setup",
+        "ts": "1480374102.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool <@U02E3CRMA> did you demo on peter’s set up on other monitor?",
+        "ts": "1480374154.000022"
+    }
+]

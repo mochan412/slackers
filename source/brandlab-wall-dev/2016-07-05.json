@@ -1,0 +1,520 @@
+[
+    {
+        "user": "U0265G76F",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0265G76F|iamewald> has joined the channel",
+        "ts": "1467737839.000897"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: and <@U02E3CRMA> looks like we can run parallel at some point.  \n\n<@U02E3CRMA>: let us know once you no longer need peter.  Peter wants to jump into Display App stuff which he can do locally.  \n\nI can cue tickets up for once head nodes are plugged in.\n\n<@U02E3CRMA>: just help me understand what we can do today; we can discuss what we SHOULD do vs wait and the impact on schedule",
+        "ts": "1467738010.000898"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: im prioritizing tix that we can work on oce we’re unblocked (head nodes in).  are there any kinds of coe updates you want to stay away from this week for worry of de-stabilizing or are ll bugs, tweaks fair game?",
+        "ts": "1467739927.000899"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not that im aware of right now, but tired brain might be forgetting",
+        "ts": "1467740049.000900"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok please mull on that today Peter.  I’m prioritizing tix now but if there’s anything to template ordering or things we SHOULDN”t do it’d be good to know.\n\nWhat I hope to do, is update a bunch of bodymovin on the cubbies to tweak timing",
+        "ts": "1467740195.000901"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "thats fine",
+        "ts": "1467740240.000902"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "the other thing i hope to stay away from is archteicture changes - like supporting video",
+        "ts": "1467740711.000903"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thats not in the realm i wanna live in",
+        "ts": "1467740719.000904"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yup, and i dont want to visit you there",
+        "ts": "1467741447.000905"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i install IS and our activities on my mac, so i can work on things there. Will start to look at this admin flow thing soon as i get it up and running",
+        "ts": "1467741489.000906"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "smart, thanks",
+        "ts": "1467741610.000907"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "the great jira storm of the day is done.  i can feed you proritized tix (short list) whenever you want.  as you go, i think it most prudent to branch or sandbox your changes so we dont de-stablize app.  we have to have a good build on first fire up of wall or it’s bad news bears",
+        "ts": "1467741678.000908"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep, thats why i work totally locally. do everything here test and be ready before it goes there",
+        "ts": "1467741748.000909"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, i know youre good.  but before you merge in, let’s look at the tix of what you’ve got, tested locally and me, you and joel can decide when\/if to merge.  i think as a rule, we dont merge in until after first wall review.  to that point, im only gonna give you tix of things that DEF wont change",
+        "ts": "1467741874.000910"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah im not screwing with the initial unveil \/ live push and testing. thats been tested thru many times. no 11th hour borking. we dont need to turn “an old friend” into a “dirty stranger\"",
+        "ts": "1467742243.000911"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "peter literally walked away after typing this, befor ei could read.  the real life mic drop if you will.  I LOL",
+        "ts": "1467742295.000912"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "totally intentional",
+        "ts": "1467742441.000913"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "always stay friends. :wink:",
+        "ts": "1467742585.000914"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: since i know you got IS running.  heres the list i hand picked - let me know of any you dont wanan do otherwise comment on the jiras as you plow through em:\n\nBWB-374 Display App - Bugs when closing\nBWB-376 Admin - Auth Error\nBWB-372 Welcome Cubby - Opening Animation: CTA buttons hiccup just a tiny bit\n<https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-279>\nBWB-370 Goodbye Top Sweep - Let's look at how we load the images in\nBWB-362 Goodbye mode: build a job to clean up image folders\nBWB-346 Welcome Top Sweep - No logo version: If no logo uploaded, fall back on stylized text\nBWB-307 Unassigned Cubby - Ensure all line meet ups are clean - IMPLEMENT\nBWB-283 Top Sweep - Workaround Videos Not Looping",
+        "ts": "1467744098.000915"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0ML49XU0",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[July 5th, 2016 11:41 AM] dennishanley: <@U0EL0GLEL>: since i know you got IS running.  heres the list i hand picked - let me know of any you dont wanan do otherwise comment on the jiras as you plow through em:\n\nBWB-374 Display App - Bugs when closing\nBWB-376 Admin - Auth Error\nBWB-372 Welcome Cubby - Opening Animation: CTA buttons hiccup just a tiny bit\n<https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-279>\nBWB-370 Goodbye Top Sweep - Let's look at how we load the images in\nBWB-362 Goodbye mode: build a job to clean up image folders\nBWB-346 Welcome Top Sweep - No logo version: If no logo uploaded, fall back on stylized text\nBWB-307 Unassigned Cubby - Ensure all line meet ups are clean - IMPLEMENT\nBWB-283 Top Sweep - Workaround Videos Not Looping",
+                "ts": "1467744098.000915",
+                "author_subname": "dennishanley",
+                "channel_id": "C0MQJP06A",
+                "channel_name": "brandlab-wall-dev",
+                "is_msg_unfurl": true,
+                "text": "<@U0EL0GLEL>: since i know you got IS running.  heres the list i hand picked - let me know of any you dont wanan do otherwise comment on the jiras as you plow through em:\n\nBWB-374 Display App - Bugs when closing\nBWB-376 Admin - Auth Error\nBWB-372 Welcome Cubby - Opening Animation: CTA buttons hiccup just a tiny bit\n<https:\/\/uncorkedstudios.atlassian.net\/browse\/BWB-279>\nBWB-370 Goodbye Top Sweep - Let's look at how we load the images in\nBWB-362 Goodbye mode: build a job to clean up image folders\nBWB-346 Welcome Top Sweep - No logo version: If no logo uploaded, fall back on stylized text\nBWB-307 Unassigned Cubby - Ensure all line meet ups are clean - IMPLEMENT\nBWB-283 Top Sweep - Workaround Videos Not Looping",
+                "author_name": "Dennis Hanley",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/dennishanley",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-04-18\/35743045558_3d966a553c691fbdd182_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U0ML49XU0|dennishanley> pinned a message to this channel.",
+        "ts": "1467744104.000916"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool finally up and configured enough to do the admin bug",
+        "ts": "1467744836.000917"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "<!here|@here> Reminder to activate windows for 4U headnode (CYBMN-QYWRC-FYFCG-T2W82-V8RC6)",
+        "ts": "1467755206.000918"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Ah ha!  Thank you <@U0H4SJN11>",
+        "ts": "1467755804.000919"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0H4SJN11>: are you driving down here?  we’re waiting on the 1u boxes",
+        "ts": "1467759747.000920",
+        "reactions": [
+            {
+                "name": "scream",
+                "users": [
+                    "U0H4SJN11"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "KIDDDING",
+        "ts": "1467759751.000921"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there we go admin works a lot nicer with that auth stuff, after saving a workshop the data doesnt get lost due to auth keys getting jacked up on the routing and such. i need to look into this expired key thing now, as i can see that is a thing. the key i was using just expired on me and had to get a knew one to test more. think that one should be easy enough",
+        "ts": "1467759751.000922"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "hmm maybe that fixed what i thought was an expired key too, i tried the key i thought was expired and it worked, i will mark that bit as keep an eye on",
+        "ts": "1467760154.000923"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "otherwise that looks like the admin auth flow and people missing from the list and workshops missing is fixed",
+        "ts": "1467760176.000924"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "376",
+        "ts": "1467760180.000925"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i commented on the ticket bro.  resolve it with test criteria once it’s in the build.",
+        "ts": "1467760272.000926"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i can only test locally and its working there, it wont go anywhere else till we have a working setup here. so for now that ticket will sit in that needs final limbo, and we are not pushing into a build till after that magic moment of shit works so it will be a while before we can say “resolved” but it is working and done",
+        "ts": "1467760536.000927",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U0ML49XU0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im moving on to the display app bugs, i think they are fairly minor. and easy to debug",
+        "ts": "1467760561.000928"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thing to keep in mind: when we go back home to our rig - do we need all four ‘top sweep’ monitors? or since we’re running a potion of the full experinece form our shuttle, can i return the dell we bought?",
+        "ts": "1467761490.000929"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you can certainly return it as its expensive and 4k and we could use something cheaper \/ less res. i would have to think the need for a top sweep to test on depends on what we have left to work on, would be bound to the need to see the whole experience at once,ie more creative type things i would think. If we are just doing bug fixes, or something less visual then we wouldnt need that setup. I would think we would be making that call after we return.",
+        "ts": "1467761767.000930"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ah ha, found the display app error",
+        "ts": "1467762373.000931"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "was too agressive on clean up when you kill the display",
+        "ts": "1467762385.000932"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "called a shutdown on the browser component which just turned it all off oops. fixed that to the right flow",
+        "ts": "1467762412.000933"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "works now, no more crashy",
+        "ts": "1467762419.000934"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool; that was a weird one i dind’t even know about because the use-case is weird.  crash on quit.",
+        "ts": "1467762462.000935"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "crash on exit the display and open it again, i knew it was simple. and when we tested usually killed the app anyways because it was all fullscreen and that was easier way to get out of it",
+        "ts": "1467762542.000936"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "fixed anyways",
+        "ts": "1467762581.000937"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "whatcha wanna do next from list?",
+        "ts": "1467762625.000938"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "hmmm going to check in with joel",
+        "ts": "1467762698.000939"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so 370, what it is doing right now is every 3 seconds another photo is added to the display and started moving. this can be adjusted to however many we want to throw up at a time and however long we want to wait between sending them out",
+        "ts": "1467763770.000940"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "right now with it being one at a time, it will throw a few up at a location that is about 500px off the screen and the animations are set at whatever speed etc. so the delay in load and time it takes to get to the screen causes the images to have a different float pattern, if there is say a row of images that is expect to always be fed, like 4 at a time. every 1 second or 2 whatever looks best with the animation css that is being sent through. i will need bryan to tell me what works for his animations",
+        "ts": "1467763902.000941"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "362, Joel was doing this one, I dont know if he finished it or not",
+        "ts": "1467763929.000942"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "307 is just copy the files into the folder on the server and name them as triangle1.json, triangle2.json, triangle3.json, triangle4.json the folder is \/usr\/local\/cubbywall\/node\/resources\/bodyMovin",
+        "ts": "1467764049.000943"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cant do that till the servers are live, but i can check it locally at least to be sure they are good",
+        "ts": "1467764073.000944"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I checked the files and there is the background layer in them. They should be good",
+        "ts": "1467764218.000945"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "[reading]",
+        "ts": "1467764275.000946"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im blocked at getting the display up locally, there are a few brand new config values I had put in there yesterday I need to copy from ugly to get the thing configured properly on my local. So will not be able to test anything on the display till i can get a chance to snag that stuff and update my doc i was tracking it in",
+        "ts": "1467764323.000947"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "279 the code is there in the repo, its ready to use, i seen it work for destin. i just need to implement it",
+        "ts": "1467764352.000948"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "but you’ll be unblocked once joel gets you vnc’d in, right?",
+        "ts": "1467764352.000949"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "possibly, not sure what box he is in, and such, and really i dont need that, i just need access to IS on the box, so when he gets that running I can just snag those from the settings",
+        "ts": "1467764395.000950"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "346 I have a good idea how to resolve this, there is some stuff actually added more recently that would allow that",
+        "ts": "1467764440.000951"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "283  havnt looked into much yet just what i heard from joel is about this not being possible is all i know at this point, need to research it myself see if i spot something more",
+        "ts": "1467764485.000952"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so 283; joel and i concluded that there wenre sufficient events being returned from youtube",
+        "ts": "1467764522.000953"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "however, i dont think we need full video to play; wondering if we could just set a restart job that doesnt need any evets from youtube ubut that we just restart\/replay every 30 seconds?",
+        "ts": "1467764585.000954"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "last i had heard there wasnt aany",
+        "ts": "1467764745.000955"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "having a loop that breaks playback and starts over is bad, that looks very broken",
+        "ts": "1467764779.000956"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "The goal is for continuous play. A hiccups in playback looks like a restart. Video at rest with play icon in center looks broken as well. Ya know?",
+        "ts": "1467764919.000957"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its not a hicup that is a jaring restart if someone is watching",
+        "ts": "1467764935.000958"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im looking into the api, i swear i had seen something about this a while back. but it might have changed its been many years since ive played with the yt iframe player",
+        "ts": "1467765043.000959"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I don’t know if you’re using the iframe player but you can use the iframe player api offers player.getDuration()",
+        "ts": "1467765051.000960"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "and restart after duration at a minimum",
+        "ts": "1467765055.000961"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or check player.getPlayerState(): every 5s and restart only if it’s stopped",
+        "ts": "1467765081.000962"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```-1 – unstarted\n0 – ended\n1 – playing\n2 – paused\n3 – buffering\n5 – video cued\n```",
+        "ts": "1467765097.000963"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "would think using onPlayerStateChange",
+        "ts": "1467765106.000964"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "is best",
+        "ts": "1467765108.000965"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "check for eneded and start over",
+        "ts": "1467765117.000966"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":thumbsup:",
+        "ts": "1467765129.000967"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks straight forward, hopefully that works",
+        "ts": "1467765187.000968"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i like all this",
+        "ts": "1467765572.000969"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Taking a stroll while I make a call. Ping me here if ya need anything. ",
+        "ts": "1467765919.000970"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i dropped in the code for this on a branch, cant test till i get a display working locally. but this should do it",
+        "ts": "1467766280.000971"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "So 346 is really important as well cuz I think a lot of logos James will get wont look awesome. Ya know?",
+        "ts": "1467766831.000972"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "assuming it calls the events correctly",
+        "ts": "1467766835.000973"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "was just looking at 346 i have plans there",
+        "ts": "1467766856.000974"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i have a note out to eyefi RE blocking the pop up however Peter has idea there as well",
+        "ts": "1467770420.000975"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": ":+1::skin-tone-2::+1::skin-tone-2::+1::skin-tone-2:",
+        "ts": "1467770508.000976"
+    }
+]

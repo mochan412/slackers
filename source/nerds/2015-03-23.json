@@ -1,0 +1,155 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":thumbsup:",
+        "ts": "1427123666.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0289USNA> <@U026PT0D7> I just learned there's an ImageOptim plugin for Xcode. <https:\/\/imageoptim.com\/xcode.html>",
+        "ts": "1427128564.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Apparently Xcode can \"undo ImageOptim's savings.\"",
+        "ts": "1427128630.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<https:\/\/www.youtube.com\/watch?v=LKnqECcg6Gw>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "http:\/\/www.youtube.com\/",
+                "title": "Computer Color is Broken",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=LKnqECcg6Gw",
+                "author_name": "minutephysics",
+                "author_link": "http:\/\/www.youtube.com\/user\/minutephysics",
+                "thumb_url": "http:\/\/i.ytimg.com\/vi\/LKnqECcg6Gw\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Computer Color is Broken",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"http:\/\/www.youtube.com\/embed\/LKnqECcg6Gw?feature=oembed\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=LKnqECcg6Gw",
+                "id": 1
+            }
+        ],
+        "ts": "1427140408.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hey <@U02618EV1> <@U0289USNA> happened to visit smallbatch website today for some reason, looks like the wrong minified js file got deployed to production at some point, the beer levels aren't right <http:\/\/www.smallbatchws.com\/>",
+        "attachments": [
+            {
+                "text": "Small Batch Home",
+                "fallback": "Small Batch Home",
+                "from_url": "http:\/\/www.smallbatchws.com\/",
+                "id": 1
+            }
+        ],
+        "ts": "1427150173.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Oh, I fixed something there a couple of weeks back.",
+        "ts": "1427150244.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Don't know if I caused this and missed the error or something else happened.",
+        "ts": "1427150267.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> Would you be able to concat and minify the js and push from your mac?",
+        "ts": "1427150318.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yep. can do it now",
+        "ts": "1427150329.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "we need to make sure the js files compile correctly for the animations to work before we deploy",
+        "ts": "1427150330.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes. In the past I used the get errors on my console. Looks like whatever the thing causing the issue isn't triggering an error anymore. At least on my machine with the what I have installed.",
+        "ts": "1427150427.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> Make sure you pull my changes from BB too.",
+        "ts": "1427150528.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Yep I pulled them! Remember we determined the difference is in how the javascript is getting concatenated\/minified\/uglified\/etc, so messed up animation won't necessarily generate any errors, we need to check for them to be working in the browser(s) before deploying",
+        "ts": "1427150785.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Got it. My bad. I had been months since I worked on that project and I completely forgot about that whole problem.",
+        "ts": "1427150884.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "np. I pulled in your latest commits and updated production and staging",
+        "ts": "1427151640.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thank you.",
+        "ts": "1427151872.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Just a thought... What if on small batch we stopped running uglify. Concat and minify shouldn't cause any technical problem...",
+        "ts": "1427169882.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hmmm. Interesting. Will give that a quick test when I'm back on my Mac.",
+        "ts": "1427171004.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0289USNA> i was considering the same thing today. seems like a way better alternative.",
+        "ts": "1427171205.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "OK, just checked and it doesn't look like uglify is the culprit.",
+        "ts": "1427175756.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "We only uglify the scripts file when we deploy to a server but I just tried running the site locally —without uglify— and still get the same bug. Will look into concat tomorrow.",
+        "ts": "1427175943.000024"
+    }
+]

@@ -1,0 +1,326 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U026PHQ3J>, the only difference I noticed between Kevin's new SVGs and the ones I exported are 1 single digit of difference in the coordinates of the shape.... and the &lt;!DOCTYPE&gt; line.",
+        "ts": "1428426402.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02688JHZ>: I ran some tests with a 2560x2560 wallpaper and did not see issues on any of our test devices. That would be more than wide enough for a parallax effect and would also cover the screen in the weird case where the wallpaper is visible in landscape mode.",
+        "ts": "1428431154.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02HAJ6JF>: <@U02613K0X> what is the base url we should be using right now?",
+        "ts": "1428432395.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it's currently set to tidy-federation",
+        "ts": "1428432426.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah that's what they have for dogfood. are we wanting to switch it over to \"dev\" for internal testing?",
+        "ts": "1428432459.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "no, this build is going to them too, I just wanted to make sure that was still the correct url",
+        "ts": "1428432511.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah it is, unless we want to switch over <@U026PHQ3J>...?",
+        "ts": "1428432539.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Do those share a data store? My only concern is a loss of push",
+        "ts": "1428432777.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "gweb-uncorked and tidy-federation do not share a data store",
+        "ts": "1428432800.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Keep it as is for now then ",
+        "ts": "1428432872.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok, thanks",
+        "ts": "1428432925.000012"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0261PCRQ|kat> uploaded a file: <https:\/\/uncorked.slack.com\/files\/kat\/F049Z4E9G\/glitchvideos.zip|glitchvideos.zip> and commented: doing some tests with trent - applying matrix and textured blocks separately",
+        "file": {
+            "id": "F049Z4E9G",
+            "created": 1428443269,
+            "timestamp": 1428443269,
+            "name": "glitchvideos.zip",
+            "title": "glitchvideos.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0261PCRQ",
+            "editable": false,
+            "size": 24881475,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F049Z4E9G\/glitchvideos.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F049Z4E9G\/download\/glitchvideos.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/kat\/F049Z4E9G\/glitchvideos.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F049Z4E9G-2db4cbceb8",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc049Z4EEJ",
+                "created": 1428443280,
+                "timestamp": 1428443280,
+                "user": "U0261PCRQ",
+                "is_intro": true,
+                "comment": "doing some tests with trent - applying matrix and textured blocks separately"
+            }
+        },
+        "user": "U0261PCRQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "kat",
+        "bot_id": null,
+        "ts": "1428443280.000013"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026E0ZNR|trent> uploaded a file: <https:\/\/uncorked.slack.com\/files\/trent\/F04AP1HUP\/emoji_exports_1.zip|Emoji Exports 1.zip>",
+        "file": {
+            "id": "F04AP1HUP",
+            "created": 1428445095,
+            "timestamp": 1428445095,
+            "name": "Emoji Exports 1.zip",
+            "title": "Emoji Exports 1.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U026E0ZNR",
+            "editable": false,
+            "size": 20014,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04AP1HUP\/emoji_exports_1.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04AP1HUP\/download\/emoji_exports_1.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/trent\/F04AP1HUP\/emoji_exports_1.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F04AP1HUP-17b3821b08",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026E0ZNR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "trent",
+        "bot_id": null,
+        "ts": "1428445096.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey Kat here are the new emojis for the night time aliens.",
+        "ts": "1428445109.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sweet",
+        "ts": "1428445316.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "thanks Trent",
+        "ts": "1428445319.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "did you pick these names?",
+        "ts": "1428445386.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "yes",
+        "ts": "1428445514.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "those are great",
+        "ts": "1428445633.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": ":grin:",
+        "ts": "1428445733.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "hey guys - those tests are cool !",
+        "ts": "1428445862.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "are you looking for client feedback on them? or just reviewing\/sharing internally?",
+        "ts": "1428445880.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I don't think we want to share just yet.",
+        "ts": "1428445934.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "We're using it as reference for what we've discovered in our testing. I'm going to make some more refined textures to implement since we found we can at least mimic the distortion of a real glitch to some extent.... more than we were before with just the blocks of color.",
+        "ts": "1428446016.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "ok, cool.",
+        "ts": "1428446131.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "thanks!",
+        "ts": "1428446132.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cake Like - Lorraine's Car: <https:\/\/youtu.be\/vOUotVM7Mrs>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "http:\/\/www.youtube.com\/",
+                "title": "Cake Like - Lorraine's Car",
+                "title_link": "https:\/\/youtu.be\/vOUotVM7Mrs",
+                "author_name": "vapor1460",
+                "author_link": "http:\/\/www.youtube.com\/user\/vapor1460",
+                "thumb_url": "http:\/\/i.ytimg.com\/vi\/vOUotVM7Mrs\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Cake Like - Lorraine's Car",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"http:\/\/www.youtube.com\/embed\/vOUotVM7Mrs?feature=oembed\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/youtu.be\/vOUotVM7Mrs",
+                "id": 1
+            }
+        ],
+        "ts": "1428450050.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey Kat, I've got a number of texture shaders here to try out. See what you can do with them and let me know when you're at a point where I can take a peak and help fine-tune.",
+        "ts": "1428452630.000030"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026E0ZNR|trent> uploaded a file: <https:\/\/uncorked.slack.com\/files\/trent\/F04A11RLC\/glitch_texture_samples_1.zip|Glitch Texture Samples 1.zip>",
+        "file": {
+            "id": "F04A11RLC",
+            "created": 1428452640,
+            "timestamp": 1428452640,
+            "name": "Glitch Texture Samples 1.zip",
+            "title": "Glitch Texture Samples 1.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U026E0ZNR",
+            "editable": false,
+            "size": 161505,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04A11RLC\/glitch_texture_samples_1.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04A11RLC\/download\/glitch_texture_samples_1.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/trent\/F04A11RLC\/glitch_texture_samples_1.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F04A11RLC-b184e1ec1e",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026E0ZNR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "trent",
+        "bot_id": null,
+        "ts": "1428452642.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I also have no idea how good they will look being tiled, crossing my fingers. :fingerscrossed:",
+        "ts": "1428452667.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Thanks <@U026E0ZNR>, I'll set something up with you tomorrow",
+        "ts": "1428453493.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Great. Sounds good.",
+        "ts": "1428453507.000034"
+    }
+]

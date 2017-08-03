@@ -1,0 +1,836 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "happy monday team! :simple_smile:i’ll be on the road today with pockets of no reception, so wanted to check in and see if ya’ll could provide an update on where we are with 1) the build 2) UI updates for places selector when you’re in and have a sense (so i can try to make myself available if possible)",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1488818945.000000"
+        },
+        "ts": "1488818449.342025"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also reminder <@U3ZFEAPSP>  can you make sure to add the GA tag to the legacy style tile (per our meeting \/ in notes from thurs) and <@U026PHQ3J> when it make sense can you make sure to do a code review for all of these places updates",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1488818519.000000"
+        },
+        "ts": "1488818506.345779"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0260V1BX> if you think we need to send options to adam - please feel free to (and just copy product partners + bonnie) - im happy to do so as well if we need, but dont want to be a bottleneck",
+        "ts": "1488818565.349829"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "anyways - ping if you need me and ill do my best to respond :smiley::wave:",
+        "ts": "1488818586.351274"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":ok_hand:",
+        "ts": "1488819171.391347"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "with the build, I'm fixing the last issue that came up on Friday with selection around the maintained legacy case (the one they had selected at time of the app update). I'll then send out a quick build so that we can confirm those fixes. Then I just have to clean up the commits &amp; merge, I think I should have that by lunch <@U026PHQ3J>, I'll ping you when I've pushed up the remote branch. Also, do you have a good example for what the GA tags should look\/be formatted to go off?",
+        "ts": "1488820280.467672",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we’ve been using the GA tracker manager thing",
+        "ts": "1488820308.469361"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they’re usually pretty lightweight",
+        "ts": "1488820313.469728"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "generator\/action",
+        "ts": "1488820316.469915"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Thanks. So then with like this method, \n'''\npublic static void sendWallpaperSettingsChangeCheckpoint(Context context,\n            Wallpaper wallpaper, int actionStringRes,\n            String labelString) {\n        Tracker t = App.getTracker(context);\n\n        String wallpaperType = WallpaperStyleUtility.getWallpaperTitle(context, wallpaper);\n\n        String category = context.getString(R.string.analytics_category_preferences, wallpaperType);\n\n        HitBuilders.EventBuilder eventBuilder = new HitBuilders.EventBuilder()\n                .setCategory(category)\n                .setAction(context.getString(actionStringRes));\n\n        if (labelString != null) {\n            eventBuilder.setLabel(labelString);\n        }\n\n        t.send(eventBuilder.build());\n    }\n'''\nWould I set the label as a true\/false and then is the  category something I would just make up, like 'isSelectedStyleSameAsCase'?",
+        "ts": "1488820667.492359"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Also <!here|@here>, I'm going to be WFH today, I feel ok enough to code, but will still be hiding under a blanket on the couch",
+        "ts": "1488820784.500189"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lol",
+        "ts": "1488820793.500742"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "get better",
+        "ts": "1488820799.501125"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "thanks",
+        "ts": "1488820821.502728"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "as for the true\/false thing, i think yes",
+        "ts": "1488820871.505807"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its the actionStringRes that you’re looking to make the actual “what happened”",
+        "ts": "1488820888.506905"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "",
+        "bot_id": "B03H06881",
+        "attachments": [
+            {
+                "fallback": "giphy: http:\/\/giphy.com\/gifs\/blanket-kJhZv4xhkup4Q",
+                "image_url": "http:\/\/media4.giphy.com\/media\/kJhZv4xhkup4Q\/giphy-downsized.gif",
+                "image_width": 375,
+                "image_height": 375,
+                "image_bytes": 1957440,
+                "is_animated": true,
+                "title": "blanket fort",
+                "footer": "Posted using \/giphy",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/blanket-kJhZv4xhkup4Q"
+            }
+        ],
+        "ts": "1488821202.526918",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U3ZFEAPSP",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "and we would only want to trigger this the one time when they update, right? I have a place where I read&amp;store the selectedLegacy case the first time they launch with the new update, that should be where I put this? \nso then, let's say their selected style is the same as their physical case:\nThen eventbuilder.setAction(\"isSelectedStyleSameAsCase\")\neventbuilder.setLabel(true)\nThen what category would I use?\neb.setCategory(R.string.analytics_category_case)?",
+        "ts": "1488821239.529242"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the category should be Places",
+        "ts": "1488821315.533963"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "because the event is Places related",
+        "ts": "1488821323.534380"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sounds good",
+        "ts": "1488821836.567353"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey <@U3ZFEAPSP> - we just got style name localizations back so would be great to get those in there for the next build as well ",
+        "ts": "1488826406.875847"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "assigned in JIRA but just let me know if you need anything on that one :+1:",
+        "ts": "1488826446.878542"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F4F1L5YT0\/img_0579.jpg|IMG_0579.jpg>",
+        "file": {
+            "id": "F4F1L5YT0",
+            "created": 1488826470,
+            "timestamp": 1488826470,
+            "name": "IMG_0579.jpg",
+            "title": "IMG_0579.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 357352,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4F1L5YT0\/img_0579.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4F1L5YT0\/download\/img_0579.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4F1L5YT0-a07e479b1e\/img_0579_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4F1L5YT0-a07e479b1e\/img_0579_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4F1L5YT0-a07e479b1e\/img_0579_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 154,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4F1L5YT0-a07e479b1e\/img_0579_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 206,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4F1L5YT0-a07e479b1e\/img_0579_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4F1L5YT0-a07e479b1e\/img_0579_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 308,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4F1L5YT0-a07e479b1e\/img_0579_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 411,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4F1L5YT0-a07e479b1e\/img_0579_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 439,
+            "image_exif_rotation": 1,
+            "original_w": 2710,
+            "original_h": 1161,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F4F1L5YT0\/img_0579.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4F1L5YT0-d547a4a871",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1488826473.880461"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "monday inspiration",
+        "ts": "1488826484.881246"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "AKA: “Time makes fools of us all\"",
+        "ts": "1488826491.881736"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "omg :heart_eyes: ",
+        "ts": "1488826529.884455"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also me:",
+        "ts": "1488826548.885816"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/twitter.com\/pdxalerts\/status\/838824110427783168>",
+        "attachments": [
+            {
+                "fallback": "<https:\/\/twitter.com\/pdxalerts|@pdxalerts>: Update: Honeybucket Transient says that the portapotty is his home &amp; that they can't come in &amp; he won't leave.",
+                "ts": 1488826227,
+                "author_name": "Portland OR Alerts",
+                "author_link": "https:\/\/twitter.com\/pdxalerts\/status\/838824110427783168",
+                "author_icon": "https:\/\/pbs.twimg.com\/profile_images\/838126701934567424\/X_g2hbqX_normal.jpg",
+                "author_subname": "@pdxalerts",
+                "text": "Update: Honeybucket Transient says that the portapotty is his home &amp; that they can't come in &amp; he won't leave.",
+                "service_name": "twitter",
+                "service_url": "https:\/\/twitter.com\/",
+                "from_url": "https:\/\/twitter.com\/pdxalerts\/status\/838824110427783168",
+                "id": 1,
+                "footer": "Twitter",
+                "footer_icon": "https:\/\/a.slack-edge.com\/6e067\/img\/services\/twitter_pixel_snapped_32.png"
+            }
+        ],
+        "ts": "1488826549.885875"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "your office at Arya?",
+        "ts": "1488827266.939074"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> Actually, looking through it, where\/how are those names for the styles even used?",
+        "ts": "1488828911.053589"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "should just be for talk back ",
+        "ts": "1488828954.056343"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "accessibility",
+        "ts": "1488828955.056470"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes and <@U1ZG1UCAK> is a pro if you need help implementing :)",
+        "ts": "1488828979.058189",
+        "reactions": [
+            {
+                "name": "sup",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F4EBX6G10\/screen_shot_2017-03-06_at_11.43.52_am.png|Screen Shot 2017-03-06 at 11.43.52 AM.png> and commented: while i’m working on some slight UI modifications to Places, I thought I’d note that the design intention for the legacy pattern (if different from the user’s case) is to overlay the pattern on the colorway. If we have access to these source assets I can make the new composite ones",
+        "file": {
+            "id": "F4EBX6G10",
+            "created": 1488829506,
+            "timestamp": 1488829506,
+            "name": "Screen Shot 2017-03-06 at 11.43.52 AM.png",
+            "title": "Screen Shot 2017-03-06 at 11.43.52 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 20034,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EBX6G10\/screen_shot_2017-03-06_at_11.43.52_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EBX6G10\/download\/screen_shot_2017-03-06_at_11.43.52_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4EBX6G10-828e8ddfa7\/screen_shot_2017-03-06_at_11.43.52_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4EBX6G10-828e8ddfa7\/screen_shot_2017-03-06_at_11.43.52_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4EBX6G10-828e8ddfa7\/screen_shot_2017-03-06_at_11.43.52_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 81,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4EBX6G10-828e8ddfa7\/screen_shot_2017-03-06_at_11.43.52_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 108,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4EBX6G10-828e8ddfa7\/screen_shot_2017-03-06_at_11.43.52_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 718,
+            "original_h": 162,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F4EBX6G10\/screen_shot_2017-03-06_at_11.43.52_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4EBX6G10-90a4bf4218",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4E9WKWNP",
+                "created": 1488829506,
+                "timestamp": 1488829506,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "while i’m working on some slight UI modifications to Places, I thought I’d note that the design intention for the legacy pattern (if different from the user’s case) is to overlay the pattern on the colorway. If we have access to these source assets I can make the new composite ones"
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1488829508.094623"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Question: do we have localized strings for styles and colorways? The reason I ask is that it looks like those strings are hardcoded in PlacesPreferences, so they need to be localized in order to be accessible when non-English locales &amp; accessibility are used.",
+        "ts": "1488830195.139760"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "please fix any hardcoded strings",
+        "ts": "1488830232.142367"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the legacy ones can stay whatever they are",
+        "ts": "1488830273.145171"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but going forward, i think since we have more control over it, we should be leaning on res",
+        "ts": "1488830283.145845"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U1ZG1UCAK> ^ I was going to check develop for that after I got this commit in there, but that was how the Style.descriptor was implemented, I hadn't seen it get used anywhere for display or talkback but want to run through some of the old style selection stuff I ripped out.",
+        "ts": "1488830392.153171"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m looking at `develop`, but it looks like the Style\/Colorway “descriptor” arg is used for setting the content description. Ref: lines 148-9, 201-2 of PlacesMapStyleActivity.",
+        "ts": "1488830612.167783"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome, I'll track that down to bring over, thanks!",
+        "ts": "1488830652.170490"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "the issue with legacy selected and physical case having the same style but different colors took me a little longer to resolve than I was expecting. I just got that working now, and onto the GA tag and the style names localizations. I'm going get that together and merge and push that up so that <@U026PHQ3J> <@U1ZG1UCAK> <@U2H61EJSG> y'all can start looking over that branch. \nThen I will get those other two things in there after. \n<@U0260V1BX>, I can send you a zip of those two groups to combine here soon. One side note, I noticed the old style &amp; colorways have rounded edges, but the most recent styles we got are squared off, which should we go with?",
+        "ts": "1488833737.364965"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Good stuff! I have one more thought on the map-style chooser re: accessibility. We should add a description to the group as a whole. I can take a look once the branch is ready.",
+        "ts": "1488834098.388730"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "if you want to start looking over the branch, \/origin\/places_maptiles_update\nit has everything minus the new GA tracking, the descriptor code, and some UI styling updates. I'm working on those now",
+        "ts": "1488835885.503733",
+        "reactions": [
+            {
+                "name": "thanks",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4EDXHWKU\/style_color_drawables.zip|Style_color_drawables.zip>",
+        "file": {
+            "id": "F4EDXHWKU",
+            "created": 1488836495,
+            "timestamp": 1488836495,
+            "name": "Style_color_drawables.zip",
+            "title": "Style_color_drawables.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 50075,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EDXHWKU\/style_color_drawables.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EDXHWKU\/download\/style_color_drawables.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4EDXHWKU\/style_color_drawables.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4EDXHWKU-fe4dae6946",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1488836496.544388"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U0260V1BX> ^\nSorry that took a little bit",
+        "ts": "1488836529.546396"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4EDR062X\/places_update-buildfour.apk|places_update-buildFour.apk>",
+        "file": {
+            "id": "F4EDR062X",
+            "created": 1488844514,
+            "timestamp": 1488844514,
+            "name": "places_update-buildFour.apk",
+            "title": "places_update-buildFour.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 34612285,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EDR062X\/places_update-buildfour.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4EDR062X\/download\/places_update-buildfour.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4EDR062X\/places_update-buildfour.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4EDR062X-161ea9150e",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1488844516.965060"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "updated build. Should be much more stable around the legacy styles. Let me know if you find any more issues.\nAlso, ready for review <@U026PHQ3J>, at \/origin\/places_maptiles_update",
+        "ts": "1488844950.983630"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "A few questions and things I'm continuing to add in:\n- Loading spinner on the background wallpaper\n- Auto-scrollTo on the style list  \n- any other UI tweaks?",
+        "ts": "1488845073.988269"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ve been running through this newest build and I’m only seeing one small issue - the dynamic zoom toggle still shows even when match my location is toggled off.",
+        "ts": "1488845176.992225"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "blergh\nLike each time you toggle it the dynamic zoom still shows? Or when you update with match my  location turned off?",
+        "ts": "1488845255.994916"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Turning off match my location initially hides the dynamic zoom toggle, but as soon as you return to the app the dynamic zoom toggle reappears (and is disabled)",
+        "ts": "1488845369.999423"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, I just ran through and am seeing that too. On it. Good find",
+        "ts": "1488845417.000926"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F4DQKQ75E\/uiupdates_6mar2017.pdf|UIUpdates_6Mar2017.pdf> and commented: hey team, i'm working through a few UI update options for Places... i find it confusing that we're not outright that the user's two options are 1) use your case image or 2) match your current location. These updates try and address that a bit better. <@U026PHQ3J> <@U13GPDA1F> i will put these into a deck to share with adam (might just remove A as its only a half-step clearer than what's in there right now). Would love any feedback.",
+        "file": {
+            "id": "F4DQKQ75E",
+            "created": 1488845632,
+            "timestamp": 1488845632,
+            "name": "UIUpdates_6Mar2017.pdf",
+            "title": "UIUpdates_6Mar2017.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 3187079,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DQKQ75E\/uiupdates_6mar2017.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DQKQ75E\/download\/uiupdates_6mar2017.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F4DQKQ75E\/uiupdates_6mar2017.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DQKQ75E-e7eb45f986",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4F6JV8ES",
+                "created": 1488845632,
+                "timestamp": 1488845632,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "hey team, i'm working through a few UI update options for Places... i find it confusing that we're not outright that the user's two options are 1) use your case image or 2) match your current location. These updates try and address that a bit better. <@U026PHQ3J> <@U13GPDA1F> i will put these into a deck to share with adam (might just remove A as its only a half-step clearer than what's in there right now). Would love any feedback."
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1488845632.008887"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Also, we might consider adding some sort of notification to instruct the user to make sure their device is connected to a network. I ran through installing the app while in airplane mode and it causes the following crash: `java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Double com.google.android.apps.workshop.places.configuration.nfc.PlacesNfcData.getLatitude()' on a null object reference`. I doubt that this would be a frequent issue, but still…",
+        "ts": "1488845796.014887"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "We should be able to just handle that, how does the NFC configuration cache get null? I'll put some extra checks in there to ensure nullability is supported, did that happen when you were on the foreground, or as a background request?",
+        "ts": "1488846609.043961"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I honestly doubt a user would ever experience that as you can’t actually install the app until you are connected to a network. However, if a user was to install the app but not run it for the first time until they are on airplane mode then they will encounter that issue.",
+        "ts": "1488846713.047389"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U2H61EJSG> can you explain the issue? If a user were to download the app but then run it for the first time in airplane mode, it would crash? why is that?",
+        "thread_ts": "1488846894.053584",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U2H61EJSG",
+                "ts": "1488848430.106944"
+            },
+            {
+                "user": "U0260V1BX",
+                "ts": "1488848601.114932"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1488846894.053584"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U0260V1BX> \nThose options look great, I think both B &amp; C better communicate user's case style &amp; appearance options.\nQuick questions, For option B, for a first time user, will the use my case image instead be checked initially, and then when they uncheck it will we ask for location permissions?\nAlso, for both B&amp;C, would we still need to show the Fixed Image toggle?",
+        "ts": "1488846925.054700"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "I believe the fixed image toggle is an option regardless of case image vs location preference, no?",
+        "ts": "1488847146.062289"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "I would love to hear Adam’s perspective, on this, but I think the wallpaper is much richer when it does use your location, so my preference would be to have that be the default",
+        "ts": "1488847190.063835"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "agreed. We could set it on by default and make the location permission request right away the first time they launch into it and then fallback to 'use my case image' if they decline it?",
+        "ts": "1488847296.067444"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah that makes sense. where are we surfacing the location permission currently? i’d like to explore making that part of the case onboarding",
+        "ts": "1488847430.071999"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Bonnie wanted it off by default for some reason",
+        "ts": "1488847451.072596"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "We fought it then, but a new ask will likely change it I assume ",
+        "ts": "1488847471.073226"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thats dumb",
+        "ts": "1488847502.074377"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but yeah we just need to make a case for it, hopefully she can be convinced",
+        "ts": "1488847518.075131"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "right now it's triggered the first time Match My Location is toggled on",
+        "ts": "1488847891.087491"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok, i’ll bring that up next time i chat with bonnie\/adam",
+        "ts": "1488847988.090874"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "see what their thoughts are on making it the default",
+        "ts": "1488847998.091276"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0260V1BX> The app can’t successfully download the corresponding case image (or default image if the corresponding case image can’t be found) when the device is not connected to a network. Currently, the ‘Next’ button on the last onboarding screen appears regardless of whether or not the download was successful - so as soon as the user attempts to navigate to the main settings screen, the app crashes as it attempts to read the empty case image data. I think the simple solution would be to not show the ‘Next’ button when the user attempts to activate their case while not connected to the network and display a toast to notify the user to try again once they are connected. Sorry to bring up such a minor issue when there are more important things to fuss about!",
+        "thread_ts": "1488846894.053584",
+        "parent_user_id": "U0260V1BX",
+        "ts": "1488848430.106944"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "don’t apologize! i dont want the user to ever encounter a crash the first time they use the app so i don’t find this to be minor at all!",
+        "thread_ts": "1488846894.053584",
+        "parent_user_id": "U0260V1BX",
+        "ts": "1488848601.114932"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4DSPN925\/places_buildfive.apk|places_buildFive.apk>",
+        "file": {
+            "id": "F4DSPN925",
+            "created": 1488853974,
+            "timestamp": 1488853974,
+            "name": "places_buildFive.apk",
+            "title": "places_buildFive.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 34612914,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DSPN925\/places_buildfive.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DSPN925\/download\/places_buildfive.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4DSPN925\/places_buildfive.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DSPN925-b2e83f7563",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1488853976.276139"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "^ Handles the PlacesNfcConfig being null (from network failure, airplane mode, etc.) no messaging but is at least stable, hides the dynamic zoom at onCreate if user's location is not being used, and auto-scrolls to selected style",
+        "ts": "1488854126.279681"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> *should be an ok build to send over to the Google side pending another test, lookover check.",
+        "ts": "1488854259.282619"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> what's the branch again? I'll try to review tonight",
+        "ts": "1488854356.285066"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "origin\/places_maptiles_update Thanks!",
+        "ts": "1488854393.285920"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thx",
+        "ts": "1488854423.286637"
+    }
+]

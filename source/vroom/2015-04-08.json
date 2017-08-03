@@ -1,0 +1,177 @@
+[
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Scott, do you know \/ remember the nuance in alt vrooms? Are Remix, Count-up called \"Alternates\" or are Photo\/Video Vrooms \"alternates?\" Is this like a Whiskey\/Burbon thing?",
+        "ts": "1428524453.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "*nuance in naming?",
+        "ts": "1428524464.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Alt vrooms should be remix, count-up\/down",
+        "ts": "1428524499.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I dont think photo\/video were considered alt, they their own known types.",
+        "ts": "1428524520.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "alt was anything other than text, photo, video.",
+        "ts": "1428524539.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "as I recall",
+        "ts": "1428524545.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I think photo-capture is an alt vroom.",
+        "ts": "1428524599.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I’m looking at the code",
+        "ts": "1428524614.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I would say anything other than image and video was considered an alt vroom",
+        "ts": "1428524813.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "alt vrooms all defaulted to the same teal background as a standard “text\" vroom",
+        "ts": "1428524856.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "so we've got the Alt suite (count up, down, photo, remix, etc), Photo\/Video, User submitted, and regular",
+        "ts": "1428524927.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "am I missing any?",
+        "ts": "1428524931.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "user submitted isn’t it’s own thing.",
+        "ts": "1428524950.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "technically its a flag on any of the available vroom types",
+        "ts": "1428524964.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "for the record, photo\/video are considered alt vrooms in android",
+        "ts": "1428524995.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "gotcha",
+        "ts": "1428525020.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "image and video are separate individual things though in that an image vroom gets a red background, video gets a purple background and then all the other “alt” vrooms are on teal",
+        "ts": "1428525054.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "gotcha. i'm just trying to figure out how many different designs we need to fully handle a new sequence",
+        "ts": "1428525085.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "gland that User submitted just pushes the content down (on iOS)",
+        "ts": "1428525101.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "*glad",
+        "ts": "1428525106.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "but photo\/vid have different type sizes and shit",
+        "ts": "1428525117.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "AND that pesky, User Submitted, Alternate Vroom...",
+        "ts": "1428525152.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "on iOS at least any vroom type can be user submitted and it adds an extra banner across the top to denote it, just pushing everything else down.",
+        "ts": "1428525190.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "from a CMS perspective - it appears user submitted is ONLY text vrooms and is it’s own discreet vroom type.",
+        "ts": "1428525254.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "here’s the official list…",
+        "ts": "1428525291.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "typedef enum : NSUInteger {\n    VRMVroomTypeUnknown = 0,\n    VRMVroomTypePhotoCapture = 1,\n    VRMVroomTypeVideo = 2,\n    VRMVroomTypeImage = 3,\n    VRMVroomTypeRemix = 4,\n    VRMVroomTypeCountDown = 5,\n    VRMVroomTypeCountUp = 6,\n    VRMVroomTypeUserSubmitted = 7\n} VRMVroomTypeEnum;",
+        "ts": "1428525293.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "so user submitted it not a “flag” as I was just suggesting but a discreet vroom type.",
+        "ts": "1428525359.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "and I am spelling discreet wrong…   discrete not discreet is what I am meaning.",
+        "ts": "1428525424.000032"
+    },
+    {
+        "user": "U04B6F5MV",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U04B6F5MV|daniel.kahn> has joined the channel",
+        "ts": "1428527919.000033"
+    }
+]

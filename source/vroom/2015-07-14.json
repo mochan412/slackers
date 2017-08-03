@@ -1,0 +1,154 @@
+[
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "thanks <@U06DFL7BP>! sorry for the late reply - slack done didn’t ping me. checking it out.",
+        "ts": "1436891058.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cool cool",
+        "ts": "1436891067.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "yo charles, you able to add vroom to my Harvest?",
+        "ts": "1436891824.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "will do",
+        "ts": "1436891833.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "sweet thanks!",
+        "ts": "1436891855.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02AUNA0P>: form field data your way!",
+        "ts": "1436899514.000007"
+    },
+    {
+        "user": "U02AUNA0P",
+        "inviter": "U06DFL7BP",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02AUNA0P|designer> has joined the channel",
+        "ts": "1436899518.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "awesome, thanks man!",
+        "ts": "1436899609.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think I can fix this GooglePlusLoginManager NPE, but I can’t reproduce it in the first place",
+        "ts": "1436908332.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whats the offending block of code",
+        "ts": "1436908508.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "in the onConnected method for GoogleApiClient, we request the id of the current person, but the person is null\nmPersonId = Plus.PeopleApi.getCurrentPerson(mPlusClient).getId();",
+        "ts": "1436908597.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "supposedly it’s a scope issue and we need another plus scope in here\nmPlusClient = new GoogleApiClient.Builder(context)\n                .addConnectionCallbacks(this)\n                .addOnConnectionFailedListener(this)\n                .addApi(Plus.API)\n                .addScope(Plus.SCOPE_PLUS_LOGIN)\n                .build();",
+        "ts": "1436908623.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "that is pretty offensive",
+        "ts": "1436908645.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "however, idk if there’s any other reason for the person to be null. and if the problem is the missing scope, why can’t i reproduce it?",
+        "ts": "1436908649.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "i’ve been testing against develop instead of production, maybe that will reveal something",
+        "ts": "1436908855.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "have you revoked the token in your account on the google console?",
+        "ts": "1436908888.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "no",
+        "ts": "1436908908.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "try it that way, it will return you to bare knowledge of the app's request",
+        "ts": "1436908947.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/security.google.com\/settings\/u\/1\/security\/permissions>",
+        "ts": "1436908954.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think",
+        "ts": "1436908956.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I did make a new account to test",
+        "ts": "1436908967.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "damnit.",
+        "ts": "1436908971.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "When I was doing the Up\/Fit thing I ran into weird OAuth stuff with pre-blessed requests when changing scopes, but that was REST and doesn't really apply here",
+        "ts": "1436909001.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I was wondering how to find this though, so thanks for the link",
+        "ts": "1436909016.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup:",
+        "ts": "1436909044.000026"
+    }
+]

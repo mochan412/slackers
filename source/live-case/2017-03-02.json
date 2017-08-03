@@ -1,0 +1,431 @@
+[
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U026PHQ3J>, when you are back on the internets, what is the status with pointing to their staging server (and having a different auth token for access)? We were thinking of broaching the subject with them so we could more easily go between the environments for future endpoint changes\/rollouts, but wanted to get your insight for context",
+        "ts": "1488478775.895766"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Also, have fun in SF with Peet's",
+        "ts": "1488478798.897195"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4C5L3SPJ\/places_update_with-dynamiczoom.apk|places_update_with-dynamiczoom.apk>",
+        "file": {
+            "id": "F4C5L3SPJ",
+            "created": 1488479694,
+            "timestamp": 1488479694,
+            "name": "places_update_with-dynamiczoom.apk",
+            "title": "places_update_with-dynamiczoom.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 35611581,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4C5L3SPJ\/places_update_with-dynamiczoom.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4C5L3SPJ\/download\/places_update_with-dynamiczoom.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4C5L3SPJ\/places_update_with-dynamiczoom.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4C5L3SPJ-1f4c537b07",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1488479696.964359"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Build from the current branch. \nIt will obnoxiously show the 'Hey! new styles' dialog everytime, just to make looking at it easier so you don't have to clear data every time.\nThe above still has the dynamic zoom and grays out\/disables the style picker above. I'm going to jump over to a new branch and knock out the UI change (and upload that soon) for what we had talked about to get feedback :slightly_smiling_face:",
+        "ts": "1488479741.968320"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4C77V15F\/places-update_nozoom.apk|places-update_noZoom.apk>",
+        "file": {
+            "id": "F4C77V15F",
+            "created": 1488482246,
+            "timestamp": 1488482246,
+            "name": "places-update_noZoom.apk",
+            "title": "places-update_noZoom.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 35610068,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4C77V15F\/places-update_nozoom.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4C77V15F\/download\/places-update_nozoom.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4C77V15F\/places-update_nozoom.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4C77V15F-088d111b31",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1488482249.152738"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "And here is a version where the dynamic zoom cannot be set by the user anymore (the zoom is bound with if the location is being matched or not), and so now the style selection container is animated with the same animation as before.",
+        "ts": "1488482268.154463"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F4D0ZR7D3\/screenshot_20170302-114904.png|notification modal>",
+        "file": {
+            "id": "F4D0ZR7D3",
+            "created": 1488484277,
+            "timestamp": 1488484277,
+            "name": "Screenshot_20170302-114904.png",
+            "title": "notification modal",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 382260,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D0ZR7D3\/screenshot_20170302-114904.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D0ZR7D3\/download\/screenshot_20170302-114904.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4D0ZR7D3-b1261f9dfb\/screenshot_20170302-114904_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4D0ZR7D3-b1261f9dfb\/screenshot_20170302-114904_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4D0ZR7D3-b1261f9dfb\/screenshot_20170302-114904_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4D0ZR7D3-b1261f9dfb\/screenshot_20170302-114904_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4D0ZR7D3-b1261f9dfb\/screenshot_20170302-114904_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4D0ZR7D3-b1261f9dfb\/screenshot_20170302-114904_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4D0ZR7D3-b1261f9dfb\/screenshot_20170302-114904_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4D0ZR7D3-b1261f9dfb\/screenshot_20170302-114904_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4D0ZR7D3\/screenshot_20170302-114904.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4D0ZR7D3-69efb4c748",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1488484276.299466"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F4C71QARE\/screenshot_20170302-114924.png|new places style picker (w\/out dynamic zoom)>",
+        "file": {
+            "id": "F4C71QARE",
+            "created": 1488484306,
+            "timestamp": 1488484306,
+            "name": "Screenshot_20170302-114924.png",
+            "title": "new places style picker (w\/out dynamic zoom)",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 573746,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4C71QARE\/screenshot_20170302-114924.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4C71QARE\/download\/screenshot_20170302-114924.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4C71QARE-a177168261\/screenshot_20170302-114924_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4C71QARE-a177168261\/screenshot_20170302-114924_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4C71QARE-a177168261\/screenshot_20170302-114924_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4C71QARE-a177168261\/screenshot_20170302-114924_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4C71QARE-a177168261\/screenshot_20170302-114924_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4C71QARE-a177168261\/screenshot_20170302-114924_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4C71QARE-a177168261\/screenshot_20170302-114924_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4C71QARE-a177168261\/screenshot_20170302-114924_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4C71QARE\/screenshot_20170302-114924.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4C71QARE-2760b53829",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1488484310.301822"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0260V1BX> if\/when you have a chance - it’d be great to get your eyes on this places update for any redlines from your perspective :point_up_2:",
+        "ts": "1488484328.303063"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "attached screenshots but apk is good to reference if you have time",
+        "ts": "1488484345.304355"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(this doesnt have to be a today thing)",
+        "ts": "1488484356.305040"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also for reference: this is the client approved design (option 3, page 6) <https:\/\/docs.google.com\/presentation\/d\/1iF_2JIJa9_EUpGLiCEm_OGtKfxSVbzuDVjUUEqrtEEk\/edit#slide=id.g1adda0ae18_0_169>",
+        "ts": "1488484376.306494"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> in the meantime, looks like we might need to add a grey line under the style tiles to match the designs",
+        "ts": "1488484421.309841"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill let melissa weigh in on any type or spacing updates",
+        "ts": "1488484444.311473"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "whoops, yep, good catch, just wiped that out when tweaking the layout by accident",
+        "ts": "1488484579.320663"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i’ll take a look this afternoon or tomorrow morning, thanks@",
+        "ts": "1488484632.324096"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "definitely Monday for the rightmost selectedLegacy change. Not too bad, overall otherwise",
+        "ts": "1488491054.751808",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4CU4QKD1\/places-workingstyles.apk|places-workingstyles.apk>",
+        "file": {
+            "id": "F4CU4QKD1",
+            "created": 1488492355,
+            "timestamp": 1488492355,
+            "name": "places-workingstyles.apk",
+            "title": "places-workingstyles.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 35611935,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4CU4QKD1\/places-workingstyles.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4CU4QKD1\/download\/places-workingstyles.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4CU4QKD1\/places-workingstyles.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4CU4QKD1-45677ceed2",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1488492357.839467"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks oliver!",
+        "ts": "1488492369.840144"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F4D3M2TSR\/client_check_in_update.txt|Client check in update>",
+        "file": {
+            "id": "F4D3M2TSR",
+            "created": 1488493408,
+            "timestamp": 1488493408,
+            "name": "Client_check_in_update.txt",
+            "title": "Client check in update",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U13GPDA1F",
+            "editable": true,
+            "size": 1467,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3M2TSR\/client_check_in_update.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D3M2TSR\/download\/client_check_in_update.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4D3M2TSR\/client_check_in_update.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4D3M2TSR-433ff50e12",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4D3M2TSR\/client_check_in_update.txt\/edit",
+            "preview": "Capturing meeting highlights here:\r\n\r\nTL;DR = we’re reviewing UI + updating accordingly. Prod now works so about another day+ of work on dev side (to perserve users previously selected case style + any UI changes). Uncorked to do thorough testing prior to sharing (likely early next week). \r\n\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>Capturing meeting highlights here:<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>TL;DR = we’re reviewing UI + updating accordingly. Prod now works so about another day+ of work on dev side (to perserve users previously selected case style + any UI changes). Uncorked to do thorough testing prior to sharing (likely early next week). <\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 24,
+            "lines_more": 19,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1488493409.903173"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey gang (in particular <@U026PHQ3J>) posted places style notes here - let me know if you have any questions :point_up_2:",
+        "ts": "1488493439.904917"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I expect to have the preserve case style thing done tonight and will post that apk, so everything above should be in there (minus the GA work) so folks can jam on migration testing that tomorrow",
+        "ts": "1488499630.205826"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome ",
+        "ts": "1488501933.292860"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "fyi team I'll be OOO tomorrow + Monday but available (maybe slow to respond) but absolutely available to test - <@U3ZFEAPSP> can you provide steps to test along with your build whenever you are ready ",
+        "ts": "1488502098.298730"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Certainly",
+        "ts": "1488502483.311895"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":+1: ",
+        "ts": "1488502491.312229"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "have a great long weekend <@U13GPDA1F>!!",
+        "ts": "1488503781.355341"
+    }
+]

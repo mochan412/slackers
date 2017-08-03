@@ -1,0 +1,189 @@
+[
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Breaking news: 3 Gear S devices. On my desk. IRL.",
+        "ts": "1416505871.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "OMG",
+        "ts": "1416505925.000003"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "\"my desk\" = a little desk over in the west wing",
+        "ts": "1416505952.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "<@U0260V1BX>: Im not sure if you still want to check it out, but I brought my running watch in today. I think there are probably better options (mine is pretty old), but you're welcome to it. For what it's worth, I'd check out the Garmin Forerunner 620 - it has one of the nicer screens (and better visualizations) in the category",
+        "ts": "1416506131.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "also - this video will give you some info on the startup\/GPS\/tracking sequence",
+        "ts": "1416506330.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "<https:\/\/www.youtube.com\/watch?v=_kYU_tKDJa8#t=25>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "http:\/\/www.youtube.com\/",
+                "title": "Garmin FR620 Satellite Lock with Precaching",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=_kYU_tKDJa8#t=25",
+                "author_name": "DC Rainmaker",
+                "author_link": "http:\/\/www.youtube.com\/user\/dcrainmakerblog",
+                "thumb_url": "http:\/\/i.ytimg.com\/vi\/_kYU_tKDJa8\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Garmin FR620 Satellite Lock with Precaching",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"http:\/\/www.youtube.com\/embed\/_kYU_tKDJa8?start=25&feature=oembed&start=25\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=_kYU_tKDJa8#t=25",
+                "id": 1
+            }
+        ],
+        "ts": "1416506332.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0260V4K1> thanks i would like to take a look at it!",
+        "ts": "1416506937.000011"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "fyi, the Waygo translation app keeps translating most of the screens to \"connect noodles\"",
+        "ts": "1416506959.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "those crazy koreans",
+        "ts": "1416506980.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and their noodles",
+        "ts": "1416506983.000014"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "New translation method: following along with Flossy Carter's unboxing video. <https:\/\/www.youtube.com\/watch?v=Jech_Bvb7E0>",
+        "ts": "1416507397.000015"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Friends, I've grabbed the big conference room for our UX meeting\/party",
+        "ts": "1416511783.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ugh, I am getting that signature invalid error in my tizen IDE when I try to launch apps on the gear s",
+        "ts": "1416514278.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oof. I was worried about that happening",
+        "ts": "1416517918.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I generated a certificate but I'm missing the documentation related to signing certificates for wearables... it's odd how difficult this is (and I wonder why I didn't go through this with the other Gear when I first set up the IDE)",
+        "ts": "1416518135.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I think when the Android build was on there it was subject to the same nonsense",
+        "ts": "1416518205.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "in the developer forums, people are encountering this a lot and it seems to have many different causes, none of which are actually problems with the certificate but problems in Tizen or the IDE",
+        "ts": "1416518934.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think I'm on the right track now... if someone could check <mailto:test@uncorkedstudios.com|test@uncorkedstudios.com>, a certificate should be on the way in a few minutes",
+        "ts": "1416522452.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Silly me, I was using the \"Tizen IDE\" and not \"Tizen for Wearable IDE\", which has all the certificate tools and documentation",
+        "ts": "1416522530.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "In particular I need author.crt and device-profile.xml files from Samsung",
+        "ts": "1416522708.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "FINALLY got it working, I can now install signed apps on the white gear S",
+        "ts": "1416526148.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll need to repeat a request process for the other devices before they can receive installs, whenever you're ready",
+        "ts": "1416526260.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "YES!",
+        "ts": "1416528391.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Sort of",
+        "ts": "1416528394.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Melissa brought one of the black ones and I sent the request, should be coming in to test@",
+        "ts": "1416528410.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It's such a convoluted process, I'm not sure I can even explain it, but I can implement it",
+        "ts": "1416528448.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm about to head out for today, Melissa's black device is all prepared for installs, and I put all the devices+phones in the white drawers under the roll of checker paper",
+        "ts": "1416530828.000031"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Perfect. Thanks!",
+        "ts": "1416531013.000032"
+    }
+]

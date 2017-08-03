@@ -1,0 +1,423 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "here are crushed PNGs, should retain all the detail :simple_smile:",
+        "ts": "1457366809.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0QTA5SLU\/crushed.zip|crushed.zip>",
+        "file": {
+            "id": "F0QTA5SLU",
+            "created": 1457366836,
+            "timestamp": 1457366836,
+            "name": "crushed.zip",
+            "title": "crushed.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 25443558,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0QTA5SLU\/crushed.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0QTA5SLU\/download\/crushed.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0QTA5SLU\/crushed.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0QTA5SLU-12def69eaa",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1457366839.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> when you’re in can we sync on timing of next build? I know we were hoping to look at gallery order today, but want to set Adam’s expectations – can see if a build without that but other fixes in works for today, or if we should wait",
+        "ts": "1457366856.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Did gallery this weekend. I think we have all of the changes he's asking for.",
+        "ts": "1457367040.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "!",
+        "ts": "1457367046.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you are wonderful - let’s sync when we’re both in!",
+        "ts": "1457367062.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "new GA ID:  UA-70645037-2.",
+        "ts": "1457367253.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "including latest preview images, apk is 37.8 MB",
+        "ts": "1457370432.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "making build",
+        "ts": "1457370445.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cool!",
+        "ts": "1457370461.000011"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "and <@U0261PCRQ> this has gallery order changes?",
+        "ts": "1457371540.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yep!",
+        "ts": "1457371566.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cool!",
+        "ts": "1457371578.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ>: do you have access to the remediation portal? Are we ready to close those out?",
+        "ts": "1457373306.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "let me look",
+        "ts": "1457373326.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ll have to check on the lint issue. evans looked into it last, but I should be able to figure out if the two called out have been fixed.",
+        "ts": "1457373395.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "k thanks!",
+        "ts": "1457373402.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the second is in review by Phil? I’m not sure if it’s closed, because I haven’t heard back.",
+        "ts": "1457373426.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I could call it done since we submitted, thoughts?",
+        "ts": "1457373850.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "The lint one? or both?",
+        "ts": "1457373936.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the proguard\/content provider",
+        "ts": "1457373973.000022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "If we’ve submitted I think it’s “fixed”, pending rejection from Phil?",
+        "ts": "1457374130.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok, will mark",
+        "ts": "1457374152.000024"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0R1V5KB7\/nfc_ic_advance_slideshow_selected.png|nfc_ic_advance_slideshow_selected.png>",
+        "file": {
+            "id": "F0R1V5KB7",
+            "created": 1457390255,
+            "timestamp": 1457390255,
+            "name": "nfc_ic_advance_slideshow_selected.png",
+            "title": "nfc_ic_advance_slideshow_selected.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 4032,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0R1V5KB7\/nfc_ic_advance_slideshow_selected.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0R1V5KB7\/download\/nfc_ic_advance_slideshow_selected.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R1V5KB7-2905aee413\/nfc_ic_advance_slideshow_selected_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R1V5KB7-2905aee413\/nfc_ic_advance_slideshow_selected_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R1V5KB7-2905aee413\/nfc_ic_advance_slideshow_selected_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 160,
+            "thumb_360_h": 160,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R1V5KB7-2905aee413\/nfc_ic_advance_slideshow_selected_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 160,
+            "original_h": 160,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0R1V5KB7\/nfc_ic_advance_slideshow_selected.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0R1V5KB7-d21d97748c",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1457390257.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> i’m going to go ahead and make some icons for next photo (cc <@U0GN0A9EV>, we can swap later if there are any issues)",
+        "ts": "1457390257.000026"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0R1X2QMQ\/nfc_ic_advance_slideshow_unselected.png|nfc_ic_advance_slideshow_unselected.png>",
+        "file": {
+            "id": "F0R1X2QMQ",
+            "created": 1457390258,
+            "timestamp": 1457390258,
+            "name": "nfc_ic_advance_slideshow_unselected.png",
+            "title": "nfc_ic_advance_slideshow_unselected.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 3868,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0R1X2QMQ\/nfc_ic_advance_slideshow_unselected.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0R1X2QMQ\/download\/nfc_ic_advance_slideshow_unselected.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R1X2QMQ-d4b862cc77\/nfc_ic_advance_slideshow_unselected_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R1X2QMQ-d4b862cc77\/nfc_ic_advance_slideshow_unselected_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R1X2QMQ-d4b862cc77\/nfc_ic_advance_slideshow_unselected_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 160,
+            "thumb_360_h": 160,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R1X2QMQ-d4b862cc77\/nfc_ic_advance_slideshow_unselected_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 160,
+            "original_h": 160,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0R1X2QMQ\/nfc_ic_advance_slideshow_unselected.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0R1X2QMQ-df46e66c19",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1457390259.000027"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(on the nas as well)",
+        "ts": "1457390283.000028"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0261PCRQ|kat> uploaded a file: <https:\/\/uncorked.slack.com\/files\/kat\/F0R2Q99QX\/screen_shot_2016-03-07_at_4.28.28_pm.png|Screen Shot 2016-03-07 at 4.28.28 PM.png> and commented: It’s weird that the waves are bigger on the tiles for the old colorways than they are on the tiles for the new colorways.",
+        "file": {
+            "id": "F0R2Q99QX",
+            "created": 1457396964,
+            "timestamp": 1457396964,
+            "name": "Screen Shot 2016-03-07 at 4.28.28 PM.png",
+            "title": "Screen Shot 2016-03-07 at 4.28.28 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0261PCRQ",
+            "editable": false,
+            "size": 2468193,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0R2Q99QX\/screen_shot_2016-03-07_at_4.28.28_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0R2Q99QX\/download\/screen_shot_2016-03-07_at_4.28.28_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R2Q99QX-0e14257254\/screen_shot_2016-03-07_at_4.28.28_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R2Q99QX-0e14257254\/screen_shot_2016-03-07_at_4.28.28_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R2Q99QX-0e14257254\/screen_shot_2016-03-07_at_4.28.28_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 222,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R2Q99QX-0e14257254\/screen_shot_2016-03-07_at_4.28.28_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 295,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R2Q99QX-0e14257254\/screen_shot_2016-03-07_at_4.28.28_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R2Q99QX-0e14257254\/screen_shot_2016-03-07_at_4.28.28_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 443,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R2Q99QX-0e14257254\/screen_shot_2016-03-07_at_4.28.28_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 591,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0R2Q99QX-0e14257254\/screen_shot_2016-03-07_at_4.28.28_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 630,
+            "image_exif_rotation": 1,
+            "original_w": 1966,
+            "original_h": 1210,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/kat\/F0R2Q99QX\/screen_shot_2016-03-07_at_4.28.28_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0R2Q99QX-1256c13b31",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0R2Q9QA3",
+                "created": 1457396964,
+                "timestamp": 1457396964,
+                "user": "U0261PCRQ",
+                "is_intro": true,
+                "comment": "It’s weird that the waves are bigger on the tiles for the old colorways than they are on the tiles for the new colorways."
+            }
+        },
+        "user": "U0261PCRQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "kat",
+        "bot_id": null,
+        "ts": "1457396970.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "also, I found a bug where I was showing the wrong previews for the grey colorways :confused: they’re not pink anymore",
+        "ts": "1457397025.000030"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> i think that means they fixed the scale of the wages?",
+        "ts": "1457397126.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but only for the new colorways?",
+        "ts": "1457397157.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "these tiles were retrieved all at the same time",
+        "ts": "1457397174.000033"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "well they maybe only revised it for the new ones, rather than change the old",
+        "ts": "1457397195.000034"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "who knows how their rendering pipeline is",
+        "ts": "1457397203.000035"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "¯\\_(ツ)_\/¯",
+        "ts": "1457397203.000036"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but worth noting",
+        "ts": "1457397204.000037"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "who knows",
+        "ts": "1457397206.000038"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "¯\\_(ツ)_\/¯",
+        "ts": "1457397206.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah weird",
+        "ts": "1457397227.000040"
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "text": "[dexter\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/dexter\/commits\/13675cdb1a9241dec6d4e3ba0a66a0abcd43bbe5|13675cdb1a92>: Hooked up outlet 2. Added progress bar to outlet views.\n - katmitchell",
+        "username": "bitbucket",
+        "bot_id": "B026P8103",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395863254.000002"
+    },
+    {
+        "text": "[dexter\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/dexter\/commits\/aef592ac6ce82d4e561ac7d4eb44de81c259999f|aef592ac6ce8>: added new audio files for news, cafe, white noise\n - sabernar",
+        "username": "bitbucket",
+        "bot_id": "B026P8103",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395869663.000003"
+    },
+    {
+        "text": "[dexter\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/dexter\/commits\/2a70c3b55e0b4ab6d8178c3b4f8e8131e839267c|2a70c3b55e0b>: moods have new musics\n - sabernar",
+        "username": "bitbucket",
+        "bot_id": "B026P8103",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395872061.000004"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/53293422389d6ad1474e0b80|SmartPlug 1 (IP Cam)>\nSmart Plug one is connected to the Vera and controllable by the application. When the state is changed by pressing the button, it shows a spinner while waiting for the state to change. (This is not present yet when switching between moods)",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395877695.000005"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/5329342d11c13e7b4ff03a69|SmartPlug 2 (TV)>\nA second Smart Plug has not been connected to the Vera, however the features should match that of the other smart plug.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395877695.000006"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532934317cabd410666a8fd1|Thermostat>\nThermostat has been connected to Vera and is sending us errors that it is not accepting our requests. (I broke it, but it is easily fixed!)",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395877695.000007"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532935ca11e59d4359cd7812|Mood change = new device settings trigger>\nMost of this has been handled. We still need to show progress on the Outlet views when the mood is activated. Thermostat still needs to be done.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395877695.000008"
+    },
+    {
+        "text": "[dexter\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/dexter\/commits\/2bee86030a60ed6f5fba6a387ae19623a9558355|2bee86030a60>: changed thermostatID\n - sabernar",
+        "username": "bitbucket",
+        "bot_id": "B026P8103",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395879568.000009"
+    },
+    {
+        "text": "Shawn Bernard commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532934317cabd410666a8fd1|Thermostat>\ngson error on line 124 of ZWaveManager:\n\n                response = gson.fromJson(result, Response.class);\n\nstack trace:\n\nerror parsing job request: ERROR: Device does not handle service\/action\n    com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 6\n            at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)\n            at com.google.gson.Gson.fromJson(Gson.java:795)\n            at com.google.gson.Gson.fromJson(Gson.java:761)\n            at com.google.gson.Gson.fromJson(Gson.java:710)\n            at com.google.gson.Gson.fromJson(Gson.java:682)\n            at com.uncorkedstudios.lumen.zwave.ZWaveManager$ZWaveRunnable.run(ZWaveManager.java:124)\n            at java.lang.Thread.run(Thread.java:841)",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395879782.000010"
+    },
+    {
+        "text": "[dexter\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/dexter\/commits\/c80238791b51d1bb63218e390a732d237a18037c|c80238791b51>: stopped thermostat from crashing. thermostat receives updates, but local ui is not updated.\n - katmitchell",
+        "username": "bitbucket",
+        "bot_id": "B026P8103",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395885832.000011"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532934317cabd410666a8fd1|Thermostat>\nFixed crash. Buttons update thermostat, but not local UI.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395886140.000012"
+    }
+]

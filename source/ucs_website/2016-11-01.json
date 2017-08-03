@@ -1,0 +1,197 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Are we aware that links without \"www\" that aren't the homepage appear to all be redirecting to the home page?",
+        "ts": "1478020469.000547"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<http:\/\/uncorkedstudios.com\/blog\/the-life-aquatic-with-uncorked-exploring-the-opportunities-and-impact-of-3d-printed-coral-reefs>",
+        "attachments": [
+            {
+                "title": "The Life Aquatic with Uncorked:  Exploring the Opportunities and Impact of 3D Printed Coral Reefs | Uncorked Studios",
+                "title_link": "http:\/\/www.uncorkedstudios.com\/blog\/the-life-aquatic-with-uncorked-exploring-the-opportunities-and-impact-of-3d-printed-coral-reefs",
+                "text": "In the past, we’ve delved into the problem of overfishing and its potentially devastating effects on the world’s food supply. We’ve also discussed scuba diving and underwater photography at length. Most recently though we’ve become a bit preoccupied with the crucial component of all of these things: coral reefs.",
+                "fallback": "The Life Aquatic with Uncorked:  Exploring the Opportunities and Impact of 3D Printed Coral Reefs | Uncorked Studios",
+                "thumb_url": "https:\/\/d2kcp7sphn19u0.cloudfront.net\/8918730ece11e9cc\/reef-0-mdpi.jpeg",
+                "from_url": "http:\/\/www.uncorkedstudios.com\/blog\/the-life-aquatic-with-uncorked-exploring-the-opportunities-and-impact-of-3d-printed-coral-reefs",
+                "thumb_width": 1600,
+                "thumb_height": 1000,
+                "service_icon": "http:\/\/www.uncorkedstudios.com\/favicon.ico",
+                "service_name": "uncorkedstudios.com",
+                "id": 1
+            }
+        ],
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1478020514.000000"
+        },
+        "ts": "1478020489.000548"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I believe Megan brought this up a week or so ago",
+        "ts": "1478020547.000553"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ok cool, I thought I'd seen it mentioned",
+        "ts": "1478020578.000554"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Also this:  <https:\/\/uncorkedstudios.com\/>",
+        "ts": "1478020582.000555"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yes that is a known issue",
+        "ts": "1478020592.000556"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "https on the base url won’t work until we move off of heroku",
+        "ts": "1478020635.000557"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "where did you get the above link from <@U02613K0X>?",
+        "ts": "1478020667.000558"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I was just trying to access our site on https",
+        "ts": "1478020692.000559"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so that blog link is something you were just messing around with?",
+        "ts": "1478020757.000560"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "not something you found out in the wild?",
+        "edited": {
+            "user": "U167FL70V",
+            "ts": "1478020765.000000"
+        },
+        "ts": "1478020762.000561"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh the blog link",
+        "ts": "1478020772.000563"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I noticed it yesterday afternoon while doing something, let me see if I can find",
+        "ts": "1478020807.000564"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Hmm, also looks like our latest instagram post isn’t populating on the home page of the site",
+        "ts": "1478020884.000565"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U167FL70V> it was an old link to my angular post",
+        "ts": "1478021047.000566"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "And this is gonna sound weird and silly, but I think something is up with our SEO for everything that's not <http:\/\/www.uncorkedstudios.com|www.uncorkedstudios.com>",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1478021067.000000"
+        },
+        "ts": "1478021061.000567"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "where was the link <@U02613K0X>?",
+        "ts": "1478021121.000569"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<http:\/\/stackoverflow.com\/questions\/21015891\/spring-mvc-angularjs-file-upload-org-apache-commons-fileupload-fileuploade\/22090161#22090161>",
+        "attachments": [
+            {
+                "title": "Spring MVC - AngularJS - File Upload - org.apache.commons.fileupload.FileUploadException",
+                "title_link": "http:\/\/stackoverflow.com\/questions\/21015891\/spring-mvc-angularjs-file-upload-org-apache-commons-fileupload-fileuploade\/22090161#22090161",
+                "text": "I have a Java Spring MVC Web application as server. And AngularJS based application as <http:\/\/client.In|client.In> AngularJS, I have to upload a file and send to server.Here is my html&lt;form ng-submit=\"uploa...",
+                "fallback": "Spring MVC - AngularJS - File Upload - org.apache.commons.fileupload.FileUploadException",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/apple-touch-icon@2.png?v=73d79a89bded&a",
+                "from_url": "http:\/\/stackoverflow.com\/questions\/21015891\/spring-mvc-angularjs-file-upload-org-apache-commons-fileupload-fileuploade\/22090161#22090161",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "http:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/favicon.ico?v=4f32ecc8f43d",
+                "service_name": "stackoverflow.com",
+                "id": 1
+            }
+        ],
+        "ts": "1478021144.000570"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I promise I do things other than google myself",
+        "ts": "1478021158.000572",
+        "reactions": [
+            {
+                "name": "face_with_rolling_eyes",
+                "users": [
+                    "U026PHQ3J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "haha",
+        "ts": "1478021175.000573"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "well i don’t want to worry too much about old links out in the wild right now but it is good to know about",
+        "ts": "1478021189.000574"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "we are making changes to the overall architecture that should address these redirect issues",
+        "ts": "1478021201.000575"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "(well it will allow us to change the hosting which will fix redirect)",
+        "ts": "1478021217.000576"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Looks like that blog post also doesn't come up in google search results anymore, just <http:\/\/www.uncorkedstudios.com|www.uncorkedstudios.com>, probably just something to do with the redirect issue. And yeah, not a priority, just something I noticed",
+        "ts": "1478021582.000577"
+    }
+]

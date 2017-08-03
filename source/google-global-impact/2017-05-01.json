@@ -1,0 +1,1327 @@
+[
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "just a reminder we’re still set to do the final data migration (if there is any) and put up the redirect on our GAE instance today at 1pm <@U0EL0GLEL> <@U2670DYLE> — is one of you available to push it through?",
+        "ts": "1493660226.088803"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i think they want to do it exactly at 1 — so we can all be on hangouts together in case anything comes up",
+        "ts": "1493660250.096106"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'm free to migrate the traffic to the redirect.",
+        "ts": "1493660258.098201"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "awesome thanks!",
+        "ts": "1493660312.114616"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U2670DYLE> can you validate the data as well\/migrate if necessary?",
+        "ts": "1493665875.850505"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "sure thing. I'm taking mysqldumps right now of net-contributor and net-contributor-prod. I'll verify in the CMS that the latest and greatest are showing up.",
+        "ts": "1493665933.867983"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": ":thumbsup: awesome!!",
+        "ts": "1493665958.875339"
+    },
+    {
+        "user": "U0ML49XU0",
+        "text": "<@U0ML49XU0|dennishanley> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1493667154.221403"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I cutover. The migrations msg is up here: <https:\/\/net-contributor.appspot.com\/>",
+        "ts": "1493668939.744183"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "sweet!",
+        "ts": "1493668949.747063"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Also, I verified the data migration. The last edit shows up in the cms....",
+        "ts": "1493668959.750053"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "still crickets on hangouts…",
+        "ts": "1493668959.750124"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "here: <https:\/\/net-contributor-prod.appspot.com\/admin\/projects\/229>",
+        "ts": "1493668969.753549"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks a ton john! i’ll close the loop via email",
+        "ts": "1493668999.762487"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": ":+1:",
+        "ts": "1493669009.765455"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Jose is checking the migration right now",
+        "ts": "1493670910.322446"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "jose is asking if we migrated the bucket storage as well. some links are still pointing back to UCS",
+        "ts": "1493671250.420547"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<@U2670DYLE> <@U0EL0GLEL>",
+        "ts": "1493671276.428728"
+    },
+    {
+        "user": "U0XJFPSRL",
+        "text": "<@U0XJFPSRL|elisecramer> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1493671306.436999"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the links would be in the database data, someone would need to go in and manually change the links to the new bucket",
+        "ts": "1493671317.440072"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "If the files have been copied to the new database, it would be very easy to dump that table to an sql file, do a find replace on the url and then truncate and repopulate the table from the fixed data",
+        "ts": "1493671360.452337"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "how much of an effort do you think this would be?",
+        "ts": "1493671410.467589"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "45mins or so probably",
+        "ts": "1493671571.514091"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "looks like Jose is going to attempt to make the chance",
+        "ts": "1493671776.573076"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "(btw this is all via hangouts right now)",
+        "ts": "1493671784.575626"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool should be very straight forward and simple",
+        "ts": "1493671796.578913"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "```Also the configuration of the CMS and API needs to change to point to the right place.```",
+        "ts": "1493671801.580417"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "^ not sure what this means exactly",
+        "ts": "1493671812.583838"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "where did this come from?",
+        "ts": "1493672027.645411"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "from jose",
+        "ts": "1493672035.647903"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "hangouts",
+        "ts": "1493672041.649670"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the cms and api would have been configured in the yaml in their deploy, that is on them to configure",
+        "ts": "1493672078.660129"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "do you think you could respond to the hangout?",
+        "ts": "1493672133.676012"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "maybe he is saying that if it is like this in the data, then the same is true for CMS -&gt; api",
+        "ts": "1493672166.685415"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not seeing any hangout",
+        "ts": "1493672336.735055"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<https:\/\/hangouts.google.com\/group\/Ukw52SStRoDuvMCV2>",
+        "attachments": [
+            {
+                "title": "Google Hangouts",
+                "title_link": "https:\/\/hangouts.google.com\/group\/Ukw52SStRoDuvMCV2",
+                "text": "Click to join the conversation.",
+                "fallback": "Google Hangouts",
+                "thumb_url": "https:\/\/www.gstatic.com\/images\/icons\/material\/product\/2x\/hangouts_64dp.png",
+                "from_url": "https:\/\/hangouts.google.com\/group\/Ukw52SStRoDuvMCV2",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "service_icon": "https:\/\/hangouts.google.com\/favicon.ico",
+                "service_name": "hangouts.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1493672365.743667"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "i see your name on the list of people in the hangout",
+        "ts": "1493672400.754035"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "strange, didnt show up on my active list",
+        "ts": "1493672510.788093"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "dont worry about responding just yet and let's wait until jose asks for help",
+        "ts": "1493672585.810147"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Sounds like he has it under control",
+        "ts": "1493672595.813115"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "looks like you got this handled, i will be offline for the next hour while I go to urgent care to get my back looked at",
+        "ts": "1493673031.932253"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "i will be back online in a bit",
+        "ts": "1493673038.934095"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "Feel better <@U0K8ZSHN0>",
+        "ts": "1493673099.950208"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Damn, hopefully they can give you something, when my back was out they gave me muscle relaxer and ibuprophen. did seem to help some tho. Back pain is no joke, hope it calms down",
+        "ts": "1493673336.013342"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U0EL0GLEL> not sure if you’re in the hangout still - did you see jose’s latest?",
+        "ts": "1493677092.881320"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah looking at that",
+        "ts": "1493677107.884036"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the settings look right, not sure why it isnt working at first glance",
+        "ts": "1493677121.886826"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "cool thanks :slightly_smiling_face:",
+        "ts": "1493677135.889448"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "didn’t we have to do something on our end to get access to db?",
+        "ts": "1493677174.896361"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "we had to whitelist our office ip right?",
+        "ts": "1493677195.900641"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "im back to following along",
+        "ts": "1493677221.905740"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that was just for direct access to the database",
+        "ts": "1493677226.906642"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "thanks for kind words",
+        "ts": "1493677226.906659"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the deployed site would already have open access",
+        "edited": {
+            "user": "U0EL0GLEL",
+            "ts": "1493677260.000000"
+        },
+        "ts": "1493677243.909995"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "hmm",
+        "ts": "1493677251.911648"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah im able to directly access it from my computer due to the whitelist. It says all apps are authorized too",
+        "ts": "1493677375.935146"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i see the 502 errors as well",
+        "ts": "1493677444.948079"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks for digging in peter, my ability to troubleshoot is somewhat limited due to context and access issues but let me know if i can help at all",
+        "ts": "1493677720.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it definitely is a database connection error",
+        "ts": "1493677841.023045"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "causing the 502",
+        "ts": "1493677846.023858"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not sure why tho",
+        "ts": "1493677851.024793"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "how did you determine that?",
+        "ts": "1493677869.028015"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "logs make it look like there’s an error coming back from oauth",
+        "ts": "1493678014.054646"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "logs",
+        "ts": "1493678021.056029"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they complain about not being able to parse the return query, ive seen this before when the query comes back null",
+        "ts": "1493678046.060410"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "nice, spelling mistake",
+        "ts": "1493678047.060574"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah ha, easy to do",
+        "ts": "1493678055.061847"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "i love easy to fix problems",
+        "ts": "1493678072.064680"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "still seeing bad gateway",
+        "ts": "1493678774.187021"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "havnt got any confirmation of the deploy completion yet, it does take like 15 mins to do",
+        "ts": "1493679088.241034"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not sure what he is talking about, no idea where that user came from",
+        "ts": "1493679441.299920"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "database user is netcontrib",
+        "ts": "1493679446.300824"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i was just gonna say",
+        "ts": "1493679447.300910"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "oh that’s clientID not mysql user",
+        "ts": "1493679555.319040"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U0EL0GLEL> where would we see confirmation of deploy completion?",
+        "ts": "1493679741.352944"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "and\/or where are you waiting to see that?",
+        "ts": "1493679748.354101"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I was just waiting for jose to say it was",
+        "ts": "1493679773.358197"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if he made a change he had to deploy to see it",
+        "ts": "1493679783.359845"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ooh ok",
+        "ts": "1493679794.361571"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the yaml looks right to me, i checked the oauth keys against the console panel and they look right",
+        "ts": "1493679810.364126"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "do we have to redeploy after yaml updates?",
+        "ts": "1493679826.366804"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "that would have been the latest deploy at 3:39 right?",
+        "ts": "1493679838.368634"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this is the logged error",
+        "ts": "1493679870.373782"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "textPayload: \"2017-05-01T21:53:13.042690Z 321903 [Note] Aborted connection 321903 to db: 'netcontributor' user: 'netcontrib' host: 'cloudsqlproxy~104.154.167.139' (Got an error reading communication packets)\"   \n insertId: \"s=93cd8e81e1724089a42ed660bd537c84;i=b6129;b=76bb732a126c41c398160e6a4948e4e8;m=28340f9a1f2;t=54e7d73220510;x=901c5009ac2ec4b3@a4\"   \n resource: {…}   \n timestamp: \"2017-05-01T21:53:13.044231Z\"   \n severity: \"ERROR\"   \n logName: \"projects\/net-contributor-prod\/logs\/cloudsql.googleapis.com%2Fmysql.err\"   \n}",
+        "ts": "1493679871.373929"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ive never seen this before I dont know",
+        "ts": "1493679878.375078"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im on the server now directly connected, looked at the server connections it does show that the cloudproxy had made some connections",
+        "ts": "1493679977.391647"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "that log shows db still as `netcontrib` not `net-contrib`",
+        "ts": "1493679979.392029"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I wonder if we just restart the database and see if that clears it up, that is very quick to try",
+        "ts": "1493679993.394077"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i say go for it!",
+        "ts": "1493680028.400067"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "hmm maybe it is without a dash, its strange it lists it as a dash in the console. but when i connected to the database server in the sqlpro app i see it listed without a dash",
+        "ts": "1493680125.416050"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ummm",
+        "ts": "1493680188.426194"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh i see the confusion, the instance name has a dash the database name doesnt",
+        "ts": "1493680207.429372"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok",
+        "ts": "1493680226.432371"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so he needs to change the name back and re-deploy right?",
+        "ts": "1493680240.434472"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah change it back",
+        "ts": "1493680384.457715"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but im not convinced that the restart wasnt warranted tho",
+        "ts": "1493680395.459505"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "will see if that helped if he can switch that back",
+        "ts": "1493680441.466841"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "where do you access the logs?",
+        "ts": "1493680444.467386"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not sure what that error was exactly",
+        "ts": "1493680448.467953"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<https:\/\/console.cloud.google.com\/logs\/viewer?expandAll=false&amp;resource=cloudsql_database%2Fdatabase_id%2Fnet-contributor-prod%253Anet-contributor&amp;logName=projects%2Fnet-contributor-prod%2Flogs%2Fcloudsql.googleapis.com%252Fmysql.err&amp;project=net-contributor-prod&amp;minLogLevel=0&amp;timestamp=2017-05-01T23:08:46.297166000Z>",
+        "attachments": [
+            {
+                "title": "Google Cloud Platform",
+                "title_link": "https:\/\/console.cloud.google.com\/logs\/viewer?expandAll=false&resource=cloudsql_database%2Fdatabase_id%2Fnet-contributor-prod%253Anet-contributor&logName=projects%2Fnet-contributor-prod%2Flogs%2Fcloudsql.googleapis.com%252Fmysql.err&project=net-contributor-prod&minLogLevel=0&timestamp=2017-05-01T23:08:46.297166000Z",
+                "text": "Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google.",
+                "fallback": "Google Cloud Platform",
+                "from_url": "https:\/\/console.cloud.google.com\/logs\/viewer?expandAll=false&resource=cloudsql_database%2Fdatabase_id%2Fnet-contributor-prod%253Anet-contributor&logName=projects%2Fnet-contributor-prod%2Flogs%2Fcloudsql.googleapis.com%252Fmysql.err&project=net-contributor-prod&minLogLevel=0&timestamp=2017-05-01T23:08:46.297166000Z",
+                "service_icon": "https:\/\/accounts.google.com\/favicon.ico",
+                "service_name": "accounts.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1493680455.469128",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U0K8ZSHN0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "no dash Jose!",
+        "ts": "1493681004.555998"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "no-dash-jose",
+        "ts": "1493681014.557474"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "folks, this is why taxonomies are an important UX deliverable",
+        "ts": "1493681084.568159"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<https:\/\/twitter.com\/secretGeek\/status\/7269997868>",
+        "attachments": [
+            {
+                "fallback": "<https:\/\/twitter.com\/secretGeek|@secretGeek>: There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.",
+                "ts": 1262355613,
+                "author_name": "Leon Bambrick",
+                "author_link": "https:\/\/twitter.com\/secretGeek\/status\/7269997868",
+                "author_icon": "https:\/\/pbs.twimg.com\/profile_images\/596514259447615489\/_5n4V6s7_normal.png",
+                "author_subname": "@secretGeek",
+                "text": "There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.",
+                "service_name": "twitter",
+                "service_url": "https:\/\/twitter.com\/",
+                "from_url": "https:\/\/twitter.com\/secretGeek\/status\/7269997868",
+                "id": 1,
+                "footer": "Twitter",
+                "footer_icon": "https:\/\/a.slack-edge.com\/6e067\/img\/services\/twitter_pixel_snapped_32.png"
+            }
+        ],
+        "ts": "1493681194.584878"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "redeploy looks good but still 502'ing",
+        "ts": "1493681790.678242"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "oh wait nm",
+        "ts": "1493681802.680172"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "he hasn’t redirected traffic to it",
+        "ts": "1493681808.680978"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "this console interface is terrible",
+        "ts": "1493681820.682837"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah its very confusing sometimes",
+        "ts": "1493681893.693969"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "still 502 nginx errors",
+        "ts": "1493682617.802103"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U2670DYLE> do you remember if you were able to navigate to any of the pages aside from \/home after the data migration earlier today?",
+        "ts": "1493682665.809420"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "(on the prod instance)",
+        "ts": "1493682685.812598"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "at 1pm, I was able to navigate to the link I shared here:  <https:\/\/net-contributor-prod.appspot.com\/admin\/projects\/229>",
+        "ts": "1493682767.824685"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "now, I'm getting a 502",
+        "ts": "1493682773.825603"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok that’s super helpful info. so it must be some change Jose made then",
+        "ts": "1493682787.827777"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "hmm so it seems like we will have to get back on debug again with them tomorrow",
+        "ts": "1493683059.868020"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "is there any way for us to do that more effectively?",
+        "edited": {
+            "user": "U167FL70V",
+            "ts": "1493683173.000000"
+        },
+        "ts": "1493683068.869483"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "idk but this async hangouts chat is kind of hard to follow along with",
+        "ts": "1493683086.872111"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "especially not knowing the changes Jose has made",
+        "ts": "1493683095.873422"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not really sure, i am curious what changes he made tho and why, if we were able to hit the pages earlier why were there changes made?",
+        "ts": "1493683198.888587"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "so I noticed the IP address changed to the db? I'm assuming that needs to change in the config?",
+        "ts": "1493683245.896877"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "as far as i can tell he went through and was trying to update the .yaml file",
+        "ts": "1493683259.899070"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "which is what we told him to do in the deployment guide",
+        "ts": "1493683279.902513"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "good point about db IP <@U2670DYLE> i’ll see if i can verify what he’s using",
+        "ts": "1493683307.906853"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "where does that live in the config? is it part of app.yaml?",
+        "ts": "1493683338.911754"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "shouldnt need to change the ip, the app talks to the database via the localhost proxy",
+        "ts": "1493683353.913880"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and you dont specify the ip anywhere anyways",
+        "ts": "1493683373.917286"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok thx peter",
+        "ts": "1493683387.919218"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "what about the key file? it looks like he moved the dir location of it, do you think that could cause any issues?",
+        "ts": "1493683433.925840"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "like maybe it didn’t get fully checked in?",
+        "ts": "1493683455.929270"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "he said the key file that was checked in was for our server",
+        "ts": "1493683473.931847"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "he would need the one for theirs",
+        "ts": "1493683477.932450"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I didnt set that up, not sure who did, and not sure if that file was checked in",
+        "ts": "1493683489.934394"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "he did say he created a new one",
+        "ts": "1493683499.935894"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "which should work as far as i know",
+        "ts": "1493683504.936717"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yes i’m just referring to his *reference* of where the key file is",
+        "ts": "1493683512.937967"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Oh wait, if he created a new one he would need to give it permissions to the database upon its creation",
+        "ts": "1493683525.940126"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "AH",
+        "ts": "1493683531.940981"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you cant change it after you create it",
+        "ts": "1493683533.941230"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this is an issue joel ran into",
+        "ts": "1493683540.942160"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "he created a key file when setting up one of the env and didnt give it database access",
+        "ts": "1493683557.944912"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and then we were both like WTF why doesnt it work",
+        "ts": "1493683565.946239"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "just like this ha",
+        "ts": "1493683570.946884"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "now i remember",
+        "ts": "1493683573.947314"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I bet he might have done the same",
+        "ts": "1493683580.948366"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "it’s something!",
+        "ts": "1493683617.953717"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it feels like that someone missed that step. So what jose should try is to remove that service account user, and make a new one and make sure to add the database permissions and set that key file and the user in the yaml. and try that",
+        "ts": "1493683740.971112"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "sure seems legit. can you clarify where the database permissions get added?",
+        "ts": "1493683802.979960"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "do they literally get added to the file?",
+        "ts": "1493683809.980867"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "or is there a different step?",
+        "ts": "1493683818.982061"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "also yeah i see nothing about that step in the deploy instructions",
+        "ts": "1493683912.994775"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "or maybe im remembering it wrong, there seems like there was a place you had to assign permissions",
+        "ts": "1493683928.997138"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and couldnt change after you made it",
+        "ts": "1493683936.998263"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im checking",
+        "ts": "1493683939.998488"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "hmm, not seeing it, we will need to ask joel what that was",
+        "ts": "1493683997.006603"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i cant remember. But i swear there was something and it caused an issue just like this",
+        "ts": "1493684016.009017"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "hmm",
+        "ts": "1493684092.019697"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh maybe that was it, its \"Service Accounts\" its the account level not the user level, you assign permissions to the account on creation not the user",
+        "ts": "1493684125.024504"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there doesnt appear to be a way to see the current permissions",
+        "ts": "1493684143.026947"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "what do you mean by service account user?",
+        "ts": "1493684237.040197"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they appear to have 2 of them, \"net-contributor\" and \"net-contributor-owner\" not sure why there is 2, there is only 1 on dev",
+        "ts": "1493684250.041748"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<https:\/\/console.cloud.google.com\/iam-admin\/serviceaccounts\/project?project=net-contributor-prod>",
+        "attachments": [
+            {
+                "title": "Google Cloud Platform",
+                "title_link": "https:\/\/console.cloud.google.com\/iam-admin\/serviceaccounts\/project?project=net-contributor-prod",
+                "text": "Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google.",
+                "fallback": "Google Cloud Platform",
+                "from_url": "https:\/\/console.cloud.google.com\/iam-admin\/serviceaccounts\/project?project=net-contributor-prod",
+                "service_icon": "https:\/\/accounts.google.com\/favicon.ico",
+                "service_name": "accounts.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1493684266.044142"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok yea that’s what i’m looking at as well just wanted to be sure",
+        "ts": "1493684280.046081"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I mean key not user",
+        "ts": "1493684287.046962"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "there are two net-contributor service accounts also",
+        "ts": "1493684304.049196"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "not sure but could that mess a thing up?",
+        "ts": "1493684313.050365"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not sure, im not super familiar with how it works",
+        "ts": "1493684359.056484"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i kinda doubt it would mess with it tho",
+        "ts": "1493684370.057800"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yea me either…",
+        "ts": "1493684372.058013"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but the permissions thing that would certainly do it",
+        "ts": "1493684381.059257"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if the service account didnt have that",
+        "ts": "1493684387.060026"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no way to check tho",
+        "ts": "1493684394.060884"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "other than kill the current one and the keys, add a new one with the permissions set right and then generate a key and specify in the yaml and redeploy",
+        "ts": "1493684419.064186"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it really does sound like this might be it",
+        "ts": "1493684443.067242"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U2670DYLE> sorry to ask again but could you switch traffic from the redirect instance?",
+        "ts": "1493684451.068279"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "we’re gong to let them use that until we can get prod *fully* working",
+        "ts": "1493684465.070451"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "sure thing. I can switch it back to the previous build.",
+        "ts": "1493684493.073855"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks!",
+        "ts": "1493684499.074423"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U0EL0GLEL> can you and <@U0K8ZSHN0> maybe hang out tomorrow and troubleshoot?",
+        "ts": "1493684515.076680"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i’ll be in around 10 (got a coffee meeting at 9)",
+        "ts": "1493684533.078910"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looking at the setup doc, it does say \"Select the Project -&gt; Owner role for the account.\" im not sure if that is enough of you have to select owner on the sql also. I cant remember what i did, as it was at the begining of the project when i last touched that",
+        "ts": "1493684574.084056"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<@U167FL70V> traffic has been cut over to previous build.",
+        "ts": "1493684577.084393"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it might have just been a missed step",
+        "ts": "1493684585.085397"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": ":ok_hand: thanks much",
+        "ts": "1493684586.085529"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "okay so <@U0EL0GLEL> can you be around tomorrow a.m.?",
+        "ts": "1493684604.087682"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure we can look into this more tomorrow, ill be here",
+        "ts": "1493684609.088257"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks :slightly_smiling_face:",
+        "ts": "1493684616.089218"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i swear this is the same thing joel ran into when pushing to our staging prod server, and that was the issue. so i think its pretty good chance this is what it is",
+        "ts": "1493684659.094883"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "cool well maybe if you see him tomorrow mornign you could ask?",
+        "ts": "1493684681.097703"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "also <@U026PHQ3J> since i won’t be around initially can you be on point to help?",
+        "ts": "1493685268.173254"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "aye! to the extent that i can! yank me into hangouts if its helpful",
+        "ts": "1493685320.179860"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thx cap’n",
+        "ts": "1493685373.186395"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "",
+        "bot_id": "B03H06881",
+        "attachments": [
+            {
+                "fallback": "giphy: http:\/\/giphy.com\/gifs\/90s-vintage-halloween-l0IukLQDEsgOppfC8",
+                "image_url": "http:\/\/media4.giphy.com\/media\/l0IukLQDEsgOppfC8\/giphy-downsized.gif",
+                "image_width": 250,
+                "image_height": 186,
+                "image_bytes": 1294468,
+                "is_animated": true,
+                "title": "captain crunch",
+                "footer": "Posted using \/giphy",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/90s-vintage-halloween-l0IukLQDEsgOppfC8"
+            }
+        ],
+        "ts": "1493685510.203635"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "probably a good idea if we can find a way to peep his .yaml file as well to confirm that everything is where it should be",
+        "ts": "1493686109.277762"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "I will be able around to help but I'm pretty sure I need to WFH tomorrow due to :older_man::skin-tone-2:",
+        "ts": "1493690498.806643"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Also, I dont seem to have the right access",
+        "ts": "1493691032.865495"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0K8ZSHN0|lee> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lee\/F579LD57F\/pasted_image_at_2017_05_01_07_11_pm.png|When I click the link>",
+        "file": {
+            "id": "F579LD57F",
+            "created": 1493691076,
+            "timestamp": 1493691076,
+            "name": "Pasted image at 2017_05_01 07_11 PM.png",
+            "title": "When I click the link",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0K8ZSHN0",
+            "editable": false,
+            "size": 72051,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F579LD57F\/pasted_image_at_2017_05_01_07_11_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F579LD57F\/download\/pasted_image_at_2017_05_01_07_11_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F579LD57F-df4092deb9\/pasted_image_at_2017_05_01_07_11_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F579LD57F-df4092deb9\/pasted_image_at_2017_05_01_07_11_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F579LD57F-df4092deb9\/pasted_image_at_2017_05_01_07_11_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 155,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F579LD57F-df4092deb9\/pasted_image_at_2017_05_01_07_11_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 207,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F579LD57F-df4092deb9\/pasted_image_at_2017_05_01_07_11_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F579LD57F-df4092deb9\/pasted_image_at_2017_05_01_07_11_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 311,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F579LD57F-df4092deb9\/pasted_image_at_2017_05_01_07_11_pm_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 345,
+            "image_exif_rotation": 1,
+            "original_w": 846,
+            "original_h": 365,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lee\/F579LD57F\/pasted_image_at_2017_05_01_07_11_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F579LD57F-f37e33e384",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0K8ZSHN0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lee",
+        "bot_id": null,
+        "ts": "1493691080.870807"
+    }
+]

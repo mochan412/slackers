@@ -1,0 +1,128 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U0H4SJN11> we started talking about this in kitchne before but i’m curious of your process to prototype  the \"podium\" and begin testing \"attract state\" interaction and making sure that the supplied corian thickness works for touch.",
+        "ts": "1482449750.000113"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "assuming zgf wants to meet back up first week of jan, do you thin you’ll have the time you need?  what does your prottype look like?  Can it be iterated upon for prduction or will the rtotype need to be scrapped and re-built for production?",
+        "ts": "1482449802.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "We have already tested the corian to work with the capacitive a while back touch.",
+        "ts": "1482449813.000115"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Reason for buying the parts I did is that it should be exactly the same stuff we will use. Not much hardware changes could\/would happen",
+        "ts": "1482449863.000116"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "right so from your POV you’re building the touch top\/interface for a podium?",
+        "ts": "1482450025.000117"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Only the electronics\/software for it. Software is more complicated to get working for this part.",
+        "ts": "1482450067.000118"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "I can realistically get the electronics hooked up beginning of Jan, but I still haven't taken a look at the software parts of it yet, so I don't know how that will go exactly. However the end result is very simple, just an output of two on\/off states.",
+        "ts": "1482450150.000119"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "DDD seemed confident in the ease of OSC. Did look up that there is a library for it.",
+        "ts": "1482450189.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "right",
+        "ts": "1482450314.000121"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Did look at my calendar, I was incorrect that I was actually in next week. You'll probably see me in the office for a couple hours some of the time doing my own thing. The parts are expected to arrive late next week, even with two day delivery.",
+        "ts": "1482450358.000122"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok so what’s a plan to have electronics and software in place first week of Jan?  if you wanna riff or whiteboard, let’s.  I wanna ensure we’re not incurring risk and we go into this with open eyes (thanks thus far!)",
+        "ts": "1482450464.000123"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Planning on dedicating Tuesday 1\/3 to getting some part of the software working with all the hardware hooked up for a prototype.",
+        "ts": "1482450614.000124"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "I can give you a better picture once I look at the software solutions.",
+        "ts": "1482450728.000125"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "(josh is back then too)",
+        "ts": "1482450729.000126"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Yup.",
+        "ts": "1482450734.000127"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so all that is helpful.  And again software is about communicating on\/off states via OSC to DDD’s program, right?  If so I’m in the know and can stand down :slightly_smiling_face:",
+        "ts": "1482450774.000128"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Yup. Exactly. :slightly_smiling_face:",
+        "ts": "1482450796.000129"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Sorry to jump in here, but <@U0H4SJN11> where going to want to actually build the podium stand as well to test interaction design. Any ideas on how we can accomplish that by 1sr week of Jan?",
+        "ts": "1482454063.000130"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "As far as I gleaned from our meeting ZGF will deliver the podium prototype to DDD and we will be able to integrate our electronics into it once that happens. ",
+        "ts": "1482454132.000131"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "I think we'd like to do some internal testing here before taking the prototype there. *ideally ",
+        "ts": "1482454400.000132"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Definitely a good idea. With the hardware connected, we can test some use cases very easily. ",
+        "ts": "1482454506.000133"
+    }
+]

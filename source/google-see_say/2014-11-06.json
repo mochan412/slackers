@@ -1,0 +1,116 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Almost done with the views and animations to complete slide 12, but I introduced a new bug with the latest video encoding fix... since I'm using raw AAC for encoding audio now (mp4parser couldn't take AAC in an MP4 container for encoding) and MediaPlayer doesn't support playback of raw AAC directly, playing back audio in the app no longer works.",
+        "ts": "1415317003.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "There's a 3rd-party library that enables AAC decoding and playback, but it's LGPL so introduces interesting legal issues if this were to be used in production",
+        "ts": "1415317141.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Soooo... my best plan right now is to iterate over the supported media formats until I find one that can be used for both video encoding and playback within the app... it is an open question whether there is such a format.",
+        "ts": "1415317339.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "We probably can't convert the audio from one format to another and save both of them (one for playback and one for encoding), we would need ffmpeg or another utility to do the conversion.",
+        "ts": "1415317438.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "okay great, thanks.",
+        "ts": "1415318045.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "something to let ryan know of, or wait until there's been some more progress tomorrow and reach out then?",
+        "ts": "1415318066.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll know by the end of today what the situation is, there aren't very many audio media formats that MediaRecorder supports",
+        "ts": "1415318128.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Just wanted to mention it as soon as I noticed it",
+        "ts": "1415318153.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "okay, sounds good.",
+        "ts": "1415318240.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks",
+        "ts": "1415318241.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "let me know at the end of the day",
+        "ts": "1415318262.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Ah, I found the answer in the mp4parser documentation",
+        "ts": "1415318534.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "AAC is the only audio input format the MP4 parser supports which is also supported as an output encoder by Android's MediaPlayer",
+        "ts": "1415318644.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Er MediaRecorder",
+        "ts": "1415318656.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "MediaPlayer, on the other hand, does not support raw AAC input (for copyright reasons, I believe)",
+        "ts": "1415318685.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "So, I think the probable solution will be to continue using AAC, immediately encode the video as soon as we take the picture, and when the user wants to play back, see if we can load the video we created (in MP4) and only play the audio.",
+        "ts": "1415318808.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "(I think this is possible based on some preliminary reading)",
+        "ts": "1415318839.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "but I suspect it's going to be terrible for system performance to load a whole video just to get to the audio track",
+        "ts": "1415318898.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "At any rate, I will start on this idea and hopefully test it tomorrow",
+        "ts": "1415319212.000020"
+    }
+]

@@ -1,0 +1,302 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/docs.opencv.org\/trunk\/doc\/tutorials\/video\/background_subtraction\/background_subtraction.html>",
+        "ts": "1414687351.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> i'm downloading a sample data set (its very large) to see how that process works",
+        "ts": "1414690959.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sweet",
+        "ts": "1414691036.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I got the sample dataset",
+        "ts": "1414692112.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and its 1000 images of a basically static image of a road",
+        "ts": "1414692124.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which means i dont understand what its doing yet",
+        "ts": "1414692163.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<http:\/\/im.snibgo.com\/debarrel.htm>",
+        "ts": "1414692654.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "neon fridge",
+        "ts": "1414692675.000010"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1414693138.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "WIDEMOUTH SNAPPLE",
+        "ts": "1414693184.000012"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1414693187.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "NOT WIDEMOUTH SNAPPLE",
+        "ts": "1414693201.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Neither of these fridges is particularly spooky",
+        "ts": "1414693209.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i dunno man, that giant snapple is pretty freaky",
+        "ts": "1414693224.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "What if we took the deskewed pics, did canny edge on empty and full, subtracted the greyscale edges of empty from full, then did a fill.. sliced the resultant mask shelf and did a difference with the mask on the deskewed full res full",
+        "ts": "1414698586.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "you lost me",
+        "ts": "1414702601.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats ok, it was kind of crackpot anyway",
+        "ts": "1414703056.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> are you ok with me spending a little time looking into recipe APIs",
+        "ts": "1414704338.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "?",
+        "ts": "1414704338.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/www.arducam.com>",
+        "ts": "1414707630.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah I've seen all that",
+        "ts": "1414707852.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's not clear how hard it would be to interface one of those modules to the raspberry pi",
+        "ts": "1414707865.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh yeah, was just putting it in here for consistency",
+        "ts": "1414707870.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "MTD9111 has the larger image sensor but lower resolution",
+        "ts": "1414707896.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "was just reading this: MT9M001",
+        "ts": "1414707922.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which is 1.3MP but basically a gopro imagesensor",
+        "ts": "1414707931.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "their libs seem to not support it by default",
+        "ts": "1414707943.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "would need a flat flex adapter too for a lot of those modules",
+        "ts": "1414708028.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> <http:\/\/www.fmwconcepts.com\/imagemagick\/defisheye\/index.php>",
+        "attachments": [
+            {
+                "text": "Fred's ImageMagick Scripts - defisheye - corrects for fisheye distortion in an image",
+                "fallback": "Fred's ImageMagick Scripts - defisheye - corrects for fisheye distortion in an image",
+                "from_url": "http:\/\/www.fmwconcepts.com\/imagemagick\/defisheye\/index.php",
+                "id": 1
+            }
+        ],
+        "ts": "1414709172.000031"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1414709420.000034"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1414709462.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "defisheye script is SUPER SLOW",
+        "ts": "1414709910.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "...",
+        "ts": "1414710323.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like still running slow",
+        "ts": "1414710328.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":persevere:",
+        "ts": "1414710448.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "still running",
+        "ts": "1414710461.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and making my computer very slow in the process",
+        "ts": "1414710484.000041"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1414710798.000042"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "A file was commented on",
+        "file": null,
+        "comment": null,
+        "ts": "1414710806.000043"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1414711275.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "house of mirrors",
+        "ts": "1414711291.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "What do we think of the images we got from the 170 degree lens?",
+        "ts": "1414711594.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "focus is a little off. field of view captures 22-23\" of the front of the shelf",
+        "ts": "1414711790.000049"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "that might go up to 25\" or so when we move the camera an inch back into the weather stripping",
+        "ts": "1414711812.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "the width of the fridge is 33\" so we're getting close to that",
+        "ts": "1414711823.000051"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1414712270.000052"
+    }
+]

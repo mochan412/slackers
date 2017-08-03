@@ -1,0 +1,102 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02613K0X> billing should be enabled ",
+        "ts": "1444320910.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Let me know if it's not working, We've got the right people on the line",
+        "ts": "1444320927.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "looks good! thanks you!!!",
+        "ts": "1444322634.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> Any previously registered requests that have the same PendingIntent (as defined by equals(Object)) will be replaced by this request.",
+        "ts": "1444323022.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think we're over-subscribing",
+        "ts": "1444323028.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "context?",
+        "ts": "1444323063.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "LocationServices.FusedLocationApi\n                    .requestLocationUpdates",
+        "ts": "1444323103.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/developers.google.com\/android\/reference\/com\/google\/android\/gms\/location\/FusedLocationProviderApi.html#requestLocationUpdates(com.google.android.gms.common.api.GoogleApiClient>, com.google.android.gms.location.LocationRequest, android.app.PendingIntent)",
+        "ts": "1444323108.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "mLocationPendingIntent = PendingIntent\n                        .getBroadcast(mApplicationContext.get(), REQUEST_CODE_LOCATION_UPATE,\n                                intent,\n                                PendingIntent.FLAG_CANCEL_CURRENT);",
+        "ts": "1444323200.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "You can use this to retrieve a new PendingIntent when you are only changing the extra data in the Intent; by canceling the previous pending intent, this ensures that only entities given the new data will be able to launch it. If this assurance is not an issue, consider FLAG_UPDATE_CURRENT.",
+        "ts": "1444323393.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> I think i can leave location updates running in the background now",
+        "ts": "1444326784.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "awesome",
+        "ts": "1444326797.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they're very stable now that we're not listening a million times",
+        "ts": "1444326805.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1444326808.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I would think so!",
+        "ts": "1444326817.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Extreme low power places is working properly. Will push changes in the AM to get more eyes on it",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1444362550.000000"
+        },
+        "ts": "1444362543.000002"
+    }
+]

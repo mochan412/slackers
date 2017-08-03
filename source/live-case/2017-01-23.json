@@ -1,0 +1,220 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> Looks like we’re going to need to run Systems Health on the last MiniMe release. Will let you know what that means for use-cases as soon as I find out.",
+        "ts": "1485193406.001687"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "oh boy!",
+        "ts": "1485193606.001688"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "any way we can add a “Design - User Experience” option for My Live Case in harvest <@U06DFL7BP> ?",
+        "ts": "1485194670.001689"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":open_mouth: yes",
+        "ts": "1485195292.001690",
+        "reactions": [
+            {
+                "name": "hugging_face",
+                "users": [
+                    "U026PHQ3J",
+                    "U0260V1BX"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "should all be updated, lmk if anything else is missing",
+        "ts": "1485195578.001691"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks!",
+        "ts": "1485196246.001692"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "For <!channel> visibility: bonnie updated use cases in syshealth doc, one of them is going to be tough to replicate (the failed tile download, because its spurrious) but the rest should be straightforard.",
+        "ts": "1485207629.001693"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> we’ll need that ASAP so lmk when you’re done",
+        "ts": "1485207637.001694"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or at least keep me updated",
+        "ts": "1485207643.001695"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":slightly_smiling_face:",
+        "ts": "1485207644.001696"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> could you fill out the description of the randomize use case to have which artworks collections you verified\/tested against?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1485210392.000000"
+        },
+        "ts": "1485210390.001697"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sure thing!",
+        "ts": "1485210410.001699"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1485210450.001700"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Any clues on how to replicate screen-off use case 1?",
+        "ts": "1485210995.001701"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nope",
+        "ts": "1485211001.001702"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats the nearly impossible one",
+        "ts": "1485211005.001703"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "What should I do with this one then?",
+        "ts": "1485211023.001704"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i guess you could hardwire the app to fail the request",
+        "ts": "1485211035.001705"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just to make it retry",
+        "ts": "1485211041.001706"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Ok, I’ll look into that",
+        "ts": "1485211053.001707"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Just to make sure I am clear, can I simply create a faulty url to replicate the map loading error? Here is what I am trying currently:",
+        "ts": "1485212915.001708"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "```\npublic class PlacesImageDownloadService extends JobService {      …     public class DownloadImageToDiskTask extends AsyncTask&lt;String, Void, Void&gt; {          @Override         protected Void doInBackground(String... params) {             String urlString;             …              try {                 URL url;                 if (PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).getBoolean(\"should_fail\",                         true)) {                     url = new URL(urlString + \"ewlijrhwkejrhawkjehrwahekjrw\");                  } else {                     url = new URL(urlString);                 }                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();                 …                  imageRequestFinished = System.currentTimeMillis();                 PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).edit()                         .putBoolean(\"should_fail\", false).apply();             } catch (IOException e) {                  i…         } ```",
+        "ts": "1485212922.001709"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Err, let me see if i can format that better",
+        "ts": "1485212933.001710"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh, i was gonna suggest just throwing a homebrew IOException in the doInBackground",
+        "ts": "1485212963.001711"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it doesn’t matter if the second request works or not",
+        "ts": "1485213002.001712"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you just need to track the failure\/retry",
+        "ts": "1485213010.001713"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hah, that sounds a lot more straightforward.",
+        "ts": "1485213195.001714"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Am I in the right place though? PlacesImageDownloadSerivce?",
+        "ts": "1485213215.001715"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep!",
+        "ts": "1485213730.001716"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that request is the one you’re looking to force a fail on",
+        "ts": "1485213743.001717"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you can trigger a download by changing styles",
+        "ts": "1485213749.001718"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> I think I am finished running systems health, although there are a few questions I wasn’t sure if\/how I should answer. Can you take a pass over whats currently in the spreadsheet?",
+        "ts": "1485216867.001722"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> this looks good. I’m going to add a note about that use case.",
+        "ts": "1485220066.001723"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Cool. thanks!",
+        "ts": "1485220078.001724"
+    }
+]

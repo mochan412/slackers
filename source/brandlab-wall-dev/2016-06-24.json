@@ -1,0 +1,411 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: you are chasing that question bug, right?",
+        "ts": "1466789778.000358"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yea",
+        "ts": "1466789806.000359"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "not logged, go forth good sir",
+        "ts": "1466789900.000360"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep the template got borked, a container height was left off a label, they MUST be there most all of the transitions rely on them",
+        "ts": "1466790510.000361"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its fixed  now",
+        "ts": "1466790523.000362"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and i have a good lead on a different approach to the communications issue. looks like localstorage option will indeed work, wasnt sure with with the changes we made. but i read up and it looks like it should. I talked to james about this and this was by far is preffered option he said",
+        "ts": "1466790588.000363"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "myles liked it too",
+        "ts": "1466790604.000364"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok; any idea how long you’d need ot spend on it now peter or just takes time?",
+        "ts": "1466790644.000365"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U11JK4QSK>: we be unblocked on question and shit",
+        "ts": "1466790654.000366"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its actually a pretty elegant and simple solution, i should have something working in like an hour. maybe 2 with testing",
+        "ts": "1466790686.000367"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good, will plan on workign data viz right after lunch",
+        "ts": "1466790770.000368"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "lunch from harlow.  <!here|@here> whatcha want?\n\n<https:\/\/postmates.com\/por\/harlow-portland>",
+        "attachments": [
+            {
+                "service_name": "Postmates",
+                "title": "Harlow",
+                "title_link": "https:\/\/postmates.com\/por\/harlow-portland",
+                "text": "Harlow delivery in Portland, OR",
+                "fallback": "Postmates: Harlow",
+                "image_url": "https:\/\/d1725r39asqzt3.cloudfront.net\/ad4858e9-15ff-475d-8504-6c074c5c3c61\/orig.jpg",
+                "from_url": "https:\/\/postmates.com\/por\/harlow-portland",
+                "image_width": 417,
+                "image_height": 250,
+                "image_bytes": 350038,
+                "service_icon": "https:\/\/postmates.com\/static\/img\/home\/meta\/favicon.5989e6f2e996.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1466791446.000369"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "hahahah",
+        "ts": "1466791503.000371"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "slack me directly",
+        "ts": "1466791541.000372"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U1JDZG8AF> are you saying we no longer need rotoscoped bubbles from emily?",
+        "ts": "1466793120.000373"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Say whaaaay",
+        "ts": "1466793301.000374"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "i got it populating letters and changing colors, but if she has updated files for animation she can send em over :slightly_smiling_face:",
+        "ts": "1466793353.000375"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so still NEED for production regardless, right?",
+        "ts": "1466793534.000376"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "yeah if she has animation changes i can update my class, i wrote a wrapper class that does things thusly",
+        "ts": "1466793589.000377"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "DotAnimator.init();\n                DotAnimator.setColor(\"yellow\");\n                DotAnimator.setLetter( \"M\");",
+        "ts": "1466793590.000378"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "because thusly",
+        "ts": "1466793614.000379"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Working on this now",
+        "ts": "1466793659.000380"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "rawesome :slightly_smiling_face:",
+        "ts": "1466793696.000381"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "<@U0EL0GLEL>: it also has a method DotAnimator.getInstance(); so we can add it to the map etc for stop and destruction :slightly_smiling_face:",
+        "ts": "1466793789.000382"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0J6TE0CA>: thanks for the Retrun export.",
+        "ts": "1466795348.000383"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet the communication works locally, need to try within the display app now. then we can work on integrating the datavis bubbles",
+        "ts": "1466795629.000384"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "awwwweeeessssooome!",
+        "ts": "1466795641.000385"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": ":slightly_smiling_face:",
+        "ts": "1466795642.000386"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "oh snap!",
+        "ts": "1466795708.000387"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "if only the local to wall testing wa a closer 1:1.  but man, what a beast",
+        "ts": "1466795724.000388"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its very close there isnt really a huge difference so should work",
+        "ts": "1466795753.000389"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "go forth",
+        "ts": "1466795764.000390"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "nice",
+        "ts": "1466795798.000391"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "well, no mo local storage.  peter’s got something else up his sleeve",
+        "ts": "1466797189.000392"
+    },
+    {
+        "type": "message",
+        "user": "U1JDZG8AF",
+        "text": "yas  MAGIC  ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+        "ts": "1466797236.000393"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U1JDZG8AF>: <https:\/\/drive.google.com\/open?id=0B2saO1SetZcbYXlZSlF0QW5BU1U>",
+        "ts": "1466801760.000394"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F1L67J396\/circlessplittingtest_20160624.json|CirclesSplittingTest_20160624.json>",
+        "file": {
+            "id": "F1L67J396",
+            "created": 1466801761,
+            "timestamp": 1466801761,
+            "name": "CirclesSplittingTest_20160624.json",
+            "title": "CirclesSplittingTest_20160624.json",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 10121,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B2saO1SetZcbYXlZSlF0QW5BU1U\/view?usp=drivesdk",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F1L67J396\/circlessplittingtest_20160624.json",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1466801762.000395"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: port 9980 out of commission?",
+        "ts": "1466802006.000396"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "try now",
+        "ts": "1466802294.000397"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "still blocked",
+        "ts": "1466802427.000398"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cache cleared",
+        "ts": "1466802430.000399"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0J6TE0CA>: found another thing for you to exports",
+        "ts": "1466803401.000400"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U11JK4QSK>: whats size of bodymovin circle that we need?",
+        "ts": "1466803419.000401"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "303x303",
+        "ts": "1466803919.000402"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U11JK4QSK>: <https:\/\/drive.google.com\/a\/uncorkedstudios.com\/folderview?id=0B2saO1SetZcbaGFvMGtTNGc0RWM&amp;usp=drive_web>",
+        "ts": "1466804018.000403"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "canvas is 960x960",
+        "ts": "1466804022.000404"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "choreography broken up",
+        "ts": "1466804024.000405"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "and x: 329px y: 80px for circle",
+        "ts": "1466804041.000406"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U0J6TE0CA>: ^",
+        "ts": "1466804046.000407"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "although as long as the circle is 303x303 i can control xy if we need to offset a pixel or two",
+        "ts": "1466804100.000408"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: hows communicaiton coming?  new solve underway or still thinking it through?",
+        "ts": "1466804424.000409"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "tried a number of things nothing works",
+        "ts": "1466804625.000410"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no communication back",
+        "ts": "1466804629.000411"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "early testing looking promising with <@U0EL0GLEL>",
+        "ts": "1466813441.000412"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: i stopped testing; are you looking for that cubby screen or want me to notate it and we continue testing communication?",
+        "ts": "1466813688.000413"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im not doing anything there byran just keep pushing new templates so nothing i can do",
+        "ts": "1466813764.000414"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok he’ll be done in a second",
+        "ts": "1466813775.000415"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "let’s test this so youre feeling good about it",
+        "ts": "1466813781.000416"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "fixed the issue with the slow body movin load.",
+        "ts": "1466820518.000417"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Nice. ",
+        "ts": "1466821456.000418"
+    }
+]

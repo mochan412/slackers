@@ -1,0 +1,358 @@
+[
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Good morning, <!channel>! I have a school event this morning, so won't be in the office until a little later. Can we please do a quick virtual stand-up?",
+        "ts": "1417800609.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Ewald: Played with rig, thought about interactions, worked with team to think through said interactions, reviewed UX docs for advanced controls, saw great in process animation from Gaston\n\nToday: Late day meeting with clients, help in whatever capacity is needed from me (come grab me if you need anything), checking in with team overall",
+        "ts": "1417800742.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Evans: filled Jenny in on the theories around click stability. Increased stability of drag tracking by modifying the area requirements.",
+        "ts": "1417800782.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I finished up Pinch &amp; 1:1 Capture UX yesterday, wrote it up and sent it out. I'll be available to support Gaston today. I have a few holiday items to finish up, but will wait to see where we end up after drop dead feature conversations before I comp up anything else. Seems like Gaston still has enough to work through.",
+        "ts": "1417800812.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Finished most of the panel layout and interactions. Ready to implement video whenever <@U02613K0X>\/@joelm are ready. Will work on some polish\/performance and adding the timer today.",
+        "ts": "1417801087.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I got video and audio capture off the camera and mic on the rig going in node yesterday. Today I'll be working to stitch the two together and saving the resulting video.",
+        "ts": "1417801153.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X> HUGE NEWS!!",
+        "ts": "1417801172.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "...",
+        "ts": "1417801180.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think thats huge news",
+        "ts": "1417801191.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh haha i thought you had huge news for me",
+        "ts": "1417801237.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i do! Its that the video work youre doing is huge news.",
+        "ts": "1417801251.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "AWESOME",
+        "ts": "1417801280.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh. nice. i was expecting you to say we completely changed requirements for video and all the work i did yesterday was for nothing.",
+        "ts": "1417801310.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "If there's time to test another microphone for audio quality, that would be great, but it's not super high priority",
+        "ts": "1417801310.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "also we need to get a package out today, and an overview of final hardware positioning <@U02F8LF2X>",
+        "ts": "1417801336.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "jenny: that's ridiculous",
+        "ts": "1417801347.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "it's not like I went to mexico last night",
+        "ts": "1417801352.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":simple_smile:",
+        "ts": "1417801355.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "mary is there another mic in the office? if so i can just swap them out and test today.",
+        "ts": "1417801363.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Josh has one he was thinking of",
+        "ts": "1417801374.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay. i'm not quite to that point yet but i'll ask him about it later.",
+        "ts": "1417801398.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Spent all day yesterday working through click issues. Still heads-down on getting stability\/reliability. Have a Harris corner detector running on the confidence map to find the 4 reflective dots for calibration. Will get that running this afternoon, and then we can move the camera for better cooktop coverage on the IR sensor.",
+        "ts": "1417801621.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02E3CRMA> could you give me an update on click?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1417801697.000000"
+        },
+        "ts": "1417801691.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "working on what we discussed EOD yesterday - finding relative x\/y\/z-axis motion between centroid and finger location",
+        "ts": "1417801852.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "will keep you posted on results",
+        "ts": "1417801856.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool cool thanks",
+        "ts": "1417801861.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02688JHZ> <@U026PHQ3J> on the video thread on basecamp with Luke it looks like you two had a discussion about how we need to store videos on the luxo box. Is any of that something I need to be filled in on?",
+        "ts": "1417802062.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes!",
+        "ts": "1417802070.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically they want to be able to view them on a tablet",
+        "ts": "1417802080.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so we'll need to make the luxo box serve them up",
+        "ts": "1417802092.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which we would need to do anyway to show them on the cooktop",
+        "ts": "1417802102.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026PLK4S> Question: What do we want to happen if the menu is open and a pan is on top of it. Especially if the heat control is  in\/around the same area as the close menu button.",
+        "ts": "1417807078.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Or is that something we don't care about since the actions on the script may not lead to that scenario?",
+        "ts": "1417807184.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "Ewald and I talked a lot about it, and shared the same concern. I don't think menu error handling and anti-collision is in scope",
+        "ts": "1417807194.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "my proposed idea, although i didn't design it, would be to stop the menu from animating all the way out until you move the pot away. You'll have to check with Mary &amp; Evans about where they'd want you to spend your effort though.",
+        "ts": "1417807259.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "doesn't that invite the user to touch in a potentially hot area?",
+        "ts": "1417807325.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Also, what if the menu is already open and the user moves the pan to the menu area?",
+        "ts": "1417807344.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "So my take is that this is out of scope for the demo. Correct?",
+        "ts": "1417807579.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i think these are the sorts of scenarios that, in a real product, for sure. In this — my sense is that we should not build out any sort of collide detection AND coach the script to avoid these scenarios",
+        "ts": "1417807933.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Makes perfect sense.",
+        "ts": "1417808216.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<!channel> doing some node work so server will be up and down for at least the next few minutes",
+        "ts": "1417820108.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "okeydoke",
+        "ts": "1417820132.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": ":thumbsup:",
+        "ts": "1417820172.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> - some of us have a call with samsung in about 30 min about features and stuff. Where are we on everything?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1417821896.000000"
+        },
+        "ts": "1417821894.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I spent some time changing the way we handle clicks but that's done and working great. Now I'm working on video selection and playback and hoping to have that done by EOD.",
+        "ts": "1417822094.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "been working on click accuracy all day, better than it was, still needs refinement",
+        "ts": "1417822134.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "will be able to get to packaging on Monday",
+        "ts": "1417822250.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "We're getting audio and video off the camera and mic and I can stitch the two together with ffmpeg. I'm currently trying to move it all into our main node app.",
+        "ts": "1417822418.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I ran into issues earlier bc openCV's videoWriter wouldn't write frames at a consistent framerate, so we'd get a slightly slowed down video where the audio was a few seconds off",
+        "ts": "1417822522.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "So i'm also working on a better solve for that too",
+        "ts": "1417822542.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> could someone shoot a video of the menu sliding out",
+        "ts": "1417826251.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> like now?",
+        "ts": "1417826259.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "WOrking on it.",
+        "ts": "1417826270.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> Could be on rig or on laptop",
+        "ts": "1417826271.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "ok",
+        "ts": "1417826280.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks!",
+        "ts": "1417826286.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> ^^^^^^",
+        "ts": "1417826548.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Thanks, <@U02618EV1> !!",
+        "ts": "1417826767.000064"
+    }
+]

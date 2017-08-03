@@ -1,0 +1,140 @@
+[
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U026PLK4S>: <@U0265G76F> want to come look at the rig?",
+        "ts": "1417458176.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel>: friendly harvest reminder. Please make sure your hours in harvest are accurate. Thank you!",
+        "ts": "1417459944.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "<!channel>, and especially Gaston, please review my idea of temperature \"steps\" to make sure we're in alignment. I'm thinking each \"level\" should include 5 sub-steps, which maps nicely back to Samsung's actual stove settings. Note that simmer is the only outlier, but think we could solve for it in one of two ways. Let me know what you think.",
+        "ts": "1417462025.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Are the simmer values the only difference between options 1 and 2?",
+        "ts": "1417462183.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "yeah",
+        "ts": "1417462197.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "and thinking about 0-140",
+        "ts": "1417462204.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Ok.",
+        "ts": "1417462210.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "but i think Off &amp; Boost could work the same way as bookends (option 1) without sub-steps",
+        "ts": "1417462450.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> Do we know the data structure for the new \"drag\" event?",
+        "ts": "1417462566.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yep. it's in the websocket api google doc",
+        "ts": "1417462588.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Ohh, bottom of the page. So sorry I missed that. Was right there.",
+        "ts": "1417462645.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1> node app is up and running with all the events in the correct formats now. should be good for you to work with for awhile.",
+        "ts": "1417465586.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks.",
+        "ts": "1417468558.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> \/ <@U02E3CRMA> Are click events supposed to be working?",
+        "ts": "1417474680.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yes. i may have started node with a pot on the cooktop though, in which case it won't work. i'll come in and try restarting",
+        "ts": "1417474712.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02E3CRMA> I'm running cooktop.py and not seeing and click events there either. Possibly something from that last merge?",
+        "ts": "1417474974.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "gah...shouldn't be",
+        "ts": "1417475284.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "let me check right now",
+        "ts": "1417475287.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "looks good in debug mode",
+        "ts": "1417475445.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I am masking the depth map to only detect in the front 1\/2 of the cooktop",
+        "ts": "1417475461.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "just glued down the grey top, and there are boxes on there for weight, so it'll be out of commission for ~10 mins",
+        "ts": "1417478547.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Roger that.",
+        "ts": "1417478854.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, back in business",
+        "ts": "1417480007.000026"
+    }
+]

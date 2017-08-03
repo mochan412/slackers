@@ -1,0 +1,85 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I tried 0.9.7.1 same error",
+        "ts": "1452708990.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Starting API server at: <http:\/\/localhost:65089>\nINFO     2016-01-13 18:15:26,954 containers.py:261] Building docker image gweb-uncorked.default.20160113t181526 from \/Users\/peterb\/gldmmbrcms\/Dockerfile:\nINFO     2016-01-13 18:15:26,954 containers.py:263] --------------------  DOCKER BUILD  --------------------\nINFO     2016-01-13 18:15:26,954 dispatcher.py:197] Starting module \"default\" running at: <http:\/\/localhost:8080>\nINFO     2016-01-13 18:15:26,958 admin_server.py:118] Starting admin server at: <http:\/\/localhost:8000>\nINFO     2016-01-13 18:15:30,748 containers.py:282] Step 0 : FROM google\/nodejs-runtime\nINFO     2016-01-13 18:15:30,748 containers.py:282] # Executing 2 build triggers\n\nINFO     2016-01-13 18:15:30,748 containers.py:282] Trigger 0, RUN echo \"This image is now deprecated. If you are using the nodejs runtime for Google Managed VMs, please set \\\"runtime: nodejs\\\" in your app.yaml.  If you are not using Managed VMs, you should use the official Node Docker image located at: <https:\/\/hub.docker.com\/_\/node\/>.  To learn more, visit <http:\/\/cloud.google.com\/nodejs\/>.\"\nINFO     2016-01-13 18:15:30,748 containers.py:282] Step 0 : RUN echo \"This image is now deprecated. If you are using the nodejs runtime for Google Managed VMs, please set \\\"runtime: nodejs\\\" in your app.yaml.  If you are not using Managed VMs, you should use the official Node Docker image located at: <https:\/\/hub.docker.com\/_\/node\/>.  To learn more, visit <http:\/\/cloud.google.com\/nodejs\/>.\"\nINFO     2016-01-13 18:15:30,748 containers.py:282] ---&gt; Using cache\nINFO     2016-01-13 18:15:30,749 containers.py:282] Trigger 1, RUN exit 1;\nINFO     2016-01-13 18:15:30,749 containers.py:282] Step 0 : RUN exit 1;\nINFO     2016-01-13 18:15:30,844 containers.py:282] ---&gt; Running in 852328cf3df9\nERROR    2016-01-13 18:15:31,281 containers.py:285] The command [\/bin\/sh -c exit 1;] returned a non-zero code: 1\nINFO     2016-01-13 18:15:31,282 containers.py:294] --------------------------------------------------------\nERROR    2016-01-13 18:15:31,282 instance.py:280] Docker build aborted: The command [\/bin\/sh -c exit 1;] returned a non-zero code: 1\nINFO     2016-01-13 18:15:31,282 health_check_service.py:101] Health checks starting for instance 0.",
+        "ts": "1452708992.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: thoughts on build with notes from Kat's email?",
+        "ts": "1452731662.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "have one ready now",
+        "ts": "1452731712.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yay",
+        "ts": "1452731745.000006"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0JD9881Y\/livecase_editions.apk|livecase_editions.apk>",
+        "file": {
+            "id": "F0JD9881Y",
+            "created": 1452732089,
+            "timestamp": 1452732089,
+            "name": "livecase_editions.apk",
+            "title": "livecase_editions.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 60383324,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JD9881Y\/livecase_editions.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JD9881Y\/download\/livecase_editions.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0JD9881Y\/livecase_editions.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0JD9881Y-ef1abc0aaa",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1452732092.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "awesome.",
+        "ts": "1452732351.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thanks!",
+        "ts": "1452732472.000009"
+    }
+]

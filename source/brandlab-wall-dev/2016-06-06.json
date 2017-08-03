@@ -1,0 +1,313 @@
+[
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "brandlab - #26 Started by user Uncorked Studios (<http:\/\/192.168.169.90:9000\/job\/brandlab\/26\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "brandlab - #26 Started by user Uncorked Studios (<http:\/\/192.168.169.90:9000\/job\/brandlab\/26\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1465231024.000002"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "brandlab - #26 Success after 15 sec (<http:\/\/192.168.169.90:9000\/job\/brandlab\/26\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "brandlab - #26 Success after 15 sec (<http:\/\/192.168.169.90:9000\/job\/brandlab\/26\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1465231035.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U1B4121BP>: you know, I’m starting to wonder if the connection from out breadboard is the problem",
+        "ts": "1465239000.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "lights are working fine now...",
+        "ts": "1465239006.000005"
+    },
+    {
+        "type": "message",
+        "user": "U1B4121BP",
+        "text": "interesting...",
+        "ts": "1465245559.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "seeing an issue in datavis, the circles are too big, im running off the side of the template by about 600px",
+        "ts": "1465254455.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "probably since in the mock the questions has 3 answers, we have 4",
+        "ts": "1465254489.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "going to try a dynamic sizing",
+        "ts": "1465255153.000009",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "thanks peter, the discussion with design led to using the percentage in “Your Team’s Results” for how much of the circle we want to use for displaying the user bubbles",
+        "ts": "1465260950.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok thats easy",
+        "ts": "1465260969.000011"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "offset by 30 degrees or whatever that is in the comp",
+        "ts": "1465260995.000012"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "im sure that isnt critical right now though",
+        "ts": "1465261004.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok, not sure how to do that part but im sure we can",
+        "ts": "1465261021.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok its possible to size the dataviz things by changing the size in the template, just need to make sure the bubbles end up in the right spot when its changed, and the percent text gets out of alignment. this isnt going to happen dynamically automatically it should be setup in the template the dialed in",
+        "ts": "1465262824.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but it can be at least changed now",
+        "ts": "1465262829.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet dataviz works, the questions hit the meters right, % are right, little answer bubble things are right multiple choice works right",
+        "ts": "1465267491.000019",
+        "reactions": [
+            {
+                "name": "metal-hair",
+                "users": [
+                    "U02E3CRMA",
+                    "U11JK4QSK"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the target audience isnt hooked up yet there is another CB bug im tracking on before that will be hooked up, but that one shouldnt be too hard after i fix that",
+        "ts": "1465267522.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "passed the ticket to bryan for styling fix up and tweaks",
+        "ts": "1465268009.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "holy shit, big day of development",
+        "ts": "1465268108.000022",
+        "reactions": [
+            {
+                "name": "the_horns",
+                "users": [
+                    "U026PHQ3J"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U026PHQ3J"
+                ],
+                "count": 1
+            },
+            {
+                "name": "computer",
+                "users": [
+                    "U026PHQ3J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "just found another probably simple bug, cant select from 2 multi select screens at the same time ha",
+        "ts": "1465268134.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "probably have same IDs on the elements or something",
+        "ts": "1465268146.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it was going to change anyways when we apply the animations for selection. and if thats the case cubbyID is available for adding to any id to make them cubby unique",
+        "ts": "1465268193.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "figured out that issue with the default loading sometimes and sometimes not, there was an errant mapping being assigned in the admin for which unassigned template to use. the one it kept trying to use was never built out so it would bomb on it, also that strange white top sweep we kept seeing today was the same issue.",
+        "ts": "1465269849.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if we see that again let me know, but what i found makes perfect sense as to the intermitent nature and should be fixed",
+        "ts": "1465269889.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks for fixing that. it was strangely sporadic - I could go for an hour with nothing, then it would be white.",
+        "ts": "1465269937.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "mostly the way IS was sending things over, could have been the workshop, could have been the preset, when you refreshed you would get one or the other whatever was pushed last. but if it was the workshop it would cause an error with the mapping. since the workshops contain mapping, if it was a time preset it would default to the right mapping. so it would be intermitent and hard to see what it was freaking out on since who remembers what was pushed last… etc… so yeah thats fixed",
+        "ts": "1465270197.000029",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "brandlab - #27 Started by timer (<http:\/\/192.168.169.90:9000\/job\/brandlab\/27\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "brandlab - #27 Started by timer (<http:\/\/192.168.169.90:9000\/job\/brandlab\/27\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1465271290.000030"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "brandlab - #27 Success after 16 sec (<http:\/\/192.168.169.90:9000\/job\/brandlab\/27\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "brandlab - #27 Success after 16 sec (<http:\/\/192.168.169.90:9000\/job\/brandlab\/27\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1465271301.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh jenkins, im not sure if i got my push in before you, but it was close",
+        "ts": "1465271589.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll add a trigger tomorrow for pushes to dev as well",
+        "ts": "1465276844.000035"
+    }
+]

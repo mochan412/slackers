@@ -1,0 +1,690 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just made a develop branch",
+        "ts": "1460048194.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> do you think we can remove the volley test classes and stuff?",
+        "ts": "1460051332.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they break my build",
+        "ts": "1460051334.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sure",
+        "ts": "1460051350.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill take a look. almost done with first pass of string cleanup",
+        "ts": "1460051363.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I removed all references to the keyboard",
+        "ts": "1460051399.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "and am removing unused assets now and all references to jared leto and artist3",
+        "ts": "1460051413.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "inspection thinks a lot of the ballet images are not being used, but I assume they actually are?",
+        "ts": "1460051486.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "They are",
+        "ts": "1460051672.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "They're resolved at runtime so inspection won't pick it ip",
+        "ts": "1460051687.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> I pushed what I think is the most obvious string issues, there may be a couple more. Its on the branch base_url_update",
+        "ts": "1460051921.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill be back after my next meeting",
+        "ts": "1460051927.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think a lot of these things that lint is calling out as unused are actually used, but referenced in a strange way, so erring on the side of caution there.",
+        "ts": "1460052055.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes. many of them are runtime resolved because it uses local resources until remote ones are downloaded",
+        "ts": "1460052094.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so it matches the pattern depending on whether or not thats true",
+        "ts": "1460052110.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "unless you're talking about something else",
+        "ts": "1460052118.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "lots of drawables referenced in strings files and lint thinks they’re not being used",
+        "ts": "1460052175.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t know that lint ever knows when raw files are being used",
+        "ts": "1460052188.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just found a weird bug. Unlocked koons, then unlocked skrillex. Tried to set the koons wallpaper and got a crash with the error ``` Client must have ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION permission to perform any location operations.``` as if it was trying to set the skrillex wallpaper",
+        "ts": "1460052709.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "preview was koons",
+        "ts": "1460052712.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Were you unlocking while on the previous onboarding?",
+        "ts": "1460052857.000022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ie hadn't  completed ",
+        "ts": "1460052866.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "no",
+        "ts": "1460052871.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I was doing it through code",
+        "ts": "1460052877.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "skipped onboarding",
+        "ts": "1460052889.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats pretty odd.",
+        "ts": "1460053258.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just removed all references to ‘sync'",
+        "ts": "1460054823.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0EL0GLEL>: file upload doesn't seem to work at all. I know you said it worked locally, but how can you tell?",
+        "ts": "1460060274.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "because the files made it to the server",
+        "ts": "1460060298.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it looks like uploadWallpaper endpoint is never hit on server",
+        "ts": "1460060311.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so im not sure its a permissions issue",
+        "ts": "1460060342.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if i was running the node code via npm start on local host, it would upload the files and i could see them on the server",
+        "ts": "1460060348.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i just tried it again and it worked",
+        "ts": "1460060575.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "files are put here <https:\/\/console.cloud.google.com\/storage\/browser\/gldmbr-wallpaper\/?project=tidy-federation-859>",
+        "attachments": [
+            {
+                "title": "Google Cloud Platform",
+                "title_link": "https:\/\/console.cloud.google.com\/storage\/browser\/gldmbr-wallpaper\/?project=tidy-federation-859",
+                "text": "Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google.",
+                "fallback": "Google Cloud Platform",
+                "from_url": "https:\/\/console.cloud.google.com\/storage\/browser\/gldmbr-wallpaper\/?project=tidy-federation-859",
+                "id": 1
+            }
+        ],
+        "ts": "1460060597.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i am running locally and it doesn't even try to upload",
+        "ts": "1460060639.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you send me your main.js file",
+        "ts": "1460060644.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "strange, sure",
+        "ts": "1460060657.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1460060671.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0YUD8EDQ\/main.js|main.js>",
+        "file": {
+            "id": "F0YUD8EDQ",
+            "created": 1460060702,
+            "timestamp": 1460060702,
+            "name": "main.js",
+            "title": "main.js",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U0EL0GLEL",
+            "editable": true,
+            "size": 50491,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0YUD8EDQ\/main.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0YUD8EDQ\/download\/main.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0YUD8EDQ\/main.js",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0YUD8EDQ-8b36867ff6",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0YUD8EDQ\/main.js\/edit",
+            "preview": "$(document).ready(function() {\n\tvar newsObj = {media: [], images: []},\n\tpushObj = {},\n\tartistObj = {media: [], links: []},\n\tmonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">$<\/span>(<span class=\"cm-variable\">document<\/span>).<span class=\"cm-property\">ready<\/span>(<span class=\"cm-keyword\">function<\/span>() {<\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">var<\/span> <span class=\"cm-def\">newsObj<\/span> <span class=\"cm-operator\">=<\/span> {<span class=\"cm-property\">media<\/span>: [], <span class=\"cm-property\">images<\/span>: []},<\/pre><\/div>\n<div><pre>\t<span class=\"cm-def\">pushObj<\/span> <span class=\"cm-operator\">=<\/span> {},<\/pre><\/div>\n<div><pre>\t<span class=\"cm-def\">artistObj<\/span> <span class=\"cm-operator\">=<\/span> {<span class=\"cm-property\">media<\/span>: [], <span class=\"cm-property\">links<\/span>: []},<\/pre><\/div>\n<div><pre>\t<span class=\"cm-def\">months<\/span> <span class=\"cm-operator\">=<\/span> [<span class=\"cm-string\">'January'<\/span>, <span class=\"cm-string\">'February'<\/span>, <span class=\"cm-string\">'March'<\/span>, <span class=\"cm-string\">'April'<\/span>, <span class=\"cm-string\">'May'<\/span>, <span class=\"cm-string\">'June'<\/span>, <span class=\"cm-string\">'July'<\/span>, <span class=\"cm-string\">'August'<\/span>, <span class=\"cm-string\">'September'<\/span>, <span class=\"cm-string\">'October'<\/span>, <span class=\"cm-string\">'November'<\/span>, <span class=\"cm-string\">'December'<\/span>],<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1670,
+            "lines_more": 1665,
+            "preview_is_truncated": null,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1460060703.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1460060710.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "actually could you just attach the file?",
+        "ts": "1460060718.000043"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0YSLRVDH\/main.js|main.js>",
+        "file": {
+            "id": "F0YSLRVDH",
+            "created": 1460060769,
+            "timestamp": 1460060769,
+            "name": "main.js",
+            "title": "main.js",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "U0EL0GLEL",
+            "editable": true,
+            "size": 50491,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0YSLRVDH\/main.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0YSLRVDH\/download\/main.js?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0YSLRVDH\/main.js",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0YSLRVDH-6e9ac1d41d",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0YSLRVDH\/main.js\/edit",
+            "preview": "$(document).ready(function() {\n\tvar newsObj = {media: [], images: []},\n\tpushObj = {},\n\tartistObj = {media: [], links: []},\n\tmonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">$<\/span>(<span class=\"cm-variable\">document<\/span>).<span class=\"cm-property\">ready<\/span>(<span class=\"cm-keyword\">function<\/span>() {<\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">var<\/span> <span class=\"cm-def\">newsObj<\/span> <span class=\"cm-operator\">=<\/span> {<span class=\"cm-property\">media<\/span>: [], <span class=\"cm-property\">images<\/span>: []},<\/pre><\/div>\n<div><pre>\t<span class=\"cm-def\">pushObj<\/span> <span class=\"cm-operator\">=<\/span> {},<\/pre><\/div>\n<div><pre>\t<span class=\"cm-def\">artistObj<\/span> <span class=\"cm-operator\">=<\/span> {<span class=\"cm-property\">media<\/span>: [], <span class=\"cm-property\">links<\/span>: []},<\/pre><\/div>\n<div><pre>\t<span class=\"cm-def\">months<\/span> <span class=\"cm-operator\">=<\/span> [<span class=\"cm-string\">'January'<\/span>, <span class=\"cm-string\">'February'<\/span>, <span class=\"cm-string\">'March'<\/span>, <span class=\"cm-string\">'April'<\/span>, <span class=\"cm-string\">'May'<\/span>, <span class=\"cm-string\">'June'<\/span>, <span class=\"cm-string\">'July'<\/span>, <span class=\"cm-string\">'August'<\/span>, <span class=\"cm-string\">'September'<\/span>, <span class=\"cm-string\">'October'<\/span>, <span class=\"cm-string\">'November'<\/span>, <span class=\"cm-string\">'December'<\/span>],<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1670,
+            "lines_more": 1665,
+            "preview_is_truncated": null,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1460060771.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh thats weird.",
+        "ts": "1460060777.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it just posts it like this on upload",
+        "ts": "1460060787.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill download it",
+        "ts": "1460060789.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no problem",
+        "ts": "1460060793.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "didn't realize it would autoparse",
+        "ts": "1460060796.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm. not different. I dont understand, when i click upload wallpaper it just refreshes the page - the metadata ends up there, but the file doesnt",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1460061189.000000"
+        },
+        "ts": "1460061187.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im going to guess possibly something with auth, on my local i had to edit the backend\/auth\/index.js basically remove auth checks so i could work on it locally. and i wouldnt want to commit that.",
+        "ts": "1460061395.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill check the routes",
+        "ts": "1460061716.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fixed.",
+        "ts": "1460067136.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the metadata upload had a refresh in the success callback, so when it completed, it killed the file upload async",
+        "ts": "1460067160.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0EL0GLEL>: is there anything i should know about the framecount?",
+        "ts": "1460069439.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like is it just the raw number of files in the zip?",
+        "ts": "1460069446.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or is there an off by one thing?",
+        "ts": "1460069454.000058"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "It's the raw number 0 based so one less",
+        "ts": "1460069513.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok thanks",
+        "ts": "1460069524.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, that sucks.",
+        "ts": "1460069533.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "how so?",
+        "ts": "1460069893.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause i already uploaded them with the framecount to the file count",
+        "ts": "1460070124.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i just have to fix the entities",
+        "ts": "1460070130.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, there's nothing in the UI that lets you know that",
+        "ts": "1460070139.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im just cranky cause its tedious",
+        "ts": "1460070202.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> when you're done remote blind debugging a google store server, could you let me know what i should do about editions build?",
+        "ts": "1460071419.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":simple_smile:",
+        "ts": "1460071422.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: you put in the new google-services.json?",
+        "ts": "1460071458.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you send me it?",
+        "ts": "1460071467.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i didn't get it",
+        "ts": "1460071469.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i assume you mean the one adam generated on the call)",
+        "ts": "1460071489.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ohp",
+        "ts": "1460071498.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ohp = the new \"welp\"",
+        "ts": "1460071517.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1460071522.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I would use the two in different contexts",
+        "ts": "1460071564.000076"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":hushed:",
+        "ts": "1460071589.000077"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "“ohp\"",
+        "ts": "1460071601.000078"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J> want me to share with kat cass? or are you still testing",
+        "ts": "1460072602.000079"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i should have brought a 5x home last week",
+        "ts": "1460072608.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Tested on 6P",
+        "ts": "1460072619.000081"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gonna run it overnight, but at very least sending the debug build to her would probably make sense",
+        "ts": "1460072635.000082"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "k",
+        "ts": "1460072649.000083"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm sharing the unsigned with just you <@U06DFL7BP>",
+        "ts": "1460072649.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks charles!",
+        "ts": "1460072653.000085"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/i.imgur.com\/nmVV632.gif>",
+        "attachments": [
+            {
+                "fallback": "176x233px image",
+                "image_url": "http:\/\/i.imgur.com\/nmVV632.gif",
+                "image_width": 176,
+                "image_height": 233,
+                "image_bytes": 112699,
+                "is_animated": true,
+                "from_url": "http:\/\/i.imgur.com\/nmVV632.gif",
+                "id": 1
+            }
+        ],
+        "ts": "1460072653.000086"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "k",
+        "ts": "1460072653.000087"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "wait you already shared an unsigned?",
+        "ts": "1460072691.000089"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or was that signed debug",
+        "ts": "1460072694.000090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i thought i shared signed debug",
+        "ts": "1460072718.000091"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "with everyone",
+        "ts": "1460072721.000092"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you did",
+        "ts": "1460072723.000093"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and just unsigned with you",
+        "ts": "1460072725.000094"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you just called it unsigned",
+        "ts": "1460072726.000095"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "got it",
+        "ts": "1460072728.000096"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I am lead attorney on this case, <@U06DFL7BP>",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1460072747.000000"
+        },
+        "ts": "1460072745.000097"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and as lead attorney, we can all agree, i'm sure, that occasionally a few words might get mixed up in the naming of files",
+        "ts": "1460072775.000099"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’m gonna exonerate myself based on my dna",
+        "ts": "1460072787.000100"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "YOURE GOING TO SET THIS CITY ON FIRE",
+        "ts": "1460072801.000101"
+    }
+]

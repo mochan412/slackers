@@ -1,0 +1,421 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hey <!channel>, so I was looking at the new stumptown website and noticed they’re doing something pretty clever with responsive images. They seem to have it set up so instead of choosing 3-4 different image sizes for the CMS to crop, the cropping occurs when the page load. The backend crops the image based on a size you pass on load so you get exactly what you need.",
+        "ts": "1436287560.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "on demand + cache I'd assume. didn't we do something like this before?",
+        "ts": "1436287595.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I don’t think so unless it happened on a project I didn’t work on. Also, I know this isn’t something new.",
+        "ts": "1436287645.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The main benefit is for front-end performance since stretching\/resizing big images is will considerably affect performance.",
+        "ts": "1436287844.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "By crop do you mean resize? Looks to me like they're using a finite number of image sizes loaded from urls like we do",
+        "ts": "1436287912.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<http:\/\/images.contentful.com\/3h0qt25be5vd\/1s2UxBCZnKGq6aeQaaEWQi\/2579003fad13d6c1ea0938a2c0acfa32\/Brew_Guide-FiltronColdBrew-Grid.jpg?w=920>",
+        "attachments": [
+            {
+                "fallback": "920x756px image",
+                "image_url": "http:\/\/images.contentful.com\/3h0qt25be5vd\/1s2UxBCZnKGq6aeQaaEWQi\/2579003fad13d6c1ea0938a2c0acfa32\/Brew_Guide-FiltronColdBrew-Grid.jpg?w=920",
+                "image_width": 920,
+                "image_height": 756,
+                "image_bytes": 93638,
+                "from_url": "http:\/\/images.contentful.com\/3h0qt25be5vd\/1s2UxBCZnKGq6aeQaaEWQi\/2579003fad13d6c1ea0938a2c0acfa32\/Brew_Guide-FiltronColdBrew-Grid.jpg?w=920",
+                "id": 1
+            }
+        ],
+        "ts": "1436287922.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "from this page <https:\/\/www.stumptowncoffee.com\/brew-guides>",
+        "attachments": [
+            {
+                "service_name": "Stumptown Coffee Roasters",
+                "title": "Brewing Guide Learn To Brew the Best Coffee | Stumptown",
+                "title_link": "https:\/\/www.stumptowncoffee.com\/brew-guides",
+                "text": "Learn the ins and outs of popular brewing methods with coffee brew guides from Stumptown Coffee Roasters.",
+                "fallback": "Stumptown Coffee Roasters: Brewing Guide Learn To Brew the Best Coffee | Stumptown",
+                "image_url": "https:\/\/d3r55vhm3z8vu.cloudfront.net\/assets\/graphics\/og-image-13b24fb42110f58c97cb8c45e8244517.png",
+                "from_url": "https:\/\/www.stumptowncoffee.com\/brew-guides",
+                "image_width": 462,
+                "image_height": 250,
+                "image_bytes": 24151,
+                "id": 1
+            }
+        ],
+        "ts": "1436287946.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Their home page uses the same scheme we do",
+        "ts": "1436287989.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes, I image it’s because they don’t have big images and\/or hover effects (which combined with image resizing are a perf nightmare).",
+        "ts": "1436288117.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "They sort of chose the right sizing technique depending on the use case.",
+        "ts": "1436288311.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "aw they're using contentful. Do you mean the initial resizing that happens on page load is a nightmare?",
+        "ts": "1436288314.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "When the browser displays an image that has been resized via CSS it uses a non-trivial amount of resources. When you have multiple images that are big, the performance hit is considerable especially while scrolling or animating those images.",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1436288596.000000"
+        },
+        "ts": "1436288477.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Yeah I see that, I'm trying to understand more specifically what you see as the performance nightmare here. Do you think it would be a considerable upgrade to be able to load a very specific image size on page load instead of choosing the best fit from 6-8 options?",
+        "ts": "1436289054.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "The stumptown site still appears to be bucketing its image sizes like we do, even though those endpoints will work for any size requested",
+        "ts": "1436289197.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Interesting. I get exact sizes. Try w=831  or w=1013",
+        "ts": "1436289294.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "You mean from the endpoint or setting my browser to that width?",
+        "ts": "1436289325.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "From the endpoint (<http:\/\/images.contentful.com\/3h0qt25be5vd\/1s2UxBCZnKGq6aeQaaEWQi\/2579003fad13d6c1ea0938a2c0acfa32\/Brew_Guide-FiltronColdBrew-Grid.jpg?w=831>)",
+        "attachments": [
+            {
+                "fallback": "831x683px image",
+                "image_url": "http:\/\/images.contentful.com\/3h0qt25be5vd\/1s2UxBCZnKGq6aeQaaEWQi\/2579003fad13d6c1ea0938a2c0acfa32\/Brew_Guide-FiltronColdBrew-Grid.jpg?w=831",
+                "image_width": 831,
+                "image_height": 683,
+                "image_bytes": 78217,
+                "from_url": "http:\/\/images.contentful.com\/3h0qt25be5vd\/1s2UxBCZnKGq6aeQaaEWQi\/2579003fad13d6c1ea0938a2c0acfa32\/Brew_Guide-FiltronColdBrew-Grid.jpg?w=831",
+                "id": 1
+            }
+        ],
+        "ts": "1436289347.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Yeah, the endpoint will give you any size. I'm saying that the site still uses image size buckets like we do.",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1436289578.000000"
+        },
+        "ts": "1436289399.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I think we’re talking about 2 different things. Let’s chat offline.",
+        "ts": "1436289525.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "OK",
+        "ts": "1436289545.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026PLK4S> thanks for putting that deck together, looks great",
+        "ts": "1436291232.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "np. You want to recommend the “integrated nav” approach, correct?",
+        "ts": "1436291266.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yep",
+        "ts": "1436291275.000029"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "hi guys",
+        "ts": "1436292196.000030"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "we’re starting prep in glass shortly - justin and i are just wrapping a meeting with marce + john",
+        "ts": "1436292221.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "actually - lets move to 390 - glass sucks for conference calls",
+        "ts": "1436292360.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<!channel> did we decide on just recommending pull quote or do we want to address short text vs long text?",
+        "ts": "1436294305.000033"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "<!channel> we’re going to update this deck for oussama + susan with our responses to their feedback, but i’m going to clarify that it doesn’t require further feedback from them",
+        "ts": "1436294689.000034"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "their final round of feedback will come on 7\/15 in response to our final deck",
+        "ts": "1436294707.000035"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "i’m going to tackle mentors",
+        "ts": "1436294737.000036"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "if it comes up",
+        "ts": "1436294746.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "is this the final design\/ux deck?",
+        "ts": "1436294789.000038"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "<@U02613K0X> we’re responding to their last round of visual design feedback on this call and using the ADPP_feedback2 deck to outline our responses",
+        "ts": "1436294852.000039"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "the final design\/ux deck will be delivered friday 7\/10",
+        "ts": "1436294864.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Ok so you're talking about the feedback deck. I'm trying to stay at least one step ahead of the client on design\/ux decks just so there aren't any surprises that impact dev.",
+        "ts": "1436295007.000041"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "Yep!",
+        "ts": "1436295020.000042"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "the updates to the feedback deck are just further clarifications for susan and oussama (not on the call)",
+        "ts": "1436295044.000043"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "those updates do not invite further feedback on this deck",
+        "ts": "1436295055.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ok cool gotcha",
+        "ts": "1436295069.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "can we post to slack as new decks get created\/available for viewing?",
+        "ts": "1436295154.000046"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "yes! <@U026PLK4S> <@U0260V1BX> ^",
+        "ts": "1436295399.000047"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F07A3AZN1\/adpp_feedback2.pdf|ADPP_feedback2.pdf> and commented: <@U02613K0X> here’s the one we just walked through with the client",
+        "file": {
+            "id": "F07A3AZN1",
+            "created": 1436295442,
+            "timestamp": 1436295442,
+            "name": "ADPP_feedback2.pdf",
+            "title": "ADPP_feedback2.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 4617080,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07A3AZN1\/adpp_feedback2.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07A3AZN1\/download\/adpp_feedback2.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F07A3AZN1\/adpp_feedback2.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F07A3AZN1-49759ecd04",
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc07A34CFN",
+                "created": 1436295445,
+                "timestamp": 1436295445,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "<@U02613K0X> here’s the one we just walked through with the client"
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1436295445.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "thanks!!",
+        "ts": "1436295457.000049"
+    },
+    {
+        "type": "message",
+        "user": "U04JZANJF",
+        "text": "<!channel>: - trello is up to date with post-call to dos",
+        "ts": "1436295801.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "I’ll be posting ADPP_feedback3.pdf in a few here.",
+        "ts": "1436296007.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "couple small \/ medium changes &amp; additions",
+        "ts": "1436296031.000052"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PLK4S|matt> uploaded a file: <https:\/\/uncorked.slack.com\/files\/matt\/F07A6CLBY\/adpp_feedback3.pdf|ADPP_feedback3.pdf> and commented: <!channel>: here’s the updated deck. (Jenny, page 11 is adding a “photo only\" slide type.)",
+        "file": {
+            "id": "F07A6CLBY",
+            "created": 1436299364,
+            "timestamp": 1436299364,
+            "name": "ADPP_feedback3.pdf",
+            "title": "ADPP_feedback3.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U026PLK4S",
+            "editable": false,
+            "size": 5162541,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07A6CLBY\/adpp_feedback3.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07A6CLBY\/download\/adpp_feedback3.pdf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/matt\/F07A6CLBY\/adpp_feedback3.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F07A6CLBY-f1359d83ec",
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc07A6BU2D",
+                "created": 1436299367,
+                "timestamp": 1436299367,
+                "user": "U026PLK4S",
+                "is_intro": true,
+                "comment": "<!channel>: here’s the updated deck. (Jenny, page 11 is adding a “photo only\" slide type.)"
+            }
+        },
+        "user": "U026PLK4S",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "matt",
+        "bot_id": null,
+        "ts": "1436299367.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "not sure how video will fit into this, but like the previous idea of determining these “types” by what the user inputs. Caption + Photo = Standard. Caption only = Text. etc.",
+        "ts": "1436299446.000054"
+    }
+]

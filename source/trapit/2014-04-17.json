@@ -1,0 +1,488 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Do we have a link to the data (JSON) for the Additional Content blocks?",
+        "ts": "1397756074.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Well, it’s coming from the Trapit API, so it depends on what exactly they want their traps to be I suppose",
+        "ts": "1397756289.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I can check with client",
+        "ts": "1397756301.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "we have a meeting with him at noon on another topic, but i'll bring that to the table",
+        "ts": "1397756326.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Scott and I talked about letting them change the traps in the CMS too",
+        "ts": "1397756332.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "actually - if you all have any questions, please list them out and we'll get as much as possible",
+        "ts": "1397756351.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i'm out of loop on the dev aspects of project right now",
+        "ts": "1397756366.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> but do we have Trapit end point available now just for front-end design purposes?",
+        "ts": "1397756406.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Scott and I met and talked about the data model and he’s started setting it up on deployd",
+        "ts": "1397756411.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0265G76F> Will do.",
+        "ts": "1397756417.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I don’t know Trapit API endpoints",
+        "ts": "1397756450.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> OK. My understanding was that we were getting the data directly from Trapit (as opposed to the CMS) but sounds like that changed.",
+        "ts": "1397756500.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1> we’re still getting it from Trapit",
+        "ts": "1397756520.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "but there is a place in the CMS to modify the traps they want",
+        "ts": "1397756534.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "so we always get the data from Trapit, but which endpoint we hit to get the data is controlled in the CMS",
+        "ts": "1397756568.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "that’s what Scott and I were thinking, anyway",
+        "ts": "1397756598.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "do we have the Trapit API endpoints or no, not at the moment\/",
+        "ts": "1397759113.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "My bad, <@U026AP8CM> I thought we weren't going to use the CMS to get that data but rather talk directly with the Trapit API from the FE. No problem on my end. I can design the front-end with dummy data.",
+        "ts": "1397759633.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1>:  we are talking directly to the Trapit API from the frontend",
+        "ts": "1397759653.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "the Trapit API endpoint, i.e., which traps they want exactly, is all that’s controlled in the CMS",
+        "ts": "1397759697.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Ohh, that makes more sense. We should probably sync up later on CMS + FE comm. I feel poorly informed about what we're doing in the back end.",
+        "ts": "1397759806.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "I'll put time in the books for a trapit catch up. Unless we're okay tacking it onto the end of Small Batch check in at 2?",
+        "ts": "1397759841.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1> I totally agree. Now that we’re talking about it, it may be that Scott was thinking the CMS would control the Trapit API url, but a deployed endpoint would fetch and return the trap data to you",
+        "ts": "1397759875.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026AP8CM> i’m fine with that",
+        "ts": "1397759915.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Me too",
+        "ts": "1397759982.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Great 2 it is.",
+        "ts": "1397760157.000027"
+    },
+    {
+        "text": "[trapit-site-2014\/] 3 new commits:\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/8a6eed32746ea86ee61d1a83e3146bbe29844649|8a6eed32746e>: Changed video link.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/5f76193f0bd8e169603a08badf27dccff1fea4d5|5f76193f0bd8>: Updated hero on resources\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/abcd72359de46d60931f26fcf6f5d315f2741a43|abcd72359de4>: Added resource page styles and white paper blocks.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B028E7DJW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1397760192.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Just to confirm - it was my expectation from chatting with Jenny - that the CMS would simply manage the trapit URLs used to acquire content to be displayed...  so backend would hand the front-end a trapit URL and FE would be responsible for ajax-fetch of the content and display.",
+        "ts": "1397760881.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay cool that’s what I took away as well. just wanted to double check on who was making the final trapit api call",
+        "ts": "1397760964.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "hey all",
+        "ts": "1397763180.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "just off a call with Hank on a number of topics",
+        "ts": "1397763189.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "not the least of which is that they're meeting internally tomorrow to figure out the actual content they're going to be building for those Trapit materials discussed above",
+        "ts": "1397763219.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "in the meantime, i've asked him to send us temp feeds that we can build from",
+        "ts": "1397763238.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and will ultimately just need to alter the specifics before we go live",
+        "ts": "1397763257.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Thanks David",
+        "ts": "1397763273.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I also want to check on getting a staging site set up. What steps do we need to do have that be a reality?",
+        "ts": "1397763424.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "AND making sure we have a clear understanding of our CMS vs. Hubspot integration",
+        "ts": "1397763450.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "question from the Trapit marketing team about how we're building this: They're wondering how much of the new design will be graphics vs. actual type. Specifically thinking about the \"it's relevance\" type of stuff. \n\nMy gut feeling is that \"It's\" will be a graphic of some sort, while the other aspects are type. Correct?",
+        "ts": "1397766320.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "the Its will definitely need to be a graphic",
+        "ts": "1397766409.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "as far as the words that are paired with it",
+        "ts": "1397766418.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i'll defer to <@U02618EV1> on whether those should be image or type",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1397766471.000000"
+        },
+        "ts": "1397766429.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "certainly having the statement as a single image will make it scale better...not sure if any alignment issues will arise if it's live type",
+        "ts": "1397766463.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "for sure their hope is that any type should be type",
+        "ts": "1397766518.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "right",
+        "ts": "1397766535.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Sorry, I missed this. My plan was going to make \"!it's\" a character in an icon font and the rest be type.",
+        "ts": "1397767706.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sweet",
+        "ts": "1397767742.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That way everything is on the same baseline and scales to the same proportions.",
+        "ts": "1397767746.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "perfect!",
+        "ts": "1397767754.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "iamewald: your statements above about what is type and what is graphics alarms me...  has the trapit marketing team seen the annotated jpegs that detail what is dynamic and what is static?   Because they are asking about those things, it makes me think they are expecting to be able to modify\/change them...   when you currently have spec'd them as static.",
+        "ts": "1397767996.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i think it's more of an SEO question",
+        "ts": "1397768031.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i'm pretty sure hank is on board with all of that hero stuff being static",
+        "ts": "1397768049.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but i may be wrong",
+        "ts": "1397768060.000054"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1397770584.000055"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "A file was commented on",
+        "file": null,
+        "comment": null,
+        "ts": "1397770599.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02618EV1>: with regards to the blog posts with the corners cut off.... let's keep the cut off corners and forgo the dropshadow on hover",
+        "ts": "1397770703.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "instead I think the post title should change color on hover. Let's just go with a slightly lighter gray for the time being.",
+        "ts": "1397770771.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Sounds good. We're keeping the stroke, right?",
+        "ts": "1397770956.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yep!",
+        "ts": "1397770963.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0260V1BX> Thanks!!",
+        "ts": "1397771132.000061"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0260V1BX> On the couple of blocks that have a tabbed interface + infinite scroll: Is it OK that after scrolling a few pages on tab going to another and then back to the original tab will load it from the top?",
+        "ts": "1397772322.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes",
+        "ts": "1397772370.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thats fine",
+        "ts": "1397772371.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Cool, thanks.",
+        "ts": "1397772377.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey gaston i have a couple very minor style changes that i made to the What People Are Saying page to make it more consistent with other pages.... mainly its just the treatment of those testimonial tiles",
+        "ts": "1397772412.000066"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1397772430.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "basically, the testimonial tiles are now white with the light gray stroke... and the case study download button changes to #f8f8f8 to match the download buttons on the resources page",
+        "ts": "1397772495.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "ok",
+        "ts": "1397772507.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i also added a \"download case study\" button for the featured testimonials",
+        "ts": "1397772508.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "since all testimonials have the option to have a case study",
+        "ts": "1397772520.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "OK",
+        "ts": "1397772555.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i'm posting the latest PSD to the nas",
+        "ts": "1397772558.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sorry - catching up on this. <@U0289USNA>: Trapit is on board with static vs. live. This is more a SEO question",
+        "ts": "1397772863.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "not that I want to go make everything dynamic - but what does \"this is more a SEO question\" have to do with whether or not it's dynamic or static...   gaston is (will be) rendering the pages server side, so browsers\/webcrawlers will view everything as \"static\" (except the traps)",
+        "ts": "1397773598.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "not so much 'static' as it is live type vs. a graphic",
+        "ts": "1397773616.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "it can still be 'static' from CMS perpsective",
+        "ts": "1397773627.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but they're wondering if everything is going to be a graphic",
+        "ts": "1397773634.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "ok. - i get it.",
+        "ts": "1397773642.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "We have a working staging site. For now only the first 3 nav links have content.",
+        "ts": "1397781334.000080"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<http:\/\/trdev.uncorkedstudios.com\/>",
+        "ts": "1397781335.000081"
+    }
+]

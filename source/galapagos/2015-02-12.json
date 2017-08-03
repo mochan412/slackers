@@ -1,0 +1,92 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Looks like our site is down. Looking into it now. Don't know if it has anything to do with this <http:\/\/status.mediatemple.net\/>",
+        "attachments": [
+            {
+                "text": "Welcome to (mt) Media Temple's home for real-time and historical data on system performance.",
+                "fallback": "Welcome to (mt) Media Temple's home for real-time and historical data on system performance.",
+                "from_url": "http:\/\/status.mediatemple.net\/",
+                "id": 1
+            }
+        ],
+        "ts": "1423765235.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "huh. Are we able to do their recommended action there to see?",
+        "ts": "1423765309.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I believe so.",
+        "ts": "1423765360.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "scott is walking in now and will look into it",
+        "ts": "1423765638.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks <@U026103R3>",
+        "ts": "1423765653.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "This looks specifically to be something to do with the node app on the media temple box.",
+        "ts": "1423765923.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "AWS - backend API and CMS are all fine",
+        "ts": "1423765942.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "OK",
+        "ts": "1423765954.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "other things on the media temple box are also responding fine.",
+        "ts": "1423765967.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "like this: <http:\/\/skypest.uncorkedstudios.com>",
+        "attachments": [
+            {
+                "service_name": "Skype Stay Together",
+                "title": "Skype Stay Together | Skype Stay Together",
+                "title_link": "http:\/\/skypest.uncorkedstudios.com",
+                "text": "Welcome to Skype's Stay Together stories. See The Impossible Family Portrait and watch Denis' story. Read other Stay Together stories and share your own. Or find your faraway friends on a map.",
+                "fallback": "Skype Stay Together: Skype Stay Together | Skype Stay Together",
+                "image_url": "http:\/\/skypest.uncorkedstudios.com\/wp-content\/uploads\/2013\/07\/denis_home.jpg",
+                "ts": 1368052229,
+                "from_url": "http:\/\/skypest.uncorkedstudios.com",
+                "image_width": 396,
+                "image_height": 250,
+                "image_bytes": 286608,
+                "id": 1
+            }
+        ],
+        "ts": "1423765979.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I restarted the node server and it now loads",
+        "ts": "1423766200.000014"
+    }
+]

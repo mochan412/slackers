@@ -1,0 +1,65 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "On my dev VM, I'm getting a 401 Unauthorized from AWS when I try to restart the server or run the `manage.py collectstatic` script... how do I update AWS creds?",
+        "ts": "1499986653.119089"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!here|@here> ^",
+        "ts": "1499986675.126100"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "hmm",
+        "ts": "1499986707.135674"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "is it the datetime fuckup",
+        "ts": "1499986714.137703"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "`sudo service ntp stop ; sudo ntpdate -s <http:\/\/time.nist.gov|time.nist.gov> ; sudo service ntp start`",
+        "ts": "1499986735.144305"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "that worked! Thanks <@U243UT96G>",
+        "ts": "1499986798.163645"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I was running through the dev setup steps while writing docs, so now I have a new thing to document :slightly_smiling_face:",
+        "ts": "1499986825.173386"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "oh!  yeah thanks - that should def be in there",
+        "ts": "1499986839.177821"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I just tried to run collectstatic, saw same error as marissa, and the datetime saved the day for me too!!",
+        "ts": "1499986945.211406",
+        "reactions": [
+            {
+                "name": "sweat_smile",
+                "users": [
+                    "U5PHRUDBM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

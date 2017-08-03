@@ -1,0 +1,290 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J>: reminder to get analytics actions for Bonnie",
+        "ts": "1470931258.000251"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks!",
+        "ts": "1470931643.000252"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: <https:\/\/github.com\/UncorkedStudios\/NfcChip>",
+        "ts": "1470932473.000253"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thank you",
+        "ts": "1470932535.000254"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i added two-way support to Basil and Editions (in source) so we can modify this to allow both",
+        "ts": "1470932562.000255"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh cool",
+        "ts": "1470932571.000256"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah phooey just realized we didn't remove the ability to choose a map style for users who opt to use static case image",
+        "ts": "1470966418.000257"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "well they can't, but looks like they can. ",
+        "ts": "1470966448.000258"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i shouldve caught this but I'll send a note to bon",
+        "ts": "1470966478.000259"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ah I see, yeah it disables it but doesn't hide the button ",
+        "ts": "1470967020.000260"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Sorry about that, updating in code now. ",
+        "ts": "1470967031.000261"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah, got it. It is rebuilding the UI on return",
+        "ts": "1470967087.000262"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no biggie. we had talked about it previously I just failed to test it before sending which is on me. gave them the heads up that it's a known issue",
+        "ts": "1470967100.000263"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So the fact that I forgot to hide is makes it usable when you come back",
+        "ts": "1470967102.000264"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Damnit ",
+        "ts": "1470967103.000265"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "playing around with this build though and it's great!",
+        "ts": "1470967126.000266"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh wair",
+        "ts": "1470967129.000267"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Wsit",
+        "ts": "1470967131.000268"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I didn't merge that feature in",
+        "ts": "1470967139.000269"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah",
+        "ts": "1470967145.000270"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Give me 15 min, we can send an update",
+        "ts": "1470967148.000271"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I merged the functionality for the engine to load the cached image and didn't pull in that chagne",
+        "ts": "1470967172.000272"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(driving, so that's why I'm taking forever)",
+        "ts": "1470967203.000273"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "side note - really feel like the blur preview is overkill so feel free to come with a technical reasons to support not having it",
+        "ts": "1470967227.000274"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "It looks bad with cross-fading",
+        "ts": "1470967242.000275"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im walking the dog anyways. drive safe we can deal with it later or in the am",
+        "ts": "1470967253.000276"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "K I'll do a build in a min",
+        "ts": "1470967264.000277"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yep. 100% my fuckup from pulling that feature off and then putting it back in",
+        "ts": "1470967354.000278"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "reminder to future self: we should prob add a toast or something to user to indicate that static image will disable style + dynamic zoom but save battery (maybe) ",
+        "ts": "1470967527.000279"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "build sent",
+        "ts": "1470967928.000280"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sweet downloading w\/out wifi so dragging but will take a look and send unless I see anything wonky ",
+        "ts": "1470968186.000281"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you for doing that",
+        "ts": "1470968205.000282"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry didn't catch pre-send",
+        "ts": "1470968220.000283"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F>: do they really want Random?",
+        "ts": "1470968423.000284"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in the color picker",
+        "ts": "1470968433.000285"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i feel like they said no at one point, and maybe that creeped in from a screenshot that she used in the deck",
+        "ts": "1470968448.000286"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah according to their internal deck \/ mocks",
+        "ts": "1470968467.000287"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thought could get killed again for sure",
+        "ts": "1470968480.000288"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "though*",
+        "ts": "1470968496.000289"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "if you select a map style (say pink dolka dots) and have it set, but then lager decide to match your case location, the previous style still appears in your preview and as selected styles",
+        "ts": "1470969083.000290"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "which is maybe okay but a little weird as o would expect to be able to preview that case image ",
+        "ts": "1470969128.000291"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and maybe just hide the styles previously selected altogether if user toggles",
+        "ts": "1470969175.000292"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "not sure if that's possible (or a nightmare) but wanted to raise could be confusing ux",
+        "ts": "1470969196.000293"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(also my phone might die shortly)",
+        "ts": "1470969222.000294"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Or maybe using \"match case location\" should be \"match case image\" so doesn't suggest it's customizable? ",
+        "ts": "1470969398.000295"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I dunno happy to send but we should talk through when we can",
+        "ts": "1470969426.000296"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ohhh yeah good call",
+        "ts": "1470969685.000297"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think def call that out proactively",
+        "ts": "1470969717.000298"
+    }
+]

@@ -1,0 +1,227 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hey y'all",
+        "ts": "1470071087.000220"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ>: could you send the trends URLs that are getting called so that <@U051P3FPY> can take a look? we're only getting a couple trends per request, and i assume i fucked up the URL format for the \"20 or so\" hot trends",
+        "ts": "1470071119.000221"
+    },
+    {
+        "user": "U1S5GKTHQ",
+        "inviter": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ|dimitry> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1470071124.000222"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "pinging `<https:\/\/www.google.com\/trends\/hottrends\/hotItems>` w\/ `ajax=1`, `htv=l`, and `pn=p1`",
+        "edited": {
+            "user": "U1S5GKTHQ",
+            "ts": "1470071862.000000"
+        },
+        "ts": "1470071381.000223"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "ex: `<https:\/\/www.google.com\/trends\/hottrends\/hotItems?htv=l&amp;ajax=1&amp;pn=p1>`",
+        "ts": "1470071891.000225"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U026PHQ3J>: looks like there are 20 for yesterday but since we’re focused on today only, there are only 3 so far. guessing list grows as day goes on",
+        "ts": "1470072243.000226"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "Yeah… it usually takes all day to populate 20 hot trends… which kinda makes sense because it takes a while to accumulate enough searches for it to be considered trending for the day...",
+        "ts": "1470072493.000227"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "makes sense",
+        "ts": "1470072546.000228"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ah, so is there a way to window back 24 hours ",
+        "ts": "1470073062.000229"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or do you just roll them off?",
+        "ts": "1470073069.000230"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Looks like API returns current and last day. Do we always want last 20 no matter what the day is?",
+        "ts": "1470073423.000231"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "Yeah, you can window for past day I believe and say there were 20 from yesterday and 4 from today, it will give you 24 trends. But they are in order of most recent to least so you can just grab the top twenty?",
+        "ts": "1470073464.000232"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "can do!",
+        "ts": "1470073561.000233"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "<@U026PHQ3J>: just shared a google sheet of countries -&gt; URL codes",
+        "ts": "1470073705.000234"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Pls add Dimitry ",
+        "ts": "1470074685.000235"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(sorry haven't opened yet)",
+        "ts": "1470074691.000236"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ>: does it make more sense for me to send you \"p1\" or \"US\" for example ",
+        "ts": "1470074723.000237"
+    },
+    {
+        "type": "message",
+        "user": "U1J4BQX7G",
+        "text": "shared with Dimitry",
+        "ts": "1470074738.000238"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup: ",
+        "ts": "1470074749.000239"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "thanks <@U1J4BQX7G>",
+        "ts": "1470074785.000240"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U026PHQ3J>: doesn’t matter. maybe let’s stick with p numbers",
+        "ts": "1470074798.000241"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> 3PR system health (need to complete today) <https:\/\/docs.google.com\/spreadsheets\/d\/1qtV3I2NnhF0rESkUVq3RyZHrgMS2M22B2TQUQ9bwNdA\/edit#gid=790914112>",
+        "ts": "1470075697.000242"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F1X8U688G\/screenshot_20160801-213729.png|Slack for Android Upload>",
+        "file": {
+            "id": "F1X8U688G",
+            "created": 1470112666,
+            "timestamp": 1470112666,
+            "name": "Screenshot_20160801-213729.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 348122,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1X8U688G\/screenshot_20160801-213729.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1X8U688G\/download\/screenshot_20160801-213729.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1X8U688G-e9ef787eba\/screenshot_20160801-213729_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1X8U688G-e9ef787eba\/screenshot_20160801-213729_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1X8U688G-e9ef787eba\/screenshot_20160801-213729_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1X8U688G-e9ef787eba\/screenshot_20160801-213729_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1X8U688G-e9ef787eba\/screenshot_20160801-213729_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1X8U688G-e9ef787eba\/screenshot_20160801-213729_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1X8U688G-e9ef787eba\/screenshot_20160801-213729_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F1X8U688G-e9ef787eba\/screenshot_20160801-213729_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F1X8U688G\/screenshot_20160801-213729.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1X8U688G-fe39beae32",
+            "channels": [
+                "C1JLGNM0F"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1470112670.000243"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Trends now running from our caching server. ",
+        "ts": "1470112683.000244",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1S5GKTHQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Once I get the country selector finalized (tomorrow am, probz) then trends is feature complete pending onboarding",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1470112740.000000"
+        },
+        "ts": "1470112729.000245"
+    }
+]

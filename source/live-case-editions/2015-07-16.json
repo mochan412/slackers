@@ -1,0 +1,573 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "my quick thoughts on how I’d see N cases working. let me know where the cracks are:",
+        "ts": "1437070069.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F07P5QC2K\/Untitled.txt|Untitled>",
+        "file": {
+            "id": "F07P5QC2K",
+            "created": 1437070080,
+            "timestamp": 1437070080,
+            "name": "Untitled.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U06DFL7BP",
+            "editable": true,
+            "size": 1119,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07P5QC2K\/Untitled.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07P5QC2K\/download\/Untitled.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F07P5QC2K\/Untitled.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F07P5QC2K-d6ee75b678",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/charlesv\/F07P5QC2K\/Untitled.txt\/edit",
+            "preview": "- Onboarding is based on which artist the just-activated case is for\n- Theme for app is based on what case you have active (and can be overridden in preferences). Would need to add to onboarding as selection, on second+ artist\n- Artist updates combines all unlocked artists, recycler view etc\n- Shortcut button can be configured on a per-case basis - button configuration screen has an option for selecting which case style you are configuring (ie skrillex, Leto, artist X based on unlocked artists), and you can select the options therein. options carry with case styles\n- Live wallpaper shows all unlocked artists in configuration, must be set explicitly, not tied to cases",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>- Onboarding is based on which artist the just-activated case is for<\/pre><\/div>\n<div><pre>- Theme for app is based on what case you have active (and can be overridden in preferences). Would need to add to onboarding as selection, on second+ artist<\/pre><\/div>\n<div><pre>- Artist updates combines all unlocked artists, recycler view etc<\/pre><\/div>\n<div><pre>- Shortcut button can be configured on a per-case basis - button configuration screen has an option for selecting which case style you are configuring (ie skrillex, Leto, artist X based on unlocked artists), and you can select the options therein. options carry with case styles<\/pre><\/div>\n<div><pre>- Live wallpaper shows all unlocked artists in configuration, must be set explicitly, not tied to cases<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 20,
+            "lines_more": 15,
+            "preview_is_truncated": true,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1437070080.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U06DFL7BP>: For the artist updates, do you see all artist updates in one list? or do you drill into it by selecting an artist first?",
+        "ts": "1437070532.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "In my mind I’d see all combined?",
+        "ts": "1437070559.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or rather: whichever ends up being cleaner",
+        "ts": "1437070576.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it seems better from the single-artist perspective to only have one list and no drill in",
+        "ts": "1437070618.000011"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I guess my point would be from a nav and presentation perspective, they’re always “available\"",
+        "ts": "1437070619.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "i think we could have them all combined in one list but maybe there is a way to collapse the info??",
+        "edited": {
+            "user": "U02F9CXTL",
+            "ts": "1437070635.000000"
+        },
+        "ts": "1437070623.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02F9CXTL>: one list, but filter to only show X?",
+        "ts": "1437070636.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "possibly - i can look for some google examples",
+        "ts": "1437070685.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "\"- Theme for app is based on what case you have active (and can be overridden in preferences)” \n- Does pressing a button on a new case update the app theme to the new artist?\n- Does pressing a button on an old case change the theme?",
+        "ts": "1437070883.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "my view would be there are N+1 options",
+        "ts": "1437070911.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Set to “always be artist X theme”, “artist Y theme” etc",
+        "ts": "1437070919.000019"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or “Always set theme to the most recently activate case\"",
+        "ts": "1437070928.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(ie this would be configured in an “app theme” preference)",
+        "ts": "1437071026.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "oh - i like the preference option",
+        "ts": "1437071215.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think by adding the theme to preferences, we’ll eventually have to add it as an option to onboarding",
+        "ts": "1437071219.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ie “set app theme to this case” or “keep my current option”?",
+        "ts": "1437071353.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah",
+        "ts": "1437071410.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "…do we think that’s bad? :simple_smile:",
+        "ts": "1437071875.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "not necessarily, just pointing it out",
+        "ts": "1437071960.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "to me, extra steps = bad, but no one is really going to read it anyway, it’s just another button to press",
+        "ts": "1437072025.000028"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "would  only need to on second artists and later, though, right?",
+        "ts": "1437072058.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "right",
+        "ts": "1437072074.000031"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "for a single artist you get whatever the case is",
+        "ts": "1437072077.000032"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so it’s an extra step in onboarding, but solves the issue for the edge case",
+        "ts": "1437072085.000033"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "‘case'",
+        "ts": "1437072101.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "turns out, there are lots of edge cases",
+        "ts": "1437072105.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "one more question, are nfc options based on the case that you’re customizing?",
+        "ts": "1437072480.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "or do you have access to all of the options no matter the case and\/or theme",
+        "ts": "1437072499.000037"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so the way I’d see NFC Button options working:",
+        "ts": "1437072503.000038"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Go to NFC Button options",
+        "ts": "1437072508.000039"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "it shows the options for the current active case",
+        "ts": "1437072512.000040"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you can also configure the options for the other cases via a dropdown or other selection",
+        "ts": "1437072520.000041"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so you couldn’t have skrillex open leto",
+        "ts": "1437072531.000042"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but you could configure leto while skrillex is on\/active for when you do put it on, assuming it’s been activated",
+        "ts": "1437072547.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "gotcha",
+        "ts": "1437072577.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think it’s a solid recommendation. kinda tedious to implement, but they all will be.",
+        "ts": "1437073104.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’d be nice to have some of these considerations recorded. There will come a point where they try to change everything, one detail at a time, slowly breaking it",
+        "ts": "1437073147.000046"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "this is all presuming we have one wallpaper exposed and all the configuraiton \/ selection happens in the app &lt;_&lt;,   &gt;_&gt;",
+        "ts": "1437073158.000047"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "oh, yes. i’d like to to talk through this with Adam and get buy in, write it up and get sign off and note that we can’t really change it without implications :simple_smile:",
+        "ts": "1437073191.000048"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "w\/r\/t our timeline discussions yesterday - what does the above change, if anything to the timeline for those changes?",
+        "ts": "1437073213.000049"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "(2 weeks of fulltime kat + 1 week for M + plus QA is what i had in my notes)",
+        "ts": "1437073315.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t think it changes too much. There’s a little more UI updating than I had originally thought, but I think it’s still doable on the same timeline",
+        "ts": "1437073351.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that could change based on designs for the new ideas. some simple things will take longer than I’d like them to (for instance, fading between multiple artist images)",
+        "ts": "1437073410.000052"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or we choose a generic artist image, or don’t fade, just cycle through",
+        "ts": "1437073432.000053"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "intent is just to not show only one artist",
+        "ts": "1437073441.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "for sure, and I don’t think that one thing will change the timeline, but having several items like that might",
+        "ts": "1437073476.000055"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02F9CXTL>: from a UX perspective, can you look at the snippet above? <https:\/\/uncorked.slack.com\/files\/charlesv\/F07P5QC2K\/Untitled.txt>",
+        "ts": "1437073490.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Artist updates:\nFade between multiple artists that have been unlocked, take to combined artist views",
+        "ts": "1437073557.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "what is this fading thing??",
+        "ts": "1437073562.000060"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "lol",
+        "ts": "1437073616.000061"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "just an idea!",
+        "ts": "1437073619.000062"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "on the home screen for the card that lists “skrillex updates” update to “artist updates” and for the image on the home screen, show images representing unlocked artists",
+        "ts": "1437073638.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "ahh - cool",
+        "ts": "1437073646.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "thats what i thought it might be for -",
+        "ts": "1437073658.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "yeah we can play some stuff for that",
+        "ts": "1437073667.000066"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "updated to say ‘transition’ :simple_smile:",
+        "ts": "1437073720.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "\"Notifications: \nOnly show notifications for unlocked artists (note: do we need an \"all\" category for\"",
+        "ts": "1437073761.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "i like an “all” option",
+        "ts": "1437073778.000070"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i.e. the user would only receive (or rather we’d destroy that aren’t) notifications for artists they’ve unlocked, but there should be a “google” category or somesuch that would present across all artists, regardless of selection",
+        "ts": "1437073804.000071"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "just to separate out of artist-specific notifications, or need to send across all of them",
+        "ts": "1437073828.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "W\/r\/T new timeline: should we think of solves for the app size",
+        "ts": "1437075922.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and specifically about preferences: allowing the user to change artist from prefs makes me nervous, but its something we have to solve",
+        "ts": "1437076256.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I actually think choosing from preferences is one of the more straightforward approaches, at least there is a hard value we can look at for the theme",
+        "ts": "1437076744.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah. thats true.",
+        "ts": "1437076859.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I had been assuming previously that we would only have one nfc action across all cases",
+        "ts": "1437077643.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they'd like it 1:1 case:action",
+        "ts": "1437077663.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I get it, but we’ll have to spend some time adding that in too",
+        "ts": "1437077699.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right.",
+        "ts": "1437077706.000080"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically we'll have to unroll my asynctask to pull the mime extra and make it sync",
+        "ts": "1437077721.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I was looking at that and workshop doesn’t use the async task",
+        "ts": "1437077734.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "is it necessary?",
+        "ts": "1437077736.000083"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its not necessary in workshop",
+        "ts": "1437077756.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "as an async",
+        "ts": "1437077761.000085"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it was async in livecase just because it was unclear as to what it was gonna be",
+        "ts": "1437077773.000086"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and wasn't important that it completed",
+        "ts": "1437077780.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh right",
+        "ts": "1437077799.000088"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0261PCRQ> <@U02F9CXTL> scheduled a quick 15min for us to gut check one last time",
+        "ts": "1437078200.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<https:\/\/medium.com\/ribot-labs\/exploring-the-new-android-permissions-model-ba1d5d6c0610>",
+        "attachments": [
+            {
+                "service_name": "Medium",
+                "title": "Exploring the new Android Permissions Model",
+                "title_link": "https:\/\/medium.com\/ribot-labs\/exploring-the-new-android-permissions-model-ba1d5d6c0610",
+                "text": "The approach to permissions for both users and developers is changing with Android M. Here we take a look at how they’ve…",
+                "fallback": "Medium: Exploring the new Android Permissions Model",
+                "image_url": "https:\/\/d262ilb51hltx0.cloudfront.net\/max\/800\/1*jX5iqqYn6cFtt6wAHYU2xw.jpeg",
+                "ts": 1436966352,
+                "from_url": "https:\/\/medium.com\/ribot-labs\/exploring-the-new-android-permissions-model-ba1d5d6c0610",
+                "image_width": 376,
+                "image_height": 250,
+                "image_bytes": 89328,
+                "id": 1
+            }
+        ],
+        "ts": "1437081156.000090"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I have a huge chunk of changes to LiveCase",
+        "ts": "1437087862.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "is there anything you two want to commit first? <@U051P3FPY> <@U026PHQ3J>",
+        "ts": "1437087876.000093"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "noooooooooooooooo",
+        "ts": "1437087885.000094"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "i got nothing",
+        "ts": "1437087954.000095"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "k cool",
+        "ts": "1437087963.000096"
+    }
+]

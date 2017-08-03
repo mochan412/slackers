@@ -1,0 +1,56 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I typed some stuff into the app-dev channel on the other slack about what I learned from audio debugging yesterday... I don't know of anything that I can do to immediately improve whistlizer's performance, but I am planning to push these changes since they correctly iterate through all the different configurations in order to get a valid AudioRecord object. If there's a better plan, please let me know! After I make this commit I'll start working on other jira issues in the Uncorked sprint.",
+        "ts": "1435168710.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":thumbsup:",
+        "ts": "1435168813.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont know if the math limitations are going to make sense to them",
+        "ts": "1435168823.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so you might not get a definitive go\/nogo in there",
+        "ts": "1435168833.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll just try to explain what I understand (given that my education in DSP comes from the University of Google)",
+        "ts": "1435168889.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Oh crap, I just did a merge that undid all my uncommitted changes :disappointed:",
+        "ts": "1435169255.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I can recreate it, though",
+        "ts": "1435169397.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Release 1.18 via Fabric. Release notes:\nAdjust amplitude range normalization\nUse map_title field for map results cards\nCheck for network status before making requests, show a Toast if network unavailable",
+        "ts": "1435186186.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks marissa",
+        "ts": "1435186230.000010"
+    }
+]

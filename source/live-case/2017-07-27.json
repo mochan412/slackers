@@ -1,0 +1,171 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F6ELECCHJ\/minime-2017_devices_test_build-7_27_17.apk|MiniMe-2017_DEVICES_TEST_BUILD-7_27_17.apk> and commented: <@U0U9WJB7F> Here is a test build with the latest changes. Can you mess around with Places and let me know if you are still experiencing any of those black screen issues?",
+        "file": {
+            "id": "F6ELECCHJ",
+            "created": 1501175034,
+            "timestamp": 1501175034,
+            "name": "MiniMe-2017_DEVICES_TEST_BUILD-7_27_17.apk",
+            "title": "MiniMe-2017_DEVICES_TEST_BUILD-7_27_17.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24219772,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6ELECCHJ\/minime-2017_devices_test_build-7_27_17.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F6ELECCHJ\/download\/minime-2017_devices_test_build-7_27_17.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F6ELECCHJ\/minime-2017_devices_test_build-7_27_17.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F6ELECCHJ-18e17bf59e",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc6E30C7ND",
+                "created": 1501175034,
+                "timestamp": 1501175034,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "<@U0U9WJB7F> Here is a test build with the latest changes. Can you mess around with Places and let me know if you are still experiencing any of those black screen issues?"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1501175037.815230"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yeah definitely, thanks",
+        "ts": "1501175045.819957"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "workin' as expected, YAY!",
+        "ts": "1501175343.991357"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "just merged\/pushed the “My Live Case” --&gt; “Live Case” name change onto develop",
+        "ts": "1501181084.338098"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":sunglasses:",
+        "ts": "1501181136.368888"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "changed around a few strings that were not parameterized in the force upgrade notification\/dialog, so there are changes in the force upgrade service. I don’t know if anyone is working on that.",
+        "ts": "1501181308.468263"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "otherwise, an easy-peasy change",
+        "ts": "1501181321.475675"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sweet thanks",
+        "ts": "1501181351.493316"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG>",
+        "ts": "1501181379.509067"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m assuming that we will need to change this is `release-83-bugfix` as well?",
+        "ts": "1501181414.529121"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "probably!",
+        "ts": "1501181443.545708"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Do we want to update the app name on release-83-bugfix or do we want to wait to change the app name until the next release?",
+        "ts": "1501181591.629935"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no that branch should stay the same",
+        "ts": "1501181606.639113"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "my live case",
+        "ts": "1501181611.641835"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> <@U2670DYLE> we just briefly talked over this, but clients would like to add the ability to send DEVICE specific notifications instead of having it broken out by \"2017 devices\" and \"Older devices\" so I've created a ticket for this but let me know if there are questions. It'd be great to have this updated by Wednesday!",
+        "ts": "1501190112.152971",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "theoretically, the registration task can just shuttle along the info (probably something like this: <https:\/\/stackoverflow.com\/questions\/34152552\/how-to-find-the-device-type-and-other-information-about-device>)",
+        "attachments": [
+            {
+                "title": "How to find the device type and other information about device",
+                "title_link": "https:\/\/stackoverflow.com\/questions\/34152552\/how-to-find-the-device-type-and-other-information-about-device",
+                "text": "I want to create an application which should only work on particular device type like 'Samsung' or 'Micromax',So how can I find it in my code. Is it possible? It would be useful for my application",
+                "fallback": "How to find the device type and other information about device",
+                "thumb_url": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/apple-touch-icon@2.png?v=73d79a89bded",
+                "from_url": "https:\/\/stackoverflow.com\/questions\/34152552\/how-to-find-the-device-type-and-other-information-about-device",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/favicon.ico?v=4f32ecc8f43d",
+                "service_name": "stackoverflow.com",
+                "id": 1
+            }
+        ],
+        "ts": "1501190217.201371"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but also, is it in the user-agent? and if so, maybe thats just easier",
+        "ts": "1501190235.209691"
+    }
+]

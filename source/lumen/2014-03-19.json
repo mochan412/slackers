@@ -1,0 +1,349 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "trying out the Trello integration here. Any updates to the Lumen Trello board should automatically get posted here.",
+        "ts": "1395246057.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "cool",
+        "ts": "1395246072.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "i was thinking about connecting Bitbucket and JIRA",
+        "ts": "1395246084.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "do it!",
+        "ts": "1395246090.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i’m very interested to see how these all work",
+        "ts": "1395246103.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "the problem with bitbucket and JIRA is that they have to post to a channel, but you can’t specify it on a project level",
+        "ts": "1395246171.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "so ALL bitbucket commits w ill go to one channel",
+        "ts": "1395246178.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that’s unfortunate",
+        "ts": "1395246231.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ah, really? that’s strange- they let me go from a specific board to a specific channel on trello",
+        "ts": "1395246263.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "that is unfortunate",
+        "ts": "1395246267.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "i am wrong",
+        "ts": "1395246351.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "let’s see if this works",
+        "ts": "1395246358.000013"
+    },
+    {
+        "user": "U0260V1BX",
+        "old_name": "dexter",
+        "name": "lumen",
+        "type": "message",
+        "subtype": "channel_name",
+        "text": "<@U0260V1BX|melissa> has renamed the channel from \"dexter\" to \"lumen\"",
+        "ts": "1395246562.000014"
+    },
+    {
+        "text": "Melissa Chan commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/5329321917cb89c3191489d0|Review current UI>\nAdded some comments to the PDF. I refrained from commenting on the bg colors because it looks like those will change based on the moods that Sriram has requested. The only big thing I see is inconsistency in our vacuum icons. I'd say lets pick one and stick with it. Whether it's Roomba or Navibot.... I'd say let's go Roomba as it's a bit more generic-looking? John, would you disagree?",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395246828.000015"
+    },
+    {
+        "text": "Melissa Chan commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532933744438112059b9ca58|Spinner for delayed lock scenario>\nCan you explain this a bit more?",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395246828.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "yay! trello hooks!",
+        "ts": "1395246845.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "too bad John’s not here to see them",
+        "ts": "1395246853.000018"
+    },
+    {
+        "user": "U026PHQ3J",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026PHQ3J|evans> has joined the channel",
+        "ts": "1395246958.000019"
+    },
+    {
+        "text": "Melissa Chan commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/5329321917cb89c3191489d0|Review current UI>\none more note - on bottom device icons, all should be centered horizontally. Currently they're top-aligned.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395247433.000020"
+    },
+    {
+        "text": "Melissa Chan commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532937c6648307664f49ec94|Sign off (or replace) icons in build>\nI would say that the Smart Plug icons should remain the same since those are the primary connections. I think we should change the text \"Outlet Connected\" to say \"IP Camera\" and \"TV\".\n\nAlso, when the plug is connected but in it's off state, can the descriptive text (IP Camera \/ TV) go to 50% opacity?",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395248009.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026PHQ3J> i am supposed to ask you about a “delayed lock scenario” and a “simplified thermostat case\"",
+        "ts": "1395248103.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll walk you thru it. Basically the lock button needs a spinner because it has a long delay between command and response",
+        "ts": "1395248215.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The thermo interface is just confusing and weird.",
+        "ts": "1395248226.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "We can talk.",
+        "ts": "1395248230.000025"
+    },
+    {
+        "text": "Melissa Chan commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532937fb782ae1a447de52d2|Coordinate with dev regarding simplified thermostat case>\n- When temperature is changed, change \"Current Temperature\" to \"Heating to\" (if target temp &gt; current temp) or \"Cooling to\" (if target temp is &lt; current temp)\n- If system is set to Auto, both + and - should be displayed next to Current Temp\n- if system is set to Heat, only + should be displayed next to Current temp\n- if system is set to Cool, only - should be displayed next to Current temp\n- I'm attaching comps of what the modal should look like... on Heat And Cool, controls should be centered.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395250283.000026"
+    },
+    {
+        "text": "Melissa Chan commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/5329321917cb89c3191489d0|Review current UI>\n- when selecting a device to pair, list items should be separated by horizontal rules",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395250283.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026PHQ3J> let me know when that android spinner is up and running so i can take a look at it. i know you’re slammed today.",
+        "ts": "1395252298.000028"
+    },
+    {
+        "text": "Melissa Chan commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532933744438112059b9ca58|Spinner for delayed lock scenario>\n@evansdavid add Android default spinner and we'll revise if needed",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395255603.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I tried to get John on here to see trello updates",
+        "ts": "1395261560.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "he still refuses",
+        "ts": "1395261562.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yyyyyeahhhh",
+        "ts": "1395261577.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i think we could get everyone on here *but* him",
+        "ts": "1395261597.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "unfortunately *he’s* the operations manager",
+        "ts": "1395261613.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ha",
+        "ts": "1395261613.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "he says he won’t join until he can’t do his job without it",
+        "ts": "1395261619.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "he can do his job without his legs",
+        "ts": "1395261647.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026NAD9A",
+        "text": "let’s remove his legs!",
+        "ts": "1395261651.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "doesn’t making his job easier count for anything?",
+        "ts": "1395261665.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "oh well",
+        "ts": "1395261673.000040"
+    },
+    {
+        "user": "U026AP8CM",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026AP8CM|karen> has joined the channel",
+        "ts": "1395265226.000041"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/53293313521aed8876b35a12|Philips Hue>\nLights are still working. The only change is to save the ip address so that it does not need to be set each time.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395267519.000042"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/5329331f68931598470dda88|DA-E750>\nWhen the allshare light blinks red, that means the device is not connected to the router. Page 16 of the manual has relevant information about connecting.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395267519.000043"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/5329331f68931598470dda88|DA-E750>\nTo view activity between the speaker and phone in AllShare mode, hit the 'View Activity' button in the music column. \nAlthough it shows that he speaker receives volume changes, it does not actually function in AllShare mode (it does using bluetooth).",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395267519.000044"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/53293416d888f7ad22c4995b|Lock>\n@johnfurukawa does the \"unchanged\" behavior also apply to the view\/device being enabled\/disabled?",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395268594.000045"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532935ef7490371023d2f461|Delay lock trigger, cancellation handling>\nMaybe we can add this functionality as part of the state machine (in ControlApplication.java)",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395269115.000046"
+    },
+    {
+        "text": "John Furukawa commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/53293416d888f7ad22c4995b|Lock>\n@katm2 I don't know exactly what you're asking.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395269582.000047"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/53293416d888f7ad22c4995b|Lock>\n@johnfurukawa A lock can be locked and unlocked, but we can also enable and disable a device's ui by using the toggles at the bottom. I assume unchanged includes this enabled\/disabled state?",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395269582.000048"
+    },
+    {
+        "text": "[dexter\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/dexter\/commits\/b0f7633f972bbad813d0ec47d5acc3e6cbfbe342|b0f7633f972b>: ZWaveManager is using current Vera ip address.\n - katmitchell",
+        "username": "bitbucket",
+        "bot_id": "B026P8103",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395271229.000049"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/53293416d888f7ad22c4995b|Lock>\nOn = locked\nOff = unlocked\nUnchanged = disabled (and underlying lock\/unlock state is unchanged)",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395271552.000050"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/53293416d888f7ad22c4995b|Lock>\nVera IP address has been updated. Lock is back to working as well as it was before.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395271552.000051"
+    },
+    {
+        "text": "Kat M commented on a card: <https:\/\/trello.com\/card\/532930786e6d6abf08624285\/532934317cabd410666a8fd1|Thermostat>\nTried connecting via app and Vera web console without luck.",
+        "username": "trello",
+        "bot_id": "B026PGY3A",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1395274898.000052"
+    }
+]

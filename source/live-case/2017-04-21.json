@@ -1,0 +1,748 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey gang - just forwarded an earth crash and hoping someone can take a look! lemme know and we'll follow up with adam",
+        "ts": "1492791065.165002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Note that it was from v3.1.1",
+        "ts": "1492791683.330813"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry - noted that in my email, but yes previous version. im guessing this is something that wouldve been caught in our update, but want to make sure its not something fresh or something the gives us more clue",
+        "ts": "1492791864.379063"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "if not though - ill just shoot adam a note back (i just dont have the dev eyes to confirm)",
+        "ts": "1492791912.391234"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Taking a look, I’ll do a traceback and see",
+        "ts": "1492792055.429144"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks midori! appreciate it",
+        "ts": "1492792128.448193"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "```java.lang.NullPointerException: Attempt to invoke virtual method 'boolean com.google.android.apps.workshop.wallpaper.b.a.e()' on a null object reference\n\tat com.google.android.apps.workshop.earth.view.EarthBlurDimGLRenderer.void recomputeMaxPrescaledBlurPixels()(Unknown Source)\n                                                                       void hintViewportSize(int,int)\n                                                                       void setNormalOffsetX(float)\n                                                                       void setAndConsumeBitmapRegionLoader(com.google.android.apps.workshop.wallpaper.image.BitmapRegionLoader)\n                                                                       void onOffsetsChanged(float,float,float,float,int,int)\n                                                                       void onVisibilityChanged(boolean)\n                                                                       void onSurfaceDestroyed(android.view.SurfaceHolder)\n                                                                       com.google.android.apps.workshop.earth.view.EarthBlurDimGLRenderer$GLPictureSet access$200(com.google.android.apps.workshop.earth.view.EarthBlurDimGLRenderer)\n                                                                       com.google.android.apps.workshop.earth.view.EarthBlurDimGLRenderer$GLPictureSet access$202(com.google.android.apps.workshop.earth.view.EarthBlurDimGLRenderer,com.google.android.apps.workshop.earth.view.EarthBlurDimGLRenderer$GLPictureSet)\n                                                                       com.google.android.apps.workshop.wallpaper.image.BitmapRegionLoader access$602(com.google.android.apps.workshop.earth.view.EarthBlurDimGLRenderer,com.google.android.apps.workshop.wallpaper.image.BitmapRegionLoader)\n                                                                       float access$1500(com.google.android.apps.workshop.earth.view.EarthBlurDimGLRenderer,float)\n\tat com.google.android.apps.workshop.wallpaper.renderer.GLWallpaperRenderDispatch$WallpaperNFCBroadcastReceiver$3.void run()(Unknown Source)\n\tat android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1477)\n\tat android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1259)```",
+        "ts": "1492792265.485696",
+        "reactions": [
+            {
+                "name": "thinking_face",
+                "users": [
+                    "U2H61EJSG",
+                    "U0U9WJB7F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":thinking_face:",
+        "ts": "1492792310.497570"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U2H61EJSG> - I’m looking at the `render_sb` branch to try to get an idea from what Oliver has been working on :confused:",
+        "ts": "1492794431.041678"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Have you de-obfuscated the stack trace yet?",
+        "ts": "1492794554.072289"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "That’s what I posted above",
+        "ts": "1492794598.083271"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "sorry, should’ve noted that",
+        "ts": "1492794626.090177"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Darn, I was hoping that there would be more to go off of. `com.google.android.apps.workshop.wallpaper.b.a.e()` doesn’t give us much to work from!",
+        "ts": "1492794668.099872"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I am just finishing up a change with the gl stuff i was working on yesterday so I will take a peak shrortly",
+        "ts": "1492794698.107233"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "sure thing!",
+        "ts": "1492794710.110004"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok… I have kind of a guess, re: “was this included in our most recent update?”\nI _think_ this is triggered in GLWallpaperRenderDispatch (Hard to tell bc I could deobfuscate the exact path), where I know Oliver is working on some major changes that I believe were included in the build that we’re running over the weekend, but maybe not in the build released this week. \nA long-winded way of saying, “I don’t know”…",
+        "ts": "1492797293.774490"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I agree with Midori. I don’t know what this error is referencing, but I imagine that the changes that Oliver has been working on are handling this. The `mapping.txt` file corresponding to this APK is back from March 17th and there have been many changes since then.",
+        "ts": "1492797585.852549"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> let me know if you want to jump in hangout",
+        "thread_ts": "1492797609.859487",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1492797809.914370"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1492797609.859487"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like the TickingFloatAnimator went null",
+        "ts": "1492797625.864150"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "surface was destroyed, there was an offsets changed callback, and setAndConsumeBitmapRegionLoader was called",
+        "ts": "1492797659.873923"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "happy to chat through but im assuming the clue evans provided gives us more to work with?",
+        "thread_ts": "1492797609.859487",
+        "parent_user_id": "U1ZG1UCAK",
+        "ts": "1492797809.914370",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Don't worry about digging into the render_sb branch for this, nothing will line up there. If it's 3.1.1 it will be from origin\/release-69.\nThis would still be an issue tho for the 3.1.2 patch we gave them that's in dogfood",
+        "ts": "1492798492.089126"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "fyi 3.1.2 has been released to public (no longer in DF)",
+        "ts": "1492799198.268628"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Apologies if you get a mass amount of JIRA notifications, I'm creating an Agile board and moving tasks around. We can go through it in standup on Tuesday.",
+        "ts": "1492799476.339255",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F525THMS4\/bugreport-n2g47e-2017-04-21-12-15-12.zip|bugreport-N2G47E-2017-04-21-12-15-12.zip> and commented: <@U2H61EJSG> I've been testing trends_icon_show_next_trend_4.21.17 and it continues to crash. Can you check this out? Here's the bug report.",
+        "file": {
+            "id": "F525THMS4",
+            "created": 1492802275,
+            "timestamp": 1492802275,
+            "name": "bugreport-N2G47E-2017-04-21-12-15-12.zip",
+            "title": "bugreport-N2G47E-2017-04-21-12-15-12.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 3270601,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F525THMS4\/bugreport-n2g47e-2017-04-21-12-15-12.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F525THMS4\/download\/bugreport-n2g47e-2017-04-21-12-15-12.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F525THMS4\/bugreport-n2g47e-2017-04-21-12-15-12.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F525THMS4-b078c0c6ef",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc52RGKKJN",
+                "created": 1492802275,
+                "timestamp": 1492802275,
+                "user": "U0U9WJB7F",
+                "is_intro": true,
+                "comment": "<@U2H61EJSG> I've been testing trends_icon_show_next_trend_4.21.17 and it continues to crash. Can you check this out? Here's the bug report."
+            }
+        },
+        "user": "U0U9WJB7F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1492802276.030242"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Uh oh! I’ll look into it. I’m creating an updated version anyway since the one I created yesterday still had some positioning bugs.",
+        "ts": "1492802355.047503"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Okay cool thanks Summer",
+        "ts": "1492802497.080220"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Were you connected to the internet when going through onboarding? Just trying to eliminate the possibility that the trends data might not have downloaded properly.",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1492803180.000000"
+        },
+        "ts": "1492803169.236796"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Yes I was connected ",
+        "ts": "1492803224.248894"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Strange. From what I can see in the bug report, the crash was caused when the app attempted to draw the trend graph, but for some reason the trend data that it was calling upon was null. I haven’t made any changes with the graph itself so I don’t know what could be causing this other than improperly downloaded data. How long after running the app did this crash occur? Was it immediate?",
+        "ts": "1492803581.328039"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Nevermind all that. I see the issue and it’s a simple fix. I’ll send along the new builds in a few minutes.",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1492803768.000000"
+        },
+        "ts": "1492803749.365508"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Nice thanks!",
+        "ts": "1492803816.380554"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Hey <@U2H61EJSG> , after you've tackled this bug fix do you mind checking out this deck that Kat recently shared with us and letting me know directly if you have any red flags (by Monday morning)? \n\n<https:\/\/docs.google.com\/presentation\/d\/1Hq5q3P7Mgb5Bl0ONSfdfN30vslfV9yvyrMJm0Y97yFc\/edit?ts=58fa64fd#slide=id.g21f24df70b_0_11>",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1492805702.000000"
+        },
+        "ts": "1492805687.814165"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> shared a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F526Q29FA\/trends_-_line_graph_treatment|Trends - Line Graph Treatment>",
+        "file": {
+            "id": "F526Q29FA",
+            "created": 1492805688,
+            "timestamp": 1492805688,
+            "name": "Trends - Line Graph Treatment",
+            "title": "Trends - Line Graph Treatment",
+            "mimetype": "application\/vnd.google-apps.presentation",
+            "filetype": "gpres",
+            "pretty_type": "GDocs Presentation",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 1027,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/presentation\/d\/1Hq5q3P7Mgb5Bl0ONSfdfN30vslfV9yvyrMJm0Y97yFc\/edit?ts=58fa64fd#slide=id.g21f24df70b_0_11",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 450,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F526Q29FA\/trends_-_line_graph_treatment",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "has_rich_preview": true
+        },
+        "user": "U0U9WJB7F",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1492805688.814473"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also random aside while im thinking of it @team note on decks: if you need access to something but dont have it - please request from Jenna vs. requesting in the deck :innocent:",
+        "ts": "1492805775.834055"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> how's the build coming along?",
+        "ts": "1492807143.135684"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I thought everything was working, but weirdly I only see that issue in the builds - not from running the app directly from Android Studio. I’ll keep you posted!",
+        "ts": "1492807200.147866"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey <@U1ZG1UCAK> we’re going through JIRA right now (jenna will have more info but you’re gonna love it) - just wondering what ticket you’re working on now, as we didnt see anything “in progress”",
+        "ts": "1492808632.461155"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can you make sure to update the status of whatever you guys are working on, so that when we share the new board with kat + bonnie they can see what we’re tackling?",
+        "ts": "1492808663.467490"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Yesterday I started working on the MLC-159. I was working on the bug, but I don’t know where to start, so I think I’ll set it down. Right now I’m helping Summer debug the trends wallpaper button thing.",
+        "ts": "1492808734.481770"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay i moved 159 to “in progress” to reflect that",
+        "thread_ts": "1492808883.512082",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1492809685.665539"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1492808883.512082"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":thumbsup::skin-tone-4:",
+        "ts": "1492808900.515633"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’ll move back to that in a sec",
+        "ts": "1492808912.518008"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "you understand the ask tho, yes? let me know if you want to talk through this tomorrow but especially as we’re asking for google to pay for additional dev resources, i want them to be able to see that we’re making things happen if they pop into JIRA",
+        "ts": "1492808951.525545"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1492808954.525951"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "The ask as in MLC-159, the sell-in, or the bug report from this morning?",
+        "ts": "1492809014.537376"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "or that I need to be moving tickets in JIRA to reflect the work that is getting done?",
+        "ts": "1492809078.550035",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U026PHQ3J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i think it's just that when a ticket is being actively worked on that it's reflected in the \"in progress\" or \"in review\" mode",
+        "ts": "1492809297.591205"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "just so we all know what's goin' on and who is working on what.",
+        "ts": "1492809308.593424"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes that :)",
+        "ts": "1492809383.608165"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok, cool, I will do that. Sorry, it’s been a minute since we used JIRA actively (And I also kind of hate it in a petty way)… I’m on board.\nShould I  be updating the time part of this as well?",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1492809465.000000"
+        },
+        "ts": "1492809415.614570"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Thanks… I do realize that is part of my job :confused: Sorry I forgot :confused:",
+        "thread_ts": "1492808883.512082",
+        "parent_user_id": "U13GPDA1F",
+        "ts": "1492809685.665539"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "don't worry so much about the time \n\nwe'll do a walkthru on Tuesday so you can see the new layout and ask questions ",
+        "ts": "1492809951.713210"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i put estimates in because we had them but we're not running super strict agile so it's not critical ",
+        "ts": "1492809985.719525"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay, thanks",
+        "ts": "1492810539.818578"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "On a different note: Has anyone checked out the new version of Android Google Earth? I wonder if that’s a possibility to bring back as the launcher for MLC Earth wallpaper launcher?",
+        "ts": "1492810857.871509"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> I have no idea what is going on with these trends builds. The code works just fine when I run it from Android Studio, but the APKs always crash. I am getting really frustrated so I am going to take a break for a bit :confused:",
+        "ts": "1492812390.117271"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> any insights on summers issue? ",
+        "ts": "1492812619.150594"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you send me an APK?",
+        "ts": "1492812669.157734"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> ^",
+        "ts": "1492812678.159033"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i hoping to not spend too much time spinning wheels but would love to get to the bottom of ",
+        "ts": "1492812703.162778"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK> regarding the android google earth Q above: i haven’t can you?",
+        "ts": "1492812749.169092",
+        "reactions": [
+            {
+                "name": "ok",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Let me finish something I’m trying and I’ll push it up",
+        "ts": "1492814192.356379"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Ok, I pushed the code up to `trends_icon_launch` - it’s a bit messy, but I plan to clean up once I get to the bottom of this issue.",
+        "ts": "1492814754.424948"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you send me the apk that crashes?",
+        "ts": "1492815032.456973"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F528MKEKA\/trends_icon_launch_search_2.apk|trends_icon_launch_search_2.apk>",
+        "file": {
+            "id": "F528MKEKA",
+            "created": 1492815133,
+            "timestamp": 1492815133,
+            "name": "trends_icon_launch_search_2.apk",
+            "title": "trends_icon_launch_search_2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35238110,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F528MKEKA\/trends_icon_launch_search_2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F528MKEKA\/download\/trends_icon_launch_search_2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F528MKEKA\/trends_icon_launch_search_2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F528MKEKA-59e0cc9ae1",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1492815135.468769"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I pushed the other version to `trends_icon_advance` - The only differences are the icon and the actions are swapped (double tap to launch, icon tap to advance). Weirdly this one causes more issues.",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1492816601.000000"
+        },
+        "ts": "1492815189.475054",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F52SCK80K\/trends_icon_refresh.apk|trends_icon_refresh.apk> and commented: Ok, I’m not longer experiencing any crashes so I think it was just an issue of things being out of order (my bad). <@U0U9WJB7F> Here are the latest trends builds - let me know if anything strange happens :crossed_fingers:",
+        "file": {
+            "id": "F52SCK80K",
+            "created": 1492816626,
+            "timestamp": 1492816626,
+            "name": "trends_icon_refresh.apk",
+            "title": "trends_icon_refresh.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35243071,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52SCK80K\/trends_icon_refresh.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52SCK80K\/download\/trends_icon_refresh.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F52SCK80K\/trends_icon_refresh.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F52SCK80K-8c032d7520",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc530HA160",
+                "created": 1492816626,
+                "timestamp": 1492816626,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "Ok, I’m not longer experiencing any crashes so I think it was just an issue of things being out of order (my bad). <@U0U9WJB7F> Here are the latest trends builds - let me know if anything strange happens :crossed_fingers:"
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1492816628.635320"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F528UPUUQ\/trends_icon_launch.apk|trends_icon_launch.apk>",
+        "file": {
+            "id": "F528UPUUQ",
+            "created": 1492816677,
+            "timestamp": 1492816677,
+            "name": "trends_icon_launch.apk",
+            "title": "trends_icon_launch.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35238874,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F528UPUUQ\/trends_icon_launch.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F528UPUUQ\/download\/trends_icon_launch.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F528UPUUQ\/trends_icon_launch.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F528UPUUQ-d48815fec2",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1492816679.640611"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "woohoo!",
+        "ts": "1492816987.671654"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I just tested both - no crashing on my end!",
+        "ts": "1492817155.688668",
+        "reactions": [
+            {
+                "name": "partyparrot",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "nice thank you so much! ",
+        "ts": "1492817453.719260"
+    }
+]

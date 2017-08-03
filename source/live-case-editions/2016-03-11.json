@@ -1,0 +1,433 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "still working on this, but",
+        "ts": "1457723469.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "03-11 11:10:44.086 16248-16922\/com.google.android.apps.live_case D\/fpsorg: 33.333336\n03-11 11:10:44.086 16248-16922\/com.google.android.apps.live_case D\/fpsnew: 33.333336\n03-11 11:10:44.117 16248-16922\/com.google.android.apps.live_case D\/fpsorg: 32.258064\n03-11 11:10:44.117 16248-16922\/com.google.android.apps.live_case D\/fpsnew: 33.333336\n03-11 11:10:44.146 16248-16922\/com.google.android.apps.live_case D\/fpsorg: 33.333336\n03-11 11:10:44.147 16248-16922\/com.google.android.apps.live_case D\/fpsnew: 33.333336\n03-11 11:10:44.176 16248-16922\/com.google.android.apps.live_case D\/fpsorg: 33.333336\n03-11 11:10:44.176 16248-16922\/com.google.android.apps.live_case D\/fpsnew: 33.333336\n03-11 11:10:44.206 16248-16922\/com.google.android.apps.live_case D\/fpsorg: 34.482758\n03-11 11:10:44.206 16248-16922\/com.google.android.apps.live_case D\/fpsnew: 33.333336\n03-11 11:10:44.235 16248-16922\/com.google.android.apps.live_case D\/fpsorg: 29.411764\n03-11 11:10:44.236 16248-16922\/com.google.android.apps.live_case D\/fpsnew: 34.482758\n03-11 11:10:44.267 16248-16922\/com.google.android.apps.live_case D\/fpsorg: 37.037037\n03-11 11:10:44.267 16248-16922\/com.google.android.apps.live_case D\/fpsnew: 31.25",
+        "ts": "1457723470.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "however, my scene isn't the same one we had been looking at",
+        "ts": "1457723487.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, i am getting some jank with this which i think is realted to texture flushing",
+        "ts": "1457723520.000059"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah, one of the things we’re looking at in this latest build is the 576x1024 frames vs the 512 to see if we can find a performance middle ground",
+        "ts": "1457723572.000060"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: related to a build, were you able to get assets from <@U0GN0A9EV> in?",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1457730969.000000"
+        },
+        "ts": "1457730958.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh right i was looking at that yesterday and got distracted. i have some time now, i can get that in",
+        "ts": "1457731004.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i have the play asset, and the share is just text",
+        "ts": "1457731045.000064"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yes",
+        "ts": "1457731086.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "could i get a new pause asset too, we are using a pause icon when the play is going",
+        "ts": "1457731273.000066"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ah yes. <@U0GN0A9EV> can we get a pause icon in the same style as play?",
+        "ts": "1457731641.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0GN0A9EV",
+        "text": "yes",
+        "ts": "1457732492.000068"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Thank you!",
+        "ts": "1457732673.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "perfect got them, assets updated",
+        "ts": "1457732743.000070"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Sweet. Sitting with Dave watching him tune this FPS ",
+        "ts": "1457732984.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "very cool, i am quite interested in seeing what voodoo dave does to make this work",
+        "ts": "1457733755.000072"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "gofaster(this.video)",
+        "ts": "1457734972.000073"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0SAYJHL1\/20160311_161407.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F0SAYJHL1",
+            "created": 1457741692,
+            "timestamp": 1457741692,
+            "name": "20160311_161407.jpg",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 8342508,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SAYJHL1\/20160311_161407.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SAYJHL1\/download\/20160311_161407.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0SAYJHL1-ad7523756a\/20160311_161407_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0SAYJHL1-ad7523756a\/20160311_161407_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0SAYJHL1-ad7523756a\/20160311_161407_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0SAYJHL1-ad7523756a\/20160311_161407_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0SAYJHL1-ad7523756a\/20160311_161407_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0SAYJHL1-ad7523756a\/20160311_161407_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0SAYJHL1-ad7523756a\/20160311_161407_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0SAYJHL1-ad7523756a\/20160311_161407_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 5312,
+            "original_h": 2988,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0SAYJHL1\/20160311_161407.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0SAYJHL1-0a1bf720b5",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1457741703.000074"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Looks good to me ",
+        "ts": "1457741761.000075"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J> performance on 6p sucks now?",
+        "ts": "1457741873.000076"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I don't get it ",
+        "ts": "1457741878.000077"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "@peter can you post a build just in case we dont’ make it any further",
+        "ts": "1457742065.000078"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i can at least send for the 5x performance",
+        "ts": "1457742072.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah i posted one to the wrong channgel just a sec",
+        "ts": "1457742165.000080"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0S9D1B7D\/livecase_edititons_3-11.apk|livecase_edititons_3-11.apk>",
+        "file": {
+            "id": "F0S9D1B7D",
+            "created": 1457742209,
+            "timestamp": 1457742209,
+            "name": "livecase_edititons_3-11.apk",
+            "title": "livecase_edititons_3-11.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 71576360,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0S9D1B7D\/livecase_edititons_3-11.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0S9D1B7D\/download\/livecase_edititons_3-11.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0S9D1B7D\/livecase_edititons_3-11.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0S9D1B7D-59a491c246",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1457742213.000081"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "tyvm",
+        "ts": "1457742222.000082"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "6p makes no sense",
+        "ts": "1457742232.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like if i change the offset in there for the file load time, it speeds it up. looking for a happy medium between the devices",
+        "ts": "1457742734.000084"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "do we need to just make them devie specific for now?",
+        "ts": "1457742771.000085"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "device",
+        "ts": "1457742773.000086"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "to keep performance one ach device ok",
+        "ts": "1457742778.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not sure we have to, found a value that looks good on both",
+        "ts": "1457742815.000088"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0SAWB1HD\/app-dev-debug.apk|app-dev-debug.apk> and commented: this looks better",
+        "file": {
+            "id": "F0SAWB1HD",
+            "created": 1457743199,
+            "timestamp": 1457743199,
+            "name": "app-dev-debug.apk",
+            "title": "app-dev-debug.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 71576359,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SAWB1HD\/app-dev-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SAWB1HD\/download\/app-dev-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0SAWB1HD\/app-dev-debug.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0SAWB1HD-14d9d54648",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0SAMAXE0",
+                "created": 1457743199,
+                "timestamp": 1457743199,
+                "user": "U0EL0GLEL",
+                "is_intro": true,
+                "comment": "this looks better"
+            }
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1457743202.000089"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whats wrong on the 6p?",
+        "ts": "1457743240.000090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha",
+        "ts": "1457743248.000091"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "too slow, or janky",
+        "ts": "1457743251.000092"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "slow",
+        "ts": "1457743262.000093"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i think",
+        "ts": "1457743273.000094"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if its not janky, then its running slow for some other reason that isnt file load times",
+        "ts": "1457743295.000095"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "it might have been janky. i don’t know the difference",
+        "ts": "1457743306.000096"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i mean i do, but would need to look specifically",
+        "ts": "1457743312.000097"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "The answer is jank",
+        "ts": "1457743583.000098"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0SAS072S\/app-dev-debug.apk|app-dev-debug.apk>",
+        "file": {
+            "id": "F0SAS072S",
+            "created": 1457745021,
+            "timestamp": 1457745021,
+            "name": "app-dev-debug.apk",
+            "title": "app-dev-debug.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 48291511,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SAS072S\/app-dev-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SAS072S\/download\/app-dev-debug.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0SAS072S\/app-dev-debug.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0SAS072S-fe2dd32dac",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1457745034.000099"
+    }
+]

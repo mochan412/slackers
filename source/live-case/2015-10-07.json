@@ -1,0 +1,318 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02613K0X>: done!",
+        "ts": "1444237163.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yay thank you!!",
+        "ts": "1444237214.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "woooooooooo harvest",
+        "ts": "1444237311.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: is the state of blur in a preference?",
+        "ts": "1444241574.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1444241581.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but it can be",
+        "ts": "1444241589.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we’re going to have to add that",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1444241600.000000"
+        },
+        "ts": "1444241597.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah, i am confused about why",
+        "ts": "1444241606.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but",
+        "ts": "1444241607.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its easy enough to put in",
+        "ts": "1444241612.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "apparently its a preference on the home screen",
+        "ts": "1444241630.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "so I need it",
+        "ts": "1444241638.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah. just write one and ill back fill it into the engine",
+        "ts": "1444241651.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok",
+        "ts": "1444241654.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "each engine has its own onDoubleTap handler",
+        "ts": "1444241665.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i can just toss it in there",
+        "ts": "1444241674.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "you might have to listen for updates to it?",
+        "ts": "1444241685.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can just read it on visiblity change",
+        "ts": "1444241710.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "gotcha",
+        "ts": "1444241714.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry, im tracing through the animation asset loaders",
+        "ts": "1444241769.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so I'm basically creating 0 new code at the moment",
+        "ts": "1444241776.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that’s cool",
+        "ts": "1444241846.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think i also found the galaxy of updates i have to make to avoid the GC storm that happens during animation",
+        "ts": "1444241913.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "re: billing",
+        "ts": "1444243205.000026"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "&gt;I'm not entirely sure how to do this, I need to follow up with some internal people",
+        "ts": "1444243206.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I can supply step-by-step instructions for someone with admin access to Google's internal billing account to enable billing for the project, if that would be helpful?",
+        "ts": "1444243470.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Can also supply a list of emails of people that are indeed admins...or they could set up a brand new billing account for workshop...",
+        "ts": "1444243632.000029"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "If they’re readily available, instructions or accounts might be useful to point him in the right direciton",
+        "ts": "1444244509.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U06DFL7BP> do we have any ideas what will be in the FAQ?",
+        "ts": "1444251988.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I always try to tag @charles",
+        "ts": "1444252006.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "@varles",
+        "ts": "1444252133.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "@vestalc",
+        "ts": "1444252147.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "@semesteratvestalc",
+        "ts": "1444252161.000037"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "It me ",
+        "ts": "1444252254.000038"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I don't ",
+        "ts": "1444252254.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok, should I be keeping track of these things? or does everyone already know we need this stuff?",
+        "ts": "1444252502.000040"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'm tracking but will add a checklist ",
+        "ts": "1444252580.000041"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "It's lumped under \"get final assets and copy\" for me ",
+        "ts": "1444252590.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok, cool",
+        "ts": "1444252869.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>:  I think we should be thinking about this <https:\/\/developer.android.com\/training\/backup\/autosyncapi.html>",
+        "attachments": [
+            {
+                "text": "Users frequently invest time and effort to configure apps just the way they like them. Switching to a new device can cancel out all that careful configuration. Devices running Android 6.0 and higher automatically back up app data to the cloud. The system…",
+                "fallback": "Users frequently invest time and effort to configure apps just the way they like them. Switching to a new device can cancel out all that careful configuration. Devices running Android 6.0 and higher automatically back up app data to the cloud. The system…",
+                "from_url": "https:\/\/developer.android.com\/training\/backup\/autosyncapi.html",
+                "id": 1
+            }
+        ],
+        "ts": "1444253576.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Lol. I added this to pocket on Sunday so i could read it this week",
+        "ts": "1444253614.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "perfect",
+        "ts": "1444253626.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "&lt;uses-sdk android:minSdkVersion=\"MNC\"\/&gt;",
+        "ts": "1444253653.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "what?",
+        "ts": "1444254095.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they didn't update to the the non-preview code",
+        "ts": "1444254136.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "my drive bug has been triaged",
+        "ts": "1444255767.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "huh, never seen that one before ```java.lang.IllegalArgumentException: Can only use lower 8 bits for requestCode\n     at android.support.v4.app.FragmentActivity.requestPermissionsFromFragment```",
+        "ts": "1444256643.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/plus.google.com\/+AndroidDevelopers\/posts\/9kZ3SsXdT2T>",
+        "attachments": [
+            {
+                "title": "Preferences Support Library: Preference Fragments for API 7+, no matter the…",
+                "title_link": "https:\/\/plus.google.com\/+AndroidDevelopers\/posts\/9kZ3SsXdT2T",
+                "text": "Preferences Support Library: Preference Fragments for API 7+, no matter the Activity Pro-tip by +Ian Lake Creating your preferences from XML files means… - Android Developers - Google+",
+                "fallback": "Preferences Support Library: Preference Fragments for API 7+, no matter the…",
+                "from_url": "https:\/\/plus.google.com\/+AndroidDevelopers\/posts\/9kZ3SsXdT2T",
+                "id": 1
+            }
+        ],
+        "ts": "1444262025.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/developer.android.com\/reference\/android\/preference\/PreferenceScreen.html>",
+        "ts": "1444262159.000055"
+    }
+]

@@ -1,0 +1,534 @@
+[
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #44 Started by timer (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/44\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #44 Started by timer (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/44\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1465998089.000070"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #44 Success after 46 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/44\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #44 Success after 46 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/44\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1465998130.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: did we trigger this build?  What's on it?",
+        "ts": "1465998878.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i didnt",
+        "ts": "1465999029.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no idea",
+        "ts": "1465999031.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "it was run automatically by Jenkins",
+        "ts": "1465999048.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "as soon as the Linux VM came back up",
+        "ts": "1465999059.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll pause builds for a while",
+        "ts": "1465999085.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ran a gpu monitor, there is one gpu that is highly pegged out at 99% the others are floating around 0-30 with some spikes. looks like we have some room there for balance. curious what the cpu monitor is stating",
+        "ts": "1465999108.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Can we invest a few min in trying to spread the love across other gpus <@U0EL0GLEL> and <@U02E3CRMA> ",
+        "ts": "1465999177.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "already on it...",
+        "ts": "1465999232.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "You guys know I &lt;3 you, right?",
+        "ts": "1465999356.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "I'm with creative team ping me here of need anything otherwise. See you in 15",
+        "ts": "1465999567.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "wow using almost 11 gig of the ram",
+        "ts": "1465999626.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "about 30% of the cpu",
+        "ts": "1465999644.000084"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "soon as i touched IS it jumped to 50% cpu",
+        "ts": "1465999703.000085"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Oof",
+        "ts": "1465999742.000086"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Optimize IS lol ",
+        "ts": "1465999759.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the vm right now only has one core its using, there are certainly things that can be optimized there. give it more cores, more memory. etc... i think that would help IS out a bit",
+        "ts": "1465999904.000088"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "welcome with the videos eat more cpu as i expected. over 55% there",
+        "ts": "1465999968.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ah thought this might be the case, the trends videos eat about 95% cpu",
+        "ts": "1466000163.000090"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "gpu drops to 85%",
+        "ts": "1466000181.000091"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Ok",
+        "ts": "1466000185.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "bouncing between 80-90 on gpu. cpu 85-95",
+        "ts": "1466000205.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "video chews up cpu",
+        "ts": "1466000227.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "So quick thoughts on things we can do now? Anything? Or all longer terms optimization a and tests?",
+        "ts": "1466000262.000095"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "with just the cubbies running the basic welcome screen and nothing on the top that crazy gpu is pushing 60%",
+        "ts": "1466000317.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "rest are like 15",
+        "ts": "1466000324.000097"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not sure what we can do at the moment, would like to figure out what is on that one that is being taxed out",
+        "ts": "1466000354.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the goodbye template without all that top sweep motiion pushes 60%",
+        "ts": "1466000398.000099"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Wow ",
+        "ts": "1466000408.000100"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Just cuz everything HUGE",
+        "ts": "1466000418.000101"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "going to test a few things quick, might be that virtual box is reserving the core that is taxed out",
+        "ts": "1466000688.000102"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Likely the overhead is the YouTube player itself on trends if it's what I'm thinking of. I'm assuming it's using the html5 player, but also might be worth asking if we can roll it into a plain &lt;video&gt; tag?",
+        "ts": "1466001239.000103"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Fair. ",
+        "ts": "1466001850.000104"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Gonna see if creative team is amenable to reducing number of videos and doing a new layout. ",
+        "ts": "1466001868.000105"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Think it could look cooler as well ",
+        "ts": "1466001878.000106"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U11JK4QSK>: can you ping us to confirm you’ve got access to port 9980?",
+        "ts": "1466002142.000107"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "i’ll need to get the ip as soon <@U0EL0GLEL> has it up",
+        "ts": "1466002229.000108"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U0ML49XU0>: ^",
+        "ts": "1466002238.000109"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok in mean time - can you send out updates about what ti are youre on?  and note when done with tix",
+        "ts": "1466002354.000110"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "heads in a lot of places - need to keep you moving on the right set of stuff",
+        "ts": "1466002363.000111"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U0ML49XU0>: first up dataviz parallelogram animations",
+        "ts": "1466002619.000112"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "will update here and jira",
+        "edited": {
+            "user": "U11JK4QSK",
+            "ts": "1466002653.000000"
+        },
+        "ts": "1466002644.000113"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "10.0.1.169",
+        "ts": "1466002650.000114",
+        "reactions": [
+            {
+                "name": "dart",
+                "users": [
+                    "U11JK4QSK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "thanks <@U0EL0GLEL>",
+        "ts": "1466002657.000116"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<http:\/\/10.0.1.169:9980\/DisplayActivityActivity\/index.html>",
+        "ts": "1466002782.000117"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U11JK4QSK",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[June 15th, 2016 7:59 AM] bryanhowarth: <http:\/\/10.0.1.169:9980\/DisplayActivityActivity\/index.html>",
+                "ts": "1466002782.000117",
+                "author_subname": "bryanhowarth",
+                "channel_id": "C0MQJP06A",
+                "channel_name": "brandlab-wall-dev",
+                "is_msg_unfurl": true,
+                "text": "<http:\/\/10.0.1.169:9980\/DisplayActivityActivity\/index.html>",
+                "author_name": "Bryan Howarth",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/bryanhowarth",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-04-18\/35651332832_382f8b7d7e1f9a679afe_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U11JK4QSK|bryanhowarth> pinned a message to this channel.",
+        "ts": "1466002791.000118"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: Got a love note back from Gerrit: \"No lint or build errors found.\"",
+        "ts": "1466004016.000119"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":heart_eyes_cat:",
+        "ts": "1466004044.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "We had 4200. We've come a lonnnnnng way ",
+        "ts": "1466004068.000121"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Come see touch!!",
+        "ts": "1466004620.000122"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I've never seen it this on with calibration. It's Damn near perfect first try",
+        "ts": "1466004651.000123",
+        "reactions": [
+            {
+                "name": "partyparrot",
+                "users": [
+                    "U1B4121BP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "I'll be right there ",
+        "ts": "1466004680.000124"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U0EL0GLEL>: raw json is mapping to uncorked ip on upload - are these converted when displaying to BFD?",
+        "ts": "1466006335.000125"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "i can always update the raw, just want to check to see how we should handle that",
+        "ts": "1466006416.000126"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no nothing is converted",
+        "ts": "1466009626.000127"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here>: James will be free in 5 mins. In the meantime, he recommended power-cycling the rig.",
+        "ts": "1466024314.000128"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: let me know when it’s safe to do so",
+        "ts": "1466024321.000129"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Go for it, likely a good fix",
+        "ts": "1466024361.000130"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I remember the photo admin didn't work because I couldn't get is settings working with it, so ip is still hard to 192, changed to 10.",
+        "ts": "1466025462.000131"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "loaded to the box a version of the display without the header bar so thats gone",
+        "ts": "1466026173.000132"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dev server now is at 10.0.1.51",
+        "ts": "1466027774.000133"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "dev server is back to 10.0.1.169",
+        "ts": "1466031642.000134"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "brandlab default with bodymovin in topsweep is here: <http:\/\/10.0.1.169:9980\/DisplayActivityActivity\/index.html>",
+        "ts": "1466031669.000135"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "it looks great on my end (minus blend mode), curious to see performance on the BFD",
+        "ts": "1466031732.000136"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there is a pretty good speed improvement on top sweep animation when you remove the cubby",
+        "ts": "1466033801.000137"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not perfect but it is in the high 20s i would imagine",
+        "ts": "1466033818.000138"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Can we see the Quiet Mode???",
+        "ts": "1466033826.000139"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yea",
+        "ts": "1466033833.000140"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "\/giphy rockstar",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/david-bowie-rip-rockstar-12GVW0IIfmUgRG>",
+                "image_url": "http:\/\/media2.giphy.com\/media\/12GVW0IIfmUgRG\/giphy.gif",
+                "image_width": 480,
+                "image_height": 466,
+                "image_bytes": 608322,
+                "is_animated": true,
+                "title": "rockstar",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/david-bowie-rip-rockstar-12GVW0IIfmUgRG"
+            }
+        ],
+        "ts": "1466033844.000141"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its up",
+        "ts": "1466033928.000142"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "come see when ready",
+        "ts": "1466033935.000143"
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "`gatekeeper_update`",
+        "ts": "1479231334.002272"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I'm not sure if some of these have been merged already, but here are the branches I have been working on since Friday: `randomize_images`, `places_location_fix`, `GA_update`",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1479231387.000000"
+        },
+        "ts": "1479231369.002273"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The manage images alignment fix is in `randomize_images` btw",
+        "ts": "1479231456.002275"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "oh and one more! `earth_parallax_fix`",
+        "ts": "1479232720.002276"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks!",
+        "ts": "1479232782.002277"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "keep me posted as these get finished up",
+        "ts": "1479232788.002278"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "all the ones that were posted have been merged and pushed to release-48",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1479232846.000000"
+        },
+        "ts": "1479232843.002279"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(keeping that alive until we send out this build, then will fix up our strategy)",
+        "ts": "1479232860.002281"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah <@U2H61EJSG> <@U1ZG1UCAK> let us know when you feel good about the location fix we were chatting about this am (and let me know what to look out for when testing todays build)",
+        "ts": "1479234976.002282"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the location thing isn’t real",
+        "ts": "1479235091.002283"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it will only happen on tester devices that aren’t actually being used in the wild",
+        "ts": "1479235121.002284"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ohokay - im not sure i understand what the issue was, but if y’all feel confident we’re not introducting issues than im cool",
+        "ts": "1479235458.002285"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically if you don’t have a cached location on the system when you toggle location services, but you move at all after you turn them on, the OS will work as expected",
+        "ts": "1479235538.002286"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for now, the branch will be `15_nov_2016`",
+        "ts": "1479235633.002287"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it is not pushed yet",
+        "ts": "1479235637.002288"
+    }
+]

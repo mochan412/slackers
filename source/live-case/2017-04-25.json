@@ -1,0 +1,714 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<!channel> let's have standup in courtyard so we can do a quick JIRA walkthru. \n\nSee you in 10!",
+        "ts": "1493137264.337684",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0260V1BX> <@U026PHQ3J> <@U3ZFEAPSP> ustwo added some additional slides to their working deck - can you take a look this AM and let <@U0U9WJB7F> and I know if there are any issues?",
+        "ts": "1493137514.412489"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/docs.google.com\/presentation\/d\/1pvYQ4nec8o3zep2R0s4CNwSFjehYojBT-2wX3ayLhaM\/edit#slide=id.g1d774acb4e_0_0>",
+        "ts": "1493137516.412939"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/atlassian.statuspage.io\/incidents\/kz9n65qlcljd>",
+        "attachments": [
+            {
+                "title": "Atlassian Status - Login problems to Atlassian services",
+                "title_link": "https:\/\/atlassian.statuspage.io\/incidents\/kz9n65qlcljd",
+                "text": "Atlassian's Status Page - Login problems to Atlassian services.",
+                "fallback": "Atlassian Status - Login problems to Atlassian services",
+                "from_url": "https:\/\/atlassian.statuspage.io\/incidents\/kz9n65qlcljd",
+                "service_name": "atlassian.statuspage.io",
+                "id": 1
+            }
+        ],
+        "ts": "1493137858.516122",
+        "reactions": [
+            {
+                "name": "thinking_face",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/blog.hipchat.com\/2017\/04\/24\/hipchat-security-notice\/>",
+        "attachments": [
+            {
+                "service_name": "HipChat Blog",
+                "title": "HipChat security notice - HipChat Blog",
+                "title_link": "https:\/\/blog.hipchat.com\/2017\/04\/24\/hipchat-security-notice\/",
+                "text": "This weekend our Security Intelligence Team detected a security incident affecting a server in the HipChat Cloud web tier. The incident involved a vulnerability in a popular third-party library used by <http:\/\/HipChat.com|HipChat.com>. We have found no evidence of other Atlassian systems or products being affected. As a precaution, we have invalidated passwords on all HipChat-connected …",
+                "fallback": "HipChat Blog: HipChat security notice - HipChat Blog",
+                "ts": 1493061679,
+                "from_url": "https:\/\/blog.hipchat.com\/2017\/04\/24\/hipchat-security-notice\/",
+                "service_icon": "http:\/\/www.hipchat.com\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1493141258.494059"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "wonder if they pulled login down because of that",
+        "ts": "1493141270.497512"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U2H61EJSG> give this a try and see if it works for you,\n<https:\/\/developer.android.com\/reference\/android\/support\/design\/widget\/TextInputLayout.html>",
+        "ts": "1493141609.596108"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Changing our standup to be M\/W\/F at 9:30 (it'll be in Quartz in the new building) starting on Monday, 5\/1 so it doesn't interfere with the Care standup that is on Tu\/Th. Quartz is room 309.",
+        "ts": "1493144583.473930",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Care standups are daily",
+        "ts": "1493144774.530814"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "FYI",
+        "ts": "1493144781.533068"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sorry :disappointed:",
+        "ts": "1493144901.570034"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "maybe we can do 915? and just make sure to keep em short?",
+        "ts": "1493145024.607806",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I'm cool with 9:15. \n\n<@U3ZFEAPSP> can you take a quick peek at this <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-177> and let us know what we're looking at here?",
+        "ts": "1493145268.681418"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U0U9WJB7F> Definitely, the crashes from that 177 are the same grouping of native crashes we’ve been getting slammed with of late, I’m trying to dig through the logs Bonnie had just sent over to get more context now on what we are seeing",
+        "ts": "1493145518.754852",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "is it possible to not have the stand-ups so early? It sort of forces having to commute in at the thick of traffic for me",
+        "ts": "1493145735.817066"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "What time works best for you Oliver? Just knowing that we have some conflicting standups",
+        "ts": "1493145975.887718"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "What if we do a 10am with the expectation that we're all here around 930? :slightly_smiling_face: \n\nThumbs up on this if you're cool with it.",
+        "ts": "1493146216.958974"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> <@U1ZG1UCAK> <@U0260V1BX> <@U026PHQ3J> <@U3ZFEAPSP> <@U13GPDA1F> ^",
+        "ts": "1493146260.971986",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U0260V1BX"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "915",
+        "ts": "1493146327.991451"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or optional me ",
+        "ts": "1493146332.992950"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "whatever works for the team, i can skip standups too if needed or just give my status on slack",
+        "ts": "1493146590.069808"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "not much action on the design front right now anyway",
+        "ts": "1493146603.073485"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I'm just going to keep it MWF at 930 and hope that Evans\/Melissa can stop in.",
+        "ts": "1493147029.200842"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "9:30 does cut it close already for me, 10 would be best. But if 9:15 is the only time that works, then I could do it, there’s just a huge spike when trying to go with everyone else in traffic to arrive before 9, so I could try to shift to being in before 8 again",
+        "ts": "1493147092.218820"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<!channel> We just heard back from Kat on the Space case, and it sounds like they're dropping space for launch. We should focus our attention on Earth and Trends and I'll mark all tasks Space related in JIRA to \"not doing\" for now.",
+        "ts": "1493147147.234227",
+        "reactions": [
+            {
+                "name": "crying_cat_face",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U0U9WJB7F",
+                    "U13GPDA1F"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":disappointed: SPAAAACE",
+        "ts": "1493147159.237434",
+        "reactions": [
+            {
+                "name": "mars",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Yikes :disappointed:",
+        "ts": "1493147285.271612"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "10am it is.",
+        "ts": "1493147311.278447",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK",
+                    "U2H61EJSG"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I'd still like for us to push for being here around 930 just to get the day started :slightly_smiling_face:",
+        "ts": "1493147327.282516",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F",
+                    "U0260V1BX",
+                    "U06DFL7BP",
+                    "U1ZG1UCAK"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "team - any thoughts on level of difficulty to implement slider to control blur? vs our current \"select 1 of 3\" setting option?",
+        "ts": "1493152180.593767"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "want make sure to flag if needed ",
+        "ts": "1493152196.598348"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "slider to control blur doens’t really make sense",
+        "ts": "1493152200.599431"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "unless its in buckets",
+        "ts": "1493152212.602858"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like “tick tick tick tick”",
+        "ts": "1493152217.604245"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "why? ",
+        "ts": "1493152219.604736"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "because you can't preview?",
+        "ts": "1493152226.606903"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that and the actual amount of blur radius available is really wide",
+        "ts": "1493152240.610987"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and lots of it will have no effect",
+        "ts": "1493152245.612350"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "one thing we had discussed previously with them was just making a blur on\/off toggle",
+        "ts": "1493152506.684217"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay, so we couldnt just identify a max blur and then show 0-100 percent of that based on the slider position? (just trying to get ahead of what they might respond with)",
+        "ts": "1493152508.684711"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and getting rid of the blur intensity options",
+        "ts": "1493152512.685818"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "which makes a lot more sense to me",
+        "ts": "1493152527.690076"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "also, agree with evans’ point above if we do keep the options",
+        "ts": "1493152554.697433"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "its like having a slider for t-shirt sizes.",
+        "ts": "1493152562.699299"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "changing it to an actual slider gives the user WAY more control than they need",
+        "ts": "1493152601.710171"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i totally agree. hoping for some more info\/ammo from a tech perspective <@U3ZFEAPSP> or <@U026PHQ3J> - can you tell me why :point_up_2: wont work :slightly_smiling_face:",
+        "ts": "1493152724.742787"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(not pushing for us to do, just looking for fighting words :wink: )",
+        "ts": "1493152757.751056",
+        "reactions": [
+            {
+                "name": "facepunch::skin-tone-4",
+                "users": [
+                    "U0260V1BX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "theres too much variablility",
+        "ts": "1493152851.776780"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so you’d have to nudge\/view\/nudge\/view\/nudge\/view",
+        "ts": "1493152865.780561"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "even as a percentage of max",
+        "ts": "1493152875.782942"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<https:\/\/material.io\/guidelines\/components\/sliders.html#sliders-discrete-slider>",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1493152949.000000"
+        },
+        "ts": "1493152941.801088"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I think that the slider would be possible and we can map the control for the slider range to our existing settings. \nWe can make it a segmented slider where it snaps to a low\/low-medium\/medium\/high setting. This would probably be the quicker half-way point\nIf if they want a more continuous mapping, we could play around with non-linear functions that would make it feel more continuous but would be a higher level of difficulty in terms of getting the response right\nI agree with Melissa and Evans, slider isn’t the best control here. I think it warrants a reminder of how many users are actually using this feature in favor of minimizing dev time as well.  I think also points to using a switch, which is the quicker implementation",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1493153351.000000"
+        },
+        "ts": "1493153318.902828"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes, the segmented slider is the only way it makes any sense",
+        "ts": "1493153406.926559"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its like a slider for every number between 0 and 512",
+        "ts": "1493153414.928592"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or it’s a slider and we round the value to preset things so it “feels” more controllable than it is (this is bad)",
+        "ts": "1493153431.933600"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its really the wrong control for it",
+        "ts": "1493153480.946436"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks all! super helpful stuff. i flagged this in the ustwo deck (p27) as something that would be fairly complicated from the dev perspective + maybe not the best from a UX perspective. also proposed toggle or possibly segmented slider",
+        "ts": "1493153494.950215"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yes",
+        "ts": "1493153495.950304"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "awesome, thanks lynsey! havent gone through the ustwo deck but its on my list to hit tomorrow morning. let me know if you want me to review it sooner",
+        "ts": "1493153565.968978"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we're meeting with them tomorrow at 11, so if there are major \/ stop-the-presses flags it would be great to know that today so ustwo can address. BUT i dont think there's anything major, so anytime beforehand should work",
+        "ts": "1493153933.069325"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Do we have an idea of number of active users on Earth? <@U1S5GKTHQ> do we have the number of refreshEarthImage requests per day?",
+        "ts": "1493154065.105965"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> those errors that bonnie put in the screenshot",
+        "ts": "1493154129.123261"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the file not founds",
+        "ts": "1493154132.123836"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you verify that those images actually exist",
+        "ts": "1493154142.126893"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that seems oddly frequent",
+        "ts": "1493154148.128311"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U3ZFEAPSP> we’re not actively collecting usage data on the API. might be able to extract something from the logs",
+        "ts": "1493154190.139017"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’ve been digging into it a bit, thanks dimitry, would it be much to get an idea from the logs? Where’s the appspot console I could check those out on?\n\nThat 1243.jpg image exists (it is the first one that comes back on 3|2 tag.\nThe three images that have the most events are all the first images in the list for the three permutations of the earth cases. I believe these are the case images?\nThe rest of the images are not in today’s list of images, my guess is that they are the second images. And that for the vast majority of these events the retry is now working. But then for the other times (looking like it happened at least 13 times), there was some other issue and it ran through all the options before either falling back to the default image or possibly hit the recent skia crashes on an OOM that Bonnie just sent",
+        "ts": "1493155285.399795"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<https:\/\/console.cloud.google.com\/logs\/viewer?project=gweb-uncorked-3pr> you can then search for `get_random_images`. unfortunately, it doesn’t give any stats or counts",
+        "attachments": [
+            {
+                "title": "Google Cloud Platform",
+                "title_link": "https:\/\/console.cloud.google.com\/logs\/viewer?project=gweb-uncorked-3pr",
+                "text": "Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google.",
+                "fallback": "Google Cloud Platform",
+                "from_url": "https:\/\/console.cloud.google.com\/logs\/viewer?project=gweb-uncorked-3pr",
+                "service_icon": "https:\/\/accounts.google.com\/favicon.ico",
+                "service_name": "accounts.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1493155394.423933"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Awesome, thanks dimitry. These are all the requests though for these images? If I run through and manually speed count these I should be able to have a rough order of magnitude measure, right?",
+        "ts": "1493155560.462552"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "The total number of those IOException is unnerving. \nI think this issue may have been affecting a decent swath of users. Because the other images are not being subsequently hit as it runs through the retry loop (ie, it runs through and fails for each image, so our failure counts on that tag would be all about the same). And (to confirm with call with Bonnie) there isn’t a spike of other runtime exceptions (ie didn’t read image correct, then goes to retry the next one and hits a OOM or something because we are in a bad state). It seems that in the vast majority of times it fails once and then successfully sets the next image.\nFrom people’s reports where this seems to happen repeatedly to the same user, so I’m wondering if something is happening along path where the case Earth image is set. \n\nThat number, ~20,000 still seems high for me given how infrequently we have been able to reproduce, along with our daily getImages could being on the order of 3-5,000 users. Something is causing this to get triggered multiple times.\nHopefully after this call with Bonnie, I’ll have more info to test out some hypotheses",
+        "ts": "1493156880.744931"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "20K seems really really really weird",
+        "ts": "1493156958.760977"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, I’m hoping to see the time series of the data to see if it is some crazy spike at release and then settles out or if it is some constant baseline rate",
+        "ts": "1493157212.812602"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F54H68XHS\/screenshot_20170425-163030.png|Slack for Android Upload> and commented: Updated Earth in Android looks pretty good. Launch to Place, with info graph, should be doable there.",
+        "file": {
+            "id": "F54H68XHS",
+            "created": 1493163369,
+            "timestamp": 1493163369,
+            "name": "Screenshot_20170425-163030.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 3190008,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F54H68XHS\/screenshot_20170425-163030.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F54H68XHS\/download\/screenshot_20170425-163030.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F54H68XHS-6371989bf5\/screenshot_20170425-163030_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F54H68XHS-6371989bf5\/screenshot_20170425-163030_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F54H68XHS-6371989bf5\/screenshot_20170425-163030_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F54H68XHS-6371989bf5\/screenshot_20170425-163030_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F54H68XHS-6371989bf5\/screenshot_20170425-163030_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F54H68XHS-6371989bf5\/screenshot_20170425-163030_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F54H68XHS-6371989bf5\/screenshot_20170425-163030_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F54H68XHS-6371989bf5\/screenshot_20170425-163030_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F54H68XHS-6371989bf5\/screenshot_20170425-163030_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F54H68XHS\/screenshot_20170425-163030.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F54H68XHS-1acda7b99d",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc55A1TZ6J",
+                "created": 1493163369,
+                "timestamp": 1493163369,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Updated Earth in Android looks pretty good. Launch to Place, with info graph, should be doable there."
+            },
+            "reactions": [
+                {
+                    "name": "partyparrot",
+                    "users": [
+                        "U2H61EJSG"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1493163375.805993"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "REALLY?!",
+        "ts": "1493163740.855177"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "this is a big deal!",
+        "ts": "1493163744.855844"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I can’t remember what the bug in Earth was previously :confused:",
+        "ts": "1493163820.865612"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sorry just seeing this - not sure what you mean by bug? do you mean the crashes or do you mean what prevented us from being able to do satellite + knowledge card?",
+        "ts": "1493167459.301329"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or something else? (sorry I'm a little :fries:d)",
+        "ts": "1493168169.379195"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I mean that there was some issue with launching to G Earth (like a crash or something) and I can't remember the details, just that the Earth team said they weren't fixing it and we had to switch to launch in Maps.\nWe can revisit, I just couldn't find a reference anywhere in Slack or Gmail",
+        "ts": "1493169527.528962"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oooohhhh from the initial launch - I'll check my emails I bet I can find a clue!",
+        "ts": "1493169609.537246"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I remember the back and forth but not why we moved away from earth to maps - anyways thanks for clarifying! and looking into this!",
+        "ts": "1493169741.551299"
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Still getting through review out here... I think they are a little short-staffed with spring break maybe? At least traffic was clear. ",
+        "ts": "1490722472.385913",
+        "reactions": [
+            {
+                "name": "fingerscrossed",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/github.com\/google\/cameraview>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "google\/cameraview",
+                "title_link": "https:\/\/github.com\/google\/cameraview",
+                "text": "cameraview - Easily integrate Camera features into your Android app",
+                "fallback": "GitHub: google\/cameraview",
+                "from_url": "https:\/\/github.com\/google\/cameraview",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/1342004?v=3&s=400",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1490726700.618010"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> are you looking into the crash Bonnie reported? if not I can pass to Oliver (just don't want to duplicate work)",
+        "ts": "1490737507.429072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i cant at the moment, so if its more convenient for someone else to do, pelase do!",
+        "ts": "1490737530.434014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "should be similar to the testing we did against uncorked dogs a week or two ago. something seems to not be lining up -or- there’s an insane gif",
+        "ts": "1490737550.438237"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool <@U3ZFEAPSP> going to forward you a BR to take a look at - please keep us posted on what you find so we can report to client ",
+        "ts": "1490737598.448171"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its definitely collections and definitely a gif issue",
+        "ts": "1490737616.451868"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and looks somewhat like a file that is static but thinks its a gif",
+        "ts": "1490737637.456096"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks (sorry in a meeting but happy to help try to sort out when I'm out) ",
+        "ts": "1490737676.464271"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "cool, taking a dig into it now",
+        "ts": "1490738043.539307"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "just did a quick sanity check through the content and made sure the static\/gif tag matched the actual content to make sure nothing was marked or changed incorrectly. So static for jpg ad gif for gifs. I didn’t see anything out of line there, I’ll walk the Collections code some",
+        "ts": "1490738733.679047"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1490738836.698656"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "in case its relevant (from bonnie ;)) <https:\/\/developer.android.com\/topic\/libraries\/support-library\/revisions.html>",
+        "attachments": [
+            {
+                "title": "    Recent Support Library Revisions | Android Developers  ",
+                "title_link": "https:\/\/developer.android.com\/topic\/libraries\/support-library\/revisions.html",
+                "text": "This page provides details about recent Support Library package releases.",
+                "fallback": "    Recent Support Library Revisions | Android Developers  ",
+                "from_url": "https:\/\/developer.android.com\/topic\/libraries\/support-library\/revisions.html",
+                "service_icon": "https:\/\/developer.android.com\/_static\/32912b7956\/images\/android\/touchicon-180.png",
+                "service_name": "developer.android.com",
+                "id": 1
+            }
+        ],
+        "ts": "1490744038.521597"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "^@lynsey, read through that release report, didn’t see anything that would raise any concerns.",
+        "ts": "1490744426.573023"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Thanks <@U3ZFEAPSP>! Any thoughts on that crash? Just wondering if we have anything to report ",
+        "ts": "1490745621.729967"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Not much at the moment. I de-obfuscated proguard and have the line it was failing on. \nPretty much confirming everything Evans said above, I was trying to look around to see if there was any other way to call into this part of the code. It  only gets called if it evaluates that it is a gif, I’ll keep exploring and see if anything comes to mind",
+        "ts": "1490746296.814417"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks for the update + digging into that - I want to make sure we feel like this isn't a larger issue effecting lots of artworks users before we shift gears back to the authentication feature, so let's just plan to check in on this in the morning and game plan!",
+        "ts": "1490746674.858512"
+    }
+]

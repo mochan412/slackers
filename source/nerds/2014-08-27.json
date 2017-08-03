@@ -1,0 +1,39 @@
+[
+    {
+        "user": "U02HCCTFL",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02HCCTFL|danielle> has joined the channel",
+        "ts": "1409175446.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F4147F",
+        "text": "Ok - This is a weird issue I've been seeing in a personal project of mine and I'm hoping someone here is cleverer than me. I have a LAMP stack app. When I pull records from a table in that app, I have one field (a smallint) that shows one value in the db, but another when I write it to the screen. Value transformations I'm seeing are 3 -&gt; 4, 4 -&gt; 5, 9 -&gt; 12. Any ideas?",
+        "ts": "1409185418.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "strange. In my experience three is five and five is four and four is the magic number.",
+        "ts": "1409185476.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "(sorry, I'll go be completely unhelpful somewhere else)",
+        "ts": "1409185501.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F4147F",
+        "text": "Hahahahaha. Thanks, spencer",
+        "ts": "1409186018.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "if it was 3-&gt;4, 4-&gt;5, 9-&gt;10 the column might be defined auto_increment? You could do a \"show create table &lt;table&gt;\" and look at how the column is defined? Not sure how 9-&gt;12 fits into that theory though :confused:",
+        "ts": "1409188968.000007"
+    }
+]

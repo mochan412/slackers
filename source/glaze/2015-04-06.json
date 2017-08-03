@@ -1,0 +1,127 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0289USNA> would it be possible to shift the fridge history to be within the last week? Haven't dug much into it, but I only have data back to april 1",
+        "ts": "1428340860.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it’s on a 1 week envelope - If I just make it 2 weeks, is that helpful?",
+        "ts": "1428340926.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the data I put in there for Kat likely timed out of the 1 week window.",
+        "ts": "1428340963.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I'm not sure if I'll pass the data to the scrubber if it's over 1 week old, but that'd probably be a quick change",
+        "ts": "1428341075.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "perhaps it’s a client issue?",
+        "ts": "1428341115.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<http:\/\/g4.uncorkedstudios.com\/photos>",
+        "ts": "1428341119.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could be.",
+        "ts": "1428341124.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the feed as is has content on 3\/30",
+        "ts": "1428341142.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "there are 6 photos in the feed, 1 from today, 3 from April 1st, and 2 from March 30th",
+        "ts": "1428341186.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "It’s easy for me to either extend the envelope returned to be more than 7 days",
+        "ts": "1428341219.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "or populate with more data if you simply need more data points.",
+        "ts": "1428341241.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I also just pushed a change to the app that will retrieve all of the images from the local table, not just the last week",
+        "ts": "1428341256.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026PHQ3J> -  do you need me to change anything?",
+        "ts": "1428341610.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry wandered off of it for a second. I'll pull kat's changes and trace",
+        "ts": "1428341627.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "np - just let me know if you need somethign",
+        "ts": "1428341654.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks like client.",
+        "ts": "1428341948.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> I just pushed a fix.",
+        "ts": "1428341955.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the g4 server is now processing images with chewbacca ’s latest coefficients and then compositing with varying heights and spacers to match the style of images presented in the last glaze app",
+        "ts": "1428357103.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "example: <http:\/\/g4.uncorkedstudios.com\/images\/1428356894519.jpg>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/g4.uncorkedstudios.com\/images\/1428356894519.jpg",
+                "fallback": "2000x4308px image",
+                "image_url": "http:\/\/g4.uncorkedstudios.com\/images\/1428356894519.jpg",
+                "image_width": 2000,
+                "image_height": 4308,
+                "image_bytes": 1262940,
+                "id": 1
+            }
+        ],
+        "ts": "1428357106.000020"
+    }
+]

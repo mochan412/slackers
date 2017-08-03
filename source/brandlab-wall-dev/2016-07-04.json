@@ -1,0 +1,659 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "has anyone pushed last night’s build yet?",
+        "ts": "1467657837.000818"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: \/\\ \/\\",
+        "ts": "1467657861.000819"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "working on that",
+        "ts": "1467657871.000820"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "cool",
+        "ts": "1467657879.000821"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "finished CB question ping",
+        "ts": "1467657887.000822"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "those values are in viz now",
+        "ts": "1467657899.000823"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I reverted Display back to last night’s build since I was testing the auto-advance stuff on a side branch",
+        "ts": "1467657899.000824"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":thumbsup:",
+        "ts": "1467657903.000825"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: still seeing the race condition on topSweepData. Browser refreshed, re-pushed everything. Anything else I should do?",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1467663686.000000"
+        },
+        "ts": "1467663664.000826"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im not",
+        "ts": "1467663728.000828"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "hrm",
+        "ts": "1467663814.000829"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "\/giphy trailer park boys bubbles",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/movie-mrw-high-quality-OZxxfYTXQupJ6>",
+                "image_url": "http:\/\/media.giphy.com\/media\/OZxxfYTXQupJ6\/giphy-tumblr.gif",
+                "image_width": 250,
+                "image_height": 141,
+                "image_bytes": 960325,
+                "is_animated": true,
+                "title": "trailer park boys bubbles",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/movie-mrw-high-quality-OZxxfYTXQupJ6"
+            }
+        ],
+        "ts": "1467666322.000830"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "looking at css like ^",
+        "ts": "1467666339.000831"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: lunch ate up some time.  whatcha think about 2:45 reviewing our progress?  is that helpful to ya’ll or want less time?",
+        "ts": "1467666352.000832"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "sounds good",
+        "ts": "1467666364.000833"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":nopun:",
+        "ts": "1467666366.000834"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/38.media.tumblr.com\/33160e281de737bd3799f039aff81756\/tumblr_inline_n8j7y9mn6P1r1qb8g.jpg>",
+        "attachments": [
+            {
+                "fallback": "500x359px image",
+                "image_url": "http:\/\/38.media.tumblr.com\/33160e281de737bd3799f039aff81756\/tumblr_inline_n8j7y9mn6P1r1qb8g.jpg",
+                "image_width": 500,
+                "image_height": 359,
+                "image_bytes": 36873,
+                "from_url": "http:\/\/38.media.tumblr.com\/33160e281de737bd3799f039aff81756\/tumblr_inline_n8j7y9mn6P1r1qb8g.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1467666366.000835"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im looking at colors, i see what happened on that one being darker",
+        "ts": "1467666387.000837"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good - <@U0EL0GLEL> does the direction make sense?  i never knew that we only go two colors deep.  that only questions 2 and 3 show the secondary clor",
+        "ts": "1467666712.000838"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its fine",
+        "ts": "1467666725.000839"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "3 is the primary 2 is the secondary",
+        "ts": "1467666735.000840"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it swaps back and forth",
+        "ts": "1467666739.000841"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "main problem is the bodymovin on first animation is wrong",
+        "ts": "1467666772.000842"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the color is the secondary,im fixing",
+        "ts": "1467666779.000843"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "copy",
+        "ts": "1467666835.000844"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "color is cool, there is a bug in assigment basically its screwy stemed from that placement issue we seen earlier now that im in admin finishing up the last of that update",
+        "ts": "1467668536.000845"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "copy",
+        "ts": "1467668593.000846"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "\/giphy save yourself",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/shawbrothersuniverse-run-ahhhh-save-yourself-3oEdv6UINWpIfe6wOk>",
+                "image_url": "http:\/\/media2.giphy.com\/media\/3oEdv6UINWpIfe6wOk\/giphy.gif",
+                "image_width": 540,
+                "image_height": 227,
+                "image_bytes": 1693083,
+                "is_animated": true,
+                "title": "save yourself",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/shawbrothersuniverse-run-ahhhh-save-yourself-3oEdv6UINWpIfe6wOk"
+            }
+        ],
+        "ts": "1467669392.000847"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: bryan will need app restarted in t minus 10 min",
+        "ts": "1467669394.000848"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool?",
+        "ts": "1467669395.000849"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "\/giphy gtfo cubby",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/gtfo-V2ZlofKj0nKTe>",
+                "image_url": "http:\/\/media2.giphy.com\/media\/V2ZlofKj0nKTe\/giphy.gif",
+                "image_width": 320,
+                "image_height": 180,
+                "image_bytes": 722552,
+                "is_animated": true,
+                "title": "gtfo cubby",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/gtfo-V2ZlofKj0nKTe"
+            }
+        ],
+        "ts": "1467669412.000850"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "errr not cubby",
+        "ts": "1467669438.000851"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "editing master CSS",
+        "edited": {
+            "user": "U11JK4QSK",
+            "ts": "1467669452.000000"
+        },
+        "ts": "1467669445.000852"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "\/giphy get out",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/here-reason-leave-qeA0jZAlsCHAI>",
+                "image_url": "http:\/\/media0.giphy.com\/media\/qeA0jZAlsCHAI\/giphy.gif",
+                "image_width": 474,
+                "image_height": 379,
+                "image_bytes": 482255,
+                "is_animated": true,
+                "title": "get out",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/here-reason-leave-qeA0jZAlsCHAI"
+            }
+        ],
+        "ts": "1467669724.000854"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "\/giphy gtfo",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/cute-rihanna-MxVHrKguywNAA>",
+                "image_url": "http:\/\/media1.giphy.com\/media\/MxVHrKguywNAA\/giphy.gif",
+                "image_width": 400,
+                "image_height": 261,
+                "image_bytes": 1867999,
+                "is_animated": true,
+                "title": "gtfo",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/cute-rihanna-MxVHrKguywNAA"
+            }
+        ],
+        "ts": "1467669795.000855"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "\/giphy you can leave",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/so-you-think-you-can-dance-so-you-think-can-dance-xTiTnlpyTbdAjDqvUQ>",
+                "image_url": "http:\/\/media.giphy.com\/media\/xTiTnlpyTbdAjDqvUQ\/giphy-tumblr.gif",
+                "image_width": 250,
+                "image_height": 140,
+                "image_bytes": 808848,
+                "is_animated": true,
+                "title": "you can leave",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/so-you-think-you-can-dance-so-you-think-can-dance-xTiTnlpyTbdAjDqvUQ"
+            }
+        ],
+        "ts": "1467669882.000856",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "damn it giphy i gave you good material there",
+        "ts": "1467669903.000858"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "\/giphy see yourself out",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/declaration-of-independence-heather-nbc-revolution-EObnJYsN7lsZy>",
+                "image_url": "https:\/\/media1.giphy.com\/media\/EObnJYsN7lsZy\/giphy.gif",
+                "image_width": 245,
+                "image_height": 140,
+                "image_bytes": 1631727,
+                "is_animated": true,
+                "title": "see yourself out",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/declaration-of-independence-heather-nbc-revolution-EObnJYsN7lsZy"
+            }
+        ],
+        "ts": "1467669922.000860"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "hmm",
+        "ts": "1467669934.000861"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<@U02E3CRMA>: <@U0EL0GLEL> refresh the template editor if you need to use it",
+        "ts": "1467670865.000862"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "added css for default brandlab topsweep",
+        "ts": "1467670891.000863"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "should be locked to only save if you have css edit open",
+        "ts": "1467670924.000864"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "nice",
+        "ts": "1467670947.000865"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: where you at?  data viz participant stats or elsewhere?",
+        "ts": "1467670981.000866"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no",
+        "ts": "1467670997.000867"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "fixing admin cubby assignment",
+        "ts": "1467671008.000868"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "participant stats should be fixed",
+        "ts": "1467671033.000869"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "\/giphy data",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/zEU2uwmialC4U>",
+                "image_url": "http:\/\/media0.giphy.com\/media\/zEU2uwmialC4U\/giphy.gif",
+                "image_width": 366,
+                "image_height": 272,
+                "image_bytes": 1404398,
+                "is_animated": true,
+                "title": "data",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/zEU2uwmialC4U"
+            }
+        ],
+        "ts": "1467671127.000870"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F1NNGDNM7\/locations_v2.rtf|locations_v2.rtf> and commented: <@U0EL0GLEL>: i screwed up and left KY off of the destinations list.  can you re-upload?",
+        "file": {
+            "id": "F1NNGDNM7",
+            "created": 1467671470,
+            "timestamp": 1467671470,
+            "name": "locations_v2.rtf",
+            "title": "locations_v2.rtf",
+            "mimetype": "text\/rtf",
+            "filetype": "rtf",
+            "pretty_type": "Rich Text File",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 9340,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1NNGDNM7\/locations_v2.rtf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1NNGDNM7\/download\/locations_v2.rtf?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F1NNGDNM7\/locations_v2.rtf",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1NNGDNM7-28f394385d",
+            "channels": [
+                "C0MQJP06A"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc1NNL8KHQ",
+                "created": 1467671470,
+                "timestamp": 1467671470,
+                "user": "U0ML49XU0",
+                "is_intro": true,
+                "comment": "<@U0EL0GLEL>: i screwed up and left KY off of the destinations list.  can you re-upload?"
+            }
+        },
+        "user": "U0ML49XU0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1467671470.000871"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "also <@U0EL0GLEL> anything else from list earlier that still hasnt been done?  i’ll accptance tes tnow",
+        "ts": "1467671586.000872"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "should be able to test those, unclear on any answers not hitting right bubble yet tho. triggers are right. this assignment issue is pretty critical im doing this now",
+        "ts": "1467671740.000873"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok understood",
+        "ts": "1467671810.000874"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "I’ll acceptance test those now.  Peter then the only list I have for you is:\n- bug youre working on \n- BWB-372 Welcome Cubby - Opening Animation: CTA buttons hiccup just tiny bit\n- BWB-328 Goodbye Cubby: Adjust the max items on screen threshold\n\nlook right?",
+        "ts": "1467671880.000875"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there is no 328",
+        "ts": "1467671902.000876"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that error was this other one we seen earlier",
+        "ts": "1467671912.000877"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that was just a guess, and it was something else",
+        "ts": "1467671918.000878"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "pushed a fix",
+        "ts": "1467671927.000879"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "intermittent js error?",
+        "ts": "1467671953.000880"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "a fixed js error",
+        "ts": "1467672018.000881"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "you know my favorite kind of bug?",
+        "ts": "1467672046.000882"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "dead ones.",
+        "ts": "1467672048.000883"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "got it, assignment is fixed",
+        "ts": "1467673004.000884"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no more changing of the guard based on the order you push the presets",
+        "ts": "1467673017.000885"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and where they go in admin sticks",
+        "ts": "1467673028.000886"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "as well as the ip",
+        "ts": "1467673030.000887"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the cubby id you feed in the url is the mapped direct to ip for now at least, it goes thru the translation table adjustable in ugly, hot swaps would touch that",
+        "ts": "1467673064.000888"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "whatch is still misspelled in experience.  looks good in admin though",
+        "ts": "1467674041.000889"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0ML49XU0>: app needs to restart to grab that update",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1467674200.000000"
+        },
+        "ts": "1467674189.000890"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "kk",
+        "ts": "1467674342.000892"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i thought we’d restarted in mean itme.",
+        "ts": "1467674348.000893"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #66 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/66\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #66 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/66\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1467679935.000894"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #66 Success after 24 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/66\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #66 Success after 24 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/66\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1467679957.000895"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "oh, that Jenkins...",
+        "ts": "1467679967.000896"
+    }
+]

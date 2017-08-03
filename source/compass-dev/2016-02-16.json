@@ -1,0 +1,504 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/github.com\/adidasFuture\/compass-backend\/tree\/queue-take-2\/ctn42\/adidas_modules\/ctn42_queue>",
+        "ts": "1455647549.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "does this make sense to anyone:",
+        "ts": "1455649699.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "debug response={\"name\":\"ctn42api\",\"version\":\"0.01\",\"couchbase\":false,\"bigtable\":false,\"io\":false,\"couchbase_first_error\":{\"message\":\"The bucket requested does not exist\",\"code\":25},\"couchbase_second_error\":{\"message\":\"The bucket requested does not exist\",\"code\":25},\"cache\":true,\"outbound\":true}",
+        "ts": "1455649700.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this is on the ping route running locally",
+        "ts": "1455649706.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "might not have latest dev",
+        "ts": "1455649733.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry",
+        "ts": "1455649734.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "looks like you need to add a bucket to your local couchbase",
+        "ts": "1455649744.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Checking now to see what buckets we expect",
+        "ts": "1455649766.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Looks like the current app is using buckets called default, discovery_academy, and customer_support_message",
+        "ts": "1455649818.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "This is the disadvantage of not using ottoman that I’ve mentioned before:  there’s currently no record in our source of what buckets and views are required in Couchbase to run the app. We can find a smart solve for it though.",
+        "ts": "1455649951.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha. I switched it to the production cluster, cause I don't really need couchbase at the moment",
+        "ts": "1455650051.000012"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F0MK0UPFA\/-.txt|Untitled>",
+        "file": {
+            "id": "F0MK0UPFA",
+            "created": 1455650062,
+            "timestamp": 1455650062,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 585,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0MK0UPFA\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0MK0UPFA\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F0MK0UPFA\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0MK0UPFA-643821cdea",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F0MK0UPFA\/-.txt\/edit",
+            "preview": "debug response={\"name\":\"ctn42api\",\"version\":\"0.01\",\"couchbase\":true,\"bigtable\":false,\"io\":false,\"cache\":true,\"outbound\":true}\r\nDebug: internal, implementation, error \r\n    Error: Failed to encode cookie (session) value: Password string too short (min 32 characters required)\r\n    at \/Users\/dave\/Prototypes\/compass\/compass-backend\/ctn42\/node_modules\/yar\/node_modules\/statehood\/lib\/index.js:436:34\r\n    at \/Users\/dave\/Prototypes\/compass\/compass-backend\/ctn42\/node_modules\/hoek\/lib\/index.js:850:22\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>debug response={&quot;name&quot;:&quot;ctn42api&quot;,&quot;version&quot;:&quot;0.01&quot;,&quot;couchbase&quot;:true,&quot;bigtable&quot;:false,&quot;io&quot;:false,&quot;cache&quot;:true,&quot;outbound&quot;:true}<\/pre><\/div>\n<div><pre>Debug: internal, implementation, error <\/pre><\/div>\n<div><pre>    Error: Failed to encode cookie (session) value: Password string too short (min 32 characters required)<\/pre><\/div>\n<div><pre>    at \/Users\/dave\/Prototypes\/compass\/compass-backend\/ctn42\/node_modules\/yar\/node_modules\/statehood\/lib\/index.js:436:34<\/pre><\/div>\n<div><pre>    at \/Users\/dave\/Prototypes\/compass\/compass-backend\/ctn42\/node_modules\/hoek\/lib\/index.js:850:22<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 7,
+            "lines_more": 2,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0LDEJLG3"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1455650062.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'm obviously not logged in, just noting it",
+        "ts": "1455650097.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "When I updated to latest versions of Hapi and in turn Yar, there’s a new requirement for password length for Yar",
+        "ts": "1455650106.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "so yarOptions.cookieOptions.password in your external config file will need to be updated",
+        "ts": "1455650167.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah no big deal. I used to use the ping route just to check that it was running.",
+        "ts": "1455650168.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which box is recieving the SNS pushes?",
+        "ts": "1455650532.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it’s on 10.1.33.116 right now",
+        "ts": "1455651100.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "in \/home\/ubuntu\/apps\/ctn42\/routes.js for the moment. I also have it in a standalone app I can send you or put in git",
+        "ts": "1455651196.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm. could you send it to me",
+        "ts": "1455651728.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "my stupid keys didn't reinstall properly on this new machine",
+        "ts": "1455651738.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so my alias to the cluster boxes are all wrong",
+        "ts": "1455651754.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah one sec!",
+        "ts": "1455651778.000026"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02613K0X|jenny> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jenny\/F0MK1QR52\/snsapp.zip|snsApp.zip>",
+        "file": {
+            "id": "F0MK1QR52",
+            "created": 1455652379,
+            "timestamp": 1455652379,
+            "name": "snsApp.zip",
+            "title": "snsApp.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U02613K0X",
+            "editable": false,
+            "size": 1568,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0MK1QR52\/snsapp.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0MK1QR52\/download\/snsapp.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenny\/F0MK1QR52\/snsapp.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0MK1QR52-526d65442d",
+            "channels": [
+                "C0LDEJLG3"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02613K0X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jenny",
+        "bot_id": null,
+        "ts": "1455652380.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "^ <@U026PHQ3J>",
+        "ts": "1455652410.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1455652419.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8TTPU>: and <@U02613K0X> I personally have no problem getting him to go with beanstalk its just really important that it cover off on all the things that it has to do",
+        "ts": "1455661363.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if thats the case, then please educate me, and i'll fight for it",
+        "ts": "1455661371.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "So far, I've enjoyed learning about beanstalk, how to configure custom packages on the default nodejs AMI, set up roles and permissions between SQS and S3, lots of trial and error but it's close",
+        "ts": "1455661585.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Even if this doesn't contribute to the current project, I can learn about it and share knowledge for future developments",
+        "ts": "1455661614.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "However....  from a DevOps perspective, implementing and maintaining a custom queue, messaging, worker dispatch and scalable deployment infrastructure sounds more expensive than using Beanstalk and SQS... it would most likely need a team of 2-3 DevOps people and a sustaining developer",
+        "ts": "1455661756.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you run beanstalk on a VPC?",
+        "ts": "1455662016.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "how do you share credentials to something like couchbase on it?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1455662045.000000"
+        },
+        "ts": "1455662031.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Yes, it requires a VPC",
+        "ts": "1455662039.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like I said, I'm just being told that beanstalk is a nonstarter by israel",
+        "ts": "1455662062.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so if its at least a 1:1 swap, and at best a 1:2 swap, then i can push on it",
+        "ts": "1455662089.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm not as up to speed on AWS as Israel, but I know about building SAN and datacenter infrastructures if a custom implementation sounds like a better choice. It's expensive tho",
+        "ts": "1455662210.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "as far as I can tell, beanstalk is just a way of auto-deploying configurable EC2 instances with built-in hooks to the AWS infrastructure",
+        "ts": "1455662535.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "We could spend some time developing our own implementation of the queue\/messaging\/worker\/scaling, and develop a stress test for it, and benchmark that against an implementation that uses beanstalk",
+        "ts": "1455662819.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can position it this way, but in particular I need an answer to the question of how does beanstalk deal with dependencies (for example, if a particular task has a prequisite or a postscript)",
+        "ts": "1455663179.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "packages and dependencies are customizable in the .ebextensions directory of the worker app... so far I've configured it to install GraphicsMagick and customized the NPM install config. <http:\/\/docs.aws.amazon.com\/elasticbeanstalk\/latest\/dg\/create_deploy_nodejs.container.html>",
+        "attachments": [
+            {
+                "text": "Configure a Node.js container for your Elastic Beanstalk application.",
+                "fallback": "Configure a Node.js container for your Elastic Beanstalk application.",
+                "from_url": "http:\/\/docs.aws.amazon.com\/elasticbeanstalk\/latest\/dg\/create_deploy_nodejs.container.html",
+                "id": 1
+            }
+        ],
+        "ts": "1455663370.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i mean that a particular process has dependencies",
+        "ts": "1455663387.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "calculations",
+        "ts": "1455663390.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so the real reason that the workers\/queues exist in the compass system is to ostensibly serve the idea that data science will have very complicated algorithms that have varied inputs\/output",
+        "ts": "1455663446.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i can't say i subscribe to this)",
+        "ts": "1455663457.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but if the idea would be to do that on beanstalk, does beanstalk make that kind of thing more straightforward than writing it",
+        "ts": "1455663478.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "because i do see that the queue management itself is pretty simple, but that autoscaling and elastic load balancing is the more complicated infrastructre task",
+        "ts": "1455663505.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "beanstalk supposedly takes care of that based on the request load of the worker service",
+        "ts": "1455663530.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the actual \"workers\" are complex",
+        "ts": "1455663532.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but thats how ELB's work anyway",
+        "ts": "1455663541.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "and the ELB is configurable",
+        "ts": "1455663553.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so what i'm trying to find that i can take as an argument is that there is some measurable benefit to beanstalk",
+        "ts": "1455663594.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for example: it can make dependent computations more straightforward",
+        "ts": "1455663608.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "again, i dont personally care one way or the other. in my mind the workers are complex no matter where they run",
+        "ts": "1455663633.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and it does seem like we're reimplementing beanstalk which seems dumb",
+        "ts": "1455663665.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I can try, but it will take more time, be more expensive, and less efficient than the phalanx of developers who are currently doing this as their fulltime job at AWS",
+        "ts": "1455663696.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that doesn't help me",
+        "ts": "1455663774.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'm fully aware that beanstalk appears to do this. when i brought that idea to israel it was shot down as \"a straw that might break the camels back\"",
+        "ts": "1455663801.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what i'm looking for is another angle from which to come at this, but knowing that making this move will likely be an irreversible decision",
+        "ts": "1455663824.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "have we heard anything from Jesse, the pro AWS consultant who is setting up the bakery? It seems like this is his domain of knowledge, so maybe he knows why beanstalk isn't appropriate for some features",
+        "ts": "1455663831.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i need to get into a fight by proxy for it",
+        "ts": "1455663836.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i don't have oversight into the mechanics of how\/why the decisions get made, its not our\/my money. If we think beanstalk is the best solution, I am willing to make that argument, i just need to go to that argument knowing what i am asking for and why",
+        "ts": "1455663930.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm not trying to single this out, it was singled out for me by Israel when I brought it up",
+        "ts": "1455664017.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "it's probably not too important at this point... at least we're gaining lots of communal knowledge about AWS, examples abound in what we're trying to implement, and it can be done many ways in any number of languages and cloud providers",
+        "ts": "1455664530.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "not worth fighting, stressing, losing sleep or burning out over... we can break these complex problems down into manageable parts and solve the interesting puzzles",
+        "ts": "1455664775.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but if you think beanstalk is the right thing to do, i can make that fuss - happily!",
+        "ts": "1455664797.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just need the right ammo",
+        "ts": "1455664805.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont mind, its what i'm here for",
+        "ts": "1455664816.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll just finish what I'm currently working on with the media upload server and resizing worker, and whenever we have a chance to sync up with Israel, I can show&amp;tell how it works and scales, and if it's important to migrate it to our custom configuration, I can easily do that once the configuration is defined.",
+        "ts": "1455665567.000074"
+    }
+]

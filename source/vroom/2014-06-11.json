@@ -1,0 +1,166 @@
+[
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/b72aaee0fbedad9dde874edc1c7d1ec511bd1818|b72aaee0fbed>: beginning to address vroomID issue flagged by apple\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1402496623.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "we need to make a new server endpoint for DELETE on \/api\/v1\/users\/&lt;user_id&gt;\/vroom_id as currently my delete is solely local to the device and at any point if the user is refetched form the server the vroomID will come back.",
+        "ts": "1402496719.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "There's also some weirdness we need to address with how the vroomID photo is being scaled\/cropped presented in this view and in the badge hub as it is not consistent between 1. what you set it to be when you are \"done\", what it is when you come back to the view, and what it looks like in the badge hub.",
+        "ts": "1402496803.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Would <@U02613K0X>  be able to attack this quickly",
+        "ts": "1402499505.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "?",
+        "ts": "1402499506.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "If you mean the delete endpoint, then yes",
+        "ts": "1402500539.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yep!",
+        "ts": "1402500544.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Thank you <@U02613K0X> !",
+        "ts": "1402500769.000006"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/ea7aad2c3cf6be9bbb0aa89df511c46647bf0f8a|ea7aad2c3cf6>: correct sizing in vroomID view\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/f1c7293ae51e470501879a56a0fb696bae4e37cf|f1c7293ae51e>: updates for scaling\/size of vroomID in badgehub and vroomID screens\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1402511400.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0289USNA>: how's that all going? should we be testing a build soon?",
+        "ts": "1402511496.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "yup shortly",
+        "ts": "1402511574.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "testing the server endpoint for delete now and then will make a build",
+        "ts": "1402511596.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome thanks",
+        "ts": "1402511602.000011"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/cf06898b1ffd987667605384a74147b102dd7398|cf06898b1ffd>: network request to delete vroomID on server\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1402512647.000012"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/bc8727c6f86a7743685d3b1dd3f6bb14626f6660|bc8727c6f86a>: version bump\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1402512693.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "You have build 1.0.48",
+        "ts": "1402513168.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks! installing now",
+        "ts": "1402513245.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "can you test as well and let me know what you think?",
+        "ts": "1402513278.000016"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/d676e815846c5754385ba8c3302f270d7364a6c0|d676e815846c>: fix multiple taps on celebration button\n - mattwymore",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1402514383.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02895311>:  whaaa?",
+        "ts": "1402514431.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026103R3>. fixed johns issue",
+        "ts": "1402514440.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PHQ3J> this was caused by the action for the celebration button in badge hub not being fired until after the \"swelling\" animation completed. So if somebody was pounding on the button while that animation was going, the player got all messed up.",
+        "ts": "1402514519.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ahhh",
+        "ts": "1402514527.000021"
+    },
+    {
+        "text": "[vroom-ios\/] 2 new commits:\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/285ed4b3e78bb497dbf6e8f428019719dde8ec17|285ed4b3e78b>: blocking button mashing problem on completing a vroom that abby found\n - cowgp\n[vroom-ios\/] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/f418a215d8138189bbaae0071f07d931a9a8c9db|f418a215d813>: Merge branch 'develop' of <http:\/\/bitbucket.org:uncorkedstudios\/vroom-ios|bitbucket.org:uncorkedstudios\/vroom-ios> into develop\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1402514856.000022"
+    },
+    {
+        "text": "[vroom-ios\/develop] <https:\/\/bitbucket.org\/uncorkedstudios\/vroom-ios\/commits\/151cb12d28d485862da87d0864bb4bcc75d17018|151cb12d28d4>: flipping back and forth to add photo later and delete photo\n - cowgp",
+        "username": "bitbucket",
+        "bot_id": "B029X28BM",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1402515875.000023"
+    }
+]

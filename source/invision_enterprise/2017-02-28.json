@@ -1,0 +1,131 @@
+[
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "uh oh, this isn’t good. Inspect doesn’t display type sizes for any of the text layers. labels them `font-size: NaNpx;`",
+        "ts": "1488302297.801175"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "returns the same error for line-height as well",
+        "ts": "1488302455.813696"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "also, font-weight is kind of inconsistent, though not necessarily incorrect. some layer labeled “medium” some labeled “300\"",
+        "ts": "1488302521.819704"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "aaaaand letter-spacing is _super_ incorrect. PS tracking of “10” is not the same as 10px of letter-spacing",
+        "ts": "1488302654.830537"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "Ok good to know. I will bring up with our InVision contact today, but maybe zeplin is the better choice ",
+        "ts": "1488302858.847589"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "I also noticed yesterday zeplin has a style guide tab, which you can set from the code",
+        "ts": "1488303226.876986"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "<https:\/\/cantina.co\/zeplin-sketch-measure-and-invision-inspect\/>",
+        "attachments": [
+            {
+                "title": "Zeplin, Sketch Measure, and InVision Inspect —",
+                "title_link": "https:\/\/cantina.co\/zeplin-sketch-measure-and-invision-inspect\/",
+                "text": "Comparing Design Spec Tools for UI Development",
+                "fallback": "Zeplin, Sketch Measure, and InVision Inspect —",
+                "thumb_url": "https:\/\/cantina.co\/images\/blog\/2016-11-23-zeplin-sketch-measure-and-invision-inspect\/design-tools-square.jpg",
+                "from_url": "https:\/\/cantina.co\/zeplin-sketch-measure-and-invision-inspect\/",
+                "thumb_width": 500,
+                "thumb_height": 500,
+                "service_icon": "https:\/\/cantina.co\/images\/logo.png",
+                "service_name": "cantina.co",
+                "id": 1
+            }
+        ],
+        "ts": "1488304174.957727"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "sounds like one more vote for zeplin in this article",
+        "ts": "1488304533.990022"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "from what i can tell examining our current test project in Zeplin it has a much more robust handle on type properties. not to mention it’s seemingly more accurate",
+        "ts": "1488304811.013539"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "it even pulls out multiple type styles on type layers that have more than one style",
+        "ts": "1488304856.017907"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "yep, I think the invision inspect tool sounds like it's not mature enough for us to count on for redlines",
+        "ts": "1488304873.019315"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "i agree. though like that article mentioned, i’d be curious to know how it evolves over time. these tools have a habit of turning into something great once they iron out the hiccups",
+        "ts": "1488304937.024789"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "p.s. nice article find Melodee",
+        "ts": "1488305382.062506"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "yea, thought it would be helpful",
+        "ts": "1488305433.067335"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "<@U0XCJ372R> <@U0XJFPSRL> let's try library for this invision review",
+        "ts": "1488315604.924805"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "hey all, in our call with our invision rep, we learned that we should use Craft Sync instead of InVision Sync",
+        "ts": "1488317245.051229"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "They also encouraged us to reach out to support for the specific issues that <@U026E0ZNR> encountered. They think there may be changes available in our export setup that would resolve those issues. And they promised their support is helpful &amp; fast.",
+        "ts": "1488317308.056238"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I’m not entirely sure how to tell the difference between the two. I installed Sync with the Craft 2 app I downloaded, but the plugin is only labeled “Sync (Beta)”",
+        "ts": "1488322032.459944"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "That's the one you want to use. Invision sync is a separate download\/setup process",
+        "ts": "1488324902.665129"
+    }
+]

@@ -1,0 +1,148 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "hashtag security",
+        "ts": "1437583780.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hey <@U02618EV1> here's our standup status -",
+        "ts": "1437585623.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "as i'm sure you've seen on the email threads the security scans are being kicked off this morning",
+        "ts": "1437585638.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "we just got off a call with jason who is running them, and has said they will take 2 hours",
+        "ts": "1437585651.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "so we're going to stand by until the scans are run and we see what comes back from them around noon",
+        "ts": "1437585671.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "if there are issues we'll need to resolve them and let him know, so scans can be rerun to verify, for approval to move to production",
+        "ts": "1437585689.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i will let you know if we can results back that need your help",
+        "ts": "1437585704.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Great. Thanks letting me know. I’ll be on stand-by here.",
+        "ts": "1437585752.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "so it looks like line 13 if for the WP login page",
+        "ts": "1437610075.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02E3CRMA> 13 may just be about preventing the form from autocompleting",
+        "ts": "1437610250.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Maybe using something like <https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/Security\/Securing_your_site\/Turning_off_form_autocompletion> may fix it",
+        "attachments": [
+            {
+                "service_name": "Mozilla Developer Network",
+                "title": "How to Turn Off Form Autocompletion",
+                "title_link": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/Security\/Securing_your_site\/Turning_off_form_autocompletion",
+                "text": "This article explains how a website can disable autocomplete for form fields.",
+                "fallback": "Mozilla Developer Network: How to Turn Off Form Autocompletion",
+                "thumb_url": "https:\/\/developer.mozilla.org\/media\/img\/opengraph-logo.png",
+                "from_url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/Security\/Securing_your_site\/Turning_off_form_autocompletion",
+                "thumb_width": 600,
+                "thumb_height": 600,
+                "id": 1
+            }
+        ],
+        "ts": "1437610263.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I think there’s two things - disabling the “remember me” button, and disabling auto-complete",
+        "ts": "1437610349.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’ll edit the login php now to fix both...",
+        "ts": "1437610364.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Problem is, this is WP core stuff. So we either make a quick change now but it will be gone on the next WP update or we complete recreate the login page with custom code to include those changes.",
+        "ts": "1437610441.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I’m trying to log into dev.fathom but it doesn’t look like I can access it from home.",
+        "ts": "1437610533.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i think we make the quick change and mention that it may be overridden with a new WP update",
+        "ts": "1437610645.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "we don't have time or resources to rebuild the wordpress login page",
+        "ts": "1437610659.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That sound great",
+        "ts": "1437610677.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "fixed the XML-RPC issues, and fixed the autofill by installing a plugin that globally disables as well as removing the “Remember me” button from the login screen",
+        "ts": "1437610977.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Wow. That was smart.",
+        "ts": "1437611000.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok guys, plan is to keep an eye on email, and when we get the results back from the remaining scans let's take a look and see what we need to resolve tomorrow.",
+        "ts": "1437612270.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i'd love to meet you both (<@U02618EV1> and <@U02E3CRMA>) in our war room tomorrow morning so we can divide and conquer",
+        "ts": "1437612288.000024"
+    }
+]

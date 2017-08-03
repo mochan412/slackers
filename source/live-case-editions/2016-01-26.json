@@ -1,0 +1,97 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "reposting this incase its useful for <@U0EL0GLEL>",
+        "ts": "1453830574.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/developer.android.com\/reference\/android\/support\/v4\/util\/AtomicFile.html>",
+        "ts": "1453830574.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i have to refactor some code in minime to use this i think)",
+        "ts": "1453830587.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also (<@U0261PCRQ> + <@U0EL0GLEL> ) we should probably backport this nice thing into the wallpapers",
+        "ts": "1453830666.000005"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F0KEA292A\/-.txt|Untitled>",
+        "file": {
+            "id": "F0KEA292A",
+            "created": 1453830687,
+            "timestamp": 1453830687,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 303,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0KEA292A\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0KEA292A\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F0KEA292A\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0KEA292A-5d3ec374f5",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F0KEA292A\/-.txt\/edit",
+            "preview": "PowerManager powerManager = (PowerManager)\r\n    getActivity().getSystemService(Context.POWER_SERVICE);\r\nif (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP\r\n        && powerManager.isPowerSaveMode()) {\r\n    \/\/ Animations are disabled in power save mode, so just show a toast instead.\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>PowerManager powerManager = (PowerManager)<\/pre><\/div>\n<div><pre>    getActivity().getSystemService(Context.POWER_SERVICE);<\/pre><\/div>\n<div><pre>if (android.os.Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.LOLLIPOP<\/pre><\/div>\n<div><pre>        &amp;&amp; powerManager.isPowerSaveMode()) {<\/pre><\/div>\n<div><pre>    \/\/ Animations are disabled in power save mode, so just show a toast instead.<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1453830687.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to disable animation in battery saver mode",
+        "ts": "1453830694.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that seems like a good idea",
+        "ts": "1453830722.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "minSDK is 19, right?",
+        "ts": "1453830748.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1453830963.000012"
+    }
+]

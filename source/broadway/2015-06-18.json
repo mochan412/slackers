@@ -1,0 +1,272 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: just assigned you a bug annie found (354) where the app crashes if you hit the wish again button on wish list",
+        "ts": "1434655747.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i just reproduced it so i'm wondering if there's a crash in crashlytics we can look at",
+        "ts": "1434655762.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I have already seen that crash in crashlytics and I should have already committed a fix that will bein 1.6",
+        "ts": "1434655791.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "oh ok rad",
+        "ts": "1434655798.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It was related to trying to stop an AudioRecord that was uninitialized, so now we check for that state before stopping it",
+        "ts": "1434655817.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool, i'm going to resolve that issue to be retested in 1.6",
+        "ts": "1434655968.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "which maybe we should send out eod today",
+        "ts": "1434655974.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yes, that is my plan",
+        "ts": "1434655989.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome",
+        "ts": "1434656006.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to try to put the destroy call into the app",
+        "ts": "1434663203.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sounds good",
+        "ts": "1434663570.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hey <@U02F8TTPU>  is it possible you've already fixed this issue? <https:\/\/droga5.atlassian.net\/browse\/DTHDR-351>",
+        "ts": "1434663790.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<@U026103R3> I believe that should be fixed by a layout update affecting 4.4 so the top of the app doesn't extend under the status bar.",
+        "ts": "1434664088.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It will be in today's build",
+        "ts": "1434664106.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ah ok awesome, kat's in there and thought that may have been fixed by you so that makes sense!",
+        "ts": "1434664155.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "tossing a quick cut of the destroy function into git now",
+        "ts": "1434664592.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it doesn't yet handle the cases where a user navigates away",
+        "ts": "1434664603.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(which i'm still trying to straighten out from a scoping perspective)",
+        "ts": "1434664620.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont see any issues thus far, but please let me know if you do",
+        "ts": "1434664663.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to keep hitting it on the N6",
+        "ts": "1434664669.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but want to get the change in",
+        "ts": "1434664674.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i'll be able to test later but am stuck in fathom calls for a bit",
+        "ts": "1434664720.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: before we push that next build out let's make sure kat's stuff is in and pulled",
+        "ts": "1434666615.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ok, I got some recent changes, but I still need to increment the build and fix a new crash that I just saw",
+        "ts": "1434666635.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "mines all up to date. I really only did like 1 bug",
+        "ts": "1434666637.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the others were already done and 1 is a little deeper than my understanding",
+        "ts": "1434666670.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m going to assign this back to Uncorked <https:\/\/droga5.atlassian.net\/browse\/DTHDR-338>  I see potential issues with the threads in MainActivity, but I’m not sure why they’re done like that, so I don’t really want to change it",
+        "ts": "1434666825.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I was hoping there would be a way for the downloader\/unzipper to call back to say at least one experience is available, but that's not really possible as activities change while the downloads are occurring, so that thread might potentially spin a bit while waiting for the first experience to become available.",
+        "ts": "1434667098.000029"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "I was gonna push some simple code clean-up changes (lint). Is this an okay time or would you prefer I wait?",
+        "ts": "1434667334.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Wait until after 1.6 release",
+        "ts": "1434667421.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Then do a pull ",
+        "ts": "1434667428.000032"
+    },
+    {
+        "type": "message",
+        "user": "U051P3FPY",
+        "text": "okay :simple_smile:",
+        "ts": "1434667431.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "1.6 distributed on Fabric. release notes:\nFixed system window and UI transition issues affecting 4.4 devices\nDon't attempt to resume app mid-experience after app pauses, quits or the phone is powered off\nAbout screen text, color, layout, and button changes. FAQ, Terms and Privacy toggle with animation to show placeholder text\nGallery card text adjustments\nAdjusted bounds of intro animation to scale to screen width\nFix audio threading and buffer size issues affecting different devices and OS versions\nFeatured experience to be the first experience loaded",
+        "ts": "1434674934.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushing change that should destroy webgl in all proper cases",
+        "ts": "1434680462.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "nice",
+        "ts": "1434680483.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its nice that it follows end experience pretty well",
+        "ts": "1434680486.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "just needed to make sure i was breakpointing all the right spots",
+        "ts": "1434680494.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yayyy",
+        "ts": "1434680565.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks good. pushed. Gonna eat some pepcid and some soup then ill be back to work on the memory issue on splash.",
+        "ts": "1434680604.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "perf, thanks!",
+        "ts": "1434680619.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Holy shit. On Note4, the _only_ way I can reliably get the memory freed up from an AnimationDrawable is to literally loop its frames and recycle() each BitmapDrawable",
+        "ts": "1434687504.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "upside: lots of freshly freed up RAM and a little animated lowercase G",
+        "ts": "1434687538.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "That sounds cray, but sounds like you got the loader animation working on Samsung devices so yayyyy ",
+        "ts": "1434688094.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U02F8TTPU>: Andy confirmed the Moto X was not showing the memory message so it was an actual crash. Can we look at crashlytics and see if there are logs in the morning?",
+        "ts": "1434690445.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Also just to bubble up priorities for tomorrow, they should be:                                     - Crash on the Moto X\n- Getting whistlizer working correctly w\/ Active Theory\n- Results card visual tweaks\n- Other Jira issues",
+        "ts": "1434690511.000046"
+    }
+]

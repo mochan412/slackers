@@ -1,0 +1,182 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> I know you mentioned yesterday you needed image sizes but I forgot to ask for a list of what images we need sizes for.",
+        "ts": "1407515218.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "food and cocktail images for mobile, the long rectangle food images for the desktop eats page, cocktail hero images for desktop, cocktail circle images for desktop, and philosophy video poster frame",
+        "ts": "1407515679.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks!",
+        "ts": "1407515828.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yep!",
+        "ts": "1407516085.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026AP8CM> question about the eats page: Is the client planning on adding more categories or are they sticking with 4?",
+        "ts": "1407522327.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "This affects 2 things: The menu bg asset doesn't repeat so if they add another category the menu will look weird.",
+        "ts": "1407522392.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The other, more import thing, is that data that I get from the CMS isn't structure in a way to easily display all categories and their contents on one page.",
+        "ts": "1407522457.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "So, keeping time in mind, the easy\/quick approach would be to hard-code categories but allow the client to add\/remove items within those categories?",
+        "ts": "1407522583.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "i'm catching up on this now",
+        "ts": "1407522793.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "one second",
+        "ts": "1407522796.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "code their eats page",
+        "ts": "1407523069.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "they can change a pizza under pizzas, but they cannot add a 5th category, etc.",
+        "ts": "1407523082.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "does this help?",
+        "ts": "1407523084.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes. Thanks",
+        "ts": "1407523108.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<@U02618EV1>: will send you follow up email for clarity.",
+        "ts": "1407524068.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026AP8CM> \/ <@U02613K0X> what is the client able to change for cocktails?",
+        "ts": "1407540651.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Via the CMS, that is.",
+        "ts": "1407540660.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "lemme look",
+        "ts": "1407540959.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "wait you have credentials you can just look!",
+        "ts": "1407540990.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":smile:",
+        "ts": "1407541004.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "??",
+        "ts": "1407541009.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "in the cms",
+        "ts": "1407541015.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "you can look at the cms",
+        "ts": "1407541018.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "although it’s actually missing one thing. there should be a second (and maybe third) photo upload for cocktail",
+        "ts": "1407541054.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Ok. So it looks like they can change the name of the drink so my question is what would be the best get a cocktail item that won't break if the name is changed.",
+        "ts": "1407541095.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "huh?",
+        "ts": "1407541127.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "you want a slug?",
+        "ts": "1407541134.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Will that change if the name of the cocktail changes?",
+        "ts": "1407541149.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yes",
+        "ts": "1407541153.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it would work just like slugs for blogposts in galapagos, case studies in swoosh, etc.",
+        "ts": "1407541189.000031"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "On Ryan's feedback from this morning",
+        "ts": "1415211257.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "1. Yes, the capture animation is crappy, it's a terrible result for all the time that I spent on it. In the process, I discovered that Android ObjectAnimator just doesn't do a great job when you want to move View objects in and out of the window while scaling them inside a complex view hierarchy. I hope there's some way to improve it, but from where I stand, I do not know of any \"quick fix\" using the bitmap objects I have to work with.",
+        "ts": "1415211433.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "2. I can improve the end timing on the recording, it has to do with human reaction time vs when the computer thinks the touch release event happened. Just takes testing and adjusting to get it to appear responsive in the way that our senses expect.",
+        "ts": "1415211571.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "3. Looks like the design for detail view playback is in slide 12. I haven't implemented that yet because I've been working on everything else first, but I'll get to it as soon as possible.",
+        "ts": "1415211686.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Today's plan is to adjust the video encoding to correctly match the variable length of the audio and finish the sharing function if possible.",
+        "ts": "1415211948.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "great. i'll look up the hours left for this phase and get back to you after my call at 11.",
+        "ts": "1415213701.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I just posted today's build with some important fixes",
+        "ts": "1415216824.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The video duration should now match the audio recording (tested it lightly but definitely needs more testing and may need some more adjustment)",
+        "ts": "1415216882.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Sharing works from the preview screen as well as the detail screen",
+        "ts": "1415216899.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "(if the video has already been created, it will share immediately, otherwise it will generate the video first)",
+        "ts": "1415216920.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "And the recording time is extended a bit so it feels more natural when we release the touch",
+        "ts": "1415217012.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Tomorrow I'll update the detail view layout and animations to match slide 12... This should be fast because I've already implemented the animations and views for the timeline items, I just need to port them over and make any adjustments so they look nice in the larger view frame.",
+        "ts": "1415217118.000013"
+    }
+]

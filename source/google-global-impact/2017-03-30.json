@@ -1,0 +1,116 @@
+[
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<!here|@here> I have a 1pm meeting with James to finalize the deploy and do QA.",
+        "ts": "1490899443.248588"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Awesome",
+        "ts": "1490899456.253061"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "should i be involved?",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1490899468.000000"
+        },
+        "ts": "1490899465.256727"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I think we’ve got it. It’s mostly going to be James clicking things and me backseat-driving",
+        "ts": "1490899519.276089"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "tracking form a scope POV.  We delivered.  They're responsible for set up.  They've said up and we're confirming it took, right?",
+        "ts": "1490899587.300518"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Basically, yes",
+        "ts": "1490900292.552748"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool",
+        "ts": "1490900410.595470"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "deploy update: client needed to stand up a GAE instance outside their network (the original was inside the VPN, thus didn’t serve correctly). That should be done imminently, and then I’ll redeploy everything.",
+        "ts": "1490911403.938658"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks",
+        "ts": "1490911595.982821"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "what was issue serving from within the VPN?",
+        "ts": "1490911608.985603"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "2 things: 1) content partners can’t get to any of it from outside, including the CMS Admin, which would be a showstopper for them once they switched over and 2) we were having issues with endpoints 404ing, likely because of various redirects and how the VPN is handling auth.",
+        "ts": "1490911718.009643"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "it needed to be outside the VPN anyway, so we’re not going to waste any time bottoming out on 2)",
+        "ts": "1490911749.016294"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "word",
+        "ts": "1490911797.026774"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, ready to go, deployed and ready for James to QA.",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1490928627.000000"
+        },
+        "ts": "1490911986.067777"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Also: client and content partners put in a bunch of new content into the DB. Lots more points on the map!",
+        "ts": "1490929251.536801",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U026PHQ3J",
+                    "U0265G76F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Oh cool!",
+        "ts": "1490930074.623835"
+    }
+]

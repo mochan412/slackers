@@ -1,0 +1,438 @@
+[
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<@U02613K0X> <@U026E0ZNR> Hi friends. During stand up today will you discuss the feasibility of implementing the haptic calls and new stickers that Dave B sent? If it's possible to have that (and everything else) done by the end of the day, I'm okay delaying our posting until then.",
+        "ts": "1423244874.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<!channel> - standing up",
+        "ts": "1423245717.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<!channel>,  Food for thought, is there any real benefit in implementing a live clock on the weather face? I think it could be \"cool\" to have the real time but if the other two watch styles are a fake time it seems out of place to me to waste time putting in a real clock. How do you guys feel? Is this important to the demo?",
+        "ts": "1423247792.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026E0ZNR> i see where you're coming from",
+        "ts": "1423247987.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U030TQFR3> haptic calls shouldn't be a problem by EOD. I'm doing my best to mimic what the CES app was doing, and I'll add in the new constant names from the spreadsheet Dave sent over to the function calls. But with no way to test them there is the possibility we'll need to coordinate with Abe to get it working for them.",
+        "ts": "1423248039.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "<@U02613K0X>, it may not take you long to implement a clock but I'm making the case that you shouldn't need to spend time on this. Unless the client wants it or others feel strongly for it. I don't think it's important.",
+        "ts": "1423248129.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026E0ZNR> when you get a sec, check out Dave's latest request on Basecamp",
+        "ts": "1423251099.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "he wants black background for the stickers",
+        "ts": "1423251107.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Not sure we can do that with the assets they've given us.",
+        "ts": "1423251177.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "But I'll check.",
+        "ts": "1423251180.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "he says the gifs have transparent backgrounds. i dk if he's right tho?",
+        "ts": "1423251206.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Some of them are transparent but two things: some of them have white strokes\/mattes and I believe they were made to be on white backgrounds. So I'll play around when I have time. Not sure I'm going to get to that today.",
+        "ts": "1423251281.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i can respond on that via BC",
+        "ts": "1423251406.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "I need to check first to verify this, I may be thinking of some of the old sticker assets that we're no longer using.",
+        "ts": "1423251443.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ah - ok",
+        "ts": "1423251451.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "just keep this channel posted and i'll do whatever needs doing to client communication",
+        "ts": "1423251466.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah i'm sure only the soccer ones matter of the ones we have right now",
+        "ts": "1423251478.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "from the list of haptic constants he sent, looks like the other set will be of... onions",
+        "ts": "1423251520.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "those haptics will make you cry!",
+        "ts": "1423251752.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "eh?",
+        "ts": "1423251753.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "onions!",
+        "ts": "1423251758.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "New sticker assets aren't happening this week. Not if we want to get them all the other things we promised in that list. It's turning out to be a very very involved process.",
+        "ts": "1423252718.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "k. Let's stay course on what we promised",
+        "ts": "1423252740.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U030TQFR3> and <@U0265G76F> to clarify on the haptic calls, I'm getting them in for the stickers and etchings. The watch calls are frame-specific so unless we want to pick out frames for the gears, outer ring, and rewind haptics to start on before getting the build out today, that will have to come next week.",
+        "ts": "1423253460.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Hey team, I'm thinking of sharing these 3 videos for lightning and 2 for wind, let me know if you have opinions on them.\n\nLIGHTING\n<http:\/\/www.istockphoto.com\/video\/thunderstorm-over-the-sea-37586338?st=0f886e1>\n\n<http:\/\/www.istockphoto.com\/video\/thunder-weather-changes-lightning-strikes-rains-showers-sound-31161028?st=0f886e1>\n\n<http:\/\/www.istockphoto.com\/video\/the-perfect-storm-spectacular-thunderbolts-and-lightnings-15633908?st=0f886e1>\n\nWIND\n<http:\/\/www.istockphoto.com\/video\/tree-leaves-20031820?st=993750d>\n\n<http:\/\/www.istockphoto.com\/video\/chamomiles-in-still-shot-49183542?st=993750d>",
+        "ts": "1423260369.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "My vote is for the last one on lightning and the first on wind.",
+        "ts": "1423260406.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "agreed on lightning",
+        "ts": "1423260441.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "still looking at wind",
+        "ts": "1423260445.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "yeah - of those two, for sure the first",
+        "ts": "1423260474.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "are there any that are a bit more windy?",
+        "ts": "1423260482.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that would be my only thought - they're both pretty whispy wind",
+        "ts": "1423260495.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "It's tough, I'm not confident I can successfully loop a 5-second clip if there's anymore variance in the wind movement.",
+        "ts": "1423260569.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "gotcha",
+        "ts": "1423260579.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "well - let's put stuff forward we're confident with",
+        "ts": "1423260600.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "The tree leaves would loop really well the way they are now. I can look for more windiness if you think we should have the option.",
+        "ts": "1423260604.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and focus on our icon animation vs. the video",
+        "ts": "1423260620.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Cool. I'll get that started now then.",
+        "edited": {
+            "user": "U026E0ZNR",
+            "ts": "1423260644.000000"
+        },
+        "ts": "1423260639.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "if they have thoughts on video, we can figure it out",
+        "ts": "1423260640.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Ok.",
+        "ts": "1423260650.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "thanks sir!",
+        "ts": "1423260735.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Still need to build the lightning icon animation but here's the wind sample. <https:\/\/www.dropbox.com\/s\/ej6few9xuha4whh\/DigitalWindClock_01.mp4?dl=0>",
+        "ts": "1423266770.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "The video doesn't cleanly loop but the icon does.",
+        "ts": "1423266797.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "think that's ok for this round (video not clean loop)",
+        "ts": "1423266821.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Yeah, not gonna waste time on that until they've approved the clip",
+        "ts": "1423266843.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "looks great overall though",
+        "ts": "1423267129.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Thanks, hoping to get the next one by 5. Sorry this isn't getting out earlier.",
+        "ts": "1423267528.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "aok",
+        "ts": "1423267707.000055"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Hey team. Checking in with you -- how are we feeling about posting by 5? I'd like to shoot Dave B an update.",
+        "ts": "1423268939.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "hey ben - we had a bit of an overloaded day chasing quite a few threads (e.g. backgrounds of stickers wanting to be black, which ins't simple). We've been working to deliver AS MUCH AS POSSIBLE on the lists, but it'll be 5 or shortly later",
+        "ts": "1423269004.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "we've had to push forward on a few fronts to better understand the video\/memory limits — which partially needed some design exports",
+        "ts": "1423269047.000058"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "And this is what I understand... We'll have everything on our list done. Haptics will be in for stickers and etchings, but not watch faces. We'll have updated sticker assets ready -- but not necessarily on black background.",
+        "ts": "1423269050.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "point being — the dependencies are complex today",
+        "ts": "1423269061.000060"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "A ha. Got it, thanks.",
+        "ts": "1423269065.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "pulling up list though",
+        "ts": "1423269074.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "one sec",
+        "ts": "1423269076.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "From the attachments list - we have everything but lightning done. Trent is working on that as we speak",
+        "ts": "1423269124.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so i'm feeling good about that front PLUS a new CES design deck from Melissa",
+        "ts": "1423269141.000065"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Hey, I like anything plus!",
+        "ts": "1423269160.000066"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "I think it's fine if we push past 5, as long as we have things posted and code merge before getting out of the office.",
+        "ts": "1423269329.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that's the plan. <@U02613K0X> - how're you feeling about stuff?",
+        "ts": "1423269357.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Everything is in the app. The only watchface is the gold analog one. It's crashy though and we don't know why yet.",
+        "ts": "1423269650.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "The watch is crashy. Stickers and etchings work fine",
+        "ts": "1423269662.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I feel good about stickers and etchings",
+        "ts": "1423269723.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "cool",
+        "ts": "1423269886.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "so - <@U030TQFR3> - do you want us at HQ to craft an update re: crashy watches, or you want to take that?",
+        "ts": "1423269910.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Half the time it works fine, the other half you can only view the watch 1-3 times before it crashes",
+        "ts": "1423270036.000074"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "If you can craft a crashy note, that'd be rad. Do you want to post the update and attachments when ready?",
+        "ts": "1423270102.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Ok y'all, video linkz:\n\nLightning Option 1: <https:\/\/www.dropbox.com\/s\/554re4cywzrndxf\/DigitalLightningClock_01.mp4?dl=0>\n\nLightning Option 2: <https:\/\/www.dropbox.com\/s\/xbmldupkxozx3w8\/DigitalLightningClock_02.mp4?dl=0>\n\nWind Option 1: <https:\/\/www.dropbox.com\/s\/ej6few9xuha4whh\/DigitalWindClock_01.mp4?dl=0>\n\nChosen Rain Option: <https:\/\/www.dropbox.com\/s\/u1pk31uf2wq1fy1\/DigitalWeatherClock_04.mp4?dl=0>",
+        "ts": "1423270374.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Our favored lightning video (option 2) turns out to be almost too contrasty with pitch black and total washout points. I mocked up the city version also as it was easier on the eyes, I'd love to send those links I posted above so they can reference the full stand alone videos ( <!channel> )",
+        "ts": "1423270508.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "awesome - thanks for all these Trent",
+        "ts": "1423270620.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i think they're all good to get in front of them to gain initial understanding of what they think",
+        "ts": "1423270637.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Yeah I agree. One thing I wasn't able to get fully under control was how the contrast between watch face static elements and the flashing brightness values of the video. I'll need to spend more time refining that later on for sure.",
+        "ts": "1423270728.000080"
+    }
+]

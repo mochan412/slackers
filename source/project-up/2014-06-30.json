@@ -1,0 +1,223 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<!channel> please keep me updated on progress toward answering those questions from <@U026103R3> 's Friday email. I think we can come close to some POC style thumbs up\/down on almost all of it",
+        "ts": "1404142603.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PHQ3J> By the end of today I think I will have a location model working that can tell us which \"room\" you are in and when you are moving away from a \"room\"   I am going to ask Josh to generate some test data to test it with",
+        "ts": "1404142760.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool. Ill be landing in a few then will be offline ish until we get a break",
+        "ts": "1404142860.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks Matt!",
+        "ts": "1404142865.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<http:\/\/technabob.com\/blog\/2013\/07\/22\/canary-home-security-monitor\/>",
+        "attachments": [
+            {
+                "title": "Canary Makes Monitoring Home Security Easy and Cheap",
+                "title_link": "http:\/\/technabob.com\/blog\/2013\/07\/22\/canary-home-security-monitor\/",
+                "text": "If you find yourself out of the house while traveling, at work or on vacation, home security is definitely a concern for most of us. While there are many solutions on the market today, most of them are expensive, difficult to install or just downright useless due to false alarms.",
+                "fallback": "Canary Makes Monitoring Home Security Easy and Cheap",
+                "thumb_url": "http:\/\/technabob.com\/blog\/wp-content\/uploads\/2013\/07\/canary_home_security_system_1.jpg",
+                "from_url": "http:\/\/technabob.com\/blog\/2013\/07\/22\/canary-home-security-monitor\/",
+                "thumb_width": 620,
+                "thumb_height": 660,
+                "id": 1
+            }
+        ],
+        "ts": "1404149631.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I wonder what happens if your wifi is down?",
+        "ts": "1404149765.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "good question, it does look like this product has solved some of the questions we've been asking ourselves though. i wonder how it detects pattern recognition...",
+        "ts": "1404149848.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "wow, almost 2million raised on indiegogo",
+        "ts": "1404150079.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "damn. i wanted it to be an actual robotic canary.",
+        "ts": "1404151874.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0265G76F>: from the canary website \"If a loss in power or internet connection occurs, our system will detect the event and send you a notification. You'll be able to go into the app and look at footage\/data from before that loss in power or connectivity occurred, assess the situation, and respond appropriately. When power or connectivity is restored, Canary will turn on automatically and notify you.\"",
+        "ts": "1404154287.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ha",
+        "ts": "1404154303.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "good to know for sure.",
+        "ts": "1404154319.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i admit, the future criminal in me is just going to cut the power and head in anywhere i'd like",
+        "ts": "1404154343.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "looking into canary is actually really helpful in identifying opportunities to differentiate up",
+        "ts": "1404154427.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "not relying on wi fi is an interesting one, it also mentions that it is in no way a replacement for a phone or meant to connect people.",
+        "ts": "1404154474.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "short progress report: I've gotten the mat talking to an Arduino Pro with bluetooth breakout (and iOS app). Next step: get mat to send a \"push notification\" to the phone",
+        "ts": "1404158876.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I've also acquired the Application Accelerator (BTLE SDK for iOS, Android, WinRT) from Bluetooth. sources here <https:\/\/www.dropbox.com\/sh\/2ujt629w0p7qty9\/AADrw8fTOcaz-f-wFLlavYzha>",
+        "attachments": [
+            {
+                "service_name": "Dropbox",
+                "title": "Application Accelerator v1.1",
+                "title_link": "https:\/\/www.dropbox.com\/sh\/2ujt629w0p7qty9\/AADrw8fTOcaz-f-wFLlavYzha",
+                "text": "Shared with Dropbox",
+                "fallback": "Dropbox: Application Accelerator v1.1",
+                "thumb_url": "https:\/\/www.dropbox.com\/static\/images\/icons128\/folder_dropbox.png",
+                "from_url": "https:\/\/www.dropbox.com\/sh\/2ujt629w0p7qty9\/AADrw8fTOcaz-f-wFLlavYzha",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "id": 1
+            }
+        ],
+        "ts": "1404158989.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J>: I'd like to start writing an app for the phone to pair to a mat\/switch through Arduino BTLE, but I'd rather not wrestle with Android Studio all day. Can I do this proof of concept for iOS?",
+        "ts": "1404159745.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Keep an eye on the conceptual process and yep. IOS for answers, android will be the eventual answer",
+        "ts": "1404159858.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "As long as you help me port it, it makes sense to me",
+        "ts": "1404159870.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ok cool",
+        "ts": "1404159884.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J> Since the app from Adafruit already detects messages regarding if the switch is open or closed, it might make more sense to to translate that to android. Their source is here and I'm just diving into it now. <https:\/\/github.com\/adafruit\/Bluefruit_LE_Connect>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "adafruit\/Bluefruit_LE_Connect",
+                "title_link": "https:\/\/github.com\/adafruit\/Bluefruit_LE_Connect",
+                "text": "Bluefruit_LE_Connect - iOS app for use with Bluefruit Bluetooth LE breakout board",
+                "fallback": "GitHub: adafruit\/Bluefruit_LE_Connect",
+                "thumb_url": "https:\/\/avatars1.githubusercontent.com\/u\/181069?s=400",
+                "from_url": "https:\/\/github.com\/adafruit\/Bluefruit_LE_Connect",
+                "thumb_width": 420,
+                "thumb_height": 420,
+                "id": 1
+            }
+        ],
+        "ts": "1404162983.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hey guys quick checkin!! Anyone learn anything useful today?",
+        "ts": "1404170951.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i intend to learn something shortly.",
+        "ts": "1404171439.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "I have something akin to a model. It will tell you what you are closest too, if you are moving away from or towards a beacon. It does a bunch of smoothing on the data to try to get something sensible. I am trying to remember all of my forgotten Java now so I can take data from your collection app. should have that stuff finished tomorrow.",
+        "ts": "1404173076.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I just learned that we can indeed differentiate between nrf8001 chips! so no janky onboarding with user jumping on mats to identify them",
+        "ts": "1404173284.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm not sure why I was worried about this, but I'm glad I covered the base.",
+        "ts": "1404173305.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "awesome everyone! I'll be more online tonight after we're all done, but i hope\/assume you'll all be at home",
+        "ts": "1404173381.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sounds good, i'll be around if anyone needs me\/has questions",
+        "ts": "1404173773.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U026PHQ3J> I think we're at the point where we can integrate the UART mats into the current Android app, but I'll need help extracting and porting that feature from iOS. I'll be online more tonight for question-answering",
+        "ts": "1404173781.000034"
+    }
+]

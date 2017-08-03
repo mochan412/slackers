@@ -1,0 +1,148 @@
+[
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Bonnie reported an issue with the set wallpaper dialog options being inconsistent to the options that appear in the device settings for wallpapers. I’ve done some poking around and I can’t find anything that might suggest that we have control over the options that appear in that dialog, but before I tell her that I wanted to check in with you. Do you know if we can change those settings to read ‘Home Screen’, ‘Lock Screen’, and ‘Both’?",
+        "ts": "1501260991.589942"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we dont. so the real reason is that the first time you set it, you can choose, but subsequent changes to renderer doesn't trigger it because _you already made that choice_",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1501261195.000000"
+        },
+        "ts": "1501261192.697665"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if you think about it",
+        "ts": "1501261199.701673"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause",
+        "ts": "1501261201.702260"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the first time you set it you're setting the \"workshop wallpaper\"",
+        "ts": "1501261213.709188"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so it says \"what do you want to do\"",
+        "ts": "1501261217.711663"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if you have it set, then switch to a different generator, it doesnt ask cause its not actually \"setting the wallpaper\"",
+        "ts": "1501261235.722205"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we're just changing the renderer",
+        "ts": "1501261240.725286"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I figured so much. Is there a way we can tell WallpaperManager to forget the previous setting options for Live Case?",
+        "ts": "1501261252.731731"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont think so",
+        "ts": "1501261262.737150"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the other option is to remove the dialog completely",
+        "ts": "1501261278.745898"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause i think we can tell it that we only support both",
+        "ts": "1501261284.749113"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for example",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1501261293.000000"
+        },
+        "ts": "1501261285.750006"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thanks for confirming that. I will let Bonnie know we can’t do anything about this.",
+        "ts": "1501261403.812751"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Is it ok if I move this ticket to ‘Closed’ since there is nothing we can do about it? <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-313>",
+        "ts": "1501262537.386426"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool thanks.",
+        "ts": "1501262806.520697"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> i'm going to assign you some tickets to tackle before your last day!! :slightly_smiling_face:",
+        "ts": "1501273092.582208"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay!",
+        "ts": "1501273392.711322"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> FYI I worked out this issues that Bonnie reported with Artworks yesterday so I moved her tickets to ready for verification.",
+        "ts": "1501275627.666627"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "awesome thank you",
+        "ts": "1501275636.671190"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<!channel> TDD has been shared with clients! Happy Friday!",
+        "ts": "1501278190.603196"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "We never received the forced string translations so we can't release the prod build today. We'll have to circle back around to it on Monday. ",
+        "ts": "1501282921.831582"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Works for me.",
+        "ts": "1501282959.839946"
+    }
+]

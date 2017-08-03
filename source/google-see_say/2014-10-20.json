@@ -1,0 +1,79 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Today's status is: working on the black bump animation on the capture screen",
+        "ts": "1413827721.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I've almost got it looking correct, should have it done by the time I leave today.",
+        "ts": "1413827754.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "awesome",
+        "ts": "1413827780.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "sent ryan friday's apk and he's going to collect feedback for us and send it over when he has it.",
+        "ts": "1413827809.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "what's the plan look like for this week?",
+        "ts": "1413827820.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "(from ryan)",
+        "ts": "1413827824.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "My plan is to finish these wave animations, then get to work on encoding the image+audio into a video file using jcodec",
+        "ts": "1413827874.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "jcodec doesn't officially support Android, so this may be an investigation that may take some twists and turns",
+        "ts": "1413827909.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Possibly there's a better tool for this type of video encoding on Android, although I hope the easiest way doesn't involve an expensive third-party library",
+        "ts": "1413827951.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "<http:\/\/code.flickr.net\/2014\/10\/20\/introducing-flickr-park-or-bird\/>",
+        "attachments": [
+            {
+                "service_name": "code.flickr.com",
+                "service_url": "http:\/\/code.flickr.net",
+                "title": "Introducing: Flickr PARK or BIRD",
+                "title_link": "http:\/\/code.flickr.net\/2014\/10\/20\/introducing-flickr-park-or-bird\/",
+                "author_name": "robwhess",
+                "author_link": "https:\/\/code.flickr.net\/author\/robwhess\/",
+                "thumb_url": "https:\/\/i2.wp.com\/flickrcode.files.wordpress.com\/2014\/10\/conv-net2.png?fit=200%2C150",
+                "thumb_width": 200,
+                "thumb_height": 68,
+                "text": "OR\n\n\n\nZion National Park Utah by Les Haines \n\nSecretary Bird by Bill Gracey \n\n\n\ntl;dr: Check it out at <http:\/\/parkorbird.flickr.com|parkorbird.flickr.com>!\nWe at Flickr are not ones to back down from a challenge. Especially when that challenge comes in webcomic form. And especially when that webcomic is xkcd. So, when we saw this xkcd comic we thought, “we’ve got to do that”:\n\n\n\n\n\n\n\n\n\n\nIn fact, we already had the technology in place to do these things.  Like the woman in the comic says, determining whether a photo with GPS info embedded into it was taken in a national park is pretty straightforward. And, the Flickr Vision team has been working for the last year or so to be able to recognize more than 1000 things in images using deep convolutional neural nets. Incidentally, one of the things we’re pretty good at recognizing is birds!\nWe put those things together, and thus was born <http:\/\/parkorbird.flickr.com|parkorbird.flickr.com>!\nRecognizing Stuff in Images with Deep Networks\nThe thing we’re really excited to show off with PARK or BIRD is our image recognition technology. To recognize 1000+ things, we employ a deep convolutional neural network similar to the one depicted below.\n\nThis model transforms an input image into a representation in which different objects and scenes are easily distinguishable by a simple binary classification algorithm, like an SVM. It does this by passing the image through a series of layers, where each layer computes a function of the output of the layer below it.\nEach successive one of these layers, after training on millions of images, has learned to recognize higher- and higher-level features of images and the ways these features go together to form different objects and scenes. For example, the first layer might recognize the most basic image features, such as short straight lines, corners, and small circular arcs. The next layer might recognize higher level combinations of those features, such as circles or other basic shapes. Further layers might recognize higher-level concepts, like eyes and beaks, and even further ones might recognize heads and wings. For an example of what this looks like, check out Figure 2 in this paper by Matt Zeiler and Rob Fergus.\nAs the image passes through these layers, they are “activated” in different ways depending on the features they’ve seen in the input image, and at the top of this network—after the image is transformed by the bottom layer, and that transformation of the image is transformed by the next layer, and that transformation of the transformation of the image is transformed by the next layer, and so on— a short floating-point vector summarizing all of the various activations at each layer is output. We pass this floating-point vector into more than 1000 binary classifiers, each of which is trained to give us a yes\/no answer to identify a specific object\/scene class. And, of course, one of those classes is birds!\nThe Flickr Vision team is already applying this deep network to Flickr photos to help people more more easily find what they’re looking for via Flickr search, and we plan to integrate it into Flickr in other cool ways in the future. We’re also working on other innovative computer vision and image recognition technologies that will make it easier for Flickr members to find and organize their photos.\nAcknowledgements\nThe Flickr Vision and Search team is awesome and PARK or BIRD is built upon technologies that we all pitched in on. Here we all are (at least most of us), in all our beautiful glory. Thanks Vision\/Search! Thanks also to Stephen Woods, Bart Thomee, John Ko, and Sean Perkins, all of whom provided a lot of help getting PARK or BIRD off the ground.\n\n\nIf this all sounds like a challenge you’re interested in helping out with, you should join us! Flickr is hiring engineers, designers and product managers in our San Francisco office. Find out more at <http:\/\/flickr.com\/jobs|flickr.com\/jobs>.",
+                "fallback": "code.flickr.com Link: Introducing: Flickr PARK or BIRD",
+                "from_url": "http:\/\/code.flickr.net\/2014\/10\/20\/introducing-flickr-park-or-bird\/",
+                "id": 1
+            }
+        ],
+        "ts": "1413852422.000002"
+    }
+]

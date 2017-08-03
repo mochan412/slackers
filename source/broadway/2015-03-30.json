@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<!channel> \nLast call for notes on Droga5's design deck. Need to let him know this morning that all our notes are in the doc:\n<https:\/\/docs.google.com\/a\/droga5.com\/presentation\/d\/1cl7sepgzUmBTelELmUnmZ4ZNfy_Z_GmnlUKW-ZCfUhM\/edit?usp=sharing>",
+        "ts": "1427733845.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "can you add me to the deck?",
+        "ts": "1427733890.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The only potential issue I see is in the screens that scroll behind the status bar",
+        "ts": "1427733900.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<@U030TQFR3> ^^",
+        "ts": "1427733901.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I just added a comment to slide 10 to answer <@U0260V1BX>'s question... showing\/hiding the app bar is easy to do, I'm just concerned that it might feel awkward to the user if the show\/hide animation timing doesn't perfectly match the crosswalk webview scrolling behavior. (much like how scrolling felt awkward and sluggish on the tizen watch with immersion)",
+        "ts": "1427738574.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "right. that makes sense... so my question is really... can we make the app bar native and have the web view below it?",
+        "ts": "1427738803.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "so that the app bar stays put, and the webview can scroll",
+        "ts": "1427738814.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "that is the current behavior with the demo code I have started on (app bar is always up there)",
+        "ts": "1427738843.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "not ideal in terms of having the experience be immersive, but potantially better than a weird lag in timing",
+        "ts": "1427738851.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok cool",
+        "ts": "1427738853.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "and it may turn out that we can show\/hide the app bar and it behaves perfectly, I just wanted to raise the concern early since I've seen similar issues",
+        "ts": "1427738884.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "actually, maybe a good approach would be to expose JS hooks for showing\/hiding the app bar, so it can be controlled from within the webview",
+        "ts": "1427738956.000013"
+    }
+]

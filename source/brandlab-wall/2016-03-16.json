@@ -1,0 +1,284 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Related to last nights trello card <https:\/\/www.youtube.com\/watch?v=_DhU7KBF9Hs>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Build and Explode Video Photo Mosaic",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=_DhU7KBF9Hs",
+                "author_name": "Picture Mosaics",
+                "author_link": "https:\/\/www.youtube.com\/user\/picturemosaics",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/_DhU7KBF9Hs\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Build and Explode Video Photo Mosaic",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/_DhU7KBF9Hs?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=_DhU7KBF9Hs",
+                "id": 1
+            }
+        ],
+        "ts": "1458138387.000122",
+        "reactions": [
+            {
+                "name": "heart_eyes",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "pretty cool, again that text mosaic looks ‘faked’ to me",
+        "ts": "1458144606.000124"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "but the motion and compilation are super smooth",
+        "ts": "1458144614.000125"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Agreed.",
+        "ts": "1458144758.000126"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Given that we’re using html elements with video (as opposed to canvas or webgl) this type of effect may be our best option if we want a smooth experience. Using webgl may give us some latitude to try more sophisticated approaches to drawing and animating shapes.",
+        "ts": "1458144940.000127"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0260V4K1>: and <@U02F9CXTL> any issues, idea or comments?",
+        "ts": "1458146367.000128"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "just getting caught up on emails - let me read gastons comments on trello",
+        "ts": "1458146536.000129"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: client feedback, here: <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1CGpHZscxjSMVaxNbrpwWfKiqms5FpPgM-m7MA9ejDgU\/edit?usp=sharing>.  let’s bubble up questions, ideas or if it’s autonomous enough to proceed, we’ll check back in thursday afternoon (INT).  Rd 2 to client on Friday",
+        "ts": "1458146767.000130"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0ML49XU0|dennishanley> shared a file: <https:\/\/uncorked.slack.com\/files\/dennishanley\/F0T56V7KR\/clientfeedback-tpanddd-31615|Client Feedback - TP and DD - 3\/16\/15>",
+        "file": {
+            "id": "F0T56V7KR",
+            "created": 1458146768,
+            "timestamp": 1458146768,
+            "name": "ClientFeedback-TPandDD-31615",
+            "title": "Client Feedback - TP and DD - 3\/16\/15",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U0ML49XU0",
+            "editable": false,
+            "size": 1790,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1CGpHZscxjSMVaxNbrpwWfKiqms5FpPgM-m7MA9ejDgU\/edit?usp=drivesdk",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gdoc_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gdoc_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dennishanley\/F0T56V7KR\/clientfeedback-tpanddd-31615",
+            "channels": [
+                "C078JFZ7W"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0ML49XU0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "dennishanley",
+        "bot_id": null,
+        "ts": "1458146768.000131"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I just responded to Gastons comment in trello - I think there was a little confusion about the Default module which, I believe, makes things actually way simpler",
+        "ts": "1458147490.000132"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "word",
+        "ts": "1458147705.000133"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "let’s stand up",
+        "ts": "1458147707.000134"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0ML49XU0>: <@U0260V4K1>\n\nDid we get back to the client about this??\n\n- - - - \n\n\"- Brand Welcome Mode - I like this direction. My only pushback would be that I want the brand's logo to be showing...so, would it be possible on that 'card' to allow the team (probably the site tech) to upload a PNG of the logo which sits on the card after 'welcome'? This should be super simple \/ easy for them to do since they'll already have the Brand's logo.”\n\n- - - - - \n\nI would to discuss before we do.\n\nThanks",
+        "edited": {
+            "user": "U02F9CXTL",
+            "ts": "1458150780.000000"
+        },
+        "ts": "1458150753.000135"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "not yet man, happy to discuss!",
+        "ts": "1458150834.000137"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "as soon as out of meetings",
+        "ts": "1458150840.000138"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.aliexpress.com\/item\/A3-thin-portable-light-panels-advertising-panel-backlight-by-dhl\/32240232434.html?spm=2114.10010108.100009.5.xAuuDF>",
+        "attachments": [
+            {
+                "service_name": "aliexpress.com",
+                "title": "A3 el glow film el backlight panel white EL sheet for big size sheet by free DHL-in EL Products from Electronic Components &amp; Supplies on Aliexpress.com | Alibaba Group",
+                "title_link": "http:\/\/www.aliexpress.com\/item\/A3-thin-portable-light-panels-advertising-panel-backlight-by-dhl\/32240232434.html?spm=2114.10010108.100009.5.xAuuDF",
+                "text": "Cheap light, Buy Quality light switch for car directly from China a3 light Suppliers: Follow are the detailed information of our el backlight   Basic information 1.Name: A3 size backilight sheet",
+                "fallback": "aliexpress.com: A3 el glow film el backlight panel white EL sheet for big size sheet by free DHL-in EL Products from Electronic Components &amp; Supplies on Aliexpress.com | Alibaba Group",
+                "thumb_url": "http:\/\/g03.a.alicdn.com\/kf\/HTB1Ke6XKFXXXXXhXXXXq6xXFXXXp\/A3-el-glow-film-el-backlight-panel-white-EL-sheet-for-big-size-sheet-by-free.jpg",
+                "from_url": "http:\/\/www.aliexpress.com\/item\/A3-thin-portable-light-panels-advertising-panel-backlight-by-dhl\/32240232434.html?spm=2114.10010108.100009.5.xAuuDF",
+                "thumb_width": 1000,
+                "thumb_height": 750,
+                "id": 1
+            }
+        ],
+        "ts": "1458150965.000139"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "$68\/sheet",
+        "ts": "1458150976.000141"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "each 11.7 x 16.5 in",
+        "ts": "1458150991.000142"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "you could gel them",
+        "ts": "1458150997.000143"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.menards.com\/main\/electrical\/light-switches-dimmers-outlets\/electrical-outlets\/legrand-15-amp-short-strap-single-outlet\/p-1444451128281.htm>",
+        "ts": "1458151257.000144"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <!here|@here> two things",
+        "ts": "1458162664.000145"
+    },
+    {
+        "user": "U0HS41J3Y",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U0HS41J3Y|ally.stevenson> has joined the channel",
+        "ts": "1458162722.000146"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "1.  don’t bring lunch tomorrow.  <@U0HS41J3Y> is gonna help us out by wrangling an order from Harlow",
+        "ts": "1458162731.000147"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "everyone’s been working reeally hard, thought we’d order in - working lunch style.  choose to do with it what you will",
+        "ts": "1458162747.000148"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so watch for that and",
+        "ts": "1458162753.000149"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "2.  feedbakc doc updates with my comments.  sending to client at 3PST",
+        "ts": "1458162764.000150"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: any one have the extra packing slip from yesterday’s delivery?  i have 1\/2 related to head node",
+        "ts": "1458163830.000151"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02F8LF2X>: where’s the box?  gotta return this shiat",
+        "ts": "1458163840.000152"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "box in storage. let me get it",
+        "ts": "1458163850.000153"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks man, hoping packing slip in there",
+        "ts": "1458163867.000154"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "packing slip for case or for rest of stuff?",
+        "ts": "1458164156.000155"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "case i think.  cant tell from packing slip i have.  mine lists three items",
+        "ts": "1458164224.000156"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "we received five items i believe",
+        "ts": "1458164229.000157"
+    }
+]

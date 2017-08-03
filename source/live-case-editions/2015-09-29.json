@@ -1,0 +1,252 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "found a bug in places downloader this morning",
+        "ts": "1443541720.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "luckily i captured a bugreport just in time",
+        "ts": "1443541726.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, facebook messenger is AWFUL",
+        "ts": "1443541734.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "for the system",
+        "ts": "1443541738.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "buuuut, it turns out that SocketExceptions aren't marked as throws in some instances. Am fixing this morning.",
+        "ts": "1443541848.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/store.google.com\/product\/adopted_case_n5x>",
+        "attachments": [
+            {
+                "text": "Shop at the Google Store for Android phones and tablets, Chromebooks, Android Wear, Chromecast, Nest, plus a selection of accessories.",
+                "fallback": "Shop at the Google Store for Android phones and tablets, Chromebooks, Android Wear, Chromecast, Nest, plus a selection of accessories.",
+                "from_url": "https:\/\/store.google.com\/product\/adopted_case_n5x",
+                "id": 1
+            }
+        ],
+        "ts": "1443556327.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "that’s cool",
+        "ts": "1443556407.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "is the 5X new?",
+        "ts": "1443556420.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "wait it’s fabric? ick",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1443556459.000000"
+        },
+        "ts": "1443556453.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can't set minimumLatency on a periodic job",
+        "ts": "1443563541.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i learned something today",
+        "ts": "1443563545.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hey!",
+        "ts": "1443563631.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "THIS TOO",
+        "ts": "1443563632.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "09-29 14:53:09.013 6971-6971\/? E\/AndroidRuntime: java.lang.IllegalArgumentException: Error: requested job be persisted without holding RECEIVE_BOOT_COMPLETED permission.",
+        "ts": "1443563634.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ohhhh",
+        "ts": "1443563743.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so if you add that permission",
+        "ts": "1443563772.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you have to reboot your phone",
+        "ts": "1443563775.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause the job scheduler caches those things",
+        "ts": "1443563785.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i thin k",
+        "ts": "1443563786.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i am looking into it",
+        "ts": "1443563790.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J>: <@U0261PCRQ> <@U02F9CXTL> any nights next week _not_ work for a Google visit?",
+        "ts": "1443565762.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "monday nights are bad",
+        "ts": "1443565912.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "k - was goig to propose tuesday\/wednesday",
+        "ts": "1443565970.000026"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "they’d be here for whiteboarding and likely go to dinner one night",
+        "ts": "1443566042.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":thumbsup:",
+        "ts": "1443566052.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "Headed to San Bruno Wednesday. ",
+        "ts": "1443566491.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oddly, everything in the build seems to mostly work fine, except I'm seeing weird behavior from the activity detection subsystem:",
+        "ts": "1443579410.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "```09-29 19:16:52.164 2261-5359\/? E\/SQLiteLog: (2067) abort at 35 in [INSERT INTO context(context_name,end_time,context_family,module_id,version,sync_state_mod_time_millis,start_time,sync_state,context_id,time_type,proto_blob) VALUES (?,?,?,?,?,?,?,?,?,?,?)]: UNI\n09-29 19:16:52.166 2261-5359\/? E\/SQLiteDatabase: Error inserting context_name=6 end_time=1443579412133 context_family=1 module_id=com.google.android.contextmanager.module.DetectedActivityProducer version=1 sync_state_mod_time_millis=1443579412164 start_time=1443579352004 sync_state=0 context_id=c3786cff-0e56-41d7-9a3c-81a9460db8b7 time_type=3 proto_blob=[B@3ddf83a5\n09-29 19:16:52.166 2261-5359\/? E\/SQLiteDatabase: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: context.context_id (code 2067)\n0```",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1443579473.000000"
+        },
+        "ts": "1443579430.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Weeeeeird. ",
+        "ts": "1443580516.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I gave a build to Trent earlier and he said it kept crashing. I assumed I did a bad stash. Was it this?",
+        "ts": "1443580561.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hm. No. ",
+        "ts": "1443580683.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "This nonfatally crashes",
+        "ts": "1443580691.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "If he was using Androidify ",
+        "ts": "1443580706.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Then the cut he had yes probably crashed all the time ",
+        "ts": "1443580718.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I told him to try places, but didn't follow up",
+        "ts": "1443581300.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Google coming Monday \/ Tuesday ",
+        "ts": "1443587371.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Kay that may mean no dinner with Google for you :\/",
+        "ts": "1443587383.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Unless you want to join after your evening stuff! We will finalize agenda shortly",
+        "ts": "1443587402.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Might know what was up with trents crash. Need to try tomorrow am (clean install issue)",
+        "ts": "1443590232.000012"
+    }
+]

@@ -1,0 +1,450 @@
+[
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "here’s what we have dev’d for the cubby animation outside of the template engine",
+        "ts": "1463162220.000381"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "<http:\/\/192.168.169.146:3000\/index3.html>",
+        "ts": "1463162224.000382"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "using bodymovin for the circle to plane animation and velocityjs for the rest of the animations",
+        "ts": "1463162265.000383"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "woah",
+        "ts": "1463162746.000384"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so 1) this link will work for anyone in office?",
+        "ts": "1463162754.000385"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "2) bodymovin means we need ot use velocity.js or no?",
+        "ts": "1463162771.000386"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "bodymovin doesnt need velocityjs, just the bodymovin.js player",
+        "ts": "1463163201.000387"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "roger that",
+        "ts": "1463163211.000388"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "link should work for anyone on UNCORKED",
+        "ts": "1463163219.000389"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "i dont believe the template engine currently has velocityjs baked into the UI",
+        "ts": "1463163316.000390"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "we’d need to decided if we want to incorporate velocityjs or keep it limited to bodymovin\/css3",
+        "ts": "1463163364.000391"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "would we want both velocity and bodymovin\/css3?",
+        "ts": "1463163459.000392"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "its my understanding that you cant get the welcome and retrospective to do simultaneous transforms in bodymovin\/css3, accurate?",
+        "ts": "1463163483.000393"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "bodymovin will handle transforms simultaneously (essentially like a movie), just not sure how performant it is for large timelines with many shapes involved",
+        "ts": "1463163570.000394"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "css3 keyframes has the limitations with simultaneous transforms",
+        "ts": "1463163612.000395"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "bodymovin restricts us with editing animations without reexporting the data from AE",
+        "ts": "1463163702.000396"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "velocityJS gives us more control over individual elements in the code but may be a little more time consuming",
+        "ts": "1463163739.000397"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah right now I havnt included velocity yet. would need to evaluate that",
+        "ts": "1463163793.000398"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "found out the feed im pulling for trends actually does appear to be from the trends site, its the api they used to populate their map view <https:\/\/www.youtube.com\/trendsmap>",
+        "attachments": [
+            {
+                "title": "  YouTube Trends Map  - YouTube",
+                "title_link": "https:\/\/www.youtube.com\/trendsmap",
+                "text": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+                "fallback": "  YouTube Trends Map  - YouTube",
+                "from_url": "https:\/\/www.youtube.com\/trendsmap",
+                "id": 1
+            }
+        ],
+        "ts": "1463163926.000399"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like i was pulling the feed for top shared not top viewed, going to change that and see what it gives me",
+        "ts": "1463164114.000401"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Ok <@U0EL0GLEL> do you want to evaluate velocity right now or see value elsewhere?  <@U11JK4QSK> great call out with bodymoving being edited in AE. I want to limit the number of places we use that to choreography slides and airplane. Both of which should expect minimal changes except for timing. Once it's exported and sent to you. What do you need to do with it to make it 'work' and generally, how long does that take?",
+        "ts": "1463164350.000402"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "Here’s what we have for the brand welcome topsweep (shape transforms with css3 keyframes, gray wire animated gifs) and quiet mode planes (animated with snapSVG) <http:\/\/192.168.169.146:3002\/>",
+        "ts": "1463164598.000403"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i would like to see bryan prove his need of it, with a working simple example of its use proving it fits what we need, then i clone that sample into the template system",
+        "ts": "1463164704.000404"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "main need will be if we ever plan on simultaneous transforms",
+        "ts": "1463164855.000405"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "comes down to whether we limit all designs around that or include it",
+        "ts": "1463164884.000406"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "should we work on proving velocityJS can handle the topsweep shape transforms Monday <@U0ML49XU0> ?",
+        "ts": "1463164918.000407"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "yes, lets also dicuss in 1pm",
+        "ts": "1463164972.000408"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "this is helpful in advance",
+        "ts": "1463164975.000409"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "The computer breathes! We got Ubuntu to boot and show us that the video card is detected.",
+        "ts": "1463167055.000410"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "nice!",
+        "ts": "1463167124.000411"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hey <@U0EL0GLEL> and <@U11JK4QSK> is there any easy way to export\/ID all of the third party libraries and plugins we’re using to date?  I’d love to just have access to these\/maybe cfloat by client.  if not easy.  disregard",
+        "ts": "1463167221.000412"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "The list I’m aware of is Angular, jQuery, SnapSVG, VelocityJS",
+        "ts": "1463167332.000413"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep",
+        "ts": "1463167399.000414"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "well jquery is part of angular",
+        "ts": "1463167408.000415"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: anything else you leverage for template editor or any ounder the hood stuff?  if not, no ned for me to float this list at all, this is fine to roll with",
+        "ts": "1463168418.000416"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "angular material, but thats what makes “pretty” pretty",
+        "ts": "1463168822.000417"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "im cool with this list, no more action required.  we’ll learn from the code review",
+        "ts": "1463169009.000418"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure we are not relying on much from libraries",
+        "ts": "1463169125.000419"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thats good; lets points of failure\/push back in code review.  down side: we’re doing a lot of work ourselves",
+        "ts": "1463169231.000420"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: lets meet at wall",
+        "ts": "1463169718.000421"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: as discussed, this is my understanding of the biggest need for alpha.  is it accurate?  <https:\/\/trello.com\/c\/0qrjBp34>",
+        "ts": "1463176493.000422"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah and i have a plan so will execute on that",
+        "ts": "1463176713.000423"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U0ML49XU0>: and if you look at the cubby screen now and read the text",
+        "ts": "1463176792.000424"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "woah i just turned to my right and my mind was blown!",
+        "ts": "1463176839.000425"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: what workshop is this displaying?",
+        "ts": "1463176849.000426"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "melanie test",
+        "ts": "1463176857.000427"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the values are all junk for the distances, but the data flows",
+        "ts": "1463176872.000428"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "kk",
+        "ts": "1463176937.000429"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: per your plan on dyanmic cubby; i think we need bryan to raise a hand when done with screens and then you can do your thang, right?",
+        "ts": "1463176958.000430"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "correct",
+        "ts": "1463176979.000431"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks, im hyper senstive to this one, will plan my time around it",
+        "ts": "1463177166.000432"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "where can i find the flow diagram?",
+        "ts": "1463177322.000433"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i put em in that trello card",
+        "ts": "1463177460.000434"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<https:\/\/trello.com\/c\/0qrjBp34>",
+        "ts": "1463177484.000435"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "got it working",
+        "ts": "1463180542.000436"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "added qualifiers to the template slides that are linked to the ones used in the admin",
+        "ts": "1463180683.000437"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it wont show a slide if its not qualified to show next, goes to the next qualified slide",
+        "ts": "1463180707.000438"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "we will just need to map out that flow through the slides of the template when setting it up. and test it as we go, mechanics are there to support it now",
+        "ts": "1463180741.000439"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "editor is updated to support, and told bryan how it works.",
+        "ts": "1463180756.000440"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I will apply the logic after these are finished stubbing out, i tested with the cubby welcome one as it stands and worked fine",
+        "ts": "1463180800.000441"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "goddamn i cant wait to see this",
+        "ts": "1463181409.000442"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "how can i help with: 'we will just need to map out that flow through the slides of the template when setting it up.'",
+        "ts": "1463181428.000443"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "right now i want bryan to just get all of them made, then we can reorder them into a more logic layout, then we need to say ok slide 1 and 2 etc… are expedited only, and 4-8 are questions dependent and 9-12 are common, and 13 is expedited…. etc something like that",
+        "ts": "1463182004.000444"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "best way to do that now is if we had a call out on the screens that exist in the drive now, say this one is common, or specific and then we have a flow from those to map directly to the slides in the template",
+        "ts": "1463182041.000445"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "makes sense.  <@U11JK4QSK> how you traking towards completing that today?",
+        "ts": "1463182305.000446"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "stubbing the last few slides for retro goodbye",
+        "ts": "1463182389.000447"
+    },
+    {
+        "type": "message",
+        "user": "U11JK4QSK",
+        "text": "will be done before EOD",
+        "ts": "1463182399.000448"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "fan-=fucking-tastic",
+        "ts": "1463182596.000449"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you taking fucking-tastic away from fan? thats a strange thing to do",
+        "ts": "1463182634.000450"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Lol",
+        "ts": "1463187452.000451"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "<@U02E3CRMA>: As requested here is a brief overview of installation for the headnode\n0. Install SSD into right most tray.\n1. Download\/Install Windows 10 64bit using download tool and putting it onto a thumbdrive :<https:\/\/www.microsoft.com\/en-us\/software-download\/windows10\/>\n2. Download\/Install Drivers for Windows 10 from: <http:\/\/www.supermicro.com\/products\/motherboard\/Xeon\/C600\/X10SRA-F.cfm> \n3. Download\/Install Nvidia Drivers: <http:\/\/www.nvidia.com\/content\/DriverDownload-March2009\/confirmation.php?url=\/Windows\/Quadro_Certified\/362.56\/362.56-quadro-grid-desktop-notebook-win10-64bit-international-whql.exe&amp;lang=us&amp;type=Quadro>\n4. Download\/Install Displax Software <https:\/\/support.displax.com\/pages\/ultrafitwindows>\n5. Download\/Install Virtualbox <https:\/\/www.virtualbox.org\/wiki\/Downloads>\n6. Move ubuntu image over to the new headnode (Peter should know how to do this.)",
+        "ts": "1463195955.000452"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I've migrated a few Linux images in my time. I should be good for the last step. :)",
+        "ts": "1463199239.000453"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Thanks for the instructions... Big help!",
+        "ts": "1463199262.000454"
+    }
+]

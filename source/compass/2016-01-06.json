@@ -1,0 +1,151 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02F8TTPU> <@U0261PCRQ> what data should we store for a heart rate reading for a user? Timestamp, beats\/min, anything else?",
+        "ts": "1452106545.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "That sounds right to me. The only GATT data I'm seeing from the emulator is an integer, which I assume is bpm",
+        "ts": "1452106644.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sounds like a good guess",
+        "ts": "1452106657.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the data we get from the end device may be different, but that’s all we have now",
+        "ts": "1452106670.000066"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Cool, I’ll get on it.",
+        "ts": "1452106745.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Israel added some deployment scripts I haven’t used before for the new AWS environment, so it might take me a little bit to push it live. I’ll let you guys know!",
+        "ts": "1452106781.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "<http:\/\/www.bbc.com\/news\/technology-35238645>",
+        "attachments": [
+            {
+                "service_name": "BBC News",
+                "title": "CES 2016: Fitbit Blaze smartwatch sends shares into dive - BBC News",
+                "title_link": "http:\/\/www.bbc.com\/news\/technology-35238645",
+                "text": "Fitbit's shares plunge after it announced a new smartwatch at CES, where Huawei and Misfit also unveiled new smart wristwear.",
+                "fallback": "BBC News: CES 2016: Fitbit Blaze smartwatch sends shares into dive - BBC News",
+                "image_url": "http:\/\/ichef-1.bbci.co.uk\/news\/560\/cpsprodpb\/CEAE\/production\/_87501925_87501924.jpg",
+                "from_url": "http:\/\/www.bbc.com\/news\/technology-35238645",
+                "image_width": 444,
+                "image_height": 250,
+                "image_bytes": 25987,
+                "id": 1
+            }
+        ],
+        "ts": "1452109721.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "\"Pink, shiny and blingy is a long way from women's technology emancipation,\" he said.\n\n\"A 'wearable for women' should offer a lot more than a few Swarovski gems and a shiny finish - the implication is that women don't care about functions which is naive.\"",
+        "ts": "1452110387.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Have heartrate stuff working locally. Will attempt to deploy to AWS after lunch",
+        "ts": "1452113809.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":cool:",
+        "ts": "1452113840.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026E0ZNR>: <@U026PLK4S> meet in library?",
+        "ts": "1452121283.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "oh! it’s 3 already...",
+        "ts": "1452121294.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "on my way",
+        "ts": "1452121297.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Think we're pivoting what the meeting is actually",
+        "ts": "1452121307.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "if what katrina just said is true",
+        "ts": "1452121318.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "(continuing talking about goals vs. features)",
+        "ts": "1452121369.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Okay <@U02F8TTPU> <@U0261PCRQ> there’s a heart rate endpoint deployed to the newest AWS environment. It’s \/v1\/heart_rates. You can have a look in the live docs <http:\/\/compass-d-compassl-17h0sxqa9891o-2050412355.us-west-2.elb.amazonaws.com\/v1\/docs#!\/heart_rates\/post_heart_rates>",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1452122399.000000"
+        },
+        "ts": "1452122386.000080",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0261PCRQ",
+                    "U02F8TTPU"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "You can also post to the \/v1\/batch endpoint to upload many at once. I was having trouble getting an accurate representation of what the payload should look like for a batch request to show up in the docs, so let me grab a sample and post it here...",
+        "ts": "1452122559.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I was just going to ask! thanks!",
+        "ts": "1452122576.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "```{\n    \"requests\": [\n        {\n            \"method\": \"POST\",\n            \"path\": \"\/v1\/heart_rates\",\n            \"payload\": {\n                \"userId\": \"e2ecfdfd-f788-4596-b322-1a155dfb263b\",\n                \"heartRate\": {\n                    \"timestamp\": \"1452122515000\",\n                    \"bpm\": 65\n                }\n            }\n        },\n        {\n            \"method\": \"POST\",\n            \"path\": \"\/v1\/heart_rates\",\n            \"payload\": {\n                \"userId\": \"e2ecfdfd-f788-4596-b322-1a155dfb263b\",\n                \"heartRate\": {\n                    \"timestamp\": \"1452122717000\",\n                    \"bpm\": 120\n                }\n            }\n        }\n    ]\n}```",
+        "ts": "1452122782.000084"
+    }
+]

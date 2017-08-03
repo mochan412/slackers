@@ -1,0 +1,868 @@
+[
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "good morning team.  <@U0B9N0HF0> <@U0HP6TFNX> <@U0260V4K1> as I’m working I’m noticing inconsistencies in the invision wireframes with what I believe are later revisions to the project.  Could we meet today after the stand-up to clarify the wires?  This is mainly for my own edification, as I’m coming in late on the project and I don’t have a lot to go on other than the documents.",
+        "ts": "1487783529.881785"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "also on that note, i think we should delay the scheduled alpha due to problems with showtime we discovered late in the day yesterday.  <@U0EL0GLEL> can provide more details at the stand-up",
+        "ts": "1487783579.883266"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks for update Mo. We can certainly get together to talk through the wires. <@U0EL0GLEL> delay till when? This afternoon?",
+        "ts": "1487783759.888856"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "I can meet now mo if you're free, the rest of the day is more challenging with other meetings",
+        "ts": "1487783768.889147"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dont know yet, we just ran into what appears to be a pretty serious issue with showtime, it is throwing the system into an infinite loop whenever you send a message making the system unusable",
+        "ts": "1487784029.896788"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it just started to do this, it was working fine all day yesterday, and now its throwing this. I think it is on their end. I have been trying to trouble shoot whats up with this, what i can tell is it seems to be on their end",
+        "ts": "1487784088.898381"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the showtime qa site we are working against is their nightly build. i think it might be that they committed something that broke us",
+        "ts": "1487784110.898948"
+    },
+    {
+        "user": "U1S5GKTHQ",
+        "text": "<@U1S5GKTHQ|dimitry> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1487784233.902674"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> when did we notice this?  The only issue I heard of yesterday was our own internet issue.  Is there a dialog with anyone at Google about what we’re seeing?",
+        "ts": "1487784680.916534"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Mo ran into it in the evening, I have been digging at it this morning. Im trying to eliminate that it is anything that we are doing wrong, and have since came to the conclusion that it cant be anything on our end. There are binding for messaging that are made from each part of the app, each display and podium registers a messaging route, and the showtime site does too, I start the app and i see them all show up in the messaging broker. Now If i send a message to show a story, i start to get an infinite loop of that message coming in. I can kill all of the message bindings for the displays and podium and i still can see that the messages are being sent, the one binding left is the one from the showtime qa site. so that is the source of the messages. It must be something happening from their end",
+        "ts": "1487785138.930881"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "helpful description, thanks.  but i wonder wwhere does the Showtime QA site come into play?  Are we hosting anything there?  Wondering where that binding originates from in relation to our work?",
+        "ts": "1487785392.939236"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that is their site for controlling showtime",
+        "ts": "1487785592.945089"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I also heard that was their nightly build site",
+        "ts": "1487785602.945411"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so if something changes in showtime It would happen there",
+        "ts": "1487785614.945697"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "It appears to be a binding setup for communicating between this site and any apps its running.",
+        "ts": "1487785673.947511"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im not sure if this is new, as i havnt had to look into the binding directly before as they always worked",
+        "ts": "1487785693.948112"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Im sending max a message to get his thoughts on this",
+        "ts": "1487785707.948651"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "can ya cc joel, rob and i pls?",
+        "ts": "1487785726.949301"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I might be able to work around it by killing the binding after i launch the app. I am doing more testing to see",
+        "ts": "1487785734.949552"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok",
+        "ts": "1487785800.951539"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I turned off all the library computers in trying to figure out whats going on, im going to test locally with my work around here, and then try and get them up and we should be able to run through a few things there, will likely take a while tho and not be ready by 10:30",
+        "ts": "1487786011.959218"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "does your work around live off of showtime entirely?",
+        "ts": "1487786065.961086"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no, you cant avoid using showtime",
+        "ts": "1487786213.966141"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i am saying that i might be able to kill the message binding manually that the showtime-qa site makes when i launch the app",
+        "ts": "1487786245.967263"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "right",
+        "ts": "1487786296.969001"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good :wink:",
+        "ts": "1487786299.969084"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its quite tricky as I dont know which one it is exactly, there are 5 that show up in the list, and I think its the first one. if i can kill that message binding it will stop the message flood",
+        "ts": "1487786312.969474"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its not actually used for anything",
+        "ts": "1487786320.969727"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "in our case",
+        "ts": "1487786324.969894"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and its new as of yesterday or did we move to a place and this is our first time seeing it?",
+        "ts": "1487786338.970326"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its new from yesterday evening",
+        "ts": "1487786376.971733"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "was having no problem with pushing messages all day, was working great",
+        "ts": "1487786402.972539"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ive kill the app engine app, turns off the library computers, and went bare metal only my machine talking to showtime started it up and still had the issue. it has to be something on their end",
+        "ts": "1487786444.974377"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and the offending message binding isnt from our app, i can only assume its from that showtime qa site",
+        "ts": "1487786474.975370"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good methodolgy",
+        "ts": "1487786474.975400"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks for all the updates Peter. With regards to the \"work around' when do you anticipate being able to use that to demo alpha?",
+        "ts": "1487788112.032392"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "maybe, im having mixed results so far",
+        "ts": "1487788161.034040"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "The work-around is a maybe?",
+        "ts": "1487788240.036832"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "at the moment, ive got it to work, then the next time i see a different result.",
+        "ts": "1487788273.038106"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<!here|@here> With alpha being pushed back, let's do stand-up at 10:30 in our room",
+        "ts": "1487788301.039035"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, i’ll be there shortly",
+        "ts": "1487788317.039704"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Ok I think i have a work around, that extra message binding doesnt always show up when I run the system through my work around, i think might be due to the hacky work around, which is fine. Good thing is when you get the work around up and running it will work fine till the next time you need to launch showtime app again. At least its an easy work around, but still manual process",
+        "ts": "1487788999.063736"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and Peter, to your point - this work around is just so we can facilitate testing right?  We still want a clean PROD Showtime instance, at which point, we need to test again :wink:",
+        "ts": "1487789783.091021"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah exactly",
+        "ts": "1487789979.097583"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "now im seeing another possible issue, i got it working thru some reductive analysis. but as I added components back the work around failed on adding in podium. doing more tests",
+        "ts": "1487790025.099290"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "phew found the rogue machine running the agent, it was the podium machine in the library, didnt realize it was running the agent and didnt have a monitor hooked up to it so didnt realize it was running at all",
+        "ts": "1487790643.118966"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the issue appears to be something with the podium app. im going to diagnose this from there",
+        "ts": "1487790665.119726"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "which explains why i couldnt see the issue, since it would have been the podium app running on that machine in the library not coming from my local machine",
+        "ts": "1487790697.120681"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<@U0EL0GLEL> Is that the root issue or just the issue that was blocking the work around?",
+        "ts": "1487790744.122189"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah root issue",
+        "ts": "1487790767.123318"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the machine in library was running the agent for the podium, and launching everytime I was kicking off the app",
+        "ts": "1487790797.124613"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it appears like there is a bug in podium",
+        "ts": "1487790804.124837"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i need to look more to fully confirm, as there is still some points of this that I dont quite follow. like i see it messing up due to this for me, as it was pointed at my showtime instance on that machine. but it shouldnt have caused mo to have the same issue as they are seprate",
+        "ts": "1487790851.126225"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im going to diagnose this",
+        "ts": "1487790869.126774"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "now that I can actually do that, before I was looking at the app and seeing that im not sending any of these message and coudlnt figure out what was up. it was because the app on that machine was the one sending them",
+        "ts": "1487790912.128157"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks <@U0EL0GLEL> Good to know! and hear",
+        "ts": "1487791139.135886"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "found the issue",
+        "ts": "1487791178.137182"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Peter and I talked in hallway, even if root cause isn’t Showtime QA environment, still an important reminder to  have that convo with Google as soon as makes sense.",
+        "ts": "1487791300.141140"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i figured out whats going on why the messages are bombing",
+        "ts": "1487791370.143262"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it is in the podium app, it appears to just be a misunderstanding",
+        "ts": "1487791384.143734"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Ok issue is solved phew, we figured out exactly what happened, and im pushing a fix to the app engine so the library can be updated. and i will go and set those machines up",
+        "ts": "1487791686.154315"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "nicely done!",
+        "ts": "1487791741.156101"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "library is working again, we can do a demo where its at any time. not sure where Mo is at for a demo. but i can simulate messages from podium if need be. I noticed a few small tweaks on display going to address. but we are great shape to load a demo now",
+        "ts": "1487799408.398801"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i added some stuff to map based on this am’s convo -  will push and then we can demo",
+        "ts": "1487799517.402473"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "did you get the message sends in?",
+        "ts": "1487799534.403005"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "yes",
+        "ts": "1487799542.403285"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "still missing some things but basic stuff (loading story detail, map movement, filtering) are in",
+        "ts": "1487799567.404493"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "skipping video for now",
+        "ts": "1487799576.404725"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "should i come to demo?",
+        "ts": "1487799604.405552"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet, thats great. nah just keep doing what you are, they scheduled the demo for 5, but i think if we can we are good to do it sooner, <@U0B9N0HF0>",
+        "ts": "1487799779.410728"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "have you commited these updates?",
+        "ts": "1487799805.411414"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "yes i have",
+        "ts": "1487799857.412733"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "perfect, i will update the app engine with that then, and run through it myself see how it looks",
+        "ts": "1487799931.414787"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "We didn't have much calendar flexibility until 5, but most ppl in room now, so not sure how much of those meetings are still happening",
+        "ts": "1487801215.453246"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "i can rearrange and meet any time nowish, dont let me be a blocker!",
+        "ts": "1487801270.454785"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "I’m free now",
+        "ts": "1487801290.455377"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "ok cool! Well I'm not religious about the 5 pm time, but want to make sure we have enough time. Looks like a couple of our folks have 3's. <@U0260V4K1> <@U0HP6TFNX> Are you 3:00 still on?",
+        "ts": "1487802288.482246"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "my 3 just got cancelled",
+        "ts": "1487802333.483523"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "my 2:30 got cancelled",
+        "ts": "1487802423.485530"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "interviewing a candidate at 3, I can't move that",
+        "ts": "1487802459.486468"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Free whenever",
+        "ts": "1487802567.489090"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Ok cool. Then let's keep the 5, because I'm not sure if less than 30 minutes is enough time",
+        "ts": "1487802693.492516"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok so looks like there is another api you can call to get the video length, tested this and it seems to work, the format they return is strange but usable. I can update include this value in the meta data sent over from the api",
+        "ts": "1487802869.497093"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U026E0ZNR> Check out peters note -",
+        "ts": "1487803368.509851"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "cool",
+        "ts": "1487803398.510508"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F9CXTL|jstrand> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jstrand\/F48DSLQ1E\/screen_shot_2017-02-22_at_2.43.19_pm.png|Screen Shot 2017-02-22 at 2.43.19 PM.png>",
+        "file": {
+            "id": "F48DSLQ1E",
+            "created": 1487803408,
+            "timestamp": 1487803408,
+            "name": "Screen Shot 2017-02-22 at 2.43.19 PM.png",
+            "title": "Screen Shot 2017-02-22 at 2.43.19 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02F9CXTL",
+            "editable": false,
+            "size": 38841,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F48DSLQ1E\/screen_shot_2017-02-22_at_2.43.19_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F48DSLQ1E\/download\/screen_shot_2017-02-22_at_2.43.19_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F48DSLQ1E-ca850ae3e2\/screen_shot_2017-02-22_at_2.43.19_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F48DSLQ1E-ca850ae3e2\/screen_shot_2017-02-22_at_2.43.19_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F48DSLQ1E-ca850ae3e2\/screen_shot_2017-02-22_at_2.43.19_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 336,
+            "thumb_360_h": 110,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F48DSLQ1E-ca850ae3e2\/screen_shot_2017-02-22_at_2.43.19_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 336,
+            "original_h": 110,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jstrand\/F48DSLQ1E\/screen_shot_2017-02-22_at_2.43.19_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F48DSLQ1E-cadfc22b8c",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F9CXTL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jstrand",
+        "bot_id": null,
+        "ts": "1487803409.510755"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "thinking is the best way to show a video - as its what youtube does",
+        "ts": "1487803431.511331"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "are you thinking that’s prominent enough? i’m thinking it might need to be a bit more obvious (bigger or added icon) if there’s an autoadvance that will make them less likely to notice it’s interactive in contrast to everything else being static thumbnails, right?",
+        "ts": "1487803600.516098"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I think if you have an idea trent - give it a try.",
+        "ts": "1487803718.519180"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "was able to add thumbnail and duration of the video to the api retrieved data for videos",
+        "ts": "1487807142.595722"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": ":the_horns:",
+        "ts": "1487807197.596617"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "doing deploy for demo now, will run thru this myself after its done then we should be locked for a demo.",
+        "ts": "1487807533.602775"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0MKH0BE0> Do you mind putting search and the timer screen here? .pngs\n:slightly_smiling_face:\n<https:\/\/drive.google.com\/drive\/folders\/0BzY5boFyNkdiZFpRSnA4TG9CWjg>",
+        "ts": "1487808123.613066"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "<@U02F9CXTL> just added them",
+        "ts": "1487808253.615474"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0XJFPSRL> ^",
+        "ts": "1487808364.617356"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U0MKH0BE0> THANKS! :slightly_smiling_face:",
+        "ts": "1487808379.617596"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "For invision?",
+        "ts": "1487808382.617629"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "jah",
+        "ts": "1487808386.617713"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Added",
+        "ts": "1487808573.620803"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "<@U0MKH0BE0> Was it intentional to leave off the back\/home buttons on the search screen?",
+        "ts": "1487808627.621777"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0XJFPSRL|elisecramer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/elisecramer\/F498T5UJH\/screen_shot_2017-02-22_at_4.10.06_pm.png|Screen Shot 2017-02-22 at 4.10.06 PM.png>",
+        "file": {
+            "id": "F498T5UJH",
+            "created": 1487808635,
+            "timestamp": 1487808635,
+            "name": "Screen Shot 2017-02-22 at 4.10.06 PM.png",
+            "title": "Screen Shot 2017-02-22 at 4.10.06 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0XJFPSRL",
+            "editable": false,
+            "size": 133237,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F498T5UJH\/screen_shot_2017-02-22_at_4.10.06_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F498T5UJH\/download\/screen_shot_2017-02-22_at_4.10.06_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F498T5UJH-97f485bfb2\/screen_shot_2017-02-22_at_4.10.06_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F498T5UJH-97f485bfb2\/screen_shot_2017-02-22_at_4.10.06_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F498T5UJH-97f485bfb2\/screen_shot_2017-02-22_at_4.10.06_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 290,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F498T5UJH-97f485bfb2\/screen_shot_2017-02-22_at_4.10.06_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 386,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F498T5UJH-97f485bfb2\/screen_shot_2017-02-22_at_4.10.06_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F498T5UJH-97f485bfb2\/screen_shot_2017-02-22_at_4.10.06_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 579,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F498T5UJH-97f485bfb2\/screen_shot_2017-02-22_at_4.10.06_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 772,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F498T5UJH-97f485bfb2\/screen_shot_2017-02-22_at_4.10.06_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 824,
+            "image_exif_rotation": 1,
+            "original_w": 1372,
+            "original_h": 1104,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/elisecramer\/F498T5UJH\/screen_shot_2017-02-22_at_4.10.06_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F498T5UJH-d6b68c9c18",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0XJFPSRL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "elisecramer",
+        "bot_id": null,
+        "ts": "1487808638.621942"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "^wireframes",
+        "ts": "1487808653.622178"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "<@U0XJFPSRL>: This is new to me, the wires i was given didnt have back or home button",
+        "ts": "1487808763.624154"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Hm, which wires are you working from? These are the newest that are in the InVision prototype (where the final wires live now)",
+        "thread_ts": "1487808822.625297",
+        "reply_count": 8,
+        "replies": [
+            {
+                "user": "U0MKH0BE0",
+                "ts": "1487808918.627186"
+            },
+            {
+                "user": "U0XJFPSRL",
+                "ts": "1487808958.628042"
+            },
+            {
+                "user": "U0XJFPSRL",
+                "ts": "1487809008.628951"
+            },
+            {
+                "user": "U0XJFPSRL",
+                "ts": "1487809024.629324"
+            },
+            {
+                "user": "U0MKH0BE0",
+                "ts": "1487809032.629451"
+            },
+            {
+                "user": "U0MKH0BE0",
+                "ts": "1487809052.629947"
+            },
+            {
+                "user": "U0XJFPSRL",
+                "ts": "1487809423.636886"
+            },
+            {
+                "user": "U0MKH0BE0",
+                "ts": "1487809468.637664"
+            }
+        ],
+        "unread_count": 8,
+        "ts": "1487808822.625297"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Apologies if that didn’t get relayed to you!",
+        "ts": "1487808833.625504"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "elisecramer: I was working from a print out that Jason gave me and the wires in dropbox",
+        "thread_ts": "1487808822.625297",
+        "parent_user_id": "U0XJFPSRL",
+        "ts": "1487808918.627186"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Hm, yea I’m not sure what those print outs are. I will add you and link you to the InVision",
+        "thread_ts": "1487808822.625297",
+        "parent_user_id": "U0XJFPSRL",
+        "ts": "1487808958.628042"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Added you to the Invision prototype",
+        "thread_ts": "1487808822.625297",
+        "parent_user_id": "U0XJFPSRL",
+        "ts": "1487809008.628951"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "I think all it will mean is adding the back and home button to the bottom of those search comps",
+        "thread_ts": "1487808822.625297",
+        "parent_user_id": "U0XJFPSRL",
+        "ts": "1487809024.629324"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "Can we have the home and back arrow stacked on the left like they are in some other screens",
+        "thread_ts": "1487808822.625297",
+        "parent_user_id": "U0XJFPSRL",
+        "ts": "1487809032.629451"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "ok",
+        "thread_ts": "1487808822.625297",
+        "parent_user_id": "U0XJFPSRL",
+        "ts": "1487809052.629947"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "Yea, whatever you feel is best. The solve would just be to add the home and back buttons somewhere at the bottom",
+        "thread_ts": "1487808822.625297",
+        "parent_user_id": "U0XJFPSRL",
+        "ts": "1487809423.636886"
+    },
+    {
+        "type": "message",
+        "user": "U0MKH0BE0",
+        "text": "Just updated the pngs on drive",
+        "thread_ts": "1487808822.625297",
+        "parent_user_id": "U0XJFPSRL",
+        "ts": "1487809468.637664"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ok can demo whenever, some bugs but we will just capture those",
+        "ts": "1487810519.658709"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks <@U0EL0GLEL> I'll be coming in soon. Do you have Jira \"create ticket\" access?",
+        "ts": "1487810660.660696"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<https:\/\/net-contributor-dev.appspot-preview.com\/content\/podium.html?GOOGLE_SHOWTIME_ADMIN_URL=https%3A%2F%2Fshowtime-qa.appspot.com&amp;GOOGLE_SHOWTIME_APP_ID=netcontrib_display&amp;GOOGLE_SHOWTIME_AUTH_ACCESS_TOKEN=ya29.Eln6A7CacVICRHjVQSe05UfHWJL9lRUrCZajtAQRoUs9mekIph8p2R4k31UsjSW2Y5Z00cUrb-XQGLswHMEBafbFjDdfxJDiNzsCnIwnN4cNSZNwyTsH0EvcUA&amp;GOOGLE_SHOWTIME_AUTH_SCOPES=&amp;GOOGLE_SHOWTIME_CLIENT_ID=682621015937-dnvgt00th1o57670f43vviae3vk9sai2.apps.googleusercontent.com&amp;GOOGLE_SHOWTIME_COMPONENT_ID=expeng_digital_footprint_4&amp;GOOGLE_SHOWTIME_CONFIG_DATA_FILE=https%3A%2F%2Fnet-contributor-dev.appspot-preview.com%2Fcontent%2Fdata%2Fedf.data.json&amp;GOOGLE_SHOWTIME_CONFIG_SCHEMA_FILE=https%3A%2F%2Fnet-contributor-dev.appspot-preview.com%2Fcontent%2Fschemas%2Fedf4.schema.json&amp;GOOGLE_SHOWTIME_MESSAGE_BROKER_IP=messaging-dev.experiencecentersplatform.goog&amp;GOOGLE_SHOWTIME_MESSAGE_BROKER_PASSWORD=02U_5BawE%3D1ZTP7CY9Vx&amp;GOOGLE_SHOWTIME_MESSAGE_BROKER_PORT_ADMIN=80&amp;GOOGLE_SHOWTIME_MESSAGE_BROKER_PORT_STOMP=15674&amp;GOOGLE_SHOWTIME_MESSAGE_BROKER_USERNAME=uncorked&amp;GOOGLE_SHOWTIME_SITE_ID=UNCORKED-peter>",
+        "ts": "1487811458.674032"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "if you want to see podium on a tablet go here",
+        "edited": {
+            "user": "U0EL0GLEL",
+            "ts": "1487811529.000000"
+        },
+        "ts": "1487811467.674145"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Great job <@U0EL0GLEL> and <@U243UT96G> on getting that Alpha demo together today today! 3 cheers!",
+        "ts": "1487813498.703925"
+    }
+]

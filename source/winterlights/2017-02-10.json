@@ -1,0 +1,365 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0H4SJN11> good work and good communication.  i put a hold on 2pm monday - can ya swing a call then?  assuming so, what shoudl our goal be in terms of experimentation\/understanding by that point?",
+        "ts": "1486747394.064465"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Making a list and checking it twice.",
+        "ts": "1486752926.692810"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "On the note of tax deduction, I'm not sure if participation is tax deductible directly, but Winter Lights is a 501(c)(3): <http:\/\/pdxwlf.com\/support\/>",
+        "edited": {
+            "user": "U0H4SJN11",
+            "ts": "1486753009.000000"
+        },
+        "ts": "1486753001.735798"
+    },
+    {
+        "user": "U0261PCRQ",
+        "text": "<@U0261PCRQ|kat> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1486754920.057903"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Ok. Learned from searching Digikey a bunch.",
+        "ts": "1486761349.719116"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "We chose very good off the shelf sensors on dev boards for the price. Unless we run our own board (for current technology choices), we're stuck with what we have for functionality.",
+        "ts": "1486761510.820083"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Is it damaged tho?",
+        "ts": "1486761546.836012"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Been spending today getting order together. Working on that next.",
+        "ts": "1486761568.846126"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Wanted to get order in before the weekend.",
+        "ts": "1486761577.851164"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Go forth ",
+        "ts": "1486761734.945996"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Ok. Got arduino back up and running and rewired well now. Been testing different LED cases for triggering the capacitive sensor. Early on, I was getting triggers, but now I'm not getting that same thing. Working theory is that the power source DDD had was noisy or their LED program uses a different way of talking to the LEDs (eg different refresh rate).",
+        "ts": "1486776594.586972"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Josh ordered some of the digikey stuff to test out so we don't waste money on parts we haven't evaluated yet.",
+        "ts": "1486776646.599418"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "A list of items that are different in our setup here from the real thing that might cause some differences:\nPower source not from OMSI (Might have actually been a generator on site but I'm not sure)\nLED driver box and LED Program(Most likely cause for noise differences)\nPOE Injector\nNetwork setup and cat 5e cable lengths",
+        "ts": "1486776992.665264"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Ok. Great progress today. Redid the capacitive sensor antenna with ITO clear plastic, seems to work very well, both in not changing the lensing of the light and for not triggering the sensor falsely.",
+        "ts": "1486783023.494620"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Podium is back together. Running the LEDs for a long time to see if the sensor is triggered by it.",
+        "ts": "1486783073.497569"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Pictures please ",
+        "ts": "1486783077.497838"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0H4SJN11|miguel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/miguel\/F443CMU67\/dsc_0040.jpg|Slack for Android Upload>",
+        "file": {
+            "id": "F443CMU67",
+            "created": 1486783105,
+            "timestamp": 1486783105,
+            "name": "DSC_0040.JPG",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U0H4SJN11",
+            "editable": false,
+            "size": 698488,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F443CMU67\/dsc_0040.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F443CMU67\/download\/dsc_0040.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443CMU67-67192002d2\/dsc_0040_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443CMU67-67192002d2\/dsc_0040_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443CMU67-67192002d2\/dsc_0040_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443CMU67-67192002d2\/dsc_0040_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443CMU67-67192002d2\/dsc_0040_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443CMU67-67192002d2\/dsc_0040_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443CMU67-67192002d2\/dsc_0040_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443CMU67-67192002d2\/dsc_0040_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1080,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/miguel\/F443CMU67\/dsc_0040.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F443CMU67-06d9ba8ae5",
+            "channels": [
+                "C08V1REB0"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0H4SJN11",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "miguel",
+        "bot_id": null,
+        "ts": "1486783108.500509"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "This is with it all assembled.",
+        "ts": "1486783119.501313"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "None of the inside?",
+        "ts": "1486783722.590645"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Sorry. I can take one if you'd like me to though.",
+        "ts": "1486783839.802161"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Show me on the next one",
+        "ts": "1486784715.864153"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "OK.",
+        "ts": "1486784889.876749"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Nice job <@U0H4SJN11> what's left from here?",
+        "ts": "1486786314.014636"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Gah. Still getting false sensor triggering. Just checked on it.",
+        "ts": "1486786707.065807"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Going to shorten sensor sense wire and test again.",
+        "ts": "1486786782.069677"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Resetting the sensor seems to work well this time though. So if I used a mosfet, I could restart specifically the capacitive sensor to reset the trigger capacitance at the correct value.",
+        "ts": "1486787262.095165"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Good idea",
+        "ts": "1486787730.130107"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "I have some in the sommely box",
+        "ts": "1486787744.130823"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "I'm sure we have others",
+        "ts": "1486787759.131609"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Definitely. ",
+        "ts": "1486789194.302769"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I'd be curious if an mpr121 based breakout behaves better",
+        "ts": "1486790140.384134"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Not sure power cycling the cap sense chip solves much. We can only do it when someones hand isn't near podium",
+        "ts": "1486790269.396076"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "If winter lights was any indicator that doesn't happen very often",
+        "ts": "1486790289.397529"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "So bad state would persist and persist",
+        "ts": "1486790308.398578"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Oh good point.",
+        "ts": "1486790321.411771"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Gah.",
+        "ts": "1486790324.416412"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Yeah",
+        "ts": "1486790328.418081"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I would read data sheet again",
+        "ts": "1486790336.419103"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "And then mpr121 datasheet",
+        "ts": "1486790350.420416"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Ok.",
+        "ts": "1486790433.439361"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0H4SJN11|miguel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/miguel\/F443S9PL3\/dsc_0041.jpg|New insides>",
+        "file": {
+            "id": "F443S9PL3",
+            "created": 1486791917,
+            "timestamp": 1486791917,
+            "name": "DSC_0041.JPG",
+            "title": "New insides",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U0H4SJN11",
+            "editable": false,
+            "size": 473939,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F443S9PL3\/dsc_0041.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F443S9PL3\/download\/dsc_0041.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443S9PL3-29f1806936\/dsc_0041_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443S9PL3-29f1806936\/dsc_0041_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443S9PL3-29f1806936\/dsc_0041_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443S9PL3-29f1806936\/dsc_0041_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443S9PL3-29f1806936\/dsc_0041_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443S9PL3-29f1806936\/dsc_0041_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443S9PL3-29f1806936\/dsc_0041_960.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F443S9PL3-29f1806936\/dsc_0041_1024.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1080,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/miguel\/F443S9PL3\/dsc_0041.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F443S9PL3-b6cb7557c4",
+            "channels": [
+                "C08V1REB0"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0H4SJN11",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "miguel",
+        "bot_id": null,
+        "ts": "1486791917.578169"
+    }
+]

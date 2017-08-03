@@ -1,0 +1,217 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think they are looking for the extended location data \/ knowledge graph that appears on desktop (<https:\/\/www.google.com\/maps\/place\/Mauna+Loa\/@19.490553,-160.0788212,1586936m\/data=!3m1!1e3!4m5!3m4!1s0x7953e45a9a2e3483:0x21188532375f4e6b!8m2!3d19.4721389!4d-155.5922066>)",
+        "ts": "1492188641.896172"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> :point_up_2: sorry not sure why i didnt see your message yesterday. but we’d need to check out what the possibilities are through the app since thats where we’d be using (as earth default short cut if possible) can you and\/or summer explore?",
+        "ts": "1492188737.914764"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "^The url in that flyByEarth code strips down the url, so if you just hack this in (copy and paste that full url) in place of the one that is making the network request, then set a breakpoint so you can see the whole response and look for what fields\/data values we get back",
+        "ts": "1492188922.951719"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "can we update the  URL format in app on our end (vs. manually copy+pasting)? or do we need to be provided the URLs in the correct format",
+        "ts": "1492189110.988593"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’m just saying for right now to take a quick look at what is exposed to us in that response for the extra info in data graph, unless we already know how the data param is constructed?",
+        "ts": "1492189317.031202"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "If you pull the lat,long off of a place url (e.g. 19.490553,-160.0788212), pick or calculate a zoom level (I’m not sure how meters corresponds to zoom level), and add `!3m1!1e3` to the data param, it will zoom to the level in satellite view",
+        "ts": "1492189587.083663"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "e.g. if you open this url (<https:\/\/www.google.com\/maps\/@19.4676967,-155.6490174,15z\/data=!3m1!1e3>) in mobile, it should show Mauna Loa at a zoom level of 15 and in satellite view",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1492189752.000000"
+        },
+        "ts": "1492189639.094107"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay just so im understanding - this is possible, it can be done in app, and we do (or do not) need to receive these in the format you outlined?",
+        "ts": "1492190800.325014"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(sorry just wnat to make sure im explaining to kat correctly)",
+        "ts": "1492190811.327191"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "We can absolutely get the latitude, longitude from a Place and construct it to do the same thing it does right now, which is zoom to a latitude and longitude in satellite view. What I’m not sure about is how to construct the url to get the extra Place information (e.g. below screencap)",
+        "ts": "1492190984.362225"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F4YQXT3GR\/screen_shot_2017-04-14_at_10.29.23_am.png|Screen Shot 2017-04-14 at 10.29.23 AM.png>",
+        "file": {
+            "id": "F4YQXT3GR",
+            "created": 1492191004,
+            "timestamp": 1492191004,
+            "name": "Screen Shot 2017-04-14 at 10.29.23 AM.png",
+            "title": "Screen Shot 2017-04-14 at 10.29.23 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 27495,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4YQXT3GR\/screen_shot_2017-04-14_at_10.29.23_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4YQXT3GR\/download\/screen_shot_2017-04-14_at_10.29.23_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4YQXT3GR-03bbc9cd56\/screen_shot_2017-04-14_at_10.29.23_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4YQXT3GR-03bbc9cd56\/screen_shot_2017-04-14_at_10.29.23_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4YQXT3GR-03bbc9cd56\/screen_shot_2017-04-14_at_10.29.23_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 206,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4YQXT3GR-03bbc9cd56\/screen_shot_2017-04-14_at_10.29.23_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 373,
+            "original_h": 213,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F4YQXT3GR\/screen_shot_2017-04-14_at_10.29.23_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4YQXT3GR-cb6e3cac71",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1492191005.366455"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, okay im going to wait to re-connect with kat then until we have a bit more time to investigate",
+        "ts": "1492191093.384267"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i suspect its not doable but i want to be sure before we say that :slightly_smiling_face:",
+        "ts": "1492191105.386605"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U13GPDA1F> i reconfigured the 3PR App Engine instance to use a big instance when deploying (by default it was using the smallest). this one should handle spikes in usage way better.",
+        "ts": "1492201535.372993",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U2H61EJSG",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "just deployed",
+        "ts": "1492201540.373828"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "(sorry for delay on this)",
+        "ts": "1492201575.379470"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "woot!",
+        "ts": "1492201754.410784"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you dimitry! really appreciate you following up on this - i know you are super busy! :pray:",
+        "ts": "1492202053.463534"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F4ZH83GMQ\/space_case.apk|space_case.apk> and commented: <@U13GPDA1F> I’ve got the very basic Space MVP up and running with the new manage gallery layout. It is identical to Earth aside from the photos so why don’t you take a peak when you have a chance and let me know what you’d like me to add or remove.",
+        "file": {
+            "id": "F4ZH83GMQ",
+            "created": 1492202166,
+            "timestamp": 1492202166,
+            "name": "space_case.apk",
+            "title": "space_case.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 35234061,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4ZH83GMQ\/space_case.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4ZH83GMQ\/download\/space_case.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F4ZH83GMQ\/space_case.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4ZH83GMQ-3f743c1bc9",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4ZH848M8",
+                "created": 1492202166,
+                "timestamp": 1492202166,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "<@U13GPDA1F> I’ve got the very basic Space MVP up and running with the new manage gallery layout. It is identical to Earth aside from the photos so why don’t you take a peak when you have a chance and let me know what you’d like me to add or remove."
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1492202169.483492"
+    }
+]

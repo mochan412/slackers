@@ -1,0 +1,258 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Going to another meeting at 10, so here’s my standup… syncing is closer, callbacks are working a little more reliably (but not always). I’m working on some methods to keep the videos actually in sync in case the user rotates the phone and stuff like that. I started getting into it yesterday. It’s going to be hard because the updates from the laptop display are only every second.",
+        "ts": "1442509023.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Also planning to do more local image selection for workshop today.",
+        "ts": "1442509038.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":smile:",
+        "ts": "1442509880.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "going to get with jason on drive \/ photos stuff",
+        "ts": "1442509920.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ>, i can make those happen on the half-second",
+        "ts": "1442510235.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> I’m not sure what the fidelity needs to be. you were saying yesterday that being off in the order of milliseconds was perceptible with audio. Since the videos are not exactly the same but only relative to each other, I wonder how close we need to be.",
+        "ts": "1442513551.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh i was responding to the \"It’s going to be hard because the updates from the laptop display are only every second.\"",
+        "ts": "1442513588.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they can come more frequently",
+        "ts": "1442513608.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I realize, I just don’t know what that frequency should be. Maybe the seconds are enough for periodic updates, but if we get out of sync by more than a second, we could query for a millisecond value?",
+        "ts": "1442513731.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its not really miliseconds",
+        "ts": "1442513750.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but yeah",
+        "ts": "1442513752.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it reports fractions of seconds",
+        "ts": "1442513766.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so we could make it represent milis",
+        "ts": "1442513778.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think the problem is that rountrips are going to introduce time error",
+        "ts": "1442513793.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so anything below a second is really likely going to be _more_ out of date than the seconds",
+        "ts": "1442513812.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "fair enough",
+        "ts": "1442513865.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t know much about the best way to do this. Will read up and let you know if I find anything useful.",
+        "ts": "1442513928.000018"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/icecondor.com>",
+        "ts": "1442522959.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "love the branding",
+        "ts": "1442523136.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Places works on my phone now",
+        "ts": "1442530371.000021",
+        "reactions": [
+            {
+                "name": "tada",
+                "users": [
+                    "U0261PCRQ",
+                    "U026PHQ3J"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Found a new bug",
+        "ts": "1442530380.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Will fix shortly",
+        "ts": "1442530383.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I moved the longitude the wrong way",
+        "ts": "1442530393.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "lol",
+        "ts": "1442530397.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Does Androidify work?",
+        "ts": "1442530407.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "After that screen with the progress spinner finishes",
+        "ts": "1442530424.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Kill the app and go back in",
+        "ts": "1442530430.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yes!",
+        "ts": "1442530470.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "aw, he’s so cute",
+        "ts": "1442530477.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "if you tap it a lot it kinda freaks out :simple_smile:",
+        "ts": "1442530495.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah the idle state screens are caches right now",
+        "ts": "1442530509.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So you'll be getting reused chunks of bitmap memory at the moment",
+        "ts": "1442530529.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ah, cool",
+        "ts": "1442530540.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m not trying to point out a problem",
+        "ts": "1442530549.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just kind of excited that I get to play with it",
+        "ts": "1442530555.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(But that also means it no longer uses 128 megs every 4 seconds)",
+        "ts": "1442530570.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I know I know ",
+        "ts": "1442530574.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i take back what i said about the longitude",
+        "ts": "1442530783.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think i got a garbage location ping",
+        "ts": "1442530792.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "\"garbage\"",
+        "ts": "1442530796.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Driving home helped. I think I need to over correct when zoomed out",
+        "ts": "1442539079.000042"
+    }
+]

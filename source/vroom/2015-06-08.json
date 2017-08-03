@@ -1,0 +1,144 @@
+[
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Thanks, everyone, for helping Bezos get the site back up!",
+        "ts": "1433785501.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "re: Ben's last note - is there anything we need to do on this redundancy issue? <@U026PHQ3J>",
+        "ts": "1433785526.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Also, got this “redundant hostnames” alert from Google Analytics. Looks like an old issue - but might be worth addressing simultaneously.\nRedundant Hostnames\nFirst seen time: Oct 8, 2014 6:10:56 AM\nLast seen time: Jun 3, 2015 7:32:30 AM\nProperty Vroom is receiving data from redundant hostnames. Some of the redundant hostnames are: \n\n<http:\/\/joinvroom.org|joinvroom.org>\n<http:\/\/www.joinvroom.org|www.joinvroom.org>\nRedundant hostnames are counted as separate rows in reports, so hits that are going to the same page on your site from different hostnames will be split into multiple rows. With data split across multiple rows, traffic to specific pages will appear lower than it actually is.\n\nTo avoid this problem, consider setting up a 301 redirect from one of your redundant hostnames to the other, or create a search-and-replace filter that strips \"www.\" from hostnames.\nLearn more: <https:\/\/support.google.com\/analytics\/bin\/answer.py?answer=1034834&amp;hl=en_US>",
+        "attachments": [
+            {
+                "text": "Use Search-and-replace Filters to replace a matched expression with another string. They require a filter field, an expression to search for, and a replace expression. The search expression is a regul",
+                "fallback": "Use Search-and-replace Filters to replace a matched expression with another string. They require a filter field, an expression to search for, and a replace expression. The search expression is a regul",
+                "from_url": "https:\/\/support.google.com\/analytics\/bin\/answer.py?answer=1034834&hl=en_US",
+                "id": 1
+            }
+        ],
+        "ts": "1433785531.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no idea",
+        "ts": "1433785623.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U02618EV1>: Any thoughts?",
+        "ts": "1433786012.000007"
+    },
+    {
+        "user": "U02618EV1",
+        "inviter": "U02688JHZ",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02618EV1|gaston> has joined the channel",
+        "ts": "1433786030.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Oh my, not sure.",
+        "ts": "1433786077.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Sorry, but I’m still not sure what the problem is.",
+        "ts": "1433786185.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Really just pointing you to that note from Ben, and wondering if you think it needs to be followed up on, or if this was something that had been previously discussed. Obviously it's not a new issue, \"First seen time: Oct 8, 2014 6:10:56 AM\" nor do I think it's an urgent one.",
+        "ts": "1433786357.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I can share with bezos, but they'll want to know what it means and what needs to be done (if anything).",
+        "ts": "1433786388.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "This is the first time I hear of this process but it looks like Scott took care of this in the past.",
+        "ts": "1433786412.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "So here’s my naive view of this (probably missing a lot of context): If JHC already has the keys to the whole site, wouldn’t it make sense to give them access to the GD account and have them change the IPs whenever that’s necessary?",
+        "ts": "1433786460.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Agree on the IP issue! Do you think the issue of Redundant Hostnames needs to be addressed?",
+        "ts": "1433786611.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "(see the note I copied at 10:45am)",
+        "ts": "1433786632.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Looks like it’s only an issue for reporting purposes. If that’s the case it may make more sense to work on the report tools to adjust for the split visits.",
+        "ts": "1433786814.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Does that make sense?",
+        "ts": "1433787104.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02688JHZ> updated the the way Vroom Groups are getting tracked on Android build. Will have to check analytics tomorrow. :fingerscrossed:",
+        "ts": "1433796004.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":fingerscrossed:",
+        "ts": "1433796057.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Thank you!",
+        "ts": "1433796066.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Will this have any implication on how they pull reports? Different from the info we sent on Friday?",
+        "ts": "1433796089.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "We can wait to send until after we've verified, just wondering",
+        "ts": "1433796099.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "shouldn’t change anything we’ve told them. I’ve only changed the way that tracking happens. I’m attempting to set it up per session (which is not documented anywhere), instead of per hit which was not working.",
+        "ts": "1433796332.000024"
+    }
+]

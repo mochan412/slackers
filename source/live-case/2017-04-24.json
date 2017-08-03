@@ -1,0 +1,321 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> hope you had a nice weekend! We heard back from Kat on the Trends builds and it does sound like they're leaning towards the double-tap to open search option. She feels like the double tap is slower to open Chrome than the NFC button and is curious if you could do some speed tests to check this out? \n\nDo you think you can look into that this morning?",
+        "ts": "1493052893.028505"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "saw that. it seems unlikely that its actually true, but tracing the execution path would answer that.",
+        "ts": "1493053015.062519"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "possibly just a perception thing",
+        "ts": "1493053030.066664"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> I will poke around and see if I can find anything to explain this, but I doubt there is much we can do about it. I can increase the duration of the vibration or perhaps add a toast to inform the user that the search is opening, but that’s likely the extent of what we can do on our end.",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1493053306.000000"
+        },
+        "ts": "1493053154.101653"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Cool, let us know what you find.",
+        "ts": "1493053235.126477"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Agreed it could just be a perception issue",
+        "ts": "1493053255.132557"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> Hey there! can you please take a look at this crash Bonnie sent over the weekend?\n\n<https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-176>",
+        "ts": "1493053894.311804"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yep!",
+        "ts": "1493053941.324359"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thank you!",
+        "ts": "1493053989.337373"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Hey all, a few separate questions: \nHas anyone had issues running the apk with the rendering modifications? I if not, I will pull it onto the Verizon-sell-in branch.",
+        "thread_ts": "1493054995.618821",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1493060362.145148"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1493054995.618821"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> <@U0U9WJB7F> Has Google noted anything on the 3.1.2 release that went live last week? I was thinking of sending an email over checking to see if there have been any GA logs for the patches that were in that release, I can send you a draft first",
+        "thread_ts": "1493055118.654525",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1493059661.946833"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1493055118.654525"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I haven’t seen any issues yet",
+        "ts": "1493055201.678639"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "And then, I think I’m going to go through some spring cleaning on our remote branches, so I’ll share a google doc with all the remote branches enumerated and if it is your branch mark it with keep or delete.\nI’m going to also update master so that it will reflect what is currently in the app store :slightly_smiling_face:",
+        "ts": "1493055269.697693"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U0U9WJB7F> : I have some suspicions that Summer partially confirmed. I think that this crash may have come from one of the builds that Summer sent on Friday, because the version name is the same (3.0.11) and it’s pretty old. Summer said that the bindData() method that this is coming from is only in the builds that she’s been working on, as opposed to the actual 3.0.11 build.\nJust to further confirm:\nDid this crash come from Bonnie or somebody on the accessories team?\nWere they running one of the trends_icon_refresh or trends_icon_launch builds?",
+        "ts": "1493055426.742856"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U2H61EJSG> - null pointer on TEXTURE_COORDINATES_COMPONENT_COUNT, on line 547. I’ll try to reproduce",
+        "ts": "1493055852.861637"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U1ZG1UCAK> - No need to reproduce that. I will look into whats going on and create a new build from there.",
+        "ts": "1493056702.108011",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<https:\/\/docs.google.com\/a\/uncorkedstudios.com\/spreadsheets\/d\/1r3oMomdKoN9s0A_ksnhLptHMcRBCgvIQUZX8DKjw27s\/edit?usp=sharing>\nAnd while you are going through it and looking back at the branches, keep an eye out for any work that was maybe stalled or needs follow up. I think saw MLC-94 (image rotation) and it reminded me that we hadn’t resolved that to pull into develop yet",
+        "ts": "1493058654.661646"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "The message came from Bonnie <@U1ZG1UCAK> ",
+        "ts": "1493059499.900208"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oliver: nothing yet!",
+        "thread_ts": "1493055118.654525",
+        "parent_user_id": "U3ZFEAPSP",
+        "ts": "1493059661.946833"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i stopped running to test some other builds but ill start again!",
+        "thread_ts": "1493054995.618821",
+        "parent_user_id": "U3ZFEAPSP",
+        "ts": "1493060362.145148"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0U9WJB7F> <@U1ZG1UCAK> bonnie hasnt likely run either of those builds (i believe only kat has) so while it was reported by bonnie we dont currently have insight beyond that",
+        "ts": "1493060425.163881"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U0U9WJB7F|jenna.simon> commented on <@U0U9WJB7F|jenna.simon>’s file <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F526Q29FA\/trends_-_line_graph_treatment|Trends - Line Graph Treatment>: <@U2H61EJSG> here's the deck I'm referencing",
+        "file": {
+            "id": "F526Q29FA",
+            "created": 1492805688,
+            "timestamp": 1492805688,
+            "name": "Trends - Line Graph Treatment",
+            "title": "Trends - Line Graph Treatment",
+            "mimetype": "application\/vnd.google-apps.presentation",
+            "filetype": "gpres",
+            "pretty_type": "GDocs Presentation",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 1027,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/presentation\/d\/1Hq5q3P7Mgb5Bl0ONSfdfN30vslfV9yvyrMJm0Y97yFc\/edit?ts=58fa64fd#slide=id.g21f24df70b_0_11",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F526Q29FA-6e61c3e995\/trends_-_line_graph_treatment_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 450,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F526Q29FA\/trends_-_line_graph_treatment",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "has_rich_preview": true
+        },
+        "comment": {
+            "id": "Fc54JHA18E",
+            "created": 1493066966,
+            "timestamp": 1493066966,
+            "user": "U0U9WJB7F",
+            "is_intro": false,
+            "comment": "<@U2H61EJSG> here's the deck I'm referencing"
+        },
+        "is_intro": false,
+        "ts": "1493066966.864342"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> any chance you've been able to look into the speed test for Trends? I know we were also hoping you could take a peek at the deck we shared on Friday afternoon to try and voice any red flags you might see.",
+        "ts": "1493066979.867497"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> I poked around a bit to see if anything unusual was causing chrome to load so slowly, but as far as I can tell there isn’t much we can do about it :confused:",
+        "ts": "1493068195.172196"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "As for the new Trends visualisations, the designs on slides 11, 17, 18, and 19 would likely be the most feasible. The others that have moving patterns within the graph would be rather challenging.",
+        "ts": "1493068322.200966"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The only question I have regarding 11, 17, 18,  and 19 though is what are those other lines supposed to indicate?",
+        "ts": "1493068366.210544"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is that what impacts feasibility?",
+        "ts": "1493068706.287988"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think itd be great to get a better sense of what amount of effort these would take (or what “challenging” looks like)",
+        "ts": "1493068745.296781"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "note that for anything more challenging - we can easily say “not doable for 5\/15” but yes for fall",
+        "ts": "1493068777.303634"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "summer - what about the animation flares on p6 - would that be doable for 5\/15? i can see that being a win if we could apply to the current (gradient-less) graph",
+        "ts": "1493068924.336838"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The designs with curving or moving lines would be simpler to implement since we could re-use a lot of the existing code that currently draws the graph therefore it would be a lot less effort to get this up and running.",
+        "ts": "1493069053.365522"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "As for the designs with moving bubbles within the graph, I’m sure it is possible, but with the knowledge I have now, I would not be able to give them something by 5\/15. The same is true for the animation flares.",
+        "ts": "1493069067.368675"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> what else would you need to know to help give a little more detail?",
+        "ts": "1493075674.486133"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "(for the designs w moving bubbles)",
+        "ts": "1493075687.487746"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "maybe we can poke a little bit so we can give them more solidified responses to the deck",
+        "ts": "1493075710.490726"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i can also help)",
+        "ts": "1493075957.521910"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> - My OpenGL skills are still very limited so I am basing what’s “feasible” for 5\/15 off of what I know I can do already. <@U026PHQ3J> Can we chat briefly about strategies for tackling the designs with moving bubbles?",
+        "ts": "1493076852.630098"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "that's totally fair",
+        "ts": "1493077233.674049"
+    }
+]

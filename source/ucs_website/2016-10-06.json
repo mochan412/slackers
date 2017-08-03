@@ -1,0 +1,306 @@
+[
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "I should have verified - was on the road and forwarded",
+        "ts": "1475762269.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "May have been desktop",
+        "ts": "1475762285.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Video works on desktop as well",
+        "ts": "1475768712.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "The only thing that wouldn’t work is someone trying to embed it on another site, since we have our settings set to have it only work as embedded on <http:\/\/uncorkedstudios.com|uncorkedstudios.com>. If we’d like to change that let me know and I can do so.",
+        "ts": "1475768751.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "Ah. Got it. Let's not change that. ",
+        "ts": "1475770559.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Ok cool I’ll leave as is",
+        "ts": "1475770570.000061"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "<@U167FL70V> <@U02E3CRMA> how big should mongodb instance for galapagos api on heroku be?",
+        "ts": "1475773538.000062"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U243UT96G> good question! do we know how big it is on aws at the moment?",
+        "ts": "1475775640.000063"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "not sure how to check",
+        "ts": "1475775663.000064"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i guess i can research... hold on",
+        "ts": "1475775679.000065"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i think there’s a way to run db stats",
+        "ts": "1475775697.000066"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<https:\/\/docs.mongodb.com\/manual\/reference\/command\/dbStats\/>",
+        "attachments": [
+            {
+                "title": "dbStats — MongoDB Manual 3.2",
+                "title_link": "https:\/\/docs.mongodb.com\/manual\/reference\/command\/dbStats\/",
+                "text": "MongoDB Manual 3.2 dbStats",
+                "fallback": "dbStats — MongoDB Manual 3.2",
+                "from_url": "https:\/\/docs.mongodb.com\/manual\/reference\/command\/dbStats\/",
+                "service_icon": "https:\/\/media.mongodb.org\/favicon.ico",
+                "service_name": "docs.mongodb.com",
+                "id": 1
+            }
+        ],
+        "ts": "1475775719.000067"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "got it - it's 4.95166015625GB",
+        "ts": "1475775998.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wow. thats pretty big for a site of our size, no?",
+        "ts": "1475776026.000070"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "it seems rather large",
+        "ts": "1475776059.000071"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "...and getting a 8gb cluster thru heroku is $144\/mo",
+        "ts": "1475776087.000072"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "are you for real? 5 GB?",
+        "ts": "1475776106.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "144\/mo",
+        "ts": "1475776110.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wtf",
+        "ts": "1475776113.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "our site isn't that good.",
+        "ts": "1475776121.000076"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "it would make sense to see if we can get that size down",
+        "ts": "1475776127.000077"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "is there a bunch of cruft in there?",
+        "ts": "1475776131.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "id assume yes",
+        "ts": "1475776137.000079"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "ok i'll get to querying",
+        "ts": "1475776170.000080"
+    },
+    {
+        "type": "message",
+        "user": "U1HKQRLMR",
+        "text": "I’m really enjoying reading all this lingo :slightly_smiling_face: Good luck, querying!!!",
+        "ts": "1475777049.000081"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "i read up on what db.stats means, and i have a little more clarity - the size of actual objects in the database is 1.2GB, but fileSize is 5GB because it includes unused space.  So I THINK what this means is that we need 2GB of space, not 5",
+        "ts": "1475778529.000082"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "this article helped clarify:  <http:\/\/blog.mlab.com\/2014\/01\/how-big-is-your-mongodb\/>",
+        "attachments": [
+            {
+                "title": "Understanding MongoDB storage and dbStats",
+                "title_link": "http:\/\/blog.mlab.com\/2014\/01\/how-big-is-your-mongodb\/",
+                "text": "This post covers dataSize, storageSize and fileSize metrics to help developers visualize their data and better understand how MongoDB storage works.",
+                "fallback": "Understanding MongoDB storage and dbStats",
+                "from_url": "http:\/\/blog.mlab.com\/2014\/01\/how-big-is-your-mongodb\/",
+                "service_icon": "https:\/\/s3-us-west-1.amazonaws.com\/public-mlab-media\/favicons\/favicon.ico",
+                "service_name": "blog.mlab.com",
+                "id": 1
+            }
+        ],
+        "ts": "1475778578.000083"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Interesting ",
+        "ts": "1475778617.000085"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "FYI i’ll be doing some JIRA permissions updates in the next couple days - don’t sweat if you see things be weird, but please let me know",
+        "ts": "1475778629.000086"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "does 1.2 GB seem reasonable for the api?",
+        "ts": "1475778679.000087"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ehhhhg",
+        "ts": "1475778823.000088"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Its better than 5",
+        "ts": "1475778834.000089"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "2GB cluster mongodb for heroku is $36\/month fyi",
+        "ts": "1475778843.000090"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cheap!",
+        "ts": "1475778851.000091"
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "ok cool",
+        "ts": "1475778857.000092"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "oh nice! would be interesting to do an audit of what is stored where and maybe have some *gasp* documentation around it",
+        "ts": "1475779928.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": ":scream:",
+        "ts": "1475779971.000094"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "also now realizing that reads kind of weird",
+        "ts": "1475779999.000095"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gasp is a new tool?",
+        "ts": "1475780067.000096"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "what have u never heard of gasp? it’s new automagic documentation generator paired with grunt\/gulp\/grip\/grab",
+        "ts": "1475780557.000097"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "groan",
+        "ts": "1475780572.000098"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "does it support coffeescript?",
+        "ts": "1475780580.000099"
+    },
+    {
+        "user": "U02613K0X",
+        "text": "<@U02613K0X|jenny> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1475780586.000100",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U167FL70V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U243UT96G",
+        "text": "have you not heard of the gasp-groan pipeline",
+        "ts": "1475780596.000101"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m more of a sass-snit kinda guy myself",
+        "ts": "1475811432.000102"
+    }
+]

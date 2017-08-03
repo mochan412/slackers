@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "today's status: making progress on encoding with ffmpeg, I think I found the right options for ffmpeg and hope to be able to test it today and work out bugs tomorrow",
+        "ts": "1414000263.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks!",
+        "ts": "1414000308.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I've got all the ffmpeg tools and codecs in the proper directories and code ready to call it with (I think) roughly correct options, but I'm hitting a wall on actually being allowed to execute ffmpeg... this is going outside the Android APIs, since there's no SDK that I know of for video encoding, so I'm trying to run binaries on the hardware itself, which KitKat doesn't apparently allow without rooting the device. Tomorrow I'll plan on putting in a useful error message for that situation and rooting my Nexus 5 so I can continue developing. I imagine Google's internal devices are all rooted (or rootable) so hopefully that won't present a problem for them being able to test it (if rooting even succeeds in making it possible to create this video).",
+        "ts": "1414004277.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "should i find out if rooting is an issue w. google?",
+        "ts": "1414004440.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm not a huge fan of rooting my primary dev device (since I want it to be a good test device for standard, production-capable apps) but this situation seems to need it. I'll research alternatives before I go through with it, though, maybe there's another workaround that I didn't immediately find",
+        "ts": "1414004454.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Sure, might be good to pass that information along so they're aware of the situation.",
+        "ts": "1414004538.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "okay, will alert them. thanks!",
+        "ts": "1414004585.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The main message is that we're looking into using the FFMPEG encoder, to create video, which appears to need root permission in order to run",
+        "ts": "1414004738.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hey <@U02F8TTPU> I spent a bit of time last night looking at jcodec, maybe we team up for a bit tomorrow and try to get to the bottom of the brokenness? (Considering ffmpeg is an issue)",
+        "ts": "1414007805.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(I'm in samsung meetings but wanted to float that)",
+        "ts": "1414007829.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Sounds great <@U026PHQ3J>, I would have liked to go with jcodec first, but the lack of functional sample code scared me off. I'll be around all day tomorrow!",
+        "ts": "1414007942.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<@U02F8TTPU>: still send that heads up to Ryan?",
+        "ts": "1414010939.000013"
+    }
+]

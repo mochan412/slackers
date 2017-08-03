@@ -1,0 +1,163 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "tiles seem to be working. I’m at least getting some. Some responses are 401\/unauthorized though, so that’s weird.",
+        "ts": "1439919254.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "hm, k",
+        "ts": "1439919478.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sometimes the 401s are from the time delta thing from the shitty authentication mechanism",
+        "ts": "1439919522.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oic, that is a terrible response",
+        "ts": "1439919801.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ve updated the tile downloading logic and some activity tracking. Still haven’t added the min displacement for location updates, but added TODOs so we don’t forget",
+        "ts": "1439927369.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m not sure if we have to remove our previous location update request before creating a new one with the new displacement or if adding the new one will overwrite our previous request. I’m worried that updating our location update request might reset the original location.",
+        "ts": "1439927498.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "only one way to find out i guess",
+        "ts": "1439927512.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "unfortunately",
+        "ts": "1439927524.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Is it necessary for the transition_alpha_mask to be 2048x2048?",
+        "ts": "1439930275.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "seems big",
+        "ts": "1439930288.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "also, I’d like to be able to test the wallpaper on my tiny phone...",
+        "ts": "1439930303.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Likely unnecessary",
+        "ts": "1439930339.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ve been tweaking the mechanism for tile updates and think it’s in a good spot. I’d test it on my device, but can’t, so that might be up to <@U026PHQ3J> since he has a supported device with data.",
+        "ts": "1439938123.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "sent this to jason as well, but let me know if i sound high:",
+        "ts": "1439938337.000015"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F099C4DA8\/-.txt|Untitled>",
+        "file": {
+            "id": "F099C4DA8",
+            "created": 1439938342,
+            "timestamp": 1439938342,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U06DFL7BP",
+            "editable": true,
+            "size": 2272,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F099C4DA8\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F099C4DA8\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F099C4DA8\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F099C4DA8-74fed689e5",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/charlesv\/F099C4DA8\/-.txt\/edit",
+            "preview": "For the Live Case sync experience, we're considering how a user would interact with a timeline of synced content. Our basic idea is a scrolling timeline of \"slides\" that appear in sync with a video playing on the user's computer. The user initiates playback by entering a code into the app from the website hosting the video, which creates a synced session, with both the app and the website being aware of pausing, seeking, etc. on either device.\r\n\r\nFor the synced content, we envision a paged sequence of slides, appearing and pushing slides to the left as the timed sync dictates. A user could swipe to see previously displayed content from and episode, and \"jump to live\" to return to the synced experience. We want to ensure that all slide types keep the user inside the synced experience, so we are not disrupting that flow by pushing to the Play Store, etc. \r\n\r\nSlide types would include:\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>For the Live Case sync experience, we're considering how a user would interact with a timeline of synced content. Our basic idea is a scrolling timeline of &quot;slides&quot; that appear in sync with a video playing on the user's computer. The user initiates playback by entering a code into the app from the website hosting the video, which creates a synced session, with both the app and the website being aware of pausing, seeking, etc. on either device.<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>For the synced content, we envision a paged sequence of slides, appearing and pushing slides to the left as the timed sync dictates. A user could swipe to see previously displayed content from and episode, and &quot;jump to live&quot; to return to the synced experience. We want to ensure that all slide types keep the user inside the synced experience, so we are not disrupting that flow by pushing to the Play Store, etc. <\/pre><\/div>\n<div><pre><\/pre><\/div>\n<div><pre>Slide types would include:<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 19,
+            "lines_more": 14,
+            "preview_is_truncated": true,
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1439938343.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sounds good to me",
+        "ts": "1439938514.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "over\/under on christian responding to that email",
+        "ts": "1439939294.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "?",
+        "ts": "1439939296.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Drive update: test app is now listing files in a public folder.",
+        "ts": "1439941867.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "still need to download + display images",
+        "ts": "1439941888.000021"
+    }
+]

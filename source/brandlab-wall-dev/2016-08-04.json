@@ -1,0 +1,744 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweeet so adding unique element ids to the first slide in welcome, quiet and goodbye fixed the jumpy transition stuff. But also realized another bug, for some reason right now, if you push quiet cubby template more than once in a row it will cause the text to crawl up the screen, like it keeps firing off the in transition and not respecting the start position. which is a problem, since the quiet mode, then lunch would do this, i will need to dig into this one",
+        "ts": "1470328047.000335"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "interesting",
+        "ts": "1470328082.000336"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so second time you send quiet, even if its not two times ina row?",
+        "ts": "1470328092.000337"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: are you still holding on to your work til peter’s done or is there prep work you can do?",
+        "ts": "1470328104.000338"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "right if you send that template twice in a row it fires off the IN transition twice, but doesnt respect the start location, so the text crawls up the screen",
+        "ts": "1470328145.000339"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and quiet and lunch both use that template so this will happen",
+        "ts": "1470328157.000340"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0ML49XU0>: I’m good - copying things off the server that I know we missed yesterday, then going to get this system package built",
+        "ts": "1470328208.000341"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "k but hold off on system pkg build til <@U0EL0GLEL>’s fixes are in?",
+        "ts": "1470328340.000342"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yep",
+        "ts": "1470330028.000343"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looks like it got it, fix is in, and pushed to the repo",
+        "ts": "1470331227.000344"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: \/\\ \/\\",
+        "ts": "1470331266.000345"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: since you touched logic for entrace and exits of animations, need to go through whole experience with fine tooth comb, yeah?",
+        "ts": "1470331290.000346"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i tried the changing of the template on welcome before the text came back from the timeout to quiet and that didnt cause any issues to quiet rendering right",
+        "ts": "1470331308.000347"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "oh nice!",
+        "ts": "1470331423.000348"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "didnt change anything on exit, and the main logic on enter wasnt changed on transitions at all. Think there was an adjustment on IN like 2 days ago, but we have been testing and not seen anything. this morning i only made a change to the IDs of the elements on the first slide for welcome, queit and goodbye. and fixed one transition it had a logic error, compounding the distance to slide in.",
+        "ts": "1470331439.000349"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I think we are more solid now, the one thing that I know will still cause some wacky possibly is changing presets during one of the slides that auto advances, that might cause issue, but why would they ever do that. that would cut someone off",
+        "ts": "1470331491.000350"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "right",
+        "ts": "1470331535.000351"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "whats an auto advance slide example?  choreography?",
+        "ts": "1470331547.000352"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "like you traveled X miles to get here, or choreography",
+        "ts": "1470331617.000353"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "think they are only in welcome, and they are anything that changes the whole screen without a button",
+        "ts": "1470331639.000354"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but that would just mean the one you change to might auto advance when that time out fires",
+        "ts": "1470331658.000355"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the first slide would have been the only one effected, but the non unique names causing animations to fire, now the names are all unique and this fixes the issues of changing,",
+        "ts": "1470331799.000356"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "make sure we grab the templates from as of now in the package",
+        "ts": "1470331818.000357"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "so we just need to make sure all templates are grabbed and that everything fires",
+        "ts": "1470331888.000358"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "no missing templates, no missing animations",
+        "ts": "1470331894.000359"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "not seeing anything strange when I switch around between them now, except if you interupt a auto advance slide, that does seem to advance the one you change to, but that would mean they would be cutting off the users who are using it and jumping slides while someone is using it, dont see that happening",
+        "ts": "1470331924.000360"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah, i would get the templates from the server as they are now, that we know are used, joel has the list. make sure those are all in the package. we can go through, make sure all animations fire. take the path exactly as they would make sure no miss fires or jumping or strange layout from transitions doing funny things. and i think we would be gold then",
+        "ts": "1470332026.000361"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "alright, cleaned up templates dir, grabbed all the latest bodymovin, and checked into the repo",
+        "ts": "1470332074.000362"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "will finish packaging and then install in ~15mins",
+        "ts": "1470332085.000363"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "roger <@U02E3CRMA> asking to push our 11am then so we can motor through this",
+        "ts": "1470332100.000364"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #82 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #82 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470334319.000365"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #82 Failure after 21 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                "id": 1,
+                "color": "d00000",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #82 Failure after 21 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470334336.000366"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #83 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                "id": 1,
+                "color": "d00000",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #83 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470334405.000367"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #83 Back to normal after 22 days (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #83 Back to normal after 22 days (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470334420.000368"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "after 22 days?!",
+        "ts": "1470334452.000369"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "uh oh",
+        "ts": "1470334474.000370"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #82 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #82 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470335082.000371"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #82 Success after 21 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #82 Success after 21 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/82\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470335099.000372"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "haha",
+        "ts": "1470335415.000373"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0ML49XU0>: : install doc updated and correct",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1470336383.000000"
+        },
+        "ts": "1470336371.000374"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "reading",
+        "ts": "1470336438.000376"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: tagged a few comments.  this doc is really good, really legible and clear.  justa  few minor clarifications",
+        "ts": "1470336755.000377"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #83 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #83 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470337002.000378"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #83 Success after 21 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #83 Success after 21 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/83\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470337019.000379"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "big thanks to <@U02E3CRMA> for pushing through this morning to build the code packages.  <@U0EL0GLEL> send me the preset and workshop admin links?  i’ll test and you can take lunch",
+        "ts": "1470337953.000380"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<http:\/\/192.168.170.123:9990\/SchedulerAdminActivity\/index.html#\/presets\/none>",
+        "ts": "1470337955.000381"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: ive run through the experience end-to-end 4 times now.  here’s what i’m findinging\n1) we appear t have networking issues.  I’m seeing extreme delays on door open calls, clustered within Quiet\/YT Trends (though it truly does seem random and intermittent. i’m also seeing a hiccup in the welcome cubby&gt;&gt;airplane animation, sometimes.  i believr this also to be netowkr related  <@U0EL0GLEL> if you could put my mind at ease it would help\n2) is it possible that netowkr could impact the playback speed of choreography animations?  curious.\n3) MUST FIX: At end of Welcome cubby sequence i’m seeing red permeate the blue background on the last few slides as well as Welcome Return.  Maybe a z index issue <@U0EL0GLEL> pleas look into.\n4) TO CONFIRM: if i’m only using one cubby and i skip the first question, data viz won’t trigger on second or 3rd question answer.  this is known, right?",
+        "ts": "1470339122.000382"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok i’m done testing - let me know what you think and then i’ll move on to workshop admin tests",
+        "ts": "1470339391.000383"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "network issues would definitely slow the system down in general, and IS specifically, since it’s both CPU overhead (spinning on network) and IS waiting for messages",
+        "ts": "1470339568.000384"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The red bar thing is very strange, testing locally will see whats up",
+        "ts": "1470339571.000385"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I had vnc open that would cause some of the display issues",
+        "ts": "1470339581.000386"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and yeah a Z index would certainly fix it,",
+        "ts": "1470339620.000387"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep certainly does the same when i run it on my local box off that code base. im going to adjust the z in the template that will fix it",
+        "ts": "1470339764.000388"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "want me to test workshop admin before you put head back in editing code?",
+        "ts": "1470339870.000389"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this is a template nothing to do with code",
+        "ts": "1470339887.000390"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok, remind me of workshop admin link?",
+        "ts": "1470339947.000391"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "gonna test a few more things",
+        "ts": "1470339952.000392"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<http:\/\/192.168.170.123:9999\/AdminActivity\/index.html#\/presets\/none>",
+        "ts": "1470339979.000393"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "k im editing kfc2 for next few min",
+        "ts": "1470340038.000394"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: if it’s checked in I can rebuild the package and make sure it’s installed",
+        "ts": "1470340089.000395"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "some time this afternoon",
+        "ts": "1470340100.000396"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im not sure z index fixes this, im going to look into it more. we seen this once before its a bit strange. going to debug it",
+        "ts": "1470340280.000397"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok another bug in workshop admin ‘add locaiton’ button no longer works.  i’ll log this stuff",
+        "ts": "1470340397.000398"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "fixed",
+        "ts": "1470340471.000399"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "LOL",
+        "ts": "1470340492.000400"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: i have to run to another meeting, can you independetly verify these two things work in this code package?\nAdmin: Ensure re-assigned guests aren't duplicated in the guest list\n\nAdmin: YouTube Channel Input - Accept Channel, ID and URL",
+        "ts": "1470340511.000401"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah",
+        "ts": "1470340530.000402"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks",
+        "ts": "1470340556.000403"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: I’m assuming add location fix is a activity update?",
+        "ts": "1470340777.000404"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yep",
+        "ts": "1470340787.000405"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so let’s do this: I’ll do a fresh build\/install at 2:30 when I’m through our meetings, and we can do a full walk-through to be sure-sure we got it all",
+        "ts": "1470340842.000406"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "plus that gives you time to really beat on it",
+        "ts": "1470340852.000407"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool im looking into one more thing, should be good by then with my domestic abuse of the system",
+        "ts": "1470340885.000408"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool I fixed the strange color blinders showing through, I changed the transition used there to one that doesnt use blinders. so that will never be an issue again. This is a template update. Im going to commit the template here in a sec",
+        "ts": "1470342489.000409",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool im all committed and pushed.",
+        "ts": "1470343113.000410"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "tested those 2 items dennis and no issues there",
+        "ts": "1470343122.000411"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thank you",
+        "ts": "1470343681.000412"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #84 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/84\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #84 Started by user CEC User (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/84\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470348279.000413"
+    },
+    {
+        "text": "",
+        "bot_id": "B1CG772GG",
+        "attachments": [
+            {
+                "fallback": "cubbywall - #84 Success after 20 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/84\/|Open>)",
+                "id": 1,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": "cubbywall - #84 Success after 20 sec (<http:\/\/192.168.169.90:9000\/job\/cubbywall\/84\/|Open>)",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "pretext",
+                    "text",
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1470348296.000414"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: built and loaded on the wall",
+        "ts": "1470348635.000415"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "would you double-check the couple things that should have changed?",
+        "ts": "1470348646.000416"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure",
+        "ts": "1470348669.000417"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks",
+        "ts": "1470348734.000418"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looking good",
+        "ts": "1470348797.000419"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ill check it out on the wall whenever you give me green light",
+        "ts": "1470348829.000420"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "\/giphy bat signal",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/batmanvsuperman-batman-v-superman-bat-signal-l0NwGpoOVLTAyUJSo>",
+                "image_url": "http:\/\/media.giphy.com\/media\/l0NwGpoOVLTAyUJSo\/giphy-tumblr.gif",
+                "image_width": 250,
+                "image_height": 140,
+                "image_bytes": 1014339,
+                "is_animated": true,
+                "title": "bat signal",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/batmanvsuperman-batman-v-superman-bat-signal-l0NwGpoOVLTAyUJSo"
+            }
+        ],
+        "ts": "1470348887.000425"
+    }
+]

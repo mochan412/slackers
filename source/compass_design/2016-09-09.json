@@ -1,0 +1,149 @@
+[
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel> Hey visual team - Jenna and I had a dev focused meeting about the home screen visualization this morning and wanted to share one item. The double tap (or whichever gesture we all agree on) to show the pattern build up from the zero state to the user’s current state (rather than just showing it build up from the last time you opened the app) is in scope. Chris Sokol will be doing the work to support it, so <@U026E0ZNR> wanted to make sure you’re aware and can work with him on any details\/easing\/tweaks needed on that front.",
+        "ts": "1473451429.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "One thing that is not in scope though, is the badges animating at that point. So they will need to stay put when that happens",
+        "ts": "1473451474.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "That's some cool news. Hope that no other good stuff gets sacrificed for it. Still hopeful for 'adding activities' home screen motion 1.0 ",
+        "ts": "1473453244.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Israel mentioned to me that they've been having quite a bit of discussion internally about the home screen motions ",
+        "ts": "1473453434.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Specifically that Scott is really pushing for including in first release",
+        "ts": "1473453456.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "That's great, I'll check back in with Chris. He's got a few adjustable parameters available for me but I'll need a few more before we can get the visualization looking really nice. I'll make the appropriate requests and get to work once he has them ready. ",
+        "ts": "1473453479.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "note: Israel mentioned this in passing, though I’m leaving it squarely in their court to determine what they want to do\/not do with V1",
+        "ts": "1473454315.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "point being - i’ve no idea where things will net out, but I’m happy we are either designing into future releases or helping identify needs for V1",
+        "ts": "1473454350.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks for the update. i hope we’re not sacrificing more core animation to make this happen...",
+        "ts": "1473454402.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "no idea. Truthfully, this was a bathroom conversation that I wanted out of as soon as I could",
+        "ts": "1473454430.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ha",
+        "ts": "1473454447.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "Was it smelly <@U0265G76F> ",
+        "ts": "1473454671.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0HPGQ4KH",
+        "text": "Trent is typing",
+        "ts": "1473454722.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": ":poop:",
+        "ts": "1473454730.000026",
+        "reactions": [
+            {
+                "name": "hankey",
+                "users": [
+                    "U0HPGQ4KH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i have no more comments.",
+        "ts": "1473454790.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "hmm, just re-reading your note <@U026103R3> and wanted to ask, when you say \"One thing that is not in scope though, is the badges animating at that point.” you’re referring just to the “replay” event, right? i don’t believe we ever proposed the badges reanimate during that playback so I think we’re getting everything we want there.\n\nalso, as far as I understand, Chris is a floating, available resource right now. i think the reason this replay feature has a shot is because he will be carrying the brunt of the workload on it. which means it shouldn’t be sacrificing other motion features since he isn’t assigned to anything else beyond the pattern motion.",
+        "ts": "1473454822.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "however if you must know - this was a bathroom SINK conversation, thank you.",
+        "ts": "1473454828.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "sure...",
+        "ts": "1473454870.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U026E0ZNR>: you're completely right on both points. Was just typing the same in a diff way. ",
+        "ts": "1473454884.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "awesome, it sounded that way but i wanted to clarify. thanks!",
+        "ts": "1473454906.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "So to that point, it's not really a sacrificing conversation since Chris takes the effort rather than our dev team. ",
+        "ts": "1473454921.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Although Israel mentioned I believe that the badge animation that we have been discussing and doing motion samples for will be post launch, in line with what Scott has been saying. Goal is to get it top priority for post launch efforts. ",
+        "ts": "1473454979.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sounds good!",
+        "ts": "1473454982.000035"
+    }
+]

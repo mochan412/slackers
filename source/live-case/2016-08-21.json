@@ -1,0 +1,98 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ>: when you get a second, could you send me the URL format for an asset request in Artworks?",
+        "ts": "1471793283.000570"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Also, trends alpha shared animation timer is still wonky on unlock. Will refactor. Started new models for artworks so I'll try to make that not crash!",
+        "ts": "1471794052.000571"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<@U026PHQ3J>: Yup, here it is: `<https:\/\/gweb-uncorked-workshop.appspot.com\/api\/assets\/old-jm-1>` where `old-jm-1` is the asset ID",
+        "ts": "1471801991.000572"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "there needs to be a header: `Authorization` with any value. This is leftover from when API was initially implemented. Like you said before, we should align that with 3PR API request header values",
+        "ts": "1471802028.000573"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i’ll sync them up tomorrow",
+        "ts": "1471802040.000574"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":heart:",
+        "ts": "1471802044.000575"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1S5GKTHQ>: note for tomorrow: can you expose the artist unique ID in the response?",
+        "ts": "1471810640.000576"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh and the ID on the collection",
+        "ts": "1471813384.000577"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(just doing some DB stuffs and noting relational stuff)",
+        "ts": "1471813401.000578"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "something is weird with earth image downloads and i don't know what yet",
+        "ts": "1471837536.000579"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Artworks code largely cut over to new API.",
+        "ts": "1471841734.000580"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(will discuss with Dimitry in the AM)",
+        "ts": "1471841744.000581"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "need to update: Bio! Collection! Server-side asset id &lt;-&gt; Case Asset Id",
+        "ts": "1471841978.000582"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "anyway",
+        "ts": "1471841982.000583"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it wont crash anymore",
+        "ts": "1471841985.000584"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "will share a build in the morning",
+        "ts": "1471841991.000585"
+    }
+]

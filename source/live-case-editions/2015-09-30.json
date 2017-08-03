@@ -1,0 +1,470 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Odd. Just did a clean install on L and no crashes. I think we need to get the M branch into master or make sure its all in place. <@U0261PCRQ> could you take a look this morning? I'll hop back on after blackops, but if it goes long i wanted to make sure I put this in here",
+        "ts": "1443624913.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> trent changed the colorway for his tiles and got a loading screen instead of seeing his old tile",
+        "ts": "1443630740.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yuting Duan &lt;yutingd@google.com&gt; our friend on the maps team",
+        "ts": "1443632871.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "&gt; Maybe we could have a week where you guys come to NYC in mid-late October to do some testing and development?\n\nThe list of phones we will be making cases for is now:\n\n- Nexus 6P, 5X, 6\n- Samsung S6, S6 Edge, and S5",
+        "ts": "1443634682.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m out Oct 20-27, but I’m sure everything would be fine without me",
+        "ts": "1443635575.000006"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U06DFL7BP",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[September 30th, 2015 10:52 AM] kat: I’m out Oct 20-27, but I’m sure everything would be fine without me",
+                "ts": "1443635575.000006",
+                "author_subname": "kat",
+                "channel_id": "C032B7BAY",
+                "channel_name": "live-case-editions",
+                "is_msg_unfurl": true,
+                "text": "I’m out Oct 20-27, but I’m sure everything would be fine without me",
+                "author_name": "Kat Mitchell",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/kat",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2015-07-21\/8003551648_e6db8147a6886cee674f_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U06DFL7BP|charlesv> pinned a message to this channel.",
+        "ts": "1443635603.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: moving Workshop to Activities would make the permissions callbacks a lot easier",
+        "ts": "1443635916.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we need to remove references to HttpClient. It’s been removed as of M. Looks like the only place it’s used is AndroidifyTutorialActivity",
+        "ts": "1443637395.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Makes sense",
+        "ts": "1443637443.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll pull it out now",
+        "ts": "1443637447.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fixed. will push shortly.",
+        "ts": "1443637596.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushed.",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1443637667.000000"
+        },
+        "ts": "1443637663.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also included:",
+        "ts": "1443637673.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "changed displacement values for places",
+        "ts": "1443637679.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "weather loading is now working",
+        "ts": "1443637691.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "awesome",
+        "ts": "1443637734.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "first time you load Places it will immediately request a tile",
+        "ts": "1443637816.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(haven't finished up the preference change part yet tho)",
+        "ts": "1443637824.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "is androidifywallpaperservice needed?",
+        "ts": "1443637824.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1443637827.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but",
+        "ts": "1443637830.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if its a problem",
+        "ts": "1443637836.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it has references to httpclient too",
+        "ts": "1443637838.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "comment it all out",
+        "ts": "1443637838.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "k",
+        "ts": "1443637849.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Fixed up activity update logic",
+        "ts": "1443646896.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "testing it now.",
+        "ts": "1443646900.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "removed the setInterval call from LocationHelper",
+        "ts": "1443646912.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "set it to PRIORITY_NO_POWER",
+        "ts": "1443646919.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so location updates are entirely passive now",
+        "ts": "1443647024.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "hmmm",
+        "ts": "1443647470.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we should put it on a fresh device to test that",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1443647492.000000"
+        },
+        "ts": "1443647488.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "is there any state where the user would get no updates?",
+        "ts": "1443647511.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "only if network is unavailable and they've disabled location completely",
+        "ts": "1443648226.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but yeah probably",
+        "ts": "1443648233.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i guess if we're the only app ever requesting location",
+        "ts": "1443648258.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "which would be weird",
+        "ts": "1443648920.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm also going to add some freshness checks to the locationhelper",
+        "ts": "1443652531.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "to dampen the frequency of updates when the client connects",
+        "ts": "1443652542.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i found the weirdness",
+        "ts": "1443656156.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":exclamation:",
+        "ts": "1443656413.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the location detection is overreporting",
+        "ts": "1443656576.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "boo",
+        "ts": "1443656807.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ve got a shit ton of changes to push",
+        "ts": "1443656818.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "do you want me to wait?",
+        "ts": "1443656821.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no, go for it",
+        "ts": "1443656976.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushed?",
+        "ts": "1443657741.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yes",
+        "ts": "1443657818.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1443658115.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im going to pull and push my stuff",
+        "ts": "1443658119.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "please use tonight?",
+        "ts": "1443658122.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":ok_hand:",
+        "ts": "1443658140.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushed.",
+        "ts": "1443658256.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "major changes in location manager to handle tolerancing on the locations that are coming in when the listener gets modified",
+        "ts": "1443658274.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "in any of the wallpapers, do we ever write to external storage?",
+        "ts": "1443658396.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i dont think so",
+        "ts": "1443658404.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "at some point i did",
+        "ts": "1443658407.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but that was for debugging",
+        "ts": "1443658411.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok",
+        "ts": "1443658471.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "receive boot completed is very important",
+        "ts": "1443658528.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Definitely dampened the number of updates ",
+        "ts": "1443664189.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "On foot and car look good. Testing the still transition then back to on foot (cause I gots to walk to the grocery store)",
+        "ts": "1443664223.000003",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U06DFL7BP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Here's a fun thing. While watching the logs, I got to see gms tell me I was in a car.",
+        "ts": "1443665899.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "now im back not in a car",
+        "ts": "1443666024.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that was fun",
+        "ts": "1443666027.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh <@U0261PCRQ> how is M and activity stuff?",
+        "ts": "1443666848.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I got stuck in that meeting for a very long time ",
+        "ts": "1443666859.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "sorry, didn’t get around to M stuff today, I was going to set it up when I got to permission stuff. Will be first thing tomorrow.",
+        "ts": "1443668093.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "On foot is working ",
+        "ts": "1443668211.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "The visual updates are definitely slower but its abiding by the displacement better",
+        "ts": "1443668240.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that’s great. everything has been working well for me too",
+        "ts": "1443669452.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool! Lmk if it decides you're in a car for no reason!",
+        "ts": "1443670299.000011"
+    }
+]

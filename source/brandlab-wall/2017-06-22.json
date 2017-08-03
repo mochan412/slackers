@@ -1,0 +1,484 @@
+[
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U0EL0GLEL> <@U5DP0DTUZ> did you see the latest email from Jose?",
+        "ts": "1498148790.801641"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yea",
+        "ts": "1498148798.804494"
+    },
+    {
+        "type": "message",
+        "user": "U5DP0DTUZ",
+        "text": "Yep yep",
+        "ts": "1498148803.806537"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "any thoughts on the like\/dislike issue?",
+        "ts": "1498148808.808686"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "There had been some race conditions around this feature at one point, it might be this, or it might be that something was changed effected this. I dont think this is a simple fix, I will need to look into it.",
+        "ts": "1498148876.834846"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yikes ok",
+        "ts": "1498148934.857708"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "are we just pulling that data from youtube and displaying?",
+        "ts": "1498148960.867658"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "where would race conditions happen?",
+        "ts": "1498148982.875940"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah we would be doing a query on the list of videos that are in the workshop data. and displaying this data at runtime. The race condition i think was in the api from youtube returning the data too late before the display happens. but that seems like it would just update after it got it. I cant remember exactly what it was. but seems like there was something funky here. The stats were pulled at runtime to get the current values, so that made more api calls to be made at runtime during the setup of the display. It might be worth just getting these stats at the time of saving the workshop in the admin, removing the need to pull at runtime. this would ensure stats are saved for display properly every time. Will need to look at the code again to remind myself what exactly is going on",
+        "ts": "1498149222.968877"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "okay thanks for explaining all of that. makes sense if we're trying to grab stuff at runtime, rather than just when the workshop is being created. from a UX standpoint it probably makes sense to have the most up to date info possible, which would mean runtime requesting i guess",
+        "ts": "1498149444.051959"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "maybe we could do a pull at workshop creation and one at runtime, but not overwrite the first values if nothing comes back at runtime?",
+        "ts": "1498149467.060451"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "(of course that all being dependent on what the actual issue is :grin: )",
+        "ts": "1498149491.069380"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sure, the runtime stats make sense for saying this is what they views are for those videos these are your most popular. but there is the fact that the video list was stored at workshop creation so the story that those are the top videos is made at workshop creation, so it could be argued that the stats for them could be stored then also, since they were already tagged as the videos for that workshop, and the stats changing slightly at runtime doesnt change the story at that point since the videos dont change. and it would have less of a chance of failure if we stored at workshop creation",
+        "ts": "1498150331.385459"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ahh true, i can see both sides of the argument there",
+        "ts": "1498150751.544903"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "well let me know how that investigation goes. you have time to look into it today? then when we know more, if it really seems like an issue (when we get that #) we can check with design",
+        "ts": "1498150832.577570"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Yes totally, ill look into it as it stands and see whats going on.",
+        "ts": "1498151146.698117",
+        "reactions": [
+            {
+                "name": "thanks",
+                "users": [
+                    "U167FL70V",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Ah, i found whats going on, it works fine actually they are just using it wrong. Booted it up again and remembered this they did this exact same thing a few months ago. They are accessing the stop sweep thru the wrong url parameters. if the topSweep parameter is missing from the url it doesnt go into the right mode and enable the parameters for topsweep, this is the right url \/DisplayActivityActivity\/index.html#\/?topSweep=true",
+        "ts": "1498152811.321624"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they must be using this \/DisplayActivityActivity\/index.html",
+        "ts": "1498152818.324398"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "with the correct parameter in the url the stats show up, without we get exactly what they seen",
+        "ts": "1498152841.333168"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "whoa again? can you remind me where that url gets set?",
+        "ts": "1498156101.584061"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "wondering if there's a way to keep them from doing this again",
+        "ts": "1498156123.592406"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah i talked to scott a few ago, and he was having either this same problem or something similar and i figured it out that it was this issue.",
+        "ts": "1498156248.641818"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it is set in their call that shows the display, Which would be their showtime component that launches the display on their rig",
+        "ts": "1498156294.659917"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they shouldnt be changing it, it should have been set, and we wouldnt see this again",
+        "ts": "1498156319.669967"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "unless he was just testing it locally or on some test rig and seen this issue there",
+        "ts": "1498156340.677962"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "hrm i wonder if it's something that happened in the showtime migration work they're doing",
+        "ts": "1498156427.711358"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "can you point me to the file\/line of code where it's getting set? i did a search for it and found one spot but i'm not sure i'm looking in the right place",
+        "ts": "1498156568.765248"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it would be the command in the showtime-wall\/display\/components\/topSweep.json file the copy i have locally just says \"command\": \"<http:\/\/localhost:8080\/topSweep.html>\",",
+        "ts": "1498156912.896532"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this looks wrong to me, it should say \"command\": \"<http:\/\/localhost:8080\/topSweep.html#\/?topSweep=true>\",",
+        "ts": "1498156939.907321"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "pretty sure i already told them this weeks ago. thought this was fixed. :confused:",
+        "ts": "1498156976.921467"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "weird, i see that topSweep.json file in our bitbucket version of the repo, but not in the gerrit one",
+        "ts": "1498157191.004189"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i know those two diverge at a number of points but where would it be in the gerrit version? (sorry for v basic questions, thx for patience)",
+        "ts": "1498157252.026672"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh maybe im looking in the wrong repo here",
+        "ts": "1498157428.093017"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i have so many copies of the wall code on my system",
+        "ts": "1498157439.097226"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yeah this switching between gerrit\/bitbucket is tough",
+        "ts": "1498157513.125184"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i'm looking through emails and to see what we said to them last about this url change",
+        "ts": "1498157573.148192"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "might have been a hangouts chat",
+        "ts": "1498157584.152660"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "which doesnt save history",
+        "ts": "1498157588.154037"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "*sigh* i know why we have to use hangouts for this stuff but i wish we didn't",
+        "ts": "1498157614.164205"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh i see i told them in email on april 18th to add this parameter",
+        "ts": "1498157678.188431"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i do have an email from back in april where they were asking about issues with bubble display",
+        "ts": "1498157684.190494"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ah yes ^^ probably same email thread",
+        "ts": "1498157694.194182"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so i dont see the code in there at all for the showtime component they are using to turn on the wall, they must have it in a different repo",
+        "ts": "1498157812.239761"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok at least it's not just me not being able to find it",
+        "ts": "1498157827.245359"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "theres no other branches in this repo, strange they wouldnt have that code in here",
+        "ts": "1498157925.283075"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it would be something like i mentioned tho, the command key on the showtime component would control the page opened. unless they did something fancy we dont know aobut",
+        "ts": "1498157962.297800"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so hard to debug when they're making changes we can't see",
+        "ts": "1498157992.309683"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "my guess is the jose just did this test locally and didnt add that url parameter",
+        "ts": "1498158045.331042"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and yeah, im confused why the showtime component isnt in this repo, it prevents us from totally recreating their setup",
+        "ts": "1498158087.347518"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the boxes they sent had nothing on them, i had to pull the repo to set them up.",
+        "ts": "1498158126.362428"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its not a huge effect on us as that is a fancy way of just opening a browser",
+        "ts": "1498158157.374438"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "thats basically all the showtime thing does is opens the browser to a url, nothing else",
+        "ts": "1498158181.383483"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "which makes sense when there are 22 browsers to open",
+        "ts": "1498158199.390347"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but still where is that code",
+        "ts": "1498158213.395156"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i would like to know this as well…",
+        "ts": "1498158290.424293"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "see the email chain lit up again",
+        "ts": "1498158308.430958"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "kyle... \"random strings\"....",
+        "ts": "1498158317.434230"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "they are not random strings",
+        "ts": "1498158322.436287"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "hah yea i saw that too",
+        "ts": "1498158323.436429"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "thats an id for the channel",
+        "ts": "1498158327.438169"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "hah yes",
+        "ts": "1498158331.439494"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "semantic vs. non",
+        "ts": "1498158336.441237"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "do you have thoughts on that fix though?",
+        "ts": "1498158350.446812"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its likely not resolving it because it is expecting the name and wanting to resolve the name into the id",
+        "ts": "1498158377.456421"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so resolving and id into an id doesnt work",
+        "ts": "1498158387.459916"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and fails",
+        "ts": "1498158391.461319"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i thought there was a plan in there for that, but maybe that got removed with the changes that have been made more recently",
+        "ts": "1498158420.471867"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": ":thinking_face: well since we seem to have some kind of disparity between our code and theirs makes sense to get that resolved first",
+        "ts": "1498158480.493786"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i would not really say its a disparity, the code we are working on im sure is the same, the showtime thing is a separate piece that lives outside of this code base that just interacts with it cursory. I dont think that it effects these fixes at all. And can be asked for whats up in parallel",
+        "ts": "1498158602.536980"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i mean it's a thing we should get resolved",
+        "ts": "1498158664.558450"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "it's good to know you're not concerned that there's too much of a difference, but it'd be nice to know what the differences _are_ so we can be confident in responding to them about fixes",
+        "ts": "1498158695.568911"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "and also keep from having to answer the same questions 1 billion times",
+        "ts": "1498158708.573791"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah totally",
+        "ts": "1498158718.576913"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ill take a look again, but i think i already made the bitbucket at par with gerrit. I will take another look at see but they really havnt made many changes",
+        "ts": "1498158782.598640"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "awesome thanks for digging into that, and for looking at the youtube id fix :slightly_smiling_face:",
+        "edited": {
+            "user": "U167FL70V",
+            "ts": "1498158813.000000"
+        },
+        "ts": "1498158807.607269"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i'm thinking about this communication stuff a lot this week, in particular as we look at doing more work on global-impact",
+        "ts": "1498158857.624624"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so hyper-aware of places where we need more info\/better lines of comms\/etc",
+        "ts": "1498158879.632133"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "agreed, will be important",
+        "ts": "1498158900.639105"
+    }
+]

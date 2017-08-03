@@ -1,0 +1,41 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<http:\/\/9to5mac.com\/2016\/05\/03\/piemessage-imessage-open-source-android-app\/>",
+        "attachments": [
+            {
+                "service_name": "9to5Mac",
+                "service_url": "http:\/\/9to5mac.com",
+                "title": "PieMessage open-source project brings iMessage to Android using your Mac as a server",
+                "title_link": "http:\/\/9to5mac.com\/2016\/05\/03\/piemessage-imessage-open-source-android-app\/",
+                "author_name": "Jordan Kahn",
+                "author_link": "https:\/\/9to5mac.com\/author\/jordankahn\/",
+                "thumb_url": "https:\/\/i0.wp.com\/9to5mac.files.wordpress.com\/2016\/05\/piemessage-imessage-for-android.png?fit=200%2C150&ssl=1",
+                "thumb_width": 200,
+                "thumb_height": 100,
+                "text": "A new open source project called PieMessage enables cross-platform iMessage support, allowing Android users to communicate using Apple&amp;rsquo;s iPhone messaging platform.\nIn the video below, we get a short look at the PieMessage app in action with&amp;nbsp;a still unreleased prototype version of the app.\n\nThe video was sent in by Eric Chee, the app developer that&amp;nbsp;built PieMessage and today released the code on GitHub.&amp;nbsp;\nIt&amp;rsquo;s not the first app to enable the feature as&amp;nbsp;similar but short-lived solutions have been previously available for Android devices. Like the previous solutions, it needs a server to enable iMessage support on Android devices. The difference is PieMessage uses Mac and OS X as a server currently. In the past, apps that have been released used a third-party server to route messages, raising&amp;nbsp;security concerns among users and likely for Apple as well. But this approach could in theory allow users to use their own Macs:\n\nBasically what the Android client does is send the text to a macbook. And uses the Mac&amp;rsquo;s &amp;ldquo;Messages&amp;rdquo; app to send off the notification. When the Mac detects an incoming message, it will pass it back to the Android. So yes there is both software you need to run on a Mac and Android. I have an old 2007 macbook that is just always on connected at home that serves as its client&amp;hellip;\n\nIn the GitHub project is an OS X client and an Android client as well as &amp;ldquo;messages.applescript&amp;rdquo; and Java Web Server. Chee explains the &amp;ldquo;messages.applescript is arguably the most important part of the project. It is what makes sending iMessages possible. This script is what sends an iMessage message.&amp;rdquo; And he also notes that since the project uses a custom API, it&amp;rsquo;s possible other developers could build clients for the web, Windows or other platforms in addition to&amp;nbsp;Android.\n\nThe developer told us PieMessage is still a work in progress. It &amp;ldquo;can receive group messages, but sending has its limitations,&amp;rdquo; Chee notes. And he also points out that it&amp;rsquo;s possible Apple could patch future OS versions that could break the app.\nBut&amp;nbsp;now that the code is on GitHub, it&amp;rsquo;s also possible for developers to&amp;nbsp;build apps that will allow Android users (and other platforms) to access&amp;nbsp;iMessage using their own Macs as a server.",
+                "fallback": "9to5Mac Link: PieMessage open-source project brings iMessage to Android using your Mac as a&nbsp;server",
+                "from_url": "http:\/\/9to5mac.com\/2016\/05\/03\/piemessage-imessage-open-source-android-app\/",
+                "id": 1
+            }
+        ],
+        "ts": "1462284533.000058"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "so, I can use iMessage on my phone as long as I’m right next to my computer?",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1462294266.000000"
+        },
+        "ts": "1462294225.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "how helpful.",
+        "ts": "1462294227.000061"
+    }
+]

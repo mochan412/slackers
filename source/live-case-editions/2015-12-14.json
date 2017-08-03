@@ -1,0 +1,210 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: the good news is the new files are ~60k per frame",
+        "ts": "1450140623.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "… so only 10megs each",
+        "ts": "1450140639.000003"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0GKYHZGS\/1f_nofreeze_tiff.zip|1F_NOFREEZE_TIFF.zip>",
+        "file": {
+            "id": "F0GKYHZGS",
+            "created": 1450140646,
+            "timestamp": 1450140646,
+            "name": "1F_NOFREEZE_TIFF.zip",
+            "title": "1F_NOFREEZE_TIFF.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 9216829,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKYHZGS\/1f_nofreeze_tiff.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKYHZGS\/download\/1f_nofreeze_tiff.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0GKYHZGS\/1f_nofreeze_tiff.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0GKYHZGS-5168b0ad5f",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1450140646.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "strange the sequence starts at 23 in the file naming",
+        "ts": "1450140810.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah. will find out if that’s intentional or not, but that’s what was on the ftp",
+        "ts": "1450140871.000006"
+    },
+    {
+        "user": "U02AUNA0P",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U02AUNA0P|designer> has left the channel",
+        "ts": "1450140901.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its best if they start with 1 since that is what the code will be looking for, right now it will be counting the frames clicking through sequentially based on that file name. i can change it to start at 23 to try these for now",
+        "ts": "1450140970.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i can rename :simple_smile:",
+        "ts": "1450141049.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and the 0 padding makes it tricky too, the code right now wont use the 0 padded files right",
+        "ts": "1450141053.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its looking for filename_framenumber",
+        "ts": "1450141069.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and over 100 it goes from 0000X to 000XX and that doesnt fit that pattern",
+        "ts": "1450141093.000012"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "these are easy problems to solve",
+        "ts": "1450141156.000013"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0GKTC4JY\/1f_nofreeze_tiff_2.zip|1F_NOFREEZE_TIFF 2.zip>",
+        "file": {
+            "id": "F0GKTC4JY",
+            "created": 1450141163,
+            "timestamp": 1450141163,
+            "name": "1F_NOFREEZE_TIFF 2.zip",
+            "title": "1F_NOFREEZE_TIFF 2.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 9205589,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKTC4JY\/1f_nofreeze_tiff_2.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKTC4JY\/download\/1f_nofreeze_tiff_2.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0GKTC4JY\/1f_nofreeze_tiff_2.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0GKTC4JY-6d5be23b59",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1450141164.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "excellent",
+        "ts": "1450141220.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "oh and they need to be lower case file names",
+        "ts": "1450141684.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "lol ok",
+        "ts": "1450141693.000017"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0GKZBY8P\/archive.zip|Archive.zip>",
+        "file": {
+            "id": "F0GKZBY8P",
+            "created": 1450141758,
+            "timestamp": 1450141758,
+            "name": "Archive.zip",
+            "title": "Archive.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 9195095,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKZBY8P\/archive.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0GKZBY8P\/download\/archive.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0GKZBY8P\/archive.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0GKZBY8P-4932b2c039",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1450141759.000018"
+    }
+]

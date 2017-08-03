@@ -1,0 +1,618 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you summer! im running an editions build right now, but will take a spin through this later! appreciate it",
+        "ts": "1484161249.000820"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "No problem! After running it for a while, can you poke through the device usage stats and connectivity stats and tell me if you see anything unusual? I’m still working out the kinks in those areas.",
+        "ts": "1484161321.000821"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "of course! although each time i look im like “i cannot POSSIBLY be spending this much time on instagram” :wink:",
+        "ts": "1484161410.000822"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hahaha, right?",
+        "ts": "1484161481.000823"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "are you good to go on moving forward with the work evans mentioned in our standup yesterday? (moving us towards being able to visualize data by day vs. overall time since running)? or do you expect to need to do some more clean up before you can shift to that?",
+        "ts": "1484161524.000824"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ve already started working on that. It should be no problem, assuming the data I’m collecting is actually accurate.",
+        "ts": "1484161585.000825"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome! just let me know if you run into any blockers so we can keep that moving! :slightly_smiling_face:",
+        "ts": "1484161624.000826"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> (or <@U1ZG1UCAK> or <@U2H61EJSG> if possible) - can you give me a quick explanation of the fix made for the memory leak issue that came from the jen stark gif?",
+        "ts": "1484168489.000827"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh!",
+        "ts": "1484168502.000828"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes",
+        "ts": "1484168503.000829"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "bonnie “needs\" for the tdd :slightly_smiling_face:",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1484168577.000000"
+        },
+        "ts": "1484168536.000830"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there were two: one was related to previewing the wallpaper. Basically when in preview mode, the renderer in Collections wasn’t releasing the memory for the images that it was displaying immedately. So it caused an issue for some larger screen devices.",
+        "ts": "1484168625.000834"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the other was an optimization",
+        "ts": "1484168638.000835"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "amateur question - <@U2H61EJSG> do i have to have the Gauge wallpaper set as my bg in order for the app to collect usage data?",
+        "ts": "1484168669.000836"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So the second one disposes the frames of the gif more aggressively to ensure lower upward pressure on memory usage for very detailed or large Bitmaps that are being drawn to the screen",
+        "ts": "1484168671.000837"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0260V1BX> yes",
+        "ts": "1484168676.000838"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok. going to work on making a better looking placeholder soon :slightly_smiling_face:",
+        "ts": "1484168697.000839"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we might be able to use the trends renderer and actually display real data soon",
+        "ts": "1484168729.000840"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Using the existing trends render sounds like a good idea",
+        "ts": "1484168774.000841"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "that would be d o p e",
+        "ts": "1484168804.000842"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Once I’m done allowing the user to view filter data by day, week, month etc I can start messing around with that",
+        "ts": "1484168814.000843"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lets at least try to match the colors \/ style of the inspo image kat provided for short term",
+        "ts": "1484168814.000844"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but melissa - totally think its worth putting some thought here",
+        "ts": "1484168828.000845"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(and to trends visualizations too, if you have any ideas based on that deck)",
+        "ts": "1484168841.000846"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "actually summer",
+        "ts": "1484168883.000847"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or maybe once evans starts playing with that we can all connect and adjust as needed to be the coolest",
+        "ts": "1484168889.000848"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks <@U026PHQ3J> - updating TDD with that info now",
+        "ts": "1484168900.000849"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it might make more sense to not even bother modifying the data collection app UI at this point",
+        "ts": "1484168905.000850"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I was simply thinking of adding some switch views that when toggled will filter the data by day, week, etc. It’s not much of a UI change",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1484168957.000000"
+        },
+        "ts": "1484168948.000851"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1484168955.000852"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no big deal",
+        "ts": "1484168958.000854"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ill help you get the renderer ported when we’re back in the office at some point",
+        "ts": "1484168975.000855"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its pretty easy",
+        "ts": "1484168977.000856"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the renderers are fairly portable its just a matter of wiring up the right data",
+        "ts": "1484169004.000857"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "That would be excellent! I still don’t really understand renderers",
+        "ts": "1484169008.000858"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it takes a lot of time to transition over to GL thinking",
+        "ts": "1484169033.000859"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so don’t sweat it",
+        "ts": "1484169040.000860"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you’ll get there",
+        "ts": "1484169044.000861"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m still having issues with the data though, so I will need to work out those kinks first. Unexpected shutdowns and reboots screw with device usage and connectivity stats",
+        "ts": "1484169053.000862"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah. data is more important",
+        "ts": "1484169064.000863"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah i wouldnt focus on the current UI for too long - its all gonna be tossed eventually, and kats not too interested in this",
+        "ts": "1484169218.000864"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey <@U1ZG1UCAK> guess what?",
+        "ts": "1484178596.000865"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "what?",
+        "ts": "1484178608.000866"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "heard back from aiden!",
+        "ts": "1484178612.000867"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "and...",
+        "ts": "1484178619.000868"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "...",
+        "ts": "1484178624.000869"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hahah",
+        "ts": "1484178626.000870"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":grimacing:",
+        "ts": "1484178629.000871"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no he basically said we did it wrong",
+        "ts": "1484178632.000872"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but then evans reminded him we DIDN'T",
+        "ts": "1484178642.000873"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i torched him",
+        "ts": "1484178652.000874"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "however i found something that needs to be updated",
+        "ts": "1484178653.000875"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans torched him",
+        "ts": "1484178657.000876"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "lol",
+        "ts": "1484178658.000877"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":tada:",
+        "ts": "1484178662.000878"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i sent him some leading emails before i told him why he was wrong",
+        "ts": "1484178664.000879"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":fire:",
+        "ts": "1484178671.000880"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "he accused us of not templating out everything + provided a file. i DID find one thing i think needs to be templated out though - do you mind doing a pass through to confirm the rest + updating if needed?",
+        "ts": "1484178710.000881"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or - let me know if you are the middle of something",
+        "ts": "1484178723.000882"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I'm available",
+        "ts": "1484178747.000883"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "the one i found:",
+        "ts": "1484178750.000884"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "&lt;string name=\"nav_title_about_trends\" description=\"This text is a label to a button that users can tap to read more about Google Trends\"&gt;About Trends&lt;\/string&gt;",
+        "ts": "1484178751.000885"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(trends should be templated out)",
+        "ts": "1484178763.000886"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ah... ok.",
+        "ts": "1484178772.000887"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also i will forward you the email for fun",
+        "ts": "1484178774.000888"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":slightly_smiling_face:",
+        "ts": "1484178779.000889"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "CHIEF TORCH OFFICER",
+        "ts": "1484178794.000890",
+        "reactions": [
+            {
+                "name": "metal-hair",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "okay, does Aiden need updated files or was he pointing out things we need to fix, just because?",
+        "ts": "1484178889.000891"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "he was asking for updates",
+        "ts": "1484178929.000892"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the zip you sent was fine",
+        "ts": "1484178935.000893"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":eyes:",
+        "ts": "1484178971.000894"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh yeah - the point is - you did a great job!",
+        "ts": "1484178993.000895"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "lol",
+        "ts": "1484179000.000896"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think he glanced at it and saw product names (but in the descriptions where they are okay to be)",
+        "ts": "1484179025.000897"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "midori - im reviewing from his txt from the bottom up to see if i catch anything else that needs to be updated (just in case you are looking at now as well)",
+        "ts": "1484179458.000898"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, are we even using that string",
+        "ts": "1484179504.000899"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes in overflow menu i believe",
+        "ts": "1484179557.000900"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gotcha",
+        "ts": "1484179562.000901"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "^^ true",
+        "ts": "1484179580.000902"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> - I didn't get the attachment in the email",
+        "ts": "1484179715.000903"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F3PN9N065\/brands.txt|brands.txt>",
+        "file": {
+            "id": "F3PN9N065",
+            "created": 1484179741,
+            "timestamp": 1484179741,
+            "name": "brands.txt",
+            "title": "brands.txt",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U13GPDA1F",
+            "editable": true,
+            "size": 14689,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3PN9N065\/brands.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3PN9N065\/download\/brands.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F3PN9N065\/brands.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3PN9N065-acea7a2c03",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/lynsey\/F3PN9N065\/brands.txt\/edit",
+            "preview": "res\/values\/strings.xml:10:   <string name=\"title_activity_places_map_style\" description=\"This text appears as a setting in the Places application. By selecting this option the user is able to update the color and style of the map that will appear as their wallpaper\">Map Style<\/string>\nres\/values\/strings.xml:11:   <string name=\"color_updated_activity_places_map_style\" description=\"This text appears as a setting in the Places application. This text confirms the map color has been updated by the user\">Map color updated<\/string>\nres\/values\/strings.xml:12:   <string name=\"style_updated_activity_places_map_style\" description=\"This text appears as a setting in the Places application. This text confirms the map style has been updated by the user\">Map style updated<\/string>\nres\/values\/strings.xml:21:   <string name=\"delete\" description=\"This text appears to users on the Manage Photos screen. It allows the users to delete images when they are selected from the gallery\">Delete<\/string>\nres\/values\/strings.xml:9:   <strin...",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>res\/values\/strings.xml:10:   &lt;string name=&quot;title_activity_places_map_style&quot; description=&quot;This text appears as a setting in the Places application. By selecting this option the user is able to update the color and style of the map that will appear as their wallpaper&quot;&gt;Map Style&lt;\/string&gt;<\/pre><\/div>\n<div><pre>res\/values\/strings.xml:11:   &lt;string name=&quot;color_updated_activity_places_map_style&quot; description=&quot;This text appears as a setting in the Places application. This text confirms the map color has been updated by the user&quot;&gt;Map color updated&lt;\/string&gt;<\/pre><\/div>\n<div><pre>res\/values\/strings.xml:12:   &lt;string name=&quot;style_updated_activity_places_map_style&quot; description=&quot;This text appears as a setting in the Places application. This text confirms the map style has been updated by the user&quot;&gt;Map style updated&lt;\/string&gt;<\/pre><\/div>\n<div><pre>res\/values\/strings.xml:21:   &lt;string name=&quot;delete&quot; description=&quot;This text appears to users on the Manage Photos screen. It allows the users to delete images when they are selected from the gallery&quot;&gt;Delete&lt;\/string&gt;<\/pre><\/div>\n<div><pre>res\/values\/strings.xml:9:   &lt;strin...<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 58,
+            "lines_more": 53,
+            "preview_is_truncated": true,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1484179742.000904"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(i think he search XMLs for product names and these came up - so likely way easier to go through these than anything else)",
+        "ts": "1484179776.000905"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i only found one other that id love you to confirm - &lt;string name=“tos”&gt; thats got a bunch of shit in there, but maybe a non-issue?",
+        "ts": "1484180159.000906"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "That one isn't templated, but it could be",
+        "ts": "1484180348.000909"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1484180385.000910"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok",
+        "ts": "1484180418.000911"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "and... oof that email is condescending :face_with_rolling_eyes:",
+        "ts": "1484180508.000912"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I feel so left out!",
+        "ts": "1484180528.000913"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hahaha",
+        "ts": "1484180531.000914"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay then maybe its just the ONE “about trends” string unless you found something else",
+        "ts": "1484180609.000915"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2H61EJSG>! how are you doing over there?",
+        "ts": "1484180617.000916"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m doing just fine! I added some switches so that you can now filter the device usage data to see stats since the wallpaper was first enabled, from the last 24 hours, or the last week. Still working out a few kinks though.",
+        "ts": "1484180873.000917"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "nice!",
+        "ts": "1484180992.000918"
+    }
+]

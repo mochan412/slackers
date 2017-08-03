@@ -1,0 +1,934 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> <@U026PHQ3J> <@U2H61EJSG> can one of you push a build out when you see this? UsTwo is doing some user testing and for whatever reason Earth is launching maps v earth upon double tapping (nobody is freaking out about this, it'd just be nice to get 'em a fresh build w\/that fixed).",
+        "ts": "1498143979.776540"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "They currently have the build Summer posted above, which includes notifications.",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1498147399.000000"
+        },
+        "ts": "1498144018.793480"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "just so everyone knows i will be in a little late this morning (10am)",
+        "ts": "1498145409.397285"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I will look into that bug and upload a build here and on the drive when it’s ready.",
+        "ts": "1498146493.862106"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sweet thanks Summer! ",
+        "ts": "1498147085.114542"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Is this an issue in 86?",
+        "ts": "1498147223.176198"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> ",
+        "ts": "1498147234.181066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh saw summer response ",
+        "ts": "1498147251.188575"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> just drop it into this folder and please name it: ustwo_user_testing_build_062217",
+        "ts": "1498147570.325338",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<https:\/\/drive.google.com\/drive\/u\/0\/folders\/0B8Nqz7v9YgvVVmIySlBTVjRDWEE>",
+        "ts": "1498147577.328345"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> Problem solved. The reason that double tap wasn’t launching Earth in the latest builds is because we were never actually capturing the google earth link from the JSON sent from the CMS on download time. Looks like we just forgot to set the necessary field after removing the links we hard coded for sell in.",
+        "ts": "1498149367.023628"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "This change has been pushed to `legacy_fork_notification` btw",
+        "ts": "1498149456.056566"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5YSPS5K9\/ustwo_user_testing_build_062217.apk|ustwo_user_testing_build_062217.apk>",
+        "file": {
+            "id": "F5YSPS5K9",
+            "created": 1498149567,
+            "timestamp": 1498149567,
+            "name": "ustwo_user_testing_build_062217.apk",
+            "title": "ustwo_user_testing_build_062217.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24196084,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5YSPS5K9\/ustwo_user_testing_build_062217.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5YSPS5K9\/download\/ustwo_user_testing_build_062217.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5YSPS5K9\/ustwo_user_testing_build_062217.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5YSPS5K9-fb3d27bcab",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1498149569.099034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "24 Megs!",
+        "ts": "1498150422.419803",
+        "reactions": [
+            {
+                "name": "tada",
+                "users": [
+                    "U2H61EJSG",
+                    "U0260V1BX"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "WHAAAT!",
+        "ts": "1498150425.421069"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "must be getting rid of those onboarding gifs",
+        "ts": "1498150458.433446"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "DAYUM:muscle:",
+        "ts": "1498150983.636236"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> Summer is looking into this, but after entering the pairing code for Photos the app is continuing to crash.",
+        "ts": "1498151975.001598"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> look at this branch",
+        "ts": "1498152003.012095"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`onboard_account_repair`",
+        "ts": "1498152005.012666"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "do the fix there",
+        "ts": "1498152007.013517",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Have you pushed anything to onboard_account_repair yet?",
+        "ts": "1498152265.108705"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hmmmm",
+        "ts": "1498152286.116683"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "let me check",
+        "ts": "1498152287.117189"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok weird, but now yes",
+        "ts": "1498152326.132190"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F5XDD8HTJ\/ustwo_user_testing_build_062217_v2.apk|ustwo_user_testing_build_062217_v2.apk> and commented: <@U0U9WJB7F> Sorry for the confusion, I was under the impression that ustwo was explicitly testing notifications hence the reason I added that earth url fix to the notifications branch. Here is the latest build with that fix but WITHOUT notifications.",
+        "file": {
+            "id": "F5XDD8HTJ",
+            "created": 1498153455,
+            "timestamp": 1498153455,
+            "name": "ustwo_user_testing_build_062217_v2.apk",
+            "title": "ustwo_user_testing_build_062217_v2.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24167246,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5XDD8HTJ\/ustwo_user_testing_build_062217_v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5XDD8HTJ\/download\/ustwo_user_testing_build_062217_v2.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F5XDD8HTJ\/ustwo_user_testing_build_062217_v2.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5XDD8HTJ-e03ba392c5",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5Y6GSHHB",
+                "created": 1498153455,
+                "timestamp": 1498153455,
+                "user": "U2H61EJSG",
+                "is_intro": true,
+                "comment": "<@U0U9WJB7F> Sorry for the confusion, I was under the impression that ustwo was explicitly testing notifications hence the reason I added that earth url fix to the notifications branch. Here is the latest build with that fix but WITHOUT notifications."
+            }
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1498153457.564666"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "No worries, I'm sorry that wasn't clear!",
+        "ts": "1498153496.579163"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> is there a way for me to test this <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-304>",
+        "ts": "1498153932.747031"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hmm not really. I guess just making sure that the correct gifs are displaying on each page is the best we can do here.",
+        "ts": "1498154029.784154"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Just sent an invite for us to QA the hardddd tomorrow afternoon before leaving for the weekend. I'm hoping we'll be in a great place by then and can feel confident about submitting our next DF build!",
+        "ts": "1498154365.916258"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Looks like Kari might be into us making gifs animate on vis change only",
+        "ts": "1498155075.191133"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U1ZG1UCAK>",
+        "ts": "1498155079.192851"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so lets not move just yet, but keep that in mind",
+        "ts": "1498155086.195494"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok, good to know",
+        "ts": "1498155101.200989"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, skrim is gonna be real in earth",
+        "ts": "1498155275.265467",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i'm stoked about both of these things!",
+        "ts": "1498155362.299571"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> Instead of continuing to send over small copy tweaks, i'm just setting up an hour tomorrow to go through and update everything together. i think it'll be easier this way v a million tickets",
+        "ts": "1498155532.364384"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "is that cool with you?",
+        "ts": "1498155535.365817"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "that should be ok. Should I finish the current strings tickets?",
+        "ts": "1498155586.384562"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Nope, don't worry about it since we'll do a full pass tomorrow",
+        "ts": "1498155630.401436"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I will just delete them-sorry for not suggesting this sooner!",
+        "ts": "1498155647.407979"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Will that send closed notifs to Bonnie\/Nat?",
+        "ts": "1498155864.490960"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I don't see why it would if they're nowhere on the ticket?",
+        "ts": "1498155895.502893"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Aren't you only notified if you're listed on the ticket somewhere?",
+        "ts": "1498155912.509464"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "pushed some updates to develop",
+        "ts": "1498159963.004326"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool! anything life changing",
+        "ts": "1498160004.018331"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "nope",
+        "ts": "1498160009.020237"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "TIMELINE ALTERING",
+        "ts": "1498160014.021916"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I’m still tracing thru onboarding code and callbacks",
+        "ts": "1498160058.037300"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> did the branch above\/earlier help at all?",
+        "ts": "1498160078.044212"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(you dont have to answer!)",
+        "ts": "1498160101.051971"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(mostly was a future note)",
+        "ts": "1498160107.054004"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U0260V1BX> we received this asset from ustwo for notifications (see page 25 in the App Running deck for full context), I think this was brought up before (by you!) that this asset currently looks like you can press when you actually can't...do you think you could create something for us to use here?",
+        "ts": "1498161761.635674"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> shared a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5Y44MT6X\/placeholder_notifications.png|Placeholder_Notifications.png>",
+        "file": {
+            "id": "F5Y44MT6X",
+            "created": 1498161769,
+            "timestamp": 1498161769,
+            "name": "Placeholder_Notifications.png",
+            "title": "Placeholder_Notifications.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 10597,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/file\/d\/0B4vpUuEb09EBMkJCbnhYdFhHZEU\/view",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Y44MT6X-13c88a1645\/placeholder_notifications_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Y44MT6X-13c88a1645\/placeholder_notifications_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Y44MT6X-13c88a1645\/placeholder_notifications_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 313,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Y44MT6X-13c88a1645\/placeholder_notifications_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 412,
+            "original_h": 358,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5Y44MT6X\/placeholder_notifications.png",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U0U9WJB7F",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1498161769.638631"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sure, but is this something ustwo can do? how soon is their contract up?",
+        "ts": "1498161813.654084"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I already asked them to do it and that's what they sent",
+        "ts": "1498161822.657107"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "maybe I am not being clear enough with them",
+        "ts": "1498161826.658762"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "dumb dumbs…",
+        "ts": "1498161854.668649"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I can give a little more direction, stay tuned :grin:",
+        "ts": "1498161860.670971"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "cool - please cc me on those emails as well - i want to be aware of any direction we’re giving them and be able to chime in\/clarify if necessary - no need for you to be the translator",
+        "ts": "1498162657.942488"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "It's just in the live case deck",
+        "ts": "1498163508.238018"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "here's what they sent",
+        "ts": "1498163513.239860"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> shared a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5Y8B87NG\/placeholder_notifications_2.png|Placeholder_Notifications_2.png>",
+        "file": {
+            "id": "F5Y8B87NG",
+            "created": 1498163515,
+            "timestamp": 1498163515,
+            "name": "Placeholder_Notifications_2.png",
+            "title": "Placeholder_Notifications_2.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 6065,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/file\/d\/0B4vpUuEb09EBejUyOVFSN00yREE\/view",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Y8B87NG-90118fd893\/placeholder_notifications_2_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Y8B87NG-90118fd893\/placeholder_notifications_2_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Y8B87NG-90118fd893\/placeholder_notifications_2_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 313,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Y8B87NG-90118fd893\/placeholder_notifications_2_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 412,
+            "original_h": 358,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5Y8B87NG\/placeholder_notifications_2.png",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U0U9WJB7F",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1498163517.241074"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> The issue that Jenna was experiencing was related to a bad orderId (not account pairing). I am still looking for a good way to stop the user from proceeding through the tutorial before the image has been inserted into the database though. The existing logic is somewhat confusing.",
+        "ts": "1498163606.272105"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U0260V1BX> will that asset do the trick..? ^",
+        "ts": "1498163661.291489"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "it will but it’s ugly :slightly_smiling_face: do we have the sketch file?",
+        "ts": "1498163690.301045"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The most up to date notifications branch is `develop_notifications` for anyone interested",
+        "ts": "1498167793.592558"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<https:\/\/minime-collections.appspot.com\/notifications\/new>",
+        "ts": "1498169200.951999"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F5Z38NZ62\/placeholder_notifications_2_360_ucs.png|placeholder notifications 2 360 ucs> and commented: <@U2H61EJSG> <@U1ZG1UCAK>",
+        "file": {
+            "id": "F5Z38NZ62",
+            "created": 1498170614,
+            "timestamp": 1498170614,
+            "name": "placeholder_notifications_2_360_ucs.png",
+            "title": "placeholder notifications 2 360 ucs",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 6924,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z38NZ62\/placeholder_notifications_2_360_ucs.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5Z38NZ62\/download\/placeholder_notifications_2_360_ucs.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z38NZ62-ad47177052\/placeholder_notifications_2_360_ucs_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z38NZ62-ad47177052\/placeholder_notifications_2_360_ucs_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z38NZ62-ad47177052\/placeholder_notifications_2_360_ucs_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 308,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5Z38NZ62-ad47177052\/placeholder_notifications_2_360_ucs_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 360,
+            "original_h": 308,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F5Z38NZ62\/placeholder_notifications_2_360_ucs.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5Z38NZ62-81cb68fde3",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5YBMK2KF",
+                "created": 1498170614,
+                "timestamp": 1498170614,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "<@U2H61EJSG> <@U1ZG1UCAK>"
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1498170615.259511"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Nice! Thanks, Melissa",
+        "ts": "1498170636.264038"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "much better :slightly_smiling_face:",
+        "ts": "1498170638.264740"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": ":thumbsup::skin-tone-4:",
+        "ts": "1498170645.266215"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "oooo cool! thanks Melissa",
+        "ts": "1498171038.346147"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "ustwo needs to get outta da way",
+        "ts": "1498171045.347568"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U026PHQ3J> should I merge settings crash fix into develop or wait?",
+        "ts": "1498173838.861316"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J>  do you think there is anything else we need to add to this ticket?",
+        "ts": "1498174262.932916"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<https:\/\/uncorkedstudios.atlassian.net\/secure\/RapidBoard.jspa?rapidView=10&amp;view=detail&amp;selectedIssue=MLC-259>",
+        "ts": "1498174262.932958"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "it's about the double tap issue on earth coming back to haunt us",
+        "ts": "1498174274.934867"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "(i know you said it's likely a launcher issue, and i added that to the comments)",
+        "ts": "1498174289.937393"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if adrien has a PX2",
+        "ts": "1498174545.979247"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "see if he can repro",
+        "ts": "1498174548.979801"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cause it was reported on walleye",
+        "ts": "1498174553.980514"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": ":ok_hand:",
+        "ts": "1498174615.990628"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thanks!",
+        "ts": "1498174626.992168"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Also, I thought we didn't have control over the Launcher? <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-285>",
+        "ts": "1498174751.012055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we can’t repro this here, so someone there needs to repro\/BR it",
+        "ts": "1498174874.031945",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "does anyone have any idea who wrote the copy for the Learn More modal in all of the generators? <@U13GPDA1F> maybe?",
+        "thread_ts": "1498176747.331950",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1498177525.439984"
+            },
+            {
+                "user": "U13GPDA1F",
+                "ts": "1498177547.443216"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1498176747.331950",
+        "reactions": [
+            {
+                "name": "grimacing",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "nobody seems to know what to put there from the google side :confused:",
+        "ts": "1498176761.333715"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> (testing notifications) + clicking on the URL in app caused it to completely crash!",
+        "ts": "1498177228.399588"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Did you use an actual URL?",
+        "ts": "1498177246.401922"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "yes, a YT URL",
+        "ts": "1498177269.404871"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did you get a bug report?",
+        "ts": "1498177307.409956"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sorry, for this or something else?",
+        "ts": "1498177334.413481"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this",
+        "ts": "1498177352.416065"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "im pulling one rn!",
+        "ts": "1498177361.417249"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "jenna.simon: sorry just seeing this. do you mean the learn more thats in trends + earth? if so, believe it came from kat (not sure if she wrote it or got it from someone else though)",
+        "thread_ts": "1498176747.331950",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1498177525.439984"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "but you said _all_ generators so maybe im thinking about the wrong thing?",
+        "thread_ts": "1498176747.331950",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1498177547.443216"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "skrim on develop",
+        "ts": "1498177785.476785"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "should I make a build of develop? for fun?",
+        "ts": "1498178686.599984"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "up-to-date w\/dev: <https:\/\/drive.google.com\/open?id=0B_JWq5iYq6D-bUlZZk9taUU3Y2c>",
+        "ts": "1498179139.660956"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> shared a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5Y7WCJD9\/minime-debug-6_22_17-develop-v1.apk|MiniMe-DEBUG-6_22_17-develop-v1.apk>",
+        "file": {
+            "id": "F5Y7WCJD9",
+            "created": 1498179141,
+            "timestamp": 1498179141,
+            "name": "MiniMe-DEBUG-6_22_17-develop-v1.apk",
+            "title": "MiniMe-DEBUG-6_22_17-develop-v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 24450070,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/drive.google.com\/open?id=0B_JWq5iYq6D-bUlZZk9taUU3Y2c",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5Y7WCJD9\/minime-debug-6_22_17-develop-v1.apk",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U1ZG1UCAK",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1498179141.661297"
+    }
+]

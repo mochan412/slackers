@@ -1,0 +1,122 @@
+[
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<!channel>: on user profiles - do we always know 100% of emails and phone numbers?   twitter and insta are optional?",
+        "ts": "1404926586.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "That's what I was assuming with the designs. (think i remember that from previous conversations)",
+        "ts": "1404926634.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "if user does not have twit or insta - the table row does not display or does it still display the \"twitter\" heading with empty below it?",
+        "ts": "1404926645.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "for my part - I'd like to include the empty\/greyed field there as an indicator that they can add that data",
+        "ts": "1404926703.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "what about for other user profiles you are viewing, not your own",
+        "ts": "1404926759.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "right. i was thinking public hide for sure",
+        "ts": "1404926781.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "agreed on that front",
+        "ts": "1404926788.000071"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "for user, just replace @nicekicksnunez with an em-dash?",
+        "ts": "1404926801.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "also, if no social, let's hide the 2px rule as well",
+        "ts": "1404926827.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "while we’re on the topic, are twitter and instagram the only social links users can add to their profile?",
+        "ts": "1404926899.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "or are there others too?",
+        "ts": "1404926913.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "thanks for clarifying",
+        "ts": "1404926957.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I think ideally users can add other links - VSCO comes to mind off the top. At this stage though, Im personally okay with leaving it as just those two if that helps with dev\/design time",
+        "ts": "1404927040.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think VSCO is going to be important",
+        "ts": "1404927212.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and we should probably assume that",
+        "ts": "1404927222.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I’m fine with adding vsco too or any others. I mostly want to confirm that we’re giving them a predefined set of accounts they’re allowed to link to, as opposed to letting them add any social links they want?",
+        "ts": "1404927270.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I agree. Perhaps we add that as a third static field. I suppose what I'm looking out towards is a system where someone can just N number of links. How we manage that interface-wise is still not defined",
+        "ts": "1404927288.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I'd like to get to the point where people just add them, but for the sake of simplicity - and someone speak up if Im off base here - I was thinking we'd stick with a static list",
+        "ts": "1404927325.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i’ll put in spots in data model for instagram, twitter, vsco, and facebook for now. we can expose any or all of them in the app.",
+        "ts": "1404928125.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "perfect",
+        "ts": "1404928156.000084"
+    }
+]

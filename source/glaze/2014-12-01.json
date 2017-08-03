@@ -1,0 +1,116 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "These look like they're skewed a little",
+        "ts": "1417467344.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "working on speeding up the homography step",
+        "ts": "1417474752.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8LF2X>: the newest images on basecamp also seem to be tilted",
+        "ts": "1417474776.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> yeah. lots of mayo matches",
+        "ts": "1417474851.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "so much mayo",
+        "ts": "1417474963.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yeah alignment wise they are the same as the previous images since I thought I'd take pictures with the doors closed and then see if I can get them centered",
+        "ts": "1417474977.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ENTIRELY automated and NOT tuned:",
+        "ts": "1417487340.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "source images -&gt; debarrel -&gt; crop -&gt; stitch",
+        "ts": "1417487359.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Awesome!",
+        "ts": "1417487409.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Nice!!",
+        "ts": "1417490713.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Generating DB files while checking for matches:\nreal\t1m39.052s\nuser\t1m31.119s\nsys\t\t0m5.701s\n\nusing generated DB files (multiple files)\nreal\t1m12.604s\nuser\t1m9.791s\nsys\t\t0m1.457s\n\nOnly saves about 20 seconds. Not great savings. Looking into the stacked\/combined DB option for homography.",
+        "ts": "1417497274.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Hold please. Speed improvement numbers not accurate. (was still loading image into memory even tho i didnt need to)",
+        "ts": "1417497509.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also i took mayo out of the equation",
+        "ts": "1417497756.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "real\t1m11.164s\nuser\t1m8.778s\nsys\t0m1.231s",
+        "ts": "1417497836.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I think there's something to this:",
+        "ts": "1417498035.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/docs.scipy.org\/doc\/numpy\/reference\/generated\/numpy.savez.html>",
+        "ts": "1417498035.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but",
+        "ts": "1417498036.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm about to punt on python and look at java",
+        "ts": "1417498044.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(which will be tomorrow's fun)",
+        "ts": "1417498049.000011"
+    }
+]

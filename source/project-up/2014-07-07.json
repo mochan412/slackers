@@ -1,0 +1,160 @@
+[
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0265G76F> and <@U026103R3> - i'm in the main conf",
+        "ts": "1404759834.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "awesome, we'll be there in just one sec",
+        "ts": "1404759856.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sorry for the delay",
+        "ts": "1404759859.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026103R3> I am stuck on the wrong side of the train. May be a little late to meeting. ",
+        "ts": "1404762819.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok thanks for the head's up",
+        "ts": "1404763035.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<!channel> I need to take care of some errands during business hours, but I'll still be reachable if you have questions or concerns for me today.",
+        "ts": "1404771738.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "<@U026PHQ3J> Hey... How often do you think we will dump data from the wearable\/phone to the hub\/tablet\/whatever for analysis?",
+        "ts": "1404772988.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "We should probably do it as fast as we can",
+        "ts": "1404773045.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Is there a benefit\/detriment there?",
+        "ts": "1404773088.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "just curious",
+        "ts": "1404773102.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I mean, there's no reason we can't say 3 seconds at a time if that makes the windows cleaner",
+        "ts": "1404773112.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Or whatever",
+        "ts": "1404773119.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "I was exploring some ideas for automatically determining threshold values for \"you are standing on a beacon\" that we could derive from a reasonably long time series.",
+        "ts": "1404773202.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Makes sense, so reasonably long could be infinity? :) ",
+        "ts": "1404773268.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "sure. I don't think people will  mind waiting that long",
+        "ts": "1404773283.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I guess what I meant was is there a way to basically buffer\/trigger assuming a streaming I out ",
+        "ts": "1404773340.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Input",
+        "ts": "1404773340.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02895311",
+        "text": "Dumping data at 3 second intervals is probably okay for determining instantaneous position. I would not want to sample much less than that because there is a fair amount of noise",
+        "ts": "1404773363.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Also: infinitely long wait times are perfect for this cause at the end we just say 42 and someone's dead",
+        "ts": "1404773376.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Makes sense",
+        "ts": "1404773388.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "today only, there's a deal on SticknFind trackers over at woot: <http:\/\/sellout.woot.com\/offers\/tracker-bluetooth-tracking-device-3?ref=gh_so_11_s_txt>",
+        "attachments": [
+            {
+                "service_name": "Sellout.Woot",
+                "title": "Tracker Bluetooth Tracking Device",
+                "title_link": "http:\/\/sellout.woot.com\/offers\/tracker-bluetooth-tracking-device-3?ref=gh_so_11_s_txt",
+                "text": "Even scary people need some help.",
+                "fallback": "Sellout.Woot: Tracker Bluetooth Tracking Device",
+                "thumb_url": "http:\/\/d3gqasl9vmjfd8.cloudfront.net\/683c3d0d-5195-4cb5-9b48-2005763587a8.jpg",
+                "from_url": "http:\/\/sellout.woot.com\/offers\/tracker-bluetooth-tracking-device-3?ref=gh_so_11_s_txt",
+                "thumb_width": 588,
+                "thumb_height": 441,
+                "id": 1
+            }
+        ],
+        "ts": "1404775758.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "even scary people need some help???",
+        "ts": "1404776185.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "how is that the description for sticknginds haha",
+        "ts": "1404776194.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<!channel>: Our presentation is now at 1pm versus 1:30, but is still going to last as long. Sorry for taking away a bit more of our prep time, but I agree that we need more than an hour to go over everything.",
+        "ts": "1404778837.000026"
+    }
+]

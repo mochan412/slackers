@@ -1,0 +1,91 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0HUKRME0> <@U02F8TTPU> Wanna whiteboard stuff? Is glass open by chance?",
+        "ts": "1459185113.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "looks empty to me",
+        "ts": "1459185123.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "should we wait until after standup?",
+        "ts": "1459185128.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "There is now a GET endpoint <http:\/\/compass42.com\/v1\/thirdparty\/getThirdPartyToken>",
+        "ts": "1459191115.000005"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02F8TTPU|marissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/marissa\/F0W0G2NRE\/test.txt|test>",
+        "file": {
+            "id": "F0W0G2NRE",
+            "created": 1459191144,
+            "timestamp": 1459191144,
+            "name": "test.txt",
+            "title": "test",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U02F8TTPU",
+            "editable": true,
+            "size": 221,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0W0G2NRE\/test.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0W0G2NRE\/download\/test.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/marissa\/F0W0G2NRE\/test.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0W0G2NRE-13968ff779",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/marissa\/F0W0G2NRE\/test.txt\/edit",
+            "preview": "curl -H \"Authorization: bearer cfebbbff22333d717b0b77a44a2e3872e978d0476675d2be5b867c212387c41d6a2785bc96c023077d85d8925fb5ed4aaeeaee56a05e05a7eafb2b990615c5c5\" -X GET http:\/\/compass42.com\/v1\/thirdparty\/getThirdPartyToken",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>curl -H &quot;Authorization: bearer cfebbbff22333d717b0b77a44a2e3872e978d0476675d2be5b867c212387c41d6a2785bc96c023077d85d8925fb5ed4aaeeaee56a05e05a7eafb2b990615c5c5&quot; -X GET http:\/\/compass42.com\/v1\/thirdparty\/getThirdPartyToken<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0LDEJLG3"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U02F8TTPU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "marissa",
+        "bot_id": null,
+        "ts": "1459191145.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "Hi <@U02F8TTPU>, I’m getting a 404 on this.  Also noticed that the endpoint was an http, not https.  Is that correct?",
+        "ts": "1459203598.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "https should work for all endpoints",
+        "ts": "1459203685.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0HUKRME0",
+        "text": "ok.  and scratch that—was mistakenly doing a POST, not GET",
+        "ts": "1459203705.000009"
+    }
+]

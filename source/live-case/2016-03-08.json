@@ -1,0 +1,170 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/www.indiegogo.com\/projects\/popslate-2-smart-second-screen-for-iphone#\/>",
+        "ts": "1457455394.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "That video is bad ",
+        "ts": "1457455509.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that video is real bad",
+        "ts": "1457456542.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but good idea",
+        "ts": "1457456546.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "maybe",
+        "ts": "1457456547.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "?",
+        "ts": "1457456548.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Maybe ",
+        "ts": "1457456559.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Maybe ",
+        "ts": "1457456559.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "This is maybe better ",
+        "ts": "1457456609.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/yotaphone.com\/us-en\/>",
+        "ts": "1457456611.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "intersting stuff in my logcat post-flying",
+        "ts": "1457458749.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Caused by: java.lang.ClassNotFoundException: com.google.android.gms.location.LocationResult",
+        "ts": "1457458757.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Class not found when unmarshalling: com.google.android.gms.location.LocationResult\n                                         java.lang.ClassNotFoundException: com.google.android.gms.location.LocationResult",
+        "ts": "1457458773.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not bubbling up to us, getting muffled by the GPS subsystem",
+        "ts": "1457458791.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "weeeeird",
+        "ts": "1457458973.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's something really bad about location on the 5x",
+        "ts": "1457458991.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "03-08 09:41:51.695 3840-3996\/? D\/LocationFilter: Forcing stable location. Original location:Location[fused 45.515374,-122.666073 acc=21 et=+2d20h53m18s535ms {Bundle[{wifiScan=[B@e726b29, noGPSLocation=Location[fused 45.515374,-122.666073 acc=21 et=+2d20h53m18s535ms {Bundle[mParcelledData.dataSize=320]}], locationType=3}]}] because SMD didn't trigger.",
+        "ts": "1457459008.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "03-08 09:41:51.723 3840-27019\/? I\/GCoreUlr: Not calling LocationReporter, hasMoved: false, elapsed millis: 1170530, request: Stationary(3600000)",
+        "ts": "1457459038.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "one of the things that comes up in lint is about setting up automatic backups <https:\/\/trello.com\/c\/0LGS7Kgc\/217-disable-automatic-backups>",
+        "ts": "1457474459.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "We’ve talked about it’s potential implications before, but have done nothing to intentionally set it up or to disable it.",
+        "ts": "1457474480.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I have concerns that allowing automatic backups will give the user the ability to load the app on unsupported devices",
+        "ts": "1457474499.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "but I do not know how it actually works",
+        "ts": "1457474511.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I wanted to just disable it, but I suppose I should see what happens first..",
+        "ts": "1457474577.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we should probably disable it",
+        "ts": "1457474635.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's not a good argument to support it, i suppose",
+        "ts": "1457474643.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "since the OS wont automatically re-set the live wallpaper in the event of a restore",
+        "ts": "1457474657.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I was thinking the images for moments would be cool to keep, but even those are probably not backed up, we’d have a lot of broken links",
+        "ts": "1457474907.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m disabling it now",
+        "ts": "1457474958.000029"
+    }
+]

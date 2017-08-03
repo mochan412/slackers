@@ -1,0 +1,56 @@
+[
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Bits ordered should arrive tuesday. ",
+        "ts": "1486744787.987237"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Ah I had some digikey stuff to order too :\/",
+        "ts": "1486747169.279236"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "No no. You're fine. I'm still putting the list together ",
+        "ts": "1486749426.407620"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "Ah",
+        "ts": "1486750157.883254"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<https:\/\/t.co\/DfeUS88qZ3?amp=1>",
+        "attachments": [
+            {
+                "service_name": "Hackaday",
+                "service_url": "http:\/\/hackaday.com",
+                "title": "Huge Interactive Crossword",
+                "title_link": "http:\/\/hackaday.com\/2017\/02\/10\/huge-interactive-crossword\/",
+                "author_name": "Anool Mahidharia",
+                "author_link": "https:\/\/hackaday.com\/author\/anool\/",
+                "thumb_url": "https:\/\/i2.wp.com\/hackadaycom.files.wordpress.com\/2017\/02\/crossword_03.png?fit=200%2C150&ssl=1",
+                "thumb_width": 200,
+                "thumb_height": 113,
+                "text": "Give kids some responsible and challenging tasks, and you&rsquo;d be surprised at the results. The &ldquo;Anything Goes&rdquo; exhibit at the National Museum in Warsaw was aimed as a museological and educational experiment.&nbsp;A group of 69 children aged 6&ndash;14 was divided into teams responsible for preparing the main temporary exhibition at the museum.&nbsp;Over six months, they worked on preparing the exhibition during weekly four-hour meetings. They prepared scripts, provided ideas for multimedia presentations, and curated almost 300 works for&nbsp;display. One of those was [Robert Mordzon]&rsquo;s Giant Interactive Crossword.\nThe build is in two parts. The letter tiles, which have embedded RFID tags, obviously look like the easiest part of the build. The table, looking at the video (after the break), probably needed a lot more effort and labour. It is built in two halves to make construction easier. There are a 130 boxes that need to be filled in with the right letters to complete the crossword. Each box contains a bunch of electronics consisting of an Arduino Nano, a RFID Reader and a bunch of sixteen WS2812B LEDs, all assembled on a custom PCB. Do the math, and you&rsquo;ll figure out that there&rsquo;s 2080 LEDs, each capable of sipping 60 mA at full brightness. That&rsquo;s a total current requirement of almost 125&nbsp;amps at 5 V. Add in all the Arduino&rsquo;s, and [Robert] needed a beefy 750 W of power, supplied via four switch mode power supplies.\nEach Arduino Nano&nbsp;is a slave on the I&sup2;C bus. The I&sup2;C master is an&nbsp;Arduino Mega 2560, which in turn communicates with a computer over serial. When a box is empty, the LEDs are dim, when a wrong letter is placed, they turn Red, and when the right letter is placed, they turn Green. If a word gets completed, a special word animation is played. This information is also passed on to the computer, which then projects an animation related to the word on a giant wall screen. Upon the crossword getting completed, the table erupts in to a sound (via the computer) and light &ldquo;disco&rdquo; show and also reveals the main motto of this section of the exhibit &ndash; &ldquo;Playing the Hero&rdquo;.\n\n\n&nbsp;",
+                "fallback": "Hackaday Link: Huge Interactive Crossword",
+                "from_url": "http:\/\/hackaday.com\/2017\/02\/10\/huge-interactive-crossword\/",
+                "service_icon": "https:\/\/s0.wp.com\/wp-content\/themes\/vip\/hackaday-2\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1486786676.941446"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Can we have this in the new office but on glass?",
+        "ts": "1486786692.944655"
+    }
+]

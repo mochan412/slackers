@@ -1,0 +1,176 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I can’t reproduce adam’s second bug. not a lot of info to go on there.",
+        "ts": "1455293647.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I made a trello card for the first. working on it now",
+        "ts": "1455293659.000017"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I wonder if he activated twice by accident?",
+        "ts": "1455294039.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t really know how that’s possible",
+        "ts": "1455294478.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I just saw it happen! and I have no idea how :simple_smile:",
+        "ts": "1455294574.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Unlock case 1, hit ‘done’ from onboarding, hit ‘home’, unlock case 2 while still on desktop, hit ‘done’ from onboarding, hit ‘back’ —&gt; omg wut",
+        "ts": "1455294761.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t know a good way to fix this one. am I in the world of intent flags now?",
+        "ts": "1455296399.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "check to see if handleIntent is getting called from foreground dispatch",
+        "ts": "1455297018.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, regarding unlocking case1, is that launched from NFC or from launcher?",
+        "ts": "1455297066.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "relevant beeecausseee the MainActivity can be launched from launcher intent or NDEF intent, which _might_ end up firing off two copies",
+        "ts": "1455297110.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that said, main activity can probably be single top and not break anything",
+        "ts": "1455297138.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "_probably_",
+        "ts": "1455298069.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "unlocking case 1 was from NFC",
+        "ts": "1455298107.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m pretty sure it’s fixed now, without any other side effects ...",
+        "ts": "1455301903.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "nvm",
+        "ts": "1455319491.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I thought he was proposing the worse one",
+        "ts": "1455319497.000039"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "That's how I assumed it would work?",
+        "ts": "1455319502.000040"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "It would advance on click and the next hour would still advance ",
+        "ts": "1455319515.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, I thought he meant or as in not and",
+        "ts": "1455319532.000042"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I don't want to add a preference ",
+        "ts": "1455319535.000043"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Oh. Yeah. ",
+        "ts": "1455319537.000044"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Idea ",
+        "ts": "1455319617.000045"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "What if we have change photo options be \"on button press only\"",
+        "ts": "1455319628.000046"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Never mind. You'd need to override the NFC option then too ",
+        "ts": "1455319644.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, it gets super murky",
+        "ts": "1455319652.000048"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Which reminds me we probably need an icon and text for that don't we ",
+        "ts": "1455319725.000049"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "For the NFC option ",
+        "ts": "1455319732.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "probably, yeah",
+        "ts": "1455319823.000051"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cool, I agree ",
+        "ts": "1455320711.000052"
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: im in echo getting set up if you wanna chat through anything",
+        "ts": "1460390307.000284"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "read through the cubby manual, the door control seems straightforward. It is using some protocol that we will need a java library to tap into. I looked into it its called jamod. I don’t think this is an issue. And the code for how to use it looks pretty straightforward. We should be able to make a test for controlling the door this week",
+        "ts": "1460390312.000285"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U02E3CRMA> scheduler will be basically just pusing a code like 1-X. This sequence of codes will be mapped directly to a template through the ugly configuration. The scheduler on the off days will be set to push codes 6-9, on BL days 1-5. The new code is what tells the display to push the new template that corresponds to that code.",
+        "edited": {
+            "user": "U0EL0GLEL",
+            "ts": "1460395847.000000"
+        },
+        "ts": "1460395830.000286"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "slick!",
+        "ts": "1460395864.000288"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so then every day’s default is 6-9, which gets overridden if a workshop has been pushed to the schedule?",
+        "ts": "1460395887.000289"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it will be a pretty hard set value based in the scheduler. what we will need is ted to set those specific codes in the message sent by the scheduler when he sets up the infinite schedule",
+        "ts": "1460395941.000290"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: and <@U0EL0GLEL> what’s involved in jason testing ou designs on the prototype?  whats the workflow?  wondering if it needs otbe optimized so it’s not disruptive to peter to ‘put shit up on the wall'",
+        "ts": "1460411646.000291"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "really depends on how the designs are presented to be placed on the wall. if we want to do proper tests we would need to make that design in the template, or at least render them in chrome.  taking an image and putting it up there isnt going to be the same as the design being turned into a template and then displayed.",
+        "ts": "1460411768.000292"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "would say there is going to be some form of effort in prepping something to put up there is a legit test. But at the moment, i dont think i would test anything against there yet. We need to finalize on the resolution, the driver settings, the planar settings, all that stuff before its of any value. as we seen changes made to those things had big impact on what was output on the screen",
+        "ts": "1460411880.000293"
+    },
+    {
+        "user": "U02618EV1",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U02618EV1|gaston> has left the channel",
+        "ts": "1460413752.000294"
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "HP announces its break up.",
+        "ts": "1412615180.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<http:\/\/www.nytimes.com\/2014\/10\/07\/business\/hewlett-packard-announces-breakup-plan.html?hp&amp;action=click&amp;pgtype=Homepage&amp;version=HpSum&amp;module=second-column-region&amp;region=top-news&amp;WT.nav=top-news&amp;_r=0>",
+        "ts": "1412615181.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<!channel>: is there an ipad app",
+        "ts": "1412625542.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the iOS code is currently only for iPhone",
+        "ts": "1412625625.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "if we wanted to add iPad we could either\n1. shim the current code with an iPad version (this is a lot of work and a huge headache for weeks at a time),\n2. create an entirely separate project with the iPad app (this is a lot of work and pretty silly, from a maintenance point of view), or\n3. rewrite the current project to have both iPhone and iPad targets (this is a similar amount of work to the other options and also gives us a huge advantage for future maintenance--maybe after a rewrite the code won't have so many gaping wounds)",
+        "ts": "1412625809.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<!channel>: are we saying that we dont want to support eprint since it requires server side\/node work?",
+        "ts": "1412638147.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "think i'm a little confused.",
+        "ts": "1412638166.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm saying I'm not equipped to do the server work for ePrint to support photogram",
+        "ts": "1412638454.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ok",
+        "ts": "1412638477.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i could learn Node, and <@U026PHQ3J> seems to think that's not difficult, but I think I've already got my hands full with the iOS code",
+        "ts": "1412638497.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "it sounds like then part of month 4's hours need to go toward photogram as well.",
+        "ts": "1412638506.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "i'll figure out the accounting tonight &amp; get back to you with the plan tomorrow, and pending shane's design direction, we can move forward. how does this sound?",
+        "ts": "1412638539.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "fine by me",
+        "ts": "1412638547.000014"
+    }
+]

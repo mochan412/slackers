@@ -1,0 +1,198 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Hey <@U026PLK4S> <@U0260V1BX> <@U0260V4K1>. When choosing the name of a project's location and artist's hometown in the CMS, is the plan to give them a list of countries to choose from, or just accept any string they want?",
+        "ts": "1437155867.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0518TGU8>",
+        "ts": "1437155875.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "we havent really discussed this with them, but i would think the latter",
+        "ts": "1437155904.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I’d probably say any string",
+        "ts": "1437155908.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Cool. And does Artist's Location = Project's Location ?",
+        "ts": "1437155977.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "or the other way around, or maybe they can differ?",
+        "ts": "1437155991.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i think they said that the nature of their grants, is that both are connected",
+        "ts": "1437156005.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes, i would say they are the same",
+        "ts": "1437156013.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Okay, I remember them saying that but wanted to make sure we didn't want to give them control over it anyway",
+        "ts": "1437156045.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "ah. good call.",
+        "ts": "1437156086.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah part of me deep down still feels like we should give them that control",
+        "ts": "1437156117.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but i think its overkill if they are in fact the same. I think the one scenario where I could see differentiation taking place is, assigning a country for the project, and getting more specific with the artist location",
+        "ts": "1437156184.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "like this project is about syria. photographer is from damascus",
+        "ts": "1437156198.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Is there any issue with going ahead and giving them control over both? Worst case they have to type the same word twice in the CMS",
+        "ts": "1437156249.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0260V4K1> <@U026PLK4S> thoughts?",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1437156329.000000"
+        },
+        "ts": "1437156284.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "we could build out two fields and confirm with them. we can always hide one later right?",
+        "ts": "1437156337.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sorry, i’m of two minds on this",
+        "ts": "1437156345.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "When they assign an artist to a project in the CMS, the project's location form field could default to that artist's location but stay editable?",
+        "ts": "1437156354.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0260V1BX> yes",
+        "ts": "1437156365.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "thats a good call",
+        "ts": "1437156376.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah i like that approach jenny. but i would do switch the order. give location for a project and then autofill the artist location",
+        "ts": "1437156401.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "design for the most regular case, but bake in an option to change it",
+        "ts": "1437156413.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "so - on our last call didn’t they say the location of the photographer is the location of the project?",
+        "ts": "1437156426.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "ultimately, I’m fine with either",
+        "ts": "1437156441.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes, but countries are big.",
+        "ts": "1437156454.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "i don’t think it’s a huge problem, but i like the affordance that’s built in.",
+        "ts": "1437156489.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "like, maybe the socotra island projects location is Yemen, but the artist is actually from socotra island.",
+        "ts": "1437156523.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i dont know. i could go either way too but yeah i like the flexibility",
+        "ts": "1437156546.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "as long as it doesn’t bring up any design issues, I’m fine with whatever",
+        "ts": "1437156589.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":thumbsup: i'll do two separate, editable fields that default to being the same",
+        "ts": "1437156653.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks jenny!",
+        "ts": "1437156691.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hey <@U026PLK4S>, do you have an asset for the map you could send my way? I know there's a chance it will change but even a placeholder would be helpful.",
+        "ts": "1437165290.000034"
+    }
+]

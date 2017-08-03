@@ -1,0 +1,127 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hey <@U0261PCRQ> here's the branch where I've got a cached case image for places usable",
+        "ts": "1468267539.000277"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`match_case_feature`",
+        "ts": "1468267541.000278"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i don't have backward compat in place yet, so it wont back-populate the case image yet.",
+        "ts": "1468267554.000279"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oops. found a bug.",
+        "ts": "1468267573.000280"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F>: if you have time this afternoon, i want to talk thru some UX issues with this change",
+        "ts": "1468267692.000281"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey <@U026PHQ3J> per our hall chat - just reviewed my notes and i captured the ask as “toggle on case location” vs. case image for places.",
+        "ts": "1468268104.000282"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "happy to confirm with Adam if you think necessary, but feel pretty good about moving forward with the “match case location” update, allowing the user to still be able to style that map (and avoiding the weird UX issue of needing to maybe hide the styling for those who would select “match case image”)",
+        "ts": "1468268140.000283"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh hey, forgot that we obfuscate the order id so we wont be able to cache an offline tile until someone uses the NFC chip",
+        "ts": "1468297264.000284"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I have a build that doesn't parallax in moments, and uses the NFC chip to get the order ID (since we can't read it back out of the datastore)",
+        "ts": "1468300111.000285"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "when it doesn't have a cached case image, it shows a Toast for now",
+        "ts": "1468300129.000286"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and disables the switch.",
+        "ts": "1468300137.000287"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "BONUS ROUND:",
+        "ts": "1468300155.000288"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F1QRCSLE5\/device-2016-07-11-220936.mp4|device-2016-07-11-220936.mp4>",
+        "file": {
+            "id": "F1QRCSLE5",
+            "created": 1468300209,
+            "timestamp": 1468300209,
+            "name": "device-2016-07-11-220936.mp4",
+            "title": "device-2016-07-11-220936.mp4",
+            "mimetype": "video\/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG 4 Video",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 4679304,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1QRCSLE5\/device-2016-07-11-220936.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F1QRCSLE5\/download\/device-2016-07-11-220936.mp4?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F1QRCSLE5\/device-2016-07-11-220936.mp4",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F1QRCSLE5-3352a8b360",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1468300210.000289"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`oneTab` has the latest for anyone interested (note that my dumb offscreen issue was actually due to the fact that if you interpolate the height of a View down to exactly 0, then you seem to be unable to get it to not be 0",
+        "ts": "1468301454.000290"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the latest is better at only one artist than the last one was",
+        "ts": "1468301472.000291"
+    }
+]

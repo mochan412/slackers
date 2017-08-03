@@ -1,0 +1,403 @@
+[
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U0289USNA> is there a good reference I can use for App store versions? I noticed branches named \"officialRelease2_6\" and \"officialRelease2_4\", were these submissions to the app store?",
+        "ts": "1429565491.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Yeah that would be my guess…  let me see what I can do",
+        "ts": "1429565579.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 1.0  - April 17th 2012",
+        "ts": "1429565713.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 1.1 - May 8th 2012",
+        "ts": "1429565728.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 1.2 May 16th 2012",
+        "ts": "1429565743.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 1.3 July 30th 2012",
+        "ts": "1429565761.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Versoin 1.4 December 17th 2012",
+        "ts": "1429565783.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 1.4 January 18th 2013",
+        "ts": "1429565801.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "err…  1.5",
+        "ts": "1429565810.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 2.0 April 11th 2013",
+        "ts": "1429565829.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 2.0.1 April 21st 2013",
+        "ts": "1429565852.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 2.2 July 19th 2013",
+        "ts": "1429565879.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 2.3 August 18th 2013",
+        "ts": "1429565893.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 2.4.1 December 28th 2013",
+        "ts": "1429565918.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 2.5.4 March 11th 2014",
+        "ts": "1429565943.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Version 2.6.0 April 8th 2014",
+        "ts": "1429565965.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "So 13 AppStore releases",
+        "ts": "1429565990.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "needle, haystack…  what?",
+        "ts": "1429566013.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "in the git repo there are is a mix of tags and branches denoting release versions",
+        "ts": "1429566055.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "but I do not think it was well maintained or consistent.",
+        "ts": "1429566069.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I don't see any tags, and only 10 \"officialRelease\" branches",
+        "ts": "1429566099.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "10 is not bad…  2.0 and 2.0.1 are likely on the same branch",
+        "ts": "1429566131.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "But I do see things like \"4inchupgrade\"",
+        "ts": "1429566137.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "so maybe those are involved as well?",
+        "ts": "1429566146.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "the branch was typically used not for the development of the release but at the end to mark the point of the release",
+        "ts": "1429566183.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "so 4inchupgrade was a development branch that eventually let to a “officialRelease_” branch to tag the repo in the right state.",
+        "ts": "1429566233.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "gotcha",
+        "ts": "1429566241.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "uncorked as a team has never ever been able to successfully use tags - so for a while I had us using branches to fill the gap of what should technically have been a tag.",
+        "ts": "1429566285.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "^— in the context of git",
+        "ts": "1429566312.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "hah",
+        "ts": "1429566312.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "what has stood in our way to successfully use tags?",
+        "ts": "1429566325.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "because i'm for 'em",
+        "ts": "1429566331.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "people tag locally and the the push command was not pushing the tag to remote",
+        "ts": "1429566351.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "ah",
+        "ts": "1429566356.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I believe there is a seperate command to type to push your tags.",
+        "ts": "1429566383.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "^— I could be completely wrong.",
+        "ts": "1429566393.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i run `git push --tags` separately. i wonder if there's a config way to bundle it in",
+        "ts": "1429566395.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "a branch with no commits is nothing more than a tag technically speaking, in a git sense.   So making the release with a branch fit in everyone’s flow and push would push it…   not defending the practice necessarily, but it works.",
+        "ts": "1429566487.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "sure",
+        "ts": "1429566504.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I like the tags' ability to contain a message though, so a release-point tag could contain a high-level summary of what was accomplished since the last version",
+        "ts": "1429566543.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "So the question is then to map the officialRelease branches to the list of app store builds I provided and see which ones you are missing and if we care that they are missing.",
+        "ts": "1429566559.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I could likely find the last commit and retroactively create the missing officialRelease_ branch for any you are missing.",
+        "ts": "1429566596.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "items on your list but not in the branches: 2.0.1, 2.2, 2.3, 2.4.1, 2.5.4",
+        "ts": "1429566710.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "items in the branches but not on your list: 2_1, 2_4",
+        "ts": "1429566726.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "bummer….  so the more recent ones, eh?",
+        "ts": "1429566752.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "yeah. i bet 2_4 corresponds to 2.4.1 though",
+        "ts": "1429566788.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "yes, I would guess.",
+        "ts": "1429566878.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I think I'm ok just testing against the existing branches",
+        "ts": "1429566897.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I just need a ballpark for app versions to test against the new interstitials data mdoel",
+        "ts": "1429566917.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I can try to check Flurry and see what app versions are the most common.",
+        "ts": "1429566960.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Wow…  talk about adoption rate!   97.6% are using build 2.6.0",
+        "ts": "1429567217.000052"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0289USNA|scott> uploaded a file: <https:\/\/uncorked.slack.com\/files\/scott\/F04G06DFB\/screen_shot_2015-04-20_at_2.59.39_pm.png|Screen Shot 2015-04-20 at 2.59.39 PM.png>",
+        "file": {
+            "id": "F04G06DFB",
+            "created": 1429567235,
+            "timestamp": 1429567235,
+            "name": "Screen Shot 2015-04-20 at 2.59.39 PM.png",
+            "title": "Screen Shot 2015-04-20 at 2.59.39 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0289USNA",
+            "editable": false,
+            "size": 45043,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04G06DFB\/screen_shot_2015-04-20_at_2.59.39_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F04G06DFB\/download\/screen_shot_2015-04-20_at_2.59.39_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F04G06DFB-8e17500e39\/screen_shot_2015-04-20_at_2.59.39_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F04G06DFB-8e17500e39\/screen_shot_2015-04-20_at_2.59.39_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F04G06DFB-8e17500e39\/screen_shot_2015-04-20_at_2.59.39_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F04G06DFB-8e17500e39\/screen_shot_2015-04-20_at_2.59.39_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F04G06DFB-8e17500e39\/screen_shot_2015-04-20_at_2.59.39_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "image_exif_rotation": 1,
+            "original_w": 739,
+            "original_h": 416,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/scott\/F04G06DFB\/screen_shot_2015-04-20_at_2.59.39_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F04G06DFB-ca7578be16",
+            "channels": [
+                "C03ASLFJE"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0289USNA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "scott",
+        "bot_id": null,
+        "ts": "1429567237.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i'm betting adoption rates went up a lot when ios introduced the background updates",
+        "ts": "1429567240.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "i'm just gonna test with 2.6.0 during implementation, then for QA we can expand that",
+        "ts": "1429567265.000055"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "totally sounds like the right plan",
+        "ts": "1429567298.000056"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I would bet that the 10.8 users still on build 1.3.63 are on old hardware that wont receive this update anyways",
+        "ts": "1429567347.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U0289USNA> I can successfully run officialRelease2_6 from Xcode 5.1.1 to my iPad",
+        "ts": "1429576951.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "and a draft movie from 2_6 appears to have no issue upgrading to the new version!",
+        "ts": "1429577543.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "That's good to hear @spilliams.  Definitely try an elaborate one with all the features you can ( interstitials and sound effects, etc)",
+        "ts": "1429589805.000002"
+    }
+]

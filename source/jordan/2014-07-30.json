@@ -1,0 +1,137 @@
+[
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U0289USNA> <@U026PHQ3J> when creating posts you can set attachmentWidth and attachmentHeight to integers",
+        "ts": "1406744434.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Cool, thanks Jenny. I'll try it out a bit later today to confirm",
+        "ts": "1406744594.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PLK4S",
+        "text": "attachmentHeighth",
+        "ts": "1406744651.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":blush:",
+        "ts": "1406744687.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "“Well, the good news is I can reproduce what you are seeing.  The bad news is this seems to be a serious design flaw in our server that won't be fixed quickly.  It is actually the lack of any locking, table or otherwise, that allows requests to step on each other.\"",
+        "ts": "1406758377.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "-HipChat Guy",
+        "ts": "1406758382.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh great",
+        "ts": "1406758424.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I’m going to submit a formal request for a bulk member adding resource and ask him how long he predicts for either the resource or solving this bigger issue will take.",
+        "ts": "1406758471.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "In the mean time I’ll try to run the requests as quickly as I can on our Jordan backend",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1406758536.000000"
+        },
+        "ts": "1406758522.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "The API version we’re using _is_ in beta :neutral_face:",
+        "ts": "1406758568.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "HipChat guy responded already",
+        "ts": "1406759302.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "\"As for length, honestly, probably months as the integration team is slammed trying to do some basic stuff for our upcoming Atlassian Summit conference.  What are you building?\"",
+        "ts": "1406759315.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": ":disappointed:",
+        "ts": "1406759334.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "We need to get Jordan to throw their promised weight around on this",
+        "ts": "1406759541.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/stream1.gifsoup.com\/view6\/2395034\/fuuuu-o.gif>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/stream1.gifsoup.com\/view6\/2395034\/fuuuu-o.gif",
+                "fallback": "320x231px image",
+                "image_url": "http:\/\/stream1.gifsoup.com\/view6\/2395034\/fuuuu-o.gif",
+                "image_width": 320,
+                "image_height": 231,
+                "image_bytes": 931859,
+                "id": 1
+            }
+        ],
+        "ts": "1406759567.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Bummer! Thanks for investigating, Jenny. I think it's reasonable to limit the amount of users in a single, particularly for launch. We can let them know that it might be able to be unlimited in the future, but I don't think it's a big usability issue.",
+        "ts": "1406760015.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "10 people? 20? Each takes x seconds to load, right?",
+        "ts": "1406760040.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah. i’ll do some more detailed investigating today and see how much of a delay we’re looking at for each user",
+        "ts": "1406760103.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "then we can decide on what the limit is?",
+        "ts": "1406760118.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "sounds good to me.",
+        "ts": "1406761030.000023"
+    }
+]

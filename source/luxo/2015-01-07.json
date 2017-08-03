@@ -1,0 +1,298 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<!channel> anyone knows how to fix the rig's projection?",
+        "ts": "1420668668.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes",
+        "ts": "1420668677.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "hit the menu on the projector, keystone menu",
+        "ts": "1420668701.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "then +\/- will adjust keystone setting",
+        "ts": "1420668709.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "you want it set at ~5 IIRC",
+        "ts": "1420668716.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "major PITA that it won't save through a power cycle",
+        "ts": "1420668730.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "Good to go on the feature changes I emailed. Luke has confirmed.",
+        "ts": "1420668743.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Good ol' keystoning.",
+        "ts": "1420668744.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks <@U02E3CRMA> and <@U02918BKW>",
+        "ts": "1420668763.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ignore the fact that the current pot circles will be offset incorrectly on our rig since PIT has their projector on the opposite side from the camera and upside down",
+        "ts": "1420668851.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "OK",
+        "ts": "1420668944.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Also, do we want to work on a dev branch for this? Too close to their demo day.",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1420669005.000000"
+        },
+        "ts": "1420668992.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes",
+        "ts": "1420669050.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "my checkin to master yesterday was 1.1.1, and is what's on their rig",
+        "ts": "1420669081.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "let's branch for these changes, test and merge for a 1.1.2 release to the rig",
+        "ts": "1420669119.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll tag the repo in a moment",
+        "ts": "1420669124.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "sorry, yesterday was 1.1.2",
+        "ts": "1420669602.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "tagging accordingly",
+        "ts": "1420669606.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hey <@U02E3CRMA> if gaston and i want to run what's currently in master on the rig, would you recommend updating the luxo service or just running it out of one of the luxo directories?",
+        "ts": "1420669743.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "(uncorked's rig)",
+        "ts": "1420669769.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "let's update the rig anyway - I'll push the package up in a moment so you can run apt-get upgrade",
+        "ts": "1420669788.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "give me a couple mins...",
+        "ts": "1420669794.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ok",
+        "ts": "1420669816.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "would prefer to dev in ~\/luxo and then package when ready",
+        "ts": "1420669852.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "ya that makes sense. you're updating the service now with what's currently in master though, right?",
+        "ts": "1420669953.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "gotta get back to my meeting....could you do this for me from luxo\/build:",
+        "ts": "1420670240.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "sudo dpkg -i luxo_1.1-2.deb",
+        "ts": "1420670257.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "that will get the system up to the same state as the PIT rig",
+        "ts": "1420670265.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "oh....and do a sudo stop luxo first, then sudo start luxo after",
+        "ts": "1420670284.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "k got it",
+        "ts": "1420670304.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "thanks",
+        "ts": "1420670342.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "i'll re-engage after my meeting at 3pm...",
+        "ts": "1420670370.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02E3CRMA> Do you know what #5 (from John's email) is about?",
+        "edited": {
+            "user": "U02618EV1",
+            "ts": "1420673408.000000"
+        },
+        "ts": "1420673382.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "\"5) Avoid needing to do CNTRL-R on fresh launch \nJoel supposedly working on this. Joel please provide risk assessment, \nCNTRL-R may be preferred to risk. \"",
+        "ts": "1420673386.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "luke's screenshot is definitely camera height related",
+        "ts": "1420674211.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02613K0X> <@U02618EV1>",
+        "ts": "1420674226.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the resolution is going to be HORRIBLE at that distance",
+        "ts": "1420674253.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "you think the difference is larger than what we were seeing on our rig?",
+        "ts": "1420674254.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "did you see his post?",
+        "ts": "1420674260.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it's already horrible",
+        "ts": "1420674262.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah",
+        "ts": "1420674263.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think his was slightly worse than ours",
+        "ts": "1420674288.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but",
+        "ts": "1420674288.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we wont know until he tries the new version",
+        "ts": "1420674294.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Very close, though.",
+        "ts": "1420674299.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think we're probably fine or close enough to fine that its indistinguishable from fine",
+        "ts": "1420674346.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah i think so too",
+        "ts": "1420674420.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "either way, i'm adding a parameter for a multiplier that will be applied to the original crop dimensions, so we can tweak it later if necessary",
+        "ts": "1420674522.000052"
+    }
+]

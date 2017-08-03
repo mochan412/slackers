@@ -1,0 +1,670 @@
+[
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<!channel>: client wants to know if he can begin adding beers to the cms",
+        "ts": "1408641212.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "will this get in the way of anybody today?",
+        "ts": "1408641221.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "hey karen. there are a couple things a would like clarification on in the cms before adding beers is completely finished. do you think you, me and gaston could chat really quick this morning?",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1408641447.000000"
+        },
+        "ts": "1408641437.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Yes -- let me know when it's a good time.",
+        "ts": "1408641555.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "now or whenever is good with me",
+        "ts": "1408641616.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<@U02618EV1>: let us know when a good time presents itself.",
+        "ts": "1408641675.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Sure. Is this separate from the checkin later today?",
+        "ts": "1408641843.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yes this is me needing a couple answers to some questions so the beer pages in the cms can be wrapped up asap",
+        "ts": "1408641878.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Sure thing before 11 is probably better",
+        "ts": "1408642001.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "now?",
+        "ts": "1408642008.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "sure",
+        "ts": "1408642012.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "okay",
+        "ts": "1408642028.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "mt room we goo",
+        "ts": "1408642031.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<!channel>: forgot my question i had for you guys",
+        "ts": "1408642773.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "client's asking if there's a preview\/staging site he can view what he's entering?",
+        "ts": "1408642784.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<http:\/\/sbdev.uncorkedstudios.com|sbdev.uncorkedstudios.com> is wired up (mostly)",
+        "ts": "1408642859.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "also could be worth noting that the cms has a bunch of beer data that is both fake and taken from their existing site",
+        "ts": "1408642931.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "not sure if we want to delete it all and start fresh or not",
+        "ts": "1408642974.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "let's leave it in there and we can clean up a little later.",
+        "ts": "1408643061.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "unless it makes sense to delete now. otherwise im okay cleaning up later.",
+        "ts": "1408643074.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it could confuse the client when entering beers is the only thing",
+        "ts": "1408643137.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "okay let's take them out",
+        "ts": "1408643623.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "if you let me know which ones are fake i can go through and delete",
+        "ts": "1408643633.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The only concern I have about that is that we're using those entries to develop or front-end.",
+        "ts": "1408643678.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "think we should leave them in, then.",
+        "ts": "1408643690.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "+1",
+        "ts": "1408643717.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh right i didn’t think about that",
+        "ts": "1408643887.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "One thing we could do is ask them to publish their entries. Once they're done, we can delete all the \"draft.\"",
+        "ts": "1408644013.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "entries.",
+        "ts": "1408644017.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yesterday i made it so publish and save are synonymous, so once something is saved in the CMS, its state is published. so no new content will have a state of draft.",
+        "ts": "1408644151.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "this shouldn’t change anything for you gaston, but it might be of interest still",
+        "ts": "1408644173.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<!channel> what’s going on with this recurring event thing? it’s not trivial",
+        "ts": "1408655964.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "It's also news to me.",
+        "ts": "1408655992.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "they want to be able to create an event with a time and date and mark it as recurring weekly? but in the screenshot they sent there are options for it to recur in a different pattern",
+        "ts": "1408656042.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "can we keep cms as is and have them re enter recurring events?",
+        "ts": "1408656105.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "if it's not trivial let's please chat.",
+        "ts": "1408656116.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "this is news to me as well.",
+        "ts": "1408656119.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "as it stands, when they enter an event it will show up immediately on the front end until the event is over",
+        "ts": "1408656159.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "and if it should reoccur, they can just re-add it, correct?",
+        "ts": "1408656198.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "so they would have to enter separate events for each week, but if they enter them all at once they will all show up on the front end unless we filter what shows on the site to only show events a week out or less or something like that",
+        "ts": "1408656234.000042"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yes they can just re-add it",
+        "ts": "1408656240.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "but if they add, say, 5 weeks of pint glass thursdays all at once they will all show up unless we tell events a week or more in the future to be hidden",
+        "ts": "1408656310.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "what is the non-trivial part",
+        "ts": "1408656334.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "is they mark an event as recurring, the server will need to auto generate that event every week or month or whatever",
+        "ts": "1408656376.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "okay",
+        "ts": "1408656398.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it’s not that bad but probably can’t be finished today",
+        "ts": "1408656406.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "roughly how much time",
+        "ts": "1408656413.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "what could we get done today",
+        "ts": "1408656419.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "on events?",
+        "ts": "1408656425.000051"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "how do we side step the work on the server side to make events recurring",
+        "ts": "1408656455.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i’ll give it a shot in the next 30 mins or so and see how close i get",
+        "ts": "1408656517.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "do they only want weekly?",
+        "ts": "1408656525.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "they have recurring and non recurring events",
+        "ts": "1408656566.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "right",
+        "ts": "1408656576.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "sounds like recurring events in any sense is work on the server side we didn't plan for?",
+        "ts": "1408656580.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah but the more i think about it it might not be so bad",
+        "ts": "1408656619.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "as far as recurring events though, do they only expect weekly?",
+        "ts": "1408656635.000059"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "do 30 minutes and let me know how it goes.",
+        "ts": "1408656637.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "we’re set up to handle non-recurring already",
+        "ts": "1408656645.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "if it's a hairy beast let's reach out to the client",
+        "ts": "1408656649.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "do they only expect to be able to schedule things as weekly?",
+        "ts": "1408656686.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "for recurring events",
+        "ts": "1408656690.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "simple events",
+        "ts": "1408656711.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "nothing crazy.",
+        "ts": "1408656713.000066"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "but weekly?",
+        "ts": "1408656718.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "as opposed to giving them monthly, biweekly, etc. options as well?",
+        "ts": "1408656749.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "is weekly the issue on the server",
+        "ts": "1408656786.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "no",
+        "ts": "1408656790.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ok",
+        "ts": "1408656792.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "but i need to know if they want MORE than weekly",
+        "ts": "1408656797.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ok",
+        "ts": "1408656825.000073"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> all I will need from you is the recurring flag",
+        "ts": "1408656827.000074"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "what do you mean if they want more than weekly",
+        "ts": "1408656838.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "bi-weekly?",
+        "ts": "1408656843.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "if they want more options for recurring patterns than just weekly",
+        "ts": "1408656857.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1> what do you need the recurring flag for?",
+        "ts": "1408656871.000078"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "i see",
+        "ts": "1408656881.000079"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "isee",
+        "ts": "1408656882.000080"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I need to know if the event is recurring (yes\/no) so I can update the \"add to\" calendar script",
+        "ts": "1408656902.000081"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oo ok gotcha",
+        "ts": "1408656943.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i’m going to assume weekly right now",
+        "ts": "1408657162.000083"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ok",
+        "ts": "1408657176.000084"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "lets assume weekly",
+        "ts": "1408657182.000085"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "from the looks of their site that’s all they do now",
+        "ts": "1408657196.000086"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "So does weekly = recurring?",
+        "ts": "1408657210.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "the flag name or in general?",
+        "ts": "1408657228.000088"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "For the purposes of this site.",
+        "ts": "1408657244.000089"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hey <@U02613K0X> here are new beer sizes we need",
+        "ts": "1408657965.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Width 120px ( retina), width 60px (desktop @1x)",
+        "ts": "1408658030.000091"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The height is dictated by the images' aspect ratio.",
+        "ts": "1408658054.000092"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay, so we need these versions of the beer glass assets to put up on s3",
+        "ts": "1408658091.000093"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes, please.",
+        "ts": "1408658124.000094"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "are the assets i have the correct ones?",
+        "ts": "1408658132.000095"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "there seemed to be some confusion on that this morning i guess they’ve sent us a bunch?",
+        "ts": "1408658157.000096"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Probably not.",
+        "ts": "1408658165.000097"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I just got the correct ones so you probably don't have them.",
+        "ts": "1408658186.000098"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<https:\/\/mafilexfer.mullen.com\/message\/KnEHAlez1lfPxP7YSDhmSY>",
+        "ts": "1408658200.000099"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "You can get them from this link.",
+        "ts": "1408658209.000100"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "okay and i just resize them?",
+        "ts": "1408658221.000101"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i’m just going to use preview to resize them and save them to s3 unless there is a better way i should be doing it",
+        "ts": "1408658248.000102"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Can we have the CMS resize them?",
+        "ts": "1408658253.000103"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it’s not really set up for that but i could tweak it to be if you think that’s better?",
+        "ts": "1408658301.000104"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Ohhh, I completely forgot we don't have the client add these.",
+        "ts": "1408658326.000105"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah. we are adding them",
+        "ts": "1408658342.000106"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Let me resize them for you. May take a while b\/c of the Adobe thing not working for me.",
+        "ts": "1408658355.000107"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it’s not too much trouble?",
+        "ts": "1408658377.000108"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "On the phone with Adobe again. Need their programs to make this thing.",
+        "ts": "1408659214.000109"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1408661214.000110"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<!channel> Are we doing our meeting?",
+        "ts": "1408662060.000111"
+    },
+    {
+        "text": "[smallbatch-frontend\/] 3 new commits:\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/ded2478d65ef62ffd0519bc37ecdf8385a380a97|ded2478d65ef>: Wired up desktop footer social media.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/78bca890e6a76c3ba4c146887bf533f9783aeaf2|78bca890e6a7>: Add beer img to home and add initial share this functionality.\n - Gaston Figueroa\n[smallbatch-frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/smallbatch-frontend\/commits\/7b23d5507f4ffbf1e9eb0040a03e5ad76267a419|7b23d5507f4f>: Small adjustments and added footer bg on philosophy.\n - Gaston Figueroa",
+        "username": "bitbucket",
+        "bot_id": "B02AZR08H",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1408677117.000002"
+    }
+]

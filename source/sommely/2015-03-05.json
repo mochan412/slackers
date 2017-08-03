@@ -1,0 +1,70 @@
+[
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "holy cow, somehow i missed all the action last night. Nice work guys!",
+        "ts": "1425578509.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "The boards look great and the videos are awesome.",
+        "ts": "1425578662.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "How easy would it be to test how long a battery lasts now? Could we set it up one morning and keep an eye on it throughout the day?",
+        "ts": "1425578665.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "well if we had some idea of battery usage during one cycle of processor wakeup, wireless warmup, send and receive, and blink leds, we could start making some wild-ass guesses",
+        "ts": "1425578824.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "total battery capacity depends on current draw, ambient temperature so it could get a lot more complex",
+        "ts": "1425578873.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "we should probably get the board fully populated first before mucking with battery stuff unless it was super important to get a grasp of the processor current wakeup time\/current draw by itself",
+        "ts": "1425578947.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "got it",
+        "ts": "1425579008.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "nm then - populate away!",
+        "ts": "1425579016.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "here is the datasheet for the panasonic CR2450 battery: <http:\/\/na.industrial.panasonic.com\/sites\/default\/pidsa\/files\/crseries_datasheets_merged.pdf>",
+        "ts": "1425579084.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "some more light reading for <@U026NB2U2>: <http:\/\/www.digikey.com\/en\/articles\/techzone\/2014\/aug\/selecting-batteries-for-iot-devices>",
+        "attachments": [
+            {
+                "text": "Discover how a primary battery can be used to supplement an energy harvesting, energy storage subsystem to create a longer power lifetime for an IoT product.",
+                "fallback": "Discover how a primary battery can be used to supplement an energy harvesting, energy storage subsystem to create a longer power lifetime for an IoT product.",
+                "from_url": "http:\/\/www.digikey.com\/en\/articles\/techzone\/2014\/aug\/selecting-batteries-for-iot-devices",
+                "id": 1
+            }
+        ],
+        "ts": "1425579178.000011"
+    }
+]

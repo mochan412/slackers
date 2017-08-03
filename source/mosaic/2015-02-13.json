@@ -1,0 +1,130 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I am trying out the SFCD memory game app, since I realized I have 2 phones that can run it",
+        "ts": "1423849628.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "And it does not use wifi direct... all participating phones have to be on a common subnet of a wifi network, and the server uses multicast to announce itself to clients",
+        "ts": "1423849689.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "and that approach is definitely not going to be generalizable",
+        "ts": "1423849738.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "it's very crashy with just 1 server\/1 client",
+        "ts": "1423849833.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh wow. I didn't realize that. They have the P2P example code stack in the app, I just assumed it was using that",
+        "ts": "1423849921.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "well, the memory game at least uses that client\/server approach, I'm going to see about the video and whack-a-mole demos",
+        "ts": "1423850072.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "video demo uses same, and doesn't sync properly at all",
+        "ts": "1423850246.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah. i had 0 luck with the video demo.",
+        "ts": "1423850263.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I was never able to get an mDNS thing working on KitKat+",
+        "ts": "1423850290.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "fwiw",
+        "ts": "1423850293.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "P2P works fine, but not a generic bonjour approach",
+        "ts": "1423850305.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and their P2P implementation is sort of like mDNS",
+        "ts": "1423850333.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm testing it against a Jellybean phone and a Lollipop phone with different screen resolutions just to be cantankerous",
+        "ts": "1423850337.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hahaha",
+        "ts": "1423850342.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "whack-a-mole is not too interesting, one screen has the game and the other screen is a scoreboard",
+        "ts": "1423850857.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm working on setting up and testing the possible codebase, but I need to update Node and a bunch of packages to start the server",
+        "ts": "1423853400.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ugh, even a fresh Node install is all messed up",
+        "ts": "1423854395.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "node 0.12 doesn't seem to be very compatible with OSX 10.10, I'm chasing all kinds of failures and hangs just trying to install packages",
+        "ts": "1423856222.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "all right, I think I fixed all my node problems and got the server running",
+        "ts": "1423857300.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026NB2U2",
+        "text": "<@U02F90CRQ>: Welcome, Rob!",
+        "ts": "1423867638.000021"
+    },
+    {
+        "user": "U02F90CRQ",
+        "inviter": "U026NB2U2",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U02F90CRQ|robt> has joined the channel",
+        "ts": "1423867642.000022"
+    }
+]

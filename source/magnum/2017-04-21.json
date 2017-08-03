@@ -1,0 +1,871 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I’d love to get back to them today with at least a plan of we’ll investigate moving options more and we think X is a good start",
+        "ts": "1492783353.406689"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J> know you were looking at this last night",
+        "ts": "1492783363.411644"
+    },
+    {
+        "user": "U0265G76F",
+        "inviter": "U06DFL7BP",
+        "text": "<@U0265G76F|iamewald> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1492783375.417643"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Let me take a look from the \"can we pick it up and put it back down elsewhere\" angle this morning ",
+        "ts": "1492783442.449794"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thanks",
+        "ts": "1492783554.502858"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "thanks evans",
+        "ts": "1492783781.609432"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "&gt; Seeing this just now, but if Mongo is the biggest issue, we can just move that. Have their hostmonster instance connect externally for Mongo (we’ll need to move Mongo over to AWS). It’s a quick fix to current issue, not a final solution. But it gets them up &amp; running and buys us more time to make a plan.",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1492786042.000000"
+        },
+        "ts": "1492785651.544145"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "this sounds like a viable plan from <@U1S5GKTHQ> in the near term",
+        "ts": "1492785657.547058"
+    },
+    {
+        "user": "U1S5GKTHQ",
+        "inviter": "U06DFL7BP",
+        "text": "<@U1S5GKTHQ|dimitry> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1492785659.548157"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "That IS a great solve ",
+        "ts": "1492785849.643897"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll do that ",
+        "ts": "1492785886.663681"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Can do it today as well, just lemme know",
+        "ts": "1492786772.128727"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "cpanel.. jesus. been a while",
+        "ts": "1492786790.137970"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Looooool. I won't be in for like an hour ",
+        "ts": "1492786977.244529"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "But I don't care who moves first ",
+        "ts": "1492786987.249923"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "New MongoBD Server: `52.89.33.234`\nSSH Connect: `ssh -i ~\/.ssh\/ucs-magnum.pem ec2-user@52.89.33.234`\nMongoDB Connect URI: `mongo -u magnum -p 65098a7ef80904e5072fe08435f9f88a --authenticationDatabase admin 52.89.33.234\/magnum`",
+        "ts": "1492799501.211748"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U1S5GKTHQ",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[April 21st, 2017 11:31 AM] dimitry: New MongoBD Server: `52.89.33.234`\nSSH Connect: `ssh -i ~\/.ssh\/ucs-magnum.pem ec2-user@52.89.33.234`\nMongoDB Connect URI: `mongo -u magnum -p 65098a7ef80904e5072fe08435f9f88a --authenticationDatabase admin 52.89.33.234\/magnum`",
+                "ts": "1492799501.211748",
+                "author_subname": "dimitry",
+                "channel_id": "C063R1S90",
+                "channel_name": "magnum",
+                "is_msg_unfurl": true,
+                "text": "New MongoBD Server: `52.89.33.234`\nSSH Connect: `ssh -i ~\/.ssh\/ucs-magnum.pem ec2-user@52.89.33.234`\nMongoDB Connect URI: `mongo -u magnum -p 65098a7ef80904e5072fe08435f9f88a --authenticationDatabase admin 52.89.33.234\/magnum`",
+                "author_name": "Dimitry Bentsionov",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/dimitry",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-07-31\/220196410660_08ae16164982d643745e_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U1S5GKTHQ|dimitry> pinned a message to this channel.",
+        "ts": "1492799509.215320"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1S5GKTHQ|dimitry> uploaded a file: <https:\/\/uncorked.slack.com\/files\/dimitry\/F52QPS5J6\/ucs-magnum.pem|ucs-magnum.pem> and commented: Private key for the MongoDB box (EC2)",
+        "file": {
+            "id": "F52QPS5J6",
+            "created": 1492799537,
+            "timestamp": 1492799537,
+            "name": "ucs-magnum.pem",
+            "title": "ucs-magnum.pem",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U1S5GKTHQ",
+            "editable": true,
+            "size": 1692,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52QPS5J6\/ucs-magnum.pem?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52QPS5J6\/download\/ucs-magnum.pem?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F52QPS5J6\/ucs-magnum.pem",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F52QPS5J6-f6937cd269",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/dimitry\/F52QPS5J6\/ucs-magnum.pem\/edit",
+            "preview": "-----BEGIN RSA PRIVATE KEY-----\r\nMIIEowIBAAKCAQEAhdSKiIyjn0y+uOYhPZoIV3YkmZWDWo79e\/EiJXld227e4mQoQTQNmmZ4NA1V\r\nX9jXH9vTGn3qJiQOOQWlzdgb9UtcNOc4t4pp9o0ZdnSlhWWy\/JLEdabfn4scMx4\/Tx3wcMjftWsq\r\npq3+vvIBH7kzzqFKzmjUZWPen7LJeYPHiaRtzUTIAxcdutkkLd32wQPLm+KYelo42oPqN1QU1p4Q\r\nMiwhKyZmBXKKEeonNt4Usq9pcYJiqt0KofEQ2aJ0fiPRSWVos\/JWAo2eMHr4qMdNs41+\/rzTCNDR\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>-----BEGIN RSA PRIVATE KEY-----<\/pre><\/div>\n<div><pre>MIIEowIBAAKCAQEAhdSKiIyjn0y+uOYhPZoIV3YkmZWDWo79e\/EiJXld227e4mQoQTQNmmZ4NA1V<\/pre><\/div>\n<div><pre>X9jXH9vTGn3qJiQOOQWlzdgb9UtcNOc4t4pp9o0ZdnSlhWWy\/JLEdabfn4scMx4\/Tx3wcMjftWsq<\/pre><\/div>\n<div><pre>pq3+vvIBH7kzzqFKzmjUZWPen7LJeYPHiaRtzUTIAxcdutkkLd32wQPLm+KYelo42oPqN1QU1p4Q<\/pre><\/div>\n<div><pre>MiwhKyZmBXKKEeonNt4Usq9pcYJiqt0KofEQ2aJ0fiPRSWVos\/JWAo2eMHr4qMdNs41+\/rzTCNDR<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 23,
+            "lines_more": 18,
+            "preview_is_truncated": true,
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc52QPSCDQ",
+                "created": 1492799537,
+                "timestamp": 1492799537,
+                "user": "U1S5GKTHQ",
+                "is_intro": true,
+                "comment": "Private key for the MongoDB box (EC2)"
+            },
+            "pinned_to": [
+                "C063R1S90"
+            ]
+        },
+        "user": "U1S5GKTHQ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dimitry",
+        "bot_id": null,
+        "ts": "1492799537.228838"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U1S5GKTHQ",
+        "item_type": "F",
+        "text": "<@U1S5GKTHQ|dimitry> pinned their Plain Text <https:\/\/uncorked.slack.com\/files\/dimitry\/F52QPS5J6\/ucs-magnum.pem|ucs-magnum.pem> to this channel.",
+        "item": {
+            "id": "F52QPS5J6",
+            "created": 1492799537,
+            "timestamp": 1492799537,
+            "name": "ucs-magnum.pem",
+            "title": "ucs-magnum.pem",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U1S5GKTHQ",
+            "editable": true,
+            "size": 1692,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52QPS5J6\/ucs-magnum.pem?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52QPS5J6\/download\/ucs-magnum.pem?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/dimitry\/F52QPS5J6\/ucs-magnum.pem",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F52QPS5J6-f6937cd269",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/dimitry\/F52QPS5J6\/ucs-magnum.pem\/edit",
+            "preview": "-----BEGIN RSA PRIVATE KEY-----\r\nMIIEowIBAAKCAQEAhdSKiIyjn0y+uOYhPZoIV3YkmZWDWo79e\/EiJXld227e4mQoQTQNmmZ4NA1V\r\nX9jXH9vTGn3qJiQOOQWlzdgb9UtcNOc4t4pp9o0ZdnSlhWWy\/JLEdabfn4scMx4\/Tx3wcMjftWsq\r\npq3+vvIBH7kzzqFKzmjUZWPen7LJeYPHiaRtzUTIAxcdutkkLd32wQPLm+KYelo42oPqN1QU1p4Q\r\nMiwhKyZmBXKKEeonNt4Usq9pcYJiqt0KofEQ2aJ0fiPRSWVos\/JWAo2eMHr4qMdNs41+\/rzTCNDR\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>-----BEGIN RSA PRIVATE KEY-----<\/pre><\/div>\n<div><pre>MIIEowIBAAKCAQEAhdSKiIyjn0y+uOYhPZoIV3YkmZWDWo79e\/EiJXld227e4mQoQTQNmmZ4NA1V<\/pre><\/div>\n<div><pre>X9jXH9vTGn3qJiQOOQWlzdgb9UtcNOc4t4pp9o0ZdnSlhWWy\/JLEdabfn4scMx4\/Tx3wcMjftWsq<\/pre><\/div>\n<div><pre>pq3+vvIBH7kzzqFKzmjUZWPen7LJeYPHiaRtzUTIAxcdutkkLd32wQPLm+KYelo42oPqN1QU1p4Q<\/pre><\/div>\n<div><pre>MiwhKyZmBXKKEeonNt4Usq9pcYJiqt0KofEQ2aJ0fiPRSWVos\/JWAo2eMHr4qMdNs41+\/rzTCNDR<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 23,
+            "lines_more": 18,
+            "preview_is_truncated": true,
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc52QPSCDQ",
+                "created": 1492799537,
+                "timestamp": 1492799537,
+                "user": "U1S5GKTHQ",
+                "is_intro": true,
+                "comment": "Private key for the MongoDB box (EC2)"
+            },
+            "pinned_to": [
+                "C063R1S90"
+            ]
+        },
+        "ts": "1492799543.231814"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "AAAAAhhh i can no longer connect via SSH.. shared hosting is awful",
+        "ts": "1492800207.526706"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "To ec2 or arabdoc",
+        "ts": "1492800286.561101"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "arabdoc.. using cpanel to edit files",
+        "ts": "1492800475.643906"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ip issue? Try cms.arabdoc",
+        "ts": "1492801199.967587"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Dns ",
+        "ts": "1492801203.969566"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "nah, something server related: ```Uncorkeds-MBP:~ dimitrybentsionov$ ssh <mailto:arabdocp@arabdocphotography.org|arabdocp@arabdocphotography.org>\n<mailto:arabdocp@arabdocphotography.org|arabdocp@arabdocphotography.org>'s password: \nshell request failed on channel 0```",
+        "ts": "1492801225.980944"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<http:\/\/cms.arabdocphotography.org> is actually running now. but other parts arent. need to update a python lib but cant w\/o access.",
+        "ts": "1492801279.006204"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "nm",
+        "ts": "1492801388.054816"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "uhhhh",
+        "ts": "1492801536.119414"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "im on. works now.",
+        "ts": "1492801557.128783"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I wonder if hostmonster is finally working on that ticket and fucking things up ",
+        "ts": "1492801690.184345"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "```<mailto:arabdocp@arabdocphotography.org|arabdocp@arabdocphotography.org> [~\/.virtualenv\/magnum-prod\/app]# ls\n-jailshell: fork: retry: Resource temporarily unavailable\n-jailshell: fork: retry: Resource temporarily unavailable\n-jailshell: fork: retry: Resource temporarily unavailable\n-jailshell: fork: retry: Resource temporarily unavailable\n-jailshell: fork: Resource temporarily unavailable\n```",
+        "ts": "1492801716.195576"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "maybe b\/c im getting above for most basic commands at random times",
+        "ts": "1492801727.200076"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "and now i can’t SSH again. i give up",
+        "ts": "1492801791.225809"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Headed to laptop will do some tests",
+        "ts": "1492801798.228617"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Jfc",
+        "ts": "1492801800.229095"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’m able to",
+        "ts": "1492802151.370814"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F52U50L2H\/screen_shot_2017-04-21_at_12.15.53_pm.png|Screen Shot 2017-04-21 at 12.15.53 PM.png>",
+        "file": {
+            "id": "F52U50L2H",
+            "created": 1492802165,
+            "timestamp": 1492802165,
+            "name": "Screen Shot 2017-04-21 at 12.15.53 PM.png",
+            "title": "Screen Shot 2017-04-21 at 12.15.53 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 120368,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52U50L2H\/screen_shot_2017-04-21_at_12.15.53_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F52U50L2H\/download\/screen_shot_2017-04-21_at_12.15.53_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F52U50L2H-aa8fcf06ec\/screen_shot_2017-04-21_at_12.15.53_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F52U50L2H-aa8fcf06ec\/screen_shot_2017-04-21_at_12.15.53_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F52U50L2H-aa8fcf06ec\/screen_shot_2017-04-21_at_12.15.53_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 65,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F52U50L2H-aa8fcf06ec\/screen_shot_2017-04-21_at_12.15.53_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 86,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F52U50L2H-aa8fcf06ec\/screen_shot_2017-04-21_at_12.15.53_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F52U50L2H-aa8fcf06ec\/screen_shot_2017-04-21_at_12.15.53_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 129,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F52U50L2H-aa8fcf06ec\/screen_shot_2017-04-21_at_12.15.53_pm_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 144,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F52U50L2H-aa8fcf06ec\/screen_shot_2017-04-21_at_12.15.53_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 172,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F52U50L2H-aa8fcf06ec\/screen_shot_2017-04-21_at_12.15.53_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 184,
+            "image_exif_rotation": 1,
+            "original_w": 1728,
+            "original_h": 310,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F52U50L2H\/screen_shot_2017-04-21_at_12.15.53_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F52U50L2H-bdeb439381",
+            "channels": [
+                "C063R1S90"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1492802168.377380"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U1S5GKTHQ> lmk if you still can’t get in, i can do some poking",
+        "ts": "1492803487.906653"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i keep getting kicked out",
+        "ts": "1492803503.912675"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "currently cant get in",
+        "ts": "1492803528.922187"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "&gt;69.195.103.49",
+        "ts": "1492803550.930062"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "doing direct works",
+        "ts": "1492803651.970166"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "nice!",
+        "ts": "1492803757.011928"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "you can also try dscacheutil -flushcache if there’s any dns weirdness",
+        "ts": "1492804688.384455"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "that wasn’t the problem",
+        "ts": "1492805420.682180"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "this is taking forever. is there support w\/ HostGator? Is the account under our name?",
+        "ts": "1492807544.492112"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "there is, they are bad, but i may have been the bad one",
+        "ts": "1492807615.518468"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "they ask for the domain name and last 4 characters of the password",
+        "ts": "1492807624.521352"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "easy enough",
+        "ts": "1492807631.523753"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’ve got the ticket i pasted above open w\/ them but haven’t heard back on ti",
+        "ts": "1492807638.526696"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/uncorked.slack.com\/archives\/C063R1S90\/p1492728803706875>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/uncorked.slack.com\/archives\/C063R1S90\/p1492728803706875",
+                "fallback": "[April 20th, 2017 3:53 PM] charlesv: Hi!\n\nWe have been running <http:\/\/arabdocphotography.org|arabdocphotography.org> on hostmonster for over a year with very few issues. Earlier this week, we found the site to be down – logging in via ssh and restarting the mongo daemon, it appeared to work again, only to go down after 10 minutes.\n\nPer <https:\/\/my.hostmonster.com\/cgi\/help\/478>, it appeared to be because we were on a Shared IP, though we had not had issues before. Since we are on a business pro account, we migrated to our included dedicated IP in hopes to resolve the issue.\n\nAfter migration, it appears that any processes started during the session are terminated when the session ends. Though it should not be necessary with a daemon such as mongod, tech support offered the following solutions: <http:\/\/www.tecmint.com\/keep-remote-ssh-sessions-running-after-disconnection\/>\n\nUnfortunately, screen does not work with the configured shell (Cannot access ‘\/dev\/pts\/1’: No such file or directory), tmux is not installed, etc. Even using nohup, the process is killed, as viewed from the cpanel process manager.\n\nAs our configuration worked for over a year, I was concerned that this might be an issue with jailshell destroying its environment. The cpanel interface lets me change the shell to bash from the dropdown, but it unfortunately only sets it to jailshell.\n\nThe command we’re using to invoke mongo is\n\nmongod --fork --dbpath \/home2\/arabdocp\/mongodb\/data --smallfiles --logpath \/home2\/arabdocp\/mongodb\/data\/mongodb.log\n\nwhere --fork forks the process to run in the background as a daemon. It should not be tied to the user session.\n\nWe’d very much like to get the site back up and running, and to do so will need to get mongod to run in the background, as it has on our hostmonster instance for months. Can you advise why all background processes appear to be getting killed on session logout?\n\nThanks,\nCharles",
+                "ts": "1492728803.706875",
+                "author_subname": "charlesv",
+                "channel_id": "C063R1S90",
+                "channel_name": "magnum",
+                "is_msg_unfurl": true,
+                "text": "Hi!\n\nWe have been running <http:\/\/arabdocphotography.org|arabdocphotography.org> on hostmonster for over a year with very few issues. Earlier this week, we found the site to be down – logging in via ssh and restarting the mongo daemon, it appeared to work again, only to go down after 10 minutes.\n\nPer <https:\/\/my.hostmonster.com\/cgi\/help\/478>, it appeared to be because we were on a Shared IP, though we had not had issues before. Since we are on a business pro account, we migrated to our included dedicated IP in hopes to resolve the issue.\n\nAfter migration, it appears that any processes started during the session are terminated when the session ends. Though it should not be necessary with a daemon such as mongod, tech support offered the following solutions: <http:\/\/www.tecmint.com\/keep-remote-ssh-sessions-running-after-disconnection\/>\n\nUnfortunately, screen does not work with the configured shell (Cannot access ‘\/dev\/pts\/1’: No such file or directory), tmux is not installed, etc. Even using nohup, the process is killed, as viewed from the cpanel process manager.\n\nAs our configuration worked for over a year, I was concerned that this might be an issue with jailshell destroying its environment. The cpanel interface lets me change the shell to bash from the dropdown, but it unfortunately only sets it to jailshell.\n\nThe command we’re using to invoke mongo is\n\nmongod --fork --dbpath \/home2\/arabdocp\/mongodb\/data --smallfiles --logpath \/home2\/arabdocp\/mongodb\/data\/mongodb.log\n\nwhere --fork forks the process to run in the background as a daemon. It should not be tied to the user session.\n\nWe’d very much like to get the site back up and running, and to do so will need to get mongod to run in the background, as it has on our hostmonster instance for months. Can you advise why all background processes appear to be getting killed on session logout?\n\nThanks,\nCharles",
+                "author_name": "Charrles Vestal",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/charlesv",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-02-22\/145373808964_8efd1099c4f6c092246e_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "footer": "Posted in #magnum"
+            }
+        ],
+        "ts": "1492807647.530000"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i cant seem to connec to a remote mongodb. firewall\/iptables issue maybe",
+        "edited": {
+            "user": "U1S5GKTHQ",
+            "ts": "1492807661.000000"
+        },
+        "ts": "1492807654.532683"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<https:\/\/my.hostmonster.com\/cgi\/help\/500>",
+        "attachments": [
+            {
+                "title": "Script Cannot Make Outbound Connection",
+                "title_link": "https:\/\/my.hostmonster.com\/cgi\/help\/500",
+                "text": "I cannot make an outbound connection from my script Domain registration, domain hosting, domain renewals, domain transfers and much more - FASTDOMAIN",
+                "fallback": "Script Cannot Make Outbound Connection",
+                "from_url": "https:\/\/my.hostmonster.com\/cgi\/help\/500",
+                "service_icon": "https:\/\/my.hostmonster.com\/favicon.ico",
+                "service_name": "my.hostmonster.com",
+                "id": 1
+            }
+        ],
+        "ts": "1492807826.596072"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ayfkm",
+        "ts": "1492807834.599066"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "we have a dedicated IP",
+        "ts": "1492807840.601570"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Jfc",
+        "ts": "1492807861.609596"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "just bumped the ticket again (opened tuesday)",
+        "ts": "1492807919.631062"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "but we *did* transition to dedicated IP already?",
+        "ts": "1492807939.638533"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yup",
+        "ts": "1492807975.651870"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/my.hostmonster.com\/hosting\/dedicated_ip>",
+        "attachments": [
+            {
+                "title": "Account Login",
+                "title_link": "https:\/\/my.hostmonster.com\/hosting\/dedicated_ip",
+                "text": "Hostmonster - Top rated web hosting provider - Free 1 click installs For blogs, shopping carts, and more. Get a free domain name, real 24\/7 support, and superior speed. web hosting provider php hosting cheap web hosting, Web hosting, domain names, front page hosting, email hosting. We offer affordable hosting, web hosting provider business web hosting, ecommerce hosting, unix hosting. Phone support available, Free Domain, and Free Setup.",
+                "fallback": "Account Login",
+                "from_url": "https:\/\/my.hostmonster.com\/hosting\/dedicated_ip",
+                "service_icon": "http:\/\/hostmonster-cdn.com\/media\/shared\/general\/_hm\/favicon.ico",
+                "service_name": "my.hostmonster.com",
+                "id": 1
+            }
+        ],
+        "ts": "1492807994.658430"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```Enable SSL, open non-standard ports and avoid negative impact from other users.\nYour Dedicated IP Address is: 69.195.103.49\nAccording to our records, you already have a Dedicated IP created on April 17th, 2017 (4:48 pm).\n\nIf you feel this information is not correct, please contact us at 866-573-4678.```",
+        "ts": "1492808001.661759"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "&gt; Our shared IP addresses only allow outbound connection on ports 80(http), 443(https). If you need to use a port other than these, you would need to purchase a dedicated IP.",
+        "ts": "1492808054.680583"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "great",
+        "ts": "1492808055.680971"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "doesnt actually work haha",
+        "ts": "1492808062.684218"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "we’re hosting 25 slavic folks soon for my dads 60th surprise party so unfortunately i have a hard cutoff soon :confused: sorry.",
+        "ts": "1492808074.688915"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "call me crazy but i may serve mongod from port 80 until Monday if this resolves the issue",
+        "ts": "1492808101.698649"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "worth a shot in concept at least",
+        "ts": "1492808115.703665"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "my guess is that their shit for dedicated IP is all broken",
+        "ts": "1492808127.708350"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which would theoretically mean that once one of the issues is fixed, both will be fixed",
+        "ts": "1492808140.713493"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "good thought",
+        "ts": "1492808151.717335"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah, i just hate that we’re leaving adpp down for a week but not sure what else to do",
+        "ts": "1492808164.722237"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "and yeah mongo on 80 sounds gtm",
+        "ts": "1492808171.724533"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "<http:\/\/arabdocphotography.org\/>",
+        "attachments": [
+            {
+                "title": "Arab Documentary Photography Program",
+                "title_link": "http:\/\/arabdocphotography.org\/",
+                "text": "Arab Documentary Photography Project (ADPP) is an initiative that provides support and mentorship to photographers from across the Arab region. The Arab Fund for Arts and Culture in partnership with Magnum Foundation and the Prince Claus Fund established the ADPP to stimulate compelling work by Arab Photographers working across a range of experimental styles of storytelling.",
+                "fallback": "Arab Documentary Photography Program",
+                "thumb_url": "http:\/\/arabdocphotography.org\/static\/images\/adpp.jpg",
+                "from_url": "http:\/\/arabdocphotography.org\/",
+                "thumb_width": 1200,
+                "thumb_height": 1200,
+                "service_icon": "http:\/\/arabdocphotography.org\/static\/favicon.ico",
+                "service_name": "arabdocphotography.org",
+                "id": 1
+            }
+        ],
+        "ts": "1492808889.987444"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "my dude",
+        "ts": "1492808919.997847"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "sorry this took so long. up for now",
+        "ts": "1492808922.998644"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "no worries",
+        "ts": "1492808931.001496"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "gonna give it 20 to make sure nothing gets killed and let them know it’s up (cc <@U0265G76F>). I think we need to figure out a more permanent solution, but do we feel it’s band-aided enough for them to share without worry?",
+        "ts": "1492808963.012426"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "if this works OK, we can keep this setup (gotta remember to resolve outgoing connections issue. fix the hacky port 80 setup). if not, my recommendation is to move the whole damn thing to EC2 box we’re currently using for their MongoDB. it’s a free-tier tiny server but this doesn’t seem very resource intensive.",
+        "ts": "1492809017.030253"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah, i dont htink they get much traffic",
+        "ts": "1492809046.039717"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i feel comfortable enough. DB was the main issue.",
+        "ts": "1492809059.043861"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cool",
+        "ts": "1492809062.044839"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "also i noticed a cron task to backup their db nightly and upload to our S3. need to migrate that to the new server.",
+        "ts": "1492809082.051157"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i can do this monday",
+        "ts": "1492809085.052241"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yeah no rush",
+        "ts": "1492809088.053511"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "should CMS work?",
+        "ts": "1492809092.054649"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "that’s my sticking point for future work",
+        "ts": "1492809098.056405"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’m not goign to try",
+        "ts": "1492809102.057701"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but that might be a reason to push to its own thing",
+        "ts": "1492809108.059866"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "if we know the login we can try. it loads, but i havent gotten past the login screen",
+        "ts": "1492809121.064220"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Username: magnum\nPassword: magnum2015",
+        "ts": "1492809153.074759"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U1S5GKTHQ",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[April 21st, 2017 2:12 PM] charlesv: Username: magnum\nPassword: magnum2015",
+                "ts": "1492809153.074759",
+                "author_subname": "charlesv",
+                "channel_id": "C063R1S90",
+                "channel_name": "magnum",
+                "is_msg_unfurl": true,
+                "text": "Username: magnum\nPassword: magnum2015",
+                "author_name": "Charrles Vestal (edited)",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/charlesv",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-07-21\/217227503639_71bd5b14ae493f38ec23_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U1S5GKTHQ|dimitry> pinned a message to this channel.",
+        "ts": "1492809164.078194"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "just dont know if we think updates and etc would work, but",
+        "ts": "1492809176.081889"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or have any reason to think they wouldn't.",
+        "ts": "1492809192.086714"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or have any reason to think they wouldn’t",
+        "ts": "1492809196.088071"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "should all work. ill update a title of something right now and check",
+        "ts": "1492809218.095490"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "verified. works.",
+        "ts": "1492809295.119972"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "gotta run. plz ping me directly if anything comes up! have a good weekend folks",
+        "ts": "1492809323.128921"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thank you so much! you too!",
+        "ts": "1492809345.135943"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":tada:",
+        "ts": "1492809383.148297"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Just wanted to say such a huge thank you everybody in this <!channel>. I know we didn't have to do anything, and i can assure you it is appreciated that we did",
+        "ts": "1492810677.547990"
+    }
+]

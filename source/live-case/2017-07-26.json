@@ -1,0 +1,186 @@
+[
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> can you confirm that the exp build we sent was pointing to Prod? ",
+        "ts": "1501086000.325356"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "It wasn’t Prod. Would you like for me to create a new build that is?",
+        "ts": "1501087962.485841"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes!",
+        "ts": "1501089631.470734"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> To clarify, which is the prod server again? `<http:\/\/gweb-uncorked-workshop.appspot.com\/>` or `<https:\/\/minime-collections.appspot.com\/>`?",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1501089989.000000"
+        },
+        "ts": "1501089977.672106"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<http:\/\/gweb-uncorked-workshop.appspot.com\/> is production",
+        "ts": "1501090015.695416"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thanks, John!",
+        "ts": "1501090033.705797"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0U9WJB7F> I’ve updated the builds on drive. The exp builds are now pointing to prod and using the _dogfood package name.",
+        "ts": "1501090490.980469"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thanks Summer!",
+        "ts": "1501090500.986198"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> can you come to slate",
+        "ts": "1501091780.752129"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "On my way",
+        "ts": "1501091796.762006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks!",
+        "ts": "1501091801.765317"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> You’re right, the branch is called `release-83-bugfix`. I’ve pulled down the changes - do you want me to merge this into the `release-83` branch?",
+        "ts": "1501092125.967591"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nope",
+        "ts": "1501092421.143579"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "eventually rename it as whatever the version code ends up being for this release :)",
+        "ts": "1501092433.150671"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Cool",
+        "ts": "1501092523.201599"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U1ZG1UCAK> we're going to be removing \"MY\" from \"My Live Case\". Hoping you can do a scrub of the app (i'll assign you a ticket).",
+        "ts": "1501092821.371949",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> I finished copying over the missing AppUpgradeCheck code to `release-83-bugfix`. What should I do next?",
+        "ts": "1501096787.661299"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Do it work",
+        "ts": "1501096809.672944"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Yup it do!",
+        "ts": "1501096818.677741"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ayyyyyy",
+        "ts": "1501096826.681773",
+        "reactions": [
+            {
+                "name": "alien",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0U9WJB7F> did you tell them we need translation",
+        "ts": "1501096840.689366"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "We should at least get it into alpha\/beta ",
+        "ts": "1501096849.693935"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So we'll need those codes ",
+        "ts": "1501096855.697548"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thank you",
+        "ts": "1501096858.698906"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Yeah I did",
+        "ts": "1501096865.702472"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U2H61EJSG> just so you are in the know-we'll plan to release this build to Prod on Friday as we should have the forced upgrade messaging translated by that time (i've made sure the strings are in bonnie &amp; adrien's hands for translation)",
+        "ts": "1501109670.673747"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sounds good! Thanks for the update.",
+        "ts": "1501109690.679618"
+    }
+]

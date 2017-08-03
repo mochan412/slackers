@@ -1,0 +1,88 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> any ideas on that string?",
+        "ts": "1480455719.002094"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(sorry, i’m doing this offsite thing, so I can code at the moment)",
+        "ts": "1480455729.002095"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Working on it right now. Is is possible that Bonnie has some old NFC chips lying around?",
+        "ts": "1480455755.002096"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it was reported from the wild",
+        "ts": "1480455770.002097"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it might mean that there are jacked chips in the wild",
+        "ts": "1480455780.002098"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The artist id is supposed to contain a '|' but it seems like in the crash report that character is missing from the artist id",
+        "ts": "1480455788.002099"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "interesting",
+        "ts": "1480455800.002100"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "confirm that, then LMK. take a look at NfcChip to test. Kat can help im sure",
+        "ts": "1480455825.002101"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(our kat)",
+        "ts": "1480455829.002102"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I am going to write a new chip that does not contain the '|' to test with",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1480455869.000000"
+        },
+        "ts": "1480455859.002103"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool thanks ",
+        "ts": "1480455897.002105"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "So I was able to reproduce the crash by writing a JS chip that did not contain the \"2|\" or \"3|\" prefix. I then reordered the existing logic that determines the artistId and it fixed the problem. I will push it up to a new branch so you can take a look when you have a chance.",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1480459839.000000"
+        },
+        "ts": "1480457909.002106"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "The changes are on `artist_3_id_fix`",
+        "ts": "1480459085.002107"
+    }
+]

@@ -1,0 +1,557 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im combing through and retesting all open JIRA tickets today so y’all might see some action FYI",
+        "ts": "1482176596.000214"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey <@U1ZG1UCAK> or <@U026PHQ3J> about to follow up on this ticket and wanted to make sure there wasnt any info in the BR we should consider? looks like we werent able to repro (but received BR after) <https:\/\/uncorkedstudios.atlassian.net\/browse\/MLC-76>",
+        "ts": "1482186697.000215"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it was showing the system default image when there was an error, but my guess is that it self-healed that night",
+        "ts": "1482187145.000216"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "there was a bad Earth image?",
+        "ts": "1482187173.000217"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there can be a bad earth image for a whole host of reasons",
+        "ts": "1482187218.000218"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so its not necessarily the image itself",
+        "ts": "1482187224.000219"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats why there’s a fallback, because there’s no guarantee that the images will all be ok cause they come over whatever network someone is on (like, an image can get goofed up if you’re switching between cel and wifi for example)",
+        "ts": "1482187273.000220"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the collections gif crash is one we need to repro tho",
+        "ts": "1482187287.000221"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i just don’t yet know which collection it is",
+        "ts": "1482187294.000222"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you! and ill ping bonnie again on collections \/ gif issue to see if there is any more info",
+        "ts": "1482187549.000223"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i know you mentioned again in the email, but ill assign in JIRA",
+        "ts": "1482187567.000224"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I just programmed chips for all of the available collections that have GIFs (not Dogs or any of the test collections) and was able to reproduce a crash on Jen Stark.",
+        "ts": "1482196235.000225"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yes! thank you Midori",
+        "ts": "1482196461.000226"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Do you know what asset it's happening on?",
+        "ts": "1482196494.000227"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(assuming it's the same)",
+        "ts": "1482196512.000228"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "This one: <https:\/\/lh3.googleusercontent.com\/_nXFnQP6buNc6kNiir27Zgw-kx5Kq1QHzI5nkVfsFW9A1xHYNGk0PgIAcfPWAFjAccxrDZUx0JnFA0HU1sNMADS23y8TeOU9hfyE>",
+        "ts": "1482196728.000229"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "JS_1 in the CMS",
+        "ts": "1482196758.000230"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "It's not crashing consistently... Looks like on rotation, while the gif is playing and I had it crash in the wallpaper preview as well.",
+        "ts": "1482196816.000231"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "interesting. thats the only one I haven’t done the flip flop with yet",
+        "ts": "1482197405.000232"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, is it during animation or when its just sitting still",
+        "ts": "1482197483.000233"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "seems like during animation. I also have it set as the case image, so it's crashing sometimes in wallpaper preview.",
+        "ts": "1482197614.000234"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "on rotation or just in portrait?",
+        "ts": "1482197636.000235"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "just in portrait",
+        "ts": "1482197645.000236"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "same crash?",
+        "ts": "1482197650.000237"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hmm",
+        "ts": "1482197654.000238"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also is this is XL?",
+        "ts": "1482197657.000239"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes",
+        "ts": "1482197684.000240"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "and yes",
+        "ts": "1482197691.000241"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what does the memory graph look like\/",
+        "ts": "1482197706.000242"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "What is memory graph and how do I get that",
+        "ts": "1482197750.000243"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "in android studio when looking at logcat, there’s another tab for monitors",
+        "ts": "1482197794.000244"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "in the monitor?",
+        "ts": "1482197795.000245"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah",
+        "ts": "1482197797.000246"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "you should be able to watch the memory spike and go down a lot during animations",
+        "ts": "1482197812.000247"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(since its loading\/unloading images rapidly)",
+        "ts": "1482197818.000248"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F3GTTQ84U\/screen_shot_2016-12-19_at_5.38.07_pm.png|Screen Shot 2016-12-19 at 5.38.07 PM.png>",
+        "file": {
+            "id": "F3GTTQ84U",
+            "created": 1482197917,
+            "timestamp": 1482197917,
+            "name": "Screen Shot 2016-12-19 at 5.38.07 PM.png",
+            "title": "Screen Shot 2016-12-19 at 5.38.07 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 14992,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3GTTQ84U\/screen_shot_2016-12-19_at_5.38.07_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3GTTQ84U\/download\/screen_shot_2016-12-19_at_5.38.07_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GTTQ84U-0568cd137f\/screen_shot_2016-12-19_at_5.38.07_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GTTQ84U-0568cd137f\/screen_shot_2016-12-19_at_5.38.07_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GTTQ84U-0568cd137f\/screen_shot_2016-12-19_at_5.38.07_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 90,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GTTQ84U-0568cd137f\/screen_shot_2016-12-19_at_5.38.07_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 120,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GTTQ84U-0568cd137f\/screen_shot_2016-12-19_at_5.38.07_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 614,
+            "original_h": 154,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F3GTTQ84U\/screen_shot_2016-12-19_at_5.38.07_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3GTTQ84U-4675d9af16",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1482197919.000249"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "That was a wallpaper set crash",
+        "ts": "1482197941.000250"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh thats real weird",
+        "ts": "1482197980.000251"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "run it again and give me another sshot",
+        "ts": "1482197992.000252"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F3GU46Y4D\/screen_shot_2016-12-19_at_5.40.29_pm.png|Screen Shot 2016-12-19 at 5.40.29 PM.png>",
+        "file": {
+            "id": "F3GU46Y4D",
+            "created": 1482198054,
+            "timestamp": 1482198054,
+            "name": "Screen Shot 2016-12-19 at 5.40.29 PM.png",
+            "title": "Screen Shot 2016-12-19 at 5.40.29 PM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 21814,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3GU46Y4D\/screen_shot_2016-12-19_at_5.40.29_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3GU46Y4D\/download\/screen_shot_2016-12-19_at_5.40.29_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GU46Y4D-72f6a2e782\/screen_shot_2016-12-19_at_5.40.29_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GU46Y4D-72f6a2e782\/screen_shot_2016-12-19_at_5.40.29_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GU46Y4D-72f6a2e782\/screen_shot_2016-12-19_at_5.40.29_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 42,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GU46Y4D-72f6a2e782\/screen_shot_2016-12-19_at_5.40.29_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 56,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GU46Y4D-72f6a2e782\/screen_shot_2016-12-19_at_5.40.29_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GU46Y4D-72f6a2e782\/screen_shot_2016-12-19_at_5.40.29_pm_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 84,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GU46Y4D-72f6a2e782\/screen_shot_2016-12-19_at_5.40.29_pm_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 113,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GU46Y4D-72f6a2e782\/screen_shot_2016-12-19_at_5.40.29_pm_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 120,
+            "image_exif_rotation": 1,
+            "original_w": 1254,
+            "original_h": 147,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F3GU46Y4D\/screen_shot_2016-12-19_at_5.40.29_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3GU46Y4D-420af95ee2",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1482198056.000253"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "8-15s and 30-38s was the gif animating",
+        "ts": "1482198137.000254"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "what are the free and allocated things",
+        "ts": "1482198227.000255"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "off to the right of these screenshots?",
+        "ts": "1482198233.000256"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there’s a memory leak.",
+        "ts": "1482198238.000257"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i want to know if this is that",
+        "ts": "1482198242.000258"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "right before crash?",
+        "ts": "1482198303.000259"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "even at the end i think its preserved",
+        "ts": "1482198363.000260"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think its a shadow OOM",
+        "ts": "1482198373.000261"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I plugged the memory leak",
+        "ts": "1482198456.000262"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so once i see that i can help",
+        "ts": "1482198464.000263"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or try this build",
+        "ts": "1482198466.000264"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U06DFL7BP> could you help with a test gif conversion tomorrow?",
+        "ts": "1482199094.000265"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I might be able to hack it? Maybe? ",
+        "ts": "1482199133.000266"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "when I have all my hacking notes from charles accessible",
+        "ts": "1482199148.000267"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i am happy to help",
+        "ts": "1482199160.000268"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i'll be at home but can help from there",
+        "ts": "1482199163.000269"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "either way stoked you all are getting to the bottom of this one",
+        "ts": "1482199184.000270"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can you repack this with no alpha",
+        "ts": "1482199185.000271"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(i dont know whats taking so long to upload it)",
+        "ts": "1482199203.000272"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F3GRPJ666\/unnamed.gif|unnamed.gif>",
+        "file": {
+            "id": "F3GRPJ666",
+            "created": 1482199180,
+            "timestamp": 1482199180,
+            "name": "unnamed.gif",
+            "title": "unnamed.gif",
+            "mimetype": "image\/gif",
+            "filetype": "gif",
+            "pretty_type": "GIF",
+            "user": "U026PHQ3J",
+            "editable": false,
+            "size": 2453390,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3GRPJ666\/unnamed.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3GRPJ666\/download\/unnamed.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GRPJ666-ebabb2b93a\/unnamed_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GRPJ666-ebabb2b93a\/unnamed_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GRPJ666-ebabb2b93a\/unnamed_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GRPJ666-ebabb2b93a\/unnamed_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GRPJ666-ebabb2b93a\/unnamed_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GRPJ666-ebabb2b93a\/unnamed_360.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GRPJ666-ebabb2b93a\/unnamed_480.gif?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 512,
+            "original_h": 512,
+            "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3GRPJ666-ebabb2b93a\/unnamed_deanimate_gif.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F3GRPJ666\/unnamed.gif",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3GRPJ666-824dab1948",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1482199221.000273"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it looks like there are two things at play, and we might be able to patch it in the wild if we can remove the alpha from these",
+        "ts": "1482199261.000274"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its 13 frames, and 2.5 megs which seems really huge",
+        "ts": "1482199615.000275"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if we can shrink it, we can fix this remotely",
+        "ts": "1482199624.000276"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then patch the memory leak in the next binary release",
+        "ts": "1482199631.000277"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "BUUUUUT",
+        "ts": "1482199636.000278"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats IF the OOM is actually the same, but sometimes comes out as the buffer overrun",
+        "ts": "1482199653.000279"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I'll look ",
+        "ts": "1482200854.000280"
+    }
+]

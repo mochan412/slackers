@@ -1,0 +1,181 @@
+[
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "Here’s my app with sliders so you have a gui front end to imagemagick’s barrel filter",
+        "ts": "1428014236.000002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0289USNA|scott> uploaded a file: <https:\/\/uncorked.slack.com\/files\/scott\/F048Z39CZ\/rodeo_clown.zip|Rodeo Clown.zip>",
+        "file": {
+            "id": "F048Z39CZ",
+            "created": 1428014246,
+            "timestamp": 1428014246,
+            "name": "Rodeo Clown.zip",
+            "title": "Rodeo Clown.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0289USNA",
+            "editable": false,
+            "size": 51572,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048Z39CZ\/rodeo_clown.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F048Z39CZ\/download\/rodeo_clown.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/scott\/F048Z39CZ\/rodeo_clown.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F048Z39CZ-345e7bba90",
+            "channels": [
+                "C02PQUY7T"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0289USNA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "scott",
+        "bot_id": null,
+        "ts": "1428014247.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U02F8LF2X>:  —^",
+        "ts": "1428014269.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "sweet, leave for two minutes and get a slack present when I get back",
+        "ts": "1428014645.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "thanks :simple_smile:",
+        "ts": "1428014655.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "is the imagemagick convert utility baked in?",
+        "ts": "1428014987.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "or is it looking for it somewhere?",
+        "ts": "1428015020.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it is not baked in.",
+        "ts": "1428015041.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "you must install imagemagick",
+        "ts": "1428015047.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "check",
+        "ts": "1428015155.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "I assume \"brew install imagemagick\"",
+        "ts": "1428015472.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "no brew, found a binary install package",
+        "ts": "1428015538.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "convert is currently \/opt\/ImageMagick\/bin\/convert",
+        "ts": "1428015549.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "should I softlink it to somewhere else?",
+        "ts": "1428015556.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "yes",
+        "ts": "1428015565.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it should be in a more logical location :simple_smile:",
+        "ts": "1428015598.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "like: \/usr\/local\/bin\/convert",
+        "ts": "1428015601.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "it needs to be at this path  —^ so symbolic link it there and you are hopefully good",
+        "ts": "1428015658.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yep, works. awesome",
+        "ts": "1428015778.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "thanks again",
+        "ts": "1428015815.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ok I'm feeling pretty good about this. general procedure (using inverseBarrel option) is to adjust C value upward until center of grid is on the verge of being overcorrected. Then adjust B upward until same. I left A alone. D should be adjusted last for crop or honestly we could just crop it ourselves (or maybe do both.",
+        "ts": "1428017435.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "A=0, B=.11, C=.66, D=0.40 yielded pretty good results",
+        "ts": "1428017448.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "we'll probably want to tweak from here once we have a set of fridge images",
+        "ts": "1428017463.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "we may also want to precenter the image if the vignetting shows that there is some lingering coaxial decentering\/misalignment between the sensor, mount, and lens",
+        "ts": "1428017554.000025"
+    }
+]

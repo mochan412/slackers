@@ -1,0 +1,1519 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U3ZFEAPSP> based on Bonnie's crashes from this morning I'm wondering if the multi-scheduled download​ thing might actually be real",
+        "ts": "1495721766.691373"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cause the exception looks like there might be multiple earth tasks stepping on each other?",
+        "ts": "1495722335.853261"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I have to run a quick errand this morning, but will be in no later than 9:30.",
+        "ts": "1495723816.291676",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0U9WJB7F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Was Bonnie able to see any earth images at all",
+        "ts": "1495726970.244686"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I don't know <@U0U9WJB7F> when you can want to ping her and ask? ",
+        "ts": "1495727028.262317"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "anything else that'd be helpful to know Evans? Or anyone? ",
+        "ts": "1495727075.276627"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i can do it right now, when are you wondering she she could see the images? ",
+        "ts": "1495727160.303444"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "before the screen went black?",
+        "ts": "1495727166.305269"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i asked and she said yes it was working as expected before that happened ",
+        "ts": "1495727321.352331"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "says it hasn't happened since ",
+        "ts": "1495727325.353738"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "did she reinstall? or did it correct itself?",
+        "ts": "1495727349.360579"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "says she was toggling back and forth between trends and earth ",
+        "ts": "1495727359.363772"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "For the black screen? She had multiple images (shaking to the next then double tapping would go to a new image), and it didn't seem to be a bad network connection bc she was able to go to trends and set that wallpaper and the trends all came back.",
+        "ts": "1495727452.392195"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": " she said she doesn't remember if she reninstalled but i don't even think there was time for that ",
+        "ts": "1495727497.406059"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "says she had to leave the app and come back to it for it to be corrected ",
+        "ts": "1495727515.411555"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I'll be there about 9:30, headed out part way and realized I had Ashley's keys in my pocket",
+        "ts": "1495727523.413984"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I believe it righted itself in the meeting after she switched wallpapers, right? Or am I remembering that wrong",
+        "ts": "1495727596.436507"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I don't recall that but certainly could've missed it",
+        "ts": "1495727857.516323"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i am coming up empty on a root cause for this",
+        "ts": "1495729118.887442"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "switching renderers should be solid as far as i can tell based on the code on vz_sellin",
+        "ts": "1495729145.894989"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thank you so much for digging in ",
+        "ts": "1495729339.949605"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "hopefully i can help bonnie feel better about it",
+        "ts": "1495729354.953637"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so is the idea that its related to a disrupted\/incomplete download of images still a theory? wondering if theres any info that might be helpful to reassure her",
+        "ts": "1495729450.979660"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m not sure. <@U3ZFEAPSP> <@U2H61EJSG> <@U1ZG1UCAK> is the code on vz_sellin the same renderer code she was running or has it changed since she saw the bug?",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495729512.000000"
+        },
+        "ts": "1495729506.995359"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I believe so",
+        "ts": "1495729529.001549"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "k",
+        "ts": "1495729571.013088"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the thing is, there would have to be some super insane thing happening for that to happen with the job service thing",
+        "ts": "1495729659.038002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like, basically powerball level of coincidence",
+        "ts": "1495729675.042724"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i have to go to a standup but will be back",
+        "ts": "1495729691.046981"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the only other theory i have is that somehow this line",
+        "ts": "1495729716.054574"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "` mCurrentRenderer.onSurfaceChanged(null, mCurrentWidth, mCurrentHeight); `",
+        "ts": "1495729729.058575"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thought the current width\/height were 0",
+        "ts": "1495729738.060956"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but thats also super out there",
+        "ts": "1495729763.068061"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Do we feel like we need to move on from this?",
+        "ts": "1495730038.145611"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "or that we should continue working on it?",
+        "ts": "1495730046.147821"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I'd like to let bonnie know and I also know there are other bugs",
+        "ts": "1495730059.151464"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "well, question - is anyone working on this other than evans?",
+        "ts": "1495730068.153917"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and whats the next priority? df crashes?",
+        "ts": "1495730076.156314"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "not as of last night",
+        "ts": "1495730078.156781"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "thinking about it a bit on the way in, I am leaning towards something that would be within the onVisibilityChange because she was coming from putting it to sleep &amp; then unlocking",
+        "ts": "1495730142.174964"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m poking through the Earth renderer to see what might be causing that gl error. I’ve got nothing though.",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1495730358.000000"
+        },
+        "ts": "1495730238.201729"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’d say check into those df crashes",
+        "ts": "1495730670.318010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the renderer crash is something that isn’t obvious enough to find, so we need to make it happen again",
+        "ts": "1495730685.321744"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "like the code is close enough that it would be really weird to see it in the wild (tho obviously not impossible)",
+        "ts": "1495730721.332095"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the onVisibilityChanged thing makes sense to me, and actually the width\/height part of the renderer cutover might be part of it",
+        "ts": "1495730741.338253"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "a true bonnie bug. i wouldnt believe it if we didnt see it:upside_down_face:",
+        "ts": "1495730748.340272"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> the Uniform4Fv error that was in the log can only be caused by a couple things",
+        "ts": "1495730767.345495"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and the two texture errors after it are just next after that one",
+        "ts": "1495730788.351556"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(the image is basically two texture tiles at this point cause there’s so much memory available on the gpus",
+        "ts": "1495730799.354560"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think oliver has a fix for the df crashes that hes working to get a build out for",
+        "ts": "1495730813.358139"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cooll",
+        "ts": "1495730823.361119"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "meantime, we need to know if bonnie has homescreen rotation on",
+        "ts": "1495730858.370611"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "not that it is particularly useful, its just another variable",
+        "ts": "1495730886.378473"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay i will check with her.",
+        "ts": "1495730920.388295"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5J53D285\/minime-debug-3.2.df.0-5-25-2017-v5.apk|MiniMe-DEBUG-3.2.df.0-5-25-2017-v5.apk>",
+        "file": {
+            "id": "F5J53D285",
+            "created": 1495730987,
+            "timestamp": 1495730987,
+            "name": "MiniMe-DEBUG-3.2.df.0-5-25-2017-v5.apk",
+            "title": "MiniMe-DEBUG-3.2.df.0-5-25-2017-v5.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 54611264,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5J53D285\/minime-debug-3.2.df.0-5-25-2017-v5.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5J53D285\/download\/minime-debug-3.2.df.0-5-25-2017-v5.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5J53D285\/minime-debug-3.2.df.0-5-25-2017-v5.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5J53D285-22d28e0642",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1495730991.408126"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F5J055Q67\/develop.apk|develop.apk>",
+        "file": {
+            "id": "F5J055Q67",
+            "created": 1495731005,
+            "timestamp": 1495731005,
+            "name": "develop.apk",
+            "title": "develop.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 34606889,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5J055Q67\/develop.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5J055Q67\/download\/develop.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F5J055Q67\/develop.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5J055Q67-d69115dc34",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1495731008.412859"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "First, install the develop.apk above. Pair an earth case.\nPreviously, then updating to the last df build would crash in trying to run earth. But now running the v5 above should function as expected, in that it runs a legacy version of the app",
+        "ts": "1495731110.442123"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome, thanks oliver. any insight into where DF was crashing? setting earth? or any particular time?",
+        "ts": "1495731202.468553"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "launching the app",
+        "ts": "1495731217.472543"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh it was an upgrade bug",
+        "ts": "1495731234.477181"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "yea, I missed upgrading the EarthTable version when we added an Earth Link column",
+        "ts": "1495731261.485072"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "cool cool i'll try to repro then test the fix now",
+        "ts": "1495731265.486278"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> I am able to force the wallpaper to be a black screen by hardcoding originalWidth and originalHeight in GLPicture to 0",
+        "ts": "1495731269.487532"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thanks i'm going dark for 30 minutes",
+        "ts": "1495731272.488328"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "here's the response i got from bonnie",
+        "ts": "1495731278.490017"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "my phone has rotation enabled\nis that \"homescreen rotation\"",
+        "ts": "1495731278.490085"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U0U9WJB7F> yep",
+        "ts": "1495731306.497995"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U026PHQ3J> ^",
+        "ts": "1495731306.498126"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they’re different",
+        "ts": "1495731320.502020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "if her homescreen rotates",
+        "ts": "1495731326.503796"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then its been enabled",
+        "ts": "1495731329.504756"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(they’re two settings - one for device, one for launcher)",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1495731346.000000"
+        },
+        "ts": "1495731342.508403"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay-would you like me to...ask her to turn..it..off?",
+        "edited": {
+            "user": "U0U9WJB7F",
+            "ts": "1495731380.000000"
+        },
+        "ts": "1495731365.515526"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no i want to know for sure if her homescreen rotates",
+        "ts": "1495731374.518159"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "phone rotation and homescreen rotation are different",
+        "ts": "1495731386.521683"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> do the GL errors look similar?",
+        "ts": "1495731412.529179"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "1282\/1281?",
+        "ts": "1495731418.531067"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5HC808GG\/screenshot_20170525-095639.png|Slack for Android Upload> and commented: To see that: long press on the home screen. Then select Settings",
+        "file": {
+            "id": "F5HC808GG",
+            "created": 1495731487,
+            "timestamp": 1495731487,
+            "name": "Screenshot_20170525-095639.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 3139202,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HC808GG\/screenshot_20170525-095639.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HC808GG\/download\/screenshot_20170525-095639.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HC808GG-bf5322a32f\/screenshot_20170525-095639_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HC808GG-bf5322a32f\/screenshot_20170525-095639_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HC808GG-bf5322a32f\/screenshot_20170525-095639_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HC808GG-bf5322a32f\/screenshot_20170525-095639_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HC808GG-bf5322a32f\/screenshot_20170525-095639_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HC808GG-bf5322a32f\/screenshot_20170525-095639_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HC808GG-bf5322a32f\/screenshot_20170525-095639_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HC808GG-bf5322a32f\/screenshot_20170525-095639_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HC808GG-bf5322a32f\/screenshot_20170525-095639_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5HC808GG\/screenshot_20170525-095639.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5HC808GG-ee25132697",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc5JSPUY2K",
+                "created": 1495731487,
+                "timestamp": 1495731487,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "To see that: long press on the home screen. Then select Settings"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1495731492.552823"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U026PHQ3J> Setting the width and height doesn’t actually produce an erorr",
+        "ts": "1495731531.565162"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Damn",
+        "ts": "1495731539.567541"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5J2GMDD0\/screenshot_20170525-095634.png|There's a toggle for \"Home screen rotation\">",
+        "file": {
+            "id": "F5J2GMDD0",
+            "created": 1495731548,
+            "timestamp": 1495731548,
+            "name": "Screenshot_20170525-095634.png",
+            "title": "There's a toggle for \"Home screen rotation\"",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 73270,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5J2GMDD0\/screenshot_20170525-095634.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5J2GMDD0\/download\/screenshot_20170525-095634.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5J2GMDD0-869fb6bc91\/screenshot_20170525-095634_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5J2GMDD0-869fb6bc91\/screenshot_20170525-095634_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5J2GMDD0-869fb6bc91\/screenshot_20170525-095634_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5J2GMDD0-869fb6bc91\/screenshot_20170525-095634_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5J2GMDD0-869fb6bc91\/screenshot_20170525-095634_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5J2GMDD0-869fb6bc91\/screenshot_20170525-095634_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5J2GMDD0-869fb6bc91\/screenshot_20170525-095634_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5J2GMDD0-869fb6bc91\/screenshot_20170525-095634_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5J2GMDD0-869fb6bc91\/screenshot_20170525-095634_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5J2GMDD0\/screenshot_20170525-095634.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5J2GMDD0-7014692355",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1495731551.571177"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So that's off the table ",
+        "ts": "1495731553.571465"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U2H61EJSG> that seems to suggest that there was an issue with an image",
+        "ts": "1495731792.645996"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "because if the uniform4fv fails, it usually means the matrix is invalid",
+        "ts": "1495731806.650687"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so that would likely suggest that the `recomputeTransformMatrices` function executed properly but is giving back bad values",
+        "ts": "1495731827.657064"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hmm, ok I’ll poke around in there and see if I can force that error",
+        "ts": "1495731871.669821"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thanks midori",
+        "ts": "1495732066.726427"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "looks also like maybe if onSurfaceCreated didn’t get called when the renderer got switched out that would also trigger this",
+        "ts": "1495732288.789373"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nope, that wouldn’t be it",
+        "ts": "1495732384.816002"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0U9WJB7F|jenna.simon> uploaded a file: <https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5HCMR6FJ\/screen_shot_2017-05-25_at_10.18.25_am.png|@evans>",
+        "file": {
+            "id": "F5HCMR6FJ",
+            "created": 1495732724,
+            "timestamp": 1495732724,
+            "name": "Screen Shot 2017-05-25 at 10.18.25 AM.png",
+            "title": "@evans",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0U9WJB7F",
+            "editable": false,
+            "size": 59470,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HCMR6FJ\/screen_shot_2017-05-25_at_10.18.25_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5HCMR6FJ\/download\/screen_shot_2017-05-25_at_10.18.25_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HCMR6FJ-fa6cdd5519\/screen_shot_2017-05-25_at_10.18.25_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HCMR6FJ-fa6cdd5519\/screen_shot_2017-05-25_at_10.18.25_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HCMR6FJ-fa6cdd5519\/screen_shot_2017-05-25_at_10.18.25_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HCMR6FJ-fa6cdd5519\/screen_shot_2017-05-25_at_10.18.25_am_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 271,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HCMR6FJ-fa6cdd5519\/screen_shot_2017-05-25_at_10.18.25_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HCMR6FJ-fa6cdd5519\/screen_shot_2017-05-25_at_10.18.25_am_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 406,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HCMR6FJ-fa6cdd5519\/screen_shot_2017-05-25_at_10.18.25_am_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 451,
+            "thumb_800_h": 800,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5HCMR6FJ-fa6cdd5519\/screen_shot_2017-05-25_at_10.18.25_am_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 542,
+            "thumb_960_h": 960,
+            "image_exif_rotation": 1,
+            "original_w": 576,
+            "original_h": 1021,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/jenna.simon\/F5HCMR6FJ\/screen_shot_2017-05-25_at_10.18.25_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5HCMR6FJ-6a9f33284d",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0U9WJB7F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jenna.simon",
+        "bot_id": null,
+        "ts": "1495732727.908760"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thx",
+        "ts": "1495732744.913236"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U1ZG1UCAK",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[May 25th, 2017 9:51 AM] oliver: First, install the develop.apk above. Pair an earth case.\nPreviously, then updating to the last df build would crash in trying to run earth. But now running the v5 above should function as expected, in that it runs a legacy version of the app",
+                "ts": "1495731110.442123",
+                "author_subname": "oliver",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "First, install the develop.apk above. Pair an earth case.\nPreviously, then updating to the last df build would crash in trying to run earth. But now running the v5 above should function as expected, in that it runs a legacy version of the app",
+                "author_name": "Oliver Johnson-Terleski",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/oliver",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-02-01\/135758726210_23af248481632b593aeb_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U1ZG1UCAK|midori> pinned a message to this channel.",
+        "ts": "1495732789.924977"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Migration test is working as expected.",
+        "ts": "1495733182.032204"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Same.",
+        "ts": "1495733239.047998"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Same for you, correct Summer?",
+        "ts": "1495733250.051130"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I'm going to share this with Bonnie and once it checks out for her, let's upload to DF.",
+        "ts": "1495733282.059817"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Stressed it out a little by repeatedly deleting images and then triggering them to re-download. Working as expected.",
+        "ts": "1495733387.089315"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "kk, I have the builds &amp; mapping ready to upload to the drive folder when ready",
+        "ts": "1495733425.100125"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Everything looks good to me. The only thing I noticed that’s different about these builds is that the default slideshow speed is set to ‘hourly’ initially, but when you install the newer version on top, the setting is overwritten  to ‘daily’",
+        "ts": "1495733470.113282"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "In other words, if a user doesn’t explicitly set the slideshow speed, the default will change along with the new version",
+        "thread_ts": "1495733507.124258",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1495735613.729121"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1495733507.124258"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Heard back from Bonnie. She needs to send a *final* *final* build for sell in to NYC folks this afternoon, so let's not spend more than another hour working on this black screen of death bug...",
+        "ts": "1495733775.198956"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i let her know that you were jamming on it all evening and all morning and we haven't been able to find anything",
+        "ts": "1495733796.205099"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "she's appreciative, but seems okay with us not spending much more time on it <@U026PHQ3J>",
+        "ts": "1495733812.209474",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "sent the builds off to bonnie so she can test, will let you know if we're good to go as soon as i hear back",
+        "ts": "1495734537.414626"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "summer: oh strange! good find",
+        "thread_ts": "1495733507.124258",
+        "parent_user_id": "U2H61EJSG",
+        "ts": "1495735613.729121"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "did the settings override that summer mentioned get included in that?",
+        "ts": "1495735660.742633"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Yes it did",
+        "ts": "1495735694.752078"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F5J5AG5J8\/vz_sellin_05-25-17_v1.apk|vz_sellin_05-25-17_v1.apk>",
+        "file": {
+            "id": "F5J5AG5J8",
+            "created": 1495735784,
+            "timestamp": 1495735784,
+            "name": "vz_sellin_05-25-17_v1.apk",
+            "title": "vz_sellin_05-25-17_v1.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 54777611,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5J5AG5J8\/vz_sellin_05-25-17_v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5J5AG5J8\/download\/vz_sellin_05-25-17_v1.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F5J5AG5J8\/vz_sellin_05-25-17_v1.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5J5AG5J8-6adbb74cce",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C0BTK9LGH"
+            ]
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1495735787.778430"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sweet sweet sweet",
+        "ts": "1495735893.808254"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Now with less bad translations (sarcasm - they’re :ok: )",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1495736090.000000"
+        },
+        "ts": "1495736053.852517"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Here's the plan for the day:\n\n1. Sent builds to Bonnie to fix NullPointerException &amp; IllegalStateException Fix. They're in DF already, but wanted Bon to test first. Thanks for doing that Oliver!\n\n2. I'm going to email Bonnie to let her know we're unable to figure out the black screen issue as well as the persisting Earth bug that we've already pushed a fix for. \n\n3. We'll send this build off for the VZ Sell in meeting that includes updated translations\n\n 4. Oliver Priorities are to task out the notifications work for Summer and Midori and then work on the \"Natalie\/Marco bug,\" and then move on to outstanding Account Auth work \n\n5. I think Summer will need to work with <@U026PHQ3J> on the Trend Viz, sounds like there are some outstanding questions...",
+        "ts": "1495736530.987968"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U0260V1BX> please let us know when you've had a chance to look over the notifications doc\/made comments so I can follow up with Bonnie.",
+        "ts": "1495736562.997235"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "^also if this is helpful for people i can try and do it going forward but if not...",
+        "thread_ts": "1495736719.041563",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1495737961.394142"
+            },
+            {
+                "user": "U0U9WJB7F",
+                "ts": "1495737985.400651"
+            },
+            {
+                "user": "U0U9WJB7F",
+                "ts": "1495737991.402432"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1495736719.041563"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "i won't be offended.",
+        "ts": "1495736732.045371"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks jenna. wondering if i should make comments in this doc or separately. I am not sure how old this notifications doc and if this is a weird time to jump in with feedback…",
+        "ts": "1495736802.065406"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Maybe just type up comments separately",
+        "ts": "1495736843.076901"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "and we can talk thru it",
+        "ts": "1495736847.078400"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sounds good, thanks",
+        "ts": "1495736895.092861"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Everything looks good on my end in the build midori shared above",
+        "ts": "1495737826.356652",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "jenna.simon: The list is nice and good for reference (vs. verbal)",
+        "thread_ts": "1495736719.041563",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1495737961.394142"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "cool cool i'll try and keep it up",
+        "thread_ts": "1495736719.041563",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1495737985.400651"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "thanks Midori :slightly_smiling_face:",
+        "thread_ts": "1495736719.041563",
+        "parent_user_id": "U0U9WJB7F",
+        "ts": "1495737991.402432"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "so for reading into notifications &amp; gcm, dig into this and\/or sandbox the code for how to set them on screen, <https:\/\/developer.android.com\/training\/notify-user\/build-notification.html>\nand then for expanded options, <https:\/\/developer.android.com\/training\/notify-user\/expanded.html>\nRead through the pendingIntents, we will launch into a NotificationsActivity\n\nFor gcm,\nthis SO has a nice minimum code for a service (plus the accepted answer)\n<https:\/\/stackoverflow.com\/questions\/32237588\/gcmlistenerservice-client-side-notification>\nthen for the docs, familiarize with this: \n<https:\/\/developers.google.com\/android\/reference\/com\/google\/android\/gms\/gcm\/GcmListenerService>\n\nSo that we aren’t blasting out gcm pings all the time, we will want to set up a mock service to start developing. So if while you’re digging into the workings of notifications &amp; gcm pushes, think of a good way we could trigger the receiver (along the lines of putting it in with shake or something and firing an intent)\n\nThen finally, we will need to create a database to store received notifications and that full-screen, in-app Notifications feed will be more just a standard Android activity that will display whatever is in that notifications db (it shouldnt worry about any of the gcm &amp; notifications stuff) \n\nThere’s a rough overview, we can have a dev meeting and break that down into tasks this afternoon",
+        "attachments": [
+            {
+                "title": "    Building a Notification | Android Developers  ",
+                "title_link": "https:\/\/developer.android.com\/training\/notify-user\/build-notification.html",
+                "text": "This lesson explains how to create and issue a notification. The examples in this class are based on the Builder class. Builder is in the Support Library . You should use NotificationCompat and its subclasses, particularly Builder, to provide the best…",
+                "fallback": "    Building a Notification | Android Developers  ",
+                "from_url": "https:\/\/developer.android.com\/training\/notify-user\/build-notification.html",
+                "service_icon": "https:\/\/developer.android.com\/_static\/58504a1dd5\/images\/android\/touchicon-180.png",
+                "service_name": "developer.android.com",
+                "id": 1
+            },
+            {
+                "title": "    Using Big View Styles | Android Developers  ",
+                "title_link": "https:\/\/developer.android.com\/training\/notify-user\/expanded.html",
+                "text": "Notifications in the notification drawer appear in two main visual styles, normal view and big view. The big view of a notification only appears when the notification is expanded. This happens when the notification is at the top of the drawer, or the …",
+                "fallback": "    Using Big View Styles | Android Developers  ",
+                "from_url": "https:\/\/developer.android.com\/training\/notify-user\/expanded.html",
+                "service_icon": "https:\/\/developer.android.com\/_static\/58504a1dd5\/images\/android\/touchicon-180.png",
+                "service_name": "developer.android.com",
+                "id": 2
+            }
+        ],
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1495738803.000000"
+        },
+        "ts": "1495738357.504823"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U2H61EJSG> &amp; <@U1ZG1UCAK> ^ Let me know if you have questions",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1495738850.000000"
+        },
+        "ts": "1495738377.510282",
+        "reactions": [
+            {
+                "name": "thanks",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0U9WJB7F",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[May 25th, 2017 11:22 AM] jenna.simon: Here's the plan for the day:\n\n1. Sent builds to Bonnie to fix NullPointerException &amp; IllegalStateException Fix. They're in DF already, but wanted Bon to test first. Thanks for doing that Oliver!\n\n2. I'm going to email Bonnie to let her know we're unable to figure out the black screen issue as well as the persisting Earth bug that we've already pushed a fix for. \n\n3. We'll send this build off for the VZ Sell in meeting that includes updated translations\n\n 4. Oliver Priorities are to task out the notifications work for Summer and Midori and then work on the \"Natalie\/Marco bug,\" and then move on to outstanding Account Auth work \n\n5. I think Summer will need to work with <@U026PHQ3J> on the Trend Viz, sounds like there are some outstanding questions...",
+                "ts": "1495736530.987968",
+                "author_subname": "jenna.simon",
+                "channel_id": "C0BTK9LGH",
+                "channel_name": "live-case",
+                "is_msg_unfurl": true,
+                "text": "Here's the plan for the day:\n\n1. Sent builds to Bonnie to fix NullPointerException &amp; IllegalStateException Fix. They're in DF already, but wanted Bon to test first. Thanks for doing that Oliver!\n\n2. I'm going to email Bonnie to let her know we're unable to figure out the black screen issue as well as the persisting Earth bug that we've already pushed a fix for. \n\n3. We'll send this build off for the VZ Sell in meeting that includes updated translations\n\n 4. Oliver Priorities are to task out the notifications work for Summer and Midori and then work on the \"Natalie\/Marco bug,\" and then move on to outstanding Account Auth work \n\n5. I think Summer will need to work with <@U026PHQ3J> on the Trend Viz, sounds like there are some outstanding questions...",
+                "author_name": "Jenna Simon",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/jenna.simon",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-01-03\/123002289349_a4039ee376b090eb3613_48.png",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U0U9WJB7F|jenna.simon> pinned a message to this channel.",
+        "ts": "1495740169.989953"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Conisder adding a debug flag to the registration endpoint and the ability to send only to debug",
+        "ts": "1495741869.432692"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> we passed Bonnie's smoke test so you can drop the fixed df builds into the Merged APK folders ( you'll see I created two folders based on her naming convention in the spreadsheet)",
+        "ts": "1495743440.860158"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Can someone share the notification deck with me?",
+        "ts": "1495746308.624501"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/docs.google.com\/presentation\/d\/1griKfOlFX-tmF4ZWa2ImzeOcjwETx93HIPdTgfYvJv0\/edit?ts=59124165#slide=id.g21fe40fc9a_0_167>",
+        "ts": "1495746365.638580"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "gracias!",
+        "ts": "1495746373.640736"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "I think the answer to this is yes, but can someone confirm <@U2H61EJSG> <@U1ZG1UCAK> <@U3ZFEAPSP> \n\nthe df and sell in app can be downloaded in other countries, correct?\n\nbonbon is inquiring.",
+        "ts": "1495749676.363679"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "any debug signed builds should be fine to use anywhere",
+        "ts": "1495749988.421430"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or install",
+        "ts": "1495750023.427403"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for the sell-in build, shouldn’t be an issue. \nWith df being distributed through the play store, I think it is only limited if they restrict it through the console (<https:\/\/support.google.com\/googleplay\/android-developer\/answer\/7353455?hl=en>)\nwe do not set any restrictions in the build’s manifest (which is the other way to limit distribution)",
+        "attachments": [
+            {
+                "title": "View &amp; restrict your app's compatible devices - Play Console Help",
+                "title_link": "https:\/\/support.google.com\/googleplay\/android-developer\/answer\/7353455?hl=en",
+                "text": "After you've uploaded at least one APK to your Play Console, you can view the catalog of available devices and review which devices are compatible with your app. To help ensure the widest availability",
+                "fallback": "View &amp; restrict your app's compatible devices - Play Console Help",
+                "from_url": "https:\/\/support.google.com\/googleplay\/android-developer\/answer\/7353455?hl=en",
+                "service_icon": "https:\/\/support.google.com\/favicon.ico",
+                "service_name": "support.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1495750275.471920"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay, thanks",
+        "ts": "1495750362.486487"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "pushing standup to 11am tomorrow.",
+        "ts": "1495751023.594871"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hm. Latest crash is from Trends",
+        "ts": "1495752824.865611"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but none of my line numbers line up",
+        "ts": "1495752971.886672"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U026PHQ3J|evans> uploaded a file: <https:\/\/uncorked.slack.com\/files\/evans\/F5K3A59KR\/-.py|Untitled>",
+        "file": {
+            "id": "F5K3A59KR",
+            "created": 1495752989,
+            "timestamp": 1495752989,
+            "name": "-.py",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U026PHQ3J",
+            "editable": true,
+            "size": 492,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5K3A59KR\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F5K3A59KR\/download\/-.py?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/evans\/F5K3A59KR\/-.py",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F5K3A59KR-9ae2006244",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/evans\/F5K3A59KR\/-.py\/edit",
+            "preview": "java.lang.NullPointerException\r\n\tat com.google.android.apps.workshop.trends.gl.TrendLine.draw(TrendLine.java:147)\r\n\tat com.google.android.apps.workshop.trends.gl.GraphRenderer.onDrawFrame(GraphRenderer.java:99)\r\n\tat com.google.android.apps.workshop.wallpaper.renderer.GLWallpaperRenderDispatch.onDrawFrame(GLWallpaperRenderDispatch.java:200)\r\n\tat android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1548)\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">java<\/span>.<span class=\"cm-property\">lang<\/span>.<span class=\"cm-property\">NullPointerException<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-property\">google<\/span>.<span class=\"cm-property\">android<\/span>.<span class=\"cm-property\">apps<\/span>.<span class=\"cm-property\">workshop<\/span>.<span class=\"cm-property\">trends<\/span>.<span class=\"cm-property\">gl<\/span>.<span class=\"cm-property\">TrendLine<\/span>.<span class=\"cm-property\">draw<\/span>(<span class=\"cm-variable\">TrendLine<\/span>.<span class=\"cm-property\">java<\/span>:<span class=\"cm-number\">147<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-property\">google<\/span>.<span class=\"cm-property\">android<\/span>.<span class=\"cm-property\">apps<\/span>.<span class=\"cm-property\">workshop<\/span>.<span class=\"cm-property\">trends<\/span>.<span class=\"cm-property\">gl<\/span>.<span class=\"cm-property\">GraphRenderer<\/span>.<span class=\"cm-property\">onDrawFrame<\/span>(<span class=\"cm-variable\">GraphRenderer<\/span>.<span class=\"cm-property\">java<\/span>:<span class=\"cm-number\">99<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">com<\/span>.<span class=\"cm-property\">google<\/span>.<span class=\"cm-property\">android<\/span>.<span class=\"cm-property\">apps<\/span>.<span class=\"cm-property\">workshop<\/span>.<span class=\"cm-property\">wallpaper<\/span>.<span class=\"cm-property\">renderer<\/span>.<span class=\"cm-property\">GLWallpaperRenderDispatch<\/span>.<span class=\"cm-property\">onDrawFrame<\/span>(<span class=\"cm-variable\">GLWallpaperRenderDispatch<\/span>.<span class=\"cm-property\">java<\/span>:<span class=\"cm-number\">200<\/span>)<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">at<\/span> <span class=\"cm-variable\">android<\/span>.<span class=\"cm-property\">opengl<\/span>.<span class=\"cm-property\">GLSurfaceView<\/span><span class=\"cm-error\">$<\/span><span class=\"cm-variable\">GLThread<\/span>.<span class=\"cm-property\">guardedRun<\/span>(<span class=\"cm-variable\">GLSurfaceView<\/span>.<span class=\"cm-property\">java<\/span>:<span class=\"cm-number\">1548<\/span>)<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U026PHQ3J",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "evans",
+        "bot_id": null,
+        "ts": "1495752989.889446"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m probably on wrong branch? was `3.2.df.0` on `vz_sellin`",
+        "ts": "1495753035.896378"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "no, that branch is legacy_fork",
+        "ts": "1495753201.920192"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "we can chat bugs now if you're out of your meeting evans?",
+        "ts": "1495753202.920352"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for that build number",
+        "ts": "1495753210.921954"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "there are now 3 we should get squared away on.",
+        "ts": "1495753215.922748"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "be there shortly",
+        "ts": "1495753241.926870"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "the strange thing is that it is on the current GraphRenderer, but for the users on the df build they should be using LegacyGraphRenderer",
+        "ts": "1495753300.936379"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "okay, meet up in stone when you're ready",
+        "ts": "1495753340.942485"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "<@U3ZFEAPSP> can you join us down here? :slightly_smiling_face:",
+        "ts": "1495753371.946919"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "sure, one sec, I’ll have to tell lee to move our 1-1",
+        "ts": "1495753427.955076"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "this should be super fast",
+        "ts": "1495753433.955897"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah that line number doesn’t line up at all",
+        "ts": "1495753439.956792"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "OMG oliver I am the worst I didn't put you on the invite, jesus. my bad.",
+        "ts": "1495753471.961495"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hello <!channel> - make sure you’re not using dogfood or release versionName values in your local environments while developing",
+        "ts": "1495755499.224917"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Looks like auto-crash-reporting is on, so we got some crash reports from us developing here (which is fine)",
+        "ts": "1495755528.228456"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but they were marked as Dogfood crashes cause the versionName was 3.2.df.0",
+        "ts": "1495755544.230425"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "which is not as fine :)",
+        "ts": "1495755548.230856"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":open_mouth: whoa",
+        "ts": "1495755561.232609"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0U9WJB7F> some thoughts on ustwo's Notifications stuff <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1teJxMVZ-WPWVz4BEj6eMOonbnhYpE8yOHPhBqsblobE\/edit?usp=sharing>",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1495778113.000000"
+        },
+        "ts": "1495765599.242736"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> shared a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F5JA6MAG2\/my_live_case_-_notifications_ux_thoughts_from_uncorked|My Live Case - Notifications UX thoughts from Uncorked>",
+        "file": {
+            "id": "F5JA6MAG2",
+            "created": 1495765601,
+            "timestamp": 1495765601,
+            "name": "My Live Case - Notifications UX thoughts from Uncorked",
+            "title": "My Live Case - Notifications UX thoughts from Uncorked",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 976,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1teJxMVZ-WPWVz4BEj6eMOonbnhYpE8yOHPhBqsblobE\/edit?usp=sharing",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5JA6MAG2-51bcc6bd07\/my_live_case_-_notifications_ux_thoughts_from_uncorked_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5JA6MAG2-51bcc6bd07\/my_live_case_-_notifications_ux_thoughts_from_uncorked_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5JA6MAG2-51bcc6bd07\/my_live_case_-_notifications_ux_thoughts_from_uncorked_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 278,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5JA6MAG2-51bcc6bd07\/my_live_case_-_notifications_ux_thoughts_from_uncorked_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 371,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5JA6MAG2-51bcc6bd07\/my_live_case_-_notifications_ux_thoughts_from_uncorked_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5JA6MAG2-51bcc6bd07\/my_live_case_-_notifications_ux_thoughts_from_uncorked_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 557,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5JA6MAG2-51bcc6bd07\/my_live_case_-_notifications_ux_thoughts_from_uncorked_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1035,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5JA6MAG2-51bcc6bd07\/my_live_case_-_notifications_ux_thoughts_from_uncorked_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 742,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F5JA6MAG2-51bcc6bd07\/my_live_case_-_notifications_ux_thoughts_from_uncorked_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 791,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 1035,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F5JA6MAG2\/my_live_case_-_notifications_ux_thoughts_from_uncorked",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": true
+        },
+        "user": "U0260V1BX",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1495765604.243122"
+    }
+]

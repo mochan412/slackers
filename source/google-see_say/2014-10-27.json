@@ -1,0 +1,87 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "So, for today, I believe Ryan's feedback items 0, 3, 4 and 5 have been done, and I'm looking into 1 (the \"shutter lag\")",
+        "ts": "1414430892.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The Galaxy S5 actually gets an OutOfMemoryError when taking a picture, so this gives some insight into why it's behaving that way",
+        "ts": "1414430949.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I can probably make some improvements, but the reason for the \"lag\" is that we are taking a picture, saving that picture to storage, then loading that picture back into memory, processing a blurred version (for the background of the capture screen) and an unblurred version (the small inset picture in the white frame)",
+        "ts": "1414431055.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "All of these steps take processing power and time to complete, and with the current visual design, all of them must be done before the first animation (picture zooming into the white frame) can be shown",
+        "ts": "1414431107.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Oh good, the Android training documentation has a section about efficiently handling bitmaps, that should give me some clues on how to improve the situation",
+        "ts": "1414432623.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh galaxy phones: always with the out of memory errirs",
+        "ts": "1414433334.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "SeeSay is affected by this crash when deleting items from Timeline: <https:\/\/code.google.com\/p\/android\/issues\/detail?id=77232>",
+        "ts": "1414435691.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "This is new, after updating the build tools to the official 21.0.0 release",
+        "ts": "1414435741.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think I have improved Bitmap handling by decoding the bitmaps at a lower resolution, though. The S5 no longer gets OutOfMemoryErrors (although there are other problems that I'll get into as I study this topic more tomorrow...)",
+        "ts": "1414435886.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm sure other optimizations are possible, which is a relief... I was starting to worry that it would be a complete mystery",
+        "ts": "1414435993.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm uploading today's build to BaseCamp since it's been 10 days since we last made a build available",
+        "ts": "1414436204.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8TTPU>: UGHHH",
+        "ts": "1414436345.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "It's unclear if it's a problem in my adapter (which I yoinked from Google-provided code) or the RecyclerView itself because it's so new, but I'm hopeful to find a workaround tomorrow.",
+        "ts": "1414436554.000014"
+    },
+    {
+        "user": "U026NB2U2",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U026NB2U2|marcelino> has left the channel",
+        "ts": "1414441412.000015"
+    }
+]

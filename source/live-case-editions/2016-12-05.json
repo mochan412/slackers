@@ -1,0 +1,167 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "looks like we have a fresh bug report for inspection",
+        "ts": "1480980569.000006"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> can you look into this",
+        "ts": "1480980573.000007"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F3B1X8XNH\/bugreport-nmf26o-2016-12-05-14-36-18.zip|bugreport-NMF26O-2016-12-05-14-36-18.zip>",
+        "file": {
+            "id": "F3B1X8XNH",
+            "created": 1480980583,
+            "timestamp": 1480980583,
+            "name": "bugreport-NMF26O-2016-12-05-14-36-18.zip",
+            "title": "bugreport-NMF26O-2016-12-05-14-36-18.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 7110758,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3B1X8XNH\/bugreport-nmf26o-2016-12-05-14-36-18.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F3B1X8XNH\/download\/bugreport-nmf26o-2016-12-05-14-36-18.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F3B1X8XNH\/bugreport-nmf26o-2016-12-05-14-36-18.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F3B1X8XNH-77ee87edd6",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1480980584.000008"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "woot :raised_hands::skin-tone-4:",
+        "ts": "1480980594.000009"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "yes.",
+        "ts": "1480980618.000010"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "from Kat: Got a report from a dogfooder on df-11 that the wallpaper went black  and has been that way for a few days. Switching wallpaper and rebooting the phone don't help. 2nd dogfooder on email chain said that his went black last night around 11 PM ,but  was ok when he work up in the AM.",
+        "ts": "1480980620.000011"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "clues :point_up_2:",
+        "ts": "1480980631.000012"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":slightly_smiling_face:",
+        "ts": "1480980634.000013"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": ":determination: ::sleuth_or_spy::skin-tone-4:",
+        "ts": "1480980722.000014"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I don't know if this bug report will help us, because it's only from midnight last night and doesn't show the error that caused the black screen",
+        "ts": "1480984768.000015"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "i think the 11PM was the other user (without the bug report)",
+        "ts": "1480985648.000016"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Right, I think the bug report is from User A, but doesn't show back to when their screen first went black",
+        "ts": "1480985698.000017"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hmmm i assumed it was still black screen when the BR was made",
+        "ts": "1480985750.000018"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "because she mentioned switching wallpaper and rebooting phone didnt fix",
+        "ts": "1480985773.000019"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is there more info i can\/should request?",
+        "ts": "1480985785.000020"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "ok, I'll keep trying to read.",
+        "ts": "1480985792.000021"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah dig in a little more and let me know - happy to request additional info (just not sure what we’ll be able to get). might be worth running that DF build on device to see if we experience the same?",
+        "ts": "1480985849.000022"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "That's what I'm thinking",
+        "ts": "1480985871.000023"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Here's the info I have so far:\nRunning on a pixel\nversionCode=27\nversionName=2.0-df-11\n\nfirstInstallTime=2016-11-06 09:40 :47\nlastUpdateTime=2016-11-10 11:24 :03",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1480986119.000000"
+        },
+        "ts": "1480986098.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "are there any interesting log entries for live_case?",
+        "ts": "1480987137.000026"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I saw something about masked cat not being a recognized resource. I think that might be them pressing the masked cat nfc chip entry. But maybe it failed on that resource?",
+        "ts": "1480987875.000027"
+    }
+]

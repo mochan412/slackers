@@ -1,0 +1,981 @@
+[
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "For the Migration Testing:\n1) Uninstall version of My Live case from your device and install, \n<https:\/\/drive.google.com\/a\/uncorkedstudios.com\/file\/d\/0B8oziE2kHpvTZFMwYVR2enN4Qzg\/view?usp=drivesdk>\n2) Using a Places chip, pair your case. [It would be great to get some more caseIds for this to test with different user Lat\/Lngs, I’ve been using the one on NfcChip]\n3) Select one of the existing styles and colorways. Try lots of different combos. Make sure to select the user’s case style as well.\n    - Note, also try the path of setting ‘Match my location’ to false so it is using your physical case before you go to step 4\n4) Install the places-Update.apk over your other one. Do not uninstall the places-buildOne.apk build, it should be able to upgrade with the new version number.\n5) Return to Live Case, you should be shown the dialog that there are new cases once, and if you hit ‘ok’ it will not show it again. \n6) The physical case should be the leftmost, with all the new styles to the right of it. If you had selected a style &amp; color that was not your physical case, it should be the rightmost icon and should be persisted even if you select a different style.\n7) Test and use the other features to make sure nothing was accidentally stepped on and broken in the process, or for any other feedback on this. Thanks!!",
+        "edited": {
+            "user": "U3ZFEAPSP",
+            "ts": "1488558586.000000"
+        },
+        "ts": "1488557312.970173"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4D9NFFU3\/places-update.apk|places-Update.apk>",
+        "file": {
+            "id": "F4D9NFFU3",
+            "created": 1488557400,
+            "timestamp": 1488557400,
+            "name": "places-Update.apk",
+            "title": "places-Update.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 35613388,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D9NFFU3\/places-update.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4D9NFFU3\/download\/places-update.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4D9NFFU3\/places-update.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4D9NFFU3-8002d35aa9",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1488557403.975816"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "One thing with the persisting past style\/color that I realized in writing out the steps is the case where the style is the same as the physical case but the color was changed to something else, everything is dependent on style equality right now, so I'll work on a fix to this as well as cleaning up the code I just wrote for the persisting prior style\/color so that I can get this for <@U026PHQ3J> <@U1ZG1UCAK> <@U2H61EJSG>  to take a look at for review\nThen <@U0260V1BX>, let me know what visual improvements to make here, I have a question on icons for you that will be far easier in person than trying to write it all out",
+        "ts": "1488557739.997503"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks Oliver! Is build one a debug of the current store build version? want to make sure we're testing with what users will be upgrading from",
+        "ts": "1488557887.006860"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> <@U2H61EJSG> when you're in can you test this out + make sure to check localization + accessibility? ",
+        "ts": "1488557993.013497",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "oh right, good point. The build is from current develop, which I think is what's in the store currently, the last commit on there was the patch for the bad chips",
+        "ts": "1488558003.014086"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "that build went out, right?",
+        "ts": "1488558022.015198"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I don't think we are set up to be using a common debug signing, so there may be issues when trying to upgrade to the second build",
+        "ts": "1488558346.038627"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Debug is in repo ",
+        "ts": "1488558442.045364"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay",
+        "ts": "1488558460.046594"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Shouldn't be an issue overinstalling debugs",
+        "ts": "1488558470.047259"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "oh yep, I missed it. No issue, I'll edit the test steps",
+        "ts": "1488558552.052580"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Thanks",
+        "ts": "1488558592.055421",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "On it when I get in!",
+        "ts": "1488558835.072785",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and note - Melissa is still is going through UI per convo with Adam yesterday, so this is a check to see everything is functioning properly but we'll need to test again once any UI changes are implemented (later today or Monday) - but let's identify any functional issues so Oliver can tackle if needed before we deliver early next week",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1488559164.000000"
+        },
+        "ts": "1488559119.092557"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ve noticed a strange issue while testing on the 6P - If you select the case image before selecting any of the new style tiles both the preview and wallpaper will update immediately. However, if you select a new style without first selecting the case style the update is delayed by about 4-5 minutes or until you select\/deselect Dynamic Zoom.",
+        "ts": "1488563601.394524"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "To clarify, the preview will always immediately change when a new style is selected, but the wallpaper takes a while to update.",
+        "ts": "1488563694.400550"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "is that issue 6P specific, or are we also seeing on pixels + 5x? ",
+        "ts": "1488564743.468205"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m trying it on the Pixel right now so I’ll let you know momentarily",
+        "ts": "1488564786.470939",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i bet is not 6P specific",
+        "ts": "1488564896.477939"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Just found where it isn't getting triggered, I had refactored to not use the existing setStyle, which with the new preference is not hitting the onSharedPreferenceChanged",
+        "ts": "1488565103.491250"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I'm going to look at what triggers that\/ how to subscribe the new preferences I added to that",
+        "ts": "1488565144.494366",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U2H61EJSG",
+                    "U13GPDA1F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "fix up shortly^",
+        "ts": "1488565836.539581"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks Oliver! <@U1ZG1UCAK>  <@U2H61EJSG>  anything else pop up in your testing?",
+        "ts": "1488565961.547584"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Only a few small things - for example, when match location is off, sometimes the dynamic zoom option is displayed but with the toggle disabled.",
+        "ts": "1488566012.550626"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I haven’t noticed anything yet that hasn’t already been said",
+        "ts": "1488566232.565253"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U2H61EJSG>  you'll have to show me how to repro,\nQuestion on dynamic zoom state, is it properly set the first time you launch after updating?",
+        "ts": "1488566292.569001"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome <@U3ZFEAPSP> let's get this fix into the next build too (after you get to the bottom of)",
+        "ts": "1488566400.576136"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F4DCHSGLT\/screenshot_20170303-104204.png|Slack for Android Upload> and commented: Picked a legacy style with dots and this is how the tile appears. Is this expected?",
+        "file": {
+            "id": "F4DCHSGLT",
+            "created": 1488566729,
+            "timestamp": 1488566729,
+            "name": "Screenshot_20170303-104204.png",
+            "title": "Slack for Android Upload",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 808265,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DCHSGLT\/screenshot_20170303-104204.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DCHSGLT\/download\/screenshot_20170303-104204.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DCHSGLT-7a1c7bd39a\/screenshot_20170303-104204_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DCHSGLT-7a1c7bd39a\/screenshot_20170303-104204_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DCHSGLT-7a1c7bd39a\/screenshot_20170303-104204_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DCHSGLT-7a1c7bd39a\/screenshot_20170303-104204_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DCHSGLT-7a1c7bd39a\/screenshot_20170303-104204_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DCHSGLT-7a1c7bd39a\/screenshot_20170303-104204_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DCHSGLT-7a1c7bd39a\/screenshot_20170303-104204_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DCHSGLT-7a1c7bd39a\/screenshot_20170303-104204_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F4DCHSGLT\/screenshot_20170303-104204.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DCHSGLT-94c2af3ccd",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4E553NLW",
+                "created": 1488566729,
+                "timestamp": 1488566729,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Picked a legacy style with dots and this is how the tile appears. Is this expected?"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1488566734.598730"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "No.",
+        "ts": "1488566772.601429"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i still need to figure out how to treat those styles. The thumbnails are so small that a user might not be able to differentiate between their old case style and a new style with the same color palette",
+        "ts": "1488566816.604243"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i’m hoping to move toward some graphic that indicates “this is your case graphic\"",
+        "ts": "1488566838.605593"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but i am not there yet :slightly_smiling_face:",
+        "ts": "1488566844.606031"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "For context, not the case graphic, but a legacy style that I picked in 3.0.11 and persisted when updated",
+        "ts": "1488566891.609213"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> What is this spreadsheet that you shared?",
+        "ts": "1488567288.637218"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh, sorry for not being clear - Oliver had mentioned that it would be good to test some places IDs outside of the one in NFC chip",
+        "ts": "1488568062.696898"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so just wanted to provide some options - I'm not sure if anyone was able to test others - if that's the case go ahead and ignore me :)",
+        "ts": "1488568131.701808"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for the issue <@U1ZG1UCAK> is talking about is the asset\/UI question I have for you <@U0260V1BX>, we only have a subset of style+colorway drawables (where it mixes both), for ~12 of the newer colorways there aren't icons so I am defaulting to using *just the style icon w\/ no color",
+        "ts": "1488568182.705366"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> More places IDs are great! Thanks",
+        "ts": "1488568221.708365"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U13GPDA1F> stop working :slightly_smiling_face:",
+        "ts": "1488568239.709794"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I'm gonna dip out for a little bit actually :) Def ping if you need me and I'll keep an eye out for a build later (thank you!!!!)",
+        "ts": "1488568285.713121"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U3ZFEAPSP> its fine in the current build, i just want to add it to my list of things to think about from the UX\/design side. it’s not ideal.",
+        "ts": "1488568350.717449"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0260V1BX|melissa> uploaded a file: <https:\/\/uncorked.slack.com\/files\/melissa\/F4CPPBTL0\/screen_shot_2017-03-03_at_11.13.21_am.png|Screen Shot 2017-03-03 at 11.13.21 AM.png> and commented: i think the original intention from Leah was to use the colorway image instead of the pattern image:",
+        "file": {
+            "id": "F4CPPBTL0",
+            "created": 1488568432,
+            "timestamp": 1488568432,
+            "name": "Screen Shot 2017-03-03 at 11.13.21 AM.png",
+            "title": "Screen Shot 2017-03-03 at 11.13.21 AM.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0260V1BX",
+            "editable": false,
+            "size": 100481,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4CPPBTL0\/screen_shot_2017-03-03_at_11.13.21_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4CPPBTL0\/download\/screen_shot_2017-03-03_at_11.13.21_am.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4CPPBTL0-8e087c4f7c\/screen_shot_2017-03-03_at_11.13.21_am_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4CPPBTL0-8e087c4f7c\/screen_shot_2017-03-03_at_11.13.21_am_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4CPPBTL0-8e087c4f7c\/screen_shot_2017-03-03_at_11.13.21_am_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 322,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4CPPBTL0-8e087c4f7c\/screen_shot_2017-03-03_at_11.13.21_am_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 397,
+            "original_h": 355,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/melissa\/F4CPPBTL0\/screen_shot_2017-03-03_at_11.13.21_am.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4CPPBTL0-3485741a34",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc4DG4Q3PW",
+                "created": 1488568432,
+                "timestamp": 1488568432,
+                "user": "U0260V1BX",
+                "is_intro": true,
+                "comment": "i think the original intention from Leah was to use the colorway image instead of the pattern image:"
+            }
+        },
+        "user": "U0260V1BX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "melissa",
+        "bot_id": null,
+        "ts": "1488568434.722998"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "FWIW",
+        "ts": "1488568439.723320"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U0260V1BX>, sounds good. that method was crashing so I had to put some something in there",
+        "ts": "1488568763.745402"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "@oliver Does this mean anything to you? `I\/dex2oat: \/system\/bin\/dex2oat --debuggable --dex-file=\/data\/data\/com.google.android.apps.workshop\/files\/instant-run\/dex\/slice-com.google.android.gms-play-services-iid-10.0.1_242ab2cd96a1fc58dae058b27412a08c344b7396-classes.dex --oat-fd=37 --oat-location=\/data\/user\/0\/com.google.android.apps.workshop\/cache\/slice-com.google.android.gms-play-services-iid-10.0.1_242ab2cd96a1fc58dae058b27412a08c344b7396-classes.dex —compiler-filter=speed`",
+        "ts": "1488571510.928102"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "This is the output in the logcat that keeps happening over and over again when first starting the app.",
+        "ts": "1488571534.929693"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Is that running from studio?",
+        "ts": "1488571987.956250"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cause if yes, make sure instant run is off ",
+        "ts": "1488572000.956983"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Looks like Instant Run was turned on when the build was made.",
+        "ts": "1488572285.973273"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4DG52JBU\/new_places_update.apk|new_places_update.apk>",
+        "file": {
+            "id": "F4DG52JBU",
+            "created": 1488572338,
+            "timestamp": 1488572338,
+            "name": "new_places_update.apk",
+            "title": "new_places_update.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 34599701,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DG52JBU\/new_places_update.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DG52JBU\/download\/new_places_update.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4DG52JBU\/new_places_update.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DG52JBU-4b5431b8a3",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1488572342.976524"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Build without instant run, should launch quicker. \nAlso has all the fixes talked about above. Maintaining colorway values should function more reliably now + refreshing when new styles are selected.",
+        "ts": "1488572396.979635",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Thanks <@U3ZFEAPSP>!",
+        "ts": "1488572450.982838"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey <@U3ZFEAPSP> i was just looking at the latest build (as a new user, not installed over previous build) and I'm not seeing the new style I selected reflected on my wallpaper. also noticing that the preview image takes a bit to appear each time I open the app. it's worth mentioning that I'm not on wifi so that's probably a factor, but I'd love for you guys to test this too to be sure ",
+        "ts": "1488575315.146646"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F4DJ117BN\/screenshot_20170303-130531.png|style selected (takes a few seconds for preview to appear each time i open)>",
+        "file": {
+            "id": "F4DJ117BN",
+            "created": 1488575353,
+            "timestamp": 1488575353,
+            "name": "Screenshot_20170303-130531.png",
+            "title": "style selected (takes a few seconds for preview to appear each time i open)",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 158513,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DJ117BN\/screenshot_20170303-130531.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DJ117BN\/download\/screenshot_20170303-130531.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DJ117BN-52818625c3\/screenshot_20170303-130531_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DJ117BN-52818625c3\/screenshot_20170303-130531_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DJ117BN-52818625c3\/screenshot_20170303-130531_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DJ117BN-52818625c3\/screenshot_20170303-130531_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DJ117BN-52818625c3\/screenshot_20170303-130531_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DJ117BN-52818625c3\/screenshot_20170303-130531_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DJ117BN-52818625c3\/screenshot_20170303-130531_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DJ117BN-52818625c3\/screenshot_20170303-130531_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4DJ117BN\/screenshot_20170303-130531.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DJ117BN-15e623bbe4",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1488575355.148683"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U13GPDA1F|lynsey> uploaded a file: <https:\/\/uncorked.slack.com\/files\/lynsey\/F4DGXT07L\/screenshot_20170303-130424.png|wallpaper (doesnt match style selected)>",
+        "file": {
+            "id": "F4DGXT07L",
+            "created": 1488575378,
+            "timestamp": 1488575378,
+            "name": "Screenshot_20170303-130424.png",
+            "title": "wallpaper (doesnt match style selected)",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U13GPDA1F",
+            "editable": false,
+            "size": 553628,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DGXT07L\/screenshot_20170303-130424.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4DGXT07L\/download\/screenshot_20170303-130424.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DGXT07L-5e3995dc0b\/screenshot_20170303-130424_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DGXT07L-5e3995dc0b\/screenshot_20170303-130424_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DGXT07L-5e3995dc0b\/screenshot_20170303-130424_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DGXT07L-5e3995dc0b\/screenshot_20170303-130424_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DGXT07L-5e3995dc0b\/screenshot_20170303-130424_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DGXT07L-5e3995dc0b\/screenshot_20170303-130424_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DGXT07L-5e3995dc0b\/screenshot_20170303-130424_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F4DGXT07L-5e3995dc0b\/screenshot_20170303-130424_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/lynsey\/F4DGXT07L\/screenshot_20170303-130424.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4DGXT07L-f4617aad71",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U13GPDA1F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lynsey",
+        "bot_id": null,
+        "ts": "1488575381.150110"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, it JUST changed to the correct style after I uploaded that image :upside_down_face: , but took a few minutes ",
+        "ts": "1488575431.152895"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> I believe we previously had a toast if a user attempted to select the grayed out styles (when \"match my location\" is toggled off) that instructs user to update the settings to use the feature - I think we need that or similar in place to avoid confusion (as it's not completely clear to user the style selector feature is linked to location)",
+        "ts": "1488575662.167319"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or, actually looking at the store build we've been hiding the style selector from the user unless toggled to match location, so if toast isn't ideal it might be worth considering only exposing to users when the option is available <@U0260V1BX> <@U026PHQ3J> thoughts? ",
+        "ts": "1488575992.185826"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "They can't change style when they're not matching location ",
+        "ts": "1488576141.195307"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "I know - I feel like that's not currently clear  to the user",
+        "ts": "1488576165.196977"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "so wondering what the best way to indicate that is - toast? Hiding the styles unless matching location?",
+        "ts": "1488576194.198804"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "they grey helps tell that they can't use it, but not as clear what they need to do in order to be able to use it  (similar to the toast we currently have in place for dynamic zoom - that messages that they can only use if match my location is turned on)",
+        "ts": "1488576297.205063"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also think it's worth considering not exposing dynamic zoom at all unless \"match my location\" is toggled on (this is how it currently works in store build). either way, want to make sure we're treating these features consistently and in a way that's clear to users. I might be premature in feedback because I know <@U0260V1BX> was looking at UI but wanted to toss out there while I was thinking about it ",
+        "ts": "1488576571.221610"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(apologies for the rambles)",
+        "ts": "1488576596.222891"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "no problem, all on my radar. have been in compass land all morning but going to turn my attn to this shortly",
+        "ts": "1488577401.272880"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "helpful to hear everyone’s input",
+        "ts": "1488577417.273794"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "but also <@U13GPDA1F> stop working",
+        "ts": "1488577421.274041"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sweet - figured you were all over it ;) ",
+        "ts": "1488577426.274291"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im just peeking ",
+        "ts": "1488577826.297031"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026PHQ3J> what is the reason behind not allowing a style change unless “match my location” is toggled? couldnt i just have my wallpaper always be Pittsburgh and change the colors?",
+        "ts": "1488577929.302619"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no, when not matching the location, it falls back to exactly the image printed on the case",
+        "ts": "1488577965.304766"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ah gotcha so it’s not like its tied to a lat\/long",
+        "ts": "1488578042.308829"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right. we _do_ have the lat\/lng of the case",
+        "ts": "1488578073.310363"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and initially it worked exactly as you’re describing",
+        "ts": "1488578085.310922"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but since users whine about data",
+        "ts": "1488578093.311282"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we pulled it",
+        "ts": "1488578094.311334"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "what were they whining about",
+        "ts": "1488578101.311651"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "that it used data",
+        "ts": "1488578135.313540"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "dumb",
+        "ts": "1488578238.319223"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok",
+        "ts": "1488578239.319294"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "that’s helpful background",
+        "ts": "1488578252.320072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so short answer is: we don’t do it that way. Long answer is: we _could_",
+        "thread_ts": "1488578268.321041",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1488579159.370236"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1488578268.321041"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "given that context i dont think it makes sense to",
+        "ts": "1488578318.324140"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i am just trying to figure out what the right language to use is because right now style and location dont seem like they *should* be tied. i think it’s a copy thing.",
+        "ts": "1488578354.326346"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F>, for your earlier post when launching, it may be taking a while to load the image from the endpoint, because now that that view is fetching something in the background, should we\/what sort of loading icon should we add onto that view?",
+        "thread_ts": "1488578385.328020",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1488579077.366126"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1488578385.328020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think at one point the switch was called “match my case”",
+        "ts": "1488578390.328262"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but that was also confusing",
+        "ts": "1488578394.328455"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "that seems more intuitive to me",
+        "ts": "1488578409.329388"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "anyway i’ll come up with some options. thanks for the background",
+        "ts": "1488578425.330348"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oliver.johnson: I'd defer to <@U0260V1BX> on this ",
+        "thread_ts": "1488578385.328020",
+        "parent_user_id": "U3ZFEAPSP",
+        "ts": "1488579077.366126"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "evans: we could but we'd want to discuss with Adam before making that change since it was an explicit request based on user reviews",
+        "thread_ts": "1488578268.321041",
+        "parent_user_id": "U026PHQ3J",
+        "ts": "1488579159.370236"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "For visibility, I’m experiencing an issue where if I have Dynamic Zoom on in the old build, then update to the new build, the wallpaper that I currently have set is zoomed, but if I set it to any other wallpaper style, it’s zoomed back out as if DZ is not on. If I toggle the DZ setting off and on again, it works as expected.\nOliver is looking into it now",
+        "thread_ts": "1488579341.380962",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1488579453.386912"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1488579341.380962",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "midori: thank you!",
+        "thread_ts": "1488579341.380962",
+        "parent_user_id": "U1ZG1UCAK",
+        "ts": "1488579453.386912"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Hey all, thanks for testing on these updates today. Was able to work out a lot of the various edge cases around the persisting the selected legacy case style &amp; color. I have one more fix I think that I'll be able to get in there (that weirdness we were seeing <@U1ZG1UCAK>  for when the physical case style was the same as the selected style but with different colors). And the clean install issue <@U2H61EJSG>\nWe talked about that dynamic zoom issue in siberia, but to get it here, I tracked the zoom changes, it looks like it is from when the app is killed and restarted from the install, the DetectedActivity has a lag until it has the previous value, this appears to be how the app will currently function whenever there is an update, not stemming from this update",
+        "ts": "1488585688.633173"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "^^ confirmed on migration from v65-3.0.10 to v67-3.0.11\nDidn’t realize that happens with jobs, but makes sense",
+        "ts": "1488588523.712447"
+    }
+]

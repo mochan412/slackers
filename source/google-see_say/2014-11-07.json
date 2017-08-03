@@ -1,0 +1,80 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Yay, that worked... just need to adjust the timing of the animations and fix some potential race conditions",
+        "ts": "1415385370.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "great!",
+        "ts": "1415385534.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "All right, just posted a build with working playback and animations that should better match. Would definitely love some more testing to see if it feels \"right\" with different recording lengths, but the short clips I recorded felt pretty good.",
+        "ts": "1415389492.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The big change in this build is that we process the animation immediately after capture (we need to create it before it can be played back) so the preview period now varies, depending on how long it takes to finish encoding. If the user hits the delete button while encoding is going on, it's cancelled and everything is deleted immediately, and if they hit the share button during encoding, a progress dialog pops up indicating that the video is being created. As soon as the video is ready, the dialog is dismissed and the share options appear.",
+        "ts": "1415389626.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "This should address most of Ryan's feedback from Wed, except for the black bump capture animation",
+        "ts": "1415389765.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "awesome",
+        "ts": "1415389830.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks marissa",
+        "ts": "1415389834.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "reading this now",
+        "ts": "1415389836.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "appreciate the updates",
+        "ts": "1415389839.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I wish I had a plan for improving the capture animation, but that's gone as far as scaling bitmaps within the view hierarchy can go (to my knowledge)",
+        "ts": "1415390014.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Hoping I can learn about the new VectorViews and VectorAnimations if there's time, but that's completely new to me, so I don't have a solid estimate on whether it's a short or long task",
+        "ts": "1415390084.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm heading out for today, but I'll definitely be online in the afternoon, setting up my new nexus 9 and upgrading my mac to Yosemite. Have a great weekend!",
+        "ts": "1415390164.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "you as well!",
+        "ts": "1415390345.000014"
+    }
+]

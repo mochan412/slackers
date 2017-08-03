@@ -1,0 +1,219 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "while jpeg saved us ~4mb an isn’t worth the color muddiness we’d get\ngif gets us down from 40 to 16mb\nand to my eyes looks good?",
+        "ts": "1457189675.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "now idk if that causes prblems rendering",
+        "ts": "1457189740.000003"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0QJM0V0Q\/tiles_2016_03_04_v2_gif.zip|Tiles_2016_03_04_v2_GIF.zip>",
+        "file": {
+            "id": "F0QJM0V0Q",
+            "created": 1457189760,
+            "timestamp": 1457189760,
+            "name": "Tiles_2016_03_04_v2_GIF.zip",
+            "title": "Tiles_2016_03_04_v2_GIF.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 16079860,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0QJM0V0Q\/tiles_2016_03_04_v2_gif.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0QJM0V0Q\/download\/tiles_2016_03_04_v2_gif.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0QJM0V0Q\/tiles_2016_03_04_v2_gif.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0QJM0V0Q-101745f839",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1457189762.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "do android build tools pngcrush by default?",
+        "ts": "1457197170.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "No",
+        "ts": "1457197179.000003"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or would we want to do that ahead of build",
+        "ts": "1457197179.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Image pipeline is native jpg ",
+        "ts": "1457197191.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cool. can probably get to about the same size as the gifs with crushed pngs",
+        "ts": "1457197197.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "jpg?",
+        "ts": "1457197199.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ls *.png | while read line; do curl -X POST -s --form \"input=@$line;type=image\/png\" <http:\/\/pngcrush.com\/crush> &gt; crushed\/$line; done",
+        "ts": "1457197216.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "sooooo much faster than local",
+        "ts": "1457197222.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Nice ",
+        "ts": "1457197229.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’m still confused on the resolution of these",
+        "ts": "1457197540.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm just reporting the facts here ",
+        "ts": "1457197542.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "the patterns still look like they’re 2x",
+        "ts": "1457197544.000016"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0QJZS6JV\/tile_preview_3_1.png|tile_preview_3_1.png>",
+        "file": {
+            "id": "F0QJZS6JV",
+            "created": 1457197578,
+            "timestamp": 1457197578,
+            "name": "tile_preview_3_1.png",
+            "title": "tile_preview_3_1.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 178792,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0QJZS6JV\/tile_preview_3_1.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0QJZS6JV\/download\/tile_preview_3_1.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0QJZS6JV-cd6a1d5ac3\/tile_preview_3_1_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0QJZS6JV-cd6a1d5ac3\/tile_preview_3_1_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0QJZS6JV-cd6a1d5ac3\/tile_preview_3_1_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0QJZS6JV-cd6a1d5ac3\/tile_preview_3_1_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0QJZS6JV-cd6a1d5ac3\/tile_preview_3_1_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0QJZS6JV-cd6a1d5ac3\/tile_preview_3_1_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0QJZS6JV-cd6a1d5ac3\/tile_preview_3_1_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0QJZS6JV-cd6a1d5ac3\/tile_preview_3_1_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 720,
+            "original_h": 1280,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0QJZS6JV\/tile_preview_3_1.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0QJZS6JV-0c273abaa2",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1457197581.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Who knows ",
+        "ts": "1457197610.000021"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "¯\\_(ツ)_\/¯",
+        "ts": "1457197611.000022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "fair",
+        "ts": "1457197613.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Charles they did A LOT of work",
+        "ts": "1457197620.000024"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "etc",
+        "ts": "1457197650.000025"
+    }
+]

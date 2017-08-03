@@ -1,0 +1,422 @@
+[
+    {
+        "text": "set up a reminder “Update Harvest” in this channel at 9am every Friday, Pacific Daylight Time.",
+        "type": "message",
+        "subtype": "reminder_add",
+        "user": "U13GPDA1F",
+        "ts": "1463502751.000013"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "standing up at walnut",
+        "ts": "1463504497.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U13GPDA1F>: could you make me a trello task to write up a testing script for bonnie?",
+        "ts": "1463504506.000015",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "brt",
+        "ts": "1463504511.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "was in another mtg",
+        "ts": "1463504514.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "whoooooooo wants to have a short convo with me about the weird \"third party photo picker\" bug?",
+        "ts": "1463513902.000018"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im not in the office now (be back in like 30 or so) but happy to upon return if it's helpful!",
+        "ts": "1463514127.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok! i think so",
+        "ts": "1463515770.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Generally speaking, its a very weird thing",
+        "ts": "1463516024.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "basically, when the user clicks the button to add new photos, we tell the system we want to pick photos. at this point, the system asks the user what picker they want to use (here's where it gets weird) - they can pick google photos, or any other one that claims to support picking",
+        "ts": "1463517502.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they go into the app that they choose, then it returns the path to the image to us",
+        "ts": "1463517523.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "most apps grant us read permissions on those images that are picked",
+        "ts": "1463517539.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but some dont",
+        "ts": "1463517541.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they just give us the path, and when we go to read it, we don't have permission to",
+        "ts": "1463517556.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "at that point, i can now (im pretty sure) detect that we don't have permission",
+        "ts": "1463517572.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but i dont know what to tell the user",
+        "ts": "1463517576.000028"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "\/giphy the blacklist",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/theblacklist-the-blacklist-nbc-3ornjHaPromULLEmAw>",
+                "image_url": "http:\/\/media4.giphy.com\/media\/3ornjHaPromULLEmAw\/giphy.gif",
+                "image_width": 480,
+                "image_height": 270,
+                "image_bytes": 1476257,
+                "is_animated": true,
+                "title": "the blacklist",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/theblacklist-the-blacklist-nbc-3ornjHaPromULLEmAw"
+            }
+        ],
+        "ts": "1463517585.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yeah. sadly, we can't filter any more finely than that",
+        "ts": "1463517624.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so like, i can say \"we couldn't load that image\" or images, but i can't do much else",
+        "ts": "1463517821.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(obviously, i wont crash anymore)",
+        "ts": "1463517832.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so i dont know what to do about it",
+        "ts": "1463517835.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "\"There was a problem\"",
+        "ts": "1463518037.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "\"Your gallery app is outdated\"",
+        "ts": "1463518053.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "\"Choose better apps\"",
+        "ts": "1463518061.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right. i thought about the \"There was a problem\" one",
+        "ts": "1463518076.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but it doesn't really communicate that its going to happen every time",
+        "ts": "1463518084.000038"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "do you have a sense of which apps cause the issue?",
+        "ts": "1463518122.000039"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "or is it an outdated thing?",
+        "edited": {
+            "user": "U13GPDA1F",
+            "ts": "1463518141.000000"
+        },
+        "ts": "1463518126.000040"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "'Unfortunately, [photo app] is not supported for choosing photos.\"",
+        "ts": "1463518207.000042"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": ":point_up_2:",
+        "ts": "1463518227.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "will look into getting the name of the app",
+        "ts": "1463518246.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also, is it weird that we tell them that AFTER they use it",
+        "ts": "1463518257.000045"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Also will they have the ability to choose another ",
+        "ts": "1463518295.000046"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yes AS LONG AS they don't say \"always\" when it asks",
+        "ts": "1463518307.000047"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "and we can only detect what apps will be an issue when a user tries to use?",
+        "ts": "1463518391.000048"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "(because yeah its weird to allow them to select but then tell them it doesnt work)",
+        "ts": "1463518409.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "yep. thats the issue.",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1463518478.000000"
+        },
+        "ts": "1463518460.000050"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "well, even so i think @charlesvs suggestion might be our best bet. at least it allows the user to find a solution, despite being a little frustrating.",
+        "ts": "1463518622.000052"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Could we blacklist common ones we know are incompatible ",
+        "ts": "1463518912.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1463518963.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's no intent filter that matches the granturipermission flag",
+        "ts": "1463518979.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so we can't filter it at all",
+        "ts": "1463518990.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(also, tried the openable category, but that obviously didn't work)",
+        "ts": "1463519000.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cant get name of the app that responded",
+        "ts": "1463520876.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "getComponent on the Intent is always null. :confused:",
+        "ts": "1463520886.000059"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "“There was a problem. Please select from another photo app” (maybe?)",
+        "ts": "1463521484.000060"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I can always just put placeholder text in, and we can talk about what the messaging is going to be. I'm still trying to figure out if i can just sidestep this issue completely",
+        "ts": "1463521518.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Bitmoji also claims to work as a picker, but doesn't grant permissions to photos",
+        "ts": "1463521533.000062"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "yeah weird. i just tried that too - no photos appear in gallery via bitmoji, but no crash hmph",
+        "ts": "1463522240.000063"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "can we store the name of the app before the intent is sent, but when it's actually selected? (i am out of my depth here)",
+        "ts": "1463522322.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "no",
+        "ts": "1463522575.000065"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ok",
+        "ts": "1463522591.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also weird, neither Focus nor Bitmoji abide by the multi-pick flag",
+        "ts": "1463522740.000067"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ummm",
+        "ts": "1463522886.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/stackoverflow.com\/questions\/6486716\/using-intent-action-pick-for-specific-path\/6486827#6486827>",
+        "attachments": [
+            {
+                "title": "Using Intent.ACTION_PICK for specific path",
+                "title_link": "http:\/\/stackoverflow.com\/questions\/6486716\/using-intent-action-pick-for-specific-path\/6486827#6486827",
+                "text": "I am trying to use Android gallery to pick image. Launching gallery is easy for that purposeIntent photoPickerIntent = new Intent(Intent.ACTION_PICK);photoPickerIntent.setType(\"image\/*\");",
+                "fallback": "Using Intent.ACTION_PICK for specific path",
+                "thumb_url": "http:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/apple-touch-icon@2.png?v=73d79a89bded&a",
+                "from_url": "http:\/\/stackoverflow.com\/questions\/6486716\/using-intent-action-pick-for-specific-path\/6486827#6486827",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "id": 1
+            }
+        ],
+        "ts": "1463522886.000069"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> ^^ for when you land",
+        "ts": "1463522892.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: it was originally action_get_content, but Adam wanted to choose from Photos specifically instead of from Documents which gives you the option of several sources",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1463523591.000000"
+        },
+        "ts": "1463523568.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yeah, I figured. Mostly was interested that hackborn \"deprecated\" PICK in 2011",
+        "ts": "1463523624.000074"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U026PHQ3J> you think a new build \/ testing script for bonnie is in the cards tonight?",
+        "ts": "1463528918.000075"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "#justcurious",
+        "ts": "1463528931.000076"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Definitely new build. Working on test script and Scott ",
+        "ts": "1463528948.000077"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "awesome. really appreciate it.",
+        "ts": "1463528969.000078"
+    }
+]

@@ -1,0 +1,637 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Hey <@U0260V1BX> , Abby and I had a question for you RE: \"implement adult\/kid select logic for non-primary travelers.\" This seems to be a bigger task than anticipated given all the potential scenarios and possible bugs that may need to be addressed. We came up with an alternative we wanted to run by you. \n\nWhat do you think if, instead of prepopulating the fields, we limited them to the available travelers. So, as the user selects either kid or adult on non-locked dropdowns these would be subtracted from a list of total passengers. Each subsequent field would only show what's available from the bucket of total adults + kids created on the first screen. This  solution prevents users from selecting more adults\/kids than indicated on the first screen and is acchievable within our current deadline. Also, it would be less prone to bugs or potential errors in logic. Let us know what you think.",
+        "ts": "1437142962.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Do it! Can we take into acct the fact that footwork rooms, the primary traveler for room 2 will be one of those adults?",
+        "ts": "1437147704.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Ugh autocorrect",
+        "ts": "1437147722.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "*for two rooms",
+        "ts": "1437147738.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Thanks you guys",
+        "ts": "1437148311.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yea melissa my understanding is that the adults will be set as the primary traveler for each room in the case that there is 2 adults",
+        "ts": "1437148522.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Perfect",
+        "ts": "1437148534.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Git 'er dun!",
+        "ts": "1437148561.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Hey <@U0260V1BX> do we need to add the ? button to the fields like the existing site has? For example, there is a ? next to the adult drop down on the existing site that says \"Please select how many adults. Maximum number of people per room is 3\"",
+        "ts": "1437153120.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "We have one next to number of rooms",
+        "ts": "1437153138.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "That text could seemingly encapsulate the notes in the other ? buttons, but i wanted to double check",
+        "ts": "1437153166.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah so we dont need to add those",
+        "ts": "1437153185.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "there was one on that screen that gaston and i decided to keep let me see which one it is",
+        "ts": "1437153208.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool",
+        "ts": "1437153214.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "i'm sure that's the one that has the most text, next to number of rooms",
+        "ts": "1437153223.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes, exactly",
+        "ts": "1437153229.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "perfect",
+        "ts": "1437153232.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks",
+        "ts": "1437153233.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "weird <@U026103R3>",
+        "ts": "1437154682.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i’m still getting 1 kid for 6 adults",
+        "ts": "1437154689.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hmm, one sec",
+        "ts": "1437154699.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok even weirder, i refreshed <http:\/\/dev.fathom.org|dev.fathom.org>",
+        "ts": "1437154737.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "and now when i select 6 adults i can choose up to 2 kids..",
+        "ts": "1437154749.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "until i go through all of the options",
+        "ts": "1437154802.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "then i see 1 kid when selecting 6 adults",
+        "ts": "1437154809.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "should i be looking at <http:\/\/dev.fathom.org|dev.fathom.org> or arenero?",
+        "ts": "1437154829.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "just had gaston push to arenero",
+        "ts": "1437154992.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "can you retest?",
+        "ts": "1437155006.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "actually joel is making a change for it now",
+        "ts": "1437155041.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok holler when i should retest",
+        "ts": "1437155067.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "will do",
+        "ts": "1437155070.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey kids - looking at this issue - assuming its been fixed on arenero but hasnt been pushed thru to dev, correct? <https:\/\/fathomdev.atlassian.net\/browse\/HT-12>",
+        "ts": "1437158473.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yep that's the case",
+        "ts": "1437158703.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "making it show on dev involves having maurice deploy our latest code",
+        "ts": "1437158735.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "also the issue when you select 6 adults and see too many kids has bene fixed but not yet pushed to arenero",
+        "ts": "1437158773.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yep no problem - just making sure so that i dont make a ticket for something thats already been addressed",
+        "ts": "1437158827.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "what are the chances that we’ll be able to implement a calendar picker before we code freeze?",
+        "ts": "1437158892.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "it's tough to say, the calendar picker is likely a big task and requires some research. we haven't gotten to it yet, so i'm wondering how critical it is",
+        "ts": "1437158954.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "pretty essential from a UX angle",
+        "ts": "1437158978.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "we can do a janky workaround by changing the dropdown values, but it will get truncated on mobile to a point where it won’t be very useful",
+        "ts": "1437159027.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok well we'll look into it after joel has completed the current validation stuff he's working on. if we can't find an angular calendar picker it could be like a day's worth of work in itself. if we do find one, we can make it a priority",
+        "ts": "1437159033.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "right, that's the fallback fallback",
+        "ts": "1437159046.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U026103R3> i am running out to lunch right now but can we chat after lunch about what’s outstanding and priorities? I know that what’s important for UX is a lot squishier than whats important for function, so my perspective\/priority on things will likely shift when i see a list of things that we probably can’t do. knowhatimean?",
+        "ts": "1437160928.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sure sounds good",
+        "ts": "1437161396.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hit me up when you're around",
+        "ts": "1437161408.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey i’m back",
+        "ts": "1437163953.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "hey, do you want to move to DM or have a quick call or something?",
+        "ts": "1437163973.000044"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "why dont i just call you",
+        "ts": "1437163983.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok cool",
+        "ts": "1437163987.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "gimme 2 min gonna hit the bathroom",
+        "ts": "1437164000.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "ok",
+        "ts": "1437164010.000048"
+    },
+    {
+        "user": "U02618EV1",
+        "topic": "“Resolve that sh#t!\"",
+        "type": "message",
+        "subtype": "channel_topic",
+        "text": "<@U02618EV1|gaston> set the channel topic: “Resolve that sh#t!\"",
+        "ts": "1437168588.000049",
+        "reactions": [
+            {
+                "name": "muscle",
+                "users": [
+                    "U0260V1BX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<!channel> what is the most current dev site? <http:\/\/dev.fathom.org|dev.fathom.org> or arenero?",
+        "ts": "1437168885.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "arenero - we haven’t pushed to HAL’s iframe lately",
+        "ts": "1437168909.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "k thx",
+        "ts": "1437168915.000052"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "i can point at arenero if you need it",
+        "ts": "1437168919.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "nope",
+        "ts": "1437168923.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I just updated arenero with the latest.",
+        "ts": "1437168975.000055"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0260V1BX>: Gaston just pushed a fix for issue #41 (errors for when kids are too young and adults are too old)",
+        "ts": "1437169087.000056"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "can you help me test it on arenero?",
+        "ts": "1437169093.000057"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yeah, saw that! thats why i was asking - wasnt working but looks like gaston just pushed it so i will test it",
+        "ts": "1437169109.000058"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool thanks",
+        "ts": "1437169138.000059"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Adults need to be 18 by the sail date, not older than 18",
+        "ts": "1437169164.000060"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i can make a ticket for that if you want",
+        "ts": "1437169181.000061"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "sure create a ticket, thanks",
+        "ts": "1437169332.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02E3CRMA>:  i can haz calendar picker? for real?",
+        "edited": {
+            "user": "U0260V1BX",
+            "ts": "1437174721.000000"
+        },
+        "ts": "1437174712.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "yesss",
+        "ts": "1437174818.000065"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "we got the original picker working",
+        "ts": "1437174826.000066"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "it hasn't been pushed to anything we can see yet, but it's working",
+        "ts": "1437174837.000067"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "siiiiiiick",
+        "ts": "1437174848.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "you guys are the bessssstttt",
+        "ts": "1437174858.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "#blessed",
+        "ts": "1437174871.000070"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "haha",
+        "ts": "1437174875.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "\/giphy bow",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/bow-puss-in-boots-kitten-SKjTHluaRvLG>",
+                "image_url": "http:\/\/media3.giphy.com\/media\/SKjTHluaRvLG\/giphy.gif",
+                "image_width": 500,
+                "image_height": 282,
+                "image_bytes": 1034219,
+                "title": "bow",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/bow-puss-in-boots-kitten-SKjTHluaRvLG"
+            }
+        ],
+        "ts": "1437175062.000072"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "<@U0260V1BX> since we've gone back to the calendar picker, what should the default text read? should it be \"week of\" like the original site?",
+        "ts": "1437176307.000073"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "or your updated \"select a date\" text??",
+        "ts": "1437176316.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Week of is good",
+        "ts": "1437176370.000075"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "cool",
+        "ts": "1437176689.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "Hey guys, i’ll be available by phone\/slack for the rest of the night but i won’t have my computer with me. Please call or text if you need anything. Sorry I’m not there. I LOVE YOU GUYZ. YOU ARE AMAZING.",
+        "ts": "1437178098.000077"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "thanks melissa, will do",
+        "ts": "1437178179.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks Melissa, enjoy  the weekend.",
+        "ts": "1437178226.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": ":heart: you too, <@U0260V1BX>. Have a great weekend!",
+        "ts": "1437179507.000080"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U02E3CRMA|joel> uploaded a file: <https:\/\/uncorked.slack.com\/files\/joel\/F07RE42J1\/pasted_image_at_2015_07_17_08_09_pm.png|Yep, that sums it up.>",
+        "file": {
+            "id": "F07RE42J1",
+            "created": 1437188966,
+            "timestamp": 1437188966,
+            "name": "Pasted image at 2015_07_17 08_09 PM.png",
+            "title": "Yep, that sums it up.",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 19379,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07RE42J1\/pasted_image_at_2015_07_17_08_09_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07RE42J1\/download\/pasted_image_at_2015_07_17_08_09_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 145,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 193,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 518,
+            "original_h": 208,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F07RE42J1\/pasted_image_at_2015_07_17_08_09_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F07RE42J1-dddf5c9a45",
+            "channels": [
+                "C055NDRG1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "U02E3CRMA",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "joel",
+        "bot_id": null,
+        "ts": "1437188968.000081"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U02618EV1|gaston> commented on <@U02E3CRMA|joel>’s file <https:\/\/uncorked.slack.com\/files\/joel\/F07RE42J1\/pasted_image_at_2015_07_17_08_09_pm.png|Yep, that sums it up.>: :clock12::clock1::clock2::clock4::clock6::clock8::clock9::clock11::clock12:",
+        "file": {
+            "id": "F07RE42J1",
+            "created": 1437188966,
+            "timestamp": 1437188966,
+            "name": "Pasted image at 2015_07_17 08_09 PM.png",
+            "title": "Yep, that sums it up.",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U02E3CRMA",
+            "editable": false,
+            "size": 19379,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07RE42J1\/pasted_image_at_2015_07_17_08_09_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F07RE42J1\/download\/pasted_image_at_2015_07_17_08_09_pm.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 145,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 193,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F07RE42J1-037ad83111\/pasted_image_at_2015_07_17_08_09_pm_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 518,
+            "original_h": 208,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/joel\/F07RE42J1\/pasted_image_at_2015_07_17_08_09_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F07RE42J1-dddf5c9a45",
+            "channels": [
+                "C055NDRG1"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "Fc07RF644B",
+            "created": 1437194206,
+            "timestamp": 1437194206,
+            "user": "U02618EV1",
+            "is_intro": false,
+            "comment": ":clock12::clock1::clock2::clock4::clock6::clock8::clock9::clock11::clock12:"
+        },
+        "is_intro": false,
+        "ts": "1437194205.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Wish I hadn’t had that coffee at 7. :tired_face: Well, at least now I can work on some personal projects all night.",
+        "ts": "1437200772.000002"
+    }
+]

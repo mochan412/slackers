@@ -1,0 +1,380 @@
+[
+    {
+        "text": "[Swooshipedia frontend\/dev] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/150fd76ba31ab58466e917aebed642c3bc98432c|150fd76ba31a>: Hiding dashes in nav items.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B02A2P2V1",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1404143121.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Saw a question about voices QA card. voices is a case study at the very end of the list on the CMS. Commuting in right now be there ASAP",
+        "ts": "1404145102.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes, I was searching but my browser hadn't loaded the bottom of the infinite scroll so I search couldn't find it. Found it later.",
+        "ts": "1404145236.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> Swish is stuck trying to load hero images for each case study. Was working fine 10 minutes ago.",
+        "ts": "1404145275.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Seeing that on both Swish and my local server so I imagine I may have something to do with the API.",
+        "ts": "1404145673.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I'm having laptop issues at the moment but I'll take a look asap",
+        "ts": "1404145793.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome. Thanks.",
+        "ts": "1404145804.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U02618EV1> case study pages load fine for me",
+        "ts": "1404146206.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Seem to fine. Have no idea what was going on before.",
+        "ts": "1404146245.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Other websites were working. Will let you know if I notice that again.",
+        "ts": "1404146266.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "k",
+        "ts": "1404146274.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> Sorry to bug again. Trying to make draft posts show up but I'm having problem with posts of the same name that are deleted or on other states",
+        "ts": "1404146683.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "So the question is, do we need to have those deleted posts listed in the API feed?",
+        "ts": "1404146734.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "there-is-no-finish-line is a good example of this",
+        "ts": "1404146841.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "what do you need?",
+        "ts": "1404146851.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "only published and draft posts?",
+        "ts": "1404146860.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes, if that's all we need to see.",
+        "ts": "1404146873.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "need to see where?",
+        "ts": "1404146885.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "The front-end",
+        "ts": "1404146897.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "We’re showing draft posts on the front end??",
+        "ts": "1404146929.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "No but we need to when previewing posts from the CMS",
+        "ts": "1404146952.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh right. so what you want is the campaign feed with only published and draft posts?",
+        "ts": "1404147013.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes, if that's possible and not a big pain :grinning:",
+        "ts": "1404147044.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "you can just use this query to get published and draft campaigns:",
+        "ts": "1404147413.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<http:\/\/swapi.uncorkedstudios.com\/campaigns?{%22state%22:{%22$in%22:[%22draft%22,%22published%22]}}|http:\/\/swapi.uncorkedstudios.com\/campaigns?{\"state\":{\"$in\":[\"draft\",\"published\"]}}>",
+        "ts": "1404147600.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Testing...",
+        "ts": "1404148068.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Can't seem to make it work",
+        "ts": "1404148660.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "posting here for completeness: <http:\/\/swapi.uncorkedstudios.com\/campaigns?{%22state%22:{%22$in%22:[%22draft%22,%22published%22]},%22slug%22:%22there-is-no-finish-line%22}|http:\/\/swapi.uncorkedstudios.com\/campaigns?{\"state\":{\"$in\":[\"draft\",\"published\"]},\"slug\":\"there-is-no-finish-line\"}>",
+        "ts": "1404149753.000036"
+    },
+    {
+        "text": "[Swooshipedia frontend\/] 2 new commits:\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/39b95d9223868c096ea0c6433d93bf3d14c93404|39b95d922386>: Cleaned up home helpers code.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/ff616db677b9a6a47c0c69bea6a61ec4909135fb|ff616db677b9>: Making draft posts visible.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B02A2P2V1",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1404149986.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ordering swoosh trello QA cards now top down from high pri to low pri.",
+        "ts": "1404152127.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "ordered.",
+        "ts": "1404152481.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "there are some cards toward the bottom that aren't clear enough. they were items from engin that i am both, looking into myself to see if I can add more detail, and asking them for more detail as well.",
+        "ts": "1404152624.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026AP8CM> there are a a few duplicate trello cards that have either been addressed already or I moved into Done last week.",
+        "ts": "1404154534.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Should I just move them into done or do you want to delete them?",
+        "ts": "1404154545.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "sure! sorry about that.",
+        "ts": "1404154553.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "move them to done",
+        "ts": "1404154561.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks Jenny!",
+        "ts": "1404154565.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "k",
+        "ts": "1404154566.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "done",
+        "ts": "1404154588.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U026AP8CM> Can you confirm if <https:\/\/trello.com\/c\/5CvdHlAY\/112-chrome-desktop-arrows-in-articles-not-working-for-the-year-1996-going-forward-displays-different-results-than-going-backwards> is still an issue? Seems like next\/prev arrows go to the right case studies.",
+        "ts": "1404155037.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026AP8CM>:  in your earlier emails you said you needed a build, but then in the latest, you are asking Jenny to scrape the site by EOD.",
+        "ts": "1404164211.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "which is it?  now or by EOD?",
+        "ts": "1404164221.000050"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "EOD is fine, so it's in place for tomorrow morning. Sorry for the confusion.",
+        "ts": "1404164248.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U02613K0X>: doesn't need to do it.  I will use the publishing tool...  which generates a zip for the ipad app and commits the site to the SVN",
+        "ts": "1404164265.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "gotcha, apologies.",
+        "ts": "1404164301.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "no worries...   just needing\/wanting to clarify.",
+        "ts": "1404164316.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U02613K0X> here's an odd one for you: <http:\/\/swapi.uncorkedstudios.com\/campaigns?slug=800-number> has \"800-number\" under nextCampaign but <http:\/\/swapi.uncorkedstudios.com\/campaigns?slug=800-number> has \"city-attacks\" under prev.",
+        "ts": "1404166192.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "about to check it out",
+        "ts": "1404167369.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Thanks",
+        "ts": "1404167443.000057"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "keep me updated on the progress. if we can close this bug tonight we're in fabulous shape moving forward the rest of the week.",
+        "ts": "1404168439.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<@U026AP8CM> I know I’ve asked you this before, but do we know the max case studies per year?",
+        "ts": "1404168626.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "roughly",
+        "ts": "1404168637.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "actually!",
+        "ts": "1404168693.000061"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "nvm i don’t need it",
+        "ts": "1404168697.000062"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "okay",
+        "ts": "1404168700.000063"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "if that changes, happy to get that for you.",
+        "ts": "1404168705.000064"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "<@U02618EV1>: earlier I told you I would get clarification on the ambiguous Trello cards from Engin, the ones we needed more detail and\/or screenshots for; none of them were open issues, they've all been closed out.",
+        "ts": "1404169191.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "OK",
+        "ts": "1404169260.000066"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Fixed the case study ordering issue. <@U02618EV1> the way i was giving you the next and prev campaigns was not foolproof but it should be now.",
+        "ts": "1404169265.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Awesome. Thanks <@U02613K0X> !",
+        "ts": "1404169282.000068"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "thanks <@U02613K0X> !!!",
+        "ts": "1404169308.000069"
+    },
+    {
+        "text": "[Swooshipedia frontend\/] 13 new commits:\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/608f46973964ad239554ab52a55bc4ededaa608c|608f46973964>: Using the correct images on dual image lightboxes.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/da33b39b41a51626255bf92a7c6b8318e9a2313f|da33b39b41a5>: Scaling landing page type down for smaller devices.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/0cd47ab10e2f05b992a072963fdc1bb7321c0872|0cd47ab10e2f>: Making sure isotope works gain  when filtering after it was destroyed.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/8c7fa394f266f3c8c834035c0e52324917ff4bed|8c7fa394f266>: Removed tag dashes on case studies.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/5bbd340cbcedf419b5ba302c4f5083b8da724a58|5bbd340cbced>: No longer selecting persona on when toggling on the filter nav.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/dd359c2820500daedeafadae12cd13ddba0e5459|dd359c282050>: Made landing page overlay blocks clickable.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/dcd8ad6076a36fae27aa42b87e735bbb2da3107d|dcd8ad6076a3>: Added and styled quote sublines\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/e2675b01a13aa24fd49a658b12d5b5dd0d3723e8|e2675b01a13a>: Centered landing page nav.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/503e44894bf202b5916f9b44c82c161a7d8df0a5|503e44894bf2>: Added next\/prev navs to the landing page.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/d8621d174a91aae7a6ebe3eb87238a0d4dd87664|d8621d174a91>: Updated borders on landing page blocks.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/8e0768c1dd11c4b072297ac27d333731cc1f175e|8e0768c1dd11>: Centered decade text.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/23420e653be177f2f5528d90d065376bc60ccbce|23420e653be1>: Removed orange highlight from active nav state.\n - gastonfig\n[Swooshipedia frontend\/] <https:\/\/bitbucket.org\/uncorkedstudios\/swooshipedia-frontend\/commits\/068c69c7e455cfea29d49b51dd7eeec71954204c|068c69c7e455>: Added landing page logo.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B02A2P2V1",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1404196596.000070"
+    }
+]

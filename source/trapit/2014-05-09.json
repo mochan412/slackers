@@ -1,0 +1,468 @@
+[
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "morning team trapit. Anything change on the RSS feeds overnight? I can’t seem to get anything to load in the Trapit content sections today",
+        "ts": "1399651694.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02618EV1> is there a URL where I can see the thank you page?",
+        "ts": "1399651824.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<http:\/\/trdev.uncorkedstudios.com\/thank-you>",
+        "ts": "1399651847.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sweeet thanks!",
+        "ts": "1399651865.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and has anybody from trapit seen that copy?",
+        "ts": "1399651925.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ran it by hank",
+        "ts": "1399652102.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "can we change copy on that thank you screen?",
+        "ts": "1399652110.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Proposed change: \"We’ll be in touch with you very soon (probably within 24 hours) to set up a time for your free demo.” \n\nto \n\n\"We’ll be in touch within the next business day to set up a time for your free demo.\"",
+        "ts": "1399652148.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "also - whatever bug was happening on Trapit content appears to be fixed now. Did we switch anything?",
+        "ts": "1399652231.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I’m concerned about the stability of that section overall and would love to hammer on it a bit to ensure we know what’s going on",
+        "ts": "1399652252.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "oh yes we can definitely change it",
+        "ts": "1399652267.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "(the copy)",
+        "ts": "1399652287.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "re: copy - fantastic",
+        "ts": "1399652305.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "<@U0289USNA>: any thoughts re: feeds? Seems like a few too many (potential) bugs going on with that. What can we do to increase stability? \n\nRight now, I’ve seen two core issues — \n\n1) Potential mismatch from Trapit HQ to site. We think this has been fixed, but have yet to officially confirm. \n\n2) Missing content entirely (‘oops. Try again in few minutes’ message).",
+        "ts": "1399652430.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i’d like to propose a test session with Trapit team today where they’re actively adding content in and we can see in realtime",
+        "ts": "1399652454.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "or something like that",
+        "ts": "1399652458.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "bottom line, we need to take proactive steps to ensure that the feed is stable",
+        "ts": "1399652475.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0265G76F> re: #2 happened because I pushed new code but didn't re-start the server immediately after. That's been fixed.",
+        "ts": "1399652544.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ok",
+        "ts": "1399652553.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "good to know",
+        "ts": "1399652558.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i saw it happen a few times yesterday too, which is why i’m concerned",
+        "ts": "1399652575.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "but if we know WHY it happened, that’s another story",
+        "ts": "1399652583.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "well - in general, given our non-official QA on this site, I’d love to hammer on it a bit",
+        "ts": "1399652624.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Yes. I believe the issue when we don't get anything from the feeds is fixed now.",
+        "ts": "1399652635.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sounds good on that front",
+        "ts": "1399652701.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "I’d like to set up a testing time with Trapit team, as suggested above, to add new content in real time",
+        "ts": "1399652724.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "That would be great. I'm open all day and ready for that.",
+        "ts": "1399652787.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "ok cool",
+        "ts": "1399652798.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U0265G76F>: see gaston's note that he forgot to restart the server after he pushed our changes from yesterday.   With the changes from yesterday it should be stable now.",
+        "ts": "1399656405.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "As we test today, anyone who sees something funny with the rss feeds should definitely speak up as they should be good to go and perfect as of now.",
+        "ts": "1399656444.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "understood",
+        "ts": "1399656470.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i still want to have the 2:15 testing meeting",
+        "ts": "1399656476.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "that we set up with trapit",
+        "ts": "1399656485.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "if nothing else, we want to kick tires",
+        "ts": "1399656491.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "it could take 5 min",
+        "ts": "1399656495.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "yeah, that meeting is totally appropriate",
+        "ts": "1399657355.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "cool",
+        "ts": "1399657455.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "well it’s on the books!",
+        "ts": "1399657459.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0265G76F> are we still doing the dev meeting at 11 today?",
+        "ts": "1399658002.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sorry - missed this",
+        "ts": "1399658655.000041"
+    },
+    {
+        "text": "[trapit-site-2014\/] 10 new commits:\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/a9d90a566514d2efe712a41a46f20a593be3b73a|a9d90a566514>: Updated vertical margins on ul&gt;ul elements.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/0630e3e06853cca1229e509452d2a8f665529ec2|0630e3e06853>: Updated about bg image.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/77056fbf543ad6e00a25b74cc25dbe3be46d4d3b|77056fbf543a>: Center career bg image.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/b45940caf8ff7fb7925e1a82d58e7a8173995c10|b45940caf8ff>: Changed overview pdf link's case.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/113ad2efbdb97d88182739f104349561eedf76a5|113ad2efbdb9>: Reduced size of featured testimonials text on mobile.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/f405dd499fff27d6f619f11599f789dfb1f4bf65|f405dd499fff>: Added transparent resource to press page.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/e250b0e7efee4a5a8d130ed551cf0f26d206e9ab|e250b0e7efee>: Fixed featured testimonials bottom margin.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/94f00eecb77fb6bb62b715bb525a1b418aed409b|94f00eecb77f>: Fixed type styles on home hero text.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/8c6bdf77e807fd17c7d3106393dbb819ffcd1543|8c6bdf77e807>: Updated thank you page copy.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/475ce06f71cdde3f33db45d4de9b2899b67281e8|475ce06f71cd>: Fixed markup type styles on job detail page.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B028E7DJW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1399659115.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": ":clap::clap::clap:",
+        "ts": "1399659137.000043"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": ":metal:",
+        "ts": "1399659882.000044"
+    },
+    {
+        "text": "[trapit-site-2014\/] 2 new commits:\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/3fae9e004a737ff24a491148740a04ccf6275f90|3fae9e004a73>: Added dropdown nav to the trap content menu.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/5a5e89a27282a6474cb1a57bb311b19a1887b572|5a5e89a27282>: Styled trap content dropdown on mobile.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B028E7DJW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1399665699.000045"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U0265G76F>: re: the masonry issue I was telling you about...",
+        "ts": "1399668508.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02618EV1> says it can be accomplished but with a different plugin...it would be a not-minor update",
+        "ts": "1399668532.000047"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "3-ish hours",
+        "ts": "1399668535.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "is it necessary for launch?",
+        "ts": "1399668542.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "probably not necessary for launch",
+        "ts": "1399668829.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "can we just fake it by reordering in CMS for now?",
+        "ts": "1399668839.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "because we know where masonry will plot things out",
+        "ts": "1399668852.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "also, while we’re all in here — Heard back from Hank re: State vs. Company state",
+        "ts": "1399668875.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "they’re inclined (I agree) to keep it simple as just — State",
+        "ts": "1399668887.000054"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes i'll fake in the CMS, we'll have to reorder when the new plugin gets implemented.",
+        "ts": "1399668980.000055"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "k",
+        "ts": "1399668981.000056"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "After doing more research it looks like the plugin has a $90 license for commercial use",
+        "ts": "1399669062.000057"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<http:\/\/isotope.metafizzy.co\/license.html>",
+        "attachments": [
+            {
+                "title": "Isotope License",
+                "title_link": "http:\/\/isotope.metafizzy.co\/license.html",
+                "text": "filter &amp; sort magical layouts",
+                "fallback": "Isotope License",
+                "from_url": "http:\/\/isotope.metafizzy.co\/license.html",
+                "id": 1
+            }
+        ],
+        "ts": "1399669073.000058"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I'm in big conf room for our call in 2 mins.",
+        "ts": "1399670036.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Do we want Skype or call?",
+        "ts": "1399670047.000061"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "oh man - i forgot",
+        "ts": "1399670068.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "i’m in a meeting",
+        "ts": "1399670072.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "kelly is",
+        "ts": "1399670075.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "kellmooo on skype",
+        "ts": "1399670098.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Perfect. Thanks.",
+        "ts": "1399670108.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "thanks",
+        "ts": "1399670110.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Call is over. Everything seems to be working well.",
+        "ts": "1399671241.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "YAH",
+        "ts": "1399671301.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "awesome",
+        "ts": "1399671304.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "I went ahead and told them they can send me a quick email if anything comes up so I can troubleshoot things in real time.",
+        "ts": "1399671377.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U0265G76F>: trapit got there server setup and I have root access to it so we can get in and do anything we need to for deployment.",
+        "ts": "1399672680.000072"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "<@U0260V1BX> <http:\/\/trap.hs-sites.com\/blog\/>",
+        "ts": "1399676554.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "When you have a chance. Header and footer are missing some of the new stuff we added since the beginning of the week.",
+        "ts": "1399676605.000078"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "awesome",
+        "ts": "1399676776.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thanks gaston - i will make any notes on trello",
+        "ts": "1399676782.000080"
+    },
+    {
+        "text": "[trapit-site-2014\/] 6 new commits:\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/9811312d22577f092def15f47b594752026ca7ed|9811312d2257>: Added new thank you and 404 bg images.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/e6ce64ca64bccbfa1e1587134bad77342e4e37b3|e6ce64ca64bc>: About page copy edits.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/0bd346e458a80f8888f0dab9748747dd8cd359ac|0bd346e458a8>: Press page copy edits.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/3655d3f1be9c03b630ec8fcc4bbd7d8333946682|3655d3f1be9c>: HIW copy edits.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/13cd410ce94f9d29dae3628da63e953db559026a|13cd410ce94f>: Home copy edits.\n - gastonfig\n[trapit-site-2014\/] <https:\/\/bitbucket.org\/uncorkedstudios\/trapit-site-2014\/commits\/e3f645cf76c585a55a8823b13b32405aa89f032b|e3f645cf76c5>: Resources copy edits.\n - gastonfig",
+        "username": "bitbucket",
+        "bot_id": "B028E7DJW",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1399678295.000081"
+    }
+]

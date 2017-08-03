@@ -1,0 +1,92 @@
+[
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "¿ǝʞoɹʇs ɐ buıʌɐɥ ı ɯɐ",
+        "ts": "1457017373.000272"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "This channel beachballs my Mac when I switch to it from all the Unicode ",
+        "ts": "1457017804.000273"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/blog.cloudflare.com\/a-winter-of-400gbps-weekend-ddos-attacks\/>",
+        "attachments": [
+            {
+                "service_name": "CloudFlare",
+                "title": "400Gbps: Winter of Whopping Weekend DDoS Attacks",
+                "title_link": "https:\/\/blog.cloudflare.com\/a-winter-of-400gbps-weekend-ddos-attacks\/",
+                "text": "Over the last month, we&amp;rsquo;ve been watching some of the largest distributed denial of service (DDoS) attacks ever seen unfold. As CloudFlare has grown we've brought on line systems capable of absorbing and accurately measuring attacks. Since we don't need to resort to crude techniques to block traffic",
+                "fallback": "CloudFlare: 400Gbps: Winter of Whopping Weekend DDoS Attacks",
+                "ts": 1456972320,
+                "from_url": "https:\/\/blog.cloudflare.com\/a-winter-of-400gbps-weekend-ddos-attacks\/",
+                "id": 1
+            }
+        ],
+        "ts": "1457023930.000274"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cloudflare basically hosts the internet at this point",
+        "ts": "1457023955.000276"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/io9.gizmodo.com\/all-of-star-trek-enterprise-was-really-just-will-riker-1762677050?utm_campaign=socialflow_io9_twitter&amp;utm_source=io9_twitter&amp;utm_medium=socialflow>",
+        "attachments": [
+            {
+                "service_name": "io9",
+                "title": "All of Star Trek: Enterprise Was Really Just Will Riker's Holodeck Program",
+                "title_link": "http:\/\/io9.gizmodo.com\/all-of-star-trek-enterprise-was-really-just-will-riker-1762677050?utm_campaign=socialflow_io9_twitter&utm_source=io9_twitter&utm_medium=socialflow",
+                "text": "As with any franchise that has been around 50 years, Star Trek has a number of plot holes and continuity errors. The last show, Enterprise, was veritable font of these kinds of questions, which is always a problem when you’re making a prequel.",
+                "fallback": "io9: All of Star Trek: Enterprise Was Really Just Will Riker's Holodeck Program",
+                "thumb_url": "https:\/\/i.kinja-img.com\/gawker-media\/image\/upload\/s--wIibHN1K--\/c_fill,fl_progressive,g_north,h_358,q_80,w_636\/muqmwb4zjjttphkjac6h.jpg",
+                "from_url": "http:\/\/io9.gizmodo.com\/all-of-star-trek-enterprise-was-really-just-will-riker-1762677050?utm_campaign=socialflow_io9_twitter&utm_source=io9_twitter&utm_medium=socialflow",
+                "thumb_width": 636,
+                "thumb_height": 358,
+                "id": 1
+            }
+        ],
+        "ts": "1457033742.000277",
+        "reactions": [
+            {
+                "name": "spock-hand",
+                "users": [
+                    "U02F8TTPU",
+                    "U0261PCRQ",
+                    "U0H4SJN11"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<http:\/\/petewarden.com\/2016\/02\/28\/tensorflow-for-poets\/>",
+        "attachments": [
+            {
+                "service_name": "Pete Warden&amp;#039;s blog",
+                "service_url": "http:\/\/petewarden.com",
+                "title": "TensorFlow for Poets",
+                "title_link": "http:\/\/petewarden.com\/2016\/02\/28\/tensorflow-for-poets\/",
+                "author_name": "Pete Warden",
+                "author_link": "https:\/\/petewarden.com\/author\/petewarden\/",
+                "thumb_url": "https:\/\/i0.wp.com\/petewarden.files.wordpress.com\/2016\/02\/screen-shot-2016-02-27-at-4-07-18-pm.png?fit=200%2C150&ssl=1",
+                "thumb_width": 200,
+                "thumb_height": 82,
+                "text": "When I first started investigating the world of deep learning, I found it very hard to get started. There wasn’t much documentation, and what existed was aimed at academic researchers who already knew a lot of the jargon and background. Thankfully that has changed over the last few years, with a lot more guides and tutorials appearing.\nI always loved EC2 for Poets though, and I haven’t seen anything for deep learning that’s aimed at as wide an audience. EC2 for Poets is an explanation of cloud computing that removes a lot of the unnecessary mystery by walking anyone with basic computing knowledge step-by-step through building a simple application on the platform. In the same spirit, I want to show how anyone with a Mac laptop and the ability to use the Terminal can create their own image classifier using TensorFlow, without having to do any coding.\nI feel very lucky to be a part of building TensorFlow, because it’s a great opportunity to bring the power of deep learning to a mass audience. I look around and see so many applications that could benefit from the technology by understanding the images, speech, or text their users enter. The frustrating part is that deep learning is still seen as a very hard topic for product engineers to grasp. That’s true at the cutting edge of research, but otherwise it’s mostly a holdover from the early days. There’s already a lot of great documentation on the TensorFlow site, but to demonstrate how easy it can be for general software engineers to pick up I’m going to present a walk-through that takes you from a clean OS X laptop all the way to classifying your own categories of images. You’ll find written instructions in this post, along with a screencast showing exactly what I’m doing.\n\nDocker\nIt’s possible to get TensorFlow running natively on OS X, but there’s less standardization around how the development tools like Python are installed which makes it hard to give one-size-fits-all instructions. To make life easier, I’m going to use the free Docker container system, which will allow me to install a Linux virtual machine that runs on my MacBook Pro. The advantage is that I can start from a known system image, and so the instructions are a lot more likely to work for everyone.\nInstalling Docker\nThere’s full documentation on installing Docker at <http:\/\/docker.com|docker.com>, and it’s likely to be updated over time, but I will run through exactly what steps I took to get it running here.\n\nI went to <http:\/\/docs.docker.com\/mac\/|docs.docker.com\/mac\/> in my browser.\nStep one of the instructions sent me to download the Docker Toolbox.\nOn the Toolbox page, I clicked on the Mac download button.\nThat downloaded a DockerToolbox-1.10.2.pkg file.\nI ran that downloaded pkg to install the Toolbox.\nAt the end of the install process, I chose the Docker Quickstart Terminal.\nThat opened up a new terminal window and ran through an installation script.\nAt the end of the script, I saw ASCII art of a whale and I was left at a prompt.\nI went back to step one of the instructions, and ran the suggested command in the terminal:\ndocker run hello-world\n\nThis gave me output confirming my installation of Docker had worked:\nHello from Docker.\nThis message shows that your installation appears to be working correctly.\n\n\nInstalling TensorFlow\nNow I’ve got Docker installed and running, I can get a Linux virtual machine with TensorFlow pre-installed running. We create daily development images, and ones for every major release. Because the example code I’m going to use came in after the last versioned release, 0.7.1, we’ll have to do some extra work below to update the source code using git, but once 0.8 comes out you could replace the ‘0.7.1’ below with the 0.8.0 instead, and skip the ‘Updating the Code’ section. The Docker section in the TensorFlow documentation has more information.\nTo download and run the TensorFlow docker image, use this command from the terminal:\ndocker run -it <http:\/\/b.gcr.io\/tensorflow\/tensorflow:0.7.1-devel|b.gcr.io\/tensorflow\/tensorflow:0.7.1-devel>\nThis will show a series of download and extraction steps. These are the different components of the TensorFlow image being assembled. It needs to download roughly a gigabyte of data, so it can take a while on a slow network connection.\nOnce that’s complete, you’ll find yourself in a new terminal. This is now actually the shell for the Linux virtual machine you’ve downloaded. To confirm this has been successful, run this command:\nls \/tensorflow\nYou should see a series of directories, including a tensorflow one and some .build files, something like this:\n\nOptimizing Docker\nOften Docker is just used for testing web apps, where computational performance isn’t that important, so the speed of the processor in the virtual machine isn’t crucial. In our example we’re going to be doing some very heavy number-crunching though, so optimizing the configuration for speed is important.\nUnder the hood, Docker actually uses VirtualBox to run its images, and we’ll use its control panel to manage the setup. To do that, we’ll need to take the following steps:\n\nFind the VirtualBox application on your Mac. I like to use spotlight to find and open it, so I don’t have to hunt around on the file system.\nOnce VirtualBox is open, you should see a left-hand pane showing virtual machines. There should be one called ‘default’ that’s running.\nRight-click on ‘default’ to bring up the context menu and chose ‘Close-&gt;ACPI Shutdown’. The other close options should also work, but this is the most clean.\nOnce the shutdown is complete, ‘default’ should have the text ‘Powered off’ below it. Right click on it again and choose ‘Settings…’ from the menu.\nClick on the ‘System’ icon, and then choose the ‘Motherboard’ tab.\nDrag the ‘Base Memory’ slider as far as the green section goes, which is normally around 75% of your total laptop’s memory. So in my case it’s 12GB, because I have a 16GB machine.\nClick on the ‘Processor’ tab, and set the number of processors higher than the default of 1. Most likely on a modern MacBook Pro 4 is a good setting, but use the green bar below the slider as a guide.\nClick ‘OK’ on the settings dialog.\nRight-click on ‘default’ and choose ‘Start-&gt;Headless Start’.\n\nYou should find that your terminal was kicked out of the Linux prompt when you stopped the ‘default’ box, but now you’ve restarted it you can run the same command to access it again:\ndocker run -it <http:\/\/b.gcr.io\/tensorflow\/tensorflow:0.7.1-devel|b.gcr.io\/tensorflow\/tensorflow:0.7.1-devel>\nThe only difference is that now the virtual machine will have access to a lot more of your laptop’s computing power, and so the example should run a lot faster!\nDownloading Images\nThe rest of this walk-through is based on the image-retraining example on the TensorFlow site. It shows you how to take your own images organized into folders by category, and use them to quickly retrain the top layer of the Inception image recognition neural network to recognize those categories. To get started, the first thing you need to do is get some example images. To begin, go to the terminal and enter the ‘exit’ command if you still see the ‘root@…’ prompt that indicates you’re still in the Linux virtual machine.\nThen run the following commands to create a new folder in your Downloads directory to hold training images, and download and extract the flower photos:\ncd $HOME\nmkdir tf_files\ncd tf_files\ncurl -O <http:\/\/download.tensorflow.org\/example_images\/flower_photos.tgz>\ntar xzf flower_photos.tgz\nopen flower_photos\nThis should end up with a new finder window opening, showing a set of five folders:\n\nThis means you’ve successfully downloaded the example flower images. If you look at how they’re organized, you should be able to use the same structure with classes you care about, just replacing the folder names with the category labels you’re dealing with, and populating them with photos of those objects. There’s more guidance on that process in the tutorial.\nRunning the VM with Shared Folders\nNow you’ve got some images to train with, we’re going to start up the virtual machine again, this time sharing the folder you just created with Linux so TensorFlow can access the photos:\ndocker run -it -v $HOME\/tf_files:\/tf_files <http:\/\/b.gcr.io\/tensorflow\/tensorflow:0.7.1-devel|b.gcr.io\/tensorflow\/tensorflow:0.7.1-devel>\nYou should find yourself back in a Linux prompt. To make sure the file sharing worked, try the following command:\nls \/tf_files\/flower_photos\nYou should see a list of the flower folders, like this:\nroot@2c570d651d08:~# ls \/tf_files\/flower_photos\nLICENSE.txt daisy dandelion roses sunflowers tulips\nroot@2c570d651d08:~#\nUpdating the Code\nFor this example, we need the very latest code since it’s just been added. Unfortunately getting it is a little involved, with some use of the source control program git. I’ll walk through the steps below.\nPulling the code requires a default email address, which you can set to anything, since we’re not planning on pushing any changes back.\ngit config --global user.email \"<mailto:you@example.com|you@example.com>\"\ngit config --global user.name \"Your Name\"\nNow you should be able to pull the latest source.\ncd \/tensorflow\/\ngit pull origin master\nYou’ll find yourself in a vim window. Just type ‘:quit’ to exit.\nYou should now have fully up-to-date code. We want to sync it to a version we know works though, so we’ll run this command:\ngit checkout 6d46c0b370836698a3195a6d73398f15fa44bcb2\nBuilding the Code\nIf that worked, the next step is to compile the code. You may notice there’s some optimization flags in the command that help speed it up on processors with AVX, which almost all modern OS X machines have.\ncd \/tensorflow\/\nbazel build -c opt --copt=-mavx tensorflow\/examples\/image_retraining:retrain\nThis part can take five to ten minutes, depending on the speed of your machine, as it’s compiling the full source code for TensorFlow. Don’t worry if you see a lot of warnings, this is normal (though we’re working on reducing them going forward).\nRunning the Code\nI can now run the retraining process using this command:\nbazel-bin\/tensorflow\/examples\/image_retraining\/retrain \\\n--bottleneck_dir=\/tf_files\/bottlenecks \\\n--model_dir=\/tf_files\/inception \\\n--output_graph=\/tf_files\/retrained_graph.pb \\\n--output_labels=\/tf_files\/retrained_labels.txt \\\n--image_dir \/tf_files\/flower_photos\nYou’ll see a message about downloading the Inception model, and then a long series of messages about creating bottlenecks. There’s around 3,700 photos in total to process, and my machine does around 200 a minute, so it takes around twenty minutes in total. If you want to know more about what’s happening under the hood while you wait, you can check out the tutorial for a detailed explanation.\nI’ve changed the default \/tmp destination for things like the output graph and cached bottlenecks to the shared \/tf_files folder, so that the results will be accessible from OS X and will be retained between different runs of the virtual machine.\nOnce the bottlenecks are cached, it will then go into the training process, which takes another five minutes or so on my laptop. At the end, you should see the last output line giving the final estimated accuracy, which should be around 90%. That means you’ve trained your classifier to guess the right flower species nine times out of ten when shown a photo!\nUsing the Classifier\nThe training process outputs the retrained graph into \/tmp\/output_graph.pb, and to test it out yourself you can build another piece of sample code. The label_image example is a small C++ program that loads in a graph and applies it to a user-supplied image. Give it a try like this:\nbazel build tensorflow\/examples\/label_image:label_image &amp;&amp; \\\nbazel-bin\/tensorflow\/examples\/label_image\/label_image \\\n--graph=\/tf_files\/retrained_graph.pb \\\n--labels=\/tf_files\/retrained_labels.txt \\\n--output_layer=final_result \\\n--image=\/tf_files\/flower_photos\/daisy\/21652746_cc379e0eea_m.jpg\nYou should see a result showing that it identified a daisy in that picture, though because the training process is random you may occasionally have a model that makes a mistak on the image. Try it with some of the other photos to get a feel for how it’s doing.\nNext Steps\nThe first thing you’ll probably want to do is train a classifier for objects you care about in your application. This should be as simple as creating a new folder in your Downloads\/tf_images directory, putting subfolders full of photos in it, and re-running the classifier commands. You can find more detailed advice on tuning that process in the tutorial.\nFinally, you’ll want to use this in your own application! The label_image example is a good template to look at if you can integrate C++ into your product, and we even support running on mobile, so check out the Android sample code if you’d like to run on a smart phone.\nThanks for working through this process with me, I hope it’s inspired you to think about how you can use deep learning to help your users, and I can’t wait to see what you build!",
+                "fallback": "Pete Warden&amp;#039;s blog Link: TensorFlow for Poets",
+                "from_url": "http:\/\/petewarden.com\/2016\/02\/28\/tensorflow-for-poets\/",
+                "id": 1
+            }
+        ],
+        "ts": "1457040743.000279"
+    }
+]

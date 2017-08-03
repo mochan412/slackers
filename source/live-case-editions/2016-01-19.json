@@ -1,0 +1,453 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "@peter <@U02613K0X> I think I have a contact for deployment issues. Can you summarize what is going on and I'll try and push it forward?",
+        "ts": "1453227337.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: ",
+        "ts": "1453227341.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the error i am getting is actually posted in the chat above. But basically it looks like some command is bombing out and not finishing the processing, so every page you try and hit ends in 503 error",
+        "ts": "1453228136.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "INFO     2016-01-13 18:15:30,844 containers.py:282] ---&gt; Running in 852328cf3df9\nERROR    2016-01-13 18:15:31,281 containers.py:285] The command [\/bin\/sh -c exit 1;] returned a non-zero code: 1\nINFO     2016-01-13 18:15:31,282 containers.py:294] --------------------------------------------------------\nERROR    2016-01-13 18:15:31,282 instance.py:280] Docker build aborted: The command [\/bin\/sh -c exit 1;] returned a non-zero code: 1",
+        "ts": "1453228148.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Do you know which command is bombing out?",
+        "ts": "1453228175.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I am actually having a different issue where deployment doesn’t throw any but just times out. Can post details on that here as well.",
+        "ts": "1453228246.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i had these errors on gcloud version 0.9.66",
+        "ts": "1453228312.000008"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U02613K0X> would be useful!",
+        "ts": "1453228401.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Will probably also be helpful to include Dockerfile contents and exactly what commands we run that throw the errors",
+        "ts": "1453228413.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I’ll recreate the timeout issue real quick and then post all the details",
+        "ts": "1453228473.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "going to be a few mins, figuring out something on compass rn",
+        "ts": "1453228929.000012"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Awesome no rush ",
+        "ts": "1453228982.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "sooooooooo it’s working now :sob::sob:",
+        "ts": "1453236299.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "<http:\/\/tidy-federation-859.appspot.com\/>",
+        "ts": "1453236326.000015"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "COOOOOL",
+        "ts": "1453236330.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "YEAH",
+        "ts": "1453236335.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "(I didn’t change anything)",
+        "ts": "1453236341.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I tried to deploy last week many times on separate days and the process timed out every time. Now the same command works great.",
+        "ts": "1453236375.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "I’ve deployed successfully like 4 times in the last 20 mins",
+        "ts": "1453236412.000020"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Ugh. ",
+        "ts": "1453236437.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "But yay!",
+        "ts": "1453236454.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "hooray????",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1453236872.000000"
+        },
+        "ts": "1453236862.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Currently trying some stuff to get an idea of exactly what the environment it’s working in needs to be.",
+        "ts": "1453236931.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet!",
+        "ts": "1453237382.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Here’s the setup for reference:",
+        "ts": "1453237485.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "- Updated Google Cloud SDK to version 92.0.0",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1453237778.000000"
+        },
+        "ts": "1453237488.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "- Updated app.yaml with `runtime: nodejs` and added ```env_variables:\n  NODE_ENV: development``` to work on tidy (I’ll commit this change to bitbucket)",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1453237784.000000"
+        },
+        "ts": "1453237587.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "- Removed Dockerfile",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1453237788.000000"
+        },
+        "ts": "1453237617.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "- Deploy it all with `gcloud preview app deploy app.yaml index.yaml cron.yaml`",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1453237793.000000"
+        },
+        "ts": "1453237634.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Of course making sure the gcloud config is pointing to the right project. This will push a new version and make it the default. You can see all this in the developer console. The script I wrote to automate that shouldn’t need much changing to work again.",
+        "ts": "1453237724.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Just pushed the updated app.yaml and removed Dockerfile to Bitbucket on the multi-artist branch",
+        "ts": "1453238357.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Another note is that it looks like the container for each deployment is build remotely, so boot2docker doesn’t need to be running to deploy",
+        "ts": "1453238425.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool will grab that",
+        "ts": "1453238425.000039"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: would be awesome to have a build pointing at real CMS if possible tomorrow",
+        "ts": "1453238555.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "looking into that now",
+        "ts": "1453238580.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet deploy to tidy worked, going to finish up with a few more changes to what i was working on there and tie the app to the new feed and test",
+        "ts": "1453241540.000042"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Niiiiice!!!",
+        "ts": "1453241796.000043"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "I've got a test photo for you. If you need. ",
+        "ts": "1453241804.000044"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0JSKRG0M\/slack_for_ios_upload.jpg|Slack for iOS Upload>",
+        "file": {
+            "id": "F0JSKRG0M",
+            "created": 1453241873,
+            "timestamp": 1453241873,
+            "name": "Slack for iOS Upload.jpg",
+            "title": "Slack for iOS Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 87384,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JSKRG0M\/slack_for_ios_upload.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JSKRG0M\/download\/slack_for_ios_upload.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSKRG0M-9347f4fd9e\/slack_for_ios_upload_64.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSKRG0M-9347f4fd9e\/slack_for_ios_upload_80.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSKRG0M-9347f4fd9e\/slack_for_ios_upload_360.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSKRG0M-9347f4fd9e\/slack_for_ios_upload_480.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSKRG0M-9347f4fd9e\/slack_for_ios_upload_160.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSKRG0M-9347f4fd9e\/slack_for_ios_upload_720.jpg?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 720,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 800,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0JSKRG0M\/slack_for_ios_upload.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0JSKRG0M-d8b334d4e0",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1453241875.000045"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0JSM6SAZ\/2016-01-19.png|2016-01-19.png>",
+        "file": {
+            "id": "F0JSM6SAZ",
+            "created": 1453242863,
+            "timestamp": 1453242863,
+            "name": "2016-01-19.png",
+            "title": "2016-01-19.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 1219557,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JSM6SAZ\/2016-01-19.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JSM6SAZ\/download\/2016-01-19.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSM6SAZ-15fbc645d9\/2016-01-19_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSM6SAZ-15fbc645d9\/2016-01-19_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSM6SAZ-15fbc645d9\/2016-01-19_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSM6SAZ-15fbc645d9\/2016-01-19_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSM6SAZ-15fbc645d9\/2016-01-19_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSM6SAZ-15fbc645d9\/2016-01-19_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSM6SAZ-15fbc645d9\/2016-01-19_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0JSM6SAZ-15fbc645d9\/2016-01-19_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0JSM6SAZ\/2016-01-19.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0JSM6SAZ-eba7ecb114",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1453242868.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "dropped it into the cms and this showed up in the app",
+        "ts": "1453242879.000047"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Wooooo",
+        "ts": "1453242933.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yay",
+        "ts": "1453243891.000049"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0JSZRBHP\/livecase_editions_1_19.apk|livecase_editions_1_19.apk> and commented: current build, the digital collections works from the cms, just add an update with an image, title and message. The wallpaper updates are not quite there yet, have a few more things to do there.",
+        "file": {
+            "id": "F0JSZRBHP",
+            "created": 1453250720,
+            "timestamp": 1453250720,
+            "name": "livecase_editions_1_19.apk",
+            "title": "livecase_editions_1_19.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 60383100,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JSZRBHP\/livecase_editions_1_19.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0JSZRBHP\/download\/livecase_editions_1_19.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0JSZRBHP\/livecase_editions_1_19.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0JSZRBHP-7387043278",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0JSW74A1",
+                "created": 1453250720,
+                "timestamp": 1453250720,
+                "user": "U0EL0GLEL",
+                "is_intro": true,
+                "comment": "current build, the digital collections works from the cms, just add an update with an image, title and message. The wallpaper updates are not quite there yet, have a few more things to do there."
+            }
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1453250725.000050"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Nice! ",
+        "ts": "1453254984.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "actually i think the wall paper update is working, but currently its setup to set the wallpaper on a per day check, it did pull down the one i set in the cms for today. I set another one to be set for tomorrow. I will check then to see if that one comes down",
+        "ts": "1453265420.000052"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Rad. ",
+        "ts": "1453267390.000053"
+    }
+]

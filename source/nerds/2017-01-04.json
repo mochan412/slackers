@@ -1,0 +1,72 @@
+[
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<https:\/\/twitter.com\/engadget\/status\/816550427915227136>",
+        "attachments": [
+            {
+                "fallback": "<https:\/\/twitter.com\/engadget|@engadget>: Samsung's QLED 4K TVs look better thanks to metal Quantum Dots <http:\/\/engt.co\/2hOGTpE> <https:\/\/pbs.twimg.com\/media\/C1T4R3fUcAA180J.jpg>",
+                "ts": 1483515767,
+                "author_name": "Engadget",
+                "author_link": "https:\/\/twitter.com\/engadget\/status\/816550427915227136",
+                "author_icon": "https:\/\/pbs.twimg.com\/profile_images\/655059892022022144\/Pq3Q_1oU_normal.png",
+                "author_subname": "@engadget",
+                "text": "Samsung's QLED 4K TVs look better thanks to metal Quantum Dots <http:\/\/engt.co\/2hOGTpE>",
+                "service_name": "twitter",
+                "service_url": "https:\/\/twitter.com\/",
+                "from_url": "https:\/\/twitter.com\/engadget\/status\/816550427915227136",
+                "thumb_url": "https:\/\/pbs.twimg.com\/media\/C1T4R3fUcAA180J.jpg",
+                "thumb_width": 1200,
+                "thumb_height": 675,
+                "video_html_width": 1200,
+                "video_html_height": 675,
+                "video_html": "<video controls poster=\"https:\/\/pbs.twimg.com\/media\/C1T4R3fUcAA180J.jpg\" width=\"1200\" height=\"675\"><source type=\"video\/mp4\" src=\"https:\/\/video.twimg.com\/amplify_video\/816550101933883392\/vid\/1280x720\/78Ojzi2myEW0ZaT8.mp4\"><\/video>",
+                "id": 1,
+                "footer": "Twitter",
+                "footer_icon": "https:\/\/a.slack-edge.com\/6e067\/img\/services\/twitter_pixel_snapped_32.png"
+            }
+        ],
+        "ts": "1483518458.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "Quantum Dot LEDs, welcome to the future baby. ",
+        "edited": {
+            "user": "U0K8ZSHN0",
+            "ts": "1483518886.000000"
+        },
+        "ts": "1483518475.000100"
+    },
+    {
+        "type": "message",
+        "user": "U0K8ZSHN0",
+        "text": "<http:\/\/hackaday.com\/2017\/01\/04\/toshiro-kodera-electromagnetic-gyrotropes\/>",
+        "attachments": [
+            {
+                "service_name": "Hackaday",
+                "service_url": "http:\/\/hackaday.com",
+                "title": "Toshiro Kodera: Electromagnetic Gyrotropes",
+                "title_link": "http:\/\/hackaday.com\/2017\/01\/04\/toshiro-kodera-electromagnetic-gyrotropes\/",
+                "author_name": "Elliot Williams",
+                "author_link": "https:\/\/hackaday.com\/author\/hexagon5un\/",
+                "thumb_url": "https:\/\/i0.wp.com\/hackadaycom.files.wordpress.com\/2017\/01\/kodera1_featured.png?fit=200%2C150&ssl=1",
+                "thumb_width": 200,
+                "thumb_height": 88,
+                "text": "We&rsquo;ve learned a lot by watching the talks from the Hackaday Superconferences. Still, it&rsquo;s a rare occurrence to learn something totally new. Microwave engineer, professor, and mad hacker [Toshiro Kodera] gave a talk on some current research that he&rsquo;s doing: replacing natural magnetic gyrotropic material with engineered metamaterials in order to make two-way beam steering antennas and more.\nIf you already fully understood that last sentence, you may not learn as much from [Toshiro]&rsquo;s talk as we did. If you&rsquo;re at all interested in strange radio-frequency phenomena, neat material properties, or are just curious, don your physics wizard&rsquo;s hat and watch his presentation. Just below the video, we&rsquo;ll attempt to give you the Cliff&rsquo;s Notes.\n\n\nFreaking Magnets, How Do They Work?\nIn the end, what [Dr. Kodera] is after is something like a diode, but for microwaves: a material that will let waves pass in one direction but not in the other. Such materials already exist, and are in use in very specialized applications, but making the particular ferrite that&rsquo;s needed is expensive, and damaging to the environment because they require Yttrium, which occurs alongside radioactive ores. And anyway, yttrium iron garnet is incompatible with silicon technologies, so it&rsquo;ll never be integrated into ICs.\nBut what yttrium iron garnet does do is exhibit magnetic gyrotropy, and here&rsquo;s our first physics lesson. Magnets work because of domains of electrons with similar spin. Like the windings in an inductor, the spinning charges make a magnetic field. If you hit certain magnetic materials with an external magnetic field, it effectively puts a torque on them.\nIf you think of the spinning electron like a gyroscope, and you remember something about vector cross products, you&rsquo;ll recall that when you apply an external torque to a gyroscope, it starts to wobble or precess. The equivalent phenomenon in electrons is magnetic gyrotropy, and getting the spinning electrons precessing breaks a symmetry in the material&rsquo;s magnetic properties. And this in turn is the key to making one-way wave propagation possible.\nThe other downside of using natural magnetic gyrotropy in a &ldquo;wave diode&rdquo; is that the frequency with which the electrons precess depends on the magnetic field strength applied. In particular, they precess at 28 GHz per Tesla of applied magnetic field. You can get a Tesla or so on the surface of a neodymium magnet, but if you want to generate it with an electromagnet, it becomes challenging &mdash; an MRI system runs at one to three Tesla, and the detectors in the Large Hadron Collider at CERN run only 8 T. In short, making natural magnetic gyrotropes useful in the microwave range requires big magnets.\nMetamaterials\n[Dr. Kodera]&rsquo;s approach is to build up small circuits out of non-exotic materials that, when viewed together as an aggregate, have the same material properties of magnetic gyrotropy. If the individual sub-circuits are small enough compared to the wavelength of interest, the metamaterial will behave like a homogeneous material as far as the designer is concerned, but can avoid using rare-earth elements or requiring hefty magnetic fields.\nThe basic unit of [Dr. Kodera]&rsquo;s investigation is a ring with a gap in it. Like the split-ring in Hertz&rsquo;s early electromagnetic experiments the ring will oscillate best at a particular resonant frequency. So far, so symmetric. But then a diode (or FET used as a diode) is placed in the gap of the ring, breaking the symmetry and allowing this basic element to be the building block for diode-like electromagnetic metamaterials.\nIn the talk, [Dr. Kodera] presents a circulator, an beam-steerable antenna, and a duplex antenna made using this technique. A circulator is a three-port device with the odd property that signals going in port 1 come out port 2 but not port 3, signals going into port 2 come out port 3 but not port 1, and signals going in port 3 come out port 1, but not 2.\nHis duplex&nbsp;antenna is basically a radiating extension of a circulator &mdash; by using this one-way property, he is able to transmit and receive on the same antenna at the same time without getting the signals mixed up. Crazy. There&rsquo;s more detail about the applications and the physics in the talk.\nClark Kent? Or Superman?\nUntil this talk, we only knew [Toshiro Kodera] as [kodera2t], a prolific contributor to  and Tindie. We&rsquo;ve covered a few of his projects before on the blog. We knew that he was interested in minimalist microcontroller projects, capable of amazing miniaturization, and a builder of quality homebrew PCBs. We were pretty certain that he wasn&rsquo;t actually a guinea pig, but it&rsquo;s nice to see this confirmed on stage.\nWe&rsquo;re often as impressed by what members of the Hackaday community do when they&rsquo;re not hacking as when they are. It&rsquo;s no surprise that some of the really brilliant hacks come from folks who are brilliant for a living as well, but it&rsquo;s nonetheless inspiring to see what a pool of talent we actually have here. Thanks, [Dr. Kodera] for giving us a peek into that other side of your life. But keep up the microcontroller hacks too!",
+                "fallback": "Hackaday Link: Toshiro Kodera: Electromagnetic Gyrotropes",
+                "from_url": "http:\/\/hackaday.com\/2017\/01\/04\/toshiro-kodera-electromagnetic-gyrotropes\/",
+                "service_icon": "https:\/\/s0.wp.com\/wp-content\/themes\/vip\/hackaday-2\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1483558797.000102"
+    },
+    {
+        "user": "U3M4RRNQ5",
+        "text": "<@U3M4RRNQ5|justin.k> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1483576305.000104"
+    }
+]

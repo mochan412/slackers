@@ -1,0 +1,257 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the current address for the headnode is now at 192.168.170.123 IS is up on there now. and vnc to the windows is at 192.168.170.131",
+        "ts": "1468859445.000002",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U02E3CRMA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "we just need to re-assign the second network adapter and restart the VM to get motor\/lights back on the system",
+        "ts": "1468859970.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: reminder that james is swapping out the YT API key today.",
+        "ts": "1468859986.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "it’s my understanding this is a config change but it reminds me - does he know how to ‘roll back’ if we send a 1.02 that they’re unhappy with?",
+        "ts": "1468860022.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "he would deploy the previous version the same way he deployed the new one",
+        "ts": "1468860074.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "he has the last build on the box as build #80 (IIRC) in Jenkins",
+        "ts": "1468860108.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I kicked it off the afternoon we left for home",
+        "ts": "1468860126.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "ok cool so what’s running is #80 (IIRC) in Jenkins",
+        "ts": "1468860155.000009"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U0ML49XU0",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[July 18th, 2016 9:41 AM] joel: he has the last build on the box as build #80 (IIRC) in Jenkins",
+                "ts": "1468860108.000007",
+                "author_subname": "joel",
+                "channel_id": "C0MQJP06A",
+                "channel_name": "brandlab-wall-dev",
+                "is_msg_unfurl": true,
+                "text": "he has the last build on the box as build #80 (IIRC) in Jenkins",
+                "author_name": "Joel Morrissette",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/joel",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-05-30\/189596252624_b5006ff5fefdad7b1318_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U0ML49XU0|dennishanley> pinned a message to this channel.",
+        "ts": "1468860160.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "sorry - it’s #81",
+        "ts": "1468860304.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "just checked the VM",
+        "ts": "1468860307.000012"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U06DFL7BP",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[July 18th, 2016 9:45 AM] joel: sorry - it’s #81",
+                "ts": "1468860304.000011",
+                "author_subname": "joel",
+                "channel_id": "C0MQJP06A",
+                "channel_name": "brandlab-wall-dev",
+                "is_msg_unfurl": true,
+                "text": "sorry - it’s #81",
+                "author_name": "Joel Morrissette",
+                "author_link": "https:\/\/uncorked.slack.com\/team\/joel",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-05-30\/189596252624_b5006ff5fefdad7b1318_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "text": "<@U06DFL7BP|charlesv> pinned a message to this channel.",
+        "ts": "1468860353.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U0EL0GLEL>: how confident are you that James got the right VM image from the system? I’m still seeing Melanie Test, Moregee, and Metro data in the VM, which shouldn’t be there if we have the latest from BL",
+        "ts": "1468869649.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "It could just be how I started it, remember we seem different settings based on who started it",
+        "ts": "1468869746.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "ah, that makes sense",
+        "ts": "1468869771.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I started as uncorked since the cec said it was locked, but when I checked processes it wasn't running",
+        "ts": "1468869787.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "aaaaaand mystery solved",
+        "ts": "1468869815.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "you’re running from \/home\/uncorked\/interactivespaces",
+        "ts": "1468869828.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "production is running from \/home\/cec\/interactivespaces",
+        "ts": "1468869836.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "when we have a moment this afternoon, let’s switch over to the cec account so we’re picking up where we left off",
+        "ts": "1468870217.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I’m happy to do it, just give me the signal",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1468870240.000000"
+        },
+        "ts": "1468870234.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "im very confused, the cec files appeared to be missing needed stuff from IS",
+        "ts": "1468871142.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the whole master folder is gone",
+        "ts": "1468871148.000031"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there isnt a way to start it from there",
+        "ts": "1468871154.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this something to do with the migration to their master? and the master was completely removed from here to prevent future miss opening?",
+        "ts": "1468871206.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: \/\\ \/\\",
+        "ts": "1468871546.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Yes, forgot. There should be a copy of the whole thing in there that's unchanged. Only the controller is in the new folder since their master is running it.",
+        "ts": "1468871643.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "where is the full copy at?",
+        "ts": "1468871675.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "this the interactivespaces.uncorked folder?",
+        "ts": "1468871708.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Yes",
+        "ts": "1468871732.000038"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool switching to that one then",
+        "ts": "1468871850.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<http:\/\/192.168.170.123:9980\/DisplayActivityActivity\/index.html#?cubbyID=12>",
+        "ts": "1468877248.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<@U0ML49XU0>: ^",
+        "ts": "1468877256.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<http:\/\/192.168.170.123:9999\/AdminActivity\/index.html#\/>",
+        "ts": "1468877351.000042"
+    }
+]

@@ -1,0 +1,432 @@
+[
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: stand up",
+        "ts": "1458061174.000062"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0HPGQ4KH>: and <@U02E3CRMA> here’s the plan we cut as it relates to Wall Design.  Today Felix to work on Cable Management (Joel to do topology diagram before 4:30 meeting).  we will then look at IonTank’s prototypes this afternoon.  We need to cut a new version of the doc by tomorrow.  Felix is also working on updating floor plan with a mark up of our current footprint.",
+        "ts": "1458063026.000063"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: question specifically for the design team.  On Friday we are planning to send r2 (after receiving feedback) of top screen wires and overall design direction to client for final approval.  we also have the opp to go to planar that day.  any interest in making time in the mroning for it?",
+        "ts": "1458066526.000064"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "I’m game!",
+        "ts": "1458066576.000065"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, thanks emily.  <@U0260V4K1> or <@U02F9CXTL> worth putting a hold for a field trip?",
+        "ts": "1458066618.000066"
+    },
+    {
+        "type": "message",
+        "user": "U0260V4K1",
+        "text": "I think I’ll be underwater all week with BL stuff + Uncorked stuff, but you guys should go out there if you’re able",
+        "ts": "1458066881.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "TBD on planar",
+        "ts": "1458067399.000068"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "word",
+        "ts": "1458067508.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "well <@U02F9CXTL> and <@U0J6TE0CA> keep in mind - what would we need to test?",
+        "ts": "1458067522.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "Resolution is big on my end. Maybe seeing how fast moving objects appear on the bigger screens",
+        "ts": "1458067869.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool @emily and current progress would be sufficient to test that?",
+        "ts": "1458067953.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U0ML49XU0>: It would be nice to have a slightly larger animation to test, i could compile something quickly.",
+        "ts": "1458068088.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "cool, lets do that (after youre comfortable with todays delivery0",
+        "ts": "1458068287.000074"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0SU56HUG\/slidetest.zip|slidetest.zip> and commented: this version every other video slides back and forth <@U02F9CXTL> <@U0J6TE0CA>",
+        "file": {
+            "id": "F0SU56HUG",
+            "created": 1458068499,
+            "timestamp": 1458068499,
+            "name": "slidetest.zip",
+            "title": "slidetest.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U0EL0GLEL",
+            "editable": false,
+            "size": 1934,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SU56HUG\/slidetest.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0SU56HUG\/download\/slidetest.zip?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F0SU56HUG\/slidetest.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0SU56HUG-559170706c",
+            "channels": [
+                "C078JFZ7W"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc0STS2CDA",
+                "created": 1458068499,
+                "timestamp": 1458068499,
+                "user": "U0EL0GLEL",
+                "is_intro": true,
+                "comment": "this version every other video slides back and forth <@U02F9CXTL> <@U0J6TE0CA>"
+            }
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1458068500.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Looking good. You would probably get better performance using CSS transforms (translate x\/y) than top\/left. Transforms are GPU accelerated so the difference should be noticeable.",
+        "ts": "1458068989.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0J6TE0CA",
+        "text": "<@U0EL0GLEL>: Lovely to see this coming together!",
+        "ts": "1458069105.000077"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "ah right good call! can update that. mostly was curious how it would look. Performance will mostly come into play when we get it on the head node hardware. Its been making my mac fan spin up pretty heavy ha. I expect it will be better on the head node. Will know soon when we get that",
+        "ts": "1458070392.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02618EV1",
+        "text": "Great point.",
+        "ts": "1458070422.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "in regards to cable runs, I've used smurf tube before to run low voltage wire",
+        "ts": "1458070652.000080"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's nice because it's flexible and allows you to depopulate and populate by pulling after everything is enclosed",
+        "ts": "1458070676.000081"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.stargateunofficial.com\/Gallery\/pic\/HTComboBoxjpg.jpg>",
+        "attachments": [
+            {
+                "fallback": "572x428px image",
+                "image_url": "http:\/\/www.stargateunofficial.com\/Gallery\/pic\/HTComboBoxjpg.jpg",
+                "image_width": 572,
+                "image_height": 428,
+                "image_bytes": 54767,
+                "from_url": "http:\/\/www.stargateunofficial.com\/Gallery\/pic\/HTComboBoxjpg.jpg",
+                "id": 1
+            }
+        ],
+        "ts": "1458070677.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's the blue tube here (hence smurf tube)",
+        "ts": "1458070689.000084"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<!here|@here>: moved 1pm INT Review back to 2pm and we will not be meeting live.  Justin to email around progress accross: BFD Wries, Motion, Design Direction and Considerations.  I’ll respond quick to keep everyone moving",
+        "ts": "1458070741.000085"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0HPGQ4KH>: from IonTank RE cable mgmt: we've come up with a way to relocate the motor mechanics to move the motor upwards in the right hand cavity (essentially centered) - which provides room for an outlet on the lower right hand side, right where the motor was previously sitting.",
+        "ts": "1458074639.000086"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "ah that sounds good",
+        "ts": "1458074671.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "it does.  i leave it to felix to poke holes :simple_smile:",
+        "ts": "1458074707.000088"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "a dxf file would be good. for hole poking",
+        "ts": "1458075069.000089"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "yo, rackmount case, video card, cpu are here and on miguel's desk",
+        "ts": "1458077398.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "saved double box for shipping. it's labeled and in storage room",
+        "ts": "1458077412.000091"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02F8LF2X>: and <@U02E3CRMA> cool if peter assembled the head node?",
+        "ts": "1458077741.000092"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I don't care",
+        "ts": "1458077983.000093"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "miguel was going to do it tomorow",
+        "ts": "1458077987.000094"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it might to do it asap to make sure everything fits. there are some questions",
+        "ts": "1458078005.000095"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "maybe try the video card first",
+        "ts": "1458078049.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "thats what im thinking, make sure everything at least fits like we wanted",
+        "ts": "1458078107.000097"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "go for it <@U0EL0GLEL>",
+        "ts": "1458078201.000098"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/www.amazon.com\/StarTech-Right-Angle-Serial-SATA18RA1\/dp\/B0001Y8UI4>",
+        "attachments": [
+            {
+                "title": "Amazon.com: StarTech 18in SATA to Right Angle SATA Serial ATA Cable (SATA18RA1): Computers &amp; Accessories",
+                "title_link": "http:\/\/www.amazon.com\/StarTech-Right-Angle-Serial-SATA18RA1\/dp\/B0001Y8UI4",
+                "text": "<http:\/\/Amazon.com|Amazon.com>: StarTech 18in SATA to Right Angle SATA Serial ATA Cable (SATA18RA1): Computers &amp; Accessories",
+                "fallback": "Amazon.com: StarTech 18in SATA to Right Angle SATA Serial ATA Cable (SATA18RA1): Computers &amp; Accessories",
+                "from_url": "http:\/\/www.amazon.com\/StarTech-Right-Angle-Serial-SATA18RA1\/dp\/B0001Y8UI4",
+                "id": 1
+            }
+        ],
+        "ts": "1458079070.000099"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "got the video card in, its tight but it does fit pretty decently. there is room for the sata if the right angle ones are used",
+        "ts": "1458079320.000101"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "it would need ones with a right angle on both ends, right now it has one like that already with a right end on the other end",
+        "ts": "1458079368.000102"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "<http:\/\/www.amazon.com\/BattleBorn-SATA-Cable-Right-Angle-Connectors\/dp\/B00852K81Q\/ref=sr_1_4?s=pc&amp;ie=UTF8&amp;qid=1458079383&amp;sr=1-4&amp;keywords=sata+right+angle+both+ends>",
+        "attachments": [
+            {
+                "title": "Amazon.com: BattleBorn 3ft SATA Cable w\/ Two Right-Angle Connectors: Computers &amp; Accessories",
+                "title_link": "http:\/\/www.amazon.com\/BattleBorn-SATA-Cable-Right-Angle-Connectors\/dp\/B00852K81Q\/ref=sr_1_4?s=pc&ie=UTF8&qid=1458079383&sr=1-4&keywords=sata+right+angle+both+ends",
+                "text": "<http:\/\/Amazon.com|Amazon.com>: BattleBorn 3ft SATA Cable w\/ Two Right-Angle Connectors: Computers &amp; Accessories",
+                "fallback": "Amazon.com: BattleBorn 3ft SATA Cable w\/ Two Right-Angle Connectors: Computers &amp; Accessories",
+                "from_url": "http:\/\/www.amazon.com\/BattleBorn-SATA-Cable-Right-Angle-Connectors\/dp\/B00852K81Q\/ref=sr_1_4?s=pc&ie=UTF8&qid=1458079383&sr=1-4&keywords=sata+right+angle+both+ends",
+                "id": 1
+            }
+        ],
+        "ts": "1458079400.000103"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I effed up the CPU on our order. We’ll need to return the one we have and get this one: <http:\/\/www.newegg.com\/Product\/Product.aspx?Item=N82E16819117614&amp;cm_re=lga_1151_server-_-19-117-614-_-Product>",
+        "attachments": [
+            {
+                "title": "Intel Xeon E3-1240 v5 SkyLake 3.5 GHz 8MB L3 Cache LGA 1151 80W BX80662E31240V5 Server Processor                                                                                                                                                 - Newegg.com",
+                "title_link": "http:\/\/www.newegg.com\/Product\/Product.aspx?Item=N82E16819117614&cm_re=lga_1151_server-_-19-117-614-_-Product",
+                "text": "Buy Intel Xeon E3-1240 v5 SkyLake 3.5 GHz 8MB L3 Cache LGA 1151 80W BX80662E31240V5 Server Processor with fast shipping and top-rated customer service. Once you know, you Newegg!",
+                "fallback": "Intel Xeon E3-1240 v5 SkyLake 3.5 GHz 8MB L3 Cache LGA 1151 80W BX80662E31240V5 Server Processor                                                                                                                                                 - Newegg.com",
+                "from_url": "http:\/\/www.newegg.com\/Product\/Product.aspx?Item=N82E16819117614&cm_re=lga_1151_server-_-19-117-614-_-Product",
+                "thumb_url": "http:\/\/images17.newegg.com\/is\/image\/newegg\/19-117-614-TS?$S100$",
+                "thumb_width": 100,
+                "thumb_height": 75,
+                "id": 1
+            }
+        ],
+        "ts": "1458079897.000105"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "@joel let’s please discuss aSAP",
+        "ts": "1458080606.000107"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "omw",
+        "ts": "1458081178.000108"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks <@U02E3CRMA> here’s how i groked it",
+        "ts": "1458081377.000109"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "here’s the summary:\n* need to return item N82E16816139103 because of bent CPU socket pins. Josh will need to get an RMA from Newegg so we can return the damaged one.\n* need to return item N82E16819117402, and replace with the CPU I listed above",
+        "ts": "1458081647.000110"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "understood and sorry i didnt paste my note",
+        "ts": "1458081678.000111"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "regarding the server: we’re looking into a form-factor that will better fit the GPU",
+        "ts": "1458081728.000112"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "anything else we think we need\/didnt order\/is not yet acocunted for?",
+        "ts": "1458081731.000113"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so hold off for a bit...",
+        "ts": "1458081735.000114"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: current status: .  We need to return item N82E16816139103 because of bent CPU socket pins. Josh will need to get an RMA from Newegg so we can return the damaged one.  Let us know if we can help or if you want to order replacement in advance?  \n\n2.  We need to return the CPU in exchange for another: \n\n\nReceived and can return: <http:\/\/www.newegg.com\/Product\/Product.aspx?Item=N82E16819117402&amp;cm_re=intel_i7-_-19-117-402-_-Product>\nExchange for: <http:\/\/www.newegg.com\/Product\/Product.aspx?Item=N82E16819117614&amp;cm_re=lga_1151_server-_-19-117-614-_-Product>",
+        "attachments": [
+            {
+                "title": "Intel Core i7-5820K Haswell-E 6-Core 3.3 GHz LGA 2011-v3 140W BX80648I75820K Desktop Processor - Newegg.com",
+                "title_link": "http:\/\/www.newegg.com\/Product\/Product.aspx?Item=N82E16819117402&cm_re=intel_i7-_-19-117-402-_-Product",
+                "text": "Buy Intel Core i7-5820K Haswell-E 6-Core 3.3 GHz LGA 2011-v3 140W BX80648I75820K Desktop Processor with fast shipping and top-rated customer service. Once you know, you Newegg!",
+                "fallback": "Intel Core i7-5820K Haswell-E 6-Core 3.3 GHz LGA 2011-v3 140W BX80648I75820K Desktop Processor - Newegg.com",
+                "from_url": "http:\/\/www.newegg.com\/Product\/Product.aspx?Item=N82E16819117402&cm_re=intel_i7-_-19-117-402-_-Product",
+                "thumb_url": "http:\/\/images17.newegg.com\/is\/image\/newegg\/19-117-402-TS?$S100$",
+                "thumb_width": 100,
+                "thumb_height": 75,
+                "id": 1
+            }
+        ],
+        "ts": "1458082365.000115"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "all correct",
+        "ts": "1458083588.000117"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "plus <@U0K8ZSHN0> can get you the right part for the replacement tower",
+        "ts": "1458083605.000118"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "sent",
+        "ts": "1458084587.000119"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thanks team",
+        "ts": "1458084590.000120"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: and <@U0HPGQ4KH> i’ll be right there discuss cable mgmt",
+        "ts": "1458084614.000121"
+    }
+]

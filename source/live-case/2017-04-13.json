@@ -1,0 +1,242 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "random use case question - if a legacy user has earth images manually saved will anything happen to those upon force reload?  and what if one of those images is corrupt? ",
+        "ts": "1492097853.380056"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "we keep in library but get more info when crashes? ",
+        "ts": "1492097881.388057"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also - not sure if this is an issue on the google side but our APK size in this update increased by almost 3MB (over what's in play store). might be a nonissue but saying here but reminded me that we should keep our eyes on this + find opportunities to optimize when we can",
+        "ts": "1492098065.440103"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "more importantly - running this now! and thank you!",
+        "ts": "1492098092.447893"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U3ZFEAPSP> I pushed my attempt at building out the case specific tutorial to `onboarding_refactor_with_tutorial`. My factory method implementation can be found in onboarding\/models.",
+        "ts": "1492104756.256195"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "awesome, thanks Summer, I’ll probably start thinking through that stuff this afternoon so we can pick back up on onboarding tomorrow [assuming space prototype &amp; this build go ok today]",
+        "ts": "1492104973.312926"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<!here|@here> can everyone confirm that their calendars are up to date with with PTO or FTO days over the next few weeks? (just raise a hand if so - otherwise please let me know)",
+        "ts": "1492105424.433029",
+        "reactions": [
+            {
+                "name": "hand::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Mine is up to date",
+        "ts": "1492105518.458943",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> what are the next version codes? \nI’m working on clean install testing currently, but in order to do regression testing, I need builds that I can install over 3.1.1 (current store build). Build from yesterday is v69 3.1",
+        "ts": "1492107991.142487"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Beta\/Prod\nversionCode: 73\nversionName: 3.1.2\nsound right?\nNote: I was just planning on cutting for testing",
+        "ts": "1492108079.166784"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "Prod: 73 and 3.1.2\nAlpha: 76 and 3.1.df.2",
+        "ts": "1492108582.306566"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "should I upload those and update the changes to the branch now?",
+        "ts": "1492108920.395972"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "once we’re feeling good in our testing",
+        "ts": "1492109005.418783"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "for sure",
+        "ts": "1492109007.419294"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill get folders ready on drive for you to drop in when we are ready",
+        "ts": "1492109035.426968"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "folders ready when we are here: <https:\/\/drive.google.com\/drive\/folders\/0B0GwY6N_EWLEWG5WdXdaVF9fSkk>",
+        "ts": "1492109240.482764"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’m going to head out to work from home for the rest of the day because after circling for 20 min there isn’t anything even in the paid lots :confused: (I had gone in the visitor spot and forgot to make stand up this morning) and am parked in loading zone right now, I’ll probably stop by and work from a coffee shop and grab lunch somewhere back towards LO, back on in 20 or so. Sorry for last minute change",
+        "ts": "1492113362.523305",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "wondering if someone has some time to look into this question re: earth content",
+        "ts": "1492113569.575342"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<https:\/\/www.google.com\/maps\/place\/Mauna+Loa\/@19.490553,-160.0788212,1586936m\/data=!3m1!1e3!4m5!3m4!1s0x7953e45a9a2e3483:0x21188532375f4e6b!8m2!3d19.4721389!4d-155.5922066>\nthis works on desktop to the zoom level and satellite view, along with location bonus info (photos, current time, etc)\nbut  on mobile looking like we’re losing zoom and satellite - any way we can work around?",
+        "ts": "1492113637.593030"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’m going to finish up something really quick and then I’ll look into this!",
+        "ts": "1492114358.770610",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Tested clean &amp; regression on 6p, 5x, Pixel, &amp; Pixel XL with 3.1.2 build on Earth.",
+        "thread_ts": "1492114481.800759",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U3ZFEAPSP",
+                "ts": "1492116417.267519"
+            },
+            {
+                "user": "U1ZG1UCAK",
+                "ts": "1492118151.667159"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1492114481.800759",
+        "reactions": [
+            {
+                "name": "nice",
+                "users": [
+                    "U3ZFEAPSP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Didn’t run into any crashes or anything weird",
+        "ts": "1492115552.061664"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for the google earth link, it looks like it is the GLWallpaperRenderDispatch::flyToEarth.\nIt looks like it uses whatever is set on, earthImage.getLinkUrl().\nWhere does that MaunaLoa image get pulled from?",
+        "ts": "1492115599.073048"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "<@U13GPDA1F> I’m going to push those apks up to the drive folder, things look good?",
+        "ts": "1492116043.179628"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sounds good!",
+        "ts": "1492116063.184133"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "im not sure where the maunaloa image is from :confused: - thats all i have to work with, but they are def looking for ways to find mobile-friendly content",
+        "ts": "1492116101.193446"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Thanks for getting that level of coverage midori!",
+        "thread_ts": "1492114481.800759",
+        "parent_user_id": "U1ZG1UCAK",
+        "ts": "1492116417.267519"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U13GPDA1F> I’m not sure how places is accessible through the Android app, but was able to get open GMaps on Moana Loa with this url: <https:\/\/www.google.com\/maps\/@19.490553,-160.0788212,15z\/data=!3m1!1e3>\nI set it to 15z, so not corresponding with the meter value that was there previously (1586936m) and stripped out the place aspect of the url.\nAre they specifically trying to get Places?",
+        "ts": "1492118130.662639"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "No problem! That’s what lynsey asked me to do :slightly_smiling_face:",
+        "edited": {
+            "user": "U1ZG1UCAK",
+            "ts": "1492118162.000000"
+        },
+        "thread_ts": "1492114481.800759",
+        "parent_user_id": "U1ZG1UCAK",
+        "ts": "1492118151.667159"
+    }
+]

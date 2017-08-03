@@ -1,0 +1,311 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Ahh, I see, I haven't used Glide before",
+        "ts": "1452622611.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s a lot like Picasso, if you’ve used that before",
+        "ts": "1452622629.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yep, familiar with Picasso, this looks similar",
+        "ts": "1452622684.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "also, is there a device that is showing the preview\/back button issue? I just tested out adding\/removing the only photo from the slideshow and the back button seems to do the right thing (preview updates to the correct state)",
+        "ts": "1452622728.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "the last I checked that bug was a few weeks ago, it very easily could have been fixed! if so, sorry",
+        "ts": "1452622754.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "so there *is* a strange case where the app has at least one wallpaper unlocked, but the app does not have one selected. If you go through the OS, the preview wallpaper is an ugly black screen and the settings from there have a header that says “None” and the settings for Places are displayed.",
+        "ts": "1452629530.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Was our previous decision just to show a message on the settings screen in this case? “Open the Live Case app to set your wallpaper\"",
+        "ts": "1452629578.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> in the case of a single unlocked wallpaper, shouldn't preview helper be hardwired to that wallpaper?",
+        "ts": "1452629746.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I would think so? There's some weirdness there though, if they haven't set up permissions. Seems better to send them back to the app to avoid it",
+        "ts": "1452630052.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Ahh",
+        "ts": "1452630150.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Support!",
+        "ts": "1452630159.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8TTPU>: could you verify that onboarding can be completed in this? Is it waiting for something to dismiss?",
+        "ts": "1452630965.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Tap on the Done button should finish the TutorialActivity and start HomeActivity",
+        "ts": "1452631257.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "The code I have still shows a separate gatekeeper screen and returns to that after the tutorial",
+        "ts": "1452632289.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "is there a branch or something I’m missing?",
+        "ts": "1452632301.000016"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I pushed to master yesterday, but I may have done the wrong thing? I don't have a live case or a nexus device so I got to the tutorial by temporarily hacking the manifest to go to the tutorial as the launch activity (not checked in obvs)",
+        "ts": "1452633128.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I didn't touch any of the gatekeeper screens",
+        "ts": "1452633186.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "in the original design, there were two onboarding screens: gatekeeper and tutorial. The gatekeeper stayed open until the button was pressed and then opened the tutorial screens. In the latest design, they’ve been merged. The architecture will have to be changed to handle that.",
+        "ts": "1452633413.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I can show you where to comment out code so that it’s not automatically unlocked and give you some chips. just lmk when you have time.",
+        "ts": "1452633439.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Ahhhh, new info to me. I'll be back shortly!",
+        "ts": "1452633625.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool! Thanks ",
+        "ts": "1452634712.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'm still a little confused about the NFC workflow. It looks like gatekeeper would only be shown if the app was started without a case and without an NFC hit. In the new workflow, which tutorial should be shown if there's no case?",
+        "ts": "1452639003.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "It would show up until the case specific ones, no?",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1452639093.000000"
+        },
+        "ts": "1452639083.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "There's already code to handle specific case types. Do we skip the tutorial if there's no case and no NFC?",
+        "ts": "1452639135.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "My understanding is that the first 2 screens of the tutorial are the new gatekeeper and once the nfc chip has been used the 3rd screen is unlocked",
+        "ts": "1452639183.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "ooh, ok. And nothing gets unlocked (you cannot complete onboarding) until a case has been activated via NFC?",
+        "ts": "1452639294.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "that’s right",
+        "ts": "1452639304.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "got it",
+        "ts": "1452639322.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I hate to add one more thing, but tutorial screens have to work in landscape too",
+        "ts": "1452643244.000031"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Fuuuuuu",
+        "ts": "1452643337.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "yeah, I just noticed how the view colors and layouts don't handle landscape well at all",
+        "ts": "1452643845.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I've created a replacement for the gatekeeper but the workflow is pretty far from done yet",
+        "ts": "1452644805.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "TODO fix an accidental vertical centering of content, handle orientation changes\/landscape, add the correct final page to the ViewPager when NFC is activated, and select that new page",
+        "ts": "1452644841.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> did we do separate layout files for -land in skrillex? or did they animate on rotation?",
+        "ts": "1452645329.000036"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/i.imgur.com\/WM80cZ2.gif>",
+        "attachments": [
+            {
+                "fallback": "300x169px image",
+                "image_url": "http:\/\/i.imgur.com\/WM80cZ2.gif",
+                "image_width": 300,
+                "image_height": 169,
+                "image_bytes": 935336,
+                "from_url": "http:\/\/i.imgur.com\/WM80cZ2.gif",
+                "id": 1
+            }
+        ],
+        "ts": "1452645329.000037"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "separate layout files",
+        "ts": "1452645348.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool. sorry I can't be around today.",
+        "ts": "1452645387.000040"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, I’m sorry you’re doing your job too",
+        "ts": "1452645433.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":stuck_out_tongue:",
+        "ts": "1452645443.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Gifs in Moments are now abiding by framerate encoded into the file.",
+        "ts": "1452650788.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Will work on looping for a minimum duration next.",
+        "ts": "1452650796.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(the framerate thing is pushed if anyone's interested)",
+        "ts": "1452650805.000045"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Nice ",
+        "ts": "1452650840.000046"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "rad",
+        "ts": "1452658426.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Min duration almost complete but have to test (there's not a good way to determine before first playback).",
+        "ts": "1452663076.000048"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Aaaaaaaand cut some more memory overhead out of the playback ",
+        "ts": "1452663104.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "woooop woooop",
+        "ts": "1452663381.000050"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "added previews for images in the gallery",
+        "ts": "1452664116.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "and in the auto-awesome gallery",
+        "ts": "1452664123.000052"
+    }
+]

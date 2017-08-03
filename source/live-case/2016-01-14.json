@@ -1,0 +1,80 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Adam: \"This feels WAY better” :raised_hands: <@U026PHQ3J>",
+        "ts": "1452793198.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its \"ok\" in my mind. I need to tighten up my calculations (maths) around the circumference of the earth for a given latitude at a given zoom level to get the pixel -&gt; meter calc right",
+        "ts": "1452793940.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or right-ish",
+        "ts": "1452793943.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the main problem being that NYC and Portland are on completely different ends of the projection\/flattening spectrum.",
+        "ts": "1452793970.000005"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Did you do your own maths",
+        "ts": "1452794070.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i did",
+        "ts": "1452794191.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and now i disappear",
+        "ts": "1452794194.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":sparkles: :sparkles: :sparkles: :sparkles:",
+        "ts": "1452794420.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "```Photos:\nThe path \"Manage photos &gt; + &gt; photos\" does not persist. For example, I get the options below, but after I pick one and go back to add more photos it always puts in in the <mailto:adam.tishok@gmail.com|adam.tishok@gmail.com> drive folder.\nRecent \nDrive (adam.tishok@gmail)\nDrive (<mailto:atishok@google.com|atishok@google.com>)\nImages\nDownloads\nPhotos\nPhotos always picks atishok@google as my default account - I'm assuming there is no way we can control this since its system level, but once I pick an account can we save that data and preserve the path? \nDropbox \nAlternatively, can we make photos default? i.e. just pull up photos UI directly\nSelecting photos UI has a \"DONE\" button in the top right, selecting Gifs has a Save icon, can we make both of these \"DONE\"\nThe preview icon on the main manage photos screen\nAs is I dont think this is very useful for photos, but I really like it for gifs. \nThe only way I think it would be useful for photos would be if it was more of a preview of how the image will look in the wallpaper\nIn the manage photos screen I think we can solve the photo card issue if we allow the user to select which image will be on the card - what is some UI that can signify this?\nFor selected gifs can we change the star logo to the 3 star logo creations\/auto awesome images use?\nWhat is the current logic for how many times a gif runs? I feel like the longer ones I have run for too long... I think we should only run those once and save the multiple run throughs for gifs 1 second or shorter. what do you think?\nMy app is still a bit buggy on the freeze frame of the gif. Sometimes its just a black screen until I rerun the gif. \nBlur logic - Charles and I had a discussion on this on Tuesday, I want to talk live about it today. I think it may make sense to use the muzei blur but I want to decide as a team and map out options. ```",
+        "ts": "1452800205.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Feedback from Adam ",
+        "ts": "1452800215.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "- We can’t change anything about that  + &gt; Photos UI. Can’t save accounts, can’t start them in a specific place. I can look into selecting photos from Photos directly though. I think there might be some permission issues, but I’m not positive.\n- Can easily change save to DONE\n- I’m hesitant to make a preview for static images that is “This is how it will look on wallpaper” as I don’t know what the centering logic is now\/what it will end up being. Making it scroll like the wallpaper would not be easy. It would be simple to remove the preview button from static images.",
+        "ts": "1452800795.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "- Why is the photo card an issue?\n- I didn’t know where to get the 3 star icon or I would have used it. Would be happy to add it if someone could get it to me. I also have two different states for that icon. If it is filled in, it is downloaded to the device and if the star is just an outline it has not yet been downloaded. I didn’t want to add any more icons for state so I was using that instead.",
+        "ts": "1452800927.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ll add cards for this stuff ^ but don’t have anything to add about the last points",
+        "ts": "1452800965.000014"
+    }
+]

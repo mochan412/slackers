@@ -1,0 +1,45 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "some interesting links: \n\nAn application to help with labeling\/identifying ROIs to classname\n<https:\/\/github.com\/tzutalin\/labelImg>\n\nThe tensorflow implementation of YOLO\/Darknet that i’m working on using to replace the OpenCV localizer:\n<https:\/\/github.com\/thtrieu\/darkflow>\n\nI’m currently training the new localizer with 500 flickr marathon photos with visible bibs in them.",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1490895694.000000"
+        },
+        "ts": "1490895261.764160"
+    },
+    {
+        "type": "message",
+        "user": "U4K0WAADP",
+        "text": "So any updates or directional feedback on all that? Is this a scrapping of the earlier approach for localization because it just wasn’t working, or just a new discovery of a bigger\/better method?",
+        "ts": "1490913473.474315"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm definitely not just swapping this in because it's bigger\/better, the CV method was really providing poor enough results that I felt like I needed to find some other option otherwise the findings would be more or less hung up on that piece. In short, the CV one was really getting in the way of progress and was sucking down too much time  for what it was spitting out. I think the yolo method does do is make a path to \"what does this look like as a real system\" much less of a guess and more about an actual potential process. ",
+        "ts": "1490916414.011650",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U4K0WAADP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I've been kicking myself all day for not finding this sooner because of the potential upsides",
+        "ts": "1490916475.021527"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm surprised that this really is the hardest to crack problem in this flow ",
+        "ts": "1490916524.029765"
+    }
+]

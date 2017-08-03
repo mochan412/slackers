@@ -1,0 +1,58 @@
+[
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "<@U026PT0D7>: in the main trap view - is there a desired sort order?   like most recent closest to the top?",
+        "ts": "1417548678.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "the documents array controller is wired (via data binding in the storyboard) to `documentsFilterPredicate` and `documentsSortDescriptors`, the latter of which defaults to \"sort by document trapped date descending, any ties to be broken by document title ascending\"",
+        "edited": {
+            "user": "U026PT0D7",
+            "ts": "1417548795.000000"
+        },
+        "ts": "1417548782.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I did notice some documents had identical trapped dates, hence the tiebreaker",
+        "ts": "1417548850.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "ah - slick...   I've never dealt with NSArrayController before - it seems cool",
+        "ts": "1417548895.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0289USNA",
+        "text": "As far as I know they dont exist in iOS",
+        "ts": "1417549263.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "nope. i've run into a few differences like that",
+        "ts": "1417549324.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "for instance, NSAnimation gives things a method `animator` so instead of needing CA or UIView to animate layout constraints like we do in iOS, we can simply write `[[layoutConstraint animator] setConstant:foo]`",
+        "edited": {
+            "user": "U026PT0D7",
+            "ts": "1417549474.000000"
+        },
+        "ts": "1417549442.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "<@U0289USNA> I've pushed a few commits to origin\/master. At this point \"client-specific resources\" is pretty solid, I think.",
+        "ts": "1417551892.000012"
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Today I'm studying up on vector drawables\/animations to see if I can replace the not-so-great black capture animations",
+        "ts": "1415644433.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "Great- thanks Marissa",
+        "ts": "1415644694.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Hitting some dead ends... the new vector drawables are only supported in 5.0 (not the support libraries that provide backward compatibility) and my Nexus 5 won't get the 5.0 upgrade for another few days",
+        "ts": "1415648016.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "There is another library called svg-android that supports SVG (scalable vector graphics). I just tried it out and it doesn't support the type of SVG that I exported from the PSD file Ryan sent over :confused:",
+        "ts": "1415648107.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Tried it with an SVG that Ryan's team generated and sent (the Google Books logo) and that doesn't work either... seems that SVG support is very limited",
+        "ts": "1415648468.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The library is pretty old and hasn't been updated in 3 years, so I don't think it will support the latest SVG spec",
+        "ts": "1415648667.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "can someone on design help?",
+        "ts": "1415648712.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "let us know and i'm certainly we can",
+        "ts": "1415648745.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Maybe I'll try one of the example SVGs in the library and work from there... the SVG I exported from the PSD is using the \"image\" command, which svg-android doesn't support, but I don't know the vocabulary that it does support",
+        "ts": "1415648921.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The example SVG doesn't render either. I think this library is DOA.",
+        "ts": "1415649996.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/code.google.com\/p\/androidsvg\/source\/checkout>",
+        "ts": "1415650389.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "any help there?",
+        "ts": "1415650400.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "androidsvg explicitly lacks support for animations",
+        "ts": "1415650431.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Not supported at all\n\n    Animation is not supported.",
+        "ts": "1415650432.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ugh",
+        "ts": "1415650436.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry",
+        "ts": "1415650438.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "no worries!",
+        "ts": "1415650461.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "well, at least we have learned today that even if SVG were fully supported, it would probably not reduce the pixelated look of the black bump scale animation, nor would it enable the kind of wavy effect in the capture animation .mov... It's just an alternate way to define shapes for views. Even the new 5.0 demos I looked at were quite pixelated.",
+        "ts": "1415650765.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "do we still need a designer",
+        "ts": "1415653779.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I don't know of any design tasks that would solve this, sadly",
+        "ts": "1415654640.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026AP8CM",
+        "text": "okay",
+        "ts": "1415654775.000022"
+    }
+]

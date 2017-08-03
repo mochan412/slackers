@@ -1,0 +1,271 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U0260V1BX> do you have any design files (psd or sketch) of minime? adams looking to provide to ustwo to reference",
+        "ts": "1492023205.177109"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "no worries if we dont (since we’ve been making most updates in-app for the last year) but wanted to check before i officially say no",
+        "ts": "1492023229.183788"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i definitely do",
+        "ts": "1492023358.220713"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "oh snap can you link me?",
+        "ts": "1492023371.224111"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thats awesome",
+        "ts": "1492023395.231351"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<https:\/\/drive.google.com\/drive\/u\/1\/folders\/0B1BdBZzwKCiIMHcwQ0toREJzdXc>",
+        "ts": "1492023613.294204"
+    },
+    {
+        "user": "U0U9WJB7F",
+        "inviter": "U13GPDA1F",
+        "text": "<@U0U9WJB7F|jenna.simon> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1492027150.233005"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "WELCOME TO LIVE CASE JENNA! :tada:",
+        "ts": "1492027165.237636"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "team - you’ll see jenna popping in more and more as we transition her onto the account over the next few weeks! so excited to have her on board! this is going to be awesome",
+        "ts": "1492027235.257357"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "she’ll begin joining us in standups this week :slightly_smiling_face:",
+        "ts": "1492027248.261005"
+    },
+    {
+        "type": "message",
+        "user": "U0U9WJB7F",
+        "text": "Thanks! Super excited to join the team! :blush::raised_hands::skin-tone-2:",
+        "ts": "1492027722.386200"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yahhhhh",
+        "ts": "1492027859.421061"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "where are we on testing the earth fix? ",
+        "ts": "1492041183.975673"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "also fwiw I haven't experienced any issues on the artworks build summer sent yesterday :\/",
+        "ts": "1492041219.979919"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’ve been running the build from yesterday and haven’t seen a crash",
+        "ts": "1492041238.982137"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "was there testing done as outline by Oliver yesterday? ",
+        "ts": "1492041284.987705"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "And messed around with the crash points in the branch to force crash and it seems good",
+        "ts": "1492041292.988747"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay cool",
+        "ts": "1492041297.989345"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you",
+        "ts": "1492041302.990064"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I also tested it yesterday and things worked as expected. I am no longer running it on my test device though as I am using that for Space Case stuff.",
+        "ts": "1492041346.995442"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Space vase",
+        "ts": "1492041422.004321",
+        "reactions": [
+            {
+                "name": "wave::skin-tone-4",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "okay, thanks for the update! let's divide and conquer on smoke testing the build tomorrow before it goes out ",
+        "ts": "1492041487.012157"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "let's get a build at normal speed earth image rotation before that though ",
+        "ts": "1492041559.020969"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U3ZFEAPSP> heads up:point_up: I can provide versioning codes in the am (or you can grab from the spreadsheet in merged apk folder if you're sticking around for a bit)",
+        "ts": "1492041634.031554"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "for testing, it seems the more important fix is working and that one needed to be more stress tested. There is one last piece to include with this that I haven’t uploaded yet, I should have it done today. The log out which asset crashed, upload as a GA tag and then fire off a re-download of Earth images as Adam had suggested. We can test that tomorrow and see if we feel good sending the build over, but I think we will want to include that along with that first fix",
+        "ts": "1492041825.055405",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ah, okay. thank you - let's chat more in the morning and I'll set expectations on timing with the client tomorrow. ",
+        "ts": "1492042269.107362"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "the second piece is a much smaller impact fortunately, but we can decide how much we want to test the next changes",
+        "ts": "1492042378.119841"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "sounds good! we can game-plan during stand up and go from there :)",
+        "ts": "1492042486.131949",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3ZFEAPSP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "I’ll put a build out as soon as I finish these changes and run through myself so folks can test whenever they get it.",
+        "ts": "1492042561.140709",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U13GPDA1F"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3ZFEAPSP|oliver> uploaded a file: <https:\/\/uncorked.slack.com\/files\/oliver\/F4ZB0GN4F\/earth_force_refresh.apk|earth_force_refresh.apk>",
+        "file": {
+            "id": "F4ZB0GN4F",
+            "created": 1492057486,
+            "timestamp": 1492057486,
+            "name": "earth_force_refresh.apk",
+            "title": "earth_force_refresh.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U3ZFEAPSP",
+            "editable": false,
+            "size": 34606974,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4ZB0GN4F\/earth_force_refresh.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F4ZB0GN4F\/download\/earth_force_refresh.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/oliver\/F4ZB0GN4F\/earth_force_refresh.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F4ZB0GN4F-e592031470",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3ZFEAPSP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "oliver",
+        "bot_id": null,
+        "ts": "1492057490.537703"
+    },
+    {
+        "type": "message",
+        "user": "U3ZFEAPSP",
+        "text": "Updated build to test before cutting a release candidate to send over to Google.\nThis has handling that after un unhandled crash will force the Earth images to reload and will upload via the GA tags which image asset it crashed on. Forcing it to crash worked correctly (Midori &amp; Summer, going into the BitmapRegionLoader and forcing a RuntimeError will do it) in reloading the Earth images and triggering a GA message so we can get some more details.\nThis build is the one that doesn’t force runtime errors :slightly_smiling_face: So running it should work as normal (with the regular slideslow rate, not the sped up version).\nLet me know if you run into any issues, I’ve been running it since heading out and it seems ok",
+        "ts": "1492057786.561085",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U13GPDA1F",
+                    "U2H61EJSG"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

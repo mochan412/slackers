@@ -1,0 +1,316 @@
+[
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel> good morning! I have a kid appt this morning, and could use some CMS help. Can someone with access please remove any background photos that aren't the correct size? Even if there's just one or two in there, I want to make sure they're all the right size. Thank you!",
+        "ts": "1431104570.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Correct me if i'm wrong <@U02HAJ6JF> <@U0261PCRQ>,  but I don't think any of the ones currently on gweb are the correct size?",
+        "ts": "1431104699.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it doesn’t look like it",
+        "ts": "1431104709.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m going to change them to the ones in the app",
+        "ts": "1431104714.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "Change the images in the CMS <@U0261PCRQ>?",
+        "edited": {
+            "user": "U02613K0X",
+            "ts": "1431104765.000000"
+        },
+        "ts": "1431104735.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "nice - thanks kat!",
+        "ts": "1431104743.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yep, the cms images should be updated",
+        "ts": "1431104787.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I updated them, but the api is returning two images for each index",
+        "ts": "1431104881.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<http:\/\/gweb-uncorked.appspot.com\/api\/backgroundImage>",
+        "ts": "1431104884.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "it looks like there's one that's the right size that's in there three times and three still there that are the wrong size",
+        "ts": "1431104895.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah",
+        "ts": "1431104908.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "i will look closer",
+        "ts": "1431104922.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, it’s actually 3 slightly different images",
+        "ts": "1431104925.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "oh ha",
+        "ts": "1431104931.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "very hard to tell",
+        "ts": "1431104939.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "can I just delete the bad ones from the cms view?",
+        "ts": "1431104972.000018"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "they’re showing in there too",
+        "ts": "1431104983.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "right",
+        "ts": "1431104985.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "can we wait a bit on that? this is a potential bug I want to look into",
+        "ts": "1431105007.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "not sure when they’re starting testing today <@U02688JHZ>",
+        "ts": "1431105024.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "actually we can go in and delete them",
+        "ts": "1431105048.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "if there are images that are the wrong size, it’ll probably cause crashes",
+        "ts": "1431105052.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok",
+        "ts": "1431105054.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "and i'll try to recreate the problem on tidy",
+        "ts": "1431105057.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok, lmk if you want to know what I did",
+        "ts": "1431105089.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "what did you do?",
+        "ts": "1431105378.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we really shouldn’t have waited until this morning to do this.",
+        "ts": "1431106253.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "images are updated though",
+        "ts": "1431106257.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "yeah. <@U02HAJ6JF>  and I are looking into it on develop right now so we can get it fixed today",
+        "ts": "1431106353.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Should the daytime images push be showing thru into the phone",
+        "ts": "1431106556.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I just got one and wanted to ask",
+        "ts": "1431106571.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02613K0X",
+        "text": "did it come from an app using gweb?",
+        "ts": "1431106651.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I just made a notification",
+        "ts": "1431106683.000035"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "for the people testing",
+        "ts": "1431106686.000036"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> ^",
+        "edited": {
+            "user": "U0261PCRQ",
+            "ts": "1431106705.000000"
+        },
+        "ts": "1431106698.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool. Thanks. I figured as much ",
+        "ts": "1431106822.000039"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "oh, I didn’t see that daytime image push notification until now <@U026PHQ3J>. Didn’t realize you weren’t talking about that test. I’ll look into it.",
+        "ts": "1431107334.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "check out the update: <http:\/\/tidy-federation-859.appspot.com\/backgrounds> - thanks for catching that kat!",
+        "ts": "1431116887.000041"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02688JHZ> I take it they finished the test pass?",
+        "ts": "1431117418.000042"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "adam wanted that build before the end of the day",
+        "ts": "1431117424.000043"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "gweb is now updated",
+        "ts": "1431117733.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Yes <@U0261PCRQ>, I've already talked to Adam",
+        "ts": "1431117756.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I'm waiting on word that they're finished, but suspect they're close",
+        "ts": "1431117767.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "I will let you know",
+        "ts": "1431117771.000047"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "\"We're wrapping up now and things are looking pretty good. No new bugs reported.\"",
+        "ts": "1431118441.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02688JHZ> I sent you an unsigned build already so you can send it whenever you want",
+        "ts": "1431119134.000049"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I can post a debug one too",
+        "ts": "1431119142.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "yes, I saw it",
+        "ts": "1431119143.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "thanks!",
+        "ts": "1431119390.000052"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "pushed updates to second repo",
+        "ts": "1431120149.000053"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool thanks",
+        "ts": "1431120358.000054"
+    }
+]

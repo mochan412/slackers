@@ -1,0 +1,600 @@
+[
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "<@U06DFL7BP> do we have more that we’d like to do for magnum? or more that we anticipate needing to do?",
+        "ts": "1493152408.526935"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i chatted with <@U1S5GKTHQ> briefly on this and at the very least it seems like we should talk about whether we want have the ec2 instance hosting their db on our AWS account or if we should transfer it over to them",
+        "ts": "1493152409.527642"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i think that’s the only ask",
+        "ts": "1493152425.534998"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "(personally vote for transferring ownership)",
+        "ts": "1493152428.536459"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "sorry",
+        "ts": "1493152433.538789"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i think there’s two things:\n1 - should \/ can we get them to spin up their own EC2 instance and move over to there\n2 - should \/ can we get them to move everything off of hostmonter \/ is it worth it",
+        "ts": "1493152469.555447"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "yes totally",
+        "ts": "1493152490.564899"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "moving off of hostmonster may be cheaper\/easier for them to maintain in long run",
+        "ts": "1493152526.581994"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "if cost is a concern, there are other cloud solutions we can offer (such as Vultr).",
+        "ts": "1493152552.594129"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "cpanel sucks but at least is less complex if they’re using any of it",
+        "ts": "1493152552.594305"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so next steps would be to talk to them to see what their concerns are?",
+        "ts": "1493152639.634762"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "they dont have hosting concerns",
+        "ts": "1493152651.639858"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i think next steps are we need to figure out what it would take to move it all to ec2",
+        "ts": "1493152657.642838"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "okay",
+        "ts": "1493152663.645638"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "sorry doing too many things at once",
+        "ts": "1493152672.649973"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "re: their concerns, let me take a cpanel pass and see if they’re doing anything in there like email addres smanagement etc",
+        "ts": "1493152686.656323"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "if it’s only hosting then yeh let’s just look at what ec2 takes",
+        "ts": "1493152710.667337"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "okay sounds good",
+        "ts": "1493152724.673513"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "and thank you! didn’t mean to bug while you’re on other stuff just trying to tie off loose threads",
+        "ts": "1493152746.683914"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "no, totally cool! they have no other sites, no email addresses, no other domains, no other databases",
+        "ts": "1493152824.719508"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "so i do think its:\n- move mongo to their EC2\n- move the… perl? app to EC2\n- set up their new domain",
+        "ts": "1493152861.736466"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "perl app?",
+        "ts": "1493152929.767211"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "idk what their non mongo backend is",
+        "ts": "1493152970.786078"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "whatever is still on hostmoneters",
+        "ts": "1493152984.792302"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "python",
+        "ts": "1493153014.805644"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’m dum",
+        "ts": "1493153052.822567"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "is it just for the adpp site? or is there a separate app we support?",
+        "ts": "1493153054.823293"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "there’s the adpp site and a backend cms",
+        "ts": "1493153067.829708"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh right the CMS",
+        "ts": "1493153072.831770"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there’s always a CMS",
+        "ts": "1493153076.833656"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "squarespace dot com",
+        "ts": "1493153081.836238"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "well that’s the other option too",
+        "ts": "1493153093.841167"
+    },
+    {
+        "user": "U06DFL7BP",
+        "text": "<@U06DFL7BP|charlesv> has left the channel",
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1493153106.847291"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "awww",
+        "ts": "1493153111.849525"
+    },
+    {
+        "user": "U06DFL7BP",
+        "text": "<@U06DFL7BP|charlesv> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493153118.852750"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "really tho",
+        "ts": "1493153134.860600"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so moving forward we would need someone over there to setup an aws account, and be responsible for maintaining\/monitoring (probably whomever has been handling hostmonster stuff)",
+        "ts": "1493153183.883347"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "and then we could transfer and help them with domain stuff",
+        "ts": "1493153200.891500"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "or they could move to another platform entirely like squarespace",
+        "ts": "1493153231.905232"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "they dont have a systems person",
+        "ts": "1493153235.907407"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i’m sure they don’t",
+        "ts": "1493153243.911412"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so hostmonster was the choice because they dont have to deal with it",
+        "ts": "1493153251.914894"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "&lt;- is the guy who has been handling hostmonster stuff",
+        "ts": "1493153253.915895"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "or jenny \/ etc",
+        "edited": {
+            "user": "U06DFL7BP",
+            "ts": "1493153262.000000"
+        },
+        "ts": "1493153258.918001"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "so do we want to continue to be the people who deal with stuff?",
+        "ts": "1493153274.925271"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;no&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;",
+        "ts": "1493153285.930211"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "haha",
+        "ts": "1493153300.937493"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but if aws is less-breakable than HM",
+        "ts": "1493153300.937542"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right",
+        "ts": "1493153305.939640"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thats all we need",
+        "ts": "1493153307.940437"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "it might be",
+        "ts": "1493153314.943725"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "anyway",
+        "ts": "1493153318.945420"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i mean i’m sure there will still be issues",
+        "ts": "1493153320.946557"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "leia you should log into hostmonster",
+        "ts": "1493153324.948393"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and figure out which files are doing what",
+        "ts": "1493153330.950938"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "should i?",
+        "ts": "1493153332.951826"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "ok",
+        "ts": "1493153343.956681"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "or ask jenny at some point",
+        "ts": "1493153353.960949"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "anyway, just to get comfy with whats up there",
+        "ts": "1493153360.964352"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ec2 makes most sense",
+        "ts": "1493153367.967876"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "lets just plan on making that move",
+        "ts": "1493153373.970489"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "if that’s what you think is the best move",
+        "ts": "1493153404.984830"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "i have a pretty good idea after digging into it much of last friday",
+        "ts": "1493153423.993565"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "OMG i dont want to keep debating this. someone pick a place to put it that isn’t hostmoster",
+        "ts": "1493153448.005394"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and move it",
+        "ts": "1493153450.006218"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’d like to get an idea of effort and see if we can charge back",
+        "ts": "1493153452.007110"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and then tell them its moved",
+        "ts": "1493153453.007537"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "no debates needed",
+        "ts": "1493153469.014654"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "OK, if we want to just do it also good",
+        "ts": "1493153472.015730"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "but would like to give them a heads up",
+        "ts": "1493153485.022582"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "they’re doing grants rn and dont want to risk it fucking up",
+        "ts": "1493153490.024801"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "we can move all the code and the DB to ec2 without updating the DNS entries",
+        "ts": "1493153498.028442"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "yes",
+        "ts": "1493153505.031527"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ah, smart",
+        "ts": "1493153506.032127"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks",
+        "ts": "1493153509.033274"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "are they a non-profit?",
+        "ts": "1493153536.045407"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0265G76F>",
+        "ts": "1493153554.054230"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "not a debating point - just a question: they will need their own aws account right? or should we leave it on ours?",
+        "ts": "1493153577.065130"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "just seems like a pre-cursor to all of this",
+        "ts": "1493153589.069960"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "spin it up on ours",
+        "ts": "1493153594.072039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "then image the AMI",
+        "ts": "1493153596.072987"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "when they get set up, they can just clone it",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1493153609.000000"
+        },
+        "ts": "1493153602.076364"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "okay",
+        "ts": "1493153671.108231"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "yup. so we already have a box that has their Mongo instance. im going to move their shit to that same box sometime this week (prob. tomorrow). this is not a resource hog and should be fine.",
+        "ts": "1493153672.108858"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "sounds good?",
+        "ts": "1493153679.111978"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "sounds good to me",
+        "ts": "1493153688.116148"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i’m good with that",
+        "ts": "1493153692.118022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": ":thumbsup:",
+        "ts": "1493153707.124897"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "thanks <@U1S5GKTHQ> for doing all that. lmk if i can help at all",
+        "ts": "1493153729.135090"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "will do!",
+        "ts": "1493153743.141504"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sorry - i stepped away to pack for the Desgin Week photo thing tonight",
+        "ts": "1493154444.464328"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "reading back a bit",
+        "ts": "1493154447.465737"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "is there still something here that i can help with? Wasn't sure where my mention was asking about. Agree with general frame here. And they are indeed a nonprofit",
+        "ts": "1493154498.487422"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "and agree we should not continue dealing with it.",
+        "ts": "1493154510.492350"
+    },
+    {
+        "type": "message",
+        "user": "U167FL70V",
+        "text": "i think maybe what <@U1S5GKTHQ> was asking r.e. the nonprofit portion was for pricing considerations - since aws gives a break to some",
+        "ts": "1493154590.526702"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "Yup. But we can start the process on our AWS account and move to theirs if they decide to open one. ",
+        "ts": "1493154726.584339"
+    },
+    {
+        "type": "message",
+        "user": "U1S5GKTHQ",
+        "text": "So not a blocker",
+        "ts": "1493154734.587366"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "sounds good. Thanks all",
+        "ts": "1493154889.651325"
+    }
+]

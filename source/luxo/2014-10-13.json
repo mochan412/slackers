@@ -1,0 +1,573 @@
+[
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "check this out: capacitive gesture <https:\/\/www.tindie.com\/products\/ootsidebox\/3dpad-touchless-gesture-controller-arduino-shield\/>",
+        "attachments": [
+            {
+                "service_name": "Tindie",
+                "title": "3Dpad - touchless gesture controller Arduino shield",
+                "title_link": "https:\/\/www.tindie.com\/products\/ootsidebox\/3dpad-touchless-gesture-controller-arduino-shield\/",
+                "text": "### Make your own touchless control interface providing 3D coordinates and gestures with a 10cm depth perception, in the form of an Arduino shield. ** ** ![enter image description here](<https:\/\/images.indiegogo.com\/file_attachments\/568663\/files\/20140509113559-bloggif_536d1e9cea89b.gif?1399660559> \"enter image title here\") **3Dpad is an innovative and experimental system that you can use for creativity, experiments and education.** *The underlaying technology is patented and can be used freely under Creative Commons licence [CC BY-NC-SA.](<http:\/\/creativecommons.org\/licenses\/by-nc-sa\/3.0\/>)* ### It consists of a sandwich made up of: - a PCB called an electrode plane (1) - an Arduino Shield (2) - an Arduino Uno (3) - *not included, you should use your own [Arduino](<http:\/\/arduino.cc\/en\/Main\/arduinoBoardUno>) ![enter image description here](<https:\/\/d3s5r33r268y59.cloudfront.net\/01512\/products\/thumbs\/2014-09-04T17:23:16.384Z-130508-proto-3s.jpg.855x570_q85_pad_rcrop.jpg> \"enter image title here\") ![enter image description here](<https:\/\/images.indiegogo.com\/file_attachments\/565439\/files\/20140508024603-3_boards.png?1399542363> \"enter image title here\") ### **Detection principle:** To detect the proximity of the human hand or finger, we are using the projected capacitive technique. This is the principle of virtually all modern touch screens - except that now we are in the air, relatively far away from the detector surface (10 cm max). It’s very simple: We build capacitors which are as “open” as possible, using electrodes drawn on the electrode plane PCB in order to obtain a maximum “hand effect”. ![enter image description here](<https:\/\/images.indiegogo.com\/file_attachments\/565447\/files\/20140508025006-electrodes_plane.png?1399542606> \"enter image title here\") The capacitors formed by the electrodes are part of an oscillator whose frequency is influenced by the distance of a hand. When it enters the electrostatic field, this “intruder” is going to cut the field lines and divert the electrical charges. **Result:** the closer the hand approaches the electrodes, the more the oscillator’s frequency increases. ![enter image description here](<https:\/\/images.indiegogo.com\/file_attachments\/565451\/files\/20140508025202-oscillateur.png?1399542722> \"enter image title here\") ### **The embedded software** The sketch running on the Arduino UNO will exploit the analog result in order to: - Calculate 3D coordinates - Recognize basic gestures (swipes, push and rotations) - Send it all to a host device on the USB COM port ### **The evaluation software** Despite the fact that everything is calculated on the Arduino board, it can be usefull for you to have a software for a quick evaluation of 3D-Pad. ![enter image description here](<https:\/\/images.indiegogo.com\/file_attachments\/565528\/files\/20140508034708-softscreen.png?1399546028> \"enter image title here\") It's available in the form of a VB6 which (often) accepts to be installed under Windows. There is also a new one, made with [Processing](<http:\/\/processing.org>). This is more confortable and runs under Windows, Linux an MAC-OS X. You'll see all the values sent by the Arduino Uno, the gesture events and the 3D coordinates in the form of a cursor. ### **What’s it used for?** 3Dpad's technology can be used in a very wide field of applications, for instance: medical & healthcare (should reduce the nosocomial risk), household appliance control (think at cooking when your hands are covered of fat content), gaming with \"air control\", and many other. At the moment my favorite app is music, using 3Dpad as an \"3D Air control\" MIDI controller. [Watch our first experiment Video](<https:\/\/www.youtube.com\/watch?feature=player_embedded&v=-wdQUOxaZXI>) ### **Questions \/ Answers :** - **What are the possibilities for hiding the 3D-pad behind different materials?** *The electrode plan PCB can be covered with glass, plastic, ceramic, wood, textile, or any other insulating material* [See it in this video](<https:\/\/www.youtube.com\/watch?feature=player_embedded&v=2Nm65RwdjEY>) - **Who designed the 3Dpad?** *3Dpad is based on my own invention (I've got granted patents on it). The current version in the form of an Arduino shield has been designed in collaboration with the [Elektor Labs](<http:\/\/www.elektor-labs.com\/project\/3d-pad-control-without-touching-130508.13850.html>). A full description is available in the* [Elektor magazine - May 2014 edition.](<http:\/\/www.elektor.com\/elektor-magazine-en-may-2014>) - **How will be made the 3Dpad that you ordered?** *Today this product is \"hand made\" by myself: Assembling, soldering all components, and full testing. If the demand continues to grow, tomorow the manufacturing will be done by sub-contractors.* ### **Find out more about 3Dpad:** - [Elektor 3D pad: Touchless Gesture Control interface, guaranteed \"Wow!\" value](<http:\/\/youtu.be\/Eoqj1DyjiHA>) - [Elektor Academy \/ Element14 (3Dpad) webinar podcast](<http:\/\/ootsidebox.blogspot.fr\/2014\/06\/elektor-academy-element14-3dpad-webinar.html>) - [3Dpad on Facebook](<https:\/\/www.facebook.com\/3D.Pad>) ### **Find out more about me:** ![enter image description here](<https:\/\/images.indiegogo.com\/file_attachments\/561504\/files\/20140506135740-photo_google.jpg?1399409860> \"enter image title here\") - [Join my Linkedin network](<http:\/\/fr.linkedin.com\/in\/jnlootsidebox\/>) - [visit my workspace](<http:\/\/circuitcellar.com\/community\/workspaces\/a-personal-hackerspace-in-lyon-france\/>) - [ATMEL's Interview: Jean-Noël talks Ootsidebox](<http:\/\/atmelcorporation.wordpress.com\/2014\/03\/05\/interview-jean-noel-talks-ootsidebox\/>) - [Ootsidebox Touchless Interface at Elektor.Labs](<http:\/\/youtu.be\/yyR7JzCk8gs>) ### **Find out more about OOTSIDEBOX:** ![enter image description here](<http:\/\/www.ootsidebox.com\/rw_common\/images\/logo-ootsidebox-opt.png> \"enter image title here\") - [Website](<http:\/\/www.ootsidebox.com>) - [Facebook](<https:\/\/www.facebook.com\/ootsidebox>) - [Twitter](<https:\/\/twitter.com\/Ootsidebox>)",
+                "fallback": "Tindie: 3Dpad - touchless gesture controller Arduino shield",
+                "fields": [
+                    {
+                        "title": "PRICE",
+                        "value": "$98.30 USD",
+                        "short": true
+                    },
+                    {
+                        "title": "SELLER",
+                        "value": "ootsidebox",
+                        "short": true
+                    }
+                ],
+                "from_url": "https:\/\/www.tindie.com\/products\/ootsidebox\/3dpad-touchless-gesture-controller-arduino-shield\/",
+                "id": 1
+            }
+        ],
+        "ts": "1413222662.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "range is about 10cm",
+        "ts": "1413222673.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/github.com\/dscripps\/Open-CV-Gesture-Demo>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "dscripps\/Open-CV-Gesture-Demo",
+                "title_link": "https:\/\/github.com\/dscripps\/Open-CV-Gesture-Demo",
+                "text": "Contribute to Open-CV-Gesture-Demo development by creating an account on GitHub.",
+                "fallback": "GitHub: dscripps\/Open-CV-Gesture-Demo",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/252784?v=2&s=400",
+                "from_url": "https:\/\/github.com\/dscripps\/Open-CV-Gesture-Demo",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "id": 1
+            }
+        ],
+        "ts": "1413223954.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Oh shit. RE: 3D pad",
+        "ts": "1413223964.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U02F8LF2X>: whats its range?",
+        "ts": "1413223970.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "10cm",
+        "ts": "1413223975.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "sorry, I read slowly",
+        "ts": "1413223979.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "more important links to keep track of:",
+        "ts": "1413224092.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/opencv.org\/opencv-3-0-alpha.html>",
+        "ts": "1413224092.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "This lists Mac Framework build scripts as a feature",
+        "ts": "1413224103.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "(we will need this for C++ linking on mac)",
+        "ts": "1413224112.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Gesture detection project as originally developed in .NET",
+        "ts": "1413224146.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/www.codeproject.com\/KB\/audio-video\/hands_gesture_recognition.aspx?msg=4120177>",
+        "attachments": [
+            {
+                "text": "Some ideas about Hands Gesture Recognition in still images and video feeds, using the <http:\/\/AForge.NET|AForge.NET> framework (C#).; Author: Andrew Kirillov; Updated: 22 May 2008; Section: Audio and Video; Chapter: Multimedia; Updated: 22 May 2008",
+                "fallback": "Some ideas about Hands Gesture Recognition in still images and video feeds, using the <http:\/\/AForge.NET|AForge.NET> framework (C#).; Author: Andrew Kirillov; Updated: 22 May 2008; Section: Audio and Video; Chapter: Multimedia; Updated: 22 May 2008",
+                "from_url": "http:\/\/www.codeproject.com\/KB\/audio-video\/hands_gesture_recognition.aspx?msg=4120177",
+                "id": 1
+            }
+        ],
+        "ts": "1413224146.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "it's ok. I mix up coffee and chocolate",
+        "ts": "1413224280.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Thats just your inability\/lack of desire to read",
+        "ts": "1413224295.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "I still contend it was an extrapolation failure",
+        "ts": "1413224469.000023"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "@joel what is the intel camera's real product? This crappy spec'ed Creative thing? <http:\/\/www.amazon.com\/dp\/B00EVWX7CG>",
+        "attachments": [
+            {
+                "text": "<http:\/\/Amazon.com|Amazon.com>: Creative Senz3D Depth and Gesture Recognition Camera for Personal Computers: Computers & Accessories",
+                "fallback": "<http:\/\/Amazon.com|Amazon.com>: Creative Senz3D Depth and Gesture Recognition Camera for Personal Computers: Computers &amp; Accessories",
+                "from_url": "http:\/\/www.amazon.com\/dp\/B00EVWX7CG",
+                "id": 1
+            }
+        ],
+        "ts": "1413225171.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "<@U02E3CRMA>: fail",
+        "ts": "1413225187.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'm not at liberty to say...but that's not it",
+        "ts": "1413225241.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "ha",
+        "ts": "1413225254.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "is there a non Kinect product we should pull into our Luxo proposal?",
+        "ts": "1413225269.000030"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "or is the developer kit camera worth trying to get?",
+        "ts": "1413225291.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "what about Leap Motion?",
+        "ts": "1413225308.000032"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "seems like exactly the kind of workload it's intended for - close-range gesture sensing",
+        "ts": "1413225325.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "3-5 feet?",
+        "ts": "1413225349.000034"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the dev kit camera is worth getting, primarily to have the dev kit, which is good",
+        "ts": "1413225352.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "k",
+        "ts": "1413225366.000036"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "probably wont promise that to sammy",
+        "ts": "1413225372.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Leap can do 1\" to 3'",
+        "ts": "1413225389.000038"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "i thot there was something off the shelf and compact that we could buy",
+        "ts": "1413225393.000039"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "so too close...darn",
+        "ts": "1413225393.000040"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "feel like i've been selling vaporhardware for the last 2 weeks haha",
+        "ts": "1413225409.000041"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "lemme take a look at the SS we put together...",
+        "ts": "1413225430.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "guys, again i post this:",
+        "ts": "1413225442.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/github.com\/dscripps\/Open-CV-Gesture-Demo>",
+        "ts": "1413225442.000044"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "enh? does that help my current question or unrelated?",
+        "ts": "1413225520.000045"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "im asking about hardware.",
+        "ts": "1413225526.000046"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "works with any camera, right?",
+        "ts": "1413225535.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "building now.",
+        "ts": "1413225544.000048"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "well yes but if we want touch on surface...",
+        "ts": "1413225549.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but ill stay out of this for the moment",
+        "ts": "1413225551.000050"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "nobody acknowledge evans",
+        "ts": "1413225562.000051"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "who?",
+        "ts": "1413225575.000052"
+    },
+    {
+        "user": "U026PHQ3J",
+        "type": "message",
+        "subtype": "channel_leave",
+        "text": "<@U026PHQ3J|evans> has left the channel",
+        "ts": "1413225583.000053"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "is primesense worth picking up?",
+        "ts": "1413225586.000054"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "<http:\/\/www.amazon.com\/Apple-Primesense-Carmine-1-09-Webcam\/dp\/B00KO908MM\/ref=sr_1_1?ie=UTF8&amp;qid=1413225426&amp;sr=8-1&amp;keywords=primesense>",
+        "attachments": [
+            {
+                "text": "<http:\/\/Amazon.com|Amazon.com>: Apple Primesense Carmine 1.09 - 3D Webcam Sensor: Computers & Accessories",
+                "fallback": "<http:\/\/Amazon.com|Amazon.com>: Apple Primesense Carmine 1.09 - 3D Webcam Sensor: Computers &amp; Accessories",
+                "from_url": "http:\/\/www.amazon.com\/Apple-Primesense-Carmine-1-09-Webcam\/dp\/B00KO908MM\/ref=sr_1_1?ie=UTF8&qid=1413225426&sr=8-1&keywords=primesense",
+                "id": 1
+            }
+        ],
+        "ts": "1413225587.000055"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "haha",
+        "ts": "1413225588.000056"
+    },
+    {
+        "user": "U026PHQ3J",
+        "type": "message",
+        "subtype": "channel_join",
+        "text": "<@U026PHQ3J|evans> has joined the channel",
+        "ts": "1413225632.000059"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "haha",
+        "ts": "1413225670.000060"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "PrimeSense would work within the range we need since it's designed for that use model",
+        "ts": "1413225724.000061"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the tech under the Intel unit is made for close-range (&lt;6ft)",
+        "ts": "1413225744.000062"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "some kinect and primesense are comparable. maybe that canadian grey thing.",
+        "ts": "1413225758.000063"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "er so not some",
+        "ts": "1413225762.000064"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "to Evans' point, we'll just feed whatever we get into the OpenCV libs and run with it, so we're optimizing on cost and range at this point rather than toolkit",
+        "ts": "1413225798.000065"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "is that true if we want to know whether someone's finger is contact with a surface?",
+        "ts": "1413225874.000066"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "i thot we had to have 3d data for that. gesture being perhaps different than 3 dimensional position?",
+        "ts": "1413225897.000067"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "<http:\/\/www.ptgrey.com\/products\/bbxb3\/bumblebee2_xb3_datasheet.pdf>",
+        "ts": "1413225899.000068"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "(and we're also trying to optimize for size, which is why I'm interested in proposing what else we buy, since Kinects are not very small)",
+        "ts": "1413225932.000069"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "yes, we need 3D for that (either with IR or stereo imaging)",
+        "ts": "1413225958.000070"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "check this one out: <http:\/\/www.toshiba.com\/taec\/news\/press_releases\/2014\/assp_14_698.jsp>",
+        "attachments": [
+            {
+                "text": "Toshiba Ships Industry's First Dual Camera Module Able to Simultaneously Output Recorded Images and Depth Data",
+                "fallback": "Toshiba Ships Industry's First Dual Camera Module Able to Simultaneously Output Recorded Images and Depth Data",
+                "from_url": "http:\/\/www.toshiba.com\/taec\/news\/press_releases\/2014\/assp_14_698.jsp",
+                "id": 1
+            }
+        ],
+        "ts": "1413226048.000071"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Digging to find one out there. For expediency, we should stick with something like PrimeSense for now, look at that for a product spect",
+        "ts": "1413226080.000074"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "spec*",
+        "ts": "1413226082.000075"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "hmm are we going to need an additional conventional camera so we CAN use OpenCV? Do depth cameras only provide depth data?",
+        "ts": "1413226206.000076"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "you know, for size and the fact we need pretty basic functionality, that Creative unit would do it",
+        "ts": "1413226215.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "these cams all provide both depth and rgb out",
+        "ts": "1413226227.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "ok",
+        "ts": "1413226232.000079"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "phew",
+        "ts": "1413226233.000080"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "here's my vote(s):",
+        "ts": "1413226245.000081"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the Intel\/Creative unit since 1) The SDK looks usable and 2) I can get some help on the inside if we need it and 3) I did and Android port for the SDK :simple_smile:",
+        "ts": "1413226278.000082"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "PrimeSense since it's better at close-range than Kinect is",
+        "ts": "1413226293.000083"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "BTW...I've been waiting for a couple contacts to get back from vacation\/travel at Intel to get more info on cameras. Will follow up today and post results here",
+        "ts": "1413226372.000084"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "badass",
+        "ts": "1413226403.000085"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "just talked to a contact on the Perceptual Computing team",
+        "ts": "1413229240.000086"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "told him I was looking for a small depth+video camera that can do close-range (&lt;6ft)",
+        "ts": "1413229274.000087"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "his recommendation was to go with the Creative cam - high frame rate (&gt;30fps), 720p + depth",
+        "ts": "1413229300.000088"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "means we can resolve click events on a projected UI",
+        "ts": "1413229316.000089"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "plus the PerC toolkit is specifically developed for recognizing hand shapes and gestures. not strictly what we're doing, but useful",
+        "ts": "1413229374.000090"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "also easy to integrate with OpenCV",
+        "ts": "1413229383.000091"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "the UW team did work on projecting UIs on non-flat surfaces with this cam and a standard projector, so that code should be in the public domain (getting back to the original RFP, should that ever come around again)",
+        "ts": "1413229471.000092"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "not sure if this one has been thrown out yet but i stumbled onto an ASUS depth camera <http:\/\/www.asus.com\/Multimedia\/Xtion_PRO\/specifications\/>",
+        "attachments": [
+            {
+                "text": "Use the Xtion PRO bundled with the OPNI NITE SDK that is middleware compatible to develop and create your own motion-sensing software that can also be sold on the ASUS @vibe site.",
+                "fallback": "Use the Xtion PRO bundled with the OPNI NITE SDK that is middleware compatible to develop and create your own motion-sensing software that can also be sold on the ASUS @vibe site.",
+                "from_url": "http:\/\/www.asus.com\/Multimedia\/Xtion_PRO\/specifications\/",
+                "id": 1
+            }
+        ],
+        "ts": "1413240393.000093"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "that's a new one for the list",
+        "ts": "1413243103.000096"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<@U02918BKW>: just updated our device roundup Google spreadsheet to include the Xtion and Creative cameras",
+        "ts": "1413244076.000097"
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U1ZG1UCAK> - can you take a pass though minime updates and let me know if there are any new strings that have been added since 9.9? that was when we delivered last batch to aiden, so want to be able to provide any later additions asap to make sure we’re good for release in supported markets!",
+        "ts": "1475000216.000527"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Looking through them :thumbsup::skin-tone-4:",
+        "ts": "1475001710.000528"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you!",
+        "ts": "1475001743.000529"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "3PR update for the link in about trends modal is pushed to accessibility-review-update",
+        "ts": "1475016599.000530"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I can change the links in the descriptive text to be on the same line, but they will not behave in the same way as the link in the about trends modal (i.e. will not be accessible through the local context menu), because it’s an intent to open the dialogfragment, not a url.\nCurrent version has those links on a new line, which is focusable, but does not add them to local context menu.",
+        "ts": "1475016751.000531"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "Also, here is doc for clickable links: <https:\/\/support.google.com\/accessibility\/android\/answer\/6378148?hl=en>",
+        "attachments": [
+            {
+                "title": "Clickable links - Android Accessibility Help",
+                "title_link": "https:\/\/support.google.com\/accessibility\/android\/answer\/6378148?hl=en",
+                "text": "BackgroundUsers who rely on an accessibility service to use mobile devices benefit from clearly displayed links. For example, a user who is blind and uses the TalkBack screen reader can easily acce",
+                "fallback": "Clickable links - Android Accessibility Help",
+                "from_url": "https:\/\/support.google.com\/accessibility\/android\/answer\/6378148?hl=en",
+                "service_icon": "https:\/\/support.google.com\/favicon.ico",
+                "service_name": "support.google.com",
+                "id": 1
+            }
+        ],
+        "ts": "1475017206.000532"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "accessibility event next week (im going to try to go) not sure how technical it is but in case you’re interested <@U1ZG1UCAK> <http:\/\/www.meetup.com\/pdxtech4good-nonprofit-activist-tech\/events\/234221881\/>",
+        "attachments": [
+            {
+                "service_name": "Meetup",
+                "title": "PDXTech4Good",
+                "title_link": "http:\/\/www.meetup.com\/pdxtech4good-nonprofit-activist-tech\/events\/234221881\/",
+                "text": "Please RSVP only if you plan to attend! Space is limited!Ensuring that your website is accessible to users of all abilities benefits everybody: content can be handled by any browser software, search",
+                "fallback": "Meetup: PDXTech4Good",
+                "thumb_url": "http:\/\/photos2.meetupstatic.com\/photos\/event\/a\/8\/d\/f\/highres_445363231.jpeg",
+                "from_url": "http:\/\/www.meetup.com\/pdxtech4good-nonprofit-activist-tech\/events\/234221881\/",
+                "thumb_width": 1615,
+                "thumb_height": 1038,
+                "service_icon": "http:\/\/img2.meetupstatic.com\/img\/44824024200340517185\/m\/ios\/Icon-60pt@2x.png",
+                "id": 1
+            }
+        ],
+        "ts": "1475025633.000534"
+    }
+]

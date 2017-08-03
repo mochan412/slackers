@@ -1,0 +1,53 @@
+[
+    {
+        "text": "There is a new deploy in process for *ucs*",
+        "username": "Netlify",
+        "bot_id": "B54JESV25",
+        "icons": {
+            "image_48": "https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2017-04-27\/176482111511_48.png"
+        },
+        "attachments": [
+            {
+                "fallback": "There is a new deploy in process for ucs: <https:\/\/app.netlify.com\/sites\/ucs\/deploys\/5966a46acf321c6864f870eb>",
+                "title": "Visit the build log",
+                "footer": "Using git branch master",
+                "id": 1,
+                "title_link": "https:\/\/app.netlify.com\/sites\/ucs\/deploys\/5966a46acf321c6864f870eb",
+                "ts": 1499898986,
+                "color": "daa038",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1499898987.731095"
+    },
+    {
+        "text": "Successful deploy of *ucs*",
+        "username": "Netlify",
+        "bot_id": "B54JFEXH7",
+        "icons": {
+            "image_48": "https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2017-04-27\/176482111511_48.png"
+        },
+        "attachments": [
+            {
+                "fallback": "Successful deploy of ucs: <https:\/\/www.uncorkedstudios.com>",
+                "text": "Or check out the <https:\/\/app.netlify.com\/sites\/ucs\/deploys\/5966a46acf321c6864f870eb|build log>",
+                "title": "Visit the changes live",
+                "footer": "Using git branch master, commit <https:\/\/github.com\/UncorkedStudios\/ucs-static\/commit\/c165384d95e2af4b01bac323fb547e94df460cbd|c165384d95e>",
+                "id": 1,
+                "title_link": "https:\/\/www.uncorkedstudios.com",
+                "ts": 1499899084,
+                "color": "36a64f",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1499899085.759802"
+    }
+]

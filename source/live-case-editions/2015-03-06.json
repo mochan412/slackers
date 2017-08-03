@@ -1,0 +1,147 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02688JHZ> <@U026PHQ3J> just updated the tracking id, building in a minute",
+        "ts": "1425661285.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Cool thanks. Is there any other low hanging fruit we can hit before sending? Like make sure the about page is going to the correct URL etc",
+        "ts": "1425661572.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I did not realize we were updating that, but I can change that url",
+        "ts": "1425661622.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "as of right now, I can't attach the apk to the email, because it's too big",
+        "ts": "1425661634.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I'm also going to remove the gray images",
+        "ts": "1425661648.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "hey <@U02HAJ6JF>  is this the right url for the about artist page now?         <http:\/\/tidy-federation-859.appspot.com\/appview>",
+        "ts": "1425661884.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> <@U02HAJ6JF> I hope not, cause that endpoint is supposed to require the token in the header",
+        "ts": "1425661970.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "any other changes in the meantime?",
+        "ts": "1425662105.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "<@U026PHQ3J>: fixed the token require, and formatting! should be deployed in a few.",
+        "ts": "1425662269.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "<@U0261PCRQ>: deployed!",
+        "ts": "1425662683.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Thanks, all!",
+        "ts": "1425663862.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/www.youtube.com\/watch?v=ZPoqNeR3_UA>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "http:\/\/www.youtube.com\/",
+                "title": "Star Trek TNG Ambient Engine Noise (Idling for 24 hrs)",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=ZPoqNeR3_UA",
+                "author_name": "crysknife007",
+                "author_link": "http:\/\/www.youtube.com\/user\/crysknife007",
+                "thumb_url": "http:\/\/i.ytimg.com\/vi\/ZPoqNeR3_UA\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Star Trek TNG Ambient Engine Noise (Idling for 24 hrs)",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"http:\/\/www.youtube.com\/embed\/ZPoqNeR3_UA?feature=oembed\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=ZPoqNeR3_UA",
+                "id": 1
+            }
+        ],
+        "ts": "1425682932.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel>: how weird would it be to have backward navigation in the first-time flow? no forward navigation, but backward navigation....",
+        "ts": "1425687459.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "asking for a friend",
+        "ts": "1425687470.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we would still have to rethink the actions on some screens",
+        "ts": "1425687488.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "like the push notification",
+        "ts": "1425687493.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "forward navigation you have to make a choise",
+        "ts": "1425687495.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "choice",
+        "ts": "1425687496.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I think the only issue is that push notification screen. right now, if you hit \"sign me up, baebae\" and then you go back and hit cancel, nothing would happen (even though you probably don't want to be signed up",
+        "ts": "1425687649.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "so, you'd be signed up from the first time you viewed it",
+        "ts": "1425687670.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we could figure it out",
+        "ts": "1425687872.000023"
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I'm copying my workspace files (relevant to project but not appropriate for git) into the NAS. clients &gt; OMSI &gt; Current Science &gt; Dev &gt; Spencer's workspace",
+        "ts": "1443816074.000002"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PT0D7>: have you had a chance to review missing images",
+        "ts": "1443816840.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "not exhaustively, but i have done some, yeah",
+        "ts": "1443816978.000004"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "any leads? was hoping to update Patrick with a timeline or progress",
+        "ts": "1443817335.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "not really, yet. it's hard to debug because I don't have a test machine to run the app on overnight",
+        "ts": "1443817394.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "and i often forget to run it on my laptop when i go to bed",
+        "ts": "1443817405.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "my hunch is it's related to data fetch crashing",
+        "ts": "1443817423.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I can try a hacky fix in the meantime though",
+        "ts": "1443817433.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "during data fetch each document receives a \"fetchSlideshowImages\" message. I can send this message separately, elsewhere. That might fix it",
+        "ts": "1443817471.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’m hesitajnt to order a whole mac mini machine for testing this late in the engagement, but we can commandeer a laptop if necessary",
+        "ts": "1443817502.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "lead found.",
+        "ts": "1443819520.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "it should be a simple fix",
+        "ts": "1443819525.000013"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "nice",
+        "ts": "1443819625.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "New build uploaded to sparkle server",
+        "ts": "1443821118.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "OMSI can now run through the install procedure provided in the troubleshooting guide",
+        "ts": "1443821135.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Cool, what was it?",
+        "ts": "1443821168.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "I had added in some escapement to the slideshow image urls",
+        "ts": "1443821193.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Not sure what caused that, but it was over-escaping",
+        "ts": "1443821216.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "It was probably some adhoc document with weird characters in it",
+        "ts": "1443821237.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "spaces maybe",
+        "ts": "1443821240.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "Note they'll also likely have to perform a Refresh (a separate procedure in the Troubleshooting Guide)",
+        "ts": "1443821313.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PT0D7",
+        "text": "copies of the guides we've provided to them are in NAS &gt; clients &gt; OMSI &gt; Current Science &gt; Deliverables",
+        "ts": "1443821347.000023"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "sweet",
+        "ts": "1443821352.000024"
+    }
+]

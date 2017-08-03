@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Aww yea.",
+        "ts": "1483320192.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "This seems like best option for electronics: <http:\/\/www.pibot.com\/set-of-pibot-electronics-kits-for-cnc-2-0-c.html>",
+        "attachments": [
+            {
+                "service_name": "English",
+                "title": "A Set of PiBot Electronics Kits 2.0C for CNC (Free Shipping by DHL)",
+                "title_link": "http:\/\/www.pibot.com\/set-of-pibot-electronics-kits-for-cnc-2-0-c.html",
+                "text": "You can build 3 Axizs CNC Router with this electronics kits, such as build with openbuilds kits.",
+                "fallback": "English: A Set of PiBot Electronics Kits 2.0C for CNC (Free Shipping by DHL)",
+                "thumb_url": "http:\/\/www.pibot.com\/media\/catalog\/product\/cache\/1\/image\/265x\/7a6dd4ea933683467b68478a25956065\/p\/i\/pibot-cnc-kit-2_1.jpg",
+                "fields": [
+                    {
+                        "title": "PRICE",
+                        "value": "$129.99",
+                        "short": true
+                    },
+                    {
+                        "title": "LOCATION",
+                        "value": "US",
+                        "short": true
+                    }
+                ],
+                "from_url": "http:\/\/www.pibot.com\/set-of-pibot-electronics-kits-for-cnc-2-0-c.html",
+                "thumb_width": 265,
+                "thumb_height": 265,
+                "service_icon": "http:\/\/www.pibot.com\/media\/favicon\/default\/logoico.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1483321726.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Openbuild's CNC xPRO controller uses DRV8825 which are a little underpowered for nema23s. Similar goes or Smoothieboard. TinyG seems OK, but not compared to the PiBot for price.",
+        "ts": "1483321920.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "PiBot Runs GBRL which seems to be go-to for open source CNC stuff.",
+        "ts": "1483321987.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0H4SJN11",
+        "text": "Alternatively you can get this board for dirt cheap and use DRV8825s I have lying around and a Arduino Uno. <http:\/\/www.ebay.com\/itm\/261513306776>",
+        "attachments": [
+            {
+                "service_name": "eBay",
+                "title": "CNC Shield V3.0 GRBL compatible Pololu A4988 driver for Arduino",
+                "title_link": "http:\/\/www.ebay.com\/itm\/261513306776",
+                "text": "GRBL 0.8c compatible. (Open source firmware that runs on an Arduino UNO that turns G-code commands into stepper signals). Uses removable Pololu A4988 compatible stepper drivers. (A4988, DRV8825 and others). | eBay!",
+                "fallback": "eBay: CNC Shield V3.0 GRBL compatible Pololu A4988 driver for Arduino",
+                "thumb_url": "http:\/\/i.ebayimg.com\/images\/i\/261513306776-0-1\/s-l1000.jpg",
+                "from_url": "http:\/\/www.ebay.com\/itm\/261513306776",
+                "thumb_width": 1000,
+                "thumb_height": 1000,
+                "service_icon": "http:\/\/www.ebay.com\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1483322052.000007"
+    }
+]

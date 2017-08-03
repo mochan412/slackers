@@ -1,0 +1,466 @@
+[
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey team! we're going to be walking through the CMS + push notifications with google today. can someone share a build pointed at staging to ensure nothing we test appears on production?  ",
+        "ts": "1499352690.248042"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "our internal review is at 930, so would be great to have for that ",
+        "ts": "1499352781.305520"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I can make the build, if someone tells me where I need to change the url to point to staging. Don’t really know my way around live_case_updates package…",
+        "ts": "1499357939.542241"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "<@U2H61EJSG>?",
+        "ts": "1499358014.584457"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "the registration url for staging should be: <https:\/\/minime-collections.appspot.com\/api\/token>",
+        "ts": "1499358075.618039"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think the preview flavor might have that URL baked in ",
+        "ts": "1499358130.649643"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "looks like debug flavor has that url in strings_build file",
+        "ts": "1499358363.781269"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "I’ll make the build since I know what needs to change",
+        "ts": "1499358432.819517",
+        "reactions": [
+            {
+                "name": "ok",
+                "users": [
+                    "U1ZG1UCAK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "ill be there in 2 shakes!",
+        "ts": "1499358716.979960",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U0260V1BX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U13GPDA1F> I’m making the builds right now, but I’m not entirely sure what you need now that I am re-reading your request. Currently I am making a build off of develop with notifications activated - is that sufficient?",
+        "ts": "1499358896.082194"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "should be. basically we want to be triple sure we're not leaking notifications to anyone but us",
+        "ts": "1499358957.115371"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Hmm I don’t know if there is a way to do that aside from unregistering all existing tokens. The only flag we are using is `is_debug_build`",
+        "ts": "1499359050.165869"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<https:\/\/minime-collections.appspot.com\/notifications\/new>",
+        "ts": "1499359113.200533"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U2670DYLE> I am registering tokens using the correct flags, but I am unable to receive any notifications on the device.",
+        "edited": {
+            "user": "U2H61EJSG",
+            "ts": "1499359222.000000"
+        },
+        "ts": "1499359210.254192"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U2H61EJSG|summer> uploaded a file: <https:\/\/uncorked.slack.com\/files\/summer\/F64A5S1FT\/minime-notifications-7_6_17.apk|MiniMe-NOTIFICATIONS-7_6_17.apk>",
+        "file": {
+            "id": "F64A5S1FT",
+            "created": 1499360132,
+            "timestamp": 1499360132,
+            "name": "MiniMe-NOTIFICATIONS-7_6_17.apk",
+            "title": "MiniMe-NOTIFICATIONS-7_6_17.apk",
+            "mimetype": "application\/vnd.android.package-archive",
+            "filetype": "apk",
+            "pretty_type": "APK",
+            "user": "U2H61EJSG",
+            "editable": false,
+            "size": 24231530,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F64A5S1FT\/minime-notifications-7_6_17.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F64A5S1FT\/download\/minime-notifications-7_6_17.apk?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/summer\/F64A5S1FT\/minime-notifications-7_6_17.apk",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F64A5S1FT-071d54e23d",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U2H61EJSG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "summer",
+        "bot_id": null,
+        "ts": "1499360133.763097"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "<@U0260V1BX> I have another edge case-y UX question for you",
+        "ts": "1499366782.471115"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "In the event that a user has a poor connection they can get stuck on the ‘Pair success’ screen - this is especially noticeable if this is the first case a user is pairing. The way that this is handled currently may cause confusion since the user will see a ‘retry’ button on the ‘Pair success’ screen when the case image was unable to download without any context as to what that retry button actually does. Midori and i chatted this over and we agree that we should move the main content download to be in the same place in the app as the code validation since we are no longer allowing users to proceed in onboarding until the case image has fully downloaded anyway . We propose that we change up the UI in the enter code screen to show a short series of text views reading something like ‘Validating…’ while the code is being validated against the server and then ‘Downloading &lt;insert case name here&gt; content…’ along with a progress spinner. Do you have any concerns\/suggestions with this idea?",
+        "ts": "1499366793.476839"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "hey <@U2H61EJSG>, i’m in meetings for the rest of the day - would you mind assigning me a JIRA ticket with this info? i don’t want to lose track of it in this channel",
+        "ts": "1499367428.823414"
+    },
+    {
+        "type": "message",
+        "user": "U2H61EJSG",
+        "text": "Sure thing!",
+        "ts": "1499367440.829784",
+        "reactions": [
+            {
+                "name": "thanks",
+                "users": [
+                    "U0260V1BX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "I’m going to merge accessibility fixes into develop",
+        "ts": "1499368973.630494"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": ":dope:",
+        "ts": "1499368983.635755",
+        "reactions": [
+            {
+                "name": "dope",
+                "users": [
+                    "U0260V1BX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I made several of the CMS updates that we talked about this morning.",
+        "ts": "1499373896.124952"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "the updates can be seen here: <https:\/\/minime-collections.appspot.com\/notifications\/new>",
+        "ts": "1499373906.129953"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I ditched the letter-spacing, made updates to the nav, change title to image title or video title where appropriate, removed asterisks, and fixed the scheduling bug that <@U0260V1BX> pointed out.",
+        "ts": "1499373972.163181"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I have not yet swapped out the image upload icon. It's used all over the place in collections, and I'm hesitant to change it in so many places before a demo.",
+        "ts": "1499374028.191500"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I'm not planning on making any updates from now until 3pm. If <@U13GPDA1F> you have a few moments to do a test run sending the push notifications you plan to demo in the mtg, go for it.",
+        "ts": "1499374162.257482"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "^ <!here|@here>",
+        "ts": "1499374575.462225"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thanks john! ill look at shortly!",
+        "ts": "1499375382.852502"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F652H6LGJ\/screenshot_20170706-143804.png|Screenshot_20170706-143804.png> and commented: Y'all:",
+        "file": {
+            "id": "F652H6LGJ",
+            "created": 1499377104,
+            "timestamp": 1499377104,
+            "name": "Screenshot_20170706-143804.png",
+            "title": "Screenshot_20170706-143804.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 387818,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F652H6LGJ\/screenshot_20170706-143804.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F652H6LGJ\/download\/screenshot_20170706-143804.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F652H6LGJ-7a61b675f4\/screenshot_20170706-143804_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F652H6LGJ-7a61b675f4\/screenshot_20170706-143804_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F652H6LGJ-7a61b675f4\/screenshot_20170706-143804_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F652H6LGJ-7a61b675f4\/screenshot_20170706-143804_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F652H6LGJ-7a61b675f4\/screenshot_20170706-143804_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F652H6LGJ-7a61b675f4\/screenshot_20170706-143804_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F652H6LGJ-7a61b675f4\/screenshot_20170706-143804_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F652H6LGJ-7a61b675f4\/screenshot_20170706-143804_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F652H6LGJ-7a61b675f4\/screenshot_20170706-143804_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1440,
+            "original_h": 2560,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F652H6LGJ\/screenshot_20170706-143804.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F652H6LGJ-6d03c35502",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc650AF9EX",
+                "created": 1499377104,
+                "timestamp": 1499377104,
+                "user": "U1ZG1UCAK",
+                "is_intro": true,
+                "comment": "Y'all:"
+            }
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1499377108.602466"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "noice",
+        "ts": "1499377313.684261"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "OOOH",
+        "ts": "1499377561.783543"
+    },
+    {
+        "type": "message",
+        "user": "U1ZG1UCAK",
+        "text": "it looks _even_ better in landscape",
+        "ts": "1499377722.847861"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U1ZG1UCAK|midori> uploaded a file: <https:\/\/uncorked.slack.com\/files\/midori\/F65SMJGHL\/screenshot_20170706-143959.png|Screenshot_20170706-143959.png>",
+        "file": {
+            "id": "F65SMJGHL",
+            "created": 1499377740,
+            "timestamp": 1499377740,
+            "name": "Screenshot_20170706-143959.png",
+            "title": "Screenshot_20170706-143959.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U1ZG1UCAK",
+            "editable": false,
+            "size": 360028,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F65SMJGHL\/screenshot_20170706-143959.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F65SMJGHL\/download\/screenshot_20170706-143959.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F65SMJGHL-526b578287\/screenshot_20170706-143959_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F65SMJGHL-526b578287\/screenshot_20170706-143959_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F65SMJGHL-526b578287\/screenshot_20170706-143959_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 203,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F65SMJGHL-526b578287\/screenshot_20170706-143959_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F65SMJGHL-526b578287\/screenshot_20170706-143959_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F65SMJGHL-526b578287\/screenshot_20170706-143959_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F65SMJGHL-526b578287\/screenshot_20170706-143959_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F65SMJGHL-526b578287\/screenshot_20170706-143959_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F65SMJGHL-526b578287\/screenshot_20170706-143959_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 2560,
+            "original_h": 1440,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/midori\/F65SMJGHL\/screenshot_20170706-143959.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F65SMJGHL-83066a17e4",
+            "channels": [
+                "C0BTK9LGH"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "heart_eyes",
+                    "users": [
+                        "U13GPDA1F"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U1ZG1UCAK",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "midori",
+        "bot_id": null,
+        "ts": "1499377744.856127"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "<@U2670DYLE> <@U2H61EJSG> for this apk should we be selecting 2017 devices or Older (or does it matter for this one)?",
+        "ts": "1499379169.380539"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "I've tested with 2017 and all devices.",
+        "ts": "1499379201.391349"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "hey gang! CMS walk through went well! they called out a few things that <@U0260V1BX> going to think through + provide designs for (largely accommodating localizations!) but they were into it and going to play around with more. <@U2670DYLE> stay tuned - and thank you so much for getting this into a place we could share!",
+        "ts": "1499381202.017854",
+        "reactions": [
+            {
+                "name": "partyparrot",
+                "users": [
+                    "U2H61EJSG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "melissa - ill create a JIRA ticket with the feedback captured in the meeting for you",
+        "ts": "1499381228.025537"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "thank you!",
+        "thread_ts": "1499381263.035935",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U13GPDA1F",
+                "ts": "1499400405.827957"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1499381263.035935"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank YOU!",
+        "thread_ts": "1499381263.035935",
+        "parent_user_id": "U0260V1BX",
+        "ts": "1499400405.827957"
+    }
+]

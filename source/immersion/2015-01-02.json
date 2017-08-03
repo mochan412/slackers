@@ -1,0 +1,254 @@
+[
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Hey hey. We'll have a quick stand up this morning, starting in just a minute.",
+        "ts": "1420221805.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "sorry, didn't see this!",
+        "ts": "1420223104.000003"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "No problem. Marissa is off and running. Take some time to go through the build this morning, if you can. (And if it's okay with Marissa)",
+        "ts": "1420223154.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "yes, <@U02F8TTPU> do you have the all the devices?",
+        "ts": "1420223187.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I have the white one and the black one with a blue sticker",
+        "ts": "1420223212.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "and they both have the latest\/greatest?",
+        "ts": "1420223230.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "only the white one does since I've been developing with it",
+        "ts": "1420223255.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Let me see what shape the black one is in and see if I can load it up... this one may not have the most up-to-date certificate so I may need to do that again",
+        "ts": "1420223276.000009"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Let's hold off on updating the other device.",
+        "ts": "1420223292.000010"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Stay on the white one until you've finished up working on the current issue.",
+        "ts": "1420223319.000011"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "(and I believe the third device is in Ewalds desk.)",
+        "ts": "1420223342.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I think I may have made a fix, I'm just testing swipes and taps a lot to make sure",
+        "ts": "1420223361.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok ill just wait until we're at a stopping point to check it out",
+        "ts": "1420223369.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "sounds good, I'll load up the black one after I've tested a bit more and pushed a merge with the fix.",
+        "ts": "1420223412.000015"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I've swiped through all of them forward and backward several times, tapped to replay multiple times, and entered and exited each demo from the menu... log messages all show that it's playing the effect I think it should. I think I'll commit this and push it out.",
+        "ts": "1420224135.000016"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Nice. Go for it!",
+        "ts": "1420224166.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "And the change definitely explains the behavior... in one spot I declared \"immersionEffect\" in a local scope when I meant to use it globally. Removing that declaration causes it to always use the global immersionEffect, which should be correct.",
+        "ts": "1420224248.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "One of the common pitfalls in JavaScript",
+        "ts": "1420224341.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "<@U02F8TTPU> this looks awesome!!",
+        "ts": "1420226030.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "i am making a few trello cards with some small tweaks. feel free to prioritize however you wish.",
+        "ts": "1420226059.000021"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "<@U0260V1BX>: They are doing final install today. If Immersion comes back with more feedback, we could push a new build with some tweaks.",
+        "ts": "1420226099.000022"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "So, yes, log them in trello for sure! And then if we have the opportunity to push another build we'll sneak those in too.",
+        "ts": "1420226135.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ok cool",
+        "ts": "1420226170.000024"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "And if any of it is critical, let us know ASAP.",
+        "ts": "1420226225.000025"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "The \"TAP TO REPLAY\" text was originally #464646, 32px, Roboto Regular, but I changed it to #C2C2C2 Bold because David B said the text was not legible",
+        "ts": "1420227259.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "ah ok",
+        "ts": "1420227275.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "np",
+        "ts": "1420227275.000028"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I'll make it smaller, though, it definitely feels squeezed (especially on the twitter screen)",
+        "ts": "1420227377.000029"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I finished all the cards in Trello and am pushing a new merge now. Melissa, I put the black watch on your desk, which has the latest build.",
+        "ts": "1420231073.000030"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Cool. I'm not sure if they have done device install yet -- so I'm not sure if these will make it on for the demo. But we can post to basecamp and let them know there are some slight updates, if they want to pull them in.",
+        "ts": "1420231138.000031"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Just did that. I'm off for a lunch break now, but I'll have my phone and will keep an eye on things while I'm out",
+        "ts": "1420231579.000032"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Boom. Thank you!",
+        "ts": "1420231586.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "Do we have time to take 0.5-1 hour after final delivery and have a retrospective about this project? It would be great to talk about what we learned, how we dealt with the many surprises along the way, etc, and see if we can carry that knowledge into future projects.",
+        "ts": "1420237737.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0260V1BX",
+        "text": "+1",
+        "ts": "1420237764.000035"
+    },
+    {
+        "type": "message",
+        "user": "U02918BKW",
+        "text": "yes please - preferred to have the whole team there.",
+        "ts": "1420237867.000036"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "Absolutely. I'll find a time next week that works for everybody.",
+        "ts": "1420237959.000037"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "If you walk up a flight of stairs backwards, with a lit candle, and look in a mirror while grooming your eyebrows and chanting \"birnbaum\" 3x, an apparition might appear and curse you. Be careful.",
+        "ts": "1420266192.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Oh my",
+        "ts": "1420266305.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Guessing the apparition vibrates in very specific ways?",
+        "ts": "1420266342.000004"
+    },
+    {
+        "type": "message",
+        "user": "U02F8TTPU",
+        "text": "I couldn't possibly know if the apparition vibrates... it's strictly forbidden",
+        "ts": "1420266507.000005"
+    },
+    {
+        "type": "message",
+        "user": "U030TQFR3",
+        "text": "I won't sleep for weeks.",
+        "ts": "1420266557.000006"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Ghosts",
+        "ts": "1420266573.000007"
+    }
+]

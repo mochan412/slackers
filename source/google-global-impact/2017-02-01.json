@@ -1,0 +1,348 @@
+[
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<!channel> Taking two steps back and one step forward. Going to work from home and focus on designs for the display - as we are losing Trent for a day. <@U0B9N0HF0> <@U2670DYLE> wondering if we can reschedule CMS chat until later in the day or tomorrow ? I want some time to create a library of examples for ya.",
+        "ts": "1485971427.003400"
+    },
+    {
+        "type": "message",
+        "user": "U2670DYLE",
+        "text": "<@U02F9CXTL> my schedule is open. Just let me know when works",
+        "ts": "1485971471.003401"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02F9CXTL> pinging you on the side",
+        "edited": {
+            "user": "U0ML49XU0",
+            "ts": "1485971484.000000"
+        },
+        "ts": "1485971479.003402"
+    },
+    {
+        "type": "message",
+        "user": "U02F9CXTL",
+        "text": "<@U2670DYLE> can send over the WIP link?",
+        "ts": "1485972720.003404"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA> <@U0EL0GLEL> <@U0B9N0HF0> <@U2670DYLE> Joel and I were just riffing and ahead of Tuesday’s content entry sprint we need to: \n- Ensure the front end of the CMS accounts for all fields\/is in line with the data model\n- Is wired up to the dB\n- Collects all entries \n- Retrieves all entries in line with final content mapping\n- that URL is accessible to the Google team\n\nWe’ll want to test this between today and Monday.  Can ya let me know the plan?",
+        "ts": "1485977500.003405"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<@U0HP6TFNX> Megan has accounted for all the changes to the data model in her synthesis. Next step is to update the content archetype to reflect those changes ---&gt; <@U0EL0GLEL> to then update db based on updated content archetype---&gt; <@U2670DYLE> to update CMS fields to reflect all the db fields ----&gt; <@U0XJFPSRL> to provide John with UX instructions for CMS fields---&gt;<@U02F9CXTL> to provide CMS look and feel examples ---&gt; <@U2670DYLE> to update CMS UX based on those inputs--&gt; Once complete, open CMS to testing",
+        "ts": "1485979112.003406"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "We then have 2 holds for the content partner walk thru next week. During those times, we can either A.) Walk thru CMS with partners and record for those unable to attend B.) Record a tutorial and share out with content partners",
+        "ts": "1485979165.003407"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<@U0EL0GLEL> Do we have a Google sheet template that we are going to ask them to input there chart data into?",
+        "ts": "1485979268.003408"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Chart entry will be simply 2 column sheet, column one is the label or the y axis, and column 2 is the value or the x axis",
+        "ts": "1485980481.003409"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "What about chart labels? and or chart data?",
+        "ts": "1485980524.003410"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Scratch that last question.",
+        "ts": "1485980688.003413"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Where do I put the labels for all of the X values. For ex. if A is X-axis and B is Y-axis and X axis is months and Y axis is \"height\", how do I label those axis? Just in A1 and B1?",
+        "edited": {
+            "user": "U0B9N0HF0",
+            "ts": "1485980812.000000"
+        },
+        "ts": "1485980761.003414"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "would need to broaden the columns used then, look at the examples <https:\/\/developers.google.com\/chart\/interactive\/docs\/gallery\/barchart> all the data set is an array, that maps exactly as how the data comes from sheets.",
+        "ts": "1485983317.003416"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "so like this example",
+        "ts": "1485983332.003417"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0EL0GLEL|peter.bliss> uploaded a file: <https:\/\/uncorked.slack.com\/files\/peter.bliss\/F40BH4UAJ\/-.txt|Untitled>",
+        "file": {
+            "id": "F40BH4UAJ",
+            "created": 1485983339,
+            "timestamp": 1485983339,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U0EL0GLEL",
+            "editable": true,
+            "size": 329,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F40BH4UAJ\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F40BH4UAJ\/download\/-.txt?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "permalink": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F40BH4UAJ\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F40BH4UAJ-becffd5139",
+            "edit_link": "https:\/\/uncorked.slack.com\/files\/peter.bliss\/F40BH4UAJ\/-.txt\/edit",
+            "preview": " var data = google.visualization.arrayToDataTable([\r\n         ['Element', 'Density', { role: 'style' }, { role: 'annotation' } ],\r\n         ['Copper', 8.94, '#b87333', 'Cu' ],\r\n         ['Silver', 10.49, 'silver', 'Ag' ],\r\n         ['Gold', 19.30, 'gold', 'Au' ],\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre> var data = google.visualization.arrayToDataTable([<\/pre><\/div>\n<div><pre>         ['Element', 'Density', { role: 'style' }, { role: 'annotation' } ],<\/pre><\/div>\n<div><pre>         ['Copper', 8.94, '#b87333', 'Cu' ],<\/pre><\/div>\n<div><pre>         ['Silver', 10.49, 'silver', 'Ag' ],<\/pre><\/div>\n<div><pre>         ['Gold', 19.30, 'gold', 'Au' ],<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 7,
+            "lines_more": 2,
+            "preview_is_truncated": false,
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U0EL0GLEL",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "peter.bliss",
+        "bot_id": null,
+        "ts": "1485983340.003418"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "column 1 is y, 2 is x and 3 is color, and 4 is label for the bar",
+        "ts": "1485983385.003419"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "we would probably not expose color option",
+        "ts": "1485983394.003420"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "but we can expose a label column",
+        "ts": "1485983400.003421"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "and this might change per chart type also tho",
+        "ts": "1485983409.003422"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there is no x and y in a pie chart",
+        "ts": "1485983416.003423"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its label and value",
+        "ts": "1485983420.003424"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Yep. So then, we would either want to account for that in the documentation or offer 3 different sheet templates ",
+        "ts": "1485983523.003425"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah something like that",
+        "ts": "1485983631.003426"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the sheets would be owned by a specific account too, that is setup for this purpose, this would be to satisfy permissions requirement that the admin can access the sheet document",
+        "ts": "1485983689.003427"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "<@U2670DYLE> <@U0XJFPSRL> Start of content input documentation <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1MayevPlXoMnVtZQSrgyu3dbgN3yDW03LK8SKVlxyJvM\/edit?usp=sharing>",
+        "ts": "1485984955.003428",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U0XJFPSRL"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0B9N0HF0|rob> shared a file: <https:\/\/uncorked.slack.com\/files\/rob\/F3Z0999UH\/_google_net_contributor__content_guideline|[Google Net Contributor] Content Guideline - INT>",
+        "file": {
+            "id": "F3Z0999UH",
+            "created": 1485980963,
+            "timestamp": 1485980963,
+            "name": "[Google Net Contributor] Content Guideline",
+            "title": "[Google Net Contributor] Content Guideline - INT",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U0B9N0HF0",
+            "editable": false,
+            "size": 1989,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1MayevPlXoMnVtZQSrgyu3dbgN3yDW03LK8SKVlxyJvM\/edit?usp=sharing",
+            "thumb_64": "https:\/\/slack.com\/img\/files\/gdoc_64.v.png",
+            "thumb_360": "https:\/\/slack.com\/img\/files\/gdoc_360.v.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 167,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/rob\/F3Z0999UH\/_google_net_contributor__content_guideline",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": false
+        },
+        "user": "U0B9N0HF0",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "rob",
+        "bot_id": null,
+        "ts": "1485984956.003429"
+    },
+    {
+        "type": "message",
+        "user": "U0XJFPSRL",
+        "text": "<!channel> John and I just sat down and made a quick hit list of the big bucket items still left do complete in the CMS. There are a few outstanding “unknowns” that it would be great to net out on in this channel. Feel free to add or comment in the doc—thanks! <https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1bgPv1XiVLpPqQ1BSAZT5ZNZEwvkD5scnrXVwdwMmGt0\/edit?usp=sharing>",
+        "ts": "1485985925.003431"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U0XJFPSRL|elisecramer> shared a file: <https:\/\/uncorked.slack.com\/files\/elisecramer\/F3Z1NKJF3\/cms_to-do_list|CMS Sprint Decision List>",
+        "file": {
+            "id": "F3Z1NKJF3",
+            "created": 1485985926,
+            "timestamp": 1485985926,
+            "name": "CMS To-Do list",
+            "title": "CMS Sprint Decision List",
+            "mimetype": "application\/vnd.google-apps.document",
+            "filetype": "gdoc",
+            "pretty_type": "GDocs Document",
+            "user": "U0XJFPSRL",
+            "editable": false,
+            "size": 1053,
+            "mode": "external",
+            "is_external": true,
+            "external_type": "gdrive",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/docs.google.com\/a\/uncorkedstudios.com\/document\/d\/1bgPv1XiVLpPqQ1BSAZT5ZNZEwvkD5scnrXVwdwMmGt0\/edit?usp=sharing",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Z1NKJF3-8a7038cb4b\/cms_to-do_list_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Z1NKJF3-8a7038cb4b\/cms_to-do_list_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Z1NKJF3-8a7038cb4b\/cms_to-do_list_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 278,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Z1NKJF3-8a7038cb4b\/cms_to-do_list_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 371,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Z1NKJF3-8a7038cb4b\/cms_to-do_list_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Z1NKJF3-8a7038cb4b\/cms_to-do_list_720.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_720_w": 557,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Z1NKJF3-8a7038cb4b\/cms_to-do_list_800.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1035,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Z1NKJF3-8a7038cb4b\/cms_to-do_list_960.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_960_w": 742,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F3Z1NKJF3-8a7038cb4b\/cms_to-do_list_1024.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_1024_w": 791,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 800,
+            "original_h": 1035,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/elisecramer\/F3Z1NKJF3\/cms_to-do_list",
+            "channels": [
+                "C3C7Z6ECF"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "has_rich_preview": true
+        },
+        "user": "U0XJFPSRL",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "elisecramer",
+        "bot_id": null,
+        "ts": "1485985926.003432"
+    },
+    {
+        "type": "message",
+        "user": "U0HP6TFNX",
+        "text": "Hey all, I'm not feeling well and going to be home this afternoon. Hoping to get a little rest and the get back online. ",
+        "ts": "1485986763.003434"
+    },
+    {
+        "type": "message",
+        "user": "U0265G76F",
+        "text": "Thanks. Feel better Megan",
+        "ts": "1485986889.003435"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Oh no. Yes, please feel better.",
+        "ts": "1485986903.003436"
+    },
+    {
+        "type": "message",
+        "user": "U0B9N0HF0",
+        "text": "Thanks <@U0XJFPSRL> This is really helpful. Went through and added a few comments",
+        "ts": "1485986927.003437"
+    }
+]

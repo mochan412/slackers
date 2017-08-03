@@ -1,0 +1,32 @@
+[
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "yoooo <@U06DFL7BP> \nhad a chat w\/ leia about ASC aliasing. here’s the plan she came up with.\n\nASC wants to have an email landing page at somewhere like `<http:\/\/mobilemuseum.azscience.org|mobilemuseum.azscience.org>` resolve to `<http:\/\/cs.uncorkedstudios.com|cs.uncorkedstudios.com>`\n\nto achieve this they must add a new CNAME resource to their DNS for a new subdomain.\ni imagine they have the option of setting a TTL which they should either leave at the defult for their setup, or set to 1hr.\n\nSo, example:\n```\nalias domain: mobilemuseum\nCNAME: <http:\/\/cs.uncorkedstudios.com|cs.uncorkedstudios.com>\nTTL: default\/1hr\n```\n\n[alias domain being their new subdomain for the landing page]",
+        "ts": "1489103086.160188"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "ok cool!",
+        "ts": "1489103104.162422"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "<@U1S5GKTHQ> correct me if i’m wrong\ni’m new to this stuff",
+        "ts": "1489103109.162979"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’ll forward on, that all sounds right.",
+        "ts": "1489103110.163131"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "thank you",
+        "ts": "1489103113.163392"
+    }
+]

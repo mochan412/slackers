@@ -1,0 +1,194 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Glaze test plan:",
+        "ts": "1417792166.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<https:\/\/www.youtube.com\/watch?v=kP9PZYjVwUo>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "http:\/\/www.youtube.com\/",
+                "title": "IKEA product testing commercial",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=kP9PZYjVwUo",
+                "author_name": "fibri",
+                "author_link": "http:\/\/www.youtube.com\/user\/fibri",
+                "thumb_url": "http:\/\/i.ytimg.com\/vi\/kP9PZYjVwUo\/hqdefault.jpg",
+                "thumb_width": 440,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: IKEA product testing commercial",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"http:\/\/www.youtube.com\/embed\/kP9PZYjVwUo?feature=oembed\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=kP9PZYjVwUo",
+                "id": 1
+            }
+        ],
+        "ts": "1417792167.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "fridge nerds: this is a faster way to capture an image",
+        "ts": "1417810862.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "import time\nimport picamera\nwith picamera.PiCamera() as camera:\n    camera.start_preview()\n    time.sleep(1)\n    camera.capture_sequence([\n        'image1.jpg',\n        ])\n    camera.stop_preview()",
+        "ts": "1417810868.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "root@raspberrypi:\/home\/pi# time python .\/test.py \n\nreal\t0m6.865s\nuser\t0m1.330s\nsys\t0m0.120s\nroot@raspberrypi:\/home\/pi# time python .\/test.py \n\nreal\t0m7.702s\nuser\t0m1.330s\nsys\t0m0.120s\nroot@raspberrypi:\/home\/pi# time python .\/test.py \n\nreal\t0m6.727s\nuser\t0m1.130s\nsys\t0m0.170s\nroot@raspberrypi:\/home\/pi# time python .\/test.py \n\nreal\t0m6.834s\nuser\t0m1.270s\nsys\t0m0.140s\nroot@raspberrypi:\/home\/pi# time python .\/test.py \n\nreal\t0m6.869s\nuser\t0m1.270s\nsys\t0m0.170s\nroot@raspberrypi:\/home\/pi# time python .\/test.py \n\nreal\t0m6.845s\nuser\t0m1.300s\nsys\t0m0.150s\nroot@raspberrypi:\/home\/pi# time python .\/test.py \n\nreal\t0m6.821s\nuser\t0m1.210s\nsys\t0m0.180s",
+        "ts": "1417810877.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "vs.",
+        "ts": "1417810895.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "average capture time is 6.95 seconds, about 1.5 seconds faster than before",
+        "ts": "1417810984.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "there's a 1 second sleep in the python code.. I think to let the voltage settle a bit",
+        "ts": "1417811009.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "there are also savings to be had if you're taking multiple pictures at a time since you warm up the camera once and then capture as fast as you can write to the memory card. For example, I could capture 20 images in 49 seconds. Not sure how useful for us, but thought I should mention",
+        "ts": "1417811102.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "maybe a 0.2 seconds faster when overclocked",
+        "ts": "1417812088.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "(7.276 + 6.669 + 6.687 + 6.566 + 6.631 + 6.684 + 6.527 + 6.664 + 6.642) \/ 9\n6.70511111111111111111",
+        "ts": "1417812088.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "oh oh",
+        "ts": "1417812379.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "raspistill -t 1000 -o test.jpg -n",
+        "ts": "1417812380.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "(4.351 + 4.343 + 4.379 + 4.342 + 4.384 + 4.373 + 4.382 + 4.384 + 4.374 + 4.386 ) \/ 10\n4.36980000000000000000",
+        "ts": "1417812389.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "4.37 seconds average capture time",
+        "ts": "1417812396.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "we should sell tickets to this",
+        "ts": "1417817126.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "we'd have to stabilize both as well",
+        "ts": "1417817355.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026103R3>: you were so excited",
+        "ts": "1417817823.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "only for a moment",
+        "ts": "1417817832.000018"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "here's the corner stand that can be cut out of 1\/8\" white acrylic",
+        "ts": "1417836409.000020"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "mounting holes on larger rectangular plate are for raspberry pi",
+        "ts": "1417836422.000021"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "mounting holes on smaller plate are for camera",
+        "ts": "1417836435.000022"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "designed for a sheet of 1\/16\" to slip in the little hooks and tabs to cover",
+        "ts": "1417836467.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "wow",
+        "ts": "1417836589.000024"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "(I learned me some illustrator)",
+        "ts": "1417836666.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Woo hoo!",
+        "ts": "1417836882.000026"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/img3.wikia.nocookie.net\/__cb20111121223950\/simpsons\/images\/2\/26\/Woo_hoo!_poster.jpg>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/img3.wikia.nocookie.net\/__cb20111121223950\/simpsons\/images\/2\/26\/Woo_hoo!_poster.jpg",
+                "fallback": "200x283px image",
+                "image_url": "http:\/\/img3.wikia.nocookie.net\/__cb20111121223950\/simpsons\/images\/2\/26\/Woo_hoo!_poster.jpg",
+                "image_width": 200,
+                "image_height": 283,
+                "image_bytes": 12561,
+                "id": 1
+            }
+        ],
+        "ts": "1417836882.000027"
+    }
+]

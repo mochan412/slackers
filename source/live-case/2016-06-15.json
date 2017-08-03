@@ -1,0 +1,188 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> `fix_shared_prefsenginechange` needs review + buildz",
+        "ts": "1465996995.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to send the debug build so Bonnie can start testing asap",
+        "ts": "1465997010.000008"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "on it",
+        "ts": "1465998725.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks!",
+        "ts": "1465999047.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Good morning!",
+        "ts": "1465999050.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ah wait",
+        "ts": "1465999258.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0261PCRQ> i just noticed an issue in the prefs change stack",
+        "ts": "1465999270.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "stand by",
+        "ts": "1465999272.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i grabbed the wrong code (i was in a different branch when i did this originally)",
+        "ts": "1465999327.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "pushed.",
+        "ts": "1465999398.000016"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": ":+1: looks good",
+        "ts": "1465999596.000017"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J> you want me to make the builds?",
+        "ts": "1465999609.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "could you? I sent debug already",
+        "ts": "1465999619.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thanks kat, you're my hero",
+        "ts": "1465999624.000020"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "ok. will do",
+        "ts": "1465999626.000021"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I don’t suggest taking out the new analytics, but it looks like they could get more historical data through some analytics we have in there already: “Network Request &gt; Places Tile Download and Save” the labels have Success and Failure",
+        "ts": "1465999770.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh wow",
+        "ts": "1465999782.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i didn't know about that",
+        "ts": "1465999784.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "maybe yank it and send that along with the build?",
+        "ts": "1465999791.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i only knew about the completion time metric, but i dont think that had success\/fail associated with it",
+        "ts": "1465999812.000026"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just noticed it myself",
+        "ts": "1465999901.000027"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "you sure you want me to yank the new metric?",
+        "ts": "1465999906.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i mean, if its counting the same thing",
+        "ts": "1465999945.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "yeah, but the success endpoint was counting the same thing as the timing too",
+        "ts": "1465999962.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m going to leave it in but call out that they may have some metrics already",
+        "ts": "1465999986.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok",
+        "ts": "1466000031.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "thank you",
+        "ts": "1466000033.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "just sent the build.",
+        "ts": "1466000604.000034"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I did not update the release branch, we should do that later, not quite sure what you’ve decided to do with that.",
+        "ts": "1466000627.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'll take care of it",
+        "ts": "1466001016.000036"
+    },
+    {
+        "type": "message",
+        "user": "U13GPDA1F",
+        "text": "thank you guys!!! ",
+        "ts": "1466006058.000037"
+    }
+]

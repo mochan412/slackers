@@ -1,0 +1,112 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/openkinect.org\/wiki\/C%2B%2BOpenCvExample>",
+        "ts": "1414772350.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "also freenect stuff: <http:\/\/openkinect.org\/wiki\/Getting_Started#OS_X>",
+        "ts": "1414772377.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "g++ test.cpp -o circles `pkg-config --cflags --libs opencv` -I\/usr\/local\/include\/libfreenect -I\/usr\/local\/include\/libusb-1.0 -L\/usr\/local\/lib -lfreenect -fPIC -g -Wall `pkg-config --cflags opencv`",
+        "ts": "1414775555.000004"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "A file was shared",
+        "file": null,
+        "upload": false,
+        "ts": "1414775591.000005"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<https:\/\/bitbucket.org\/uncorkedstudios\/luxo.git>",
+        "edited": {
+            "user": "U02E3CRMA",
+            "ts": "1414788639.000000"
+        },
+        "ts": "1414788592.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "looks like this recipe works for getting Kinect working:",
+        "ts": "1414799835.000009"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<http:\/\/eras.readthedocs.org\/en\/latest\/servers\/body_tracker\/doc\/setup.html>",
+        "ts": "1414799837.000010"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "as did this, with some mods and omitting the Nite2 bit:",
+        "ts": "1414799878.000011"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<http:\/\/forrestbao.blogspot.com\/2014\/02\/openni2-nite2-freenect-ubuntu-1304.html>",
+        "ts": "1414799879.000012"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Asus XTION needs a firmware update to work:",
+        "ts": "1414799896.000013"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<http:\/\/reconstructme.net\/2012\/10\/13\/asus-xtion-usb-3-0-hotfix-2\/>",
+        "ts": "1414799896.000014"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Might have hit the mother lode with this one. SoftKinetic is the tech behind the first gen Intel camera (Senz3D) that we have. Turns out they released a Linux SDK and driver which is compatible with our camera.",
+        "ts": "1414806878.000002"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "<http:\/\/www.softkinetic.com\/AboutUs\/NewsEvents\/ArticleView\/tabid\/562\/ArticleId\/263\/language\/en-US\/NEWS-SoftKinetic-Releases-Linux-Ubuntu-Driver-for-DepthSense-Cameras.aspx>",
+        "attachments": [
+            {
+                "service_name": "SoftKinetic",
+                "title": "NEWS: SoftKinetic Releases Linux Ubuntu Driver for DepthSense Cameras",
+                "title_link": "http:\/\/www.softkinetic.com\/AboutUs\/NewsEvents\/ArticleView\/tabid\/562\/ArticleId\/263\/language\/en-US\/NEWS-SoftKinetic-Releases-Linux-Ubuntu-Driver-for-DepthSense-Cameras.aspx",
+                "text": "Linux Developers Can Now Leverage Industry Leading DepthSense Camera Technology from SoftKinetic",
+                "fallback": "SoftKinetic: NEWS: SoftKinetic Releases Linux Ubuntu Driver for DepthSense Cameras",
+                "from_url": "http:\/\/www.softkinetic.com\/AboutUs\/NewsEvents\/ArticleView\/tabid\/562\/ArticleId\/263\/language\/en-US\/NEWS-SoftKinetic-Releases-Linux-Ubuntu-Driver-for-DepthSense-Cameras.aspx",
+                "thumb_url": "http:\/\/www.softkinetic.com\/desktopmodules\/dnnarticle\/icons\/article-icon.png",
+                "thumb_width": 16,
+                "thumb_height": 16,
+                "id": 1
+            }
+        ],
+        "ts": "1414806878.000003"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "Downloading now, will try first-thing on Monday.",
+        "ts": "1414806890.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "OpenNI can see the Asus cam, but can't open. Fix is to push a firmware update for the hardware. Have said firmware now, will update and try. Looks like we should have all 3 depth cams working on Linux by Monday morning.",
+        "ts": "1414807035.000007"
+    }
+]

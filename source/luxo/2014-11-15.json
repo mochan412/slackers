@@ -1,0 +1,32 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<http:\/\/openkinect.org\/wiki\/Imaging_Information>",
+        "ts": "1416038471.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "still not sure about the depthsense map values, but a visual inspection indicates that its the inverse of the kinect? maybe? at any rate, the mouse.py script does an inverse binary threshold on the depth map to get clean edges, then flips that back to get the background image (which works surprisingly well) so since the the DS cam is inverted (optically on the depth map), if you switch the BINARY_INV flag to just BINARY on the thresholding algo then you get basically a thresholded kinect-style output.",
+        "ts": "1416100087.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "So I got the DS cam working with the mouse tracker - sort of",
+        "ts": "1416100098.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the kinect is wider viewing angle so i think there's some issue with the blob detector as well as some minor thresholding issues that I think are tunable",
+        "ts": "1416100135.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to dig into the math a little deeper and see if I can't get a better handle on the mechanisms at play here",
+        "ts": "1416100151.000005"
+    }
+]

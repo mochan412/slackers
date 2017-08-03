@@ -1,0 +1,214 @@
+[
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02688JHZ> the design they sent over for the error state is going to have to be changed so that it works on smaller screens",
+        "ts": "1429301847.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "it’s the same issues as the onboarding where the type is going to have to be made smaller",
+        "ts": "1429301867.000003"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "also, Phillip mentioned before that it would be a good idea to have some sort of refresh button on that screen and I agree. He saw something like it on one of the Material design pages.",
+        "ts": "1429301899.000004"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "LMK when you see this",
+        "ts": "1429301918.000005"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U02688JHZ> also noticing that this design does not consider landscape mode which is supported throughout the app",
+        "ts": "1429303243.000006"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U0261PCRQ>, I chatted with phillip and those changes sound find to me",
+        "ts": "1429303310.000007"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<@U02AUNA0P>: can you provide a landscape version with the assets\/PSD you have?",
+        "ts": "1429303337.000008"
+    },
+    {
+        "type": "message",
+        "user": "U02AUNA0P",
+        "text": "<@U02688JHZ>, yeah i think so. i can get a start on that design right now",
+        "ts": "1429303774.000009"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m getting an error when trying to retrieve some of the images now: \nYour Google account is not currently enabled for this operation. Please check <https:\/\/code.google.com\/apis\/console\/#:billing> to see if you have a past due balance or if the credit card (or other payment mechanism) on your account is expired. You can find additional information at <https:\/\/developers.google.com\/storage\/docs\/signup>",
+        "attachments": [
+            {
+                "text": "Google Play Developer Console enables developers to easily publish and distribute their applications directly to users of Android-compatible phones.",
+                "fallback": "Google Play Developer Console enables developers to easily publish and distribute their applications directly to users of Android-compatible phones.",
+                "from_url": "https:\/\/code.google.com\/apis\/console\/#:billing",
+                "id": 1
+            }
+        ],
+        "ts": "1429314748.000010"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "<@U026PHQ3J>: <@U02HAJ6JF> ^ any ideas?",
+        "ts": "1429314766.000012"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m looking at the gweb account, but the images might have been on tidy-federation?",
+        "ts": "1429314944.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Shit. Yeah probably on tidy. Let me go add a cc",
+        "ts": "1429314968.000014"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "here’s one of the offending urls: <http:\/\/storage.googleapis.com\/ucs-verycoolmessageimages\/9f5cc5d5a84a17c002588b1677859915.png>",
+        "ts": "1429314987.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "should be back up",
+        "ts": "1429315057.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "but we need to move those to gweb",
+        "ts": "1429315067.000017"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "<!channel>: would love to get a quick check-in.  PlusQA won't need all day on Monday, so if there are a few things we need to wrap up Monday morning, that should be okay. But please let me know your thoughts\/status!",
+        "ts": "1429315093.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026E0ZNR",
+        "text": "Just jotted down a few Q &amp; A entries on that Google doc. That's all I got for today.",
+        "ts": "1429315168.000019"
+    },
+    {
+        "type": "message",
+        "user": "U02HAJ6JF",
+        "text": "old urls migrated from tiny federation",
+        "ts": "1429315199.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "cool! thanks",
+        "ts": "1429315205.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "still offsiting",
+        "ts": "1429315212.000022"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "thanks for fixing that, Evans!",
+        "ts": "1429315219.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I kinda needed it to test my fix, I think the native update page is working now",
+        "ts": "1429315236.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’d like for someone on their end to see it, because the loading is quite a bit different than it was before",
+        "ts": "1429315252.000025"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I do think it looks nicer now though",
+        "ts": "1429315264.000026"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": ":thumbsup:",
+        "ts": "1429315271.000027"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "If you want to send a build so the client can see it before we QA, that would be great. I can send a bit later.",
+        "ts": "1429315291.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’ll try to send you a build before I go home",
+        "ts": "1429315428.000029"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "I’m planning to do some work this weekend. Update the default state and do some more tests on the Skrillex About page.",
+        "ts": "1429315495.000030"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Still waiting on: the link for the gatekeeper screen",
+        "ts": "1429315497.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'll be in office tomorrow at about 11am",
+        "ts": "1429315624.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "also still waiting to hear on the gif front. hopefully if I spend more time on it this weekend, they decide they actually want to use the native version.",
+        "ts": "1429315640.000033"
+    },
+    {
+        "type": "message",
+        "user": "U02688JHZ",
+        "text": "Theyve confirmed that they want to use the native version",
+        "ts": "1429316718.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Tidy might have been deactivated by default when the trial ran out",
+        "ts": "1429317444.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Could someone check please and bring it up if its down",
+        "ts": "1429317456.000036"
+    }
+]

@@ -1,0 +1,373 @@
+[
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Looks like the rule for clustering has a significant effect on the output. I'm running tests now. Seems that we were .7 for distance from a match, but im tuning down to .3 even to require more clustered pixels to match",
+        "ts": "1417914870.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "this might fix the tuna problem",
+        "ts": "1417914874.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and the mayo",
+        "ts": "1417914876.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "definitely fixed the edamame issue",
+        "ts": "1417914886.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Nice!!",
+        "ts": "1417916455.000006"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I don't know what the edamame issue is but it had a nice ring to it ",
+        "ts": "1417916495.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Still working on speed",
+        "ts": "1417916973.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Also .3 is \"overtuned\"",
+        "ts": "1417917098.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "What exactly does that mean?",
+        "ts": "1417917187.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Like we're not getting matches because it requires too many pixels?",
+        "ts": "1417917259.000011"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Dudes.",
+        "ts": "1417921032.000002"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "?",
+        "ts": "1417921105.000003"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "around .5 seems to be extremely good",
+        "ts": "1417921113.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Your new pics are really great, abby",
+        "ts": "1417921126.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Woo Hoo!!",
+        "ts": "1417921183.000006"
+    },
+    {
+        "type": "message",
+        "user": "USLACKBOT",
+        "text": "<http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg>",
+        "attachments": [
+            {
+                "from_url": "http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg",
+                "fallback": "788x500px image",
+                "image_url": "http:\/\/www.recreateweb.com.au\/wp-content\/uploads\/2014\/02\/homer-computer-woohoo.jpg",
+                "image_width": 788,
+                "image_height": 500,
+                "image_bytes": 108184,
+                "id": 1
+            }
+        ],
+        "ts": "1417921183.000007"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it will need more real-world testing",
+        "ts": "1417921219.000009"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Cool, happy to help there ",
+        "ts": "1417921243.000010"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "shelf 1:",
+        "ts": "1417921247.000012"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "holiday coke\nhoneymustard\nmilk\nmustard\nvanilla milk",
+        "ts": "1417921250.000013"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "shelf 2:",
+        "ts": "1417921256.000014"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "apple sauce\ndill pickles\ngrape jelly\nspam",
+        "ts": "1417921258.000015"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "shelf 3:",
+        "ts": "1417921265.000016"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "butter\ncreamcheese\nedamame\nmushroom soup\nsalsa",
+        "ts": "1417921266.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I'm going to mess with the flann trees to see if I can do anything about the stuff on the edges",
+        "ts": "1417921292.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Awesome, that's pretty good",
+        "ts": "1417921318.000019"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yea that skewed silk didn't get picked up huh ",
+        "ts": "1417921326.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "right.",
+        "ts": "1417921332.000021"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "and the damn hotdogs still",
+        "ts": "1417921337.000022"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i don't get it",
+        "ts": "1417921338.000023"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Haha hot dogs just made the cut list ",
+        "ts": "1417921390.000024"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I think the list above just became our baseline object list ",
+        "ts": "1417921408.000025"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "nice",
+        "ts": "1417921413.000026"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "I wish we got yogurt in shelf 2",
+        "ts": "1417921449.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i'm running it again",
+        "ts": "1417921467.000028"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "there's something around the distance, as well as the value of drift it is permitted before something seems \"linear\"",
+        "ts": "1417921492.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the edge blur matters is what i'm getting at",
+        "ts": "1417921507.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yea damn ",
+        "ts": "1417921514.000031"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "well",
+        "ts": "1417921526.000032"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "it might actually help to run the matcher against the pre-debarrel",
+        "ts": "1417921540.000033"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Also, wtf is up with limes? Same as the lemon",
+        "ts": "1417921546.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think we need a really really closeup shot of the lime and\/or lemon",
+        "ts": "1417921568.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "IN the fridge",
+        "ts": "1417921572.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i think the LED light shifts it funny",
+        "ts": "1417921590.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "plus again, blur",
+        "ts": "1417921594.000038"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "i can check image by image now",
+        "ts": "1417921610.000039"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Cool, I can definitely take pictures of it in the fridge. Let me know if there are others like that ",
+        "ts": "1417921671.000040"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im confused by the new tuna",
+        "ts": "1417921685.000041"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "im also preserving the index image that it thinks it matches",
+        "ts": "1417921714.000042"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "so we can go double check if we get a false positive",
+        "ts": "1417921721.000043"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Yea the tuna is surprising ",
+        "ts": "1417921738.000044"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "its weird. the yogurt",
+        "ts": "1417922063.000045"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "But it didn't have enough matches? Weird, that photo is on point",
+        "ts": "1417922175.000047"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Maybe the lighting? The fridge photo is darker ",
+        "ts": "1417922211.000048"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "There's a lot of reflection on the source image",
+        "ts": "1417922332.000049"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Still spooky.",
+        "ts": "1417922350.000051"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Freaky",
+        "ts": "1417922366.000052"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "oh duh: Note In the case of color images, the decoded images will have the channels stored in B G R order.",
+        "ts": "1417922588.000053"
+    },
+    {
+        "type": "message",
+        "user": "U0261PCRQ",
+        "text": "Of course",
+        "ts": "1417922812.000054"
+    },
+    {
+        "type": "message",
+        "user": "U026103R3",
+        "text": "Oh senap",
+        "ts": "1417927183.000003"
+    }
+]

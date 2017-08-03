@@ -1,0 +1,322 @@
+[
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J>: i’m staying home today – can we get a scott build out w\/ those updated assets today? I know you’re offsite tomorrow",
+        "ts": "1459777628.000004"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "Yes. Which assets? ",
+        "ts": "1459779318.000005"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I assume in trello?",
+        "ts": "1459779334.000006"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "yep - psds are in there, let me know the size you need and i can resize for you",
+        "ts": "1459779472.000007"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/trello.com\/c\/rJtQKDyn\/95-cut-build-with-scott-emoji-keyboard-and-test-assets>",
+        "ts": "1459779495.000008"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "K",
+        "ts": "1459780134.000009"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U0EL0GLEL>: <@U026PHQ3J> can we get the rest of the animations uploaded? I believe <@U0EL0GLEL> has a way to bulk upload",
+        "ts": "1459787676.000010"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "here are the rezipped files <https:\/\/drive.google.com\/a\/uncorkedstudios.com\/folderview?id=0B_KF93Z2YupfN21KSXFuRmM0aWs&amp;usp=sharing>",
+        "ts": "1459787682.000011"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there isnt a bulk method, i was going in and manually pushing one for each day through the admin",
+        "ts": "1459787724.000012"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "oh, gotcha. then i can go in and schedule via the cms?",
+        "ts": "1459787755.000013"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there is some outstanding bug right now i havnt quite figured out, the upload from tidy doenst work yet, I was able to do it via the code running locally tho. I am guessing its permissions. there is a card in trello about it probably something simple but im not familiar so wasnt seeing it.",
+        "ts": "1459787847.000014"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<https:\/\/trello.com\/c\/oSenFVkM\/18-upload-of-wallpaper-files-thru-cms-doesnt-work-but-locally-to-the-cloud-does> ?",
+        "ts": "1459787945.000015"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah",
+        "ts": "1459788064.000016"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "k. <@U026PHQ3J> i wonder if this is related to the routing permission we saw last week",
+        "ts": "1459788135.000017"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "possibly.",
+        "ts": "1459788146.000018"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "I am clearing my afternoon, so <@U0EL0GLEL> plan on helping me get set up with deploying tidy and i can take a look",
+        "ts": "1459788171.000019"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "cool let me know what i can help with",
+        "ts": "1459788263.000020"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "awesome. if you can send me any of the useful links you've maybe gathered about it i can do a bunch of groundwork before i even bother you with it",
+        "ts": "1459788357.000021"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "If I’m understanding the upload, it sound like we may need to look at scheduling as well - i think right now it’s date based for everyone (ie everyone gets the same wallpaper) rather than a schedule based on install date? so we either need to make sure we’re scheduling out in perpetuity of an existing rotation, or modify the method we’re scheduling pushes",
+        "ts": "1459788454.000022"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "i’ll add a card to investigate",
+        "ts": "1459788458.000023"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "hmm it was a while ago when i setup that stuff. will see what I have on it probably have some notes",
+        "ts": "1459788461.000024"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "the scheduling is on a date base, everyone gets the same one based on what is set to be sent down on that date",
+        "ts": "1459788504.000025"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "Yeah – we don’t want to necessarily have to plan out wallpapers in perpetuity though?",
+        "ts": "1459788582.000026"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "for now i will schedule out a few months of pushes",
+        "ts": "1459788680.000027"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0EL0GLEL>: would it be extremely bad for me to try to deploy the `wallpaperrefresh` branch to appengine on tidy",
+        "ts": "1459792938.000028"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "no thats what i have been doing",
+        "ts": "1459792965.000029"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "ok cool",
+        "edited": {
+            "user": "U026PHQ3J",
+            "ts": "1459792971.000000"
+        },
+        "ts": "1459792969.000030"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "gonna try it out",
+        "ts": "1459792973.000032"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "gcloud preview app deploy app.yaml index.yaml cron.yaml",
+        "ts": "1459793001.000033"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "been using this command",
+        "ts": "1459793007.000034"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "<@U0EL0GLEL>: looks like i can deploy with just",
+        "ts": "1459793809.000035"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "`gcloud preview app deploy --bucket <gs:\/\/vm-containers.tidy-federation-859.appspot.com>`",
+        "ts": "1459793811.000036"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "after i pulled the Dockerfile",
+        "ts": "1459793818.000037"
+    },
+    {
+        "type": "message",
+        "user": "U026PHQ3J",
+        "text": "the newest toolchain seems to support it pretty well",
+        "ts": "1459793827.000038"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0XST2J76\/champagne_pop_for_patch.png|champagne_pop_for_patch.png>",
+        "file": {
+            "id": "F0XST2J76",
+            "created": 1459800389,
+            "timestamp": 1459800389,
+            "name": "champagne_pop_for_patch.png",
+            "title": "champagne_pop_for_patch.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 61160,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0XST2J76\/champagne_pop_for_patch.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0XST2J76\/download\/champagne_pop_for_patch.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XST2J76-61b168d1ca\/champagne_pop_for_patch_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XST2J76-61b168d1ca\/champagne_pop_for_patch_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XST2J76-61b168d1ca\/champagne_pop_for_patch_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XST2J76-61b168d1ca\/champagne_pop_for_patch_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XST2J76-61b168d1ca\/champagne_pop_for_patch_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 512,
+            "original_h": 512,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0XST2J76\/champagne_pop_for_patch.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0XST2J76-737411a67a",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1459800391.000039"
+    },
+    {
+        "type": "message",
+        "user": "U06DFL7BP",
+        "text": "<@U026PHQ3J>",
+        "ts": "1459800392.000040"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U06DFL7BP|charlesv> uploaded a file: <https:\/\/uncorked.slack.com\/files\/charlesv\/F0XT3G1T7\/character_for_patch.png|character_for_patch.png>",
+        "file": {
+            "id": "F0XT3G1T7",
+            "created": 1459800391,
+            "timestamp": 1459800391,
+            "name": "character_for_patch.png",
+            "title": "character_for_patch.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U06DFL7BP",
+            "editable": false,
+            "size": 120380,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0XT3G1T7\/character_for_patch.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T0260V1BR-F0XT3G1T7\/download\/character_for_patch.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XT3G1T7-6bbeaff23a\/character_for_patch_64.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XT3G1T7-6bbeaff23a\/character_for_patch_80.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XT3G1T7-6bbeaff23a\/character_for_patch_360.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_360_w": 360,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XT3G1T7-6bbeaff23a\/character_for_patch_480.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "thumb_480_w": 480,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T0260V1BR-F0XT3G1T7-6bbeaff23a\/character_for_patch_160.png?t=xoxe-2204987399-220009572576-220663233794-4d92389b8a",
+            "image_exif_rotation": 1,
+            "original_w": 512,
+            "original_h": 512,
+            "permalink": "https:\/\/uncorked.slack.com\/files\/charlesv\/F0XT3G1T7\/character_for_patch.png",
+            "permalink_public": "https:\/\/slack-files.com\/T0260V1BR-F0XT3G1T7-60b8d091dd",
+            "channels": [
+                "C032B7BAY"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U06DFL7BP",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "charlesv",
+        "bot_id": null,
+        "ts": "1459800393.000041"
+    }
+]

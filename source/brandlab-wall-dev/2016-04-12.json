@@ -1,0 +1,176 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "So here is the info on how the display worked, a custom nvidia resolution setting of 3840x2160 set for the planar displays. so they are putting out 4k. The chrome window is dragged over both displays. then i used a program to kill the windows title bar. Going to either make our own program to do that since i have the source for the program that did that, or use this other one that embeds chrome into a windows form and allows the same thing. The ptz had to be reset after I set the new resolution, looks like it must base its calculations on the current resolution when its set. After resetting the ptz the screen looked perfect. Nice that the solution was actually not complicated. so recreating is pretty easy. When we get the top screens installed there is some really great bezel correction options in the nvidia software that we can use to correct for them.",
+        "ts": "1460483108.000295"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL>: can you complete this card and document here?  <https:\/\/trello.com\/c\/tihztUjX>",
+        "ts": "1460483234.000296"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "that’ll be better for documentation\/reference",
+        "ts": "1460483244.000297"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah, want to make sure everyone at least hears how it was setup, these things like this can be lost if we dont share the knowledge. im going to try and finish up the application that helps with the full screen and launch so that is completely done and we can for certain move forward from this",
+        "ts": "1460483385.000298"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i will complete this little bootstrap app, test and then update documentation with how it all works",
+        "ts": "1460483570.000299"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "this is all really good stuff",
+        "ts": "1460483904.000300"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "are the setting we’re using ‘export able’ so we can easily scale to all 22 screens in pbgh?",
+        "ts": "1460483917.000301"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah totally, the system will be set to use up the available display space that we have setup. we will need to just setup the displays in windows and arrange the segments in the display manager. standard monitor positioning. the display activity will take in a setting that will be set in ugly that says how many displays there are. then the boot strap program launches will open chrome to the display url and expand over all the available displays. it will be able to scale to X",
+        "ts": "1460484085.000302"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "awesome",
+        "ts": "1460484934.000303"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "and thats the state of bootstrap app as of today?",
+        "ts": "1460484944.000304"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "i should have that today, im just finalizing this bootstrap now. my test there showed it would work. I went through another app that was able to do that full screen, im just putting my tests together into this bootstrap now",
+        "ts": "1460485071.000305"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "sick",
+        "ts": "1460485126.000306"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "thats what should go in the trello card, thats good stuff!",
+        "ts": "1460485135.000307"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: when do you hope to get cubby and motor on network?  i ask cuz <@U02F8LF2X> blocked til then.  for now @chewbaca is testing thermal output and designing hwo to easily swap Gs cubby in\/out of wall",
+        "ts": "1460486599.000308"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "let me grab some eats and see if we can get things rolling over lunch",
+        "ts": "1460486860.000309"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "deal.",
+        "ts": "1460486896.000310"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: i’ll le tyou respond to myles.  <@U0EL0GLEL> no need to reply",
+        "ts": "1460487971.000311"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Boot strap app is working on my laptop, need to test on head next",
+        "ts": "1460488041.000312"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U02E3CRMA>: how you doing with netowkring the things?  josh will be done with thermal tests by 2:30",
+        "ts": "1460492473.000313"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "The boot strap app works, went with a very simple route of using chrome that is already installed instead of the framed one. The boot strap app, will simply task a provided url save it locally for future loads. It launched the chrome browser to that url in application mode this removes the address bar. Then it resizes the browser to stretch across all of the available screen resolution. And pins the application to 0,0 and always on top. So nothing can popup in front of the window. Basically making it a full screen chrome window. Skipping the complicated restrictive drivers.",
+        "ts": "1460493293.000314"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Fuck yeah ",
+        "ts": "1460494750.000315"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "<http:\/\/motion.schneider-electric.com\/support\/updates\/?tag=ims-terminal> is the suggesting terminal app to interact with motor",
+        "ts": "1460500098.000316"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "apparently there is an \"A\" register for acceleration",
+        "ts": "1460500107.000317"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "and \"D\" for deceleration",
+        "ts": "1460500118.000318"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "per <http:\/\/motion.schneider-electric.com\/downloads\/manuals\/MCode.pdf#pagemode=bookmarks>",
+        "ts": "1460500124.000319"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "\"PR A\" will read from acceleration",
+        "ts": "1460500139.000320"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "\"A=5000\" would set acceleration to 5000",
+        "ts": "1460500161.000321"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "default is 1000000",
+        "ts": "1460500169.000322"
+    },
+    {
+        "type": "message",
+        "user": "U02F8LF2X",
+        "text": "so I should be able to read what they have it set to and set it to whatever we want. both acceleration and deacceleration",
+        "ts": "1460500211.000323"
+    }
+]

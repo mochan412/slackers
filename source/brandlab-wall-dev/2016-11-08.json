@@ -1,0 +1,200 @@
+[
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "So the basic hello world test works for the showtime setup. but the messaging one doesnt",
+        "ts": "1478629669.000069"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "its complaining the address for the messaging server doesnt respond",
+        "ts": "1478629680.000070"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "showtime.messaging.js:182 WebSocket connection to '<ws:\/\/130.211.197.113:15674\/ws>' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED",
+        "ts": "1478629691.000071"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "It sounded like we should have access to this address for some kind of messaging dashboard too, but the address doesnt respond when hit up thru a browser either.",
+        "ts": "1478629731.000072"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "They had mentioned something about being able to do this in the chat yesterday",
+        "ts": "1478629753.000073"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "still need access to the showtime admin, and figure out why this isnt working too",
+        "ts": "1478629820.000074"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "<@U0EL0GLEL> if we need to kick up requests for access to certian areas, let <@U02E3CRMA> or i know",
+        "ts": "1478631566.000075"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "I requested access on the page for the admin, joel had mentioned they are aware of this. Im not clear how \/ who to tell the messaging thing isnt responding",
+        "ts": "1478631611.000076"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "Michael Lee is our contact there, and Myles is a good CC",
+        "ts": "1478631668.000077"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "I'll reply to Michael now letting him know I can't get in either",
+        "ts": "1478631687.000078"
+    },
+    {
+        "type": "message",
+        "user": "U02E3CRMA",
+        "text": "since we had a thread going",
+        "ts": "1478631693.000079"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "sweet",
+        "ts": "1478631759.000080"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "on the cubby swap with kyle - let’s cull down the recipient or jump on a call if we need ot exchange any more info.  Also, I’ll be onsite so if there’s something I can dig into to learn more, happy to scout for you - just tell me",
+        "ts": "1478632084.000081"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "He is sending me the settings file next, From what he says its all working inside the test, everything is responding. I am not quite sure why the touch wouldnt be forwarding on in the display if it is in the test. But maybe there is something messed up in the settings that are being loaded. So will look at that next.",
+        "ts": "1478632271.000082"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "makes sense.  he loggeda another bug i admittedly dont understand.",
+        "ts": "1478632517.000083"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Oh hmm, i have seen that the participants dissapear too but usually that is just a slow response on the auth from the server and a refresh like he says can fix it. The missing workshop from the list might be that the query for new workshops is excluding the one from today because it is late enough in the day that the request thinks its already passed. and doesnt show that workshop because its old",
+        "ts": "1478632729.000084"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "hm",
+        "ts": "1478632987.000085"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "that actually sounds feasible",
+        "ts": "1478632993.000086"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "must be how the query works on their end. I checked the query we are using, and it is looking from today till a month from now. So on their server it must be cutting off today already in the list, probably because the event would have started at 9 and it sees that as the past already",
+        "ts": "1478633081.000087"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "a fix would be to say check from yesterday till a month from now to prevent that type of occurance",
+        "ts": "1478633100.000088"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "well i’d want to understand the use case a little bit better before we decide on a fix but sounds plausible",
+        "ts": "1478633125.000089"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "yeah",
+        "ts": "1478633144.000090"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "maybe we explain and ask him to try again on future workshop?  if so, we can propose a fix for next sow or something and in mean time if confirmed he’ll know how to work around",
+        "ts": "1478633153.000091"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "there would not be a work around here, the system just wont let him see those workshops. If he wants to change something mid day he is stuck, it wont bring it up right so you cant make any changes.",
+        "ts": "1478633210.000092"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "oh well yeah, thats a certain kind of show stopper",
+        "ts": "1478633288.000093"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "mind progressing this with him, lets get a better understanding",
+        "ts": "1478633302.000094"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "Ok there is one shitty work around",
+        "ts": "1478633498.000095"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "change your system clock back one day, then do the update",
+        "ts": "1478633511.000096"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "that will make the browser use yesterdays date for today and that will let you do that change",
+        "ts": "1478633532.000097"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "good note ot kyle",
+        "ts": "1478634272.000098"
+    },
+    {
+        "type": "message",
+        "user": "U0ML49XU0",
+        "text": "but curious how this just presented itself now - nothing changed on our sige.",
+        "ts": "1478634290.000099"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "he must not have had to edit a workshop mid day before",
+        "ts": "1478634344.000100"
+    },
+    {
+        "type": "message",
+        "user": "U0EL0GLEL",
+        "text": "you wouldnt have ever had this issue if you didnt need to do that, its a very specific case",
+        "ts": "1478634375.000101"
+    }
+]
