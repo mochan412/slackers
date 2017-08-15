@@ -2,11 +2,23 @@ import os
 import json
 
 path =  "source/"
-userfile = "source/users.json"
 
-with open(userfile) as user_file:
-    print user_file
+# get users
+user_file = open("source/users.json", "r")
+user_data = json.load(user_file)
 
+users = {}
+for u in user_data:
+    users[u["id"].encode('ascii','ignore')] = u["name"].encode('ascii','ignore')
+    # print users
+
+def getUsername(userlist, hex):
+    for key, value in userlist.items():
+        if key == hex:
+            return value
+
+
+#get text
 for filename in os.listdir(path):
     if os.path.isdir(path+filename):
         # iterate thru files in subdirectory here
@@ -18,8 +30,11 @@ for filename in os.listdir(path):
                     data = json.load(data_file)
                     for d in data:
                         if  "text" in d and "user" in d:
-                            usr = d["user"]
+                            usr = d["user"].encode('ascii','ignore')
                             str = d["text"].encode('ascii','ignore')
+
+                            username = getUsername(users, usr);
+                            # print username
 
                             eliminate = False
                             phrases = [
@@ -41,7 +56,8 @@ for filename in os.listdir(path):
 
 
                             if not eliminate:
-                                # print d["user"] + ": " + str
-                                # f = open('slack_messages.txt', 'a')
-                                # f.write(d["user"] + ": " + str + "\n")
-                                # f.close()
+                                # print format(username) + ": " + format(str)
+
+                                f = open('slack_messages.txt', 'a')
+                                f.write(d["user"] + ": " + str + "\n")
+                                f.close()
