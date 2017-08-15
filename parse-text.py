@@ -1,7 +1,9 @@
 import os
 import json
 
-path =  'source/'
+path =  "source/"
+userfile = "source/users.json"
+
 for filename in os.listdir(path):
     if os.path.isdir(path+filename):
         # iterate thru files in subdirectory here
@@ -12,27 +14,30 @@ for filename in os.listdir(path):
                 with open(subdir+'/'+jsonfile) as data_file:
                     data = json.load(data_file)
                     for d in data:
-                        str = d["text"].encode('ascii','ignore')
+                        if  "text" in d and "user" in d:
+                            # print "has attr"
+                            str = d["text"].encode('ascii','ignore')
 
-                        eliminate = False
-                        phrases = [
-                            "has left the channel",
-                            "has joined the channel",
-                            "set the channel",
-                            "archived the channel",
-                            "pinned a message to this channel",
-                            "<https://",
-                            "<http://"
-                            ]
-                        for e in phrases[:]:
-                            if e in str:
-                                eliminate = True
-                                break
-                            else:
-                                eliminate = False
+                            eliminate = False
+                            phrases = [
+                                "has left the channel",
+                                "has joined the channel",
+                                "set the channel",
+                                "archived the channel",
+                                "pinned a message to this channel",
+                                "<https://",
+                                "<http://"
+                                ]
 
-                        if not eliminate:
-                            # print str
-                            f = open('slack_messages.txt', 'a')
-                            f.write(str)
-                            f.close()
+                            for e in phrases[:]:
+                                if e in str:
+                                    eliminate = True
+                                    break
+                                else:
+                                    eliminate = False
+
+                            if not eliminate:
+                                # print d["user"] + ": " + str
+                                f = open('slack_messages.txt', 'a')
+                                f.write(d["user"] + ": " + str + "\n")
+                                f.close()
