@@ -4,6 +4,9 @@ import json
 path =  "source/"
 userfile = "source/users.json"
 
+with open(userfile) as user_file:
+    print user_file
+
 for filename in os.listdir(path):
     if os.path.isdir(path+filename):
         # iterate thru files in subdirectory here
@@ -15,7 +18,7 @@ for filename in os.listdir(path):
                     data = json.load(data_file)
                     for d in data:
                         if  "text" in d and "user" in d:
-                            # print "has attr"
+                            usr = d["user"]
                             str = d["text"].encode('ascii','ignore')
 
                             eliminate = False
@@ -36,8 +39,9 @@ for filename in os.listdir(path):
                                 else:
                                     eliminate = False
 
+
                             if not eliminate:
                                 # print d["user"] + ": " + str
-                                f = open('slack_messages.txt', 'a')
-                                f.write(d["user"] + ": " + str + "\n")
-                                f.close()
+                                # f = open('slack_messages.txt', 'a')
+                                # f.write(d["user"] + ": " + str + "\n")
+                                # f.close()
