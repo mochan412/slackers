@@ -59,5 +59,5 @@ for filename in os.listdir(path):
                                 # print format(username) + ": " + format(str)
 
                                 f = open('slack_messages.txt', 'a')
-                                f.write(d["user"] + ": " + str + "\n")
+                                f.write(format(username) + ": " + format(str) + "\n")
                                 f.close()
