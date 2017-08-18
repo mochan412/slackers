@@ -1,5 +1,6 @@
 import os
 import json
+import re
 
 path =  "source/"
 
@@ -12,9 +13,16 @@ for u in user_data:
     users[u["id"].encode('ascii','ignore')] = u["name"].encode('ascii','ignore')
     # print users
 
-def getUsername(userlist, hex):
-    for key, value in userlist.items():
+def getUsername(hex):
+    for key, value in users.items():
         if key == hex:
+            return value
+
+def replaceUsername(match):
+    match = match.group()
+
+    for key, value in users.items():
+        if key == match[2:11]:
             return value
 
 
@@ -33,7 +41,7 @@ for filename in os.listdir(path):
                             usr = d["user"].encode('ascii','ignore')
                             str = d["text"].encode('ascii','ignore')
 
-                            username = getUsername(users, usr);
+                            username = getUsername(usr);
                             # print username
 
                             eliminate = False
@@ -44,8 +52,12 @@ for filename in os.listdir(path):
                                 "archived the channel",
                                 "pinned a message to this channel",
                                 "<https://",
-                                "<http://"
+                                "<http://",
+                                "cleared channel topic"
                                 ]
+
+                            str = re.sub('(\<@.*?\>)', replaceUsername, str)
+                            # print str
 
                             for e in phrases[:]:
                                 if e in str:
